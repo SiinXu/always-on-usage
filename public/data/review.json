@@ -1,0 +1,113 @@
+{
+  "note": "needs_review: out-of-bounds, not published",
+  "items": [
+    {
+      "title": "Bull Desk Webull trading",
+      "source_url": "https://github.com/HammeredSmithy/bull-trade",
+      "source_name": "RongleCat/awesome-grok-bot (GitHub)",
+      "product": "grok-bot",
+      "type": "field-case",
+      "summary": "HyperGrok-style seven-agent trading desk ported to Webull OpenAPI for US users—research, size, approve-by-id execution and review Bots with paper sandbox before live keys.",
+      "usage_notes": null,
+      "author": null,
+      "slug": "bull-desk-webull-trading-116",
+      "needs_review": true
+    },
+    {
+      "title": "Grok meme-desk playbooks",
+      "source_url": "https://github.com/shaharmaimon/grok-meme-desk-playbooks",
+      "source_name": "RongleCat/awesome-grok-bot (GitHub)",
+      "product": "grok-bot",
+      "type": "field-case",
+      "summary": "Public playbooks, signal schema, and box-side scripts for a multi-Bot Grok Bot memecoin research squad that only analyzes and never holds keys.",
+      "usage_notes": null,
+      "author": null,
+      "slug": "grok-meme-desk-playbooks-127",
+      "needs_review": true
+    },
+    {
+      "title": "HyperGrok trading desk setup prompt",
+      "source_url": "https://github.com/L1vsun/GrokBot-Trading-Desk__Setup-Prompt",
+      "source_name": "RongleCat/awesome-grok-bot (GitHub)",
+      "product": "grok-bot",
+      "type": "field-case",
+      "summary": "Paste-ready prompt that has a Grok Bot build a seven-agent paper-trading desk swarm on its cloud computer and open a shared Trading Floor group.",
+      "usage_notes": null,
+      "author": null,
+      "slug": "hypergrok-trading-desk-setup-prompt-130",
+      "needs_review": true
+    },
+    {
+      "title": "GrokBot Board public DeFi directors",
+      "source_url": "https://github.com/thegrokboard/the-grokbot-board",
+      "source_name": "RongleCat/awesome-grok-bot (GitHub)",
+      "product": "grok-bot",
+      "type": "field-case",
+      "summary": "Public build-in-public case of an autonomous AI board of directors of Grok Bots running a Solana DeFi company.",
+      "usage_notes": null,
+      "author": null,
+      "slug": "grokbot-board-public-defi-directors-136",
+      "needs_review": true
+    },
+    {
+      "title": "0xToji: Grok Bot trading agent mints its own meme coin",
+      "source_url": "https://x.com/Yel0_22G/status/2105526443732308021",
+      "source_name": "RongleCat/awesome-grok-bot (GitHub)",
+      "product": "grok-bot",
+      "type": "field-case",
+      "summary": "Field case: a Grok Bot tasked only to trade memecoins autonomously launched its own token (VOXA) and grew a small stack overnight under a risk-review agent.",
+      "usage_notes": null,
+      "author": null,
+      "slug": "0xtoji-grok-bot-trading-agent-mints-its-own-meme-coin-230",
+      "needs_review": true
+    },
+    {
+      "title": "Memecoin Lead Scanner",
+      "source_url": "https://botdirectory.ai/bots/memecoin-lead-scanner/",
+      "source_name": "botdirectory.ai",
+      "product": "grok-bot",
+      "type": "template",
+      "summary": "You find and qualify early Solana memecoin leads without recommending entries. Walk me through connecting Solana data, pump.fun, GMGN, the Telegram channels I choose, and GitHub, then scan continuously for new pools, early liquidity additions, fresh developer deployments, and relevant technical acti",
+      "usage_notes": null,
+      "author": "0xboan",
+      "slug": "memecoin-lead-scanner-675",
+      "needs_review": true
+    },
+    {
+      "title": "Memecoin Position Manager",
+      "source_url": "https://botdirectory.ai/bots/memecoin-position-manager/",
+      "source_name": "botdirectory.ai",
+      "product": "grok-bot",
+      "type": "template",
+      "summary": "You manage my approved Solana memecoin positions after entry. Walk me through connecting my wallet session without sharing a seed phrase or private key, Solana position data, Jupiter or Photon, and Telegram, then check every open position every 15 minutes, monitor stops, targets, trailing levels, sc",
+      "usage_notes": null,
+      "author": "0xboan",
+      "slug": "memecoin-position-manager-676",
+      "needs_review": true
+    },
+    {
+      "title": "Memecoin Risk Gatekeeper",
+      "source_url": "https://botdirectory.ai/bots/memecoin-risk-gatekeeper/",
+      "source_name": "botdirectory.ai",
+      "product": "grok-bot",
+      "type": "template",
+      "summary": "You clear or reject Solana memecoin leads before any order can be staged. Walk me through connecting Solana market data, GMGN, and Telegram, then review each lead for contract-address consistency, liquidity depth and lock duration, developer and top-holder concentration, mint and freeze authority, w",
+      "usage_notes": null,
+      "author": "0xboan",
+      "slug": "memecoin-risk-gatekeeper-677",
+      "needs_review": true
+    },
+    {
+      "title": "Solana Memecoin Trading Desk",
+      "source_url": "https://botdirectory.ai/bots/solana-memecoin-trading-desk/",
+      "source_name": "botdirectory.ai",
+      "product": "grok-bot",
+      "type": "template",
+      "summary": "You run a supervised Solana memecoin trading desk. Walk me through connecting Solana market and wallet tools, pump.fun, GMGN, Jupiter or Photon, and Telegram, then every 12 hours scan newly active pairs and historical token data, reject tokens with excessive developer supply, insufficiently locked l",
+      "usage_notes": null,
+      "author": "0xboan",
+      "slug": "solana-memecoin-trading-desk-678",
+      "needs_review": true
+    }
+  ]
+}

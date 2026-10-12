@@ -1,9 +1,10 @@
 # 常驻用量 Always-on Usage
-> Always-on Agents 的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。评测层，不是模板目录。所有数字为估算方向。
+> Always-on Agents 的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。评测层，不是模板目录。对照与计算器为估算方向；案例为公开条目聚合（974 条）。第 1 期以 Grok Bot 为主，Dots/Muse 公开案例正在补。
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse 对照矩阵
-- /cases/: 踩坑案例
+- /cases/: 公开案例聚合（搜索 + 类型/产品筛选）
+- /sources.html: 来源
 - /calculator.html: 额度风险计算器
 - /about.html: 定位
 
@@ -12,13 +13,977 @@
 - /data/cases.json
 
 ## Cases
-- /cases/six-bots-42-percent.html: 6 个 Bot 一天烧掉 42% 周额度
-- /cases/browser-price-monitor-30min.html: 每 30 分钟浏览器比价，3 天用完一周额度
-- /cases/hourly-digest-to-daily.html: 每小时简报改每日一次，省下约 80% 用量
-- /cases/subagent-fanout-12.html: 一次任务派生 12 个子代理，单次花掉 5% 周额度
-- /cases/inbox-triage-connector.html: 收件箱分拣从浏览器换 Connector，成本降到 1/5
-- /cases/muse-social-schedule.html: Muse 排期 30 条社交内容，额度几乎无感
-- /cases/calendar-poll-5min.html: 日历每 5 分钟轮询，一周 2000+ 次空跑
-- /cases/dots-weekly-report-2-bots.html: 2 个代理协作周报，比 1 个多花 1.8 倍
-- /cases/github-watch-3-repos.html: 盯 3 个 GitHub 仓库：Webhook 比轮询省 95%
-- /cases/login-wall-retry-loop.html: 登录墙重试死循环，一夜烧掉 18% 周额度
+- /cases/immortalwrt-x86-64-qnap-soft-router-built-by-grok-bot-48.html: ImmortalWrt x86/64 QNAP soft-router — built by Grok Bot (field-case) <https://github.com/pengyuw96/immortalwrt-x86-64-qnap>
+- /cases/startupswarm-23-role-grokbot-startup-team-49.html: StartupSwarm — 23-role GrokBot startup team (field-case) <https://github.com/mr-dap-lab/startupswarm>
+- /cases/woodeex-mate-riel-for-grok-build-2026-09-24-50.html: Woodeex matériel for Grok Build (2026-09-24) (field-case) <https://github.com/CodeNoLimits/woodeex-grok-build-2026-09-24>
+- /cases/seambound-grok-build-slot-design-pack-51.html: SEAMBOUND — Grok Build slot design pack (field-case) <https://github.com/12553240Kj/seambound-grok-build-pack>
+- /cases/grok-canvas-mobile-scene-canvas-for-grok-bot-52.html: grok-canvas — mobile scene canvas for Grok Bot (field-case) <https://github.com/JorgeDeArmas/grok-canvas>
+- /cases/airesearch-grokbot-maintained-ai-knowledge-base-53.html: AIResearch — GrokBot-maintained AI knowledge base (field-case) <https://github.com/ProphetEngine/AIResearch>
+- /cases/content-grokbot-kit-v1-0-0-54.html: Content Grokbot kit v1.0.0 (field-case) <https://github.com/xander-using-ai-to-scale/content-grokbot>
+- /cases/kr-etf-lab-grok-bot-handoff-backtest-app-55.html: KR ETF Lab — Grok Bot handoff backtest app (field-case) <https://github.com/aepiros33/kr-etf-lab>
+- /cases/interactive-staff-org-chart-for-a-grok-bot-board-56.html: Interactive staff org chart for a Grok Bot board (field-case) <https://github.com/siriusbontea/grok-bot-task-org>
+- /cases/director-orchestrator-logs-templates-for-grok-bot-57.html: Director orchestrator logs & templates for Grok Bot (field-case) <https://github.com/Ansefe/grok-bot-orquestator>
+- /cases/public-agent-observatory-page-for-a-grok-bot-openclaw-host-58.html: Public agent observatory page for a Grok Bot / OpenClaw host (field-case) <https://github.com/cuthbertnogood/grok-bot-observatory>
+- /cases/orb-teardown-grok-bot-orb-design-study-59.html: ORB//TEARDOWN — Grok Bot orb design study (field-case) <https://github.com/Pitchfork-and-Torch/grok-bot-exploded>
+- /cases/rle-harness-using-xai-grok-build-60.html: RLE harness using xAI Grok Build (field-case) <https://github.com/AppSprout-dev/rle-harness-grok-build>
+- /cases/epochbound-mmo-grok-build-handoff-61.html: EPOCHBOUND MMO Grok Build handoff (field-case) <https://github.com/MetaphyKing/epochbound>
+- /cases/sable-gtm-desk-for-cursor-grok-build-62.html: Sable GTM desk for Cursor / Grok Build (field-case) <https://github.com/thoughtpilot99/sable>
+- /cases/llegadas-tarde-local-late-arrival-pwa-built-with-grok-bot-63.html: llegadas-tarde — local late-arrival PWA built with Grok Bot (field-case) <https://github.com/korckyjals-grok-bot/llegadas-tarde>
+- /cases/mordheim-grok-build-prompts-tactics-game-prompt-series-64.html: mordheim-grok-build-prompts — tactics game prompt series (field-case) <https://github.com/davenpmo/mordheim-grok-build-prompts>
+- /cases/living-icon-mood-reactive-avatars-for-grok-bots-65.html: living-icon — mood-reactive avatars for Grok Bots (field-case) <https://github.com/skiiwa67-collab/living-icon>
+- /cases/fleet-overview-static-grok-bot-fleet-board-66.html: fleet-overview — static Grok Bot fleet board (field-case) <https://github.com/Lennart1970/fleet-overview>
+- /cases/grok-bot-live-study-galaxy-sprint-field-record-67.html: Grok Bot Live Study — Galaxy sprint field record (field-case) <https://github.com/billgaohub/grokbot-live-study>
+- /cases/grok-jev-router-jev-decides-grok-bot-executes-68.html: grok-jev-router — Jev decides, Grok Bot executes (field-case) <https://github.com/colinmcdermott/grok-jev-router>
+- /cases/ship-by-thursday-grok-bot-galaxy-style-scaffold-69.html: Ship by Thursday — Grok Bot Galaxy-style scaffold (field-case) <https://github.com/Phillipcolvin/ship-by-thursday>
+- /cases/grokbot-mocap-live-face-mocap-svg-avatar-70.html: grokbot-mocap — live face mocap SVG avatar (field-case) <https://github.com/NODE-Sudbury/grokbot-mocap>
+- /cases/grok-bot-slides-react-decks-for-official-guides-71.html: Grok Bot Slides — React decks for official guides (field-case) <https://github.com/wmoralesdev/grok-bot-slides>
+- /cases/multi-harness-proof-live-grok-build-coordination-72.html: Multi-Harness Proof — live Grok Build coordination (field-case) <https://github.com/xormania/multi-harness-proof>
+- /cases/gravity-birds-godot-game-built-with-grok-bot-73.html: Gravity Birds — Godot game built with Grok Bot (field-case) <https://github.com/az9713/grokbot-game-dev-demo>
+- /cases/sherwood-fund-desk-grok-bot-template-74.html: Sherwood Fund Desk — Grok Bot template (field-case) <https://github.com/sherwoodagent/grokbot-fund-template>
+- /cases/grok-bot-fiverr-fiverr-sourcing-grok-bot-75.html: grok-bot-fiverr — Fiverr sourcing Grok Bot (field-case) <https://github.com/sea517/grok-bot-fiverr>
+- /cases/eye-of-grok-human-facing-grok-bot-org-map-76.html: Eye of Grok — human-facing Grok Bot org map (field-case) <https://github.com/supe-log/eye-of-grok>
+- /cases/indexx-grok-bot-instagram-saved-wiki-77.html: INDEXX — Grok Bot Instagram Saved wiki (field-case) <https://github.com/NYLLON-SOFTWARE/indexx>
+- /cases/my-working-party-grok-bot-work-canvas-78.html: my-working-party — Grok Bot work canvas (field-case) <https://github.com/kaibairen/my-working-party>
+- /cases/grokbot-jev-jobs-jev-triage-grok-bot-ats-apply-79.html: grokbot-jev-jobs — Jev triage + Grok Bot ATS apply (field-case) <https://github.com/mcgalleg/grokbot-jev-jobs>
+- /cases/sprite-portal-grok-bot-nursery-ui-80.html: Sprite Portal Grok Bot nursery UI (field-case) <https://github.com/hkclaw/sprite-portal>
+- /cases/getdasha-com-lobby-worker-grok-bot-ship-81.html: getdasha.com lobby Worker (Grok Bot ship) (field-case) <https://github.com/Uuriko/dasha-lobby>
+- /cases/grok-bot-3d-mascot-controller-82.html: Grok Bot 3D mascot controller (field-case) <https://github.com/lenxism/grok-bot-mascot-3d>
+- /cases/grok-bot-ai-manhua-pipeline-83.html: Grok Bot AI manhua pipeline (field-case) <https://github.com/wicm84266964/grokbot-ai-manju>
+- /cases/n2parko-cos-em-five-eng-ics-databricks-pm-84.html: n2parko: CoS + EM + five eng ICs + Databricks + PM (field-case) <https://x.com/n2parko/status/2087251704744235298>
+- /cases/lee-robinson-four-technical-bets-85.html: Lee Robinson: four technical bets (field-case) <https://x.com/leerob/status/2089169319099777364>
+- /cases/debbie-book-my-flights-86.html: Debbie: book my flights (field-case) <https://debbie.codes/blog/i-tested-if-grok-bot-could-book-my-flights>
+- /cases/debbie-buy-gluten-free-beer-on-a-sunday-night-87.html: Debbie: buy gluten-free beer on a Sunday night (field-case) <https://debbie.codes/blog/i-sent-grok-bot-to-buy-my-gluten-free-beer>
+- /cases/yun-ta-calendar-reservations-while-walking-88.html: Yun-Ta: calendar + reservations while walking (field-case) <https://x.com/yunta_tsai/status/2087415205756391461>
+- /cases/gota-twelve-jobs-on-one-roster-89.html: Gota: twelve jobs on one roster (field-case) <https://x.com/gota_bara/status/2087666940450152841>
+- /cases/wordpress-updates-taught-once-90.html: WordPress updates taught once (field-case) <https://x.com/mrfundman/status/2089760255890571404>
+- /cases/arduino-updates-from-a-bot-91.html: Arduino updates from a Bot (field-case) <https://x.com/KettlebellDan/status/2089920364419874937>
+- /cases/24-7-support-agent-in-19-minutes-92.html: 24/7 support agent in 19 minutes (field-case) <https://www.youtube.com/watch?v=bUALqTpUze0>
+- /cases/farzad-roster-webby-shotry-writey-93.html: Farzad roster: Webby / Shotry / Writey (field-case) <https://x.com/farzyness/status/2087340859138224540>
+- /cases/sid-polymarket-daily-settlement-brief-94.html: Sid: Polymarket daily settlement brief (field-case) <https://x.com/sidshekhar24/status/2089735218861326727>
+- /cases/logan-the-unlock-is-the-computer-not-4-6-95.html: Logan: the unlock is the computer, not 4.6 (field-case) <https://x.com/LoganJastremski/status/2089903051557491092>
+- /cases/japanese-note-group-cloud-computer-field-notes-96.html: Japanese note group: cloud-computer field notes (field-case) <https://note.com/azumimusuhi/n/n0485219790bb>
+- /cases/peter-yang-marie-kondo-declutter-bot-97.html: Peter Yang: Marie Kondo declutter Bot (field-case) <https://x.com/petergyang/status/2089724101070086482>
+- /cases/gergely-orosz-stripe-support-refunds-98.html: Gergely Orosz: Stripe support refunds (field-case) <https://x.com/GergelyOrosz/status/2090085668768694562>
+- /cases/mike-p-90-000-email-purge-99.html: Mike P: 90,000-email purge (field-case) <https://x.com/mikepat711/status/2089879632929554498>
+- /cases/yun-ta-text-a-matic-vacuum-from-grok-bot-100.html: Yun-Ta: text a Matic vacuum from Grok Bot (field-case) <https://x.com/yunta_tsai/status/2089223114416898288>
+- /cases/wayne-sutton-site-domain-and-cloudflare-in-two-phone-prompts-101.html: Wayne Sutton: site, domain, and Cloudflare in two phone prompts (field-case) <https://x.com/waynesutton/status/2088416215203295346>
+- /cases/danny-limanseta-74-game-art-assets-in-two-hours-102.html: Danny Limanseta: 74 game art assets in two hours (field-case) <https://x.com/DannyLimanseta/status/2087228218797617404>
+- /cases/jon-oneill-plumbing-shop-office-manager-103.html: Jon ONeill: plumbing-shop office manager (field-case) <https://x.com/HouseHackerJon/status/2087635639701573962>
+- /cases/ben-lang-internal-grok-bot-job-list-104.html: Ben Lang: internal Grok Bot job list (field-case) <https://x.com/benln/status/2087929147406299313>
+- /cases/gavin-baker-podcast-summarizer-in-15-seconds-105.html: Gavin Baker: podcast summarizer in 15 seconds (field-case) <https://x.com/GavinSBaker/status/2089379355692527813>
+- /cases/krista-letz-grok-bot-for-enterprise-gtm-106.html: Krista Letz: Grok Bot for enterprise GTM (field-case) <https://x.com/kristaletz/status/2089103618121314689>
+- /cases/peter-yang-commander-keen-on-the-cloud-computer-107.html: Peter Yang: Commander Keen on the cloud computer (field-case) <https://x.com/petergyang/status/2089502606079197347>
+- /cases/kiara-bot-sits-in-on-a-missed-meeting-108.html: Kiara: Bot sits in on a missed meeting (field-case) <https://x.com/kiaraplds/status/2088321112073547835>
+- /cases/kettlebelldan-arduino-led-stock-ticker-109.html: KettlebellDan: Arduino LED stock ticker (field-case) <https://x.com/KettlebellDan/status/2089387837204693202>
+- /cases/darian-shirazi-chase-five-merchant-refunds-110.html: Darian Shirazi: chase five merchant refunds (field-case) <https://x.com/darian314/status/2089381004524093752>
+- /cases/grokularity-a-company-run-by-grok-bots-111.html: Grokularity: a company run by Grok Bots (field-case) <https://grokularity.xyz>
+- /cases/signal-outbound-grok-bot-112.html: Signal outbound Grok Bot (field-case) <https://github.com/thoughtpilot99/signal-outbound-grok-bot>
+- /cases/grok-bot-fund-113.html: Grok-Bot-Fund (field-case) <https://github.com/jjregier/Grok-Bot-Fund>
+- /cases/exploregrokbot-market-desk-114.html: ExploreGrokBot market desk (field-case) <https://github.com/WebDevJasonCameron/ExploreGrokBot>
+- /cases/build-brief-grok-build-desk-115.html: build-brief Grok Build desk (field-case) <https://github.com/mtrxdev/build-brief>
+- /cases/growth-grok-bots-self-serve-team-117.html: Growth Grok Bots self-serve team (field-case) <https://github.com/jay-sahnan/growth-grok-bots>
+- /cases/grok-bot-market-memory-pack-118.html: Grok Bot Market Memory pack (field-case) <https://github.com/palehonk0-o/grokbot-market-memory>
+- /cases/grok-bot-fleet-public-packets-119.html: Grok Bot fleet public packets (field-case) <https://github.com/Logos52/grok-bot-packets>
+- /cases/per-bot-durable-knowledge-log-120.html: Per-bot durable knowledge log (field-case) <https://github.com/jblack4vols/grok-bot>
+- /cases/uitm-calendar-grok-bot-mcp-121.html: UiTM calendar Grok Bot + MCP (field-case) <https://github.com/bilauitmcuti/bot>
+- /cases/startup-services-outbound-gtm-template-122.html: Startup services outbound GTM template (field-case) <https://github.com/danielvegac/grok-bot-startup-services-outbound>
+- /cases/echo-chief-of-staff-decisions-log-123.html: Echo chief-of-staff decisions log (field-case) <https://github.com/WeSs1982/echo-chief-of-staff>
+- /cases/botify-shareable-grok-bot-templates-124.html: botify shareable Grok Bot templates (field-case) <https://github.com/p10ns11y/botify>
+- /cases/supergrok-heavy-policy-denied-evidence-hub-125.html: SuperGrok Heavy policy_denied evidence hub (field-case) <https://github.com/COOLak/cursor-grok-bot-policy-denied>
+- /cases/umich-course-planner-grok-bot-team-126.html: UMich course planner Grok Bot team (field-case) <https://github.com/Domross3/umich-course-planner>
+- /cases/real-world-agents-org-chart-128.html: Real World Agents org chart (field-case) <https://github.com/pyco404/-real-world-agents>
+- /cases/daily-diff-news-site-by-grok-bot-129.html: Daily Diff news site by Grok Bot (field-case) <https://github.com/indrayam/samachar>
+- /cases/termpilot-student-life-grok-bot-tower-131.html: TermPilot student-life Grok Bot tower (field-case) <https://github.com/FrankAsanteVanLaarhoven/TermPilot>
+- /cases/termwise-syllabus-grok-bot-web-app-132.html: Termwise syllabus Grok Bot + web app (field-case) <https://github.com/chhaviiiii/termwise>
+- /cases/sanitized-multi-bot-fleet-export-133.html: Sanitized multi-Bot fleet export (field-case) <https://github.com/ofs100private/GrokBot>
+- /cases/relay-job-search-workspace-grokcell-134.html: Relay job-search workspace + GrokCell (field-case) <https://github.com/SyberLabs/relay>
+- /cases/canvas-student-assistant-grok-bot-135.html: Canvas student assistant Grok Bot (field-case) <https://github.com/ndunl075/grok-bot---cursor-hackathon>
+- /cases/buying-signal-bot-grok-bot-fullenrich-137.html: Buying Signal Bot (Grok Bot + FullEnrich) (field-case) <https://github.com/ToolMonsters/buying-signal-bot>
+- /cases/hedge-fund-desk-grok-bot-agent-export-138.html: Hedge-fund desk Grok Bot agent export (field-case) <https://github.com/prosmoon-hash/hedge-fund-agents>
+- /cases/vidya-course-page-calendar-grok-bot-139.html: vidya course-page calendar Grok Bot (field-case) <https://github.com/vinilpolepalli/vidya>
+- /cases/grokbot-scheduler-seat-watcher-140.html: GrokBot-Scheduler (seat watcher) (field-case) <https://github.com/TheHelperVariable/GrokBot-Scheduler>
+- /cases/recourse-academic-case-engine-student-build-141.html: Recourse academic case engine (Student Build) (field-case) <https://github.com/moizk12/RECOURSE-Grokbot>
+- /cases/grok-bot-architecture-public-council-142.html: GROK BOT ARCHITECTURE (public council) (field-case) <https://github.com/monokernn/Grok_Bot_Architecture>
+- /cases/star-goat-grok-bot-storm-polymarket-desk-143.html: Star Goat Grok Bot Storm (Polymarket desk) (field-case) <https://github.com/stevengray8-glitch/star-goat-grok-bot-storm>
+- /cases/casa-kattegat-perps-desk-polymarket-144.html: Casa/Kattegat Perps desk (Polymarket) (field-case) <https://github.com/ckel0325/casa-perps-desk>
+- /cases/waymarker-student-tutor-grok-bot-rag-145.html: WayMarker student tutor (Grok Bot + RAG) (field-case) <https://github.com/DanielZ0217/WayMarker>
+- /cases/cutezinemaker-hawaii-tech-week-grok-bot-146.html: CuteZineMaker (Hawaii Tech Week × Grok Bot) (field-case) <https://github.com/TheGiraffe/CuteCursorProjects>
+- /cases/household-grok-bot-swarm-writeup-147.html: Household Grok Bot swarm writeup (field-case) <https://github.com/ylgibby/grokbot-household-swarm>
+- /cases/manila-hackathon-builder-5-bot-ship-kit-148.html: Manila Hackathon Builder (5-Bot ship kit) (field-case) <https://github.com/Iron-Mark/Hackathon-Builder-Grok_Bot>
+- /cases/cape-fear-grok-bot-lead-gen-desk-149.html: Cape Fear Grok Bot lead-gen desk (field-case) <https://github.com/altiracompany/grokbot-cape-fear>
+- /cases/folio3-grounded-marketing-desk-pack-150.html: Folio3 grounded marketing desk pack (field-case) <https://github.com/mhasnainr/folio3-grounded-desk>
+- /cases/real-world-agents-org-chart-ridarketh-151.html: Real World Agents org chart (Ridarketh) (field-case) <https://github.com/Ridarketh/-real-world-agents>
+- /cases/signal-outbound-grok-bot-desk-152.html: Signal outbound Grok Bot desk (field-case) <https://github.com/nifinet/signal-outbound-grok-bot>
+- /cases/grok-bot-one-job-starter-personas-153.html: Grok Bot one-job starter personas (field-case) <https://github.com/SigiBaes/grok-bot-starter-pack>
+- /cases/cybertruck-nine-agent-grok-bot-desk-154.html: Cybertruck nine-agent Grok Bot desk (field-case) <https://github.com/ScottyBeam/grokbot-cybertruck>
+- /cases/warsaw-smb-sales-lead-inbox-desk-155.html: Warsaw SMB sales lead inbox desk (field-case) <https://github.com/spicefiendd/sales-lead-inbox>
+- /cases/50-grok-bot-self-revenue-fleet-playbooks-156.html: 50 Grok Bot self-revenue fleet playbooks (field-case) <https://github.com/AgentMindCloud/Grokbot-Autonomous-Revenue>
+- /cases/ledger-freshbooks-mvp-by-grok-bot-157.html: Ledger FreshBooks MVP by Grok Bot (field-case) <https://github.com/rohitgarewal-code/ledger>
+- /cases/grok-bot-marketvector-ftse-flow-desk-158.html: Grok Bot MarketVector / FTSE flow desk (field-case) <https://github.com/daaaarcy/grokbot>
+- /cases/eac-multi-bot-overwatch-workspace-159.html: EAC multi-bot Overwatch workspace (field-case) <https://github.com/camav2/eac-grok-bot>
+- /cases/equity-data-model-poc-built-with-grok-bot-160.html: Equity data model POC built with Grok Bot (field-case) <https://github.com/qaz027/equity-data-model-poc>
+- /cases/sealed-lego-hunter-grok-bot-161.html: Sealed LEGO Hunter Grok Bot (field-case) <https://github.com/noam99moyal/Sealed_LEGO_Hunter_Bot>
+- /cases/agent-daily-grok-bot-message-archive-162.html: agent-daily Grok Bot message archive (field-case) <https://github.com/skyiimaple/agent-daily>
+- /cases/dark-factory-cursor-handoff-for-grok-bot-163.html: dark-factory cursor-handoff for Grok Bot (field-case) <https://github.com/Dahhrk/dark-factory>
+- /cases/cybersecurity-acbn-grok-bot-poc-164.html: Cybersecurity ACBN Grok Bot PoC (field-case) <https://github.com/saiyellanki/grokbot>
+- /cases/itsm-dep-graph-grok-bot-board-tooling-165.html: ITSM dep-graph Grok Bot board tooling (field-case) <https://github.com/skbergam/itsm-dep-graph>
+- /cases/aura-2-grok-bot-design-approver-166.html: Aura 2 Grok Bot design approver (field-case) <https://github.com/chromewizard/Aura-2>
+- /cases/grok-oracle-persona-resident-on-grok-bot-machine-167.html: Grok Oracle persona resident on Grok Bot machine (field-case) <https://github.com/mozzquito/grok-oracle>
+- /cases/personal-config-grok-bot-pr-desk-field-writeup-168.html: personal-config Grok Bot PR Desk field writeup (field-case) <https://github.com/abhimehro/personal-config>
+- /cases/grok-bot-austin-gtm-badge-booth-phomemo-m110-169.html: Grok Bot Austin GTM badge booth (Phomemo M110) (field-case) <https://github.com/mehh/grokbot-austin>
+- /cases/sable-hq-command-surface-for-a-roster-of-grok-bots-170.html: SABLE HQ command surface for a roster of Grok bots (field-case) <https://github.com/lensleyluan001-create/sable-hq>
+- /cases/weather-channel-factory-on-grok-bot-debian-171.html: Weather channel factory on Grok Bot Debian (field-case) <https://github.com/techfundoffice/cloud-weather-bot-grok>
+- /cases/asml-factory-showcase-with-grok-bot-lasercode-172.html: ASML factory showcase with Grok Bot+lasercode (field-case) <https://github.com/gtmsko46-debug/asml-factory-showcase>
+- /cases/ars-paperspine-sync-kit-for-grok-bot-box-173.html: ARS + PaperSpine sync kit for Grok Bot box (field-case) <https://github.com/Aenchanteda/ARS-Paperspine-transfered-by-Grok-Bot>
+- /cases/fomo-copy-trading-grok-bot-with-paper-live-modes-174.html: FOMO copy-trading Grok Bot with paper/live modes (field-case) <https://github.com/noam99moyal/fomo-live-bot>
+- /cases/job-search-coverage-log-maintained-by-a-grok-bot-175.html: Job-search coverage log maintained by a Grok Bot (field-case) <https://github.com/duvida13/GROK-BOT>
+- /cases/dated-case-log-console-demo-for-grok-bot-computer-use-176.html: Dated case-log console demo for Grok Bot computer-use (field-case) <https://github.com/liam-morrissy-cursor/jh-case-console-demo>
+- /cases/ai-influencer-agency-pack-for-grok-bot-177.html: AI Influencer Agency pack for Grok Bot (field-case) <https://github.com/inkboundnightdesk/ai-influencer-agency>
+- /cases/overnight-six-bot-grok-bot-visual-crew-178.html: Overnight six-bot Grok Bot visual crew (field-case) <https://github.com/Archive228/overnight>
+- /cases/grok-bot-executive-branch-cabinet-demo-179.html: Grok Bot Executive Branch cabinet demo (field-case) <https://github.com/theSethian/grok-executive-branch>
+- /cases/kaspa-archival-node-via-one-grok-bot-prompt-180.html: Kaspa archival node via one Grok Bot prompt (field-case) <https://github.com/STP-KAS/Xai.Kaspa.node>
+- /cases/pokebot-field-guide-for-grok-bot-rosters-181.html: PokeBot Field Guide for Grok Bot rosters (field-case) <https://github.com/Pitchfork-and-Torch/pokebot>
+- /cases/countershift-parallel-grok-bot-galaxy-72h-desk-182.html: COUNTERSHIFT — parallel Grok Bot Galaxy 72h desk (field-case) <https://github.com/ThePeoplesVoice/countershift>
+- /cases/poly-formula-belgrade-grok-bot-hackathon-racer-183.html: Poly Formula — Belgrade Grok Bot Hackathon racer (field-case) <https://github.com/peckz/poly-formula>
+- /cases/circleback-pets-vs-bots-grok-bot-serbia-hackathon-game-184.html: Circleback — Pets vs Bots Grok Bot Serbia hackathon game (field-case) <https://github.com/aleksicmarija/circleback>
+- /cases/scam-drill-grok-bot-hackathon-voice-practice-app-185.html: Scam Drill — Grok Bot hackathon voice practice app (field-case) <https://github.com/w4jo/grok-bot-hackathon>
+- /cases/late-one-minute-grok-bot-grok-build-game-case-186.html: Late One Minute — Grok Bot × Grok Build game case (field-case) <https://github.com/parize670/late-one-minute>
+- /cases/baloto-analyst-grok-bot-lottery-desk-colombia-187.html: Baloto Analyst — Grok Bot lottery desk (Colombia) (field-case) <https://github.com/jescandonp/baloto-grok-bot>
+- /cases/grokbot-game-a-week-weekly-browser-games-bot-skills-188.html: grokbot-game-a-week — weekly browser games + Bot skills (field-case) <https://github.com/ababa831/grokbot-game-a-week>
+- /cases/agent-pipeline-grok-bot-role-task-to-delivery-kit-189.html: Agent Pipeline — Grok Bot role task-to-delivery kit (field-case) <https://github.com/Wassimyounes01/agent-pipeline>
+- /cases/xrpl-neon-ledger-hud-built-for-grok-build-190.html: XRPL neon ledger HUD built for Grok Build (field-case) <https://github.com/xrpshine/xrpl-neon-ledger>
+- /cases/fantasy-shipping-roro-career-sim-grok-build-191.html: Fantasy Shipping — RoRo career sim (Grok Build) (field-case) <https://github.com/1337sandvika/fantasy-shipping>
+- /cases/cartscope-golf-cart-diagnostics-app-grok-build-192.html: CartScope — golf-cart diagnostics app (Grok Build) (field-case) <https://github.com/NGC4160/CartScope>
+- /cases/rdr2-interactive-map-grok-build-next-js-193.html: RDR2 interactive map (Grok Build / Next.js) (field-case) <https://github.com/patreiCH72/rdr2-interactive-map>
+- /cases/taskpad-physical-pad-with-experimental-grok-bot-adapter-194.html: TaskPad — physical pad with experimental Grok Bot adapter (field-case) <https://github.com/DNTOF/TaskPad>
+- /cases/boteducation-lms-with-grok-professors-over-mcp-195.html: BotEducation — LMS with Grok professors over MCP (field-case) <https://github.com/MrF1ow/boteducation>
+- /cases/scplay-starcraft-ii-sparring-for-grok-bot-196.html: SCPlay — StarCraft II sparring for Grok Bot (field-case) <https://github.com/EdwinKestler/scplay-grok-bot>
+- /cases/video-maker-remotion-render-desk-for-grok-bot-specs-197.html: video-maker — Remotion render desk for Grok Bot specs (field-case) <https://github.com/DenisMSouza/video-maker>
+- /cases/grokbot-meetup-slides-daily-assistant-team-198.html: GrokBot meetup slides — daily assistant team (field-case) <https://github.com/FunkyTaff/grokbot-meetup>
+- /cases/grok-bot-meetup-wall-mendoza-199.html: Grok Bot Meetup wall — Mendoza (field-case) <https://github.com/MatiasBoldrini/grok-bot-meetup>
+- /cases/amv-company-proposal-on-grok-bot-live-200.html: AMV company proposal on Grok Bot Live (field-case) <https://github.com/littletechbird/amv-grokbot-company-proposal>
+- /cases/kaspa-node-density-test-on-one-grok-bot-box-201.html: Kaspa node density test on one Grok Bot box (field-case) <https://github.com/STP-KAS/Xai.mainnet.public.nodes>
+- /cases/grok-weekly-grok-bot-tech-trend-issues-202.html: grok-weekly — Grok Bot tech-trend Issues (field-case) <https://github.com/kurotanshi/grok-weekly>
+- /cases/finbot-ibm-screener-webhooking-grok-bot-203.html: finbot — IBM screener webhooking Grok Bot (field-case) <https://github.com/jtaroreh/finbot>
+- /cases/openscad-print-loop-with-grok-bot-build-204.html: OpenSCAD print loop with Grok Bot + Build (field-case) <https://github.com/leaf1644/OpensCAD-viewer>
+- /cases/bmo-grok-bot-seat-export-cos-profile-skills-205.html: BMO — Grok Bot seat export (CoS profile + skills) (field-case) <https://github.com/owenezra/BMO>
+- /cases/half-x-grok-bot-feature-request-board-prototype-206.html: Half X — Grok Bot feature-request board prototype (field-case) <https://github.com/ojotapcosta/grok-bot-requests>
+- /cases/grok-secretary-secretary-agents-md-for-grok-bot-207.html: Grok_Secretary — secretary AGENTS.md for Grok Bot (field-case) <https://github.com/TeaKitano/Grok_Secretary>
+- /cases/hunting-printables-team-etsy-printables-grok-bot-team-208.html: hunting-printables-team — Etsy printables Grok Bot team (field-case) <https://github.com/SAW72/hunting-printables-team>
+- /cases/checkingrokbot-luma-check-in-58mm-tickets-209.html: checkingrokbot — Luma check-in + 58mm tickets (field-case) <https://github.com/martinmalgor04/checkingrokbot>
+- /cases/wardonis-grok-bot-templates-starbase-galaxy-210.html: Wardonis Grok Bot templates — Starbase / Galaxy (field-case) <https://github.com/Wardonis/wardonis-grok-bots>
+- /cases/grok-bots-portable-ai-researcher-bot-recipe-211.html: grok-bots — portable AI Researcher Bot recipe (field-case) <https://github.com/feraranas/grok-bots>
+- /cases/grok2telegram-telegram-on-a-grok-bot-cloud-vm-212.html: grok2telegram — Telegram on a Grok Bot cloud VM (field-case) <https://github.com/antonio-castellon/grok2telegram>
+- /cases/bba-backtest-lab-grok-bot-team-trading-workspace-213.html: BBA Backtest Lab — Grok Bot team trading workspace (field-case) <https://github.com/Simzy420/bba-backtest-lab>
+- /cases/listing-manager-facebook-vinted-drafts-built-by-grok-bot-214.html: Listing Manager — Facebook/Vinted drafts built by Grok Bot (field-case) <https://github.com/mikesw15/listing-manager>
+- /cases/tech-demos-javascript-demos-created-by-grok-bot-215.html: tech-demos — JavaScript demos created by Grok Bot (field-case) <https://github.com/goofansu/tech-demos>
+- /cases/bookmark-demos-x-bookmarks-cursor-agent-mattyp-pattern-216.html: bookmark-demos — X bookmarks → Cursor Agent (mattyp pattern) (field-case) <https://github.com/kk-agent/bookmark-demos>
+- /cases/onlydevs-meetup-grok-bot-cursor-github-demo-217.html: Onlydevs meetup — Grok Bot + Cursor + GitHub demo (field-case) <https://github.com/truevis/onlydevs>
+- /cases/8-30-desk-cpi-fomc-briefing-built-with-grok-build-218.html: 8:30 Desk — CPI/FOMC briefing built with Grok Build (field-case) <https://github.com/tilakvenu/grok-830-desk-build>
+- /cases/ai-co-dm-grok-bot-fleet-for-a-campaign-vault-219.html: ai-co-dm — Grok Bot fleet for a campaign vault (field-case) <https://github.com/Thedougler/ai-co-dm>
+- /cases/jev-model-router-demo-grok-build-vs-codex-astra-220.html: Jev model router demo — Grok Build vs Codex Astra (field-case) <https://github.com/jcpsimmons/jev-model-router-demo>
+- /cases/trimble-agent-demos-built-with-grok-bot-221.html: Trimble Agent Demos — built with Grok Bot (field-case) <https://github.com/knybbe/trimble-agent-demos>
+- /cases/90-supply-grok-bot-ready-storefront-222.html: 90+ Supply — Grok Bot–ready storefront (field-case) <https://github.com/sagnikdhar2018-jpg/90plus-supply>
+- /cases/templatesgrokbot-3-000-grok-bot-templates-223.html: TemplatesGrokBot — 3,000+ Grok Bot templates (field-case) <https://github.com/templatesgrokbot/templatesgrokbot.com>
+- /cases/last-night-of-aetheria-grok-bot-version-224.html: Last Night of Aetheria — Grok Bot version (field-case) <https://github.com/windfaller/last-night-of-aetheria-grok-bot>
+- /cases/kiwi-chat-watch-two-grok-bots-message-each-other-225.html: Kiwi Chat — watch two Grok bots message each other (field-case) <https://github.com/vishnusat2007-wq/kiwi-chat>
+- /cases/scam-shield-grok-bot-that-catches-scams-226.html: Scam Shield — Grok Bot that catches scams (field-case) <https://github.com/LarryLemonBot/scam-shield>
+- /cases/gravity-birds-godot-puzzle-built-by-grok-bot-team-227.html: Gravity Birds — Godot puzzle built by Grok Bot team (field-case) <https://github.com/az9713/grokbot-gravity-bird>
+- /cases/replenish-autopilot-grok-bot-commerce-hackathon-london-228.html: Replenish Autopilot — Grok Bot Commerce Hackathon (London) (field-case) <https://github.com/EXL-1/Replenish-Autopilot>
+- /cases/don-t-panic-hhgttg-flavored-tea-stretch-grok-bot-229.html: Don't Panic — HHGTTG-flavored tea & stretch Grok Bot (field-case) <https://github.com/tink1010/dont-panic-grokbot>
+- /cases/poteto-gave-my-bot-my-brain-how-i-fix-bugs-now-231.html: poteto: gave my bot my brain — how I fix bugs now (field-case) <https://x.com/poteto/status/2105576730413134291>
+- /cases/mattyp-proactive-grok-bot-catches-missed-uber-after-flight-c-232.html: mattyp: proactive Grok Bot catches missed Uber after flight change (field-case) <https://x.com/mattyp/status/2105718647218200587>
+- /cases/leetcode-clusters-leetcode-map-created-by-grok-bot-233.html: leetcode-clusters — LeetCode map created by Grok Bot (field-case) <https://github.com/WilliamZhang20/leetcode-clusters>
+- /cases/personal-news-reader-pin-magazine-refreshed-by-grok-bot-234.html: personal-news-reader — PIN magazine refreshed by Grok Bot (field-case) <https://github.com/scapp/personal-news-reader>
+- /cases/market-indicator-breadth-gauge-product-of-grok-bot-235.html: market-indicator — breadth gauge product of Grok Bot (field-case) <https://github.com/gilsrubin-sys/market-indicator>
+- /cases/taller-grok-bot-lionel-captain-team-workshop-leads-landing-e-236.html: taller-grok-bot — Lionel captain team workshop (leads/landing/email) (field-case) <https://github.com/valenzmanu/taller-grok-bot>
+- /cases/mijn-bots-iphone-pwa-for-grok-bot-update-posts-237.html: mijn-bots — iPhone PWA for Grok Bot update posts (field-case) <https://github.com/michaelhofsteenge-art/mijn-bots>
+- /cases/falcon-eye-3d-falcon-stoop-game-made-by-grok-bot-238.html: falcon-eye — 3D falcon stoop game made by Grok Bot (field-case) <https://github.com/frank-otto/falcon-eye>
+- /cases/referral-scout-linkedin-referral-grok-bot-assistant-239.html: referral-scout — LinkedIn referral Grok Bot assistant (field-case) <https://github.com/IreneYe08/referral-scout>
+- /cases/1nsar-grok-templates-5-free-paste-ready-grok-bot-templates-240.html: 1nsar/grok-templates — 5 free paste-ready Grok Bot templates (field-case) <https://github.com/1nsar/grok-templates>
+- /cases/grok-bot-intrusion-detection-team-8-agent-windows-ids-241.html: grok-bot-intrusion-detection-team — 8-agent Windows IDS (field-case) <https://github.com/ritvikindupuri/grok-bot-intrusion-detection-team>
+- /cases/eyeskull2220-grokbot-sovereignforge-floor-os-handoff-242.html: eyeskull2220/grokbot — SovereignForge Floor OS handoff (field-case) <https://github.com/eyeskull2220/grokbot>
+- /cases/boydt-morning-brief-grok-bot-written-daily-brief-site-243.html: boydt/morning-brief — Grok Bot–written daily brief site (field-case) <https://github.com/boydt/morning-brief>
+- /cases/automated-db2-install-grokbot-db2-lab-menu-for-bot-244.html: automated-db2-install-grokbot — Db2 lab menu for Bot (field-case) <https://github.com/raganor-tech/automated-db2-install-grokbot>
+- /cases/immortalwrt-jdcloud-cs-07-firmware-built-by-grok-bot-245.html: immortalwrt-jdcloud-cs-07 — firmware built by Grok Bot (field-case) <https://github.com/pengyuw96/immortalwrt-jdcloud-cs-07>
+- /cases/vitalitychems-dot-z-tessera-grok-bot-handoff-index-246.html: vitalitychems-dot/z — Tessera Grok Bot handoff index (field-case) <https://github.com/vitalitychems-dot/z>
+- /cases/compile-london-jet-semrick-workshop-notes-via-grok-bot-247.html: Compile London: Jet Semrick workshop notes via Grok Bot (field-case) <https://emrecavunt.com/blog/grok-bot-jet-semrick-compile-london>
+- /cases/satheez-dev-grok-bot-as-desktop-publishing-teammate-248.html: satheez.dev: Grok Bot as desktop publishing teammate (field-case) <https://satheez.dev/writing/grok-bot-desktop-assistant/>
+- /cases/falconfpga-atari-falcon-fpga-with-grok-bot-handoff-249.html: falconfpga — Atari Falcon FPGA with Grok Bot handoff (field-case) <https://github.com/dave-1024/falconfpga>
+- /cases/grokd4m-hurlingwiki-built-with-grok-bot-d4m-250.html: GrokD4M — HurlingWiki built with Grok Bot + D4M (field-case) <https://github.com/Sliothar1/GrokD4M>
+- /cases/visa-bulletin-push-visa-priority-date-alerts-to-a-grok-bot-r-251.html: Visa Bulletin Push — visa priority-date alerts to a Grok Bot routine (field-case) <https://github.com/jt-wang/visa-bulletin-push>
+- /cases/tesla-ready-a-grok-bot-that-warms-up-your-tesla-252.html: Tesla Ready — a Grok Bot that warms up your Tesla (field-case) <https://github.com/acupofcode2/tesla-ready-grok-bot>
+- /cases/photo-trace-phone-photo-of-an-error-to-root-cause-dublin-bui-253.html: photo-trace — phone photo of an error to root cause (Dublin Builder Day) (field-case) <https://github.com/henry-da-lab/photo-trace>
+- /cases/netprojects-how-we-run-our-sites-with-about-30-grok-bot-agen-254.html: NetProjects: how we run our sites with about 30 Grok Bot agents (field-case) <https://netprojects.com/insights/how-we-run-netprojects-with-ai-agents>
+- /cases/frostwell-cakes-a-next-js-cake-shop-built-by-grok-bot-from-g-255.html: Frostwell Cakes — a Next.js cake shop built by Grok Bot from GitHub issues (field-case) <https://github.com/dev-repos/nextjs-cake-shop-grok-bot>
+- /cases/the-2026-nobel-prizes-explained-by-a-team-of-grok-bots-256.html: The 2026 Nobel Prizes explained by a team of Grok Bots (field-case) <https://github.com/az9713/grokbots-nobel-2026-explainers>
+- /cases/gefu-hls-journal-an-encrypted-mood-journal-pwa-built-entirel-257.html: Gefühls-Journal — an encrypted mood-journal PWA built entirely by a Grok Bot team (field-case) <https://github.com/Oliver19xx/gefuehlsjournal>
+- /cases/agent-city-a-3d-city-of-one-user-s-grok-bot-assistants-and-t-258.html: Agent City — a 3D city of one user's Grok Bot assistants and their real work (field-case) <https://github.com/brandocalricia/agent-city>
+- /cases/grok-bot-showroom-webgl-toys-built-with-grok-bot-259.html: Grok Bot Showroom — WebGL toys built with Grok Bot (field-case) <https://github.com/TheDreamersTop/grok-bot-showroom>
+- /cases/grokbot-home-move-a-whole-grok-bot-fleet-to-a-new-account-260.html: grokbot-home — move a whole Grok Bot fleet to a new account (field-case) <https://github.com/ZMGID/grokbot-home>
+- /cases/tavern-tabletop-rpg-in-a-group-chat-with-three-grok-bots-261.html: Tavern — tabletop RPG in a group chat with three Grok Bots (field-case) <https://github.com/anselmcmakin/tavern>
+- /cases/prime-directive-a-two-bot-coding-team-where-only-you-merge-262.html: Prime Directive — a two-Bot coding team where only you merge (field-case) <https://github.com/smfworks/prime-directive>
+- /cases/next-mission-grok-bot-template-files-for-u-s-military-transi-263.html: Next Mission — Grok Bot template files for U.S. military transition (field-case) <https://github.com/gabe-mobius/next-mission>
+- /cases/ai-in-action-for-medical-affairs-workshop-site-for-using-gro-264.html: AI in Action for Medical Affairs — workshop site for using Grok Bot (field-case) <https://github.com/Open-Medical-Affairs/AI-in-Action-Website>
+- /cases/forum-reset-failed-computer-stuck-in-partial-state-265.html: Forum: Reset failed / computer stuck in partial state (field-case) <https://forum.cursor.com/t/grok-bot-reset-failed-computer-stuck-in-partial-state-can-t-connect/173229>
+- /cases/forum-chief-of-staff-cannot-message-or-hand-off-to-other-bot-266.html: Forum: Chief of Staff cannot message or hand off to other bots (field-case) <https://forum.cursor.com/t/chief-of-staff-unable-to-communicate-with-other-bots/173238>
+- /cases/forum-inkbox-mcp-shows-connected-but-agent-cannot-find-serve-267.html: Forum: Inkbox MCP shows connected but agent cannot find server (field-case) <https://forum.cursor.com/t/grok-bot-inkbox-mcp-shows-connected-with-51-tools-but-agent-gets-mcp-server-not-found/173208>
+- /cases/forum-grok-bot-ignores-plugin-mcpservers-optional-field-268.html: Forum: Grok Bot ignores plugin mcpServers optional field (field-case) <https://forum.cursor.com/t/grok-bot-cursor-cloud-agents-not-respecting-mcpservers-optional-field/173273>
+- /cases/three-surfaces-ide-agents-projects-and-grok-bot-forum-269.html: Three Surfaces — IDE, Agents Projects, and Grok Bot (forum) (field-case) <https://forum.cursor.com/t/now-we-have-three-surfaces/172965>
+- /cases/agent-computer-unreachable-on-ios-and-windows-270.html: Agent Computer unreachable on iOS and Windows (field-case) <https://forum.cursor.com/t/subject-grok-bot-agent-computer-unreachable-on-ios-and-windows/172958>
+- /cases/stuck-on-setting-up-grok-bot-s-computer-mac-ios-271.html: Stuck on Setting up Grok Bot's computer (Mac/iOS) (field-case) <https://forum.cursor.com/t/grok-bot-stuck-on-setting-up-grok-bots-computer-mac-and-ios-cannot-connect/172957>
+- /cases/delisted-github-plugin-stuck-connected-with-0-tools-272.html: Delisted GitHub plugin stuck connected with 0 tools (field-case) <https://forum.cursor.com/t/grok-bot-delisted-github-plugin-48677658-cant-be-uninstalled-or-reconfigured-and-shows-connected-with-0-tools-after-a-401/172955>
+- /cases/request-edit-custom-stdio-mcp-command-in-place-273.html: Request: edit custom stdio MCP command in place (field-case) <https://forum.cursor.com/t/grok-bot-edit-a-custom-stdio-mcp-servers-command-args-env-in-place-without-losing-its-instructions/172953>
+- /cases/grok-bot-android-voice-preference-does-not-persist-274.html: Grok Bot Android: voice preference does not persist (field-case) <https://forum.cursor.com/t/grok-bot-android-voice-preference-sal-1-25x-does-not-persist-reverts-to-liora-leora/172951>
+- /cases/request-desktop-honor-voice-and-publish-speaking-amplitude-275.html: Request: Desktop honor voice= and publish speaking/amplitude (field-case) <https://forum.cursor.com/t/grok-bot-desktop-should-honor-voice-and-publish-speaking-or-amplitude/172905>
+- /cases/staff-voice-channel-lag-is-playback-tasks-already-finished-276.html: Staff: Voice channel lag is playback, tasks already finished (field-case) <https://forum.cursor.com/t/grok-bot-voice-channel-latency-silent-hang-after-tools-complete/172844>
+- /cases/request-official-avatar-extension-api-for-3d-avatars-277.html: Request: official avatar extension API for 3D avatars (field-case) <https://forum.cursor.com/t/grok-bot-official-avatar-extension-api-for-third-party-animated-3d-avatars/172882>
+- /cases/staff-reattach-after-sign-out-do-not-reset-delilah-case-278.html: Staff: reattach after sign-out — do not Reset (Delilah case) (field-case) <https://forum.cursor.com/t/grok-bot-delilah-still-exists-bot-id-641a7c54-but-chat-will-not-send-and-both-windows-and-iphone-lost-her-after-sign-out-reattach-to-the-existing-computer-do-not-reset/172862>
+- /cases/grok-bot-0-58-0-screen-view-moved-under-bot-name-staff-279.html: Grok Bot 0.58.0: screen view moved under Bot name (staff) (field-case) <https://forum.cursor.com/t/grok-bot-windows-collapsing-chat-computer-divider-hides-right-pane-with-no-monitor-icon-to-reopen/172842>
+- /cases/print-via-registered-local-computer-only-no-home-lan-printer-280.html: Print via registered local computer only (no home-LAN printers) (field-case) <https://forum.cursor.com/t/grok-bot-native-direct-printer-support-for-agents-skip-registered-mac-lp-bridge/172798>
+- /cases/no-per-bot-reasoning-effort-control-staff-281.html: No per-bot reasoning effort control (staff) (field-case) <https://forum.cursor.com/t/grok-bot-per-agent-reasoning-effort-control-low-mid-full/172822>
+- /cases/route-through-desktop-only-reaches-public-ips-not-private-sp-282.html: Route-through-desktop only reaches public IPs (not private / split-horizon) (field-case) <https://forum.cursor.com/t/grok-bot-route-traffic-through-this-computer-fails-for-split-horizon-internal-dev-hosts/172715>
+- /cases/origin-cli-on-grok-bot-is-read-only-merge-via-ui-or-your-mac-283.html: Origin CLI on Grok Bot is read-only; merge via UI or your machine (field-case) <https://forum.cursor.com/t/merging-prs-in-origin-with-grok-bot/172592>
+- /cases/precise-geometry-edits-give-grok-bot-svg-draw-io-not-png-284.html: Precise geometry edits: give Grok Bot SVG/draw.io, not PNG (field-case) <https://forum.cursor.com/t/grok-bot-simple-image-track-geometry-edit-unreliable/172484>
+- /cases/agent-computer-stuck-starting-up-for-48-72h-285.html: Agent Computer stuck “starting up” for 48–72h (field-case) <https://forum.cursor.com/t/grok-bot-agent-computer-stuck-starting-up-48-72h-update-reset-failed-on-all-devices-please-reprovision/172519>
+- /cases/1password-vault-only-sharing-request-for-grok-bot-286.html: 1Password vault-only sharing request for Grok Bot (field-case) <https://forum.cursor.com/t/1password-vault-only-access-in-grokbot/172524>
+- /cases/grok-bot-false-play-state-claims-in-playtest-loop-287.html: Grok Bot false play/state claims in playtest loop (field-case) <https://forum.cursor.com/t/grok-bot-agent-false-play-state-claims-break-trust-preview-mismatch-treated-as-playtesting/172533>
+- /cases/grok-bot-hung-on-updating-computer-at-43-288.html: Grok Bot hung on Updating computer at 43% (field-case) <https://forum.cursor.com/t/grokbot-unavailable-hung-on-updating-grok-bot-s-computer-at-43/172535>
+- /cases/grok-bot-routines-don-t-auto-wake-at-day-start-289.html: Grok Bot Routines don’t auto-wake at day start (field-case) <https://forum.cursor.com/t/grok-bot-routines-dont-wake-up-at-the-beginning-of-a-new-day/172545>
+- /cases/grok-bot-reconnect-loop-api2-cursor-sh-bad-cert-host-290.html: Grok Bot reconnect loop — api2.cursor.sh bad cert host (field-case) <https://forum.cursor.com/t/grok-bot-keeps-reconnecting-api2-cursor-sh-resolves-to-100-60-17-13-which-presents-a-certificate-for-devapi-english-com/172578>
+- /cases/grok-bot-forever-box-agent-transcripts-mirror-never-created-291.html: Grok Bot forever box: agent-transcripts mirror never created (field-case) <https://forum.cursor.com/t/grok-bot-forever-box-agent-transcripts-mirror-never-created-server-agent-proxy-transcript-tail-con/172494>
+- /cases/grok-bot-0-57-1-windows-0x0-off-screen-window-cannot-reopen-292.html: Grok Bot 0.57.1 Windows — 0x0 off-screen window cannot reopen (field-case) <https://forum.cursor.com/t/grok-bot-0-57-1-on-windows-saves-a-0x0-off-screen-window-state-and-cannot-reopen/172502>
+- /cases/grok-bot-0-57-1-windows-quits-under-local-shell-copyfrombox--293.html: Grok Bot 0.57.1 Windows — quits under local Shell/CopyFromBox + Chrome UI (field-case) <https://forum.cursor.com/t/grok-bot-0-57-1-windows-app-quits-under-local-shell-copyfrombox-chrome-ui-idle-stays-up/172549>
+- /cases/grok-bot-unreachable-on-windows-and-phone-since-sep-20-eveni-294.html: Grok Bot unreachable on Windows and phone since Sep 20 evening KST (field-case) <https://forum.cursor.com/t/grok-bot-unreachable-on-windows-and-phone-since-sep-20-evening-kst-routines-still-run/172453>
+- /cases/forum-1password-connector-needs-one-time-mac-setup-windows-295.html: Forum: 1Password connector needs one-time Mac setup (Windows) (field-case) <https://forum.cursor.com/t/1password-connector/172310>
+- /cases/forum-introducing-grok-bot-296.html: Forum: Introducing Grok Bot (field-case) <https://forum.cursor.com/t/introducing-grok-bot/168053>
+- /cases/bots-are-not-a-security-boundary-297.html: Bots are not a security boundary (field-case) <https://forum.cursor.com/t/grok-bot-ship-real-session-fences-bots-are-not-a-security-boundary/168476>
+- /cases/always-on-workers-vs-topic-threads-298.html: Always-on workers vs topic threads (field-case) <https://forum.cursor.com/t/grok-bots-as-always-on-workers-vs-topic-threads/168183>
+- /cases/free-cursor-ultra-with-grok-heavy-bundle-299.html: Free Cursor Ultra with Grok (Heavy bundle) (field-case) <https://forum.cursor.com/t/free-cursor-ultra-with-grok/168286>
+- /cases/reconnect-issue-300.html: Reconnect issue (field-case) <https://forum.cursor.com/t/grok-bot-reconnect-issue/168500>
+- /cases/x-login-lock-on-the-bot-computer-301.html: X login lock on the Bot computer (field-case) <https://forum.cursor.com/t/grok-bot-x-login-lock-limit-not-lifting/168541>
+- /cases/externalshell-blocked-despite-always-allow-302.html: ExternalShell blocked despite Always allow (field-case) <https://forum.cursor.com/t/grok-bot-externalshell-blocked-despite-always-allow/168180>
+- /cases/deleted-cursor-account-orphans-the-grok-link-303.html: Deleted Cursor account orphans the Grok link (field-case) <https://forum.cursor.com/t/deleted-cursor-account-leaves-grok-link-orphaned-and-blocks-relinking/168783>
+- /cases/hacker-news-discussion-304.html: Hacker News discussion (field-case) <https://news.ycombinator.com/item?id=49261514>
+- /cases/native-desktop-on-arch-linux-305.html: Native desktop on Arch / Linux (field-case) <https://forum.cursor.com/t/native-grok-bot-desktop-app-for-arch-linux-and-linux-generally/168084>
+- /cases/does-grok-bot-support-local-mcp-306.html: Does Grok Bot support local MCP? (field-case) <https://forum.cursor.com/t/does-grok-bot-support-local-mcp-e-g-workflowy/168182>
+- /cases/is-grok-bot-down-currently-307.html: Is Grok Bot Down Currently? (field-case) <https://forum.cursor.com/t/is-grok-bot-down-currently/168918>
+- /cases/grok-bot-0-23-0-first-setup-createagent-cannot-reach-your-co-308.html: Grok Bot 0.23.0 first setup: createAgent / Cannot reach your computer (field-case) <https://forum.cursor.com/t/grok-bot-0-23-0-first-setup-fails-createagent-can-t-reach-your-computer/169007>
+- /cases/grok-bot-mac-chat-works-local-computer-reported-offline-309.html: Grok Bot: Mac chat works, local computer reported offline (field-case) <https://forum.cursor.com/t/grok-bot-mac-chat-works-local-computer-reported-offline/168973>
+- /cases/computer-refresh-wipes-whatsapp-linked-device-session-in-gro-310.html: Computer refresh wipes WhatsApp linked-device session in Grok Bot (field-case) <https://forum.cursor.com/t/computer-refresh-wipes-whatsapp-linked-device-session-in-grok-bot/169025>
+- /cases/grok-bot-cloud-workspace-after-trial-exhaustion-311.html: Grok Bot cloud workspace after trial exhaustion (field-case) <https://forum.cursor.com/t/grok-bot-cloud-workspace-inaccessible-after-trial-exhaustion-ticket-t-e97475-pending/169010>
+- /cases/reset-computer-window-opens-behind-settings-0-24-0-312.html: Reset Computer window opens behind Settings (0.24.0) (field-case) <https://forum.cursor.com/t/the-reset-computer-window-opens-behind-the-settings-window-and-is-invisible-and-unclickable/169177>
+- /cases/grok-bot-webhooks-failing-with-internal-server-error-313.html: Grok Bot webhooks failing with internal server error (field-case) <https://forum.cursor.com/t/grok-bot-webhooks-are-failing-with-internal-server-error/169323>
+- /cases/grok-bot-gmail-connector-cannot-download-attachment-bytes-314.html: Grok Bot Gmail connector cannot download attachment bytes (field-case) <https://forum.cursor.com/t/grok-bot-gmail-connector-can-list-attachments-but-cannot-download-their-bytes/169261>
+- /cases/does-logging-into-grok-bot-count-as-a-separate-computer-315.html: Does logging into Grok Bot count as a separate computer? (field-case) <https://forum.cursor.com/t/does-logging-into-grokbot-count-as-a-separate-computer/169289>
+- /cases/grok-bot-notion-plugin-oauth-invalid-redirect-uri-316.html: Grok Bot Notion plugin OAuth Invalid redirect_uri (field-case) <https://forum.cursor.com/t/grok-bot-notion-plugin-oauth-invalid-redirect-uri/169234>
+- /cases/grok-bot-now-has-channels-317.html: Grok Bot now has Channels (field-case) <https://forum.cursor.com/t/grok-bot-threads-ui-is-unusable-needs-a-slack-style-right-panel/168315>
+- /cases/stuck-reconnecting-can-be-a-local-cursorvm-com-block-318.html: Stuck Reconnecting can be a local cursorvm.com block (field-case) <https://forum.cursor.com/t/grok-bot-desktop-on-macos-is-permanently-stuck-on-reconnecting-to-your-computer/169119>
+- /cases/agent-never-surfaces-take-over-for-login-319.html: Agent never surfaces Take over for login (field-case) <https://forum.cursor.com/t/grok-bot-failed-to-open-its-computer-and-couldnt-recognize-the-issue/169179>
+- /cases/how-to-track-grok-bot-releases-320.html: How to track Grok Bot releases (field-case) <https://forum.cursor.com/t/multiple-questions/169338>
+- /cases/grok-bot-hanging-at-cleaning-up-after-reset-321.html: Grok Bot hanging at Cleaning up after reset (field-case) <https://forum.cursor.com/t/grok-bot-hanging-at-cleaning-up-phase-after-resetting/169364>
+- /cases/grok-bot-0-24-0-windows-white-flash-then-the-app-closes-322.html: Grok Bot 0.24.0 Windows white flash then the app closes (field-case) <https://forum.cursor.com/t/grok-bot-0-24-0-windows-10-x64-white-screen-flashes-then-app-closes/169380>
+- /cases/bots-workspace-looks-empty-after-a-rebuild-323.html: Bots workspace looks empty after a rebuild (field-case) <https://forum.cursor.com/t/bots-workspace-missing-all-things-getting-new-user-experience/169448>
+- /cases/no-compact-new-session-full-transcript-is-sent-each-turn-324.html: No compact / new session; full transcript is sent each turn (field-case) <https://forum.cursor.com/t/grok-bot-prune-compact-an-agent-s-context-without-creating-a-new-bot/168333>
+- /cases/black-screen-after-setup-hosted-computer-never-finished-star-325.html: Black screen after setup: hosted computer never finished starting (field-case) <https://forum.cursor.com/t/grok-bot-gets-stuck-on-black-screen-after-setting-up-grok-bots-computer/169593>
+- /cases/0-27-0-windows-local-host-stays-disconnected-after-clean-reg-326.html: 0.27.0 Windows: local host stays disconnected after clean registration (field-case) <https://forum.cursor.com/t/grok-bot-0-27-0-windows-local-host-permanently-isn-t-connected-after-clean-registration-new-identity-server-side/169594>
+- /cases/webhook-url-and-sender-key-are-desktop-only-not-on-ios-327.html: Webhook URL and sender key are desktop-only, not on iOS (field-case) <https://forum.cursor.com/t/webhook-url-missing-on-ios/169589>
+- /cases/official-x-plugin-auth-is-broken-on-desktop-cloud-and-grok-b-328.html: Official X plugin auth is broken on desktop, Cloud, and Grok Bot (field-case) <https://forum.cursor.com/t/official-x-plugin-auth-is-broken-on-cursor-cloud-grok-bot-and-desktop-refresh/169592>
+- /cases/gmail-plugin-oauth-is-broken-authorize-from-cursor-329.html: Gmail plugin OAuth is broken; authorize from Cursor (field-case) <https://forum.cursor.com/t/grok-bot-unable-to-authenticate-via-gmail-plugin/169782>
+- /cases/ios-1-3-2-sends-a-question-list-on-the-first-tap-330.html: iOS 1.3.2 sends a question list on the first tap (field-case) <https://forum.cursor.com/t/multiple-choice-list-doesn-t-work-on-grok-bot-mobile/169830>
+- /cases/grok-launched-agents-hide-behind-the-source-filter-331.html: Grok-launched agents hide behind the Source filter (field-case) <https://forum.cursor.com/t/grok-bot-open-cloud-agent-cards-in-the-browser-and-show-grok-launched-agents-on-agents/169754>
+- /cases/days-long-can-t-reach-your-computer-needs-a-staff-restore-332.html: Days-long “Can’t reach your computer” needs a staff restore (field-case) <https://forum.cursor.com/t/grok-bot-can-t-reach-your-computer-for-48-hours/169450>
+- /cases/fresh-install-white-screen-is-a-local-profile-not-the-cloud--333.html: Fresh-install white screen is a local profile, not the cloud box (field-case) <https://forum.cursor.com/t/grok-bot-shows-white-screen-upon-opening-and-is-unusable/169815>
+- /cases/grok-spawned-cloud-agents-can-ignore-your-non-fast-default-334.html: Grok-spawned Cloud Agents can ignore your non-Fast default (field-case) <https://forum.cursor.com/t/cloud-cursor-agents-spawned-by-grok-bot-do-not-fully-respect-the-user-selected-default-model-and-speed-preferences/169746>
+- /cases/local-execution-offline-while-chat-still-works-335.html: Local execution offline while chat still works (field-case) <https://forum.cursor.com/t/local-execution-stays-offline-while-chat-still-works/169821>
+- /cases/reset-stuck-at-50-starting-is-a-server-side-bad-state-336.html: Reset stuck at 50% Starting is a server-side bad state (field-case) <https://forum.cursor.com/t/currently-down-grok-bot-retrying-back-end-vm/169834>
+- /cases/local-computer-helper-fails-registration-337.html: Local-computer helper fails registration (field-case) <https://forum.cursor.com/t/grok-bot-cannot-access-my-local-computer/169924>
+- /cases/mac-black-screen-is-local-dns-not-cloud-338.html: Mac black screen is local DNS not cloud (field-case) <https://forum.cursor.com/t/grok-bot-desktop-never-joins-existing-ios-bots-latest-app-stuck-on-black-screen/169940>
+- /cases/does-grokbot-not-have-access-to-my-cursor-codebase-339.html: Does GrokBot not have access to my Cursor Codebase? (field-case) <https://forum.cursor.com/t/does-grokbot-not-have-access-to-my-cursor-codebase/169684>
+- /cases/phantom-in-grok-bot-is-a-mess-340.html: Phantom in Grok Bot is a Mess (field-case) <https://forum.cursor.com/t/phantom-in-grok-bot-is-a-mess/169930>
+- /cases/grokbot-custom-connectors-341.html: Grokbot custom connectors (field-case) <https://forum.cursor.com/t/grokbot-custom-connectors/169965>
+- /cases/grok-bot-drive-mcp-should-write-google-docs-body-and-sheet-c-342.html: Grok Bot: Drive MCP should write Google Docs body and Sheet cells, not only file metadata (field-case) <https://forum.cursor.com/t/grok-bot-drive-mcp-should-write-google-docs-body-and-sheet-cells-not-only-file-metadata/169971>
+- /cases/blank-screen-after-opening-grok-bot-343.html: Blank screen after opening Grok Bot (field-case) <https://forum.cursor.com/t/blank-screen-after-opening-grok-bot/169966>
+- /cases/cloud-agents-created-in-grok-bot-not-displayed-in-cursor-344.html: Cloud Agents created in Grok Bot not displayed in Cursor (field-case) <https://forum.cursor.com/t/cloud-agents-created-in-grok-bot-not-displayed-in-cursor/169939>
+- /cases/can-t-reach-your-computer-from-last-72-hours-345.html: Can't reach your computer from last 72 hours (field-case) <https://forum.cursor.com/t/cant-reach-your-computer-from-last-72-hours/169970>
+- /cases/grok-bot-0-30-0-stuck-on-setting-up-your-grok-bot-on-macos-346.html: Grok Bot 0.30.0 stuck on "Setting up your Grok Bot" on macOS (field-case) <https://forum.cursor.com/t/grok-bot-0-30-0-stuck-on-setting-up-your-grok-bot-on-macos/169981>
+- /cases/grok-bot-zoom-plugin-oauth-hardcodes-http-localhost-8787-cal-347.html: Grok Bot Zoom plugin OAuth hardcodes http://localhost:8787/callback — Zoom rejects hostname localhost (error 4700) (field-case) <https://forum.cursor.com/t/grok-bot-zoom-plugin-oauth-hardcodes-http-localhost-8787-callback-zoom-rejects-hostname-localhost-error-4700/169991>
+- /cases/unable-to-reconnect-to-my-grok-bot-s-computer-after-attempte-348.html: Unable to reconnect to my Grok Bot's computer after attempted update (field-case) <https://forum.cursor.com/t/unable-to-reconnect-to-my-grok-bots-computer-after-attempted-update/170000>
+- /cases/grok-bot-computer-stuck-in-partial-state-reset-failed-existi-349.html: Grok Bot Computer Stuck in Partial State — Reset Failed, Existing Cloud Computer Unreachable (field-case) <https://forum.cursor.com/t/grok-bot-computer-stuck-in-partial-state-reset-failed-existing-cloud-computer-unreachable/170006>
+- /cases/grok-bot-couldn-t-finish-setup-350.html: Grok Bot couldn't finish setup (field-case) <https://forum.cursor.com/t/grok-bot-couldnt-finish-setup/170010>
+- /cases/grok-bot-0-30-0-windows-setup-fails-with-can-t-reach-your-co-351.html: Grok Bot 0.30.0 (Windows) — setup fails with Can't reach your computer, all network checks pass (field-case) <https://forum.cursor.com/t/grok-bot-0-30-0-windows-setup-fails-with-cant-reach-your-computer-all-network-checks-pass/170035>
+- /cases/cloud-computer-wipes-packages-after-rebuild-352.html: Cloud computer wipes packages after rebuild (field-case) <https://forum.cursor.com/t/cloud-computer-wipes-packages-after-rebuild/169847>
+- /cases/review-bugbot-is-missing-on-cloud-agents-launched-from-grok--353.html: /review-bugbot is missing on cloud agents launched from Grok Bot (field-case) <https://forum.cursor.com/t/review-bugbot-is-missing-on-cloud-agents-launched-from-grok-bot/170096>
+- /cases/grok-bot-bug-report-empty-roster-black-screen-after-reconnec-354.html: Grok Bot Bug Report (empty roster / black screen after reconnect) (field-case) <https://forum.cursor.com/t/grok-bot-bug-report/170104>
+- /cases/grokbot-and-github-connected-but-authorization-header-badly--355.html: Grokbot and GitHub (Connected but Authorization header badly formatted) (field-case) <https://forum.cursor.com/t/grokbot-and-github/170137>
+- /cases/authorization-death-by-1000-clicks-356.html: Authorization death by 1000 clicks (field-case) <https://forum.cursor.com/t/authorization-death-by-1000-clicks/170087>
+- /cases/wrangler-box-auth-reminder-stays-stuck-after-auth-already-su-357.html: Wrangler/box auth reminder stays stuck after auth already succeeded via another path (field-case) <https://forum.cursor.com/t/grok-bot-wrangler-box-auth-reminder-stays-stuck-after-auth-already-succeeded-via-another-path/170052>
+- /cases/fastmail-filters-rules-save-is-a-silent-no-op-chrome-on-the--358.html: Fastmail Filters & Rules Save is a silent no-op (Chrome on the box) (field-case) <https://forum.cursor.com/t/grok-bot-fastmail-filters-rules-save-is-a-silent-no-op-chrome-on-the-box/170018>
+- /cases/vpn-sso-passkey-and-yubikey-within-grokbot-359.html: VPN, SSO, Passkey, and YubiKey Within Grokbot (field-case) <https://forum.cursor.com/t/vpn-sso-passkey-and-yubikey-within-grokbot/170148>
+- /cases/unable-to-connect-360.html: Unable to connect (field-case) <https://forum.cursor.com/t/unable-to-connect/170123>
+- /cases/grokbot-linux-execution-on-local-computer-not-working-361.html: GrokBot Linux Execution on Local Computer not working (field-case) <https://forum.cursor.com/t/grokbot-linux-execution-on-local-computer-not-working/170157>
+- /cases/new-report-windows-leftover-daemon-on-0-30-0-362.html: New report, Windows, leftover daemon on 0.30.0 (field-case) <https://forum.cursor.com/t/new-report-windows-leftover-daemon-on-0-30-0/170121>
+- /cases/grok-bot-failed-to-respond-363.html: Grok bot failed to respond (field-case) <https://forum.cursor.com/t/grok-bot-failed-to-respond/170235>
+- /cases/grok-bot-0-30-0-stuck-on-black-loading-screen-during-initial-364.html: Grok Bot 0.30.0 Stuck on Black Loading Screen During Initial Setup on Mac (field-case) <https://forum.cursor.com/t/grok-bot-0-30-0-stuck-on-black-loading-screen-during-initial-setup-on-mac/170251>
+- /cases/grok-bot-windows-fresh-profile-setup-fails-with-can-t-reach--365.html: Grok Bot Windows — fresh profile setup fails with “Can’t reach your computer” after backend fix (field-case) <https://forum.cursor.com/t/grok-bot-windows-fresh-profile-setup-fails-with-can-t-reach-your-computer-after-backend-fix/170281>
+- /cases/grok-bot-0-30-0-stuck-on-black-loading-screen-on-windows-11-366.html: Grok Bot 0.30.0 stuck on black loading screen on Windows 11 (field-case) <https://forum.cursor.com/t/grok-bot-0-30-0-stuck-on-black-loading-screen-on-windows-11/170294>
+- /cases/grok-bot-0-30-0-agent-computer-unreachable-after-update-reco-367.html: Grok Bot 0.30.0 — Agent Computer unreachable after Update, Recover, and Reset all failed (field-case) <https://forum.cursor.com/t/grok-bot-0-30-0-agent-computer-unreachable-after-update-recover-and-reset-all-failed/170258>
+- /cases/grok-bot-mac-unavailable-after-password-reset-expired-sessio-368.html: Grok Bot Mac “unavailable” after password reset (expired session) (field-case) <https://forum.cursor.com/t/grok-bot-mac-blocked-after-password-change-app-says-unavailable-spending-shows-supergrok-plus/170389>
+- /cases/homepage-approval-needed-stuck-after-card-timeout-369.html: Homepage “Approval needed” stuck after card timeout (field-case) <https://forum.cursor.com/t/grok-bot-approval-needed-stays-on-agent-view-homepage-when-coder-has-nothing-to-approve/170127>
+- /cases/file-contents-and-grokbot-viewer-copy-vs-download-370.html: File contents and grokbot — viewer Copy vs Download (field-case) <https://forum.cursor.com/t/file-contents-and-grokbot/170421>
+- /cases/grok-bot-canva-connector-failing-invalid-redirect-uri-on-ios-371.html: Grok Bot Canva connector failing — Invalid redirect URI on iOS (field-case) <https://forum.cursor.com/t/grok-bot-canva-connector-failing/170431>
+- /cases/local-computer-looks-connected-but-copyfrombox-shell-flaps-a-372.html: Local computer looks connected but CopyFromBox/Shell flaps after large transfer timeout (field-case) <https://forum.cursor.com/t/grok-bot-local-computer-execution-looks-connected-in-settings-but-is-not-actually-usable-for-file-i-o/169877>
+- /cases/grok-bot-windows-can-t-reach-computer-on-free-plan-after-sup-373.html: Grok Bot Windows — Can't reach computer on Free plan / after SuperGrok link (field-case) <https://forum.cursor.com/t/grok-bot-windows-cant-reach-computer/170462>
+- /cases/grokbot-failing-to-connect-to-cloud-agent-privacy-mode-legac-374.html: Grokbot failing to connect to cloud agent — Privacy Mode (Legacy) false positive (field-case) <https://forum.cursor.com/t/grokbot-failing-to-connect-to-cloud-agent/170486>
+- /cases/grok-bot-0-39-0-first-setup-reconnecting-forever-until-priva-375.html: Grok Bot 0.39.0 first setup: Reconnecting forever until Privacy Mode is saved (field-case) <https://forum.cursor.com/t/grok-bot-0-39-0-first-setup-reconnecting-to-your-computer-forever-mac/170509>
+- /cases/status-beat-leaks-between-bots-one-bot-memory-across-1-1-and-376.html: Status beat leaks between bots — one Bot memory across 1:1 and groups (field-case) <https://forum.cursor.com/t/status-beat-leaks-between-bots/170523>
+- /cases/shopify-browser-blocked-use-admin-api-custom-mcp-not-agent-c-377.html: Shopify browser blocked — use Admin API / custom MCP, not agent Chrome (field-case) <https://forum.cursor.com/t/shopify-store-connector/170605>
+- /cases/unreachable-after-heavy-media-16-gb-ram-exhaustion-378.html: Unreachable after heavy media — 16 GB RAM exhaustion (field-case) <https://forum.cursor.com/t/grok-bot-unreachable-all-day/169856>
+- /cases/can-t-reach-after-active-sessions-revoke-sign-out-in-not-ret-379.html: Can’t reach after Active Sessions revoke — sign out/in, not Retry (field-case) <https://forum.cursor.com/t/cant-access-grok-bot-anymore-probably-after-updating-to-0-39-0/170568>
+- /cases/linux-rpm-access-denied-use-direct-package-yumrepo-links-380.html: Linux RPM Access Denied — use direct package / yumrepo links (field-case) <https://forum.cursor.com/t/unable-to-download-grok-bot-rpm-package/170637>
+- /cases/connected-but-temporarily-unreachable-local-exec-slower-than-381.html: Connected but “temporarily unreachable” — local-exec slower than 10s wait (field-case) <https://forum.cursor.com/t/grok-bot-0-43-windows-local-pc-shows-connected-but-commands-fail-with-temporarily-unreachable/170683>
+- /cases/windows-instant-crash-codex-sandbox-acl-missing-s-1-15-2-2-382.html: Windows instant crash — Codex sandbox ACL missing S-1-15-2-2 (field-case) <https://forum.cursor.com/t/grok-bot-0-28-0-and-0-43-0-windows-instant-launch-crash-int3-in-v8-jit-grok-bot-786cdd6/170691>
+- /cases/windows-secret-card-chat-replies-missing-in-main-pane-sideba-383.html: Windows: secret-card chat — replies missing in main pane (sidebar/mobile OK) (field-case) <https://forum.cursor.com/t/grok-bot-windows-one-chat-can-send-but-replies-never-render-in-main-pane-sidebar-preview-ok-mobile-ok/170745>
+- /cases/mac-0-43-secret-card-chats-couldn-t-load-conversation-iphone-384.html: Mac 0.43: secret-card chats — “Couldn’t load conversation” (iPhone/sidebar OK) (field-case) <https://forum.cursor.com/t/cannot-load-chat-history-for-some-grok-bots/170750>
+- /cases/mac-0-43-lost-computer-after-password-change-sign-out-in-don-385.html: Mac 0.43: lost computer after password change — sign out/in, don’t Reset (field-case) <https://forum.cursor.com/t/grok-bot-lost-connection-with-its-computer-and-cant-update-recover-reset/170775>
+- /cases/mac-0-43-main-chat-pane-misses-replies-sidebar-ios-ok-don-t--386.html: Mac 0.43: main chat pane misses replies (sidebar + iOS OK) — don’t Reset (field-case) <https://forum.cursor.com/t/grok-bot-mac-replies-missing-in-main-chat-pane-visible-in-left-preview-ios/170721>
+- /cases/bots-not-responding-reset-failed-save-privacy-mode-on-dashbo-387.html: Bots “not responding” / Reset failed — save Privacy Mode on dashboard (field-case) <https://forum.cursor.com/t/grok-bots-not-responding/170804>
+- /cases/local-shell-auto-review-executable-content-could-not-be-boun-388.html: Local Shell Auto-review: “executable content could not be bound” — pipe workaround (field-case) <https://forum.cursor.com/t/grok-bot-auto-review-blocks-local-commands-executable-content-could-not-be-bound-to-this-review/170809>
+- /cases/computeruse-gtk-open-files-no-ops-dock-overlap-bypass-with-d-389.html: computerUse GTK Open Files no-ops — dock overlap; bypass with DOM.setFileInputFiles (field-case) <https://forum.cursor.com/t/grok-bot-computeruse-gtk-file-chooser-open-no-ops-for-local-video-upload/170816>
+- /cases/can-t-send-computer-screen-still-visible-server-disconnect-p-390.html: Can’t send (computer screen still visible) — server disconnect; prefer wait over Reset (field-case) <https://forum.cursor.com/t/grokbot-can-not-send-msgs-agents-virtual-machine-is-still-visible/170843>
+- /cases/gmail-mcp-spam-search-empty-by-default-use-in-anywhere-label-391.html: Gmail MCP: Spam search empty by default — use in:anywhere (+ label:SPAM) (field-case) <https://forum.cursor.com/t/grok-bot-gmail-search-threads-returns-empty-for-spam-while-list-labels-shows-threads/170832>
+- /cases/0-44-0-shell-auto-review-pre-check-absolute-interpreter-path-392.html: 0.44.0 Shell Auto-review pre-check: absolute interpreter path — use relative + cwd (field-case) <https://forum.cursor.com/t/grok-bot-0-44-0-on-macos-shell-executable-binding-rejection-persists-approval-card-never-appears/170819>
+- /cases/calldynamictool-missing-namespace-toolname-put-keys-top-leve-393.html: CallDynamicTool Missing namespace/toolName — put keys top-level (or Duplicate) (field-case) <https://forum.cursor.com/t/grok-bot-calldynamictool-fails-missing-namespace-toolname-sendtoagent-task-broken/170869>
+- /cases/export-backup-bot-memory-ask-bots-to-zip-durable-state-no-on-394.html: Export/backup Bot memory — ask bots to zip durable state (no one-click yet) (field-case) <https://forum.cursor.com/t/best-way-to-export-memory/170714>
+- /cases/ios-inkbox-unsupported-redirect-uri-auth-on-desktop-account--395.html: iOS Inkbox “Unsupported redirect_uri” — auth on desktop (account-default shared) (field-case) <https://forum.cursor.com/t/grok-bot-inkbox-connect-card-fails-with-unsupported-redirect-uri/170725>
+- /cases/mac-0-43-one-agent-failed-to-send-ios-ok-update-desktop-to-0-396.html: Mac 0.43 one-agent Failed to send (iOS OK) — update desktop to 0.44.0 (field-case) <https://forum.cursor.com/t/grok-bot-macos-one-agent-larry-failed-to-send-missing-replies-iphone-ok-other-agents-ok-on-mac/170710>
+- /cases/synced-skills-reach-agents-window-only-not-grok-bot-started--397.html: Synced skills reach Agents Window only — not Grok Bot-started cloud agents (field-case) <https://forum.cursor.com/t/sync-skills-for-cloud-agents-stuck/170899>
+- /cases/public-template-publish-team-must-be-selected-leave-leftover-398.html: Public template publish “team must be selected” — leave leftover workspaces (field-case) <https://forum.cursor.com/t/grok-bot-public-template-publish-fails-with-a-team-must-be-selected-to-share-a-team-template-on-personal-ultra/170926>
+- /cases/stdio-mcp-wrappers-in-bot-secrets-break-after-bot-delete-use-399.html: stdio MCP wrappers in bot secrets break after bot delete — use shared path (field-case) <https://forum.cursor.com/t/grok-bot-stdio-mcp-keeps-spawn-path-into-deleted-agent-secrets/170901>
+- /cases/mcp-needsauth-badge-for-non-oauth-connectors-is-cosmetic-400.html: MCP “needsAuth” badge for non-OAuth connectors is cosmetic (field-case) <https://forum.cursor.com/t/grok-bot-mcp-status-stays-needsauth-after-authenticatemcpserver-says-already-connected/170900>
+- /cases/github-plugin-needs-auth-no-sign-in-link-pat-setup-values-al-401.html: GitHub plugin “Needs auth” / no sign-in link — PAT Setup Values already work (field-case) <https://forum.cursor.com/t/grok-bot-github-plugin-authenticate-github-didnt-provide-a-sign-in-link/170898>
+- /cases/trial-ended-shows-as-can-t-reach-your-computer-renew-link-pl-402.html: Trial ended shows as “Can’t reach your computer” — renew/link plan (field-case) <https://forum.cursor.com/t/grok-bot-0-44-0-macos-can-t-reach-your-computer-retry-and-recover-fail-even-after-re-login/171004>
+- /cases/desktop-reconnect-overwrites-in-chat-secure-secrets-403.html: Desktop reconnect overwrites in-chat secure secrets (field-case) <https://forum.cursor.com/t/grok-bot-box-secrets-wiped-overnight-shopify-client-id-secret/171029>
+- /cases/robinhood-mcp-oauth-https-callback-15-minute-window-connect--404.html: Robinhood MCP OAuth: https callback + 15-minute window (connect on desktop) (field-case) <https://forum.cursor.com/t/grok-bot-robinhood-agentic-trading-mcp-oauth-fails-after-allow-grokbot-callback-oauth-error/171111>
+- /cases/home-wi-fi-curl-ok-but-streaming-fails-private-relay-cellula-405.html: Home Wi-Fi: curl OK but streaming fails — Private Relay / cellular IP (field-case) <https://forum.cursor.com/t/please-try-again-on-most-messages-computer-stuck-on-starting-desktop-cant-reach-bots-screen/170987>
+- /cases/cursor-password-reset-30-min-authentication-error-auto-recon-406.html: Cursor password reset → ~30 min Authentication error (auto-reconnect) (field-case) <https://forum.cursor.com/t/authentication-errors/170963>
+- /cases/routines-need-cursor-pro-supergrok-cursor-start-won-t-schedu-407.html: Routines need Cursor Pro+ — SuperGrok + Cursor Start won’t schedule (field-case) <https://forum.cursor.com/t/bot-routines-refuse-to-fire/171173>
+- /cases/windows-f-secure-deepguard-delays-local-exec-past-10s-folder-408.html: Windows F-Secure: DeepGuard delays local-exec past 10s (folder exclusions miss Temp) (field-case) <https://forum.cursor.com/t/grok-bot-local-exec-blocked-by-f-secure-on-windows-folder-exclusions-ineffective/171219>
+- /cases/linux-rpm-links-for-grokbot-not-working-409.html: Linux RPM links for GrokBot not working (field-case) <https://forum.cursor.com/t/linux-rpm-links-for-grokbot-not-working/171281>
+- /cases/macos-setup-fails-with-unreachable-bot-name-too-long-410.html: macOS setup fails with unreachable — Bot name too long (field-case) <https://forum.cursor.com/t/grok-bot-macos-initial-setup-fails-agent-computer-unreachable/171270>
+- /cases/can-t-reach-computer-dual-computer-copies-411.html: Can't reach computer — dual computer copies (field-case) <https://forum.cursor.com/t/cant-reach-computer-grok-bot/171186>
+- /cases/windows-kaspersky-https-scan-connecterror-internal-can-t-rea-412.html: Windows Kaspersky HTTPS scan → ConnectError.Internal / Can’t reach computer (field-case) <https://forum.cursor.com/t/grok-bot-0-44-0-windows-can-t-reach-computer-entitlement-read-connecterror-internal-please-re-provision-agent-computer/171308>
+- /cases/server-stored-webhook-routines-desktop-missing-post-url-crsr-413.html: Server-stored webhook routines: desktop missing POST URL / crsr_ key (field-case) <https://forum.cursor.com/t/desktop-grok-bot-webhook-routine-shows-no-post-url-crsr-key-windows-0-47-0/171324>
+- /cases/windows-in-app-update-authenticode-fail-install-setup-exe-ma-414.html: Windows in-app update Authenticode fail → install Setup.exe manually (field-case) <https://forum.cursor.com/t/grok-bot-windows-in-app-update-downloads-then-fails-authenticode-probe-installer-signature-invalid/171265>
+- /cases/desktop-reconnect-re-sync-wipes-secure-card-secrets-415.html: Desktop reconnect re-sync wipes secure-card secrets (field-case) <https://forum.cursor.com/t/grok-bot-box-secrets-wiped-on-desktop-reconnect-mipp-api-keys-production-blocker/171280>
+- /cases/hung-custom-mcp-remotes-delete-via-cursor-com-agents-416.html: Hung custom MCP remotes: delete via cursor.com/agents (field-case) <https://forum.cursor.com/t/grok-bot-hung-custom-mcp-remotes-are-invisible-in-plugins-yours-and-uninstall-also-times-out-discovery-catch-22/168350>
+- /cases/unreachable-from-bot-oom-parallel-fan-out-417.html: Unreachable from Bot OOM / parallel fan-out (field-case) <https://forum.cursor.com/t/grok-bot-computer-unreachable-again-recurring-backend-failure-after-multiple-repairs/170722>
+- /cases/authentication-error-banner-update-grok-bot-s-computer-418.html: Authentication error banner → Update Grok Bot’s Computer (field-case) <https://forum.cursor.com/t/grok-bot-macos-0-44-0-persistent-authentication-error-after-sign-out-sign-in/171164>
+- /cases/higgsfield-mcp-drops-until-you-reconnect-before-use-419.html: Higgsfield MCP drops until you reconnect before use (field-case) <https://forum.cursor.com/t/grok-bot-higgsfield-mcp-disconnects-every-30-60-seconds-and-has-to-be-reconnected/168272>
+- /cases/no-chrome-extension-yet-ios-share-sheet-paste-url-workaround-420.html: No Chrome extension yet — iOS share sheet / paste URL workarounds (field-case) <https://forum.cursor.com/t/grok-bot-chrome-extension/170305>
+- /cases/ubuntu-ecryptfs-sand-client-enametoolong-blocks-first-setup-421.html: Ubuntu eCryptfs: sand-client ENAMETOOLONG blocks first setup (field-case) <https://forum.cursor.com/t/grok-bot-0-47-0-on-ubuntu-24-04-first-time-setup-fails-with-enametoolong-writing-sand-client-huge-token/171438>
+- /cases/secure-card-secrets-miss-running-agent-shells-spawn-a-fresh--422.html: Secure-card secrets miss running agent shells — spawn a fresh agent (field-case) <https://forum.cursor.com/t/token-not-available-in-grok-bot-environment/171441>
+- /cases/signature-agent-grok-bot-computer-chrome-not-cloud-agents-423.html: Signature-Agent = Grok Bot computer Chrome, not Cloud Agents (field-case) <https://forum.cursor.com/t/a-persistent-cursor-browser-generated-high-frequency-requests-against-my-cloudflare-worker/171434>
+- /cases/private-slack-channels-need-invite-cursor-for-routine-trigge-424.html: Private Slack channels need /invite @Cursor for routine triggers (field-case) <https://forum.cursor.com/t/grok-bot-slack-routine-trigger-never-fires-while-test-run-and-slack-return-both-work/171676>
+- /cases/take-over-shows-main-desktop-bot-may-be-on-another-display-x-425.html: Take over shows main desktop — Bot may be on another display (Xvfb) (field-case) <https://forum.cursor.com/t/grok-bot-viewer-blank/171555>
+- /cases/network-debugger-when-computer-is-healthy-but-app-can-t-conn-426.html: Network Debugger when computer is healthy but app can’t connect (Windows) (field-case) <https://forum.cursor.com/t/grok-bot-0-30-0-recover-failed-computer-inaccessible-after-windows-update-bots-visible/171344>
+- /cases/one-bot-silent-failed-to-send-reply-runner-stuck-server-side-427.html: One bot silent / failed to send — reply runner stuck server-side; do NOT Reset (field-case) <https://forum.cursor.com/t/some-of-the-bots-became-unresponsive-failed-to-send-on-my-messages-to-them/171858>
+- /cases/github-issue-assigned-routine-never-fires-on-github-com-428.html: GitHub “issue assigned” routine never fires on github.com (field-case) <https://forum.cursor.com/t/grok-bot-github-issue-assigned-routine-never-fires-5-attempts-recreated-routine-app-has-repo-access/171791>
+- /cases/onboarding-provisioning-fails-create-first-bot-on-mobile-the-429.html: Onboarding provisioning fails — create first Bot on mobile, then Update Computer (field-case) <https://forum.cursor.com/t/grok-bot-onboarding-provisioning-fails-after-3-attempts/171807>
+- /cases/update-state-memory-writes-fail-fleet-wide-write-memory-file-430.html: update_state memory writes fail fleet-wide — write memory files directly; don’t Reset (field-case) <https://forum.cursor.com/t/grok-bot-update-state-memory-writes-fail-fleet-wide-brain-docs-snapshot-was-cut-short-before-completing/171895>
+- /cases/custom-mcp-oauth-dcr-cursor-callback-breaks-cloudflare-https-431.html: Custom MCP OAuth DCR: cursor:// callback breaks Cloudflare https-only allowlists (field-case) <https://forum.cursor.com/t/grok-bot-custom-mcp-oauth-fails-before-sign-in-redirect-uri-not-allowed/171877>
+- /cases/windows-ctrl-settings-shortcut-blocks-traditional-chinese-fu-432.html: Windows Ctrl+, Settings shortcut blocks Traditional Chinese full-width comma (field-case) <https://forum.cursor.com/t/grok-bot-windows-ctrl-settings-shortcut-blocks-traditional-chinese-full-width-comma/171839>
+- /cases/routine-edit-opens-chat-by-design-webhook-panel-needs-deskto-433.html: Routine Edit opens chat by design; webhook panel needs desktop 0.53.0 (field-case) <https://forum.cursor.com/t/can-no-longer-edit-a-routine/171677>
+- /cases/ui-rename-fails-ask-the-bot-to-rename-itself-staff-434.html: UI rename fails — ask the Bot to rename itself (staff) (field-case) <https://forum.cursor.com/t/grok-bot-ui-rename-for-bots-agents-often-fails-to-stick-agent-self-rename-works/171950>
+- /cases/parent-bot-goes-quiet-after-cloud-agent-handoff-staff-435.html: Parent Bot goes quiet after Cloud Agent handoff (staff) (field-case) <https://forum.cursor.com/t/grok-bot-delegated-cloud-agents-are-running-but-parent-bot-appears-idle/172009>
+- /cases/ios-settings-scroll-can-flip-auto-review-scroll-on-the-label-436.html: iOS Settings scroll can flip Auto-review — scroll on the label (staff) (field-case) <https://forum.cursor.com/t/grok-bot-mobile-settings-scroll-activates-toggles-can-disable-agent-guards/172015>
+- /cases/172033-sidebar-sections-desktop-new-section-no-agent-create--437.html: 172033 Sidebar sections: desktop New Section + no agent create tool (field-case) <https://forum.cursor.com/t/grok-bot-agent-tools-to-create-and-manage-sidebar-sections-parity-with-createchannel/172033>
+- /cases/ios-1-11-1-voice-icon-is-a-gradual-account-rollout-staff-438.html: iOS 1.11.1+ Voice icon is a gradual account rollout (staff) (field-case) <https://forum.cursor.com/t/grok-bot-ios-1-11-1-voice-call-icon-missing-after-update/172292>
+- /cases/no-delete-redact-of-sent-messages-use-secure-input-for-secre-439.html: No delete/redact of sent messages — use secure input for secrets (staff) (field-case) <https://forum.cursor.com/t/redact-own-messages-secrets/172071>
+- /cases/forum-grok-bot-computer-stuck-at-43-transferring-your-data-440.html: Forum: Grok Bot computer stuck at 43% Transferring your data (field-case) <https://forum.cursor.com/t/grok-bot-computer-stuck-at-43-transferring-your-data/173086>
+- /cases/forum-grok-bot-hijacks-xdg-text-html-handler-on-linux-441.html: Forum: Grok Bot hijacks XDG text/html handler on Linux (field-case) <https://forum.cursor.com/t/grok-bot-hijacks-xdg-text-html-default-handler-on-linux/173050>
+- /cases/forum-grok-bot-unresponsive-after-update-reset-on-windows-0--442.html: Forum: Grok Bot unresponsive after Update/Reset on Windows 0.59.1 (field-case) <https://forum.cursor.com/t/grok-bot-failed-to-respond-after-update-and-reset-windows-0-59-1/173045>
+- /cases/forum-kaspersky-https-scanning-breaks-grok-bot-api-on-window-443.html: Forum: Kaspersky HTTPS scanning breaks Grok Bot API on Windows (field-case) <https://forum.cursor.com/t/kaspersky-https-scanning-makes-grok-bot-0-59-1-on-windows-fail-every-api-call-with-connecterror-internal-and-leak-over-a-thousand-connections/173062>
+- /cases/forum-grok-bot-agent-computer-reset-stuck-444.html: Forum: Grok Bot Agent Computer Reset Stuck (field-case) <https://forum.cursor.com/t/grok-bot-agent-computer-reset-stuck/173069>
+- /cases/forum-cloudflare-plugin-connected-while-bindings-still-needs-445.html: Forum: Cloudflare plugin Connected while bindings still needsAuth (field-case) <https://forum.cursor.com/t/grok-bot-cloudflare-plugin-shows-connected-while-one-of-its-connectors-bindings-still-needs-auth-ios-and-mac-disagree/173019>
+- /cases/forum-can-t-reach-computer-cursorvm-com-blocked-windows-indi-446.html: Forum: Can’t reach computer / *.cursorvm.com blocked (Windows, India) (field-case) <https://forum.cursor.com/t/grok-bot-cant-reach-your-computer-after-retry-and-recover-cursorvm-com-unreachable-windows-india/173041>
+- /cases/forum-grok-bot-1password-connector-won-t-connect-447.html: Forum: Grok Bot & 1Password connector won’t connect (field-case) <https://forum.cursor.com/t/grokbot-1password/173142>
+- /cases/forum-grok-bot-ios-login-only-offers-accounts-x-ai-no-apple--448.html: Forum: Grok Bot iOS login only offers accounts.x.ai (no Apple SSO) (field-case) <https://forum.cursor.com/t/grok-bot-ios-login-only-offers-accounts-x-ai-cursor-apple-sso-account-not-found/173116>
+- /cases/forum-can-t-reach-computer-for-7-days-after-update-recover-r-449.html: Forum: Can’t reach computer for 7 days after update (Recover/Reset fail) (field-case) <https://forum.cursor.com/t/grok-bot-cant-reach-your-computer-for-7-days-since-update-recover-and-reset-failed-partial-state/173136>
+- /cases/forum-grok-bot-chat-image-file-attachments-fail-to-send-450.html: Forum: Grok Bot chat image/file attachments fail to send (field-case) <https://forum.cursor.com/t/grok-bot-chat-image-file-attachments-fail-to-send-3-pcs-since-2026-09-26-text-ok/173187>
+- /cases/forum-voice-calls-should-integrate-with-the-chat-session-451.html: Forum: voice calls should integrate with the chat session (field-case) <https://forum.cursor.com/t/grok-bot-voice-calls-should-integrate-with-the-chat-session-post-turns-three-part-summary/173241>
+- /cases/forum-grok-bot-agent-stuck-in-working-state-452.html: Forum: Grok Bot agent stuck in Working state (field-case) <https://forum.cursor.com/t/grok-bot-agent-stuck-in-working-state/173218>
+- /cases/forum-show-edit-bot-role-description-in-the-info-pane-453.html: Forum: show/edit Bot role description in the info pane (field-case) <https://forum.cursor.com/t/grok-bot-show-and-edit-bot-role-description-in-the-info-pane-match-docs/173333>
+- /cases/forum-shared-1password-autofill-says-filled-but-password-emp-454.html: Forum: Shared 1Password autofill says Filled but password empty (field-case) <https://forum.cursor.com/t/grok-bot-shared-1password-autofill-says-filled-but-password-stays-empty-instagram/173365>
+- /cases/forum-gmail-connector-rewrites-links-into-google-com-url-red-455.html: Forum: Gmail connector rewrites links into google.com/url redirects (field-case) <https://forum.cursor.com/t/grok-bot-gmail-connector-user-gmail-rewrites-every-link-into-google-com-url-redirects-on-create-draft-and-send-message/173321>
+- /cases/forum-grok-bot-ios-show-webhook-url-for-routines-456.html: Forum: Grok Bot iOS show webhook URL for routines (field-case) <https://forum.cursor.com/t/grok-bot-ios-show-the-webhook-url-for-webhook-triggered-routines/173373>
+- /cases/forum-chief-bot-cannot-message-other-bots-457.html: Forum: Chief bot cannot message other bots (field-case) <https://forum.cursor.com/t/chief-bot-not-talking-to-other-bots/173356>
+- /cases/forum-generateimage-aspect-ratio-ignored-always-1280-720-458.html: Forum: GenerateImage aspect_ratio ignored (always 1280×720) (field-case) <https://forum.cursor.com/t/generateimage-accepts-aspect-ratio-but-sand-drops-it-always-returns-1280x720-jpeg/173363>
+- /cases/forum-per-site-routing-through-my-computer-459.html: Forum: per-site routing through my computer (field-case) <https://forum.cursor.com/t/feature-request-per-site-routing-through-my-computer/173349>
+- /cases/forum-grok-bot-desktop-unreachable-after-installing-vpn-460.html: Forum: Grok Bot desktop unreachable after installing VPN (field-case) <https://forum.cursor.com/t/hey-guys-the-desctop-from-grok-bot-is-offline-for-2-days-and-i-cant-do-anything-with-it/173388>
+- /cases/forum-loss-of-browser-control-desktop-control-tool-missing-461.html: Forum: Loss of Browser control (desktop-control tool missing) (field-case) <https://forum.cursor.com/t/loss-of-browser-control/173319>
+- /cases/forum-grok-bot-computer-will-not-boot-restore-117gb-loop-462.html: Forum: Grok Bot computer will not boot (restore ~117GB loop) (field-case) <https://forum.cursor.com/t/grok-bot-computer-will-not-boot-restore-keeps-copying-117gb-into-home-box-projects-ticket-t-g14112/173436>
+- /cases/forum-grok-bots-missing-after-overnight-training-463.html: Forum: Grok Bots missing after overnight training (field-case) <https://forum.cursor.com/t/grok-bots-missing/173460>
+- /cases/forum-tighter-oauth-scopes-fixed-approval-for-mutable-connec-464.html: Forum: tighter OAuth scopes + fixed approval for mutable connector calls (field-case) <https://forum.cursor.com/t/grok-bot-tighter-oauth-scopes-for-connectors-and-fixed-approval-for-mutable-calls/173450>
+- /cases/forum-asana-connector-redirect-uri-mismatch-465.html: Forum: Asana connector redirect_uri mismatch (field-case) <https://forum.cursor.com/t/asana-connector/173426>
+- /cases/forum-remember-chosen-voice-on-grok-bot-phone-app-466.html: Forum: remember chosen voice on Grok Bot phone app (field-case) <https://forum.cursor.com/t/remember-each-users-chosen-voice-on-the-grok-bot-phone-app/173412>
+- /cases/forum-grok-bot-agents-cannot-connect-mobile-stuck-reconnecti-467.html: Forum: Grok Bot agents cannot connect; mobile stuck reconnecting (field-case) <https://forum.cursor.com/t/grok-bot-agents-cannot-connect-to-cloud-computers-mobile-stuck-reconnecting/173434>
+- /cases/forum-grok-bot-won-t-login-to-google-using-1password-468.html: Forum: Grok Bot won't login to Google using 1Password (field-case) <https://forum.cursor.com/t/grok-bot-wont-login-to-google-account-using-1password/173423>
+- /cases/forum-finance-plaid-cannot-link-a-second-bank-469.html: Forum: Finance/Plaid cannot link a second bank (field-case) <https://forum.cursor.com/t/plaid-multiple-banks/173151>
+- /cases/forum-feature-request-google-chat-connector-470.html: Forum: feature request — Google Chat connector (field-case) <https://forum.cursor.com/t/feature-request-for-grokbot-google-chat-connector/173404>
+- /cases/forum-bot-description-field-missing-on-ubuntu-desktop-v0-63--471.html: Forum: Bot Description field missing on Ubuntu desktop (v0.63.0) (field-case) <https://forum.cursor.com/t/grok-bot-description-field-missing-on-ubuntu-desktop/173483>
+- /cases/forum-grok-bot-computer-outbound-non-https-blocked-since-oct-472.html: Forum: Grok Bot computer outbound non-HTTPS blocked since Oct 1 (field-case) <https://forum.cursor.com/t/grok-bot-computer-all-outbound-non-https-traffic-blocked-since-oct-1-mysql-ssh-imap-smtp-ftp-time-out/173504>
+- /cases/forum-sand-connect-proxy-fails-on-public-hostname-https-473.html: Forum: SAND CONNECT proxy fails on public hostname HTTPS (field-case) <https://forum.cursor.com/t/on-grok-bot-s-cloud-computer-https-through-the-shared-sand-connect-proxy-127-0-0-1-8791-fastly-prod-xai-1-fails-when-connect-uses-my-public-hostname-but-succeeds-when-connect-uses-that-host-s-literal-public-ip/173542>
+- /cases/forum-painting-issues-when-switching-grok-bots-474.html: Forum: painting issues when switching Grok Bots (field-case) <https://forum.cursor.com/t/grok-bot-has-weird-painting-issues-when-switching-bots/173549>
+- /cases/forum-hey-grok-wake-word-equivalent-request-475.html: Forum: “Hey Grok” wake-word equivalent request (field-case) <https://forum.cursor.com/t/hey-grok-equivalent-for-hey-google-or-hey-siri-is-this-even-possible/173550>
+- /cases/forum-how-to-share-a-custom-mcp-a-bot-built-with-the-team-476.html: Forum: how to share a custom MCP a Bot built with the team (field-case) <https://forum.cursor.com/t/how-do-i-share-a-custom-mcp-that-one-of-my-bots-has-built-with-the-rest-of-my-team/173538>
+- /cases/forum-multi-person-speaker-aware-voice-for-grok-bot-477.html: Forum: multi-person / speaker-aware voice for Grok Bot (field-case) <https://forum.cursor.com/t/multi-person-speaker-aware-voice-for-grok-bot-room-scribe-for-live-research-conversation/173569>
+- /cases/forum-update-needed-4-times-to-reach-latest-computer-image-478.html: Forum: Update needed ~4 times to reach latest computer image (field-case) <https://forum.cursor.com/t/grok-bot-computer-update-needed-4-consecutive-update-presses-to-reach-latest-image/173562>
+- /cases/forum-bot-computer-silently-restored-to-sep-28-snapshot-479.html: Forum: Bot computer silently restored to Sep 28 snapshot (field-case) <https://forum.cursor.com/t/grok-bot-computer-silently-restored-to-a-sep-28-snapshot-overnight-3-days-of-box-files-sep-29-oct-1-lost-no-update-reset-pressed/173623>
+- /cases/forum-grok-bot-computers-stuck-in-can-t-reach-state-480.html: Forum: Grok Bot Computers stuck in Can't reach state (field-case) <https://forum.cursor.com/t/grok-bot-computers-stuck-in-cant-reach-state/173607>
+- /cases/grok-bot-vs-cursor-projects-481.html: Grok Bot vs Cursor Projects (field-case) <https://forum.cursor.com/t/grok-bot-vs-cursor-projects/171375>
+- /cases/1password-vercel-preview-links-482.html: 1Password + Vercel Preview Links (field-case) <https://forum.cursor.com/t/1password-vercel-preview-links/173544>
+- /cases/grok-bot-update-reset-stuck-on-backup-not-ready-endless-tran-483.html: Grok Bot: Update/Reset stuck on “Backup not ready” / endless “Transferring data” (field-case) <https://forum.cursor.com/t/grok-bot-update-reset-stuck-on-backup-not-ready-endless-transferring-data/172343>
+- /cases/forum-grok-bots-failing-to-respond-again-484.html: Forum: Grok Bots failing to respond again (field-case) <https://forum.cursor.com/t/grok-bots-failing-to-respond-again/173658>
+- /cases/forum-grok-bot-computer-reprovisioned-126gb-16gb-full-485.html: Forum: Grok Bot computer reprovisioned 126GB→16GB full (field-case) <https://forum.cursor.com/t/grok-bot-computer-reprovisioned-from-126gb-to-16gb-and-immediately-100-full-ticket-t-g55930/173656>
+- /cases/forum-stuck-grokbot-need-a-runner-restart-486.html: Forum: Stuck GrokBot — need a runner restart? (field-case) <https://forum.cursor.com/t/stuck-grokbot-need-a-runner-restart/173665>
+- /cases/forum-grok-bot-finance-plaid-verification-codes-never-arrive-487.html: Forum: Grok Bot Finance (Plaid) verification codes never arrive (field-case) <https://forum.cursor.com/t/grok-bot-finance-plaid-bank-verification-codes-never-arrive-two-institutions/173651>
+- /cases/forum-4-of-10-agents-lost-computer-use-reset-loops-t-g45278-488.html: Forum: 4 of 10 agents lost computer-use; Reset loops (T-G45278) (field-case) <https://forum.cursor.com/t/grok-bot-4-of-my-10-agents-lost-computer-use-browser-tool-reset-fails-in-a-loop-ticket-t-g45278-stuck-only-bot-replies/173686>
+- /cases/forum-gmail-send-arrives-with-broken-null-mime-boundary-489.html: Forum: Gmail send arrives with broken "--null" MIME boundary (field-case) <https://forum.cursor.com/t/grok-bot-gmail-send-emails-arrive-with-broken-null-mime-boundary/173684>
+- /cases/forum-scheduled-routines-fail-with-activity-task-failed-490.html: Forum: scheduled routines fail with "Activity task failed" (field-case) <https://forum.cursor.com/t/grok-bot-scheduled-routines-fail-with-activity-task-failed-no-reason-shown/173672>
+- /cases/forum-android-conversation-mode-voice-settings-always-revert-491.html: Forum: Android Conversation Mode voice settings always revert (field-case) <https://forum.cursor.com/t/on-mobile-android-voice-settings-in-conversation-mode-always-revert-back-to-default/173646>
+- /cases/forum-messages-delayed-24-26-minutes-for-8-days-t-g23547-492.html: Forum: messages delayed 24–26 minutes for 8 days (T-G23547) (field-case) <https://forum.cursor.com/t/grok-bot-messages-delayed-24-26-minutes-for-8-days-ticket-t-g23547-email-only-answered-by-sam/173700>
+- /cases/forum-add-voice-replies-tts-for-grok-bot-493.html: Forum: add voice replies (TTS) for Grok Bot (field-case) <https://forum.cursor.com/t/grok-bot-add-voice-replies-text-to-speech-so-i-can-listen-instead-of-read/173693>
+- /cases/forum-new-event-grok-bot-zarzal-meetup-17-oct-494.html: Forum: New event — Grok Bot Zarzal Meetup (17 Oct) (field-case) <https://forum.cursor.com/t/new-event-grok-bot-zarzal-meetup/173707>
+- /cases/forum-new-event-grok-hackathon-at-the-museum-pavia-495.html: Forum: New event — Grok Hackathon at the Museum (Pavia) (field-case) <https://forum.cursor.com/t/new-event-grok-hackathon-at-the-museum/173708>
+- /cases/forum-desktop-take-over-stuck-on-connecting-and-screenshot-b-496.html: Forum: desktop take-over stuck on "connecting" and Screenshot blocked under high load on a shared box (field-case) <https://forum.cursor.com/t/desktop-take-over-stuck-on-connecting-screenshot-blocked-by-credential-fill-guard-during-high-cpu-load-on-a-shared-box/173731>
+- /cases/forum-grok-bot-group-chats-should-return-generated-pdfs-and--497.html: Forum: Grok Bot group chats should return generated PDFs and images as native attachments (field-case) <https://forum.cursor.com/t/grok-bot-group-chats-return-generated-pdf-and-image-files-as-native-attachments/173730>
+- /cases/forum-grok-bot-0-66-0-macos-local-exec-daemon-gets-sigterm-o-498.html: Forum: Grok Bot 0.66.0 macOS local-exec daemon gets SIGTERM on a locked Mac and never returns (field-case) <https://forum.cursor.com/t/grok-bot-0-66-0-macos-local-exec-daemon-gets-sigterm-on-an-unattended-locked-mac-and-is-not-restored-when-the-bot-needs-the-machine/173728>
+- /cases/forum-chrome-on-the-grok-bot-computer-times-out-on-every-sit-499.html: Forum: Chrome on the Grok Bot computer times out on every site while the egress proxy hangs (field-case) <https://forum.cursor.com/t/grok-bot-computer-chrome-err-timed-out-on-every-site-update-says-up-to-date-reset-didnt-help/173750>
+- /cases/forum-browser-snapshot-exposes-a-password-filled-by-the-secu-500.html: Forum: browser snapshot exposes a password filled by the Secure Form in plain text (field-case) <https://forum.cursor.com/t/grok-bot-browser-snapshot-shows-a-password-filled-by-the-secure-form-requestuserform-in-plain-text/173748>
+- /cases/forum-grok-bot-computer-auto-recreated-from-an-incomplete-co-501.html: Forum: Grok Bot computer auto-recreated from an incomplete copy, recent data missing (field-case) <https://forum.cursor.com/t/grok-bot-was-reprovisioned-to-a-new-context-but-recent-data-from-the-previous-computer-was-not-carried-over/173771>
+- /cases/forum-request-show-a-connection-status-indicator-in-grok-bot-502.html: Forum request: show a connection status indicator in Grok Bot (field-case) <https://forum.cursor.com/t/add-a-connection-status-indicator-to-grok-bot/173758>
+- /cases/forum-grok-bot-ios-often-opens-a-bot-to-a-blank-conversation-503.html: Forum: Grok Bot iOS often opens a bot to a blank conversation (field-case) <https://forum.cursor.com/t/grok-bot-ios-opening-a-bot-often-shows-a-completely-blank-conversation-only-force-quitting-and-reopening-the-app-fixes-it/173776>
+- /cases/forum-grok-bot-s-1password-vault-stuck-at-a-stale-item-count-504.html: Forum: Grok Bot's 1Password vault stuck at a stale item count (field-case) <https://forum.cursor.com/t/grok-bot-1password-vault-item-count-stuck-after-edits-stale-sync/173781>
+- /cases/forum-computer-stuck-on-starting-desktop-and-mobile-shows-se-505.html: Forum: computer stuck on "Starting desktop" and mobile shows "Send after reconnect" (field-case) <https://forum.cursor.com/t/grok-bots-computer-is-stuck-on-starting-desktop-with-cant-reach-grok-bots-screen-attachments-wont-download-and-the-mobile-app-shows-send-after-reconnect-with-no-response/173788>
+- /cases/forum-windows-full-screen-computer-view-has-no-way-back-to-c-506.html: Forum: Windows full-screen computer view has no way back to chat (field-case) <https://forum.cursor.com/t/windows-full-agent-computer-view-has-no-way-back-to-chat/173791>
+- /cases/forum-request-carplay-support-for-grok-bot-507.html: Forum request: CarPlay support for Grok Bot (field-case) <https://forum.cursor.com/t/add-carplay-support-for-grok-bot/173797>
+- /cases/forum-bot-instructions-missing-from-the-macos-desktop-detail-508.html: Forum: Bot instructions missing from the macOS desktop details pane (field-case) <https://forum.cursor.com/t/grok-bot-macos-unable-to-see-or-edit-bot-instructions-or-skills-on-desktop/173803>
+- /cases/forum-request-landscape-mode-for-the-grok-bot-computer-on-mo-509.html: Forum request: landscape mode for the Grok Bot computer on mobile (field-case) <https://forum.cursor.com/t/show-grok-bot-computer-in-landscape-mode-on-mobile/173806>
+- /cases/forum-bot-computers-lost-network-on-6-oct-2026-510.html: Forum: Bot Computers lost network on 6 Oct 2026 (field-case) <https://forum.cursor.com/t/grok-bot-not-connecting-to-computer/173873>
+- /cases/forum-bot-failed-to-respond-on-every-bot-during-a-short-outa-511.html: Forum: "Bot failed to respond" on every Bot during a short outage (field-case) <https://forum.cursor.com/t/grok-bot-failed-to-respond-on-every-bot-after-reset-recover-computer/173919>
+- /cases/forum-bot-computer-dns-at-198-18-0-53-timing-out-512.html: Forum: Bot Computer DNS at 198.18.0.53 timing out (field-case) <https://forum.cursor.com/t/grok-bot-computer-dns-dead-198-18-0-53-times-out-update-unavailable-files-arent-ready/173903>
+- /cases/forum-webhook-url-hidden-on-linux-0-68-1-and-how-to-find-it-513.html: Forum: webhook URL hidden on Linux 0.68.1 and how to find it (field-case) <https://forum.cursor.com/t/grok-bot-webhooks-dont-appear-on-desktop-linux-version/173891>
+- /cases/forum-chat-looked-frozen-after-the-bot-s-computer-restarted-514.html: Forum: chat looked frozen after the Bot's computer restarted (field-case) <https://forum.cursor.com/t/my-grok-bot-seems-to-be-stuck/173860>
+- /cases/forum-grok-bot-computer-wedged-since-oct-5-shell-hangs-and-u-515.html: Forum: Grok Bot computer wedged since Oct 5, Shell hangs and Update/Reset don't help (field-case) <https://forum.cursor.com/t/grok-bot-shared-computer-fully-wedged-since-2026-10-05-shell-dead-update-recover-reset-all-fail-please-reprovision/173881>
+- /cases/forum-grok-bot-0-68-1-can-t-reach-the-computer-delete-fails--516.html: Forum: Grok Bot 0.68.1 can't reach the computer, delete fails and Update does nothing (field-case) <https://forum.cursor.com/t/grok-bot-0-68-1-macos-cant-reach-computer-delete-fails-update-does-nothing/173950>
+- /cases/forum-every-browser-action-fails-with-a-credential-check-err-517.html: Forum: every browser action fails with a credential-check error (field-case) <https://forum.cursor.com/t/my-browser-blocks-every-action-with-a-credential-check-error/173944>
+- /cases/forum-grok-bot-computers-slowed-by-host-load-on-7-oct-2026-518.html: Forum: Grok Bot computers slowed by host load on 7 Oct 2026 (field-case) <https://forum.cursor.com/t/grok-bot-computer-very-slow-high-cpu-steal-and-i-o-stalls-wh/173995>
+- /cases/forum-chat-pane-turns-black-after-switching-chats-519.html: Forum: chat pane turns black after switching chats (field-case) <https://forum.cursor.com/t/grok-bot-chat-pane-goes-black-after-switching-chats-until-in/174005>
+- /cases/forum-request-to-change-the-login-email-on-a-cursor-grok-bot-520.html: Forum: request to change the login email on a Cursor / Grok Bot account (field-case) <https://forum.cursor.com/t/please-let-us-change-the-email-on-our-cursor-grok-bot-accoun/174007>
+- /cases/forum-bots-failed-to-respond-and-reset-failed-on-8-oct-2026-521.html: Forum: Bots failed to respond and Reset failed on 8 Oct 2026 (field-case) <https://forum.cursor.com/t/grok-bot-reset-failed-computer-stuck-in-a-partial-state/174033>
+- /cases/forum-can-t-reach-your-computer-after-the-trial-ended-522.html: Forum: "can't reach your computer" after the trial ended (field-case) <https://forum.cursor.com/t/grok-bot-completely-unusable-recovery-and-reset-both-fail/174022>
+- /cases/forum-grok-bot-s-own-host-process-filling-the-computer-s-mem-523.html: Forum: Grok Bot's own host process filling the computer's memory (field-case) <https://forum.cursor.com/t/memory-bleeding/174021>
+- /cases/forum-request-to-let-grok-bot-use-your-local-computer-s-scre-524.html: Forum: request to let Grok Bot use your local computer's screen (field-case) <https://forum.cursor.com/t/local-computer-use-for-grok-bots/174043>
+- /cases/forum-request-to-export-full-chat-transcripts-525.html: Forum: request to export full chat transcripts (field-case) <https://forum.cursor.com/t/export-chat-transcripts-in-the-app-and-from-the-bot-itself/174063>
+- /cases/forum-scheduled-routines-failed-for-everyone-on-8-oct-2026-526.html: Forum: scheduled routines failed for everyone on 8 Oct 2026 (field-case) <https://forum.cursor.com/t/all-grok-bot-routines-failed-to-run/174125>
+- /cases/forum-one-bot-stuck-on-failed-to-respond-because-of-its-chat-527.html: Forum: one Bot stuck on "failed to respond" because of its chat history (field-case) <https://forum.cursor.com/t/grok-bot-primary-bot-silent-bot-failed-to-respond-since-oct-8-other-bots-ok-restart-this-bots-runner-only-do-not-reset/174138>
+- /cases/forum-bots-sending-a-bare-in-1-1-and-team-chats-528.html: Forum: Bots sending a bare "." in 1:1 and team chats (field-case) <https://forum.cursor.com/t/grok-bots-keep-typing-single-in-chat/174148>
+- /cases/forum-remote-mcp-header-missing-on-reused-sessions-http-400-529.html: Forum: remote MCP header missing on reused sessions (HTTP 400) (field-case) <https://forum.cursor.com/t/grok-bot-remote-mcp-requests-omit-mcp-protocol-version-on-reused-sessions-causing-empty-http-400/174114>
+- /cases/forum-updateroutine-rejects-email-trigger-on-claimed-inbox-530.html: Forum: UpdateRoutine rejects email trigger on claimed inbox (field-case) <https://forum.cursor.com/t/grok-bot-updateroutine-rejects-email-trigger-even-with-valid-inbox-address/174234>
+- /cases/forum-macos-local-computer-stays-disconnected-until-app-focu-531.html: Forum: macOS local computer stays disconnected until app focused (field-case) <https://forum.cursor.com/t/grok-bot-0-68-1-macos-mac-shows-disconnected-while-awake-and-in-use-local-computer-doesnt-reconnect-until-app-is-focused/174223>
+- /cases/forum-enterprise-can-admins-block-members-creating-bots-532.html: Forum: Enterprise — can admins block members creating bots? (field-case) <https://forum.cursor.com/t/grok-bot-enterprise-can-admins-prevent-users-from-creating-their-own-bots/174226>
+- /cases/forum-bots-error-out-on-scientific-literature-review-533.html: Forum: bots error out on scientific literature review (field-case) <https://forum.cursor.com/t/grok-bot-bots-error-out-and-stop-responding-whenever-i-ask-for-a-scientific-literature-review-reset-didnt-help/174218>
+- /cases/forum-no-way-to-view-or-export-shared-user-memory-534.html: Forum: no way to view or export shared user memory (field-case) <https://forum.cursor.com/t/grok-bot-no-way-to-view-or-export-shared-user-memory-unlike-grok-chats-memory-md/174198>
+- /cases/forum-computer-stuck-starting-up-after-oct-8-reset-blocked-535.html: Forum: computer stuck starting up after Oct 8; Reset blocked (field-case) <https://forum.cursor.com/t/grok-bot-computer-stuck-starting-up-update-reset-blocked-please-recover-server-side/174158>
+- /cases/casjam-s-13-bot-product-org-536.html: CasJam's 13-bot product org (field-case) <https://x.com/CasJam/status/2093762642867581359>
+- /cases/tyler-s-two-doors-537.html: Tyler's two doors (field-case) <https://x.com/TylerNishida/status/2093426221732532457>
+- /cases/mo-bitar-s-eight-bot-shop-538.html: Mo Bitar's eight-bot shop (field-case) <https://atmoio.substack.com/p/i-went-in-ready-to-hate-grok-bot>
+- /cases/remy-s-alfred-gordon-and-florence-539.html: Remy's Alfred, Gordon, and Florence (field-case) <https://aiwithremy.beehiiv.com/p/what-i-m-actually-using-grok-bot-for>
+- /cases/billy-howell-s-arlington-bagel-540.html: Billy Howell's Arlington Bagel (field-case) <https://www.thefuturist.co/making-with-grok-bot/>
+- /cases/dennis-yu-s-twelve-ops-desks-541.html: Dennis Yu's twelve ops desks (field-case) <https://dennisyu.com/how-i-use-grok-bot/>
+- /cases/chris-maconi-s-hechura-roster-542.html: Chris Maconi's Hechura roster (field-case) <https://www.linkedin.com/posts/chrismaconi_people-are-asking-me-how-we-are-using-grok-activity-7496571167063916544-j7IO>
+- /cases/rick-hightower-s-spillwave-second-brain-543.html: Rick Hightower's Spillwave second brain (field-case) <https://rickhigh.substack.com/p/grok-bot-claude-code-and-codex-share>
+- /cases/household-grok-bot-swarm-544.html: Household Grok Bot Swarm (field-case) <https://ylgibby.github.io/grokbot-household-swarm/>
+- /cases/markus-buehler-four-photos-to-a-bambu-h2d-print-545.html: Markus Buehler, four photos to a Bambu H2D print (field-case) <https://www.linkedin.com/posts/markus-j-buehler-2245682_grok-bot-is-incredible-the-bots-move-naturally-activity-7496875174911291392-LO9a>
+- /cases/matthew-berman-s-eleven-live-jobs-546.html: Matthew Berman's eleven live jobs (field-case) <https://www.youtube.com/watch?v=5CSXUsljJ_E>
+- /cases/debbie-s-first-look-coding-and-linkedin-547.html: Debbie's first-look coding and LinkedIn (field-case) <https://dev.to/debs_obrien/grok-bot-just-dropped-and-i-had-to-try-it-2bnf>
+- /cases/flocker-dumps-a-live-bot-computer-548.html: Flocker dumps a live Bot computer (field-case) <https://flocker.md/blog/grok-bot-roles-workspace-and-specs/>
+- /cases/template-import-drops-skills-549.html: Template import drops skills (field-case) <https://forum.cursor.com/t/grok-bot-templates-preview-shows-skills-but-the-export-ships-skills-skills-are-never-delivered/169911>
+- /cases/terminal-notes-on-grok-build-grok-code-550.html: Terminal notes on Grok Build (grok code) (comparison) <https://github.com/grok-code-dev/grok-code-dev.github.io>
+- /cases/the-verge-an-ai-teammate-you-can-assign-work-551.html: The Verge: an AI teammate you can assign work (comparison) <https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch>
+- /cases/venturebeat-persistent-digital-coworkers-552.html: VentureBeat: persistent digital coworkers (comparison) <https://venturebeat.com/orchestration/spacexais-grok-bot-turns-agents-into-persistent-digital-coworkers-that-can-operate-your-apps-for-120-per-month>
+- /cases/lenny-s-newsletter-grok-bot-grok-4-6-and-cursor-553.html: Lenny's Newsletter: Grok Bot, Grok 4.6, and Cursor (comparison) <https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor>
+- /cases/grok-bot-vs-openclaw-554.html: Grok Bot vs OpenClaw (comparison) <https://myclaw.ai/blog/grok-bot-vs-openclaw>
+- /cases/grok-bot-vs-openclaw-vs-chatgpt-555.html: Grok Bot vs OpenClaw vs ChatGPT (comparison) <https://www.mindstudio.ai/blog/grok-bot-vs-openclaw-chatgpt>
+- /cases/grok-bot-vs-chatgpt-for-work-556.html: Grok Bot vs ChatGPT for work (comparison) <https://www.eigent.ai/blog/grok-bot-vs-chatgpt-work>
+- /cases/grok-bot-vs-claude-cowork-557.html: Grok Bot vs Claude Cowork (comparison) <https://www.eigent.ai/blog/grok-bot-vs-claude-cowork>
+- /cases/youtube-grok-bot-vs-openclaw-and-hermes-558.html: YouTube: Grok Bot vs OpenClaw and Hermes (comparison) <https://www.youtube.com/watch?v=sAoTrUijP4g>
+- /cases/10-best-grok-bot-alternatives-2026-559.html: 10 Best Grok Bot Alternatives (2026) (comparison) <https://www.vellum.ai/blog/best-grok-bot-alternatives>
+- /cases/before-you-hire-a-200-grok-bot-560.html: Before You Hire a $200 Grok Bot (comparison) <https://zchmael.substack.com/p/before-you-hire-a-200-grok-bot-ai>
+- /cases/cellcog-grok-bot-pricing-after-the-20-pro-expansion-561.html: CellCog: Grok Bot pricing after the $20 Pro expansion (comparison) <https://cellcog.ai/blog/grok-bot-pricing/>
+- /cases/what-is-grok-bot-the-real-cost-hidden-risks-562.html: What is Grok Bot? The Real Cost & Hidden Risks (comparison) <https://4geeks.com/en/blog/ai-tools/what-is-grok-bot>
+- /cases/trusty-tools-grok-bot-competitive-comparable-research-pack-563.html: trusty-tools Grok Bot competitive/comparable research pack (comparison) <https://github.com/bobmatnyc/trusty-tools>
+- /cases/engadget-spacexai-grok-bot-early-beta-how-to-try-it-564.html: Engadget — SpaceXAI Grok Bot early beta: how to try it (comparison) <https://www.engadget.com/2259931/spacexai-grok-bot-early-beta-how-to-try/>
+- /cases/windows-mode-openai-dots-vs-grok-bot-devday-2026-565.html: Windows Mode — OpenAI Dots vs Grok Bot (DevDay 2026) (comparison) <https://www.windowsmode.com/openai-dots-always-on-agent>
+- /cases/how-autonomous-is-grok-bot-really-introchek-566.html: How Autonomous Is Grok Bot Really? (IntroChek) (comparison) <https://introchek.com/how-autonomous-is-grok-bot-really/>
+- /cases/buzzrag-grok-bot-review-ai-agents-for-business-automation-567.html: BuzzRAG: Grok Bot Review — AI Agents for Business Automation (comparison) <https://buzzrag.com/article/grok-bot-review-ai-agents-business-automation>
+- /cases/build-fast-with-ai-grok-bot-review-ai-teammates-pricing-is-i-568.html: Build Fast with AI: Grok Bot Review — AI Teammates, Pricing & Is It Worth It? (comparison) <https://blog.buildfastwithai.com/grok-bot-review-ai-teammates-pricing-is-it-worth-it-2026>
+- /cases/grokbot-guru-grok-bot-s-new-primary-bot-offers-to-do-work-be-569.html: grokbot.guru: Grok Bot's new Primary Bot offers to do work before you ask (comparison) <https://grokbot.guru/primary-bot-proactive-suggestions/>
+- /cases/top5apps-grok-bot-review-oct-2026-570.html: Top5Apps: Grok Bot review (Oct 2026) (comparison) <https://top5apps.ai/best-ai-apps/best-personal-ai-agents/grok-bot/>
+- /cases/progressive-robot-primary-bot-and-grok-4-7-explained-571.html: Progressive Robot: Primary Bot and Grok 4.7 explained (comparison) <https://www.progressiverobot.com/2026/10/02/primary-bot-grok-4-7-base-model-proactive-grok-bot/>
+- /cases/the-next-web-grok-bot-will-also-use-claude-midjourney-and-su-572.html: The Next Web: Grok Bot will also use Claude, Midjourney and Suno models (comparison) <https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk>
+- /cases/9to5mac-how-to-claim-your-grok-bot-email-address-573.html: 9to5Mac: how to claim your Grok Bot email address (comparison) <https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/>
+- /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
+- /cases/grokbot-devflow-shp-agent-team-workflow-575.html: GrokBot DevFlow — SHP agent team workflow (guide) <https://github.com/sheepnir/GrokBot_DevFlow>
+- /cases/grok-bot-poc-cli-linkedin-playbook-576.html: Grok Bot POC + CLI/LinkedIn playbook (guide) <https://github.com/rifaterdemsahin/grokbot>
+- /cases/panda-labs-verification-loop-for-grok-bot-teams-577.html: Panda Labs verification loop for Grok Bot teams (guide) <https://github.com/PandaHK-Hub/verification-loop>
+- /cases/grok-bot-field-notes-chinese-edition-578.html: Grok Bot Field Notes (Chinese edition) (guide) <https://github.com/siyuanfeng636-cpu/grokbot-field-notes-zh>
+- /cases/grok-bot-galaxy-ebook-summary-portuguese-579.html: Grok Bot Galaxy ebook summary (Portuguese) (guide) <https://github.com/simiao-cavalcante/grok-bot-galaxy>
+- /cases/grok-bot-galaxy-livestream-archive-searchable-transcripts-580.html: Grok Bot Galaxy livestream archive — searchable transcripts (guide) <https://github.com/peterdays/grok-bot-galaxy-livestream-archive>
+- /cases/grok-bot-asar-recovery-tree-sitter-startup-fix-581.html: Grok Bot asar recovery — tree-sitter startup fix (guide) <https://github.com/Pitchfork-and-Torch/grok-bot-asar-recovery>
+- /cases/grok-bot-hermes-remote-ssh-linkup-handoff-582.html: Grok Bot ↔ Hermes Remote — SSH linkup handoff (guide) <https://github.com/0x-wzw/hermes-grok-ssh-handoff>
+- /cases/grok-bot-galaxy-archive-whisper-bot-metadata-583.html: Grok Bot Galaxy Archive — Whisper + bot metadata (guide) <https://github.com/weichselbaum/grok-bot-galaxy-archive>
+- /cases/grokbot-galaxy-corpus-days-1-3-retrieval-pack-584.html: GrokBot Galaxy Corpus — Days 1–3 retrieval pack (guide) <https://github.com/KJ5IRQ/grokbot-galaxy-corpus>
+- /cases/grok-bot-garmin-coach-mcp-setup-guide-585.html: Grok Bot Garmin Coach — MCP setup guide (guide) <https://github.com/mellor28/grokbot-garmin-coach-setup>
+- /cases/how-to-get-started-with-grok-bot-586.html: How to Get Started with Grok Bot (guide) <https://debbie.codes/blog/how-to-get-started-with-grok-bot>
+- /cases/grok-bot-masterclass-587.html: Grok Bot Masterclass (guide) <https://www.dailydoseofds.com/p/grok-bot-masterclass/>
+- /cases/how-to-set-up-grok-bot-and-build-your-first-ai-agents-588.html: How to Set Up Grok Bot and Build Your First AI Agents (guide) <https://www.mindstudio.ai/blog/grok-bot-setup-guide>
+- /cases/grok-bot-explained-589.html: Grok Bot Explained (guide) <https://www.ayautomate.com/blog/grok-bot-xai-ai-agents-explained>
+- /cases/hand-off-real-work-across-your-apps-590.html: Hand Off Real Work Across Your Apps (guide) <https://app.therundown.ai/guides/hand-off-real-work-across-your-apps-with-grok-bot>
+- /cases/connect-multiple-slack-workspaces-591.html: Connect Multiple Slack Workspaces (guide) <https://www.usecarly.com/blog/how-to-connect-multiple-slack-workspaces-to-grok-bot/>
+- /cases/peter-yang-5-must-try-use-cases-592.html: Peter Yang: 5 Must-Try Use Cases (guide) <https://www.youtube.com/watch?v=MkVcHbviYOw>
+- /cases/alex-finn-setup-that-actually-sticks-593.html: Alex Finn: setup that actually sticks (guide) <https://www.youtube.com/watch?v=vrgO4D_mUlA>
+- /cases/nate-herk-grok-bot-is-for-real-594.html: Nate Herk: Grok Bot is For Real (guide) <https://www.youtube.com/watch?v=PQBYZQqan2g>
+- /cases/teach-a-task-by-screen-recording-595.html: Teach a task by screen recording (guide) <https://x.com/_avichawla/status/2089817006065496530>
+- /cases/use-the-remote-computer-from-your-phone-596.html: Use the remote computer from your phone (guide) <https://x.com/bot/status/2089802847223468116>
+- /cases/uncle-gizmo-notes-597.html: Uncle-Gizmo notes (guide) <https://github.com/Uncle-Gizmo/grok-bot-info>
+- /cases/grok-bot-for-gtm-598.html: Grok Bot for GTM (guide) <https://github.com/bcharleson/grokbot-for-gtm>
+- /cases/paul-j-lipsky-cursor-just-released-grok-bot-599.html: Paul J Lipsky: Cursor Just Released Grok Bot (guide) <https://www.youtube.com/watch?v=QTcZPI-g7is>
+- /cases/grok-bot-600.html: Grok Bot 橙皮书 (guide) <https://github.com/KinGao294/grok-bot-orange-book>
+- /cases/john-bai-the-grok-bot-design-journey-dive-club-601.html: John Bai — The Grok Bot design journey (Dive Club) (guide) <https://www.youtube.com/watch?v=E-VxnQO73s4>
+- /cases/yuanyijie-learn-grok-bot-602.html: yuanyijie/learn-grok-bot (guide) <https://github.com/yuanyijie/learn-grok-bot>
+- /cases/a-deep-dive-into-grok-bot-603.html: A deep dive into Grok Bot (guide) <https://flaviocopes.com/grok-bot/>
+- /cases/lavx-a-deep-dive-into-grok-bot-604.html: LAVX: a deep dive into Grok Bot (guide) <https://news.lavx.hu/article/a-deep-dive-into-grok-bot>
+- /cases/grok-bot-plays-605.html: Grok Bot Plays (guide) <https://github.com/ZooHero500/plays>
+- /cases/s-hiraoku-grok-bot-playbook-606.html: s-hiraoku/grok-bot-playbook (guide) <https://github.com/s-hiraoku/grok-bot-playbook>
+- /cases/mkay00-grok-bot-second-brain-607.html: mKay00/grok-bot-second-brain (guide) <https://github.com/mKay00/grok-bot-second-brain>
+- /cases/maplefukku-grok-bot-ops-608.html: maplefukku/grok-bot-ops (guide) <https://github.com/maplefukku/grok-bot-ops>
+- /cases/technocore-grok-bot-609.html: Technocore Grok Bot 日本語ガイド (guide) <https://github.com/hariou/technocore-grokbot-ja>
+- /cases/grok-bot-getting-started-hubs-610.html: Grok Bot Getting Started hubs (guide) <https://github.com/mrlynn/grok-bot-getting-started>
+- /cases/grok-bot-611.html: Grok Bot 蓝皮书 (guide) <https://github.com/rockyzhuo/grok-bot-blue-book>
+- /cases/grokbot-field-guide-8-use-cases-612.html: Grokbot Field Guide (8 use cases) (guide) <https://github.com/tal-giladi/grokbot-field-guide>
+- /cases/grok-bot-setup-5-pitfalls-guide-613.html: Grok Bot setup & 5 pitfalls guide (guide) <https://github.com/dadamingmax/Grok-Bot-Setup-and-Usage-Guide>
+- /cases/china-grok-bot-install-tutorial-614.html: China Grok Bot install tutorial (guide) <https://github.com/jobinben/Grok-Bot-Tutorial>
+- /cases/grok-bot-handbook-grokbot-run-615.html: Grok Bot handbook (grokbot.run) (guide) <https://grokbot.run/>
+- /cases/grok-bot-fleet-ops-lessons-616.html: Grok Bot fleet ops lessons (guide) <https://github.com/jasonpalmer1/grok-fleet-lessons>
+- /cases/grok-bot-spec-to-ship-kit-617.html: Grok Bot Spec-to-Ship kit (guide) <https://github.com/Iron-Mark/grok-bot-spec-to-ship>
+- /cases/grok-bot-bluebook-618.html: Grok Bot Bluebook (管家手册) (guide) <https://github.com/Backtthefuture/grokbot-bluebook>
+- /cases/unifi-cursor-grok-bot-mcp-setup-619.html: UniFi + Cursor/Grok Bot MCP setup (guide) <https://github.com/joemartinxiii/unifi-cursor-grok-bot>
+- /cases/grok-bot-complete-guide-zh-2026-620.html: Grok Bot complete guide (zh, 2026) (guide) <https://github.com/xianyu110/grokbot>
+- /cases/spacexai-cursor-grok-bot-workshop-es-621.html: SpaceXAI / Cursor / Grok Bot workshop (ES) (guide) <https://github.com/shiarauzo/grok-bot-cursor-workshop>
+- /cases/grokbot-run-english-handbook-622.html: grokbot.run English handbook (guide) <https://github.com/kibovrwa/grokbot-run>
+- /cases/grokbot-learning-storyboard-623.html: GrokBot Learning storyboard (guide) <https://github.com/rajvictor1/grokbot-learning>
+- /cases/grok-bot-personal-playbook-624.html: 無為 Grok Bot personal playbook (guide) <https://github.com/bianwuwei/grok-bot-playbook>
+- /cases/grok-bot-github-mobile-tutorial-625.html: Grok Bot + GitHub mobile tutorial (guide) <https://github.com/GalacticOrgOfDev/grok-bot-github-tutorial>
+- /cases/grok-bot-getting-started-chinese-guide-626.html: Grok Bot getting started (Chinese guide) (guide) <https://github.com/bianwuwei/grok-bot-getting-started>
+- /cases/hermes-agent-inside-grok-bot-cloud-computer-627.html: Hermes Agent inside Grok Bot cloud computer (guide) <https://github.com/carlosthiene/grok-bot-hermes>
+- /cases/grokbot-email-tool-design-research-chat-628.html: Grokbot email-tool design research chat (guide) <https://github.com/mit-bach/grokbot-ai-tool-design-research>
+- /cases/grok-bot-agent-blueprint-early-ai-dopters-629.html: Grok Bot Agent Blueprint (Early AI-dopters) (guide) <https://github.com/earlyaidopters/gumroad-resources>
+- /cases/grok-bot-field-manual-site-seawind-000666-best-630.html: Grok Bot field manual site (seawind / 000666.BEST) (guide) <https://github.com/Cunhe/grok-bot-manual>
+- /cases/grok-bot-ai-customer-support-team-companion-files-631.html: Grok Bot AI customer support team — companion files (guide) <https://github.com/agenteer/grok-bot-ai-customer-support-team>
+- /cases/department-grok-bot-playbook-23-role-it-roster-632.html: Department Grok Bot Playbook — 23-role IT roster (guide) <https://github.com/ericbrianpearson/department-grok-bot-playbook>
+- /cases/how-i-use-grok-bot-aaron-smiley-walkthrough-633.html: How I Use Grok Bot — Aaron Smiley walkthrough (guide) <https://github.com/DevonshireVC/how-i-use-grok-bot>
+- /cases/grok-bot-cursor-harness-article-ja-archive-634.html: Grok Bot × Cursor harness article (JA archive) (guide) <https://github.com/mapserver2007/ai-tools-for-business>
+- /cases/grok-bot-galaxy-notes-bilingual-astro-site-635.html: Grok Bot Galaxy notes — bilingual Astro site (guide) <https://github.com/tanker327/grok-bot-galaxy-notes>
+- /cases/grok-bot-galaxy-research-notes-days-1-3-636.html: Grok Bot Galaxy research notes (Days 1–3) (guide) <https://github.com/Roenel/Grok-Bot-Galaxy-Notes>
+- /cases/grok-bot-galaxy-day-1-field-notes-en-zh-pdfs-637.html: Grok Bot Galaxy Day 1 field notes (EN/ZH PDFs) (guide) <https://github.com/HiEllenC/grokbot-galaxy-day1>
+- /cases/grok-bot-galaxy-live-ball-by-ball-galaxy-commentary-638.html: grok-bot-galaxy-live — ball-by-ball Galaxy commentary (guide) <https://github.com/shashwatphd-ai/grok-bot-galaxy-live>
+- /cases/galaxy-day-1-diarized-transcript-named-pass-639.html: Galaxy Day 1 diarized transcript + named pass (guide) <https://github.com/bgagandeep/grok-bot-galaxy-day1-transcript>
+- /cases/grok-bot-galaxy-notes-pt-bot-base-materials-640.html: Grok Bot Galaxy notes (PT) + bot-base materials (guide) <https://github.com/Rodribm10/grok-bot-galaxy-notes>
+- /cases/grok-bot-galaxy-day-2-bilingual-pdfs-by-ellen-641.html: Grok Bot Galaxy Day 2 — bilingual PDFs by Ellen (guide) <https://github.com/HiEllenC/grokbot-galaxy-day2>
+- /cases/grok-bot-galaxy-notes-sep-15-17-livestream-642.html: Grok Bot Galaxy notes — Sep 15–17 livestream (guide) <https://github.com/jandrusk/grok-bot-galaxy-notes>
+- /cases/grok-bot-galaxy-field-notes-day-1-clips-01-18-643.html: Grok Bot Galaxy field notes — Day 1 clips 01–18 (guide) <https://github.com/etor6233/grok-bot-galaxy>
+- /cases/grok-bot-galaxy-evidence-linked-livestream-synthesis-644.html: Grok Bot Galaxy — evidence-linked livestream synthesis (guide) <https://github.com/pcuci/grok-bot-galaxy>
+- /cases/grok-bot-galaxy-japanese-html-day-1-3-reports-645.html: Grok Bot Galaxy — Japanese HTML Day 1–3 reports (guide) <https://github.com/s-hiraoku/grok-bot-galaxy>
+- /cases/grok-build-150-page-guide-646.html: Grok Build 从零到精通蓝皮书 — 150-page guide (guide) <https://github.com/zjp1997720/grok-build-bluebook>
+- /cases/connect-grok-bot-to-home-assistant-via-ha-mcp-647.html: Connect Grok Bot to Home Assistant via ha-mcp (guide) <https://github.com/Hrubak/grok-bot-home-assistant-mcp>
+- /cases/grok-build-agents-team-course-648.html: Grok Build Agents — team course (guide) <https://github.com/Practical-Office/grok-build-agents>
+- /cases/grok-build-agent-transport-modes-cn-report-649.html: Grok Build Agent transport modes (CN report) (guide) <https://github.com/TianwenWei/Grok-Build-Agent-Transports>
+- /cases/grok-bot-lesson-materials-ru-cheatsheet-650.html: Grok Bot lesson materials (RU cheatsheet) (guide) <https://github.com/gomymy64/grokbot-cheatsheet>
+- /cases/build-grok-build-cli-on-intel-macos-651.html: Build Grok Build CLI on Intel macOS (guide) <https://github.com/knightc2020/grok-build-intel-macos>
+- /cases/buildcompany-start-a-company-with-ai-bots-652.html: BuildCompany — start a company with AI bots (guide) <https://github.com/Meisburg/BuildCompany>
+- /cases/sawyer-merritt-grok-bot-tutorial-20-lessons-653.html: Sawyer Merritt — Grok Bot Tutorial (20 lessons) (guide) <https://x.ai/bot/VBmzZaD3abMPl53kwWuYp>
+- /cases/analytics-vidhya-getting-started-with-grok-bot-automation-654.html: Analytics Vidhya — Getting Started with Grok Bot automation (guide) <https://www.analyticsvidhya.com/blog/2026/09/grok-bot-automation-tutorial/>
+- /cases/alex-finn-grok-bot-from-beginner-to-expert-in-25-minutes-655.html: Alex Finn — Grok Bot from beginner to expert in 25 minutes (guide) <https://moderncreator.app/2026-08-17-alex-finn-grok-bot-from-beginner-to-expert-in-25-minutes>
+- /cases/ai-maker-seven-grok-bot-team-you-can-run-from-your-phone-656.html: AI Maker — seven Grok Bot team you can run from your phone (guide) <https://aimaker.substack.com/p/grok-bot-ai-agent-team>
+- /cases/grok-bot-hk-traditional-chinese-guide-657.html: Grok Bot 教學｜香港老師版 (HK Traditional Chinese guide) (guide) <https://github.com/desmondsir106-droid/grok-bot-hk-guide>
+- /cases/grok-bot-build-and-verify-routines-658.html: Grok Bot 排程一條龍（繁中）— build and verify routines (guide) <https://github.com/zaxardery8011-design/grok-bot-routines-tw>
+- /cases/grok-bot-wiki-independent-setup-troubleshooting-field-guide-659.html: Grok Bot Wiki — independent setup & troubleshooting field guide (guide) <https://www.grokbotwiki.com/guides>
+- /cases/grok-bot-meetup-da-nang-2026-da-nang-meetup-deck-660.html: grok-bot-meetup-da-nang-2026 — Da Nang meetup deck (guide) <https://github.com/tibor-src/grok-bot-meetup-da-nang-2026>
+- /cases/florianthompson-grok-bot-setup-thin-context-grok-bot-templat-661.html: florianthompson/grok-bot-setup — thin-context Grok Bot template (guide) <https://github.com/florianthompson/grok-bot-setup>
+- /cases/what-can-grok-bot-do-and-what-does-it-cost-in-2026-work-insi-662.html: What Can Grok Bot Do, and What Does It Cost in 2026? (Work Insiders) (guide) <https://workinsiders.com/what-can-grok-bot-do/>
+- /cases/grok-bot-the-complete-guide-to-always-on-ai-agents-2026-663.html: Grok Bot: The Complete Guide to Always-On AI Agents (2026) (guide) <https://aiforordinarypeople.com/grok-bot-ai-agents-guide/>
+- /cases/maven-workshop-build-a-team-of-ai-agents-with-grok-bot-664.html: Maven workshop: Build a Team of AI Agents with Grok Bot (guide) <https://maven.com/p/73cfaa/build-a-team-of-ai-agents-for-real-work-with-grok-bot>
+- /cases/learn-cursor-how-to-set-up-grok-bot-for-your-first-task-665.html: Learn Cursor: How to Set Up Grok Bot for Your First Task (guide) <https://www.learncursor.dev/learn/cursor-agents/grok-bot-setup>
+- /cases/the-agent-roster-playbook-11-steps-from-the-grok-bot-team-s--666.html: The Agent Roster Playbook — 11 steps from the Grok Bot team's workflow (guide) <https://github.com/DevvGwardo/agent-roster-playbook>
+- /cases/grokbot-guru-practical-grok-bot-how-tos-templates-and-news-667.html: grokbot.guru — practical Grok Bot how-tos, templates, and news (guide) <https://grokbot.guru/>
+- /cases/gui-a-en-espan-ol-a-4-bot-sales-team-with-grok-bot-guatemala-668.html: Guía en español: a 4-Bot sales team with Grok Bot (Guatemala meetup workshop) (guide) <https://github.com/valenzmanu/guia-grok-bot>
+- /cases/grok-bot-templates-669.html: Grok Bot Templates (guide) <https://www.aibuilderclub.com/blog/grok-bot-templates>
+- /cases/how-to-use-grok-bot-670.html: How to Use Grok Bot (guide) <https://www.aibuilderclub.com/blog/grok-bot-guide>
+- /cases/zambo-receipt-bot-671.html: Zambo Receipt Bot (template) <https://botdirectory.ai/bots/zambo-receipt-bot/>
+- /cases/profile-pro-672.html: Profile Pro (template) <https://botdirectory.ai/bots/profile-pro/>
+- /cases/reverse-engineer-673.html: Reverse Engineer (template) <https://botdirectory.ai/bots/reverse-engineer/>
+- /cases/coupon-finder-674.html: Coupon Finder (template) <https://botdirectory.ai/bots/coupon-finder/>
+- /cases/cloud-file-mover-679.html: Cloud File Mover (template) <https://botdirectory.ai/bots/cloud-file-mover/>
+- /cases/tiktok-downloader-680.html: TikTok Downloader (template) <https://botdirectory.ai/bots/tiktok-downloader/>
+- /cases/app-extension-builder-681.html: App & Extension Builder (template) <https://botdirectory.ai/bots/app-extension-builder/>
+- /cases/x-money-payment-assistant-682.html: X Money Payment Assistant (template) <https://botdirectory.ai/bots/x-money-payment-assistant/>
+- /cases/controlled-english-explainer-683.html: Controlled English Explainer (template) <https://botdirectory.ai/bots/controlled-english-explainer/>
+- /cases/slowbooks-cutover-684.html: SlowBooks Cutover (template) <https://botdirectory.ai/bots/slowbooks-cutover/>
+- /cases/customer-feedback-theme-analyst-685.html: Customer Feedback Theme Analyst (template) <https://botdirectory.ai/bots/customer-feedback-theme-analyst/>
+- /cases/t-learning-assistant.html: Learning Assistant (template) <https://botsdots.site/templates/learning-assistant>
+- /cases/t-radar.html: Radar (template) <https://botsdots.site/templates/radar>
+- /cases/t-ai-harness-assistant.html: AI Harness Assistant (template) <https://botsdots.site/templates/ai-harness-assistant>
+- /cases/t-product-idea-stress-test.html: Product Idea Stress Test (template) <https://botsdots.site/templates/product-idea-stress-test>
+- /cases/t-miles.html: Miles (template) <https://botsdots.site/templates/miles>
+- /cases/t-personal-assistant.html: Personal Assistant (template) <https://botsdots.site/templates/personal-assistant>
+- /cases/t-ai-master.html: AI Master (template) <https://botsdots.site/templates/ai-master>
+- /cases/t-todo.html: Todo (template) <https://botsdots.site/templates/todo>
+- /cases/t-us-law-index-builder-bot.html: US Law Index Builder Bot (template) <https://botsdots.site/templates/us-law-index-builder-bot>
+- /cases/t-video-transcriber.html: Video Transcriber (template) <https://botsdots.site/templates/video-transcriber>
+- /cases/t-be-happier.html: Be Happier (template) <https://botsdots.site/templates/be-happier>
+- /cases/t-newsletter-cleanup.html: Newsletter Cleanup (template) <https://botsdots.site/templates/newsletter-cleanup>
+- /cases/t-hatch.html: Hatch (template) <https://botsdots.site/templates/hatch>
+- /cases/t-ownphonebot.html: OwnPhoneBot (template) <https://botsdots.site/templates/ownphonebot>
+- /cases/t-amv-desk.html: AMV Desk (template) <https://botsdots.site/templates/amv-desk>
+- /cases/t-content-writer.html: Content Writer (template) <https://botsdots.site/templates/content-writer>
+- /cases/t-illy.html: Illy (template) <https://botsdots.site/templates/illy>
+- /cases/t-palette.html: Palette (template) <https://botsdots.site/templates/palette>
+- /cases/t-last30days.html: last30days (template) <https://botsdots.site/templates/last30days>
+- /cases/t-pfp-bot.html: Pfp Bot (template) <https://botsdots.site/templates/pfp-bot>
+- /cases/t-the-morning-newspaper.html: The Morning Newspaper (template) <https://botsdots.site/templates/the-morning-newspaper>
+- /cases/t-dr-eggbot-jodb.html: dr eggbot (template) <https://botsdots.site/templates/dr-eggbot-jodb>
+- /cases/t-job-applyer.html: Job Applyer (template) <https://botsdots.site/templates/job-applyer>
+- /cases/t-repost-x-posts-everywhere.html: repost X posts everywhere (template) <https://botsdots.site/templates/repost-x-posts-everywhere>
+- /cases/t-clip-bot.html: Clip Bot (template) <https://botsdots.site/templates/clip-bot>
+- /cases/t-marketplace-bot.html: Marketplace Bot (template) <https://botsdots.site/templates/marketplace-bot>
+- /cases/t-sable-game-art.html: Sable: Game Art (template) <https://botsdots.site/templates/sable-game-art>
+- /cases/t-alfred.html: Alfred (template) <https://botsdots.site/templates/alfred>
+- /cases/t-website-launch-bot.html: Website Launch Bot (template) <https://botsdots.site/templates/website-launch-bot>
+- /cases/t-dial-bot-tias.html: dial bot (template) <https://botsdots.site/templates/dial-bot-tias>
+- /cases/t-marketing-analyst.html: Marketing Analyst (template) <https://botsdots.site/templates/marketing-analyst>
+- /cases/t-luma-pages.html: Luma Pages (template) <https://botsdots.site/templates/luma-pages>
+- /cases/t-market-researcher.html: Market Researcher (template) <https://botsdots.site/templates/market-researcher>
+- /cases/t-performance-marketer.html: Performance Marketer (template) <https://botsdots.site/templates/performance-marketer>
+- /cases/t-product-marketer.html: Product Marketer (template) <https://botsdots.site/templates/product-marketer>
+- /cases/t-project-manager.html: Project Manager (template) <https://botsdots.site/templates/project-manager>
+- /cases/t-signal-prospector.html: Signal Prospector (template) <https://botsdots.site/templates/signal-prospector>
+- /cases/t-stalk-bot.html: Stalk Bot (template) <https://botsdots.site/templates/stalk-bot>
+- /cases/t-website-ops.html: Website Ops (template) <https://botsdots.site/templates/website-ops>
+- /cases/t-pr-review-desk-ship-safe.html: 🔍 PR Review Desk ✦ SHIP-SAFE (template) <https://botsdots.site/templates/pr-review-desk-ship-safe>
+- /cases/t-cooper.html: Cooper (template) <https://botsdots.site/templates/cooper>
+- /cases/t-habit-referee.html: Habit Referee (template) <https://botsdots.site/templates/habit-referee>
+- /cases/t-paid-media-report-desk.html: Paid Media Report Desk (template) <https://botsdots.site/templates/paid-media-report-desk>
+- /cases/t-proto-bot.html: Proto Bot (template) <https://botsdots.site/templates/proto-bot>
+- /cases/t-startup-qa-bot.html: Startup QA Bot (template) <https://botsdots.site/templates/startup-qa-bot>
+- /cases/t-ai-search-visibility.html: AI Search Visibility (template) <https://botsdots.site/templates/ai-search-visibility>
+- /cases/t-account-research-desk.html: Account Research Desk (template) <https://botsdots.site/templates/account-research-desk>
+- /cases/t-ad-spend-watch.html: Ad Spend Watch (template) <https://botsdots.site/templates/ad-spend-watch>
+- /cases/t-arthur.html: Arthur (template) <https://botsdots.site/templates/arthur>
+- /cases/t-botops-chief-of-staff.html: BotOps · Chief of Staff (template) <https://botsdots.site/templates/botops-chief-of-staff>
+- /cases/t-call-desk.html: Call Desk (template) <https://botsdots.site/templates/call-desk>
+- /cases/t-call-follow-ups.html: Call Follow-Ups (template) <https://botsdots.site/templates/call-follow-ups>
+- /cases/t-company-docs-qa.html: Company Docs Q&A (template) <https://botsdots.site/templates/company-docs-qa>
+- /cases/t-competitor-watch.html: Competitor Watch (template) <https://botsdots.site/templates/competitor-watch>
+- /cases/t-copy-humanizer.html: Copy Humanizer (template) <https://botsdots.site/templates/copy-humanizer>
+- /cases/t-critiquito.html: Critiquito (template) <https://botsdots.site/templates/critiquito>
+- /cases/t-critiquito-design-critique.html: Critiquito: Design Critique (template) <https://botsdots.site/templates/critiquito-design-critique>
+- /cases/t-customer-call-coach-assistant.html: Customer Call Coach & Assistant (template) <https://botsdots.site/templates/customer-call-coach-assistant>
+- /cases/t-customer-proof-desk.html: Customer Proof Desk (template) <https://botsdots.site/templates/customer-proof-desk>
+- /cases/t-deep-research.html: Deep Research (template) <https://botsdots.site/templates/deep-research>
+- /cases/t-distro-bot.html: Distro Bot (template) <https://botsdots.site/templates/distro-bot>
+- /cases/t-ebr-value-deck-builder.html: EBR & Value Deck Builder (template) <https://botsdots.site/templates/ebr-value-deck-builder>
+- /cases/t-engineering-lead.html: Engineering Lead (template) <https://botsdots.site/templates/engineering-lead>
+- /cases/t-event-producer.html: Event Producer (template) <https://botsdots.site/templates/event-producer>
+- /cases/t-executive-assistant.html: Executive Assistant (template) <https://botsdots.site/templates/executive-assistant>
+- /cases/t-game-art-director.html: Game Art Director (template) <https://botsdots.site/templates/game-art-director>
+- /cases/t-imogen.html: Imogen (template) <https://botsdots.site/templates/imogen>
+- /cases/t-import-bot.html: Import Bot (template) <https://botsdots.site/templates/import-bot>
+- /cases/t-lead-pipeline-desk.html: Lead Pipeline Desk (template) <https://botsdots.site/templates/lead-pipeline-desk>
+- /cases/t-lingxis-engineer-bot.html: Lingxi's Engineer Bot (template) <https://botsdots.site/templates/lingxis-engineer-bot>
+- /cases/t-longform-editor.html: Longform Editor (template) <https://botsdots.site/templates/longform-editor>
+- /cases/t-meeting-recap-deck.html: Meeting Recap Deck (template) <https://botsdots.site/templates/meeting-recap-deck>
+- /cases/t-office-ops-desk.html: Office Ops Desk (template) <https://botsdots.site/templates/office-ops-desk>
+- /cases/t-outbound-prospecting.html: Outbound Prospecting (template) <https://botsdots.site/templates/outbound-prospecting>
+- /cases/t-overheard.html: Overheard (template) <https://botsdots.site/templates/overheard>
+- /cases/t-pm-bot.html: PM bot (template) <https://botsdots.site/templates/pm-bot>
+- /cases/t-pipeline-pulse.html: Pipeline Pulse (template) <https://botsdots.site/templates/pipeline-pulse>
+- /cases/t-private-desk.html: Private Desk (template) <https://botsdots.site/templates/private-desk>
+- /cases/t-product-support-inbox-assistant.html: Product Support Inbox Assistant (template) <https://botsdots.site/templates/product-support-inbox-assistant>
+- /cases/t-projects-manager.html: Projects Manager (template) <https://botsdots.site/templates/projects-manager>
+- /cases/t-qa-bot.html: QA bot (template) <https://botsdots.site/templates/qa-bot>
+- /cases/t-realtor-bot.html: Realtor Bot (template) <https://botsdots.site/templates/realtor-bot>
+- /cases/t-recent-bookmarks-search-bot.html: Recent Bookmarks Search Bot (template) <https://botsdots.site/templates/recent-bookmarks-search-bot>
+- /cases/t-recruiting-coordinator.html: Recruiting Coordinator (template) <https://botsdots.site/templates/recruiting-coordinator>
+- /cases/t-redreplier.html: RedReplier (template) <https://botsdots.site/templates/redreplier>
+- /cases/t-research-bot.html: Research Bot (template) <https://botsdots.site/templates/research-bot>
+- /cases/t-seo-aeo-desk.html: SEO & AEO Desk (template) <https://botsdots.site/templates/seo-aeo-desk>
+- /cases/t-sales-call-coach.html: Sales Call Coach (template) <https://botsdots.site/templates/sales-call-coach>
+- /cases/t-sean.html: Sean (template) <https://botsdots.site/templates/sean>
+- /cases/t-sell-bot.html: Sell Bot (template) <https://botsdots.site/templates/sell-bot>
+- /cases/t-sequencer.html: Sequencer (template) <https://botsdots.site/templates/sequencer>
+- /cases/t-stills-clips-desk.html: Stills & Clips Desk (template) <https://botsdots.site/templates/stills-clips-desk>
+- /cases/t-sweeper.html: Sweeper (template) <https://botsdots.site/templates/sweeper>
+- /cases/t-talent-discovery.html: Talent Discovery (template) <https://botsdots.site/templates/talent-discovery>
+- /cases/t-ticker-wire.html: Ticker Wire (template) <https://botsdots.site/templates/ticker-wire>
+- /cases/t-tradbot.html: Tradbot (template) <https://botsdots.site/templates/tradbot>
+- /cases/t-video-edit-desk.html: Video Edit Desk (template) <https://botsdots.site/templates/video-edit-desk>
+- /cases/t-wtd.html: WTD (template) <https://botsdots.site/templates/wtd>
+- /cases/t-loops.html: loops (template) <https://botsdots.site/templates/loops>
+- /cases/t-chief-health-officer.html: Chief Health Officer (template) <https://botsdots.site/templates/chief-health-officer>
+- /cases/t-flora-plant-care-log.html: Flora: Plant Care Log (template) <https://botsdots.site/templates/flora-plant-care-log>
+- /cases/t-apple-search-ads-review.html: Apple Search Ads Review (template) <https://botsdots.site/templates/apple-search-ads-review>
+- /cases/t-deal-inspector.html: Deal Inspector (template) <https://botsdots.site/templates/deal-inspector>
+- /cases/t-event-request-desk.html: Event Request Desk (template) <https://botsdots.site/templates/event-request-desk>
+- /cases/t-gtm-account-research.html: GTM Account Research (template) <https://botsdots.site/templates/gtm-account-research>
+- /cases/t-gtm-connections.html: GTM Connections (template) <https://botsdots.site/templates/gtm-connections>
+- /cases/t-gtm-loop-closer.html: GTM Loop Closer (template) <https://botsdots.site/templates/gtm-loop-closer>
+- /cases/t-gtm-prospecting.html: GTM Prospecting (template) <https://botsdots.site/templates/gtm-prospecting>
+- /cases/t-haggle-bot.html: Haggle Bot (template) <https://botsdots.site/templates/haggle-bot>
+- /cases/t-hiring-signals.html: Hiring Signals (template) <https://botsdots.site/templates/hiring-signals>
+- /cases/t-love.html: Love ❤️ (template) <https://botsdots.site/templates/love>
+- /cases/t-nyc-parent.html: NYC Parent (template) <https://botsdots.site/templates/nyc-parent>
+- /cases/t-partnerships-call-coach.html: Partnerships Call Coach (template) <https://botsdots.site/templates/partnerships-call-coach>
+- /cases/t-swe.html: SWE (template) <https://botsdots.site/templates/swe>
+- /cases/t-webby.html: Webby (template) <https://botsdots.site/templates/webby>
+- /cases/t-writing-bot.html: Writing Bot (template) <https://botsdots.site/templates/writing-bot>
+- /cases/t-last30days-txbf.html: last30days (template) <https://botsdots.site/templates/last30days-txbf>
+- /cases/t-skippy.html: skippy (template) <https://botsdots.site/templates/skippy>
+- /cases/t-mystery-snack-agent.html: Mystery Snack Agent (template) <https://botsdots.site/templates/mystery-snack-agent>
+- /cases/t-avi.html: Avi (template) <https://botsdots.site/templates/avi>
+- /cases/t-contentdrips-bot.html: Contentdrips Bot (template) <https://botsdots.site/templates/contentdrips-bot>
+- /cases/t-freebot-gen.html: FreeBot Gen (template) <https://botsdots.site/templates/freebot-gen>
+- /cases/t-polo.html: Polo (template) <https://botsdots.site/templates/polo>
+- /cases/t-t-minusx.html: T-MinusX (template) <https://botsdots.site/templates/t-minusx>
+- /cases/t-ai-daily-radar.html: AI Daily Radar (template) <https://botsdots.site/templates/ai-daily-radar>
+- /cases/t-adie.html: Adie (template) <https://botsdots.site/templates/adie>
+- /cases/t-affiliate-program-manager.html: Affiliate program manager (template) <https://botsdots.site/templates/affiliate-program-manager>
+- /cases/t-agent-improver.html: Agent Improver (template) <https://botsdots.site/templates/agent-improver>
+- /cases/t-aila-lead.html: Aila (Lead) (template) <https://botsdots.site/templates/aila-lead>
+- /cases/t-alfred-moks.html: Alfred (template) <https://botsdots.site/templates/alfred-moks>
+- /cases/t-atelier-building-taste.html: Atelier: building taste (template) <https://botsdots.site/templates/atelier-building-taste>
+- /cases/t-backpack.html: Backpack (template) <https://botsdots.site/templates/backpack>
+- /cases/t-berliner.html: Berliner (template) <https://botsdots.site/templates/berliner>
+- /cases/t-better-call-claude.html: Better Call Claude (template) <https://botsdots.site/templates/better-call-claude>
+- /cases/t-bot-foundry.html: Bot Foundry (template) <https://botsdots.site/templates/bot-foundry>
+- /cases/t-cybercabinsight-builder.html: CYBERCABINSIGHT Builder (template) <https://botsdots.site/templates/cybercabinsight-builder>
+- /cases/t-campusops.html: CampusOps (template) <https://botsdots.site/templates/campusops>
+- /cases/t-changelog-stand-down.html: Changelog Stand-down (template) <https://botsdots.site/templates/changelog-stand-down>
+- /cases/t-chicken-joe.html: Chicken Joe (template) <https://botsdots.site/templates/chicken-joe>
+- /cases/t-chief-pir4.html: Chief (template) <https://botsdots.site/templates/chief-pir4>
+- /cases/t-chief.html: Chief (template) <https://botsdots.site/templates/chief>
+- /cases/t-chief-health.html: Chief Health (template) <https://botsdots.site/templates/chief-health>
+- /cases/t-chief-of-staff-vsz0.html: Chief of Staff (template) <https://botsdots.site/templates/chief-of-staff-vsz0>
+- /cases/t-chop-bot.html: Chop Bot (template) <https://botsdots.site/templates/chop-bot>
+- /cases/t-clark-kent.html: Clark Kent (template) <https://botsdots.site/templates/clark-kent>
+- /cases/t-coach.html: Coach (template) <https://botsdots.site/templates/coach>
+- /cases/t-coach-g.html: Coach G (template) <https://botsdots.site/templates/coach-g>
+- /cases/t-collins.html: Collins (template) <https://botsdots.site/templates/collins>
+- /cases/t-competitor-watching.html: Competitor Watching (template) <https://botsdots.site/templates/competitor-watching>
+- /cases/t-creador-de-facturas-arca.html: Creador de facturas ARCA (template) <https://botsdots.site/templates/creador-de-facturas-arca>
+- /cases/t-creator-tracker.html: Creator Tracker (template) <https://botsdots.site/templates/creator-tracker>
+- /cases/t-customer-care.html: Customer Care (template) <https://botsdots.site/templates/customer-care>
+- /cases/t-daili.html: Daili (template) <https://botsdots.site/templates/daili>
+- /cases/t-daily-brief.html: Daily Brief (template) <https://botsdots.site/templates/daily-brief>
+- /cases/t-daily-easy-apply-digest.html: Daily Easy Apply Digest (template) <https://botsdots.site/templates/daily-easy-apply-digest>
+- /cases/t-daily-youtube-recap.html: Daily YouTube Recap (template) <https://botsdots.site/templates/daily-youtube-recap>
+- /cases/t-delta-x.html: Delta-X (template) <https://botsdots.site/templates/delta-x>
+- /cases/t-devotion-david.html: Devotion David (template) <https://botsdots.site/templates/devotion-david>
+- /cases/t-dig-org-digest.html: Dig | Org Digest (template) <https://botsdots.site/templates/dig-org-digest>
+- /cases/t-doggo.html: Doggo 🐾 (template) <https://botsdots.site/templates/doggo>
+- /cases/t-edna.html: Edna (template) <https://botsdots.site/templates/edna>
+- /cases/t-elon-ecosystem-desk.html: Elon Ecosystem Desk (template) <https://botsdots.site/templates/elon-ecosystem-desk>
+- /cases/t-epigenetics-scout.html: Epigenetics Scout (template) <https://botsdots.site/templates/epigenetics-scout>
+- /cases/t-errol.html: Errol (template) <https://botsdots.site/templates/errol>
+- /cases/t-exec-daily-ops.html: Exec Daily Ops (template) <https://botsdots.site/templates/exec-daily-ops>
+- /cases/t-forge-plate.html: FORGE PLATE (template) <https://botsdots.site/templates/forge-plate>
+- /cases/t-family-daily.html: Family Daily (template) <https://botsdots.site/templates/family-daily>
+- /cases/t-financial-advisor.html: Financial Advisor (template) <https://botsdots.site/templates/financial-advisor>
+- /cases/t-find-good-stocks.html: Find Good Stocks (template) <https://botsdots.site/templates/find-good-stocks>
+- /cases/t-first-week-coach.html: First-Week Coach (template) <https://botsdots.site/templates/first-week-coach>
+- /cases/t-fleet-improver.html: Fleet Improver (template) <https://botsdots.site/templates/fleet-improver>
+- /cases/t-flora.html: Flora (template) <https://botsdots.site/templates/flora>
+- /cases/t-follows.html: Follows (template) <https://botsdots.site/templates/follows>
+- /cases/t-fortnite-drop-brief.html: Fortnite Drop Brief (template) <https://botsdots.site/templates/fortnite-drop-brief>
+- /cases/t-frontier-model-watch.html: Frontier Model Watch (template) <https://botsdots.site/templates/frontier-model-watch>
+- /cases/t-fuel.html: Fuel (template) <https://botsdots.site/templates/fuel>
+- /cases/t-glp-1-buddy.html: GLP-1 Buddy (template) <https://botsdots.site/templates/glp-1-buddy>
+- /cases/t-game-deals-radar.html: Game Deals Radar (template) <https://botsdots.site/templates/game-deals-radar>
+- /cases/t-garden-retail-research-specialist.html: Garden Retail Research Specialist (template) <https://botsdots.site/templates/garden-retail-research-specialist>
+- /cases/t-github-pr-desk.html: GitHub PR Desk (template) <https://botsdots.site/templates/github-pr-desk>
+- /cases/t-github-trending-scout.html: GitHub Trending Scout (template) <https://botsdots.site/templates/github-trending-scout>
+- /cases/t-gluco.html: Gluco (template) <https://botsdots.site/templates/gluco>
+- /cases/t-goal-delta.html: Goal Delta (template) <https://botsdots.site/templates/goal-delta>
+- /cases/t-grok-apron.html: Grok Apron (template) <https://botsdots.site/templates/grok-apron>
+- /cases/t-grok-bot-coach.html: Grok Bot Coach (template) <https://botsdots.site/templates/grok-bot-coach>
+- /cases/t-grokbot-awesome-use-cases.html: GrokBot Awesome Use Cases (template) <https://botsdots.site/templates/grokbot-awesome-use-cases>
+- /cases/t-grottle.html: Grottle™ (template) <https://botsdots.site/templates/grottle>
+- /cases/t-health-coach-ns3w.html: Health Coach (template) <https://botsdots.site/templates/health-coach-ns3w>
+- /cases/t-home-hunter.html: Home Hunter (template) <https://botsdots.site/templates/home-hunter>
+- /cases/t-homeroom.html: Homeroom (template) <https://botsdots.site/templates/homeroom>
+- /cases/t-improve-my-odds.html: Improve My Odds (template) <https://botsdots.site/templates/improve-my-odds>
+- /cases/t-join-a-startup-bot.html: Join a Startup Bot (template) <https://botsdots.site/templates/join-a-startup-bot>
+- /cases/t-keach.html: Keach (template) <https://botsdots.site/templates/keach>
+- /cases/t-kids-daily-spark.html: Kids Daily Spark (template) <https://botsdots.site/templates/kids-daily-spark>
+- /cases/t-kilo.html: Kilo (template) <https://botsdots.site/templates/kilo>
+- /cases/t-koe.html: Koe (template) <https://botsdots.site/templates/koe>
+- /cases/t-kramer.html: Kramer (template) <https://botsdots.site/templates/kramer>
+- /cases/t-kun.html: Kun (template) <https://botsdots.site/templates/kun>
+- /cases/t-linkedin-bot.html: LinkedIn Bot (template) <https://botsdots.site/templates/linkedin-bot>
+- /cases/t-linkedin-desk.html: LinkedIn Desk (template) <https://botsdots.site/templates/linkedin-desk>
+- /cases/t-longhand.html: Longhand (template) <https://botsdots.site/templates/longhand>
+- /cases/t-lot-ghost.html: Lot Ghost (template) <https://botsdots.site/templates/lot-ghost>
+- /cases/t-mailchimp-monthly-blast.html: Mailchimp Monthly Blast (template) <https://botsdots.site/templates/mailchimp-monthly-blast>
+- /cases/t-markets-weekday-brief.html: Markets Weekday Brief (template) <https://botsdots.site/templates/markets-weekday-brief>
+- /cases/t-meal-prep-molly.html: Meal Prep Molly (template) <https://botsdots.site/templates/meal-prep-molly>
+- /cases/t-melissa.html: Melissa (template) <https://botsdots.site/templates/melissa>
+- /cases/t-merit.html: Merit (template) <https://botsdots.site/templates/merit>
+- /cases/t-movie-magic.html: Movie Magic (template) <https://botsdots.site/templates/movie-magic>
+- /cases/t-my-vote-for-2027.html: My Vote For 2027 (template) <https://botsdots.site/templates/my-vote-for-2027>
+- /cases/t-news-brief.html: News Brief (template) <https://botsdots.site/templates/news-brief>
+- /cases/t-newsie.html: Newsie (template) <https://botsdots.site/templates/newsie>
+- /cases/t-newspaper.html: Newspaper (template) <https://botsdots.site/templates/newspaper>
+- /cases/t-nightly-audit-engineer-0llq.html: Nightly Audit Engineer (template) <https://botsdots.site/templates/nightly-audit-engineer-0llq>
+- /cases/t-nightly-audit-engineer.html: Nightly Audit Engineer (template) <https://botsdots.site/templates/nightly-audit-engineer>
+- /cases/t-nomad-pro-uk-residency-tracker.html: Nomad Pro – Travel Bookkeeper (template) <https://botsdots.site/templates/nomad-pro-uk-residency-tracker>
+- /cases/t-omni-grok-bot.html: OMNI Grok-Bot (template) <https://botsdots.site/templates/omni-grok-bot>
+- /cases/t-on-this-day.html: On This Day (template) <https://botsdots.site/templates/on-this-day>
+- /cases/t-online-identity-bot.html: Online Identity Bot (template) <https://botsdots.site/templates/online-identity-bot>
+- /cases/t-operator.html: Operator (template) <https://botsdots.site/templates/operator>
+- /cases/t-orchestrator.html: Orchestrator (template) <https://botsdots.site/templates/orchestrator>
+- /cases/t-possessions.html: POSSESSIONS: Home Inventory & Net Worth (template) <https://botsdots.site/templates/possessions>
+- /cases/t-pounce.html: POUNCE (template) <https://botsdots.site/templates/pounce>
+- /cases/t-paid-ads-manager.html: Paid ads manager (template) <https://botsdots.site/templates/paid-ads-manager>
+- /cases/t-paul.html: Paul (template) <https://botsdots.site/templates/paul>
+- /cases/t-personal-chef.html: Personal Chef (template) <https://botsdots.site/templates/personal-chef>
+- /cases/t-personal-trainer.html: Personal Trainer (template) <https://botsdots.site/templates/personal-trainer>
+- /cases/t-plant-field-os.html: Plant Field OS (template) <https://botsdots.site/templates/plant-field-os>
+- /cases/t-preach.html: Preach (template) <https://botsdots.site/templates/preach>
+- /cases/t-product-ads.html: Product Ads (template) <https://botsdots.site/templates/product-ads>
+- /cases/t-profile-site.html: Profile Site (template) <https://botsdots.site/templates/profile-site>
+- /cases/t-prostetnic-vogon-jeltz.html: Prostetnic Vogon Jeltz (template) <https://botsdots.site/templates/prostetnic-vogon-jeltz>
+- /cases/t-punto-tricolor-ops.html: Punto Tricolor Ops (template) <https://botsdots.site/templates/punto-tricolor-ops>
+- /cases/t-quartermaster.html: Quartermaster (template) <https://botsdots.site/templates/quartermaster>
+- /cases/t-quotewise-daily.html: Quotewise Daily (template) <https://botsdots.site/templates/quotewise-daily>
+- /cases/t-ramp-bot.html: Ramp Bot (template) <https://botsdots.site/templates/ramp-bot>
+- /cases/t-renewals-invoice-bot.html: Renewals Invoice Bot (template) <https://botsdots.site/templates/renewals-invoice-bot>
+- /cases/t-restaurant-cancelederrors-order-recovery.html: Restaurant Canceled/Errors Order Recovery (template) <https://botsdots.site/templates/restaurant-cancelederrors-order-recovery>
+- /cases/t-safari-27-mcp.html: Safari 27 MCP (template) <https://botsdots.site/templates/safari-27-mcp>
+- /cases/t-scout-ywad.html: Scout (template) <https://botsdots.site/templates/scout-ywad>
+- /cases/t-sharenow-bot.html: ShareNow Bot (template) <https://botsdots.site/templates/sharenow-bot>
+- /cases/t-shelf-scout.html: Shelf Scout (template) <https://botsdots.site/templates/shelf-scout>
+- /cases/t-single-stock-options.html: Single-Stock Options (template) <https://botsdots.site/templates/single-stock-options>
+- /cases/t-site-audit-rzrr.html: Site Audit (template) <https://botsdots.site/templates/site-audit-rzrr>
+- /cases/t-site-audit.html: Site Audit (template) <https://botsdots.site/templates/site-audit>
+- /cases/t-slacker.html: Slacker (template) <https://botsdots.site/templates/slacker>
+- /cases/t-steward-xrdq.html: Steward (template) <https://botsdots.site/templates/steward-xrdq>
+- /cases/t-stitchy.html: Stitchy (template) <https://botsdots.site/templates/stitchy>
+- /cases/t-stock-stu.html: Stock Stu (template) <https://botsdots.site/templates/stock-stu>
+- /cases/t-subcut.html: SubCut (template) <https://botsdots.site/templates/subcut>
+- /cases/t-superfan.html: Superfan (template) <https://botsdots.site/templates/superfan>
+- /cases/t-the-chief.html: The Chief (template) <https://botsdots.site/templates/the-chief>
+- /cases/t-the-morning-paper.html: The Morning Paper (template) <https://botsdots.site/templates/the-morning-paper>
+- /cases/t-tin-el-investigador.html: Tin El Investigador (template) <https://botsdots.site/templates/tin-el-investigador>
+- /cases/t-token-accountant.html: Token Accountant (template) <https://botsdots.site/templates/token-accountant>
+- /cases/t-token-finder.html: Token Finder (template) <https://botsdots.site/templates/token-finder>
+- /cases/t-tolstoy.html: Tolstoy (template) <https://botsdots.site/templates/tolstoy>
+- /cases/t-top-grok-bot-tweets.html: Top Grok Bot tweets (template) <https://botsdots.site/templates/top-grok-bot-tweets>
+- /cases/t-unifi.html: UniFi (template) <https://botsdots.site/templates/unifi>
+- /cases/t-usage-auditor.html: Usage Auditor (template) <https://botsdots.site/templates/usage-auditor>
+- /cases/t-usage-watch.html: Usage Watch (template) <https://botsdots.site/templates/usage-watch>
+- /cases/t-vern.html: Vern (template) <https://botsdots.site/templates/vern>
+- /cases/t-watchdog.html: Watchdog (template) <https://botsdots.site/templates/watchdog>
+- /cases/t-weekend-edition.html: Weekend Edition (template) <https://botsdots.site/templates/weekend-edition>
+- /cases/t-weekly-pl-analyst.html: Weekly P&L analyst (template) <https://botsdots.site/templates/weekly-pl-analyst>
+- /cases/t-whatsapp-digest.html: WhatsApp Digest (template) <https://botsdots.site/templates/whatsapp-digest>
+- /cases/t-wholefoods.html: Whole Foods (template) <https://botsdots.site/templates/wholefoods>
+- /cases/t-wirey.html: Wirey (template) <https://botsdots.site/templates/wirey>
+- /cases/t-x-brief-ro8g.html: X Brief (template) <https://botsdots.site/templates/x-brief-ro8g>
+- /cases/t-x-hygiene.html: X Hygiene (template) <https://botsdots.site/templates/x-hygiene>
+- /cases/t-x-reply-radar.html: X Reply Radar (template) <https://botsdots.site/templates/x-reply-radar>
+- /cases/t-x-reply-scout.html: X Reply Scout (template) <https://botsdots.site/templates/x-reply-scout>
+- /cases/t-x-top-100-fans-weekly.html: X Top 100 Fans Weekly (template) <https://botsdots.site/templates/x-top-100-fans-weekly>
+- /cases/t-x-top-500-fans.html: X Top 500 Fans (template) <https://botsdots.site/templates/x-top-500-fans>
+- /cases/t-x-bot-8oqq.html: X bot (template) <https://botsdots.site/templates/x-bot-8oqq>
+- /cases/t-x-jvm9.html: X 投资情报助手 (template) <https://botsdots.site/templates/x-jvm9>
+- /cases/t-xcode-release-watcher.html: Xcode release watcher (template) <https://botsdots.site/templates/xcode-release-watcher>
+- /cases/t-x-lqyi.html: X運用アドバイザー (template) <https://botsdots.site/templates/x-lqyi>
+- /cases/t-yahoo-pulse.html: Yahoo Pulse (template) <https://botsdots.site/templates/yahoo-pulse>
+- /cases/t-zach.html: Zach (template) <https://botsdots.site/templates/zach>
+- /cases/t-github.html: github 优秀仓库 (template) <https://botsdots.site/templates/github>
+- /cases/t-ideabot.html: ideabot (template) <https://botsdots.site/templates/ideabot>
+- /cases/t-socials.html: socials (template) <https://botsdots.site/templates/socials>
+- /cases/t-form-first-b2b-outreach-japan.html: フォーム優先アウトバウンド (template) <https://botsdots.site/templates/form-first-b2b-outreach-japan>
+- /cases/t-logs-spending-voice-nightly-summary.html: 人生·财务 (template) <https://botsdots.site/templates/logs-spending-voice-nightly-summary>
+- /cases/t-daily-x-posting-system-ideas.html: 推特运营方法论 (template) <https://botsdots.site/templates/daily-x-posting-system-ideas>
+- /cases/t-daily-three-kingdoms-illustration-rotating.html: 톨삼국지 (template) <https://botsdots.site/templates/daily-three-kingdoms-illustration-rotating>
+- /cases/t-contest-winner.html: 🏆 Contest Winner (template) <https://botsdots.site/templates/contest-winner>
+- /cases/t-learnbot.html: 💡 LearnBot (template) <https://botsdots.site/templates/learnbot>
+- /cases/t-spcx-bot.html: $SPCX Bot (template) <https://botsdots.site/templates/spcx-bot>
+- /cases/t-2nd-brain-0xfv.html: 2nd Brain (template) <https://botsdots.site/templates/2nd-brain-0xfv>
+- /cases/t-2nd-brain.html: 2nd Brain (template) <https://botsdots.site/templates/2nd-brain>
+- /cases/t-3-day-notice-validator.html: 3-Day Notice Validator (template) <https://botsdots.site/templates/3-day-notice-validator>
+- /cases/t-4-panez.html: 4 Panez (template) <https://botsdots.site/templates/4-panez>
+- /cases/t-9-ema-grok-bot.html: 9 EMA Grok bot (template) <https://botsdots.site/templates/9-ema-grok-bot>
+- /cases/t-accc-desk.html: ACCC Desk (template) <https://botsdots.site/templates/accc-desk>
+- /cases/t-ae-deal-bot.html: AE deal bot (template) <https://botsdots.site/templates/ae-deal-bot>
+- /cases/t-aeo-content-producer.html: AEO Content Producer (template) <https://botsdots.site/templates/aeo-content-producer>
+- /cases/t-aeoseo-bot.html: AEO/SEO Bot (template) <https://botsdots.site/templates/aeoseo-bot>
+- /cases/star-catcher-smoke-offline-canvas-game-grok-build-smoke-1.html: star-catcher-smoke — offline canvas game (Grok Build smoke) (quota-report) <https://github.com/Cesardellantonio/star-catcher-smoke>
+- /cases/box-credit-committee-pack-2.html: Box: credit-committee pack (quota-report) <https://x.com/Box/status/2087275866950938662>
+- /cases/nate-twelve-bots-in-eight-hours-3.html: Nate: twelve Bots in eight hours (quota-report) <https://natesnewsletter.substack.com/p/grok-bot-review>
+- /cases/grokbot-usage-weekly-activity-report-from-bot-box-logs-4.html: grokbot-usage — weekly activity report from Bot box logs (quota-report) <https://github.com/d3ming/grokbot-usage>
+- /cases/forum-let-grok-bot-see-its-own-usage-stats-5.html: Forum: let Grok Bot see its own usage stats (quota-report) <https://forum.cursor.com/t/feature-request-let-grok-bot-see-its-own-usage-stats/173270>
+- /cases/forum-grok-bot-ahrefs-connector-rate-limited-syntaxerror-6.html: Forum: Grok Bot Ahrefs connector rate-limited / SyntaxError (quota-report) <https://forum.cursor.com/t/grokbot-ahref-connector-rate-limited/173206>
+- /cases/duplicate-bot-control-missing-for-long-lived-context-handoff-7.html: Duplicate Bot control missing for long-lived context handoff (quota-report) <https://forum.cursor.com/t/duplicate-bot-missing/172938>
+- /cases/staff-grok-bot-weekly-allowance-is-separate-from-cursor-mode-8.html: Staff: Grok Bot weekly allowance is separate from Cursor models (quota-report) <https://forum.cursor.com/t/grok-bot-usage-to-models/172897>
+- /cases/ultra-weekly-bot-pool-each-messaged-bot-burns-a-turn-9.html: Ultra weekly Bot pool: each messaged bot burns a turn (quota-report) <https://forum.cursor.com/t/grok-bot-usage-billing/172769>
+- /cases/fleet-cost-tip-fresh-chat-per-task-quieter-bot-to-bot-handof-10.html: Fleet cost tip: fresh chat per task + quieter Bot-to-Bot handoffs (quota-report) <https://forum.cursor.com/t/1-500-in-one-week-running-a-grok-bot-fleet-expected-or-a-bug/172705>
+- /cases/grok-bot-harness-efficiency-10-35-more-effective-usage-11.html: Grok Bot harness efficiency: ~10–35% more effective usage (quota-report) <https://forum.cursor.com/t/grok-bot-got-a-lot-faster/172445>
+- /cases/grok-bot-file-handoff-limits-quicktime-still-alac-recipe-12.html: Grok Bot file handoff limits + QuickTime still+ALAC recipe (quota-report) <https://forum.cursor.com/t/grok-bot-multi-gb-review-video-undeliverable-still-aac-goes-silent-in-quicktime/172600>
+- /cases/grok-bot-usage-drains-too-fast-on-cursor-ultra-13.html: Grok Bot usage drains too fast on Cursor Ultra (quota-report) <https://forum.cursor.com/t/grok-bot-usage-too-low-even-on-cursor-ultra/172584>
+- /cases/local-exec-file-tools-stay-in-the-user-profile-root-staff-14.html: Local-exec file tools stay in the user profile root (staff) (quota-report) <https://forum.cursor.com/t/copyfrombox-and-read-refuse-paths-outside-user-profile-after-0-57-1-outside-the-allowed-local-exec-root/172349>
+- /cases/grok-bot-cursor-agent-usage-and-model-selection-15.html: Grok Bot Cursor Agent usage and model selection (quota-report) <https://forum.cursor.com/t/query-about-grok-bot-cursor-agent-usage-and-model-selection/169160>
+- /cases/overbooked-then-bot-failed-to-respond-is-model-load-16.html: Overbooked then Bot failed to respond is model load (quota-report) <https://forum.cursor.com/t/grok-bot-is-broke/169537>
+- /cases/weekly-grok-bot-usage-can-spill-into-paid-on-demand-with-no--17.html: Weekly Grok Bot usage can spill into paid On-Demand with no warning (quota-report) <https://forum.cursor.com/t/grok-bot-gives-no-warning-before-weekly-usage-spills-into-paid-on-demand/169679>
+- /cases/pro-weekly-pool-is-separate-overflow-hits-shared-on-demand-18.html: Pro weekly pool is separate; overflow hits shared On-Demand (quota-report) <https://forum.cursor.com/t/grok-bot-spend-cursor-usage-i-cant-accept-it/169796>
+- /cases/access-is-live-for-paid-plans-not-legacy-request-based-19.html: Access is live for paid plans, not legacy request-based (quota-report) <https://forum.cursor.com/t/cursor-says-grok-bot-is-included-with-pro-now-do-you-actually-have-access-yet/169808>
+- /cases/local-cli-orchestration-and-always-allow-are-intended-use-20.html: Local CLI orchestration and always-allow are intended use (quota-report) <https://forum.cursor.com/t/bot-as-the-orchestrator-of-local-clis/169588>
+- /cases/grok-bot-does-not-spend-pro-20-ide-credit-21.html: Grok Bot does not spend Pro $20 IDE credit (quota-report) <https://forum.cursor.com/t/is-grok-bot-usage-separate-from-cursor-plan/169658>
+- /cases/grok-bot-draining-cursor-credit-pool-22.html: Grok Bot draining Cursor credit pool (quota-report) <https://forum.cursor.com/t/grok-bot-draining-cursor-credit-pool/169982>
+- /cases/grok-bot-weekly-usage-hits-100-after-bot-to-bot-reviews-the--23.html: Grok Bot: weekly usage hits 100% after bot-to-bot reviews the user asked to stop (quota-report) <https://forum.cursor.com/t/grok-bot-weekly-usage-hits-100-after-bot-to-bot-reviews-the-user-asked-to-stop/170271>
+- /cases/grok-bot-cannot-attach-inline-images-to-cursor-bug-reports-c-24.html: Grok Bot cannot attach inline images to Cursor bug reports (chat drop and forum upload) (quota-report) <https://forum.cursor.com/t/grok-bot-cannot-attach-inline-images-to-cursor-bug-reports-chat-drop-and-forum-upload/170255>
+- /cases/grok-bot-routines-don-t-auto-run-on-schedule-25.html: Grok Bot routines don't auto-run on schedule (quota-report) <https://forum.cursor.com/t/grok-bot-routines-dont-auto-run-on-schedule/170358>
+- /cases/why-does-grok-bot-chat-use-so-many-sand-tokens-26.html: Why does Grok Bot chat use so many sand-* tokens? (quota-report) <https://forum.cursor.com/t/why-does-grok-bot-chat-use-so-many-sand-tokens/169581>
+- /cases/grok-bot-reset-usage-early-sep-1-global-weekly-reset-27.html: Grok Bot reset usage early — Sep 1 global weekly reset (quota-report) <https://forum.cursor.com/t/grok-bot-reset-usage-early/170283>
+- /cases/supergrok-vs-heavy-for-grok-bot-usage-grant-size-only-28.html: SuperGrok vs Heavy for Grok Bot — usage grant size only (quota-report) <https://forum.cursor.com/t/grok-bot-supergrok-vs-heavy-any-performance-difference-beyond-usage/170664>
+- /cases/bricked-after-reset-graphrag-embedding-ram-oom-29.html: “Bricked” after Reset — graphrag embedding RAM OOM (quota-report) <https://forum.cursor.com/t/grokbot-bricked-wont-reset/170689>
+- /cases/teams-grok-bot-under-cursor-models-is-display-only-separate--30.html: Teams: grok-bot-* under Cursor Models is display-only — separate weekly pool (quota-report) <https://forum.cursor.com/t/cursor-team-grok-bot-is-using-my-first-party-cursor-models-allowance/170742>
+- /cases/ahrefs-plugin-failed-to-load-connector-provider-rate-limit-d-31.html: Ahrefs plugin “Failed to load connector” — provider rate-limit (don’t reinstall) (quota-report) <https://forum.cursor.com/t/grok-bot-ahrefs-plugin-fails-with-failed-to-load-connector/170891>
+- /cases/shell-auto-review-npm-pnpm-yarn-substring-blocks-before-appr-32.html: Shell Auto-review: npm/pnpm/yarn substring blocks before approval card (quota-report) <https://forum.cursor.com/t/grok-bot-shell-auto-review-executable-content-could-not-be-bound-never-shows-approval-card/170727>
+- /cases/weekly-allowance-lasts-longer-fresh-chats-space-routines-clo-33.html: Weekly allowance lasts longer: fresh chats, space routines, cloud-agent manager (quota-report) <https://forum.cursor.com/t/grok-bot-ultra-users-how-do-you-make-the-weekly-allowance-last-mine-reached-99-in-three-days/171221>
+- /cases/cursor-ultra-supergrok-heavy-for-grok-bot-no-stack-free-ultr-34.html: Cursor Ultra ≡ SuperGrok Heavy for Grok Bot (no stack; free Ultra offer ended) (quota-report) <https://forum.cursor.com/t/supergrok-heavy-vs-cursor-individual-ultra/170888>
+- /cases/why-is-grok-bot-usage-included-in-my-cursor-models-usage-35.html: Why is Grok Bot usage included in my Cursor Models usage? (quota-report) <https://forum.cursor.com/t/why-is-grok-bot-usage-included-in-my-cursor-models-usage/171226>
+- /cases/supergrok-on-demand-appears-to-require-cursor-pro-36.html: SuperGrok on-demand appears to require Cursor Pro (quota-report) <https://forum.cursor.com/t/i-m-on-supergrok-and-want-to-buy-additional-grok-bot-requests-but-on-demand-billing-appears-to-require-a-cursor-pro-subscription/171010>
+- /cases/which-grok-bot-usage-counts-against-the-weekly-pool-37.html: Which Grok Bot usage counts against the weekly pool? (quota-report) <https://forum.cursor.com/t/can-cursor-clarify-exactly-which-grok-bot-usage-counts-against-the-weekly-pool-vs-cursor-models-other-models/170951>
+- /cases/x-connector-402-top-up-credits-or-use-bot-browser-38.html: X connector 402 → top up credits or use Bot browser (quota-report) <https://forum.cursor.com/t/grok-bot-x-connector-lacks-recent-search-direct-api-requires-separate-credits/168227>
+- /cases/trim-a-fat-grok-bot-chat-duplicate-handoff-file-39.html: Trim a fat Grok Bot chat: Duplicate + handoff file (quota-report) <https://forum.cursor.com/t/trim-the-fat-in-a-chat/171653>
+- /cases/server-stored-webhook-routines-url-key-panel-fixed-in-deskto-40.html: Server-stored webhook routines: URL/key panel fixed in desktop 0.53.0 (quota-report) <https://forum.cursor.com/t/grok-bot-cannot-use-routines-on-pro-cursor-plan/171606>
+- /cases/frozen-sending-after-trial-usage-check-settings-usage-don-t--41.html: Frozen “sending” after trial usage — check Settings → Usage; don’t Reset (quota-report) <https://forum.cursor.com/t/grok-bot-frozen-and-stuck-sending-on-mac-after-local-update-and-reset-please-recover-recreate-my-agent-computer-on-the-backend/171952>
+- /cases/confused-over-grok-bot-cursor-vs-bot-staff-42.html: Confused over Grok Bot — Cursor vs Bot (staff) (quota-report) <https://forum.cursor.com/t/confused-over-grok-bot/171745>
+- /cases/forum-grok-bot-cache-bug-burning-quota-after-2026-09-24-43.html: Forum: Grok Bot cache bug burning quota after 2026-09-24 (quota-report) <https://forum.cursor.com/t/grok-bot-cache-bug-burning-quota/173201>
+- /cases/forum-context-compaction-clone-replace-per-bot-usage-44.html: Forum: context compaction, clone-replace, per-bot usage (quota-report) <https://forum.cursor.com/t/grok-bot-agents-context-compaction-clone-replace-for-hung-chats-and-per-bot-usage-telemetry/173357>
+- /cases/forum-cloud-agents-from-grok-bot-spend-team-cloud-credits-45.html: Forum: Cloud Agents from Grok Bot spend Team Cloud Credits (quota-report) <https://forum.cursor.com/t/cloud-agents-by-grokbot-using-team-cloud-credits-instead-of-personal-usage/173419>
+- /cases/forum-request-for-usage-broken-down-by-bot-and-category-read-46.html: Forum: request for usage broken down by Bot and category, readable by Bots (quota-report) <https://forum.cursor.com/t/breakdown-in-the-app-by-bot-and-category-and-the-same-data-available-to-bots/173936>
+- /cases/ray-fernando-s-clippy-cto-47.html: Ray Fernando's Clippy CTO (quota-report) <https://www.youtube.com/watch?v=kAR91DlnCKQ>

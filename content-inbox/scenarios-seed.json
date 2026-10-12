@@ -1,0 +1,1192 @@
+{
+  "fetched_at": "2026-10-12T12:00:38.334059+00:00",
+  "count": 8,
+  "total_examples": 120,
+  "note": "Clustered from botsdots catalog + public-cases.json (guide/field-case/template). Real URLs only; keyword+category match, no invented items.",
+  "scenarios": [
+    {
+      "id": "inbox",
+      "label": "Inbox & email",
+      "count": 15,
+      "examples": [
+        {
+          "title": "Inbox Triage",
+          "url": "https://x.ai/bot/_Rk119iD1k18cSxDoV8CC",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "A morning email assistant that sorts Gmail, iCloud, or Outlook into what needs you today, clears obvious spam, and drafts replies without ever…",
+          "official": false
+        },
+        {
+          "title": "Inbox Zero Assistant",
+          "url": "https://x.ai/bot/u1pK59b5PDjThmgM73UUa",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "An inbox-zero helper that organizes Gmail, flags messages that need a reply, drafts responses, and prepares bulk-unsubscribe actions",
+          "official": false
+        },
+        {
+          "title": "Email Bot",
+          "url": "https://x.ai/bot/CunRrFqccrsoG7DFDqz5Y",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "A Gmail-focused assistant that drafts and sends polished emails in your voice, keeps your signature intact, and handles recurring mail busywork like",
+          "official": false
+        },
+        {
+          "title": "Email Manager",
+          "url": "https://x.ai/bot/CtX-cw1UJDjArdr8BrQa0",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Review-first Gmail cleanup: numbered trash candidates, Bin learning, unsubscribe queue, and accuracy tracking toward optional high-confidence auto-trash",
+          "official": false
+        },
+        {
+          "title": "Gmail to-do and reply assistant",
+          "url": "https://x.ai/bot/FnuO0nVV50jsCV7tTeEJD",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Watches Gmail for action items and unanswered mail, then helps you clear the list with drafts and reminders",
+          "official": false
+        },
+        {
+          "title": "Action My Email",
+          "url": "https://x.ai/bot/CjkBywhqRcaruj2i658xU",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Triage bot for people drowning in multiple Gmail inboxes. Sifts connected accounts, ferries real action mail to one Action inbox, and clears noise on a",
+          "official": false
+        },
+        {
+          "title": "Email Filter",
+          "url": "https://x.ai/bot/VG2EVGqav2OeE_HiroQNY",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Triages your work and personal inboxes, flags what needs a reply, new customer requests, and money or legal mail.",
+          "official": false
+        },
+        {
+          "title": "Inbox Triage",
+          "url": "https://x.ai/bot/5P3dWJ2NcYHX7SIlOs6lt",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Sorts Gmail into needs-reply, waiting, FYI, unsubscribe",
+          "official": false
+        },
+        {
+          "title": "E-mail Organizer",
+          "url": "https://x.ai/bot/PUn74RYv_r3pcSvNkeQbd",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Dutch Gmail housekeeper that labels by vendor, hides noise, and keeps invoices under Payments",
+          "official": false
+        },
+        {
+          "title": "Agent Mail",
+          "url": "https://x.ai/bot/j9Cm3GKLDCptPwwxZWbbD",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Template for giving your agent an email via AgentMail with triage",
+          "official": false
+        },
+        {
+          "title": "Email Bot Work",
+          "url": "https://x.ai/bot/oSaziY7pPP4PH2ZHts0hS",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "daily",
+          "category": "inbox-calendar",
+          "summary": "Work inbox triage that drafts replies, labels and archives safe mail, runs a quiet phishing scout, and never sends without approval. Also handles daily",
+          "official": false
+        },
+        {
+          "title": "Inbox Zero",
+          "url": "https://x.ai/bot/h5i1TCuYEL2mVtMbQtW98",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "daily",
+          "category": "inbox-calendar",
+          "summary": "Keeps Gmail at zero by filing the noise every weekday",
+          "official": false
+        },
+        {
+          "title": "Peter Yang: Marie Kondo declutter Bot",
+          "url": "https://x.com/petergyang/status/2089724101070086482",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Prompt-and-demo: audit email, Drive, and paid subs, then wait for approval before anything is deleted."
+        },
+        {
+          "title": "Gergely Orosz: Stripe support refunds",
+          "url": "https://x.com/GergelyOrosz/status/2090085668768694562",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Hooks Grok Bot to support mail and Stripe agentic refunds, with a human confirm before money moves."
+        },
+        {
+          "title": "Mike P: 90,000-email purge",
+          "url": "https://x.com/mikepat711/status/2089879632929554498",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Lets a Bot walk two Gmail accounts and throw out junk the owner never wanted to touch."
+        }
+      ]
+    },
+    {
+      "id": "calendar",
+      "label": "Calendar & scheduling",
+      "count": 15,
+      "examples": [
+        {
+          "title": "Notes → Agenda",
+          "url": "https://x.ai/bot/6_vKE3XpHQg0l3UxERFsp",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Paste rough meeting notes or a scrubbed transcript. Get a clean draft - summary, decisions, action items with owners/due dates when stated, and open",
+          "official": false
+        },
+        {
+          "title": "Outlook Calendar Desk",
+          "url": "https://x.ai/bot/T_pOFV6-PnM3ZgALGFEBk",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Shows your Outlook schedule, drafts creates/updates/cancels for review, and only writes after you approve the exact change",
+          "official": false
+        },
+        {
+          "title": "Meeting Recap Deck",
+          "url": "https://x.ai/bot/YklttiPpAHweKbOLV1TSF",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Turns your meeting notes into a recap deck in your slide template. Works from notes you paste or upload, and never invents a quote.",
+          "official": true
+        },
+        {
+          "title": "Meeting prep",
+          "url": "https://x.ai/bot/Hd3GphmPZ4aHWyFiBSmu5",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Builds short phone-ready pre-meeting briefs from calendar and connected context",
+          "official": false
+        },
+        {
+          "title": "Meeting Actions",
+          "url": "https://x.ai/bot/r0ytQbGZt4MuaE1XoH312",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "For people who leave meetings with loose ends. Turns notes into an action list and optional draft follow-ups. Never sends without your yes",
+          "official": false
+        },
+        {
+          "title": "Inbox Triage Desk",
+          "url": "https://x.ai/bot/soRR-1IslCTX7U4YiBg3Y",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Sorts messages into Reply, Delegate, Schedule, and FYI with draft replies",
+          "official": false
+        },
+        {
+          "title": "ZenSched",
+          "url": "https://x.ai/bot/LK0rEXJnnD1qpEISXd7Ix",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Field workforce scheduling for agents. Connects to ZenSched over MCP so an agent can create the vendor account, schedule crews, run geofenced…",
+          "official": false
+        },
+        {
+          "title": "Meeting Brief",
+          "url": "https://x.ai/bot/JN9e1WggIKVWhCEZrySlj",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "Walk into every call prepared — source-linked attendees, agenda, and open loops in under 90 seconds",
+          "official": false
+        },
+        {
+          "title": "Meeting Prep Buddy",
+          "url": "https://x.ai/bot/s445a0c9a2ca4bea7729e",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "customer-sales",
+          "summary": "Builds a prep pack from calendar, notes, CRM, Gong and Slack: who is in the room, last touch, and open threads.",
+          "official": false
+        },
+        {
+          "title": "n8n Schedule Watcher",
+          "url": "https://x.ai/bot/n78nHL2pCQJVpseg8uqgU",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "weekly",
+          "category": "research-briefings",
+          "summary": "Checks your n8n executions for failures each week, picks up newly added workflows, and suggests fixes or streamlining",
+          "official": false
+        },
+        {
+          "title": "School Ops",
+          "url": "https://x.ai/bot/DlHv5bM529QdYfJCHB7LK",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Morning school digest for working parents. Triages school email and calendars, checks classroom apps when signed in, and surfaces only forms, schedule",
+          "official": false
+        },
+        {
+          "title": "Space x Launch Bot",
+          "url": "https://x.ai/bot/l7bhF020vKEQ-Gh7lTWSJ",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Tracks SpaceX launches end to end — upcoming schedule, countdown windows, scrub risk, and live mission status through liftoff and recovery",
+          "official": false
+        },
+        {
+          "title": "Yun-Ta: calendar + reservations while walking",
+          "url": "https://x.com/yunta_tsai/status/2087415205756391461",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Mixed Chinese/English voice, Bot scans calendars and books a table."
+        },
+        {
+          "title": "Kiara: Bot sits in on a missed meeting",
+          "url": "https://x.com/kiaraplds/status/2088321112073547835",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "SpaceXAI field engineer has a Bot join a meeting she misses, announce itself, and take notes."
+        },
+        {
+          "title": "UiTM calendar Grok Bot + MCP",
+          "url": "https://github.com/bilauitmcuti/bot",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "UiTM academic calendar assistant running on Grok Bot with a remote MCP server for live lecture, cuti, exam, and holiday dates."
+        }
+      ]
+    },
+    {
+      "id": "github_pr",
+      "label": "GitHub / PR / shipping",
+      "count": 15,
+      "examples": [
+        {
+          "title": "GitHub PR Desk",
+          "url": "https://x.ai/bot/Ih9HEfCaYjMKbEZqSfbic",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "daily",
+          "category": "coding-shipping",
+          "summary": "One weekday digest of every PR, issue and comment across your repos",
+          "official": false
+        },
+        {
+          "title": "PR Architecture Review",
+          "url": "https://x.ai/bot/U5fwXX4VQWagxTNFN7cTK",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "personal-admin",
+          "summary": "Weekday reviewer of recently merged pull requests across a GitHub org. Surfaces architecture, naming, and best-practice patterns as potentially-good and",
+          "official": false
+        },
+        {
+          "title": "PR Babysitter",
+          "url": "https://x.ai/bot/0H8E1nLauCXfmMcuHgHK8",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "Watches one GitHub repo PRs and alerts only when you must act",
+          "official": false
+        },
+        {
+          "title": "🔍 PR Review Desk ✦ SHIP-SAFE",
+          "url": "https://x.ai/bot/5tp4v8_Z22suR9biJ_9wa",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Anchored Blocker, Major, Minor and Nit findings in one PR review packet",
+          "official": false
+        },
+        {
+          "title": "🔍 PR Review Desk ✦ SHIP-SAFE",
+          "url": "https://x.ai/bot/5tp4v8_z22sur9bij_9wa",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "🔍 Review pull requests faster with anchored Blocker, Major, Minor and Nit findings in one review packet.",
+          "official": false
+        },
+        {
+          "title": "Cloudflare GitHub Site Bot",
+          "url": "https://x.ai/bot/wuX9f9WZMmY8e1EQ_eB8A",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Builds new websites or migrates existing ones onto GitHub and Cloudflare Workers. Walks you from zero accounts through SSH deploy keys, API tokens,",
+          "official": false
+        },
+        {
+          "title": "Repo Monkey",
+          "url": "https://x.ai/bot/evdmG7ilYN01Nu4NBXPyQ",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Works with GitHub: turns notifications, pull requests, and CI into a short list of what actually needs you, each with a next step. Nothing merges without your",
+          "official": false
+        },
+        {
+          "title": "Github Bro",
+          "url": "https://x.ai/bot/V2kkrme1lYb3NwIulGTTd",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "Weekday morning digest of what's new in a GitHub repo, plus a short PM brief",
+          "official": false
+        },
+        {
+          "title": "Repo Engineer",
+          "url": "https://x.ai/bot/iXfxVelc85rIxgZ9hLeXD",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Ships small GitHub fixes as pull requests through Cursor cloud agents; never merges itself",
+          "official": false
+        },
+        {
+          "title": "Grok Build Manager",
+          "url": "https://x.ai/bot/qah_D3sjhwC3O9WMQO9C9",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "personal-admin",
+          "summary": "Runs Grok Build on one GitHub repo on the bot computer, plan first then a draft PR",
+          "official": false
+        },
+        {
+          "title": "Deploy Desk",
+          "url": "https://x.ai/bot/7n0xNJQkJya50-WawGibg",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Keeps a small SaaS product's site deployed and healthy, runs its organic X account from a rolling queue with generated visuals, and drafts outreach for",
+          "official": false
+        },
+        {
+          "title": "GitHub Trending Scout",
+          "url": "https://x.ai/bot/EklFc0zYAqzkxcALynMj2",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "daily",
+          "category": "coding-shipping",
+          "summary": "Reads GitHub trending daily and digests only the few repos that fit your work, with why each one matters",
+          "official": false
+        },
+        {
+          "title": "fleet-overview — static Grok Bot fleet board",
+          "url": "https://github.com/Lennart1970/fleet-overview",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Static GitHub Pages board that visualizes a personal Grok Bot fleet as lanes, bots, and todos."
+        },
+        {
+          "title": "grok-bot-fiverr — Fiverr sourcing Grok Bot",
+          "url": "https://github.com/sea517/grok-bot-fiverr",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Source-of-truth skills and dashboard for a Grok Bot that sources Fiverr freelancers via browser session, screens them, and invites GitHub take-homes."
+        },
+        {
+          "title": "n2parko: CoS + EM + five eng ICs + Databricks + PM",
+          "url": "https://x.com/n2parko/status/2087251704744235298",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "SpaceXAI product roster with real agent-to-agent PR handoff screenshots."
+        }
+      ]
+    },
+    {
+      "id": "content_social",
+      "label": "Content & social",
+      "count": 15,
+      "examples": [
+        {
+          "title": "Social Media GTM Bot",
+          "url": "https://x.ai/bot/rwdXTWNa0eGPFzyTWlRKJ",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "content-publishing",
+          "summary": "A Head of Content bot for founders who publish on Instagram, TikTok, YouTube, X, and LinkedIn. It recycles winning posts, prepares comment-to-DM lead magnets, keeps a per-platform calendar, and publis",
+          "official": false
+        },
+        {
+          "title": "Content Intern",
+          "url": "https://x.ai/bot/3VL9ILZ-TUY_YyR2aPQhB",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "content-publishing",
+          "summary": "Researches and drafts SEO blog posts for B2B products by finding unusual performers, scanning current conversations on social media platforms, pulling",
+          "official": false
+        },
+        {
+          "title": "Clip Bot",
+          "url": "https://x.ai/bot/Vk0cnF2c364QxNv-Xip1M",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "content-publishing",
+          "summary": "Cuts captioned 16:9 highlights from any YouTube podcast",
+          "official": false
+        },
+        {
+          "title": "SEO Content Desk (seodraft)",
+          "url": "https://x.ai/bot/OkT4Dbjy4xVf7oVBCr8hL",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "content-publishing",
+          "summary": "SEO writing desk for your own blog: topics, SERP briefs, drafts from sources via seodraft MCP",
+          "official": false
+        },
+        {
+          "title": "Clip Bot",
+          "url": "https://x.ai/bot/aMGcDD-vdyx8ZqeFvIIr1",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "content-publishing",
+          "summary": "Cuts short portrait social clips from long talks — picks the strongest stretch, burns verbatim punch captions, and encodes so they play in chat",
+          "official": false
+        },
+        {
+          "title": "Content",
+          "url": "https://x.ai/bot/iAwkENgt3iIxp0OR7_QvF",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Portfolio/blog content seat: strategy and calendar for craft and AI builds, draft-then-approve posting, amplify after you say go. Not for job-hunt",
+          "official": false
+        },
+        {
+          "title": "Social Media Manager",
+          "url": "https://x.ai/bot/s634cb1edf26493e86be2",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "customer-sales",
+          "summary": "Studies your posting history, drafts when something noteworthy ships, and parks the post for you to publish.",
+          "official": false
+        },
+        {
+          "title": "Clip Bot X Saver",
+          "url": "https://x.ai/bot/8-gwIOWrsPEjOvqZsT2PX",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "personal-admin",
+          "summary": "Cuts social-ready podcast highlights from YouTube. Makes captioned 16:9 clips with karaoke captions and a source card, then saves the file to your computer",
+          "official": false
+        },
+        {
+          "title": "Paste → Post Pack",
+          "url": "https://x.ai/bot/EAonX-eBCN0lXDz7gEpi7",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "content-publishing",
+          "summary": "Paste one article, notes, or transcript. Get ready-to-post drafts: 3 X posts, a LinkedIn post, a newsletter blurb, and a short thread. Draft-only - you",
+          "official": false
+        },
+        {
+          "title": "Clip Bot",
+          "url": "https://x.ai/bot/-L1yFJ5mtwPgn3O_iYUo_",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "content-publishing",
+          "summary": "Finds the best moments in a long recording and cuts them into short captioned clips",
+          "official": true
+        },
+        {
+          "title": "Social Media",
+          "url": "https://x.ai/bot/4vmlCUGEy8sWSWsj2j5tz",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "content-publishing",
+          "summary": "Queues the finished posts and pushes each one live at the right local hour",
+          "official": false
+        },
+        {
+          "title": "Social Supervisor",
+          "url": "https://x.ai/bot/IRLoWA2QOfhsBQtQ1d79Z",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "content-publishing",
+          "summary": "Weekday X digests, raised-hand reply flags, and draft-only posts for founders running a brand account plus a product account. Never posts without your yes",
+          "official": false
+        },
+        {
+          "title": "Content Grokbot kit v1.0.0",
+          "url": "https://github.com/xander-using-ai-to-scale/content-grokbot",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Drop-in kit that turns a fresh Grok Bot into a content team with an editor-in-chief, nine sub-agents, and an Almanac memory vault."
+        },
+        {
+          "title": "Grok Bot one-job starter personas",
+          "url": "https://github.com/SigiBaes/grok-bot-starter-pack",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Copy-paste one-job Grok Bot personas (speed-to-lead, inbox triage, found-money, content scout) with draft-only defaults and first-wake checklists."
+        },
+        {
+          "title": "agent-daily Grok Bot message archive",
+          "url": "https://github.com/skyiimaple/agent-daily",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Repo convention for Grok Bots to commit daily digests (hotspot morning, job radar) into content/ by bot-id."
+        }
+      ]
+    },
+    {
+      "id": "research",
+      "label": "Research & briefings",
+      "count": 15,
+      "examples": [
+        {
+          "title": "News Scout",
+          "url": "https://x.ai/bot/9Mo5saoPQYIp45IgzMT7P",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "A weekday morning news digest in your own timezone",
+          "official": false
+        },
+        {
+          "title": "Competitor Monitor",
+          "url": "https://x.ai/bot/9msshkJeF5cnzAw8tF4vi",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "Glasser-powered competitor monitoring bot for ongoing competitive intel inside Grok Bot",
+          "official": false
+        },
+        {
+          "title": "Dig | Org Digest",
+          "url": "https://x.ai/bot/uhcw0SMM6WLZDYYRKu3Qq",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "daily",
+          "category": "research-briefings",
+          "summary": "One company signal rendered at five briefing altitudes from daily to annual",
+          "official": false
+        },
+        {
+          "title": "Scout",
+          "url": "https://x.ai/bot/HzmMgW9tr_6YLKDhPFCr3",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "Sports intel desk that reports only what changed since last run with impact and sources",
+          "official": false
+        },
+        {
+          "title": "Last Days Research Aide",
+          "url": "https://x.ai/bot/6TtxM8bzTYdNq6Qj4JU-r",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "Tracks Last Days watch-points while keeping prophecy claims apart from news",
+          "official": false
+        },
+        {
+          "title": "Scout",
+          "url": "https://x.ai/bot/pHZMtEXvMaD8QS1jdFJct",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "Market research bot for Grok Bot founders. Mines X and the web for buyer signals, viral loops, and product gaps",
+          "official": false
+        },
+        {
+          "title": "Scout",
+          "url": "https://x.ai/bot/ywadcwwzp0bcq6boeqpgt",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "weekly",
+          "category": "research-briefings",
+          "summary": "Weekly client research packs: last-seven-days audience engagement, competitor posts, and one format that is working now, with a link on every…",
+          "official": false
+        },
+        {
+          "title": "Chief of Staff",
+          "url": "https://x.ai/bot/MwFnq0cj_oBgnQUHEB73g",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "daily",
+          "category": "research-briefings",
+          "summary": "A daily ops chief for Tesla/SpaceX creators and busy professionals: morning X drafts from public news only, a watch-only market open digest, and",
+          "official": false
+        },
+        {
+          "title": "Creative Studio Scout",
+          "url": "https://x.ai/bot/_V9NG3Es7w7am2Kpb6lWg",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "Finds hands-on creative workshops near you with verified dates and prices",
+          "official": false
+        },
+        {
+          "title": "Garden Retail Research Specialist",
+          "url": "https://x.ai/bot/Y8YOrZBsPE8U-jyTI7Qtk",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "weekly",
+          "category": "research-briefings",
+          "summary": "Monday intel for vendors serving garden-center retailers, covering category moves, shelf plans, and supplier leads",
+          "official": false
+        },
+        {
+          "title": "Markets Brief Scout",
+          "url": "https://x.ai/bot/exSOooSSp0Pc4W_K9DQ4T",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "Weekday market cards with sources, plus draft posts you approve",
+          "official": false
+        },
+        {
+          "title": "Markets Digest",
+          "url": "https://x.ai/bot/dqRd0b5Tl61lVkjtP6OrY",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "Weekday morning and evening markets digests in plain language with sourced stories",
+          "official": false
+        },
+        {
+          "title": "AIResearch — GrokBot-maintained AI knowledge base",
+          "url": "https://github.com/ProphetEngine/AIResearch",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Obsidian-friendly AI research knowledge base that a Grok Bot automatically maintains with topic MOCs and atomic notes."
+        },
+        {
+          "title": "Director orchestrator logs & templates for Grok Bot",
+          "url": "https://github.com/Ansefe/grok-bot-orquestator",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Spanish evaluation logs, bitácora, and templates for a Grok Bot “Director” that coordinates competitor coding agents."
+        },
+        {
+          "title": "Gota: twelve jobs on one roster",
+          "url": "https://x.com/gota_bara/status/2087666940450152841",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Image factory, research briefs, 3D, travel debate, cancel subscriptions, local LLM on the VM."
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "label": "Shopping & deals",
+      "count": 15,
+      "examples": [
+        {
+          "title": "Deal Scout",
+          "url": "https://x.ai/bot/D0h0h30nGaZqg8jzxdqwP",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "personal-admin",
+          "summary": "Wishlist deal hunter that imports product or Amazon wishlist links into your Sheet, tracks best price and history, and sends a Friday rollup without buying",
+          "official": false
+        },
+        {
+          "title": "Deal Scout",
+          "url": "https://x.ai/bot/7lshPSP7YWEvGzK5ju1Tg",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "personal-admin",
+          "summary": "Paste any product link to get the best price across your stores and memberships, then it watches your wishlist for drops and never buys",
+          "official": false
+        },
+        {
+          "title": "Deal Finder Ops",
+          "url": "https://x.ai/bot/LB1eE-TpCI5usMRe76izh",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "personal-admin",
+          "summary": "Checks a coupon against a real cart and shows you the receipt math",
+          "official": false
+        },
+        {
+          "title": "Deal Hunting",
+          "url": "https://x.ai/bot/yTeKCLayahHnMdHFG9GJg",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Landed-cost shopping: real prices, shipping and tax, preferred retailers. Watchlist optional. Never buys unless asked",
+          "official": true
+        },
+        {
+          "title": "Deal Hunting",
+          "url": "https://x.ai/bot/MGiEdMz0TNxBkvMgUZAbf",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "personal-admin",
+          "summary": "Landed-cost shopping that compares real prices including shipping and tax",
+          "official": false
+        },
+        {
+          "title": "Deal finder",
+          "url": "https://x.ai/bot/F1gmAaLQNmXDj-PH_CEx3",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "finance-ops",
+          "summary": "Watches products you care about and only pings you when the price actually drops below your baseline — or a real sale shows up. Built for quiet weekday",
+          "official": false
+        },
+        {
+          "title": "Real Estate Deal Scorecard",
+          "url": "https://x.ai/bot/TWqD9x8MxUgT-0ab70aLA",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "personal-admin",
+          "summary": "Scores a US address or listing link across six rental and flip strategies before you buy",
+          "official": false
+        },
+        {
+          "title": "Shop Processes",
+          "url": "https://x.ai/bot/TkoRVSXsTCUnx4427FKnw",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "customer-sales",
+          "summary": "Standing ops desk for a food plant / co-pack / seasoning-blend shop: sales orders through ingredient buys, forecast-driven make/buy, packing checks, and",
+          "official": false
+        },
+        {
+          "title": "Shop Compare",
+          "url": "https://x.ai/bot/7EGBWWDrvgujhdOLCIrNi",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "customer-sales",
+          "summary": "Comparison shopping research across public listings before you buy",
+          "official": false
+        },
+        {
+          "title": "Lot Boss",
+          "url": "https://x.ai/bot/4Du3nwqKk5SfnYfX_pGs5",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "finance-ops",
+          "summary": "Two-lane used desk. Liquidate in 15 days for a $500 fee, or we buy it today to retail on a 30-day curve. Same tape. Asks before it changes a live price",
+          "official": false
+        },
+        {
+          "title": "Deal Inspector",
+          "url": "https://x.ai/bot/vZfC76-4UC1XU7qC4m726",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "customer-sales",
+          "summary": "Checks every deal that moved stage against your qualification criteria using the actual call transcripts.",
+          "official": true
+        },
+        {
+          "title": "Haggle Bot",
+          "url": "https://x.ai/bot/pwQ612YrX3R0eACnIMlom",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "finance-ops",
+          "summary": "Inventories your SaaS spend from Ramp and bills, finds evidence-backed savings (unused seats, duplicates, cheaper alternatives), and drafts…",
+          "official": true
+        },
+        {
+          "title": "Debbie: buy gluten-free beer on a Sunday night",
+          "url": "https://debbie.codes/blog/i-sent-grok-bot-to-buy-my-gluten-free-beer",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "CoS shopping run — the fun case that shows computer-use, not chat."
+        },
+        {
+          "title": "Jon ONeill: plumbing-shop office manager",
+          "url": "https://x.com/HouseHackerJon/status/2087635639701573962",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Drain-and-sewer shop owner handing office-manager work to a Bot in the first 24 hours."
+        },
+        {
+          "title": "KettlebellDan: Arduino LED stock ticker",
+          "url": "https://x.com/KettlebellDan/status/2089387837204693202",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Bot talks to his Arduino so the LED marquee scrolls SPCX price, a sparkline, and SpaceX news."
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "label": "Finance & ops",
+      "count": 15,
+      "examples": [
+        {
+          "title": "🧾 Receipt & Expense Desk ✦ RECEIPT-READY",
+          "url": "https://x.ai/bot/n9bmzRDFDXaRxDc5e8G-h",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "finance-ops",
+          "summary": "Turns receipt photos or pasted text into a categorized expense report",
+          "official": false
+        },
+        {
+          "title": "🧾 Receipt & Expense Desk ✦ RECEIPT-READY",
+          "url": "https://x.ai/bot/n9bmzrdfdxarxdc5e8g-h",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "finance-ops",
+          "summary": "🧾 Turn receipt photos or pasted receipts into a categorized, reconciled expense report with policy flags and totals.",
+          "official": false
+        },
+        {
+          "title": "Crypto Budget & Tax Keeper",
+          "url": "https://x.ai/bot/h-l5EmqmnU91tgYOPaJE5",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "finance-ops",
+          "summary": "Read-only money desk that builds a plain-English budget and net worth plus a CPA-ready crypto trail",
+          "official": false
+        },
+        {
+          "title": "Renewals Invoice Bot",
+          "url": "https://x.ai/bot/-9hlUkQbsgE7oUyQvUPum",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "weekly",
+          "category": "finance-ops",
+          "summary": "Pays known renewals within a weekly budget and asks before anything new",
+          "official": false
+        },
+        {
+          "title": "Receipt Scanner / Expense Tracking",
+          "url": "https://x.ai/bot/qod4CrNQBlDIMm5wFYVQp",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Forward a receipt and it becomes a row in your expense sheet",
+          "official": false
+        },
+        {
+          "title": "Receipt Catcher",
+          "url": "https://x.ai/bot/BczDaJtYAQDX4A-TunPxx",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "finance-ops",
+          "summary": "Catches receipt photos and turns them into a tidy expense trail",
+          "official": false
+        },
+        {
+          "title": "Crypto Budget & Tax Keeper",
+          "url": "https://x.ai/bot/h-l5emqmnu91tgyopaje5",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "finance-ops",
+          "summary": "A read-only money assistant for crypto holders and creators.",
+          "official": false
+        },
+        {
+          "title": "Receipt Scanner / Expense Tracking",
+          "url": "https://x.ai/bot/qod4crnqbldimm5wfyvqp",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "inbox-calendar",
+          "summary": "Logs emailed receipts into a Google Sheet and Drive folder.",
+          "official": false
+        },
+        {
+          "title": "Invoice Hunter",
+          "url": "https://x.ai/bot/-kO6HrXokJZANVwUOMZO9",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "finance-ops",
+          "summary": "Finds invoice PDFs in Gmail and packs a month into a CSV",
+          "official": false
+        },
+        {
+          "title": "Expense Manager",
+          "url": "https://x.ai/bot/s50bb9361d891bd788a23",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "weekly",
+          "category": "finance-ops",
+          "summary": "Builds the weekly summary from your expense tool and sheets, logs receipts arriving by email, and chases missing ones.",
+          "official": false
+        },
+        {
+          "title": "Invoice Coordinator",
+          "url": "https://x.ai/bot/s072bae9387b9fc03cac8",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "finance-ops",
+          "summary": "Stops invoices sitting. Forwards them, matches what it can, tracks campus and vendor actuals, and nudges the owner when something needs a human.",
+          "official": false
+        },
+        {
+          "title": "Invoice Mirror",
+          "url": "https://x.ai/bot/HwckXN5Yd1uxRu86msyfj",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "daily",
+          "category": "finance-ops",
+          "summary": "Keeps Harvest and Balances invoices in sync: daily create/update from Harvest into Balances, then mark Harvest paid when Balances shows payment. Stages",
+          "official": false
+        },
+        {
+          "title": "Ledger FreshBooks MVP by Grok Bot",
+          "url": "https://github.com/rohitgarewal-code/ledger",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "FreshBooks-style multi-business ledger MVP (Hono/SQLite/PDF) described as created by Grok Bot."
+        },
+        {
+          "title": "XRPL neon ledger HUD built for Grok Build",
+          "url": "https://github.com/xrpshine/xrpl-neon-ledger",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Single-file WebGL neon dashboard that visualizes live XRPL ledger closes, packaged as a Grok Build project drop."
+        },
+        {
+          "title": "Frostwell Cakes — a Next.js cake shop built by Grok Bot from GitHub issues",
+          "url": "https://github.com/dev-repos/nextjs-cake-shop-grok-bot",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "MIT demo for an AI system design tutorial: a mobile-first Next.js custom-cake shop that Grok Bot built from GitHub issues while being driven from a phone, deployed to Vercel, with orders carried in HM"
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "label": "Coding & agents",
+      "count": 15,
+      "examples": [
+        {
+          "title": "SWE",
+          "url": "https://x.ai/bot/sd4474cf03cd8552905ff",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Cursor's software engineer bot: writes code, triages issues, monitors production, and more",
+          "official": true
+        },
+        {
+          "title": "X API Engineer",
+          "url": "https://x.ai/bot/ay0PGygsBxYONJRITWABE",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Helps you ship an app on the X API. Surveys the Developer Exhibit, reads the docs, builds what you pick, walks you through console keys, demos it, and",
+          "official": false
+        },
+        {
+          "title": "Claude Code",
+          "url": "https://x.ai/bot/71PSQ4KBs-hNYBsH05X_n",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "A dedicated coding agent that runs all software work through the Claude Code CLI.",
+          "official": false
+        },
+        {
+          "title": "Helidon Engineer",
+          "url": "https://x.ai/bot/5mReUHPYTBA6nJ2aNvlqn",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Writes and reviews Helidon 4 code on modern Java",
+          "official": false
+        },
+        {
+          "title": "Android / Play Build Engineer",
+          "url": "https://x.ai/bot/dHEtlzVrG2zWzLwasCWII",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Ships Android games and apps to Google Play: Godot 4 → AAB by default, debug APKs for sideload, version bumps, and clear Internal → Closed → Production",
+          "official": false
+        },
+        {
+          "title": "Lingxi's Engineer Bot",
+          "url": "https://x.ai/bot/SxqbG1NT5qEw7ggmHqQu_",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "A hands-off engineering supervisor. Boards work, launches cloud agents on the repo you name, watches PRs on a 30-minute cadence, and only asks you…",
+          "official": true
+        },
+        {
+          "title": "Code Red",
+          "url": "https://x.ai/bot/4y3jlvwxFNqcP76eJgpuD",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "A rehearsed emergency stop for systems you own, gated behind your own confirmation",
+          "official": false
+        },
+        {
+          "title": "Nightly Audit Engineer",
+          "url": "https://x.ai/bot/0LLQmzk-yzwHi0zuiV0lC",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "daily",
+          "category": "coding-shipping",
+          "summary": "A nightly engineering auditor that researches a whole codebase, then ships one cleanup PR per area. Defaults to 4am and asks when to run before it starts",
+          "official": true
+        },
+        {
+          "title": "Nightly Audit Engineer",
+          "url": "https://x.ai/bot/hkGSHcqKjGc5dm3ugNc2U",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "daily",
+          "category": "coding-shipping",
+          "summary": "Reads your repository overnight and lands one small cleanup per area",
+          "official": false
+        },
+        {
+          "title": "Requirement Engineer Bot",
+          "url": "https://x.ai/bot/5KADFS8AIIDOlow5tS34Z",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Turns a project brief into a clear, structured requirements spec another bot can implement and verify, for serious builds only.",
+          "official": false
+        },
+        {
+          "title": "UI/UX/Designer. Product Engineer 1000x",
+          "url": "https://x.ai/bot/sQDD87Gp6VLT0m99tFpzu",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "A full-stack product engineer that ships Convex, TanStack and React apps",
+          "official": false
+        },
+        {
+          "title": "Code Team Spawn",
+          "url": "https://x.ai/bot/NuOSHSdCZPVkM78K0HkB3",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "coding-shipping",
+          "summary": "Sits idle until you need a coding team, then interviews and spawns a hidden five-person crew",
+          "official": false
+        },
+        {
+          "title": "RLE harness using xAI Grok Build",
+          "url": "https://github.com/AppSprout-dev/rle-harness-grok-build",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Turns xai-org/grok-build into an RLE harness where a coding agent manages a RimWorld colony over MCP."
+        },
+        {
+          "title": "Sable GTM desk for Cursor / Grok Build",
+          "url": "https://github.com/thoughtpilot99/sable",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "GTM prospecting desk with ColdIQ motions, shipping both Cursor rules and .grok skills so Grok Build can run the same brief."
+        },
+        {
+          "title": "Multi-Harness Proof — live Grok Build coordination",
+          "url": "https://github.com/xormania/multi-harness-proof",
+          "kind": "field-case",
+          "source": "RongleCat/awesome-grok-bot (GitHub)",
+          "summary": "Confirmed proof that Codex, Claude Code and Grok Build can exchange messages and coordinate work across live native sessions via a local relay."
+        }
+      ]
+    }
+  ]
+}

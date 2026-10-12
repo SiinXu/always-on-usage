@@ -39,5 +39,9 @@ if(f){const knob=$(".knob",f),inp=f.elements.bots,num=$("[data-bots]",f),out=$("
  ["pointerup","pointercancel"].forEach(t=>knob.addEventListener(t,()=>drag=null));
  $$("[data-step]",f).forEach(b=>b.addEventListener("click",()=>setB(+inp.value+ +b.dataset.step)));
  f.addEventListener("change",run);f.addEventListener("submit",e=>e.preventDefault());setB(3);}
-// case search
-const q=$("#q");if(q)q.addEventListener("input",()=>{const v=q.value.trim().toLowerCase();let n=0;$$("#list li").forEach(li=>{const hit=!v||li.dataset.q.includes(v);li.hidden=!hit;n+=hit});$("#empty").hidden=n>0});
+// case search + filters (type/product chips, ?q= / ?type= in URL)
+const q=$("#q");if(q){const st={type:"",product:"",scen:""},P=new URLSearchParams(location.search);q.value=P.get("q")||"";
+ const sync=()=>$$(".chip").forEach(c=>c.setAttribute("aria-pressed",String(st[c.dataset.f]===c.dataset.v)));
+ const run=()=>{const v=q.value.trim().toLowerCase();let n=0;$$("#list li").forEach(li=>{const hit=(!v||li.dataset.q.includes(v))&&(!st.type||li.dataset.type===st.type)&&(!st.product||li.dataset.product===st.product)&&(!st.scen||li.dataset.scen.split(" ").includes(st.scen));li.hidden=!hit;n+=hit});$("#empty").hidden=n>0;$("#shown").textContent=n};
+ $$(".chip").forEach(c=>c.addEventListener("click",()=>{st[c.dataset.f]=c.dataset.v;sync();run()}));
+ if(P.get("type"))st.type=P.get("type");if(P.get("product"))st.product=P.get("product");if(P.get("scen"))st.scen=P.get("scen");sync();q.addEventListener("input",run);run()}
