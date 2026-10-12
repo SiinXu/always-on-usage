@@ -25,7 +25,7 @@ const tick=(el,to,d=700)=>{if(RM){el.textContent=to;return}const from=+el.textCo
 $$("[data-tick]").forEach(el=>{const n=+el.dataset.tick;el.textContent=0;tick(el,n,1100)});
 // decrypt headline (once, on load)
 const h=$(".decrypt");
-if(h&&!RM){const txt=h.textContent,G="０１＃％＆＊＋＝？",t0=performance.now();h.setAttribute("aria-label",txt);const f=t=>{const k=(t-t0)/900;h.textContent=[...txt].map((c,i)=>c===" "||i/txt.length<k?c:G[(Math.random()*G.length)|0]).join("");if(k<1)requestAnimationFrame(f);else h.textContent=txt};requestAnimationFrame(f)}
+if(h&&!RM&&false){const txt=h.textContent,G="０１＃％＆＊＋＝？",t0=performance.now();h.setAttribute("aria-label",txt);const f=t=>{const k=(t-t0)/900;h.textContent=[...txt].map((c,i)=>c===" "||i/txt.length<k?c:G[(Math.random()*G.length)|0]).join("");if(k<1)requestAnimationFrame(f);else h.textContent=txt};requestAnimationFrame(f)}
 // specimen cards: spring expand with FLIP
 $$("[data-specs]").forEach(box=>{const cards=$$("[data-spec]",box);
  $$(".spec-head",box).forEach(btn=>btn.addEventListener("click",()=>{const card=btn.closest("[data-spec]"),open=!card.classList.contains("is-open");
@@ -35,6 +35,11 @@ $$("[data-specs]").forEach(box=>{const cards=$$("[data-spec]",box);
   if(RM)return;
   cards.forEach(c=>{const a=first.get(c),b=c.getBoundingClientRect();c.animate([{transform:`translate(${a.left-b.left}px,${a.top-b.top}px)`},{transform:"none"}],{duration:620,easing:"linear(0, .25 7%, .84 22%, 1.06 33%, 1.08 40%, 1.01 58%, .995 75%, 1)"})});
  }))});
+// product switch -> spring rearrange
+$$("[data-pick]").forEach(b=>b.addEventListener("click",()=>{const c=$$("[data-spec]")[+b.dataset.pick];const h=$(".spec-head",c);if(!c.classList.contains("is-open"))h.click();$$("[data-pick]").forEach(x=>x.setAttribute("aria-pressed",String(x===b)))}));
+// tilt
+if(!RM&&matchMedia("(hover:hover)").matches)$$(".spec").forEach(el=>{el.addEventListener("pointermove",e=>{const b=el.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;el.style.transform=`perspective(900px) rotateX(${-y*5}deg) rotateY(${x*5}deg)`});el.addEventListener("pointerleave",()=>el.style.transform="")});
+// marquee pause offscreen
 // dial calculator
 const f=$("#calc");
 if(f){const knob=$(".knob",f),inp=f.elements.bots,num=$("[data-bots]",f),out=$("#out",f);
@@ -44,12 +49,12 @@ if(f){const knob=$(".knob",f),inp=f.elements.bots,num=$("[data-bots]",f),out=$("
  const run=()=>{const d=new FormData(f),b=+d.get("bots")||1,r=score(b,d.get("browser")==="on",d.get("routine"));
   const tips=[];if(b>=6)tips.push(t("Bot 数量 6 个以上：合并为一个分拣 Bot，按需派生子代理"));if(d.get("browser"))tips.push(t("浏览器：先查 connector 能否覆盖"));if(d.get("routine")==="hourly")tips.push(t("每小时：改为事件触发或每日两次"));
   $("[data-morph]",out).className="morph "+lv[r.level];$("[data-level]",out).textContent=LV()[r.level];$("[data-rk]",out).textContent=t("风险");$("[data-sk]",out).textContent=t("得分");tick($("[data-score]",out),r.s,450);$("[data-msg]",out).textContent=t(msg[r.level]);
-  $("[data-tips]",out).innerHTML=tips.map(t=>`<li>${t}</li>`).join("");f.dataset.level=lv[r.level]};
- const setB=v=>{v=Math.max(1,Math.min(20,Math.round(v)));inp.value=v;num.textContent=v;knob.setAttribute("aria-valuenow",v);knob.setAttribute("aria-valuetext",t("{n} 个 Bot",{n:v}));knob.style.setProperty("--rot",(-135+(v-1)/19*270)+"deg");run()};
+  $("[data-tips]",out).innerHTML=tips.map(t=>`<li>${t}</li>`).join("");f.dataset.level=lv[r.level];document.querySelectorAll('.dial').forEach(d=>d.dataset.level=lv[r.level])};
+ const setB=v=>{v=Math.max(1,Math.min(20,Math.round(v)));inp.value=v;num.textContent=v;knob.setAttribute("aria-valuenow",v);knob.setAttribute("aria-valuetext",t("{n} 个 Bot",{n:v}));const prev=+num.dataset.v||v;num.dataset.v=v;tick(num,v,300);knob.style.setProperty("--rot",(-135+(v-1)/19*270)+"deg");$$(".ticks i",knob).forEach((t,i)=>{t.classList.toggle("on",i<v);t.classList.toggle("hit",i===v-1&&v!==prev)});run()};
  knob.addEventListener("keydown",e=>{const m={ArrowUp:1,ArrowRight:1,ArrowDown:-1,ArrowLeft:-1,PageUp:5,PageDown:-5}[e.key];if(e.key==="Home")setB(1);else if(e.key==="End")setB(20);else if(m)setB(+inp.value+m);else return;e.preventDefault()});
- let drag=null;knob.addEventListener("pointerdown",e=>{drag={y:e.clientY,x:e.clientX,v:+inp.value};knob.setPointerCapture(e.pointerId)});
+ let drag=null;knob.addEventListener("pointerdown",e=>{drag={y:e.clientY,x:e.clientX,v:+inp.value};knob.setPointerCapture(e.pointerId);knob.classList.add("drag")});
  knob.addEventListener("pointermove",e=>{if(!drag)return;setB(drag.v+((drag.y-e.clientY)+(e.clientX-drag.x))/14)});
- ["pointerup","pointercancel"].forEach(t=>knob.addEventListener(t,()=>drag=null));
+ ["pointerup","pointercancel"].forEach(t=>knob.addEventListener(t,()=>{drag=null;knob.classList.remove("drag")}));
  $$("[data-step]",f).forEach(b=>b.addEventListener("click",()=>setB(+inp.value+ +b.dataset.step)));
  f.addEventListener("change",run);document.addEventListener("langchange",()=>setB(+inp.value));f.addEventListener("submit",e=>e.preventDefault());setB(3);}
 // case search + filters (type/product chips, ?q= / ?type= in URL)
