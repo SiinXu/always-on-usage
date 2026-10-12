@@ -1,1 +1,0 @@
-const q=document.getElementById("q");q.addEventListener("input",()=>{const v=q.value.trim().toLowerCase();document.querySelectorAll("#list li").forEach(li=>li.hidden=v&&!li.textContent.toLowerCase().includes(v));});
