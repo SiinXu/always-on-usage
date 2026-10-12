@@ -8,6 +8,7 @@ export const t=(zh,v)=>{const s=pick(S["@"+zh])||zh;return v?s.replace(/\{(\w+)\
 const applyI18n=()=>{document.documentElement.lang=LANG;
  document.querySelectorAll("[data-i18n]").forEach(el=>{const s=pick(S[el.dataset.i18n]);if(s==null)return;const h=fillv(s,el);if(el.tagName==="TITLE"){document.title=h.replace(/<[^>]+>/g,"")+" | "+(pick(S[Object.keys(S).find(k=>S[k][0]==="常驻用量")])||"常驻用量");return}if(el.classList.contains("decrypt"))el.textContent=h;else el.innerHTML=h});
  for(const at of ["aria-label","content","placeholder","title"])document.querySelectorAll(`[data-i18n-${at}]`).forEach(el=>{const s=pick(S[el.getAttribute("data-i18n-"+at)]);if(s!=null)el.setAttribute(at,fillv(s,el))});
+ document.querySelectorAll(".lx").forEach(el=>{if(!el.dataset.zh)el.dataset.zh=el.textContent;el.textContent=LANG.startsWith("zh")?el.dataset.zh:el.dataset.en});
  document.documentElement.classList.remove("i18n-wait")};
 applyI18n();
 const sel=document.getElementById("lang");if(sel){sel.value=LANG;sel.addEventListener("change",()=>{LANG=sel.value;try{localStorage.lang=LANG}catch(e){}applyI18n();document.dispatchEvent(new Event("langchange"))})}

@@ -270,3 +270,27 @@ a.chip{display:inline-flex;align-items:center;gap:6px;text-decoration:none}
 }
 @media (max-width:860px){.top nav{margin:0;padding:0 0 2px;min-width:0;max-width:100%}}
 .steps li,.story-body,.calc-note{overflow-wrap:anywhere}
+
+/* v8 story detail + per-locale blocks */
+.lcb{display:none}
+html[lang="zh-CN"] .lcb[data-lc="zh-CN"]{display:block}html[lang="zh-TW"] .lcb[data-lc="zh-TW"]{display:block}html[lang="en"] .lcb[data-lc="en"]{display:block}html[lang="ja"] .lcb[data-lc="ja"]{display:block}html[lang="ko"] .lcb[data-lc="ko"]{display:block}html[lang="ms"] .lcb[data-lc="ms"]{display:block}html[lang="vi"] .lcb[data-lc="vi"]{display:block}html[lang="fr"] .lcb[data-lc="fr"]{display:block}html[lang="es"] .lcb[data-lc="es"]{display:block}html[lang="de"] .lcb[data-lc="de"]{display:block}
+.cc-title .lcb,.story-head h1 .lcb,.calc-note .lcb{display:none}
+html[lang="zh-CN"] .cc-title .lcb[data-lc="zh-CN"],html[lang="zh-CN"] .story-head h1 .lcb[data-lc="zh-CN"],html[lang="zh-CN"] .calc-note .lcb[data-lc="zh-CN"]{display:inline}html[lang="zh-TW"] .cc-title .lcb[data-lc="zh-TW"],html[lang="zh-TW"] .story-head h1 .lcb[data-lc="zh-TW"],html[lang="zh-TW"] .calc-note .lcb[data-lc="zh-TW"]{display:inline}html[lang="en"] .cc-title .lcb[data-lc="en"],html[lang="en"] .story-head h1 .lcb[data-lc="en"],html[lang="en"] .calc-note .lcb[data-lc="en"]{display:inline}html[lang="ja"] .cc-title .lcb[data-lc="ja"],html[lang="ja"] .story-head h1 .lcb[data-lc="ja"],html[lang="ja"] .calc-note .lcb[data-lc="ja"]{display:inline}html[lang="ko"] .cc-title .lcb[data-lc="ko"],html[lang="ko"] .story-head h1 .lcb[data-lc="ko"],html[lang="ko"] .calc-note .lcb[data-lc="ko"]{display:inline}html[lang="ms"] .cc-title .lcb[data-lc="ms"],html[lang="ms"] .story-head h1 .lcb[data-lc="ms"],html[lang="ms"] .calc-note .lcb[data-lc="ms"]{display:inline}html[lang="vi"] .cc-title .lcb[data-lc="vi"],html[lang="vi"] .story-head h1 .lcb[data-lc="vi"],html[lang="vi"] .calc-note .lcb[data-lc="vi"]{display:inline}html[lang="fr"] .cc-title .lcb[data-lc="fr"],html[lang="fr"] .story-head h1 .lcb[data-lc="fr"],html[lang="fr"] .calc-note .lcb[data-lc="fr"]{display:inline}html[lang="es"] .cc-title .lcb[data-lc="es"],html[lang="es"] .story-head h1 .lcb[data-lc="es"],html[lang="es"] .calc-note .lcb[data-lc="es"]{display:inline}html[lang="de"] .cc-title .lcb[data-lc="de"],html[lang="de"] .story-head h1 .lcb[data-lc="de"],html[lang="de"] .calc-note .lcb[data-lc="de"]{display:inline}
+.case.story{max-width:760px;margin-inline:auto;padding:clamp(40px,7vw,96px) clamp(20px,5vw,40px) 120px;box-sizing:content-box}
+.story-head h1{font-size:clamp(32px,4.4vw,56px);line-height:1.08;letter-spacing:-.03em;margin:12px 0 18px;text-wrap:balance;overflow-wrap:anywhere}
+.story-meta{display:flex;flex-wrap:wrap;gap:6px 18px;color:var(--muted);font-size:15px;margin:0 0 14px}
+.story-tags{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px}
+.story-src{border:1px solid var(--line);border-radius:var(--r-card);background:var(--surface);box-shadow:var(--hi);padding:20px 22px;margin:8px 0 32px;overflow:hidden}
+.story-src-k{margin:0 0 6px;color:var(--muted);font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.story-src-url{display:block;font-size:17px;font-weight:500;color:var(--accent);overflow-wrap:anywhere;text-decoration:none}
+.story-src-url:hover{text-decoration:underline}
+.x-embed{margin-top:16px;max-width:550px}.x-embed .twitter-tweet{margin:0!important}
+.x-embed blockquote{margin:0;padding:0;border:0;color:var(--muted)}
+.story .story-body{max-width:none;font-size:18px;line-height:1.8;margin:16px 0 32px}
+.story .story-body p{margin:0 0 1.1em}
+.story h2{font-size:24px;margin:40px 0 14px}
+.story .steps{padding-left:1.4em;line-height:1.7}
+.story-cta{margin:40px 0 0}
+@media (max-width:640px){.case.story{padding-inline:20px}.story .story-body{font-size:17px}.story-src{padding:16px}}
+.x-embed blockquote a{overflow-wrap:anywhere;word-break:break-all;font-size:13px;color:var(--muted)}
+.story .story-body blockquote{margin:0 0 1.4em;padding:12px 0 12px 18px;border-left:2px solid var(--accent);color:var(--muted);font-size:16px}
