@@ -1,0 +1,63 @@
+{
+  "note": "估算方向 / directional estimates, not vendor SLAs",
+  "agents": [
+    {
+      "id": "grok-bot",
+      "name": "Grok Bot",
+      "vendor": "xAI",
+      "triggers": "定时 routine、邮件/Webhook、聊天唤起、Bot 间消息",
+      "browser": "内置云端浏览器 + 大量 connector（Gmail、Calendar、Notion、GitHub…）；浏览器步骤最贵",
+      "parallel": "多 Bot 并行、可派生子代理；并行数量是额度主要放大器",
+      "routine": "分钟级到每日；高频轮询最易烧额度",
+      "risk": "中-高（估算方向）",
+      "fit": "多 Bot 协作、邮件/日历分拣、带浏览器的研究与表单前置",
+      "unfit": "秒级监控、纯抓取农场、无人看管的高频浏览器循环",
+      "links": [
+        [
+          "grokbotwiki",
+          "https://grokbotwiki.com"
+        ],
+        [
+          "botsdots",
+          "https://botsdots.site"
+        ]
+      ]
+    },
+    {
+      "id": "openai-dots",
+      "name": "OpenAI Dots",
+      "vendor": "OpenAI",
+      "triggers": "定时任务、聊天唤起、部分应用事件（估算方向）",
+      "browser": "以 connector / 工具调用为主，浏览代理按需启用",
+      "parallel": "以单代理多任务为主，并行有限（估算方向）",
+      "routine": "日级 / 周级摘要最常见",
+      "risk": "中（估算方向）",
+      "fit": "每日简报、跟进提醒、文档整理",
+      "unfit": "需要多代理分工的长链路工作流",
+      "links": [
+        [
+          "aiformortals 对比",
+          "https://aiformortals.com"
+        ]
+      ]
+    },
+    {
+      "id": "meta-muse",
+      "name": "Meta Muse",
+      "vendor": "Meta",
+      "triggers": "聊天唤起、社交/消息事件、定时提醒（估算方向）",
+      "browser": "偏向自有生态 connector，通用浏览器能力较弱（估算方向）",
+      "parallel": "单代理为主（估算方向）",
+      "routine": "日级提醒 / 内容排期",
+      "risk": "低-中（估算方向）",
+      "fit": "社交内容排期、消息生态内的轻助理",
+      "unfit": "跨 SaaS 深度自动化、需要真实浏览器登录的流程",
+      "links": [
+        [
+          "customaise 对比",
+          "https://customaise.com"
+        ]
+      ]
+    }
+  ]
+}

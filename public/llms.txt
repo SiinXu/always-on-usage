@@ -1,0 +1,24 @@
+# 常驻用量 Always-on Usage
+> Always-on Agents 的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。评测层，不是模板目录。所有数字为估算方向。
+
+## Pages
+- /compare.html: Grok Bot / OpenAI Dots / Meta Muse 对照矩阵
+- /cases/: 踩坑案例
+- /calculator.html: 额度风险计算器
+- /about.html: 定位
+
+## Data
+- /data/agents.json
+- /data/cases.json
+
+## Cases
+- /cases/six-bots-42-percent.html: 6 个 Bot 一天烧掉 42% 周额度
+- /cases/browser-price-monitor-30min.html: 每 30 分钟浏览器比价，3 天用完一周额度
+- /cases/hourly-digest-to-daily.html: 每小时简报改每日一次，省下约 80% 用量
+- /cases/subagent-fanout-12.html: 一次任务派生 12 个子代理，单次花掉 5% 周额度
+- /cases/inbox-triage-connector.html: 收件箱分拣从浏览器换 Connector，成本降到 1/5
+- /cases/muse-social-schedule.html: Muse 排期 30 条社交内容，额度几乎无感
+- /cases/calendar-poll-5min.html: 日历每 5 分钟轮询，一周 2000+ 次空跑
+- /cases/dots-weekly-report-2-bots.html: 2 个代理协作周报，比 1 个多花 1.8 倍
+- /cases/github-watch-3-repos.html: 盯 3 个 GitHub 仓库：Webhook 比轮询省 95%
+- /cases/login-wall-retry-loop.html: 登录墙重试死循环，一夜烧掉 18% 周额度

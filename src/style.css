@@ -1,0 +1,34 @@
+:root{--bg:#f6f6f4;--ink:#111;--mut:#5d5d58;--line:#dcdcd6;--card:#fff;--acc:#ff5a1f;--r1:6px;--r2:10px;--r3:14px;color-scheme:light dark}
+@media(prefers-color-scheme:dark){:root{--bg:#121211;--ink:#efeee9;--mut:#9b9a93;--line:#2c2c29;--card:#191917}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 Geist,"PingFang SC","Noto Sans SC",system-ui,sans-serif}
+a{color:inherit;text-underline-offset:3px;text-decoration-color:var(--acc)}
+main,.top,.foot{max-width:1120px;margin:0 auto;padding:0 20px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-top:16px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.brand{font:600 17px Geist,sans-serif;text-decoration:none}.brand span{font-weight:400;color:var(--mut);margin-left:8px;font-size:13px}
+nav{display:flex;gap:18px;font-size:14px}nav a{text-decoration:none;color:var(--mut)}nav a:hover{color:var(--ink)}
+h1,h2{font-family:"Instrument Serif","Songti SC",serif;font-weight:400;letter-spacing:-.01em;line-height:1.1}
+h1{font-size:clamp(36px,6vw,68px);margin:.2em 0 .3em;max-width:16em}h1 em{color:var(--acc)}h2{font-size:30px;margin:0 0 12px}
+.hero{padding:56px 0 32px}.hero.sm{padding:40px 0 16px}.hero.sm h1{font-size:clamp(32px,5vw,52px)}
+.eyebrow{font-size:13px;color:var(--mut);margin:0}.lede{font-size:17px;color:var(--mut);max-width:40em}.muted{color:var(--mut)}
+section{padding:24px 0;border-top:1px solid var(--line)}.hero{border:0}
+.sh{display:flex;justify-content:space-between;align-items:baseline}.sh a{font-size:14px}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r2);background:var(--card)}
+.cmp{border-collapse:collapse;width:100%;min-width:720px;font-size:14px}.cmp th,.cmp td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.cmp thead th{font-weight:600;border-bottom:2px solid var(--ink)}.cmp small{display:block;font-weight:400;color:var(--mut)}
+.cmp tbody th{font-weight:500;color:var(--mut);width:140px;position:sticky;left:0;background:var(--card)}.cmp tr:last-child>*{border-bottom:0}
+.split{display:grid;gap:40px;grid-template-columns:1fr}@media(min-width:860px){.split{grid-template-columns:5fr 6fr}}
+.calc{display:grid;gap:14px;padding:20px;border:1px solid var(--line);border-radius:var(--r3);background:var(--card)}
+.calc label{display:grid;gap:6px;font-size:14px;font-weight:500}.calc .chk{display:flex;align-items:center;gap:8px}
+input,select,button{font:inherit;color:inherit;background:var(--bg);border:1px solid var(--line);border-radius:var(--r1);padding:9px 11px}
+button{background:var(--ink);color:var(--bg);border:0;font-weight:600;cursor:pointer}button:hover{background:var(--acc);color:#111}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+output{display:block;border-top:1px solid var(--line);padding-top:14px}output p{margin:8px 0}output small{display:block;color:var(--mut)}output ul{margin:0;padding-left:18px;font-size:14px}
+.risk{display:inline-block;min-width:2.2em;text-align:center;font-size:12px;font-weight:600;padding:2px 8px;border-radius:var(--r1);border:1px solid var(--line)}
+.risk.high{background:var(--acc);color:#111;border-color:var(--acc)}.risk.med{border-color:var(--acc);color:var(--acc)}.risk.low{color:var(--mut)}
+.risk.big{font-size:22px;padding:4px 16px;font-family:"Instrument Serif",serif;font-weight:400}
+.clist{list-style:none;margin:0;padding:0}.clist li a{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;padding:14px 0;border-bottom:1px solid var(--line);text-decoration:none}
+.clist .ct{font-weight:500}.clist .ca{grid-column:2;font-size:13px;color:var(--mut)}.clist a:hover .ct{color:var(--acc)}
+.search{width:100%;max-width:460px;margin-top:8px}
+.case{max-width:720px;padding:40px 0}.case dt{font-size:13px;color:var(--mut);margin-top:22px;border-top:1px solid var(--line);padding-top:12px}.case dd{margin:6px 0 0;font-size:16px}.num{font-family:"Instrument Serif",serif;font-size:28px!important}
+.narrow{max-width:560px;padding-bottom:40px}
+.foot{padding-top:24px;padding-bottom:40px;border-top:1px solid var(--line);font-size:13px;color:var(--mut)}
