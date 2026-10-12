@@ -18,11 +18,12 @@ export const featured=[...pick.map(r=>items.find(x=>x.type==="quota-report"&&r.t
  ...items.filter(x=>x.type==="field-case"&&x.usage_notes&&x.usage_notes!==x.summary)].slice(0,6);
 export const calcRef=items.find(x=>/lasts longer/i.test(x.title))||items.find(x=>x.type==="quota-report");
 // ---- v6 IA: 教程 · 模板 · 场景 · 做成了什么 (+ 警告 appendix) ----
-const bd=JSON.parse(fs.readFileSync(new URL("./content-inbox/botsdots-templates.json",import.meta.url),"utf8"));
-export const templates=bd.items.map(t=>({title:t.name,summary:t.summary,source_url:t.page||t.add,copy_url:t.add,source_name:"botsdots.site",product:"grok-bot",type:"template",usage_notes:null,author:t.creator?.name||null,cadence:t.cadence,risk:t.risk,category:t.category,integrations:t.integrations||[],slug:"t-"+(t.page||"").split("/").pop()})).filter(t=>!OOB.test(t.title+" "+t.summary));
+const TJ=JSON.parse(fs.readFileSync(new URL("./content-inbox/templates.json",import.meta.url),"utf8"));
+export const seed=JSON.parse(fs.readFileSync(new URL("./content-inbox/scenarios-seed.json",import.meta.url),"utf8")).scenarios;
+export const templates=TJ.items.filter(t=>t.share_url&&!OOB.test(t.title+" "+t.summary)).map(t=>({title:t.title,summary:t.summary,source_url:t.share_url,copy_url:t.share_url,source_name:t.official?"x.ai 官方模板":"botsdots.site",official:!!t.official,product:"grok-bot",type:"template",usage_notes:null,author:t.creator||null,cadence:t.cadence,risk:t.risk,category:t.category,integrations:t.integrations||[],slug:"t-"+t.id})).sort((x,y)=>(y.official-x.official)||((y.cadence&&y.cadence!=="on-demand")-(x.cadence&&x.cadence!=="on-demand")));
 export const scenarios=[["inbox","收件箱分拣",/inbox|e-?mail|gmail|outlook|triage|邮件/i],["report","周报 / 简报",/weekly|report|digest|brief|recap|summary|周报|简报/i],["prs","盯 PR / 仓库",/pull request|\bprs?\b|github|repo|code review|ci\b/i],["social","社媒排期",/social|tweet|\bx\b post|linkedin|newsletter|content|publish|post/i],["food","点餐 / 生活",/food|order|restaurant|grocer|meal|recipe|doordash|travel|flight/i],["calendar","日程会议",/calendar|meeting|schedule|agenda/i],["research","调研监控",/research|monitor|watch|track|competitor|news/i],["finance","财务运营",/finance|invoice|expense|budget|billing|crm|sales|lead/i],["ship","写代码上线",/code|deploy|ship|build|app|game|site|website/i]];
 const tag=x=>scenarios.filter(([, ,r])=>r.test(x.title+" "+(x.summary||"")+" "+(x.category||""))).map(s=>s[0]);
 items.forEach(x=>x.scen=tag(x));templates.forEach(x=>x.scen=tag(x));
-export const lib=[...items.filter(x=>x.type!=="quota-report"),...templates];
+export const lib=[...items.filter(x=>x.type==="guide"||x.type==="field-case"),...templates];
 export const warnings=items.filter(x=>x.type==="quota-report");
-export const rails={guide:items.filter(x=>x.type==="guide"),template:templates.concat(items.filter(x=>x.type==="template")),build:items.filter(x=>x.type==="field-case"),compare:items.filter(x=>x.type==="comparison")};
+export const rails={guide:items.filter(x=>x.type==="guide"),template:templates,build:items.filter(x=>x.type==="field-case"),compare:items.filter(x=>x.type==="comparison")};

@@ -346,16 +346,6 @@
           "official": false
         },
         {
-          "title": "🔍 PR Review Desk ✦ SHIP-SAFE",
-          "url": "https://x.ai/bot/5tp4v8_z22sur9bij_9wa",
-          "kind": "template",
-          "source": "botsdots.site",
-          "cadence": "on-demand",
-          "category": "coding-shipping",
-          "summary": "🔍 Review pull requests faster with anchored Blocker, Major, Minor and Nit findings in one review packet.",
-          "official": false
-        },
-        {
           "title": "Cloudflare GitHub Site Bot",
           "url": "https://x.ai/bot/wuX9f9WZMmY8e1EQ_eB8A",
           "kind": "template",
@@ -445,6 +435,16 @@
           "kind": "field-case",
           "source": "RongleCat/awesome-grok-bot (GitHub)",
           "summary": "SpaceXAI product roster with real agent-to-agent PR handoff screenshots."
+        },
+        {
+          "title": "Website Ops",
+          "url": "https://x.ai/bot/NYDai_DOI_2pNDIKerrpD",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "content-publishing",
+          "summary": "Website operations and content manager. Ships site changes as PRs from your website repo, runs evidence-backed site audits (SEO, content, speed, a11y, CRO",
+          "official": false
         }
       ]
     },
@@ -908,16 +908,6 @@
           "official": false
         },
         {
-          "title": "🧾 Receipt & Expense Desk ✦ RECEIPT-READY",
-          "url": "https://x.ai/bot/n9bmzrdfdxarxdc5e8g-h",
-          "kind": "template",
-          "source": "botsdots.site",
-          "cadence": "on-demand",
-          "category": "finance-ops",
-          "summary": "🧾 Turn receipt photos or pasted receipts into a categorized, reconciled expense report with policy flags and totals.",
-          "official": false
-        },
-        {
           "title": "Crypto Budget & Tax Keeper",
           "url": "https://x.ai/bot/h-l5EmqmnU91tgYOPaJE5",
           "kind": "template",
@@ -955,26 +945,6 @@
           "cadence": "on-demand",
           "category": "finance-ops",
           "summary": "Catches receipt photos and turns them into a tidy expense trail",
-          "official": false
-        },
-        {
-          "title": "Crypto Budget & Tax Keeper",
-          "url": "https://x.ai/bot/h-l5emqmnu91tgyopaje5",
-          "kind": "template",
-          "source": "botsdots.site",
-          "cadence": "on-demand",
-          "category": "finance-ops",
-          "summary": "A read-only money assistant for crypto holders and creators.",
-          "official": false
-        },
-        {
-          "title": "Receipt Scanner / Expense Tracking",
-          "url": "https://x.ai/bot/qod4crnqbldimm5wfyvqp",
-          "kind": "template",
-          "source": "botsdots.site",
-          "cadence": "on-demand",
-          "category": "inbox-calendar",
-          "summary": "Logs emailed receipts into a Google Sheet and Drive folder.",
           "official": false
         },
         {
@@ -1037,6 +1007,36 @@
           "kind": "field-case",
           "source": "RongleCat/awesome-grok-bot (GitHub)",
           "summary": "MIT demo for an AI system design tutorial: a mobile-first Next.js custom-cake shop that Grok Bot built from GitHub issues while being driven from a phone, deployed to Vercel, with orders carried in HM"
+        },
+        {
+          "title": "Ad Spend Watch",
+          "url": "https://x.ai/bot/MK5zStpj_As8CsRwg3r6w",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "research-briefings",
+          "summary": "Watches your ad spend and performance and flags what's breaking before it burns budget.",
+          "official": false
+        },
+        {
+          "title": "Apple Search Ads Review",
+          "url": "https://x.ai/bot/gadc3bVOsg9iIwmzAGRve",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "on-demand",
+          "category": "customer-sales",
+          "summary": "Reviews your Apple Search Ads spend against your cost per install target. Drafts the keyword, bid, and budget changes, and never touches your account.",
+          "official": false
+        },
+        {
+          "title": "Edna",
+          "url": "https://x.ai/bot/r5R9X50NdzRZBPcBQAnhP",
+          "kind": "template",
+          "source": "botsdots.site",
+          "cadence": "daily",
+          "category": "finance-ops",
+          "summary": "Plans award travel around your home airport, points and status",
+          "official": false
         }
       ]
     },
