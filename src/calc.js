@@ -11,5 +11,5 @@ const msg={低:"低风险：当前配置唤起次数少，可放心常驻。",�
 const f=document.getElementById("calc");
 if(f){const run=e=>{e&&e.preventDefault();const d=new FormData(f);const r=score(+d.get("bots")||1,d.get("browser")==="on",d.get("routine"));
 const tips=[];if(+d.get("bots")>=6)tips.push("Bot 数 ≥6：合并为分拣 Bot + 按需子代理");if(d.get("browser"))tips.push("浏览器：先查 connector 能否覆盖");if(d.get("routine")==="hourly")tips.push("每小时：改为事件触发或每日两次");
-document.getElementById("out").innerHTML=`<span class="risk big ${{低:"low",中:"med",高:"high"}[r.level]}">${r.level}</span><p>${msg[r.level]}<small>得分 ${r.s}/5 · 估算方向</small></p>${tips.length?`<ul>${tips.map(t=>`<li>${t}</li>`).join("")}</ul>`:""}`;};
+document.getElementById("out").innerHTML=`<div class="meter" style="--s:${r.s}">${[0,1,2,3,4].map(i=>`<i class="${i<r.s?"on":""}"></i>`).join("")}</div><span class="risk big ${{低:"low",中:"med",高:"high"}[r.level]}">${r.level}</span><p>${msg[r.level]}<small>得分 ${r.s}/5 · 估算方向</small></p>${tips.length?`<ul>${tips.map(t=>`<li>${t}</li>`).join("")}</ul>`:""}`;};
 f.addEventListener("submit",run);f.addEventListener("change",run);run();}
