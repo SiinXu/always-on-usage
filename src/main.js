@@ -1,4 +1,16 @@
 import {score} from "./calc.js";
+import S from "./strings.json";
+const LS=["zh-CN","zh-TW","en","ja","ko","ms","vi","fr","es","de"];
+let LANG=LS.includes(document.documentElement.lang)?document.documentElement.lang:"en";
+const pick=r=>{if(!r)return null;const i=LS.indexOf(LANG);return r[i]??r[2]??r[0]};
+const fillv=(s,el)=>{const v=el.dataset.v;if(!v)return s;const o=JSON.parse(v);return s.replace(/\{(\w+)\}/g,(_,k)=>o[k])};
+export const t=(zh,v)=>{const s=pick(S["@"+zh])||zh;return v?s.replace(/\{(\w+)\}/g,(_,k)=>v[k]):s};
+const applyI18n=()=>{document.documentElement.lang=LANG;
+ document.querySelectorAll("[data-i18n]").forEach(el=>{const s=pick(S[el.dataset.i18n]);if(s==null)return;const h=fillv(s,el);if(el.tagName==="TITLE"){document.title=h.replace(/<[^>]+>/g,"")+" | "+(pick(S[Object.keys(S).find(k=>S[k][0]==="常驻用量")])||"常驻用量");return}if(el.classList.contains("decrypt"))el.textContent=h;else el.innerHTML=h});
+ for(const at of ["aria-label","content","placeholder","title"])document.querySelectorAll(`[data-i18n-${at}]`).forEach(el=>{const s=pick(S[el.getAttribute("data-i18n-"+at)]);if(s!=null)el.setAttribute(at,fillv(s,el))});
+ document.documentElement.classList.remove("i18n-wait")};
+applyI18n();
+const sel=document.getElementById("lang");if(sel){sel.value=LANG;sel.addEventListener("change",()=>{LANG=sel.value;try{localStorage.lang=LANG}catch(e){}applyI18n();document.dispatchEvent(new Event("langchange"))})}
 const RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 // theme
@@ -25,20 +37,20 @@ $$("[data-specs]").forEach(box=>{const cards=$$("[data-spec]",box);
 // dial calculator
 const f=$("#calc");
 if(f){const knob=$(".knob",f),inp=f.elements.bots,num=$("[data-bots]",f),out=$("#out",f);
- const msg={低:"当前配置唤起次数少，可以放心常驻。",中:"注意浏览器步骤和频率，优先用 connector 和事件触发。",高:"可能几天内烧完周额度。合并 Bot、降低频率、浏览器按需开启。"};
+ const msg={低:"当前配置唤起次数少，可以放心常驻。",中:"注意浏览器步骤和频率，优先用 connector 和事件触发。",高:"可能几天内烧完周额度。合并 Bot、降低频率、浏览器按需开启。"};const LV=()=>({低:t("低"),中:t("中"),高:t("高")});
  const lv={低:"low",中:"med",高:"high"};
- out.innerHTML=`<span class="morph low" data-morph aria-hidden="true"></span><div class="out-txt"><p class="out-level"><span data-level>低</span>风险</p><p class="out-score">得分 <b data-score>0</b> / 5</p><p class="out-msg" data-msg></p><ul class="out-tips" data-tips></ul></div>`;
+ out.innerHTML=`<span class="morph low" data-morph aria-hidden="true"></span><div class="out-txt"><p class="out-level"><span data-level>低</span><span data-rk>风险</span></p><p class="out-score"><span data-sk>得分</span> <b data-score>0</b> / 5</p><p class="out-msg" data-msg></p><ul class="out-tips" data-tips></ul></div>`;
  const run=()=>{const d=new FormData(f),b=+d.get("bots")||1,r=score(b,d.get("browser")==="on",d.get("routine"));
-  const tips=[];if(b>=6)tips.push("Bot 数 6 个以上：合并为一个分拣 Bot，按需派生子代理");if(d.get("browser"))tips.push("浏览器：先查 connector 能否覆盖");if(d.get("routine")==="hourly")tips.push("每小时：改为事件触发或每日两次");
-  $("[data-morph]",out).className="morph "+lv[r.level];$("[data-level]",out).textContent=r.level;tick($("[data-score]",out),r.s,450);$("[data-msg]",out).textContent=msg[r.level];
+  const tips=[];if(b>=6)tips.push(t("Bot 数量 6 个以上：合并为一个分拣 Bot，按需派生子代理"));if(d.get("browser"))tips.push(t("浏览器：先查 connector 能否覆盖"));if(d.get("routine")==="hourly")tips.push(t("每小时：改为事件触发或每日两次"));
+  $("[data-morph]",out).className="morph "+lv[r.level];$("[data-level]",out).textContent=LV()[r.level];$("[data-rk]",out).textContent=t("风险");$("[data-sk]",out).textContent=t("得分");tick($("[data-score]",out),r.s,450);$("[data-msg]",out).textContent=t(msg[r.level]);
   $("[data-tips]",out).innerHTML=tips.map(t=>`<li>${t}</li>`).join("");f.dataset.level=lv[r.level]};
- const setB=v=>{v=Math.max(1,Math.min(20,Math.round(v)));inp.value=v;num.textContent=v;knob.setAttribute("aria-valuenow",v);knob.setAttribute("aria-valuetext",v+" 个 Bot");knob.style.setProperty("--rot",(-135+(v-1)/19*270)+"deg");run()};
+ const setB=v=>{v=Math.max(1,Math.min(20,Math.round(v)));inp.value=v;num.textContent=v;knob.setAttribute("aria-valuenow",v);knob.setAttribute("aria-valuetext",t("{n} 个 Bot",{n:v}));knob.style.setProperty("--rot",(-135+(v-1)/19*270)+"deg");run()};
  knob.addEventListener("keydown",e=>{const m={ArrowUp:1,ArrowRight:1,ArrowDown:-1,ArrowLeft:-1,PageUp:5,PageDown:-5}[e.key];if(e.key==="Home")setB(1);else if(e.key==="End")setB(20);else if(m)setB(+inp.value+m);else return;e.preventDefault()});
  let drag=null;knob.addEventListener("pointerdown",e=>{drag={y:e.clientY,x:e.clientX,v:+inp.value};knob.setPointerCapture(e.pointerId)});
  knob.addEventListener("pointermove",e=>{if(!drag)return;setB(drag.v+((drag.y-e.clientY)+(e.clientX-drag.x))/14)});
  ["pointerup","pointercancel"].forEach(t=>knob.addEventListener(t,()=>drag=null));
  $$("[data-step]",f).forEach(b=>b.addEventListener("click",()=>setB(+inp.value+ +b.dataset.step)));
- f.addEventListener("change",run);f.addEventListener("submit",e=>e.preventDefault());setB(3);}
+ f.addEventListener("change",run);document.addEventListener("langchange",()=>setB(+inp.value));f.addEventListener("submit",e=>e.preventDefault());setB(3);}
 // case search + filters (type/product chips, ?q= / ?type= in URL)
 const q=$("#q");if(q){const st={type:"",product:"",scen:""},P=new URLSearchParams(location.search);q.value=P.get("q")||"";
  const sync=()=>$$(".chip").forEach(c=>c.setAttribute("aria-pressed",String(st[c.dataset.f]===c.dataset.v)));
