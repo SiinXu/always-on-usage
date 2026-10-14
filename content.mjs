@@ -26,4 +26,4 @@ const tag=x=>scenarios.filter(([, ,r])=>r.test(x.title+" "+(x.summary||"")+" "+(
 items.forEach(x=>x.scen=tag(x));templates.forEach(x=>x.scen=tag(x));
 export const lib=[...items.filter(x=>x.type==="guide"||x.type==="field-case"),...templates];
 export const warnings=items.filter(x=>x.type==="quota-report");
-export const rails={guide:items.filter(x=>x.type==="guide"),template:templates,build:items.filter(x=>x.type==="field-case"),compare:items.filter(x=>x.type==="comparison")};
+export const rails={guide:items.filter(x=>x.type==="guide"),template:templates,build:items.filter(x=>x.type==="field-case").sort((a,b)=>(b.pin?1:0)-(a.pin?1:0)),compare:items.filter(x=>x.type==="comparison")};

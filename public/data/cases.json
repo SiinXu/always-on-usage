@@ -1,6 +1,6 @@
 {
   "note": "公开条目聚合 / aggregated public items; see source_url",
-  "count": 1461,
+  "count": 1462,
   "fetched_at": "2026-10-12T11:54:58.322933+00:00",
   "items": [
     {
@@ -8122,6 +8122,64 @@
       "author": null,
       "slug": "how-to-use-grok-bot-670",
       "scen": []
+    },
+    {
+      "title": "herdr-web-ui: watch always-on coding agents from your phone and browser",
+      "source_url": "https://github.com/devswha/herdr-web-ui",
+      "source_name": "GitHub",
+      "product": "multi",
+      "type": "field-case",
+      "summary": "A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.",
+      "usage_notes": null,
+      "author": "devswha",
+      "pin": true,
+      "tr": {
+        "zh-CN": {
+          "title": "herdr-web-ui：在手机和浏览器上盯常驻编码 Agent",
+          "summary": "Herdr 插件：把 Herdr 里的 Agent 窗格搬到浏览器和手机 PWA。Claude Code、Codex、OpenCode 等会话显示成聊天，一键切到真实终端（xterm）；审批和提问变成可点的卡片；Agent 需要输入或跑完时发 Web 推送；手机键条带 Esc/Tab/Ctrl/方向键；可通过 Tailscale/SSH 远程连。安装：herdr plugin install devswha/herdr-web-ui（需 Herdr ≥0.9.0，默认 localhost:7317）。TypeScript/React/Bun，MIT，约 900 星，2026 年 10 月 7–13 日一周新增约 300 星。"
+        },
+        "zh-TW": {
+          "title": "herdr-web-ui：在手機和瀏覽器上盯常駐編碼 Agent",
+          "summary": "Herdr 外掛：把 Herdr 裡的 Agent 窗格搬到瀏覽器和手機 PWA。Claude Code、Codex、OpenCode 等工作階段顯示成聊天，一鍵切到真實終端機（xterm）；審批和提問變成可點的卡片；Agent 需要輸入或跑完時發 Web 推播；手機鍵條帶 Esc/Tab/Ctrl/方向鍵；可透過 Tailscale/SSH 遠端連線。安裝：herdr plugin install devswha/herdr-web-ui（需 Herdr ≥0.9.0，預設 localhost:7317）。TypeScript/React/Bun，MIT，約 900 星，2026 年 10 月 7–13 日一週新增約 300 星。"
+        },
+        "en": {
+          "title": "herdr-web-ui: watch always-on coding agents from your phone and browser",
+          "summary": "A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026."
+        },
+        "ja": {
+          "title": "herdr-web-ui：常駐コーディングエージェントをスマホとブラウザで見守る",
+          "summary": "Herdr のエージェントペインをブラウザとスマホ PWA に持ち出す Herdr プラグイン。Claude Code・Codex・OpenCode などのセッションをチャット表示し、ワンクリックで実ターミナル（xterm）へ。承認や質問はタップできるカードに、エージェントが入力待ち・完了になると Web プッシュ通知。スマホ用キーバー（Esc/Tab/Ctrl/矢印）付き、Tailscale/SSH でリモート接続。インストール：herdr plugin install devswha/herdr-web-ui（Herdr ≥0.9.0 が必要、既定 localhost:7317）。TypeScript/React/Bun、MIT、約 900 スター、2026 年 10 月 7–13 日の週に約 300 増。"
+        },
+        "ko": {
+          "title": "herdr-web-ui: 상시 코딩 에이전트를 휴대폰과 브라우저에서 지켜보기",
+          "summary": "Herdr 에이전트 창을 브라우저와 휴대폰 PWA로 옮겨 주는 Herdr 플러그인. Claude Code, Codex, OpenCode 등 세션을 채팅으로 보여 주고 클릭 한 번으로 실제 터미널(xterm)로 전환; 승인과 질문은 탭할 수 있는 카드로; 에이전트가 입력을 기다리거나 끝나면 웹 푸시 알림; 휴대폰 키 바(Esc/Tab/Ctrl/방향키); Tailscale/SSH로 원격 접속. 설치: herdr plugin install devswha/herdr-web-ui (Herdr ≥0.9.0 필요, 기본 localhost:7317). TypeScript/React/Bun, MIT, 약 900 스타, 2026년 10월 7–13일 주에 약 300 증가."
+        },
+        "ms": {
+          "title": "herdr-web-ui: pantau ejen pengekodan sentiasa aktif dari telefon dan pelayar",
+          "summary": "Pemalam Herdr yang membawa panel ejen Herdr ke pelayar dan PWA telefon. Sesi Claude Code, Codex, OpenCode dan lain-lain dipaparkan sebagai sembang dengan terminal langsung satu klik (xterm); kelulusan dan soalan menjadi kad yang boleh diketik; amaran push web apabila ejen perlukan input atau selesai; bar kekunci telefon (Esc/Tab/Ctrl/anak panah); sambung dari jauh melalui Tailscale/SSH. Pasang: herdr plugin install devswha/herdr-web-ui (perlu Herdr ≥0.9.0, lalai localhost:7317). TypeScript/React/Bun, MIT, ~900 bintang, +~300 pada minggu 7–13 Okt 2026."
+        },
+        "vi": {
+          "title": "herdr-web-ui: theo dõi agent lập trình chạy liên tục từ điện thoại và trình duyệt",
+          "summary": "Plugin Herdr đưa các ô agent của Herdr lên trình duyệt và PWA trên điện thoại. Phiên Claude Code, Codex, OpenCode… hiển thị dạng chat, một chạm chuyển sang terminal thật (xterm); phê duyệt và câu hỏi thành thẻ bấm được; thông báo web push khi agent cần nhập liệu hoặc chạy xong; thanh phím trên điện thoại (Esc/Tab/Ctrl/mũi tên); kết nối từ xa qua Tailscale/SSH. Cài đặt: herdr plugin install devswha/herdr-web-ui (cần Herdr ≥0.9.0, mặc định localhost:7317). TypeScript/React/Bun, MIT, ~900 sao, +~300 trong tuần 7–13/10/2026."
+        },
+        "fr": {
+          "title": "herdr-web-ui : surveiller vos agents de code permanents depuis le téléphone et le navigateur",
+          "summary": "Un plugin Herdr qui amène les panneaux d'agents Herdr dans le navigateur et dans une PWA mobile. Les sessions Claude Code, Codex, OpenCode, etc. s'affichent en chat avec un terminal réel en un clic (xterm) ; validations et questions deviennent des cartes à toucher ; notifications web push quand un agent attend une saisie ou a fini ; barre de touches mobile (Échap/Tab/Ctrl/flèches) ; accès distant via Tailscale/SSH. Installation : herdr plugin install devswha/herdr-web-ui (Herdr ≥0.9.0 requis, par défaut localhost:7317). TypeScript/React/Bun, MIT, ~900 étoiles, +~300 la semaine du 7 au 13 oct. 2026."
+        },
+        "es": {
+          "title": "herdr-web-ui: vigila tus agentes de código siempre activos desde el móvil y el navegador",
+          "summary": "Un plugin de Herdr que lleva los paneles de agentes de Herdr al navegador y a una PWA móvil. Las sesiones de Claude Code, Codex, OpenCode y otros aparecen como chat con terminal real a un clic (xterm); aprobaciones y preguntas se convierten en tarjetas táctiles; avisos web push cuando un agente necesita entrada o termina; barra de teclas móvil (Esc/Tab/Ctrl/flechas); acceso remoto vía Tailscale/SSH. Instalación: herdr plugin install devswha/herdr-web-ui (requiere Herdr ≥0.9.0, por defecto localhost:7317). TypeScript/React/Bun, MIT, ~900 estrellas, +~300 en la semana del 7 al 13 de oct. de 2026."
+        },
+        "de": {
+          "title": "herdr-web-ui: Always-on-Coding-Agents vom Handy und Browser aus im Blick",
+          "summary": "Ein Herdr-Plugin, das Herdr-Agent-Panes in den Browser und eine Handy-PWA bringt. Sitzungen von Claude Code, Codex, OpenCode u. a. erscheinen als Chat mit Live-Terminal per Klick (xterm); Freigaben und Fragen werden zu antippbaren Karten; Web-Push-Hinweise, wenn ein Agent Eingaben braucht oder fertig ist; Handy-Tastenleiste (Esc/Tab/Strg/Pfeile); Fernzugriff über Tailscale/SSH. Installation: herdr plugin install devswha/herdr-web-ui (benötigt Herdr ≥0.9.0, Standard localhost:7317). TypeScript/React/Bun, MIT, ~900 Sterne, +~300 in der Woche vom 7.–13. Okt. 2026."
+        }
+      },
+      "slug": "herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686",
+      "scen": [
+        "research",
+        "ship"
+      ]
     },
     {
       "title": "Marketing Analyst",
