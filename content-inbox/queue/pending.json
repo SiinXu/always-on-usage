@@ -1187,19 +1187,6 @@
    "found_at": "2026-10-15T13:45:31.740Z"
   },
   {
-   "id": "gh:github.com/johnnybyzhang/wecom-dot-bridge",
-   "url": "https://github.com/Johnnybyzhang/wecom-dot-bridge",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "Johnnybyzhang",
-   "date": "2026-10-15",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "Johnnybyzhang/wecom-dot-bridge\nUnofficial single-owner bridge between a WeCom AI bot and your existing ChatGPT dot: text, files, quote replies, push updates",
-   "media": [],
-   "found_at": "2026-10-15T13:45:31.740Z"
-  },
-  {
    "id": "gh:github.com/guanwenpeng2001-bot/magpie-cloud-agents",
    "url": "https://github.com/guanwenpeng2001-bot/magpie-cloud-agents",
    "source": "github",
@@ -1224,19 +1211,6 @@
    "text": "deadbeef101010/dot-gadget\nGive your ChatGPT dot a desk gadget: an open-source relay on your own Cloudflare account",
    "media": [],
    "found_at": "2026-10-15T13:45:31.740Z"
-  },
-  {
-   "id": "gh:github.com/aidevgru/dot-connect",
-   "url": "https://github.com/AIdevgru/dot-connect",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "AIdevgru",
-   "date": "2026-10-14",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "AIdevgru/dot-connect\nDurable local inboxes, lifecycle hooks, and scheduling for Claude Code, Codex, and ChatGPT dot",
-   "media": [],
-   "found_at": "2026-10-15T13:45:31.741Z"
   },
   {
    "id": "gh:github.com/clab-one/thegram-plugin",
@@ -2019,19 +1993,6 @@
    "found_at": "2026-10-15T13:46:09.840Z"
   },
   {
-   "id": "gh:github.com/eatin/muse-gadget-waveshare-349",
-   "url": "https://github.com/Eatin/muse-gadget-waveshare-349",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "Eatin",
-   "date": "2026-10-13",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Eatin/muse-gadget-waveshare-349\nWaveshare ESP32-S3-Touch-LCD-3.49 V2 port for Meta Muse Gadgets, plus a Chinese voice backend: iFlytek ASR/TTS + SenseNova LLM. No Meta account or SDK token needed.\nesp-idf esp32 esp32-s3 iflytek lvgl sensenova voice-assistant waveshare",
-   "media": [],
-   "found_at": "2026-10-15T13:46:09.840Z"
-  },
-  {
    "id": "gh:github.com/semicolonexpected/meta-muse-redteam-logs",
    "url": "https://github.com/SemicolonExpected/META-Muse-RedTeam-Logs",
    "source": "github",
@@ -2093,19 +2054,6 @@
    "likes": 0,
    "product": "meta-muse",
    "text": "ccc115a/muse-web\n用 Meta muse 1.3 + opencode 開發的網站相關應用",
-   "media": [],
-   "found_at": "2026-10-15T13:46:09.840Z"
-  },
-  {
-   "id": "gh:github.com/amranhudda/fitscout",
-   "url": "https://github.com/AmranHudda/fitscout",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "AmranHudda",
-   "date": "2026-10-13",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "AmranHudda/fitscout\nAgent-heavy resale scout: learns my taste from photos, tunes its own searches daily, judges listings by their photos, and pushes finds to my phone. Meta Muse MCP connector.",
    "media": [],
    "found_at": "2026-10-15T13:46:09.840Z"
   },
@@ -2236,19 +2184,6 @@
    "likes": 789,
    "product": "meta-muse",
    "text": "rome-os/rome\nA compounding agent OS for recursive agents. Also an open source alternative to Grok Bot and Meta's Muse.\nagent agent-os ai-agent ai-assistant claude-code codex grok-bot-alternative llm muse-alternative open-source personal-ai self-hosted workflow-automation",
-   "media": [],
-   "found_at": "2026-10-15T13:46:28.427Z"
-  },
-  {
-   "id": "gh:github.com/barbaraackles/sitesense",
-   "url": "https://github.com/barbaraackles/sitesense",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "barbaraackles",
-   "date": "2026-10-14",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "barbaraackles/sitesense\nSatellite → drone → ground inspection assistant for oil & gas wellsites in BC's Peace Region (Meta SAM 3.1 + Muse Spark), with a wildfire risk layer\ncomputer-vision drone fastapi hackathon meta-ai oil-and-gas satellite",
    "media": [],
    "found_at": "2026-10-15T13:46:28.427Z"
   },
@@ -2448,19 +2383,6 @@
    "found_at": "2026-10-15T13:46:47.003Z"
   },
   {
-   "id": "gh:github.com/tylerlongbons-hub/skill-building",
-   "url": "https://github.com/tylerlongbons-hub/Skill-building",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "tylerlongbons-hub",
-   "date": "2026-10-15",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "tylerlongbons-hub/Skill-building\nThis repo keeps track of the projects i am working on with Grok bot as the customer in order to help build my skills. Difficulty starts at \"beginner\" and will work its way to \"Advanced\"",
-   "media": [],
-   "found_at": "2026-10-15T13:46:47.003Z"
-  },
-  {
    "id": "gh:github.com/hayashiii-ghub/usage-rings",
    "url": "https://github.com/hayashiii-ghub/usage-rings",
    "source": "github",
@@ -2483,32 +2405,6 @@
    "likes": 4908,
    "product": "grok-bot",
    "text": "milind-soni/OpenMausBot\nOpen-source Grok Bot alternative with a virtual machine that bots can use\nai-agents claude-code codex computer-use docker electron expo grok grok-bot grok-bot-alternative self-hosted typescript",
-   "media": [],
-   "found_at": "2026-10-15T13:46:47.003Z"
-  },
-  {
-   "id": "gh:github.com/kky42/t3bot",
-   "url": "https://github.com/kky42/t3bot",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "kky42",
-   "date": "2026-10-15",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "kky42/t3bot\nA Grok Bot / Muse style personal bot for T3 Code: memory, personality, heartbeat, routines, and a team of workers on any provider",
-   "media": [],
-   "found_at": "2026-10-15T13:46:47.003Z"
-  },
-  {
-   "id": "gh:github.com/shagghiesuperstar/medusa-commerce",
-   "url": "https://github.com/shagghiesuperstar/medusa-commerce",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "shagghiesuperstar",
-   "date": "2026-10-15",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "shagghiesuperstar/medusa-commerce\nGrok Bot plugin for Medusa v2 commerce: docs-first, draft-only products, dry-run writes, fail loud.",
    "media": [],
    "found_at": "2026-10-15T13:46:47.003Z"
   },
@@ -3072,19 +2968,6 @@
    "found_at": "2026-10-15T13:47:04.940Z"
   },
   {
-   "id": "gh:github.com/enzoenrico/siri-grokbot",
-   "url": "https://github.com/enzoenrico/siri-grokbot",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "enzoenrico",
-   "date": "2026-10-15",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "enzoenrico/siri-grokbot\na connector for grok bot to use siri intents in iphone, carplay, etc",
-   "media": [],
-   "found_at": "2026-10-15T13:47:04.940Z"
-  },
-  {
    "id": "gh:github.com/notswizz/espn-grokbot",
    "url": "https://github.com/notswizz/espn-grokbot",
    "source": "github",
@@ -3172,19 +3055,6 @@
    "likes": 355,
    "product": "grok-bot",
    "text": "kydlikebtc/awesome-grokbot\n1894 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.\nagents ai-agents ai-tools awesome awesome-list bot-templates catalog cursor directory grok grok-bot grokbot llm prompt-engineering xai",
-   "media": [],
-   "found_at": "2026-10-15T13:47:04.940Z"
-  },
-  {
-   "id": "gh:github.com/olllayor/grokbot-opencode",
-   "url": "https://github.com/olllayor/grokbot-opencode",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "olllayor",
-   "date": "2026-10-15",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "olllayor/grokbot-opencode\nOpenCode-powered desktop agent host (interim name, will rename)",
    "media": [],
    "found_at": "2026-10-15T13:47:04.940Z"
   },
@@ -3423,19 +3293,6 @@
    "found_at": "2026-10-15T13:47:14.621Z"
   },
   {
-   "id": "medium:devenkoai.medium.com/stop-using-ai-as-a-chatbot-how-to-build-a-24-7-engineering-team-with-grok-bot-opus-5-5-d3a548590d10",
-   "url": "https://devenkoai.medium.com/stop-using-ai-as-a-chatbot-how-to-build-a-24-7-engineering-team-with-grok-bot-opus-5-5-d3a548590d10",
-   "source": "medium",
-   "source_name": "Medium",
-   "author": "Devenko Ai",
-   "date": "2026-10-15",
-   "likes": null,
-   "product": "grok-bot",
-   "text": "Stop Using AI as a Chatbot: How to Build a 24/7 Engineering Team with Grok Bot & Opus 5.5\n",
-   "media": [],
-   "found_at": "2026-10-15T13:47:40.031Z"
-  },
-  {
    "id": "medium:medium.com/@american_dreams_marketing/the-ai-bible-a-plain-english-business-guide-to-chatgpt-claude-grok-bot-and-gemini-ee64f22799ae",
    "url": "https://medium.com/@american_dreams_marketing/the-ai-bible-a-plain-english-business-guide-to-chatgpt-claude-grok-bot-and-gemini-ee64f22799ae",
    "source": "medium",
@@ -3616,19 +3473,6 @@
    "text": "Grok Bot vs Meta Muse: How AI Agent Architecture Changes Security Blast Radius\n",
    "media": [],
    "found_at": "2026-10-15T13:47:40.907Z"
-  },
-  {
-   "id": "devto:4855865",
-   "url": "https://dev.to/theglitchfixer/openai-dots-how-to-set-up-use-chatgpts-always-on-ai-agent-2026-2g4p",
-   "source": "devto",
-   "source_name": "DEV Community",
-   "author": "theglitchfixer",
-   "date": "2026-10-15",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "OpenAI Dots: How to Set Up & Use ChatGPT's Always-On AI Agent (2026)\nOn 29 September 2026, OpenAI announced Dots at DevDay — persistent AI agents inside ChatGPT that keep...\nai chatgpt openai agents",
-   "media": [],
-   "found_at": "2026-10-15T13:47:44.987Z"
   },
   {
    "id": "devto:4839557",
@@ -3816,22 +3660,6 @@
    "found_at": "2026-10-15T13:48:49.327Z"
   },
   {
-   "id": "yt:6cqpa5G_3rU",
-   "url": "https://www.youtube.com/watch?v=6cqpa5G_3rU",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "The Tech Girl",
-   "date": "2026-10-14",
-   "likes": null,
-   "views": 10867,
-   "product": "openai-dots",
-   "text": "I Tried ChatGPT Dots — This AI Agent Changes EVERYTHING!\nChatGPT Dots is here! 🚀 OpenAI's new always-on AI agent can manage your tasks, remember your goals, and work for you even when you're away! In this video, I test ChatGPT Dots and explore how it works, what makes it different from regular ChatGPT, and how it compares to Meta Muse.\n#ChatGPTDots #ChatGPT #AIAgents #OpenAI #metamuse \n\n🔗 Try ChatGPT: https://chatgpt.com\n📱 Try Ango Tasks — My Productivity App: \n\nCHAPTERS\n00:00 ChatGPT Dots Explained\n01:12 How to Access and Set Up ChatGPT Dots\n02:20 Give Your AI Agent a Long-Term Goal\n03:02 ChatGPT Dots vs ChatGPT Work\n03:44 Proactive Monitoring With Connected Apps\n04:08 Inside the ChatGPT Dots Cloud Computer\n04:58 Ango Tasks AI Task Manager Demo\n06:42 Persistent Cloud Sessions and Local Computer Access\n07:38 How Dots Uses ChatGPT, Work, and Codex\n08:53 How ChatGPT Dots Manages Codex Tasks\n09:42 Activity Tracking and Human Control\n10:24 Current ChatGPT Dots Limitations\n11:04 Logins, Passwords, and App Permissions\n11:36 ChatGPT Dots vs Meta Muse\n12:21 Final Thoughts and What’s Next\n\nSubscribe if you liked the video: https://www.youtube.com/@anjanagowtham?Sub_Confirmation=1\n\n❤ Anjana",
-   "media": [
-    "https://i.ytimg.com/vi/6cqpa5G_3rU/hqdefault.jpg"
-   ],
-   "found_at": "2026-10-15T13:48:50.780Z"
-  },
-  {
    "id": "yt:4hf4dnYQTEI",
    "url": "https://www.youtube.com/watch?v=4hf4dnYQTEI",
    "source": "youtube",
@@ -3846,22 +3674,6 @@
     "https://i.ytimg.com/vi/4hf4dnYQTEI/hqdefault.jpg"
    ],
    "found_at": "2026-10-15T13:48:51.434Z"
-  },
-  {
-   "id": "yt:SQrf3J7vSz8",
-   "url": "https://www.youtube.com/watch?v=SQrf3J7vSz8",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "Love Babbar",
-   "date": "2026-10-15",
-   "likes": null,
-   "views": 132,
-   "product": "openai-dots",
-   "text": "ChatGPT Dots Explained - This AI Works for You 24/7\nIn this video, we explore ChatGPT Dots, OpenAI's always-on AI agents that can work toward your goals, use connected apps, and make progress in the background. Instead of prompting AI for every individual step, you can assign a responsibility and let your dot plan the work, provide updates, and bring results back for review.\n\nChatGPT Dots represents a major shift in how we interact with AI. Learn how this new feature changes your daily workflow.\n\nFor a long time, using ChatGPT meant typing prompts back and forth in a standard chat interface. OpenAI has now introduced a new interaction method simply called Dots. This update moves away from traditional conversational AI patterns to offer a different way to engage with the model.\n\nThis guide breaks down the core functionality of ChatGPT Dots and how you can integrate it into your existing routines. You will see exactly what this feature offers and how to apply it practically to improve your AI interaction. Understanding this latest ChatGPT update is essential for anyone relying on these tools for work or study.\n\nSubscribe for weekly AI tool breakdowns and let me know in the comments if you want a deeper look at specific OpenAI features.\n\nTimestamps\n00:00 – What Is ChatGPT Dots & How Does It Work?\n03:20 – How to Set Up ChatGPT Dots\n05:35 – Live Demo: Automating Multiple Tasks with AI\n11:10 – Proactive AI Research & Automatic Updates\n14:00 – ChatGPT Dots: Safety, Limitations & Risks\n\n#chatgpt  #aiagents  #openai  #aitools  #artificialintelligence",
-   "media": [
-    "https://i.ytimg.com/vi/SQrf3J7vSz8/hqdefault.jpg"
-   ],
-   "found_at": "2026-10-15T13:48:52.001Z"
   },
   {
    "id": "yt:P2OGf7jqtOU",

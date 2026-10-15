@@ -1,6 +1,6 @@
 {
   "note": "公开条目聚合 / aggregated public items; see source_url",
-  "count": 1634,
+  "count": 1648,
   "fetched_at": "2026-10-12T11:54:58.322933+00:00",
   "items": [
     {
@@ -13852,6 +13852,683 @@
       ]
     },
     {
+      "title": "把 Grok Bot 当客户的练手项目库",
+      "summary": "作者公开记录自己用 Grok Bot 当「客户」来练手的项目，难度从入门排到进阶。",
+      "en": {
+        "title": "Skill-building projects with Grok Bot as the customer",
+        "summary": "A public repo that tracks projects the author builds with Grok Bot acting as the customer, ordered from beginner to advanced difficulty."
+      },
+      "tr": {
+        "en": {
+          "title": "Skill-building projects with Grok Bot as the customer",
+          "summary": "A public repo that tracks projects the author builds with Grok Bot acting as the customer, ordered from beginner to advanced difficulty."
+        },
+        "zh-CN": {
+          "title": "把 Grok Bot 当客户的练手项目库",
+          "summary": "作者公开记录自己用 Grok Bot 当「客户」来练手的项目，难度从入门排到进阶。"
+        },
+        "zh-TW": {
+          "title": "把 Grok Bot 當客戶的練手專案庫",
+          "summary": "作者公開記錄自己用 Grok Bot 當「客戶」來練手的專案，難度從入門排到進階。"
+        },
+        "ja": {
+          "title": "Grok Bot を顧客役にしたスキル練習リポジトリ",
+          "summary": "著者が Grok Bot を顧客役にして作った練習プロジェクトを、初級から上級まで公開記録している。"
+        },
+        "ko": {
+          "title": "Grok Bot를 고객으로 둔 스킬 연습 저장소",
+          "summary": "저자가 Grok Bot를 고객 역할로 두고 만드는 연습 프로젝트를 초급부터 고급까지 공개 기록한다."
+        },
+        "ms": {
+          "title": "Repositori latihan skill dengan Grok Bot sebagai pelanggan",
+          "summary": "Repo awam yang merekod projek latihan penulis dengan Grok Bot sebagai pelanggan, dari tahap pemula ke lanjutan."
+        },
+        "vi": {
+          "title": "Kho dự án luyện skill với Grok Bot làm khách hàng",
+          "summary": "Repo công khai ghi lại các dự án tác giả làm với Grok Bot đóng vai khách hàng, từ cơ bản đến nâng cao."
+        },
+        "fr": {
+          "title": "Projets d'entraînement avec Grok Bot comme client",
+          "summary": "Un dépôt public qui suit les projets que l'auteur construit avec Grok Bot dans le rôle du client, du niveau débutant à avancé."
+        },
+        "es": {
+          "title": "Proyectos de práctica con Grok Bot como cliente",
+          "summary": "Un repositorio público que registra proyectos que el autor construye con Grok Bot como cliente, de principiante a avanzado."
+        },
+        "de": {
+          "title": "Übungsprojekte mit Grok Bot als Kunde",
+          "summary": "Ein öffentliches Repo, das Projekte dokumentiert, die der Autor mit Grok Bot als Kunden baut, von Anfänger bis Fortgeschritten."
+        }
+      },
+      "source_url": "https://github.com/tylerlongbons-hub/Skill-building",
+      "source_name": "GitHub",
+      "author": "tylerlongbons-hub",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-15",
+      "likes": 0,
+      "src": "github",
+      "text": "tylerlongbons-hub/Skill-building\nThis repo keeps track of the projects i am working on with Grok bot as the customer in order to help build my skills. Difficulty starts at \"beginner\" and will work its way to \"Advanced\"",
+      "media": [],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-tylerlongbons-hub-skill-building",
+      "scen": [
+        "prs",
+        "research",
+        "ship"
+      ]
+    },
+    {
+      "title": "给 T3 Code 的个人 Bot：记忆、心跳与工人队",
+      "summary": "t3bot 是面向 T3 Code 的 Grok Bot / Muse 风格个人 Bot，带记忆、人设、心跳、例行任务，以及可接任意提供商的工人队。",
+      "en": {
+        "title": "T3 Code personal bot with memory, heartbeat and worker team",
+        "summary": "t3bot is a Grok Bot / Muse-style personal bot for T3 Code with memory, personality, heartbeat, routines and a team of workers on any provider."
+      },
+      "tr": {
+        "en": {
+          "title": "T3 Code personal bot with memory, heartbeat and worker team",
+          "summary": "t3bot is a Grok Bot / Muse-style personal bot for T3 Code with memory, personality, heartbeat, routines and a team of workers on any provider."
+        },
+        "zh-CN": {
+          "title": "给 T3 Code 的个人 Bot：记忆、心跳与工人队",
+          "summary": "t3bot 是面向 T3 Code 的 Grok Bot / Muse 风格个人 Bot，带记忆、人设、心跳、例行任务，以及可接任意提供商的工人队。"
+        },
+        "zh-TW": {
+          "title": "給 T3 Code 的個人 Bot：記憶、心跳與工人隊",
+          "summary": "t3bot 是面向 T3 Code 的 Grok Bot / Muse 風格個人 Bot，帶記憶、人設、心跳、例行任務，以及可接任意提供商的工人隊。"
+        },
+        "ja": {
+          "title": "T3 Code 向け個人ボット：記憶・心拍・ワーカー隊",
+          "summary": "t3bot は T3 Code 向けの Grok Bot / Muse 風個人ボットで、記憶・人格・心拍・ルーチンと任意プロバイダ上のワーカー隊を備える。"
+        },
+        "ko": {
+          "title": "T3 Code용 개인 봇: 기억, 하트비트, 워커 팀",
+          "summary": "t3bot은 T3 Code용 Grok Bot / Muse 스타일 개인 봇으로 기억, 성격, 하트비트, 루틴과 임의 프로바이더 워커 팀을 갖춘다."
+        },
+        "ms": {
+          "title": "Bot peribadi T3 Code dengan memori, denyutan dan pasukan pekerja",
+          "summary": "t3bot ialah bot peribadi gaya Grok Bot / Muse untuk T3 Code dengan memori, personaliti, denyutan, rutin dan pasukan pekerja pada mana-mana penyedia."
+        },
+        "vi": {
+          "title": "Bot cá nhân cho T3 Code: nhớ, nhịp và đội worker",
+          "summary": "t3bot là bot cá nhân kiểu Grok Bot / Muse cho T3 Code, có bộ nhớ, tính cách, heartbeat, routine và đội worker trên mọi nhà cung cấp."
+        },
+        "fr": {
+          "title": "Bot perso T3 Code avec mémoire, heartbeat et équipe de workers",
+          "summary": "t3bot est un bot personnel style Grok Bot / Muse pour T3 Code, avec mémoire, personnalité, heartbeat, routines et une équipe de workers sur n'importe quel fournisseur."
+        },
+        "es": {
+          "title": "Bot personal para T3 Code con memoria, heartbeat y equipo de workers",
+          "summary": "t3bot es un bot personal estilo Grok Bot / Muse para T3 Code, con memoria, personalidad, heartbeat, rutinas y un equipo de workers en cualquier proveedor."
+        },
+        "de": {
+          "title": "T3-Code-Persönlicher Bot mit Speicher, Heartbeat und Worker-Team",
+          "summary": "t3bot ist ein Grok-Bot-/Muse-artiger persönlicher Bot für T3 Code mit Speicher, Persönlichkeit, Heartbeat, Routinen und einem Worker-Team auf jedem Provider."
+        }
+      },
+      "source_url": "https://github.com/kky42/t3bot",
+      "source_name": "GitHub",
+      "author": "kky42",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-15",
+      "likes": 2,
+      "src": "github",
+      "text": "kky42/t3bot\nA Grok Bot / Muse style personal bot for T3 Code: memory, personality, heartbeat, routines, and a team of workers on any provider",
+      "media": [],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "In T3 Code, add ~/t3bots/alice as a project.",
+        "Open a new thread in it. This thread becomes the bot's home: heartbeats and routines post here and run on this thread's model, so a cheap model keeps them ch……",
+        "Say hi. The bot interviews you and sets itself up.",
+        "Ask the user, in one message, the three questions below as multiple choice: numbered questions, lettered options, your recommendation first, so they can repl……",
+        "Role: three or four jobs that fit what you know of them (chief of staff, development, social media, research, ...), none an existing bot already has.",
+        "Name: three or four short, fun, distinct names; any other name works too.",
+        "Home model: the bot's home thread runs on it, and so does every heartbeat and routine, so it sets what the bot costs. Offer up to four models from orchestrat……",
+        "Folder: ~/t3bots/, where is the name in lowercase with spaces as hyphens and only a-z, 0-9, - kept. If that folder exists, ask for another name."
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-kky42-t3bot",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
+      "title": "Medusa v2 的 Grok Bot 插件：仅草稿、干跑写入",
+      "summary": "面向 Medusa v2 的 Grok Bot 电商插件：文档优先、只建草稿商品、写入先干跑，出错大声失败。",
+      "en": {
+        "title": "Grok Bot plugin for Medusa v2: draft-only, dry-run writes",
+        "summary": "A Medusa v2 commerce plugin for Grok Bot that stays docs-first, creates draft-only products, uses dry-run writes and fails loudly on errors."
+      },
+      "tr": {
+        "en": {
+          "title": "Grok Bot plugin for Medusa v2: draft-only, dry-run writes",
+          "summary": "A Medusa v2 commerce plugin for Grok Bot that stays docs-first, creates draft-only products, uses dry-run writes and fails loudly on errors."
+        },
+        "zh-CN": {
+          "title": "Medusa v2 的 Grok Bot 插件：仅草稿、干跑写入",
+          "summary": "面向 Medusa v2 的 Grok Bot 电商插件：文档优先、只建草稿商品、写入先干跑，出错大声失败。"
+        },
+        "zh-TW": {
+          "title": "Medusa v2 的 Grok Bot 外掛：僅草稿、乾跑寫入",
+          "summary": "面向 Medusa v2 的 Grok Bot 電商外掛：文件優先、只建草稿商品、寫入先乾跑，出錯大聲失敗。"
+        },
+        "ja": {
+          "title": "Medusa v2 向け Grok Bot プラグイン：下書きのみ・ドライラン",
+          "summary": "Grok Bot 用 Medusa v2 コマースプラグイン。ドキュメント優先、下書き商品のみ、書き込みはドライラン、失敗は明示。"
+        },
+        "ko": {
+          "title": "Medusa v2용 Grok Bot 플러그인: 초안만, dry-run 쓰기",
+          "summary": "Medusa v2 커머스용 Grok Bot 플러그인으로 문서 우선, 초안 상품만 생성, dry-run 쓰기, 오류 시 크게 실패한다."
+        },
+        "ms": {
+          "title": "Plugin Grok Bot untuk Medusa v2: draf sahaja, dry-run",
+          "summary": "Plugin perdagangan Medusa v2 untuk Grok Bot yang dokumen dahulu, cipta produk draf sahaja, tulis dry-run dan gagal dengan jelas."
+        },
+        "vi": {
+          "title": "Plugin Grok Bot cho Medusa v2: chỉ bản nháp, dry-run",
+          "summary": "Plugin thương mại Medusa v2 cho Grok Bot: ưu tiên tài liệu, chỉ tạo sản phẩm nháp, ghi dry-run và báo lỗi rõ."
+        },
+        "fr": {
+          "title": "Plugin Grok Bot pour Medusa v2 : brouillons et dry-run",
+          "summary": "Un plugin commerce Medusa v2 pour Grok Bot, centré sur la doc, produits en brouillon seulement, écritures en dry-run et échecs explicites."
+        },
+        "es": {
+          "title": "Plugin Grok Bot para Medusa v2: solo borradores y dry-run",
+          "summary": "Plugin de comercio Medusa v2 para Grok Bot: docs primero, solo productos en borrador, escrituras en dry-run y fallos explícitos."
+        },
+        "de": {
+          "title": "Grok-Bot-Plugin für Medusa v2: nur Entwürfe, Dry-Run",
+          "summary": "Ein Medusa-v2-Commerce-Plugin für Grok Bot: dokufirst, nur Entwurfsprodukte, Dry-Run-Writes und laute Fehler."
+        }
+      },
+      "source_url": "https://github.com/shagghiesuperstar/medusa-commerce",
+      "source_name": "GitHub",
+      "author": "shagghiesuperstar",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-15",
+      "likes": 0,
+      "src": "github",
+      "text": "shagghiesuperstar/medusa-commerce\nGrok Bot plugin for Medusa v2 commerce: docs-first, draft-only products, dry-run writes, fail loud.",
+      "media": [],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "Sources: the Admin API and Store API references, plus the agent index at https://docs.medusajs.com/llms.txt.",
+        "Tool: medusa_docs searches the official index or greps an official page. It refuses other origins.",
+        "Skill: golden-rule-read-docs-first is step 0 of every skill (a test enforces this).",
+        "Every endpoint the server calls was checked against the official v2 OpenAPI reference, and each tool result carries its doc link.",
+        "Gaps get the label \"not in official docs\" and are marked UNVERIFIED (see docs/LESSONS.md).",
+        "Docs MCP: https://docs.medusajs.com/mcp. Answers questions from the docs (ask_medusa_question) and provides implementation guides. It also accepts a Cloud pe……",
+        "Medusa (Cloud) MCP: https://cloud.medusajs.com/mcp. Read-only access to Admin and Store API data for stores deployed on Medusa Cloud (v2.12.4+). Tools: list_……",
+        "Golden Rule: official docs first. Every skill starts with the docs, and every lesson cites a doc or is marked UNVERIFIED."
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-shagghiesuperstar-medusa-commerce",
+      "scen": []
+    },
+    {
+      "title": "给 Grok Bot 接 Siri Intent：iPhone 与 CarPlay",
+      "summary": "连接器让 Grok Bot 能在 iPhone、CarPlay 等场景调用 Siri Intent。",
+      "en": {
+        "title": "Siri intents connector for Grok Bot on iPhone and CarPlay",
+        "summary": "A connector that lets Grok Bot use Siri intents on iPhone, CarPlay and related Apple surfaces."
+      },
+      "tr": {
+        "en": {
+          "title": "Siri intents connector for Grok Bot on iPhone and CarPlay",
+          "summary": "A connector that lets Grok Bot use Siri intents on iPhone, CarPlay and related Apple surfaces."
+        },
+        "zh-CN": {
+          "title": "给 Grok Bot 接 Siri Intent：iPhone 与 CarPlay",
+          "summary": "连接器让 Grok Bot 能在 iPhone、CarPlay 等场景调用 Siri Intent。"
+        },
+        "zh-TW": {
+          "title": "給 Grok Bot 接 Siri Intent：iPhone 與 CarPlay",
+          "summary": "連接器讓 Grok Bot 能在 iPhone、CarPlay 等場景呼叫 Siri Intent。"
+        },
+        "ja": {
+          "title": "Grok Bot 用 Siri Intent コネクタ（iPhone / CarPlay）",
+          "summary": "iPhone や CarPlay などで Grok Bot が Siri Intent を使えるようにするコネクタ。"
+        },
+        "ko": {
+          "title": "Grok Bot용 Siri Intent 커넥터 (iPhone·CarPlay)",
+          "summary": "iPhone, CarPlay 등에서 Grok Bot이 Siri Intent를 쓰게 하는 커넥터."
+        },
+        "ms": {
+          "title": "Penyambung Siri Intent untuk Grok Bot di iPhone dan CarPlay",
+          "summary": "Penyambung yang membolehkan Grok Bot menggunakan Siri Intent pada iPhone, CarPlay dan permukaan Apple berkaitan."
+        },
+        "vi": {
+          "title": "Connector Siri Intent cho Grok Bot trên iPhone và CarPlay",
+          "summary": "Connector giúp Grok Bot dùng Siri Intent trên iPhone, CarPlay và bề mặt Apple liên quan."
+        },
+        "fr": {
+          "title": "Connecteur Siri Intent pour Grok Bot (iPhone et CarPlay)",
+          "summary": "Un connecteur qui permet à Grok Bot d'utiliser les Siri Intents sur iPhone, CarPlay et surfaces Apple associées."
+        },
+        "es": {
+          "title": "Conector de Siri Intents para Grok Bot en iPhone y CarPlay",
+          "summary": "Un conector que permite a Grok Bot usar Siri Intents en iPhone, CarPlay y superficies Apple relacionadas."
+        },
+        "de": {
+          "title": "Siri-Intent-Connector für Grok Bot auf iPhone und CarPlay",
+          "summary": "Ein Connector, mit dem Grok Bot Siri Intents auf iPhone, CarPlay und verwandten Apple-Oberflächen nutzen kann."
+        }
+      },
+      "source_url": "https://github.com/enzoenrico/siri-grokbot",
+      "source_name": "GitHub",
+      "author": "enzoenrico",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-15",
+      "likes": 0,
+      "src": "github",
+      "text": "enzoenrico/siri-grokbot\na connector for grok bot to use siri intents in iphone, carplay, etc",
+      "media": [],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "Ask Grok from Siri. Say \"Hey Siri, Ask Grok\". Siri asks for your question, sends it to your Grok Bot, and speaks that bot's answer. This is an iOS App Intent……",
+        "Let Grok Bot run your Siri Shortcuts. A Grok Bot plugin (Agent Plugin format) with an MCP server that lists and runs the shortcuts on your Mac. This is the r……",
+        "Generate the Xcode project:",
+        "In the AskGrok target, under Signing & Capabilities, select your team and change the bundle ID from com.example.askgrok to one you own.",
+        "On the Grok Bot computer, read the gateway token from /home/box/sand-data/gateway.json. Put that computer on your Tailscale network (or another private netwo……",
+        "Run the app on your iPhone. Paste the gateway token, the bot's name, and the gateway URL (for example http://100.x.x.x:1340). Open that bot in Grok Bot so it……",
+        "Say \"Hey Siri, Ask Grok\". Siri replies \"What do you want to ask Grok Bot?\". Speak your question and Siri reads the bot's answer.",
+        "list_shortcuts returns the names of your installed shortcuts."
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-enzoenrico-siri-grokbot",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
+      "title": "用 Grok Bot 与 Opus 5.5 搭 24/7 工程队",
+      "summary": "Medium 指南主张别再把 AI 当聊天机器人，而是用 Grok Bot 配合 Opus 5.5 搭常开工程团队。",
+      "en": {
+        "title": "Build a 24/7 engineering team with Grok Bot and Opus 5.5",
+        "summary": "A Medium guide arguing to stop treating AI as a chatbot and instead assemble always-on engineering work with Grok Bot together with Opus 5.5."
+      },
+      "tr": {
+        "en": {
+          "title": "Build a 24/7 engineering team with Grok Bot and Opus 5.5",
+          "summary": "A Medium guide arguing to stop treating AI as a chatbot and instead assemble always-on engineering work with Grok Bot together with Opus 5.5."
+        },
+        "zh-CN": {
+          "title": "用 Grok Bot 与 Opus 5.5 搭 24/7 工程队",
+          "summary": "Medium 指南主张别再把 AI 当聊天机器人，而是用 Grok Bot 配合 Opus 5.5 搭常开工程团队。"
+        },
+        "zh-TW": {
+          "title": "用 Grok Bot 與 Opus 5.5 搭 24/7 工程隊",
+          "summary": "Medium 指南主張別再把 AI 當聊天機器人，而是用 Grok Bot 搭配 Opus 5.5 搭常開工程團隊。"
+        },
+        "ja": {
+          "title": "Grok Bot と Opus 5.5 で 24/7 エンジニアリングチーム",
+          "summary": "AI をチャットボット扱いせず、Grok Bot と Opus 5.5 で常時稼働のエンジニアリング体制を組むという Medium ガイド。"
+        },
+        "ko": {
+          "title": "Grok Bot과 Opus 5.5로 24/7 엔지니어링 팀",
+          "summary": "AI를 챗봇으로 쓰지 말고 Grok Bot과 Opus 5.5로 상시 엔지니어링 팀을 짜라는 Medium 가이드."
+        },
+        "ms": {
+          "title": "Bina pasukan kejuruteraan 24/7 dengan Grok Bot dan Opus 5.5",
+          "summary": "Panduan Medium yang menggesa berhenti guna AI sebagai chatbot dan sebaliknya bina kerja kejuruteraan sentiasa hidup dengan Grok Bot bersama Opus 5.5."
+        },
+        "vi": {
+          "title": "Dựng đội kỹ thuật 24/7 với Grok Bot và Opus 5.5",
+          "summary": "Hướng dẫn Medium khuyên đừng dùng AI như chatbot mà ghép Grok Bot với Opus 5.5 thành đội kỹ thuật luôn chạy."
+        },
+        "fr": {
+          "title": "Une équipe d'ingénierie 24/7 avec Grok Bot et Opus 5.5",
+          "summary": "Un guide Medium pour cesser d'utiliser l'IA comme chatbot et monter un travail d'ingénierie toujours actif avec Grok Bot et Opus 5.5."
+        },
+        "es": {
+          "title": "Equipo de ingeniería 24/7 con Grok Bot y Opus 5.5",
+          "summary": "Guía en Medium que pide dejar de usar la IA como chatbot y montar trabajo de ingeniería siempre activo con Grok Bot y Opus 5.5."
+        },
+        "de": {
+          "title": "24/7-Engineering-Team mit Grok Bot und Opus 5.5",
+          "summary": "Ein Medium-Guide plädiert dafür, KI nicht als Chatbot zu nutzen, sondern dauerhafte Engineering-Arbeit mit Grok Bot und Opus 5.5 aufzusetzen."
+        }
+      },
+      "source_url": "https://devenkoai.medium.com/stop-using-ai-as-a-chatbot-how-to-build-a-24-7-engineering-team-with-grok-bot-opus-5-5-d3a548590d10",
+      "source_name": "Medium",
+      "author": "Devenko Ai",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-10-15",
+      "likes": 0,
+      "src": "medium",
+      "text": "Stop Using AI as a Chatbot: How to Build a 24/7 Engineering Team with Grok Bot & Opus 5.5\n",
+      "media": [],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "medium-devenkoai-medium-com-stop-using-ai-as-a-chatbot-how-to-build",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
+      "title": "基于 OpenCode 的桌面 Agent 宿主（暂名）",
+      "summary": "用 OpenCode 驱动的桌面 Agent 宿主；作者说明当前名为暂定，之后会改名。",
+      "en": {
+        "title": "OpenCode-powered desktop agent host (interim name)",
+        "summary": "A desktop agent host powered by OpenCode; the author notes the name is interim and will be renamed."
+      },
+      "tr": {
+        "en": {
+          "title": "OpenCode-powered desktop agent host (interim name)",
+          "summary": "A desktop agent host powered by OpenCode; the author notes the name is interim and will be renamed."
+        },
+        "zh-CN": {
+          "title": "基于 OpenCode 的桌面 Agent 宿主（暂名）",
+          "summary": "用 OpenCode 驱动的桌面 Agent 宿主；作者说明当前名为暂定，之后会改名。"
+        },
+        "zh-TW": {
+          "title": "基於 OpenCode 的桌面 Agent 宿主（暫名）",
+          "summary": "用 OpenCode 驅動的桌面 Agent 宿主；作者說明目前名稱暫定，之後會改名。"
+        },
+        "ja": {
+          "title": "OpenCode 製デスクトップエージェントホスト（仮称）",
+          "summary": "OpenCode 駆動のデスクトップエージェントホスト。作者は名称が仮で後日改名すると記している。"
+        },
+        "ko": {
+          "title": "OpenCode 기반 데스크톱 에이전트 호스트(가칭)",
+          "summary": "OpenCode로 구동하는 데스크톱 에이전트 호스트. 저자는 이름이 임시이며 나중에 바꿀 것이라고 적었다."
+        },
+        "ms": {
+          "title": "Hos ejen desktop dikuasakan OpenCode (nama sementara)",
+          "summary": "Hos ejen desktop dikuasakan OpenCode; penulis menyatakan nama ini sementara dan akan ditukar."
+        },
+        "vi": {
+          "title": "Host agent desktop chạy OpenCode (tên tạm)",
+          "summary": "Host agent desktop chạy bằng OpenCode; tác giả ghi tên hiện tại là tạm và sẽ đổi sau."
+        },
+        "fr": {
+          "title": "Hôte d'agent bureau propulsé par OpenCode (nom provisoire)",
+          "summary": "Un hôte d'agent de bureau propulsé par OpenCode ; l'auteur précise que le nom est provisoire et sera changé."
+        },
+        "es": {
+          "title": "Host de agente de escritorio con OpenCode (nombre provisional)",
+          "summary": "Un host de agente de escritorio impulsado por OpenCode; el autor indica que el nombre es provisional y se renombrará."
+        },
+        "de": {
+          "title": "OpenCode-basierter Desktop-Agent-Host (Arbeitsname)",
+          "summary": "Ein Desktop-Agent-Host auf OpenCode; der Autor merkt an, dass der Name vorläufig ist und umbenannt wird."
+        }
+      },
+      "source_url": "https://github.com/olllayor/grokbot-opencode",
+      "source_name": "GitHub",
+      "author": "olllayor",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-15",
+      "likes": 0,
+      "src": "github",
+      "text": "olllayor/grokbot-opencode\nOpenCode-powered desktop agent host (interim name, will rename)",
+      "media": [],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "rea/evidence/bootstrap-reconstruction.md",
+        "rea/evidence/main-core-reconstruction.md",
+        "rea/evidence/preload-reconstruction.md",
+        "rea/evidence/rpc-server-reconstruction.md",
+        "rea/evidence/renderer-reconstruction.md",
+        "rea/evidence/auxiliary-preloads-reconstruction.md",
+        "rea/evidence/update-reconstruction.md",
+        "rea/evidence/main-typescript-migration.md"
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-olllayor-grokbot-opencode",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
+      "title": "ChatGPT Dots 讲解：交目标、收回进展",
+      "summary": "Love Babbar 介绍 ChatGPT Dots：常开 Agent 接一项职责、自己规划、发更新，并把结果交你审，而不是每一步都再提示。",
+      "en": {
+        "title": "ChatGPT Dots explained: assign a goal, get progress back",
+        "summary": "Love Babbar walks through ChatGPT Dots as always-on agents that take a responsibility, plan work, send updates and return results for review instead of one-off prompts."
+      },
+      "tr": {
+        "en": {
+          "title": "ChatGPT Dots explained: assign a goal, get progress back",
+          "summary": "Love Babbar walks through ChatGPT Dots as always-on agents that take a responsibility, plan work, send updates and return results for review instead of one-off prompts."
+        },
+        "zh-CN": {
+          "title": "ChatGPT Dots 讲解：交目标、收回进展",
+          "summary": "Love Babbar 介绍 ChatGPT Dots：常开 Agent 接一项职责、自己规划、发更新，并把结果交你审，而不是每一步都再提示。"
+        },
+        "zh-TW": {
+          "title": "ChatGPT Dots 講解：交目標、收回進展",
+          "summary": "Love Babbar 介紹 ChatGPT Dots：常開 Agent 接一項職責、自己規劃、發更新，並把結果交你審，而不是每一步都再提示。"
+        },
+        "ja": {
+          "title": "ChatGPT Dots 解説：目標を渡し進捗を受け取る",
+          "summary": "Love Babbar が ChatGPT Dots を紹介。常時稼働エージェントに責任を預け、計画・更新・結果レビューまで進める流れを説明する。"
+        },
+        "ko": {
+          "title": "ChatGPT Dots 설명: 목표를 맡기고 진척을 받기",
+          "summary": "Love Babbar가 ChatGPT Dots를 소개한다. 상시 에이전트에 책임을 맡기면 계획·업데이트·결과 검토까지 진행된다고 설명한다."
+        },
+        "ms": {
+          "title": "ChatGPT Dots dijelaskan: beri matlamat, terima kemajuan",
+          "summary": "Love Babbar menerangkan ChatGPT Dots sebagai ejen sentiasa hidup yang menerima tanggungjawab, merancang kerja, menghantar kemas kini dan memulangkan hasil untuk semakan."
+        },
+        "vi": {
+          "title": "Giải thích ChatGPT Dots: giao mục tiêu, nhận tiến độ",
+          "summary": "Love Babbar giải thích ChatGPT Dots: agent luôn chạy nhận một trách nhiệm, tự lên kế hoạch, gửi cập nhật và trả kết quả để bạn duyệt thay vì nhắc từng bước."
+        },
+        "fr": {
+          "title": "ChatGPT Dots expliqué : confier un objectif, recevoir les progrès",
+          "summary": "Love Babbar présente ChatGPT Dots comme des agents toujours actifs qui prennent une responsabilité, planifient, envoient des mises à jour et ramènent des résultats à revoir."
+        },
+        "es": {
+          "title": "ChatGPT Dots explicado: asigna un objetivo y recibe avances",
+          "summary": "Love Babbar explica ChatGPT Dots como agentes siempre activos que asumen una responsabilidad, planifican, envían actualizaciones y devuelven resultados para revisar."
+        },
+        "de": {
+          "title": "ChatGPT Dots erklärt: Ziel übergeben, Fortschritt zurückbekommen",
+          "summary": "Love Babbar erklärt ChatGPT Dots als immer aktive Agenten, die eine Verantwortung übernehmen, planen, Updates senden und Ergebnisse zur Prüfung zurückbringen."
+        }
+      },
+      "source_url": "https://www.youtube.com/watch?v=SQrf3J7vSz8",
+      "source_name": "YouTube",
+      "author": "Love Babbar",
+      "product": "openai-dots",
+      "type": "guide",
+      "date": "2026-10-15",
+      "likes": 0,
+      "src": "youtube",
+      "text": "ChatGPT Dots Explained - This AI Works for You 24/7\nIn this video, we explore ChatGPT Dots, OpenAI's always-on AI agents that can work toward your goals, use connected apps, and make progress in the background. Instead of prompting AI for every individual step, you can assign a responsibility and let your dot plan the work, provide updates, and bring results back for review.\n\nChatGPT Dots represents a major shift in how we interact with AI. Learn how this new feature changes your daily workflow.\n\nFor a long time, using ChatGPT meant typing prompts back and forth in a standard chat interface. OpenAI has now introduced a new interaction method simply called Dots. This update moves away from traditional conversational AI patterns to offer a different way to engage with the model.\n\nThis guide breaks down the core functionality of ChatGPT Dots and how you can integrate it into your existing routines. You will see exactly what this feature offers and how to apply it practically to improve your AI interaction. Understanding this latest ChatGPT update is essential for anyone relying on these tools for work or study.\n\nSubscribe for weekly AI tool breakdowns and let me know in the comments if you want a deeper look at specific OpenAI features.\n\nTimestamps\n00:00 – What Is ChatGPT Dots & How Does It Work?\n03:20 – How to Set Up ChatGPT Dots\n05:35 – Live Demo: Automating Multiple Tasks with AI\n11:10 – Proactive AI Research & Automatic Updates\n14:00 – ChatGPT Dots: Safety, Limitations & Risks\n\n#chatgpt  #aiagents  #openai  #aitools  #artificialintelligence",
+      "media": [
+        "https://i.ytimg.com/vi/SQrf3J7vSz8/hqdefault.jpg"
+      ],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "00:00 What Is ChatGPT Dots & How Does It Work?",
+        "03:20 How to Set Up ChatGPT Dots",
+        "05:35 Live Demo: Automating Multiple Tasks with AI",
+        "11:10 Proactive AI Research & Automatic Updates",
+        "14:00 ChatGPT Dots: Safety, Limitations & Risks"
+      ],
+      "prompt": null,
+      "views": "132",
+      "slug": "yt-sqrf3j7vsz8",
+      "scen": []
+    },
+    {
+      "title": "如何安装并使用 ChatGPT Dots（2026）",
+      "summary": "DEV.to 上手指南，介绍 2026-09-29 DevDay 发布的 OpenAI Dots（ChatGPT 内常驻 Agent）。",
+      "en": {
+        "title": "How to set up and use ChatGPT Dots (2026)",
+        "summary": "A DEV.to setup guide for OpenAI Dots, the persistent ChatGPT agents announced at DevDay on 29 September 2026."
+      },
+      "tr": {
+        "en": {
+          "title": "How to set up and use ChatGPT Dots (2026)",
+          "summary": "A DEV.to setup guide for OpenAI Dots, the persistent ChatGPT agents announced at DevDay on 29 September 2026."
+        },
+        "zh-CN": {
+          "title": "如何安装并使用 ChatGPT Dots（2026）",
+          "summary": "DEV.to 上手指南，介绍 2026-09-29 DevDay 发布的 OpenAI Dots（ChatGPT 内常驻 Agent）。"
+        },
+        "zh-TW": {
+          "title": "如何安裝並使用 ChatGPT Dots（2026）",
+          "summary": "DEV.to 上手指南，介紹 2026-09-29 DevDay 發布的 OpenAI Dots（ChatGPT 內常駐 Agent）。"
+        },
+        "ja": {
+          "title": "ChatGPT Dots のセットアップと使い方（2026）",
+          "summary": "2026年9月29日 DevDay で発表された OpenAI Dots（ChatGPT 内の常駐エージェント）の DEV.to セットアップガイド。"
+        },
+        "ko": {
+          "title": "ChatGPT Dots 설정과 사용법 (2026)",
+          "summary": "2026-09-29 DevDay에서 발표된 OpenAI Dots(ChatGPT 상주 에이전트) DEV.to 설정 가이드."
+        },
+        "ms": {
+          "title": "Cara sediakan dan guna ChatGPT Dots (2026)",
+          "summary": "Panduan setup DEV.to untuk OpenAI Dots, ejen ChatGPT berterusan yang diumumkan di DevDay pada 29 September 2026."
+        },
+        "vi": {
+          "title": "Cách cài và dùng ChatGPT Dots (2026)",
+          "summary": "Hướng dẫn DEV.to về OpenAI Dots, agent ChatGPT luôn chạy được công bố tại DevDay ngày 29-09-2026."
+        },
+        "fr": {
+          "title": "Installer et utiliser ChatGPT Dots (2026)",
+          "summary": "Guide DEV.to pour OpenAI Dots, les agents ChatGPT persistants annoncés à DevDay le 29 septembre 2026."
+        },
+        "es": {
+          "title": "Cómo configurar y usar ChatGPT Dots (2026)",
+          "summary": "Guía en DEV.to sobre OpenAI Dots, los agentes persistentes de ChatGPT anunciados en DevDay el 29 de septiembre de 2026."
+        },
+        "de": {
+          "title": "ChatGPT Dots einrichten und nutzen (2026)",
+          "summary": "DEV.to-Einrichtungsguide zu OpenAI Dots, den persistenten ChatGPT-Agenten, die am 29. September 2026 auf der DevDay vorgestellt wurden."
+        }
+      },
+      "source_url": "https://dev.to/theglitchfixer/openai-dots-how-to-set-up-use-chatgpts-always-on-ai-agent-2026-2g4p",
+      "source_name": "DEV.to",
+      "author": "theglitchfixer",
+      "product": "openai-dots",
+      "type": "guide",
+      "date": "2026-10-15",
+      "likes": 0,
+      "src": "devto",
+      "text": "OpenAI Dots: How to Set Up & Use ChatGPT's Always-On AI Agent (2026)\nOn 29 September 2026, OpenAI announced Dots at DevDay — persistent AI agents inside ChatGPT that keep...\nai chatgpt openai agents",
+      "media": [],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "devto-4855865",
+      "scen": []
+    },
+    {
+      "title": "非官方企微桥：接到已有 ChatGPT Dot",
+      "summary": "单一所有者的非官方桥，把企业微信 AI 机器人接到已有 ChatGPT Dot，支持文本、文件、引用回复与推送更新。",
+      "en": {
+        "title": "Unofficial WeCom bridge to an existing ChatGPT Dot",
+        "summary": "A single-owner unofficial bridge between a WeCom AI bot and an existing ChatGPT Dot for text, files, quote replies and push updates."
+      },
+      "tr": {
+        "en": {
+          "title": "Unofficial WeCom bridge to an existing ChatGPT Dot",
+          "summary": "A single-owner unofficial bridge between a WeCom AI bot and an existing ChatGPT Dot for text, files, quote replies and push updates."
+        },
+        "zh-CN": {
+          "title": "非官方企微桥：接到已有 ChatGPT Dot",
+          "summary": "单一所有者的非官方桥，把企业微信 AI 机器人接到已有 ChatGPT Dot，支持文本、文件、引用回复与推送更新。"
+        },
+        "zh-TW": {
+          "title": "非官方企微橋：接到既有 ChatGPT Dot",
+          "summary": "單一所有者的非官方橋，把企業微信 AI 機器人接到既有 ChatGPT Dot，支援文字、檔案、引用回覆與推播更新。"
+        },
+        "ja": {
+          "title": "既存 ChatGPT Dot への非公式 WeCom ブリッジ",
+          "summary": "WeCom AI ボットと既存 ChatGPT Dot をつなぐ単一所有者向け非公式ブリッジ。テキスト・ファイル・引用返信・プッシュ更新に対応。"
+        },
+        "ko": {
+          "title": "기존 ChatGPT Dot용 비공식 WeCom 브리지",
+          "summary": "WeCom AI 봇과 기존 ChatGPT Dot를 잇는 단일 소유자용 비공식 브리지로 텍스트, 파일, 인용 답장, 푸시 업데이트를 지원한다."
+        },
+        "ms": {
+          "title": "Jambatan WeCom tidak rasmi ke ChatGPT Dot sedia ada",
+          "summary": "Jambatan tidak rasmi pemilik tunggal antara bot AI WeCom dan ChatGPT Dot sedia ada untuk teks, fail, balasan petikan dan kemas kini tolak."
+        },
+        "vi": {
+          "title": "Cầu WeCom không chính thức tới ChatGPT Dot sẵn có",
+          "summary": "Cầu không chính thức một chủ giữa bot AI WeCom và ChatGPT Dot sẵn có: chữ, tệp, trả lời trích dẫn và đẩy cập nhật."
+        },
+        "fr": {
+          "title": "Pont WeCom non officiel vers un ChatGPT Dot existant",
+          "summary": "Pont non officiel mono-propriétaire entre un bot IA WeCom et un ChatGPT Dot existant pour texte, fichiers, réponses citées et mises à jour push."
+        },
+        "es": {
+          "title": "Puente WeCom no oficial a un ChatGPT Dot existente",
+          "summary": "Puente no oficial de un solo dueño entre un bot de IA de WeCom y un ChatGPT Dot existente para texto, archivos, respuestas citadas y avisos push."
+        },
+        "de": {
+          "title": "Inoffizielle WeCom-Brücke zu einem bestehenden ChatGPT Dot",
+          "summary": "Eine inoffizielle Single-Owner-Brücke zwischen einem WeCom-KI-Bot und einem bestehenden ChatGPT Dot für Text, Dateien, Zitatantworten und Push-Updates."
+        }
+      },
+      "source_url": "https://github.com/Johnnybyzhang/wecom-dot-bridge",
+      "source_name": "GitHub",
+      "author": "Johnnybyzhang",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-10-15",
+      "likes": 0,
+      "src": "github",
+      "text": "Johnnybyzhang/wecom-dot-bridge\nUnofficial single-owner bridge between a WeCom AI bot and your existing ChatGPT dot: text, files, quote replies, push updates",
+      "media": [],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "One Python 3.13 asyncio process (python3 -m dot_bridge serve). Its dependencies",
+        "WeCom: an AI bot over the official wss://openws.work.weixin.qq.com",
+        "ChatGPT: an independent Codex OAuth device login owned by this bridge.",
+        "dot: the undocumented chatgpt.com/backend-api messaging endpoints",
+        "Incus project dot: restricted, isolated idmap, no nesting, managed disks and",
+        "Network dot0 (10.251.0.1/24) with its own ACL dot-egress. It denies all",
+        "Container dot-bridge (Debian 13) on profile dot-bridge: 1 CPU, 512 MiB,",
+        "Unit dot-bridge.service runs as the unprivileged dot-bridge user with a"
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-johnnybyzhang-wecom-dot-bridge",
+      "scen": []
+    },
+    {
       "title": "用 Dot 在 ChatGPT 里做了两个个人 App",
       "summary": "Dot 用 ChatGPT Sites 做 MCP 后端、插件扩展做前端，做出个性化新闻 App 和西语词汇 App（Kindle 高亮导入、闪卡测验）。作者称 Dot 会盯着构建反复测试直到能用；不足是要提醒它换侧栏图标、插件测试不完整、看不到它在做什么。",
       "en": {
@@ -14368,6 +15045,238 @@
       ]
     },
     {
+      "title": "实测 ChatGPT Dots，并对比 Meta Muse",
+      "summary": "The Tech Girl 实测 ChatGPT Dots 的开通、长期目标与和普通 ChatGPT 的差别，并对比 Meta Muse；视频章节覆盖访问、设置与目标。",
+      "en": {
+        "title": "Hands-on with ChatGPT Dots vs Meta Muse",
+        "summary": "The Tech Girl tests ChatGPT Dots setup, long-term goals and how it differs from regular ChatGPT, and compares it with Meta Muse; the video lists chapters for access, setup and goals."
+      },
+      "tr": {
+        "en": {
+          "title": "Hands-on with ChatGPT Dots vs Meta Muse",
+          "summary": "The Tech Girl tests ChatGPT Dots setup, long-term goals and how it differs from regular ChatGPT, and compares it with Meta Muse; the video lists chapters for access, setup and goals."
+        },
+        "zh-CN": {
+          "title": "实测 ChatGPT Dots，并对比 Meta Muse",
+          "summary": "The Tech Girl 实测 ChatGPT Dots 的开通、长期目标与和普通 ChatGPT 的差别，并对比 Meta Muse；视频章节覆盖访问、设置与目标。"
+        },
+        "zh-TW": {
+          "title": "實測 ChatGPT Dots，並對比 Meta Muse",
+          "summary": "The Tech Girl 實測 ChatGPT Dots 的開通、長期目標與和一般 ChatGPT 的差別，並對比 Meta Muse；影片章節涵蓋存取、設定與目標。"
+        },
+        "ja": {
+          "title": "ChatGPT Dots 実機と Meta Muse 比較",
+          "summary": "The Tech Girl が ChatGPT Dots の導入・長期目標・通常 ChatGPT との違いを試し、Meta Muse と比較。章立てにアクセス・設定・目標がある。"
+        },
+        "ko": {
+          "title": "ChatGPT Dots 실사용과 Meta Muse 비교",
+          "summary": "The Tech Girl이 ChatGPT Dots 설정, 장기 목표, 일반 ChatGPT와의 차이를 시험하고 Meta Muse와 비교한다. 챕터에 접근·설정·목표가 있다."
+        },
+        "ms": {
+          "title": "Cuba ChatGPT Dots dan banding Meta Muse",
+          "summary": "The Tech Girl menguji setup ChatGPT Dots, matlamat jangka panjang dan beza dengan ChatGPT biasa, serta banding Meta Muse; bab merangkumi akses, setup dan matlamat."
+        },
+        "vi": {
+          "title": "Thử ChatGPT Dots và so với Meta Muse",
+          "summary": "The Tech Girl thử setup ChatGPT Dots, mục tiêu dài hạn và khác biệt với ChatGPT thường, rồi so với Meta Muse; chương gồm truy cập, cài đặt và mục tiêu."
+        },
+        "fr": {
+          "title": "Essai ChatGPT Dots et comparaison avec Meta Muse",
+          "summary": "The Tech Girl teste ChatGPT Dots (accès, objectifs long terme, différences avec ChatGPT classique) et le compare à Meta Muse ; les chapitres couvrent accès, setup et objectifs."
+        },
+        "es": {
+          "title": "Prueba de ChatGPT Dots frente a Meta Muse",
+          "summary": "The Tech Girl prueba ChatGPT Dots: acceso, objetivos a largo plazo y diferencias con ChatGPT normal, y lo compara con Meta Muse; los capítulos cubren acceso, setup y objetivos."
+        },
+        "de": {
+          "title": "ChatGPT Dots ausprobiert und mit Meta Muse verglichen",
+          "summary": "The Tech Girl testet ChatGPT Dots (Zugang, Langfristziele, Unterschied zu normalem ChatGPT) und vergleicht es mit Meta Muse; Kapitel zu Zugang, Setup und Zielen."
+        }
+      },
+      "source_url": "https://www.youtube.com/watch?v=6cqpa5G_3rU",
+      "source_name": "YouTube",
+      "author": "The Tech Girl",
+      "product": "openai-dots",
+      "type": "guide",
+      "date": "2026-10-14",
+      "likes": 0,
+      "src": "youtube",
+      "text": "I Tried ChatGPT Dots — This AI Agent Changes EVERYTHING!\nChatGPT Dots is here! 🚀 OpenAI's new always-on AI agent can manage your tasks, remember your goals, and work for you even when you're away! In this video, I test ChatGPT Dots and explore how it works, what makes it different from regular ChatGPT, and how it compares to Meta Muse.\n#ChatGPTDots #ChatGPT #AIAgents #OpenAI #metamuse \n\n🔗 Try ChatGPT: https://chatgpt.com\n📱 Try Ango Tasks — My Productivity App: \n\nCHAPTERS\n00:00 ChatGPT Dots Explained\n01:12 How to Access and Set Up ChatGPT Dots\n02:20 Give Your AI Agent a Long-Term Goal\n03:02 ChatGPT Dots vs ChatGPT Work\n03:44 Proactive Monitoring With Connected Apps\n04:08 Inside the ChatGPT Dots Cloud Computer\n04:58 Ango Tasks AI Task Manager Demo\n06:42 Persistent Cloud Sessions and Local Computer Access\n07:38 How Dots Uses ChatGPT, Work, and Codex\n08:53 How ChatGPT Dots Manages Codex Tasks\n09:42 Activity Tracking and Human Control\n10:24 Current ChatGPT Dots Limitations\n11:04 Logins, Passwords, and App Permissions\n11:36 ChatGPT Dots vs Meta Muse\n12:21 Final Thoughts and What’s Next\n\nSubscribe if you liked the video: https://www.youtube.com/@anjanagowtham?Sub_Confirmation=1\n\n❤ Anjana",
+      "media": [
+        "https://i.ytimg.com/vi/6cqpa5G_3rU/hqdefault.jpg"
+      ],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "00:00 ChatGPT Dots Explained",
+        "01:12 How to Access and Set Up ChatGPT Dots",
+        "02:20 Give Your AI Agent a Long-Term Goal",
+        "03:02 Cha"
+      ],
+      "prompt": null,
+      "views": "10867",
+      "slug": "yt-6cqpa5g-3ru",
+      "scen": []
+    },
+    {
+      "title": "给 Claude Code / Codex / Dot 的本地收件箱与调度",
+      "summary": "dot-connect 为 Claude Code、Codex 和 ChatGPT Dot 提供持久本地收件箱、生命周期钩子与调度。",
+      "en": {
+        "title": "Local inboxes and scheduling for Claude Code, Codex and Dot",
+        "summary": "dot-connect adds durable local inboxes, lifecycle hooks and scheduling for Claude Code, Codex and ChatGPT Dot."
+      },
+      "tr": {
+        "en": {
+          "title": "Local inboxes and scheduling for Claude Code, Codex and Dot",
+          "summary": "dot-connect adds durable local inboxes, lifecycle hooks and scheduling for Claude Code, Codex and ChatGPT Dot."
+        },
+        "zh-CN": {
+          "title": "给 Claude Code / Codex / Dot 的本地收件箱与调度",
+          "summary": "dot-connect 为 Claude Code、Codex 和 ChatGPT Dot 提供持久本地收件箱、生命周期钩子与调度。"
+        },
+        "zh-TW": {
+          "title": "給 Claude Code / Codex / Dot 的本地收件匣與排程",
+          "summary": "dot-connect 為 Claude Code、Codex 和 ChatGPT Dot 提供持久本地收件匣、生命週期鉤子與排程。"
+        },
+        "ja": {
+          "title": "Claude Code / Codex / Dot 向けローカル受信箱とスケジュール",
+          "summary": "dot-connect は Claude Code、Codex、ChatGPT Dot 向けに永続ローカル受信箱、ライフサイクルフック、スケジューリングを追加する。"
+        },
+        "ko": {
+          "title": "Claude Code·Codex·Dot용 로컬 받은편지함과 스케줄",
+          "summary": "dot-connect는 Claude Code, Codex, ChatGPT Dot에 내구성 있는 로컬 받은편지함, 라이프사이클 훅, 스케줄링을 더한다."
+        },
+        "ms": {
+          "title": "Peti masuk tempatan dan penjadualan untuk Claude Code, Codex dan Dot",
+          "summary": "dot-connect menambah peti masuk tempatan tahan lama, cangkuk kitaran hayat dan penjadualan untuk Claude Code, Codex dan ChatGPT Dot."
+        },
+        "vi": {
+          "title": "Hộp thư local và lịch cho Claude Code, Codex và Dot",
+          "summary": "dot-connect thêm hộp thư local bền, lifecycle hook và lịch cho Claude Code, Codex và ChatGPT Dot."
+        },
+        "fr": {
+          "title": "Boîtes locales et planification pour Claude Code, Codex et Dot",
+          "summary": "dot-connect ajoute des boîtes locales durables, des hooks de cycle de vie et une planification pour Claude Code, Codex et ChatGPT Dot."
+        },
+        "es": {
+          "title": "Bandejas locales y programación para Claude Code, Codex y Dot",
+          "summary": "dot-connect añade bandejas locales duraderas, hooks de ciclo de vida y programación para Claude Code, Codex y ChatGPT Dot."
+        },
+        "de": {
+          "title": "Lokale Postfächer und Scheduling für Claude Code, Codex und Dot",
+          "summary": "dot-connect ergänzt dauerhafte lokale Postfächer, Lifecycle-Hooks und Scheduling für Claude Code, Codex und ChatGPT Dot."
+        }
+      },
+      "source_url": "https://github.com/AIdevgru/dot-connect",
+      "source_name": "GitHub",
+      "author": "AIdevgru",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-10-14",
+      "likes": 0,
+      "src": "github",
+      "text": "AIdevgru/dot-connect\nDurable local inboxes, lifecycle hooks, and scheduling for Claude Code, Codex, and ChatGPT dot",
+      "media": [],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "Restart Claude Code. In a new Codex session, run /hooks and review/trust the installed dot-connect hooks. Hook installation does not bypass Codex's trust rev……",
+        "If Dot isn't connected, the installer walks you through ChatGPT desktop → dot profile → Computers → Your computer → Allow access, with [skip for now]. It rec……",
+        "Open ~/.dot-connect/DOT-SETUP.md and send its ready-to-use prompt to your dot. It asks Dot to create its native recurring inbox check and record the real sch……"
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-aidevgru-dot-connect",
+      "scen": [
+        "inbox",
+        "ship"
+      ]
+    },
+    {
+      "title": "用 Muse Spark 做井场巡检：卫星到无人机到地面",
+      "summary": "SiteSense 面向加拿大 BC 和平地区油气井场，用 Meta SAM 3.1 与 Muse Spark 做卫星→无人机→地面巡检助手，并带野火风险层。",
+      "en": {
+        "title": "Wellsite inspection with Muse Spark: satellite to drone to ground",
+        "summary": "SiteSense is a satellite → drone → ground inspection assistant for oil and gas wellsites in BC's Peace Region, built with Meta SAM 3.1 and Muse Spark, plus a wildfire risk layer."
+      },
+      "tr": {
+        "en": {
+          "title": "Wellsite inspection with Muse Spark: satellite to drone to ground",
+          "summary": "SiteSense is a satellite → drone → ground inspection assistant for oil and gas wellsites in BC's Peace Region, built with Meta SAM 3.1 and Muse Spark, plus a wildfire risk layer."
+        },
+        "zh-CN": {
+          "title": "用 Muse Spark 做井场巡检：卫星到无人机到地面",
+          "summary": "SiteSense 面向加拿大 BC 和平地区油气井场，用 Meta SAM 3.1 与 Muse Spark 做卫星→无人机→地面巡检助手，并带野火风险层。"
+        },
+        "zh-TW": {
+          "title": "用 Muse Spark 做井場巡檢：衛星到無人機到地面",
+          "summary": "SiteSense 面向加拿大 BC 和平地區油氣井場，用 Meta SAM 3.1 與 Muse Spark 做衛星→無人機→地面巡檢助手，並帶野火風險層。"
+        },
+        "ja": {
+          "title": "Muse Spark で坑井サイト点検：衛星→ドローン→地上",
+          "summary": "SiteSense は BC 州 Peace Region の石油・ガス坑井向け。Meta SAM 3.1 と Muse Spark で衛星→ドローン→地上の点検助手を作り、山火事リスク層も付く。"
+        },
+        "ko": {
+          "title": "Muse Spark로 유정 현장 점검: 위성→드론→지상",
+          "summary": "SiteSense는 BC Peace Region 석유·가스 유정용으로 Meta SAM 3.1과 Muse Spark로 위성→드론→지상 점검 도우미를 만들고 산불 위험 레이어를 둔다."
+        },
+        "ms": {
+          "title": "Pemeriksaan tapak telaga dengan Muse Spark: satelit ke drone ke tanah",
+          "summary": "SiteSense ialah pembantu pemeriksaan satelit → drone → tanah untuk tapak telaga minyak dan gas di Peace Region BC, dibina dengan Meta SAM 3.1 dan Muse Spark, plus lapisan risiko kebakaran hutan."
+        },
+        "vi": {
+          "title": "Tuần tra giếng dầu với Muse Spark: vệ tinh → drone → mặt đất",
+          "summary": "SiteSense là trợ lý tuần tra vệ tinh → drone → mặt đất cho giếng dầu khí vùng Peace BC, dựng bằng Meta SAM 3.1 và Muse Spark, kèm lớp rủi ro cháy rừng."
+        },
+        "fr": {
+          "title": "Inspection de puits avec Muse Spark : satellite, drone, sol",
+          "summary": "SiteSense assiste l'inspection satellite → drone → sol des puits pétrole/gaz de la Peace Region (BC), avec Meta SAM 3.1 et Muse Spark, plus une couche risque feux de forêt."
+        },
+        "es": {
+          "title": "Inspección de pozos con Muse Spark: satélite, dron y suelo",
+          "summary": "SiteSense asiste la inspección satélite → dron → suelo de pozos de petróleo y gas en Peace Region (BC), con Meta SAM 3.1 y Muse Spark, más capa de riesgo de incendios."
+        },
+        "de": {
+          "title": "Bohrplatz-Inspektion mit Muse Spark: Satellit bis Boden",
+          "summary": "SiteSense ist ein Satellit→Drohne→Boden-Inspektionsassistent für Öl- und Gasbohrplätze in BCs Peace Region, gebaut mit Meta SAM 3.1 und Muse Spark, plus Wildfeuerrisiko-Layer."
+        }
+      },
+      "source_url": "https://github.com/barbaraackles/sitesense",
+      "source_name": "GitHub",
+      "author": "barbaraackles",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-10-14",
+      "likes": 0,
+      "src": "github",
+      "text": "barbaraackles/sitesense\nSatellite → drone → ground inspection assistant for oil & gas wellsites in BC's Peace Region (Meta SAM 3.1 + Muse Spark), with a wildfire risk layer\ncomputer-vision drone fastapi hackathon meta-ai oil-and-gas satellite",
+      "media": [
+        "https://raw.githubusercontent.com/barbaraackles/sitesense/HEAD/docs/screenshot_5_wildfire_drone_ranking.png",
+        "https://raw.githubusercontent.com/barbaraackles/sitesense/HEAD/docs/screenshot_6_wildfire_firesmart.png"
+      ],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "SAM 3.1: object segmentation",
+        "Muse Spark 1.3: structured diagnosis + tool-calling agent loop",
+        "Satellite (free Sentinel-2, 10 m): screen a whole area for *areas of interest*: new clearings or lease changes, vegetation stress along a right-of-way (NDVI ……",
+        "Drone: fly the flagged AOI and upload the whole batch at once. SiteSense ranks every shot worst-first and builds one combined survey report (JSON + printable……",
+        "Ground (phone): the close-up. The existing flow returns a structured diagnosis plus a tool-called work order that links back to its origin (Satellite AOI → D……",
+        "Fly only within applicable Transport Canada drone rules: the right pilot certificate for the operation, a registered drone, visual line of sight, altitude li……",
+        "Get the site operator's / landowner's permission before flying over leases, facilities or right-of-ways, and follow the company's site-entry, H2S and flight ……",
+        "SiteSense never recommends flying outside these rules."
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-barbaraackles-sitesense",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
       "title": "Helicon：给 Muse Code CLI 做的开源桌面客户端",
       "summary": "作者每天用 Meta 的 Muse Code CLI，多项目多会话在终端里难管理，于是用 Tauri 2 + React 做了桌面应用和 VS Code 扩展：调用 muse serve、沿用现有 muse login 和订阅，可续接终端会话、内联审批 diff、直接看 5 小时和每周额度；MIT 开源，已到 v0.21.9，9 人贡献。",
       "en": {
@@ -14664,6 +15573,156 @@
         "food",
         "shop"
       ]
+    },
+    {
+      "title": "Waveshare ESP32 移植 Muse Gadget，带中文语音后端",
+      "summary": "把 Meta Muse Gadgets 移植到 Waveshare ESP32-S3-Touch-LCD-3.49 V2，并接讯飞 ASR/TTS 与 SenseNova LLM 中文语音栈，无需 Meta 账号或 SDK token。",
+      "en": {
+        "title": "Waveshare ESP32 Muse Gadget port with Chinese voice backend",
+        "summary": "A Waveshare ESP32-S3-Touch-LCD-3.49 V2 port for Meta Muse Gadgets plus a Chinese voice stack (iFlytek ASR/TTS and SenseNova LLM) that needs no Meta account or SDK token."
+      },
+      "tr": {
+        "en": {
+          "title": "Waveshare ESP32 Muse Gadget port with Chinese voice backend",
+          "summary": "A Waveshare ESP32-S3-Touch-LCD-3.49 V2 port for Meta Muse Gadgets plus a Chinese voice stack (iFlytek ASR/TTS and SenseNova LLM) that needs no Meta account or SDK token."
+        },
+        "zh-CN": {
+          "title": "Waveshare ESP32 移植 Muse Gadget，带中文语音后端",
+          "summary": "把 Meta Muse Gadgets 移植到 Waveshare ESP32-S3-Touch-LCD-3.49 V2，并接讯飞 ASR/TTS 与 SenseNova LLM 中文语音栈，无需 Meta 账号或 SDK token。"
+        },
+        "zh-TW": {
+          "title": "Waveshare ESP32 移植 Muse Gadget，帶中文語音後端",
+          "summary": "把 Meta Muse Gadgets 移植到 Waveshare ESP32-S3-Touch-LCD-3.49 V2，並接訊飛 ASR/TTS 與 SenseNova LLM 中文語音棧，無需 Meta 帳號或 SDK token。"
+        },
+        "ja": {
+          "title": "Waveshare ESP32 向け Muse Gadget 移植と中国語音声",
+          "summary": "Meta Muse Gadgets を Waveshare ESP32-S3-Touch-LCD-3.49 V2 に移植し、iFlytek ASR/TTS と SenseNova LLM の中国語音声を追加。Meta アカウントや SDK トークン不要。"
+        },
+        "ko": {
+          "title": "Waveshare ESP32 Muse Gadget 이식과 중국어 음성 백엔드",
+          "summary": "Meta Muse Gadgets를 Waveshare ESP32-S3-Touch-LCD-3.49 V2에 이식하고 iFlytek ASR/TTS·SenseNova LLM 중국어 음성을 붙였다. Meta 계정·SDK 토큰 불필요."
+        },
+        "ms": {
+          "title": "Port Waveshare ESP32 Muse Gadget dengan backend suara Cina",
+          "summary": "Port Waveshare ESP32-S3-Touch-LCD-3.49 V2 untuk Meta Muse Gadgets plus stack suara Cina (iFlytek ASR/TTS dan SenseNova LLM) tanpa akaun Meta atau token SDK."
+        },
+        "vi": {
+          "title": "Port Muse Gadget Waveshare ESP32 kèm backend giọng Trung",
+          "summary": "Port Meta Muse Gadgets sang Waveshare ESP32-S3-Touch-LCD-3.49 V2 kèm stack giọng Trung (iFlytek ASR/TTS và SenseNova LLM), không cần tài khoản Meta hay token SDK."
+        },
+        "fr": {
+          "title": "Port Waveshare ESP32 de Muse Gadget avec voix chinoise",
+          "summary": "Port Waveshare ESP32-S3-Touch-LCD-3.49 V2 pour Meta Muse Gadgets, plus une stack vocale chinoise (iFlytek ASR/TTS et SenseNova LLM) sans compte Meta ni jeton SDK."
+        },
+        "es": {
+          "title": "Port Waveshare ESP32 de Muse Gadget con voz china",
+          "summary": "Port a Waveshare ESP32-S3-Touch-LCD-3.49 V2 para Meta Muse Gadgets, más stack de voz china (iFlytek ASR/TTS y SenseNova LLM) sin cuenta Meta ni token SDK."
+        },
+        "de": {
+          "title": "Waveshare-ESP32-Port von Muse Gadget mit chinesischer Stimme",
+          "summary": "Port von Meta Muse Gadgets auf Waveshare ESP32-S3-Touch-LCD-3.49 V2 plus chinesischer Sprachstack (iFlytek ASR/TTS und SenseNova LLM) ohne Meta-Konto oder SDK-Token."
+        }
+      },
+      "source_url": "https://github.com/Eatin/muse-gadget-waveshare-349",
+      "source_name": "GitHub",
+      "author": "Eatin",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-10-13",
+      "likes": 0,
+      "src": "github",
+      "text": "Eatin/muse-gadget-waveshare-349\nWaveshare ESP32-S3-Touch-LCD-3.49 V2 port for Meta Muse Gadgets, plus a Chinese voice backend: iFlytek ASR/TTS + SenseNova LLM. No Meta account or SDK token needed.\nesp-idf esp32 esp32-s3 iflytek lvgl sensenova voice-assistant waveshare",
+      "media": [
+        "https://raw.githubusercontent.com/Eatin/muse-gadget-waveshare-349/HEAD/github/images/muse-gadgets-light.png"
+      ],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-eatin-muse-gadget-waveshare-349",
+      "scen": []
+    },
+    {
+      "title": "FitScout：用 Muse MCP 学品味的二手侦察",
+      "summary": "偏 Agent 的二手侦察：从照片学品味、每天自调搜索、按成片判断商品，并把结果推到手机，走 Meta Muse MCP 连接器。",
+      "en": {
+        "title": "FitScout: Muse MCP resale scout that learns taste from photos",
+        "summary": "An agent-heavy resale scout that learns taste from photos, retunes searches daily, judges listings by their photos and pushes finds to the phone, using a Meta Muse MCP connector."
+      },
+      "tr": {
+        "en": {
+          "title": "FitScout: Muse MCP resale scout that learns taste from photos",
+          "summary": "An agent-heavy resale scout that learns taste from photos, retunes searches daily, judges listings by their photos and pushes finds to the phone, using a Meta Muse MCP connector."
+        },
+        "zh-CN": {
+          "title": "FitScout：用 Muse MCP 学品味的二手侦察",
+          "summary": "偏 Agent 的二手侦察：从照片学品味、每天自调搜索、按成片判断商品，并把结果推到手机，走 Meta Muse MCP 连接器。"
+        },
+        "zh-TW": {
+          "title": "FitScout：用 Muse MCP 學品味的二手偵察",
+          "summary": "偏 Agent 的二手偵察：從照片學品味、每天自調搜尋、按成片判斷商品，並把結果推到手機，走 Meta Muse MCP 連接器。"
+        },
+        "ja": {
+          "title": "FitScout：写真から好みを学ぶ Muse MCP 転売スカウト",
+          "summary": "写真から好みを学び、検索を毎日調整し、掲載写真で判断してスマホへ推すエージェント型転売スカウト。Meta Muse MCP コネクタ使用。"
+        },
+        "ko": {
+          "title": "FitScout: 사진으로 취향을 배우는 Muse MCP 리세일 스카우트",
+          "summary": "사진으로 취향을 배우고 검색을 매일 조정하며 목록 사진으로 판단해 폰으로 밀어 주는 에이전트형 리세일 스카우트. Meta Muse MCP 커넥터 사용."
+        },
+        "ms": {
+          "title": "FitScout: pengintai jualan semula Muse MCP yang belajar rasa dari foto",
+          "summary": "Pengintai jualan semula berasaskan ejen yang belajar rasa dari foto, selaras carian setiap hari, nilai senarai ikut foto dan tolak penemuan ke telefon, menggunakan penyambung Meta Muse MCP."
+        },
+        "vi": {
+          "title": "FitScout: scout bán lại Muse MCP học gu từ ảnh",
+          "summary": "Scout bán lại nặng agent: học gu từ ảnh, tự chỉnh tìm kiếm mỗi ngày, chấm tin theo ảnh và đẩy về điện thoại, dùng connector Meta Muse MCP."
+        },
+        "fr": {
+          "title": "FitScout : éclaireur revente Muse MCP qui apprend le goût via photos",
+          "summary": "Éclaireur revente très agentique qui apprend le goût depuis des photos, retune les recherches chaque jour, juge les annonces sur leurs photos et pousse les trouvailles sur le téléphone via un connecteur Meta Muse MCP."
+        },
+        "es": {
+          "title": "FitScout: scout de reventa Muse MCP que aprende gusto de fotos",
+          "summary": "Scout de reventa muy agentico que aprende gusto de fotos, reajusta búsquedas a diario, juzga anuncios por sus fotos y empuja hallazgos al teléfono con un conector Meta Muse MCP."
+        },
+        "de": {
+          "title": "FitScout: Muse-MCP-Resale-Scout, der Geschmack aus Fotos lernt",
+          "summary": "Ein agentenlastiger Resale-Scout, der Geschmack aus Fotos lernt, Suchen täglich nachstellt, Listings anhand ihrer Fotos bewertet und Funde aufs Handy schiebt, mit Meta-Muse-MCP-Connector."
+        }
+      },
+      "source_url": "https://github.com/AmranHudda/fitscout",
+      "source_name": "GitHub",
+      "author": "AmranHudda",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-10-13",
+      "likes": 0,
+      "src": "github",
+      "text": "AmranHudda/fitscout\nAgent-heavy resale scout: learns my taste from photos, tunes its own searches daily, judges listings by their photos, and pushes finds to my phone. Meta Muse MCP connector.",
+      "media": [
+        "https://raw.githubusercontent.com/AmranHudda/fitscout/HEAD/docs/screenshots/app-finds.png",
+        "https://raw.githubusercontent.com/AmranHudda/fitscout/HEAD/docs/screenshots/app-agents.png"
+      ],
+      "added_at": "2026-10-15T15:07:59.828Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "Photos: 50 photos produced 150 garments. My face was matched on-device in 48 of the 50, including 27 group shots.",
+        "Tuning agent: test-ran 6 searches and rewrote 5 overly specific ones into the words sellers actually use in titles, in 21 seconds for $0.16.",
+        "First scan: pulled 131 Grailed listings and judged 130 in 103 seconds. It flagged 22 as worth showing and sent the best 6 as notifications.",
+        "Size check: XXL and M versions of a sweater were marked as the wrong size for \"L/XL\".",
+        "Course correction: the top pick was a $43 black Polo quarter-zip at 9.5/10, which is basically one I already own. I said I want new things inspired by my sty……",
+        "After the correction: the next scan judged 199 listings in 156 seconds. The top picks were a vintage cream Aran wool cardigan ($64), a gray chunky cable-knit……",
+        "Cost: the whole first night, including building and testing, used $3.12 of OpenAI. A hard daily cap ($2 by default, $5 here) stops the AI calls if it's reached.…",
+        "Face matching stays on the phone. The cloud model only sees a copy of the photo with a green box around me, so it never has to recognize anyone. My reference……"
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-amranhudda-fitscout",
+      "scen": []
     },
     {
       "title": "Dotcord：让 Dots、Grok Bot、Claude 在 Discord 实时交接",

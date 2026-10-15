@@ -1,5 +1,5 @@
 # 常驻用量 Always-on Usage
-> Always-on Agents 的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。评测层，不是模板目录。对照与计算器为估算方向；案例为公开条目聚合（1634 条）。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
+> Always-on Agents 的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。评测层，不是模板目录。对照与计算器为估算方向；案例为公开条目聚合（1648 条）。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse 对照矩阵
@@ -624,6 +624,15 @@
 - /cases/x-zynstop-2110606030979920231.html: 让 Muse 对自己的 token 用量做一次自检 (guide) <https://x.com/ZynStop/status/2110606030979920231>
 - /cases/x-ashiiirg-2110576664526905409.html: 运营社媒的 Muse 与管运营的 OpenClaw 互发邮件 (field-case) <https://x.com/ashiiirg/status/2110576664526905409>
 - /cases/x-dcinvestor-2110662874154905733.html: 给 AI 单独开邮箱，再按需共享 Drive 文件夹 (guide) <https://x.com/DCinvestor/status/2110662874154905733>
+- /cases/gh-github-com-tylerlongbons-hub-skill-building.html: 把 Grok Bot 当客户的练手项目库 (field-case) <https://github.com/tylerlongbons-hub/Skill-building>
+- /cases/gh-github-com-kky42-t3bot.html: 给 T3 Code 的个人 Bot：记忆、心跳与工人队 (field-case) <https://github.com/kky42/t3bot>
+- /cases/gh-github-com-shagghiesuperstar-medusa-commerce.html: Medusa v2 的 Grok Bot 插件：仅草稿、干跑写入 (field-case) <https://github.com/shagghiesuperstar/medusa-commerce>
+- /cases/gh-github-com-enzoenrico-siri-grokbot.html: 给 Grok Bot 接 Siri Intent：iPhone 与 CarPlay (field-case) <https://github.com/enzoenrico/siri-grokbot>
+- /cases/medium-devenkoai-medium-com-stop-using-ai-as-a-chatbot-how-to-build.html: 用 Grok Bot 与 Opus 5.5 搭 24/7 工程队 (guide) <https://devenkoai.medium.com/stop-using-ai-as-a-chatbot-how-to-build-a-24-7-engineering-team-with-grok-bot-opus-5-5-d3a548590d10>
+- /cases/gh-github-com-olllayor-grokbot-opencode.html: 基于 OpenCode 的桌面 Agent 宿主（暂名） (field-case) <https://github.com/olllayor/grokbot-opencode>
+- /cases/yt-sqrf3j7vsz8.html: ChatGPT Dots 讲解：交目标、收回进展 (guide) <https://www.youtube.com/watch?v=SQrf3J7vSz8>
+- /cases/devto-4855865.html: 如何安装并使用 ChatGPT Dots（2026） (guide) <https://dev.to/theglitchfixer/openai-dots-how-to-set-up-use-chatgpts-always-on-ai-agent-2026-2g4p>
+- /cases/gh-github-com-johnnybyzhang-wecom-dot-bridge.html: 非官方企微桥：接到已有 ChatGPT Dot (field-case) <https://github.com/Johnnybyzhang/wecom-dot-bridge>
 - /cases/x-simonsmith-2110425007059017830.html: 用 Dot 在 ChatGPT 里做了两个个人 App (field-case) <https://x.com/_simonsmith/status/2110425007059017830>
 - /cases/x-jacobilin-2110456534220329453.html: 给多个 Agent 做了任务看板：Dot、Grok Bot、Claude Code (field-case) <https://x.com/jacobilin/status/2110456534220329453>
 - /cases/gh-abruption-dots-tailscale.html: 在 Dots 云电脑上跑 Tailscale + 用户级 SSH (guide) <https://github.com/abruption/dots-tailscale>
@@ -631,10 +640,15 @@
 - /cases/x-sjourdan-2110317092134166787.html: Dot 用开源 fast-whisper 转写播客 (field-case) <https://x.com/sjourdan/status/2110317092134166787>
 - /cases/x-offzerocyber-2110384977053630788.html: Muse 做邮件安全：读信前先检查 (field-case) <https://x.com/OffZeroCyber/status/2110384977053630788>
 - /cases/yt-lr6bt1s4lfu.html: 9 个变现向 Bot：落地页、外呼、剪辑、网站审计 (field-case) <https://www.youtube.com/watch?v=LR6BT1s4lFU>
+- /cases/yt-6cqpa5g-3ru.html: 实测 ChatGPT Dots，并对比 Meta Muse (guide) <https://www.youtube.com/watch?v=6cqpa5G_3rU>
+- /cases/gh-github-com-aidevgru-dot-connect.html: 给 Claude Code / Codex / Dot 的本地收件箱与调度 (field-case) <https://github.com/AIdevgru/dot-connect>
+- /cases/gh-github-com-barbaraackles-sitesense.html: 用 Muse Spark 做井场巡检：卫星到无人机到地面 (field-case) <https://github.com/barbaraackles/sitesense>
 - /cases/hn-50070313.html: Helicon：给 Muse Code CLI 做的开源桌面客户端 (field-case) <https://github.com/HarjjotSinghh/helicon>
 - /cases/hn-50074512.html: Muse Souls：给 Muse 写 9 套 SOUL.md 人格的实测 (field-case) <https://github.com/bkawa-io/muse-souls>
 - /cases/x-carolinadill-2110049188524216756.html: Grok Bot 的指令来自四个地方 (guide) <https://x.com/CarolinaDill/status/2110049188524216756>
 - /cases/x-kyledettman-2109831484630565103.html: 从 Paprika 菜谱到 Kroger 自提订单 (field-case) <https://x.com/kyledettman/status/2109831484630565103>
+- /cases/gh-github-com-eatin-muse-gadget-waveshare-349.html: Waveshare ESP32 移植 Muse Gadget，带中文语音后端 (field-case) <https://github.com/Eatin/muse-gadget-waveshare-349>
+- /cases/gh-github-com-amranhudda-fitscout.html: FitScout：用 Muse MCP 学品味的二手侦察 (field-case) <https://github.com/AmranHudda/fitscout>
 - /cases/x-reidhslaughter-2109645099479036095.html: Dotcord：让 Dots、Grok Bot、Claude 在 Discord 实时交接 (field-case) <https://x.com/reidhslaughter/status/2109645099479036095>
 - /cases/medium-grok-bots-job-search-ft-2hjs.html: 用 3 个协作 Grok Bot + 1 个经理 Bot 找内推人 (field-case) <https://medium.com/@roshan_ambhore/grok-bots-job-search-ft-2hjs-c122c6011e8d>
 - /cases/yt-4tolm1g-gce.html: Muse 设计负责人谈界面设计取舍 (guide) <https://www.youtube.com/watch?v=4TOLm1g-gCE>

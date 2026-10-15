@@ -1,22 +1,42 @@
 [
- {
-  "id": "hn:50059427",
-  "url": "https://www.nytimes.com/2026/10/12/technology/meta-muse-wonder-full-models.html",
-  "reason": "news: model launch coverage, not a usage case"
- },
- {
-  "id": "hn:50068941",
-  "url": "https://twitter.com/mattyp/status/2109784144649838754",
-  "reason": "news: pricing/plan announcement, not a usage case"
- },
- {
-  "id": "rss:about.fb.com/news/2026/10/introducing-muse-wonder-models",
-  "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
-  "reason": "official model launch, not a usage case"
- },
- {
-  "id": "hn:50101996",
-  "url": "https://www.meta.com/muse-charm/",
-  "reason": "official product page, not a usage case"
- }
+  {
+    "id": "hn:50059427",
+    "url": "https://www.nytimes.com/2026/10/12/technology/meta-muse-wonder-full-models.html",
+    "reason": "news: model launch coverage, not a usage case"
+  },
+  {
+    "id": "hn:50068941",
+    "url": "https://twitter.com/mattyp/status/2109784144649838754",
+    "reason": "news: pricing/plan announcement, not a usage case"
+  },
+  {
+    "id": "rss:about.fb.com/news/2026/10/introducing-muse-wonder-models",
+    "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+    "reason": "official model launch, not a usage case"
+  },
+  {
+    "id": "hn:50101996",
+    "url": "https://www.meta.com/muse-charm/",
+    "reason": "official product page, not a usage case"
+  },
+  {
+    "id": "reddit:reddit.com/r/customerexperience/comments/1x5usxn/so_is_the_future_of_cx_ai_agents_talking_to_ai",
+    "url": "https://www.reddit.com/r/customerexperience/comments/1x5usxn/so_is_the_future_of_cx_ai_agents_talking_to_ai/",
+    "reason": "speculation, not a usage case"
+  },
+  {
+    "id": "medium:sodevelopment.medium.com/is-muse-wonder-full-metas-most-powerful-ai-model-for-complex-tasks-7a3d0e776c01",
+    "url": "https://sodevelopment.medium.com/is-muse-wonder-full-metas-most-powerful-ai-model-for-complex-tasks-7a3d0e776c01",
+    "reason": "product news / model review, not usage"
+  },
+  {
+    "id": "gh:github.com/jquave/smack-musey",
+    "url": "https://github.com/jquave/smack-musey",
+    "reason": "joke toy, not a usage case"
+  },
+  {
+    "id": "medium:nighticonsulting.medium.com/meta-launches-muse-wonder-ai-models-to-rival-openai-a72805e2f63f",
+    "url": "https://nighticonsulting.medium.com/meta-launches-muse-wonder-ai-models-to-rival-openai-a72805e2f63f",
+    "reason": "launch news, not usage"
+  }
 ]

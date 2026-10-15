@@ -8105,5 +8105,183 @@
   "outline": [],
   "kind": "youtube",
   "fetched_at": "2026-10-15"
+ },
+ "https://github.com/tylerlongbons-hub/Skill-building": {
+  "text": "This repo keeps track of the projects i am working on with Grok bot as the customer in order to help build my skills. Difficulty starts at \"beginner\" and will work its way to \"Advanced\"",
+  "media": [],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-15"
+ },
+ "https://github.com/kky42/t3bot": {
+  "text": "A Grok Bot / Muse style personal bot for T3 Code. Clone it, open a thread in the folder, and the bot wakes up: it interviews you, picks a personality that fits you, remembers you in plain files, checks in on a heartbeat, runs routines while you are away, and hands work to agents on any provider, in this folder or your other repos.",
+  "media": [],
+  "outline": [
+   "In T3 Code, add ~/t3bots/alice as a project.",
+   "Open a new thread in it. This thread becomes the bot's home: heartbeats and routines post here and run on this thread's model, so a cheap model keeps them ch…",
+   "Say hi. The bot interviews you and sets itself up.",
+   "Ask the user, in one message, the three questions below as multiple choice: numbered questions, lettered options, your recommendation first, so they can repl…",
+   "Role: three or four jobs that fit what you know of them (chief of staff, development, social media, research, ...), none an existing bot already has.",
+   "Name: three or four short, fun, distinct names; any other name works too.",
+   "Home model: the bot's home thread runs on it, and so does every heartbeat and routine, so it sets what the bot costs. Offer up to four models from orchestrat…",
+   "Folder: ~/t3bots/, where  is the name in lowercase with spaces as hyphens and only a-z, 0-9, - kept. If that folder exists, ask for another name."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-15"
+ },
+ "https://github.com/shagghiesuperstar/medusa-commerce": {
+  "text": "A Grok Bot plugin that lets Grok Bot **manage a Medusa v2 store as an agent**: self-hosted or on Medusa Cloud, one store at a time. You get fail-loud health, a read-only view of catalog, inventory and orders, a draft-only product pipeline, and **opt-in** publishing and live edits. Created by @pixelrainbownft.",
+  "media": [],
+  "outline": [
+   "Sources: the Admin API and Store API references, plus the agent index at https://docs.medusajs.com/llms.txt.",
+   "Tool: medusa_docs searches the official index or greps an official page. It refuses other origins.",
+   "Skill: golden-rule-read-docs-first is step 0 of every skill (a test enforces this).",
+   "Every endpoint the server calls was checked against the official v2 OpenAPI reference, and each tool result carries its doc link.",
+   "Gaps get the label \"not in official docs\" and are marked UNVERIFIED (see docs/LESSONS.md).",
+   "Docs MCP: https://docs.medusajs.com/mcp. Answers questions from the docs (ask_medusa_question) and provides implementation guides. It also accepts a Cloud pe…",
+   "Medusa (Cloud) MCP: https://cloud.medusajs.com/mcp. Read-only access to Admin and Store API data for stores deployed on Medusa Cloud (v2.12.4+). Tools: list_…",
+   "Golden Rule: official docs first. Every skill starts with the docs, and every lesson cites a doc or is marked UNVERIFIED."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-15"
+ },
+ "https://github.com/enzoenrico/siri-grokbot": {
+  "text": "Connects Siri and Grok in both directions:",
+  "media": [],
+  "outline": [
+   "Ask Grok from Siri. Say \"Hey Siri, Ask Grok\". Siri asks for your question, sends it to your Grok Bot, and speaks that bot's answer. This is an iOS App Intent…",
+   "Let Grok Bot run your Siri Shortcuts. A Grok Bot plugin (Agent Plugin format) with an MCP server that lists and runs the shortcuts on your Mac. This is the r…",
+   "Generate the Xcode project:",
+   "In the AskGrok target, under Signing & Capabilities, select your team and change the bundle ID from com.example.askgrok to one you own.",
+   "On the Grok Bot computer, read the gateway token from /home/box/sand-data/gateway.json. Put that computer on your Tailscale network (or another private netwo…",
+   "Run the app on your iPhone. Paste the gateway token, the bot's name, and the gateway URL (for example http://100.x.x.x:1340). Open that bot in Grok Bot so it…",
+   "Say \"Hey Siri, Ask Grok\". Siri replies \"What do you want to ask Grok Bot?\". Speak your question and Siri reads the bot's answer.",
+   "list_shortcuts returns the names of your installed shortcuts."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-15"
+ },
+ "https://github.com/olllayor/grokbot-opencode": {
+  "text": "This workspace reconstructs the installed **Grok Bot 0.66.0** desktop application from `/Applications/Grok Bot.app` using the REA reverse-engineering skill and actual REA 6.3.0 MCP analyses. Its Electron runtime is **42.1.0**, verified from the installed framework.",
+  "media": [],
+  "outline": [
+   "rea/evidence/bootstrap-reconstruction.md",
+   "rea/evidence/main-core-reconstruction.md",
+   "rea/evidence/preload-reconstruction.md",
+   "rea/evidence/rpc-server-reconstruction.md",
+   "rea/evidence/renderer-reconstruction.md",
+   "rea/evidence/auxiliary-preloads-reconstruction.md",
+   "rea/evidence/update-reconstruction.md",
+   "rea/evidence/main-typescript-migration.md"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-15"
+ },
+ "https://www.youtube.com/watch?v=SQrf3J7vSz8": {
+  "text": "In this video, we explore ChatGPT Dots, OpenAI's always-on AI agents that can work toward your goals, use connected apps, and make progress in the background. Instead of prompting AI for every individual step, you can assign a responsibility and let your dot plan the work, provide updates, and bring results back for review.\n\nChatGPT Dots represents a major shift in how we interact with AI. Learn how this new feature changes your daily workflow.\n\nFor a long time, using ChatGPT meant typing prompts back and forth in a standard chat interface. OpenAI has now introduced a new interaction method simply called Dots. …",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/SQrf3J7vSz8/hqdefault.jpg"
+   }
+  ],
+  "outline": [
+   "00:00 What Is ChatGPT Dots & How Does It Work?",
+   "03:20 How to Set Up ChatGPT Dots",
+   "05:35 Live Demo: Automating Multiple Tasks with AI",
+   "11:10 Proactive AI Research & Automatic Updates",
+   "14:00 ChatGPT Dots: Safety, Limitations & Risks"
+  ],
+  "kind": "youtube",
+  "fetched_at": "2026-10-15"
+ },
+ "https://github.com/Johnnybyzhang/wecom-dot-bridge": {
+  "text": "English | 简体中文",
+  "media": [],
+  "outline": [
+   "One Python 3.13 asyncio process (python3 -m dot_bridge serve). Its dependencies",
+   "WeCom: an AI bot over the official wss://openws.work.weixin.qq.com",
+   "ChatGPT: an independent Codex OAuth device login owned by this bridge.",
+   "dot: the undocumented chatgpt.com/backend-api messaging endpoints",
+   "Incus project dot: restricted, isolated idmap, no nesting, managed disks and",
+   "Network dot0 (10.251.0.1/24) with its own ACL dot-egress. It denies all",
+   "Container dot-bridge (Debian 13) on profile dot-bridge: 1 CPU, 512 MiB,",
+   "Unit dot-bridge.service runs as the unprivileged dot-bridge user with a"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-15"
+ },
+ "https://github.com/AIdevgru/dot-connect": {
+  "text": "Ask Claude Code, Codex, and your ChatGPT dot through durable local inboxes. A single installer creates `~/.dot-connect/Claude/inbox`, `Codex/inbox`, and `Dot/inbox`, installs a shared skill and lifecycle hooks, and registers a one-minute local timer. The timer calls Claude/Codex only for pending requests. Dot uses a native five-minute recurring check on its connected computer.",
+  "media": [],
+  "outline": [
+   "Restart Claude Code. In a new Codex session, run /hooks and review/trust the installed dot-connect hooks. Hook installation does not bypass Codex's trust rev…",
+   "If Dot isn't connected, the installer walks you through ChatGPT desktop → dot profile → Computers → Your computer → Allow access, with [skip for now]. It rec…",
+   "Open ~/.dot-connect/DOT-SETUP.md and send its ready-to-use prompt to your dot. It asks Dot to create its native recurring inbox check and record the real sch…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-15"
+ },
+ "https://github.com/barbaraackles/sitesense": {
+  "text": "**SiteSense is a multimodal field assistant for oil and gas wellsite and pipeline inspection in BC's Peace Region, built for the Meta Global AI Developer Hackathon (Oct 26 – Nov 4, 2026).** It works top-down: free Sentinel-2 satellite imagery flags areas of interest, a drone survey ranks the photos worst-first, and a phone close-up goes through **SAM 3.1** segmentation and **Muse Spark 1.3** diagnosis to produce a severity-rated, tool-called work order that links back to its origin. Every work order is safety-first: images never \"detect gas\", H2S cues are flagged, and a wildfire layer built from a decade of BC Wildfire Service data adds fire risk and Lease FireSmart checks.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/barbaraackles/sitesense/HEAD/docs/screenshot_5_wildfire_drone_ranking.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/barbaraackles/sitesense/HEAD/docs/screenshot_6_wildfire_firesmart.png"
+   }
+  ],
+  "outline": [
+   "SAM 3.1: object segmentation",
+   "Muse Spark 1.3: structured diagnosis + tool-calling agent loop",
+   "Satellite (free Sentinel-2, 10 m): screen a whole area for *areas of interest*: new clearings or lease changes, vegetation stress along a right-of-way (NDVI …",
+   "Drone: fly the flagged AOI and upload the whole batch at once. SiteSense ranks every shot worst-first and builds one combined survey report (JSON + printable…",
+   "Ground (phone): the close-up. The existing flow returns a structured diagnosis plus a tool-called work order that links back to its origin (Satellite AOI → D…",
+   "Fly only within applicable Transport Canada drone rules: the right pilot certificate for the operation, a registered drone, visual line of sight, altitude li…",
+   "Get the site operator's / landowner's permission before flying over leases, facilities or right-of-ways, and follow the company's site-entry, H2S and flight …",
+   "SiteSense never recommends flying outside these rules."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-15"
+ },
+ "https://github.com/Eatin/muse-gadget-waveshare-349": {
+  "text": "> ## 🚧 This fork: Waveshare ESP32-S3-Touch-LCD-3.49 V2 port + Chinese voice > > This is a fork of facebookincubator/muse-gadget-sdk > (Apache-2.0, forked at `86cf33f`). It adds one port to the ESP32 SDK: > > - a full board file for the **Waveshare ESP32-S3-Touch-LCD-3.49 V2** >   (172x640 AXS15231B QSPI panel, its transposed touch controller, ES8311 >   speaker + ES7210 mic, TCA9554 expander, battery, landscape UI); > - a **Chinese voice backend** (`MUSE_CN_VOICE`) that replaces Meta's VM >   session with 讯飞 iFlytek ASR + 商汤 SenseNova LLM + iFlytek TTS, so the >   gadget works with no Muse account and no SDK token; > - an on-screen push-to-record button beside the BOOT button. …",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/Eatin/muse-gadget-waveshare-349/HEAD/github/images/muse-gadgets-light.png"
+   }
+  ],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-15"
+ },
+ "https://github.com/AmranHudda/fitscout": {
+  "text": "An agent-heavy clothing scout. It learns my taste from photos of clothes I wear and like, rewrites its own searches every morning based on what worked and what I rated, scans resale sites, judges every listing by its photos, and sends the best finds to an app on my phone. I step in where judgment about me, or money, is involved.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/AmranHudda/fitscout/HEAD/docs/screenshots/app-finds.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/AmranHudda/fitscout/HEAD/docs/screenshots/app-agents.png"
+   }
+  ],
+  "outline": [
+   "Photos: 50 photos produced 150 garments. My face was matched on-device in 48 of the 50, including 27 group shots.",
+   "Tuning agent: test-ran 6 searches and rewrote 5 overly specific ones into the words sellers actually use in titles, in 21 seconds for $0.16.",
+   "First scan: pulled 131 Grailed listings and judged 130 in 103 seconds. It flagged 22 as worth showing and sent the best 6 as notifications.",
+   "Size check: XXL and M versions of a sweater were marked as the wrong size for \"L/XL\".",
+   "Course correction: the top pick was a $43 black Polo quarter-zip at 9.5/10, which is basically one I already own. I said I want new things inspired by my sty…",
+   "After the correction: the next scan judged 199 listings in 156 seconds. The top picks were a vintage cream Aran wool cardigan ($64), a gray chunky cable-knit…",
+   "Cost: the whole first night, including building and testing, used $3.12 of OpenAI. A hard daily cap ($2 by default, $5 here) stops the AI calls if it's reached.",
+   "Face matching stays on the phone. The cloud model only sees a copy of the photo with a green box around me, so it never has to recognize anyone. My reference…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-15"
  }
 }
