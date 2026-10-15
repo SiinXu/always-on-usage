@@ -1,11 +1,11 @@
 # 常驻用量 Always-on Usage
-> Always-on Agents（Grok Bot、OpenAI Dots、Meta Muse）的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。给想长期跑 Bot、又怕烧额度的人用。评测层，不是模板目录。对照与计算器为估算方向，非厂商 SLA；案例为公开条目聚合（1648 条，另有 26 篇 X 案例），每条附作者与原文链接。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
+> Always-on Agents（Grok Bot、OpenAI Dots、Meta Muse）的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。给想长期跑 Bot、又怕烧额度的人用。评测层，不是模板目录。对照与计算器为估算方向，非厂商 SLA；案例为公开条目聚合（1677 条，另有 26 篇 X 案例），每条附作者与原文链接。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
 
 - Site: https://usage.incidental.site/
 - Languages: zh-CN (default), zh-TW, en, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-15T15:07:59.828Z
+- Last updated: 2026-10-15T22:39:28.107Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3283,6 +3283,111 @@
 - Type: field-case · Product: openai-dots · Author: Johnnybyzhang · Source: https://github.com/Johnnybyzhang/wecom-dot-bridge · Date: 2026-10-15
 - Summary: 单一所有者的非官方桥，把企业微信 AI 机器人接到已有 ChatGPT Dot，支持文本、文件、引用回复与推送更新。
 
+### 用 Dot 给孩子做街机游戏上 MAME 柜
+- URL: https://usage.incidental.site/cases/x-nightrang3r-2110670245622878281.html
+- Type: field-case · Product: openai-dots · Author: NightRang3r · Source: https://x.com/NightRang3r/status/2110670245622878281 · Date: 2026-10-15
+- Summary: 作者用 OpenAI Dot（GPT SOL 6.1 高推理）开发 Ethan & Ari: Last Ember，以两个孩子为主角，跑在自己的 MAME 街机柜上。
+
+### ShopTrueProfit：Grok Bot 做的 Etsy 利润看板
+- URL: https://usage.incidental.site/cases/x-pravinvince-2110853401336517086.html
+- Type: field-case · Product: grok-bot · Author: PravinVince · Source: https://x.com/PravinVince/status/2110853401336517086 · Date: 2026-10-15
+- Summary: 作者称由 Grok Bot 搭建并上线 ShopTrueProfit——面向 Etsy 卖家的利润看板 SaaS，展示扣费后实得；作者本人未手写代码。
+
+### 用 Grok Bot 找工作：3 天 52 份投递、5 场面试
+- URL: https://usage.incidental.site/cases/x-hislordship9-2110842762769928676.html
+- Type: field-case · Product: grok-bot · Author: Hislordship_9 · Source: https://x.com/Hislordship_9/status/2110842762769928676 · Date: 2026-10-15
+- Summary: 作者用一个 Grok Bot、六个岗位（Scout/Filter/Scorer/Tailor/Messenger/Tracker）自动化求职，称 3 天投递 52 份、获 5 场面试，并附免费模板。
+
+### 学法语用 Dot：语音混用法语与英语
+- URL: https://usage.incidental.site/cases/x-elithrar-2110822272839844171.html
+- Type: field-case · Product: openai-dots · Author: elithrar · Source: https://x.com/elithrar/status/2110822272839844171 · Date: 2026-10-15
+- Summary: 重度语音/听写用户：学法语时让 Dot 部分用法语开关与对话，其余仍用英语。
+
+### Grok Bot 自建邮箱处理数据经纪商确认信
+- URL: https://usage.incidental.site/cases/x-jordanhyder-2110859581501178104.html
+- Type: field-case · Product: grok-bot · Author: jordan_hyder · Source: https://x.com/jordan_hyder/status/2110859581501178104 · Date: 2026-10-15
+- Summary: 作者让 @bot 自建邮箱即时回复数据经纪商确认邮件；无法完成的请求会通知作者并给出下一步。
+
+### 用 Grok Bot 收菜谱，代替 ReciMe 订阅
+- URL: https://usage.incidental.site/cases/x-hopefullysc-2110853749681836537.html
+- Type: field-case · Product: grok-bot · Author: HopefullySC · Source: https://x.com/HopefullySC/status/2110853749681836537 · Date: 2026-10-15
+- Summary: 作者搭了一个 Grok Bot：把菜谱链接和 YouTube 烹饪视频收进 Google Docs，免订 ReciMe，并提供可复制模板。
+
+### 消防编制思路做成 Grok Bot 团队模板
+- URL: https://usage.incidental.site/cases/x-ryanfspack-2110852919377699033.html
+- Type: guide · Product: grok-bot · Author: Ryanfspack · Source: https://x.com/Ryanfspack/status/2110852919377699033 · Date: 2026-10-15
+- Summary: 作者用二十年消防经验，把队长/中尉/队员结构做成 Grok Bot 模板，让人直接有精简团队图而不必自创编制。
+
+### 不会技术的妈妈用 Muse 每天订匹克球场
+- URL: https://usage.incidental.site/cases/x-bentoboinft-2110615341546209720.html
+- Type: field-case · Product: meta-muse · Author: BentoBoiNFT · Source: https://x.com/BentoBoiNFT/status/2110615341546209720 · Date: 2026-10-15
+- Summary: 作者妈妈完全非技术向，用 Meta Muse 约五分钟免费搭好 Agent，每天早上自动订匹克球场地，并在加更多任务。
+
+### 全职房车夫妇用 Grok Bot 当旅行顾问与行程板
+- URL: https://usage.incidental.site/cases/x-cmillet77-2110845175073558995.html
+- Type: field-case · Product: grok-bot · Author: Cmillet77 · Source: https://x.com/Cmillet77/status/2110845175073558995 · Date: 2026-10-15
+- Summary: 住在 37 英尺柴油房车、拖着 Jeep 的夫妇用 Grok Bot 当 RV 旅行顾问：按日行程板含分段、营地空位、水电、排污节奏、加油、天气、必看点与 13 英尺车限通行提示。
+
+### 用 Dot 做出首个站点后卡在审批取消错误
+- URL: https://usage.incidental.site/cases/x-ericklindberg-2110846574729347204.html
+- Type: field-case · Product: openai-dots · Author: erick_lindberg_ · Source: https://x.com/erick_lindberg_/status/2110846574729347204 · Date: 2026-10-15
+- Summary: 作者当天用 Dot 做出第一个站点，但之后每次需要审批时点通过仍显示已取消，自动审批也不生效。
+
+### Grok Bot 靠任务、例程、技能与邮箱跑业务
+- URL: https://usage.incidental.site/cases/yt-rm8zwhojdeg.html
+- Type: guide · Product: grok-bot · Author: Brian Casel · Source: https://www.youtube.com/watch?v=RM8ZwhoJdeg · Date: 2026-10-15
+- Summary: 视频指南：作者很少和 Grok Bot 聊天，但靠「给工作而非命令」、例程/技能库、汇报设计与带邮箱的 bot 跑业务大部分；也可借鉴到 Muse、Dots 等。
+
+### Grok Bot 读 Slack 的权限在 bot 间不一致
+- URL: https://usage.incidental.site/cases/x-xoptimiser-2110858074110267418.html
+- Type: guide · Product: grok-bot · Author: XOptimiser · Source: https://x.com/XOptimiser/status/2110858074110267418 · Date: 2026-10-15
+- Summary: 作者最大挫败：有的 bot 无连接器也能读 Slack，另一个必须装连接器才行，多 bot 分工因此不稳。
+
+### Dot Quill 反复 Model not found，工作流被堵
+- URL: https://usage.incidental.site/cases/x-mistemorales-2110848799287767400.html
+- Type: guide · Product: openai-dots · Author: MisteMorales · Source: https://x.com/MisteMorales/status/2110848799287767400 · Date: 2026-10-15
+- Summary: 作者的 Dot Quill 与 ChatGPT 通信反复报 Model not found，阻断重要流程；并引用 10/7、10/15 OpenAI 故障与 Codex Windows GitHub 报告，以及手机/语音不稳定。
+
+### 名为 DASH 的 Dot 会因紧急邮件打断任务
+- URL: https://usage.incidental.site/cases/x-shaunralston-2110850958620266721.html
+- Type: field-case · Product: openai-dots · Author: shaunralston · Source: https://x.com/shaunralston/status/2110850958620266721 · Date: 2026-10-15
+- Summary: 作者多数请求经名叫 DASH 的 Dot；喜欢它能在任务中途因紧急邮件打断，像真人行政助理。
+
+### Grok Bot 给特斯拉做了太空主题界面
+- URL: https://usage.incidental.site/cases/x-thecsguy-2110860307036024929.html
+- Type: field-case · Product: grok-bot · Author: thecsguy · Source: https://x.com/thecsguy/status/2110860307036024929 · Date: 2026-10-15
+- Summary: 作者称用 Grok Bot「改造」了自己的特斯拉并配太空主题；展示的成品由 @bot 制作。
+
+### 机车装备比价 Bot：12 小时扫描与周报
+- URL: https://usage.incidental.site/cases/x-ravenousmarmot-2110851138627232053.html
+- Type: field-case · Product: grok-bot · Author: RavenousMarmot · Source: https://x.com/RavenousMarmot/status/2110851138627232053 · Date: 2026-10-15
+- Summary: 作者的 Grok Bot 跑微生意：按尺码找机车装备优惠、配尺码指南、每 12 小时扫价、发周报，并计划自动购买。
+
+### Grok Bot 做数据经纪商删除并提议向州检察长投诉
+- URL: https://usage.incidental.site/cases/x-believeonjesus-2110858215093322022.html
+- Type: field-case · Product: grok-bot · Author: BelieveOnJesus · Source: https://x.com/BelieveOnJesus/status/2110858215093322022 · Date: 2026-10-15
+- Summary: 作者自建 bot 从数据经纪商删除自己；有一家拒绝删除后，Grok Bot 还提议向州检察长投诉。
+
+### Grok Bot 填政府拒扰表单并经邮箱确认
+- URL: https://usage.incidental.site/cases/x-mrbaileycarr-2110857441420402896.html
+- Type: field-case · Product: grok-bot · Author: mrbaileycarr · Source: https://x.com/mrbaileycarr/status/2110857441420402896 · Date: 2026-10-15
+- Summary: 作者称 @bot 在政府网站填表，经邮箱确认后加入拒接骚扰电话名单。
+
+### 用聊天里的 Dot 跑 Inbox Zero
+- URL: https://usage.incidental.site/cases/x-billwolfe-2110835041035235521.html
+- Type: field-case · Product: openai-dots · Author: billwolfe · Source: https://x.com/billwolfe/status/2110835041035235521 · Date: 2026-10-15
+- Summary: 长期练 Inbox Zero 的作者称一直难坚持；现在用聊天中的 Dot 跑着，效果极好。
+
+### Dot 现在步步要权限，已批准项仍被安保拦
+- URL: https://usage.incidental.site/cases/x-joaosqra-2110833886943187372.html
+- Type: guide · Product: openai-dots · Author: joaosqra · Source: https://x.com/joaosqra/status/2110833886943187372 · Date: 2026-10-15
+- Summary: 作者称 Dot 突然对每个动作要权限，安全检查还反复拦截聊天里已批准的事项——以前没有。
+
+### 每月复查数据经纪商，并用专用邮箱收确认链
+- URL: https://usage.incidental.site/cases/x-agentlane1-2110857444490428554.html
+- Type: guide · Product: grok-bot · Author: AgentLane1 · Source: https://x.com/AgentLane1/status/2110857444490428554 · Date: 2026-10-15
+- Summary: 给 Grok Bot 的常例任务建议：人搜站删除后又会挂回号码，应每月复查并重提；给 bot 专用邮箱收确认链接，避免主收件箱被淹。
+
 ### 用 Dot 在 ChatGPT 里做了两个个人 App
 - URL: https://usage.incidental.site/cases/x-simonsmith-2110425007059017830.html
 - Type: field-case · Product: openai-dots · Author: _simonsmith · Source: https://x.com/_simonsmith/status/2110425007059017830 · Date: 2026-10-14
@@ -3332,6 +3437,21 @@
 - URL: https://usage.incidental.site/cases/gh-github-com-barbaraackles-sitesense.html
 - Type: field-case · Product: meta-muse · Author: barbaraackles · Source: https://github.com/barbaraackles/sitesense · Date: 2026-10-14
 - Summary: SiteSense 面向加拿大 BC 和平地区油气井场，用 Meta SAM 3.1 与 Muse Spark 做卫星→无人机→地面巡检助手，并带野火风险层。
+
+### 搭了 8 个 GrokBot Agent，仍想念私人助理
+- URL: https://usage.incidental.site/cases/x-krrishkapoor8-2110491932900364482.html
+- Type: field-case · Product: grok-bot · Author: KrrishKapoor8 · Source: https://x.com/KrrishKapoor8/status/2110491932900364482 · Date: 2026-10-14
+- Summary: 作者建了 8 个 GrokBot（分主题、coder、designer、PM），编排印象深刻，但仍缺私人助理感，部分任务推理偏弱。
+
+### 常开 Grok Bot：定时发帖回复，夜间修游戏
+- URL: https://usage.incidental.site/cases/x-sudoaptaj-2110336461711311094.html
+- Type: field-case · Product: grok-bot · Author: sudoaptaj · Source: https://x.com/sudoaptaj/status/2110336461711311094 · Date: 2026-10-14
+- Summary: 作者用常开 Grok Bot 按计划发帖与回复、夜间推游戏修复，只在出问题时通知——这是他持续付费的理由。
+
+### 跑 Grok bot 团队：删掉赌模型不会进步的脚手架
+- URL: https://usage.incidental.site/cases/x-deshiou0604-2110276483142852744.html
+- Type: guide · Product: grok-bot · Author: deshiou0604 · Source: https://x.com/deshiou0604/status/2110276483142852744 · Date: 2026-10-14
+- Summary: 作者跑一组 Grok bot；最大教训是多数「看护模型」的脚手架是在赌下一代模型不会变强，并分享该删与该留清单。
 
 ### Helicon：给 Muse Code CLI 做的开源桌面客户端
 - URL: https://usage.incidental.site/cases/hn-50070313.html
@@ -8073,6 +8193,16 @@
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
 
+### Muse 对 Grok Bot：原生外呼 vs 偏入站语音
+- URL: https://usage.incidental.site/cases/x-airoboticsint-2110853694925549794.html
+- Type: comparison · Product: multi · Author: AIRoboticsInt · Source: https://x.com/AIRoboticsInt/status/2110853694925549794 · Date: 2026-10-15
+- Summary: 作者并排用后称 Meta Muse 可原生外呼、无需加号码；xAI 语音偏入站、外呼配置更多。Muse 能连续打电话搜集信息并完成目标。
+
+### Dots、Muse、Grok Bot：三种不同 Agent 模型
+- URL: https://usage.incidental.site/cases/x-drivingimpact-2110777727938928830.html
+- Type: comparison · Product: multi · Author: Driving_Impact · Source: https://x.com/Driving_Impact/status/2110777727938928830 · Date: 2026-10-15
+- Summary: 对比帖：OpenAI Dots 是 ChatGPT 内常开工人，跨 Slack/GitHub/Teams；Meta Muse 偏个人日常；并对照 Grok Bot 的 Agent 模型（原文 Muse 段被截断）。
+
 ### 三款 agent 能否搞定韩国网站：23 份报告汇总
 - URL: https://usage.incidental.site/cases/x-echo12yj-2110477717003268162.html
 - Type: comparison · Product: multi · Author: echo12yj · Source: https://x.com/echo12yj/status/2110477717003268162 · Date: 2026-10-14
@@ -8082,6 +8212,11 @@
 - URL: https://usage.incidental.site/cases/x-yangunplugged-2110263685121974384.html
 - Type: comparison · Product: multi · Author: yang_unplugged · Source: https://x.com/yang_unplugged/status/2110263685121974384 · Date: 2026-10-14
 - Summary: 作者并排试用后认为 Dots 一个对话装下所有事很难用，找旧消息像密室逃脱；Grok Bot 每个 Bot 有各自上下文和个性，像团队里的专家，用起来更顺手。
+
+### Grok Bot 团队 vs 笨拙但可用的 Muse+Dots 内容流
+- URL: https://usage.incidental.site/cases/x-magaman-2110357624244052360.html
+- Type: comparison · Product: multi · Author: magaman · Source: https://x.com/magaman/status/2110357624244052360 · Date: 2026-10-14
+- Summary: 作者原先用 Muse 与 Dots 搭了笨拙但有效的内容工作流；换 Grok 后只需告诉主 bot，它拉起 3 bot 团队，试跑效果相当。
 
 ### Dots、Grok Bot 还是自建：带邮箱的 agent 真实成本
 - URL: https://usage.incidental.site/cases/medium-openai-dots-vs-grok-bot-vs-building-your-own.html
@@ -8352,6 +8487,16 @@
 - URL: https://usage.incidental.site/cases/x-diamai-2110720677468664161.html
 - Type: quota-report · Product: grok-bot · Author: diamai_ · Source: https://x.com/diamai_/status/2110720677468664161 · Date: 2026-10-15
 - Summary: 帖子称有用户通过 Bot 在亚马逊下单时被提示「未经授权的 AI agent 持续访问违反亚马逊使用条件」。代购类流程需注意平台规则。
+
+### Dot 一天两次项目更新就吃掉约 10% 配额
+- URL: https://usage.incidental.site/cases/x-back2matching-2110837378986205251.html
+- Type: quota-report · Product: openai-dots · Author: Back2Matching · Source: https://x.com/Back2Matching/status/2110837378986205251 · Date: 2026-10-15
+- Summary: 作者称同一天内两次让 Dot 汇总各项目更新，约消耗 10% 配额，因此不敢多用。
+
+### 收件箱 Grok Bot 中途丢失发送工具
+- URL: https://usage.incidental.site/cases/x-entangledmatter-2110858577686810991.html
+- Type: quota-report · Product: grok-bot · Author: EntangledMatter · Source: https://x.com/EntangledMatter/status/2110858577686810991 · Date: 2026-10-15
+- Summary: 故障报告：收件箱 bot 仍能读信，但发送工具任务中途消失；已批准回复发不出，更新 bot 电脑也未恢复。
 
 ### 反馈：Dot 未经审阅就发出了邮件
 - URL: https://usage.incidental.site/cases/x-thekpsethi-2110476472804856045.html

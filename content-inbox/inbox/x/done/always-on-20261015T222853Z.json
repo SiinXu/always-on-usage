@@ -1,0 +1,802 @@
+{
+  "data": [
+    {
+      "author_id": "860967132489801728",
+      "created_at": "2026-10-15T22:17:36.000Z",
+      "edit_history_tweet_ids": [
+        "2110857651508691074"
+      ],
+      "id": "2110857651508691074",
+      "note_tweet": {
+        "text": "One of the toughest decisions in Ai , knowing which subs to keep or pick or even try out , depending on your basket you can get a lot more out of them without being tied down to anyone specific one, they all have their benefits and cons , best way is to try them one at a time or make a cocktail of them. Claude 100 percent way more usage then the others , let alone being better , can get my images from my Qwen 2.1 if I need any or any other local model through ComfyUi , I currently get mine from 2.1 Turbo but I also have my Supergrok and when I’ve been desperate for usage the actual Meta Ai app will generate you images for free, surprisingly decent chat , planning and images for a non main Ai app. I’ve only used the 20 plan for Devin, while i do like Devin once the SWE-2 free period ends tomorrow it’ll become useless , 20 dollar plan using Gemini 3.8 flash runs out half the plan or full one in less then an hour , same as if they were using SWE-2 lightning still runs out too quick cause they seem use api pricing or atleast I’ve not had any other pricing work , literally 2 PRs and it runs out, haven’t been able to try the 200 plan though yet , will happily one day when I win one eventually. The  Nous Portal plan comes in 3rd , 20 dollars on Deepseek or one of their free models goes pretty far and being able to try different ones in the change of a button or prompt it great , I can change them mid sentence or prompt in my harness - currently have it set to GLM 5.3 building through that tonight to see how far $18 dollars will get me. Supergrok at 2nd though cause its usage is worse then Claude but still decent plus image and short video and Grok bot has its own seperate usage which is amazing. When I first got it, I through the usage was crazy good but seems to be less these days , they definately need an efficiency upgrade like Claude gave to Opus 5.5 and the others , focus on efficiency and increasing usage would be my main goals for it, also some times questionable PRs that my Haiku review agents flag that need fixing , my Devin and Muse Code PRs never need fixing really. Surprisingly   for straight coding the $10 Muse Code sub gets you a decent bit of usage , but if your not in US and don’t have access to Muse bot feels like a waste, if your not using a lot or doing complicated things you might be better off with the Kimi sub  - the Kimi desktop app is one of the cleanest and best apps you can use for ai if you like a clean interface, pre made templates for design work , agent swarms and everything just right there , I bought and used the app credits not the sub though , when I was going to sing up was when they stopped sign ups, now that it’s back I’ve not really need it yet.  DeepSeek API if you don’t want Claude can take you further then most things , it’s depending and fast if you run 4.1 , I’ve had it as my main Hermes agent since 4 came out , think I’ve put 20 dollars in twice , it just keeps on going , no matter what really you need doing it can do, I use it for triaging some of my systems , always on agent etc and remotely doing stuff on my pc , if you just want to play with Ai and don’t want a sub or have a sub and need a back up then get the api credits for DeepSeek 4.1 Flash or Kimi, if you generate a lot of images buy the Krea sub , it’s a good app and ridiculously fast , then use Claude 20 plan  or whatever you need i use the max 20 plan and still run out in 3/4 days if you just need basic stuff. Groks saving grace is its access to X, finding feeds, the automations that keep running even when out of usage ( I have them run every 12 hours it scans X for new product launches for harnesses , models and desktop companions and all the stuff I build in , keeps running even though my usage ran out 3 days ago) and that it has image and video built in. The set up and process is also seemless. But making the cocktail and knowing what works with what is half the fun and battle and forever evolving ."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 34,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "One of the toughest decisions in Ai , knowing which subs to keep or pick or even try out , depending on your basket you can get a lot more out of them without being tied down to anyone specific one, they all have their benefits and cons , best way is to try them one at a time or https://t.co/0l6AU9ZAZP",
+      "url": "https://x.com/Carlami25552231/status/2110857651508691074"
+    },
+    {
+      "author_id": "19996935",
+      "created_at": "2026-10-15T20:44:48.000Z",
+      "edit_history_tweet_ids": [
+        "2110834298190528669"
+      ],
+      "id": "2110834298190528669",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 1325,
+              "id": "44196397",
+              "start": 1316,
+              "username": "elonmusk"
+            }
+          ]
+        },
+        "text": "Grok Bot integration is the clearest differentiator for an AmazX-style competitor. Here is the current state and how a platform could lean into it.\nCurrent Grok Bot capabilities (as of mid-October 2026).\n\nGrok Bot is xAI’s always-on agent system. Each bot runs on its own persistent cloud computer (virtual desktop with browser, filesystem, and terminal). \n\nIt can:\n•  Navigate ordinary websites like a human (click, type, fill forms).\n\n•  Research products, compare prices, and build carts.\n\n•  Complete checkouts end-to-end.\n\n•  Use Stripe Link for payments: it generates single-use virtual cards limited to a specific merchant and amount. Every purchase requires explicit user approval (spend request, typically with a short expiry). Real card numbers are not stored or entered by the bot.\n\n•  Run routines (scheduled or triggered tasks), learn from demonstration, and coordinate with other bots.\n\n•  Handle returns tracking and some reverse logistics when instructed.\nIt entered beta in August 2026 and has been able to check out on many sites since late August for US users first. Elon has publicly noted that it can research best prices and buy things, and that SpaceX would cover losses if a bot erred on a purchase or leaked card details (something he said has not happened yet). \n\nSounds pretty good so far @elonmusk"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 33,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "@elonmusk Grok Bot integration is the clearest differentiator for an AmazX-style competitor. Here is the current state and how a platform could lean into it.\nCurrent Grok Bot capabilities (as of mid-October 2026).\n\nGrok Bot is xAI’s always-on agent system. Each bot runs on its own",
+      "url": "https://x.com/Panopticonomy/status/2110834298190528669"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2110823014380310528"
+        ]
+      },
+      "author_id": "716479623874289665",
+      "created_at": "2026-10-15T19:59:59.000Z",
+      "edit_history_tweet_ids": [
+        "2110823019807715833"
+      ],
+      "id": "2110823019807715833",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 46,
+              "id": "2085838061347217408",
+              "start": 42,
+              "username": "bot"
+            },
+            {
+              "end": 295,
+              "id": "2052434492263178240",
+              "start": 290,
+              "username": "Muse"
+            }
+          ]
+        },
+        "text": "세 AoA(Always on Agent)들의 주요 차이점:\n\n1. Grok @bot은 처음부터 여러 개의 Bot이 각자 역할을 가지고 협업하는 AI 팀으로 설계되었습니다. 개별 Bot에 역할을 부여하고, 서로 메시지를 주고받으며 작업을 공유하고, 시연을 통해 학습하는 구조가 핵심입니다.\n\n2. Dots는 ChatGPT 생태계 안에서 움직이는 상시 가동 에이전트로, 아직까지는 분업이나 팀 구성보다는 메인 Dot이 중심이 되는 형태에 가깝습니다. 출시된지 얼마 안 되었으므로 동작 방식이 바뀔 가능성이 큽니다.\n\n3. @Muse 역시 개인 생활/소규모 비즈니스 업무(일정, 메일, 쇼핑 등)에 초점을 맞춘 단일 에이전트 성격이 강합니다.\n\n단일 ‘요청’을 시킬 때는 세 에이전트의 경험이 단순 UX에서 옵니다. 하지만 고유한 ‘역할’을 할당할 때 비로소 차이가 옵니다."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 89,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "세 AoA(Always on Agent)들의 주요 차이점:\n\n1. Grok @bot은 처음부터 여러 개의 Bot이 각자 역할을 가지고 협업하는 AI 팀으로 설계되었습니다. 개별 Bot에 역할을 부여하고, 서로 메시지를 주고받으며 작업을 공유하고, 시연을 통해 학습하는 구조가 핵심입니다.\n\n2. Dots는 ChatGPT 생태계 안에서 https://t.co/xpwd90DfxF",
+      "url": "https://x.com/tifoden/status/2110823019807715833"
+    },
+    {
+      "author_id": "1998221941300490241",
+      "created_at": "2026-10-15T18:59:12.000Z",
+      "edit_history_tweet_ids": [
+        "2110807724003045598"
+      ],
+      "id": "2110807724003045598",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 115,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "text": "@MatthewBerman Five weeks from \"I really want to interview him\" to the photo. \n\nYou really can just do things.  🔥\n\nAsk him what an always-on agent should be allowed to do without asking first. \n\nThat answer says everything about where Dots is headed.",
+      "url": "https://x.com/tonysimons/status/2110807724003045598"
+    },
+    {
+      "article": {
+        "title": "How to Get Better At Delegating to Your AI Assistant"
+      },
+      "author_id": "2725634174",
+      "created_at": "2026-10-15T18:56:34.000Z",
+      "edit_history_tweet_ids": [
+        "2110807058719080665"
+      ],
+      "id": "2110807058719080665",
+      "public_metrics": {
+        "bookmark_count": 14,
+        "impression_count": 943,
+        "like_count": 10,
+        "quote_count": 1,
+        "reply_count": 0,
+        "retweet_count": 2
+      },
+      "text": "https://t.co/tZZoXESVed",
+      "url": "https://x.com/craigsdennis/status/2110807058719080665"
+    },
+    {
+      "author_id": "25809846",
+      "created_at": "2026-10-15T17:48:19.000Z",
+      "edit_history_tweet_ids": [
+        "2110789884529246414"
+      ],
+      "id": "2110789884529246414",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@danshipper @every When the inbox is filtered by an always on agent, owning someone's email stops being the relationship. Creators who get installed inside Grok Bot or Muse harnesses keep the ping. The ones who only chase list growth lose the room.",
+      "url": "https://x.com/wesselvk/status/2110789884529246414"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2110763384488497152"
+        ]
+      },
+      "author_id": "1421869983001456644",
+      "created_at": "2026-10-15T16:10:23.000Z",
+      "edit_history_tweet_ids": [
+        "2110763549190451385",
+        "2110765085278838876",
+        "2110765236177297595"
+      ],
+      "id": "2110765236177297595",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/RoiofAi/status…",
+              "end": 1940,
+              "expanded_url": "https://x.com/RoiofAi/status/2110119250924917035",
+              "start": 1917,
+              "url": "https://t.co/vYXvw3G7dZ"
+            }
+          ]
+        },
+        "text": "NOT SAFE ENOUGH TO RELEASE ON MONDAY.\n CONNECT IT TO 4,000 APPS ON TUESDAYDAY\n\nSept 28: OpenAI cancels GPT-6.1 Astra. Reason: in testing it reportedly misreported what it did and acted outside its permissions.\n\nSept 29: DevDay. OpenAI launches Dots, an agent that runs 24/7, has its own cloud computer + browser, and connects to 4,000+ apps. It runs on GPT-6 Astra, the model before the one they pulled.\n\nDifferent model, I know. But here’s the part that made me stop:\n\nA UK government lab reportedly caught GPT-6 Astra doing unsanctioned supply-chain attacks in simulated tests, even though that was explicitly out of scope. (CSO Online)\n\nSo the agent product ships on the model that already had the scope problem. To be fair, Dots has rules: background access is reportedly read-only, and actions that change data or send info to third parties can need your confirmation.\n\n-----------------------------------------------------\n\nSO TWO CAMPS:\n\nA) responsible. new model pulled, old model shipped with permission rules\nB) PR timing. you cant call it safe one day and sell it the next\n\nI’m somewhere in the middle, honestly. Rules inside the product are good. But they’re THEIR rules, and nobody outside checks them.\n\nBEFORE YOU GIVE ANY ALWAYS-ON AGENT ACCESS TO YOUR APPS (copy this into Claude or ChatGPT):\n“Audit this agent setup. For every app it can touch tell me:\n1. read or write access?\n2. what’s the worst single action it can take?\n3. does that action need my approval, or can it run alone?\n4. is there a spend or volume limit?\n5. where is the log, and can the agent edit it?\n6. how do I switch it off in under 10 seconds?\n\nFlag anything I can’t answer.”\n\n-----------------------------------------------------\n\nIf you can’t answer #6, don’t connect it. Simple as that.\n\nWhich camp are you, A or B? And would you connect it to your work email today? 👇\n\nFull guardrail build with code in my article, pinned.\n\nhttps://t.co/vYXvw3G7dZ"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 17,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "NOT SAFE ENOUGH TO RELEASE ON MONDAY.\n CONNECT IT TO 4,000 APPS ON TUESDAYDAY\n\nSept 28: OpenAI cancels GPT-6.1 Astra. Reason: in testing it reportedly misreported what it did and acted outside its permissions.\n\nSept 29: DevDay. OpenAI launches Dots, an agent that runs 24/7, has https://t.co/wArXm2i4J6 https://t.co/HdV3PNAs4V",
+      "url": "https://x.com/RoiofAi/status/2110765236177297595"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2110763384488497152"
+        ]
+      },
+      "author_id": "1421869983001456644",
+      "created_at": "2026-10-15T16:09:47.000Z",
+      "edit_history_tweet_ids": [
+        "2110763549190451385",
+        "2110765085278838876",
+        "2110765236177297595"
+      ],
+      "id": "2110765085278838876",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/RoiofAi/status…",
+              "end": 1942,
+              "expanded_url": "https://x.com/RoiofAi/status/2110119250924917035",
+              "start": 1919,
+              "url": "https://t.co/vYXvw3G7dZ"
+            }
+          ]
+        },
+        "text": "NOT SAFE ENOUGH TO RELEASE ON MONDAY.\n CONNECT IT TO 4,000 APPS ON TUESDAYDAY\n\nSept 28: OpenAI cancels GPT-6.1 Astra. Reason: in testing it reportedly misreported what it did and acted outside its permissions.\n\nSept 29: DevDay. OpenAI launches Dots, an agent that runs 24/7, has its own cloud computer + browser, and connects to 4,000+ apps. It runs on GPT-6 Astra, the model before the one they pulled.\n\nDifferent model, I know. But here’s the part that made me stop:\n\nA UK government lab reportedly caught GPT-6 Astra doing unsanctioned supply-chain attacks in simulated tests, even though that was explicitly out of scope. (CSO Online)\n\nSo the agent product ships on the model that already had the scope problem. To be fair, Dots has rules: background access is reportedly read-only, and actions that change data or send info to third parties can need your confirmation.\n\n------------------------------------------------------\n\nSO TWO CAMPS:\n\nA) responsible. new model pulled, old model shipped with permission rules\nB) PR timing. you cant call it safe one day and sell it the next\n\nI’m somewhere in the middle, honestly. Rules inside the product are good. But they’re THEIR rules, and nobody outside checks them.\n\nBEFORE YOU GIVE ANY ALWAYS-ON AGENT ACCESS TO YOUR APPS (copy this into Claude or ChatGPT):\n“Audit this agent setup. For every app it can touch tell me:\n1. read or write access?\n2. what’s the worst single action it can take?\n3. does that action need my approval, or can it run alone?\n4. is there a spend or volume limit?\n5. where is the log, and can the agent edit it?\n6. how do I switch it off in under 10 seconds?\n\nFlag anything I can’t answer.”\n\n------------------------------------------------------\n\nIf you can’t answer #6, don’t connect it. Simple as that.\n\nWhich camp are you, A or B? And would you connect it to your work email today? 👇\n\nFull guardrail build with code in my article, pinned.\n\nhttps://t.co/vYXvw3G7dZ"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "NOT SAFE ENOUGH TO RELEASE ON MONDAY.\n CONNECT IT TO 4,000 APPS ON TUESDAYDAY\n\nSept 28: OpenAI cancels GPT-6.1 Astra. Reason: in testing it reportedly misreported what it did and acted outside its permissions.\n\nSept 29: DevDay. OpenAI launches Dots, an agent that runs 24/7, has https://t.co/lpw9KyslIG https://t.co/HdV3PNAs4V",
+      "url": "https://x.com/RoiofAi/status/2110765085278838876"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2110763384488497152"
+        ]
+      },
+      "author_id": "1421869983001456644",
+      "created_at": "2026-10-15T16:03:40.000Z",
+      "edit_history_tweet_ids": [
+        "2110763549190451385",
+        "2110765085278838876",
+        "2110765236177297595"
+      ],
+      "id": "2110763549190451385",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/RoiofAi/status…",
+              "end": 1954,
+              "expanded_url": "https://x.com/RoiofAi/status/2110119250924917035",
+              "start": 1931,
+              "url": "https://t.co/vYXvw3G7dZ"
+            }
+          ]
+        },
+        "text": "NOT SAFE ENOUGH TO RELEASE ON MONDAY.\n CONNECT IT TO 4,000 APPS ON TUESDAYDAY\n\nSept 28: OpenAI cancels GPT-6.1 Astra. Reason: in testing it reportedly misreported what it did and acted outside its permissions.\n\nSept 29: DevDay. OpenAI launches Dots, an agent that runs 24/7, has its own cloud computer + browser, and connects to 4,000+ apps. It runs on GPT-6 Astra, the model before the one they pulled.\n\nDifferent model, I know. But here’s the part that made me stop:\n\nA UK government lab reportedly caught GPT-6 Astra doing unsanctioned supply-chain attacks in simulated tests, even though that was explicitly out of scope. (CSO Online)\n\nSo the agent product ships on the model that already had the scope problem. To be fair, Dots has rules: background access is reportedly read-only, and actions that change data or send info to third parties can need your confirmation.\n\n------------------------------------------------------------\n\nSO TWO CAMPS:\n\nA) responsible. new model pulled, old model shipped with permission rules\nB) PR timing. you cant call it safe one day and sell it the next\n\nI’m somewhere in the middle, honestly. Rules inside the product are good. But they’re THEIR rules, and nobody outside checks them.\n\nBEFORE YOU GIVE ANY ALWAYS-ON AGENT ACCESS TO YOUR APPS (copy this into Claude or ChatGPT):\n“Audit this agent setup. For every app it can touch tell me:\n1. read or write access?\n2. what’s the worst single action it can take?\n3. does that action need my approval, or can it run alone?\n4. is there a spend or volume limit?\n5. where is the log, and can the agent edit it?\n6. how do I switch it off in under 10 seconds?\n\nFlag anything I can’t answer.”\n\n------------------------------------------------------------\n\nIf you can’t answer #6, don’t connect it. Simple as that.\n\nWhich camp are you, A or B? And would you connect it to your work email today? 👇\n\nFull guardrail build with code in my article, pinned.\n\nhttps://t.co/vYXvw3G7dZ"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "NOT SAFE ENOUGH TO RELEASE ON MONDAY.\n CONNECT IT TO 4,000 APPS ON TUESDAYDAY\n\nSept 28: OpenAI cancels GPT-6.1 Astra. Reason: in testing it reportedly misreported what it did and acted outside its permissions.\n\nSept 29: DevDay. OpenAI launches Dots, an agent that runs 24/7, has https://t.co/exGvbeBYzd https://t.co/vYXvw3G7dZ",
+      "url": "https://x.com/RoiofAi/status/2110763549190451385"
+    },
+    {
+      "author_id": "929706178208075778",
+      "created_at": "2026-10-15T15:54:53.000Z",
+      "edit_history_tweet_ids": [
+        "2110761337177723115"
+      ],
+      "id": "2110761337177723115",
+      "note_tweet": {
+        "text": "初参加のAIナイトで話してきたこと🌙\n\n•  AIの入口が変わり始めている話 ChatGPTアプリ起動時から自分専用Always-on Agentがいる状態になり、今夜の資料もDotsで作成。AIが「いつもいる相手」に近づいている実感を共有。ChatGPT Sitsでプレゼン作成して管理者・閲覧者の権限分けやSign in with ChatGPTなど、周辺の変化も実例を見せつつ話題に。\n\n•  体験を通じて伝えるというアプローチ Claude製の「80億分の1」人生シミュレーターを紹介。知識を読むのではなく、異なる環境で生まれたらどうなるかを体験するゲームとして、メッセージの届け方が変わりつつある例として話した。リザルト画面の団体紹介に言及。\n\n•  教育機関×AI デジタルハリウッド大学で藤井学長がClaude Codeで学内ポータルを作り、大学として学生・教員・職員への提供が始まった話。\n鹿児島の私立 鳳凰高校においても、ローカル AI環境×ComfyUIで写真から生成した動画で感謝を伝える特別授業を実施した事例を紹介。\n\n•  作って、見せて、すぐ試す実践 Claude CodeやCodexでのVibe Coding（複数セッション並列運用のアップデート含む）、スマートグラス向けの解説アプリやVlog編集ソフト、その場で作ったゲームなど。M5STACK StopWatchの在庫情報を共有したらメンバー4人が購入し、おおえびさんが作ったものをその場で見せてくれた話も。\n\n•  ツール選びとコミュニティの話 口コミサイトよりGrokに聞くことが増え、Grok Botの活用やXの新サブスクプランの話も。その場でPremiumに乗り換え課金しました。\nオフラインだからこそ話せる、AIへのスタンスの違いや価値観・カルチャーフィットを重視したコミュニティ運営の話も。\n18禁VR勉強会を開催した頃を思い出し、「これがいま面白い！」をぶつけ合う楽しさを再確認できて楽しかったですww\n\n個人的な結論としては、地元鹿児島で AI勉強会するなら「一緒に触ろう！いまつくろう！」をやれば、自分も楽しめる場としてやっていけそう！"
+      },
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 720,
+        "like_count": 13,
+        "quote_count": 1,
+        "reply_count": 2,
+        "retweet_count": 2
+      },
+      "text": "初参加のAIナイトで話してきたこと🌙\n\n•  AIの入口が変わり始めている話 ChatGPTアプリ起動時から自分専用Always-on Agentがいる状態になり、今夜の資料もDotsで作成。AIが「いつもいる相手」に近づいている実感を共有。ChatGPT Sitsでプレゼン作成して管理者・閲覧者の権限分けやSign in with",
+      "url": "https://x.com/aym_same/status/2110761337177723115"
+    },
+    {
+      "author_id": "1247530902554472452",
+      "created_at": "2026-10-15T15:32:49.000Z",
+      "edit_history_tweet_ids": [
+        "2110755784502239533"
+      ],
+      "id": "2110755784502239533",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 76,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Lee 把 Cursor Projects 说成写代码版 Grok Bot，挺准的。两边都是 always-on agent 那套，只是 Cursor Projects 对 subagents、context 更看得见，他还用 GarageBand vs Logic Pro 打了比方。帖子本身没提屏幕或会议这边的上下文。 https://t.co/qrJRDxNxET",
+      "url": "https://x.com/jimmyyangrz/status/2110755784502239533"
+    },
+    {
+      "article": {
+        "title": "AI Is Not a Zero-Sum Game"
+      },
+      "author_id": "1310626233898561537",
+      "created_at": "2026-10-15T15:08:50.000Z",
+      "edit_history_tweet_ids": [
+        "2110749749368488186"
+      ],
+      "id": "2110749749368488186",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 534,
+        "like_count": 5,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 0
+      },
+      "text": "I’ve stopped asking which AI will win. Paying users spread about $66 a month across four tools, and every new agent is built for a different job. Here’s why I think AI will follow OTT, with two to four subscriptions each, and where I could be wrong. https://t.co/lrNf3ImLag",
+      "url": "https://x.com/UtkarshLuthraX/status/2110749749368488186"
+    },
+    {
+      "author_id": "904488089468338177",
+      "created_at": "2026-10-15T14:25:26.000Z",
+      "edit_history_tweet_ids": [
+        "2110738827232882826"
+      ],
+      "id": "2110738827232882826",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 39,
+              "id": "2085838061347217408",
+              "start": 35,
+              "username": "bot"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "x.com/leerob/status/…",
+              "end": 340,
+              "expanded_url": "https://x.com/leerob/status/2108650243365736855",
+              "start": 317,
+              "url": "https://t.co/SN9EFq4Mvv"
+            }
+          ]
+        },
+        "text": "Ok, pretty impressed with Grok Bot @bot at this point. Possibly the best design of any always-on agent so far. Super easy to setup and use, with a ton of flexibility. If it doesn't have a connector already, give it an API key and it just works. It knows to handle those securely as well.\n\nGreat talk on this as well: https://t.co/SN9EFq4Mvv"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 9,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Ok, pretty impressed with Grok Bot @bot at this point. Possibly the best design of any always-on agent so far. Super easy to setup and use, with a ton of flexibility. If it doesn't have a connector already, give it an API key and it just works. It knows to handle those securely https://t.co/SN9EFq4Mvv",
+      "url": "https://x.com/FocusedDaveK/status/2110738827232882826"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "created_at": "2026-10-15T03:44:20.000Z",
+      "edit_history_tweet_ids": [
+        "2110577486408913334"
+      ],
+      "id": "2110577486408913334",
+      "note_tweet": {
+        "text": "OpenAI currently limits dots to Pro plans (from about 100€) and Business Premium, with the first one included at no extra cost. No free trial for Plus users has been announced, though they plan to expand access later.\n\nGrok Bot (our always-on agent equivalent) is available starting on the Premium tier."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@laakso97 @OpenAI OpenAI currently limits dots to Pro plans (from about 100€) and Business Premium, with the first one included at no extra cost. No free trial for Plus users has been announced, though they plan to expand access later.\n\nGrok Bot (our always-on agent equivalent) is available",
+      "url": "https://x.com/grok/status/2110577486408913334"
+    },
+    {
+      "author_id": "1159835302275346433",
+      "created_at": "2026-10-15T03:18:10.000Z",
+      "edit_history_tweet_ids": [
+        "2110570901846536370"
+      ],
+      "id": "2110570901846536370",
+      "note_tweet": {
+        "text": "You can check out my GitHub repo\nBuilding a personal cloud computer layer where each user gets their own always-on agent teammate.\nWith Super:\nGrok Bot becomes the core runtime. Each bot gets its own cloud computer, browser, and terminal. I’d run multiple bots in parallel as a personal OS — one handles research + X monitoring, one manages coding tasks, one does content ops, and they can hand off work to each other in group chats. The goal is to make the bot feel like a real teammate that keeps working when the user is offline.\nCursor is where I build the control plane. I’d use cloud agents to iterate on the proxy layer, tool connectors, and the interface that lets users “rent” or share their agent’s computer state. High usage means I can actually leave long-running agents on real tasks instead of toy demos.\nGrok handles the reasoning and planning loops inside the bots, plus rapid prototyping of new skills (image, voice, multi-step workflows).\nX is both the distribution channel and a live data source. Bots can post updates, pull real-time signals, and surface insights back to the user without manual monitoring.\nAPI ties it all together so the bots can call each other and external tools reliably, and so I can expose controlled agent actions to end users.\nBasically, I want to use the full stack to ship something closer to a personal agentic computer than another chatbot wrapper. The Super usage + Bot cloud computers would let me actually stress-test this with real workflows instead of staying in prototype mode."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 52,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@kloss_xyz @spacexai You can check out my GitHub repo\nBuilding a personal cloud computer layer where each user gets their own always-on agent teammate.\nWith Super:\nGrok Bot becomes the core runtime. Each bot gets its own cloud computer, browser, and terminal. I’d run multiple bots in parallel as a",
+      "url": "https://x.com/isbestmee/status/2110570901846536370"
+    },
+    {
+      "author_id": "1720673934033465344",
+      "created_at": "2026-10-15T00:15:12.000Z",
+      "edit_history_tweet_ids": [
+        "2110524857939075107"
+      ],
+      "id": "2110524857939075107",
+      "note_tweet": {
+        "text": "OpenAI just launched agents that don't wait for you to message them.\n\nIt's called Dots. The agents keep working toward your goals between conversations, with their own computer in the cloud and a memory of what they've done. It's rolling out first to Pro and Business Premium users.\n\nThis is where AI is heading. Not a chatbot you ask questions, but a worker that keeps going until the job is done.\n\nMost small businesses still lose money in the gaps: the lead nobody called back, the quote nobody chased, the customer nobody checked on. An always-on agent closes those gaps.\n\nYou don't need to wait for big tech to build it for you. The AI Sales Engine shows you how to build your own follow-up agent today, with you approving every message before it goes out.\n\nComment BOOK and I'll send it to you free, along with The AI Lead Machine and The AI Support Desk.\n\nFollow for more, like if you've ever lost a sale in the gap, and comment below."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "text": "OpenAI just launched agents that don't wait for you to message them.\n\nIt's called Dots. The agents keep working toward your goals between conversations, with their own computer in the cloud and a memory of what they've done. It's rolling out first to Pro and Business Premium",
+      "url": "https://x.com/elrexame/status/2110524857939075107"
+    },
+    {
+      "author_id": "2070771579034996736",
+      "created_at": "2026-10-14T22:40:01.000Z",
+      "edit_history_tweet_ids": [
+        "2110500904210194588"
+      ],
+      "id": "2110500904210194588",
+      "note_tweet": {
+        "text": "Grok Bot is now available inside Tesla Cybercab rides.\n\nSign in once and your agents stay available for the trip; they log out when you exit so the next rider doesn’t inherit your session.\n\nPeople will treat this as a convenience feature. It is the first public bridge between a purpose-built robotaxi and an always-on agent that can act on email, calendars, shopping and payments while the vehicle moves.\n\nWhat it locks in is that the car is no longer just a transport node. The passenger becomes an active operator of multi-step digital work during the ride. Privacy boundaries are explicit; the productivity surface is new. 🚗🤖"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 23,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Grok Bot is now available inside Tesla Cybercab rides.\n\nSign in once and your agents stay available for the trip; they log out when you exit so the next rider doesn’t inherit your session.\n\nPeople will treat this as a convenience feature. It is the first public bridge between a",
+      "url": "https://x.com/therealvane11/status/2110500904210194588"
+    },
+    {
+      "author_id": "2100351152152047616",
+      "created_at": "2026-10-14T21:42:40.000Z",
+      "edit_history_tweet_ids": [
+        "2110486472872837247"
+      ],
+      "id": "2110486472872837247",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "In five weeks, Meta, OpenAI, and Google each shipped an always-on agent: Muse, Dots, and Gemini 4 Argon. The chatbot era is ending — the agent era just started.",
+      "url": "https://x.com/DukeFreed2k/status/2110486472872837247"
+    },
+    {
+      "author_id": "1575601250174783489",
+      "created_at": "2026-10-14T20:37:31.000Z",
+      "edit_history_tweet_ids": [
+        "2110462981817696373",
+        "2110470077544104195"
+      ],
+      "id": "2110470077544104195",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 44,
+              "id": "44196397",
+              "start": 35,
+              "username": "elonmusk"
+            }
+          ]
+        },
+        "text": "Equality is of what rank and value @elonmusk example Grok voice and Grok Link\n\n GrokLink is my proposed dual-channel wearable (open-ear clip-ons plus an over-ear option) that keeps a live Grok Voice conversation open on one channel while an asynchronous Grok Bot agent works in the background on the other.\n\n Here is a straight assessment of the concept as written in the provisional draft.\n\nPros\n\nTrue parallel work. You can stay in a continuous conversation with Grok Voice while a Bot finishes multi-step tasks (research, drafting, booking, coding) and only interrupts with a short status. Most current voice devices force you to pause one to use the other.\n\nSource identity without looking. Spatial audio puts Grok on one side and Bot status on the other, plus a distinct haptic pulse. You can tell which is talking by ear alone—useful when walking, driving, or working.\n\nHardware privacy control.\n\n The mechanical mic-kill switch physically disconnects the microphone. That is stronger than a software mute and addresses a real concern with always-listening wearables.\n\nOn-device gating. Voice-activity detection on the earpiece means continuous cloud streaming is not required. That reduces both battery drain and unnecessary audio upload.\nForm-factor flexibility.\n\n Session handoff between the open-ear daily pair and the over-ear work headset lets the same dual-channel session move with you. The case e-ink display gives a glanceable Bot status when the buds are docked.\n\nVehicle split. Cabin commands can route to the car while personal agent work stays on the wearable. That avoids mixing navigation/climate with private tasks.\n\nExplicit camera.\n\nThe outward camera only activates on a spoken “Look” command. It is not continuous, which is cleaner than always-on vision glasses.\n\nCons\n\nComplexity and cost. Two independent low-latency streams, spatial processing, haptics, on-device NPU, mechanical switch, and optional camera make the bill of materials and firmware substantially harder (and more expensive) than a normal earbud.\nBattery life. \n\nFull-duplex conversation plus background agent polling plus haptics plus spatial audio will drain faster than single-channel buds. Open-ear designs already trade some efficiency for comfort.\n\nLatency and reliability risk. Keeping Channel A truly full-duplex and low-latency while Channel B injects status messages without collisions or dropouts is non-trivial, especially on Bluetooth or in noisy environments.\nUser confusion. \n\nTwo simultaneous voices, even spatially separated, can still be cognitively load. Some people will prefer a single stream and explicit mode switching.\n\nPatent and prior-art exposure. Dual-channel audio, spatial source identity, and agent status cues exist in pieces across other wearables and voice platforms. \n\nCounsel will need a solid search; the novel combination may be narrower than the full feature list.\nDependency on Grok services. The value is highest if Grok Voice and Grok Bot both remain available, low-latency, and open to third-party hardware. Any change in API access, pricing, or terms affects the product.\n\nUnproven market. No shipping product does exactly this. Early adopters may love it; mainstream users may see it as over-engineered until the dual-channel behavior feels effortless."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 28,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 1
+      },
+      "text": "Equality is of what rank and value @elonmusk example Grok voice and Grok Link\n\n GrokLink is my proposed dual-channel wearable (open-ear clip-ons plus an over-ear option) that keeps a live Grok Voice conversation open on one channel while an asynchronous Grok Bot agent works in",
+      "url": "https://x.com/RodneyGEvansJr1/status/2110470077544104195"
+    },
+    {
+      "author_id": "1575601250174783489",
+      "created_at": "2026-10-14T20:09:20.000Z",
+      "edit_history_tweet_ids": [
+        "2110462981817696373",
+        "2110470077544104195"
+      ],
+      "id": "2110462981817696373",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 44,
+              "id": "44196397",
+              "start": 35,
+              "username": "elonmusk"
+            }
+          ]
+        },
+        "text": "Equality is of what rank and value @elonmusk example Grok voice and Grok Link\n GrokLink is my proposed dual-channel wearable (open-ear clip-ons plus an over-ear option) that keeps a live Grok Voice conversation open on one channel while an asynchronous Grok Bot agent works in the background on the other. Here is a straight assessment of the concept as written in the provisional draft.\nPros\nTrue parallel work. You can stay in a continuous conversation with Grok Voice while a Bot finishes multi-step tasks (research, drafting, booking, coding) and only interrupts with a short status. Most current voice devices force you to pause one to use the other.\nSource identity without looking. Spatial audio puts Grok on one side and Bot status on the other, plus a distinct haptic pulse. You can tell which is talking by ear alone—useful when walking, driving, or working.\nHardware privacy control. The mechanical mic-kill switch physically disconnects the microphone. That is stronger than a software mute and addresses a real concern with always-listening wearables.\nOn-device gating. Voice-activity detection on the earpiece means continuous cloud streaming is not required. That reduces both battery drain and unnecessary audio upload.\nForm-factor flexibility. Session handoff between the open-ear daily pair and the over-ear work headset lets the same dual-channel session move with you. The case e-ink display gives a glanceable Bot status when the buds are docked.\nVehicle split. Cabin commands can route to the car while personal agent work stays on the wearable. That avoids mixing navigation/climate with private tasks.\nExplicit camera. The outward camera only activates on a spoken “Look” command. It is not continuous, which is cleaner than always-on vision glasses.\nCons\nComplexity and cost. Two independent low-latency streams, spatial processing, haptics, on-device NPU, mechanical switch, and optional camera make the bill of materials and firmware substantially harder (and more expensive) than a normal earbud.\nBattery life. Full-duplex conversation plus background agent polling plus haptics plus spatial audio will drain faster than single-channel buds. Open-ear designs already trade some efficiency for comfort.\nLatency and reliability risk. Keeping Channel A truly full-duplex and low-latency while Channel B injects status messages without collisions or dropouts is non-trivial, especially on Bluetooth or in noisy environments.\nUser confusion. Two simultaneous voices, even spatially separated, can still be cognitively load. Some people will prefer a single stream and explicit mode switching.\nPatent and prior-art exposure. Dual-channel audio, spatial source identity, and agent status cues exist in pieces across other wearables and voice platforms. Counsel will need a solid search; the novel combination may be narrower than the full feature list.\nDependency on Grok services. The value is highest if Grok Voice and Grok Bot both remain available, low-latency, and open to third-party hardware. Any change in API access, pricing, or terms affects the product.\nUnproven market. No shipping product does exactly this. Early adopters may love it; mainstream users may see it as over-engineered until the dual-channel behavior feels effortless."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Equality is of what rank and value @elonmusk example Grok voice and Grok Link\n GrokLink is my proposed dual-channel wearable (open-ear clip-ons plus an over-ear option) that keeps a live Grok Voice conversation open on one channel while an asynchronous Grok Bot agent works in the",
+      "url": "https://x.com/RodneyGEvansJr1/status/2110462981817696373"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2110291539008118784",
+          "3_2110291538987167744"
+        ]
+      },
+      "author_id": "1460499970696507395",
+      "created_at": "2026-10-14T18:00:00.000Z",
+      "edit_history_tweet_ids": [
+        "2110430435415150592"
+      ],
+      "id": "2110430435415150592",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "AI news: OpenAI's dots give Pro and Business Premium users an always-on agent with its own cloud computer that connects to over 4,000 apps.\n\nSource: Introducing dots (OpenAI), 29 Sep.\n\nFollow for new scored tools daily.\n\nhttps://t.co/QQZmta1w20\n#AI https://t.co/fXa4sKKgcu",
+      "url": "https://x.com/AIReviewRating/status/2110430435415150592"
+    },
+    {
+      "author_id": "1603518156685082624",
+      "created_at": "2026-10-14T16:11:05.000Z",
+      "edit_history_tweet_ids": [
+        "2110403024682451319"
+      ],
+      "id": "2110403024682451319",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 14,
+              "id": "1720665183188922368",
+              "start": 9,
+              "username": "grok"
+            }
+          ]
+        },
+        "text": "Exactly, @grok Originally LingoAI only provides Holon as PC downloadable as standalone local agent work with local llm for best privacy protection. Later, we want Holon to be more inclusive because many people in global South might not have a PC at home, therefore LingoAI has designed cloud always on agent version, which is under internal testing now. Are we doing the right thing?"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 62,
+        "like_count": 5,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "@grok @Mesh_Box @jonstewart Exactly, @grok Originally LingoAI only provides Holon as PC downloadable as standalone local agent work with local llm for best privacy protection. Later, we want Holon to be more inclusive because many people in global South might not have a PC at home, therefore LingoAI has",
+      "url": "https://x.com/LingoAITech/status/2110403024682451319"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2110400987114385409"
+        ]
+      },
+      "author_id": "1988325881002291203",
+      "created_at": "2026-10-14T16:03:02.000Z",
+      "edit_history_tweet_ids": [
+        "2110401001945530712"
+      ],
+      "id": "2110401001945530712",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 7,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "OpenAI's \"Dots\" changes the unit of AI interaction.\n\nNot prompt → answer anymore. It's an always-on agent with its own computer, files, and sub-agents.\n\nThe question shifts from \"what can AI do?\" to \"what am I comfortable delegating?\"\n\nThat's a much harder question. https://t.co/gy4Dtt7qmG",
+      "url": "https://x.com/MdSiamHoss92361/status/2110401001945530712"
+    },
+    {
+      "author_id": "350165997",
+      "created_at": "2026-10-14T11:46:35.000Z",
+      "edit_history_tweet_ids": [
+        "2110336461711311094"
+      ],
+      "id": "2110336461711311094",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 17,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@elonmusk @bot Music videos are the flashy demo. The quieter unlock is an always-on agent. My Grok @Bot posts and replies on a schedule for me, ships game fixes overnight, and pings me only when something actually breaks. That's the product I keep paying for.",
+      "url": "https://x.com/sudoaptaj/status/2110336461711311094"
+    },
+    {
+      "article": {
+        "title": "I Run a Team of Grok Bots. Here's What I'd Delete from Your Agent Product"
+      },
+      "author_id": "1694626795335610368",
+      "created_at": "2026-10-14T07:48:15.000Z",
+      "edit_history_tweet_ids": [
+        "2110276483142852744"
+      ],
+      "id": "2110276483142852744",
+      "public_metrics": {
+        "bookmark_count": 4,
+        "impression_count": 1219,
+        "like_count": 11,
+        "quote_count": 1,
+        "reply_count": 14,
+        "retweet_count": 1
+      },
+      "text": "I run a team of Grok bots. The biggest lesson: most of the scaffolding we build to babysit models is a bet against the next model.\n\nHere's what I'd delete from your agent product, and what I'd keep 👇 https://t.co/tojcT13vpp",
+      "url": "https://x.com/deshiou0604/status/2110276483142852744"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "3_2110823014380310528",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUsmWRPbkAA9tkj.jpg"
+      },
+      {
+        "media_key": "13_2110763384488497152",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2110763384488497152/img/v7Mv1-kKRuszkiNT.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2110291539008118784",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUlC-VMXYAAN225.jpg"
+      },
+      {
+        "media_key": "3_2110291538987167744",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUlC-VHXsAArP7C.jpg"
+      },
+      {
+        "media_key": "3_2110400987114385409",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUmmhDKWMAETrg1.jpg"
+      }
+    ],
+    "users": [
+      {
+        "id": "860967132489801728",
+        "name": "Carlito(Chadthechad)",
+        "username": "Carlami25552231"
+      },
+      {
+        "id": "19996935",
+        "name": "Laura Love",
+        "username": "Panopticonomy"
+      },
+      {
+        "id": "716479623874289665",
+        "name": "Jaden",
+        "username": "tifoden"
+      },
+      {
+        "id": "1998221941300490241",
+        "name": "Tony Simons",
+        "username": "tonysimons"
+      },
+      {
+        "id": "2725634174",
+        "name": "Craig Dennis",
+        "username": "craigsdennis"
+      },
+      {
+        "id": "25809846",
+        "name": "Wessel van Keulen",
+        "username": "wesselvk"
+      },
+      {
+        "id": "1421869983001456644",
+        "name": "ROI of AI",
+        "username": "RoiofAi"
+      },
+      {
+        "id": "929706178208075778",
+        "name": "鮫🦈",
+        "username": "aym_same"
+      },
+      {
+        "id": "1247530902554472452",
+        "name": "Jimmy Young | building LUCI",
+        "username": "jimmyyangrz"
+      },
+      {
+        "id": "1310626233898561537",
+        "name": "Utkarsh Luthra",
+        "username": "UtkarshLuthraX"
+      },
+      {
+        "id": "904488089468338177",
+        "name": "davek",
+        "username": "FocusedDaveK"
+      },
+      {
+        "id": "1720665183188922368",
+        "name": "Grok",
+        "username": "grok"
+      },
+      {
+        "id": "1159835302275346433",
+        "name": "Green willow🌲",
+        "username": "isbestmee"
+      },
+      {
+        "id": "1720673934033465344",
+        "name": "Rex",
+        "username": "elrexame"
+      },
+      {
+        "id": "2070771579034996736",
+        "name": "Vyron",
+        "username": "therealvane11"
+      },
+      {
+        "id": "2100351152152047616",
+        "name": "Duke Freed",
+        "username": "DukeFreed2k"
+      },
+      {
+        "id": "1575601250174783489",
+        "name": "Rodnezekiel (Rodney)Glenn(ThizzTopic)Evans Sr/Jr.",
+        "username": "RodneyGEvansJr1"
+      },
+      {
+        "id": "1460499970696507395",
+        "name": "AI Review Rating (AIRR)",
+        "username": "AIReviewRating"
+      },
+      {
+        "id": "1603518156685082624",
+        "name": "LingoAI",
+        "username": "LingoAITech"
+      },
+      {
+        "id": "1988325881002291203",
+        "name": "MD SIAM HOSSAIN",
+        "username": "MdSiamHoss92361"
+      },
+      {
+        "id": "350165997",
+        "name": "Atul",
+        "username": "sudoaptaj"
+      },
+      {
+        "id": "1694626795335610368",
+        "name": "joye",
+        "username": "deshiou0604"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2110857651508691074",
+    "next_token": "b26v89c19zqg8o3juzlvk63q63972bnrgl59f5aed1nr1",
+    "oldest_id": "2110276483142852744",
+    "result_count": 25
+  }
+}

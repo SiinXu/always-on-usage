@@ -38,5 +38,705 @@
     "id": "medium:nighticonsulting.medium.com/meta-launches-muse-wonder-ai-models-to-rival-openai-a72805e2f63f",
     "url": "https://nighticonsulting.medium.com/meta-launches-muse-wonder-ai-models-to-rival-openai-a72805e2f63f",
     "reason": "launch news, not usage"
+  },
+  {
+    "id": "yt:0UPvLfZ6X3Q",
+    "url": "https://www.youtube.com/watch?v=0UPvLfZ6X3Q",
+    "reason": "SEO tool promo / affiliate tutorial, not organic usage case"
+  },
+  {
+    "id": "yt:EAKbhcMLrlM",
+    "url": "https://www.youtube.com/watch?v=EAKbhcMLrlM",
+    "reason": "Muse Wonder upgrade promo with Skool funnel, not usage case"
+  },
+  {
+    "id": "x:2110857651508691074",
+    "url": "https://x.com/Carlami25552231/status/2110857651508691074",
+    "reason": "subscription shopping ramble, not a product usage case"
+  },
+  {
+    "id": "x:2110789884529246414",
+    "url": "https://x.com/wesselvk/status/2110789884529246414",
+    "reason": "abstract commentary on inbox agents, not a concrete case"
+  },
+  {
+    "id": "x:2110856173133910327",
+    "url": "https://x.com/BenENewton/status/2110856173133910327",
+    "reason": "soft preference shift Claude→Grok Bot, thin non-case"
+  },
+  {
+    "id": "x:2110851786743632081",
+    "url": "https://x.com/Stina_Lotus/status/2110851786743632081",
+    "reason": "thank-you song reply, not a usage case"
+  },
+  {
+    "id": "x:2110851578907275775",
+    "url": "https://x.com/RyanLoechner/status/2110851578907275775",
+    "reason": "self-promo of Grok Bot email directory product"
+  },
+  {
+    "id": "x:2110577735269790077",
+    "url": "https://x.com/IlTavoloBambini/status/2110577735269790077",
+    "reason": "could not find a Muse use case — not publishable usage"
+  },
+  {
+    "id": "x:2110856424704422235",
+    "url": "https://x.com/botpagesco/status/2110856424704422235",
+    "reason": "secondhand story about someone else building inbox UI"
+  },
+  {
+    "id": "x:2110848374547300686",
+    "url": "https://x.com/AIMoneyTutor/status/2110848374547300686",
+    "reason": "speculative question about X becoming everything app"
+  },
+  {
+    "id": "x:2110841750772445635",
+    "url": "https://x.com/Hislordship_9/status/2110841750772445635",
+    "reason": "duplicate of job-search post x:2110842762769928676"
+  },
+  {
+    "id": "x:2110851557356982557",
+    "url": "https://x.com/4SimonSays/status/2110851557356982557",
+    "reason": "UI complaint about Spaces, not a usage case"
+  },
+  {
+    "id": "x:2110848158263599397",
+    "url": "https://x.com/_simonsmith/status/2110848158263599397",
+    "reason": "feature wish for Dot email address, not usage"
+  },
+  {
+    "id": "x:2110832615666380924",
+    "url": "https://x.com/chavank/status/2110832615666380924",
+    "reason": "feature wishlist for Dot phone/number, not usage"
+  },
+  {
+    "id": "x:2110814791048495281",
+    "url": "https://x.com/zentrues/status/2110814791048495281",
+    "reason": "promo link to setup guide article, not first-person field case"
+  },
+  {
+    "id": "x:2110540515846320397",
+    "url": "https://x.com/EdwinGama587385/status/2110540515846320397",
+    "reason": "hype announcement without concrete build/result"
+  },
+  {
+    "id": "x:2110441993914487135",
+    "url": "https://x.com/noisyb0y1/status/2110441993914487135",
+    "reason": "promo/hype marketing agent claims, not verifiable field usage"
+  },
+  {
+    "id": "x:2110214203105747382",
+    "url": "https://x.com/Tayyab7367/status/2110214203105747382",
+    "reason": "political surveillance rant, not product usage"
+  },
+  {
+    "id": "gh:github.com/guedesdiogo/kelpie/issues/364",
+    "url": "https://github.com/guedesdiogo/kelpie/issues/364",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/openai/codex/issues/54431",
+    "url": "https://github.com/openai/codex/issues/54431",
+    "reason": "OpenAI status page component label, not ChatGPT Dots usage"
+  },
+  {
+    "id": "gh:github.com/openai/codex/issues/53739",
+    "url": "https://github.com/openai/codex/issues/53739",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/apchen1978/pauls-tradecraft/pull/280",
+    "url": "https://github.com/apchen1978/pauls-tradecraft/pull/280",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/openai/codex/issues/54348",
+    "url": "https://github.com/openai/codex/issues/54348",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/theexperiencecompany/gaia/pull/1402",
+    "url": "https://github.com/theexperiencecompany/gaia/pull/1402",
+    "reason": "marketing/copy PR mentioning Dots, not usage"
+  },
+  {
+    "id": "gh:github.com/lufthansi-dk/datamatrix-website/pull/5",
+    "url": "https://github.com/LuftHansi-DK/datamatrix-website/pull/5",
+    "reason": "unrelated site look rotation PR; false-positive Dots match"
+  },
+  {
+    "id": "gh:github.com/openai/codex/issues/54306",
+    "url": "https://github.com/openai/codex/issues/54306",
+    "reason": "product bug/status report, not a usage case/guide for the gallery"
+  },
+  {
+    "id": "gh:github.com/takuto-nohara/portfolio/pull/15",
+    "url": "https://github.com/takuto-nohara/portfolio/pull/15",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/connorwforsyth/openchat/pull/133",
+    "url": "https://github.com/connorwforsyth/openchat/pull/133",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/roomedia/ax-trend/issues/3262",
+    "url": "https://github.com/roomedia/ax-trend/issues/3262",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/dpawlan/ai-assistant-benchmark/pull/501",
+    "url": "https://github.com/dpawlan/ai-assistant-benchmark/pull/501",
+    "reason": "internal vault scan PR, not public product usage case"
+  },
+  {
+    "id": "gh:github.com/emanuele-web04/synara/pull/1921",
+    "url": "https://github.com/Emanuele-web04/synara/pull/1921",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/brentavila/maaxgen-site/pull/4",
+    "url": "https://github.com/brentavila/maaxgen-site/pull/4",
+    "reason": "marketing/copy PR mentioning Dots, not usage"
+  },
+  {
+    "id": "gh:github.com/ghbmrk/agentos/issues/1432",
+    "url": "https://github.com/ghbmrk/agentOS/issues/1432",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/vicentewolde/agentpey/pull/84",
+    "url": "https://github.com/vicentewolde/AgentPey/pull/84",
+    "reason": "docs-only comparison table PR, not a field usage case"
+  },
+  {
+    "id": "gh:github.com/graphify-labs/docs/pull/30",
+    "url": "https://github.com/Graphify-Labs/docs/pull/30",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/zelosleone/muse-code-for-copilot",
+    "url": "https://github.com/zelosleone/Muse-Code-For-Copilot",
+    "reason": "unrelated Muse Code / openrouter model name, not Meta Muse agent"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13640",
+    "url": "https://github.com/psaab/xpf/issues/13640",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/meta-models/meta-oss-cookbook/pull/57",
+    "url": "https://github.com/meta-models/meta-oss-cookbook/pull/57",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/rahulshahepic/epic-stocks/pull/571",
+    "url": "https://github.com/rahulshahepic/epic-stocks/pull/571",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13634",
+    "url": "https://github.com/psaab/xpf/issues/13634",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13644",
+    "url": "https://github.com/psaab/xpf/issues/13644",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/iaaorgmx/paynani/issues/388",
+    "url": "https://github.com/iaaorgmx/paynani/issues/388",
+    "reason": "internal product Q&A about Muse.ai runtime, not end-user case"
+  },
+  {
+    "id": "gh:github.com/jthiruveedula/agentkit/pull/40",
+    "url": "https://github.com/jthiruveedula/agentkit/pull/40",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/aborakati/paseo-usage-monitor/pull/12",
+    "url": "https://github.com/ABorakati/paseo-usage-monitor/pull/12",
+    "reason": "unrelated Muse Code / openrouter model name, not Meta Muse agent"
+  },
+  {
+    "id": "gh:github.com/semianalysisai/inferencex/pull/4138",
+    "url": "https://github.com/SemiAnalysisAI/InferenceX/pull/4138",
+    "reason": "unrelated Muse Code / openrouter model name, not Meta Muse agent"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13633",
+    "url": "https://github.com/psaab/xpf/issues/13633",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13655",
+    "url": "https://github.com/psaab/xpf/issues/13655",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/can1357/oh-my-pi/pull/15911",
+    "url": "https://github.com/can1357/oh-my-pi/pull/15911",
+    "reason": "unrelated Muse Code / openrouter model name, not Meta Muse agent"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13637",
+    "url": "https://github.com/psaab/xpf/issues/13637",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13653",
+    "url": "https://github.com/psaab/xpf/issues/13653",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/can1357/oh-my-pi/issues/15910",
+    "url": "https://github.com/can1357/oh-my-pi/issues/15910",
+    "reason": "unrelated Muse Code / openrouter model name, not Meta Muse agent"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13649",
+    "url": "https://github.com/psaab/xpf/issues/13649",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/amamlazy/tech-news/pull/16",
+    "url": "https://github.com/amamlazy/tech-news/pull/16",
+    "reason": "unrelated Muse Code / openrouter model name, not Meta Muse agent"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13647",
+    "url": "https://github.com/psaab/xpf/issues/13647",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13639",
+    "url": "https://github.com/psaab/xpf/issues/13639",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13645",
+    "url": "https://github.com/psaab/xpf/issues/13645",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/lidge-jun/opencodex/pull/7145",
+    "url": "https://github.com/lidge-jun/opencodex/pull/7145",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13646",
+    "url": "https://github.com/psaab/xpf/issues/13646",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/psaab/xpf/issues/13635",
+    "url": "https://github.com/psaab/xpf/issues/13635",
+    "reason": "unrelated networking/firewall issue; false-positive Muse match"
+  },
+  {
+    "id": "gh:github.com/gobi-ai/gobi-cli/pull/120",
+    "url": "https://github.com/gobi-ai/gobi-cli/pull/120",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/semianalysisai/inferencex/pull/4128",
+    "url": "https://github.com/SemiAnalysisAI/InferenceX/pull/4128",
+    "reason": "unrelated Muse Code / openrouter model name, not Meta Muse agent"
+  },
+  {
+    "id": "gh:github.com/folke/zaly/pull/44",
+    "url": "https://github.com/folke/zaly/pull/44",
+    "reason": "unrelated Muse Code / openrouter model name, not Meta Muse agent"
+  },
+  {
+    "id": "gh:github.com/kryptek2000/the-kitchen-codex/pull/8",
+    "url": "https://github.com/kryptek2000/The-Kitchen-Codex/pull/8",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/arvindavidson/lux-watch",
+    "url": "https://github.com/arvindavidson/lux-watch",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/soothslayer/ha-muse-conversation",
+    "url": "https://github.com/soothslayer/ha-muse-conversation",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/nicolasdechristofaro/musethings",
+    "url": "https://github.com/nicolasdechristofaro/musethings",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/weknews/ai-term-dictionary/pull/18",
+    "url": "https://github.com/weknews/ai-term-dictionary/pull/18",
+    "reason": "unrelated Muse Code / openrouter model name, not Meta Muse agent"
+  },
+  {
+    "id": "gh:github.com/liminal-photonics/us-regulatory-plugin",
+    "url": "https://github.com/liminal-photonics/us-regulatory-plugin",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/liminal-photonics/us-ip-plugin",
+    "url": "https://github.com/liminal-photonics/us-ip-plugin",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/romeodiaz/guava-stack",
+    "url": "https://github.com/romeodiaz/guava-stack",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/titomeza52-code/grok-bot-",
+    "url": "https://github.com/titomeza52-code/Grok-bot-",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/fabiolabowlesdiaz/grok-claude-mcp",
+    "url": "https://github.com/FabiolaBowlesDiaz/grok-claude-mcp",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/semantic-craft/dsh-grokbot-dispatch",
+    "url": "https://github.com/semantic-craft/dsh-grokbot-dispatch",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/yuvalsigura/one",
+    "url": "https://github.com/YuvalSigura/one",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/iamnio0806-commits/tw-stock-daily-reports",
+    "url": "https://github.com/iamnio0806-commits/tw-stock-daily-reports",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/tyonger-stack/groknode",
+    "url": "https://github.com/tyonger-stack/GrokNode",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/lezonder/lezonder-grok-plugin",
+    "url": "https://github.com/Lezonder/lezonder-grok-plugin",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/zakovai/grok-cursor",
+    "url": "https://github.com/ZAKOVAI/grok-cursor",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/zakovai/grok-cursor-link",
+    "url": "https://github.com/ZAKOVAI/grok-cursor-link",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/dallintwatts/threadroost",
+    "url": "https://github.com/dallintwatts/threadroost",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/oxygen-cro/agent-plugins",
+    "url": "https://github.com/OXYGEN-CRO/agent-plugins",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/chinghauchu/snorlax-bot",
+    "url": "https://github.com/chinghauchu/snorlax-bot",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/ken-aisec/grokbot-watchtower",
+    "url": "https://github.com/ken-aisec/grokbot-watchtower",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/liminal-photonics/parts-sourcing-plugin",
+    "url": "https://github.com/liminal-photonics/parts-sourcing-plugin",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/arcasya-ai/arcasyaai-plugin",
+    "url": "https://github.com/Arcasya-AI/arcasyaai-plugin",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/appitstudio/awesome-jev/pull/1659",
+    "url": "https://github.com/AppitStudio/awesome-jev/pull/1659",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/dvdoug/phpcoordnorthamerica/pull/15",
+    "url": "https://github.com/dvdoug/PHPCoordNorthAmerica/pull/15",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/appitstudio/awesome-jev/pull/1658",
+    "url": "https://github.com/AppitStudio/awesome-jev/pull/1658",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/zai-org/zcode-plugins/pull/103",
+    "url": "https://github.com/zai-org/zcode-plugins/pull/103",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/dvdoug/phpcoordeurope/pull/16",
+    "url": "https://github.com/dvdoug/PHPCoordEurope/pull/16",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/dallintwatts/threadroost/pull/9",
+    "url": "https://github.com/dallintwatts/threadroost/pull/9",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7499",
+    "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/7499",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/appitstudio/awesome-jev/pull/1657",
+    "url": "https://github.com/AppitStudio/awesome-jev/pull/1657",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/m19mhrts83-cyber/project-ge/pull/83",
+    "url": "https://github.com/m19mhrts83-cyber/project-GE/pull/83",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/appitstudio/awesome-jev/pull/1656",
+    "url": "https://github.com/AppitStudio/awesome-jev/pull/1656",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/d6g8k5htny-coder/main/issues/419",
+    "url": "https://github.com/d6g8k5htny-coder/main/issues/419",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/appitstudio/awesome-jev/pull/1655",
+    "url": "https://github.com/AppitStudio/awesome-jev/pull/1655",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/csl-laboratories/ai-investment-cockpit/pull/116",
+    "url": "https://github.com/CSL-Laboratories/ai-investment-cockpit/pull/116",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/appitstudio/awesome-jev/pull/1654",
+    "url": "https://github.com/AppitStudio/awesome-jev/pull/1654",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/appitstudio/awesome-jev/pull/1653",
+    "url": "https://github.com/AppitStudio/awesome-jev/pull/1653",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/mikehal123/si-desk/pull/28",
+    "url": "https://github.com/mikehal123/si-desk/pull/28",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/rickwalking/alter-ego/pull/109",
+    "url": "https://github.com/rickwalking/alter-ego/pull/109",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/keepoak/branch-agent/pull/1627",
+    "url": "https://github.com/KeepOak/Branch-Agent/pull/1627",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/luck-prg/grokbot-claude-code",
+    "url": "https://github.com/luck-prg/grokbot-claude-code",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/agentropolis-city-of-agents/agentropolis-grokbot-core",
+    "url": "https://github.com/AGENTROPOLIS-CITY-OF-AGENTS/AGENTROPOLIS-GROKBOT-CORE",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/entropyenthalpy-sys/grokbot",
+    "url": "https://github.com/EntropyEnthalpy-SYS/grokbot",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/newtosh/calico",
+    "url": "https://github.com/newtosh/calico",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/franklinjavier/grokbot-quota-template",
+    "url": "https://github.com/franklinjavier/grokbot-quota-template",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/ralikaro101/grokbotswarm",
+    "url": "https://github.com/ralikaro101/GrokBotSwarm",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/josefberman/ignite-grokbot",
+    "url": "https://github.com/josefberman/IGNITE-grokbot",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/viaknox/tune-up",
+    "url": "https://github.com/Viaknox/tune-up",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/pacifico-1106/grokbot-control-plane",
+    "url": "https://github.com/pacifico-1106/grokbot-control-plane",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/entireio/cli/pull/2791",
+    "url": "https://github.com/entireio/cli/pull/2791",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/yiheinchai/opus-nanochat/issues/2",
+    "url": "https://github.com/yiheinchai/opus-nanochat/issues/2",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/rickwalking/alter-ego/pull/108",
+    "url": "https://github.com/rickwalking/alter-ego/pull/108",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/s-hiraoku/grokbot-kanban/pull/2",
+    "url": "https://github.com/s-hiraoku/grokbot-kanban/pull/2",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/mauryanx/firstmate/pull/40",
+    "url": "https://github.com/Mauryanx/firstmate/pull/40",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/cvolkernick/personal-workspace/issues/1195",
+    "url": "https://github.com/cvolkernick/personal-workspace/issues/1195",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/railroadradardeveloper/railroadradar/pull/42",
+    "url": "https://github.com/RailroadRadarDeveloper/RailroadRadar/pull/42",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/omneky-org/cursor-plugins-public/pull/7",
+    "url": "https://github.com/omneky-org/cursor-plugins-public/pull/7",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/diegofornalha/meu-bot/pull/2",
+    "url": "https://github.com/diegofornalha/meu-bot/pull/2",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/spstepp/sparta-labs/pull/4",
+    "url": "https://github.com/spstepp/sparta-labs/pull/4",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/glittle/badi-web3/pull/20",
+    "url": "https://github.com/glittle/badi-web3/pull/20",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/glittle/badi-web3/pull/19",
+    "url": "https://github.com/glittle/badi-web3/pull/19",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/shopheck/awesome-grokbot/pull/1",
+    "url": "https://github.com/ShopHeck/awesome-grokbot/pull/1",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "gh:github.com/luck-prg/grokbot-claude-code/pull/1",
+    "url": "https://github.com/luck-prg/grokbot-claude-code/pull/1",
+    "reason": "GitHub issue/PR without concrete public usage narrative"
+  },
+  {
+    "id": "x:2110860352414163418",
+    "url": "https://x.com/parisa_199/status/2110860352414163418",
+    "reason": "short wish/complaint without usage narrative"
+  },
+  {
+    "id": "x:2110860344587612380",
+    "url": "https://x.com/SwanMom312/status/2110860344587612380",
+    "reason": "too thin / no usable usage content"
+  },
+  {
+    "id": "x:2110860342880539071",
+    "url": "https://x.com/lonnie6942069/status/2110860342880539071",
+    "reason": "too thin / no usable usage content"
+  },
+  {
+    "id": "x:2110860338082009566",
+    "url": "https://x.com/Hivasara/status/2110860338082009566",
+    "reason": "too thin / no usable usage content"
+  },
+  {
+    "id": "x:2110860291403866404",
+    "url": "https://x.com/mliu70073l/status/2110860291403866404",
+    "reason": "too thin / no usable usage content"
+  },
+  {
+    "id": "x:2110860283585438109",
+    "url": "https://x.com/bot/status/2110860283585438109",
+    "reason": "too thin / no usable usage content"
+  },
+  {
+    "id": "x:2110857186373169238",
+    "url": "https://x.com/jiayou_sushi/status/2110857186373169238",
+    "reason": "too thin / no usable usage content"
+  },
+  {
+    "id": "x:2110854047519662246",
+    "url": "https://x.com/greenfield2026/status/2110854047519662246",
+    "reason": "too thin / no usable usage content"
+  },
+  {
+    "id": "x:2110850771621380463",
+    "url": "https://x.com/robfullertonart/status/2110850771621380463",
+    "reason": "too thin / no usable usage content"
+  },
+  {
+    "id": "x:2110850396994326835",
+    "url": "https://x.com/tieresch/status/2110850396994326835",
+    "reason": "too thin / no usable usage content"
+  },
+  {
+    "id": "x:2110859276725915898",
+    "url": "https://x.com/peconicgp/status/2110859276725915898",
+    "reason": "feature request / anticipation, not usage"
+  },
+  {
+    "id": "x:2110831901841993894",
+    "url": "https://x.com/robbfraser/status/2110831901841993894",
+    "reason": "too thin / no usable usage content"
+  },
+  {
+    "id": "x:2110826786586013995",
+    "url": "https://x.com/alex_marples/status/2110826786586013995",
+    "reason": "short wish/complaint without usage narrative"
+  },
+  {
+    "id": "x:2110822314606579853",
+    "url": "https://x.com/WhoNeedsEthics/status/2110822314606579853",
+    "reason": "short wish/complaint without usage narrative"
   }
 ]
