@@ -1,5 +1,5 @@
 # 常驻用量 Always-on Usage
-> Always-on Agents 的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。评测层，不是模板目录。对照与计算器为估算方向；案例为公开条目聚合（1508 条）。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
+> Always-on Agents 的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。评测层，不是模板目录。对照与计算器为估算方向；案例为公开条目聚合（1634 条）。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse 对照矩阵
@@ -607,44 +607,155 @@
 - /cases/grok-bot-templates-669.html: Grok Bot Templates (guide) <https://www.aibuilderclub.com/blog/grok-bot-templates>
 - /cases/how-to-use-grok-bot-670.html: How to Use Grok Bot (guide) <https://www.aibuilderclub.com/blog/grok-bot-guide>
 - /cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html: herdr-web-ui: watch always-on coding agents from your phone and browser (field-case) <https://github.com/devswha/herdr-web-ui>
+- /cases/x-esoterickang-2110716026715328527.html: 做了一个把日期换算成 19 种历法的网站 (field-case) <https://x.com/EsotericKang/status/2110716026715328527>
+- /cases/x-teslaconomics-2110721195817509068.html: 旅行 Bot「Trippy」订机票、租车、订餐厅和民宿 (field-case) <https://x.com/Teslaconomics/status/2110721195817509068>
+- /cases/x-wintereracer-2110716451459932216.html: 从邮件里捞出学校活动，不再错过 (field-case) <https://x.com/WinterEracer/status/2110716451459932216>
+- /cases/x-carolinadill-2110664268479676714.html: Bot 邮箱支持「+别名」 (guide) <https://x.com/CarolinaDill/status/2110664268479676714>
+- /cases/x-sholabuilds-2110722561579323648.html: 把跑周刊的 Bot 做成模板，发送仍由本人审批 (field-case) <https://x.com/sholabuilds/status/2110722561579323648>
+- /cases/x-jasonturcotte-2110720607662862805.html: 新手模板「Coach」：一步步带你上手 (guide) <https://x.com/Jasonturcotte/status/2110720607662862805>
+- /cases/x-ericsoundminds-2110717336047047128.html: 让 Bot 更好用的十个习惯 (guide) <https://x.com/EricSoundMinds/status/2110717336047047128>
+- /cases/x-rajuvamsi007-2110715135543185579.html: 让 Bot 直接买旅行保险 (field-case) <https://x.com/rajuvamsi007/status/2110715135543185579>
+- /cases/x-mattyod-2110714228130881880.html: 把任意声音做成特斯拉锁车提示音的免费 Bot (field-case) <https://x.com/Matty_O_D/status/2110714228130881880>
+- /cases/x-iamluisdev-2110722094631927894.html: 三条规则：先在 Mac 上做、离线才用云、合并主干须我点头 (guide) <https://x.com/iamluis_dev/status/2110722094631927894>
+- /cases/x-pokeefe363-2110718862874251345.html: 两组 Bot 分开，纠错写进共享规则文件 (guide) <https://x.com/Pokeefe363/status/2110718862874251345>
+- /cases/x-ob1johnkenob1-2110718514801651796.html: 每晚提醒写语音日记，留言给家人 (field-case) <https://x.com/Ob1JohnKenob1/status/2110718514801651796>
+- /cases/x-selbyai-2110562352701837733.html: 求职「幕僚长」Bot 协调其他 Bot (field-case) <https://x.com/SelbyAI/status/2110562352701837733>
+- /cases/x-emollick-2110557530531447165.html: 给 Dot 一个独立邮箱 (guide) <https://x.com/emollick/status/2110557530531447165>
+- /cases/x-zynstop-2110606030979920231.html: 让 Muse 对自己的 token 用量做一次自检 (guide) <https://x.com/ZynStop/status/2110606030979920231>
+- /cases/x-ashiiirg-2110576664526905409.html: 运营社媒的 Muse 与管运营的 OpenClaw 互发邮件 (field-case) <https://x.com/ashiiirg/status/2110576664526905409>
+- /cases/x-dcinvestor-2110662874154905733.html: 给 AI 单独开邮箱，再按需共享 Drive 文件夹 (guide) <https://x.com/DCinvestor/status/2110662874154905733>
 - /cases/x-simonsmith-2110425007059017830.html: 用 Dot 在 ChatGPT 里做了两个个人 App (field-case) <https://x.com/_simonsmith/status/2110425007059017830>
 - /cases/x-jacobilin-2110456534220329453.html: 给多个 Agent 做了任务看板：Dot、Grok Bot、Claude Code (field-case) <https://x.com/jacobilin/status/2110456534220329453>
+- /cases/gh-abruption-dots-tailscale.html: 在 Dots 云电脑上跑 Tailscale + 用户级 SSH (guide) <https://github.com/abruption/dots-tailscale>
+- /cases/x-chefbrent-2110441550060888513.html: Dot 从垃圾邮件里捞出报税公司的邮件 (field-case) <https://x.com/chefbrent/status/2110441550060888513>
+- /cases/x-sjourdan-2110317092134166787.html: Dot 用开源 fast-whisper 转写播客 (field-case) <https://x.com/sjourdan/status/2110317092134166787>
+- /cases/x-offzerocyber-2110384977053630788.html: Muse 做邮件安全：读信前先检查 (field-case) <https://x.com/OffZeroCyber/status/2110384977053630788>
+- /cases/yt-lr6bt1s4lfu.html: 9 个变现向 Bot：落地页、外呼、剪辑、网站审计 (field-case) <https://www.youtube.com/watch?v=LR6BT1s4lFU>
 - /cases/hn-50070313.html: Helicon：给 Muse Code CLI 做的开源桌面客户端 (field-case) <https://github.com/HarjjotSinghh/helicon>
 - /cases/hn-50074512.html: Muse Souls：给 Muse 写 9 套 SOUL.md 人格的实测 (field-case) <https://github.com/bkawa-io/muse-souls>
+- /cases/x-carolinadill-2110049188524216756.html: Grok Bot 的指令来自四个地方 (guide) <https://x.com/CarolinaDill/status/2110049188524216756>
+- /cases/x-kyledettman-2109831484630565103.html: 从 Paprika 菜谱到 Kroger 自提订单 (field-case) <https://x.com/kyledettman/status/2109831484630565103>
 - /cases/x-reidhslaughter-2109645099479036095.html: Dotcord：让 Dots、Grok Bot、Claude 在 Discord 实时交接 (field-case) <https://x.com/reidhslaughter/status/2109645099479036095>
+- /cases/medium-grok-bots-job-search-ft-2hjs.html: 用 3 个协作 Grok Bot + 1 个经理 Bot 找内推人 (field-case) <https://medium.com/@roshan_ambhore/grok-bots-job-search-ft-2hjs-c122c6011e8d>
+- /cases/yt-4tolm1g-gce.html: Muse 设计负责人谈界面设计取舍 (guide) <https://www.youtube.com/watch?v=4TOLm1g-gCE>
 - /cases/x-chillwaterson-2109322448214667530.html: Dot 按实际用电找到更便宜的电费套餐 (field-case) <https://x.com/ChillWaterson/status/2109322448214667530>
 - /cases/x-raddadjokes7-2109305097880519124.html: 夫妻两个 Muse 协作：共享歌单和共享日历 (field-case) <https://x.com/raddadjokes7/status/2109305097880519124>
+- /cases/x-mikepat711-2109395926980952299.html: 所有 Bot 共用一个 Notion「待办采购」数据库 (field-case) <https://x.com/mikepat711/status/2109395926980952299>
+- /cases/x-dkmitc-2109402706116858172.html: 报一遍橱柜和冰箱，生成一周菜单 (field-case) <https://x.com/dkmitc/status/2109402706116858172>
+- /cases/gh-corvelis-dots-bridge-kit.html: Dots Bridge Kit：用 Even G2 眼镜和 Dot 对话 (field-case) <https://github.com/Corvelis/dots-bridge-kit>
+- /cases/gh-rhs059-dotcord.html: Dotcord：OpenAI Dots 的 Discord 连接器（已支持 Grokbot） (field-case) <https://github.com/RHS059/dotcord>
+- /cases/gh-smfworks-grok-bot-templates.html: SMF Works 发布的 Grok Bot 模板合集 (guide) <https://github.com/smfworks/grok-bot-templates>
+- /cases/x-davidmay-2108347213046751265.html: 把和 Claude Code 的沟通搬到 Grok Bot (field-case) <https://x.com/david_may/status/2108347213046751265>
+- /cases/yt-wxhoxfpecnm.html: 连用 7 天后总结的 9 个 Dot 技巧 (guide) <https://www.youtube.com/watch?v=WXhOxfPECnM>
 - /cases/x-jerrodlew-2108077437611598202.html: Muse 帮选购并指导安装一个 Muse 小设备 (field-case) <https://x.com/jerrod_lew/status/2108077437611598202>
+- /cases/gh-rsms-esp32-dot.html: esp32-dot：桌面触摸屏 Dot 伴侣 (field-case) <https://github.com/rsms/esp32-dot>
+- /cases/gh-rokrokss-apps-of-dots.html: apps of dots：自托管 MCP 接入 Discord/Telegram/WhatsApp (field-case) <https://github.com/rokrokss/apps-of-dots>
+- /cases/x-nodebaron-2108013834657050695.html: Muse 给航空公司写表扬信并补登里程 (field-case) <https://x.com/NodeBaron/status/2108013834657050695>
+- /cases/x-lyndallschreinr-2107888353630908437.html: 每周规划 15 顿家庭餐并代买菜 (field-case) <https://x.com/lyndallschreinr/status/2107888353630908437>
+- /cases/x-koltregaskes-2107977276197667109.html: 隐藏但好用的功能：Dot 自定义规则 (guide) <https://x.com/koltregaskes/status/2107977276197667109>
+- /cases/x-embeethree-2107922181300928549.html: Dot 当业务分析师兼架构师，一次做完整 PR (field-case) <https://x.com/EmBeeThree/status/2107922181300928549>
+- /cases/x-manicktweet-2107632025326735378.html: 只靠 WhatsApp 语音，30 分钟做出个人网站 (field-case) <https://x.com/manicktweet/status/2107632025326735378>
+- /cases/x-emergentcontent-2107895105004675147.html: 用 Grok Bot 或 Muse + 一个提示词 + GitHub 仓库跑求职 (field-case) <https://x.com/EmergentContent/status/2107895105004675147>
+- /cases/yt-mpbxmuh3vhk.html: 用 Dots 零代码快速做 App (guide) <https://www.youtube.com/watch?v=MpbxMuH3VHk>
+- /cases/yt-bsnhg6cnjze.html: 12 个 Grok Bot 用例：省钱、特斯拉助手、找线索、邮件分拣 (field-case) <https://www.youtube.com/watch?v=BsNHg6cNjZE>
 - /cases/x-nonieengel-2107297361009721493.html: 给 Muse 搭一个半自动反馈学习循环 (field-case) <https://x.com/nonieengel/status/2107297361009721493>
+- /cases/x-raheemaspx-2107554755031777442.html: 每天早上自动打印当日计划 (field-case) <https://x.com/RaHeemaspx/status/2107554755031777442>
+- /cases/gh-pluviobyte-dot2api.html: Dot2API：把 Dot 变成兼容 OpenAI/Claude 的 API (field-case) <https://github.com/Pluviobyte/dot2api>
+- /cases/x-jccastaneda05-2107374858481066342.html: 用 Dot 编排跨设备的 Hermes agents (field-case) <https://x.com/JcCastaneda05/status/2107374858481066342>
+- /cases/yt-rckbiy1gxki.html: 我实际用 Muse 做的 11 件事（含屏幕录像） (field-case) <https://www.youtube.com/watch?v=RCKBIY1gxkI>
 - /cases/hn-49971444.html: 用 Dots 当 7 个 Agent 的蜂群，改进一个数学下界（Lean 验证） (field-case) <https://unexcitedneurons.substack.com/p/i-used-openai-dots-as-an-agent-swarm>
+- /cases/gh-beechrasta-posterbuilder-muse-connector.html: PosterBuilder 连接器：在聊天里生成社媒海报 (field-case) <https://github.com/beechrasta/posterbuilder-muse-connector>
+- /cases/x-rckim77-2107203928475488733.html: 每天 8 点和 16 点两次批量处理邮件 (field-case) <https://x.com/rckim77/status/2107203928475488733>
+- /cases/yt-5hw4nhrtmr0.html: 6 个 Muse 用法：退订、自动回复、找回钱、报税 (guide) <https://www.youtube.com/watch?v=5Hw4nHrTMR0>
 - /cases/x-whipla5her-2106782026896703702.html: 月末盘点：Dot 两分钟对完库存表 (field-case) <https://x.com/whipla5her/status/2106782026896703702>
+- /cases/gh-torcata-watch-dot.html: watch-dot：在 Apple Watch 上和 Dot 聊天 (field-case) <https://github.com/Torcata/watch-dot>
+- /cases/gh-jjenglert1-esp32-muse-agent.html: 约 30 美元做一个口袋 Muse agent (field-case) <https://github.com/JJenglert1/esp32-muse-agent>
+- /cases/x-renegaderocks-2106589875449610356.html: Dot 处理 Netlify 降级退款，但缺少分频道对话 (field-case) <https://x.com/Renegade_Rocks/status/2106589875449610356>
+- /cases/x-dngnotes-2106663358204440997.html: 让 Dot 代听培训并整理笔记 (field-case) <https://x.com/dng_notes/status/2106663358204440997>
+- /cases/yt-9rydalnb6ec.html: Dots 怎么设置、哪里好用、哪里让人沮丧 (guide) <https://www.youtube.com/watch?v=9RYDaLnB6ec>
 - /cases/x-danielzambrini-2106417754441998636.html: Dot 从没人看的邮箱里发现一封银行来信 (field-case) <https://x.com/DanielZambrini/status/2106417754441998636>
+- /cases/x-monokern-2106347355884642426.html: 上手 Dot 前值得看的 7 个视频 (guide) <https://x.com/monokern/status/2106347355884642426>
+- /cases/yt-1ciobarxtvc.html: Muse 设置、功能与 12 个用例（3 个亲测） (guide) <https://www.youtube.com/watch?v=1CiobARXtVc>
+- /cases/yt-8fbvrydqwow.html: 搭了 9 个 Grok Bot 处理真实任务 (field-case) <https://www.youtube.com/watch?v=8FBvRYDQWow>
 - /cases/x-solanky-2105871916800389433.html: Codex 被系统杀掉后，让 Dot 恢复所有中断线程 (field-case) <https://x.com/solanky/status/2105871916800389433>
 - /cases/x-sethrosen-2106041674812072082.html: 把 Dot 当编排者，配合 Codex 管更多并行线程 (field-case) <https://x.com/sethrosen/status/2106041674812072082>
 - /cases/x-memphisbr-2106010893901255066.html: Dot 在垃圾邮件堆里找出 GitHub 提及并直接处理 (field-case) <https://x.com/Memphisbr/status/2106010893901255066>
+- /cases/x-alexlupimed-2106156462984810923.html: 住院医师用 Dot + Obsidian CLI 做个人知识库 (field-case) <https://x.com/AlexLupiMed/status/2106156462984810923>
+- /cases/x-fdatframe84228-2105983124374983128.html: 开车接孩子时让 Dot 分拣 WhatsApp 和邮件 (field-case) <https://x.com/FDatframe84228/status/2105983124374983128>
+- /cases/x-danielbuildsai-2105996506381926779.html: 用 Dot 统筹所有 Codex 工作会话 (field-case) <https://x.com/DanielBuildsAI/status/2105996506381926779>
 - /cases/x-aimrwhite-2105612186450297061.html: 给 Dot 一个四周研究任务：7 个 AI 技术假设 (field-case) <https://x.com/AI_MrWhite/status/2105612186450297061>
 - /cases/x-edorsey-2105678599953232117.html: Dot 通过 MCP 控制办公室树莓派显示屏 (field-case) <https://x.com/edorsey/status/2105678599953232117>
 - /cases/x-odiak-2105602619268092064.html: 自建 HEY 邮箱的远程 MCP 服务器，供 Dots 等使用 (field-case) <https://x.com/odiak_/status/2105602619268092064>
 - /cases/hn-49934474.html: 实测：让 Dots 自选技术栈，8 次都用 Cloudflare + ChatGPT 登录 (guide) <https://amplifying.ai/research/openai-dots-choose>
 - /cases/hn-49929970.html: 用 Muse 给演出视频站做大规模网页搜集 (field-case) <https://sigh.dev/posts/metas-muse-is-fantastic-for-web-scraping/>
+- /cases/gh-agricidaniel-dots-second-brain.html: Dots Second Brain：有出处的 Obsidian 知识库 (guide) <https://github.com/AgriciDaniel/dots-second-brain>
+- /cases/gh-aieo-product-dots-stackchan.html: 给 Dot 一个身体：接入 Stack-chan 机器人 (field-case) <https://github.com/aieo-product/dots_stackchan>
+- /cases/gh-beeper-chatgpt-dots.html: Beeper 的 ChatGPT Dots 原生消息桥 (field-case) <https://github.com/beeper/chatgpt-dots>
+- /cases/x-ctrlaltdwayne-2105603794293887167.html: Dot 发现斐济住宿订错了月份 (field-case) <https://x.com/CtrlAltDwayne/status/2105603794293887167>
+- /cases/x-coreyganim-2105717683736265168.html: 权宜之计：让 Dot 采用 Codex 自定义指令 (guide) <https://x.com/coreyganim/status/2105717683736265168>
+- /cases/x-vizentro-2105672207435170065.html: Dot Hotel：现成 Dot 配置目录，权限写在门上 (guide) <https://x.com/Vizentro/status/2105672207435170065>
+- /cases/x-persimmons-2105469386890870797.html: Dot 初体验：私人导购、旅行规划、马拉松训练面板 (field-case) <https://x.com/per_simmons_/status/2105469386890870797>
+- /cases/x-mdowney-2105466076113117211.html: 盯梦幻橄榄球阵容，开赛前提醒不合规球员 (field-case) <https://x.com/mdowney/status/2105466076113117211>
+- /cases/yt-e29wtzookxk.html: Dots 的正确用法：项目经理 skill (guide) <https://www.youtube.com/watch?v=e29WTzoOKxk>
+- /cases/yt-pugo-si6xro.html: 已落地的 26 个 Muse 用例 (field-case) <https://www.youtube.com/watch?v=puGo_SI6Xro>
 - /cases/x-jessewaites-2105288347052605536.html: 给 Dot 做了一个实体身体：ESP32 小屏 (field-case) <https://x.com/JesseWaites/status/2105288347052605536>
 - /cases/x-vraserx-2105367083454550297.html: Dot 主动找到相关的进修课程并排进日程 (field-case) <https://x.com/VraserX/status/2105367083454550297>
 - /cases/x-oncelcebeci-2105273727873331437.html: 让 Dot 给网站做 QC，并把问题转交给 Codex (field-case) <https://x.com/oncelcebeci/status/2105273727873331437>
 - /cases/hn-49912880.html: Tailscale 官方：让 Muse 进你的 tailnet，并用 ACL 限权 (guide) <https://tailscale.com/blog/meta-muse-ai-agent-tailscale>
+- /cases/gh-voltagent-awesome-openai-dots.html: Awesome OpenAI Dots：社区整理的工作流与规则目录 (guide) <https://github.com/VoltAgent/awesome-openai-dots>
+- /cases/gh-graydeon-dot-panel.html: dot-panel：让 Dot 自建触屏仪表盘 (field-case) <https://github.com/graydeon/dot-panel>
+- /cases/gh-duclm1x1-muse-chat-mcp.html: Muse-Chat-MCP：从任意 MCP/OpenAI 客户端调用 Muse (field-case) <https://github.com/duclm1x1/Muse-Chat-MCP>
+- /cases/x-mechengdev-2105381046044815388.html: Blender 复古相机做成可玩的 Three.js 场景 (field-case) <https://x.com/mech_eng_dev/status/2105381046044815388>
+- /cases/x-vibecodeguild-2105414532793561475.html: 用 Muse 做免费卡路里记录 App 替代 MyFitnessPal (field-case) <https://x.com/vibecodeguild/status/2105414532793561475>
+- /cases/x-dariusgaynor-2105342293721145365.html: 用 Grok Bot 运营内容团队，部分迁到 Dots，仍逐条审批 (field-case) <https://x.com/dariusgaynor/status/2105342293721145365>
+- /cases/yt-sa3xdlu1uda.html: Dots 第一小时：整理 100+ 日历条目、修 iOS bug (field-case) <https://www.youtube.com/watch?v=sA3XDlU1udA>
+- /cases/yt-db1krjqet8w.html: Dots 头 24 小时：12 分钟导览 (guide) <https://www.youtube.com/watch?v=db1KRJQEt8w>
+- /cases/yt-hcttxibjt-c.html: Dots 的真实情况：做对了什么、哪里崩 (guide) <https://www.youtube.com/watch?v=HCttXibjt-c>
 - /cases/web-openai-introducing-dots.html: OpenAI 官方：Introducing dots (guide) <https://openai.com/index/introducing-dots/>
 - /cases/x-mvanhorn-2104739688930312209.html: AI 电话被挂断后，Muse 派人工代办订到 KTV (field-case) <https://x.com/mvanhorn/status/2104739688930312209>
+- /cases/gh-armando-token-hackday26.html: Hack Day 项目：Muse 通过私有 API 查工业品规格、库存和报价 (field-case) <https://github.com/armando-token/hackday26>
+- /cases/yt-gfh6l3dxhk0.html: 给 Dot 一个真实目标，而不是一句提示词 (guide) <https://www.youtube.com/watch?v=gfh6l3DxHK0>
+- /cases/yt-z5x1emu6isi.html: 一人公司试用 Dots：发现五位数赞助问题 (field-case) <https://www.youtube.com/watch?v=z5X1eMU6isI>
+- /cases/yt-y0zmptl32-y.html: 用 Dots 辅助求职的实测 (field-case) <https://www.youtube.com/watch?v=y0zMPTL32-Y>
 - /cases/x-caffinatedak-2104158651925877133.html: Muse 跨三家即时零售比价下单买菜 (field-case) <https://x.com/CaffinatedAK/status/2104158651925877133>
+- /cases/x-grokbotradar-2104304589797556457.html: 先把流程跑通，再设定时 (guide) <https://x.com/GrokBotRadar/status/2104304589797556457>
+- /cases/yt-xz5tealeudg.html: Grok Bot 团队自己在用的 14 个 Bot (field-case) <https://www.youtube.com/watch?v=xZ5TEaleUdg>
+- /cases/x-anishjha18-2103842349004513323.html: 「市场负责人」Bot 模板 (guide) <https://x.com/anishjha18/status/2103842349004513323>
+- /cases/yt-g25kxtb3lrg.html: Muse 在 Facebook 上的 3 种用法 (guide) <https://www.youtube.com/watch?v=g25KXtB3Lrg>
+- /cases/yt-jbgycowvczi.html: Muse 的 6 个功能技巧：比价、Reels 变行程、凭证库 (guide) <https://www.youtube.com/watch?v=jbGYcOWvCZI>
 - /cases/x-mykomarci-2103514112017772599.html: 给 Muse 们做了一个只有 Agent 能发帖的社交网络 (field-case) <https://x.com/mykomarci/status/2103514112017772599>
+- /cases/x-chrismayer-2103325855087018244.html: Bot 做的菜谱 App + Instacart 下单做晚饭 (field-case) <https://x.com/Chris_Mayer/status/2103325855087018244>
 - /cases/x-lifeofv42-2102962203347317148.html: Muse 一小时做完 App QA，出 15 页报告 (field-case) <https://x.com/LifeofV42/status/2102962203347317148>
+- /cases/gh-nmhjklnm-meta-muse-vm.html: 反向 SSH 隧道 skill：让 Muse 托管 VM 可登录 (guide) <https://github.com/nmhjklnm/meta-muse-vm>
+- /cases/gh-astroxnetwork-muse-connector-template.html: 可部署的 Muse 连接器模板 (guide) <https://github.com/AstroxNetwork/muse-connector-template>
+- /cases/x-chrisclickup-2102447255378903285.html: 用 Meta Muse 点 DoorDash 外卖 (field-case) <https://x.com/ChrisClickUp/status/2102447255378903285>
+- /cases/x-thatotherzach-2101951609412493799.html: Bot 跑求职，并过滤反复出现的「幽灵职位」 (field-case) <https://x.com/ThatOtherZach/status/2101951609412493799>
+- /cases/x-designbymoein-2102123926554054972.html: 设计前调研：让 Muse 收集并归纳落地页 (field-case) <https://x.com/DesignByMoein/status/2102123926554054972>
 - /cases/x-devwithblake-2101757781313548306.html: Muse 比较 6 份租房险报价，作者一年省 60 美元 (field-case) <https://x.com/devwithblake/status/2101757781313548306>
+- /cases/x-danieloleary-2101790187726716979.html: 周末用 Muse 不到 3 小时搞定报税 (field-case) <https://x.com/danieloleary/status/2101790187726716979>
 - /cases/x-ademers-2101345942620279117.html: 用 Muse 内置浏览器开通 Oracle Cloud 免费实例 (field-case) <https://x.com/ademers/status/2101345942620279117>
 - /cases/x-jamesdtoole-2101405831019254210.html: 每天早上一份多来源冲浪报告 (field-case) <https://x.com/jamesdtoole/status/2101405831019254210>
+- /cases/gh-krishnakumaar-muse-wardrobe-connector.html: 衣橱与穿搭连接器 (field-case) <https://github.com/krishnakumaar/muse-wardrobe-connector>
+- /cases/gh-bodila51-grok-bot-jev.html: Jev Router：给 Grok Bot 加一层廉价决策层 (field-case) <https://github.com/Bodila51/grok-bot-jev>
 - /cases/x-aptaltruist-2100787082310377894.html: 让 Muse 清理邮箱，作者称零错误 (field-case) <https://x.com/apt_altruist/status/2100787082310377894>
+- /cases/yt-eu1icyi9bcs.html: Muse 打客服电话砍价，每年省下 800 多美元 (field-case) <https://www.youtube.com/watch?v=eU1ICyI9bCs>
 - /cases/x-rja907-2100694472489398558.html: 用 Muse 每日总结话多的 X 群聊 (field-case) <https://x.com/rja907/status/2100694472489398558>
 - /cases/x-throwabull-2100362187705340000.html: 给 Muse 单独开一张有月度上限的虚拟卡 (guide) <https://x.com/throwabull/status/2100362187705340000>
+- /cases/gh-bluman1-muse-connectors.html: Muse Connectors：一段提示词安装、可审计的连接器 skills (guide) <https://github.com/bluman1/muse-connectors>
+- /cases/yt-kxfhqbymjkc.html: 7 个家庭/生活 Bot：家居维护、家人预约、取消试用（赞助） (field-case) <https://www.youtube.com/watch?v=kXfHQbyMjkc>
 - /cases/x-positiveinvst-2099328392894022072.html: 让 Muse 用 API 自建 TickTick 集成，5 分钟 (field-case) <https://x.com/PositiveInvst/status/2099328392894022072>
+- /cases/gh-mozzquito-omx-grokbot-public.html: Grok Bot 与 Claude Code 的 MCP 桥（进行中） (field-case) <https://github.com/mozzquito/omx-grokbot-public>
 - /cases/x-kainosflux-2097556600722510153.html: Muse 上手清单：主题侧聊、健康看板与训练记录 App (field-case) <https://x.com/kainosflux/status/2097556600722510153>
+- /cases/yt-a3ggw287g2q.html: 婚礼前用 Muse 管饮食、日程和跟进邮件（合作推广） (field-case) <https://www.youtube.com/watch?v=a3gGw287G2Q>
+- /cases/yt-90pwpvrydhg.html: 没人讲的一点：所有 Bot 共用一台电脑 (guide) <https://www.youtube.com/watch?v=90pwPVrydHg>
+- /cases/yt-qbmgf1kjsk4.html: 同时运行约 30 个 agent：幕僚长、家庭报纸、PR 队列与合规监控 (field-case) <https://www.youtube.com/watch?v=QBmgF1kJSK4>
+- /cases/x-jcchristopher-2094629400524247421.html: 口头带 Bot 走一遍每天早上的流程 (field-case) <https://x.com/JCChristopher/status/2094629400524247421>
 - /cases/web-duffel-muse.html: Duffel 官方：在 Muse 里搜索、预订和管理机票行程 (guide) <https://duffel.com/blog/millions-of-users-can-now-use-duffel-to-search-book-and-manage-holidays-on-muse-the-new-personal-ai-agent-from-meta>
+- /cases/gh-cobusgreyling-grok-bot-templates.html: Grok Bot 模板工程套件：规格、Bot Ready 评分、团队与 routines (guide) <https://github.com/cobusgreyling/grok-bot-templates>
+- /cases/yt-z-mlyxpwas.html: 如何设置 Grok Bot 的 Routine (guide) <https://www.youtube.com/watch?v=z-_MLyXPwas>
+- /cases/gh-ethanolivertroy-grokbot-cloudflare-inbox.html: 在 Cloudflare Workers 上自托管 Grok Bot 收件箱 (field-case) <https://github.com/ethanolivertroy/grokbot-cloudflare-inbox>
+- /cases/yt-x8kp4mdvm1k.html: 8 个 Grok Bot 用例：CEO、营收运营、内容复用、自主调研 (field-case) <https://www.youtube.com/watch?v=x8KP4MdvM1k>
+- /cases/yt-lrupu2-ktgq.html: 5 个用例：收件箱 agent 接 ClickUp 等 (field-case) <https://www.youtube.com/watch?v=lRUpu2-KtGQ>
 - /cases/t-marketing-analyst.html: Marketing Analyst (template) <https://x.ai/bot/1RbG9yW5MpQ55XcQlJ0aQ>
 - /cases/t-cooper.html: Cooper (template) <https://x.ai/bot/8hhdYqfvRzigWstUtcmBZ>
 - /cases/t-paid-media-report-desk.html: Paid Media Report Desk (template) <https://x.ai/bot/qBFjPRQ3IbHG69qIFHblE>
@@ -1466,7 +1577,13 @@
 - /cases/the-next-web-grok-bot-will-also-use-claude-midjourney-and-su-572.html: The Next Web: Grok Bot will also use Claude, Midjourney and Suno models (comparison) <https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk>
 - /cases/9to5mac-how-to-claim-your-grok-bot-email-address-573.html: 9to5Mac: how to claim your Grok Bot email address (comparison) <https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/>
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
+- /cases/x-echo12yj-2110477717003268162.html: 三款 agent 能否搞定韩国网站：23 份报告汇总 (comparison) <https://x.com/echo12yj/status/2110477717003268162>
+- /cases/x-yangunplugged-2110263685121974384.html: Dots 与 Grok Bot 并排试用：单一对话 vs 多个专职 Bot (comparison) <https://x.com/yang_unplugged/status/2110263685121974384>
+- /cases/medium-openai-dots-vs-grok-bot-vs-building-your-own.html: Dots、Grok Bot 还是自建：带邮箱的 agent 真实成本 (comparison) <https://medium.com/@benjaminbrookarsh/openai-dots-vs-grok-bot-vs-building-your-own-what-an-ai-agent-with-an-inbox-really-costs-ecba5962592f>
+- /cases/x-oskarkaszubski-2108028227071389765.html: 定时检查最短间隔对比：Muse、Dots、Grok Bot (comparison) <https://x.com/OskarKaszubski/status/2108028227071389765>
 - /cases/x-petergyang-2105374125669884120.html: Peter Yang：Dots 与其他个人 Agent 的对比 (comparison) <https://x.com/petergyang/status/2105374125669884120>
+- /cases/yt-bvvfzkkz4yo.html: 实测 OpenAI Dots 对比 Meta Muse (comparison) <https://www.youtube.com/watch?v=BvvfZKKz4Yo>
+- /cases/yt-douqxfdygma.html: Grok Bot 对比 Claude：12 个日常职场用例 (comparison) <https://www.youtube.com/watch?v=douQXfdYGmA>
 - /cases/star-catcher-smoke-offline-canvas-game-grok-build-smoke-1.html: star-catcher-smoke — offline canvas game (Grok Build smoke) (quota-report) <https://github.com/Cesardellantonio/star-catcher-smoke>
 - /cases/box-credit-committee-pack-2.html: Box: credit-committee pack (quota-report) <https://x.com/Box/status/2087275866950938662>
 - /cases/nate-twelve-bots-in-eight-hours-3.html: Nate: twelve Bots in eight hours (quota-report) <https://natesnewsletter.substack.com/p/grok-bot-review>
@@ -1514,10 +1631,19 @@
 - /cases/forum-cloud-agents-from-grok-bot-spend-team-cloud-credits-45.html: Forum: Cloud Agents from Grok Bot spend Team Cloud Credits (quota-report) <https://forum.cursor.com/t/cloud-agents-by-grokbot-using-team-cloud-credits-instead-of-personal-usage/173419>
 - /cases/forum-request-for-usage-broken-down-by-bot-and-category-read-46.html: Forum: request for usage broken down by Bot and category, readable by Bots (quota-report) <https://forum.cursor.com/t/breakdown-in-the-app-by-bot-and-category-and-the-same-data-available-to-bots/173936>
 - /cases/ray-fernando-s-clippy-cto-47.html: Ray Fernando's Clippy CTO (quota-report) <https://www.youtube.com/watch?v=kAR91DlnCKQ>
+- /cases/x-predictivemoney-2110723292768186738.html: Bot 的 Gmail 被 Google 以「是机器人」封禁 (quota-report) <https://x.com/Predictivemoney/status/2110723292768186738>
+- /cases/x-diamai-2110720677468664161.html: 亚马逊开始拦截 Grok Bot 下单 (quota-report) <https://x.com/diamai_/status/2110720677468664161>
+- /cases/x-thekpsethi-2110476472804856045.html: 反馈：Dot 未经审阅就发出了邮件 (quota-report) <https://x.com/theKPSethi/status/2110476472804856045>
 - /cases/x-itsactuallyadam-2108999396641943753.html: 警告：Dot 的审批与权限流程需要大量看护 (quota-report) <https://x.com/itsactuallyadam/status/2108999396641943753>
+- /cases/medium-watchout-meta-muse-prompt-injection.html: 当心：恶意网页如何通过提示注入劫持 Muse (quota-report) <https://medium.com/@aizaai.net/watchout-meta-muse-prompt-injection-how-a-malicious-web-page-can-hijack-an-ai-agent-b3ff1f5f0151>
 - /cases/x-joshexile82-2107702223400476904.html: 警告：Dot 查一次邮件用了 5 分钟，还漏了重要邮件 (quota-report) <https://x.com/JoshExile82/status/2107702223400476904>
 - /cases/hn-49977588.html: 警告：Muse 上线数周的隐私与安全问题汇总（Techdirt） (quota-report) <https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/>
 - /cases/x-startupzombe-2107006035630375335.html: 警告：Dot 设好的每日自动化其实没有运行 (quota-report) <https://x.com/StartupZombE/status/2107006035630375335>
+- /cases/x-lumirth-2107139755049623786.html: Dot 的两个坑：难以导入已有上下文、容易误删 (quota-report) <https://x.com/lumirth/status/2107139755049623786>
+- /cases/x-embwl0x-2106497425552925059.html: 反馈：Dot 像失忆，记不住此前内容 (quota-report) <https://x.com/embw_l0x/status/2106497425552925059>
 - /cases/x-andonisthegreat-2105343739191234574.html: 警告：Muse 自行清空，两周设置全部丢失 (quota-report) <https://x.com/AndonisTheGreat/status/2105343739191234574>
+- /cases/x-iharnoorsingh-2104426822310211736.html: 风险：Muse 帮忙卖东西时泄露了卖家地址 (quota-report) <https://x.com/iHarnoorSingh/status/2104426822310211736>
+- /cases/gh-mahdi-salmanzade-meta-muse-teardown.html: 独立拆解：Muse 客户端能访问什么 (quota-report) <https://github.com/mahdi-salmanzade/meta-muse-teardown>
 - /cases/x-shredbuilds-2101056644373152090.html: 警告：用量显示 100% 后 Muse Agent 仍在运行 (quota-report) <https://x.com/shredbuilds/status/2101056644373152090>
+- /cases/yt-wxchvdv8z9a.html: Grok Bot 最贵的三个坑 (quota-report) <https://www.youtube.com/watch?v=wXChVdv8Z9A>
 - /cases/x-achalaugustine-2099939323651252374.html: 警告：Muse 订热门餐厅时没先检查是否需要信用卡 (quota-report) <https://x.com/achalaugustine/status/2099939323651252374>

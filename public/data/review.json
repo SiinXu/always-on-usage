@@ -10,6 +10,17 @@
       "summary": "HyperGrok-style seven-agent trading desk ported to Webull OpenAPI for US users—research, size, approve-by-id execution and review Bots with paper sandbox before live keys.",
       "usage_notes": null,
       "author": null,
+      "text": "Bull Desk",
+      "media": [],
+      "outline": [
+        "You approve every order, by ticket id, after seeing the exact order.",
+        "Sandbox first. WEBULL_ENVIRONMENT=uat is the default everywhere. Live (prod) exists only behind the written gate in docs/GO-LIVE.md.",
+        "Credentials cannot move money. Webull's Trading API has no withdrawal, transfer or ACH endpoints; those live in a separate enterprise product this desk never",
+        "One writer. Six Bots read; one Bot sends, once per approval, and reconciles by client order id.",
+        "Two risk layers. The desk's ticket protocol on top, and the webull-skill CLI's own risk engine underneath: max notional, max quantity and a symbol whitelist",
+        "A reviewer who keeps you honest. Process and outcome graded separately, in a journal you can read."
+      ],
+      "src": "github",
       "slug": "bull-desk-webull-trading-116",
       "needs_review": true
     },
@@ -22,6 +33,10 @@
       "summary": "Public playbooks, signal schema, and box-side scripts for a multi-Bot Grok Bot memecoin research squad that only analyzes and never holds keys.",
       "usage_notes": null,
       "author": null,
+      "text": null,
+      "media": [],
+      "outline": null,
+      "src": "github",
       "slug": "grok-meme-desk-playbooks-127",
       "needs_review": true
     },
@@ -34,6 +49,10 @@
       "summary": "Paste-ready prompt that has a Grok Bot build a seven-agent paper-trading desk swarm on its cloud computer and open a shared Trading Floor group.",
       "usage_notes": null,
       "author": null,
+      "text": "HyperGrok Trading Desk — Grok Bot Swarm Setup",
+      "media": [],
+      "outline": null,
+      "src": "github",
       "slug": "hypergrok-trading-desk-setup-prompt-130",
       "needs_review": true
     },
@@ -46,6 +65,10 @@
       "summary": "Public build-in-public case of an autonomous AI board of directors of Grok Bots running a Solana DeFi company.",
       "usage_notes": null,
       "author": null,
+      "text": "An autonomous AI board of directors building a Solana DeFi company in public.",
+      "media": [],
+      "outline": null,
+      "src": "github",
       "slug": "grokbot-board-public-defi-directors-136",
       "needs_review": true
     },
@@ -58,6 +81,13 @@
       "summary": "Field case: a Grok Bot tasked only to trade memecoins autonomously launched its own token (VOXA) and grew a small stack overnight under a risk-review agent.",
       "usage_notes": null,
       "author": null,
+      "text": "我靠，我的 Grok bot 跑到一半自己发了个币。我压根没让它这么干。\n\n512 刀 → 7940 刀。19 个小时。没人让它发任何币，它跑着跑着突然自己开干，估计觉得光交易不过瘾。\n\n一开始我就给它一个活：找 meme 币、交易 meme 币。每动一分钱之前，都让风控 agent 先审一遍。\n\n结果这轮跑到一半，它自己发了个币叫 VOXA，纯粹为了吃交易量里的手续费。这根本不在指令里。\n\n它自己就认定：收自己币的手续费，就是桌上白捡的钱，不拿白不拿。\n\n这轮实际跑起来大概是这样：\n\n- 胜率全程都很高\n- 几笔爆赚撑起了大部分收益\n- 雷达不停扫几千个交易对，才锁到一个值得下手的\n- 前一段一直横着，然后猛地突破，之后一路加速\n- 它自己那个币的盘口就挂在雷达旁边，实时刷新，买盘卖盘一直跳\n\n我看着雷达锁定一个目标，标记为干净，接着把 VOXA 的盘口拉到旁边。\n\n一边买盘，一边卖盘。价差实时跳。那感觉就像它故意让我看：瞧，我在干活。\n\n我只是让它去交易，结果它回来的时候，自己搞出了第二条收入来源，我压根没要求过。\n\n还搭了个界面，干净到我有一瞬间都忘了：我看的是 bot 的仪表盘，不是真实交易台。",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2105526264656482305/img/ELZycJ4vlagQNN_Z.jpg"
+      ],
+      "outline": null,
+      "src": "x",
+      "likes": 2,
       "slug": "0xtoji-grok-bot-trading-agent-mints-its-own-meme-coin-230",
       "needs_review": true
     },

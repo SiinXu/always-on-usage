@@ -1,17 +1,112 @@
 {
   "products": {
-    "openai-dots": {"hn": ["\"OpenAI Dots\"", "ChatGPT Dots", "openai dot agent"], "reddit": ["\"openai dots\"", "\"chatgpt dots\""], "match": "(openai|chatgpt)[^\\n]{0,80}\\bdots?\\b|\\bdots?\\b[^\\n]{0,80}(openai|chatgpt)|#dots\\b|\\bmy dots?\\b"},
-    "meta-muse": {"hn": ["\"Meta Muse\"", "muse.ai meta agent"], "reddit": ["\"meta muse\""], "match": "\\bmeta\\b[^\\n]{0,80}\\bmuse\\b|\\bmuse\\b[^\\n]{0,80}\\bmeta\\b|muse\\.ai|#metamuse"},
-    "grok-bot": {"hn": ["\"Grok Bot\"", "grok @bot"], "reddit": ["\"grok bot\""], "match": "grok ?bot|grok[^\\n]{0,40}@bot|@bot[^\\n]{0,40}grok"}
+    "openai-dots": {
+      "hn": [
+        "\"OpenAI Dots\"",
+        "ChatGPT Dots",
+        "openai dot agent",
+        "\"Dots\" OpenAI agent",
+        "\"ChatGPT Dots\" always-on"
+      ],
+      "reddit": [
+        "\"openai dots\"",
+        "\"chatgpt dots\"",
+        "\"dots\" openai agent"
+      ],
+      "match": "(openai|chatgpt)[^\\n]{0,80}\\bdots?\\b|\\bdots?\\b[^\\n]{0,80}(openai|chatgpt)|#dots\\b|\\bmy dots?\\b",
+      "youtube": [
+        "\"OpenAI Dots\"",
+        "\"ChatGPT Dots\" agent",
+        "OpenAI Dots tutorial",
+        "OpenAI Dots use cases"
+      ],
+      "github": [
+        "\"OpenAI Dots\"",
+        "\"chatgpt dots\"",
+        "openai-dots"
+      ]
+    },
+    "meta-muse": {
+      "hn": [
+        "\"Meta Muse\"",
+        "muse.ai meta agent",
+        "\"Muse\" Meta AI agent"
+      ],
+      "reddit": [
+        "\"meta muse\"",
+        "\"muse\" meta agent"
+      ],
+      "match": "\\bmeta\\b[^\\n]{0,80}\\bmuse\\b|\\bmuse\\b[^\\n]{0,80}\\bmeta\\b|muse\\.ai|#metamuse",
+      "youtube": [
+        "\"Meta Muse\" AI",
+        "Meta Muse agent tutorial",
+        "Meta Muse use cases"
+      ],
+      "github": [
+        "\"Meta Muse\"",
+        "meta-muse"
+      ]
+    },
+    "grok-bot": {
+      "hn": [
+        "\"Grok Bot\"",
+        "grok @bot",
+        "\"Grok Bot\" agent",
+        "Grokbot"
+      ],
+      "reddit": [
+        "\"grok bot\"",
+        "grokbot"
+      ],
+      "match": "grok ?bot|grok[^\\n]{0,40}@bot|@bot[^\\n]{0,40}grok",
+      "youtube": [
+        "\"Grok Bot\"",
+        "Grok Bot agent tutorial",
+        "Grokbot use cases"
+      ],
+      "github": [
+        "\"Grok Bot\"",
+        "grokbot",
+        "grok-bot"
+      ]
+    }
   },
   "rss": [
-    {"name": "OpenAI", "url": "https://openai.com/news/rss.xml"},
-    {"name": "Meta Newsroom", "url": "https://about.fb.com/news/feed/"}
+    {
+      "name": "OpenAI",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "name": "Meta Newsroom",
+      "url": "https://about.fb.com/news/feed/"
+    }
   ],
   "x_queries_for_runner": {
     "openai-dots": "(\"openai dots\" OR \"chatgpt dots\" OR \"my dot\" OR #dots) -is:retweet lang:en",
+    "openai-dots-usecases": "(\"openai dots\" OR \"chatgpt dots\") (built OR automated OR workflow OR routine OR \"every morning\" OR tutorial) -is:retweet",
     "meta-muse": "(\"meta muse\" OR \"muse.ai\" OR #metamuse) -is:retweet",
-    "grok-bot": "(\"grok bot\" OR \"@bot\" grok) -is:retweet"
+    "meta-muse-usecases": "(\"meta muse\") (built OR automated OR workflow OR \"use case\" OR tutorial OR tried) -is:retweet",
+    "grok-bot": "(\"grok bot\" OR \"@bot\" grok) -is:retweet",
+    "grok-bot-usecases": "(\"grok bot\" OR grokbot) (built OR automated OR workflow OR routine OR \"set up\" OR tutorial) -is:retweet",
+    "always-on": "(\"always-on agent\" OR \"always on agent\" OR \"background agent\") (grok OR dots OR muse) -is:retweet",
+    "named-use-cases": "(\"grok bot\" OR \"openai dots\" OR \"meta muse\") (apartment OR rent OR groceries OR inbox OR \"pull request\" OR flights OR \"job search\" OR newsletter OR calendar) -is:retweet"
   },
-  "exclude": "meme ?coin|memecoin|crypto|defi|solana|airdrop|nft|referral|invite code|promo code|giveaway|发币"
+  "exclude": "\\b(meme ?coins?|memecoins?|crypto\\w*|defi|solana|airdrops?|nfts?|referral (code|link)s?|invite codes?|promo codes?|giveaways?)\\b|发币",
+  "medium_tags": [
+    "ai-agents",
+    "openai",
+    "chatgpt",
+    "meta-ai",
+    "grok",
+    "automation",
+    "agentic-ai"
+  ],
+  "devto_tags": [
+    "ai",
+    "agents",
+    "openai",
+    "automation",
+    "productivity"
+  ],
+  "x_runner_notes": "Run each query with the x MCP search_posts_all (max_results 100, expansions author_id,attachments.media_keys, user.fields username, media.fields url,preview_image_url). On HTTP 429 wait 60s, then 120s, then 240s before giving up on that query; move on to the next. Save each raw response to content-inbox/inbox/x/<query-key>-<timestamp>.json."
 }

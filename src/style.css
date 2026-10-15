@@ -459,3 +459,25 @@ ul.steps{gap:10px}
 .more-q summary{cursor:pointer;color:var(--accent);font-size:14px;margin-top:8px;list-style:none}
 .more-q summary::-webkit-details-marker{display:none}
 .more-q[open] summary{display:none}
+/* v12: completeness checklist, verbatim prompt, source outline */
+.checks{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 8px}
+.checks li{font-size:12.5px;padding:4px 10px;border-radius:999px;border:1px solid var(--line);color:var(--muted);display:inline-flex;gap:6px;align-items:center}
+.checks li.y{color:var(--ink);border-color:color-mix(in oklab,var(--accent) 45%,var(--line))}
+.checks li.y span[aria-hidden]{color:var(--accent)}
+.checks li.n{opacity:.7;border-style:dashed}
+pre.prompt{white-space:pre-wrap;word-break:break-word;font:13px/1.6 var(--mono);background:color-mix(in oklab,var(--ink) 5%,transparent);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0}
+ol.outline{font-size:14px}
+ol.outline li{margin:2px 0}
+.agg-table{width:100%;border-collapse:collapse;font-size:14px}
+.agg-table th,.agg-table td{border-bottom:1px solid var(--line);padding:10px 8px;text-align:left;vertical-align:top}
+.agg-table th{font-weight:600;color:var(--muted);font-size:12.5px}
+.agg-table td a{display:block;font-size:13px;line-height:1.4;margin:3px 0}
+.agg-table .n{font:500 20px/1 var(--mono);display:block;margin-bottom:4px}
+.agg-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.agg-grid{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.agg-grid a{display:block;border:1px solid var(--line);border-radius:14px;padding:16px;text-decoration:none;color:inherit}
+.agg-grid a:hover{border-color:var(--accent)}
+.agg-grid b{display:block;font:500 28px/1.1 var(--mono);margin-bottom:6px}
+.agg-grid small{color:var(--muted);font-size:12.5px}
+.agg-table th[scope=row]{min-width:7.5em;white-space:nowrap}
+@media (max-width:720px){.agg-table th[scope=row]{white-space:normal;min-width:5.5em}.agg-table td{min-width:9em}}
