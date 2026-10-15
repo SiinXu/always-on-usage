@@ -1,5 +1,5 @@
 # 常驻用量 Always-on Usage
-> Always-on Agents 的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。评测层，不是模板目录。对照与计算器为估算方向；案例为公开条目聚合（1506 条）。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
+> Always-on Agents 的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。评测层，不是模板目录。对照与计算器为估算方向；案例为公开条目聚合（1508 条）。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse 对照矩阵
@@ -609,6 +609,8 @@
 - /cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html: herdr-web-ui: watch always-on coding agents from your phone and browser (field-case) <https://github.com/devswha/herdr-web-ui>
 - /cases/x-simonsmith-2110425007059017830.html: 用 Dot 在 ChatGPT 里做了两个个人 App (field-case) <https://x.com/_simonsmith/status/2110425007059017830>
 - /cases/x-jacobilin-2110456534220329453.html: 给多个 Agent 做了任务看板：Dot、Grok Bot、Claude Code (field-case) <https://x.com/jacobilin/status/2110456534220329453>
+- /cases/hn-50070313.html: Helicon：给 Muse Code CLI 做的开源桌面客户端 (field-case) <https://github.com/HarjjotSinghh/helicon>
+- /cases/hn-50074512.html: Muse Souls：给 Muse 写 9 套 SOUL.md 人格的实测 (field-case) <https://github.com/bkawa-io/muse-souls>
 - /cases/x-reidhslaughter-2109645099479036095.html: Dotcord：让 Dots、Grok Bot、Claude 在 Discord 实时交接 (field-case) <https://x.com/reidhslaughter/status/2109645099479036095>
 - /cases/x-chillwaterson-2109322448214667530.html: Dot 按实际用电找到更便宜的电费套餐 (field-case) <https://x.com/ChillWaterson/status/2109322448214667530>
 - /cases/x-raddadjokes7-2109305097880519124.html: 夫妻两个 Muse 协作：共享歌单和共享日历 (field-case) <https://x.com/raddadjokes7/status/2109305097880519124>

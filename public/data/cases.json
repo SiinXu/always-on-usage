@@ -1,6 +1,6 @@
 {
   "note": "公开条目聚合 / aggregated public items; see source_url",
-  "count": 1506,
+  "count": 1508,
   "fetched_at": "2026-10-12T11:54:58.322933+00:00",
   "items": [
     {
@@ -8319,6 +8319,141 @@
       "slug": "x-jacobilin-2110456534220329453",
       "scen": [
         "ship"
+      ]
+    },
+    {
+      "title": "Helicon：给 Muse Code CLI 做的开源桌面客户端",
+      "summary": "作者每天用 Meta 的 Muse Code CLI，多项目多会话在终端里难管理，于是用 Tauri 2 + React 做了桌面应用和 VS Code 扩展：调用 muse serve、沿用现有 muse login 和订阅，可续接终端会话、内联审批 diff、直接看 5 小时和每周额度；MIT 开源，已到 v0.21.9，9 人贡献。",
+      "en": {
+        "title": "Helicon: an open-source desktop client for the Muse Code CLI",
+        "summary": "The author uses Meta's Muse Code CLI daily and found many sessions across projects hard to manage in the terminal, so he built a desktop app and VS Code extension with Tauri 2 and React. It runs muse serve, reuses your muse login and plan, resumes terminal sessions, shows inline diffs to approve, and displays 5-hour and weekly limits. MIT licensed, v0.21.9, 9 contributors."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Helicon：给 Muse Code CLI 做的开源桌面客户端",
+          "summary": "作者每天用 Meta 的 Muse Code CLI，多项目多会话在终端里难管理，于是用 Tauri 2 + React 做了桌面应用和 VS Code 扩展：调用 muse serve、沿用现有 muse login 和订阅，可续接终端会话、内联审批 diff、直接看 5 小时和每周额度；MIT 开源，已到 v0.21.9，9 人贡献。"
+        },
+        "zh-TW": {
+          "title": "Helicon：為 Muse Code CLI 打造的開源桌面客戶端",
+          "summary": "作者每天使用 Meta 的 Muse Code CLI，多專案多工作階段在終端機裡難以管理，於是以 Tauri 2 + React 做了桌面應用與 VS Code 擴充：呼叫 muse serve、沿用現有 muse login 與訂閱，可接續終端機工作階段、內嵌審核 diff、直接查看 5 小時與每週額度；MIT 開源，已到 v0.21.9，9 人貢獻。"
+        },
+        "en": {
+          "title": "Helicon: an open-source desktop client for the Muse Code CLI",
+          "summary": "The author uses Meta's Muse Code CLI daily and found many sessions across projects hard to manage in the terminal, so he built a desktop app and VS Code extension with Tauri 2 and React. It runs muse serve, reuses your muse login and plan, resumes terminal sessions, shows inline diffs to approve, and displays 5-hour and weekly limits. MIT licensed, v0.21.9, 9 contributors."
+        },
+        "ja": {
+          "title": "Helicon：Muse Code CLI 向けオープンソースのデスクトップクライアント",
+          "summary": "作者は Meta の Muse Code CLI を毎日使い、複数プロジェクト・複数セッションをターミナルで管理しにくかったため、Tauri 2 と React でデスクトップアプリと VS Code 拡張を作成。muse serve を動かし既存の muse login とプランを流用、ターミナルのセッション再開、インライン diff の承認、5時間・週次の上限表示に対応。MIT ライセンス、v0.21.9、貢献者9人。"
+        },
+        "ko": {
+          "title": "Helicon: Muse Code CLI용 오픈소스 데스크톱 클라이언트",
+          "summary": "작성자는 Meta의 Muse Code CLI를 매일 쓰면서 여러 프로젝트·세션을 터미널에서 관리하기 어려워 Tauri 2와 React로 데스크톱 앱과 VS Code 확장을 만들었다. muse serve를 실행하고 기존 muse login과 요금제를 그대로 쓰며, 터미널 세션 재개, 인라인 diff 승인, 5시간·주간 한도 표시를 지원한다. MIT 라이선스, v0.21.9, 기여자 9명."
+        },
+        "ms": {
+          "title": "Helicon: klien desktop sumber terbuka untuk Muse Code CLI",
+          "summary": "Penulis menggunakan Muse Code CLI Meta setiap hari dan sukar mengurus banyak sesi merentas projek dalam terminal, lalu membina aplikasi desktop dan sambungan VS Code dengan Tauri 2 dan React. Ia menjalankan muse serve, menggunakan semula muse login dan pelan sedia ada, menyambung sesi terminal, meluluskan diff sebaris dan memaparkan had 5 jam serta mingguan. Lesen MIT, v0.21.9, 9 penyumbang."
+        },
+        "vi": {
+          "title": "Helicon: ứng dụng desktop mã nguồn mở cho Muse Code CLI",
+          "summary": "Tác giả dùng Muse Code CLI của Meta hằng ngày và thấy khó quản lý nhiều phiên trên nhiều dự án trong terminal, nên đã làm ứng dụng desktop và tiện ích VS Code bằng Tauri 2 và React. Nó chạy muse serve, dùng lại muse login và gói hiện có, tiếp tục phiên từ terminal, duyệt diff ngay trong dòng và hiển thị hạn mức 5 giờ và hằng tuần. Giấy phép MIT, v0.21.9, 9 người đóng góp."
+        },
+        "fr": {
+          "title": "Helicon : un client de bureau open source pour Muse Code CLI",
+          "summary": "L'auteur utilise chaque jour Muse Code CLI de Meta et gérait mal de nombreuses sessions sur plusieurs projets dans le terminal ; il a donc créé une app de bureau et une extension VS Code avec Tauri 2 et React. Elle lance muse serve, réutilise votre muse login et votre forfait, reprend les sessions du terminal, permet d'approuver des diffs en ligne et affiche les limites sur 5 heures et hebdomadaires. Licence MIT, v0.21.9, 9 contributeurs."
+        },
+        "es": {
+          "title": "Helicon: un cliente de escritorio de código abierto para Muse Code CLI",
+          "summary": "El autor usa a diario Muse Code CLI de Meta y le costaba gestionar muchas sesiones en varios proyectos desde la terminal, así que creó una app de escritorio y una extensión de VS Code con Tauri 2 y React. Ejecuta muse serve, reutiliza tu muse login y tu plan, retoma sesiones de la terminal, permite aprobar diffs en línea y muestra los límites de 5 horas y semanales. Licencia MIT, v0.21.9, 9 colaboradores."
+        },
+        "de": {
+          "title": "Helicon: ein Open-Source-Desktop-Client für die Muse Code CLI",
+          "summary": "Der Autor nutzt Metas Muse Code CLI täglich und fand viele Sitzungen über mehrere Projekte im Terminal schwer zu verwalten. Deshalb baute er mit Tauri 2 und React eine Desktop-App und eine VS-Code-Erweiterung. Sie startet muse serve, nutzt dein bestehendes muse login und deinen Plan, setzt Terminal-Sitzungen fort, zeigt Inline-Diffs zur Freigabe und die 5-Stunden- und Wochenlimits. MIT-Lizenz, v0.21.9, 9 Mitwirkende."
+        }
+      },
+      "source_url": "https://github.com/HarjjotSinghh/helicon",
+      "source_name": "Hacker News",
+      "author": "Harjot (harjjotsinghh)",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-10-13",
+      "likes": 2,
+      "src": "hn",
+      "text": "Show HN: Helicon – Desktop App for Meta's Muse Code CLI (Linux, Windows, macOS)\nHi Hacker News, I&#x27;m Harjot. I&#x27;ve been using Meta&#x27;s Muse Code CLI daily for a few weeks now. One thing that I found difficult to handle was managing or controlling multiple sessions across multiple projects, while using the terminal for the muse CLI. Initially, I used cmux to create workspaces&#x2F;groups for my different projects to group them, and then created 4 split terminals in each of those projects, that ran muse code sessions in each of them. It worked, but it was ugly. I didn&#x27;t like using that. It could be because I&#x27;m not really a terminal person and would much rather prefer a proper dedicated GUI or desktop&#x2F;app interface, and I would prefer it any time over a terminal screen or CLI. So it might be personal preference but yeah.<p>So, I started building a desktop app around it, mainly to scratch my own itch.<p>Helicon is a desktop app for Windows, macOS and Linux, plus a VS Code extension that also works in Cursor and Devin. It doesn&#x27;t replace the CLI. It runs `muse serve` and talks to it, and it reuses your existing `muse login`, so you don&#x27;t have to get an API key and you don&#x27;t pay an extra bill. You can use your existing Muse Code subscription plans.<p>Some things that I use the most:\n1. Resuming sessions that I started in the terminal. I don&#x27;t start many sessions in the terminal now that Helicon exists, but initially I wanted to access all the sessions that were running in a terminal to be accessible from Helicon, when it was created initially.\n2. Inline diffs that I can approve, similar to how Cursor works.\n3. I can clearly see my 5-hour and weekly plan limits directly from the app itself and don&#x27;t have to manually keep going to Meta&#x27;s Muse Code billing page and manually keep refreshing the page to see my current usage&#x2F;limits.<p>I built it using Tauri 2 and React. It is MIT licensed. I built a lot of it with AI ",
+      "media": [],
+      "added_at": "2026-10-15T12:29:08.717Z",
+      "discussion": "https://news.ycombinator.com/item?id=50070313",
+      "usage_notes": null,
+      "slug": "hn-50070313",
+      "scen": [
+        "report",
+        "ship"
+      ]
+    },
+    {
+      "title": "Muse Souls：给 Muse 写 9 套 SOUL.md 人格的实测",
+      "summary": "作者为 Meta Muse 写了 9 个自创角色，每个带 SOUL.md、IDENTITY.md、NAMES.md 和插画，开源在 GitHub。她的反馈是 Muse 很难真正采用给定人设，连写作风格这类基本偏好都难以遵循，而 Claude 按 soul.md 执行得不错；原因尚不清楚，效果因人而异。",
+      "en": {
+        "title": "Muse Souls: testing nine custom SOUL.md personas on Muse",
+        "summary": "The author wrote nine original characters for Meta Muse, each with SOUL.md, IDENTITY.md, NAMES.md and artwork, open-sourced on GitHub. Her finding: Muse struggled to adopt a given persona or even follow basic preferences like writing style, while Claude follows soul.md files well in her experience. She is unsure why; results may vary."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Muse Souls：给 Muse 写 9 套 SOUL.md 人格的实测",
+          "summary": "作者为 Meta Muse 写了 9 个自创角色，每个带 SOUL.md、IDENTITY.md、NAMES.md 和插画，开源在 GitHub。她的反馈是 Muse 很难真正采用给定人设，连写作风格这类基本偏好都难以遵循，而 Claude 按 soul.md 执行得不错；原因尚不清楚，效果因人而异。"
+        },
+        "zh-TW": {
+          "title": "Muse Souls：為 Muse 撰寫 9 套 SOUL.md 人格的實測",
+          "summary": "作者為 Meta Muse 寫了 9 個自創角色，每個附 SOUL.md、IDENTITY.md、NAMES.md 與插畫，開源於 GitHub。她的回饋是 Muse 很難真正採用指定人設，連寫作風格這類基本偏好都難以遵循，而 Claude 依 soul.md 執行得不錯；原因尚不清楚，效果因人而異。"
+        },
+        "en": {
+          "title": "Muse Souls: testing nine custom SOUL.md personas on Muse",
+          "summary": "The author wrote nine original characters for Meta Muse, each with SOUL.md, IDENTITY.md, NAMES.md and artwork, open-sourced on GitHub. Her finding: Muse struggled to adopt a given persona or even follow basic preferences like writing style, while Claude follows soul.md files well in her experience. She is unsure why; results may vary."
+        },
+        "ja": {
+          "title": "Muse Souls：Muse で9種類の SOUL.md ペルソナを試した記録",
+          "summary": "作者は Meta Muse 向けにオリジナルキャラクター9体を作成し、それぞれ SOUL.md・IDENTITY.md・NAMES.md とイラストを付けて GitHub で公開。Muse は指定したペルソナや文体などの基本的な好みにも従いにくく、一方 Claude は soul.md によく従うという感想。原因は不明で、結果は人によって異なるとしている。"
+        },
+        "ko": {
+          "title": "Muse Souls: Muse에 SOUL.md 페르소나 9종을 적용해 본 기록",
+          "summary": "작성자는 Meta Muse용 자작 캐릭터 9개를 만들고 각각 SOUL.md, IDENTITY.md, NAMES.md와 그림을 붙여 GitHub에 공개했다. Muse는 지정한 페르소나는 물론 문체 같은 기본 선호도도 잘 따르지 않았고, Claude는 soul.md를 잘 따랐다고 한다. 원인은 불분명하며 결과는 사람마다 다를 수 있다."
+        },
+        "ms": {
+          "title": "Muse Souls: menguji sembilan persona SOUL.md tersuai pada Muse",
+          "summary": "Penulis mencipta sembilan watak asli untuk Meta Muse, setiap satu dengan SOUL.md, IDENTITY.md, NAMES.md dan karya seni, dikongsi secara sumber terbuka di GitHub. Dapatannya: Muse sukar menerima persona yang diberi atau mengikut keutamaan asas seperti gaya penulisan, manakala Claude mengikut fail soul.md dengan baik. Puncanya tidak pasti; hasil mungkin berbeza."
+        },
+        "vi": {
+          "title": "Muse Souls: thử chín persona SOUL.md tự viết trên Muse",
+          "summary": "Tác giả tạo chín nhân vật riêng cho Meta Muse, mỗi nhân vật có SOUL.md, IDENTITY.md, NAMES.md và hình minh họa, mã nguồn mở trên GitHub. Nhận xét của cô: Muse khó nhận persona được giao, thậm chí khó theo các tùy chọn cơ bản như văn phong, trong khi Claude làm theo soul.md khá tốt. Chưa rõ nguyên nhân; kết quả có thể khác nhau."
+        },
+        "fr": {
+          "title": "Muse Souls : neuf personas SOUL.md personnalisés testés sur Muse",
+          "summary": "L'autrice a écrit neuf personnages originaux pour Meta Muse, chacun avec SOUL.md, IDENTITY.md, NAMES.md et des illustrations, publiés en open source sur GitHub. Son constat : Muse peine à adopter un persona donné, voire à suivre des préférences de base comme le style d'écriture, alors que Claude suit bien les fichiers soul.md selon son expérience. Elle ignore pourquoi ; les résultats peuvent varier."
+        },
+        "es": {
+          "title": "Muse Souls: probando nueve personas SOUL.md propias en Muse",
+          "summary": "La autora escribió nueve personajes originales para Meta Muse, cada uno con SOUL.md, IDENTITY.md, NAMES.md e ilustraciones, publicados como código abierto en GitHub. Su conclusión: a Muse le costó adoptar la persona indicada o incluso seguir preferencias básicas como el estilo de escritura, mientras que Claude sigue bien los soul.md según su experiencia. No sabe por qué; los resultados pueden variar."
+        },
+        "de": {
+          "title": "Muse Souls: neun eigene SOUL.md-Personas auf Muse getestet",
+          "summary": "Die Autorin schrieb neun eigene Figuren für Meta Muse, jede mit SOUL.md, IDENTITY.md, NAMES.md und Artwork, als Open Source auf GitHub. Ihr Befund: Muse übernahm eine vorgegebene Persona kaum und folgte nicht einmal Grundvorgaben wie dem Schreibstil, während Claude soul.md-Dateien ihrer Erfahrung nach gut befolgt. Den Grund kennt sie nicht; Ergebnisse können variieren."
+        }
+      },
+      "source_url": "https://github.com/bkawa-io/muse-souls",
+      "source_name": "Hacker News",
+      "author": "Brigitte Kawaguchi (bkawa-io)",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-10-13",
+      "likes": 2,
+      "src": "hn",
+      "text": "Failing to give Meta Muse a soul",
+      "media": [],
+      "added_at": "2026-10-15T12:29:08.717Z",
+      "discussion": "https://news.ycombinator.com/item?id=50074512",
+      "usage_notes": null,
+      "slug": "hn-50074512",
+      "scen": [
+        "prs"
       ]
     },
     {
