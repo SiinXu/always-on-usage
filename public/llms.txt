@@ -1,5 +1,11 @@
 # 常驻用量 Always-on Usage
-> Always-on Agents 的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。评测层，不是模板目录。对照与计算器为估算方向；案例为公开条目聚合（1648 条）。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
+> Always-on Agents（Grok Bot、OpenAI Dots、Meta Muse）的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。给想长期跑 Bot、又怕烧额度的人用。评测层，不是模板目录。对照与计算器为估算方向，非厂商 SLA；案例为公开条目聚合（1648 条，另有 26 篇 X 案例），每条附作者与原文链接。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
+
+- Site: https://usage.incidental.site/
+- Languages: zh-CN (default), zh-TW, en, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
+- Sitemap: https://usage.incidental.site/sitemap.xml
+- Full text for LLMs: https://usage.incidental.site/llms-full.txt
+- Last updated: 2026-10-15T15:07:59.828Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse 对照矩阵
