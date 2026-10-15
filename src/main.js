@@ -9,6 +9,8 @@ const applyI18n=()=>{document.documentElement.lang=LANG;
  document.querySelectorAll("[data-i18n]").forEach(el=>{const s=pick(S[el.dataset.i18n]);if(s==null)return;const h=fillv(s,el);if(el.tagName==="TITLE"){document.title=h.replace(/<[^>]+>/g,"")+" | "+(pick(S[Object.keys(S).find(k=>S[k][0]==="常驻用量")])||"常驻用量");return}if(el.classList.contains("decrypt"))el.textContent=h;else el.innerHTML=h});
  for(const at of ["aria-label","content","placeholder","title"])document.querySelectorAll(`[data-i18n-${at}]`).forEach(el=>{const s=pick(S[el.getAttribute("data-i18n-"+at)]);if(s!=null)el.setAttribute(at,fillv(s,el))});
  document.querySelectorAll(".lx").forEach(el=>{if(!el.dataset.zh)el.dataset.zh=el.textContent;el.textContent=LANG.startsWith("zh")?el.dataset.zh:el.dataset.en});
+ const TL=document.getElementById("tl");if(TL){const m=TL._m||(TL._m=JSON.parse(TL.textContent));document.querySelectorAll("[data-tl]").forEach(el=>{const r=m[el.dataset.tl];if(r){const h=r[LANG]??r.en;if(h!=null)el.innerHTML=h}})}
+ document.querySelectorAll("time[data-ts],time[data-d]").forEach(el=>{try{const ts=el.dataset.ts;const d=new Date(ts||el.dataset.d+"T12:00:00Z");el.textContent=ts?new Intl.DateTimeFormat(LANG,el.classList.contains("d")?{dateStyle:"medium"}:{dateStyle:"medium",timeStyle:"short"}).format(d):new Intl.DateTimeFormat(LANG,{dateStyle:"medium",timeZone:"UTC"}).format(d);if(ts)el.title=ts}catch(e){}});
  document.documentElement.classList.remove("i18n-wait")};
 applyI18n();
 const sel=document.getElementById("lang");if(sel){sel.value=LANG;sel.addEventListener("change",()=>{LANG=sel.value;try{localStorage.lang=LANG}catch(e){}applyI18n();document.dispatchEvent(new Event("langchange"))})}
@@ -56,10 +58,14 @@ if(f){const knob=$(".knob",f),inp=f.elements.bots,num=$("[data-bots]",f),out=$("
  knob.addEventListener("pointermove",e=>{if(!drag)return;setB(drag.v+((drag.y-e.clientY)+(e.clientX-drag.x))/14)});
  ["pointerup","pointercancel"].forEach(t=>knob.addEventListener(t,()=>{drag=null;knob.classList.remove("drag")}));
  $$("[data-step]",f).forEach(b=>b.addEventListener("click",()=>setB(+inp.value+ +b.dataset.step)));
- f.addEventListener("change",run);document.addEventListener("langchange",()=>setB(+inp.value));f.addEventListener("submit",e=>e.preventDefault());setB(3);}
+ f.addEventListener("change",run);document.addEventListener("langchange",()=>setB(+inp.value));f.addEventListener("submit",e=>e.preventDefault());const CP=new URLSearchParams(location.search);if(CP.get("routine")){const r=[...f.querySelectorAll('[name="routine"]')].find(x=>x.value===CP.get("routine"));if(r)r.checked=true}if(CP.get("browser")==="on"&&f.elements.browser)f.elements.browser.checked=true;setB(+CP.get("bots")||3);}
 // case search + filters (type/product chips, ?q= / ?type= in URL)
-const q=$("#q");if(q){const st={type:"",product:"",scen:""},P=new URLSearchParams(location.search);q.value=P.get("q")||"";
+const q=$("#q");if(q){const st={type:"",product:"",scen:""},P=new URLSearchParams(location.search),PER=48,more=$("#more");let lim=PER;q.value=P.get("q")||"";
  const sync=()=>$$(".chip").forEach(c=>c.setAttribute("aria-pressed",String(st[c.dataset.f]===c.dataset.v)));
- const run=()=>{const v=q.value.trim().toLowerCase();let n=0;$$("#list li").forEach(li=>{const hit=(!v||li.dataset.q.includes(v))&&(!st.type||li.dataset.type===st.type)&&(!st.product||li.dataset.product===st.product)&&(!st.scen||li.dataset.scen.split(" ").includes(st.scen));li.hidden=!hit;n+=hit});$("#empty").hidden=n>0;$("#shown").textContent=n};
- $$(".chip").forEach(c=>c.addEventListener("click",()=>{st[c.dataset.f]=c.dataset.v;sync();run()}));
- if(P.get("type"))st.type=P.get("type");if(P.get("product"))st.product=P.get("product");if(P.get("scen"))st.scen=P.get("scen");sync();q.addEventListener("input",run);run()}
+ const run=()=>{const v=q.value.trim().toLowerCase();let n=0;$$("#list li").forEach(li=>{const hit=(!v||li.dataset.q.includes(v))&&(!st.type||li.dataset.type===st.type)&&(!st.product||li.dataset.product===st.product)&&(!st.scen||li.dataset.scen.split(" ").includes(st.scen));li.hidden=!hit||n>=lim;n+=hit});$("#empty").hidden=n>0;const sh=$("#shown");if(sh)sh.textContent=n;if(more){more.hidden=n<=lim;const l=$("[data-left]",more);if(l)l.textContent="("+Math.min(PER,n-lim)+" / "+(n-lim)+")"}};
+ if(more)more.addEventListener("click",()=>{lim+=PER;run()});document.addEventListener("langchange",()=>run());
+ $$(".chip").forEach(c=>c.addEventListener("click",()=>{st[c.dataset.f]=c.dataset.v;lim=PER;sync();run();const u=new URL(location.href);for(const k of ["type","product","scen"])st[k]?u.searchParams.set(k,st[k]):u.searchParams.delete(k);history.replaceState(null,"",u)}));
+ if(P.get("type"))st.type=P.get("type");if(P.get("product"))st.product=P.get("product");if(P.get("scen"))st.scen=P.get("scen");sync();q.addEventListener("input",()=>{lim=PER;run()});run()}
+
+// copy buttons for prompt blocks
+document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",async()=>{const c=b.closest(".code").querySelector("code").textContent;try{await navigator.clipboard.writeText(c);const o=b.innerHTML;b.textContent=t("已复制");setTimeout(()=>b.innerHTML=o,1600)}catch(e){}}));

@@ -1,0 +1,17 @@
+{
+  "products": {
+    "openai-dots": {"hn": ["\"OpenAI Dots\"", "ChatGPT Dots", "openai dot agent"], "reddit": ["\"openai dots\"", "\"chatgpt dots\""], "match": "(openai|chatgpt)[^\\n]{0,80}\\bdots?\\b|\\bdots?\\b[^\\n]{0,80}(openai|chatgpt)|#dots\\b|\\bmy dots?\\b"},
+    "meta-muse": {"hn": ["\"Meta Muse\"", "muse.ai meta agent"], "reddit": ["\"meta muse\""], "match": "\\bmeta\\b[^\\n]{0,80}\\bmuse\\b|\\bmuse\\b[^\\n]{0,80}\\bmeta\\b|muse\\.ai|#metamuse"},
+    "grok-bot": {"hn": ["\"Grok Bot\"", "grok @bot"], "reddit": ["\"grok bot\""], "match": "grok ?bot|grok[^\\n]{0,40}@bot|@bot[^\\n]{0,40}grok"}
+  },
+  "rss": [
+    {"name": "OpenAI", "url": "https://openai.com/news/rss.xml"},
+    {"name": "Meta Newsroom", "url": "https://about.fb.com/news/feed/"}
+  ],
+  "x_queries_for_runner": {
+    "openai-dots": "(\"openai dots\" OR \"chatgpt dots\" OR \"my dot\" OR #dots) -is:retweet lang:en",
+    "meta-muse": "(\"meta muse\" OR \"muse.ai\" OR #metamuse) -is:retweet",
+    "grok-bot": "(\"grok bot\" OR \"@bot\" grok) -is:retweet"
+  },
+  "exclude": "meme ?coin|memecoin|crypto|defi|solana|airdrop|nft|referral|invite code|promo code|giveaway|发币"
+}

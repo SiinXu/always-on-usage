@@ -1,1 +1,1 @@
-{"name":"always-on-usage","private":true,"type":"module","scripts":{"gen":"node gen.mjs","dev":"node gen.mjs && vite","build":"node gen.mjs && vite build","preview":"npx serve dist -l 4173"},"devDependencies":{"vite":"^5.4.0"}}
+{"name":"always-on-usage","private":true,"type":"module","scripts":{"gen":"node gen.mjs","dev":"node gen.mjs && vite","build":"node gen.mjs && vite build","preview":"npx serve dist -l 4173","update":"node scripts/update.mjs"},"devDependencies":{"vite":"^5.4.0"}}

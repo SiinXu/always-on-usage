@@ -11,7 +11,12 @@ export const productLabel={"grok-bot":"Grok Bot","multi":"多产品","openai-dot
 const slugify=(t,i)=>(t.toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,60)||"item")+"-"+i;
 export const fetchedAt=raw.fetched_at;
 export const all=raw.items.map((it,i)=>({...it,slug:slugify(it.title,i+1),needs_review:OOB.test(it.title+" "+(it.summary||"")+" "+(it.usage_notes||""))}));
-export const items=all.filter(x=>!x.needs_review&&x.source_url);
+// incremental ingest (scripts/update.mjs → content-inbox/ingest.json): stable slugs, 10-locale tr, original URL + author
+const IJ=(()=>{try{return JSON.parse(fs.readFileSync(new URL("./content-inbox/ingest.json",import.meta.url),"utf8"))}catch(e){return {items:[]}}})();
+export const lastIngest=IJ.last_ingest||raw.fetched_at;
+export const fresh=IJ.items.filter(x=>x.tr&&x.tr.en&&!OOB.test(x.tr.en.title+" "+x.tr.en.summary)).map(x=>({title:x.tr["zh-CN"].title,summary:x.tr["zh-CN"].summary,en:x.tr.en,tr:x.tr,source_url:x.url,source_name:x.source_name,author:x.author,product:x.product,type:x.type,date:x.date,likes:x.likes,src:x.source,text:x.text||null,media:x.media||[],added_at:x.added_at,discussion:x.discussion||null,usage_notes:null,
+  slug:(x.source==="x"?"x-"+String(x.author).toLowerCase().replace(/[^a-z0-9]+/g,"")+"-":x.id.split(":")[0]+"-")+x.id.split(":").slice(1).join("-").replace(/[^a-z0-9]+/gi,"-").toLowerCase().slice(0,60)})).sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+export const items=[...all.filter(x=>!x.needs_review&&x.source_url),...fresh];
 export const review=all.filter(x=>x.needs_review);
 const pick=[/twelve Bots/i,/drains too fast/i,/lasts longer/i,/Fleet cost tip/i,/cache bug burning/i,/hits 100%/i];
 export const featured=[...pick.map(r=>items.find(x=>x.type==="quota-report"&&r.test(x.title))).filter(Boolean),
@@ -23,7 +28,7 @@ export const seed=JSON.parse(fs.readFileSync(new URL("./content-inbox/scenarios-
 export const templates=TJ.items.filter(t=>t.share_url&&!OOB.test(t.title+" "+t.summary)).map(t=>({title:t.title,summary:t.summary,source_url:t.share_url,copy_url:t.share_url,source_name:t.official?"x.ai 官方模板":"botsdots.site",official:!!t.official,product:"grok-bot",type:"template",usage_notes:null,author:t.creator||null,cadence:t.cadence,risk:t.risk,category:t.category,integrations:t.integrations||[],slug:"t-"+t.id})).sort((x,y)=>(y.official-x.official)||((y.cadence&&y.cadence!=="on-demand")-(x.cadence&&x.cadence!=="on-demand")));
 export const scenarios=[["inbox","收件箱分拣",/inbox|e-?mail|gmail|outlook|triage|邮件/i],["report","周报 / 简报",/weekly|report|digest|brief|recap|summary|周报|简报/i],["prs","盯 PR / 仓库",/pull request|\bprs?\b|github|repo|code review|ci\b/i],["social","社媒排期",/social|tweet|\bx\b post|linkedin|newsletter|content|publish|post/i],["food","点餐 / 生活",/food|order|restaurant|grocer|meal|recipe|doordash|travel|flight/i],["calendar","日程会议",/calendar|meeting|schedule|agenda/i],["research","调研监控",/research|monitor|watch|track|competitor|news/i],["finance","财务运营",/finance|invoice|expense|budget|billing|crm|sales|lead/i],["ship","写代码上线",/code|deploy|ship|build|app|game|site|website/i]];
 const tag=x=>scenarios.filter(([, ,r])=>r.test(x.title+" "+(x.summary||"")+" "+(x.category||""))).map(s=>s[0]);
-items.forEach(x=>x.scen=tag(x));templates.forEach(x=>x.scen=tag(x));
+items.forEach(x=>x.scen=tag(x.en?{title:x.title+" "+x.en.title,summary:x.en.summary+" "+x.summary}:x));templates.forEach(x=>x.scen=tag(x));
 export const lib=[...items.filter(x=>x.type==="guide"||x.type==="field-case"),...templates];
 export const warnings=items.filter(x=>x.type==="quota-report");
-export const rails={guide:items.filter(x=>x.type==="guide"),template:templates,build:items.filter(x=>x.type==="field-case").sort((a,b)=>(b.pin?1:0)-(a.pin?1:0)),compare:items.filter(x=>x.type==="comparison")};
+export const rails={guide:items.filter(x=>x.type==="guide"),template:templates,build:items.filter(x=>x.type==="field-case").sort((a,b)=>(b.pin?1:0)-(a.pin?1:0)),compare:items.filter(x=>x.type==="comparison"),fresh};

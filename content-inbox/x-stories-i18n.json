@@ -1,0 +1,2457 @@
+{
+ "darian-refund-hunter": {
+  "zh-TW": {
+   "title": "讓 Bot 自己賺回月費：追回 5 筆未退款",
+   "what": "讓 Grok Bot 翻信箱找出退貨後商家沒退的錢，並寄信給 5 家商家追款",
+   "res": "作者稱追回的錢已超過 Grok Bot 月費",
+   "steps": [
+    "連接 Gmail（先唯讀＋草稿）",
+    "指令：搜尋近 6 個月退貨/退款相關郵件，列出未到帳的訂單",
+    "讓 Bot 為每家商家起草追款信，人工審批後寄出",
+    "設一個每週 routine 複查到帳情況"
+   ]
+  },
+  "en": {
+   "title": "A Bot that earns back its fee: chasing 5 missing refunds",
+   "what": "Grok Bot searched the author's email for returns that were never refunded and emailed 5 merchants to claim the money",
+   "res": "The author says the recovered money already exceeds the Grok Bot monthly fee",
+   "steps": [
+    "Connect Gmail (start with read-only + drafts)",
+    "Instruction: search the last 6 months of return/refund emails and list orders with no refund received",
+    "Have the Bot draft a claim email per merchant; approve before sending",
+    "Add a weekly routine to check whether refunds arrived"
+   ]
+  },
+  "ja": {
+   "title": "Bot に月額料金を稼がせる：未返金5件を回収",
+   "what": "Grok Bot がメールから返品後に返金されていない分を探し、5社に返金を求めるメールを送った",
+   "res": "回収額はすでに Grok Bot の月額を上回ったと作者",
+   "steps": [
+    "Gmail を接続（まずは読み取り＋下書きのみ）",
+    "指示：過去6か月の返品・返金メールを検索し、未返金の注文を一覧化",
+    "店舗ごとに請求メールを下書きさせ、承認してから送信",
+    "毎週の routine で入金を再確認"
+   ]
+  },
+  "ko": {
+   "title": "수수료를 스스로 버는 Bot: 미환불 5건 회수",
+   "what": "Grok Bot이 메일에서 반품 후 환불받지 못한 건을 찾아 5개 업체에 환불 요청 메일을 보냈다",
+   "res": "회수한 금액이 이미 Grok Bot 월 요금을 넘었다고 작성자는 말한다",
+   "steps": [
+    "Gmail 연결(처음엔 읽기 + 초안만)",
+    "지시: 최근 6개월 반품/환불 메일을 검색해 환불 안 된 주문 목록 작성",
+    "업체별 청구 메일 초안을 쓰게 하고 승인 후 발송",
+    "주간 routine으로 입금 여부 재확인"
+   ]
+  },
+  "ms": {
+   "title": "Bot yang menebus yurannya sendiri: menuntut 5 bayaran balik",
+   "what": "Grok Bot mencari e-mel pemulangan yang belum dibayar balik dan menghantar e-mel kepada 5 peniaga untuk menuntutnya",
+   "res": "Penulis berkata wang yang diperoleh semula sudah melebihi yuran bulanan Grok Bot",
+   "steps": [
+    "Sambungkan Gmail (mula dengan baca sahaja + draf)",
+    "Arahan: cari e-mel pemulangan/bayaran balik 6 bulan lalu dan senaraikan pesanan yang belum dibayar balik",
+    "Minta Bot mendraf e-mel tuntutan bagi setiap peniaga; luluskan sebelum dihantar",
+    "Tambah routine mingguan untuk menyemak sama ada bayaran balik diterima"
+   ]
+  },
+  "vi": {
+   "title": "Bot tự kiếm lại phí tháng: đòi 5 khoản hoàn tiền",
+   "what": "Grok Bot lục email tìm các đơn trả hàng chưa được hoàn tiền và gửi email đòi tiền tới 5 cửa hàng",
+   "res": "Tác giả nói số tiền đòi lại đã vượt phí tháng của Grok Bot",
+   "steps": [
+    "Kết nối Gmail (bắt đầu với chỉ đọc + nháp)",
+    "Chỉ dẫn: tìm email trả hàng/hoàn tiền 6 tháng qua, liệt kê đơn chưa nhận tiền",
+    "Để Bot soạn email đòi tiền cho từng cửa hàng; duyệt rồi mới gửi",
+    "Đặt routine hằng tuần kiểm tra tiền đã về chưa"
+   ]
+  },
+  "fr": {
+   "title": "Un Bot qui rembourse son abonnement : 5 remboursements récupérés",
+   "what": "Grok Bot a fouillé les e-mails de l'auteur pour trouver les retours jamais remboursés et a écrit à 5 marchands pour les réclamer",
+   "res": "Selon l'auteur, les sommes récupérées dépassent déjà l'abonnement mensuel Grok Bot",
+   "steps": [
+    "Connecter Gmail (d'abord lecture seule + brouillons)",
+    "Consigne : chercher les e-mails de retour/remboursement des 6 derniers mois et lister les commandes non remboursées",
+    "Faire rédiger un e-mail de réclamation par marchand ; valider avant envoi",
+    "Ajouter une routine hebdomadaire pour vérifier les remboursements"
+   ]
+  },
+  "es": {
+   "title": "Un Bot que se paga solo: 5 reembolsos recuperados",
+   "what": "Grok Bot revisó el correo del autor en busca de devoluciones no reembolsadas y escribió a 5 comercios para reclamarlas",
+   "res": "El autor dice que lo recuperado ya supera la cuota mensual de Grok Bot",
+   "steps": [
+    "Conecta Gmail (primero solo lectura + borradores)",
+    "Instrucción: busca correos de devoluciones/reembolsos de los últimos 6 meses y lista los pedidos sin reembolso",
+    "Que el Bot redacte un correo de reclamación por comercio; apruébalo antes de enviar",
+    "Añade una routine semanal para comprobar si llegaron los reembolsos"
+   ]
+  },
+  "de": {
+   "title": "Ein Bot, der sein Abo selbst verdient: 5 fehlende Erstattungen",
+   "what": "Grok Bot durchsuchte die Mails des Autors nach Retouren ohne Erstattung und schrieb 5 Händlern, um das Geld zurückzufordern",
+   "res": "Laut Autor übersteigt das zurückgeholte Geld schon die Grok-Bot-Monatsgebühr",
+   "steps": [
+    "Gmail verbinden (zunächst nur Lesen + Entwürfe)",
+    "Anweisung: Retouren-/Erstattungsmails der letzten 6 Monate suchen und Bestellungen ohne Erstattung auflisten",
+    "Pro Händler eine Forderungsmail entwerfen lassen; vor dem Senden freigeben",
+    "Wöchentliche Routine, die den Zahlungseingang prüft"
+   ]
+  }
+ },
+ "mikepat-90k-email-purge": {
+  "zh-TW": {
+   "title": "9 萬封郵件大掃除",
+   "what": "讓 Bot 走遍兩個 Gmail 帳號共約 90,000 封郵件，清掉垃圾信",
+   "res": "處理規模約 90,000 封郵件（作者自述）",
+   "steps": [
+    "連接兩個 Gmail 帳號",
+    "先讓 Bot 依寄件者/類別提出清理方案",
+    "確認後批次封存或刪除，保留審批",
+    "設每月 routine 維持"
+   ]
+  },
+  "en": {
+   "title": "A 90,000-email cleanup",
+   "what": "The author let Grok Bot go through about 90,000 emails across two Gmail accounts and purge the junk",
+   "res": "Scale: about 90,000 emails (author's own figure)",
+   "steps": [
+    "Connect both Gmail accounts",
+    "Have the Bot propose a cleanup plan by sender/category first",
+    "After you confirm, archive or delete in batches — keep approvals on",
+    "Add a monthly routine to keep it clean"
+   ]
+  },
+  "ja": {
+   "title": "9万通のメール大掃除",
+   "what": "2つの Gmail アカウントにある約9万通のメールを Grok Bot に精査させ、不要なものを一掃",
+   "res": "対象は約9万通（作者の申告）",
+   "steps": [
+    "2つの Gmail アカウントを接続",
+    "まず差出人/カテゴリ別の整理案を出させる",
+    "確認後にまとめてアーカイブ/削除（承認は残す）",
+    "毎月の routine で維持"
+   ]
+  },
+  "ko": {
+   "title": "메일 9만 통 대청소",
+   "what": "Grok Bot이 Gmail 계정 두 개의 메일 약 9만 통을 훑어 쓸모없는 메일을 정리",
+   "res": "규모: 약 9만 통(작성자 본인 수치)",
+   "steps": [
+    "Gmail 계정 두 개 연결",
+    "먼저 발신자/카테고리별 정리안을 내게 하기",
+    "확인 후 일괄 보관 또는 삭제(승인 유지)",
+    "월간 routine으로 유지"
+   ]
+  },
+  "ms": {
+   "title": "Pembersihan 90,000 e-mel",
+   "what": "Penulis membiarkan Grok Bot menyemak kira-kira 90,000 e-mel dalam dua akaun Gmail dan membuang sampah",
+   "res": "Skala: kira-kira 90,000 e-mel (angka penulis sendiri)",
+   "steps": [
+    "Sambungkan kedua-dua akaun Gmail",
+    "Minta Bot cadangkan pelan pembersihan mengikut pengirim/kategori dahulu",
+    "Selepas disahkan, arkib atau padam secara pukal — kekalkan kelulusan",
+    "Tambah routine bulanan untuk mengekalkannya"
+   ]
+  },
+  "vi": {
+   "title": "Dọn sạch 90.000 email",
+   "what": "Tác giả để Grok Bot rà khoảng 90.000 email trong hai tài khoản Gmail và xóa thư rác",
+   "res": "Quy mô: khoảng 90.000 email (số liệu tác giả tự nêu)",
+   "steps": [
+    "Kết nối cả hai tài khoản Gmail",
+    "Cho Bot đề xuất kế hoạch dọn theo người gửi/danh mục trước",
+    "Xác nhận rồi lưu trữ hoặc xóa hàng loạt — giữ bước duyệt",
+    "Đặt routine hằng tháng để duy trì"
+   ]
+  },
+  "fr": {
+   "title": "Grand ménage de 90 000 e-mails",
+   "what": "L'auteur a laissé Grok Bot parcourir environ 90 000 e-mails sur deux comptes Gmail pour éliminer le superflu",
+   "res": "Volume : environ 90 000 e-mails (chiffre de l'auteur)",
+   "steps": [
+    "Connecter les deux comptes Gmail",
+    "Faire d'abord proposer un plan de tri par expéditeur/catégorie",
+    "Après validation, archiver ou supprimer par lots — garder les approbations",
+    "Ajouter une routine mensuelle pour maintenir"
+   ]
+  },
+  "es": {
+   "title": "Limpieza de 90.000 correos",
+   "what": "El autor dejó que Grok Bot revisara unos 90.000 correos en dos cuentas de Gmail y eliminara la basura",
+   "res": "Escala: unos 90.000 correos (cifra del autor)",
+   "steps": [
+    "Conecta las dos cuentas de Gmail",
+    "Pide primero un plan de limpieza por remitente/categoría",
+    "Tras confirmar, archiva o borra por lotes, con aprobación",
+    "Añade una routine mensual para mantenerlo"
+   ]
+  },
+  "de": {
+   "title": "Großputz in 90.000 Mails",
+   "what": "Der Autor ließ Grok Bot rund 90.000 Mails in zwei Gmail-Konten durchgehen und den Müll entfernen",
+   "res": "Umfang: rund 90.000 Mails (Angabe des Autors)",
+   "steps": [
+    "Beide Gmail-Konten verbinden",
+    "Zuerst einen Aufräumplan nach Absender/Kategorie vorschlagen lassen",
+    "Nach Bestätigung stapelweise archivieren oder löschen – Freigaben behalten",
+    "Monatliche Routine zur Pflege"
+   ]
+  }
+ },
+ "petergyang-marie-kondo-bot": {
+  "zh-TW": {
+   "title": "「斷捨離」Bot：郵件、雲端硬碟、訂閱一起清",
+   "what": "建一個 Marie Kondo 風格的 Bot，稽核信箱、Google Drive 與付費訂閱，經你批准後再清理",
+   "res": "",
+   "steps": [
+    "複製原帖給出的完整提示詞",
+    "連接 Gmail 與 Google Drive",
+    "要求所有刪除/退訂先列清單、等你批准",
+    "每月跑一次"
+   ]
+  },
+  "en": {
+   "title": "A Marie Kondo Bot for email, Drive and subscriptions",
+   "what": "A Marie Kondo–style Bot that audits email, Google Drive and paid subscriptions and only cleans up with the author's approval",
+   "res": "",
+   "steps": [
+    "Copy the full prompt from the original post",
+    "Connect Gmail and Google Drive",
+    "Require every delete/unsubscribe/cancel to be listed for your approval first",
+    "Run it once a month"
+   ]
+  },
+  "ja": {
+   "title": "こんまり Bot：メール・ドライブ・サブスクをまとめて整理",
+   "what": "メール、Google ドライブ、有料サブスクを監査し、承認を得てから片付けるこんまり風 Bot",
+   "res": "",
+   "steps": [
+    "元投稿のプロンプト全文をコピー",
+    "Gmail と Google ドライブを接続",
+    "削除・配信停止・解約はすべて一覧にして承認待ちにする",
+    "月1回実行"
+   ]
+  },
+  "ko": {
+   "title": "곤도 마리에 Bot: 메일·드라이브·구독 한 번에 정리",
+   "what": "메일, Google Drive, 유료 구독을 점검하고 승인받은 뒤에만 정리하는 곤도 마리에 스타일 Bot",
+   "res": "",
+   "steps": [
+    "원글의 프롬프트 전문 복사",
+    "Gmail과 Google Drive 연결",
+    "삭제·구독 해지·취소는 모두 목록으로 먼저 승인받기",
+    "한 달에 한 번 실행"
+   ]
+  },
+  "ms": {
+   "title": "Bot Marie Kondo untuk e-mel, Drive dan langganan",
+   "what": "Bot gaya Marie Kondo yang mengaudit e-mel, Google Drive dan langganan berbayar, dan hanya membersihkan dengan kelulusan penulis",
+   "res": "",
+   "steps": [
+    "Salin gesaan penuh daripada hantaran asal",
+    "Sambungkan Gmail dan Google Drive",
+    "Wajibkan setiap padam/nyahlanggan/batal disenaraikan untuk kelulusan dahulu",
+    "Jalankan sebulan sekali"
+   ]
+  },
+  "vi": {
+   "title": "Bot Marie Kondo dọn email, Drive và gói đăng ký",
+   "what": "Một Bot kiểu Marie Kondo rà soát email, Google Drive và các gói trả phí, chỉ dọn khi tác giả duyệt",
+   "res": "",
+   "steps": [
+    "Sao chép nguyên prompt trong bài gốc",
+    "Kết nối Gmail và Google Drive",
+    "Mọi thao tác xóa/hủy đăng ký/hủy gói phải liệt kê để bạn duyệt trước",
+    "Chạy mỗi tháng một lần"
+   ]
+  },
+  "fr": {
+   "title": "Un Bot Marie Kondo pour e-mails, Drive et abonnements",
+   "what": "Un Bot façon Marie Kondo qui audite e-mails, Google Drive et abonnements payants, et ne range qu'avec l'accord de l'auteur",
+   "res": "",
+   "steps": [
+    "Copier le prompt complet du post d'origine",
+    "Connecter Gmail et Google Drive",
+    "Exiger que toute suppression/désinscription/résiliation soit listée pour validation",
+    "Lancer une fois par mois"
+   ]
+  },
+  "es": {
+   "title": "Un Bot Marie Kondo para correo, Drive y suscripciones",
+   "what": "Un Bot al estilo Marie Kondo que audita correo, Google Drive y suscripciones de pago, y solo limpia con la aprobación del autor",
+   "res": "",
+   "steps": [
+    "Copia el prompt completo del post original",
+    "Conecta Gmail y Google Drive",
+    "Exige que todo borrado/baja/cancelación se liste para tu aprobación",
+    "Ejecútalo una vez al mes"
+   ]
+  },
+  "de": {
+   "title": "Ein Marie-Kondo-Bot für Mails, Drive und Abos",
+   "what": "Ein Bot im Marie-Kondo-Stil, der Mails, Google Drive und bezahlte Abos prüft und nur mit Freigabe des Autors aufräumt",
+   "res": "",
+   "steps": [
+    "Den vollständigen Prompt aus dem Originalpost kopieren",
+    "Gmail und Google Drive verbinden",
+    "Jedes Löschen/Abmelden/Kündigen erst zur Freigabe auflisten lassen",
+    "Einmal im Monat ausführen"
+   ]
+  }
+ },
+ "gergely-support-stripe-refunds": {
+  "zh-TW": {
+   "title": "客服信箱接 Stripe：自動處理常規退款",
+   "what": "把 Grok Bot 接上客服信箱，並透過 Stripe API 處理常規退款等操作",
+   "res": "",
+   "steps": [
+    "連接客服信箱",
+    "接入 Stripe（API/外掛）",
+    "訂出退款金額門檻與人工確認節點",
+    "讓 Bot 起草回覆並附上處理結果"
+   ]
+  },
+  "en": {
+   "title": "Support inbox + Stripe: routine refunds handled by the Bot",
+   "what": "Grok Bot connected to the author's customer-support email and to Stripe via API for agentic operations such as routine refunds",
+   "res": "",
+   "steps": [
+    "Connect the support inbox",
+    "Connect Stripe (API/plugin)",
+    "Set a refund amount threshold and human approval points",
+    "Have the Bot draft replies that include what it did"
+   ]
+  },
+  "ja": {
+   "title": "サポート受信箱×Stripe：定型返金を Bot が処理",
+   "what": "Grok Bot をサポートメールにつなぎ、Stripe API 経由で定型的な返金などを実行",
+   "res": "",
+   "steps": [
+    "サポート用受信箱を接続",
+    "Stripe を接続（API/プラグイン）",
+    "返金額の上限と人の承認ポイントを決める",
+    "対応内容を添えた返信を Bot に下書きさせる"
+   ]
+  },
+  "ko": {
+   "title": "고객지원 메일함 + Stripe: 일상적 환불을 Bot이 처리",
+   "what": "Grok Bot을 고객지원 메일에 연결하고 Stripe API로 일상적 환불 같은 작업을 처리",
+   "res": "",
+   "steps": [
+    "고객지원 메일함 연결",
+    "Stripe 연결(API/플러그인)",
+    "환불 금액 한도와 사람 승인 지점 정하기",
+    "처리 결과를 담은 답장 초안을 Bot이 작성"
+   ]
+  },
+  "ms": {
+   "title": "Peti mel sokongan + Stripe: bayaran balik rutin oleh Bot",
+   "what": "Grok Bot disambungkan ke e-mel sokongan pelanggan dan ke Stripe melalui API untuk operasi seperti bayaran balik rutin",
+   "res": "",
+   "steps": [
+    "Sambungkan peti mel sokongan",
+    "Sambungkan Stripe (API/plugin)",
+    "Tetapkan had amaun bayaran balik dan titik kelulusan manusia",
+    "Minta Bot mendraf balasan yang menyatakan tindakannya"
+   ]
+  },
+  "vi": {
+   "title": "Hộp thư hỗ trợ + Stripe: Bot xử lý hoàn tiền thường lệ",
+   "what": "Grok Bot nối vào email chăm sóc khách hàng và Stripe qua API để làm các việc như hoàn tiền thường lệ",
+   "res": "",
+   "steps": [
+    "Kết nối hộp thư hỗ trợ",
+    "Kết nối Stripe (API/plugin)",
+    "Đặt ngưỡng số tiền hoàn và điểm duyệt của người",
+    "Để Bot soạn phản hồi kèm việc đã làm"
+   ]
+  },
+  "fr": {
+   "title": "Boîte support + Stripe : le Bot gère les remboursements courants",
+   "what": "Grok Bot relié à la boîte mail du support et à Stripe via API pour des opérations comme les remboursements courants",
+   "res": "",
+   "steps": [
+    "Connecter la boîte du support",
+    "Connecter Stripe (API/plugin)",
+    "Fixer un plafond de remboursement et des points de validation humaine",
+    "Faire rédiger des réponses indiquant ce qui a été fait"
+   ]
+  },
+  "es": {
+   "title": "Buzón de soporte + Stripe: el Bot gestiona reembolsos rutinarios",
+   "what": "Grok Bot conectado al correo de soporte y a Stripe por API para operaciones como reembolsos rutinarios",
+   "res": "",
+   "steps": [
+    "Conecta el buzón de soporte",
+    "Conecta Stripe (API/plugin)",
+    "Define un umbral de reembolso y puntos de aprobación humana",
+    "Que el Bot redacte respuestas con lo que hizo"
+   ]
+  },
+  "de": {
+   "title": "Support-Postfach + Stripe: Routine-Erstattungen durch den Bot",
+   "what": "Grok Bot am Support-Postfach und per API an Stripe angebunden, um etwa Routine-Erstattungen auszuführen",
+   "res": "",
+   "steps": [
+    "Support-Postfach verbinden",
+    "Stripe anbinden (API/Plugin)",
+    "Betragsgrenze und menschliche Freigabepunkte festlegen",
+    "Antworten inklusive erledigter Schritte entwerfen lassen"
+   ]
+  }
+ },
+ "househackerjon-plumbing-office": {
+  "zh-TW": {
+   "title": "水電公司老闆：24 小時內把辦公室雜務交給 Bot",
+   "what": "水管/排污公司老闆用 Grok Bot 自動化大量辦公室經理的工作",
+   "res": "作者列出了上線頭 24 小時完成的事項（見原帖串）",
+   "steps": [
+    "閱讀原帖串裡的任務清單",
+    "挑出最重複的 2–3 件（如報價、排班、回信）",
+    "為每件寫清輸入、產出與審批點",
+    "跑通後存成 skill 再設 routine"
+   ]
+  },
+  "en": {
+   "title": "A plumbing company owner hands office work to a Bot in 24 hours",
+   "what": "The owner of a plumbing company uses Grok Bot to automate much of the office manager's work",
+   "res": "The author lists what got done in the first 24 hours (see the thread)",
+   "steps": [
+    "Read the task list in the original thread",
+    "Pick the 2–3 most repetitive tasks (e.g. quotes, scheduling, email replies)",
+    "Define inputs, outputs and approval points for each",
+    "Once it works, save it as a skill, then add a routine"
+   ]
+  },
+  "ja": {
+   "title": "配管会社の社長、24時間で事務作業を Bot に移管",
+   "what": "配管会社の経営者が Grok Bot で事務長の仕事の多くを自動化",
+   "res": "最初の24時間でこなしたことをスレッドで列挙",
+   "steps": [
+    "元スレッドのタスク一覧を読む",
+    "最も繰り返しの多い2〜3件（見積、シフト、返信など）を選ぶ",
+    "それぞれ入力・出力・承認ポイントを明確に",
+    "うまく動いたら skill として保存し routine を設定"
+   ]
+  },
+  "ko": {
+   "title": "배관 회사 사장, 24시간 만에 사무 업무를 Bot에게",
+   "what": "배관 회사 대표가 Grok Bot으로 사무장 업무 상당 부분을 자동화",
+   "res": "처음 24시간 동안 처리한 일을 스레드에 나열",
+   "steps": [
+    "원 스레드의 작업 목록 읽기",
+    "가장 반복적인 2~3개(견적, 일정, 메일 회신 등) 고르기",
+    "각각 입력·결과·승인 지점 정의",
+    "잘 되면 skill로 저장 후 routine 설정"
+   ]
+  },
+  "ms": {
+   "title": "Pemilik syarikat paip serahkan kerja pejabat kepada Bot dalam 24 jam",
+   "what": "Pemilik syarikat paip menggunakan Grok Bot untuk mengautomasikan banyak kerja pengurus pejabat",
+   "res": "Penulis menyenaraikan apa yang siap dalam 24 jam pertama (lihat bebenang)",
+   "steps": [
+    "Baca senarai tugas dalam bebenang asal",
+    "Pilih 2–3 tugas paling berulang (cth. sebut harga, jadual, balasan e-mel)",
+    "Tentukan input, output dan titik kelulusan bagi setiap satu",
+    "Bila berjaya, simpan sebagai skill dan tambah routine"
+   ]
+  },
+  "vi": {
+   "title": "Chủ công ty ống nước giao việc văn phòng cho Bot trong 24 giờ",
+   "what": "Chủ một công ty ống nước dùng Grok Bot tự động hóa phần lớn việc của quản lý văn phòng",
+   "res": "Tác giả liệt kê những việc đã xong trong 24 giờ đầu (xem thread)",
+   "steps": [
+    "Đọc danh sách việc trong thread gốc",
+    "Chọn 2–3 việc lặp lại nhiều nhất (báo giá, xếp lịch, trả lời email…)",
+    "Xác định đầu vào, đầu ra và điểm duyệt cho từng việc",
+    "Chạy ổn thì lưu thành skill rồi đặt routine"
+   ]
+  },
+  "fr": {
+   "title": "Un patron de plomberie confie le travail de bureau à un Bot en 24 h",
+   "what": "Le patron d'une entreprise de plomberie automatise avec Grok Bot une grande partie du travail de la responsable administrative",
+   "res": "L'auteur détaille ce qui a été fait les premières 24 heures (voir le fil)",
+   "steps": [
+    "Lire la liste des tâches dans le fil d'origine",
+    "Choisir les 2–3 tâches les plus répétitives (devis, planning, réponses e-mail…)",
+    "Définir entrées, sorties et points de validation pour chacune",
+    "Une fois au point, l'enregistrer en skill puis ajouter une routine"
+   ]
+  },
+  "es": {
+   "title": "Un dueño de fontanería pasa el trabajo de oficina a un Bot en 24 h",
+   "what": "El dueño de una empresa de fontanería automatiza con Grok Bot buena parte del trabajo de la gerente de oficina",
+   "res": "El autor enumera lo hecho en las primeras 24 horas (ver el hilo)",
+   "steps": [
+    "Lee la lista de tareas del hilo original",
+    "Elige las 2–3 más repetitivas (presupuestos, turnos, respuestas)",
+    "Define entradas, salidas y puntos de aprobación de cada una",
+    "Cuando funcione, guárdalo como skill y añade una routine"
+   ]
+  },
+  "de": {
+   "title": "Klempner-Chef übergibt Büroarbeit in 24 Stunden an einen Bot",
+   "what": "Der Inhaber eines Klempnerbetriebs automatisiert mit Grok Bot einen Großteil der Büroleitungsarbeit",
+   "res": "Der Autor listet, was in den ersten 24 Stunden erledigt wurde (siehe Thread)",
+   "steps": [
+    "Aufgabenliste im Originalthread lesen",
+    "Die 2–3 repetitivsten Aufgaben wählen (Angebote, Einsatzplanung, Mails)",
+    "Für jede Eingaben, Ergebnisse und Freigabepunkte festlegen",
+    "Wenn es läuft, als Skill speichern und Routine anlegen"
+   ]
+  }
+ },
+ "yunta-calendar-reservations": {
+  "zh-TW": {
+   "title": "走在停車場時，Bot 幫我訂好了位子",
+   "what": "Bot 掃描行事曆找出還沒預訂的事項，判斷最佳時間並在網站上完成預訂",
+   "res": "",
+   "steps": [
+    "連接行事曆",
+    "指令：找出需要提前預訂但還沒訂的行程",
+    "讓 Bot 用瀏覽器完成預訂，付款前確認",
+    "每週跑一次"
+   ]
+  },
+  "en": {
+   "title": "Reservations made while walking through a parking lot",
+   "what": "Grok Bot scanned the calendars for things that needed a reservation, worked out the best time to book, and completed the booking on the website — while the author talked to it in mixed Chinese and English",
+   "res": "",
+   "steps": [
+    "Connect your calendar",
+    "Instruction: find upcoming plans that need a reservation but don't have one",
+    "Let the Bot book in the browser and confirm before any payment",
+    "Run it weekly"
+   ]
+  },
+  "ja": {
+   "title": "駐車場を歩いている間に Bot が予約完了",
+   "what": "Grok Bot がカレンダーから予約が必要な予定を探し、最適な予約タイミングを判断してサイトで予約。作者は中国語と英語を混ぜて話しかけていた",
+   "res": "",
+   "steps": [
+    "カレンダーを接続",
+    "指示：予約が必要なのにまだの予定を探す",
+    "ブラウザで予約させ、支払い前に確認",
+    "毎週実行"
+   ]
+  },
+  "ko": {
+   "title": "주차장을 걷는 동안 Bot이 예약 완료",
+   "what": "Grok Bot이 캘린더에서 예약이 필요한 일정을 찾아 최적 시점을 판단하고 웹사이트에서 예약까지 마쳤다. 작성자는 중국어와 영어를 섞어 말했다",
+   "res": "",
+   "steps": [
+    "캘린더 연결",
+    "지시: 예약이 필요한데 아직 안 한 일정 찾기",
+    "브라우저로 예약하게 하고 결제 전 확인",
+    "매주 실행"
+   ]
+  },
+  "ms": {
+   "title": "Tempahan dibuat sambil berjalan di tempat letak kereta",
+   "what": "Grok Bot mengimbas kalendar untuk perkara yang perlu ditempah, menentukan masa terbaik dan menyelesaikan tempahan di laman web — sementara penulis bercakap dalam campuran Cina dan Inggeris",
+   "res": "",
+   "steps": [
+    "Sambungkan kalendar",
+    "Arahan: cari rancangan yang perlu ditempah tetapi belum",
+    "Biar Bot menempah dalam pelayar dan sahkan sebelum bayaran",
+    "Jalankan setiap minggu"
+   ]
+  },
+  "vi": {
+   "title": "Đặt chỗ xong khi đang đi bộ trong bãi đỗ xe",
+   "what": "Grok Bot quét lịch tìm việc cần đặt chỗ, chọn thời điểm đặt tốt nhất và hoàn tất trên website — trong lúc tác giả nói chuyện bằng tiếng Trung lẫn tiếng Anh",
+   "res": "",
+   "steps": [
+    "Kết nối lịch",
+    "Chỉ dẫn: tìm các kế hoạch cần đặt chỗ mà chưa đặt",
+    "Để Bot đặt qua trình duyệt, xác nhận trước khi thanh toán",
+    "Chạy hằng tuần"
+   ]
+  },
+  "fr": {
+   "title": "Des réservations faites en traversant un parking",
+   "what": "Grok Bot a parcouru les agendas pour trouver ce qui nécessitait une réservation, déterminé le meilleur moment et réservé sur le site — pendant que l'auteur lui parlait en mêlant chinois et anglais",
+   "res": "",
+   "steps": [
+    "Connecter l'agenda",
+    "Consigne : repérer les sorties qui demandent une réservation non faite",
+    "Laisser le Bot réserver dans le navigateur, valider avant tout paiement",
+    "Lancer chaque semaine"
+   ]
+  },
+  "es": {
+   "title": "Reservas hechas mientras cruzaba un aparcamiento",
+   "what": "Grok Bot revisó los calendarios en busca de planes que necesitaban reserva, decidió el mejor momento y reservó en la web, mientras el autor le hablaba mezclando chino e inglés",
+   "res": "",
+   "steps": [
+    "Conecta tu calendario",
+    "Instrucción: encuentra planes que necesitan reserva y aún no la tienen",
+    "Deja que el Bot reserve en el navegador y confirma antes de pagar",
+    "Ejecútalo cada semana"
+   ]
+  },
+  "de": {
+   "title": "Reservierungen erledigt, während er über den Parkplatz lief",
+   "what": "Grok Bot durchsuchte die Kalender nach Terminen, die eine Reservierung brauchten, bestimmte den besten Zeitpunkt und buchte auf der Website – während der Autor gemischt Chinesisch und Englisch sprach",
+   "res": "",
+   "steps": [
+    "Kalender verbinden",
+    "Anweisung: anstehende Termine finden, die noch reserviert werden müssen",
+    "Den Bot im Browser buchen lassen, vor Zahlung bestätigen",
+    "Wöchentlich ausführen"
+   ]
+  }
+ },
+ "mattyp-proactive-uber": {
+  "zh-TW": {
+   "title": "改了航班，Bot 提醒我 Uber 沒改",
+   "what": "Grok Bot 主動發現換航班後 Uber 預約未更新，並在轉機途中提醒",
+   "res": "",
+   "steps": [
+    "連接信箱與行事曆，讓 Bot 看得到行程確認信",
+    "在指令中寫明：行程變動時檢查相關預約",
+    "允許 Bot 主動推送提醒"
+   ]
+  },
+  "en": {
+   "title": "Flight changed — the Bot noticed the Uber wasn't",
+   "what": "After the author switched flights, Grok Bot noticed the Uber reservation hadn't been updated and pinged him during his connecting flight so he could fix it before landing",
+   "res": "",
+   "steps": [
+    "Connect email and calendar so the Bot sees itinerary confirmations",
+    "In the instructions: when plans change, check linked bookings",
+    "Allow the Bot to send proactive alerts"
+   ]
+  },
+  "ja": {
+   "title": "便を変えたら、Bot が Uber の未変更に気づいた",
+   "what": "作者がフライトを変更した後、Grok Bot は Uber の予約が古いままだと気づき、乗り継ぎ便の機内で知らせた。着陸前に修正できた",
+   "res": "",
+   "steps": [
+    "メールとカレンダーを接続し、旅程確認メールを見られるようにする",
+    "指示に「予定変更時は関連予約も確認」と書く",
+    "Bot からの能動的な通知を許可"
+   ]
+  },
+  "ko": {
+   "title": "항공편을 바꾸자 Bot이 Uber 미변경을 알려줌",
+   "what": "작성자가 항공편을 바꾼 뒤 Grok Bot이 Uber 예약이 그대로인 걸 발견하고 환승 비행 중에 알려 착륙 전에 고칠 수 있었다",
+   "res": "",
+   "steps": [
+    "메일과 캘린더를 연결해 일정 확인 메일을 볼 수 있게 하기",
+    "지시에 '일정이 바뀌면 연결된 예약도 확인' 명시",
+    "Bot의 선제 알림 허용"
+   ]
+  },
+  "ms": {
+   "title": "Penerbangan bertukar — Bot perasan Uber belum dikemas kini",
+   "what": "Selepas penulis menukar penerbangan, Grok Bot perasan tempahan Uber belum dikemas kini dan memberitahunya semasa penerbangan sambungan supaya sempat dibetulkan sebelum mendarat",
+   "res": "",
+   "steps": [
+    "Sambungkan e-mel dan kalendar supaya Bot nampak pengesahan perjalanan",
+    "Dalam arahan: apabila rancangan berubah, semak tempahan berkaitan",
+    "Benarkan Bot menghantar makluman proaktif"
+   ]
+  },
+  "vi": {
+   "title": "Đổi chuyến bay — Bot phát hiện Uber chưa đổi",
+   "what": "Sau khi tác giả đổi chuyến, Grok Bot nhận ra đặt xe Uber chưa cập nhật và nhắn anh ngay trên chuyến nối chuyến để sửa trước khi hạ cánh",
+   "res": "",
+   "steps": [
+    "Kết nối email và lịch để Bot thấy email xác nhận hành trình",
+    "Ghi trong chỉ dẫn: khi lịch đổi, kiểm tra các đặt chỗ liên quan",
+    "Cho phép Bot chủ động gửi nhắc nhở"
+   ]
+  },
+  "fr": {
+   "title": "Vol modifié — le Bot remarque que l'Uber ne l'est pas",
+   "what": "Après un changement de vol, Grok Bot a remarqué que la réservation Uber n'avait pas suivi et a prévenu l'auteur pendant sa correspondance, à temps pour corriger avant l'atterrissage",
+   "res": "",
+   "steps": [
+    "Connecter e-mail et agenda pour que le Bot voie les confirmations de voyage",
+    "Dans la consigne : en cas de changement, vérifier les réservations liées",
+    "Autoriser les alertes proactives du Bot"
+   ]
+  },
+  "es": {
+   "title": "Cambió el vuelo y el Bot vio que el Uber no",
+   "what": "Tras cambiar de vuelo, Grok Bot notó que la reserva de Uber no estaba actualizada y avisó al autor durante la conexión, a tiempo de corregirla antes de aterrizar",
+   "res": "",
+   "steps": [
+    "Conecta correo y calendario para que el Bot vea las confirmaciones de viaje",
+    "En las instrucciones: si cambian los planes, revisa reservas vinculadas",
+    "Permite avisos proactivos del Bot"
+   ]
+  },
+  "de": {
+   "title": "Flug geändert – der Bot merkt, dass das Uber nicht passt",
+   "what": "Nach dem Flugwechsel bemerkte Grok Bot, dass die Uber-Reservierung nicht angepasst war, und meldete sich während des Anschlussflugs – rechtzeitig vor der Landung",
+   "res": "",
+   "steps": [
+    "Mail und Kalender verbinden, damit der Bot Reisebestätigungen sieht",
+    "In der Anweisung: bei Planänderungen verknüpfte Buchungen prüfen",
+    "Proaktive Hinweise des Bots erlauben"
+   ]
+  }
+ },
+ "kiara-bot-attends-meeting": {
+  "zh-TW": {
+   "title": "我沒去的會，Bot 替我去了",
+   "what": "讓 Bot 參加自己缺席的會議，向與會者說明身分並做筆記",
+   "res": "",
+   "steps": [
+    "給 Bot 會議連結與議程",
+    "要求入會時先告知與會者自己是 AI",
+    "會後產出重點與待辦"
+   ]
+  },
+  "en": {
+   "title": "The Bot sat in on a meeting I couldn't make",
+   "what": "The Bot joined a meeting the author couldn't attend, told the attendees who it was, and took notes",
+   "res": "",
+   "steps": [
+    "Give the Bot the meeting link and agenda",
+    "Require it to tell attendees it's an AI when joining",
+    "Ask for key points and to-dos afterwards"
+   ]
+  },
+  "ja": {
+   "title": "出られない会議に Bot が代理出席",
+   "what": "作者が欠席した会議に Bot が参加し、参加者に自分が何者かを伝えてメモを取った",
+   "res": "",
+   "steps": [
+    "会議リンクとアジェンダを渡す",
+    "参加時に AI であると伝えるよう指示",
+    "終了後に要点と ToDo をまとめさせる"
+   ]
+  },
+  "ko": {
+   "title": "못 가는 회의에 Bot이 대신 참석",
+   "what": "작성자가 빠진 회의에 Bot이 참석해 참석자에게 자신을 알리고 메모를 남겼다",
+   "res": "",
+   "steps": [
+    "회의 링크와 안건을 Bot에게 전달",
+    "입장 시 AI임을 알리도록 요구",
+    "회의 후 요점과 할 일 정리"
+   ]
+  },
+  "ms": {
+   "title": "Bot menghadiri mesyuarat yang saya tak dapat hadir",
+   "what": "Bot menyertai mesyuarat yang penulis tidak dapat hadiri, memberitahu peserta siapa dirinya dan mencatat nota",
+   "res": "",
+   "steps": [
+    "Berikan Bot pautan dan agenda mesyuarat",
+    "Wajibkan ia memberitahu peserta bahawa ia AI semasa menyertai",
+    "Minta perkara utama dan tindakan selepas itu"
+   ]
+  },
+  "vi": {
+   "title": "Bot dự thay cuộc họp tôi không đi được",
+   "what": "Bot tham dự cuộc họp tác giả vắng mặt, báo cho người dự biết nó là ai và ghi chép",
+   "res": "",
+   "steps": [
+    "Đưa Bot link họp và chương trình",
+    "Yêu cầu khi vào họp phải nói mình là AI",
+    "Sau họp xuất ý chính và việc cần làm"
+   ]
+  },
+  "fr": {
+   "title": "Le Bot assiste à une réunion à ma place",
+   "what": "Le Bot a rejoint une réunion à laquelle l'auteure ne pouvait pas assister, a prévenu les participants de son identité et a pris des notes",
+   "res": "",
+   "steps": [
+    "Donner au Bot le lien et l'ordre du jour",
+    "Exiger qu'il annonce être une IA en arrivant",
+    "Demander points clés et actions ensuite"
+   ]
+  },
+  "es": {
+   "title": "El Bot fue a una reunión a la que no pude ir",
+   "what": "El Bot asistió a una reunión a la que la autora no podía ir, avisó a los asistentes de quién era y tomó notas",
+   "res": "",
+   "steps": [
+    "Dale al Bot el enlace y la agenda",
+    "Exige que diga que es una IA al entrar",
+    "Pide puntos clave y tareas al final"
+   ]
+  },
+  "de": {
+   "title": "Der Bot saß in einem Meeting, das ich verpasst hätte",
+   "what": "Der Bot nahm an einem Meeting teil, das die Autorin nicht schaffte, informierte die Teilnehmenden, wer er ist, und schrieb mit",
+   "res": "",
+   "steps": [
+    "Dem Bot Link und Agenda geben",
+    "Verlangen, dass er sich beim Beitritt als KI zu erkennen gibt",
+    "Danach Kernpunkte und To-dos anfordern"
+   ]
+  }
+ },
+ "n2parko-core-team": {
+  "zh-TW": {
+   "title": "從幕僚長到工程經理：一支 Bot 核心團隊",
+   "what": "搭建幕僚長、工程經理等多 Bot 團隊，並讓 Bot 之間交接工作",
+   "res": "",
+   "steps": [
+    "先建一個幕僚長 Bot 管行事曆/郵件/Slack",
+    "再建工程經理 Bot 負責拆任務",
+    "工程類 Bot 各管一塊，用群組交接",
+    "參考原帖串裡的設定說明"
+   ]
+  },
+  "en": {
+   "title": "From chief of staff to eng manager: a core team of Bots",
+   "what": "A multi-Bot team — chief of staff, engineering manager, five engineers, a data analyst and a PM — that hand work to each other",
+   "res": "",
+   "steps": [
+    "Start with a chief-of-staff Bot for calendar, email and Slack",
+    "Add an engineering-manager Bot that breaks down work",
+    "Give each engineering Bot its own area; hand off in a shared chat",
+    "See the setup notes in the original thread"
+   ]
+  },
+  "ja": {
+   "title": "チーフ・オブ・スタッフからエンジニアリングマネージャーまで：Bot の中核チーム",
+   "what": "チーフ・オブ・スタッフ、エンジニアリングマネージャー、エンジニア5体、データアナリスト、PM の Bot チームが互いに仕事を引き継ぐ",
+   "res": "",
+   "steps": [
+    "まずカレンダー・メール・Slack 担当のチーフ・オブ・スタッフ Bot を作る",
+    "作業を分解するエンジニアリングマネージャー Bot を追加",
+    "エンジニア Bot はそれぞれ担当を持ち、共有チャットで引き継ぐ",
+    "元スレッドの設定説明を参照"
+   ]
+  },
+  "ko": {
+   "title": "비서실장부터 엔지니어링 매니저까지: Bot 핵심 팀",
+   "what": "비서실장, 엔지니어링 매니저, 엔지니어 5명, 데이터 분석가, PM으로 이뤄진 Bot 팀이 서로 일을 넘긴다",
+   "res": "",
+   "steps": [
+    "캘린더·메일·Slack 담당 비서실장 Bot부터 만들기",
+    "작업을 쪼개는 엔지니어링 매니저 Bot 추가",
+    "엔지니어 Bot마다 담당 영역을 주고 공유 채팅으로 인계",
+    "원 스레드의 설정 설명 참고"
+   ]
+  },
+  "ms": {
+   "title": "Daripada ketua staf ke pengurus kejuruteraan: pasukan teras Bot",
+   "what": "Pasukan berbilang Bot — ketua staf, pengurus kejuruteraan, lima jurutera, penganalisis data dan PM — yang saling menyerahkan kerja",
+   "res": "",
+   "steps": [
+    "Mulakan dengan Bot ketua staf untuk kalendar, e-mel dan Slack",
+    "Tambah Bot pengurus kejuruteraan untuk memecahkan kerja",
+    "Beri setiap Bot jurutera bidang sendiri; serah melalui sembang bersama",
+    "Lihat nota persediaan dalam bebenang asal"
+   ]
+  },
+  "vi": {
+   "title": "Từ chánh văn phòng đến quản lý kỹ thuật: đội Bot nòng cốt",
+   "what": "Một đội nhiều Bot — chánh văn phòng, quản lý kỹ thuật, năm kỹ sư, chuyên viên dữ liệu và PM — chuyển việc cho nhau",
+   "res": "",
+   "steps": [
+    "Bắt đầu với Bot chánh văn phòng lo lịch, email và Slack",
+    "Thêm Bot quản lý kỹ thuật để chia nhỏ việc",
+    "Mỗi Bot kỹ sư phụ trách một mảng; bàn giao trong chat chung",
+    "Xem ghi chú thiết lập trong thread gốc"
+   ]
+  },
+  "fr": {
+   "title": "Du chief of staff à l'engineering manager : une équipe de Bots",
+   "what": "Une équipe de Bots — chief of staff, engineering manager, cinq ingénieurs, un data analyst et un PM — qui se passent le travail",
+   "res": "",
+   "steps": [
+    "Commencer par un Bot chief of staff pour agenda, e-mail et Slack",
+    "Ajouter un Bot engineering manager qui découpe le travail",
+    "Donner à chaque Bot ingénieur son périmètre ; passer le relais dans un chat commun",
+    "Voir les notes de configuration dans le fil"
+   ]
+  },
+  "es": {
+   "title": "Del jefe de gabinete al engineering manager: un equipo de Bots",
+   "what": "Un equipo de Bots — jefe de gabinete, engineering manager, cinco ingenieros, un analista de datos y un PM — que se pasan el trabajo",
+   "res": "",
+   "steps": [
+    "Empieza con un Bot jefe de gabinete para calendario, correo y Slack",
+    "Añade un Bot engineering manager que divida el trabajo",
+    "Cada Bot ingeniero con su área; relevos en un chat compartido",
+    "Mira las notas de configuración del hilo"
+   ]
+  },
+  "de": {
+   "title": "Vom Chief of Staff bis zum Engineering Manager: ein Bot-Kernteam",
+   "what": "Ein Team aus Bots – Chief of Staff, Engineering Manager, fünf Engineers, Data Analyst und PM –, die sich Arbeit übergeben",
+   "res": "",
+   "steps": [
+    "Mit einem Chief-of-Staff-Bot für Kalender, Mail und Slack starten",
+    "Einen Engineering-Manager-Bot ergänzen, der Arbeit aufteilt",
+    "Jedem Engineer-Bot einen Bereich geben; Übergaben im gemeinsamen Chat",
+    "Setup-Hinweise im Originalthread ansehen"
+   ]
+  }
+ },
+ "farzyness-content-team": {
+  "zh-TW": {
+   "title": "內容創作者的 Bot 編制表",
+   "what": "組建 Webby、Shotry、Writey 等命名專員 Bot，涵蓋網頁、短影音、長文、腳本與選題，另有總調度 Bot",
+   "res": "",
+   "steps": [
+    "依產出拆職位：網頁、短影音、長文、腳本、選題",
+    "每個 Bot 一個名字一份職位說明",
+    "再加一個總調度 Bot 派工"
+   ]
+  },
+  "en": {
+   "title": "A content creator's Bot roster",
+   "what": "Named specialist Bots — Webby (web design), Shotry (short-form), Writey (articles/newsletter), Script, Idea, plus Claude Code and Codex agents — with a Master Bot orchestrating",
+   "res": "",
+   "steps": [
+    "Split roles by output: web, short video, articles, scripts, ideas",
+    "Give each Bot a name and a one-paragraph job description",
+    "Add one orchestrator Bot that assigns the work"
+   ]
+  },
+  "ja": {
+   "title": "コンテンツクリエイターの Bot 編成表",
+   "what": "Webby（Web デザイン）、Shotry（ショート動画）、Writey（記事・ニュースレター）、Script、Idea、Claude Code／Codex 担当などの専任 Bot と、全体を統括する Master Bot",
+   "res": "",
+   "steps": [
+    "成果物ごとに役割を分ける：Web、ショート動画、記事、台本、ネタ出し",
+    "各 Bot に名前と職務説明を1つずつ",
+    "仕事を振る統括 Bot を1体追加"
+   ]
+  },
+  "ko": {
+   "title": "콘텐츠 크리에이터의 Bot 편성표",
+   "what": "Webby(웹 디자인), Shotry(숏폼), Writey(아티클·뉴스레터), Script, Idea, Claude Code·Codex 담당 등 이름 붙은 전담 Bot과 이를 총괄하는 Master Bot",
+   "res": "",
+   "steps": [
+    "결과물별로 역할 나누기: 웹, 숏폼, 아티클, 대본, 아이디어",
+    "Bot마다 이름과 업무 설명 하나씩",
+    "일을 배분하는 총괄 Bot 하나 추가"
+   ]
+  },
+  "ms": {
+   "title": "Senarai Bot seorang pencipta kandungan",
+   "what": "Bot pakar bernama — Webby (reka web), Shotry (video pendek), Writey (artikel/surat berita), Script, Idea, serta ejen Claude Code dan Codex — dengan Bot Master sebagai pengatur",
+   "res": "",
+   "steps": [
+    "Bahagikan peranan mengikut hasil: web, video pendek, artikel, skrip, idea",
+    "Beri setiap Bot nama dan huraian tugas",
+    "Tambah satu Bot pengatur yang mengagihkan kerja"
+   ]
+  },
+  "vi": {
+   "title": "Đội hình Bot của một nhà sáng tạo nội dung",
+   "what": "Các Bot chuyên trách có tên — Webby (thiết kế web), Shotry (video ngắn), Writey (bài viết/newsletter), Script, Idea, cùng agent Claude Code và Codex — với Bot Master điều phối",
+   "res": "",
+   "steps": [
+    "Chia vai theo sản phẩm: web, video ngắn, bài viết, kịch bản, ý tưởng",
+    "Mỗi Bot một cái tên và một mô tả công việc",
+    "Thêm một Bot điều phối giao việc"
+   ]
+  },
+  "fr": {
+   "title": "L'équipe de Bots d'un créateur de contenu",
+   "what": "Des Bots spécialisés nommés — Webby (web design), Shotry (format court), Writey (articles/newsletter), Script, Idea, plus des agents Claude Code et Codex — orchestrés par un Bot Master",
+   "res": "",
+   "steps": [
+    "Répartir les rôles par livrable : web, vidéo courte, articles, scripts, idées",
+    "Donner à chaque Bot un nom et une fiche de poste",
+    "Ajouter un Bot orchestrateur qui distribue le travail"
+   ]
+  },
+  "es": {
+   "title": "La plantilla de Bots de un creador de contenido",
+   "what": "Bots especialistas con nombre — Webby (diseño web), Shotry (vídeo corto), Writey (artículos/newsletter), Script, Idea, más agentes de Claude Code y Codex — coordinados por un Bot Master",
+   "res": "",
+   "steps": [
+    "Reparte roles por entregable: web, vídeo corto, artículos, guiones, ideas",
+    "Dale a cada Bot un nombre y una descripción del puesto",
+    "Añade un Bot orquestador que asigne el trabajo"
+   ]
+  },
+  "de": {
+   "title": "Die Bot-Besetzung eines Content-Creators",
+   "what": "Benannte Spezialisten-Bots – Webby (Webdesign), Shotry (Kurzvideos), Writey (Artikel/Newsletter), Script, Idea sowie Claude-Code- und Codex-Agents – mit einem Master-Bot als Orchestrator",
+   "res": "",
+   "steps": [
+    "Rollen nach Ergebnis aufteilen: Web, Kurzvideo, Artikel, Skripte, Ideen",
+    "Jedem Bot einen Namen und eine Stellenbeschreibung geben",
+    "Einen Orchestrator-Bot ergänzen, der Arbeit verteilt"
+   ]
+  }
+ },
+ "casjam-13-bot-org": {
+  "zh-TW": {
+   "title": "13 個 Bot 撐起四個產品",
+   "what": "每個產品配 Head、Growth、Maintainer Bot，再由 Chief 統一彙整",
+   "res": "",
+   "steps": [
+    "一個 Chief Bot 接你的指令",
+    "每個產品配 Head（路線圖）、Growth（成長實驗）、Maintainer（維護）",
+    "Head 每週向 Chief 回報"
+   ]
+  },
+  "en": {
+   "title": "13 Bots running a portfolio of products",
+   "what": "Each product gets a Head Bot (roadmap, feature dev, weekly report), a Growth Bot (experiments) and a Maintainer Bot (chores), all reporting to a Chief Bot",
+   "res": "",
+   "steps": [
+    "One Chief Bot takes your directions",
+    "Each product gets Head (roadmap), Growth (experiments) and Maintainer (upkeep) Bots",
+    "Heads report to the Chief weekly"
+   ]
+  },
+  "ja": {
+   "title": "13体の Bot で複数プロダクトを運営",
+   "what": "各プロダクトに Head Bot（ロードマップ・開発・週報）、Growth Bot（成長施策）、Maintainer Bot（保守）を置き、すべて Chief Bot に報告",
+   "res": "",
+   "steps": [
+    "指示を受ける Chief Bot を1体",
+    "各プロダクトに Head（ロードマップ）・Growth（施策）・Maintainer（保守）",
+    "Head は毎週 Chief に報告"
+   ]
+  },
+  "ko": {
+   "title": "Bot 13개로 제품 포트폴리오 운영",
+   "what": "제품마다 Head Bot(로드맵·개발·주간 보고), Growth Bot(실험), Maintainer Bot(유지보수)을 두고 모두 Chief Bot에 보고",
+   "res": "",
+   "steps": [
+    "지시를 받는 Chief Bot 하나",
+    "제품마다 Head(로드맵), Growth(실험), Maintainer(유지) Bot",
+    "Head는 매주 Chief에 보고"
+   ]
+  },
+  "ms": {
+   "title": "13 Bot menjalankan portfolio produk",
+   "what": "Setiap produk mendapat Bot Head (peta hala tuju, pembangunan, laporan mingguan), Bot Growth (eksperimen) dan Bot Maintainer (tugasan rutin), semuanya melapor kepada Bot Chief",
+   "res": "",
+   "steps": [
+    "Satu Bot Chief menerima arahan anda",
+    "Setiap produk ada Bot Head (peta hala tuju), Growth (eksperimen) dan Maintainer (penyelenggaraan)",
+    "Head melapor kepada Chief setiap minggu"
+   ]
+  },
+  "vi": {
+   "title": "13 Bot vận hành một danh mục sản phẩm",
+   "what": "Mỗi sản phẩm có Bot Head (lộ trình, phát triển, báo cáo tuần), Bot Growth (thử nghiệm tăng trưởng) và Bot Maintainer (việc vặt), tất cả báo cáo cho Bot Chief",
+   "res": "",
+   "steps": [
+    "Một Bot Chief nhận chỉ đạo của bạn",
+    "Mỗi sản phẩm có Bot Head (lộ trình), Growth (thử nghiệm), Maintainer (bảo trì)",
+    "Head báo cáo Chief hằng tuần"
+   ]
+  },
+  "fr": {
+   "title": "13 Bots pour piloter un portefeuille de produits",
+   "what": "Chaque produit a un Bot Head (roadmap, développement, rapport hebdo), un Bot Growth (expériences) et un Bot Maintainer (tâches récurrentes), tous rattachés à un Bot Chief",
+   "res": "",
+   "steps": [
+    "Un Bot Chief reçoit vos consignes",
+    "Chaque produit : Bots Head (roadmap), Growth (expériences) et Maintainer (maintenance)",
+    "Les Heads rendent compte au Chief chaque semaine"
+   ]
+  },
+  "es": {
+   "title": "13 Bots para un portafolio de productos",
+   "what": "Cada producto tiene un Bot Head (roadmap, desarrollo, informe semanal), un Bot Growth (experimentos) y un Bot Maintainer (tareas recurrentes), todos reportando a un Bot Chief",
+   "res": "",
+   "steps": [
+    "Un Bot Chief recibe tus indicaciones",
+    "Cada producto: Bots Head (roadmap), Growth (experimentos) y Maintainer (mantenimiento)",
+    "Los Head reportan al Chief cada semana"
+   ]
+  },
+  "de": {
+   "title": "13 Bots steuern ein Produktportfolio",
+   "what": "Jedes Produkt bekommt einen Head-Bot (Roadmap, Entwicklung, Wochenbericht), einen Growth-Bot (Experimente) und einen Maintainer-Bot (Routineaufgaben), alle berichten an einen Chief-Bot",
+   "res": "",
+   "steps": [
+    "Ein Chief-Bot nimmt deine Anweisungen an",
+    "Pro Produkt Head- (Roadmap), Growth- (Experimente) und Maintainer-Bots (Pflege)",
+    "Heads berichten wöchentlich an den Chief"
+   ]
+  }
+ },
+ "tyler-life-work-bots": {
+  "zh-TW": {
+   "title": "兩扇門：Life Bot 與 Work Bot",
+   "what": "把任務分成生活與工作兩個入口 Bot，由它們依需要建立子頻道與專員 Bot；兩邊都算的歸 Life",
+   "res": "",
+   "steps": [
+    "使用原帖分享的 Life / Work 模板連結",
+    "所有任務先丟給其中一個入口",
+    "混合類預設交給 Life"
+   ]
+  },
+  "en": {
+   "title": "Two front doors: a Life Bot and a Work Bot",
+   "what": "Tasks go to one of two entry Bots, Life or Work, which create new channels and specialist Bots underneath as needed; anything that's both defaults to Life",
+   "res": "",
+   "steps": [
+    "Use the Life / Work template links shared in the post",
+    "Send every task to one of the two entry Bots",
+    "When a task is both, default to Life"
+   ]
+  },
+  "ja": {
+   "title": "入口は2つ：Life Bot と Work Bot",
+   "what": "タスクは Life か Work の入口 Bot に渡し、必要に応じて新しいチャンネルや専任 Bot を作らせる。両方に当てはまるものは Life 扱い",
+   "res": "",
+   "steps": [
+    "投稿で共有された Life / Work テンプレートを使う",
+    "すべてのタスクをどちらかの入口に渡す",
+    "両方に該当する場合は Life に"
+   ]
+  },
+  "ko": {
+   "title": "입구는 둘: Life Bot과 Work Bot",
+   "what": "작업을 Life 또는 Work 입구 Bot에 맡기면 필요에 따라 새 채널과 전담 Bot을 만든다. 둘 다 해당하면 Life로",
+   "res": "",
+   "steps": [
+    "게시물에 공유된 Life / Work 템플릿 사용",
+    "모든 작업을 둘 중 한 입구에 전달",
+    "둘 다 해당하면 Life로"
+   ]
+  },
+  "ms": {
+   "title": "Dua pintu masuk: Bot Life dan Bot Work",
+   "what": "Tugas dihantar kepada salah satu daripada dua Bot pintu masuk, Life atau Work, yang mencipta saluran dan Bot pakar baharu mengikut keperluan; tugas yang kedua-duanya diberi kepada Life",
+   "res": "",
+   "steps": [
+    "Guna pautan templat Life / Work yang dikongsi dalam hantaran",
+    "Hantar setiap tugas kepada salah satu Bot pintu masuk",
+    "Jika kedua-duanya, pilih Life"
+   ]
+  },
+  "vi": {
+   "title": "Hai cửa vào: Bot Life và Bot Work",
+   "what": "Mọi việc đi vào một trong hai Bot cửa vào là Life hoặc Work; chúng tự tạo kênh và Bot chuyên trách khi cần. Việc thuộc cả hai thì mặc định Life",
+   "res": "",
+   "steps": [
+    "Dùng link template Life / Work trong bài",
+    "Gửi mọi việc cho một trong hai Bot cửa vào",
+    "Việc thuộc cả hai thì giao Life"
+   ]
+  },
+  "fr": {
+   "title": "Deux portes d'entrée : un Bot Life et un Bot Work",
+   "what": "Chaque tâche va à l'un des deux Bots d'entrée, Life ou Work, qui créent au besoin des canaux et des Bots spécialisés ; ce qui relève des deux va à Life",
+   "res": "",
+   "steps": [
+    "Utiliser les liens de templates Life / Work partagés dans le post",
+    "Envoyer chaque tâche à l'un des deux Bots d'entrée",
+    "En cas de doute, choisir Life"
+   ]
+  },
+  "es": {
+   "title": "Dos puertas: un Bot Life y un Bot Work",
+   "what": "Las tareas van a uno de dos Bots de entrada, Life o Work, que crean canales y Bots especialistas según haga falta; lo que es de ambos va a Life",
+   "res": "",
+   "steps": [
+    "Usa los enlaces de plantillas Life / Work del post",
+    "Envía cada tarea a uno de los dos Bots de entrada",
+    "Si es de ambos, por defecto Life"
+   ]
+  },
+  "de": {
+   "title": "Zwei Eingangstüren: ein Life-Bot und ein Work-Bot",
+   "what": "Aufgaben gehen an einen von zwei Eingangs-Bots, Life oder Work, die bei Bedarf Kanäle und Spezialisten-Bots anlegen; was beides ist, landet bei Life",
+   "res": "",
+   "steps": [
+    "Die im Post geteilten Life-/Work-Vorlagen nutzen",
+    "Jede Aufgabe an einen der beiden Eingangs-Bots geben",
+    "Im Zweifel Life"
+   ]
+  }
+ },
+ "danny-74-game-assets": {
+  "zh-TW": {
+   "title": "兩小時產出 74 張遊戲美術資源",
+   "what": "Bot 讀程式碼庫、操作作者的美術生成網頁、裁切成透明 PNG 並接回遊戲；之後還用它做試玩 skill、自動上傳 itch.io 建置、出 UX 流程",
+   "res": "約 74 個資源、約兩小時（作者自述）",
+   "steps": [
+    "把程式碼庫與工具網頁交給 Bot",
+    "說明資源規格（尺寸、透明背景）",
+    "讓 Bot 生成→裁切→寫回程式碼，最後人工驗收"
+   ]
+  },
+  "en": {
+   "title": "74 game art assets in about two hours",
+   "what": "The Bot read the codebase, used the author's art-generation web tool, cropped results into transparent PNGs and wired them into the game; he later used it for a playtest skill, auto-uploading builds to itch.io and UX flows",
+   "res": "About 74 assets in about 2 hours (author's account)",
+   "steps": [
+    "Give the Bot the repo and the tool's web page",
+    "Specify asset specs (size, transparent background)",
+    "Let it generate → crop → wire back into code; review at the end"
+   ]
+  },
+  "ja": {
+   "title": "約2時間でゲーム用アート素材74点",
+   "what": "Bot がコードベースを読み、作者の画像生成ツールのページを操作、透過 PNG に切り出してゲームに組み込んだ。その後プレイテスト用 skill、itch.io への自動アップロード、UX フローにも活用",
+   "res": "約74点・約2時間（作者の説明）",
+   "steps": [
+    "リポジトリとツールのページを Bot に渡す",
+    "素材の仕様（サイズ・透過背景）を伝える",
+    "生成→切り出し→コードへ反映させ、最後に人が確認"
+   ]
+  },
+  "ko": {
+   "title": "약 2시간에 게임 아트 에셋 74개",
+   "what": "Bot이 코드베이스를 읽고 작성자의 아트 생성 웹 도구를 조작해 투명 PNG로 잘라 게임에 연결했다. 이후 플레이테스트 skill, itch.io 자동 업로드, UX 플로에도 활용",
+   "res": "약 74개, 약 2시간(작성자 설명)",
+   "steps": [
+    "저장소와 도구 웹페이지를 Bot에게 제공",
+    "에셋 사양(크기, 투명 배경) 명시",
+    "생성→자르기→코드 반영 후 마지막에 사람이 검수"
+   ]
+  },
+  "ms": {
+   "title": "74 aset seni permainan dalam kira-kira dua jam",
+   "what": "Bot membaca pangkalan kod, menggunakan alat web penjanaan seni penulis, memotong hasil menjadi PNG lutsinar dan menyambungkannya ke permainan; kemudian digunakan untuk skill ujian main, muat naik binaan automatik ke itch.io dan aliran UX",
+   "res": "Kira-kira 74 aset dalam kira-kira 2 jam (menurut penulis)",
+   "steps": [
+    "Berikan Bot repo dan halaman web alat",
+    "Nyatakan spesifikasi aset (saiz, latar lutsinar)",
+    "Biar ia jana → potong → sambung ke kod; semak pada akhir"
+   ]
+  },
+  "vi": {
+   "title": "74 tài nguyên đồ họa game trong khoảng hai giờ",
+   "what": "Bot đọc mã nguồn, dùng trang công cụ tạo ảnh của tác giả, cắt thành PNG nền trong và gắn vào game; sau đó còn dùng làm skill chơi thử, tự tải bản build lên itch.io và vẽ luồng UX",
+   "res": "Khoảng 74 tài nguyên trong khoảng 2 giờ (theo tác giả)",
+   "steps": [
+    "Đưa Bot repo và trang công cụ",
+    "Nêu quy cách (kích thước, nền trong suốt)",
+    "Cho nó tạo → cắt → gắn vào code; cuối cùng người kiểm tra"
+   ]
+  },
+  "fr": {
+   "title": "74 assets graphiques de jeu en deux heures environ",
+   "what": "Le Bot a lu le code, utilisé l'outil web de génération d'images de l'auteur, détouré en PNG transparents et intégré le tout au jeu ; ensuite : skill de playtest, upload auto des builds sur itch.io et parcours UX",
+   "res": "Environ 74 assets en 2 heures environ (selon l'auteur)",
+   "steps": [
+    "Donner au Bot le dépôt et la page de l'outil",
+    "Préciser les specs (taille, fond transparent)",
+    "Le laisser générer → détourer → intégrer ; valider à la fin"
+   ]
+  },
+  "es": {
+   "title": "74 assets de arte para un juego en unas dos horas",
+   "what": "El Bot leyó el código, usó la herramienta web de generación de arte del autor, recortó PNG transparentes y los integró en el juego; después lo usó para una skill de playtest, subir builds a itch.io y flujos UX",
+   "res": "Unos 74 assets en unas 2 horas (según el autor)",
+   "steps": [
+    "Dale al Bot el repo y la web de la herramienta",
+    "Indica las especificaciones (tamaño, fondo transparente)",
+    "Que genere → recorte → integre en el código; revisa al final"
+   ]
+  },
+  "de": {
+   "title": "74 Spiel-Grafiken in etwa zwei Stunden",
+   "what": "Der Bot las die Codebasis, bediente das Bildgenerierungs-Webtool des Autors, schnitt transparente PNGs zu und baute sie ins Spiel ein; später auch Playtest-Skill, automatische itch.io-Uploads und UX-Flows",
+   "res": "Rund 74 Assets in etwa 2 Stunden (laut Autor)",
+   "steps": [
+    "Dem Bot Repo und Tool-Webseite geben",
+    "Asset-Vorgaben nennen (Größe, transparenter Hintergrund)",
+    "Generieren → zuschneiden → einbauen lassen; am Ende prüfen"
+   ]
+  }
+ },
+ "waynesutton-site-two-prompts": {
+  "zh-TW": {
+   "title": "手機上兩句話：建站＋買網域＋設 Cloudflare",
+   "what": "安裝 Convex 與 Cloudflare 外掛，搭好 demo 站，購買網域並設定轉址規則",
+   "res": "全程 2 條手機提示詞（作者自述）",
+   "steps": [
+    "在 Marketplace 安裝所需外掛",
+    "一句話描述網站與後端",
+    "第二句讓 Bot 買網域並設定轉址（付款前確認）"
+   ]
+  },
+  "en": {
+   "title": "Two prompts on a phone: site + domain + Cloudflare",
+   "what": "After installing the Convex and Cloudflare plugins, the Bot built a demo site with a Convex backend, bought a domain and set up Cloudflare redirect rules",
+   "res": "All in 2 prompts from a phone (author's account)",
+   "steps": [
+    "Install the needed plugins from the Marketplace",
+    "Prompt 1: describe the site and backend",
+    "Prompt 2: buy the domain and set redirects (confirm before paying)"
+   ]
+  },
+  "ja": {
+   "title": "スマホで2つのプロンプト：サイト＋ドメイン＋Cloudflare",
+   "what": "Convex と Cloudflare のプラグインを入れ、Convex バックエンドのデモサイトを構築、ドメイン購入とリダイレクト設定まで実施",
+   "res": "スマホからのプロンプト2つで完了（作者の説明）",
+   "steps": [
+    "Marketplace で必要なプラグインを入れる",
+    "1つ目：サイトとバックエンドを説明",
+    "2つ目：ドメイン購入とリダイレクト設定（支払い前に確認）"
+   ]
+  },
+  "ko": {
+   "title": "휴대폰 프롬프트 두 개: 사이트 + 도메인 + Cloudflare",
+   "what": "Convex·Cloudflare 플러그인을 설치하고 Convex 백엔드 데모 사이트를 만든 뒤 도메인 구매와 리디렉션 규칙까지 설정",
+   "res": "휴대폰 프롬프트 2개로 완료(작성자 설명)",
+   "steps": [
+    "Marketplace에서 필요한 플러그인 설치",
+    "프롬프트 1: 사이트와 백엔드 설명",
+    "프롬프트 2: 도메인 구매와 리디렉션 설정(결제 전 확인)"
+   ]
+  },
+  "ms": {
+   "title": "Dua gesaan di telefon: laman + domain + Cloudflare",
+   "what": "Selepas memasang plugin Convex dan Cloudflare, Bot membina laman demo dengan backend Convex, membeli domain dan menetapkan peraturan ubah hala Cloudflare",
+   "res": "Semua dalam 2 gesaan dari telefon (menurut penulis)",
+   "steps": [
+    "Pasang plugin diperlukan dari Marketplace",
+    "Gesaan 1: terangkan laman dan backend",
+    "Gesaan 2: beli domain dan tetapkan ubah hala (sahkan sebelum bayar)"
+   ]
+  },
+  "vi": {
+   "title": "Hai prompt trên điện thoại: website + tên miền + Cloudflare",
+   "what": "Cài plugin Convex và Cloudflare, Bot dựng site demo với backend Convex, mua tên miền và đặt quy tắc chuyển hướng Cloudflare",
+   "res": "Chỉ 2 prompt từ điện thoại (theo tác giả)",
+   "steps": [
+    "Cài plugin cần thiết từ Marketplace",
+    "Prompt 1: mô tả site và backend",
+    "Prompt 2: mua tên miền, đặt chuyển hướng (xác nhận trước khi trả tiền)"
+   ]
+  },
+  "fr": {
+   "title": "Deux prompts sur mobile : site + domaine + Cloudflare",
+   "what": "Après installation des plugins Convex et Cloudflare, le Bot a créé un site démo avec backend Convex, acheté un domaine et configuré les redirections Cloudflare",
+   "res": "Le tout en 2 prompts depuis un téléphone (selon l'auteur)",
+   "steps": [
+    "Installer les plugins nécessaires depuis le Marketplace",
+    "Prompt 1 : décrire le site et le backend",
+    "Prompt 2 : acheter le domaine et régler les redirections (valider avant paiement)"
+   ]
+  },
+  "es": {
+   "title": "Dos prompts en el móvil: web + dominio + Cloudflare",
+   "what": "Tras instalar los plugins de Convex y Cloudflare, el Bot creó una web demo con backend en Convex, compró un dominio y configuró redirecciones en Cloudflare",
+   "res": "Todo con 2 prompts desde el móvil (según el autor)",
+   "steps": [
+    "Instala los plugins necesarios desde el Marketplace",
+    "Prompt 1: describe el sitio y el backend",
+    "Prompt 2: compra el dominio y configura redirecciones (confirma antes de pagar)"
+   ]
+  },
+  "de": {
+   "title": "Zwei Prompts am Handy: Website + Domain + Cloudflare",
+   "what": "Nach Installation der Convex- und Cloudflare-Plugins baute der Bot eine Demo-Seite mit Convex-Backend, kaufte eine Domain und richtete Cloudflare-Weiterleitungen ein",
+   "res": "Alles mit 2 Prompts vom Handy (laut Autor)",
+   "steps": [
+    "Benötigte Plugins im Marketplace installieren",
+    "Prompt 1: Website und Backend beschreiben",
+    "Prompt 2: Domain kaufen und Weiterleitungen setzen (vor Zahlung bestätigen)"
+   ]
+  }
+ },
+ "mrfundman-wordpress-teach": {
+  "zh-TW": {
+   "title": "教 Bot 一次，之後由它更新 WordPress",
+   "what": "用 Teach a task 示範一次 WordPress 更新流程，讓 Bot 學會",
+   "res": "",
+   "steps": [
+    "打開 Bot 的電腦畫面，選 Teach a task",
+    "完整示範一次更新流程",
+    "檢查產生的 skill，補上審批點"
+   ]
+  },
+  "en": {
+   "title": "Teach the Bot once, let it update WordPress after",
+   "what": "The author used Teach a task to show the Bot how to update his WordPress site",
+   "res": "",
+   "steps": [
+    "Open the Bot's computer view and choose Teach a task",
+    "Walk through one complete update",
+    "Review the generated skill and add approval points"
+   ]
+  },
+  "ja": {
+   "title": "一度教えれば、以後は Bot が WordPress を更新",
+   "what": "Teach a task で WordPress サイトの更新手順を Bot に見せて覚えさせた",
+   "res": "",
+   "steps": [
+    "Bot のコンピュータービューを開き Teach a task を選ぶ",
+    "更新作業を一通り実演",
+    "生成された skill を確認し承認ポイントを追加"
+   ]
+  },
+  "ko": {
+   "title": "한 번 가르치면 이후엔 Bot이 WordPress 업데이트",
+   "what": "Teach a task로 WordPress 사이트 업데이트 과정을 Bot에게 보여 줬다",
+   "res": "",
+   "steps": [
+    "Bot의 컴퓨터 화면을 열고 Teach a task 선택",
+    "업데이트 과정을 한 번 끝까지 시연",
+    "생성된 skill을 검토하고 승인 지점 추가"
+   ]
+  },
+  "ms": {
+   "title": "Ajar Bot sekali, biar ia kemas kini WordPress selepas itu",
+   "what": "Penulis menggunakan Teach a task untuk menunjukkan kepada Bot cara mengemas kini laman WordPressnya",
+   "res": "",
+   "steps": [
+    "Buka paparan komputer Bot dan pilih Teach a task",
+    "Tunjukkan satu kemas kini lengkap",
+    "Semak skill yang dijana dan tambah titik kelulusan"
+   ]
+  },
+  "vi": {
+   "title": "Dạy Bot một lần, sau đó nó cập nhật WordPress",
+   "what": "Tác giả dùng Teach a task để chỉ Bot cách cập nhật website WordPress",
+   "res": "",
+   "steps": [
+    "Mở màn hình máy tính của Bot, chọn Teach a task",
+    "Làm mẫu trọn một lần cập nhật",
+    "Xem lại skill được tạo và thêm điểm duyệt"
+   ]
+  },
+  "fr": {
+   "title": "Montrer une fois au Bot, puis le laisser mettre à jour WordPress",
+   "what": "L'auteur a utilisé Teach a task pour montrer au Bot comment mettre à jour son site WordPress",
+   "res": "",
+   "steps": [
+    "Ouvrir la vue ordinateur du Bot et choisir Teach a task",
+    "Faire une mise à jour complète devant lui",
+    "Relire la skill générée et ajouter des points de validation"
+   ]
+  },
+  "es": {
+   "title": "Enséñale una vez al Bot y que luego actualice WordPress",
+   "what": "El autor usó Teach a task para enseñar al Bot a actualizar su web de WordPress",
+   "res": "",
+   "steps": [
+    "Abre la vista de ordenador del Bot y elige Teach a task",
+    "Haz una actualización completa",
+    "Revisa la skill generada y añade puntos de aprobación"
+   ]
+  },
+  "de": {
+   "title": "Dem Bot einmal zeigen, dann pflegt er WordPress",
+   "what": "Der Autor zeigte dem Bot per Teach a task, wie er seine WordPress-Seite aktualisiert",
+   "res": "",
+   "steps": [
+    "Computeransicht des Bots öffnen, Teach a task wählen",
+    "Ein komplettes Update vormachen",
+    "Erzeugten Skill prüfen und Freigabepunkte ergänzen"
+   ]
+  }
+ },
+ "avichawla-teach-a-task": {
+  "zh-TW": {
+   "title": "把螢幕操作變成 Agent 技能",
+   "what": "介紹 Teach a task：親自做一遍，Bot 自動整理成 skill（步驟、輸入、輸出格式），可掛到 routine 在雲端定時執行",
+   "res": "",
+   "steps": [
+    "在 Bot 對話中開啟電腦畫面",
+    "選擇 Teach a task 並完整操作一次",
+    "編輯產生的 skill 草稿後再排程"
+   ]
+  },
+  "en": {
+   "title": "Turn a screen recording into an agent skill",
+   "what": "How Teach a task works: do the task once while the Bot records; it turns that pass into a skill (steps, inputs, output format) that any Bot can run, and you can attach it to a routine on the cloud computer",
+   "res": "",
+   "steps": [
+    "Open a computer view in a Bot conversation",
+    "Select Teach a task and do the whole workflow once",
+    "Edit the generated skill before scheduling it"
+   ]
+  },
+  "ja": {
+   "title": "画面操作をエージェントの skill に変える",
+   "what": "Teach a task の紹介：一度作業を実演すると Bot が記録し、手順・入力・出力形式を備えた skill に変換。どの Bot でも実行でき、routine に付けてクラウドで定期実行できる",
+   "res": "",
+   "steps": [
+    "Bot の会話でコンピュータービューを開く",
+    "Teach a task を選び、作業を一通り行う",
+    "生成された skill を編集してからスケジュール"
+   ]
+  },
+  "ko": {
+   "title": "화면 조작을 에이전트 skill로 바꾸기",
+   "what": "Teach a task 소개: 작업을 한 번 하면 Bot이 기록해 단계·입력·출력 형식을 갖춘 skill로 만든다. 어떤 Bot이든 실행할 수 있고 routine에 붙여 클라우드에서 정기 실행 가능",
+   "res": "",
+   "steps": [
+    "Bot 대화에서 컴퓨터 화면 열기",
+    "Teach a task를 선택하고 전체 흐름을 한 번 수행",
+    "생성된 skill을 편집한 뒤 예약"
+   ]
+  },
+  "ms": {
+   "title": "Tukar rakaman skrin kepada skill ejen",
+   "what": "Cara Teach a task berfungsi: lakukan tugas sekali sambil Bot merakam; ia menukarnya kepada skill (langkah, input, format output) yang boleh dijalankan mana-mana Bot, dan boleh dilampirkan pada routine di komputer awan",
+   "res": "",
+   "steps": [
+    "Buka paparan komputer dalam perbualan Bot",
+    "Pilih Teach a task dan lakukan keseluruhan aliran sekali",
+    "Sunting skill yang dijana sebelum menjadualkannya"
+   ]
+  },
+  "vi": {
+   "title": "Biến một lần thao tác màn hình thành skill cho agent",
+   "what": "Cách Teach a task hoạt động: làm việc đó một lần trong lúc Bot ghi lại; nó biến thành skill (các bước, đầu vào, định dạng đầu ra) mà Bot nào cũng chạy được, và có thể gắn vào routine trên máy tính đám mây",
+   "res": "",
+   "steps": [
+    "Mở màn hình máy tính trong cuộc trò chuyện với Bot",
+    "Chọn Teach a task và làm trọn quy trình một lần",
+    "Chỉnh skill được tạo rồi mới lên lịch"
+   ]
+  },
+  "fr": {
+   "title": "Transformer une démonstration à l'écran en skill d'agent",
+   "what": "Le principe de Teach a task : on fait la tâche une fois pendant que le Bot enregistre ; il en tire une skill (étapes, entrées, format de sortie) exécutable par n'importe quel Bot et attachable à une routine sur l'ordinateur cloud",
+   "res": "",
+   "steps": [
+    "Ouvrir la vue ordinateur dans une conversation avec le Bot",
+    "Choisir Teach a task et dérouler tout le processus",
+    "Modifier la skill générée avant de la planifier"
+   ]
+  },
+  "es": {
+   "title": "Convierte una demostración en pantalla en una skill de agente",
+   "what": "Así funciona Teach a task: haces la tarea una vez mientras el Bot graba y la convierte en una skill (pasos, entradas, formato de salida) que cualquier Bot puede ejecutar y que puedes vincular a una routine en el ordenador en la nube",
+   "res": "",
+   "steps": [
+    "Abre la vista de ordenador en una conversación con el Bot",
+    "Elige Teach a task y haz el flujo completo una vez",
+    "Edita la skill generada antes de programarla"
+   ]
+  },
+  "de": {
+   "title": "Aus einer Bildschirmvorführung wird ein Agent-Skill",
+   "what": "So funktioniert Teach a task: Man erledigt die Aufgabe einmal, während der Bot aufzeichnet; daraus entsteht ein Skill (Schritte, Eingaben, Ausgabeformat), den jeder Bot ausführen und den man an eine Routine auf dem Cloud-Computer hängen kann",
+   "res": "",
+   "steps": [
+    "Computeransicht in einem Bot-Chat öffnen",
+    "Teach a task wählen und den Ablauf einmal komplett durchführen",
+    "Erzeugten Skill bearbeiten, dann planen"
+   ]
+  }
+ },
+ "sid-polymarket-brief": {
+  "zh-TW": {
+   "title": "每日 Polymarket 臨近結算市場簡報",
+   "what": "每日 routine 掃描 24 小時內結算、機率 70–90% 的市場，查背景並評估結果發生的可能性；以單一提示詞＋MCP 完成",
+   "res": "",
+   "steps": [
+    "寫清篩選條件（結算時間、機率區間）",
+    "讓 Bot 為每個市場查背景",
+    "輸出簡潔日報，設每日 routine"
+   ]
+  },
+  "en": {
+   "title": "A daily brief on Polymarket markets about to settle",
+   "what": "A daily job scans Polymarket for 70–90% markets settling within 24 hours, looks up context for each and assesses how likely the outcome really is — done with a single prompt and an MCP",
+   "res": "",
+   "steps": [
+    "Write the filter (settles within 24h, 70–90% probability)",
+    "Have the Bot look up context for each market",
+    "Output a short daily read and set a daily routine"
+   ]
+  },
+  "ja": {
+   "title": "決済間近の Polymarket 市場デイリーブリーフ",
+   "what": "24時間以内に決済され確率70〜90%の市場を毎日スキャンし、背景を調べて実際の起こりやすさを評価。単一プロンプトと MCP で構築",
+   "res": "",
+   "steps": [
+    "条件を書く（24時間以内決済、確率70〜90%）",
+    "市場ごとに背景を調べさせる",
+    "簡潔な日報を出し、毎日の routine に"
+   ]
+  },
+  "ko": {
+   "title": "정산 임박 Polymarket 시장 일일 브리핑",
+   "what": "24시간 안에 정산되는 확률 70~90% 시장을 매일 훑고, 각각 배경을 조사해 실제 가능성을 평가한다. 프롬프트 하나와 MCP로 구성",
+   "res": "",
+   "steps": [
+    "조건 작성(24시간 내 정산, 확률 70~90%)",
+    "시장마다 배경 조사",
+    "짧은 일일 리포트 출력, 매일 routine 설정"
+   ]
+  },
+  "ms": {
+   "title": "Taklimat harian pasaran Polymarket yang hampir selesai",
+   "what": "Kerja harian mengimbas pasaran Polymarket 70–90% yang selesai dalam 24 jam, mencari konteks setiap satu dan menilai kebarangkalian sebenar — dibina dengan satu gesaan dan MCP",
+   "res": "",
+   "steps": [
+    "Tulis penapis (selesai dalam 24 jam, kebarangkalian 70–90%)",
+    "Minta Bot mencari konteks setiap pasaran",
+    "Hasilkan bacaan harian ringkas dan tetapkan routine harian"
+   ]
+  },
+  "vi": {
+   "title": "Bản tin hằng ngày về các thị trường Polymarket sắp tất toán",
+   "what": "Mỗi ngày quét các thị trường Polymarket xác suất 70–90% tất toán trong 24 giờ, tra bối cảnh từng thị trường và đánh giá khả năng thực — làm bằng một prompt và một MCP",
+   "res": "",
+   "steps": [
+    "Viết bộ lọc (tất toán trong 24 giờ, xác suất 70–90%)",
+    "Cho Bot tra bối cảnh từng thị trường",
+    "Xuất bản tin ngắn hằng ngày, đặt routine hằng ngày"
+   ]
+  },
+  "fr": {
+   "title": "Un brief quotidien des marchés Polymarket proches du règlement",
+   "what": "Un job quotidien repère les marchés Polymarket à 70–90 % réglés sous 24 h, cherche le contexte de chacun et évalue la probabilité réelle — avec un seul prompt et un MCP",
+   "res": "",
+   "steps": [
+    "Écrire le filtre (règlement sous 24 h, 70–90 %)",
+    "Faire chercher le contexte de chaque marché",
+    "Produire une note quotidienne courte via une routine"
+   ]
+  },
+  "es": {
+   "title": "Un resumen diario de mercados de Polymarket a punto de liquidarse",
+   "what": "Un trabajo diario busca mercados de Polymarket al 70–90 % que se liquidan en 24 horas, investiga el contexto y evalúa la probabilidad real, con un solo prompt y un MCP",
+   "res": "",
+   "steps": [
+    "Escribe el filtro (liquidación en 24 h, 70–90 %)",
+    "Que el Bot investigue el contexto de cada mercado",
+    "Saca una nota diaria breve con una routine diaria"
+   ]
+  },
+  "de": {
+   "title": "Täglicher Überblick über Polymarket-Märkte kurz vor Abrechnung",
+   "what": "Ein täglicher Job sucht Polymarket-Märkte mit 70–90 %, die binnen 24 Stunden abrechnen, recherchiert Kontext und schätzt die echte Wahrscheinlichkeit – mit einem einzigen Prompt und einem MCP",
+   "res": "",
+   "steps": [
+    "Filter formulieren (Abrechnung in 24 h, 70–90 %)",
+    "Den Bot Kontext je Markt recherchieren lassen",
+    "Kurzen Tagesbericht per täglicher Routine ausgeben"
+   ]
+  }
+ },
+ "gavinbaker-podcast-summarizer": {
+  "zh-TW": {
+   "title": "15 秒搭好 Podcast 摘要器",
+   "what": "用 Grok Bot 約 15 秒搭出 Podcast 摘要器，作者稱比原本用的更好",
+   "res": "作者稱個人 AI 使用量提升約 100 倍（自述估計）",
+   "steps": [
+    "告訴 Bot 你追的 Podcast",
+    "要求每集新節目出摘要與重點",
+    "設訂閱式 routine"
+   ]
+  },
+  "en": {
+   "title": "A podcast summarizer set up in 15 seconds",
+   "what": "The author built a podcast summarizer in Grok Bot in about 15 seconds and says it's better than what he had before",
+   "res": "He estimates his personal AI usage is up about 100x (his own estimate)",
+   "steps": [
+    "Tell the Bot which podcasts you follow",
+    "Ask for a summary and key points for each new episode",
+    "Set it as a subscription-style routine"
+   ]
+  },
+  "ja": {
+   "title": "15秒でポッドキャスト要約ツール",
+   "what": "Grok Bot で約15秒でポッドキャスト要約ツールを作成。以前使っていたものより良いと作者",
+   "res": "個人の AI 利用量は約100倍になったと作者（本人の推定）",
+   "steps": [
+    "聴いている番組を Bot に伝える",
+    "新しい回ごとに要約と要点を出すよう依頼",
+    "購読型の routine に設定"
+   ]
+  },
+  "ko": {
+   "title": "15초 만에 만든 팟캐스트 요약기",
+   "what": "Grok Bot으로 약 15초 만에 팟캐스트 요약기를 만들었고 이전 것보다 낫다고",
+   "res": "개인 AI 사용량이 약 100배 늘었다고 추정(본인 추정)",
+   "steps": [
+    "구독 중인 팟캐스트를 Bot에게 알려 주기",
+    "새 에피소드마다 요약과 핵심 요청",
+    "구독형 routine으로 설정"
+   ]
+  },
+  "ms": {
+   "title": "Peringkas podcast disediakan dalam 15 saat",
+   "what": "Penulis membina peringkas podcast dalam Grok Bot dalam kira-kira 15 saat dan berkata ia lebih baik daripada yang dahulu",
+   "res": "Beliau menganggarkan penggunaan AI peribadinya naik kira-kira 100 kali (anggaran sendiri)",
+   "steps": [
+    "Beritahu Bot podcast yang anda ikuti",
+    "Minta ringkasan dan perkara utama bagi setiap episod baharu",
+    "Tetapkan sebagai routine gaya langganan"
+   ]
+  },
+  "vi": {
+   "title": "Công cụ tóm tắt podcast dựng trong 15 giây",
+   "what": "Tác giả dựng công cụ tóm tắt podcast trong Grok Bot khoảng 15 giây và nói nó tốt hơn thứ anh dùng trước đó",
+   "res": "Anh ước tính mức dùng AI cá nhân tăng khoảng 100 lần (tự ước tính)",
+   "steps": [
+    "Cho Bot biết bạn theo dõi podcast nào",
+    "Yêu cầu tóm tắt và ý chính cho mỗi tập mới",
+    "Đặt thành routine kiểu đăng ký"
+   ]
+  },
+  "fr": {
+   "title": "Un résumeur de podcasts monté en 15 secondes",
+   "what": "L'auteur a monté un résumeur de podcasts dans Grok Bot en 15 secondes environ, meilleur selon lui que ce qu'il utilisait",
+   "res": "Il estime son usage personnel de l'IA multiplié par 100 environ (estimation personnelle)",
+   "steps": [
+    "Indiquer au Bot les podcasts suivis",
+    "Demander un résumé et les points clés de chaque nouvel épisode",
+    "En faire une routine de type abonnement"
+   ]
+  },
+  "es": {
+   "title": "Un resumidor de podcasts montado en 15 segundos",
+   "what": "El autor creó en Grok Bot un resumidor de podcasts en unos 15 segundos y dice que es mejor que lo que tenía",
+   "res": "Calcula que su uso personal de IA se ha multiplicado por 100 (estimación propia)",
+   "steps": [
+    "Dile al Bot qué podcasts sigues",
+    "Pide resumen y puntos clave de cada episodio nuevo",
+    "Configúralo como routine tipo suscripción"
+   ]
+  },
+  "de": {
+   "title": "Ein Podcast-Zusammenfasser in 15 Sekunden",
+   "what": "Der Autor baute in Grok Bot in rund 15 Sekunden einen Podcast-Zusammenfasser – besser als sein bisheriger",
+   "res": "Er schätzt seine private KI-Nutzung auf etwa das 100-Fache (eigene Schätzung)",
+   "steps": [
+    "Dem Bot die verfolgten Podcasts nennen",
+    "Für jede neue Folge Zusammenfassung und Kernpunkte verlangen",
+    "Als Abo-artige Routine einrichten"
+   ]
+  }
+ },
+ "kristaletz-enterprise-gtm": {
+  "zh-TW": {
+   "title": "企業銷售的 GTM Bot 編制",
+   "what": "幕僚長、夜間潛在客戶研究、依客戶設的專家 Bot、即時更新簡報",
+   "res": "",
+   "steps": [
+    "建幕僚長 Bot 統籌",
+    "建夜間 prospecting Bot",
+    "為重點客戶各建一個專家 Bot",
+    "閱讀原帖長文了解細節"
+   ]
+  },
+  "en": {
+   "title": "A GTM Bot setup for enterprise sales",
+   "what": "How the author uses Grok Bot for go-to-market: a chief of staff, overnight prospect research, an expert Bot per account and decks that update themselves",
+   "res": "",
+   "steps": [
+    "Create a chief-of-staff Bot to coordinate",
+    "Create an overnight prospecting Bot",
+    "Create one expert Bot per key account",
+    "Read the original long post for details"
+   ]
+  },
+  "ja": {
+   "title": "エンタープライズ営業の GTM Bot 編成",
+   "what": "チーフ・オブ・スタッフ、夜間の見込み客リサーチ、顧客ごとの専門 Bot、自動更新されるスライドで GTM に活用",
+   "res": "",
+   "steps": [
+    "統括するチーフ・オブ・スタッフ Bot を作る",
+    "夜間プロスペクティング Bot を作る",
+    "重点顧客ごとに専門 Bot を1体",
+    "詳細は元の長文投稿へ"
+   ]
+  },
+  "ko": {
+   "title": "엔터프라이즈 영업용 GTM Bot 구성",
+   "what": "비서실장, 야간 잠재고객 조사, 고객별 전문가 Bot, 자동 갱신 슬라이드로 GTM에 활용",
+   "res": "",
+   "steps": [
+    "총괄 비서실장 Bot 만들기",
+    "야간 프로스펙팅 Bot 만들기",
+    "주요 고객마다 전문가 Bot 하나씩",
+    "자세한 내용은 원래 긴 글 참고"
+   ]
+  },
+  "ms": {
+   "title": "Persediaan Bot GTM untuk jualan perusahaan",
+   "what": "Cara penulis menggunakan Grok Bot untuk go-to-market: ketua staf, penyelidikan prospek waktu malam, Bot pakar bagi setiap akaun dan dek yang dikemas kini sendiri",
+   "res": "",
+   "steps": [
+    "Cipta Bot ketua staf untuk menyelaras",
+    "Cipta Bot prospek waktu malam",
+    "Cipta satu Bot pakar bagi setiap akaun utama",
+    "Baca hantaran panjang asal untuk butiran"
+   ]
+  },
+  "vi": {
+   "title": "Đội Bot GTM cho bán hàng doanh nghiệp",
+   "what": "Cách tác giả dùng Grok Bot cho go-to-market: chánh văn phòng, nghiên cứu khách hàng tiềm năng ban đêm, Bot chuyên gia cho từng khách hàng và slide tự cập nhật",
+   "res": "",
+   "steps": [
+    "Tạo Bot chánh văn phòng để điều phối",
+    "Tạo Bot tìm khách hàng tiềm năng ban đêm",
+    "Mỗi khách hàng trọng điểm một Bot chuyên gia",
+    "Đọc bài dài gốc để biết chi tiết"
+   ]
+  },
+  "fr": {
+   "title": "Une organisation de Bots GTM pour la vente entreprise",
+   "what": "Comment l'auteure utilise Grok Bot pour le go-to-market : chief of staff, recherche de prospects la nuit, un Bot expert par compte et des decks qui se mettent à jour",
+   "res": "",
+   "steps": [
+    "Créer un Bot chief of staff pour coordonner",
+    "Créer un Bot de prospection nocturne",
+    "Créer un Bot expert par compte clé",
+    "Lire le long post d'origine pour les détails"
+   ]
+  },
+  "es": {
+   "title": "Un equipo de Bots GTM para ventas enterprise",
+   "what": "Cómo la autora usa Grok Bot para go-to-market: jefa de gabinete, investigación nocturna de prospectos, un Bot experto por cuenta y presentaciones que se actualizan solas",
+   "res": "",
+   "steps": [
+    "Crea un Bot jefe de gabinete que coordine",
+    "Crea un Bot de prospección nocturna",
+    "Un Bot experto por cada cuenta clave",
+    "Lee el post largo original para los detalles"
+   ]
+  },
+  "de": {
+   "title": "Ein GTM-Bot-Setup für Enterprise-Vertrieb",
+   "what": "Wie die Autorin Grok Bot im Go-to-Market nutzt: Chief of Staff, nächtliche Interessentenrecherche, ein Experten-Bot pro Account und Präsentationen, die sich selbst aktualisieren",
+   "res": "",
+   "steps": [
+    "Chief-of-Staff-Bot zur Koordination anlegen",
+    "Nächtlichen Prospecting-Bot anlegen",
+    "Pro Schlüsselkunde einen Experten-Bot",
+    "Details im langen Originalpost lesen"
+   ]
+  }
+ },
+ "benln-internal-use-cases": {
+  "zh-TW": {
+   "title": "團隊內部最受歡迎的 Grok Bot 用法合集",
+   "what": "機票、依食譜照片下單生鮮、修底片掃描的時間/GPS 中繼資料、和承包商議價等十多種內部用法",
+   "res": "",
+   "steps": [
+    "從清單挑一個最貼近你生活的",
+    "照原帖描述給 Bot 下任務",
+    "涉及付款的步驟保留確認"
+   ]
+  },
+  "en": {
+   "title": "The team's most-loved internal Grok Bot use cases",
+   "what": "A list of internal uses: flights biased toward Starlink, Whole Foods orders from recipe photos, fixing date/GPS metadata on film scans, negotiating contractor quotes, and more",
+   "res": "",
+   "steps": [
+    "Pick the item closest to your own life",
+    "Give the Bot the task as described in the post",
+    "Keep a confirmation step for anything involving payment"
+   ]
+  },
+  "ja": {
+   "title": "社内で人気の Grok Bot 活用例まとめ",
+   "what": "Starlink 対応便を優先した航空券、レシピ写真から Whole Foods の注文、フィルムスキャンの日付/GPS メタデータ修正、業者との見積交渉など",
+   "res": "",
+   "steps": [
+    "一覧から自分の生活に近いものを選ぶ",
+    "投稿の説明どおりに Bot に依頼",
+    "支払いが絡む手順には確認を残す"
+   ]
+  },
+  "ko": {
+   "title": "팀 내부에서 가장 사랑받는 Grok Bot 활용 모음",
+   "what": "Starlink 지원 항공편 우선 예약, 레시피 사진으로 Whole Foods 주문, 필름 스캔 날짜/GPS 메타데이터 수정, 업체 견적 협상 등",
+   "res": "",
+   "steps": [
+    "목록에서 내 생활과 가장 가까운 것 고르기",
+    "게시물 설명대로 Bot에게 맡기기",
+    "결제가 걸린 단계는 확인 유지"
+   ]
+  },
+  "ms": {
+   "title": "Kegunaan dalaman Grok Bot paling digemari pasukan",
+   "what": "Senarai kegunaan dalaman: penerbangan diutamakan dengan Starlink, pesanan Whole Foods daripada foto resipi, membetulkan metadata tarikh/GPS imbasan filem, merunding sebut harga kontraktor dan lain-lain",
+   "res": "",
+   "steps": [
+    "Pilih item paling dekat dengan hidup anda",
+    "Beri Bot tugas seperti diterangkan dalam hantaran",
+    "Kekalkan langkah pengesahan untuk apa-apa yang melibatkan bayaran"
+   ]
+  },
+  "vi": {
+   "title": "Những cách dùng Grok Bot nội bộ được yêu thích nhất",
+   "what": "Danh sách cách dùng nội bộ: đặt vé ưu tiên chuyến có Starlink, đặt Whole Foods từ ảnh công thức, sửa metadata ngày/GPS của ảnh scan phim, thương lượng báo giá với nhà thầu…",
+   "res": "",
+   "steps": [
+    "Chọn mục gần với cuộc sống của bạn nhất",
+    "Giao việc cho Bot đúng như mô tả trong bài",
+    "Giữ bước xác nhận cho mọi việc liên quan thanh toán"
+   ]
+  },
+  "fr": {
+   "title": "Les usages internes de Grok Bot préférés de l'équipe",
+   "what": "Une liste d'usages internes : vols privilégiant Starlink, commandes Whole Foods à partir de photos de recettes, correction des métadonnées date/GPS de scans argentiques, négociation de devis d'artisans, etc.",
+   "res": "",
+   "steps": [
+    "Choisir l'usage le plus proche de votre quotidien",
+    "Confier la tâche au Bot telle que décrite dans le post",
+    "Garder une confirmation pour tout ce qui implique un paiement"
+   ]
+  },
+  "es": {
+   "title": "Los usos internos de Grok Bot favoritos del equipo",
+   "what": "Una lista de usos internos: vuelos priorizando Starlink, pedidos de Whole Foods a partir de fotos de recetas, corregir metadatos de fecha/GPS de escaneos de película, negociar presupuestos con contratistas y más",
+   "res": "",
+   "steps": [
+    "Elige el que más se parezca a tu vida",
+    "Encarga la tarea al Bot como se describe en el post",
+    "Mantén una confirmación en todo lo que implique pagos"
+   ]
+  },
+  "de": {
+   "title": "Die beliebtesten internen Grok-Bot-Anwendungen des Teams",
+   "what": "Eine Liste interner Einsätze: Flüge mit Starlink-Präferenz, Whole-Foods-Bestellungen aus Rezeptfotos, Datum/GPS-Metadaten von Filmscans korrigieren, Handwerkerangebote verhandeln u. v. m.",
+   "res": "",
+   "steps": [
+    "Den Punkt wählen, der deinem Alltag am nächsten ist",
+    "Den Bot so beauftragen, wie im Post beschrieben",
+    "Bei allem mit Zahlung einen Bestätigungsschritt behalten"
+   ]
+  }
+ },
+ "gota-twelve-jobs": {
+  "zh-TW": {
+   "title": "一個人的 Bot 清單：十二種活",
+   "what": "圖片量產、X 調研、每週研究簡報、3D、盤點並實際解約訂閱、追蹤演出售票日等多種嘗試",
+   "res": "",
+   "steps": [
+    "參考原帖清單挑場景",
+    "每種活單獨建 Bot 或 skill"
+   ]
+  },
+  "en": {
+   "title": "One user's list of twelve Bot jobs",
+   "what": "Image series with a fixed AI character, X research on image prompts, weekly briefs on AI labs, 3D icons, a subscription ledger with actual cancellations, a routine that watches ticket-application dates, and more",
+   "res": "",
+   "steps": [
+    "Pick scenarios from the list in the post",
+    "Give each job its own Bot or skill"
+   ]
+  },
+  "ja": {
+   "title": "Grok Bot でやってみたことリスト（12項目）",
+   "what": "固定 AI キャラの画像量産、X で画像生成の知見収集、AI ラボの週次ブリーフ、3D アイコン、サブスク台帳の作成と実際の解約、推しのチケット申込日の自動監視など",
+   "res": "",
+   "steps": [
+    "投稿のリストから場面を選ぶ",
+    "仕事ごとに Bot か skill を分ける"
+   ]
+  },
+  "ko": {
+   "title": "한 사용자의 Bot 업무 12가지",
+   "what": "고정 AI 캐릭터 이미지 양산, X에서 이미지 프롬프트 조사, AI 연구소 주간 브리핑, 3D 아이콘, 구독 장부 작성과 실제 해지, 공연 티켓 신청일 자동 감시 등",
+   "res": "",
+   "steps": [
+    "게시물 목록에서 상황 고르기",
+    "업무마다 Bot이나 skill을 따로"
+   ]
+  },
+  "ms": {
+   "title": "Senarai dua belas kerja Bot seorang pengguna",
+   "what": "Siri imej dengan watak AI tetap, penyelidikan X tentang gesaan imej, taklimat mingguan makmal AI, ikon 3D, lejar langganan dengan pembatalan sebenar, routine yang memantau tarikh permohonan tiket dan lain-lain",
+   "res": "",
+   "steps": [
+    "Pilih senario daripada senarai dalam hantaran",
+    "Beri setiap kerja Bot atau skill sendiri"
+   ]
+  },
+  "vi": {
+   "title": "Danh sách mười hai việc giao cho Bot của một người dùng",
+   "what": "Loạt ảnh với nhân vật AI cố định, nghiên cứu prompt ảnh trên X, bản tin tuần về các phòng lab AI, icon 3D, sổ theo dõi gói đăng ký kèm hủy thật, routine theo dõi ngày đăng ký vé…",
+   "res": "",
+   "steps": [
+    "Chọn tình huống từ danh sách trong bài",
+    "Mỗi việc một Bot hoặc skill riêng"
+   ]
+  },
+  "fr": {
+   "title": "La liste de douze tâches de Bot d'un utilisateur",
+   "what": "Séries d'images avec un personnage IA fixe, veille X sur les prompts d'image, brief hebdo sur les labos IA, icônes 3D, registre d'abonnements avec résiliations réelles, routine qui surveille les dates d'inscription aux billets, etc.",
+   "res": "",
+   "steps": [
+    "Choisir un scénario dans la liste du post",
+    "Un Bot ou une skill par tâche"
+   ]
+  },
+  "es": {
+   "title": "La lista de doce trabajos de Bot de un usuario",
+   "what": "Series de imágenes con un personaje IA fijo, investigación en X sobre prompts de imagen, informe semanal de laboratorios de IA, iconos 3D, registro de suscripciones con bajas reales, una routine que vigila fechas de solicitud de entradas y más",
+   "res": "",
+   "steps": [
+    "Elige escenarios de la lista del post",
+    "Un Bot o skill para cada trabajo"
+   ]
+  },
+  "de": {
+   "title": "Die Liste eines Nutzers: zwölf Jobs für Bots",
+   "what": "Bildserien mit fester KI-Figur, X-Recherche zu Bild-Prompts, Wochenbriefing zu KI-Labs, 3D-Icons, Abo-Übersicht mit echten Kündigungen, eine Routine, die Ticket-Anmeldetermine überwacht, u. a.",
+   "res": "",
+   "steps": [
+    "Szenarien aus der Liste im Post wählen",
+    "Pro Job ein eigener Bot oder Skill"
+   ]
+  }
+ },
+ "kettlebelldan-arduino-ticker": {
+  "zh-TW": {
+   "title": "讓 Bot 驅動 Arduino 跑馬燈",
+   "what": "Bot 連上 Arduino，讓 LED 顯示即時股價、走勢線與最新新聞",
+   "res": "",
+   "steps": [
+    "讓 Bot 能存取裝置（同網段或序列埠）",
+    "描述要顯示的內容",
+    "設定更新 routine"
+   ]
+  },
+  "en": {
+   "title": "A Bot-driven Arduino LED ticker",
+   "what": "The Bot connected to the author's Arduino and turned its LED display into a scrolling ticker with a live stock price, a line chart and the latest news",
+   "res": "",
+   "steps": [
+    "Give the Bot access to the device (same network or serial)",
+    "Describe what should be displayed",
+    "Set a refresh routine"
+   ]
+  },
+  "ja": {
+   "title": "Bot が動かす Arduino の電光掲示板",
+   "what": "Bot が Arduino に接続し、LED 表示を株価・折れ線グラフ・最新ニュースが流れるティッカーにした",
+   "res": "",
+   "steps": [
+    "Bot がデバイスにアクセスできるようにする（同一ネットワーク/シリアル）",
+    "表示内容を説明",
+    "更新の routine を設定"
+   ]
+  },
+  "ko": {
+   "title": "Bot이 움직이는 Arduino LED 전광판",
+   "what": "Bot이 Arduino에 연결해 LED 화면을 실시간 주가, 선 그래프, 최신 뉴스가 흐르는 티커로 만들었다",
+   "res": "",
+   "steps": [
+    "Bot이 기기에 접근하도록(같은 네트워크/시리얼)",
+    "표시할 내용 설명",
+    "갱신 routine 설정"
+   ]
+  },
+  "ms": {
+   "title": "Paparan LED Arduino dipacu Bot",
+   "what": "Bot disambungkan ke Arduino penulis dan menukar paparan LED menjadi ticker bergulir dengan harga saham langsung, carta garis dan berita terkini",
+   "res": "",
+   "steps": [
+    "Beri Bot akses ke peranti (rangkaian sama atau bersiri)",
+    "Terangkan apa yang perlu dipaparkan",
+    "Tetapkan routine penyegaran"
+   ]
+  },
+  "vi": {
+   "title": "Bảng LED Arduino do Bot điều khiển",
+   "what": "Bot kết nối Arduino của tác giả, biến màn LED thành dải chữ chạy hiển thị giá cổ phiếu trực tiếp, biểu đồ đường và tin mới nhất",
+   "res": "",
+   "steps": [
+    "Cho Bot truy cập thiết bị (cùng mạng hoặc cổng serial)",
+    "Mô tả nội dung cần hiển thị",
+    "Đặt routine làm mới"
+   ]
+  },
+  "fr": {
+   "title": "Un bandeau LED Arduino piloté par le Bot",
+   "what": "Le Bot s'est connecté à l'Arduino de l'auteur et a transformé l'affichage LED en bandeau défilant : cours de bourse en direct, courbe et dernières actus",
+   "res": "",
+   "steps": [
+    "Donner au Bot l'accès à l'appareil (même réseau ou série)",
+    "Décrire ce qui doit s'afficher",
+    "Définir une routine de rafraîchissement"
+   ]
+  },
+  "es": {
+   "title": "Un letrero LED de Arduino controlado por el Bot",
+   "what": "El Bot se conectó al Arduino del autor y convirtió la pantalla LED en un rótulo con la cotización en vivo, un gráfico de línea y las últimas noticias",
+   "res": "",
+   "steps": [
+    "Da al Bot acceso al dispositivo (misma red o serie)",
+    "Describe qué debe mostrar",
+    "Configura una routine de actualización"
+   ]
+  },
+  "de": {
+   "title": "Ein vom Bot gesteuerter Arduino-LED-Ticker",
+   "what": "Der Bot verband sich mit dem Arduino des Autors und machte die LED-Anzeige zum Laufband mit Live-Aktienkurs, Liniendiagramm und neuesten News",
+   "res": "",
+   "steps": [
+    "Dem Bot Gerätezugriff geben (gleiches Netz oder seriell)",
+    "Beschreiben, was angezeigt werden soll",
+    "Aktualisierungs-Routine festlegen"
+   ]
+  }
+ },
+ "kettlebelldan-x-to-arduino": {
+  "zh-TW": {
+   "title": "少滑 X：讓 Bot 把更新推到小螢幕",
+   "what": "Bot 定期把 X 上的更新推送到 Arduino 裝置",
+   "res": "作者稱滑 X 的時間減少了（自述，無數據）",
+   "steps": [
+    "連接 X",
+    "挑選關注主題",
+    "推送到你的裝置或通知管道"
+   ]
+  },
+  "en": {
+   "title": "Less doomscrolling: the Bot pushes X updates to a small screen",
+   "what": "The Bot sends regular updates from X straight to the author's Arduino device",
+   "res": "The author says he doomscrolls less now (his own account, no data)",
+   "steps": [
+    "Connect X",
+    "Choose the topics you care about",
+    "Push updates to your device or notification channel"
+   ]
+  },
+  "ja": {
+   "title": "X の見過ぎ防止：Bot が小さな画面に更新を送る",
+   "what": "Bot が X の更新を定期的に作者の Arduino デバイスへ送る",
+   "res": "X を眺める時間が減ったと作者（本人談、データなし）",
+   "steps": [
+    "X を接続",
+    "気になるトピックを選ぶ",
+    "デバイスや通知チャネルへ送る"
+   ]
+  },
+  "ko": {
+   "title": "X 덜 보기: Bot이 작은 화면으로 업데이트 전송",
+   "what": "Bot이 X 업데이트를 정기적으로 작성자의 Arduino 기기로 보낸다",
+   "res": "X를 덜 보게 됐다고 작성자(본인 말, 데이터 없음)",
+   "steps": [
+    "X 연결",
+    "관심 주제 고르기",
+    "기기나 알림 채널로 전송"
+   ]
+  },
+  "ms": {
+   "title": "Kurang tatal X: Bot menghantar kemas kini ke skrin kecil",
+   "what": "Bot menghantar kemas kini X secara berkala terus ke peranti Arduino penulis",
+   "res": "Penulis kata kini kurang menatal X (dakwaan sendiri, tiada data)",
+   "steps": [
+    "Sambungkan X",
+    "Pilih topik yang anda minati",
+    "Hantar ke peranti atau saluran pemberitahuan anda"
+   ]
+  },
+  "vi": {
+   "title": "Bớt lướt X: Bot đẩy cập nhật lên màn hình nhỏ",
+   "what": "Bot định kỳ gửi cập nhật từ X thẳng tới thiết bị Arduino của tác giả",
+   "res": "Tác giả nói giờ ít lướt X hơn (tự kể, không có số liệu)",
+   "steps": [
+    "Kết nối X",
+    "Chọn chủ đề quan tâm",
+    "Đẩy tới thiết bị hoặc kênh thông báo của bạn"
+   ]
+  },
+  "fr": {
+   "title": "Moins de scroll : le Bot envoie les nouveautés X sur un petit écran",
+   "what": "Le Bot envoie régulièrement des mises à jour de X directement sur l'appareil Arduino de l'auteur",
+   "res": "L'auteur dit moins scroller (selon lui, sans chiffres)",
+   "steps": [
+    "Connecter X",
+    "Choisir les sujets suivis",
+    "Envoyer sur votre appareil ou canal de notification"
+   ]
+  },
+  "es": {
+   "title": "Menos scroll: el Bot manda novedades de X a una pantallita",
+   "what": "El Bot envía con regularidad novedades de X directamente al dispositivo Arduino del autor",
+   "res": "El autor dice que ahora hace menos scroll (según él, sin datos)",
+   "steps": [
+    "Conecta X",
+    "Elige los temas que te interesan",
+    "Envíalo a tu dispositivo o canal de avisos"
+   ]
+  },
+  "de": {
+   "title": "Weniger Doomscrolling: Der Bot schickt X-Updates aufs Mini-Display",
+   "what": "Der Bot sendet regelmäßig Updates von X direkt auf das Arduino-Gerät des Autors",
+   "res": "Er scrolle jetzt weniger, sagt der Autor (eigene Aussage, keine Daten)",
+   "steps": [
+    "X verbinden",
+    "Themen auswählen",
+    "An Gerät oder Benachrichtigungskanal senden"
+   ]
+  }
+ },
+ "yunta-matic-vacuum": {
+  "zh-TW": {
+   "title": "隨時隨地傳訊息給掃地機器人",
+   "what": "讓「首席工程師」Bot 打通 Matic 掃地機器人，作者現在能透過 Bot 隨時傳訊息給它",
+   "res": "",
+   "steps": [
+    "讓 Bot 研究裝置介面",
+    "實作訊息→裝置指令",
+    "在任何聊天裡呼叫"
+   ]
+  },
+  "en": {
+   "title": "Texting a robot vacuum from anywhere",
+   "what": "The author asked his Chief Engineer Bot to bring up the feature, and can now text his Matic robot through the Bot anywhere, anytime",
+   "res": "",
+   "steps": [
+    "Have the Bot study the device's interface",
+    "Implement message → device command",
+    "Call it from any chat"
+   ]
+  },
+  "ja": {
+   "title": "どこからでもロボット掃除機にメッセージ",
+   "what": "「チーフエンジニア」Bot に機能実装を頼み、Bot 経由でいつでも Matic ロボットにメッセージを送れるようになった",
+   "res": "",
+   "steps": [
+    "Bot にデバイスのインターフェースを調べさせる",
+    "メッセージ→デバイス命令を実装",
+    "どのチャットからでも呼び出す"
+   ]
+  },
+  "ko": {
+   "title": "어디서나 로봇청소기에 메시지 보내기",
+   "what": "'수석 엔지니어' Bot에게 기능을 만들어 달라고 했고, 이제 Bot을 통해 언제든 Matic 로봇에 메시지를 보낸다",
+   "res": "",
+   "steps": [
+    "Bot이 기기 인터페이스를 조사",
+    "메시지→기기 명령 구현",
+    "어떤 채팅에서든 호출"
+   ]
+  },
+  "ms": {
+   "title": "Menghantar mesej kepada robot vakum dari mana-mana",
+   "what": "Penulis meminta Bot Ketua Jurutera membina ciri itu, dan kini boleh menghantar mesej kepada robot Matic melalui Bot pada bila-bila masa",
+   "res": "",
+   "steps": [
+    "Minta Bot mengkaji antara muka peranti",
+    "Laksanakan mesej → arahan peranti",
+    "Panggil dari mana-mana sembang"
+   ]
+  },
+  "vi": {
+   "title": "Nhắn tin cho robot hút bụi từ bất cứ đâu",
+   "what": "Tác giả nhờ Bot \"Kỹ sư trưởng\" làm tính năng, giờ có thể nhắn cho robot Matic qua Bot mọi lúc mọi nơi",
+   "res": "",
+   "steps": [
+    "Cho Bot tìm hiểu giao diện thiết bị",
+    "Làm luồng tin nhắn → lệnh thiết bị",
+    "Gọi từ bất kỳ cuộc chat nào"
+   ]
+  },
+  "fr": {
+   "title": "Écrire à son robot aspirateur de n'importe où",
+   "what": "L'auteur a demandé à son Bot « ingénieur en chef » de créer la fonction : il peut désormais écrire à son robot Matic via le Bot, partout et à tout moment",
+   "res": "",
+   "steps": [
+    "Faire étudier l'interface de l'appareil par le Bot",
+    "Implémenter message → commande appareil",
+    "L'appeler depuis n'importe quel chat"
+   ]
+  },
+  "es": {
+   "title": "Mandar mensajes a un robot aspirador desde cualquier sitio",
+   "what": "El autor pidió a su Bot «ingeniero jefe» crear la función y ahora puede escribir a su robot Matic a través del Bot en cualquier momento",
+   "res": "",
+   "steps": [
+    "Que el Bot estudie la interfaz del dispositivo",
+    "Implementa mensaje → comando al dispositivo",
+    "Llámalo desde cualquier chat"
+   ]
+  },
+  "de": {
+   "title": "Dem Saugroboter von überall schreiben",
+   "what": "Der Autor bat seinen „Chefingenieur\"-Bot, die Funktion zu bauen, und kann seinem Matic-Roboter jetzt jederzeit über den Bot schreiben",
+   "res": "",
+   "steps": [
+    "Den Bot die Geräteschnittstelle untersuchen lassen",
+    "Nachricht → Gerätebefehl umsetzen",
+    "Aus jedem Chat aufrufen"
+   ]
+  }
+ },
+ "poteto-bot-brain": {
+  "zh-TW": {
+   "title": "把我的腦袋交給 Bot：現在我這樣修 bug",
+   "what": "把個人脈絡交給 Bot，讓它照自己的方式修 bug",
+   "res": "",
+   "steps": [
+    "把你的程式習慣與偏好整理成文件/記憶",
+    "讓 Bot 接 issue 並照規則修復",
+    "PR 由你審核合併"
+   ]
+  },
+  "en": {
+   "title": "Giving the Bot my brain: how I fix bugs now",
+   "what": "The author gave the Bot his personal context so it knows exactly what he wants, and now fixes bugs that way",
+   "res": "",
+   "steps": [
+    "Write your coding habits and preferences into docs/memory",
+    "Let the Bot take issues and fix them by those rules",
+    "Review and merge the PRs yourself"
+   ]
+  },
+  "ja": {
+   "title": "自分の頭の中を Bot に：今のバグ修正のやり方",
+   "what": "個人的な文脈を Bot に渡し、自分の望みどおりにバグを直させている",
+   "res": "",
+   "steps": [
+    "コーディングの習慣や好みを文書/メモリにまとめる",
+    "Bot に issue を担当させ、そのルールで修正",
+    "PR は自分でレビューしてマージ"
+   ]
+  },
+  "ko": {
+   "title": "내 머릿속을 Bot에게: 요즘 버그 고치는 법",
+   "what": "개인 맥락을 Bot에게 넘겨 원하는 방식 그대로 버그를 고치게 한다",
+   "res": "",
+   "steps": [
+    "코딩 습관과 선호를 문서/메모리로 정리",
+    "Bot이 이슈를 맡아 그 규칙대로 수정",
+    "PR은 직접 검토 후 병합"
+   ]
+  },
+  "ms": {
+   "title": "Memberi Bot otak saya: cara saya membaiki pepijat sekarang",
+   "what": "Penulis memberi Bot konteks peribadinya supaya ia tahu apa yang beliau mahu, dan kini membaiki pepijat dengan cara itu",
+   "res": "",
+   "steps": [
+    "Tulis tabiat dan pilihan pengekodan dalam dokumen/memori",
+    "Biar Bot ambil isu dan membaikinya mengikut peraturan itu",
+    "Semak dan gabungkan PR sendiri"
+   ]
+  },
+  "vi": {
+   "title": "Trao \"bộ não\" cho Bot: cách tôi sửa bug bây giờ",
+   "what": "Tác giả đưa ngữ cảnh cá nhân cho Bot để nó biết chính xác anh muốn gì, và giờ sửa bug theo cách đó",
+   "res": "",
+   "steps": [
+    "Ghi thói quen, sở thích lập trình vào tài liệu/bộ nhớ",
+    "Để Bot nhận issue và sửa theo các quy tắc đó",
+    "Tự review và merge PR"
+   ]
+  },
+  "fr": {
+   "title": "Donner mon cerveau au Bot : ma façon de corriger les bugs",
+   "what": "L'auteur a fourni au Bot son contexte personnel pour qu'il sache exactement ce qu'il veut, et corrige désormais ses bugs ainsi",
+   "res": "",
+   "steps": [
+    "Consigner habitudes et préférences de code dans des docs/la mémoire",
+    "Laisser le Bot prendre les issues et corriger selon ces règles",
+    "Relire et fusionner les PR soi-même"
+   ]
+  },
+  "es": {
+   "title": "Darle mi cerebro al Bot: así arreglo bugs ahora",
+   "what": "El autor dio al Bot su contexto personal para que sepa exactamente lo que quiere, y ahora arregla bugs así",
+   "res": "",
+   "steps": [
+    "Escribe tus hábitos y preferencias de código en docs/memoria",
+    "Deja que el Bot tome issues y los arregle con esas reglas",
+    "Revisa y fusiona tú los PR"
+   ]
+  },
+  "de": {
+   "title": "Dem Bot mein Gehirn geben: So fixe ich jetzt Bugs",
+   "what": "Der Autor gab dem Bot seinen persönlichen Kontext, damit er genau weiß, was gewollt ist – so werden jetzt Bugs gefixt",
+   "res": "",
+   "steps": [
+    "Coding-Gewohnheiten und Vorlieben in Docs/Memory festhalten",
+    "Den Bot Issues nach diesen Regeln beheben lassen",
+    "PRs selbst prüfen und mergen"
+   ]
+  }
+ },
+ "box-credit-committee": {
+  "zh-TW": {
+   "title": "Box：在企業內容上產出授信委員會材料包",
+   "what": "透過 Box MCP 跨受管內容整理授信協議、財報、盡調與擔保文件，比對關鍵條款、標出風險，產出附出處的簡報並寫回 Box",
+   "res": "",
+   "steps": [
+    "連接 Box MCP",
+    "說明材料包結構",
+    "Bot 彙整後寫回指定資料夾"
+   ]
+  },
+  "en": {
+   "title": "Box: a credit committee pack built on governed content",
+   "what": "In Box's demo, Grok Bot works through the Box MCP server across credit agreements, financials, diligence and collateral docs, reconciles key terms, flags risks, writes a source-cited brief and saves it back to Box with metadata",
+   "res": "",
+   "steps": [
+    "Connect the Box MCP server",
+    "Describe the structure of the pack",
+    "Have the Bot compile it and save to the target folder"
+   ]
+  },
+  "ja": {
+   "title": "Box：管理下のコンテンツから与信委員会資料を作成",
+   "what": "Box のデモでは Grok Bot が Box MCP 経由で契約書・財務・デューデリ・担保書類を横断し、主要条件を照合、リスクを指摘、出典付きの要約を作り、メタデータ付きで Box に保存",
+   "res": "",
+   "steps": [
+    "Box MCP を接続",
+    "資料パックの構成を説明",
+    "Bot にまとめさせ指定フォルダへ保存"
+   ]
+  },
+  "ko": {
+   "title": "Box: 관리 콘텐츠로 여신위원회 자료 만들기",
+   "what": "Box 데모에서 Grok Bot이 Box MCP로 대출 계약서·재무제표·실사·담보 문서를 살펴 핵심 조건을 대조하고 위험을 표시하며 출처가 달린 브리프를 만들어 메타데이터와 함께 Box에 저장",
+   "res": "",
+   "steps": [
+    "Box MCP 연결",
+    "자료 구성 설명",
+    "Bot이 정리해 지정 폴더에 저장"
+   ]
+  },
+  "ms": {
+   "title": "Box: pek jawatankuasa kredit dibina atas kandungan terkawal",
+   "what": "Dalam demo Box, Grok Bot bekerja melalui pelayan Box MCP merentas perjanjian kredit, kewangan, usaha wajar dan dokumen cagaran, menyelaras terma utama, menandakan risiko, menulis ringkasan bersumber dan menyimpannya semula ke Box dengan metadata",
+   "res": "",
+   "steps": [
+    "Sambungkan pelayan Box MCP",
+    "Terangkan struktur pek",
+    "Minta Bot menyusun dan menyimpan ke folder sasaran"
+   ]
+  },
+  "vi": {
+   "title": "Box: bộ hồ sơ hội đồng tín dụng dựng trên nội dung được quản trị",
+   "what": "Trong demo của Box, Grok Bot dùng Box MCP rà hợp đồng tín dụng, báo cáo tài chính, tài liệu thẩm định và tài sản bảo đảm, đối chiếu điều khoản chính, đánh dấu rủi ro, viết bản tóm tắt có dẫn nguồn và lưu lại vào Box kèm metadata",
+   "res": "",
+   "steps": [
+    "Kết nối Box MCP",
+    "Mô tả cấu trúc bộ hồ sơ",
+    "Để Bot tổng hợp và lưu vào thư mục đích"
+   ]
+  },
+  "fr": {
+   "title": "Box : un dossier de comité de crédit bâti sur du contenu gouverné",
+   "what": "Dans la démo de Box, Grok Bot passe par le serveur Box MCP sur contrats de crédit, états financiers, due diligence et garanties, rapproche les termes clés, signale les risques, rédige une note sourcée et l'enregistre dans Box avec métadonnées",
+   "res": "",
+   "steps": [
+    "Connecter le serveur Box MCP",
+    "Décrire la structure du dossier",
+    "Faire compiler par le Bot et enregistrer dans le dossier cible"
+   ]
+  },
+  "es": {
+   "title": "Box: un paquete de comité de crédito sobre contenido gobernado",
+   "what": "En la demo de Box, Grok Bot trabaja vía Box MCP con contratos de crédito, estados financieros, due diligence y garantías, concilia términos clave, señala riesgos, redacta un informe con fuentes y lo guarda en Box con metadatos",
+   "res": "",
+   "steps": [
+    "Conecta el servidor Box MCP",
+    "Describe la estructura del paquete",
+    "Que el Bot lo compile y guarde en la carpeta destino"
+   ]
+  },
+  "de": {
+   "title": "Box: eine Kreditkomitee-Mappe auf verwalteten Inhalten",
+   "what": "In der Box-Demo arbeitet Grok Bot über den Box-MCP-Server mit Kreditverträgen, Finanzdaten, Due-Diligence- und Sicherheitendokumenten, gleicht Schlüsselbedingungen ab, markiert Risiken, schreibt ein quellenbelegtes Briefing und speichert es mit Metadaten in Box",
+   "res": "",
+   "steps": [
+    "Box-MCP-Server verbinden",
+    "Struktur der Mappe beschreiben",
+    "Den Bot zusammenstellen und im Zielordner speichern lassen"
+   ]
+  }
+ }
+}

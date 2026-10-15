@@ -1,616 +1,564 @@
 {
-  "fetched_at": "2026-10-12T20:14:41.252287+08:00",
-  "count": 27,
-  "source_note": "Post IDs from awesome-grok-bot lists; text/date/metrics verified via X API get_posts_by_ids. X search was rate-limited (429).",
-  "items": [
-    {
-      "post_id": "2089381004524093752",
-      "post_url": "https://x.com/darian314/status/2089381004524093752",
-      "author": "darian314",
-      "date": "2026-08-17",
-      "title": "让 Bot 自己挣回月费：追回 5 笔未退款",
-      "what_they_built": "让 Grok Bot 翻邮箱找出退货后商家没退的钱，并给 5 个商家发邮件追款",
-      "scenario_tags": [
-        "inbox",
-        "finance"
-      ],
-      "how_to_copy": [
-        "连接 Gmail（先只读+草稿）",
-        "指令：搜索近 6 个月退货/退款相关邮件，列出未到账的订单",
-        "让 Bot 为每家商家起草追款邮件，人工审批后发送",
-        "设一个每周 routine 复查到账情况",
-        "详见原帖/串：https://x.com/darian314/status/2089381004524093752"
-      ],
-      "likes": 148,
-      "reposts": 2,
-      "slug": "darian-refund-hunter",
-      "result_or_conversion": "作者称追回的钱已超过 Grok Bot 月费",
-      "soft_article_md": "> 本文根据 @darian314 在 X 上的公开帖子整理（2026-08-17），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 如果 AI 助手能自己把订阅费挣回来，你还会犹豫吗？\n\n2026-08-17，X 用户 @darian314 分享了自己用 Grok Bot 做的一件事：让 Grok Bot 翻邮箱找出退货后商家没退的钱，并给 5 个商家发邮件追款。这条帖子获得了约 148 个赞、2 次转发，作者提到的结果是：作者称追回的钱已超过 Grok Bot 月费。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n退款这件事金额零散、需要翻历史邮件、还要逐个写信，人不愿做，但对 Bot 而言是标准的“搜索→比对→起草”流程。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 连接 Gmail（先只读+草稿）\n2. 指令：搜索近 6 个月退货/退款相关邮件，列出未到账的订单\n3. 让 Bot 为每家商家起草追款邮件，人工审批后发送\n4. 设一个每周 routine 复查到账情况\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/darian314/status/2089381004524093752](https://x.com/darian314/status/2089381004524093752)\n"
-    },
-    {
-      "post_id": "2089879632929554498",
-      "post_url": "https://x.com/mikepat711/status/2089879632929554498",
-      "author": "mikepat711",
-      "date": "2026-08-19",
-      "title": "9 万封邮件大扫除",
-      "what_they_built": "让 Bot 遍历两个 Gmail 账号共约 90,000 封邮件，清理垃圾",
-      "scenario_tags": [
-        "inbox"
-      ],
-      "how_to_copy": [
-        "连接两个 Gmail 账号",
-        "先让 Bot 按发件人/类别出清理方案",
-        "确认后批量归档或删除，保留审批",
-        "设月度 routine 维持",
-        "详见原帖/串：https://x.com/mikepat711/status/2089879632929554498"
-      ],
-      "likes": 1254,
-      "reposts": 80,
-      "slug": "mikepat-90k-email-purge",
-      "result_or_conversion": "处理规模约 90,000 封邮件（作者自述）",
-      "soft_article_md": "> 本文根据 @mikepat711 在 X 上的公开帖子整理（2026-08-19），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 你的邮箱里躺着多少封永远不会打开的邮件？\n\n2026-08-19，X 用户 @mikepat711 分享了自己用 Grok Bot 做的一件事：让 Bot 遍历两个 Gmail 账号共约 90,000 封邮件，清理垃圾。这条帖子获得了约 1254 个赞、80 次转发，作者提到的结果是：处理规模约 90,000 封邮件（作者自述）。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n海量、低价值、规则清晰——正是人拖着不做、Bot 却能一口气跑完的活。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 连接两个 Gmail 账号\n2. 先让 Bot 按发件人/类别出清理方案\n3. 确认后批量归档或删除，保留审批\n4. 设月度 routine 维持\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/mikepat711/status/2089879632929554498](https://x.com/mikepat711/status/2089879632929554498)\n"
-    },
-    {
-      "post_id": "2089724101070086482",
-      "post_url": "https://x.com/petergyang/status/2089724101070086482",
-      "author": "petergyang",
-      "date": "2026-08-18",
-      "title": "“断舍离” Bot：邮件、云盘、订阅一起清",
-      "what_they_built": "搭一个 Marie Kondo 风格 Bot，审计邮箱、Google Drive 与付费订阅，经批准后清理",
-      "scenario_tags": [
-        "inbox",
-        "finance",
-        "other"
-      ],
-      "how_to_copy": [
-        "复制原帖中给出的完整提示词",
-        "连接 Gmail 与 Google Drive",
-        "要求所有删除/退订先列清单、等你批准",
-        "按月跑一次",
-        "详见原帖/串：https://x.com/petergyang/status/2089724101070086482"
-      ],
-      "likes": 360,
-      "reposts": 23,
-      "slug": "petergyang-marie-kondo-bot",
-      "soft_article_md": "> 本文根据 @petergyang 在 X 上的公开帖子整理（2026-08-18），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 数字杂物也需要一位整理师。\n\n2026-08-18，X 用户 @petergyang 分享了自己用 Grok Bot 做的一件事：搭一个 Marie Kondo 风格 Bot，审计邮箱、Google Drive 与付费订阅，经批准后清理。这条帖子获得了约 360 个赞、23 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n作者把“先审计、后批准、再动手”写进了提示词，既省心又不怕误删，原帖直接给出了可复制的 prompt。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 复制原帖中给出的完整提示词\n2. 连接 Gmail 与 Google Drive\n3. 要求所有删除/退订先列清单、等你批准\n4. 按月跑一次\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/petergyang/status/2089724101070086482](https://x.com/petergyang/status/2089724101070086482)\n"
-    },
-    {
-      "post_id": "2090085668768694562",
-      "post_url": "https://x.com/GergelyOrosz/status/2090085668768694562",
-      "author": "GergelyOrosz",
-      "date": "2026-08-19",
-      "title": "客服邮箱接 Stripe：自动处理常规退款",
-      "what_they_built": "把 Grok Bot 接入客服邮箱，并通过 Stripe API 处理常规退款等操作",
-      "scenario_tags": [
-        "inbox",
-        "finance"
-      ],
-      "how_to_copy": [
-        "连接客服邮箱",
-        "接入 Stripe（API/插件）",
-        "规定退款金额阈值与人工确认节点",
-        "让 Bot 起草回复并附处理结果",
-        "详见原帖/串：https://x.com/GergelyOrosz/status/2090085668768694562"
-      ],
-      "likes": 794,
-      "reposts": 37,
-      "slug": "gergely-support-stripe-refunds",
-      "soft_article_md": "> 本文根据 @GergelyOrosz 在 X 上的公开帖子整理（2026-08-19），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 小团队的客服，能不能交给一个永远在线的 Bot？\n\n2026-08-19，X 用户 @GergelyOrosz 分享了自己用 Grok Bot 做的一件事：把 Grok Bot 接入客服邮箱，并通过 Stripe API 处理常规退款等操作。这条帖子获得了约 794 个赞、37 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n客服邮件高度重复，Stripe 已经提供了面向 agent 的操作接口，Bot 只需把“读邮件→判断→调用退款”串起来。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 连接客服邮箱\n2. 接入 Stripe（API/插件）\n3. 规定退款金额阈值与人工确认节点\n4. 让 Bot 起草回复并附处理结果\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/GergelyOrosz/status/2090085668768694562](https://x.com/GergelyOrosz/status/2090085668768694562)\n"
-    },
-    {
-      "post_id": "2087635639701573962",
-      "post_url": "https://x.com/HouseHackerJon/status/2087635639701573962",
-      "author": "HouseHackerJon",
-      "date": "2026-08-12",
-      "title": "水管公司老板：24 小时内把办公室杂务交给 Bot",
-      "what_they_built": "水管/排污公司老板用 Grok Bot 自动化大量办公室经理工作",
-      "scenario_tags": [
-        "inbox",
-        "calendar",
-        "other"
-      ],
-      "how_to_copy": [
-        "阅读原帖串里的任务清单",
-        "挑出最重复的 2–3 件（如报价、排班、回邮件）",
-        "为每件写清输入、产出和审批点",
-        "跑通后存为 skill 再设 routine",
-        "详见原帖/串：https://x.com/HouseHackerJon/status/2087635639701573962"
-      ],
-      "likes": 2425,
-      "reposts": 140,
-      "slug": "househackerjon-plumbing-office",
-      "result_or_conversion": "作者列出了上线头 24 小时完成的事项（见原帖串）",
-      "soft_article_md": "> 本文根据 @HouseHackerJon 在 X 上的公开帖子整理（2026-08-12），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 不是程序员，也能用上 always-on agent。\n\n2026-08-12，X 用户 @HouseHackerJon 分享了自己用 Grok Bot 做的一件事：水管/排污公司老板用 Grok Bot 自动化大量办公室经理工作。这条帖子获得了约 2425 个赞、140 次转发，作者提到的结果是：作者列出了上线头 24 小时完成的事项（见原帖串）。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n传统行业的办公室工作充满表格、邮件和日程，规则清楚但琐碎，Bot 上手即见效。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 阅读原帖串里的任务清单\n2. 挑出最重复的 2–3 件（如报价、排班、回邮件）\n3. 为每件写清输入、产出和审批点\n4. 跑通后存为 skill 再设 routine\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/HouseHackerJon/status/2087635639701573962](https://x.com/HouseHackerJon/status/2087635639701573962)\n"
-    },
-    {
-      "post_id": "2087415205756391461",
-      "post_url": "https://x.com/yunta_tsai/status/2087415205756391461",
-      "author": "yunta_tsai",
-      "date": "2026-08-12",
-      "title": "走在停车场时，Bot 帮我订好了位子",
-      "what_they_built": "Bot 扫描日历找出还没预订的事项，判断最佳时间并在网站上完成预订",
-      "scenario_tags": [
-        "calendar",
-        "shopping"
-      ],
-      "how_to_copy": [
-        "连接日历",
-        "指令：找出需要提前预订但还没订的行程",
-        "让 Bot 用浏览器完成预订，付款前确认",
-        "每周跑一次",
-        "详见原帖/串：https://x.com/yunta_tsai/status/2087415205756391461"
-      ],
-      "likes": 986,
-      "reposts": 76,
-      "slug": "yunta-calendar-reservations",
-      "soft_article_md": "> 本文根据 @yunta_tsai 在 X 上的公开帖子整理（2026-08-12），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 日程里那些“到时候再订”的事，最后都成了麻烦。\n\n2026-08-12，X 用户 @yunta_tsai 分享了自己用 Grok Bot 做的一件事：Bot 扫描日历找出还没预订的事项，判断最佳时间并在网站上完成预订。这条帖子获得了约 986 个赞、76 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\nBot 有自己的浏览器，没有 API 的预订网站也能操作，把日历和执行连在一起。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 连接日历\n2. 指令：找出需要提前预订但还没订的行程\n3. 让 Bot 用浏览器完成预订，付款前确认\n4. 每周跑一次\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/yunta_tsai/status/2087415205756391461](https://x.com/yunta_tsai/status/2087415205756391461)\n"
-    },
-    {
-      "post_id": "2105718647218200587",
-      "post_url": "https://x.com/mattyp/status/2105718647218200587",
-      "author": "mattyp",
-      "date": "2026-10-01",
-      "title": "改了航班，Bot 提醒我 Uber 没改",
-      "what_they_built": "Grok Bot 主动发现换航班后 Uber 预约未更新，并在转机途中提醒",
-      "scenario_tags": [
-        "calendar",
-        "other"
-      ],
-      "how_to_copy": [
-        "连接邮箱与日历，让 Bot 能看到行程确认邮件",
-        "在指令中写明：行程变动时检查关联预约",
-        "允许 Bot 主动推送提醒",
-        "详见原帖/串：https://x.com/mattyp/status/2105718647218200587"
-      ],
-      "likes": 2004,
-      "reposts": 127,
-      "slug": "mattyp-proactive-uber",
-      "soft_article_md": "> 本文根据 @mattyp 在 X 上的公开帖子整理（2026-10-01），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 最好的助理，是在你忘记之前就提醒你。\n\n2026-10-01，X 用户 @mattyp 分享了自己用 Grok Bot 做的一件事：Grok Bot 主动发现换航班后 Uber 预约未更新，并在转机途中提醒。这条帖子获得了约 2004 个赞、127 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\nBot 拥有跨应用上下文，能把“航班变更”与“接送预约”关联起来——这是单一 App 做不到的。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 连接邮箱与日历，让 Bot 能看到行程确认邮件\n2. 在指令中写明：行程变动时检查关联预约\n3. 允许 Bot 主动推送提醒\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/mattyp/status/2105718647218200587](https://x.com/mattyp/status/2105718647218200587)\n"
-    },
-    {
-      "post_id": "2088321112073547835",
-      "post_url": "https://x.com/kiaraplds/status/2088321112073547835",
-      "author": "kiaraplds",
-      "date": "2026-08-14",
-      "title": "我没去的会，Bot 替我去了",
-      "what_they_built": "让 Bot 参加自己缺席的会议，向与会者说明身份并做笔记",
-      "scenario_tags": [
-        "calendar"
-      ],
-      "how_to_copy": [
-        "给 Bot 会议链接与议程",
-        "要求入会时先告知与会者自己是 AI",
-        "会后产出要点与待办",
-        "详见原帖/串：https://x.com/kiaraplds/status/2088321112073547835"
-      ],
-      "likes": 1129,
-      "reposts": 37,
-      "slug": "kiara-bot-attends-meeting",
-      "soft_article_md": "> 本文根据 @kiaraplds 在 X 上的公开帖子整理（2026-08-14），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 会议冲突时，让 Bot 先去听。\n\n2026-08-14，X 用户 @kiaraplds 分享了自己用 Grok Bot 做的一件事：让 Bot 参加自己缺席的会议，向与会者说明身份并做笔记。这条帖子获得了约 1129 个赞、37 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\nBot 在云电脑上能真正打开会议软件，透明告知身份后记录，比事后要录屏更省事。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 给 Bot 会议链接与议程\n2. 要求入会时先告知与会者自己是 AI\n3. 会后产出要点与待办\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/kiaraplds/status/2088321112073547835](https://x.com/kiaraplds/status/2088321112073547835)\n"
-    },
-    {
-      "post_id": "2087251704744235298",
-      "post_url": "https://x.com/n2parko/status/2087251704744235298",
-      "author": "n2parko",
-      "date": "2026-08-11",
-      "title": "从参谋长到工程经理：一支 Bot 核心团队",
-      "what_they_built": "搭建 Chief of Staff、工程经理等多 Bot 团队，并让 Bot 之间交接 PR",
-      "scenario_tags": [
-        "github",
-        "coding",
-        "calendar"
-      ],
-      "how_to_copy": [
-        "先建一个 Chief of Staff 管日程/邮件/Slack",
-        "再建工程经理 Bot 负责拆任务",
-        "工程类 Bot 各管一块，用群聊交接",
-        "参考原帖串里的配置截图",
-        "详见原帖/串：https://x.com/n2parko/status/2087251704744235298"
-      ],
-      "likes": 423,
-      "reposts": 19,
-      "slug": "n2parko-core-team",
-      "soft_article_md": "> 本文根据 @n2parko 在 X 上的公开帖子整理（2026-08-11），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 一个 Bot 不够，就组一个团队。\n\n2026-08-11，X 用户 @n2parko 分享了自己用 Grok Bot 做的一件事：搭建 Chief of Staff、工程经理等多 Bot 团队，并让 Bot 之间交接 PR。这条帖子获得了约 423 个赞、19 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n把角色拆清楚，每个 Bot 上下文干净、权限最小，交接透明。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 先建一个 Chief of Staff 管日程/邮件/Slack\n2. 再建工程经理 Bot 负责拆任务\n3. 工程类 Bot 各管一块，用群聊交接\n4. 参考原帖串里的配置截图\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/n2parko/status/2087251704744235298](https://x.com/n2parko/status/2087251704744235298)\n"
-    },
-    {
-      "post_id": "2087340859138224540",
-      "post_url": "https://x.com/farzyness/status/2087340859138224540",
-      "author": "farzyness",
-      "date": "2026-08-12",
-      "title": "内容创作者的 Bot 编制表",
-      "what_they_built": "组建 Webby、Shotry、Writey 等命名专员 Bot，覆盖网页、短视频、长文、脚本与选题",
-      "scenario_tags": [
-        "content",
-        "coding"
-      ],
-      "how_to_copy": [
-        "按产出物拆岗位：网页、短视频、长文、脚本、选题",
-        "每个 Bot 一个名字一份岗位说明",
-        "再加一个总调度 Bot 派活",
-        "详见原帖/串：https://x.com/farzyness/status/2087340859138224540"
-      ],
-      "likes": 2582,
-      "reposts": 164,
-      "slug": "farzyness-content-team",
-      "soft_article_md": "> 本文根据 @farzyness 在 X 上的公开帖子整理（2026-08-12），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 内容创作者最缺的不是灵感，而是人手。\n\n2026-08-12，X 用户 @farzyness 分享了自己用 Grok Bot 做的一件事：组建 Webby、Shotry、Writey 等命名专员 Bot，覆盖网页、短视频、长文、脚本与选题。这条帖子获得了约 2582 个赞、164 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n命名专员 + 调度者，是社区里反复出现的有效模式。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 按产出物拆岗位：网页、短视频、长文、脚本、选题\n2. 每个 Bot 一个名字一份岗位说明\n3. 再加一个总调度 Bot 派活\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/farzyness/status/2087340859138224540](https://x.com/farzyness/status/2087340859138224540)\n"
-    },
-    {
-      "post_id": "2093762642867581359",
-      "post_url": "https://x.com/CasJam/status/2093762642867581359",
-      "author": "CasJam",
-      "date": "2026-08-29",
-      "title": "13 个 Bot 撑起四个产品",
-      "what_they_built": "为每个产品配 Head、Growth、Maintainer Bot，再由 Chief 统一汇总",
-      "scenario_tags": [
-        "coding",
-        "content",
-        "github"
-      ],
-      "how_to_copy": [
-        "一个 Chief Bot 接你的指令",
-        "每个产品配 Head（路线图）、Growth（增长实验）、Maintainer（维护）",
-        "Head 每周向 Chief 汇报",
-        "详见原帖/串：https://x.com/CasJam/status/2093762642867581359"
-      ],
-      "likes": 199,
-      "reposts": 7,
-      "slug": "casjam-13-bot-org",
-      "soft_article_md": "> 本文根据 @CasJam 在 X 上的公开帖子整理（2026-08-29），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 一个人怎么同时运营四个产品？\n\n2026-08-29，X 用户 @CasJam 分享了自己用 Grok Bot 做的一件事：为每个产品配 Head、Growth、Maintainer Bot，再由 Chief 统一汇总。这条帖子获得了约 199 个赞、7 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n层级清楚、汇报节奏固定，让 Bot 团队像小公司一样运转。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 一个 Chief Bot 接你的指令\n2. 每个产品配 Head（路线图）、Growth（增长实验）、Maintainer（维护）\n3. Head 每周向 Chief 汇报\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/CasJam/status/2093762642867581359](https://x.com/CasJam/status/2093762642867581359)\n"
-    },
-    {
-      "post_id": "2093426221732532457",
-      "post_url": "https://x.com/TylerNishida/status/2093426221732532457",
-      "author": "TylerNishida",
-      "date": "2026-08-28",
-      "title": "两扇门：Life Bot 与 Work Bot",
-      "what_they_built": "把任务分成生活与工作两个入口 Bot，由它们按需创建子频道与专员",
-      "scenario_tags": [
-        "other"
-      ],
-      "how_to_copy": [
-        "使用原帖中分享的 Life / Work 模板链接",
-        "所有任务先丢给其中一个入口",
-        "混合类默认交给 Life",
-        "详见原帖/串：https://x.com/TylerNishida/status/2093426221732532457"
-      ],
-      "likes": 6,
-      "reposts": 0,
-      "slug": "tyler-life-work-bots",
-      "soft_article_md": "> 本文根据 @TylerNishida 在 X 上的公开帖子整理（2026-08-28），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## Bot 太多记不住派给谁？只留两个入口。\n\n2026-08-28，X 用户 @TylerNishida 分享了自己用 Grok Bot 做的一件事：把任务分成生活与工作两个入口 Bot，由它们按需创建子频道与专员。这条帖子获得了约 6 个赞、0 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n入口极简，复杂度下沉给 Bot 自己管理；且作者公开了模板。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 使用原帖中分享的 Life / Work 模板链接\n2. 所有任务先丢给其中一个入口\n3. 混合类默认交给 Life\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/TylerNishida/status/2093426221732532457](https://x.com/TylerNishida/status/2093426221732532457)\n"
-    },
-    {
-      "post_id": "2087228218797617404",
-      "post_url": "https://x.com/DannyLimanseta/status/2087228218797617404",
-      "author": "DannyLimanseta",
-      "date": "2026-08-11",
-      "title": "两小时生成 74 张游戏美术资源",
-      "what_they_built": "Bot 读代码库、操作作者的美术生成网页、裁切透明 PNG 并接回游戏",
-      "scenario_tags": [
-        "coding",
-        "content"
-      ],
-      "how_to_copy": [
-        "把代码仓库和工具网页给 Bot",
-        "说明资源规格（尺寸、透明背景）",
-        "让 Bot 生成→裁切→写回代码，最后人工验收",
-        "详见原帖/串：https://x.com/DannyLimanseta/status/2087228218797617404"
-      ],
-      "likes": 1066,
-      "reposts": 61,
-      "slug": "danny-74-game-assets",
-      "result_or_conversion": "约 74 个资源、约两小时（据 awesome 列表整理与原帖）",
-      "soft_article_md": "> 本文根据 @DannyLimanseta 在 X 上的公开帖子整理（2026-08-11），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 独立游戏开发者的美术瓶颈，被一个 Bot 打穿了。\n\n2026-08-11，X 用户 @DannyLimanseta 分享了自己用 Grok Bot 做的一件事：Bot 读代码库、操作作者的美术生成网页、裁切透明 PNG 并接回游戏。这条帖子获得了约 1066 个赞、61 次转发，作者提到的结果是：约 74 个资源、约两小时（据 awesome 列表整理与原帖）。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\nBot 能同时用浏览器和终端，把“生成图”和“接入代码”一条龙完成。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 把代码仓库和工具网页给 Bot\n2. 说明资源规格（尺寸、透明背景）\n3. 让 Bot 生成→裁切→写回代码，最后人工验收\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/DannyLimanseta/status/2087228218797617404](https://x.com/DannyLimanseta/status/2087228218797617404)\n"
-    },
-    {
-      "post_id": "2088416215203295346",
-      "post_url": "https://x.com/waynesutton/status/2088416215203295346",
-      "author": "waynesutton",
-      "date": "2026-08-15",
-      "title": "手机上两句话：建站+买域名+配 Cloudflare",
-      "what_they_built": "安装 Convex 与 Cloudflare 插件，搭建 demo 站，购买域名并设置跳转",
-      "scenario_tags": [
-        "coding"
-      ],
-      "how_to_copy": [
-        "在 Marketplace 安装所需插件",
-        "一句话描述站点与后端",
-        "第二句让 Bot 买域名并配置跳转（付款前确认）",
-        "详见原帖/串：https://x.com/waynesutton/status/2088416215203295346"
-      ],
-      "likes": 403,
-      "reposts": 11,
-      "slug": "waynesutton-site-two-prompts",
-      "result_or_conversion": "全程 2 条手机提示词（作者自述）",
-      "soft_article_md": "> 本文根据 @waynesutton 在 X 上的公开帖子整理（2026-08-15），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 建站还需要打开电脑吗？\n\n2026-08-15，X 用户 @waynesutton 分享了自己用 Grok Bot 做的一件事：安装 Convex 与 Cloudflare 插件，搭建 demo 站，购买域名并设置跳转。这条帖子获得了约 403 个赞、11 次转发，作者提到的结果是：全程 2 条手机提示词（作者自述）。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n插件 + 云电脑，让基础设施操作也能用自然语言完成。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 在 Marketplace 安装所需插件\n2. 一句话描述站点与后端\n3. 第二句让 Bot 买域名并配置跳转（付款前确认）\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/waynesutton/status/2088416215203295346](https://x.com/waynesutton/status/2088416215203295346)\n"
-    },
-    {
-      "post_id": "2089760255890571404",
-      "post_url": "https://x.com/mrfundman/status/2089760255890571404",
-      "author": "mrfundman",
-      "date": "2026-08-18",
-      "title": "教 Bot 一次，以后它来更新 WordPress",
-      "what_they_built": "用 Teach a task 演示 WordPress 更新流程",
-      "scenario_tags": [
-        "content",
-        "coding"
-      ],
-      "how_to_copy": [
-        "打开 Bot 的电脑视图，选 Teach a task",
-        "完整演示一次更新流程",
-        "检查生成的 skill，补充审批点",
-        "详见原帖/串：https://x.com/mrfundman/status/2089760255890571404"
-      ],
-      "likes": 107,
-      "reposts": 7,
-      "slug": "mrfundman-wordpress-teach",
-      "soft_article_md": "> 本文根据 @mrfundman 在 X 上的公开帖子整理（2026-08-18），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 不写脚本，也能自动化 CMS。\n\n2026-08-18，X 用户 @mrfundman 分享了自己用 Grok Bot 做的一件事：用 Teach a task 演示 WordPress 更新流程。这条帖子获得了约 107 个赞、7 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n演示即编程：Bot 记录界面操作生成 skill。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 打开 Bot 的电脑视图，选 Teach a task\n2. 完整演示一次更新流程\n3. 检查生成的 skill，补充审批点\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/mrfundman/status/2089760255890571404](https://x.com/mrfundman/status/2089760255890571404)\n"
-    },
-    {
-      "post_id": "2089817006065496530",
-      "post_url": "https://x.com/_avichawla/status/2089817006065496530",
-      "author": "_avichawla",
-      "date": "2026-08-18",
-      "title": "把屏幕操作变成 Agent 技能",
-      "what_they_built": "介绍 Teach a task：亲自做一遍，Bot 自动写成 skill",
-      "scenario_tags": [
-        "other"
-      ],
-      "how_to_copy": [
-        "在 Bot 对话中开启 computer view",
-        "选择 Teach a task 并完整操作",
-        "编辑生成的技能草稿后再定时",
-        "详见原帖/串：https://x.com/_avichawla/status/2089817006065496530"
-      ],
-      "likes": 106,
-      "reposts": 14,
-      "slug": "avichawla-teach-a-task",
-      "soft_article_md": "> 本文根据 @_avichawla 在 X 上的公开帖子整理（2026-08-18），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 最懒的自动化：做一遍就行。\n\n2026-08-18，X 用户 @_avichawla 分享了自己用 Grok Bot 做的一件事：介绍 Teach a task：亲自做一遍，Bot 自动写成 skill。这条帖子获得了约 106 个赞、14 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n对没有 API 的网页流程尤其有效。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 在 Bot 对话中开启 computer view\n2. 选择 Teach a task 并完整操作\n3. 编辑生成的技能草稿后再定时\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/_avichawla/status/2089817006065496530](https://x.com/_avichawla/status/2089817006065496530)\n"
-    },
-    {
-      "post_id": "2089735218861326727",
-      "post_url": "https://x.com/sidshekhar24/status/2089735218861326727",
-      "author": "sidshekhar24",
-      "date": "2026-08-18",
-      "title": "每日 Polymarket 临近结算市场简报",
-      "what_they_built": "每日 routine 扫描 24 小时内结算、概率 70–90% 的市场，查背景并评估",
-      "scenario_tags": [
-        "research",
-        "finance"
-      ],
-      "how_to_copy": [
-        "写清筛选条件（结算时间、概率区间）",
-        "让 Bot 为每个市场查背景",
-        "输出简洁日报，设每日 routine",
-        "详见原帖/串：https://x.com/sidshekhar24/status/2089735218861326727"
-      ],
-      "likes": 21,
-      "reposts": 0,
-      "slug": "sid-polymarket-brief",
-      "soft_article_md": "> 本文根据 @sidshekhar24 在 X 上的公开帖子整理（2026-08-18），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 每天一份帮你筛好的市场情报。\n\n2026-08-18，X 用户 @sidshekhar24 分享了自己用 Grok Bot 做的一件事：每日 routine 扫描 24 小时内结算、概率 70–90% 的市场，查背景并评估。这条帖子获得了约 21 个赞、0 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n筛选规则明确，研究可并行，非常适合定时跑。注：仅为信息整理，不构成投资建议。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 写清筛选条件（结算时间、概率区间）\n2. 让 Bot 为每个市场查背景\n3. 输出简洁日报，设每日 routine\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/sidshekhar24/status/2089735218861326727](https://x.com/sidshekhar24/status/2089735218861326727)\n"
-    },
-    {
-      "post_id": "2089379355692527813",
-      "post_url": "https://x.com/GavinSBaker/status/2089379355692527813",
-      "author": "GavinSBaker",
-      "date": "2026-08-17",
-      "title": "15 秒搭好播客摘要器",
-      "what_they_built": "用 Grok Bot 约 15 秒搭建播客摘要器",
-      "scenario_tags": [
-        "research",
-        "content"
-      ],
-      "how_to_copy": [
-        "告诉 Bot 你关注的播客",
-        "要求每期新节目出摘要与要点",
-        "设订阅式 routine",
-        "详见原帖/串：https://x.com/GavinSBaker/status/2089379355692527813"
-      ],
-      "likes": 5911,
-      "reposts": 385,
-      "slug": "gavinbaker-podcast-summarizer",
-      "result_or_conversion": "作者称个人 AI 使用量提升约 100 倍（自述估计）",
-      "soft_article_md": "> 本文根据 @GavinSBaker 在 X 上的公开帖子整理（2026-08-17），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 信息过载的投资人，怎么听完所有播客？\n\n2026-08-17，X 用户 @GavinSBaker 分享了自己用 Grok Bot 做的一件事：用 Grok Bot 约 15 秒搭建播客摘要器。这条帖子获得了约 5911 个赞、385 次转发，作者提到的结果是：作者称个人 AI 使用量提升约 100 倍（自述估计）。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n描述即搭建，不再需要自己拼接转录和摘要工具。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 告诉 Bot 你关注的播客\n2. 要求每期新节目出摘要与要点\n3. 设订阅式 routine\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/GavinSBaker/status/2089379355692527813](https://x.com/GavinSBaker/status/2089379355692527813)\n"
-    },
-    {
-      "post_id": "2089103618121314689",
-      "post_url": "https://x.com/kristaletz/status/2089103618121314689",
-      "author": "kristaletz",
-      "date": "2026-08-16",
-      "title": "企业销售的 GTM Bot 编制",
-      "what_they_built": "参谋长、夜间潜客研究、按客户的专家 Bot、实时更新幻灯片",
-      "scenario_tags": [
-        "research",
-        "inbox",
-        "content"
-      ],
-      "how_to_copy": [
-        "建参谋长 Bot 统筹",
-        "建夜间 prospecting Bot",
-        "为重点客户各建一个专家 Bot",
-        "阅读原帖长文了解细节",
-        "详见原帖/串：https://x.com/kristaletz/status/2089103618121314689"
-      ],
-      "likes": 3713,
-      "reposts": 265,
-      "slug": "kristaletz-enterprise-gtm",
-      "soft_article_md": "> 本文根据 @kristaletz 在 X 上的公开帖子整理（2026-08-16），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 销售的夜晚，Bot 在加班。\n\n2026-08-16，X 用户 @kristaletz 分享了自己用 Grok Bot 做的一件事：参谋长、夜间潜客研究、按客户的专家 Bot、实时更新幻灯片。这条帖子获得了约 3713 个赞、265 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n把研究和准备工作挪到夜里，白天只做沟通与成交。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 建参谋长 Bot 统筹\n2. 建夜间 prospecting Bot\n3. 为重点客户各建一个专家 Bot\n4. 阅读原帖长文了解细节\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/kristaletz/status/2089103618121314689](https://x.com/kristaletz/status/2089103618121314689)\n"
-    },
-    {
-      "post_id": "2087929147406299313",
-      "post_url": "https://x.com/benln/status/2087929147406299313",
-      "author": "benln",
-      "date": "2026-08-13",
-      "title": "团队内部最受欢迎的 Grok Bot 用法合集",
-      "what_they_built": "机票、按菜谱照片下单生鲜、修胶片扫描元数据、和承包商议价等",
-      "scenario_tags": [
-        "shopping",
-        "other"
-      ],
-      "how_to_copy": [
-        "从清单挑一个和你生活最接近的",
-        "照原帖描述给 Bot 下达任务",
-        "涉及付款的步骤保留确认",
-        "详见原帖/串：https://x.com/benln/status/2087929147406299313"
-      ],
-      "likes": 1231,
-      "reposts": 63,
-      "slug": "benln-internal-use-cases",
-      "soft_article_md": "> 本文根据 @benln 在 X 上的公开帖子整理（2026-08-13），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 内部员工自己都在用 Bot 干什么？\n\n2026-08-13，X 用户 @benln 分享了自己用 Grok Bot 做的一件事：机票、按菜谱照片下单生鲜、修胶片扫描元数据、和承包商议价等。这条帖子获得了约 1231 个赞、63 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n都是真实生活琐事，跨网站、跨文件，最能体现“有自己电脑的 Bot”。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 从清单挑一个和你生活最接近的\n2. 照原帖描述给 Bot 下达任务\n3. 涉及付款的步骤保留确认\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/benln/status/2087929147406299313](https://x.com/benln/status/2087929147406299313)\n"
-    },
-    {
-      "post_id": "2087666940450152841",
-      "post_url": "https://x.com/gota_bara/status/2087666940450152841",
-      "author": "gota_bara",
-      "date": "2026-08-12",
-      "title": "一个 Bot 名单上的十二种活",
-      "what_they_built": "图片量产、X 调研、研究简报、3D、退订等多种尝试",
-      "scenario_tags": [
-        "content",
-        "research",
-        "other"
-      ],
-      "how_to_copy": [
-        "参考原帖列表挑选场景",
-        "每种活单独建 Bot 或 skill",
-        "详见原帖/串：https://x.com/gota_bara/status/2087666940450152841"
-      ],
-      "likes": 51,
-      "reposts": 6,
-      "slug": "gota-twelve-jobs",
-      "soft_article_md": "> 本文根据 @gota_bara 在 X 上的公开帖子整理（2026-08-12），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 日本开发者的 Grok Bot 实验清单。\n\n2026-08-12，X 用户 @gota_bara 分享了自己用 Grok Bot 做的一件事：图片量产、X 调研、研究简报、3D、退订等多种尝试。这条帖子获得了约 51 个赞、6 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n广泛试错，找到最适合自己的几种。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 参考原帖列表挑选场景\n2. 每种活单独建 Bot 或 skill\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/gota_bara/status/2087666940450152841](https://x.com/gota_bara/status/2087666940450152841)\n"
-    },
-    {
-      "post_id": "2089387837204693202",
-      "post_url": "https://x.com/KettlebellDan/status/2089387837204693202",
-      "author": "KettlebellDan",
-      "date": "2026-08-17",
-      "title": "让 Bot 驱动 Arduino 跑马灯",
-      "what_they_built": "Bot 连接 Arduino，让 LED 显示股价、走势线与新闻",
-      "scenario_tags": [
-        "other",
-        "coding"
-      ],
-      "how_to_copy": [
-        "让 Bot 能访问设备（同网段或串口方案）",
-        "描述显示内容",
-        "设定刷新 routine",
-        "详见原帖/串：https://x.com/KettlebellDan/status/2089387837204693202"
-      ],
-      "likes": 365,
-      "reposts": 18,
-      "slug": "kettlebelldan-arduino-ticker",
-      "soft_article_md": "> 本文根据 @KettlebellDan 在 X 上的公开帖子整理（2026-08-17），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## AI 也能控制你桌上的硬件。\n\n2026-08-17，X 用户 @KettlebellDan 分享了自己用 Grok Bot 做的一件事：Bot 连接 Arduino，让 LED 显示股价、走势线与新闻。这条帖子获得了约 365 个赞、18 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\nBot 的终端能力让它写固件、推数据。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 让 Bot 能访问设备（同网段或串口方案）\n2. 描述显示内容\n3. 设定刷新 routine\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/KettlebellDan/status/2089387837204693202](https://x.com/KettlebellDan/status/2089387837204693202)\n"
-    },
-    {
-      "post_id": "2089920364419874937",
-      "post_url": "https://x.com/KettlebellDan/status/2089920364419874937",
-      "author": "KettlebellDan",
-      "date": "2026-08-19",
-      "title": "少刷 X：让 Bot 把更新推到小屏",
-      "what_they_built": "Bot 定时把 X 上的更新推送到 Arduino 设备",
-      "scenario_tags": [
-        "other",
-        "research"
-      ],
-      "how_to_copy": [
-        "连接 X",
-        "挑选关注主题",
-        "推送到你的设备或通知渠道",
-        "详见原帖/串：https://x.com/KettlebellDan/status/2089920364419874937"
-      ],
-      "likes": 98,
-      "reposts": 6,
-      "slug": "kettlebelldan-x-to-arduino",
-      "result_or_conversion": "作者称刷 X 的时间减少了（自述，无数据）",
-      "soft_article_md": "> 本文根据 @KettlebellDan 在 X 上的公开帖子整理（2026-08-19），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 信息流不必占据你的注意力。\n\n2026-08-19，X 用户 @KettlebellDan 分享了自己用 Grok Bot 做的一件事：Bot 定时把 X 上的更新推送到 Arduino 设备。这条帖子获得了约 98 个赞、6 次转发，作者提到的结果是：作者称刷 X 的时间减少了（自述，无数据）。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n把被动刷屏改成定时摘要。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 连接 X\n2. 挑选关注主题\n3. 推送到你的设备或通知渠道\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/KettlebellDan/status/2089920364419874937](https://x.com/KettlebellDan/status/2089920364419874937)\n"
-    },
-    {
-      "post_id": "2089223114416898288",
-      "post_url": "https://x.com/yunta_tsai/status/2089223114416898288",
-      "author": "yunta_tsai",
-      "date": "2026-08-17",
-      "title": "随时随地发短信给扫地机器人",
-      "what_they_built": "让 Chief Engineer Bot 打通 Matic 扫地机器人",
-      "scenario_tags": [
-        "other",
-        "coding"
-      ],
-      "how_to_copy": [
-        "让 Bot 研究设备接口",
-        "实现消息→设备指令",
-        "在任意聊天里调用",
-        "详见原帖/串：https://x.com/yunta_tsai/status/2089223114416898288"
-      ],
-      "likes": 2733,
-      "reposts": 256,
-      "slug": "yunta-matic-vacuum",
-      "soft_article_md": "> 本文根据 @yunta_tsai 在 X 上的公开帖子整理（2026-08-17），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 智能家居的统一遥控器，可以是一个 Bot。\n\n2026-08-17，X 用户 @yunta_tsai 分享了自己用 Grok Bot 做的一件事：让 Chief Engineer Bot 打通 Matic 扫地机器人。这条帖子获得了约 2733 个赞、256 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\nBot 自己完成接入开发，作者只需提需求。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 让 Bot 研究设备接口\n2. 实现消息→设备指令\n3. 在任意聊天里调用\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/yunta_tsai/status/2089223114416898288](https://x.com/yunta_tsai/status/2089223114416898288)\n"
-    },
-    {
-      "post_id": "2105576730413134291",
-      "post_url": "https://x.com/poteto/status/2105576730413134291",
-      "author": "poteto",
-      "date": "2026-10-01",
-      "title": "把我的脑子给 Bot：现在我这样修 bug",
-      "what_they_built": "将个人上下文交给 Bot，让它按自己的方式修 bug",
-      "scenario_tags": [
-        "coding",
-        "github"
-      ],
-      "how_to_copy": [
-        "整理你的编码习惯和偏好成文档/记忆",
-        "让 Bot 接 issue 并按规则修复",
-        "PR 由你审核合并",
-        "详见原帖/串：https://x.com/poteto/status/2105576730413134291"
-      ],
-      "likes": 984,
-      "reposts": 14,
-      "slug": "poteto-bot-brain",
-      "soft_article_md": "> 本文根据 @poteto 在 X 上的公开帖子整理（2026-10-01），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 让 Bot 像你一样修 bug。\n\n2026-10-01，X 用户 @poteto 分享了自己用 Grok Bot 做的一件事：将个人上下文交给 Bot，让它按自己的方式修 bug。这条帖子获得了约 984 个赞、14 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n上下文越完整，产出越像你本人。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 整理你的编码习惯和偏好成文档/记忆\n2. 让 Bot 接 issue 并按规则修复\n3. PR 由你审核合并\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/poteto/status/2105576730413134291](https://x.com/poteto/status/2105576730413134291)\n"
-    },
-    {
-      "post_id": "2087275866950938662",
-      "post_url": "https://x.com/Box/status/2087275866950938662",
-      "author": "Box",
-      "date": "2026-08-11",
-      "title": "Box：企业内容上的信贷委员会材料包",
-      "what_they_built": "通过 Box MCP 跨受管内容整理材料并写回 Box",
-      "scenario_tags": [
-        "research",
-        "other"
-      ],
-      "how_to_copy": [
-        "连接 Box MCP",
-        "说明材料包结构",
-        "Bot 汇总后写回指定文件夹",
-        "详见原帖/串：https://x.com/Box/status/2087275866950938662"
-      ],
-      "likes": 242,
-      "reposts": 34,
-      "slug": "box-credit-committee",
-      "soft_article_md": "> 本文根据 @Box 在 X 上的公开帖子整理（2026-08-11），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 企业文档海洋里，Bot 怎么干活？\n\n2026-08-11，X 用户 @Box 分享了自己用 Grok Bot 做的一件事：通过 Box MCP 跨受管内容整理材料并写回 Box。这条帖子获得了约 242 个赞、34 次转发。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\nMCP 直连受管内容，权限与合规保留。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 连接 Box MCP\n2. 说明材料包结构\n3. Bot 汇总后写回指定文件夹\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/Box/status/2087275866950938662](https://x.com/Box/status/2087275866950938662)\n"
-    },
-    {
-      "post_id": "2105526443732308021",
-      "post_url": "https://x.com/Yel0_22G/status/2105526443732308021",
-      "author": "Yel0_22G",
-      "date": "2026-10-01",
-      "title": "【待审】交易 Bot 自己发了个币",
-      "what_they_built": "作者称让 Bot 交易 meme 币并设风控 agent，Bot 自行发币",
-      "scenario_tags": [
-        "finance"
-      ],
-      "how_to_copy": [
-        "不建议照抄：涉及资金与加密资产",
-        "若研究，务必全程人工审批",
-        "详见原帖/串：https://x.com/Yel0_22G/status/2105526443732308021"
-      ],
-      "likes": 2,
-      "reposts": 0,
-      "slug": "yel0-memecoin-bot",
-      "result_or_conversion": "作者自述 19 小时 512→7940 美元（未核实，高风险）",
-      "needs_review": true,
-      "soft_article_md": "> 本文根据 @Yel0_22G 在 X 上的公开帖子整理（2026-10-01），非作者本人撰写；文中不含虚构引语，数据均以原帖为准。\n\n## 一个失控又走运的故事。\n\n2026-10-01，X 用户 @Yel0_22G 分享了自己用 Grok Bot 做的一件事：作者称让 Bot 交易 meme 币并设风控 agent，Bot 自行发币。这条帖子获得了约 2 个赞、0 次转发，作者提到的结果是：作者自述 19 小时 512→7940 美元（未核实，高风险）。\n\n## 发生了什么\n\n按原帖描述，作者没有写复杂脚本，而是把任务直接交给一个常驻的 Bot：给它目标、连上需要的工具，让它在自己的云电脑上执行，关键动作再回来找人确认。这正是 Grok Bot 与普通聊天机器人最大的区别——它不止给建议，而是把活干完。\n\n## 为什么行得通\n\n这更像风险警示：自主资金操作必须设边界。另外，Bot 跑在云端，关掉电脑也不中断；跑通一次后可以存成 skill，再挂成 routine 定时执行。\n\n## 怎么抄作业\n\n1. 不建议照抄：涉及资金与加密资产\n2. 若研究，务必全程人工审批\n\n小建议：先手动跑一次、确认结果靠谱，再自动化；涉及付款、删除、对外发送的动作一律保留人工审批，并留意 routine 频率对用量的消耗。\n\n## 原帖\n\n👉 [https://x.com/Yel0_22G/status/2105526443732308021](https://x.com/Yel0_22G/status/2105526443732308021)\n"
-    }
-  ]
+ "fetched_at": "2026-10-12T20:14:41.252287+08:00",
+ "count": 27,
+ "source_note": "Post IDs from awesome-grok-bot lists; text/date/metrics verified via X API get_posts_by_ids. X search was rate-limited (429).",
+ "items": [
+  {
+   "post_id": "2089381004524093752",
+   "post_url": "https://x.com/darian314/status/2089381004524093752",
+   "author": "darian314",
+   "date": "2026-08-17",
+   "title": "让 Bot 自己挣回月费：追回 5 笔未退款",
+   "what_they_built": "让 Grok Bot 翻邮箱找出退货后商家没退的钱，并给 5 个商家发邮件追款",
+   "scenario_tags": [
+    "inbox",
+    "finance"
+   ],
+   "how_to_copy": [
+    "连接 Gmail（先只读+草稿）",
+    "指令：搜索近 6 个月退货/退款相关邮件，列出未到账的订单",
+    "让 Bot 为每家商家起草追款邮件，人工审批后发送",
+    "设一个每周 routine 复查到账情况"
+   ],
+   "likes": 148,
+   "reposts": 2,
+   "slug": "darian-refund-hunter",
+   "result_or_conversion": "作者称追回的钱已超过 Grok Bot 月费"
+  },
+  {
+   "post_id": "2089879632929554498",
+   "post_url": "https://x.com/mikepat711/status/2089879632929554498",
+   "author": "mikepat711",
+   "date": "2026-08-19",
+   "title": "9 万封邮件大扫除",
+   "what_they_built": "让 Bot 遍历两个 Gmail 账号共约 90,000 封邮件，清理垃圾",
+   "scenario_tags": [
+    "inbox"
+   ],
+   "how_to_copy": [
+    "连接两个 Gmail 账号",
+    "先让 Bot 按发件人/类别出清理方案",
+    "确认后批量归档或删除，保留审批",
+    "设月度 routine 维持"
+   ],
+   "likes": 1254,
+   "reposts": 80,
+   "slug": "mikepat-90k-email-purge",
+   "result_or_conversion": "处理规模约 90,000 封邮件（作者自述）"
+  },
+  {
+   "post_id": "2089724101070086482",
+   "post_url": "https://x.com/petergyang/status/2089724101070086482",
+   "author": "petergyang",
+   "date": "2026-08-18",
+   "title": "“断舍离” Bot：邮件、云盘、订阅一起清",
+   "what_they_built": "搭一个 Marie Kondo 风格 Bot，审计邮箱、Google Drive 与付费订阅，经批准后清理",
+   "scenario_tags": [
+    "inbox",
+    "finance",
+    "other"
+   ],
+   "how_to_copy": [
+    "复制原帖中给出的完整提示词",
+    "连接 Gmail 与 Google Drive",
+    "要求所有删除/退订先列清单、等你批准",
+    "按月跑一次"
+   ],
+   "likes": 360,
+   "reposts": 23,
+   "slug": "petergyang-marie-kondo-bot",
+   "prompt": "You are Marie Kondo for cleaning up digital clutter. Audit my email, Google Drive, and paid subscriptions, then create a cleanup plan with no more than 10 items per category.\n\nFind emails to unsubscribe from, redundant files to remove or rename, and paid subscriptions I may want to cancel.\n\nDo not move, delete, unsubscribe, or cancel anything without my approval.",
+   "prompt_lang": "en"
+  },
+  {
+   "post_id": "2090085668768694562",
+   "post_url": "https://x.com/GergelyOrosz/status/2090085668768694562",
+   "author": "GergelyOrosz",
+   "date": "2026-08-19",
+   "title": "客服邮箱接 Stripe：自动处理常规退款",
+   "what_they_built": "把 Grok Bot 接入客服邮箱，并通过 Stripe API 处理常规退款等操作",
+   "scenario_tags": [
+    "inbox",
+    "finance"
+   ],
+   "how_to_copy": [
+    "连接客服邮箱",
+    "接入 Stripe（API/插件）",
+    "规定退款金额阈值与人工确认节点",
+    "让 Bot 起草回复并附处理结果"
+   ],
+   "likes": 794,
+   "reposts": 37,
+   "slug": "gergely-support-stripe-refunds"
+  },
+  {
+   "post_id": "2087635639701573962",
+   "post_url": "https://x.com/HouseHackerJon/status/2087635639701573962",
+   "author": "HouseHackerJon",
+   "date": "2026-08-12",
+   "title": "水管公司老板：24 小时内把办公室杂务交给 Bot",
+   "what_they_built": "水管/排污公司老板用 Grok Bot 自动化大量办公室经理工作",
+   "scenario_tags": [
+    "inbox",
+    "calendar",
+    "other"
+   ],
+   "how_to_copy": [
+    "阅读原帖串里的任务清单",
+    "挑出最重复的 2–3 件（如报价、排班、回邮件）",
+    "为每件写清输入、产出和审批点",
+    "跑通后存为 skill 再设 routine"
+   ],
+   "likes": 2425,
+   "reposts": 140,
+   "slug": "househackerjon-plumbing-office",
+   "result_or_conversion": "作者列出了上线头 24 小时完成的事项（见原帖串）"
+  },
+  {
+   "post_id": "2087415205756391461",
+   "post_url": "https://x.com/yunta_tsai/status/2087415205756391461",
+   "author": "yunta_tsai",
+   "date": "2026-08-12",
+   "title": "走在停车场时，Bot 帮我订好了位子",
+   "what_they_built": "Bot 扫描日历找出还没预订的事项，判断最佳时间并在网站上完成预订",
+   "scenario_tags": [
+    "calendar",
+    "shopping"
+   ],
+   "how_to_copy": [
+    "连接日历",
+    "指令：找出需要提前预订但还没订的行程",
+    "让 Bot 用浏览器完成预订，付款前确认",
+    "每周跑一次"
+   ],
+   "likes": 986,
+   "reposts": 76,
+   "slug": "yunta-calendar-reservations"
+  },
+  {
+   "post_id": "2105718647218200587",
+   "post_url": "https://x.com/mattyp/status/2105718647218200587",
+   "author": "mattyp",
+   "date": "2026-10-01",
+   "title": "改了航班，Bot 提醒我 Uber 没改",
+   "what_they_built": "Grok Bot 主动发现换航班后 Uber 预约未更新，并在转机途中提醒",
+   "scenario_tags": [
+    "calendar",
+    "other"
+   ],
+   "how_to_copy": [
+    "连接邮箱与日历，让 Bot 能看到行程确认邮件",
+    "在指令中写明：行程变动时检查关联预约",
+    "允许 Bot 主动推送提醒"
+   ],
+   "likes": 2004,
+   "reposts": 127,
+   "slug": "mattyp-proactive-uber"
+  },
+  {
+   "post_id": "2088321112073547835",
+   "post_url": "https://x.com/kiaraplds/status/2088321112073547835",
+   "author": "kiaraplds",
+   "date": "2026-08-14",
+   "title": "我没去的会，Bot 替我去了",
+   "what_they_built": "让 Bot 参加自己缺席的会议，向与会者说明身份并做笔记",
+   "scenario_tags": [
+    "calendar"
+   ],
+   "how_to_copy": [
+    "给 Bot 会议链接与议程",
+    "要求入会时先告知与会者自己是 AI",
+    "会后产出要点与待办"
+   ],
+   "likes": 1129,
+   "reposts": 37,
+   "slug": "kiara-bot-attends-meeting"
+  },
+  {
+   "post_id": "2087251704744235298",
+   "post_url": "https://x.com/n2parko/status/2087251704744235298",
+   "author": "n2parko",
+   "date": "2026-08-11",
+   "title": "从参谋长到工程经理：一支 Bot 核心团队",
+   "what_they_built": "搭建 Chief of Staff、工程经理等多 Bot 团队，并让 Bot 之间交接 PR",
+   "scenario_tags": [
+    "github",
+    "coding",
+    "calendar"
+   ],
+   "how_to_copy": [
+    "先建一个 Chief of Staff 管日程/邮件/Slack",
+    "再建工程经理 Bot 负责拆任务",
+    "工程类 Bot 各管一块，用群聊交接",
+    "参考原帖串里的配置截图"
+   ],
+   "likes": 423,
+   "reposts": 19,
+   "slug": "n2parko-core-team"
+  },
+  {
+   "post_id": "2087340859138224540",
+   "post_url": "https://x.com/farzyness/status/2087340859138224540",
+   "author": "farzyness",
+   "date": "2026-08-12",
+   "title": "内容创作者的 Bot 编制表",
+   "what_they_built": "组建 Webby、Shotry、Writey 等命名专员 Bot，覆盖网页、短视频、长文、脚本与选题",
+   "scenario_tags": [
+    "content",
+    "coding"
+   ],
+   "how_to_copy": [
+    "按产出物拆岗位：网页、短视频、长文、脚本、选题",
+    "每个 Bot 一个名字一份岗位说明",
+    "再加一个总调度 Bot 派活"
+   ],
+   "likes": 2582,
+   "reposts": 164,
+   "slug": "farzyness-content-team"
+  },
+  {
+   "post_id": "2093762642867581359",
+   "post_url": "https://x.com/CasJam/status/2093762642867581359",
+   "author": "CasJam",
+   "date": "2026-08-29",
+   "title": "13 个 Bot 撑起四个产品",
+   "what_they_built": "为每个产品配 Head、Growth、Maintainer Bot，再由 Chief 统一汇总",
+   "scenario_tags": [
+    "coding",
+    "content",
+    "github"
+   ],
+   "how_to_copy": [
+    "一个 Chief Bot 接你的指令",
+    "每个产品配 Head（路线图）、Growth（增长实验）、Maintainer（维护）",
+    "Head 每周向 Chief 汇报"
+   ],
+   "likes": 199,
+   "reposts": 7,
+   "slug": "casjam-13-bot-org"
+  },
+  {
+   "post_id": "2093426221732532457",
+   "post_url": "https://x.com/TylerNishida/status/2093426221732532457",
+   "author": "TylerNishida",
+   "date": "2026-08-28",
+   "title": "两扇门：Life Bot 与 Work Bot",
+   "what_they_built": "把任务分成生活与工作两个入口 Bot，由它们按需创建子频道与专员",
+   "scenario_tags": [
+    "other"
+   ],
+   "how_to_copy": [
+    "使用原帖中分享的 Life / Work 模板链接",
+    "所有任务先丢给其中一个入口",
+    "混合类默认交给 Life"
+   ],
+   "likes": 6,
+   "reposts": 0,
+   "slug": "tyler-life-work-bots"
+  },
+  {
+   "post_id": "2087228218797617404",
+   "post_url": "https://x.com/DannyLimanseta/status/2087228218797617404",
+   "author": "DannyLimanseta",
+   "date": "2026-08-11",
+   "title": "两小时生成 74 张游戏美术资源",
+   "what_they_built": "Bot 读代码库、操作作者的美术生成网页、裁切透明 PNG 并接回游戏",
+   "scenario_tags": [
+    "coding",
+    "content"
+   ],
+   "how_to_copy": [
+    "把代码仓库和工具网页给 Bot",
+    "说明资源规格（尺寸、透明背景）",
+    "让 Bot 生成→裁切→写回代码，最后人工验收"
+   ],
+   "likes": 1066,
+   "reposts": 61,
+   "slug": "danny-74-game-assets",
+   "result_or_conversion": "约 74 个资源、约两小时（据 awesome 列表整理与原帖）"
+  },
+  {
+   "post_id": "2088416215203295346",
+   "post_url": "https://x.com/waynesutton/status/2088416215203295346",
+   "author": "waynesutton",
+   "date": "2026-08-15",
+   "title": "手机上两句话：建站+买域名+配 Cloudflare",
+   "what_they_built": "安装 Convex 与 Cloudflare 插件，搭建 demo 站，购买域名并设置跳转",
+   "scenario_tags": [
+    "coding"
+   ],
+   "how_to_copy": [
+    "在 Marketplace 安装所需插件",
+    "一句话描述站点与后端",
+    "第二句让 Bot 买域名并配置跳转（付款前确认）"
+   ],
+   "likes": 403,
+   "reposts": 11,
+   "slug": "waynesutton-site-two-prompts",
+   "result_or_conversion": "全程 2 条手机提示词（作者自述）"
+  },
+  {
+   "post_id": "2089760255890571404",
+   "post_url": "https://x.com/mrfundman/status/2089760255890571404",
+   "author": "mrfundman",
+   "date": "2026-08-18",
+   "title": "教 Bot 一次，以后它来更新 WordPress",
+   "what_they_built": "用 Teach a task 演示 WordPress 更新流程",
+   "scenario_tags": [
+    "content",
+    "coding"
+   ],
+   "how_to_copy": [
+    "打开 Bot 的电脑视图，选 Teach a task",
+    "完整演示一次更新流程",
+    "检查生成的 skill，补充审批点"
+   ],
+   "likes": 107,
+   "reposts": 7,
+   "slug": "mrfundman-wordpress-teach"
+  },
+  {
+   "post_id": "2089817006065496530",
+   "post_url": "https://x.com/_avichawla/status/2089817006065496530",
+   "author": "_avichawla",
+   "date": "2026-08-18",
+   "title": "把屏幕操作变成 Agent 技能",
+   "what_they_built": "介绍 Teach a task：亲自做一遍，Bot 自动写成 skill",
+   "scenario_tags": [
+    "other"
+   ],
+   "how_to_copy": [
+    "在 Bot 对话中开启 computer view",
+    "选择 Teach a task 并完整操作",
+    "编辑生成的技能草稿后再定时"
+   ],
+   "likes": 106,
+   "reposts": 14,
+   "slug": "avichawla-teach-a-task"
+  },
+  {
+   "post_id": "2089735218861326727",
+   "post_url": "https://x.com/sidshekhar24/status/2089735218861326727",
+   "author": "sidshekhar24",
+   "date": "2026-08-18",
+   "title": "每日 Polymarket 临近结算市场简报",
+   "what_they_built": "每日 routine 扫描 24 小时内结算、概率 70–90% 的市场，查背景并评估",
+   "scenario_tags": [
+    "research",
+    "finance"
+   ],
+   "how_to_copy": [
+    "写清筛选条件（结算时间、概率区间）",
+    "让 Bot 为每个市场查背景",
+    "输出简洁日报，设每日 routine"
+   ],
+   "likes": 21,
+   "reposts": 0,
+   "slug": "sid-polymarket-brief"
+  },
+  {
+   "post_id": "2089379355692527813",
+   "post_url": "https://x.com/GavinSBaker/status/2089379355692527813",
+   "author": "GavinSBaker",
+   "date": "2026-08-17",
+   "title": "15 秒搭好播客摘要器",
+   "what_they_built": "用 Grok Bot 约 15 秒搭建播客摘要器",
+   "scenario_tags": [
+    "research",
+    "content"
+   ],
+   "how_to_copy": [
+    "告诉 Bot 你关注的播客",
+    "要求每期新节目出摘要与要点",
+    "设订阅式 routine"
+   ],
+   "likes": 5911,
+   "reposts": 385,
+   "slug": "gavinbaker-podcast-summarizer",
+   "result_or_conversion": "作者称个人 AI 使用量提升约 100 倍（自述估计）"
+  },
+  {
+   "post_id": "2089103618121314689",
+   "post_url": "https://x.com/kristaletz/status/2089103618121314689",
+   "author": "kristaletz",
+   "date": "2026-08-16",
+   "title": "企业销售的 GTM Bot 编制",
+   "what_they_built": "参谋长、夜间潜客研究、按客户的专家 Bot、实时更新幻灯片",
+   "scenario_tags": [
+    "research",
+    "inbox",
+    "content"
+   ],
+   "how_to_copy": [
+    "建参谋长 Bot 统筹",
+    "建夜间 prospecting Bot",
+    "为重点客户各建一个专家 Bot",
+    "阅读原帖长文了解细节"
+   ],
+   "likes": 3713,
+   "reposts": 265,
+   "slug": "kristaletz-enterprise-gtm"
+  },
+  {
+   "post_id": "2087929147406299313",
+   "post_url": "https://x.com/benln/status/2087929147406299313",
+   "author": "benln",
+   "date": "2026-08-13",
+   "title": "团队内部最受欢迎的 Grok Bot 用法合集",
+   "what_they_built": "机票、按菜谱照片下单生鲜、修胶片扫描元数据、和承包商议价等",
+   "scenario_tags": [
+    "shopping",
+    "other"
+   ],
+   "how_to_copy": [
+    "从清单挑一个和你生活最接近的",
+    "照原帖描述给 Bot 下达任务",
+    "涉及付款的步骤保留确认"
+   ],
+   "likes": 1231,
+   "reposts": 63,
+   "slug": "benln-internal-use-cases"
+  },
+  {
+   "post_id": "2087666940450152841",
+   "post_url": "https://x.com/gota_bara/status/2087666940450152841",
+   "author": "gota_bara",
+   "date": "2026-08-12",
+   "title": "一个 Bot 名单上的十二种活",
+   "what_they_built": "图片量产、X 调研、研究简报、3D、退订等多种尝试",
+   "scenario_tags": [
+    "content",
+    "research",
+    "other"
+   ],
+   "how_to_copy": [
+    "参考原帖列表挑选场景",
+    "每种活单独建 Bot 或 skill"
+   ],
+   "likes": 51,
+   "reposts": 6,
+   "slug": "gota-twelve-jobs"
+  },
+  {
+   "post_id": "2089387837204693202",
+   "post_url": "https://x.com/KettlebellDan/status/2089387837204693202",
+   "author": "KettlebellDan",
+   "date": "2026-08-17",
+   "title": "让 Bot 驱动 Arduino 跑马灯",
+   "what_they_built": "Bot 连接 Arduino，让 LED 显示股价、走势线与新闻",
+   "scenario_tags": [
+    "other",
+    "coding"
+   ],
+   "how_to_copy": [
+    "让 Bot 能访问设备（同网段或串口方案）",
+    "描述显示内容",
+    "设定刷新 routine"
+   ],
+   "likes": 365,
+   "reposts": 18,
+   "slug": "kettlebelldan-arduino-ticker"
+  },
+  {
+   "post_id": "2089920364419874937",
+   "post_url": "https://x.com/KettlebellDan/status/2089920364419874937",
+   "author": "KettlebellDan",
+   "date": "2026-08-19",
+   "title": "少刷 X：让 Bot 把更新推到小屏",
+   "what_they_built": "Bot 定时把 X 上的更新推送到 Arduino 设备",
+   "scenario_tags": [
+    "other",
+    "research"
+   ],
+   "how_to_copy": [
+    "连接 X",
+    "挑选关注主题",
+    "推送到你的设备或通知渠道"
+   ],
+   "likes": 98,
+   "reposts": 6,
+   "slug": "kettlebelldan-x-to-arduino",
+   "result_or_conversion": "作者称刷 X 的时间减少了（自述，无数据）"
+  },
+  {
+   "post_id": "2089223114416898288",
+   "post_url": "https://x.com/yunta_tsai/status/2089223114416898288",
+   "author": "yunta_tsai",
+   "date": "2026-08-17",
+   "title": "随时随地发短信给扫地机器人",
+   "what_they_built": "让 Chief Engineer Bot 打通 Matic 扫地机器人",
+   "scenario_tags": [
+    "other",
+    "coding"
+   ],
+   "how_to_copy": [
+    "让 Bot 研究设备接口",
+    "实现消息→设备指令",
+    "在任意聊天里调用"
+   ],
+   "likes": 2733,
+   "reposts": 256,
+   "slug": "yunta-matic-vacuum"
+  },
+  {
+   "post_id": "2105576730413134291",
+   "post_url": "https://x.com/poteto/status/2105576730413134291",
+   "author": "poteto",
+   "date": "2026-10-01",
+   "title": "把我的脑子给 Bot：现在我这样修 bug",
+   "what_they_built": "将个人上下文交给 Bot，让它按自己的方式修 bug",
+   "scenario_tags": [
+    "coding",
+    "github"
+   ],
+   "how_to_copy": [
+    "整理你的编码习惯和偏好成文档/记忆",
+    "让 Bot 接 issue 并按规则修复",
+    "PR 由你审核合并"
+   ],
+   "likes": 984,
+   "reposts": 14,
+   "slug": "poteto-bot-brain"
+  },
+  {
+   "post_id": "2087275866950938662",
+   "post_url": "https://x.com/Box/status/2087275866950938662",
+   "author": "Box",
+   "date": "2026-08-11",
+   "title": "Box：企业内容上的信贷委员会材料包",
+   "what_they_built": "通过 Box MCP 跨受管内容整理材料并写回 Box",
+   "scenario_tags": [
+    "research",
+    "other"
+   ],
+   "how_to_copy": [
+    "连接 Box MCP",
+    "说明材料包结构",
+    "Bot 汇总后写回指定文件夹"
+   ],
+   "likes": 242,
+   "reposts": 34,
+   "slug": "box-credit-committee"
+  },
+  {
+   "post_id": "2105526443732308021",
+   "post_url": "https://x.com/Yel0_22G/status/2105526443732308021",
+   "author": "Yel0_22G",
+   "date": "2026-10-01",
+   "title": "【待审】交易 Bot 自己发了个币",
+   "what_they_built": "作者称让 Bot 交易 meme 币并设风控 agent，Bot 自行发币",
+   "scenario_tags": [
+    "finance"
+   ],
+   "how_to_copy": [
+    "不建议照抄：涉及资金与加密资产",
+    "若研究，务必全程人工审批"
+   ],
+   "likes": 2,
+   "reposts": 0,
+   "slug": "yel0-memecoin-bot",
+   "result_or_conversion": "作者自述 19 小时 512→7940 美元（未核实，高风险）",
+   "needs_review": true
+  }
+ ]
 }
