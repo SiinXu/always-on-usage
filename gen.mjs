@@ -206,6 +206,7 @@ for(const s of RT)out["@"+s]=out[K(s)];fs.writeFileSync("src/strings.json",JSON.
  const unesc=v=>v.replace(/&quot;/g,'"').replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&amp;/g,"&");
  const enText=t=>{if(!HAN_.test(t))return t;for(const k of ZK)if(t.includes(k))t=t.split(k).join(ZE.get(k));return HAN_.test(t)?stripHan(t):t};
  const fillv=(e,dv)=>{if(!dv)return e;let o={};try{o=JSON.parse(unesc(dv))}catch(_){}return e.replace(/\{(\w+)\}/g,(_,k)=>o[k]??"")};
+ const XT=(()=>{try{return JSON.parse(fs.readFileSync("content-inbox/excerpt-en.json","utf8"))}catch(_){return {}}})();
  let nFiles=0,left=0;
  for(const f of WROTE){let h=fs.readFileSync(f,"utf8");const h0=h;
   h=h.replace('<html lang="zh-CN">','<html lang="en">');
@@ -213,17 +214,27 @@ for(const s of RT)out["@"+s]=out[K(s)];fs.writeFileSync("src/strings.json",JSON.
   h=h.replace(/<title\s*>([^<]*)<\/title>/,(m,t)=>`<title>${esc(enText(unesc(t)))}</title>`);
   h=h.replace(/(<(\w+)\b[^>]*?\sdata-i18n="([0-9a-f]{8})"([^>]*)>)([\s\S]*?)(<\/\2>)/g,(m,open,tag,k,rest,inner,close)=>{if(tag==="title")return m;const e=EN(k);if(e==null||/<(span|div|a|p)\b/.test(inner))return m;const dv=(open.match(/data-v="([^"]*)"/)||[])[1];return open+fillv(e,dv)+close});
   h=h.replace(/(\s([\w-]+)=")([^"]*)("(?:[^>]*?)\sdata-i18n-\2="([0-9a-f]{8})")/g,(m,a,at,val,b,k)=>{const e=EN(k);return e==null?m:a+esc(fillv(e,(b.match(/data-v="([^"]*)"/)||[])[1]))+b});
-  h=h.replace(/<span class="lx" data-en="([^"]*)">([^<]*)<\/span>/g,(m,en,zh)=>`<span class="lx" data-en="${en}" data-zh="${zh}">${en}</span>`);
+  const Z=[];const zi=v=>{Z.push(v);return Z.length-1};
+  h=h.replace(/<span class="lx" data-en="([^"]*)">([^<]*)<\/span>/g,(m,en,zh)=>`<span class="lx" data-en="${en}" data-zk="${zi(unesc(zh))}">${en}</span>`);
   h=h.replace(/(<meta name="description" content=")([^"]*)(")(?![^>]*data-i18n-content)/,(m,a,v,b)=>a+esc(enText(unesc(v)))+b);
   h=h.replace(/(<img\b[^>]*\salt=")([^"]*[\u4e00-\u9fff][^"]*)(")/g,(m,a,v,b)=>a+esc(enText(unesc(v)))+b);
   // verbatim quotes in Chinese / Japanese: shown only to visitors reading that language; everyone else gets a note + the source link (main.js)
-  h=h.replace(/<(blockquote|ol|ul)([^>]*?) lang="und"([^>]*)>([\s\S]*?)<\/\1>/g,(m,tg,a0,at,inner)=>{if(!/[\u4e00-\u9fff]/.test(inner.replace(/<[^>]+>/g,"")))return m;const ql=/[\u3040-\u30ff]/.test(inner)?"ja":"zh";return `<${tg}${a0} lang="${ql}" data-ql="${ql}" hidden${at}>${inner}</${tg}><p class="ql-note" data-ql-note="${ql}">${ql==="ja"?"The original post is in Japanese and is shown on the Japanese page; open the source link to read it.":"The original post is in Chinese and is shown on the Chinese pages; open the source link to read it."}</p>`});
+  h=h.replace(/<(blockquote|ol|ul)([^>]*?) lang="und"([^>]*)>([\s\S]*?)<\/\1>/g,(m,tg,a0,at,inner)=>{if(!/[\u4e00-\u9fff]/.test(inner.replace(/<[^>]+>/g,"")))return m;const ql=/[\u3040-\u30ff]/.test(inner)?"ja":"zh";const tr=XT[inner];const hid=`<${tg}${a0} lang="${ql}" data-ql="${ql}" data-qk="${zi(inner)}" hidden${at}></${tg}>`;
+    if(tr)return hid+`<${tg}${a0} lang="en" data-ql-note="${ql}" data-ql-tr${at}>${tr}</${tg}><p class="ql-tr-note">Translated from the ${ql==="ja"?"Japanese":"Chinese"} original.</p>`;
+    return hid+`<p class="ql-note" data-ql-note="${ql}">${ql==="ja"?"The original post is in Japanese and is shown on the Japanese page; open the source link to read it.":"The original post is in Chinese and is shown on the Chinese pages; open the source link to read it."}</p>`});
   // author names written only in Han: shown on zh / ja pages only
-  h=h.replace(/<span( class="cc-au")?>([^<]*[\u4e00-\u9fff][^<]*)<\/span>/g,(m,c,n)=>/^[^a-zA-Z]{1,12}$/.test(n.trim())?`<span${c||""} lang="und" data-ql="cjk" hidden>${n}</span>`:m);
+  h=h.replace(/<span( class="cc-au")?>([^<]*[\u4e00-\u9fff][^<]*)<\/span>/g,(m,c,n)=>/^[^a-zA-Z]{1,12}$/.test(n.trim())?`<span${c||""} lang="und" data-ql="cjk" data-qk="${zi(n)}" hidden></span>`:m);
+  h=h.replace(/\sdata-q="([^"]*)"/g,(m,v)=>` data-q="${v.replace(/[\u3400-\u9fff\uf900-\ufaff\u3000-\u303f\uff00-\uffef]+/g," ").replace(/\s{2,}/g," ").trim()}"`);
+  h=h.replace(/(data-ie-sub data-site="usage" data-source=")[^"]*"/g,(m,a)=>a+f.replace(/^.*?always-on-usage\//,"").replace(/^\.\//,"")+'"');
   // head meta + JSON-LD built by seo.mjs from the Chinese title/description
   h=h.replace(/(<meta (?:name|property)="(?:og:[\w:]+|twitter:\w+)" content=")([^"]*)(")/g,(m,a,v,b)=>a+esc(enText(unesc(v)))+b);
   h=h.replace(/<meta property="og:locale" content="zh_CN">/,'<meta property="og:locale" content="en_US">').replace('<meta property="og:locale:alternate" content="en_US">','<meta property="og:locale:alternate" content="zh_CN">');
   h=h.replace(/(<script type="application\/ld\+json">)([\s\S]*?)(<\/script>)/g,(m,a,j,b)=>{try{const o=JSON.parse(j),walk=x=>Array.isArray(x)?x.map(walk):x&&typeof x==="object"?Object.fromEntries(Object.entries(x).map(([k,v])=>[k,walk(v)])):typeof x==="string"?enText(x):x;return a+JSON.stringify(walk(o)).replace(/</g,"\\u003c")+b}catch(_){return m}});
+  // any other attribute still holding Han (aria-valuetext etc.) -> English
+  h=h.replace(/<(?!script|style)[a-z][^>]*>/g,tag=>/[\u4e00-\u9fff]/.test(tag)&&!/^<option/.test(tag)?tag.replace(/(\s[\w-]+=")([^"]*[\u4e00-\u9fff][^"]*)(")/g,(m,a,v,b)=>a+esc(enText(unesc(v)))+b):tag);
+  if(Z.length)h=h.replace("</body>",`<script type="application/json" id="zh">${JSON.stringify(Z).replace(/</g,"\\u003c")}</script></body>`);
+  // zh-only strings inside inline scripts (#tl map, #zh payload, inline JS): Han as \\uXXXX escapes, identical at runtime
+  h=h.replace(/(<script(?![^>]*ld\+json)[^>]*>)([\s\S]*?)(<\/script>)/g,(m,a,b,c)=>a+b.replace(/[\u3400-\u9fff\uf900-\ufaff\u3000-\u303f\uff00-\uffef]/g,ch=>"\\u"+ch.charCodeAt(0).toString(16).padStart(4,"0"))+c);
   if(h!==h0){fs.writeFileSync(f,h);nFiles++}
   const vis=h.replace(/<script[\s\S]*?<\/script>/g,"").replace(/<style[\s\S]*?<\/style>/g,"").replace(/<option[^>]*>[^<]*<\/option>/g,"").replace(/<[^>]+>/g," ");left+=(vis.match(/[\u4e00-\u9fff]/g)||[]).length}
  console.log("default-en pass:",nFiles,"html files; Han left in default visible text:",left);

@@ -1,0 +1,28 @@
+name: GitHub Pages mirror
+# Rebuilds siinxu.github.io/always-on-usage (gh-pages) from master whenever site sources or generated pages change,
+# so the mirror never lags the Worker. The scheduled update.yml also republishes it after each data run.
+on:
+  push:
+    branches: [master]
+    paths: ["gen.mjs", "src/**", "scripts/**", "public/**", "content-inbox/**", "*.html", "cases/**", "stories/**", "topics/**", "digest/**", "vite.config.*", "package*.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: usage-mirror
+  cancel-in-progress: true
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Build pages (same as Worker build)
+        run: BASE=/ node gen.mjs
+      - name: Build mirror under /always-on-usage/
+        run: node scripts/mk_mirror.mjs
+      - name: Publish to gh-pages
+        run: bash scripts/push_mirror.sh

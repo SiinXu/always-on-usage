@@ -2,3 +2,5 @@ dist
 node_modules
 shots
 deploy-v*.js
+dist-mirror
+.mirror-wt

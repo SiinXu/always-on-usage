@@ -496,3 +496,6 @@ ol.outline li{margin:2px 0}
 @media (max-width:560px){.ie-sub-row{flex-direction:column}.ie-sub-row button{width:100%}}
 
 [data-ql][hidden],[data-ql-note][hidden]{display:none!important}
+
+.ql-tr-note{font-size:.8em;opacity:.7;margin:.3em 0 0}
+[data-ql-tr][hidden],.ql-tr-note[hidden]{display:none!important}

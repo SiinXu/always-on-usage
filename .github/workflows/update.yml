@@ -52,6 +52,8 @@ jobs:
           echo "::warning::$msg"; echo "$msg" >> "$GITHUB_STEP_SUMMARY"
       - name: Commit + push data
         run: node scripts/update.mjs commit
+      - name: Republish GitHub Pages mirror (siinxu.github.io/always-on-usage)
+        run: node scripts/mk_mirror.mjs && bash scripts/push_mirror.sh
       - name: Summary
         if: always()
         run: |
