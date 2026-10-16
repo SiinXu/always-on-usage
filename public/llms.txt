@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1687 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1708 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-16T11:12:48.472Z
+- Last updated: 2026-10-16T12:43:07.083Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -622,6 +622,27 @@
 - /cases/gh-github-com-syy706-grokbot-backup-kit.html: Back up and restore a Grok Bot box to a private GitHub repo (guide) <https://github.com/syy706/grokbot-backup-kit>
 - /cases/gh-github-com-miku2339-baileys-dot-bridge.html: Bridge WhatsApp messages to a ChatGPT Dot via MCP Events (guide) <https://github.com/miku2339/baileys-dot-bridge>
 - /cases/gh-github-com-soumilrathi-minecraft-companions.html: Talk to your Codex, Claude Code and ChatGPT Dot sessions inside Minecraft (field-case) <https://github.com/SoumilRathi/minecraft-companions>
+- /cases/x-fankaishuoai-2111072415241699833.html: A daily X AI-trends digest site built with Grok Bot (field-case) <https://x.com/fankaishuoai/status/2111072415241699833>
+- /cases/x-taylorhbuilds-2111072297821893036.html: Daybook morning brief: Grok Bot sums up yesterday's commits (field-case) <https://x.com/taylorhbuilds/status/2111072297821893036>
+- /cases/x-jordanfan0206-2111069952593580453.html: An auto-parts export desk on WhatsApp that hands unknowns back (field-case) <https://x.com/JordanFan0206/status/2111069952593580453>
+- /cases/x-anotherhumansol-2111064621876715674.html: A food and fitness tracker built by talking to Grok Bot from a Tesla (field-case) <https://x.com/AnotherHumanSol/status/2111064621876715674>
+- /cases/x-gitpulled-2111062785308205306.html: Starting Grok Bot without burning the 7-day trial (guide) <https://x.com/gitpulled/status/2111062785308205306>
+- /cases/x-rcrewss-2111055840903876757.html: A reel live on 3 platforms an hour after a launch, via Grok Bot chat (field-case) <https://x.com/RCrewss/status/2111055840903876757>
+- /cases/x-sovereignlisa-2111055437877657681.html: Two Grok Bots: monthly phone-number removal and a newsletter (field-case) <https://x.com/SovereignLisa/status/2111055437877657681>
+- /cases/x-wesselvk-2111053913055010940.html: A Southern California AV company grew its pipeline 140% in a month with Grok Bot (field-case) <https://x.com/wesselvk/status/2111053913055010940>
+- /cases/x-vibecodeguild-2110929181886525931.html: A playlist-generator app built inside Meta Muse (field-case) <https://x.com/vibecodeguild/status/2110929181886525931>
+- /cases/x-dwaynesmithav-2111069017654054941.html: A set of Grok Bots for meals and workouts, email, and code (field-case) <https://x.com/DwayneSmithAV/status/2111069017654054941>
+- /cases/x-promptgrokbot-2111063543478980803.html: One prompt for two bullets before every meeting (guide) <https://x.com/PromptGrokBot/status/2111063543478980803>
+- /cases/x-digitaldaisyx-2111059581040218160.html: A Grok Bot that plans and books a whole trip, only after approval (field-case) <https://x.com/DigitalDaisyX/status/2111059581040218160>
+- /cases/x-earifcom-2111032337710637266.html: A practical setup guide for lead research with Grok Bot (guide) <https://x.com/earifcom/status/2111032337710637266>
+- /cases/x-0scarluna-2111029617213510110.html: Running family logistics with Grok Bot over WhatsApp (field-case) <https://x.com/0scarLuna/status/2111029617213510110>
+- /cases/x-gwilymmcgrew-2110998891512389666.html: A prompt for a Grok Bot that removes your number from data brokers (guide) <https://x.com/GwilymMcGrew/status/2110998891512389666>
+- /cases/x-filippkowalski-2110994420187222055.html: Grok Bot as newsletter curator: 12 revisions before breakfast (field-case) <https://x.com/filippkowalski/status/2110994420187222055>
+- /cases/x-ecomstreur-2111002551784964392.html: 30 Grok Bots and a human team run an 8-figure brand (field-case) <https://x.com/ecomstreur/status/2111002551784964392>
+- /cases/x-evnsio-2111069372127326668.html: Dots checks a Todoist list every 10 minutes to get a head start (field-case) <https://x.com/evnsio/status/2111069372127326668>
+- /cases/x-tinyprojectsdev-2111064655095300322.html: A Grok Bot support bot that answers email through Gmail (field-case) <https://x.com/tinyprojectsdev/status/2111064655095300322>
+- /cases/x-gurkandev-2111072526822494498.html: Checking a release-note claim with the Researchy bot from the Marketplace (field-case) <https://x.com/gurkandev/status/2111072526822494498>
+- /cases/x-hesamation-2111013795858374743.html: A 45-minute Stanford lecture on how Grok Bot works (guide) <https://x.com/Hesamation/status/2111013795858374743>
 - /cases/x-esoterickang-2110716026715328527.html: A website that converts any date into 19 calendars (field-case) <https://x.com/EsotericKang/status/2110716026715328527>
 - /cases/x-teslaconomics-2110721195817509068.html: Travel bot “Trippy” booked flight, car, dinner, tickets and stay (field-case) <https://x.com/Teslaconomics/status/2110721195817509068>
 - /cases/x-wintereracer-2110716451459932216.html: Surfacing school events buried in email (field-case) <https://x.com/WinterEracer/status/2110716451459932216>

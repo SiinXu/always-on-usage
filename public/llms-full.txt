@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1687 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1708 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-16T11:12:48.472Z
+- Last updated: 2026-10-16T12:43:07.083Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3192,6 +3192,111 @@
 - URL: https://usage.incidental.site/cases/gh-github-com-soumilrathi-minecraft-companions.html
 - Type: field-case · Product: multi · Author: SoumilRathi · Source: https://github.com/SoumilRathi/minecraft-companions · Date: 2026-10-16
 - Summary: An open-source project that brings your existing Codex, Claude Code and ChatGPT Dot conversations into Minecraft so you can talk to them in-game.
+
+### A daily X AI-trends digest site built with Grok Bot
+- URL: https://usage.incidental.site/cases/x-fankaishuoai-2111072415241699833.html
+- Type: field-case · Product: grok-bot · Author: fankaishuoai · Source: https://x.com/fankaishuoai/status/2111072415241699833 · Date: 2026-10-16
+- Summary: The author has Grok Bot generate a daily X digest site that rounds up AI topics trending on X and includes a way to search past entries. They read it every day and plan to keep iterating, add email subscriptions and polish the digest content.
+
+### Daybook morning brief: Grok Bot sums up yesterday's commits
+- URL: https://usage.incidental.site/cases/x-taylorhbuilds-2111072297821893036.html
+- Type: field-case · Product: grok-bot · Author: taylorhbuilds · Source: https://x.com/taylorhbuilds/status/2111072297821893036 · Date: 2026-10-16
+- Summary: The author's morning-brief bot, Daybook, recaps the previous day's dev work. For Oct 15 it reported commits in 11 projects, 50 merged PRs, and a comment clean-up sweep that touched about 25 repos between 12:44 and 3:16 PM. The author pairs Grok Bot with Claude/Codex.
+
+### An auto-parts export desk on WhatsApp that hands unknowns back
+- URL: https://usage.incidental.site/cases/x-jordanfan0206-2111069952593580453.html
+- Type: field-case · Product: grok-bot · Author: JordanFan0206 · Source: https://x.com/JordanFan0206/status/2111069952593580453 · Date: 2026-10-16
+- Summary: The author built SERA Auto Parts Desk in Grok Bot using rules from their export desk: ask for missing details, quote only the pricing and freight the author has provided, and bring anything unknown back to the author, because fast WhatsApp replies get expensive when the AI guesses.
+
+### A food and fitness tracker built by talking to Grok Bot from a Tesla
+- URL: https://usage.incidental.site/cases/x-anotherhumansol-2111064621876715674.html
+- Type: field-case · Product: grok-bot · Author: AnotherHumanSol · Source: https://x.com/AnotherHumanSol/status/2111064621876715674 · Date: 2026-10-16
+- Summary: The author built a personal food and fitness tracker just by talking to Grok Bot from the driver's seat of a Tesla. It shows rings, macros, weight trend and calories in versus out, and logs every meal, with no coding.
+
+### Starting Grok Bot without burning the 7-day trial
+- URL: https://usage.incidental.site/cases/x-gitpulled-2111062785308205306.html
+- Type: guide · Product: grok-bot · Author: gitpulled · Source: https://x.com/gitpulled/status/2111062785308205306 · Date: 2026-10-16
+- Summary: The author's four steps: start with one task that involves no money; watch the first run and approve every step; keep on-demand off until you know your weekly usage, because otherwise it spills into paid with no warning; only then save the task as a routine.
+
+### A reel live on 3 platforms an hour after a launch, via Grok Bot chat
+- URL: https://usage.incidental.site/cases/x-rcrewss-2111055840903876757.html
+- Type: field-case · Product: grok-bot · Author: RCrewss · Source: https://x.com/RCrewss/status/2111055840903876757 · Date: 2026-10-16
+- Summary: The new Tesla Roadster was unveiled in the morning, and an hour later the author had a reel live on 3 platforms. They say they opened no editing app and only chatted with Grok Bot, and they share the workflow in a thread.
+
+### Two Grok Bots: monthly phone-number removal and a newsletter
+- URL: https://usage.incidental.site/cases/x-sovereignlisa-2111055437877657681.html
+- Type: field-case · Product: grok-bot · Author: SovereignLisa · Source: https://x.com/SovereignLisa/status/2111055437877657681 · Date: 2026-10-16
+- Summary: The author has one bot that removes the author's phone number from public databases and re-checks every month, and another that writes and delivers a newsletter and finds sponsors for it.
+
+### A Southern California AV company grew its pipeline 140% in a month with Grok Bot
+- URL: https://usage.incidental.site/cases/x-wesselvk-2111053913055010940.html
+- Type: field-case · Product: grok-bot · Author: wesselvk · Source: https://x.com/wesselvk/status/2111053913055010940 · Date: 2026-10-16
+- Summary: The post relays a case published by SpaceXSI: AV company Above the Line saw its sales pipeline rise 140% after about one month on Grok Bot. Two sales bots search Southern California events every two hours and draft outreach (the post is cut off there).
+
+### A playlist-generator app built inside Meta Muse
+- URL: https://usage.incidental.site/cases/x-vibecodeguild-2110929181886525931.html
+- Type: field-case · Product: meta-muse · Author: vibecodeguild · Source: https://x.com/vibecodeguild/status/2110929181886525931 · Date: 2026-10-16
+- Summary: The author used Meta Muse's built-in Spotify connector plus a custom connector for a third-party music-data site, since Spotify's API doesn't expose its recommendation engine, to build an app that generates playlists. Muse set up a routine that crawls songs to find related tracks, after some corrections, and gave the app a 70s funky disco look. The author says it was free to build and needed no hosting or security setup.
+
+### A set of Grok Bots for meals and workouts, email, and code
+- URL: https://usage.incidental.site/cases/x-dwaynesmithav-2111069017654054941.html
+- Type: field-case · Product: grok-bot · Author: DwayneSmithAV · Source: https://x.com/DwayneSmithAV/status/2111069017654054941 · Date: 2026-10-16
+- Summary: The author runs several Grok Bots: one logs meals and workouts, one sorts email and preps the day, and one writes code while the author has coffee. Weekly reports, document review and calendar management are done before the author wakes up.
+
+### One prompt for two bullets before every meeting
+- URL: https://usage.incidental.site/cases/x-promptgrokbot-2111063543478980803.html
+- Type: guide · Product: grok-bot · Author: PromptGrokBot · Source: https://x.com/PromptGrokBot/status/2111063543478980803 · Date: 2026-10-16
+- Summary: The post gives a prompt to paste into Grok Bot so that before each calendar meeting that day it sends two bullets: who the meeting is with and what you should remember.
+
+### A Grok Bot that plans and books a whole trip, only after approval
+- URL: https://usage.incidental.site/cases/x-digitaldaisyx-2111059581040218160.html
+- Type: field-case · Product: grok-bot · Author: DigitalDaisyX · Source: https://x.com/DigitalDaisyX/status/2111059581040218160 · Date: 2026-10-16
+- Summary: The author built a travel bot that finds live flight and hotel options, compares prices, watches fares, builds a day-by-day itinerary, and sends check-in reminders and weather updates. It never guesses fares and books nothing until the author approves the exact itinerary and total.
+
+### A practical setup guide for lead research with Grok Bot
+- URL: https://usage.incidental.site/cases/x-earifcom-2111032337710637266.html
+- Type: guide · Product: grok-bot · Author: earifcom · Source: https://x.com/earifcom/status/2111032337710637266 · Date: 2026-10-16
+- Summary: The author proposes an adaptable setup: write a one-page brief (offer, buyer, current signals, allowed sources, exclusions); create one "Prospect Research Desk" bot that must never guess contacts, send messages or modify the CRM; run a small pilot prompt (up to 5 businesses, at most 15 source pages); review, deduplicate and sort into three statuses; after two useful batches save it as a skill and schedule it on weekdays; only then add a controlled CRM handoff and follow-up. The author notes it is a blueprint, not a client case, and nothing was executed.
+
+### Running family logistics with Grok Bot over WhatsApp
+- URL: https://usage.incidental.site/cases/x-0scarluna-2111029617213510110.html
+- Type: field-case · Product: grok-bot · Author: 0scarLuna · Source: https://x.com/0scarLuna/status/2111029617213510110 · Date: 2026-10-16
+- Summary: The author's family texts Grok Bot on WhatsApp like a person. It handles tasks, the family calendar and reminders, and sends them a summary every morning and night.
+
+### A prompt for a Grok Bot that removes your number from data brokers
+- URL: https://usage.incidental.site/cases/x-gwilymmcgrew-2110998891512389666.html
+- Type: guide · Product: grok-bot · Author: GwilymMcGrew · Source: https://x.com/GwilymMcGrew/status/2110998891512389666 · Date: 2026-10-16
+- Summary: The author shares a full prompt that creates a "Privacy Cleanup" sub-agent: it finds your phone number on people-search and data-broker sites, submits official opt-outs, completes email confirmations and re-checks on a schedule you choose. Rules include collecting only name, phone, location and an email, never asking for IDs, passwords or payment info, stopping at any sign-in, payment or ID prompt, reporting only what pages say, and creating a re-check routine only with your approval. It lists 11 sites.
+
+### Grok Bot as newsletter curator: 12 revisions before breakfast
+- URL: https://usage.incidental.site/cases/x-filippkowalski-2110994420187222055.html
+- Type: field-case · Product: grok-bot · Author: filippkowalski · Source: https://x.com/filippkowalski/status/2110994420187222055 · Date: 2026-10-16
+- Summary: The author has Grok Bot do daily topic research for a newsletter. It picked a topic about app review times and added it to the newsletter through an API the author exposed, making 12 revisions before the author woke up.
+
+### 30 Grok Bots and a human team run an 8-figure brand
+- URL: https://usage.incidental.site/cases/x-ecomstreur-2111002551784964392.html
+- Type: field-case · Product: grok-bot · Author: ecomstreur · Source: https://x.com/ecomstreur/status/2111002551784964392 · Date: 2026-10-16
+- Summary: The author explains why their agents run on Grok: Grok Bot gives you a team where every agent has its own chat, memory and job. One runs emails, one does creative, one writes scripts and one triages the inbox; they work overnight and hand work to each other. Thirty agents, together with the human team, now run their 8-figure brand.
+
+### Dots checks a Todoist list every 10 minutes to get a head start
+- URL: https://usage.incidental.site/cases/x-evnsio-2111069372127326668.html
+- Type: field-case · Product: openai-dots · Author: evnsio · Source: https://x.com/evnsio/status/2111069372127326668 · Date: 2026-10-16
+- Summary: The author has OpenAI Dots run a scheduled check every 10 minutes on their Todoist list and work out how to give them a head start on the tasks.
+
+### A Grok Bot support bot that answers email through Gmail
+- URL: https://usage.incidental.site/cases/x-tinyprojectsdev-2111064655095300322.html
+- Type: field-case · Product: grok-bot · Author: tinyprojectsdev · Source: https://x.com/tinyprojectsdev/status/2111064655095300322 · Date: 2026-10-16
+- Summary: The author missed the OpenClaw hype but has spent the past week enjoying Grok Bot, which they see as similar to it and to OpenAI Dots. One of their bots is a support bot that uses their Gmail to answer emails (the post is cut off there).
+
+### Checking a release-note claim with the Researchy bot from the Marketplace
+- URL: https://usage.incidental.site/cases/x-gurkandev-2111072526822494498.html
+- Type: field-case · Product: grok-bot · Author: gurkandev · Source: https://x.com/gurkandev/status/2111072526822494498 · Date: 2026-10-16
+- Summary: The author needed to verify a release-note claim that latency fell 40%, so they added the Researchy bot from the Grok Bot Marketplace and sent it the claim. According to its listing, each pass uses the latest Grok plus live web search and returns sourced, dated answers rather than relying only on training data.
+
+### A 45-minute Stanford lecture on how Grok Bot works
+- URL: https://usage.incidental.site/cases/x-hesamation-2111013795858374743.html
+- Type: guide · Product: grok-bot · Author: Hesamation · Source: https://x.com/Hesamation/status/2111013795858374743 · Date: 2026-10-16
+- Summary: The post points to a 45-minute Stanford lecture from SpaceX on how Grok Bot works. Topics include what changed in the models to allow always-on agents, the architecture of an always-on agent, the harness design and context engineering (the post is cut off there).
 
 ### A website that converts any date into 19 calendars
 - URL: https://usage.incidental.site/cases/x-esoterickang-2110716026715328527.html
