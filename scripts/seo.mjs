@@ -2,17 +2,17 @@
 // Locale variants are the same document with ?lang=<code>; the inline detector honours it, the worker rewrites canonical/og:url for it.
 export const BASE="https://usage.incidental.site";
 export const LC=["zh-CN","zh-TW","en","ja","ko","ms","vi","fr","es","de"];
-export const BRAND="常驻用量 Always-on Usage";
+export const BRAND="Always-on Usage";
 const CF_TOKEN="191b7170c81e433994d0da6a59bdd169";
 const esc=v=>String(v??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c]);
 const strip=s=>String(s??"").replace(/<[^>]+>/g,"").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/\s+/g," ").trim();
 export const urlOf=f=>BASE+"/"+f.replace(/(^|\/)index\.html$/,"$1");
 export const PAGES=[];// [url, lastmod]
-const ORG={"@type":"Organization","@id":"https://incidental.site/#org","name":"Incidental AI","alternateName":"偶然 AI","url":"https://incidental.site/"};
+const ORG={"@type":"Organization","@id":"https://incidental.site/#org","name":"Incidental AI","url":"https://incidental.site/"};
 const SITE={"@type":"WebSite","@id":BASE+"/#site","name":BRAND,"url":BASE+"/","inLanguage":LC,"publisher":{"@id":"https://incidental.site/#org"},
   "potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":BASE+"/cases/?q={search_term_string}"},"query-input":"required name=search_term_string"}};
 const crumbs=list=>({"@type":"BreadcrumbList","itemListElement":list.map(([n,u],i)=>({"@type":"ListItem","position":i+1,"name":n,"item":u}))});
-const SEC={"cases/":"抄作业","stories/":"X 案例","topics/":"专题合集","digest/":"每周收录"};
+const SEC={"cases/":"Builds to copy","stories/":"X stories","topics/":"Topics","digest/":"Weekly digest"};
 /** meta: {kind:"article"|"app"|"faq"|..., graph:[extra JSON-LD nodes], date, lastmod} */
 export function seo(f,html,meta={}){
   const url=urlOf(f);

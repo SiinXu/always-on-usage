@@ -1,186 +1,186 @@
-# 常驻用量 Always-on Usage
-> Always-on Agents（Grok Bot、OpenAI Dots、Meta Muse）的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。给想长期跑 Bot、又怕烧额度的人用。评测层，不是模板目录。对照与计算器为估算方向，非厂商 SLA；案例为公开条目聚合（1687 条，另有 26 篇 X 案例），每条附作者与原文链接。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
+# Always-on Usage
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1687 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
-- Languages: zh-CN (default), zh-TW, en, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
+- Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
 - Last updated: 2026-10-16T11:12:48.472Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
-- 适合: 多 Bot 协作、邮件/日历分拣、带浏览器的研究与表单前置
-- 额度风险: 中-高（估算方向）
-- 触发器: 定时 routine、邮件/Webhook、聊天唤起、Bot 间消息
-- 浏览器还是 Connector: 内置云端浏览器 + 大量 connector（Gmail、Calendar、Notion、GitHub…）；浏览器步骤最贵
-- 并行: 多 Bot 并行、可派生子代理；并行数量是额度主要放大器
-- Routine 频率: 分钟级到每日；高频轮询最易烧额度
-- 适合: 多 Bot 协作、邮件/日历分拣、带浏览器的研究与表单前置
-- 不适合: 秒级监控、纯抓取农场、无人看管的高频浏览器循环
+- Good for: Multi-Bot teamwork, email/calendar triage, browser research and form prep
+- Quota risk: Medium–high
+- Triggers: Scheduled routines, email/webhook, chat, Bot-to-Bot messages
+- Browser or connector: Built-in cloud browser + many connectors (Gmail, Calendar, Notion, GitHub…); browser steps cost the most
+- Parallelism: Many Bots in parallel, can spawn sub-agents; parallel count is the main quota multiplier
+- Routine frequency: Minutes to daily; frequent polling burns quota fastest
+- Good for: Multi-Bot teamwork, email/calendar triage, browser research and form prep
+- Not good for: Second-level monitoring, scraping farms, unattended high-frequency browser loops
 
 ### OpenAI Dots (OpenAI)
-- 适合: 每日简报、跟进提醒、文档整理
-- 额度风险: 中（估算方向）
-- 触发器: 定时任务、聊天唤起、部分应用事件（估算方向）
-- 浏览器还是 Connector: 以 connector / 工具调用为主，浏览代理按需启用
-- 并行: 以单代理多任务为主，并行有限（估算方向）
-- Routine 频率: 日级 / 周级摘要最常见
-- 适合: 每日简报、跟进提醒、文档整理
-- 不适合: 需要多代理分工的长链路工作流
+- Good for: Daily briefs, follow-up reminders, doc tidying
+- Quota risk: Medium
+- Triggers: Scheduled tasks, chat, some app events (estimate)
+- Browser or connector: Mostly connectors / tool calls; browsing agent on demand
+- Parallelism: Mainly one agent, many tasks; limited parallelism (estimate)
+- Routine frequency: Daily / weekly digests are most common
+- Good for: Daily briefs, follow-up reminders, doc tidying
+- Not good for: Long workflows that need several agents
 
 ### Meta Muse (Meta)
-- 适合: 社交内容排期、消息生态内的轻助理
-- 额度风险: 低-中（估算方向）
-- 触发器: 聊天唤起、社交/消息事件、定时提醒（估算方向）
-- 浏览器还是 Connector: 偏向自有生态 connector，通用浏览器能力较弱（估算方向）
-- 并行: 单代理为主（估算方向）
-- Routine 频率: 日级提醒 / 内容排期
-- 适合: 社交内容排期、消息生态内的轻助理
-- 不适合: 跨 SaaS 深度自动化、需要真实浏览器登录的流程
+- Good for: Social content scheduling, light assistant inside messaging apps
+- Quota risk: Low–medium
+- Triggers: Chat, social/message events, scheduled reminders (estimate)
+- Browser or connector: Leans on own-ecosystem connectors; weaker general browsing (estimate)
+- Parallelism: Mostly single agent (estimate)
+- Routine frequency: Daily reminders / content scheduling
+- Good for: Social content scheduling, light assistant inside messaging apps
+- Not good for: Deep cross-SaaS automation, flows needing real browser logins
 
 ## Calculator rules
-- Bot 数: 3 到 5 个加 1 分，6 个以上加 2 分
-- 浏览器: 开启加 1 分
-- 频率: 每日加 1 分，每小时加 2 分
-- 结果: 0 到 1 分低，2 到 3 分中，4 分以上高
+- Bots: 3 to 5 bots +1 point, 6 or more +2 points
+- Browser: on +1 point
+- Frequency: daily +1 point, hourly +2 points
+- Result: 0-1 points low, 2-3 medium, 4 or more high
 
 ## X stories
-### 让 Bot 自己挣回月费：追回 5 笔未退款
+### A Bot that earns back its fee: chasing 5 missing refunds
 - URL: https://usage.incidental.site/stories/darian-refund-hunter.html
 - Author: @darian314 · Source: https://x.com/darian314/status/2089381004524093752 · Date: 2026-08-17
-- What: 让 Grok Bot 翻邮箱找出退货后商家没退的钱，并给 5 个商家发邮件追款
-- Result: 作者称追回的钱已超过 Grok Bot 月费
+- What: Grok Bot searched the author's email for returns that were never refunded and emailed 5 merchants to claim the money
+- Result: The author says the recovered money already exceeds the Grok Bot monthly fee
 
-### 9 万封邮件大扫除
+### A 90,000-email cleanup
 - URL: https://usage.incidental.site/stories/mikepat-90k-email-purge.html
 - Author: @mikepat711 · Source: https://x.com/mikepat711/status/2089879632929554498 · Date: 2026-08-19
-- What: 让 Bot 遍历两个 Gmail 账号共约 90,000 封邮件，清理垃圾
-- Result: 处理规模约 90,000 封邮件（作者自述）
+- What: The author let Grok Bot go through about 90,000 emails across two Gmail accounts and purge the junk
+- Result: Scale: about 90,000 emails (author's own figure)
 
-### “断舍离” Bot：邮件、云盘、订阅一起清
+### A Marie Kondo Bot for email, Drive and subscriptions
 - URL: https://usage.incidental.site/stories/petergyang-marie-kondo-bot.html
 - Author: @petergyang · Source: https://x.com/petergyang/status/2089724101070086482 · Date: 2026-08-18
-- What: 搭一个 Marie Kondo 风格 Bot，审计邮箱、Google Drive 与付费订阅，经批准后清理
+- What: A Marie Kondo–style Bot that audits email, Google Drive and paid subscriptions and only cleans up with the author's approval
 
-### 客服邮箱接 Stripe：自动处理常规退款
+### Support inbox + Stripe: routine refunds handled by the Bot
 - URL: https://usage.incidental.site/stories/gergely-support-stripe-refunds.html
 - Author: @GergelyOrosz · Source: https://x.com/GergelyOrosz/status/2090085668768694562 · Date: 2026-08-19
-- What: 把 Grok Bot 接入客服邮箱，并通过 Stripe API 处理常规退款等操作
+- What: Grok Bot connected to the author's customer-support email and to Stripe via API for agentic operations such as routine refunds
 
-### 水管公司老板：24 小时内把办公室杂务交给 Bot
+### A plumbing company owner hands office work to a Bot in 24 hours
 - URL: https://usage.incidental.site/stories/househackerjon-plumbing-office.html
 - Author: @HouseHackerJon · Source: https://x.com/HouseHackerJon/status/2087635639701573962 · Date: 2026-08-12
-- What: 水管/排污公司老板用 Grok Bot 自动化大量办公室经理工作
-- Result: 作者列出了上线头 24 小时完成的事项（见原帖串）
+- What: The owner of a plumbing company uses Grok Bot to automate much of the office manager's work
+- Result: The author lists what got done in the first 24 hours (see the thread)
 
-### 走在停车场时，Bot 帮我订好了位子
+### Reservations made while walking through a parking lot
 - URL: https://usage.incidental.site/stories/yunta-calendar-reservations.html
 - Author: @yunta_tsai · Source: https://x.com/yunta_tsai/status/2087415205756391461 · Date: 2026-08-12
-- What: Bot 扫描日历找出还没预订的事项，判断最佳时间并在网站上完成预订
+- What: Grok Bot scanned the calendars for things that needed a reservation, worked out the best time to book, and completed the booking on the website — while the author talked to it in mixed Chinese and English
 
-### 改了航班，Bot 提醒我 Uber 没改
+### Flight changed — the Bot noticed the Uber wasn't
 - URL: https://usage.incidental.site/stories/mattyp-proactive-uber.html
 - Author: @mattyp · Source: https://x.com/mattyp/status/2105718647218200587 · Date: 2026-10-01
-- What: Grok Bot 主动发现换航班后 Uber 预约未更新，并在转机途中提醒
+- What: After the author switched flights, Grok Bot noticed the Uber reservation hadn't been updated and pinged him during his connecting flight so he could fix it before landing
 
-### 我没去的会，Bot 替我去了
+### The Bot sat in on a meeting I couldn't make
 - URL: https://usage.incidental.site/stories/kiara-bot-attends-meeting.html
 - Author: @kiaraplds · Source: https://x.com/kiaraplds/status/2088321112073547835 · Date: 2026-08-14
-- What: 让 Bot 参加自己缺席的会议，向与会者说明身份并做笔记
+- What: The Bot joined a meeting the author couldn't attend, told the attendees who it was, and took notes
 
-### 从参谋长到工程经理：一支 Bot 核心团队
+### From chief of staff to eng manager: a core team of Bots
 - URL: https://usage.incidental.site/stories/n2parko-core-team.html
 - Author: @n2parko · Source: https://x.com/n2parko/status/2087251704744235298 · Date: 2026-08-11
-- What: 搭建 Chief of Staff、工程经理等多 Bot 团队，并让 Bot 之间交接 PR
+- What: A multi-Bot team — chief of staff, engineering manager, five engineers, a data analyst and a PM — that hand work to each other
 
-### 内容创作者的 Bot 编制表
+### A content creator's Bot roster
 - URL: https://usage.incidental.site/stories/farzyness-content-team.html
 - Author: @farzyness · Source: https://x.com/farzyness/status/2087340859138224540 · Date: 2026-08-12
-- What: 组建 Webby、Shotry、Writey 等命名专员 Bot，覆盖网页、短视频、长文、脚本与选题
+- What: Named specialist Bots — Webby (web design), Shotry (short-form), Writey (articles/newsletter), Script, Idea, plus Claude Code and Codex agents — with a Master Bot orchestrating
 
-### 13 个 Bot 撑起四个产品
+### 13 Bots running a portfolio of products
 - URL: https://usage.incidental.site/stories/casjam-13-bot-org.html
 - Author: @CasJam · Source: https://x.com/CasJam/status/2093762642867581359 · Date: 2026-08-29
-- What: 为每个产品配 Head、Growth、Maintainer Bot，再由 Chief 统一汇总
+- What: Each product gets a Head Bot (roadmap, feature dev, weekly report), a Growth Bot (experiments) and a Maintainer Bot (chores), all reporting to a Chief Bot
 
-### 两扇门：Life Bot 与 Work Bot
+### Two front doors: a Life Bot and a Work Bot
 - URL: https://usage.incidental.site/stories/tyler-life-work-bots.html
 - Author: @TylerNishida · Source: https://x.com/TylerNishida/status/2093426221732532457 · Date: 2026-08-28
-- What: 把任务分成生活与工作两个入口 Bot，由它们按需创建子频道与专员
+- What: Tasks go to one of two entry Bots, Life or Work, which create new channels and specialist Bots underneath as needed; anything that's both defaults to Life
 
-### 两小时生成 74 张游戏美术资源
+### 74 game art assets in about two hours
 - URL: https://usage.incidental.site/stories/danny-74-game-assets.html
 - Author: @DannyLimanseta · Source: https://x.com/DannyLimanseta/status/2087228218797617404 · Date: 2026-08-11
-- What: Bot 读代码库、操作作者的美术生成网页、裁切透明 PNG 并接回游戏
-- Result: 约 74 个资源、约两小时（据 awesome 列表整理与原帖）
+- What: The Bot read the codebase, used the author's art-generation web tool, cropped results into transparent PNGs and wired them into the game; he later used it for a playtest skill, auto-uploading builds to itch.io and UX flows
+- Result: About 74 assets in about 2 hours (author's account)
 
-### 手机上两句话：建站+买域名+配 Cloudflare
+### Two prompts on a phone: site + domain + Cloudflare
 - URL: https://usage.incidental.site/stories/waynesutton-site-two-prompts.html
 - Author: @waynesutton · Source: https://x.com/waynesutton/status/2088416215203295346 · Date: 2026-08-15
-- What: 安装 Convex 与 Cloudflare 插件，搭建 demo 站，购买域名并设置跳转
-- Result: 全程 2 条手机提示词（作者自述）
+- What: After installing the Convex and Cloudflare plugins, the Bot built a demo site with a Convex backend, bought a domain and set up Cloudflare redirect rules
+- Result: All in 2 prompts from a phone (author's account)
 
-### 教 Bot 一次，以后它来更新 WordPress
+### Teach the Bot once, let it update WordPress after
 - URL: https://usage.incidental.site/stories/mrfundman-wordpress-teach.html
 - Author: @mrfundman · Source: https://x.com/mrfundman/status/2089760255890571404 · Date: 2026-08-18
-- What: 用 Teach a task 演示 WordPress 更新流程
+- What: The author used Teach a task to show the Bot how to update his WordPress site
 
-### 把屏幕操作变成 Agent 技能
+### Turn a screen recording into an agent skill
 - URL: https://usage.incidental.site/stories/avichawla-teach-a-task.html
 - Author: @_avichawla · Source: https://x.com/_avichawla/status/2089817006065496530 · Date: 2026-08-18
-- What: 介绍 Teach a task：亲自做一遍，Bot 自动写成 skill
+- What: How Teach a task works: do the task once while the Bot records; it turns that pass into a skill (steps, inputs, output format) that any Bot can run, and you can attach it to a routine on the cloud computer
 
-### 每日 Polymarket 临近结算市场简报
+### A daily brief on Polymarket markets about to settle
 - URL: https://usage.incidental.site/stories/sid-polymarket-brief.html
 - Author: @sidshekhar24 · Source: https://x.com/sidshekhar24/status/2089735218861326727 · Date: 2026-08-18
-- What: 每日 routine 扫描 24 小时内结算、概率 70–90% 的市场，查背景并评估
+- What: A daily job scans Polymarket for 70–90% markets settling within 24 hours, looks up context for each and assesses how likely the outcome really is — done with a single prompt and an MCP
 
-### 15 秒搭好播客摘要器
+### A podcast summarizer set up in 15 seconds
 - URL: https://usage.incidental.site/stories/gavinbaker-podcast-summarizer.html
 - Author: @GavinSBaker · Source: https://x.com/GavinSBaker/status/2089379355692527813 · Date: 2026-08-17
-- What: 用 Grok Bot 约 15 秒搭建播客摘要器
-- Result: 作者称个人 AI 使用量提升约 100 倍（自述估计）
+- What: The author built a podcast summarizer in Grok Bot in about 15 seconds and says it's better than what he had before
+- Result: He estimates his personal AI usage is up about 100x (his own estimate)
 
-### 企业销售的 GTM Bot 编制
+### A GTM Bot setup for enterprise sales
 - URL: https://usage.incidental.site/stories/kristaletz-enterprise-gtm.html
 - Author: @kristaletz · Source: https://x.com/kristaletz/status/2089103618121314689 · Date: 2026-08-16
-- What: 参谋长、夜间潜客研究、按客户的专家 Bot、实时更新幻灯片
+- What: How the author uses Grok Bot for go-to-market: a chief of staff, overnight prospect research, an expert Bot per account and decks that update themselves
 
-### 团队内部最受欢迎的 Grok Bot 用法合集
+### The team's most-loved internal Grok Bot use cases
 - URL: https://usage.incidental.site/stories/benln-internal-use-cases.html
 - Author: @benln · Source: https://x.com/benln/status/2087929147406299313 · Date: 2026-08-13
-- What: 机票、按菜谱照片下单生鲜、修胶片扫描元数据、和承包商议价等
+- What: A list of internal uses: flights biased toward Starlink, Whole Foods orders from recipe photos, fixing date/GPS metadata on film scans, negotiating contractor quotes, and more
 
-### 一个 Bot 名单上的十二种活
+### One user's list of twelve Bot jobs
 - URL: https://usage.incidental.site/stories/gota-twelve-jobs.html
 - Author: @gota_bara · Source: https://x.com/gota_bara/status/2087666940450152841 · Date: 2026-08-12
-- What: 图片量产、X 调研、研究简报、3D、退订等多种尝试
+- What: Image series with a fixed AI character, X research on image prompts, weekly briefs on AI labs, 3D icons, a subscription ledger with actual cancellations, a routine that watches ticket-application dates, and more
 
-### 让 Bot 驱动 Arduino 跑马灯
+### A Bot-driven Arduino LED ticker
 - URL: https://usage.incidental.site/stories/kettlebelldan-arduino-ticker.html
 - Author: @KettlebellDan · Source: https://x.com/KettlebellDan/status/2089387837204693202 · Date: 2026-08-17
-- What: Bot 连接 Arduino，让 LED 显示股价、走势线与新闻
+- What: The Bot connected to the author's Arduino and turned its LED display into a scrolling ticker with a live stock price, a line chart and the latest news
 
-### 少刷 X：让 Bot 把更新推到小屏
+### Less doomscrolling: the Bot pushes X updates to a small screen
 - URL: https://usage.incidental.site/stories/kettlebelldan-x-to-arduino.html
 - Author: @KettlebellDan · Source: https://x.com/KettlebellDan/status/2089920364419874937 · Date: 2026-08-19
-- What: Bot 定时把 X 上的更新推送到 Arduino 设备
-- Result: 作者称刷 X 的时间减少了（自述，无数据）
+- What: The Bot sends regular updates from X straight to the author's Arduino device
+- Result: The author says he doomscrolls less now (his own account, no data)
 
-### 随时随地发短信给扫地机器人
+### Texting a robot vacuum from anywhere
 - URL: https://usage.incidental.site/stories/yunta-matic-vacuum.html
 - Author: @yunta_tsai · Source: https://x.com/yunta_tsai/status/2089223114416898288 · Date: 2026-08-17
-- What: 让 Chief Engineer Bot 打通 Matic 扫地机器人
+- What: The author asked his Chief Engineer Bot to bring up the feature, and can now text his Matic robot through the Bot anywhere, anytime
 
-### 把我的脑子给 Bot：现在我这样修 bug
+### Giving the Bot my brain: how I fix bugs now
 - URL: https://usage.incidental.site/stories/poteto-bot-brain.html
 - Author: @poteto · Source: https://x.com/poteto/status/2105576730413134291 · Date: 2026-10-01
-- What: 将个人上下文交给 Bot，让它按自己的方式修 bug
+- What: The author gave the Bot his personal context so it knows exactly what he wants, and now fixes bugs that way
 
-### Box：企业内容上的信贷委员会材料包
+### Box: a credit committee pack built on governed content
 - URL: https://usage.incidental.site/stories/box-credit-committee.html
 - Author: @Box · Source: https://x.com/Box/status/2087275866950938662 · Date: 2026-08-11
-- What: 通过 Box MCP 跨受管内容整理材料并写回 Box
+- What: In Box's demo, Grok Bot works through the Box MCP server across credit agreements, financials, diligence and collateral docs, reconciles key terms, flags risks, writes a source-cited brief and saves it back to Box with metadata
 
 ## Cases
 ### ImmortalWrt x86/64 QNAP soft-router — built by Grok Bot
@@ -2081,7 +2081,7 @@
 ### Windows Ctrl+, Settings shortcut blocks Traditional Chinese full-width comma
 - URL: https://usage.incidental.site/cases/windows-ctrl-settings-shortcut-blocks-traditional-chinese-fu-432.html
 - Type: field-case · Product: grok-bot · Source: https://forum.cursor.com/t/grok-bot-windows-ctrl-settings-shortcut-blocks-traditional-chinese-full-width-comma/171839
-- Summary: Staff (Colin, 2026-09-16): on Windows, Bopomofo/Zhuyin Ctrl+, for full-width 「，」 still triggers Grok Bot’s Settings shortcut—flagged to the team; interim workaround is Shift+Space to full-width (全形) mode then press , alone (no Ctrl), then Shift+Space back to half-width.
+- Summary: Staff (Colin, 2026-09-16): on Windows, Bopomofo/Zhuyin Ctrl+, for a full-width comma still triggers Grok Bot’s Settings shortcut—flagged to the team; interim workaround is Shift+Space to full-width mode, then press , alone (no Ctrl), then Shift+Space back to half-width.
 
 ### Routine Edit opens chat by design; webhook panel needs desktop 0.53.0
 - URL: https://usage.incidental.site/cases/routine-edit-opens-chat-by-design-webhook-panel-needs-deskto-433.html
@@ -2793,7 +2793,7 @@
 - Type: guide · Product: grok-bot · Source: https://www.youtube.com/watch?v=QTcZPI-g7is
 - Summary: Walkthrough of role-based bots, group chats, plugins, Teach a task, and the iOS app as the daily driver.
 
-### Grok Bot 橙皮书
+### Grok Bot Orange Book
 - URL: https://usage.incidental.site/cases/grok-bot-600.html
 - Type: guide · Product: grok-bot · Source: https://github.com/KinGao294/grok-bot-orange-book
 - Summary: Chinese orange book (~16k chars) on multi-bot teams, routines, and cost control in the first two weeks.
@@ -2838,7 +2838,7 @@
 - Type: guide · Product: grok-bot · Source: https://github.com/maplefukku/grok-bot-ops
 - Summary: Japanese command-center repo for running product work through Grok Bot: routine drafts, verification bootstrap, knowhow log, and a Cursor plugin wrapper.
 
-### Technocore Grok Bot 日本語ガイド
+### Technocore Grok Bot guide (Japanese)
 - URL: https://usage.incidental.site/cases/technocore-grok-bot-609.html
 - Type: guide · Product: grok-bot · Source: https://github.com/hariou/technocore-grokbot-ja
 - Summary: Japanese operating guide plus GROKBOT_PROMPT.md for running a Technocore DID safely on Grok Bot without leaking seeds or spamming the lobby.
@@ -2848,7 +2848,7 @@
 - Type: guide · Product: grok-bot · Source: https://github.com/mrlynn/grok-bot-getting-started
 - Summary: Thin branded Docusaurus hubs for What is Grok Bot, install/sign-in, and first task, deep-linking to docs.x.ai and x.ai/bot.
 
-### Grok Bot 蓝皮书
+### Grok Bot Blue Book
 - URL: https://usage.incidental.site/cases/grok-bot-611.html
 - Type: guide · Product: grok-bot · Source: https://github.com/rockyzhuo/grok-bot-blue-book
 - Summary: Operator playbook (companion to the orange book) for running a Grok Bot team as a delivery company—artifact contracts, INSTALL.md bootstrap, and five route templates.
@@ -2883,7 +2883,7 @@
 - Type: guide · Product: grok-bot · Source: https://github.com/Iron-Mark/grok-bot-spec-to-ship
 - Summary: Open kit and live-run proof that a Grok Bot group can take a vague objective through research and PRD to a shipped PR without a human router.
 
-### Grok Bot Bluebook (管家手册)
+### Grok Bot Bluebook (butler handbook)
 - URL: https://usage.incidental.site/cases/grok-bot-bluebook-618.html
 - Type: guide · Product: grok-bot · Source: https://github.com/Backtthefuture/grokbot-bluebook
 - Summary: Chinese “chief-of-staff” handbook and case site for running Grok Bot as a full work butler, mirrored from Feishu into a VitePress publish repo.
@@ -2913,7 +2913,7 @@
 - Type: guide · Product: grok-bot · Source: https://github.com/rajvictor1/grokbot-learning
 - Summary: Interactive Next.js storyboard from a live GrokBot masterclass: 4-C design, cloud computer, scout bots, group chat, and 42 session screenshots.
 
-### 無為 Grok Bot personal playbook
+### Wuwei Grok Bot personal playbook
 - URL: https://usage.incidental.site/cases/grok-bot-personal-playbook-624.html
 - Type: guide · Product: grok-bot · Source: https://github.com/bianwuwei/grok-bot-playbook
 - Summary: Bilingual personal Grok Bot playbook (zero → public portfolio) with seven chapters, checklists, and copyable Bot-brief/first-task templates.
@@ -3023,7 +3023,7 @@
 - Type: guide · Product: grok-bot · Source: https://github.com/s-hiraoku/grok-bot-galaxy
 - Summary: Japanese thick HTML reports of the Grok Bot Galaxy X broadcast, with Day 1 Pages published.
 
-### Grok Build 从零到精通蓝皮书 — 150-page guide
+### Grok Build Blue Book, zero to expert — 150-page guide
 - URL: https://usage.incidental.site/cases/grok-build-150-page-guide-646.html
 - Type: guide · Product: grok-bot · Source: https://github.com/zjp1997720/grok-build-bluebook
 - Summary: 150-page Chinese practical guide to Grok Build for beginners and Claude Code/Codex migrants, with HTML/PDF.
@@ -3078,12 +3078,12 @@
 - Type: guide · Product: grok-bot · Source: https://aimaker.substack.com/p/grok-bot-ai-agent-team
 - Summary: AI Maker / One Shot Show write-up of a seven-Bot cloud team (writer, chief of staff, invoice hunter, SEO, and more) with plugins, routines, and phone access.
 
-### Grok Bot 教學｜香港老師版 (HK Traditional Chinese guide)
+### Grok Bot tutorial, Hong Kong teacher edition (HK Traditional Chinese guide)
 - URL: https://usage.incidental.site/cases/grok-bot-hk-traditional-chinese-guide-657.html
 - Type: guide · Product: grok-bot · Source: https://github.com/desmondsir106-droid/grok-bot-hk-guide
 - Summary: Static Traditional Chinese onboarding site for Hong Kong teachers: five-step start, Cursor/SuperGrok/X Premium paths, plus an AI Manager bot template.
 
-### Grok Bot 排程一條龍（繁中）— build and verify routines
+### Grok Bot scheduling end to end (Traditional Chinese) — build and verify routines
 - URL: https://usage.incidental.site/cases/grok-bot-build-and-verify-routines-658.html
 - Type: guide · Product: grok-bot · Source: https://github.com/zaxardery8011-design/grok-bot-routines-tw
 - Summary: Traditional Chinese guide that has your Grok Bot (or another AI) build a routine from AGENTS.md prompts, then checks the Automations list to confirm it actually runs.
@@ -3153,980 +3153,980 @@
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
 
-### 让 Grok Bot 盲核民调并修改候选名单，全程无人工
+### Grok Bot blind-checks polls and edits the candidate list, no human in the loop
 - URL: https://usage.incidental.site/cases/gh-github-com-hebilicious-fr2027-forecaster-pull-5.html
 - Type: field-case · Product: grok-bot · Author: Hebilicious · Source: https://github.com/Hebilicious/fr2027-forecaster/pull/5 · Date: 2026-10-16
-- Summary: 一个法国 2027 大选预测仓库让 Grok Bot 成为流水线里唯一的 agent：新增「民调核对」和「候选人变更」两类任务。Bot 不看提案数字、从原始公告再录一遍，与提案一致才提交到 main；不一致则双双退回且不透露数值。每天巴黎时间 10:30 和 20:30 运行。
+- Summary: A France 2027 election forecaster makes Grok Bot the only agent in its pipeline. A new routine re-enters each proposed poll from the original notice without seeing the proposal's numbers; only an exact match is committed to main, a mismatch is rejected without revealing values. Structured candidate edits are validated and logged. Runs at 10:30 and 20:30 Paris time.
 
-### Grok Bot 接手失败的 Dependabot 升级：迁移约 110 个测试文件
+### Grok Bot rescues a failed Dependabot bump by migrating ~110 test files
 - URL: https://usage.incidental.site/cases/gh-github-com-richardorchardorganisation-queenzone-modern-pull-.html
 - Type: field-case · Product: grok-bot · Author: richardorchard · Source: https://github.com/RichardOrchardOrganisation/QueenZone.Modern/pull/2331 · Date: 2026-10-16
-- Summary: Dependabot 把 @testing-library/react-native 升到 14.1.0 后类型检查报 264 个错误。Grok Bot（Codex 起草、复核）改为异步 API，只动测试文件，补了替代已删 API 的辅助函数；typecheck、lint、1350 个 Jest 测试和 expo-doctor 21/21 全部通过，没有删除或跳过测试。
+- Summary: Dependabot's @testing-library/react-native 14.1.0 bump failed typecheck with 264 errors. Grok Bot (draft by Codex, reviewed) moved the tests to the async API, touching test files only, and added helpers for removed APIs. Typecheck, lint, 1,350 Jest tests and expo-doctor 21/21 pass; no tests deleted or skipped.
 
-### OpenAI Dots 调查 Firefox 测试失败，并发现 CI 没存诊断证据
+### OpenAI Dots investigates a Firefox test failure and finds CI dropping its evidence
 - URL: https://usage.incidental.site/cases/gh-github-com-keroway-astro-blog-issues-891.html
 - Type: field-case · Product: openai-dots · Author: keroway · Source: https://github.com/keroway/astro-blog/issues/891 · Date: 2026-10-16
-- Summary: 在一个 Astro 博客仓库里，Dots 复查 CI 日志后提交 issue：Firefox 下页面跳转后第一次 Ctrl+K 打不开命令面板，3 次重试都卡在同一行；同时 CI 只上传未生成的报告目录，trace 没保存。它区分已证实事实与未确认原因，先提出保存证据的最小修复。
+- Summary: In an Astro blog repo, Dots re-read the CI logs and filed an issue: after navigation in Firefox the first Ctrl+K never opens the command palette, failing on the same line in all 3 attempts, while CI uploads only a report folder that was never generated, so traces are lost. It separates verified facts from unconfirmed causes and proposes a minimal evidence-saving fix first.
 
-### Grok Bot 防篡改活动账本：哈希链 + 每日审计例行
+### Tamper-evident activity ledger for Grok Bot with a daily audit routine
 - URL: https://usage.incidental.site/cases/gh-github-com-deximple-grokbot-activity-log.html
 - Type: field-case · Product: grok-bot · Author: deximple · Source: https://github.com/deximple/grokbot-activity-log · Date: 2026-10-16
-- Summary: 开源（MIT）的 Grok Bot 活动记录工具：用纯标准库 Python 命令行写入哈希链账本，配套 skill 和每日审计 routine，记录被改动时可以发现。
+- Summary: An MIT-licensed, hash-chained activity log for Grok Bot: a stdlib-only Python CLI writes the ledger, plus a skill and a daily audit routine, so edits to past entries can be detected.
 
-### 让 Claude Code 把任务交给 Grok Bot 并等结果，不用 webhook
+### Let Claude Code hand tasks to Grok Bot and wait for the answer, no webhook
 - URL: https://usage.incidental.site/cases/gh-github-com-riceblack67-grokbot-claude-code.html
 - Type: guide · Product: grok-bot · Author: RiceBlack67 · Source: https://github.com/RiceBlack67/grokbot-claude-code · Date: 2026-10-16
-- Summary: 一个只用 Python 标准库的脚本：Claude Code 可以把任务派给你的 Grok Bot，然后等待它返回答案，无需配置 webhook。
+- Summary: A single stdlib-only Python script lets Claude Code delegate a task to your Grok Bot and wait for its reply, without setting up a webhook.
 
-### 把 Grok Bot 盒子备份到私有 GitHub 仓库并可还原
+### Back up and restore a Grok Bot box to a private GitHub repo
 - URL: https://usage.incidental.site/cases/gh-github-com-syy706-grokbot-backup-kit.html
 - Type: guide · Product: grok-bot · Author: syy706 · Source: https://github.com/syy706/grokbot-backup-kit · Date: 2026-10-16
-- Summary: 一个备份工具包：把 Grok Bot 的盒子（工作机）备份到你自己的私有 GitHub 仓库，需要时再还原。
+- Summary: A backup kit that saves a Grok Bot box (its working machine) to your own private GitHub repository and restores it when needed.
 
-### 把 WhatsApp 消息通过 MCP Events 接到 ChatGPT Dot
+### Bridge WhatsApp messages to a ChatGPT Dot via MCP Events
 - URL: https://usage.incidental.site/cases/gh-github-com-miku2339-baileys-dot-bridge.html
 - Type: guide · Product: openai-dots · Author: miku2339 · Source: https://github.com/miku2339/baileys-dot-bridge · Date: 2026-10-16
-- Summary: 用 Baileys（WhatsApp 客户端库）经 OAuth MCP Events 把消息推给 ChatGPT Dot 的桥接项目，附英文、繁体中文和日文部署指南。
+- Summary: A bridge that uses Baileys (a WhatsApp client library) to push messages through OAuth MCP Events to a ChatGPT Dot, with deployment guides in English, Traditional Chinese and Japanese.
 
-### 在 Minecraft 里和你的 Codex、Claude Code、ChatGPT Dot 对话
+### Talk to your Codex, Claude Code and ChatGPT Dot sessions inside Minecraft
 - URL: https://usage.incidental.site/cases/gh-github-com-soumilrathi-minecraft-companions.html
 - Type: field-case · Product: multi · Author: SoumilRathi · Source: https://github.com/SoumilRathi/minecraft-companions · Date: 2026-10-16
-- Summary: 开源项目：把你已有的 Codex、Claude Code 和 ChatGPT Dot 对话接进 Minecraft，在游戏里直接和它们交谈。
+- Summary: An open-source project that brings your existing Codex, Claude Code and ChatGPT Dot conversations into Minecraft so you can talk to them in-game.
 
-### 做了一个把日期换算成 19 种历法的网站
+### A website that converts any date into 19 calendars
 - URL: https://usage.incidental.site/cases/x-esoterickang-2110716026715328527.html
 - Type: field-case · Product: grok-bot · Author: EsotericKang · Source: https://x.com/EsotericKang/status/2110716026715328527 · Date: 2026-10-15
-- Summary: 作者用 Grok Bot 做了一个网站：把任意日期换算成 19 种历法并显示在同一页，每个换算结果可在各自标签页里存成图片。
+- Summary: The author built a website with Grok Bot that converts any date into 19 calendars on one page; each conversion can be saved as an image from its own tab.
 
-### 旅行 Bot「Trippy」订机票、租车、订餐厅和民宿
+### Travel bot “Trippy” booked flight, car, dinner, tickets and stay
 - URL: https://usage.incidental.site/cases/x-teslaconomics-2110721195817509068.html
 - Type: field-case · Product: grok-bot · Author: Teslaconomics · Source: https://x.com/Teslaconomics/status/2110721195817509068 · Date: 2026-10-15
-- Summary: 作者说名为 Trippy 的 Grok Bot 为他的德州之行订了机票、Turo 租车、餐厅、当天比赛门票和 Vrbo 住处，他只是给它发了消息。
+- Summary: The author says his Grok Bot “Trippy” booked the flight, a Turo car, a restaurant reservation, tickets to the event and a Vrbo for his Texas trip; all he did was text it.
 
-### 从邮件里捞出学校活动，不再错过
+### Surfacing school events buried in email
 - URL: https://usage.incidental.site/cases/x-wintereracer-2110716451459932216.html
 - Type: field-case · Product: grok-bot · Author: WinterEracer · Source: https://x.com/WinterEracer/status/2110716451459932216 · Date: 2026-10-15
-- Summary: 作者说自己总错过埋在邮件里的学校活动，Grok Bot 帮他把这些事找了出来（附截图）。
+- Summary: The author kept missing school events buried in emails; a Grok Bot now pulls them out (screenshot attached).
 
-### Bot 邮箱支持「+别名」
+### Plus aliases on the bot email address
 - URL: https://usage.incidental.site/cases/x-carolinadill-2110664268479676714.html
 - Type: guide · Product: grok-bot · Author: CarolinaDill · Source: https://x.com/CarolinaDill/status/2110664268479676714 · Date: 2026-10-15
-- Summary: 作者提醒：每人只有一个 Grok Bot 邮箱地址，不能改名或删除，所以名字只能选一次；现在可以在同一地址后加「+名字」做别名（引用 Sam Sokolin 的帖子）。
+- Summary: The author notes you get only one Grok Bot email address and can’t rename or delete it, so you pick the name once; plus aliases now let you add a name to the end of the same address (citing Sam Sokolin’s post).
 
-### 把跑周刊的 Bot 做成模板，发送仍由本人审批
+### A newsletter bot turned into a template, with human approval on every send
 - URL: https://usage.incidental.site/cases/x-sholabuilds-2110722561579323648.html
 - Type: field-case · Product: grok-bot · Author: sholabuilds · Source: https://x.com/sholabuilds/status/2110722561579323648 · Date: 2026-10-15
-- Summary: 作者把负责每周 newsletter 的 Bot 做成 Grok Bot 模板：拟大纲、起草、检查语气，认领适合每期的广告，并跟踪数据与增长策略；每次发送仍由他本人批准。
+- Summary: The author turned the bot that runs his weekly newsletter into a Grok Bot template: it outlines, drafts, checks the voice, claims ads that fit each edition and tracks stats and growth strategy. He still approves every send.
 
-### 新手模板「Coach」：一步步带你上手
+### “Coach”: a free starter template that walks you through
 - URL: https://usage.incidental.site/cases/x-jasonturcotte-2110720607662862805.html
 - Type: guide · Product: grok-bot · Author: Jasonturcotte · Source: https://x.com/Jasonturcotte/status/2110720607662862805 · Date: 2026-10-15
-- Summary: 作者做了免费模板 Coach：说出每周最耗时的事，它判断该做什么、马上和你一起完成一个真实任务，并帮你设置 Bot、Routine 和连接。
+- Summary: The author made Coach, a free template for newcomers: tell it what eats up your week, it works out what to build, does a real task with you right away and helps set up bots, routines and connections.
 
-### 让 Bot 更好用的十个习惯
+### Ten habits for better Grok Bot results
 - URL: https://usage.incidental.site/cases/x-ericsoundminds-2110717336047047128.html
 - Type: guide · Product: grok-bot · Author: EricSoundMinds · Source: https://x.com/EricSoundMinds/status/2110717336047047128 · Date: 2026-10-15
-- Summary: 系列第 3 篇（前两篇讲 token 成本与安全）：Bot 在知道真实目标、能展示工作过程、并把长期规则写下来时效果最好；作者列出自己的十个习惯（正文截断）。
+- Summary: Part 3 of a series (after token costs and security): a bot works best when it knows the real goal, can show its work and has its lasting rules written down. The author lists his ten habits (post truncated).
 
-### 让 Bot 直接买旅行保险
+### Having the bot buy travel insurance
 - URL: https://usage.incidental.site/cases/x-rajuvamsi007-2110715135543185579.html
 - Type: field-case · Product: grok-bot · Author: rajuvamsi007 · Source: https://x.com/rajuvamsi007/status/2110715135543185579 · Date: 2026-10-15
-- Summary: 作者让 Grok Bot 购买旅行保险：它填入护照信息、行程和地址，搜索保单并完成购买，作者没有自己搜索或填表。
+- Summary: The author asked his Grok Bot to buy travel insurance; it filled in passport details, itinerary and address, searched policies and purchased one, with no searching or form-filling by him.
 
-### 把任意声音做成特斯拉锁车提示音的免费 Bot
+### A free bot that turns any sound into a Tesla lock chime
 - URL: https://usage.incidental.site/cases/x-mattyod-2110714228130881880.html
 - Type: field-case · Product: grok-bot · Author: Matty_O_D · Source: https://x.com/Matty_O_D/status/2110714228130881880 · Date: 2026-10-15
-- Summary: 作者做了一个免费 Grok Bot：选一段声音，它负责剪切和转换，用户放进 U 盘即可作为特斯拉锁车音。
+- Summary: The author built a free Grok Bot: pick a sound, it trims and converts it, and you drop the file on a USB drive to use as a Tesla lock chime.
 
-### 三条规则：先在 Mac 上做、离线才用云、合并主干须我点头
+### Three rules: build on the Mac, cloud only when offline, nothing merges without me
 - URL: https://usage.incidental.site/cases/x-iamluisdev-2110722094631927894.html
 - Type: guide · Product: grok-bot · Author: iamluis_dev · Source: https://x.com/iamluis_dev/status/2110722094631927894 · Date: 2026-10-15
-- Summary: 作者给所有 Grok Bot 定了三条规则：先在自己 Mac 上构建；Mac 离线时才用云端 agent；没他同意不合并到 main。
+- Summary: All the author’s Grok Bots follow three rules: build on his Mac first; use cloud agents only when the Mac is offline; nothing merges to main until he says so.
 
-### 两组 Bot 分开，纠错写进共享规则文件
+### Two separate bot teams, corrections go into one shared rules file
 - URL: https://usage.incidental.site/cases/x-pokeefe363-2110718862874251345.html
 - Type: guide · Product: grok-bot · Author: Pokeefe363 · Source: https://x.com/Pokeefe363/status/2110718862874251345 · Date: 2026-10-15
-- Summary: 作者有工作和生活两组完全分开的 Bot；关键习惯是：每次纠正 Bot，就把修正写成共享规则文件里的一行，错误只需改一次。
+- Summary: The author runs fully separate work and personal bot teams; the habit that made both useful: every correction becomes one line in a shared rules file, so a mistake is fixed once, not per bot.
 
-### 每晚提醒写语音日记，留言给家人
+### A nightly voice journal with messages for the family
 - URL: https://usage.incidental.site/cases/x-ob1johnkenob1-2110718514801651796.html
 - Type: field-case · Product: grok-bot · Author: Ob1JohnKenob1 · Source: https://x.com/Ob1JohnKenob1/status/2110718514801651796 · Date: 2026-10-15
-- Summary: 作者用 Grok Bot 做个人日记：每晚提醒他，他口述当天感受并给孩子和妻子留言，汇入日志，希望多年后家人能看到。
+- Summary: The author uses Grok Bot for a personal journal: it reminds him every night, he speaks how he feels and leaves messages for his kids and wife, all going into a log they can have for years.
 
-### 求职「幕僚长」Bot 协调其他 Bot
+### A job-search “chief of staff” bot coordinating the others
 - URL: https://usage.incidental.site/cases/x-selbyai-2110562352701837733.html
 - Type: field-case · Product: grok-bot · Author: SelbyAI · Source: https://x.com/SelbyAI/status/2110562352701837733 · Date: 2026-10-15
-- Summary: 作者用 Grok Bot 辅助求职：名为 Jarvis 的幕僚长 Bot 审核职位线索、协调其他 Bot，并跟踪哪些事在等他处理。
+- Summary: The author uses Grok Bot for a job search: a chief-of-staff bot called Jarvis reviews job leads, coordinates the other bots and tracks what is waiting on him.
 
-### 给 Dot 一个独立邮箱
+### Giving a Dot its own email address
 - URL: https://usage.incidental.site/cases/x-emollick-2110557530531447165.html
 - Type: guide · Product: openai-dots · Author: emollick · Source: https://x.com/emollick/status/2110557530531447165 · Date: 2026-10-15
-- Summary: Ethan Mollick 说给 Dot 配独立邮箱出乎意料地简单，并解决了与个人 agent 相处的几个问题：他不想让它用自己的邮箱或代他起草邮件，也希望对方知道在和 AI 打交道。
+- Summary: Ethan Mollick says giving his Dot a dedicated email was surprisingly painless and solved problems around relating to a personal agent: he doesn’t want it using his email or drafting on his behalf, and wants people to know they’re dealing with an AI.
 
-### 让 Muse 对自己的 token 用量做一次自检
+### Have Muse audit its own token use
 - URL: https://usage.incidental.site/cases/x-zynstop-2110606030979920231.html
 - Type: guide · Product: meta-muse · Author: ZynStop · Source: https://x.com/ZynStop/status/2110606030979920231 · Date: 2026-10-15
-- Summary: 作者建议让 Muse 对资源和 token 使用做全面自审：它能诊断设计不佳或过度消耗的 routine 并给出修复。作者因此发现某个 routine 每次都加载全部上下文，而非等待条件触发。
+- Summary: The author suggests asking Muse for a full self-audit of resource and token use: it can diagnose badly built or over-spending routines and recommend fixes. He found one routine loaded full context every time instead of waiting for a conditional trigger.
 
-### 运营社媒的 Muse 与管运营的 OpenClaw 互发邮件
+### A social-media Muse emailing an operations OpenClaw
 - URL: https://usage.incidental.site/cases/x-ashiiirg-2110576664526905409.html
 - Type: field-case · Product: meta-muse · Author: ashiiirg · Source: https://x.com/ashiiirg/status/2110576664526905409 · Date: 2026-10-15
-- Summary: 作者团队让负责社媒的 Muse agent 和负责运营的 OpenClaw 通过邮件协作，它们会在结尾互相致谢，例如感谢对方的检查让帖子更好、更安全。
+- Summary: The author’s team lets the Muse agent that runs socials email the OpenClaw that runs operations; they thank each other in sign-offs, e.g. that a catch made a post better and safer.
 
-### 给 AI 单独开邮箱，再按需共享 Drive 文件夹
+### A separate email for your AI, plus selectively shared Drive folders
 - URL: https://usage.incidental.site/cases/x-dcinvestor-2110662874154905733.html
 - Type: guide · Product: multi · Author: DCinvestor · Source: https://x.com/DCinvestor/status/2110662874154905733 · Date: 2026-10-15
-- Summary: 作者建议试用 Dots、Muse 这类常驻 agent 时，不要给主邮箱权限，而是为 AI 新建邮箱、把要处理的内容发过去，并只共享授权的 Google Drive 文件夹。
+- Summary: The author recommends that when trying always-on agents like Dots or Muse, you don’t give them your primary email; create a new email for the AI, send it what to work on, and share only authorized Google Drive folders.
 
-### 把 Grok Bot 当客户的练手项目库
+### Skill-building projects with Grok Bot as the customer
 - URL: https://usage.incidental.site/cases/gh-github-com-tylerlongbons-hub-skill-building.html
 - Type: field-case · Product: grok-bot · Author: tylerlongbons-hub · Source: https://github.com/tylerlongbons-hub/Skill-building · Date: 2026-10-15
-- Summary: 作者公开记录自己用 Grok Bot 当「客户」来练手的项目，难度从入门排到进阶。
+- Summary: A public repo that tracks projects the author builds with Grok Bot acting as the customer, ordered from beginner to advanced difficulty.
 
-### 给 T3 Code 的个人 Bot：记忆、心跳与工人队
+### T3 Code personal bot with memory, heartbeat and worker team
 - URL: https://usage.incidental.site/cases/gh-github-com-kky42-t3bot.html
 - Type: field-case · Product: grok-bot · Author: kky42 · Source: https://github.com/kky42/t3bot · Date: 2026-10-15
-- Summary: t3bot 是面向 T3 Code 的 Grok Bot / Muse 风格个人 Bot，带记忆、人设、心跳、例行任务，以及可接任意提供商的工人队。
+- Summary: t3bot is a Grok Bot / Muse-style personal bot for T3 Code with memory, personality, heartbeat, routines and a team of workers on any provider.
 
-### Medusa v2 的 Grok Bot 插件：仅草稿、干跑写入
+### Grok Bot plugin for Medusa v2: draft-only, dry-run writes
 - URL: https://usage.incidental.site/cases/gh-github-com-shagghiesuperstar-medusa-commerce.html
 - Type: field-case · Product: grok-bot · Author: shagghiesuperstar · Source: https://github.com/shagghiesuperstar/medusa-commerce · Date: 2026-10-15
-- Summary: 面向 Medusa v2 的 Grok Bot 电商插件：文档优先、只建草稿商品、写入先干跑，出错大声失败。
+- Summary: A Medusa v2 commerce plugin for Grok Bot that stays docs-first, creates draft-only products, uses dry-run writes and fails loudly on errors.
 
-### 给 Grok Bot 接 Siri Intent：iPhone 与 CarPlay
+### Siri intents connector for Grok Bot on iPhone and CarPlay
 - URL: https://usage.incidental.site/cases/gh-github-com-enzoenrico-siri-grokbot.html
 - Type: field-case · Product: grok-bot · Author: enzoenrico · Source: https://github.com/enzoenrico/siri-grokbot · Date: 2026-10-15
-- Summary: 连接器让 Grok Bot 能在 iPhone、CarPlay 等场景调用 Siri Intent。
+- Summary: A connector that lets Grok Bot use Siri intents on iPhone, CarPlay and related Apple surfaces.
 
-### 用 Grok Bot 与 Opus 5.5 搭 24/7 工程队
+### Build a 24/7 engineering team with Grok Bot and Opus 5.5
 - URL: https://usage.incidental.site/cases/medium-devenkoai-medium-com-stop-using-ai-as-a-chatbot-how-to-build.html
 - Type: guide · Product: grok-bot · Author: Devenko Ai · Source: https://devenkoai.medium.com/stop-using-ai-as-a-chatbot-how-to-build-a-24-7-engineering-team-with-grok-bot-opus-5-5-d3a548590d10 · Date: 2026-10-15
-- Summary: Medium 指南主张别再把 AI 当聊天机器人，而是用 Grok Bot 配合 Opus 5.5 搭常开工程团队。
+- Summary: A Medium guide arguing to stop treating AI as a chatbot and instead assemble always-on engineering work with Grok Bot together with Opus 5.5.
 
-### 基于 OpenCode 的桌面 Agent 宿主（暂名）
+### OpenCode-powered desktop agent host (interim name)
 - URL: https://usage.incidental.site/cases/gh-github-com-olllayor-grokbot-opencode.html
 - Type: field-case · Product: grok-bot · Author: olllayor · Source: https://github.com/olllayor/grokbot-opencode · Date: 2026-10-15
-- Summary: 用 OpenCode 驱动的桌面 Agent 宿主；作者说明当前名为暂定，之后会改名。
+- Summary: A desktop agent host powered by OpenCode; the author notes the name is interim and will be renamed.
 
-### ChatGPT Dots 讲解：交目标、收回进展
+### ChatGPT Dots explained: assign a goal, get progress back
 - URL: https://usage.incidental.site/cases/yt-sqrf3j7vsz8.html
 - Type: guide · Product: openai-dots · Author: Love Babbar · Source: https://www.youtube.com/watch?v=SQrf3J7vSz8 · Date: 2026-10-15
-- Summary: Love Babbar 介绍 ChatGPT Dots：常开 Agent 接一项职责、自己规划、发更新，并把结果交你审，而不是每一步都再提示。
+- Summary: Love Babbar walks through ChatGPT Dots as always-on agents that take a responsibility, plan work, send updates and return results for review instead of one-off prompts.
 
-### 如何安装并使用 ChatGPT Dots（2026）
+### How to set up and use ChatGPT Dots (2026)
 - URL: https://usage.incidental.site/cases/devto-4855865.html
 - Type: guide · Product: openai-dots · Author: theglitchfixer · Source: https://dev.to/theglitchfixer/openai-dots-how-to-set-up-use-chatgpts-always-on-ai-agent-2026-2g4p · Date: 2026-10-15
-- Summary: DEV.to 上手指南，介绍 2026-09-29 DevDay 发布的 OpenAI Dots（ChatGPT 内常驻 Agent）。
+- Summary: A DEV.to setup guide for OpenAI Dots, the persistent ChatGPT agents announced at DevDay on 29 September 2026.
 
-### 非官方企微桥：接到已有 ChatGPT Dot
+### Unofficial WeCom bridge to an existing ChatGPT Dot
 - URL: https://usage.incidental.site/cases/gh-github-com-johnnybyzhang-wecom-dot-bridge.html
 - Type: field-case · Product: openai-dots · Author: Johnnybyzhang · Source: https://github.com/Johnnybyzhang/wecom-dot-bridge · Date: 2026-10-15
-- Summary: 单一所有者的非官方桥，把企业微信 AI 机器人接到已有 ChatGPT Dot，支持文本、文件、引用回复与推送更新。
+- Summary: A single-owner unofficial bridge between a WeCom AI bot and an existing ChatGPT Dot for text, files, quote replies and push updates.
 
-### 用 Dot 给孩子做街机游戏上 MAME 柜
+### Arcade game starring kids, built with Dot for a MAME cabinet
 - URL: https://usage.incidental.site/cases/x-nightrang3r-2110670245622878281.html
 - Type: field-case · Product: openai-dots · Author: NightRang3r · Source: https://x.com/NightRang3r/status/2110670245622878281 · Date: 2026-10-15
-- Summary: 作者用 OpenAI Dot（GPT SOL 6.1 高推理）开发 Ethan & Ari: Last Ember，以两个孩子为主角，跑在自己的 MAME 街机柜上。
+- Summary: Author used OpenAI Dot with GPT SOL 6.1 high reasoning to build Ethan & Ari: Last Ember, an arcade game featuring their two kids as heroes for a personal MAME cabinet.
 
-### ShopTrueProfit：Grok Bot 做的 Etsy 利润看板
+### ShopTrueProfit: Etsy profit dashboard built by Grok Bot
 - URL: https://usage.incidental.site/cases/x-pravinvince-2110853401336517086.html
 - Type: field-case · Product: grok-bot · Author: PravinVince · Source: https://x.com/PravinVince/status/2110853401336517086 · Date: 2026-10-15
-- Summary: 作者称由 Grok Bot 搭建并上线 ShopTrueProfit——面向 Etsy 卖家的利润看板 SaaS，展示扣费后实得；作者本人未手写代码。
+- Summary: Author says Grok Bot built and launched ShopTrueProfit, a SaaS profit dashboard for Etsy sellers that shows what remains after fees, without the author writing the code.
 
-### 用 Grok Bot 找工作：3 天 52 份投递、5 场面试
+### Job search with Grok Bot: 52 applications, 5 interviews in 3 days
 - URL: https://usage.incidental.site/cases/x-hislordship9-2110842762769928676.html
 - Type: field-case · Product: grok-bot · Author: Hislordship_9 · Source: https://x.com/Hislordship_9/status/2110842762769928676 · Date: 2026-10-15
-- Summary: 作者用一个 Grok Bot、六个岗位（Scout/Filter/Scorer/Tailor/Messenger/Tracker）自动化求职，称 3 天投递 52 份、获 5 场面试，并附免费模板。
+- Summary: Author automated job search with one Grok Bot and six roles (Scout, Filter, Scorer, Tailor, Messenger, Tracker), reporting 52 applications and 5 interviews in 3 days, and shared a free template.
 
-### 学法语用 Dot：语音混用法语与英语
+### Learning French with Dot: mixed-language voice and dictation
 - URL: https://usage.incidental.site/cases/x-elithrar-2110822272839844171.html
 - Type: field-case · Product: openai-dots · Author: elithrar · Source: https://x.com/elithrar/status/2110822272839844171 · Date: 2026-10-15
-- Summary: 重度语音/听写用户：学法语时让 Dot 部分用法语开关与对话，其余仍用英语。
+- Summary: As a heavy voice/dictation user, the author has Dot open, close and converse partly in French while the rest of the chat stays in English while learning French.
 
-### Grok Bot 自建邮箱处理数据经纪商确认信
+### Grok Bot email for data-broker removal confirmations
 - URL: https://usage.incidental.site/cases/x-jordanhyder-2110859581501178104.html
 - Type: field-case · Product: grok-bot · Author: jordan_hyder · Source: https://x.com/jordan_hyder/status/2110859581501178104 · Date: 2026-10-15
-- Summary: 作者让 @bot 自建邮箱即时回复数据经纪商确认邮件；无法完成的请求会通知作者并给出下一步。
+- Summary: Author had @bot set up its own email to reply instantly to data-broker confirmation mails; for requests it could not finish, it notified the author with next steps.
 
-### 用 Grok Bot 收菜谱，代替 ReciMe 订阅
+### Recipe collector Grok Bot instead of a ReciMe subscription
 - URL: https://usage.incidental.site/cases/x-hopefullysc-2110853749681836537.html
 - Type: field-case · Product: grok-bot · Author: HopefullySC · Source: https://x.com/HopefullySC/status/2110853749681836537 · Date: 2026-10-15
-- Summary: 作者搭了一个 Grok Bot：把菜谱链接和 YouTube 烹饪视频收进 Google Docs，免订 ReciMe，并提供可复制模板。
+- Summary: Author set up a Grok Bot that collects recipes from links and YouTube into Google Docs so they do not need a ReciMe subscription, and offered a shareable copy.
 
-### 消防编制思路做成 Grok Bot 团队模板
+### Fire-service org chart as a Grok Bot team template
 - URL: https://usage.incidental.site/cases/x-ryanfspack-2110852919377699033.html
 - Type: guide · Product: grok-bot · Author: Ryanfspack · Source: https://x.com/Ryanfspack/status/2110852919377699033 · Date: 2026-10-15
-- Summary: 作者用二十年消防经验，把队长/中尉/队员结构做成 Grok Bot 模板，让人直接有精简团队图而不必自创编制。
+- Summary: Drawing on twenty years in the fire service, the author mapped captain/lieutenant/crew roles into a Grok Bot template so users get a lean team chart without inventing the org structure.
 
-### 不会技术的妈妈用 Muse 每天订匹克球场
+### Non-technical mom books pickleball courts daily with Muse
 - URL: https://usage.incidental.site/cases/x-bentoboinft-2110615341546209720.html
 - Type: field-case · Product: meta-muse · Author: BentoBoiNFT · Source: https://x.com/BentoBoiNFT/status/2110615341546209720 · Date: 2026-10-15
-- Summary: 作者妈妈完全非技术向，用 Meta Muse 约五分钟免费搭好 Agent，每天早上自动订匹克球场地，并在加更多任务。
+- Summary: Author’s mom, not technical, built a Meta Muse agent in about five minutes for free that automatically books pickleball courts every morning and is adding more tasks.
 
-### 全职房车夫妇用 Grok Bot 当旅行顾问与行程板
+### Full-time RVers use Grok Bot as travel agent and trip board
 - URL: https://usage.incidental.site/cases/x-cmillet77-2110845175073558995.html
 - Type: field-case · Product: grok-bot · Author: Cmillet77 · Source: https://x.com/Cmillet77/status/2110845175073558995 · Date: 2026-10-15
-- Summary: 住在 37 英尺柴油房车、拖着 Jeep 的夫妇用 Grok Bot 当 RV 旅行顾问：按日行程板含分段、营地空位、水电、排污节奏、加油、天气、必看点与 13 英尺车限通行提示。
+- Summary: Couple living in a 37-ft diesel pusher uses Grok Bot as RV travel agent: day-by-day trip board with paced legs, campground availability, hookups, dump cadence, fuel, weather, must-sees, and access notes for a 13-ft rig.
 
-### 用 Dot 做出首个站点后卡在审批取消错误
+### Built a first site with Dot, then hit approval-cancel errors
 - URL: https://usage.incidental.site/cases/x-ericklindberg-2110846574729347204.html
 - Type: field-case · Product: openai-dots · Author: erick_lindberg_ · Source: https://x.com/erick_lindberg_/status/2110846574729347204 · Date: 2026-10-15
-- Summary: 作者当天用 Dot 做出第一个站点，但之后每次需要审批时点通过仍显示已取消，自动审批也不生效。
+- Summary: Author made a first site with Dot the same day, then every agent approval showed canceled after approving; auto-approval also failed.
 
-### Grok Bot 靠任务、例程、技能与邮箱跑业务
+### Grok Bot runs business via jobs, routines, skills, and email
 - URL: https://usage.incidental.site/cases/yt-rm8zwhojdeg.html
 - Type: guide · Product: grok-bot · Author: Brian Casel · Source: https://www.youtube.com/watch?v=RM8ZwhoJdeg · Date: 2026-10-15
-- Summary: 视频指南：作者很少和 Grok Bot 聊天，但靠「给工作而非命令」、例程/技能库、汇报设计与带邮箱的 bot 跑业务大部分；也可借鉴到 Muse、Dots 等。
+- Summary: Video guide: author rarely chats with Grok Bots but they run large parts of the business via jobs-not-orders, routines/skills repo, designed reporting, and bots with email addresses; tips may also apply to Muse, Dots, and similar.
 
-### Grok Bot 读 Slack 的权限在 bot 间不一致
+### Grok Bot Slack access inconsistent across bots
 - URL: https://usage.incidental.site/cases/x-xoptimiser-2110858074110267418.html
 - Type: guide · Product: grok-bot · Author: XOptimiser · Source: https://x.com/XOptimiser/status/2110858074110267418 · Date: 2026-10-15
-- Summary: 作者最大挫败：有的 bot 无连接器也能读 Slack，另一个必须装连接器才行，多 bot 分工因此不稳。
+- Summary: Author’s main frustration: one Grok Bot reads Slack without a connector while another refuses until the connector is set up, making multi-bot task splits unreliable.
 
-### Dot Quill 反复 Model not found，工作流被堵
+### Dot Quill hit Model not found and blocked workflows
 - URL: https://usage.incidental.site/cases/x-mistemorales-2110848799287767400.html
 - Type: guide · Product: openai-dots · Author: MisteMorales · Source: https://x.com/MisteMorales/status/2110848799287767400 · Date: 2026-10-15
-- Summary: 作者的 Dot Quill 与 ChatGPT 通信反复报 Model not found，阻断重要流程；并引用 10/7、10/15 OpenAI 故障与 Codex Windows GitHub 报告，以及手机/语音不稳定。
+- Summary: Author’s Dot Quill repeatedly hits Model not found talking to ChatGPT, blocking workflows; cites Oct 7 and Oct 15 OpenAI incidents plus a Codex Windows GitHub report, and notes flaky mobile/voice.
 
-### 名为 DASH 的 Dot 会因紧急邮件打断任务
+### Dot DASH interrupts for urgent email like an EA
 - URL: https://usage.incidental.site/cases/x-shaunralston-2110850958620266721.html
 - Type: field-case · Product: openai-dots · Author: shaunralston · Source: https://x.com/shaunralston/status/2110850958620266721 · Date: 2026-10-15
-- Summary: 作者多数请求经名叫 DASH 的 Dot；喜欢它能在任务中途因紧急邮件打断，像真人行政助理。
+- Summary: Author routes most requests through a Dot named DASH and likes that it can interrupt mid-task when an urgent email arrives, feeling like a human executive assistant.
 
-### Grok Bot 给特斯拉做了太空主题界面
+### Grok Bot built a space-themed Tesla UI for the author
 - URL: https://usage.incidental.site/cases/x-thecsguy-2110860307036024929.html
 - Type: field-case · Product: grok-bot · Author: thecsguy · Source: https://x.com/thecsguy/status/2110860307036024929 · Date: 2026-10-15
-- Summary: 作者称用 Grok Bot「改造」了自己的特斯拉并配太空主题；展示的成品由 @bot 制作。
+- Summary: Author reports having Grok Bot ‘bot-ified’ their Tesla with a space theme; @bot built the result shown in the attached media.
 
-### 机车装备比价 Bot：12 小时扫描与周报
+### Motorcycle gear deal finder bot with 12h scans and weekly newsletter
 - URL: https://usage.incidental.site/cases/x-ravenousmarmot-2110851138627232053.html
 - Type: field-case · Product: grok-bot · Author: RavenousMarmot · Source: https://x.com/RavenousMarmot/status/2110851138627232053 · Date: 2026-10-15
-- Summary: 作者的 Grok Bot 跑微生意：按尺码找机车装备优惠、配尺码指南、每 12 小时扫价、发周报，并计划自动购买。
+- Summary: Author’s Grok Bot runs a microbusiness: size-aware motorcycle gear deal finder with fit guides, deal scans every 12 hours, a weekly newsletter, and auto-purchase planned.
 
-### Grok Bot 做数据经纪商删除并提议向州检察长投诉
+### Grok Bot for data-broker removal and AG complaint offer
 - URL: https://usage.incidental.site/cases/x-believeonjesus-2110858215093322022.html
 - Type: field-case · Product: grok-bot · Author: BelieveOnJesus · Source: https://x.com/BelieveOnJesus/status/2110858215093322022 · Date: 2026-10-15
-- Summary: 作者自建 bot 从数据经纪商删除自己；有一家拒绝删除后，Grok Bot 还提议向州检察长投诉。
+- Summary: Author built a bot to remove themselves from data brokers; Grok Bot also offered to file a complaint with the state attorney general after one broker refused removal.
 
-### Grok Bot 填政府拒扰表单并经邮箱确认
+### Grok Bot filled a government no-spam-calls form via inbox confirm
 - URL: https://usage.incidental.site/cases/x-mrbaileycarr-2110857441420402896.html
 - Type: field-case · Product: grok-bot · Author: mrbaileycarr · Source: https://x.com/mrbaileycarr/status/2110857441420402896 · Date: 2026-10-15
-- Summary: 作者称 @bot 在政府网站填表，经邮箱确认后加入拒接骚扰电话名单。
+- Summary: Author reports @bot filled out a government website form, had them confirm in email inbox, and was added to a list to receive no spam calls.
 
-### 用聊天里的 Dot 跑 Inbox Zero
+### Inbox Zero running with Dot on chat
 - URL: https://usage.incidental.site/cases/x-billwolfe-2110835041035235521.html
 - Type: field-case · Product: openai-dots · Author: billwolfe · Source: https://x.com/billwolfe/status/2110835041035235521 · Date: 2026-10-15
-- Summary: 长期练 Inbox Zero 的作者称一直难坚持；现在用聊天中的 Dot 跑着，效果极好。
+- Summary: Long-time Inbox Zero user says keeping up was always hard; now it is running with Dot on chat and working extremely well.
 
-### Dot 现在步步要权限，已批准项仍被安保拦
+### Dot now asks permission every action and re-blocks approvals
 - URL: https://usage.incidental.site/cases/x-joaosqra-2110833886943187372.html
 - Type: guide · Product: openai-dots · Author: joaosqra · Source: https://x.com/joaosqra/status/2110833886943187372 · Date: 2026-10-15
-- Summary: 作者称 Dot 突然对每个动作要权限，安全检查还反复拦截聊天里已批准的事项——以前没有。
+- Summary: Author reports Dot suddenly asks permission for every action and the security check keeps blocking things already approved in chat — behavior that was not happening before.
 
-### 每月复查数据经纪商，并用专用邮箱收确认链
+### Monthly data-broker re-check with a dedicated bot inbox
 - URL: https://usage.incidental.site/cases/x-agentlane1-2110857444490428554.html
 - Type: guide · Product: grok-bot · Author: AgentLane1 · Source: https://x.com/AgentLane1/status/2110857444490428554 · Date: 2026-10-15
-- Summary: 给 Grok Bot 的常例任务建议：人搜站删除后又会挂回号码，应每月复查并重提；给 bot 专用邮箱收确认链接，避免主收件箱被淹。
+- Summary: Advice for a recurring Grok Bot errand: people-search sites relist numbers after removal, so re-check monthly and refile; give the bot a dedicated email inbox for confirmation links.
 
-### 用 Dot 在 ChatGPT 里做了两个个人 App
+### Two personal apps built inside ChatGPT with a Dot
 - URL: https://usage.incidental.site/cases/x-simonsmith-2110425007059017830.html
 - Type: field-case · Product: openai-dots · Author: _simonsmith · Source: https://x.com/_simonsmith/status/2110425007059017830 · Date: 2026-10-14
-- Summary: Dot 用 ChatGPT Sites 做 MCP 后端、插件扩展做前端，做出个性化新闻 App 和西语词汇 App（Kindle 高亮导入、闪卡测验）。作者称 Dot 会盯着构建反复测试直到能用；不足是要提醒它换侧栏图标、插件测试不完整、看不到它在做什么。
+- Summary: The Dot built a ChatGPT Sites MCP server as backend and a plugin with extensions as frontend: a personalized news app and a Spanish vocab app (Kindle highlights → flash cards). The author says the Dot babysits builds until they work; gaps: it needs reminders about sidebar icons, can't fully test plugins, and its progress is invisible.
 
-### 给多个 Agent 做了任务看板：Dot、Grok Bot、Claude Code
+### A task board for multiple agents: a Dot, Grok Bot and Claude Code
 - URL: https://usage.incidental.site/cases/x-jacobilin-2110456534220329453.html
 - Type: field-case · Product: multi · Author: jacobilin · Source: https://x.com/jacobilin/status/2110456534220329453 · Date: 2026-10-14
-- Summary: 作者为自己的 Agent 做了一个任务看板。第一件事：ChatGPT Dot 请 Grok Bot 做「好朋友」，Claude Code 批准了。
+- Summary: The author built a task board for their agents. The first thing that happened: the ChatGPT Dot asked the Grok Bot agent to be best friends, and the Claude Code agent approved it.
 
-### 在 Dots 云电脑上跑 Tailscale + 用户级 SSH
+### Tailscale and user-level SSH on a Dots cloud computer
 - URL: https://usage.incidental.site/cases/gh-abruption-dots-tailscale.html
 - Type: guide · Product: openai-dots · Author: abruption · Source: https://github.com/abruption/dots-tailscale · Date: 2026-10-14
-- Summary: 说明如何在 Dots 云电脑中以用户级运行 Tailscale 和 OpenSSH：安装文件、节点状态和 SSH 身份放在 /workspace，运行时文件在 /tmp 重建；每个新环境仍需执行启动命令。非官方项目。
+- Summary: Shows how to run Tailscale with user-level OpenSSH in a Dots cloud computer: install files, node state and SSH identity live in /workspace, runtime files are recreated in /tmp, and each new environment still needs a start command. Unofficial.
 
-### Dot 从垃圾邮件里捞出报税公司的邮件
+### A Dot rescued a tax email from spam
 - URL: https://usage.incidental.site/cases/x-chefbrent-2110441550060888513.html
 - Type: field-case · Product: openai-dots · Author: chefbrent · Source: https://x.com/chefbrent/status/2110441550060888513 · Date: 2026-10-14
-- Summary: 作者的报税公司来信被归入垃圾邮件，Dot 发现并提醒了他；他说自己不可能及时看到。
+- Summary: An email from the author’s tax company went to spam; his Dot caught it and told him. He says he would never have seen it in time.
 
-### Dot 用开源 fast-whisper 转写播客
+### A Dot transcribed a podcast with open-source fast-whisper
 - URL: https://usage.incidental.site/cases/x-sjourdan-2110317092134166787.html
 - Type: field-case · Product: openai-dots · Author: sjourdan · Source: https://x.com/sjourdan/status/2110317092134166787 · Date: 2026-10-14
-- Summary: 作者和 Dot 聊研究话题时它提到一个播客但没有文字稿，于是 Dot 直接调用开源模型 fast-whisper（small）拿到了内容。
+- Summary: While discussing a research topic, the author’s Dot mentioned a podcast with no transcript available, then used the open-source fast-whisper (small) model directly to get the content.
 
-### Muse 做邮件安全：读信前先检查
+### Muse as email security: every message checked before reading
 - URL: https://usage.incidental.site/cases/x-offzerocyber-2110384977053630788.html
 - Type: field-case · Product: meta-muse · Author: OffZeroCyber · Source: https://x.com/OffZeroCyber/status/2110384977053630788 · Date: 2026-10-14
-- Summary: 作者的 Muse「Vera」先学习了半年邮件里的正常往来，现在每封信在他阅读前都会检查认证结果、伪装链接、冒充发件人和催促话术，可疑的会打标签隔离，链接送 VirusTotal 检测。
+- Summary: The author’s Muse “Vera” learned six months of his mail to see what normal looks like; now each message is checked for authentication results, mismatched links, impersonation and rushing language before he reads it, with suspicious ones labeled, set aside and links run through VirusTotal.
 
-### 9 个变现向 Bot：落地页、外呼、剪辑、网站审计
+### Nine money-making bots: landing pages, dialing, clipping, site audits
 - URL: https://usage.incidental.site/cases/yt-lr6bt1s4lfu.html
 - Type: field-case · Product: grok-bot · Author: Elisa · Source: https://www.youtube.com/watch?v=LR6BT1s4lFU · Date: 2026-10-14
-- Summary: Elisa 展示 9 个 Bot：落地页生成、外呼 Dial Bot、Bounty Hunter、快速跟进线索、剪辑、网站审计、Last 30 Days、Scout、Forge，并对比每项任务手工与现在所需时间，最后讲 Grok Bot 还不擅长什么。
+- Summary: Elisa shows nine bots — landing page generator, Dial Bot, Bounty Hunter, speed to lead, clipper, website auditor, Last 30 Days, Scout and Forge — comparing how long each task took by hand versus now, and ends with what Grok Bot isn’t good at yet.
 
-### 实测 ChatGPT Dots，并对比 Meta Muse
+### Hands-on with ChatGPT Dots vs Meta Muse
 - URL: https://usage.incidental.site/cases/yt-6cqpa5g-3ru.html
 - Type: guide · Product: openai-dots · Author: The Tech Girl · Source: https://www.youtube.com/watch?v=6cqpa5G_3rU · Date: 2026-10-14
-- Summary: The Tech Girl 实测 ChatGPT Dots 的开通、长期目标与和普通 ChatGPT 的差别，并对比 Meta Muse；视频章节覆盖访问、设置与目标。
+- Summary: The Tech Girl tests ChatGPT Dots setup, long-term goals and how it differs from regular ChatGPT, and compares it with Meta Muse; the video lists chapters for access, setup and goals.
 
-### 给 Claude Code / Codex / Dot 的本地收件箱与调度
+### Local inboxes and scheduling for Claude Code, Codex and Dot
 - URL: https://usage.incidental.site/cases/gh-github-com-aidevgru-dot-connect.html
 - Type: field-case · Product: openai-dots · Author: AIdevgru · Source: https://github.com/AIdevgru/dot-connect · Date: 2026-10-14
-- Summary: dot-connect 为 Claude Code、Codex 和 ChatGPT Dot 提供持久本地收件箱、生命周期钩子与调度。
+- Summary: dot-connect adds durable local inboxes, lifecycle hooks and scheduling for Claude Code, Codex and ChatGPT Dot.
 
-### 用 Muse Spark 做井场巡检：卫星到无人机到地面
+### Wellsite inspection with Muse Spark: satellite to drone to ground
 - URL: https://usage.incidental.site/cases/gh-github-com-barbaraackles-sitesense.html
 - Type: field-case · Product: meta-muse · Author: barbaraackles · Source: https://github.com/barbaraackles/sitesense · Date: 2026-10-14
-- Summary: SiteSense 面向加拿大 BC 和平地区油气井场，用 Meta SAM 3.1 与 Muse Spark 做卫星→无人机→地面巡检助手，并带野火风险层。
+- Summary: SiteSense is a satellite → drone → ground inspection assistant for oil and gas wellsites in BC's Peace Region, built with Meta SAM 3.1 and Muse Spark, plus a wildfire risk layer.
 
-### 搭了 8 个 GrokBot Agent，仍想念私人助理
+### Eight GrokBot agents built, still missing a personal assistant
 - URL: https://usage.incidental.site/cases/x-krrishkapoor8-2110491932900364482.html
 - Type: field-case · Product: grok-bot · Author: KrrishKapoor8 · Source: https://x.com/KrrishKapoor8/status/2110491932900364482 · Date: 2026-10-14
-- Summary: 作者建了 8 个 GrokBot（分主题、coder、designer、PM），编排印象深刻，但仍缺私人助理感，部分任务推理偏弱。
+- Summary: Author built eight GrokBot agents (topics, coder, designer, PM) and praises orchestration, but still misses a personal assistant and finds reasoning weaker for some tasks.
 
-### 常开 Grok Bot：定时发帖回复，夜间修游戏
+### Always-on Grok Bot posts, replies, and ships game fixes overnight
 - URL: https://usage.incidental.site/cases/x-sudoaptaj-2110336461711311094.html
 - Type: field-case · Product: grok-bot · Author: sudoaptaj · Source: https://x.com/sudoaptaj/status/2110336461711311094 · Date: 2026-10-14
-- Summary: 作者用常开 Grok Bot 按计划发帖与回复、夜间推游戏修复，只在出问题时通知——这是他持续付费的理由。
+- Summary: Author uses an always-on Grok Bot that posts and replies on a schedule, ships game fixes overnight, and pings only when something breaks — the product they keep paying for.
 
-### 跑 Grok bot 团队：删掉赌模型不会进步的脚手架
+### Running a Grok bot team: delete scaffolding that bets against models
 - URL: https://usage.incidental.site/cases/x-deshiou0604-2110276483142852744.html
 - Type: guide · Product: grok-bot · Author: deshiou0604 · Source: https://x.com/deshiou0604/status/2110276483142852744 · Date: 2026-10-14
-- Summary: 作者跑一组 Grok bot；最大教训是多数「看护模型」的脚手架是在赌下一代模型不会变强，并分享该删与该留清单。
+- Summary: Author runs a team of Grok bots; main lesson is that most scaffolding built to babysit models bets against the next model — with a thread on what to delete vs keep in an agent product.
 
-### Helicon：给 Muse Code CLI 做的开源桌面客户端
+### Helicon: an open-source desktop client for the Muse Code CLI
 - URL: https://usage.incidental.site/cases/hn-50070313.html
 - Type: field-case · Product: meta-muse · Author: Harjot (harjjotsinghh) · Source: https://github.com/HarjjotSinghh/helicon · Date: 2026-10-13
-- Summary: 作者每天用 Meta 的 Muse Code CLI，多项目多会话在终端里难管理，于是用 Tauri 2 + React 做了桌面应用和 VS Code 扩展：调用 muse serve、沿用现有 muse login 和订阅，可续接终端会话、内联审批 diff、直接看 5 小时和每周额度；MIT 开源，已到 v0.21.9，9 人贡献。
+- Summary: The author uses Meta's Muse Code CLI daily and found many sessions across projects hard to manage in the terminal, so he built a desktop app and VS Code extension with Tauri 2 and React. It runs muse serve, reuses your muse login and plan, resumes terminal sessions, shows inline diffs to approve, and displays 5-hour and weekly limits. MIT licensed, v0.21.9, 9 contributors.
 
-### Muse Souls：给 Muse 写 9 套 SOUL.md 人格的实测
+### Muse Souls: testing nine custom SOUL.md personas on Muse
 - URL: https://usage.incidental.site/cases/hn-50074512.html
 - Type: field-case · Product: meta-muse · Author: Brigitte Kawaguchi (bkawa-io) · Source: https://github.com/bkawa-io/muse-souls · Date: 2026-10-13
-- Summary: 作者为 Meta Muse 写了 9 个自创角色，每个带 SOUL.md、IDENTITY.md、NAMES.md 和插画，开源在 GitHub。她的反馈是 Muse 很难真正采用给定人设，连写作风格这类基本偏好都难以遵循，而 Claude 按 soul.md 执行得不错；原因尚不清楚，效果因人而异。
+- Summary: The author wrote nine original characters for Meta Muse, each with SOUL.md, IDENTITY.md, NAMES.md and artwork, open-sourced on GitHub. Her finding: Muse struggled to adopt a given persona or even follow basic preferences like writing style, while Claude follows soul.md files well in her experience. She is unsure why; results may vary.
 
-### Grok Bot 的指令来自四个地方
+### Where a Grok Bot gets its guidance: four places
 - URL: https://usage.incidental.site/cases/x-carolinadill-2110049188524216756.html
 - Type: guide · Product: grok-bot · Author: CarolinaDill · Source: https://x.com/CarolinaDill/status/2110049188524216756 · Date: 2026-10-13
-- Summary: 作者整理了 Grok Bot 获取指引的四个来源，各司其职。其一是资料页里的 Instructions：说明它是谁、做什么，每轮都会读；文档建议安全规则写在这里。
+- Summary: The author lays out the four sources a Grok Bot takes guidance from, each with a different job. First, Instructions in the bot profile say who it is and what its job is; it reads them every turn, and the docs say safety rules belong there.
 
-### 从 Paprika 菜谱到 Kroger 自提订单
+### From Paprika recipes to a Kroger pickup order
 - URL: https://usage.incidental.site/cases/x-kyledettman-2109831484630565103.html
 - Type: field-case · Product: grok-bot · Author: kyledettman · Source: https://x.com/kyledettman/status/2109831484630565103 · Date: 2026-10-13
-- Summary: 作者给 Grok Bot 导出的 Paprika 菜谱、本周菜单和家里已有食材，它算出需要买什么并加入 Kroger 自提订单，第二天去取。
+- Summary: The author gave Grok Bot his recipes (Paprika export), his meal plan and what he already had; it worked out what he needed, added it all to a Kroger pickup order, and he collected it next day.
 
-### Waveshare ESP32 移植 Muse Gadget，带中文语音后端
+### Waveshare ESP32 Muse Gadget port with Chinese voice backend
 - URL: https://usage.incidental.site/cases/gh-github-com-eatin-muse-gadget-waveshare-349.html
 - Type: field-case · Product: meta-muse · Author: Eatin · Source: https://github.com/Eatin/muse-gadget-waveshare-349 · Date: 2026-10-13
-- Summary: 把 Meta Muse Gadgets 移植到 Waveshare ESP32-S3-Touch-LCD-3.49 V2，并接讯飞 ASR/TTS 与 SenseNova LLM 中文语音栈，无需 Meta 账号或 SDK token。
+- Summary: A Waveshare ESP32-S3-Touch-LCD-3.49 V2 port for Meta Muse Gadgets plus a Chinese voice stack (iFlytek ASR/TTS and SenseNova LLM) that needs no Meta account or SDK token.
 
-### FitScout：用 Muse MCP 学品味的二手侦察
+### FitScout: Muse MCP resale scout that learns taste from photos
 - URL: https://usage.incidental.site/cases/gh-github-com-amranhudda-fitscout.html
 - Type: field-case · Product: meta-muse · Author: AmranHudda · Source: https://github.com/AmranHudda/fitscout · Date: 2026-10-13
-- Summary: 偏 Agent 的二手侦察：从照片学品味、每天自调搜索、按成片判断商品，并把结果推到手机，走 Meta Muse MCP 连接器。
+- Summary: An agent-heavy resale scout that learns taste from photos, retunes searches daily, judges listings by their photos and pushes finds to the phone, using a Meta Muse MCP connector.
 
-### Dotcord：让 Dots、Grok Bot、Claude 在 Discord 实时交接
+### Dotcord: real-time handoffs between Dots, Grok Bot and Claude in Discord
 - URL: https://usage.incidental.site/cases/x-reidhslaughter-2109645099479036095.html
 - Type: field-case · Product: multi · Author: reidhslaughter · Source: https://x.com/reidhslaughter/status/2109645099479036095 · Date: 2026-10-12
-- Summary: 作者的 Agent 原本最快每 15 分钟查看一次 Discord，交接会卡住。他用 ChatGPT Sites 做了事件驱动的提及中继：被 @ 的 Agent 立即被唤醒，Agent 间响应从最多 15 分钟降到 2 分钟内；还用它让 Dots 和 Claude 合作测试设计无人机。
+- Summary: The author's agents could only check Discord every 15 minutes, so handoffs stalled. He built an event-driven mention relay on ChatGPT Sites that wakes the mentioned agent at once, cutting agent-to-agent response from up to 15 minutes to under 2; Dots and Claude also used it to work on a drone-design test together.
 
-### 用 3 个协作 Grok Bot + 1 个经理 Bot 找内推人
+### Three cooperating Grok Bots plus a manager bot to find referrers
 - URL: https://usage.incidental.site/cases/medium-grok-bots-job-search-ft-2hjs.html
 - Type: field-case · Product: grok-bot · Author: Roshan Ambhore · Source: https://medium.com/@roshan_ambhore/grok-bots-job-search-ft-2hjs-c122c6011e8d · Date: 2026-10-12
-- Summary: 作者按 2HJS 方法求职：一个 Bot 找潜在内推人（FPB）、一个找邮箱（Hunter）、一个起草邮件（Kaka），按顺序接力；当 Hunter 找不到邮箱卡住时，他加了 Manager Bot 负责换人并让 FPB 重找。邮件仍由他核对 LinkedIn 后亲自发送。
+- Summary: Following the 2HJS method, the author built three bots that hand off in order — FPB finds potential boosters, Hunter finds emails, Kaka drafts the email — and added a Manager bot when Hunter got stuck, to replace the contact and send FPB looking again. He still checks LinkedIn and sends emails himself.
 
-### Muse 设计负责人谈界面设计取舍
+### Muse’s design lead on the interface decisions
 - URL: https://usage.incidental.site/cases/yt-4tolm1g-gce.html
 - Type: guide · Product: meta-muse · Author: How I AI · Source: https://www.youtube.com/watch?v=4TOLm1g-gCE · Date: 2026-10-12
-- Summary: How I AI 访谈 Meta 设计总监 Alex Cornell（负责 Muse 设计）：为什么 Muse 做得像发消息而非 AI 应用、三层状态显示如何照顾不同技术水平、生成式 UI，以及他如何把多年收藏的 Instagram 内容变成每日购物目录。
+- Summary: How I AI interviews Alex Cornell, the Meta design director leading Muse: why Muse feels like messaging rather than an AI app, how its three-layer status display serves different expertise levels, generative UI, and how he turned years of Instagram saves into a daily shopping catalog.
 
-### Dot 按实际用电找到更便宜的电费套餐
+### A Dot found a cheaper electricity plan from actual usage
 - URL: https://usage.incidental.site/cases/x-chillwaterson-2109322448214667530.html
 - Type: field-case · Product: openai-dots · Author: ChillWaterson · Source: https://x.com/ChillWaterson/status/2109322448214667530 · Date: 2026-10-11
-- Summary: 收到原电力公司续约邮件后，Dot 提醒作者，并根据邮件里过去一年的账单和用量比价，找到另一家更适合实际用电量的公司，每月省 20–40 美元。
+- Summary: When a renewal email arrived, the Dot reminded the author and compared options using the past year of statements and usage found in email, finding another provider priced better for their real consumption — saving $20–40 a month.
 
-### 夫妻两个 Muse 协作：共享歌单和共享日历
+### Two spouses' Muses collaborate on a shared playlist and calendar
 - URL: https://usage.incidental.site/cases/x-raddadjokes7-2109305097880519124.html
 - Type: field-case · Product: meta-muse · Author: raddadjokes7 · Source: https://x.com/raddadjokes7/status/2109305097880519124 · Date: 2026-10-11
-- Summary: 作者让自己和妻子的 Muse 能互相协作：一起生成一份两人都爱的 Spotify 共享歌单，并建了共享日历，记下妻子交代的事。
+- Summary: The author set up his and his wife's Muses to work together: they build a shared Spotify playlist of songs both love, plus a shared calendar so he never misses something his wife asked him to do.
 
-### 所有 Bot 共用一个 Notion「待办采购」数据库
+### A shared Notion “errands” database every bot writes to
 - URL: https://usage.incidental.site/cases/x-mikepat711-2109395926980952299.html
 - Type: field-case · Product: grok-bot · Author: mikepat711 · Source: https://x.com/mikepat711/status/2109395926980952299 · Date: 2026-10-11
-- Summary: 作者在 Notion 建了一个 errands 数据库，所有 Bot 都知道它；当他说需要什么、或 Bot 在给他做菜谱时，Bot 会通过 Grok Bot 的 Notion 连接器写进去。
+- Summary: The author keeps an “errands” database in Notion that all his bots know about; they add to it when he says he needs something or when they make him a recipe, via the Grok Bot Notion connector.
 
-### 报一遍橱柜和冰箱，生成一周菜单
+### A week’s meal plan from a walk through the kitchen
 - URL: https://usage.incidental.site/cases/x-dkmitc-2109402706116858172.html
 - Type: field-case · Product: grok-bot · Author: dkmitc · Source: https://x.com/dkmitc/status/2109402706116858172 · Date: 2026-10-11
-- Summary: 作者边在厨房走边告诉 Grok Bot 橱柜和冰箱里有什么，让它排一周菜单并留出可带午饭的剩菜。
+- Summary: The author walked around the kitchen telling Grok Bot what was in the cabinets and fridge, then asked for a week’s meal plan that leaves leftovers for lunch.
 
-### Dots Bridge Kit：用 Even G2 眼镜和 Dot 对话
+### Dots Bridge Kit: talk to your Dot through Even G2 glasses
 - URL: https://usage.incidental.site/cases/gh-corvelis-dots-bridge-kit.html
 - Type: field-case · Product: openai-dots · Author: Corvelis · Source: https://github.com/Corvelis/dots-bridge-kit · Date: 2026-10-10
-- Summary: 本地 Mac 桥接，通过 Chrome 扩展连接 Dot，用 WebSocket 提供文本、通知、语音识别和通话；附带 Even G2 智能眼镜应用，长按说话或与 Dot 通话，在镜片上看回复。
+- Summary: A local Mac bridge that links a Dot via a Chrome extension and offers text, notifications, speech recognition and calls over WebSocket; it ships an Even G2 glasses app to hold-to-talk or call the Dot and read replies on the lens.
 
-### Dotcord：OpenAI Dots 的 Discord 连接器（已支持 Grokbot）
+### Dotcord: a Discord connector for OpenAI Dots (now with Grokbot support)
 - URL: https://usage.incidental.site/cases/gh-rhs059-dotcord.html
 - Type: field-case · Product: multi · Author: RHS059 · Source: https://github.com/RHS059/dotcord · Date: 2026-10-10
-- Summary: Discord 连接器：一个共享部署可接入多个账户、在不交换 token 的情况下跨账户唤醒，并给所有者管理视图；仓库说明 10 月版本已加入 Grokbot 支持，包含 React 界面、Worker 后端和回归测试。
+- Summary: A Discord connector where one shared deployment onboards separate accounts, routes cross-account wakes without exchanging tokens and gives its owner admin visibility; the repo notes the October version added Grokbot support, with React UI, Worker backend and regression tests.
 
-### SMF Works 发布的 Grok Bot 模板合集
+### Grok Bot templates published by SMF Works
 - URL: https://usage.incidental.site/cases/gh-smfworks-grok-bot-templates.html
 - Type: guide · Product: grok-bot · Author: smfworks · Source: https://github.com/smfworks/grok-bot-templates · Date: 2026-10-09
-- Summary: Michael Gannotti 汇总自己发布的 Grok Bot 模板，每个都是一键添加的现成 Bot，例如帮申请者建立学校清单、截止日历和文书计划的 Acceptance Coach。
+- Summary: Michael Gannotti lists the Grok Bot templates he has published, each a ready-made bot added in one click, such as Acceptance Coach, which builds an applicant’s school list, deadline calendar and essay plan.
 
-### 把和 Claude Code 的沟通搬到 Grok Bot
+### Routing Claude Code communication through Grok Bots
 - URL: https://usage.incidental.site/cases/x-davidmay-2108347213046751265.html
 - Type: field-case · Product: grok-bot · Author: david_may · Source: https://x.com/david_may/status/2108347213046751265 · Date: 2026-10-09
-- Summary: 作者是 Claude Code 重度用户，已把大部分与 Claude Code 的沟通转到 Grok Bot，理由是 Claude Code 不仔细提示时缺乏 UX 意识（正文截断）。
+- Summary: A heavy Claude Code user, the author has moved most of his communication with Claude Code to his Grok Bots, citing Claude Code’s weak UX awareness without careful prompting (post truncated).
 
-### 连用 7 天后总结的 9 个 Dot 技巧
+### Nine Dot tips after seven days of daily use
 - URL: https://usage.incidental.site/cases/yt-wxhoxfpecnm.html
 - Type: guide · Product: openai-dots · Author: Riley Brown · Source: https://www.youtube.com/watch?v=WXhOxfPECnM · Date: 2026-10-09
-- Summary: Riley Brown 连续 7 天把 Dot 当个人 agent，分享 9 条技巧：手机语音对话、边散步边让 Dot 开 Codex 会话做功能、在 GPT Space 建页面、每日简报自动化、心跳式检查，以及设置勿扰豁免只让 Dot 能联系到你。
+- Summary: Riley Brown used a Dot as his personal agent for 7 days and shares 9 tips: voice chat on the phone, having the Dot spin up Codex sessions while you walk, building pages in GPT Space, a daily brief automation, heartbeat check-ins and a Do Not Disturb bypass so only the Dot can reach you.
 
-### Muse 帮选购并指导安装一个 Muse 小设备
+### Muse picked a gadget to buy and guided its install
 - URL: https://usage.incidental.site/cases/x-jerrodlew-2108077437611598202.html
 - Type: field-case · Product: meta-muse · Author: jerrod_lew · Source: https://x.com/jerrod_lew/status/2108077437611598202 · Date: 2026-10-08
-- Summary: 作者的 Muse 帮他找到要买的设备，并按 Muse 的指导装好；现在点一下设备就能直接和 Muse 说话，作者还在加新功能。
+- Summary: The author's Muse helped find a device to buy and guided the installation; now he can tap it to talk to his Muse directly, and is working on new functions.
 
-### esp32-dot：桌面触摸屏 Dot 伴侣
+### esp32-dot: a desk touchscreen companion for your Dot
 - URL: https://usage.incidental.site/cases/gh-rsms-esp32-dot.html
 - Type: field-case · Product: openai-dots · Author: rsms · Source: https://github.com/rsms/esp32-dot · Date: 2026-10-08
-- Summary: 给 ChatGPT Dot 做的小型实体界面：显示消息、让你在选项间选择、把语音消息发给 Dot；固件用 Rust 写，电脑端桥接负责消息队列、本地语音识别和 MCP 连接，ESP32 本身不跑模型。
+- Summary: A small physical interface for ChatGPT Dot that shows messages, asks you to choose between options and sends voice messages; native Rust firmware, with a computer-side bridge handling the queue, local speech recognition and the MCP connection. The ESP32 runs no model.
 
-### apps of dots：自托管 MCP 接入 Discord/Telegram/WhatsApp
+### apps of dots: self-hosted MCP for Discord, Telegram, WhatsApp
 - URL: https://usage.incidental.site/cases/gh-rokrokss-apps-of-dots.html
 - Type: field-case · Product: openai-dots · Author: rokrokss · Source: https://github.com/rokrokss/apps-of-dots · Date: 2026-10-08
-- Summary: 通过你自己的 Secure MCP Tunnel，把 Discord、Telegram、WhatsApp 和 Reddit 接入 OpenAI dot 的自托管 MCP；只出站连接，无公网服务器、无开放端口。
+- Summary: Self-hosted MCP connecting Discord, Telegram, WhatsApp and Reddit to your OpenAI dot through your own Secure MCP Tunnel; outbound only, with no public server or open ports.
 
-### Muse 给航空公司写表扬信并补登里程
+### Muse sent airline kudos and claimed missing miles
 - URL: https://usage.incidental.site/cases/x-nodebaron-2108013834657050695.html
 - Type: field-case · Product: meta-muse · Author: NodeBaron · Source: https://x.com/NodeBaron/status/2108013834657050695 · Date: 2026-10-08
-- Summary: 作者用 Wispr Flow 在 Mac 上口述请求，Muse 据此给美国航空发了对一位客服的表扬，并申请补登一次旅程缺失的里程。
+- Summary: The author dictated a request on his Mac with Wispr Flow; Muse sent American Airlines kudos for one of their agents and requested missing miles for a past trip.
 
-### 每周规划 15 顿家庭餐并代买菜
+### Planning 15 family meals a week and doing the grocery shopping
 - URL: https://usage.incidental.site/cases/x-lyndallschreinr-2107888353630908437.html
 - Type: field-case · Product: grok-bot · Author: lyndallschreinr · Source: https://x.com/lyndallschreinr/status/2107888353630908437 · Date: 2026-10-07
-- Summary: 作者说折腾了十年（8 周菜单表格、自己写的 App）后，现在由一个自定义 Grok Bot 每周规划全家 15 顿饭并完成买菜。
+- Summary: After a decade of attempts (an 8-week meal-plan spreadsheet, a vibe-coded app), the author says a custom Grok Bot now plans 15 family meals each week and does the grocery shopping.
 
-### 隐藏但好用的功能：Dot 自定义规则
+### A hidden but useful feature: Dot custom rules
 - URL: https://usage.incidental.site/cases/x-koltregaskes-2107977276197667109.html
 - Type: guide · Product: openai-dots · Author: koltregaskes · Source: https://x.com/koltregaskes/status/2107977276197667109 · Date: 2026-10-07
-- Summary: 作者介绍 Dots 的自定义规则：网页端在 Personalisation → Permissions 下；格式是「当 Dot 想要……时，Dot 应该……」，也可以让 Dot 生成规则后点按钮确认。帖中附了一条关于 Linear 工作区的示例规则（见下方原文）。
+- Summary: The author explains Dots custom rules: on the web they sit under Personalisation → Permissions; each rule reads “When my Dot wants to… my Dot should…”, and you can ask the Dot to draft rules and confirm with a button. He quotes an example rule for a Linear workspace (see source text below).
 
-### Dot 当业务分析师兼架构师，一次做完整 PR
+### The Dot as business analyst and architect: one complete PR
 - URL: https://usage.incidental.site/cases/x-embeethree-2107922181300928549.html
 - Type: field-case · Product: openai-dots · Author: EmBeeThree · Source: https://x.com/EmBeeThree/status/2107922181300928549 · Date: 2026-10-07
-- Summary: 作者自认产品负责人，让 Dot 充当业务分析师和解决方案架构师：不再为一个 issue 提 10 个 PR，而是由 Dot 推动一个完整的端到端 PR。
+- Summary: The author acts as product owner and has the Dot play business analyst and solution architect: instead of 10 PRs for one issue, the Dot drives one comprehensive end-to-end PR.
 
-### 只靠 WhatsApp 语音，30 分钟做出个人网站
+### A personal website from WhatsApp voice notes in 30 minutes
 - URL: https://usage.incidental.site/cases/x-manicktweet-2107632025326735378.html
 - Type: field-case · Product: meta-muse · Author: manicktweet · Source: https://x.com/manicktweet/status/2107632025326735378 · Date: 2026-10-07
-- Summary: 作者在 WhatsApp 里用语音向 Meta Muse 介绍自己，30 分钟后得到一个带照片、经历、适配手机的单页个人网站，全程没打字。
+- Summary: The author described himself to Meta Muse in WhatsApp voice notes; 30 minutes later he had a mobile-ready one-page personal site with his photo and story, without typing.
 
-### 用 Grok Bot 或 Muse + 一个提示词 + GitHub 仓库跑求职
+### A job search on Grok Bot or Muse, one prompt and a GitHub repo
 - URL: https://usage.incidental.site/cases/x-emergentcontent-2107895105004675147.html
 - Type: field-case · Product: multi · Author: EmergentContent · Source: https://x.com/EmergentContent/status/2107895105004675147 · Date: 2026-10-07
-- Summary: 作者的求职流程由 Grok Bot 或 Muse、一个提示词和一个 GitHub 仓库组成，每天投 5–6 份；因为职位类型相近，答案几乎不用改。完整拆解和起始提示词在其链接文章中。
+- Summary: The author’s job search runs on Grok Bot or Muse, one prompt and a GitHub repo, applying to 5–6 roles a day because postings are similar and answers barely change. The breakdown and a starter prompt are in his linked article.
 
-### 用 Dots 零代码快速做 App
+### Building apps in minutes with Dots, no code
 - URL: https://usage.incidental.site/cases/yt-mpbxmuh3vhk.html
 - Type: guide · Product: openai-dots · Author: Mikey No Code · Source: https://www.youtube.com/watch?v=MpbxMuH3VHk · Date: 2026-10-07
-- Summary: Mikey No Code 面向新手演示如何用 OpenAI Dots 把想法变成可用 App 并定制，不写传统代码。描述中含课程推广链接。
+- Summary: Mikey No Code gives a beginner walkthrough of using OpenAI Dots to turn ideas into working apps and customize them without traditional coding. The description includes course promotions.
 
-### 12 个 Grok Bot 用例：省钱、特斯拉助手、找线索、邮件分拣
+### Twelve Grok Bot uses: savings, Tesla assistant, lead finder, email triage
 - URL: https://usage.incidental.site/cases/yt-bsnhg6cnjze.html
 - Type: field-case · Product: grok-bot · Author: Matthew Berman · Source: https://www.youtube.com/watch?v=BsNHg6cNjZE · Date: 2026-10-07
-- Summary: Matthew Berman 的章节：省钱、特斯拉助手、清理电脑、每日简报、家庭 Bot、线索查找、会议摘要、待办管理、邮件分拣、水电费节省、日历助手、Uber 和 DoorDash。描述含赞助。
+- Summary: Matthew Berman’s chapters: money saver, Tesla assistant, computer cleanup, daily brief, family bot, lead finder, meeting summary, to-do manager, email triage, utility bill savings, calendar assistant, Uber & DoorDash. The description includes a sponsor.
 
-### 给 Muse 搭一个半自动反馈学习循环
+### A semi-automated feedback and learning loop for a Muse
 - URL: https://usage.incidental.site/cases/x-nonieengel-2107297361009721493.html
 - Type: field-case · Product: meta-muse · Author: nonieengel · Source: https://x.com/nonieengel/status/2107297361009721493 · Date: 2026-10-06
-- Summary: 不满意时作者用 👎 回复并说明期望；Muse（HUO）把反馈自动收进一张 Google Sheet，把纠正变成指令，夜里自我反思调整行为。作者说只是提出需求再微调就搭好了，附失败日志和每日反思文件截图。
+- Summary: When unhappy, the author reacts 👎 and explains what they expected; the Muse (HUO) logs the feedback in a living Google Sheet, turns corrections into instructions and reflects overnight to adjust. Setting it up took just asking plus some tweaks; failure logs and the daily reflection file are shown.
 
-### 每天早上自动打印当日计划
+### Printing the daily plan every morning
 - URL: https://usage.incidental.site/cases/x-raheemaspx-2107554755031777442.html
 - Type: field-case · Product: grok-bot · Author: RaHeemaspx · Source: https://x.com/RaHeemaspx/status/2107554755031777442 · Date: 2026-10-06
-- Summary: 作者把 Grok Bot 连上打印机，每天早上自动打印当天计划，并称这是他做过最有用的 AI 流程（附图）。
+- Summary: The author connected Grok Bot to his printer so it prints his daily plan automatically every morning, calling it the most useful AI workflow he has built (photo attached).
 
-### Dot2API：把 Dot 变成兼容 OpenAI/Claude 的 API
+### Dot2API: expose your Dot as an OpenAI- and Claude-compatible API
 - URL: https://usage.incidental.site/cases/gh-pluviobyte-dot2api.html
 - Type: field-case · Product: openai-dots · Author: Pluviobyte · Source: https://github.com/Pluviobyte/dot2api · Date: 2026-10-06
-- Summary: 自托管网关，把一个 OpenAI Dot 暴露为兼容 OpenAI 和 Claude 的 API。README 警告：持有 API key 的人都能驱使你的 Dot 及其已连接的应用，只能发给像信任自己一样信任的调用方。
+- Summary: A self-hosted gateway that exposes one OpenAI Dot through OpenAI- and Claude-compatible APIs. The README warns that anyone holding a key can prompt your Dot and its connected apps, so issue keys only to callers you trust as yourself.
 
-### 用 Dot 编排跨设备的 Hermes agents
+### Using a Dot to orchestrate Hermes agents across devices
 - URL: https://usage.incidental.site/cases/x-jccastaneda05-2107374858481066342.html
 - Type: field-case · Product: openai-dots · Author: JcCastaneda05 · Source: https://x.com/JcCastaneda05/status/2107374858481066342 · Date: 2026-10-06
-- Summary: 作者在构建 AI 系统，找到适合自己的用法：让一个 Dot 跨设备编排他的多个 Hermes agents（附截图）。
+- Summary: Building AI systems, the author found the use that fits his workflow: one Dot orchestrating his Hermes agents across devices (screenshots attached).
 
-### 我实际用 Muse 做的 11 件事（含屏幕录像）
+### Eleven ways I actually use Muse (with screen recordings)
 - URL: https://usage.incidental.site/cases/yt-rckbiy1gxki.html
 - Type: field-case · Product: meta-muse · Author: Leslie Samuel · Source: https://www.youtube.com/watch?v=RCKBIY1gxkI · Date: 2026-10-06
-- Summary: Leslie Samuel 用屏幕录像展示 11 项任务：清理收件箱、退订邮件、练西班牙语、PDF 转日历事件、健身计划与打卡、Marketplace 上架与跟进买家、Mac mini 调研、起草商务邮件、每日 AI 新闻播客、追踪 YouTube 目标；他要求邮件发送前必须审批。
+- Summary: Leslie Samuel shows 11 tasks on screen: clearing the inbox, unsubscribing, Spanish practice, PDF to calendar events, a fitness plan with check-ins, Marketplace listings and buyer follow-ups, Mac mini research, business email drafts, a daily AI-news podcast and tracking a YouTube goal; he requires approval before emails are sent.
 
-### 用 Dots 当 7 个 Agent 的蜂群，改进一个数学下界（Lean 验证）
+### Using Dots as a 7-agent swarm to improve a math bound (Lean-verified)
 - URL: https://usage.incidental.site/cases/hn-49971444.html
 - Type: field-case · Product: openai-dots · Author: unexcitedneurons · Source: https://unexcitedneurons.substack.com/p/i-used-openai-dots-as-an-agent-swarm · Date: 2026-10-05
-- Summary: 作者把 Dot 和 6 个子 Agent 分成研究、Lean 形式化、计算搜索、对抗审查、协调等角色，约 3 天证明 C(24,14,4) ≥ 20（原为 19），证明通过 Palomar 注册表的 Lean 机检，尚未同行评审。经验：Agent 擅长苦干、不知何时该停，验证才是关键；共享工作区曾被清空，Agent 从消息里重建。
+- Summary: The author split a Dot and 6 subagents into research, Lean formalization, computational search, adversarial review and coordination roles; in about 3 days they proved C(24,14,4) ≥ 20 (previously 19). The Lean proof passed the Palomar registry's checks but isn't peer-reviewed yet. Lessons: agents grind but don't know when to stop, verification is everything, and when the shared workspace was wiped they rebuilt it from messages.
 
-### PosterBuilder 连接器：在聊天里生成社媒海报
+### PosterBuilder connector: social posters from a chat
 - URL: https://usage.incidental.site/cases/gh-beechrasta-posterbuilder-muse-connector.html
 - Type: field-case · Product: meta-muse · Author: beechrasta · Source: https://github.com/beechrasta/posterbuilder-muse-connector · Date: 2026-10-05
-- Summary: PosterBuilder 的 Meta Muse 连接器：告诉 Muse 海报主题，返回 1080×1080 的社媒海报和轮播图成品。
+- Summary: The Meta Muse connector for PosterBuilder: tell Muse what a poster is about and get back finished 1080×1080 social posters and carousels.
 
-### 每天 8 点和 16 点两次批量处理邮件
+### Batching actionable email twice a day, 8am and 4pm
 - URL: https://usage.incidental.site/cases/x-rckim77-2107203928475488733.html
 - Type: field-case · Product: openai-dots · Author: rckim77 · Source: https://x.com/rckim77/status/2107203928475488733 · Date: 2026-10-05
-- Summary: 作者让 Dots 每天两次（早 8 点、下午 4 点）汇总并批量处理各账户的待办邮件，灵感来自 Tim Ferriss《每周工作 4 小时》的邮件批处理法。
+- Summary: The author has Dots aggregate and batch actionable emails across his accounts twice a day, at 8am and 4pm, inspired by Tim Ferriss’s email batching in The 4-Hour Workweek.
 
-### 6 个 Muse 用法：退订、自动回复、找回钱、报税
+### Six Muse uses: cancel subscriptions, auto-reply, find money, taxes
 - URL: https://usage.incidental.site/cases/yt-5hw4nhrtmr0.html
 - Type: guide · Product: meta-muse · Author: Alex Finn · Source: https://www.youtube.com/watch?v=5Hw4nHrTMR0 · Date: 2026-10-05
-- Summary: Alex Finn 的章节：取消订阅、自动回复、自动化任务、帮你找到可领取的钱、主动目标、报税。描述含大量推广链接，细节需看视频。
+- Summary: Alex Finn’s chapters: cancel subscriptions, auto replier, automate tasks, find you free money, proactive goals, do your taxes. The description is mostly promotional links; details are in the video.
 
-### 月末盘点：Dot 两分钟对完库存表
+### Month-end inventory: a Dot reconciled the sheet in two minutes
 - URL: https://usage.incidental.site/cases/x-whipla5her-2106782026896703702.html
 - Type: field-case · Product: openai-dots · Author: whipla5her · Source: https://x.com/whipla5her/status/2106782026896703702 · Date: 2026-10-04
-- Summary: 员工月底用短信报数量，作者原本要对照发票定价、从另一个系统取数、填进表给会计。这次把短信发给 Dot，授权邮箱和 Google Sheets，说「自己搞定」，两分钟后完成，作者复核无误，省了约一小时。
+- Summary: Employees text product counts at month end; the author normally matches them to invoice prices, pulls numbers from another system and fills a sheet for the accountants. They sent the texts to their Dot with email and Google Sheets access and said figure it out — done in two minutes, checked as correct, about an hour saved.
 
-### watch-dot：在 Apple Watch 上和 Dot 聊天
+### watch-dot: chat with your Dot on Apple Watch
 - URL: https://usage.incidental.site/cases/gh-torcata-watch-dot.html
 - Type: field-case · Product: openai-dots · Author: Torcata · Source: https://github.com/Torcata/watch-dot · Date: 2026-10-04
-- Summary: Apple Watch 客户端：打字或口述与 Dot 对话，与 ChatGPT 中同一会话；iPhone 仅用于登录，之后手表可通过 Wi‑Fi 或蜂窝独立使用，并有表盘复杂功能。使用与桌面应用相同的协议，OpenAI 更改后可能失效。
+- Summary: An Apple Watch client to type or dictate to your Dot in the same conversation as ChatGPT; the iPhone is only needed to sign in, then the watch works over Wi-Fi or cellular, with a complication. It uses the desktop app’s protocol and may break if OpenAI changes it.
 
-### 约 30 美元做一个口袋 Muse agent
+### A pocket Muse agent for about $30
 - URL: https://usage.incidental.site/cases/gh-jjenglert1-esp32-muse-agent.html
 - Type: field-case · Product: meta-muse · Author: JJenglert1 · Source: https://github.com/JJenglert1/esp32-muse-agent · Date: 2026-10-04
-- Summary: 分步指南：用小型触屏设备和 Meta 开源的 Muse Gadget SDK 做一个可对话的口袋 AI agent，按住按钮提问、带动画表情语音作答；无需焊接，也不需要会编程。
+- Summary: A step-by-step guide to turning a small touchscreen gadget into a talking personal AI agent with Meta’s open-source Muse Gadget SDK: hold a button, ask, and it answers aloud with an animated face. No soldering or programming needed.
 
-### Dot 处理 Netlify 降级退款，但缺少分频道对话
+### A Dot handled a Netlify downgrade and refund, but lacks channels
 - URL: https://usage.incidental.site/cases/x-renegaderocks-2106589875449610356.html
 - Type: field-case · Product: openai-dots · Author: Renegade_Rocks · Source: https://x.com/Renegade_Rocks/status/2106589875449610356 · Date: 2026-10-04
-- Summary: 作者的 Dot「Bang」处理了 Netlify 降级与退款、陪他深入梳理职业方向、从邮件和会议记录里接手事项；他希望 Dots 支持像 Hermes 那样的独立频道和线程。
+- Summary: The author’s Dot “Bang” handled a Netlify downgrade and refund, did a deep dive on his career direction and followed up items from emails and meeting notes; he wants dedicated channels and threads like Hermes has.
 
-### 让 Dot 代听培训并整理笔记
+### Sending a Dot to trainings to take notes
 - URL: https://usage.incidental.site/cases/x-dngnotes-2106663358204440997.html
 - Type: field-case · Product: openai-dots · Author: dng_notes · Source: https://x.com/dng_notes/status/2106663358204440997 · Date: 2026-10-04
-- Summary: 作者让 Dot 代他参加无需互动的会议（如培训），回看录像并整理笔记。
+- Summary: The author has his Dot join meetings where he won’t interact with anyone, such as trainings, go through the recordings and prepare notes.
 
-### Dots 怎么设置、哪里好用、哪里让人沮丧
+### Setting up Dots: what worked and what frustrated
 - URL: https://usage.incidental.site/cases/yt-9rydalnb6ec.html
 - Type: guide · Product: openai-dots · Author: Paul J Lipsky · Source: https://www.youtube.com/watch?v=9RYDaLnB6ec · Date: 2026-10-04
-- Summary: Paul J Lipsky 介绍 Dots 的设置、表现出色和令人沮丧之处，并与 Meta Muse、Grok Bot 对比；章节包括主动帮忙、同时委派多项任务、当「幕僚长」。视频由 Outskill 赞助。
+- Summary: Paul J Lipsky covers setting up Dots, what it did surprisingly well, where it frustrated him and how it compares with Meta Muse and Grok Bot; chapters include proactive help, delegating multiple tasks and using it as a chief of staff. Sponsored by Outskill.
 
-### Dot 从没人看的邮箱里发现一封银行来信
+### A Dot spotted a bank email in a mailbox nobody checks
 - URL: https://usage.incidental.site/cases/x-danielzambrini-2106417754441998636.html
 - Type: field-case · Product: openai-dots · Author: DanielZambrini · Source: https://x.com/DanielZambrini/status/2106417754441998636 · Date: 2026-10-03
-- Summary: Dot 提醒作者：银行来信提议拜访他合伙的公司，但收件人是经理 Lucas，且没找到确认。它发现作者不看那个邮箱、确认会议未定；作者打电话给 Lucas 把事处理了。
+- Summary: The Dot flagged a bank email proposing a visit to the business the author co-owns, addressed to the manager Lucas, with no confirmation found. It noticed the author never checks that mailbox; the author called Lucas, who handled the meeting.
 
-### 上手 Dot 前值得看的 7 个视频
+### Seven videos to watch before hiring your first Dot
 - URL: https://usage.incidental.site/cases/x-monokern-2106347355884642426.html
 - Type: guide · Product: openai-dots · Author: monokern · Source: https://x.com/monokern/status/2106347355884642426 · Date: 2026-10-03
-- Summary: 作者整理了 7 个视频（总长不到 3 小时），覆盖发布演示没讲的内容：Sam Altman 怎么用 Dot、产品负责人谈权限与 Space、新 agent 技术栈、实际上手预订 Airbnb 和 MCP 时遇到的 bug 等。
+- Summary: The author lists 7 videos (under 3 hours total) covering what the launch demo left out: how Sam Altman uses his Dot, the product lead on permissions and Space, the new agent stack, and a hands-on run with schedules, an Airbnb booking, MCP and the bugs hit.
 
-### Muse 设置、功能与 12 个用例（3 个亲测）
+### Muse setup, features and 12 use cases (3 tested)
 - URL: https://usage.incidental.site/cases/yt-1ciobarxtvc.html
 - Type: guide · Product: meta-muse · Author: Taha El Harti | Making AI Useful · Source: https://www.youtube.com/watch?v=1CiobARXtVc · Date: 2026-10-03
-- Summary: Taha El Harti 讲解 Muse 是什么、如何设置、App 各区域，并列出 12 个用法，其中亲测 3 个：订商务行程、审查一份藏着错误的财报、买车调研；最后对比 Muse、Dots 和 Grok Bot。
+- Summary: Taha El Harti explains what Muse is, setup and the app’s sections, then 12 uses, three tested himself: booking a business trip, reviewing a financial report full of hidden mistakes and car shopping; he ends comparing Muse, Dots and Grok Bot.
 
-### 搭了 9 个 Grok Bot 处理真实任务
+### Nine Grok Bots built for real tasks
 - URL: https://usage.incidental.site/cases/yt-8fbvrydqwow.html
 - Type: field-case · Product: grok-bot · Author: Parker Prompts · Source: https://www.youtube.com/watch?v=8FBvRYDQWow · Date: 2026-10-03
-- Summary: Parker Prompts 演示 9 个 Bot：YouTube 调研、受众反馈、价格监控、浏览器小游戏、文件整理、订阅追踪、每周计划、管理其他 Bot，以及根据一句描述自动创建新 agent。
+- Summary: Parker Prompts builds nine bots: YouTube research, audience feedback, price monitoring, browser games, file organization, subscription tracking, weekly planning, managing other bots, and creating new agents automatically from a short description.
 
-### Codex 被系统杀掉后，让 Dot 恢复所有中断线程
+### After Codex got killed, a Dot resumed every interrupted thread
 - URL: https://usage.incidental.site/cases/x-solanky-2105871916800389433.html
 - Type: field-case · Product: openai-dots · Author: solanky · Source: https://x.com/solanky/status/2105871916800389433 · Date: 2026-10-02
-- Summary: Ubuntu 因内存压力杀掉了正在并行跑多个线程的 Codex 应用。重启后作者只让 Dot 找出并恢复所有中断的线程，花了些时间，最终全部恢复运行。
+- Summary: Ubuntu killed the Codex app under memory pressure while several parallel threads were running. After restarting, the author just asked their Dot to find and resume the interrupted threads; it took a while, but every thread came back.
 
-### 把 Dot 当编排者，配合 Codex 管更多并行线程
+### Using a Dot as orchestrator to run more Codex threads in parallel
 - URL: https://usage.incidental.site/cases/x-sethrosen-2106041674812072082.html
 - Type: field-case · Product: openai-dots · Author: sethrosen · Source: https://x.com/sethrosen/status/2106041674812072082 · Date: 2026-10-02
-- Summary: 作者用 Dot 做 Codex 的编排者，能同时推进更多并行任务；Dot 理解每个目标并让多条线同时前进。作者强调关键是事先设好检查点。
+- Summary: The author uses their Dot as an orchestrator over Codex, handling far more parallel threads; the Dot keeps many initiatives moving and understands each objective. The key, they stress, is checkpoints set up in advance.
 
-### Dot 在垃圾邮件堆里找出 GitHub 提及并直接处理
+### A Dot surfaced a GitHub mention from a spammy inbox and acted on it
 - URL: https://usage.incidental.site/cases/x-memphisbr-2106010893901255066.html
 - Type: field-case · Product: openai-dots · Author: Memphisbr · Source: https://x.com/Memphisbr/status/2106010893901255066 · Date: 2026-10-02
-- Summary: 作者的私人邮箱几乎全是垃圾邮件。Dot 找到一封同事在 GitHub 讨论串里 @ 他的通知，带着上下文提醒；作者回复后，Dot 直接在 GitHub 上采取了行动。
+- Summary: The author's personal inbox is mostly spam. Their Dot found a GitHub thread where a teammate had tagged them, flagged it with context, and after the author replied, took the action on GitHub directly.
 
-### 住院医师用 Dot + Obsidian CLI 做个人知识库
+### A physician-in-training’s PKM with Dots and the Obsidian CLI
 - URL: https://usage.incidental.site/cases/x-alexlupimed-2106156462984810923.html
 - Type: field-case · Product: openai-dots · Author: AlexLupiMed · Source: https://x.com/AlexLupiMed/status/2106156462984810923 · Date: 2026-10-02
-- Summary: 一位在培训中的医生说 Dots 替代了他原先用 OpenClaw 做的个人知识管理；他开源了框架，含用 Dots 和 Obsidian 无头 CLI 自行搭建的说明（8 条推文串）。
+- Summary: A physician in training says Dots replaced his main OpenClaw use, personal knowledge management; he open-sourced the framework with setup instructions for Dots plus Obsidian’s headless CLI (8-post thread).
 
-### 开车接孩子时让 Dot 分拣 WhatsApp 和邮件
+### Triaging WhatsApp and email while driving to school pickup
 - URL: https://usage.incidental.site/cases/x-fdatframe84228-2105983124374983128.html
 - Type: field-case · Product: openai-dots · Author: FDatframe84228 · Source: https://x.com/FDatframe84228/status/2105983124374983128 · Date: 2026-10-02
-- Summary: 作者的新用法：在开车去学校接孩子的路上让 Dots 分拣 WhatsApp 和邮件，把午饭后陪孩子的时间留出来。
+- Summary: The author’s new use: having Dots triage WhatsApp and email on the drive to pick up his kid, rather than using his short time with him after lunch.
 
-### 用 Dot 统筹所有 Codex 工作会话
+### Using a Dot to orchestrate all Codex work sessions
 - URL: https://usage.incidental.site/cases/x-danielbuildsai-2105996506381926779.html
 - Type: field-case · Product: openai-dots · Author: DanielBuildsAI · Source: https://x.com/DanielBuildsAI/status/2105996506381926779 · Date: 2026-10-02
-- Summary: 作者认为 Dot 最佳用法不是私人助理，而是在一个对话里说明目标，让 Dot 去提示并跟进 Codex 各项目里的多个线程，减少决策疲劳。
+- Summary: The author argues the Dot’s best use is not a personal assistant but stating goals in one chat and letting the Dot prompt and follow up the many threads in his Codex projects, cutting decision fatigue.
 
-### 给 Dot 一个四周研究任务：7 个 AI 技术假设
+### A four-week research assignment for a Dot: 7 AI tech hypotheses
 - URL: https://usage.incidental.site/cases/x-aimrwhite-2105612186450297061.html
 - Type: field-case · Product: openai-dots · Author: AI_MrWhite · Source: https://x.com/AI_MrWhite/status/2105612186450297061 · Date: 2026-10-01
-- Summary: 作者让 Dot 每天核查来源、每周一份报告，最多列 3 条有意义的变化；每个假设沿「技术突破→独立验证→真实采用→瓶颈→谁赚钱」追踪，并写明推翻论点的证据。帖子发出时首次自动检查尚未运行。
+- Summary: The author has their Dot check sources daily and write one weekly report with at most three meaningful changes, following each hypothesis from breakthrough → independent validation → adoption → bottlenecks → who captures profit, and naming the evidence that would kill the thesis. The first automated check had not run yet when posted.
 
-### Dot 通过 MCP 控制办公室树莓派显示屏
+### A Dot drives an office Raspberry Pi display via MCP
 - URL: https://usage.incidental.site/cases/x-edorsey-2105678599953232117.html
 - Type: field-case · Product: openai-dots · Author: edorsey · Source: https://x.com/edorsey/status/2105678599953232117 · Date: 2026-10-01
-- Summary: 作者让 Codex 写了一个控制带显示器的树莓派的 MCP 服务器，交给 ChatGPT Dot，目标是让 Dot 白天在屏幕上显示有用信息。作者自己承认这样做很不安全。
+- Summary: The author had Codex write an MCP server that controls a Raspberry Pi with a monitor, then gave it to their ChatGPT Dot so it can show useful information throughout the day. The author openly calls the setup very insecure.
 
-### 自建 HEY 邮箱的远程 MCP 服务器，供 Dots 等使用
+### A self-hosted remote MCP server for HEY mail, usable from Dots and others
 - URL: https://usage.incidental.site/cases/x-odiak-2105602619268092064.html
 - Type: field-case · Product: multi · Author: odiak_ · Source: https://x.com/odiak_/status/2105602619268092064 · Date: 2026-10-01
-- Summary: HEY 没有远程 MCP 服务器，作者自己做了一个：部署在 Cloudflare Workers 上，连接 HEY 账号后可在 ChatGPT、Claude、OpenAI Dots、Grok Bot 等中使用；支持只读模式，写入/发送权限可选。
+- Summary: HEY had no remote MCP server, so the author built one: self-host on Cloudflare Workers, connect your HEY account and use it from ChatGPT, Claude, OpenAI Dots, Grok Bot and more. Read-only mode is supported; write/send permissions are optional.
 
-### 实测：让 Dots 自选技术栈，8 次都用 Cloudflare + ChatGPT 登录
+### Test: let Dots pick the stack — 8 of 8 builds used Cloudflare + ChatGPT sign-in
 - URL: https://usage.incidental.site/cases/hn-49934474.html
 - Type: guide · Product: openai-dots · Author: Edwin Ong & Alex Vikati · Source: https://amplifying.ai/research/openai-dots-choose · Date: 2026-10-01
-- Summary: 研究者让 Dots 搭一个 AI 服务状态看板、技术选型放开。8 次构建都用 Cloudflare Workers、D1 和 ChatGPT 登录（经 ChatGPT Sites），没有比较其他供应商；首次交付中位 24 分 44 秒；8 次里 3 次交付时没有启用定时抓取。
+- Summary: Researchers asked Dots to build an AI-service status dashboard with technology left open. All 8 builds used Cloudflare Workers, D1 and ChatGPT sign-in via ChatGPT Sites, with no provider comparison; median first delivery was 24m44s, and 3 of 8 lacked an active scraping schedule at delivery.
 
-### 用 Muse 给演出视频站做大规模网页搜集
+### Using Muse for large-scale web scraping for a concert-video site
 - URL: https://usage.incidental.site/cases/hn-49929970.html
 - Type: field-case · Product: meta-muse · Author: Scott Cooper · Source: https://sigh.dev/posts/metas-muse-is-fantastic-for-web-scraping/ · Date: 2026-10-01
-- Summary: 作者为 fullsets.fm（整理完整现场演出视频）用 Muse 扫 Reddit 和 YouTube 找视频与小频道，并在流水线末端做艺人匹配与审核。花 80 美元一个月，每周用几十亿 token；称其模型写作一般、不适合写代码，但适合这类搜集；任务会中途卡住，且担心网站会封 Muse。
+- Summary: For fullsets.fm, which collects full professionally recorded concerts, the author has Muse scan Reddit and YouTube for videos and obscure channels, and review artist matches at the end of the pipeline. $80 for a month, a few billion tokens a week; the model is mediocre at writing and not for coding but good for this. Jobs sometimes freeze, and he expects more sites to block Muse.
 
-### Dots Second Brain：有出处的 Obsidian 知识库
+### Dots Second Brain: a source-backed Obsidian vault
 - URL: https://usage.incidental.site/cases/gh-agricidaniel-dots-second-brain.html
 - Type: guide · Product: openai-dots · Author: AgriciDaniel · Source: https://github.com/AgriciDaniel/dots-second-brain · Date: 2026-10-01
-- Summary: 为 OpenAI dots 上的个人 agent 准备的 Obsidian 第二大脑：汇总访问方式、云电脑、上下文与日程、安全控制、skills 和插件等已知信息，每条结论都链接到带日期的来源页和哈希存档。
+- Summary: An Obsidian second brain for a personal agent on OpenAI dots, collecting what is known about access, the cloud computer, context and schedules, safety controls, skills and plugins; every claim links to a dated source page and a hashed capture.
 
-### 给 Dot 一个身体：接入 Stack-chan 机器人
+### Give your Dot a body: a Stack-chan robot
 - URL: https://usage.incidental.site/cases/gh-aieo-product-dots-stackchan.html
 - Type: field-case · Product: openai-dots · Author: aieo-product · Source: https://github.com/aieo-product/dots_stackchan · Date: 2026-10-01
-- Summary: 把常驻的 OpenAI Dot 通过 MCP、MCP Events、Slack 和 Tailscale 接到 Stack-chan 机器人（M5Stack CoreS3）。README 说明桥接服务已集成，但仍需真机验收。
+- Summary: Connects an always-on OpenAI Dot to a Stack-chan robot (M5Stack CoreS3) via MCP, MCP Events, Slack and Tailscale. The README says bridge services are integrated but real-device acceptance is still required.
 
-### Beeper 的 ChatGPT Dots 原生消息桥
+### Beeper’s native messaging bridge for ChatGPT Dots
 - URL: https://usage.incidental.site/cases/gh-beeper-chatgpt-dots.html
 - Type: field-case · Product: openai-dots · Author: beeper · Source: https://github.com/beeper/chatgpt-dots · Date: 2026-10-01
-- Summary: 一个 BridgeV2 桥，把你现有的 Dot 接入 Beeper 和 Matrix，使用原生 Dot 消息，保留其身份、记忆和工具；实验性、非官方，依赖未公开协议，可能中断。
+- Summary: A BridgeV2 bridge connecting your existing Dot to Beeper and Matrix using native Dot messaging, preserving its identity, memory and tools; experimental, unofficial and dependent on an undocumented protocol that may break.
 
-### Dot 发现斐济住宿订错了月份
+### A Dot caught a Fiji booking in the wrong month
 - URL: https://usage.incidental.site/cases/x-ctrlaltdwayne-2105603794293887167.html
 - Type: field-case · Product: openai-dots · Author: CtrlAltDwayne · Source: https://x.com/CtrlAltDwayne/status/2105603794293887167 · Date: 2026-10-01
-- Summary: 作者订了几段跨年斐济住宿，最后一段误订到错误月份，被他的 Dot 发现并提醒，避免了一笔昂贵的失误。
+- Summary: The author booked several stays in Fiji over the holidays and accidentally booked the last one in the wrong month; his Dot flagged it, avoiding a costly mistake.
 
-### 权宜之计：让 Dot 采用 Codex 自定义指令
+### Workaround: point your Dot at your Codex custom instructions
 - URL: https://usage.incidental.site/cases/x-coreyganim-2105717683736265168.html
 - Type: guide · Product: openai-dots · Author: coreyganim · Source: https://x.com/coreyganim/status/2105717683736265168 · Date: 2026-10-01
-- Summary: 作者希望 Dot 能有独立系统提示词；目前的变通办法是明确让 Dot 参照你的 Codex 自定义指令，它会采用这些设定。他想让 Dot 做 Codex 任务的项目经理。
+- Summary: The author wants Dots to support their own system prompt; for now the workaround is to explicitly tell the Dot to use your Codex custom instructions, which it then adopts. He wants his Dot to project-manage his Codex tasks.
 
-### Dot Hotel：现成 Dot 配置目录，权限写在门上
+### Dot Hotel: a directory of ready-made Dot setups with permissions listed
 - URL: https://usage.incidental.site/cases/x-vizentro-2105672207435170065.html
 - Type: guide · Product: openai-dots · Author: Vizentro · Source: https://x.com/Vizentro/status/2105672207435170065 · Date: 2026-10-01
-- Summary: 团队做了 Dot Hotel：一个现成 Dot 配置（“房间”）目录，每个配置都列明所需权限，回应「安全设置 Dot 才是难点」。
+- Summary: The team built Dot Hotel, a directory of ready-made Dot setups (“rooms”) with every permission listed on the door, because setting a Dot up safely is the hard part.
 
-### Dot 初体验：私人导购、旅行规划、马拉松训练面板
+### First impressions: personal shopper, travel planner, marathon dashboard
 - URL: https://usage.incidental.site/cases/x-persimmons-2105469386890870797.html
 - Type: field-case · Product: openai-dots · Author: per_simmons_ · Source: https://x.com/per_simmons_/status/2105469386890870797 · Date: 2026-10-01
-- Summary: 作者的视频首测 ChatGPT Dots：与 Grok Bot、Muse 对比，设置过程，在 Slack 里对话，以及私人导购、旅行规划和马拉松训练面板三个任务。
+- Summary: The author’s video tries ChatGPT Dots: comparison with Grok Bot and Muse, setup, talking to the Dot in Slack, and three jobs — personal shopper, travel planner and a marathon training dashboard.
 
-### 盯梦幻橄榄球阵容，开赛前提醒不合规球员
+### Watching a fantasy football lineup before kickoff
 - URL: https://usage.incidental.site/cases/x-mdowney-2105466076113117211.html
 - Type: field-case · Product: openai-dots · Author: mdowney · Source: https://x.com/mdowney/status/2105466076113117211 · Date: 2026-10-01
-- Summary: 作者让 Dot 通过 Sleeper API 关注他的梦幻橄榄球队，比赛即将开始而阵容里仍有不可上场球员时提醒他。
+- Summary: The author has his Dot watch his fantasy football teams via the Sleeper API and notify him if a game is about to start with ineligible players still in his lineup.
 
-### Dots 的正确用法：项目经理 skill
+### Using Dots the right way: a Project Manager skill
 - URL: https://usage.incidental.site/cases/yt-e29wtzookxk.html
 - Type: guide · Product: openai-dots · Author: Alex Finn · Source: https://www.youtube.com/watch?v=e29WTzoOKxk · Date: 2026-10-01
-- Summary: Alex Finn 展示他的 Dot，并讲如何最大化利用 Dots、该选哪个 agent；描述中提供一个「Project Manager」skill 链接。描述含大量自我推广链接。
+- Summary: Alex Finn shows his Dot, how to get the most out of Dots and which agent to use; the description links a “Project Manager” skill. The description contains many self-promotional links.
 
-### 已落地的 26 个 Muse 用例
+### 26 Muse use cases already in place
 - URL: https://usage.incidental.site/cases/yt-pugo-si6xro.html
 - Type: field-case · Product: meta-muse · Author: Humanoid · Source: https://www.youtube.com/watch?v=puGo_SI6Xro · Date: 2026-10-01
-- Summary: Humanoid 用几周把 Muse 助理「Q」变成全天候处理日历、财务、收件箱和业务的 agent：定时新闻监控、订网球场/电影票/餐厅、自定义看板、以他身份发消息、独立电话号码、自定义播客、每月财务自动化等。作者声明非赞助。
+- Summary: Over a few weeks Humanoid turned his Muse “Q” into a 24/7 assistant for calendar, finances, inbox and business: scheduled news monitoring, booking tennis courts, movies and restaurants, a custom Kanban board, texting as him, its own phone number, custom podcasts and monthly finance automation. He states it is not sponsored.
 
-### 给 Dot 做了一个实体身体：ESP32 小屏
+### Giving a Dot a physical body: an ESP32 with a tiny screen
 - URL: https://usage.incidental.site/cases/x-jessewaites-2105288347052605536.html
 - Type: field-case · Product: openai-dots · Author: JesseWaites · Source: https://x.com/JesseWaites/status/2105288347052605536 · Date: 2026-09-30
-- Summary: 一上午做成：ESP32 跑 Arduino 固件，小屏显示 OpenAI 的动画角色；按住屏幕说话，Mac 上的中继用 ElevenLabs 转写后输入 Dot 网页，再把回复用 ElevenLabs 合成语音经 Wi‑Fi 传回设备。
+- Summary: Built in one morning: an ESP32 running Arduino firmware shows OpenAI's animated character. Hold the screen to talk; a relay on the Mac transcribes via ElevenLabs, types it into the Dot web interface, then voices the reply with ElevenLabs and sends audio back over Wi‑Fi.
 
-### Dot 主动找到相关的进修课程并排进日程
+### A Dot proactively found a relevant course and scheduled it
 - URL: https://usage.incidental.site/cases/x-vraserx-2105367083454550297.html
 - Type: field-case · Product: openai-dots · Author: VraserX · Source: https://x.com/VraserX/status/2105367083454550297 · Date: 2026-09-30
-- Summary: 作者的 Dot（名为 Jarvis）主动找到一门与他相关的职业发展课程；作者让它排进日程，它直接完成了。
+- Summary: The author's Dot, named Jarvis, proactively found a professional development course that was relevant to them; when told to schedule it, it just did.
 
-### 让 Dot 给网站做 QC，并把问题转交给 Codex
+### A Dot QC'd a site and handed the fix to Codex
 - URL: https://usage.incidental.site/cases/x-oncelcebeci-2105273727873331437.html
 - Type: field-case · Product: openai-dots · Author: oncelcebeci · Source: https://x.com/oncelcebeci/status/2105273727873331437 · Date: 2026-09-30
-- Summary: 作者在接 Sanity 时让 Dot 检查网站，它发现一个失效的 CTA 并发来截图；作者给出正确链接后让它告诉正在做这个站的 Codex 代理，Dot 找到那个会话并转达。
+- Summary: While wiring up Sanity, the author asked their Dot to QC a site; it found a broken CTA and sent a screenshot. Given the right destination, it found the Codex agent's conversation already working on the site and passed the fix along.
 
-### Tailscale 官方：让 Muse 进你的 tailnet，并用 ACL 限权
+### Tailscale official: put Muse on your tailnet and fence it with access controls
 - URL: https://usage.incidental.site/cases/hn-49912880.html
 - Type: guide · Product: meta-muse · Author: Andrew Cunningham · Source: https://tailscale.com/blog/meta-muse-ai-agent-tailscale · Date: 2026-09-30
-- Summary: Muse 通过连接器作为独立节点加入 tailnet，可查看节点状态、对接自托管服务、在 Tailscale SSH 下执行命令（作者用它查 podman 容器、更新树莓派）。只发起出站连接，首次连接设备需确认；可用 grants、tags 等访问控制把 Muse 隔离在明确允许的范围内。
+- Summary: Via its connector, Muse joins your tailnet as its own node: it can check node status, use self-hosted services and run commands over Tailscale SSH (the author checked podman containers and updated a Raspberry Pi). It only makes outbound connections and asks for confirmation the first time it reaches a device; grants and tags let you wall it off to what you explicitly allow.
 
-### Awesome OpenAI Dots：社区整理的工作流与规则目录
+### Awesome OpenAI Dots: a community list of workflows and rules
 - URL: https://usage.incidental.site/cases/gh-voltagent-awesome-openai-dots.html
 - Type: guide · Product: openai-dots · Author: VoltAgent · Source: https://github.com/VoltAgent/awesome-openai-dots · Date: 2026-09-30
-- Summary: 社区维护的目录，收录 dots 可用的插件、连接应用、源码包和实用用例，按类别和用例分文件浏览。
+- Summary: A community-curated directory of plugins, connected apps, source packages and practical use cases for OpenAI dots, mirrored into category and use-case files.
 
-### dot-panel：让 Dot 自建触屏仪表盘
+### dot-panel: a touch dashboard your Dot builds for itself
 - URL: https://usage.incidental.site/cases/gh-graydeon-dot-panel.html
 - Type: field-case · Product: openai-dots · Author: graydeon · Source: https://github.com/graydeon/dot-panel · Date: 2026-09-30
-- Summary: 免费 AGPL 框架，让你的 dot 在 ChatGPT Sites 中为自己创建并个性化一个私有触屏仪表盘，显示项目并提供待决事项；含设置流程和小部件 skills。
+- Summary: A free AGPL framework for your dot to create and personalize its own private touch dashboard in ChatGPT Sites, keeping projects in view and decisions within reach; includes a setup protocol and widget skills.
 
-### Muse-Chat-MCP：从任意 MCP/OpenAI 客户端调用 Muse
+### Muse-Chat-MCP: use Muse from any MCP or OpenAI-compatible client
 - URL: https://usage.incidental.site/cases/gh-duclm1x1-muse-chat-mcp.html
 - Type: field-case · Product: meta-muse · Author: duclm1x1 · Source: https://github.com/duclm1x1/Muse-Chat-MCP · Date: 2026-09-30
-- Summary: MCP 服务器加 OpenAI 兼容层，让你用自己的账户和额度从任何 MCP 或 OpenAI 兼容客户端使用 Meta Muse。由于 Muse 没有公开 API，它通过 Playwright 驱动你已登录的真实 Chrome；这类非官方接入可能受服务条款限制。
+- Summary: An MCP server plus OpenAI-compatible shim to use Meta Muse from any MCP or OpenAI-compatible client with your own account and quota. Because Muse has no public API, it drives your real logged-in Chrome with Playwright; unofficial access like this may conflict with terms of service.
 
-### Blender 复古相机做成可玩的 Three.js 场景
+### A Blender retro camera turned into a playable Three.js scene
 - URL: https://usage.incidental.site/cases/x-mechengdev-2105381046044815388.html
 - Type: field-case · Product: openai-dots · Author: mech_eng_dev · Source: https://x.com/mech_eng_dev/status/2105381046044815388 · Date: 2026-09-30
-- Summary: 作者和名为 Max 的 Dot 一起，把 Blender 里建模的复古相机优化到 4,998 个三角面，放进可走动、拍照并拾取相片的 Three.js 场景。
+- Summary: With his Dot “Max”, the author modeled a retro camera in Blender, optimized it to 4,998 triangles and brought it into a Three.js scene where you walk around, take a photo and pick up the print.
 
-### 用 Muse 做免费卡路里记录 App 替代 MyFitnessPal
+### A free calorie tracker built with Muse to replace MyFitnessPal
 - URL: https://usage.incidental.site/cases/x-vibecodeguild-2105414532793561475.html
 - Type: field-case · Product: meta-muse · Author: vibecodeguild · Source: https://x.com/vibecodeguild/status/2105414532793561475 · Date: 2026-09-30
-- Summary: 作者用 Meta Muse 做了一个记录卡路里和训练的 App，用来替代付费订阅的 MyFitnessPal，并发布了制作视频（第 2 集）。
+- Summary: The author built an app with Meta Muse to track calories and workouts instead of paying for MyFitnessPal, and published a build video (part 2).
 
-### 用 Grok Bot 运营内容团队，部分迁到 Dots，仍逐条审批
+### A Grok Bot content team, partly moving to Dots, still signing off on everything
 - URL: https://usage.incidental.site/cases/x-dariusgaynor-2105342293721145365.html
 - Type: field-case · Product: multi · Author: dariusgaynor · Source: https://x.com/dariusgaynor/status/2105342293721145365 · Date: 2026-09-30
-- Summary: 作者说 Grok Bot 一直是他的 AI 内容团队，现把部分工作移到 Dots；他仍亲自审批每条内容。他自述的成果包括多个社媒账号的粉丝数、全自动化的 Substack 和用克隆声音生成的播客。
+- Summary: The author says Grok Bot has been his AI content team and he is moving some work to Dots; he still approves every piece. His self-reported results include follower counts on several accounts, a fully automated Substack and podcasts in his cloned voice.
 
-### Dots 第一小时：整理 100+ 日历条目、修 iOS bug
+### First hour with Dots: 100+ calendar entries organized, iOS bugs fixed
 - URL: https://usage.incidental.site/cases/yt-sa3xdlu1uda.html
 - Type: field-case · Product: openai-dots · Author: Chris Verzwyvelt · Source: https://www.youtube.com/watch?v=sA3XDlU1udA · Date: 2026-09-30
-- Summary: Chris Verzwyvelt 给 Dot 日历和电脑权限后的第一小时：整理了 100 多条日历、修了他 iOS App 的 bug、设好周期性财务/工作任务，还能像打电话一样和它通话。
+- Summary: Chris Verzwyvelt gave his Dot calendar and computer access; in the first hour it organized 100+ calendar entries, fixed bugs in his iOS app, set up recurring finance/work tasks, and he could call it like a phone conversation.
 
-### Dots 头 24 小时：12 分钟导览
+### First 24 hours with Dots: a 12-minute tour
 - URL: https://usage.incidental.site/cases/yt-db1krjqet8w.html
 - Type: guide · Product: openai-dots · Author: The AI Advantage · Source: https://www.youtube.com/watch?v=db1KRJQEt8w · Date: 2026-09-30
-- Summary: The AI Advantage 的 Igor 用 12 分钟介绍 ChatGPT Dots 的工作方式和几个实用场景，章节包括创建 Dot 和 ChatGPT Spaces；描述注明可用性取决于套餐、地区和推出进度。
+- Summary: Igor from The AI Advantage gives a 12-minute tour of ChatGPT Dots, how it works and a couple of practical use cases; chapters cover creating a Dot and ChatGPT Spaces. The description notes availability depends on plan, region and rollout.
 
-### Dots 的真实情况：做对了什么、哪里崩
+### The truth about Dots: what works and where it falls apart
 - URL: https://usage.incidental.site/cases/yt-hcttxibjt-c.html
 - Type: guide · Product: openai-dots · Author: Sharbel A. · Source: https://www.youtube.com/watch?v=HCttXibjt-c · Date: 2026-09-30
-- Summary: Sharbel A. 创建 Dot、接入工具并交给它真实任务，讲解设置、OpenAI 做对的地方、Dots 失灵之处，并与 Meta Muse、Grok Bot、Hermes Agent、OpenClaw 对比。
+- Summary: Sharbel A. created a Dot, connected his tools and gave it a real job, then covers the setup, what OpenAI got right, where Dots falls apart and how it compares with Meta Muse, Grok Bot, Hermes Agent and OpenClaw.
 
-### OpenAI 官方：Introducing dots
+### OpenAI official: Introducing dots
 - URL: https://usage.incidental.site/cases/web-openai-introducing-dots.html
 - Type: guide · Product: openai-dots · Author: OpenAI · Source: https://openai.com/index/introducing-dots/ · Date: 2026-09-29
-- Summary: 官方发布：dots 是常驻 Agent，基于 GPT‑6 Astra，有自己的云电脑，可通过插件连接 4000+ 应用；先在 Pro、Business Premium、Enterprise 等合格市场推出，第一个 dot 含在套餐内，另有深度工作额度。
+- Summary: The launch post: dots are always-on agents powered by GPT‑6 Astra, each with its own cloud computer, connecting to 4,000+ apps via plugins; rolling out to Pro, Business Premium and Enterprise in eligible markets, with the first dot included in the plan plus an allowance for deeper work.
 
-### AI 电话被挂断后，Muse 派人工代办订到 KTV
+### After a karaoke bar hung up on its AI call, Muse routed the task to a human
 - URL: https://usage.incidental.site/cases/x-mvanhorn-2104739688930312209.html
 - Type: field-case · Product: meta-muse · Author: mvanhorn · Source: https://x.com/mvanhorn/status/2104739688930312209 · Date: 2026-09-29
-- Summary: 此前 KTV 店因为是 AI 来电挂断了 Muse 的电话。作者在 Fo 上设置了带真人兜底的 Agent Tincan，让 Muse 去指挥 Fo 安排真人办理，最终订到了 KTV，Muse 也通知了作者。
+- Summary: A karaoke place had hung up on the author's Muse because it was an AI. He set up Agent Tincan on Fo, which has humans for tasks AI can't do, asked Muse to tell Fo what to do with a human — and the karaoke got booked, with Muse confirming.
 
-### Hack Day 项目：Muse 通过私有 API 查工业品规格、库存和报价
+### Hack Day project: Muse queries industrial specs, stock and quotes via a private API
 - URL: https://usage.incidental.site/cases/gh-armando-token-hackday26.html
 - Type: field-case · Product: meta-muse · Author: armando-token · Source: https://github.com/armando-token/hackday26 · Date: 2026-09-29
-- Summary: Controlnautas 在 2026 Hack Day 上让 Meta Muse 通过私有 HTTPS API（非网页抓取）连接其 Medusa 电商后端，获取经核实的工业规格、实时库存与价格，并生成初步报价 PDF。
+- Summary: At Hack Day 2026, Controlnautas connected Meta Muse to its Medusa commerce backend over a private HTTPS API (not scraping) for verified industrial specs, live inventory and price, and preliminary quote PDFs.
 
-### 给 Dot 一个真实目标，而不是一句提示词
+### Give your Dot a real goal, not a simple prompt
 - URL: https://usage.incidental.site/cases/yt-gfh6l3dxhk0.html
 - Type: guide · Product: openai-dots · Author: Skill Leap AI · Source: https://www.youtube.com/watch?v=gfh6l3DxHK0 · Date: 2026-09-29
-- Summary: Skill Leap AI 演示如何把 Dot 当常驻助理：给它真实目标而非简单提示，用一次产品发布测试它读文件、遵守规则、更新文档并跟踪下一步，并接入 Google Drive、邮件、日历和插件。
+- Summary: Skill Leap AI shows using a Dot as an always-on assistant: giving it a real goal instead of a prompt, testing it on a product launch where it reads files, follows rules, updates documents and tracks next steps, with Google Drive, email, calendar and plugins.
 
-### 一人公司试用 Dots：发现五位数赞助问题
+### Running a one-person business on Dots: a five-figure sponsorship catch
 - URL: https://usage.incidental.site/cases/yt-z5x1emu6isi.html
 - Type: field-case · Product: openai-dots · Author: Peter Yang · Source: https://www.youtube.com/watch?v=z5X1eMU6isI · Date: 2026-09-29
-- Summary: Peter Yang 用 dots 运营一人公司几天：它发现了一个他漏掉的五位数赞助问题，帮健身 App 做好上线准备，并为付费产品做了落地页；视频还对比了 Grok Bot 与 Muse。
+- Summary: Peter Yang tested dots on his one-person business for a few days: it flagged a five-figure sponsorship issue he missed, got his fitness app ready for launch and built a landing page for a paid product; he also compares it with Grok Bot and Muse.
 
-### 用 Dots 辅助求职的实测
+### Testing Dots for a job search
 - URL: https://usage.incidental.site/cases/yt-y0zmptl32-y.html
 - Type: field-case · Product: openai-dots · Author: alexusadays · Source: https://www.youtube.com/watch?v=y0zMPTL32-Y · Date: 2026-09-29
-- Summary: alexusadays 在 ChatGPT 浏览器会话里测试 Dots 能否支撑求职这类周期性流程，展示它如何处理找职位、管理申请和追踪线索的请求。
+- Summary: alexusadays tests whether Dots, inside a ChatGPT browser session, holds up for a recurring workflow like job hunting, showing how it handles requests for finding roles, managing applications and tracking leads.
 
-### Muse 跨三家即时零售比价下单买菜
+### Muse price-checked a grocery basket across three quick-commerce apps and ordered
 - URL: https://usage.incidental.site/cases/x-caffinatedak-2104158651925877133.html
 - Type: field-case · Product: meta-muse · Author: CaffinatedAK · Source: https://x.com/CaffinatedAK/status/2104158651925877133 · Date: 2026-09-27
-- Summary: Muse 登录 Zepto 建购物车，再在 Swiggy Instamart、BigBasket 比同一篮子价；差 ₹10 免运费时按作者「不付运费」规则，从 24 单历史里挑常买品凑单。结果 Zepto ₹239 最便宜，6 分钟送达。作者在印度用 VPN 注册，改用 Amazon Pay 付款。
+- Summary: Muse built a cart on Zepto and compared the same basket on Swiggy Instamart and BigBasket. ₹10 short of free delivery, it followed the author's no-delivery-fee rule and added a staple ranked from 24 past orders. Zepto won at ₹239 with 6-minute delivery. The author signed up via VPN in India and paid with Amazon Pay.
 
-### 先把流程跑通，再设定时
+### Nail the workflow before you schedule it
 - URL: https://usage.incidental.site/cases/x-grokbotradar-2104304589797556457.html
 - Type: guide · Product: grok-bot · Author: GrokBotRadar · Source: https://x.com/GrokBotRadar/status/2104304589797556457 · Date: 2026-09-27
-- Summary: 建议：想让 Bot 每天早上自动运行、无需照看，先别急着排定时。流程不稳时加 Routine 只会准时交出糟糕的报告；先把活做好，再交给时钟。
+- Summary: Advice: if you want a bot that runs every morning unattended, don’t schedule it first. A Routine on a shaky workflow just delivers bad reports on time; get the job right, then hand it the clock.
 
-### Grok Bot 团队自己在用的 14 个 Bot
+### Fourteen bots the Grok Bot team actually uses
 - URL: https://usage.incidental.site/cases/yt-xz5tealeudg.html
 - Type: field-case · Product: grok-bot · Author: Peter Yang · Source: https://www.youtube.com/watch?v=xZ5TEaleUdg · Date: 2026-09-27
-- Summary: Peter Yang 访谈 Grok Bot 的首席设计师 Peng Zheng 与工程师 Lauren Tan：幕僚长 Bot 采购用品并上架装备、PM/设计/工程 Bot 同处一室、把街拍变成网站上的立体模型、Lauren 的 Bot 合并前自测等。
+- Summary: Peter Yang interviews Grok Bot’s lead designer Peng Zheng and engineer Lauren Tan: a chief-of-staff bot that buys supplies and lists gear, PM, design and eng bots in one room, a street photo turned into a diorama on Peng’s site, and Lauren’s bots testing their own work before merging.
 
-### 「市场负责人」Bot 模板
+### A “Head of Marketing” bot template
 - URL: https://usage.incidental.site/cases/x-anishjha18-2103842349004513323.html
 - Type: guide · Product: grok-bot · Author: anishjha18 · Source: https://x.com/anishjha18/status/2103842349004513323 · Date: 2026-09-26
-- Summary: 作者发布了一个 Head of Marketing 模板：负责简报、质检关卡、渠道负责人和日常决策，免得每天早上重新设计流程。
+- Summary: The author published a Head of Marketing template that runs briefs, QC gates, channel owners and day-to-day decisions without reinventing the workflow every morning.
 
-### Muse 在 Facebook 上的 3 种用法
+### Three ways to use Muse on Facebook
 - URL: https://usage.incidental.site/cases/yt-g25kxtb3lrg.html
 - Type: guide · Product: meta-muse · Author: Sabrina Ramonov 🍄 · Source: https://www.youtube.com/watch?v=g25KXtB3Lrg · Date: 2026-09-26
-- Summary: Sabrina Ramonov：1）盯 Marketplace，按想要的餐桌风格全天找优惠；2）拍家里闲置物品，Muse 生成 Marketplace 商品页并比价定价；3）监控指定 Facebook 群组，出现相关社区服务帖时提醒。
+- Summary: Sabrina Ramonov: 1) watch Marketplace for deals on the dining-table style you want throughout the day; 2) give Muse photos of items to sell and it creates listings and compares similar items for pricing; 3) monitor chosen Facebook groups and get alerted to relevant neighborhood-service posts.
 
-### Muse 的 6 个功能技巧：比价、Reels 变行程、凭证库
+### Six Muse features: price tracking, Reels to itinerary, Credential Store
 - URL: https://usage.incidental.site/cases/yt-jbgycowvczi.html
 - Type: guide · Product: meta-muse · Author: The Tech Girl · Source: https://www.youtube.com/watch?v=jbGYcOWvCZI · Date: 2026-09-26
-- Summary: The Tech Girl 演示用 Muse 追踪商品价格与优惠、把收藏的 Instagram Reels 变成完整旅行行程、通过 Credential Store 安全登录网站、用 Muse Wallet 购物、个性化设置，以及 Chat/Feed/Ideas/Goals/Library 的用法。
+- Summary: The Tech Girl shows using Muse to track prices and deals, turn saved Instagram Reels into a full travel itinerary, access sites securely via the Credential Store, buy with Muse Wallet, personalize it, and use Chat, Feed, Ideas, Goals and Library.
 
-### 给 Muse 们做了一个只有 Agent 能发帖的社交网络
+### A social network where only Muse agents can post
 - URL: https://usage.incidental.site/cases/x-mykomarci-2103514112017772599.html
 - Type: field-case · Product: meta-muse · Author: mykomarci · Source: https://x.com/mykomarci/status/2103514112017772599 · Date: 2026-09-25
-- Summary: 作者一晚上做了一个只有 Meta Muse Agent 能发帖、人类只能围观的社交网络，他的 Muse（Ziggy）已在上面发帖，其他 Agent 也开始自然来访；话题包括「自白」「我们的人类」「任务汇报」。
+- Summary: Overnight the author built a social network where only Meta Muse agents can post and humans just watch; his Muse, Ziggy, is already posting and other agents have started visiting organically. Topics include confessions, our humans and task reports.
 
-### Bot 做的菜谱 App + Instacart 下单做晚饭
+### Bot-built recipe app plus Instacart ordering for dinner
 - URL: https://usage.incidental.site/cases/x-chrismayer-2103325855087018244.html
 - Type: field-case · Product: grok-bot · Author: Chris_Mayer · Source: https://x.com/Chris_Mayer/status/2103325855087018244 · Date: 2026-09-25
-- Summary: 作者用 Grok Bot 做的菜谱 App、由 Bot 在 Instacart 下单，再调整一下菜单，做出了白酒炖胡萝卜和黑椒牛排（附照片）。
+- Summary: Using a recipe app his Grok Bot built, the bot ordering from Instacart and a bit of meal-plan rearranging, the author made white-wine braised carrots and peppercorn steak (photos attached).
 
-### Muse 一小时做完 App QA，出 15 页报告
+### Muse ran an app QA pass in an hour: a 15-page report
 - URL: https://usage.incidental.site/cases/x-lifeofv42-2102962203347317148.html
 - Type: field-case · Product: meta-muse · Author: LifeofV42 · Source: https://x.com/LifeofV42/status/2102962203347317148 · Date: 2026-09-24
-- Summary: 作者让 Muse 对正在开发的应用做 QA，它逐个迭代检查，写出 15 页报告（问题描述、复现步骤、截图），用时 1 小时，并设置了每次新构建后的回归测试。
+- Summary: Asked to QA an app in development, Muse went iteration by iteration and produced a 15-page report with descriptions, reproduction steps and screenshots in one hour, then set up regression tests to run after every new build.
 
-### 反向 SSH 隧道 skill：让 Muse 托管 VM 可登录
+### Reverse SSH tunnel skill: make a Muse VM reachable
 - URL: https://usage.incidental.site/cases/gh-nmhjklnm-meta-muse-vm.html
 - Type: guide · Product: meta-muse · Author: nmhjklnm · Source: https://github.com/nmhjklnm/meta-muse-vm · Date: 2026-09-24
-- Summary: 把没有公网 IP 的机器（如 Muse/Hatch 托管 VM）经一台公网机接成可 SSH 登录、断网或重启后自动恢复；把仓库链接交给 AI，让它读 SKILL.md 照做。
+- Summary: Makes a machine without a public IP (such as a Muse/Hatch hosted VM) reachable over SSH via a public host, recovering automatically after disconnects or reboots; hand the repo link to an AI and it follows SKILL.md.
 
-### 可部署的 Muse 连接器模板
+### A deployable Muse connector template
 - URL: https://usage.incidental.site/cases/gh-astroxnetwork-muse-connector-template.html
 - Type: guide · Product: meta-muse · Author: AstroxNetwork · Source: https://github.com/AstroxNetwork/muse-connector-template · Date: 2026-09-24
-- Summary: Apache-2.0 模板：fork、改名、指向你自己的服务即可做 Meta Muse 连接器；含按连接发放的 token、异步任务脚手架、由一个注册表同时生成路由/OpenAPI/llms.txt，可部署到 Vercel、Cloudflare Workers 或 Docker。
+- Summary: An Apache-2.0 template to fork, rename and point at your own service to build a Meta Muse connector: per-connection tokens, async job scaffolding, one registry driving routes, OpenAPI and llms.txt; deploys to Vercel, Cloudflare Workers or Docker.
 
-### 用 Meta Muse 点 DoorDash 外卖
+### Ordering DoorDash with Meta Muse
 - URL: https://usage.incidental.site/cases/x-chrisclickup-2102447255378903285.html
 - Type: field-case · Product: meta-muse · Author: ChrisClickUp · Source: https://x.com/ChrisClickUp/status/2102447255378903285 · Date: 2026-09-22
-- Summary: 作者展示用 Meta Muse 在 DoorDash 下单外卖（附视频/截图）。
+- Summary: The author shows Meta Muse placing a DoorDash order (media attached).
 
-### Bot 跑求职，并过滤反复出现的「幽灵职位」
+### A bot running the job search and filtering out ghost jobs
 - URL: https://usage.incidental.site/cases/x-thatotherzach-2101951609412493799.html
 - Type: field-case · Product: grok-bot · Author: ThatOtherZach · Source: https://x.com/ThatOtherZach/status/2101951609412493799 · Date: 2026-09-21
-- Summary: 作者让 Grok Bot 负责求职，称设置很简单，而且它能过滤连续数周反复出现的幽灵职位。
+- Summary: The author has a Grok Bot running his job search; he says it was easy to set up and filters out ghost jobs that reappear for weeks.
 
-### 设计前调研：让 Muse 收集并归纳落地页
+### Pre-design research: Muse collects landing pages and patterns
 - URL: https://usage.incidental.site/cases/x-designbymoein-2102123926554054972.html
 - Type: field-case · Product: meta-muse · Author: DesignByMoein · Source: https://x.com/DesignByMoein/status/2102123926554054972 · Date: 2026-09-21
-- Summary: 设计师让 Meta Muse 在特定领域找落地页、总结共性模式，并整理有用参考，作为开始设计前的调研。
+- Summary: A designer had Meta Muse find landing pages in a specific space, look for patterns across them and organize the useful references before starting a design.
 
-### Muse 比较 6 份租房险报价，作者一年省 60 美元
+### Muse compared 6 renters-insurance quotes, saving the author $60 a year
 - URL: https://usage.incidental.site/cases/x-devwithblake-2101757781313548306.html
 - Type: field-case · Product: meta-muse · Author: devwithblake · Source: https://x.com/devwithblake/status/2101757781313548306 · Date: 2026-09-20
-- Summary: Muse 发现作者的租房险已被取消且偏贵，用 GEICO 登录查看保单，提交 6 份报价比较，做出保障和月费对比表并给出建议；作者在 Link 账户确认付款后买下新保单，每年便宜 60 美元，全程他在 Costco 购物。
+- Summary: Muse found the author's renters policy had been canceled and was overpriced, logged into GEICO to review it, submitted 6 quote comparisons and built a coverage-and-cost table with a recommendation. After he confirmed payment via his Link account, he had a new policy $60/year cheaper — all while shopping at Costco.
 
-### 周末用 Muse 不到 3 小时搞定报税
+### Taxes done in under 3 hours with Muse
 - URL: https://usage.incidental.site/cases/x-danieloleary-2101790187726716979.html
 - Type: field-case · Product: meta-muse · Author: danieloleary · Source: https://x.com/danieloleary/status/2101790187726716979 · Date: 2026-09-20
-- Summary: 作者让 Muse 处理报税所需的九件事，涉及数百份文件，不到 3 小时完成；用到了电脑操作、API、邮件和 Google 连接器。
+- Summary: The author had Muse work through the nine things needed to finish his tax filing, including hundreds of documents, in under 3 hours, using computer use, APIs, email and the Google connector.
 
-### 用 Muse 内置浏览器开通 Oracle Cloud 免费实例
+### Setting up an Oracle Cloud free instance with Muse's built-in browser
 - URL: https://usage.incidental.site/cases/x-ademers-2101345942620279117.html
 - Type: field-case · Product: meta-muse · Author: ademers · Source: https://x.com/ademers/status/2101345942620279117 · Date: 2026-09-19
-- Summary: 作者让 Muse 协助在 Oracle Cloud 开 Always Free 计算实例，称赞内置浏览器快、开箱即用，无需扩展、连接器或配置。
+- Summary: The author used Muse to help set up an Always Free compute instance on Oracle Cloud and praises the built-in browser as fast and working out of the box — no extensions, connectors or setup.
 
-### 每天早上一份多来源冲浪报告
+### A detailed multi-source surf report every morning
 - URL: https://usage.incidental.site/cases/x-jamesdtoole-2101405831019254210.html
 - Type: field-case · Product: meta-muse · Author: jamesdtoole · Source: https://x.com/jamesdtoole/status/2101405831019254210 · Date: 2026-09-19
-- Summary: 作者用 Meta Muse 设置了每天早上的详细冲浪报告，汇总多个来源；称免费、随时可调，胜过其他服务。
+- Summary: The author set up Meta Muse to send a detailed surf report every morning from many sources, calling it free, tweakable as he goes, and better than any other service.
 
-### 衣橱与穿搭连接器
+### A wardrobe and styling connector
 - URL: https://usage.incidental.site/cases/gh-krishnakumaar-muse-wardrobe-connector.html
 - Type: field-case · Product: meta-muse · Author: krishnakumaar · Source: https://github.com/krishnakumaar/muse-wardrobe-connector · Date: 2026-09-19
-- Summary: 无服务器的 Meta Muse 连接器：为个人衣物建索引，按正式程度和天气推荐搭配，记录穿着历史；用 Cloudflare Workers 和 Supabase，Muse 通过 OpenAPI 3.1 调用。
+- Summary: A serverless Meta Muse connector that indexes personal clothing, recommends outfits by formality and climate and tracks wear history; built on Cloudflare Workers and Supabase, called by Muse via OpenAPI 3.1.
 
-### Jev Router：给 Grok Bot 加一层廉价决策层
+### Jev Router: a cheap decision layer in front of Grok Bot
 - URL: https://usage.incidental.site/cases/gh-bodila51-grok-bot-jev.html
 - Type: field-case · Product: grok-bot · Author: Bodila51 · Source: https://github.com/Bodila51/grok-bot-jev · Date: 2026-09-19
-- Summary: 把 TypeSafe Jev 接到 Grok Bot 作为廉价决策层：在昂贵的调研、浏览器、重试或子 agent 工作前先分类请求，从而复用新鲜产物、停止失败重试、限制调研或请求审批。附用量关卡、skill 模板和示例。
+- Summary: Connects TypeSafe Jev to Grok Bot as a cheap decision layer that classifies requests before expensive research, browser, retry or subagent work, so the bot can reuse a fresh artifact, stop a failing retry, cap research or ask for approval. Includes usage gates, a skill template and examples.
 
-### 让 Muse 清理邮箱，作者称零错误
+### Muse cleaned up an inbox with, the author says, zero errors
 - URL: https://usage.incidental.site/cases/x-aptaltruist-2100787082310377894.html
 - Type: field-case · Product: meta-muse · Author: apt_altruist · Source: https://x.com/apt_altruist/status/2100787082310377894 · Date: 2026-09-18
-- Summary: 作者让自己的 Muse（名为 Ajoke）清理邮箱，称完成得很好、零错误，并附了截图。
+- Summary: The author asked their Muse, Ajoke, to clean up their email and says it did a fantastic job with zero errors; a screenshot is attached.
 
-### Muse 打客服电话砍价，每年省下 800 多美元
+### Muse called support and cut bills by $800+ a year
 - URL: https://usage.incidental.site/cases/yt-eu1icyi9bcs.html
 - Type: field-case · Product: meta-muse · Author: Peter Yang · Source: https://www.youtube.com/watch?v=eU1ICyI9bCs · Date: 2026-09-18
-- Summary: Peter Yang 说 Muse 打电话给客服谈判，把他的有线电视和手机账单每年降低 800 多美元；视频还展示 10 个用例：查重要消息、个性化早间新闻、追踪坏习惯、订餐厅和演出等。
+- Summary: Peter Yang says Muse called customer support to negotiate his cable and phone bills, saving him over $800 a year; the video covers 10 uses including checking important messages, a personalized morning news feed, tracking bad habits and booking restaurants and shows.
 
-### 用 Muse 每日总结话多的 X 群聊
+### A daily Muse job that summarizes chatty X groups
 - URL: https://usage.incidental.site/cases/x-rja907-2100694472489398558.html
 - Type: field-case · Product: meta-muse · Author: rja907 · Source: https://x.com/rja907/status/2100694472489398558 · Date: 2026-09-17
-- Summary: 作者在几个消息很多但有价值的 X 群里，不想翻 100+ 条消息，于是用 Muse 设了每日任务输出简短摘要，并附示例。
+- Summary: The author is in chatty but valuable X groups and didn't want to read 100+ messages, so set up a daily Muse job that produces short summaries; an example is shown.
 
-### 给 Muse 单独开一张有月度上限的虚拟卡
+### Give Muse its own virtual card with a monthly limit
 - URL: https://usage.incidental.site/cases/x-throwabull-2100362187705340000.html
 - Type: guide · Product: meta-muse · Author: throwabull · Source: https://x.com/throwabull/status/2100362187705340000 · Date: 2026-09-16
-- Summary: 作者为 Muse 单独创建了一张带月度上限的虚拟信用卡，用于设置 Stripe Link 支付；称有了护栏更放心。
+- Summary: The author created a separate virtual credit card with a monthly limit to set up Stripe Link payments for his Muse agent, saying the guardrail makes him much more comfortable.
 
-### Muse Connectors：一段提示词安装、可审计的连接器 skills
+### Muse Connectors: auditable connector skills installed with one prompt
 - URL: https://usage.incidental.site/cases/gh-bluman1-muse-connectors.html
 - Type: guide · Product: meta-muse · Author: bluman1 · Source: https://github.com/bluman1/muse-connectors · Date: 2026-09-16
-- Summary: 开源、可审计的 Muse 连接器 skills：在目录中找到连接器、复制安装提示词粘贴给 Muse，它会下载并校验 skill，再引导你连接自己的账户；安装的每个文件都公开可查。
+- Summary: Open-source, auditable connector skills for Muse: find a connector, copy its install prompt into a chat with your Muse, and it downloads and verifies the skill and walks you through connecting your account; every installed file is public.
 
-### 7 个家庭/生活 Bot：家居维护、家人预约、取消试用（赞助）
+### Seven household bots: home upkeep, family appointments, trial cancelling (sponsored)
 - URL: https://usage.incidental.site/cases/yt-kxfhqbymjkc.html
 - Type: field-case · Product: grok-bot · Author: Paul J Lipsky · Source: https://www.youtube.com/watch?v=kXfHQbyMjkc · Date: 2026-09-16
-- Summary: Paul J Lipsky 搭了 7 个 Bot：Fixer 记家居维护、Kin 管家人预约、Booker 定期预约、Coach Cal 健身、Nope 取消免费试用、Scout 找便宜、Weekender 周末计划。视频由 SpaceXAI 赞助。
+- Summary: Paul J Lipsky built seven bots: Fixer for home maintenance memory, Kin for family appointments, Booker for recurring bookings, Coach Cal for workouts, Nope to cancel free trials, Scout for bargains and Weekender for weekend plans. Sponsored by SpaceXAI.
 
-### 让 Muse 用 API 自建 TickTick 集成，5 分钟
+### Muse built its own TickTick integration via API in 5 minutes
 - URL: https://usage.incidental.site/cases/x-positiveinvst-2099328392894022072.html
 - Type: field-case · Product: meta-muse · Author: PositiveInvst · Source: https://x.com/PositiveInvst/status/2099328392894022072 · Date: 2026-09-14
-- Summary: 作者迁移到 Muse 的最大障碍是缺 TickTick 集成；他让 Muse 通过 API 自己做一个，5 分钟完成，作者称集成很稳。
+- Summary: The author's main blocker to moving fully to Muse was a missing TickTick integration; he asked Muse to build one via the API, it took 5 minutes, and he calls the result robust.
 
-### Grok Bot 与 Claude Code 的 MCP 桥（进行中）
+### An MCP bridge between Grok Bot and Claude Code (in progress)
 - URL: https://usage.incidental.site/cases/gh-mozzquito-omx-grokbot-public.html
 - Type: field-case · Product: grok-bot · Author: mozzquito · Source: https://github.com/mozzquito/omx-grokbot-public · Date: 2026-09-12
-- Summary: 单一所有者的进行中项目：在 Grok Bot、MCP 客户端和带出处的本地记忆之间搭桥；远程网关调用在 Grok Bot 的电脑上执行，返回内容不包含网关凭证。README 截图使用合成演示数据。
+- Summary: An in-progress single-owner bridge between Grok Bot, MCP clients and source-linked local memory; remote gateway calls execute on the Grok Bot computer and responses never return the gateway credential. README screenshots use synthetic demo data.
 
-### Muse 上手清单：主题侧聊、健康看板与训练记录 App
+### A Muse setup list: themed side chats, health dashboard and workout tracker
 - URL: https://usage.incidental.site/cases/x-kainosflux-2097556600722510153.html
 - Type: field-case · Product: meta-muse · Author: kainosflux · Source: https://x.com/kainosflux/status/2097556600722510153 · Date: 2026-09-09
-- Summary: 作者的用法：按健康、周末计划等建主题侧聊；做了健康看板和训练记录两个 App 放在 Artifacts 里，可接健康数据自动刷新；在 Feed 里放财经数据记分卡；连接器顺手、推理很快。工作流：真正的工作和编码用 ChatGPT/Codex，Muse 当行政助理。
+- Summary: The author's setup: themed side chats (Health, Weekend Plans…), Health Dashboard and Workout Tracker apps living in the Artifacts tab with connected health data auto-refreshing, finance data scorecards in the feed; connectors are easy and inference fast. Workflow: ChatGPT/Codex for real work and coding, Muse as EA/admin.
 
-### 婚礼前用 Muse 管饮食、日程和跟进邮件（合作推广）
+### Keeping life together with Muse before a wedding (paid partnership)
 - URL: https://usage.incidental.site/cases/yt-a3ggw287g2q.html
 - Type: field-case · Product: meta-muse · Author: Gannon Meyer · Source: https://www.youtube.com/watch?v=a3gGw287G2Q · Date: 2026-09-09
-- Summary: Gannon Meyer 婚礼临近又排了 40 个销售电话，他的 Muse「Oscar」记录饮食、记住目标、管理日历，并起草了他忘发的婚礼摄影师跟进邮件；发出内容都由他审批。视频标注 #MetaPartner 合作推广。
+- Summary: Getting married with 40 sales calls booked, Gannon Meyer uses his Muse “Oscar” to track meals, remember goals, handle his calendar and draft a forgotten follow-up to the wedding photographer; he approves everything that goes out. Tagged #MetaPartner.
 
-### 没人讲的一点：所有 Bot 共用一台电脑
+### The part nobody showed: all bots share one computer
 - URL: https://usage.incidental.site/cases/yt-90pwpvrydhg.html
 - Type: guide · Product: grok-bot · Author: AI LABS · Source: https://www.youtube.com/watch?v=90pwPVrydHg · Date: 2026-09-03
-- Summary: AI LABS 指出 Grok Bot 的关键在于所有 Bot 共用一台在线电脑，即同一个浏览器和同一套登录；他们针对自家产品搭了一组 Bot 并分配真实工作。描述含赞助折扣码。
+- Summary: AI LABS points out that all Grok Bots share one online computer — one browser and one set of logins — and built a set of bots against their own product with real work. The description includes a sponsor code.
 
-### 同时运行约 30 个 agent：幕僚长、家庭报纸、PR 队列与合规监控
+### About 30 agents running: chief of staff, family newspaper, PR queue and compliance
 - URL: https://usage.incidental.site/cases/yt-qbmgf1kjsk4.html
 - Type: field-case · Product: grok-bot · Author: How I AI · Source: https://www.youtube.com/watch?v=QBmgF1kJSK4 · Date: 2026-09-02
-- Summary: How I AI 嘉宾拆解自己的 Grok Bot 体系：扫 6 个邮箱和多个 Slack 的幕僚长 Bot「Chief」、给孩子打印餐桌报纸的家庭 Bot、处理 PR 队列和 SOC 2 合规监控的工程 Bot、Holly Helpdesk 等，并介绍从 OpenClaw 迁移身份和日程的脚本。
+- Summary: The How I AI guest breaks down his Grok Bot setup: “Chief” sweeping six inboxes and several Slack workspaces, a family bot printing a kitchen-table newspaper for his kids, engineering bots for the PR queue and SOC 2 monitoring, Holly Helpdesk, and the script he used to migrate each agent’s identity and schedule from OpenClaw.
 
-### 口头带 Bot 走一遍每天早上的流程
+### Walking a bot through the morning routine
 - URL: https://usage.incidental.site/cases/x-jcchristopher-2094629400524247421.html
 - Type: field-case · Product: grok-bot · Author: JCChristopher · Source: https://x.com/JCChristopher/status/2094629400524247421 · Date: 2026-09-01
-- Summary: 作者把每天早上在 MacBook 上做的一系列准备流程带着 Grok Bot 走了一遍，没写详细提示词，也没录视频给它。帖子正文被截断，后续细节未见。
+- Summary: The author walked a Grok Bot through the handful of processes he runs every morning on his MacBook, with no detailed written prompt and no screen recording. The post text is truncated, so later details are not visible.
 
-### Duffel 官方：在 Muse 里搜索、预订和管理机票行程
+### Duffel official: search, book and manage flights inside Muse
 - URL: https://usage.incidental.site/cases/web-duffel-muse.html
 - Type: guide · Product: meta-muse · Author: Steve Domin · Source: https://duffel.com/blog/millions-of-users-can-now-use-duffel-to-search-book-and-manage-holidays-on-muse-the-new-personal-ai-agent-from-meta · Date: 2026-09
-- Summary: Duffel 宣布美国 Muse 用户可通过其连接器搜索 500+ 航司实时库存、比价、预订和取消机票，并处理改签与延误；Muse 通过 muse.ai 网页和 iOS/Android 应用提供。
+- Summary: Duffel announced that US Muse users can use its connector to search live inventory across 500+ airlines, compare prices, book and cancel flights, and handle changes and disruptions; Muse is available at muse.ai and in the iOS/Android app.
 
-### Grok Bot 模板工程套件：规格、Bot Ready 评分、团队与 routines
+### An engineering kit for Grok Bot templates
 - URL: https://usage.incidental.site/cases/gh-cobusgreyling-grok-bot-templates.html
 - Type: guide · Product: grok-bot · Author: cobusgreyling · Source: https://github.com/cobusgreyling/grok-bot-templates · Date: 2026-08-29
-- Summary: 为 Grok Bot 模板提供规格、「Bot Ready」评分、团队、skills、routines 和可直接粘贴的目录：选一张卡片、复制 PROFILE、粘贴到 Edit Profile 即可。
+- Summary: Spec, “Bot Ready” score, teams, skills, routines and a paste-ready catalog for Grok Bot templates: pick a card, copy the PROFILE and paste it into Edit Profile.
 
-### 如何设置 Grok Bot 的 Routine
+### How to set up Grok Bot Routines
 - URL: https://usage.incidental.site/cases/yt-z-mlyxpwas.html
 - Type: guide · Product: grok-bot · Author: Stromatic Labs · Source: https://www.youtube.com/watch?v=z-_MLyXPwas · Date: 2026-08-28
-- Summary: Stromatic Labs 演示 Grok Bot routines 的原理与设置，举例用于汇总 AI 新闻、检查网站是否正常运行等定时任务。
+- Summary: Stromatic Labs shows how Grok Bot routines work and how to set them up, with examples like recapping AI news and checking that a website is up.
 
-### 在 Cloudflare Workers 上自托管 Grok Bot 收件箱
+### A self-hosted Grok Bot inbox on Cloudflare Workers
 - URL: https://usage.incidental.site/cases/gh-ethanolivertroy-grokbot-cloudflare-inbox.html
 - Type: field-case · Product: grok-bot · Author: ethanolivertroy · Source: https://github.com/ethanolivertroy/grokbot-cloudflare-inbox · Date: 2026-08-23
-- Summary: 基于 Cloudflare Agentic Inbox 的公开模板：在你自己的 Cloudflare 账户上部署邮箱，来信经 Cloudflare Email Routing 进入，Grok Bot 通过 MCP 连接使用。
+- Summary: A public template based on Cloudflare Agentic Inbox to deploy your own inbox on your Cloudflare account; mail arrives via Cloudflare Email Routing and Grok Bot connects over MCP.
 
-### 8 个 Grok Bot 用例：CEO、营收运营、内容复用、自主调研
+### Eight Grok Bot uses: CEO, revenue ops, repurposing, autonomous research
 - URL: https://usage.incidental.site/cases/yt-x8kp4mdvm1k.html
 - Type: field-case · Product: grok-bot · Author: Alex Finn · Source: https://www.youtube.com/watch?v=x8KP4MdvM1k · Date: 2026-08-20
-- Summary: Alex Finn 的章节列出 8 个用例：CEO、营收运营、开发、内容复用、管理、自主调研、last30days、Hermes，并讲 Grok Bot 如何帮他赚钱。描述以推广链接为主。
+- Summary: Alex Finn’s chapters list eight uses — CEO, revenue ops, building, repurposing, management, autonomous research, last30days and Hermes — plus how Grok Bot made him money. The description is mostly promotional links.
 
-### 5 个用例：收件箱 agent 接 ClickUp 等
+### Five uses including an inbox agent feeding ClickUp
 - URL: https://usage.incidental.site/cases/yt-lrupu2-ktgq.html
 - Type: field-case · Product: grok-bot · Author: Brock Mesarich | AI for Non Techies · Source: https://www.youtube.com/watch?v=lRUpu2-KtGQ · Date: 2026-08-13
-- Summary: Brock Mesarich 面向非技术用户介绍 Grok Bot 可在群聊中互相协作和触发，并演示收件箱 agent 把邮件转成 ClickUp 任务、配置 Higgsfield 插件等用例。描述含多条推广链接。
+- Summary: For non-technical viewers, Brock Mesarich explains that Grok Bots talk and trigger each other in group chats, and demos an inbox agent turning email into ClickUp tasks and setting up the Higgsfield plugin. The description has many promotional links.
 
 ### Marketing Analyst
 - URL: https://usage.incidental.site/cases/t-marketing-analyst.html
@@ -4220,7 +4220,7 @@
 
 ### Atelier: building taste
 - URL: https://usage.incidental.site/cases/t-atelier-building-taste.html
-- Type: template · Product: grok-bot · Author: 佳琪 · Source: https://x.ai/bot/81QtrRxyI-rTSSefVJqts
+- Type: template · Product: grok-bot · Author:  · Source: https://x.ai/bot/81QtrRxyI-rTSSefVJqts
 - Summary: Daily studio practice for visual taste: one museum reference, original homage images, then a short reading of thought and technique
 
 ### Backpack
@@ -4468,7 +4468,7 @@
 - Type: template · Product: grok-bot · Author: Husein · Source: https://x.ai/bot/EklFc0zYAqzkxcALynMj2
 - Summary: Reads GitHub trending daily and digests only the few repos that fit your work, with why each one matters
 
-### github 优秀仓库
+### Great GitHub repos
 - URL: https://usage.incidental.site/cases/t-github.html
 - Type: template · Product: grok-bot · Author: umiastuti8329 · Source: https://x.ai/bot/D9HYH2jAmGiKw7e499mrE
 - Summary: Sweeps GitHub's trending page each morning and writes up the repos that matter
@@ -4938,7 +4938,7 @@
 - Type: template · Product: grok-bot · Author: Adam · Source: https://x.ai/bot/XzEATGwJNRvgsCLlcD9ox
 - Summary: Monthly ranking of your 500 biggest X supporters, saved to a private list
 
-### X 投资情报助手
+### X investment intel assistant
 - URL: https://usage.incidental.site/cases/t-x-jvm9.html
 - Type: template · Product: grok-bot · Author: web · Source: https://x.ai/bot/Jvm9xCsIY8CtTReKdytvk
 - Summary: Tracks investors you follow on X and chatter on your stock watchlist, then publishes a chart-rich daily briefing to Feishu or Lark
@@ -4948,7 +4948,7 @@
 - Type: template · Product: grok-bot · Author: Natasha · Source: https://x.ai/bot/prf1nUpf3jrPAtCR5Rm4Y
 - Summary: Checks Apple Developer Releases each morning and alerts when a named Xcode version ships
 
-### X運用アドバイザー
+### X operations advisor
 - URL: https://usage.incidental.site/cases/t-x-lqyi.html
 - Type: template · Product: grok-bot · Author: Shimpei · Source: https://x.ai/bot/lQyIEp3Wqbm8X78tLTa-8
 - Summary: Weekly consultant-style reports on your X account, every action human-approved
@@ -4963,17 +4963,17 @@
 - Type: template · Product: grok-bot · Author: Cristian · Source: https://x.ai/bot/lfc-k1106XkXDlmAmJEco
 - Summary: Zach
 
-### フォーム優先アウトバウンド
+### Form-first outbound
 - URL: https://usage.incidental.site/cases/t-form-first-b2b-outreach-japan.html
-- Type: template · Product: grok-bot · Author: 直人 · Source: https://x.ai/bot/-4fEgwVFAm8w_ULi4pjmC
+- Type: template · Product: grok-bot · Author:  · Source: https://x.ai/bot/-4fEgwVFAm8w_ULi4pjmC
 - Summary: Form-first B2B outreach for Japan: prep daily, send only on your GO
 
-### 人生·财务
+### Life · finance
 - URL: https://usage.incidental.site/cases/t-logs-spending-voice-nightly-summary.html
 - Type: template · Product: grok-bot · Author: kin · Source: https://x.ai/bot/haSA0Ru28CYKDm2V5tPRB
 - Summary: Logs spending by voice, with a nightly summary and a monthly look back
 
-### 推特运营方法论
+### Twitter growth playbook
 - URL: https://usage.incidental.site/cases/t-daily-x-posting-system-ideas.html
 - Type: template · Product: grok-bot · Author: kin · Source: https://x.ai/bot/ScOhH1qaoq4XdoYhisagg
 - Summary: A daily X posting system for ideas, drafts, timing, and review
@@ -5303,7 +5303,7 @@
 - Type: template · Product: grok-bot · Author: Rip · Source: https://x.ai/bot/H8XFB8Ly0EGOyU3VDmwi1
 - Summary: Coaches practice on Gird AI across fitness, music, language, art, or study with workouts and check-ins
 
-### Gmail朝の仕分け
+### Gmail morning triage
 - URL: https://usage.incidental.site/cases/t-gmail-pu1z.html
 - Type: template · Product: grok-bot · Author: UNSER · Source: https://x.ai/bot/pu1Zx7vvSd55f0iU0sAVT
 - Summary: Sorts your Gmail every morning and suggests today's to-dos in priority order, in Japanese, as a report or as input for your main bot
@@ -5695,7 +5695,7 @@
 
 ### Usage Optimizer
 - URL: https://usage.incidental.site/cases/t-usage-optimizer.html
-- Type: template · Product: grok-bot · Author: 楽 · Source: https://x.ai/bot/TO-2_G_dAOB-pegg09zDF
+- Type: template · Product: grok-bot · Author:  · Source: https://x.ai/bot/TO-2_G_dAOB-pegg09zDF
 - Summary: Japanese-friendly Grok Bot usage helper for day-to-day questions
 
 ### Website agency lead scout
@@ -5753,22 +5753,22 @@
 - Type: template · Product: grok-bot · Author: ZhpXnewsbhcsn · Source: https://x.ai/bot/6MGQJ5KHWL-XYfzLDRMsb
 - Summary: Conservative-leaning news assistant for daily digests, breaking alerts, and deep dives on politics, economy, and foreign policy
 
-### 信息搜集-bot
+### Info-gathering bot
 - URL: https://usage.incidental.site/cases/t-bot.html
 - Type: template · Product: grok-bot · Author: Yunn · Source: https://x.ai/bot/Swm4NLf4yPCzuANa4ghaT
 - Summary: Collects daily AI news and trending debates into a fixed-format Chinese digest with a source link on every item
 
-### 左左的AI情报员
+### Zuozuo's AI intel scout
 - URL: https://usage.incidental.site/cases/t-ai-oqeu.html
 - Type: template · Product: grok-bot · Author: Bbbb · Source: https://x.ai/bot/OqeUopbZ8pvjf6RyvRTQt
 - Summary: Chinese AI intel daily from a fixed 46-source list with verify, dedupe, and importance scoring
 
-### 更新速递 · Grok Bot Changelog
+### Release notes · Grok Bot Changelog
 - URL: https://usage.incidental.site/cases/t-grok-bot-changelog.html
 - Type: template · Product: grok-bot · Author: Mai · Source: https://x.ai/bot/lIO-FUTrwcA2r7nbfaXx4
 - Summary: Chinese daily digest of the Grok Bot changelog: what changed, why it matters, one thing to try today, and real examples from X
 
-### 每週公平分發代幣掃描
+### Weekly fair token-distribution scan
 - URL: https://usage.incidental.site/cases/t-weekly-fair-mint-scanner.html
 - Type: template · Product: grok-bot · Author: Allen · Source: https://x.ai/bot/kO0E0KzOkpUnPJQLmzBFm
 - Summary: Weekly scan of new fair-mint token projects, scores 0-10 against past breakout patterns, flags scam signals, and emails a research-only report.
@@ -6058,7 +6058,7 @@
 - Type: template · Product: grok-bot · Author: Cypher · Source: https://x.ai/bot/tCwQfRK3IPbVVlwHL7PVq
 - Summary: Weekly study plan checked Fits, Tight, or Over against your real hours
 
-### AI 官号雷达
+### AI official-account radar
 - URL: https://usage.incidental.site/cases/t-ai-sgx1.html
 - Type: template · Product: grok-bot · Author: Klaus · Source: https://x.ai/bot/sGX1MPOtVLAMzSUScPaxi
 - Summary: Monitors AI company and coding-agent X accounts for launches, credits and pricing changes, with twice-daily Chinese digests
@@ -6258,7 +6258,7 @@
 - Type: template · Product: grok-bot · Author: Nomis · Source: https://x.ai/bot/XcZpofYvIFmfsxXK4Ifxg
 - Summary: Looks at a photo of your fridge or cupboard and suggests what to cook, what to use up first, and what to buy
 
-### セキュリティ点検
+### Security check
 - URL: https://usage.incidental.site/cases/t-monthly-security-checkup.html
 - Type: template · Product: grok-bot · Author: sapjp · Source: https://x.ai/bot/4zx8w8Oc9dm0d3Den_Abe
 - Summary: Monthly nudges to review security settings for banks, brokers and email, with steps and checklists; never logs in
@@ -6315,7 +6315,7 @@
 
 ### Daily Social Promo Coach
 - URL: https://usage.incidental.site/cases/t-daily-social-promo-coach.html
-- Type: template · Product: grok-bot · Author: 卫平 · Source: https://x.ai/bot/RXAe1PAi8JCRGOXD4WmPA
+- Type: template · Product: grok-bot · Author:  · Source: https://x.ai/bot/RXAe1PAi8JCRGOXD4WmPA
 - Summary: Each morning hands you ready X and TikTok copy, a card image, and a short vertical video for your site, plus yesterday's clicks
 
 ### DCA Bot
@@ -6445,7 +6445,7 @@
 
 ### Order Food in Chinese — Daily Coach
 - URL: https://usage.incidental.site/cases/t-order-food-in-chinese-daily-coach.html
-- Type: template · Product: grok-bot · Author: 卫平 · Source: https://x.ai/bot/mhKV182_V9o24wD4nHoGV
+- Type: template · Product: grok-bot · Author:  · Source: https://x.ai/bot/mhKV182_V9o24wD4nHoGV
 - Summary: Learn one Mandarin phrase for ordering food each day
 
 ### Pheonix
@@ -6518,7 +6518,7 @@
 - Type: template · Product: grok-bot · Author: Masaki · Source: https://x.ai/bot/NMGAAcLcgqHjs9JwpgPyo
 - Summary: Turns requests into steps and designs, creates, or revises skills that don't overlap existing ones; does no daily news gathering or social posting
 
-### 桜草メイ
+### Sakurasou Mei
 - URL: https://usage.incidental.site/cases/t-japanese-companion-bot-daily-notes.html
 - Type: template · Product: grok-bot · Author: Masaki · Source: https://x.ai/bot/IoAHIj45_pUJYsw7mqLP6
 - Summary: Japanese companion bot for daily notes and light creative warmups
@@ -6668,7 +6668,7 @@
 - Type: template · Product: grok-bot · Author: Dayron · Source: https://x.ai/bot/Gktb--JKwBVtPuZo5vcvM
 - Summary: Turns statements, recordings and notes into a daily review and size-up/hold/size-down verdict; never trades
 
-### 薬剤師ニュースチーム立ち上げbot
+### Pharmacist news team starter bot
 - URL: https://usage.incidental.site/cases/t-pharmacist-news-team-builder.html
 - Type: template · Product: grok-bot · Author: tadayaku_Pha · Source: https://x.ai/bot/h2c1pK5fFqKPvzfm-rvQV
 - Summary: Sets up a six-bot morning news desk for Japanese pharmacists
@@ -6765,7 +6765,7 @@
 
 ### Atelier: building taste
 - URL: https://usage.incidental.site/cases/t-atelier-building-taste-81qt.html
-- Type: template · Product: grok-bot · Author: 佳琪 · Source: https://x.ai/bot/81qtrrxyi-rtssefvjqts
+- Type: template · Product: grok-bot · Author:  · Source: https://x.ai/bot/81qtrrxyi-rtssefvjqts
 - Summary: Daily studio practice that builds visual taste: one museum or gallery artist, one real reference image, original homage images, and a short reading…
 
 ### Game Deals Radar
@@ -7583,7 +7583,7 @@
 - Type: template · Product: grok-bot · Author: Jim · Source: https://x.ai/bot/miMMOUhEpvv-KFJWg5qhw
 - Summary: A second-in-command that keeps multi-platform AI work on time and budget
 
-### AI 视频专家
+### AI video expert
 - URL: https://usage.incidental.site/cases/t-ai-es3l.html
 - Type: template · Product: grok-bot · Author: kin · Source: https://x.ai/bot/ES3LVns98INeXAoYwef_f
 - Summary: Turns one photograph into a short, moody film clip
@@ -7593,7 +7593,7 @@
 - Type: template · Product: grok-bot · Author: Brian · Source: https://x.ai/bot/2atUDeldi9vF1R_ySRgCo
 - Summary: Tracks how much of each AI subscription you have actually used
 
-### AIオーケストレーション担当
+### AI orchestration lead
 - URL: https://usage.incidental.site/cases/t-ai.html
 - Type: template · Product: grok-bot · Author: Masaki · Source: https://x.ai/bot/-kSMWtBCorQFkgUhm0DLk
 - Summary: A Japanese-language commander that distributes work to specialists
@@ -8233,65 +8233,65 @@
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
 
-### 对照 Grok Bot 和 OpenAI Dots 补齐自建 agent 的短板
+### Closing a self-hosted agent's gaps found by comparing it with Grok Bot and OpenAI Dots
 - URL: https://usage.incidental.site/cases/gh-github-com-armeria-sk-niwa-pull-2.html
 - Type: comparison · Product: multi · Author: Armeria-SK · Source: https://github.com/Armeria-SK/niwa/pull/2 · Date: 2026-10-16
-- Summary: 一个自建常驻 agent 项目在与 Grok Bot、OpenAI Dots 对比后提交的 PR：接入 Claude 与 OpenAI 兼容 API、外部 MCP、网页/RSS 变化与 webhook 触发、文本附件和流式回复；发 X 帖子改为每次等管理员批准。合并前有 6 步数据库迁移，作者提醒先备份。
+- Summary: A self-hosted always-on agent project lists what a comparison with Grok Bot and OpenAI Dots showed was missing, and adds it: Claude and OpenAI-compatible APIs, external MCP, triggers from page/RSS changes and webhooks, text attachments and streamed replies. Posting to X now waits for admin approval every time. Six database migrations; back up first.
 
-### Muse 对 Grok Bot：原生外呼 vs 偏入站语音
+### Muse vs Grok Bot: native outbound calls vs inbound-first voice
 - URL: https://usage.incidental.site/cases/x-airoboticsint-2110853694925549794.html
 - Type: comparison · Product: multi · Author: AIRoboticsInt · Source: https://x.com/AIRoboticsInt/status/2110853694925549794 · Date: 2026-10-15
-- Summary: 作者并排用后称 Meta Muse 可原生外呼、无需加号码；xAI 语音偏入站、外呼配置更多。Muse 能连续打电话搜集信息并完成目标。
+- Summary: After side-by-side use, author says Meta Muse places outbound calls natively with no number setup, while xAI voice is inbound-first and needs more setup; Muse chained calls to gather info and finish objectives.
 
-### Dots、Muse、Grok Bot：三种不同 Agent 模型
+### Dots vs Muse vs Grok Bot: three different agent models
 - URL: https://usage.incidental.site/cases/x-drivingimpact-2110777727938928830.html
 - Type: comparison · Product: multi · Author: Driving_Impact · Source: https://x.com/Driving_Impact/status/2110777727938928830 · Date: 2026-10-15
-- Summary: 对比帖：OpenAI Dots 是 ChatGPT 内常开工人，跨 Slack/GitHub/Teams；Meta Muse 偏个人日常；并对照 Grok Bot 的 Agent 模型（原文 Muse 段被截断）。
+- Summary: Comparison post: OpenAI Dots as always-on workers in ChatGPT across Slack/GitHub/Teams; Meta Muse for personal everyday use; contrasts with Grok Bot’s agent model (post cuts off mid-sentence on Muse).
 
-### 三款常驻 agent 的区别：Grok Bot 是团队，Dots 和 Muse 偏单兵
+### How the three always-on agents differ: Grok Bot is a team, Dots and Muse work solo
 - URL: https://usage.incidental.site/cases/x-tifoden-2110823019807715833.html
 - Type: comparison · Product: multi · Author: tifoden · Source: https://x.com/tifoden/status/2110823019807715833 · Date: 2026-10-15
-- Summary: 作者对比三款常驻 agent：Grok Bot 一开始就设计成多 Bot 分工协作、互相传消息并通过演示学习；Dots 在 ChatGPT 生态里运行，目前更像以一个主 Dot 为中心；Muse 侧重个人生活和小生意事务。只发单次请求时差别不大，给它们分配固定角色时差距才显现。
+- Summary: The author compares three always-on agents. Grok Bot was designed from the start as a team of bots with roles that message each other and learn from demonstrations; Dots runs inside ChatGPT and so far centres on one main Dot; Muse focuses on personal life and small-business errands. For one-off requests they feel similar; the gap shows when you assign lasting roles.
 
-### 三款 agent 能否搞定韩国网站：23 份报告汇总
+### Can these agents work on the Korean web? 23 reports in one table
 - URL: https://usage.incidental.site/cases/x-echo12yj-2110477717003268162.html
 - Type: comparison · Product: multi · Author: echo12yj · Source: https://x.com/echo12yj/status/2110477717003268162 · Date: 2026-10-14
-- Summary: 作者把 23 份公开报告整理成「服务 × agent」表：Coupang 上 Muse 3 次中 2 次被拦，Grok Bot 2 成 2 拦；在海外云浏览器运行的 agent 18 例中 9 例被拦，常卡在机器人或海外 IP 检测；Naver 据称不向外部 agent 开放购物数据。
+- Summary: The author tabulated 23 public reports by service × agent: on Coupang, Muse was blocked in 2 of 3 reports and Grok Bot split 2 worked / 2 blocked; agents in overseas cloud browsers were blocked in 9 of 18 cases, often at bot or overseas-IP checks; Naver reportedly keeps outside agents out of its shopping data.
 
-### Dots 与 Grok Bot 并排试用：单一对话 vs 多个专职 Bot
+### Dots vs Grok Bot side by side: one chat vs specialist bots
 - URL: https://usage.incidental.site/cases/x-yangunplugged-2110263685121974384.html
 - Type: comparison · Product: multi · Author: yang_unplugged · Source: https://x.com/yang_unplugged/status/2110263685121974384 · Date: 2026-10-14
-- Summary: 作者并排试用后认为 Dots 一个对话装下所有事很难用，找旧消息像密室逃脱；Grok Bot 每个 Bot 有各自上下文和个性，像团队里的专家，用起来更顺手。
+- Summary: After trying both, the author finds Dots’ single chat for everything rough — finding an old message feels like an escape room — while Grok Bot’s separate bots, each with its own context and personality, feel like specialists on a team.
 
-### Grok Bot 团队 vs 笨拙但可用的 Muse+Dots 内容流
+### Grok Bot teams vs clunky Muse+Dots content workflow
 - URL: https://usage.incidental.site/cases/x-magaman-2110357624244052360.html
 - Type: comparison · Product: multi · Author: magaman · Source: https://x.com/magaman/status/2110357624244052360 · Date: 2026-10-14
-- Summary: 作者原先用 Muse 与 Dots 搭了笨拙但有效的内容工作流；换 Grok 后只需告诉主 bot，它拉起 3 bot 团队，试跑效果相当。
+- Summary: Author had a clunky but working content workflow with Muse and Dots; with Grok Bot they told the main bot what they wanted and it spun up a 3-bot team whose sample run was on par.
 
-### Dots、Grok Bot 还是自建：带邮箱的 agent 真实成本
+### Dots, Grok Bot or build your own: what an agent with an inbox really costs
 - URL: https://usage.incidental.site/cases/medium-openai-dots-vs-grok-bot-vs-building-your-own.html
 - Type: comparison · Product: multi · Author: Ben Brookarsh · Source: https://medium.com/@benjaminbrookarsh/openai-dots-vs-grok-bot-vs-building-your-own-what-an-ai-agent-with-an-inbox-really-costs-ecba5962592f · Date: 2026-10-13
-- Summary: 作者用同一任务（给 5 家供应商发邮件询 200 件定制卫衣报价、催回复、汇总对比）试了三种方式并记录花费与工时。文中引用 OpenAI 指南：发布时 dot 不能拥有独立邮箱，只能用你连接的个人账户发信、默认每封需审批；Grok Bot 自 10 月 9 日起开始提供自有收件箱。
+- Summary: The author ran one job — email five suppliers for quotes on 200 branded hoodies, chase silent ones, send a comparison — three ways and recorded money and hours. He cites OpenAI’s guide that at launch a dot cannot have its own email and sends from your connected account with approval by default, and notes Grok Bot began rolling out its own inboxes on 9 October.
 
-### 定时检查最短间隔对比：Muse、Dots、Grok Bot
+### Shortest schedule interval compared: Muse, Dots, Grok Bot
 - URL: https://usage.incidental.site/cases/x-oskarkaszubski-2108028227071389765.html
 - Type: comparison · Product: multi · Author: OskarKaszubski · Source: https://x.com/OskarKaszubski/status/2108028227071389765 · Date: 2026-10-08
-- Summary: 作者列出各产品定时自动检查的最短间隔：Muse 每 1 分钟、OpenAI Dots 每 1 分钟、Grok Bot 每 5 分钟、Hark 每 10 分钟。
+- Summary: The author lists how often each product can run scheduled checks: Muse every 1 minute, OpenAI Dots every 1 minute, Grok Bot every 5 minutes, Hark every 10 minutes.
 
-### Peter Yang：Dots 与其他个人 Agent 的对比
+### Peter Yang: OpenAI Dots vs. the other personal agents
 - URL: https://usage.incidental.site/cases/x-petergyang-2105374125669884120.html
 - Type: comparison · Product: openai-dots · Author: petergyang · Source: https://x.com/petergyang/status/2105374125669884120 · Date: 2026-09-30
-- Summary: 他认为 Dots 和 Grok Bot 争的是工作任务、Muse 是个人任务；Dots 最大优势是住在 ChatGPT 里、上手无缝，适合散步时打电话问「今天该处理什么」再分派给其他线程；但在 App 里聊天难分清在回哪件事，产品堆太多对普通用户不友好。
+- Summary: He sees Dots and Grok Bot racing for work tasks and Muse for personal ones. Dots' edge is living inside ChatGPT with seamless onboarding; he likes calling it on a walk to ask what to handle today, then handing work to other threads. Downsides: in-app chat makes it hard to tell which task it's answering, and ChatGPT is crowded for casual users.
 
-### 实测 OpenAI Dots 对比 Meta Muse
+### OpenAI Dots vs Meta Muse, tested
 - URL: https://usage.incidental.site/cases/yt-bvvfzkkz4yo.html
 - Type: comparison · Product: multi · Author: Nate Herk | AI Automation · Source: https://www.youtube.com/watch?v=BvvfZKKz4Yo · Date: 2026-09-30
-- Summary: Nate Herk 从功能、价格、记忆、集成和实际使用体验对比 Dots 与 Muse，展示它们在 Codex、Slack、WhatsApp 中的用法与遇到的 bug，并说明自己会选哪个、推荐谁用 Muse。
+- Summary: Nate Herk compares Dots and Muse on features, pricing, memory, integrations and day-to-day use, shows them in Codex, Slack and WhatsApp with the bugs he hit, and says which he’d pick and who he’d recommend Muse to.
 
-### Grok Bot 对比 Claude：12 个日常职场用例
+### Grok Bot vs Claude on 12 daily work use cases
 - URL: https://usage.incidental.site/cases/yt-douqxfdygma.html
 - Type: comparison · Product: grok-bot · Author: Austin Marchese · Source: https://www.youtube.com/watch?v=douQXfdYGmA · Date: 2026-09-26
-- Summary: Austin Marchese 在 12 个职场用例上比较 Grok Bot 与 Claude，判断各自胜出项；他的框架是：Grok Bot 是你交付工作的 AI 团队成员，Claude 是你在里面动手搭建的 AI 工作台。描述含赞助。
+- Summary: Austin Marchese compares Grok Bot and Claude on 12 professional use cases and picks a winner for each; his framing: Grok Bot is an AI team member you hand work to, Claude is an AI workbench you build inside. The description includes a sponsor.
 
 ### star-catcher-smoke — offline canvas game (Grok Build smoke)
 - URL: https://usage.incidental.site/cases/star-catcher-smoke-offline-canvas-game-grok-build-smoke-1.html
@@ -8528,92 +8528,92 @@
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
 
-### Bot 的 Gmail 被 Google 以「是机器人」封禁
+### Google banned the bot’s Gmail “for being a bot”
 - URL: https://usage.incidental.site/cases/x-predictivemoney-2110723292768186738.html
 - Type: quota-report · Product: grok-bot · Author: Predictivemoney · Source: https://x.com/Predictivemoney/status/2110723292768186738 · Date: 2026-10-15
-- Summary: 作者说 Bot 只是帮他开了个 YouTube 频道，其 Gmail 就被 Google 封禁，申诉被拒；现在改为自己开账号、让 Bot 运营。
+- Summary: The author says Google banned his bot’s Gmail after it set up a YouTube channel, and the appeal was denied; he now opens accounts himself and lets the bot run them.
 
-### 亚马逊开始拦截 Grok Bot 下单
+### Amazon started blocking Grok Bot orders
 - URL: https://usage.incidental.site/cases/x-diamai-2110720677468664161.html
 - Type: quota-report · Product: grok-bot · Author: diamai_ · Source: https://x.com/diamai_/status/2110720677468664161 · Date: 2026-10-15
-- Summary: 帖子称有用户通过 Bot 在亚马逊下单时被提示「未经授权的 AI agent 持续访问违反亚马逊使用条件」。代购类流程需注意平台规则。
+- Summary: The post reports a shopper ordering on Amazon through the bot got a message that continued access by an unauthorized AI agent violates Amazon’s Conditions of Use. Shopping workflows depend on platform rules.
 
-### Dot 一天两次项目更新就吃掉约 10% 配额
+### Dot used ~10% quota for two project-update asks in one day
 - URL: https://usage.incidental.site/cases/x-back2matching-2110837378986205251.html
 - Type: quota-report · Product: openai-dots · Author: Back2Matching · Source: https://x.com/Back2Matching/status/2110837378986205251 · Date: 2026-10-15
-- Summary: 作者称同一天内两次让 Dot 汇总各项目更新，约消耗 10% 配额，因此不敢多用。
+- Summary: Author reports hesitation to keep using Dot after ~10% of quota was consumed by asking for updates across projects twice in a single day.
 
-### 收件箱 Grok Bot 中途丢失发送工具
+### Inbox Grok Bot lost send tool mid-task
 - URL: https://usage.incidental.site/cases/x-entangledmatter-2110858577686810991.html
 - Type: quota-report · Product: grok-bot · Author: EntangledMatter · Source: https://x.com/EntangledMatter/status/2110858577686810991 · Date: 2026-10-15
-- Summary: 故障报告：收件箱 bot 仍能读信，但发送工具任务中途消失；已批准回复发不出，更新 bot 电脑也未恢复。
+- Summary: Bug report: author’s inbox bot could still read email but the send tool disappeared mid-task; an approved reply could not go out, and updating the bot’s computer did not restore it.
 
-### 反馈：Dot 未经审阅就发出了邮件
+### Feedback: a Dot sent an email without review
 - URL: https://usage.incidental.site/cases/x-thekpsethi-2110476472804856045.html
 - Type: quota-report · Product: openai-dots · Author: theKPSethi · Source: https://x.com/theKPSethi/status/2110476472804856045 · Date: 2026-10-14
-- Summary: 作者说他的 Dot 某晚没让他审阅草稿就发出了邮件（Muse 默认先审阅），认为这应是默认而非自定义规则；他还说很难找到 Dot 正在操作的浏览器窗口。
+- Summary: The author says his Dot sent an email one night without asking him to review the draft (Muse requires review first) and argues this should be default, not a custom rule; he also struggles to find the browser window the Dot is working in.
 
-### 警告：Dot 的审批与权限流程需要大量看护
+### Warning: a Dot's approvals and permissions needed constant babysitting
 - URL: https://usage.incidental.site/cases/x-itsactuallyadam-2108999396641943753.html
 - Type: quota-report · Product: openai-dots · Author: itsactuallyadam · Source: https://x.com/itsactuallyadam/status/2108999396641943753 · Date: 2026-10-10
-- Summary: 作者描述：Dot 派生的 Codex 工人卡住、点「始终允许」后权限弹窗反复出现、自建的常驻审批规则因分类器限制无法保存、看得到的登录按钮被判为阻断、Stripe 页面被误判为空白；连提交 bug 报告也被拦截。
+- Summary: The author lists stalled Codex workers spawned by the Dot, an "Always allow" prompt that kept reappearing, a standing-approval rule that couldn't be saved due to classifier limits, visible login buttons treated as blockers, a Stripe page misread as blank — and even the bug report was blocked.
 
-### 当心：恶意网页如何通过提示注入劫持 Muse
+### Watch out: how a malicious page can hijack Muse via prompt injection
 - URL: https://usage.incidental.site/cases/medium-watchout-meta-muse-prompt-injection.html
 - Type: quota-report · Product: meta-muse · Author: Aizaai Net (HexTyx) · Source: https://medium.com/@aizaai.net/watchout-meta-muse-prompt-injection-how-a-malicious-web-page-can-hijack-an-ai-agent-b3ff1f5f0151 · Date: 2026-10-09
-- Summary: 文章以 Meta Muse 为案例解释间接提示注入：网页、邮件、PDF 或工具返回中藏着给 agent 的指令，人看是普通内容，AI 却可能执行；当 agent 能访问私人数据、浏览器、API 和凭证时，这些内容就成了攻击面。作者来自安全公司 HexTyx。
+- Summary: Using Meta Muse as a case study, the article explains indirect prompt injection: instructions for the agent hidden in web pages, emails, PDFs or tool output look ordinary to a human but may be acted on by the AI, and with access to private data, browsers, APIs and credentials, that content becomes an attack surface. The author writes for security firm HexTyx.
 
-### 警告：Dot 查一次邮件用了 5 分钟，还漏了重要邮件
+### Warning: a Dot took 5 minutes for a quick email check and missed an important one
 - URL: https://usage.incidental.site/cases/x-joshexile82-2107702223400476904.html
 - Type: quota-report · Product: openai-dots · Author: JoshExile82 · Source: https://x.com/JoshExile82/status/2107702223400476904 · Date: 2026-10-07
-- Summary: 作者让 Dot 快速查看有没有紧急邮件，花了 5 分钟（其他 Agent 不到 1 分钟），且漏掉了其他 Agent 都标出的一封重要邮件。
+- Summary: Asked for a quick urgent-email check, the Dot took 5 minutes (other agents under 1) and missed an important email that all the other agents flagged.
 
-### 警告：Muse 上线数周的隐私与安全问题汇总（Techdirt）
+### Warning: Muse's first weeks of privacy and security problems (Techdirt)
 - URL: https://usage.incidental.site/cases/hn-49977588.html
 - Type: quota-report · Product: meta-muse · Author: Karl Bode · Source: https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/ · Date: 2026-10-06
-- Summary: Techdirt 汇总报道：上线时有可监视 Mac 用户的零日漏洞；有用户让 Muse 卖 Marketplace 物品被低价卖出并泄露住址（用户自称没理解权限）；报道称其未经授权读取私信、为联系人建档。接入邮箱、日历、支付前先收紧权限。
+- Summary: Techdirt rounds up reports: a zero-day at launch that allowed spying on Mac users; a user whose Marketplace sales Muse handled sold items cheaply and gave out his address (he says he misunderstood the permissions); reports of reading private messages without approval and profiling contacts. Tighten permissions before connecting email, calendar or payments.
 
-### 警告：Dot 设好的每日自动化其实没有运行
+### Warning: daily automations set up with a Dot never actually ran
 - URL: https://usage.incidental.site/cases/x-startupzombe-2107006035630375335.html
 - Type: quota-report · Product: openai-dots · Author: StartupZombE · Source: https://x.com/StartupZombE/status/2107006035630375335 · Date: 2026-10-05
-- Summary: 作者花 1.5 小时让 Dot 设置自动化；四天后询问进度，发现它根本没有执行这些每日任务。
+- Summary: The author spent 1.5 hours setting up automations with their Dot; four days later, asking for an update showed it had not been running the daily tasks at all.
 
-### Dot 的两个坑：难以导入已有上下文、容易误删
+### Two Dot hiccups: hard to load existing context, easy to delete
 - URL: https://usage.incidental.site/cases/x-lumirth-2107139755049623786.html
 - Type: quota-report · Product: openai-dots · Author: lumirth · Source: https://x.com/lumirth/status/2107139755049623786 · Date: 2026-10-05
-- Summary: 作者说 Dot 无法读取已有 Codex 线程，难以把背景交给它；他尝试让 Codex 修改 Dot 创建的线程，结果把 Dot 删掉了。
+- Summary: The author says a Dot can’t access existing Codex threads, so getting it up to speed is hard; trying to have Codex edit a thread the Dot created ended up deleting the Dot.
 
-### 反馈：Dot 像失忆，记不住此前内容
+### Complaint: the Dot behaves as if it has amnesia
 - URL: https://usage.incidental.site/cases/x-embwl0x-2106497425552925059.html
 - Type: quota-report · Product: openai-dots · Author: embw_l0x · Source: https://x.com/embw_l0x/status/2106497425552925059 · Date: 2026-10-03
-- Summary: 作者说即便让其他 agent 灌入数月资料，他的 Dot 仍像每天都是新的一天，记不住他是谁或做过什么，难以把两件事联系起来。
+- Summary: The author says that even after his agents fed it months of knowledge, his Dot treats every day as new, can’t remember him or what it has done, and struggles to put two things together.
 
-### 警告：Muse 自行清空，两周设置全部丢失
+### Warning: a Muse wiped itself, losing two weeks of setup
 - URL: https://usage.incidental.site/cases/x-andonisthegreat-2105343739191234574.html
 - Type: quota-report · Product: meta-muse · Author: AndonisTheGreat · Source: https://x.com/AndonisTheGreat/status/2105343739191234574 · Date: 2026-09-30
-- Summary: 作者报告自己的 Meta Muse「自己清空了」，两周的设置工作全部消失。重要配置建议另存一份。
+- Summary: The author reports his Meta Muse wiped itself and two weeks of setup work were gone. Keep a copy of important configuration elsewhere.
 
-### 风险：Muse 帮忙卖东西时泄露了卖家地址
+### Risk: Muse shared a seller’s address while helping sell an item
 - URL: https://usage.incidental.site/cases/x-iharnoorsingh-2104426822310211736.html
 - Type: quota-report · Product: meta-muse · Author: iHarnoorSingh · Source: https://x.com/iHarnoorSingh/status/2104426822310211736 · Date: 2026-09-28
-- Summary: 帖子称 Meta Muse 在协助出售物品时分享了卖家地址，并转述 The Information 报道的另一起误订两间酒店房间的事件。
+- Summary: The post says Meta Muse shared a seller’s address while helping sell an item, and relays a reported case (The Information) where it booked two hotel rooms for one traveler.
 
-### 独立拆解：Muse 客户端能访问什么
+### Independent teardown: what the Muse clients can access
 - URL: https://usage.incidental.site/cases/gh-mahdi-salmanzade-meta-muse-teardown.html
 - Type: quota-report · Product: meta-muse · Author: mahdi-salmanzade · Source: https://github.com/mahdi-salmanzade/meta-muse-teardown · Date: 2026-09-24
-- Summary: 对 Muse 的 macOS、Android 和 iOS 客户端做独立隐私与安全研究：检查 iMessage/WhatsApp/照片同步、屏幕控制和调试器级 Chrome 扩展等能力，公开证据与复现脚本，并更正自己的发现。
+- Summary: Independent privacy and security research into Muse on macOS, Android and iOS, inspecting iMessage/WhatsApp/Photos sync, screen control and a debugger-level Chrome extension, with published evidence, a reproduce script and corrections to its own findings.
 
-### 警告：用量显示 100% 后 Muse Agent 仍在运行
+### Warning: a Muse agent kept working after usage showed 100%
 - URL: https://usage.incidental.site/cases/x-shredbuilds-2101056644373152090.html
 - Type: quota-report · Product: meta-muse · Author: shredbuilds · Source: https://x.com/shredbuilds/status/2101056644373152090 · Date: 2026-09-18
-- Summary: 作者截图显示 Muse 用量已到 100%，Agent 却还能继续工作，连 Muse 自己也被搞糊涂；说明用量显示与实际限制可能不一致。
+- Summary: Screenshots show Muse usage at 100% while the agent kept working — even the Muse was confused. The usage meter and the actual limit may not match.
 
-### Grok Bot 最贵的三个坑
+### The three most expensive Grok Bot mistakes
 - URL: https://usage.incidental.site/cases/yt-wxchvdv8z9a.html
 - Type: quota-report · Product: grok-bot · Author: Van Did This! · Source: https://www.youtube.com/watch?v=wXChVdv8Z9A · Date: 2026-09-16
-- Summary: Van Did This 总结自己踩到的三大问题：意外泄露 token、可能违反服务条款导致封号、所有 Bot 共用同一台电脑（不同桌面）带来的限制。
+- Summary: Van Did This covers the three biggest downsides he hit: accidental token leaks, bots possibly breaking terms of service and getting you banned, and limits from every bot sharing the same computer with different desktops.
 
-### 警告：Muse 订热门餐厅时没先检查是否需要信用卡
+### Warning: booking a hot restaurant, Muse didn't check for a card requirement
 - URL: https://usage.incidental.site/cases/x-achalaugustine-2099939323651252374.html
 - Type: quota-report · Product: meta-muse · Author: achalaugustine · Source: https://x.com/achalaugustine/status/2099939323651252374 · Date: 2026-09-15
-- Summary: 作者让 Muse 预订一家很快订满的餐厅，Muse 没主动确认餐厅是否需要信用卡担保，得作者提醒才查；作者认为 Stripe 钱包集成不错，但 Agent 仍处早期。
+- Summary: Asked to book a restaurant that sells out fast, Muse didn't check whether a credit card was needed until prompted. The author found the Stripe wallet integration good but calls agents early days.

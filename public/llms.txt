@@ -1,18 +1,19 @@
-# 常驻用量 Always-on Usage
-> Always-on Agents（Grok Bot、OpenAI Dots、Meta Muse）的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。给想长期跑 Bot、又怕烧额度的人用。评测层，不是模板目录。对照与计算器为估算方向，非厂商 SLA；案例为公开条目聚合（1687 条，另有 26 篇 X 案例），每条附作者与原文链接。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
+# Always-on Usage
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1687 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
-- Languages: zh-CN (default), zh-TW, en, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
+- Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
 - Last updated: 2026-10-16T11:12:48.472Z
 
 ## Pages
-- /compare.html: Grok Bot / OpenAI Dots / Meta Muse 对照矩阵
-- /cases/: 公开案例聚合（搜索 + 类型/产品筛选）
-- /sources.html: 来源
-- /calculator.html: 额度风险计算器
-- /about.html: 定位
+- /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
+- /cases/: public case aggregation (search + type/product filters)
+- /stories/: X stories
+- /sources.html: sources
+- /calculator.html: quota-risk calculator
+- /about.html: positioning
 
 ## Data
 - /data/agents.json
@@ -541,7 +542,7 @@
 - /cases/uncle-gizmo-notes-597.html: Uncle-Gizmo notes (guide) <https://github.com/Uncle-Gizmo/grok-bot-info>
 - /cases/grok-bot-for-gtm-598.html: Grok Bot for GTM (guide) <https://github.com/bcharleson/grokbot-for-gtm>
 - /cases/paul-j-lipsky-cursor-just-released-grok-bot-599.html: Paul J Lipsky: Cursor Just Released Grok Bot (guide) <https://www.youtube.com/watch?v=QTcZPI-g7is>
-- /cases/grok-bot-600.html: Grok Bot 橙皮书 (guide) <https://github.com/KinGao294/grok-bot-orange-book>
+- /cases/grok-bot-600.html: Grok Bot Orange Book (guide) <https://github.com/KinGao294/grok-bot-orange-book>
 - /cases/john-bai-the-grok-bot-design-journey-dive-club-601.html: John Bai — The Grok Bot design journey (Dive Club) (guide) <https://www.youtube.com/watch?v=E-VxnQO73s4>
 - /cases/yuanyijie-learn-grok-bot-602.html: yuanyijie/learn-grok-bot (guide) <https://github.com/yuanyijie/learn-grok-bot>
 - /cases/a-deep-dive-into-grok-bot-603.html: A deep dive into Grok Bot (guide) <https://flaviocopes.com/grok-bot/>
@@ -550,22 +551,22 @@
 - /cases/s-hiraoku-grok-bot-playbook-606.html: s-hiraoku/grok-bot-playbook (guide) <https://github.com/s-hiraoku/grok-bot-playbook>
 - /cases/mkay00-grok-bot-second-brain-607.html: mKay00/grok-bot-second-brain (guide) <https://github.com/mKay00/grok-bot-second-brain>
 - /cases/maplefukku-grok-bot-ops-608.html: maplefukku/grok-bot-ops (guide) <https://github.com/maplefukku/grok-bot-ops>
-- /cases/technocore-grok-bot-609.html: Technocore Grok Bot 日本語ガイド (guide) <https://github.com/hariou/technocore-grokbot-ja>
+- /cases/technocore-grok-bot-609.html: Technocore Grok Bot guide (Japanese) (guide) <https://github.com/hariou/technocore-grokbot-ja>
 - /cases/grok-bot-getting-started-hubs-610.html: Grok Bot Getting Started hubs (guide) <https://github.com/mrlynn/grok-bot-getting-started>
-- /cases/grok-bot-611.html: Grok Bot 蓝皮书 (guide) <https://github.com/rockyzhuo/grok-bot-blue-book>
+- /cases/grok-bot-611.html: Grok Bot Blue Book (guide) <https://github.com/rockyzhuo/grok-bot-blue-book>
 - /cases/grokbot-field-guide-8-use-cases-612.html: Grokbot Field Guide (8 use cases) (guide) <https://github.com/tal-giladi/grokbot-field-guide>
 - /cases/grok-bot-setup-5-pitfalls-guide-613.html: Grok Bot setup & 5 pitfalls guide (guide) <https://github.com/dadamingmax/Grok-Bot-Setup-and-Usage-Guide>
 - /cases/china-grok-bot-install-tutorial-614.html: China Grok Bot install tutorial (guide) <https://github.com/jobinben/Grok-Bot-Tutorial>
 - /cases/grok-bot-handbook-grokbot-run-615.html: Grok Bot handbook (grokbot.run) (guide) <https://grokbot.run/>
 - /cases/grok-bot-fleet-ops-lessons-616.html: Grok Bot fleet ops lessons (guide) <https://github.com/jasonpalmer1/grok-fleet-lessons>
 - /cases/grok-bot-spec-to-ship-kit-617.html: Grok Bot Spec-to-Ship kit (guide) <https://github.com/Iron-Mark/grok-bot-spec-to-ship>
-- /cases/grok-bot-bluebook-618.html: Grok Bot Bluebook (管家手册) (guide) <https://github.com/Backtthefuture/grokbot-bluebook>
+- /cases/grok-bot-bluebook-618.html: Grok Bot Bluebook (butler handbook) (guide) <https://github.com/Backtthefuture/grokbot-bluebook>
 - /cases/unifi-cursor-grok-bot-mcp-setup-619.html: UniFi + Cursor/Grok Bot MCP setup (guide) <https://github.com/joemartinxiii/unifi-cursor-grok-bot>
 - /cases/grok-bot-complete-guide-zh-2026-620.html: Grok Bot complete guide (zh, 2026) (guide) <https://github.com/xianyu110/grokbot>
 - /cases/spacexai-cursor-grok-bot-workshop-es-621.html: SpaceXAI / Cursor / Grok Bot workshop (ES) (guide) <https://github.com/shiarauzo/grok-bot-cursor-workshop>
 - /cases/grokbot-run-english-handbook-622.html: grokbot.run English handbook (guide) <https://github.com/kibovrwa/grokbot-run>
 - /cases/grokbot-learning-storyboard-623.html: GrokBot Learning storyboard (guide) <https://github.com/rajvictor1/grokbot-learning>
-- /cases/grok-bot-personal-playbook-624.html: 無為 Grok Bot personal playbook (guide) <https://github.com/bianwuwei/grok-bot-playbook>
+- /cases/grok-bot-personal-playbook-624.html: Wuwei Grok Bot personal playbook (guide) <https://github.com/bianwuwei/grok-bot-playbook>
 - /cases/grok-bot-github-mobile-tutorial-625.html: Grok Bot + GitHub mobile tutorial (guide) <https://github.com/GalacticOrgOfDev/grok-bot-github-tutorial>
 - /cases/grok-bot-getting-started-chinese-guide-626.html: Grok Bot getting started (Chinese guide) (guide) <https://github.com/bianwuwei/grok-bot-getting-started>
 - /cases/hermes-agent-inside-grok-bot-cloud-computer-627.html: Hermes Agent inside Grok Bot cloud computer (guide) <https://github.com/carlosthiene/grok-bot-hermes>
@@ -587,7 +588,7 @@
 - /cases/grok-bot-galaxy-field-notes-day-1-clips-01-18-643.html: Grok Bot Galaxy field notes — Day 1 clips 01–18 (guide) <https://github.com/etor6233/grok-bot-galaxy>
 - /cases/grok-bot-galaxy-evidence-linked-livestream-synthesis-644.html: Grok Bot Galaxy — evidence-linked livestream synthesis (guide) <https://github.com/pcuci/grok-bot-galaxy>
 - /cases/grok-bot-galaxy-japanese-html-day-1-3-reports-645.html: Grok Bot Galaxy — Japanese HTML Day 1–3 reports (guide) <https://github.com/s-hiraoku/grok-bot-galaxy>
-- /cases/grok-build-150-page-guide-646.html: Grok Build 从零到精通蓝皮书 — 150-page guide (guide) <https://github.com/zjp1997720/grok-build-bluebook>
+- /cases/grok-build-150-page-guide-646.html: Grok Build Blue Book, zero to expert — 150-page guide (guide) <https://github.com/zjp1997720/grok-build-bluebook>
 - /cases/connect-grok-bot-to-home-assistant-via-ha-mcp-647.html: Connect Grok Bot to Home Assistant via ha-mcp (guide) <https://github.com/Hrubak/grok-bot-home-assistant-mcp>
 - /cases/grok-build-agents-team-course-648.html: Grok Build Agents — team course (guide) <https://github.com/Practical-Office/grok-build-agents>
 - /cases/grok-build-agent-transport-modes-cn-report-649.html: Grok Build Agent transport modes (CN report) (guide) <https://github.com/TianwenWei/Grok-Build-Agent-Transports>
@@ -598,8 +599,8 @@
 - /cases/analytics-vidhya-getting-started-with-grok-bot-automation-654.html: Analytics Vidhya — Getting Started with Grok Bot automation (guide) <https://www.analyticsvidhya.com/blog/2026/09/grok-bot-automation-tutorial/>
 - /cases/alex-finn-grok-bot-from-beginner-to-expert-in-25-minutes-655.html: Alex Finn — Grok Bot from beginner to expert in 25 minutes (guide) <https://moderncreator.app/2026-08-17-alex-finn-grok-bot-from-beginner-to-expert-in-25-minutes>
 - /cases/ai-maker-seven-grok-bot-team-you-can-run-from-your-phone-656.html: AI Maker — seven Grok Bot team you can run from your phone (guide) <https://aimaker.substack.com/p/grok-bot-ai-agent-team>
-- /cases/grok-bot-hk-traditional-chinese-guide-657.html: Grok Bot 教學｜香港老師版 (HK Traditional Chinese guide) (guide) <https://github.com/desmondsir106-droid/grok-bot-hk-guide>
-- /cases/grok-bot-build-and-verify-routines-658.html: Grok Bot 排程一條龍（繁中）— build and verify routines (guide) <https://github.com/zaxardery8011-design/grok-bot-routines-tw>
+- /cases/grok-bot-hk-traditional-chinese-guide-657.html: Grok Bot tutorial, Hong Kong teacher edition (HK Traditional Chinese guide) (guide) <https://github.com/desmondsir106-droid/grok-bot-hk-guide>
+- /cases/grok-bot-build-and-verify-routines-658.html: Grok Bot scheduling end to end (Traditional Chinese) — build and verify routines (guide) <https://github.com/zaxardery8011-design/grok-bot-routines-tw>
 - /cases/grok-bot-wiki-independent-setup-troubleshooting-field-guide-659.html: Grok Bot Wiki — independent setup & troubleshooting field guide (guide) <https://www.grokbotwiki.com/guides>
 - /cases/grok-bot-meetup-da-nang-2026-da-nang-meetup-deck-660.html: grok-bot-meetup-da-nang-2026 — Da Nang meetup deck (guide) <https://github.com/tibor-src/grok-bot-meetup-da-nang-2026>
 - /cases/florianthompson-grok-bot-setup-thin-context-grok-bot-templat-661.html: florianthompson/grok-bot-setup — thin-context Grok Bot template (guide) <https://github.com/florianthompson/grok-bot-setup>
@@ -613,201 +614,201 @@
 - /cases/grok-bot-templates-669.html: Grok Bot Templates (guide) <https://www.aibuilderclub.com/blog/grok-bot-templates>
 - /cases/how-to-use-grok-bot-670.html: How to Use Grok Bot (guide) <https://www.aibuilderclub.com/blog/grok-bot-guide>
 - /cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html: herdr-web-ui: watch always-on coding agents from your phone and browser (field-case) <https://github.com/devswha/herdr-web-ui>
-- /cases/gh-github-com-hebilicious-fr2027-forecaster-pull-5.html: 让 Grok Bot 盲核民调并修改候选名单，全程无人工 (field-case) <https://github.com/Hebilicious/fr2027-forecaster/pull/5>
-- /cases/gh-github-com-richardorchardorganisation-queenzone-modern-pull-.html: Grok Bot 接手失败的 Dependabot 升级：迁移约 110 个测试文件 (field-case) <https://github.com/RichardOrchardOrganisation/QueenZone.Modern/pull/2331>
-- /cases/gh-github-com-keroway-astro-blog-issues-891.html: OpenAI Dots 调查 Firefox 测试失败，并发现 CI 没存诊断证据 (field-case) <https://github.com/keroway/astro-blog/issues/891>
-- /cases/gh-github-com-deximple-grokbot-activity-log.html: Grok Bot 防篡改活动账本：哈希链 + 每日审计例行 (field-case) <https://github.com/deximple/grokbot-activity-log>
-- /cases/gh-github-com-riceblack67-grokbot-claude-code.html: 让 Claude Code 把任务交给 Grok Bot 并等结果，不用 webhook (guide) <https://github.com/RiceBlack67/grokbot-claude-code>
-- /cases/gh-github-com-syy706-grokbot-backup-kit.html: 把 Grok Bot 盒子备份到私有 GitHub 仓库并可还原 (guide) <https://github.com/syy706/grokbot-backup-kit>
-- /cases/gh-github-com-miku2339-baileys-dot-bridge.html: 把 WhatsApp 消息通过 MCP Events 接到 ChatGPT Dot (guide) <https://github.com/miku2339/baileys-dot-bridge>
-- /cases/gh-github-com-soumilrathi-minecraft-companions.html: 在 Minecraft 里和你的 Codex、Claude Code、ChatGPT Dot 对话 (field-case) <https://github.com/SoumilRathi/minecraft-companions>
-- /cases/x-esoterickang-2110716026715328527.html: 做了一个把日期换算成 19 种历法的网站 (field-case) <https://x.com/EsotericKang/status/2110716026715328527>
-- /cases/x-teslaconomics-2110721195817509068.html: 旅行 Bot「Trippy」订机票、租车、订餐厅和民宿 (field-case) <https://x.com/Teslaconomics/status/2110721195817509068>
-- /cases/x-wintereracer-2110716451459932216.html: 从邮件里捞出学校活动，不再错过 (field-case) <https://x.com/WinterEracer/status/2110716451459932216>
-- /cases/x-carolinadill-2110664268479676714.html: Bot 邮箱支持「+别名」 (guide) <https://x.com/CarolinaDill/status/2110664268479676714>
-- /cases/x-sholabuilds-2110722561579323648.html: 把跑周刊的 Bot 做成模板，发送仍由本人审批 (field-case) <https://x.com/sholabuilds/status/2110722561579323648>
-- /cases/x-jasonturcotte-2110720607662862805.html: 新手模板「Coach」：一步步带你上手 (guide) <https://x.com/Jasonturcotte/status/2110720607662862805>
-- /cases/x-ericsoundminds-2110717336047047128.html: 让 Bot 更好用的十个习惯 (guide) <https://x.com/EricSoundMinds/status/2110717336047047128>
-- /cases/x-rajuvamsi007-2110715135543185579.html: 让 Bot 直接买旅行保险 (field-case) <https://x.com/rajuvamsi007/status/2110715135543185579>
-- /cases/x-mattyod-2110714228130881880.html: 把任意声音做成特斯拉锁车提示音的免费 Bot (field-case) <https://x.com/Matty_O_D/status/2110714228130881880>
-- /cases/x-iamluisdev-2110722094631927894.html: 三条规则：先在 Mac 上做、离线才用云、合并主干须我点头 (guide) <https://x.com/iamluis_dev/status/2110722094631927894>
-- /cases/x-pokeefe363-2110718862874251345.html: 两组 Bot 分开，纠错写进共享规则文件 (guide) <https://x.com/Pokeefe363/status/2110718862874251345>
-- /cases/x-ob1johnkenob1-2110718514801651796.html: 每晚提醒写语音日记，留言给家人 (field-case) <https://x.com/Ob1JohnKenob1/status/2110718514801651796>
-- /cases/x-selbyai-2110562352701837733.html: 求职「幕僚长」Bot 协调其他 Bot (field-case) <https://x.com/SelbyAI/status/2110562352701837733>
-- /cases/x-emollick-2110557530531447165.html: 给 Dot 一个独立邮箱 (guide) <https://x.com/emollick/status/2110557530531447165>
-- /cases/x-zynstop-2110606030979920231.html: 让 Muse 对自己的 token 用量做一次自检 (guide) <https://x.com/ZynStop/status/2110606030979920231>
-- /cases/x-ashiiirg-2110576664526905409.html: 运营社媒的 Muse 与管运营的 OpenClaw 互发邮件 (field-case) <https://x.com/ashiiirg/status/2110576664526905409>
-- /cases/x-dcinvestor-2110662874154905733.html: 给 AI 单独开邮箱，再按需共享 Drive 文件夹 (guide) <https://x.com/DCinvestor/status/2110662874154905733>
-- /cases/gh-github-com-tylerlongbons-hub-skill-building.html: 把 Grok Bot 当客户的练手项目库 (field-case) <https://github.com/tylerlongbons-hub/Skill-building>
-- /cases/gh-github-com-kky42-t3bot.html: 给 T3 Code 的个人 Bot：记忆、心跳与工人队 (field-case) <https://github.com/kky42/t3bot>
-- /cases/gh-github-com-shagghiesuperstar-medusa-commerce.html: Medusa v2 的 Grok Bot 插件：仅草稿、干跑写入 (field-case) <https://github.com/shagghiesuperstar/medusa-commerce>
-- /cases/gh-github-com-enzoenrico-siri-grokbot.html: 给 Grok Bot 接 Siri Intent：iPhone 与 CarPlay (field-case) <https://github.com/enzoenrico/siri-grokbot>
-- /cases/medium-devenkoai-medium-com-stop-using-ai-as-a-chatbot-how-to-build.html: 用 Grok Bot 与 Opus 5.5 搭 24/7 工程队 (guide) <https://devenkoai.medium.com/stop-using-ai-as-a-chatbot-how-to-build-a-24-7-engineering-team-with-grok-bot-opus-5-5-d3a548590d10>
-- /cases/gh-github-com-olllayor-grokbot-opencode.html: 基于 OpenCode 的桌面 Agent 宿主（暂名） (field-case) <https://github.com/olllayor/grokbot-opencode>
-- /cases/yt-sqrf3j7vsz8.html: ChatGPT Dots 讲解：交目标、收回进展 (guide) <https://www.youtube.com/watch?v=SQrf3J7vSz8>
-- /cases/devto-4855865.html: 如何安装并使用 ChatGPT Dots（2026） (guide) <https://dev.to/theglitchfixer/openai-dots-how-to-set-up-use-chatgpts-always-on-ai-agent-2026-2g4p>
-- /cases/gh-github-com-johnnybyzhang-wecom-dot-bridge.html: 非官方企微桥：接到已有 ChatGPT Dot (field-case) <https://github.com/Johnnybyzhang/wecom-dot-bridge>
-- /cases/x-nightrang3r-2110670245622878281.html: 用 Dot 给孩子做街机游戏上 MAME 柜 (field-case) <https://x.com/NightRang3r/status/2110670245622878281>
-- /cases/x-pravinvince-2110853401336517086.html: ShopTrueProfit：Grok Bot 做的 Etsy 利润看板 (field-case) <https://x.com/PravinVince/status/2110853401336517086>
-- /cases/x-hislordship9-2110842762769928676.html: 用 Grok Bot 找工作：3 天 52 份投递、5 场面试 (field-case) <https://x.com/Hislordship_9/status/2110842762769928676>
-- /cases/x-elithrar-2110822272839844171.html: 学法语用 Dot：语音混用法语与英语 (field-case) <https://x.com/elithrar/status/2110822272839844171>
-- /cases/x-jordanhyder-2110859581501178104.html: Grok Bot 自建邮箱处理数据经纪商确认信 (field-case) <https://x.com/jordan_hyder/status/2110859581501178104>
-- /cases/x-hopefullysc-2110853749681836537.html: 用 Grok Bot 收菜谱，代替 ReciMe 订阅 (field-case) <https://x.com/HopefullySC/status/2110853749681836537>
-- /cases/x-ryanfspack-2110852919377699033.html: 消防编制思路做成 Grok Bot 团队模板 (guide) <https://x.com/Ryanfspack/status/2110852919377699033>
-- /cases/x-bentoboinft-2110615341546209720.html: 不会技术的妈妈用 Muse 每天订匹克球场 (field-case) <https://x.com/BentoBoiNFT/status/2110615341546209720>
-- /cases/x-cmillet77-2110845175073558995.html: 全职房车夫妇用 Grok Bot 当旅行顾问与行程板 (field-case) <https://x.com/Cmillet77/status/2110845175073558995>
-- /cases/x-ericklindberg-2110846574729347204.html: 用 Dot 做出首个站点后卡在审批取消错误 (field-case) <https://x.com/erick_lindberg_/status/2110846574729347204>
-- /cases/yt-rm8zwhojdeg.html: Grok Bot 靠任务、例程、技能与邮箱跑业务 (guide) <https://www.youtube.com/watch?v=RM8ZwhoJdeg>
-- /cases/x-xoptimiser-2110858074110267418.html: Grok Bot 读 Slack 的权限在 bot 间不一致 (guide) <https://x.com/XOptimiser/status/2110858074110267418>
-- /cases/x-mistemorales-2110848799287767400.html: Dot Quill 反复 Model not found，工作流被堵 (guide) <https://x.com/MisteMorales/status/2110848799287767400>
-- /cases/x-shaunralston-2110850958620266721.html: 名为 DASH 的 Dot 会因紧急邮件打断任务 (field-case) <https://x.com/shaunralston/status/2110850958620266721>
-- /cases/x-thecsguy-2110860307036024929.html: Grok Bot 给特斯拉做了太空主题界面 (field-case) <https://x.com/thecsguy/status/2110860307036024929>
-- /cases/x-ravenousmarmot-2110851138627232053.html: 机车装备比价 Bot：12 小时扫描与周报 (field-case) <https://x.com/RavenousMarmot/status/2110851138627232053>
-- /cases/x-believeonjesus-2110858215093322022.html: Grok Bot 做数据经纪商删除并提议向州检察长投诉 (field-case) <https://x.com/BelieveOnJesus/status/2110858215093322022>
-- /cases/x-mrbaileycarr-2110857441420402896.html: Grok Bot 填政府拒扰表单并经邮箱确认 (field-case) <https://x.com/mrbaileycarr/status/2110857441420402896>
-- /cases/x-billwolfe-2110835041035235521.html: 用聊天里的 Dot 跑 Inbox Zero (field-case) <https://x.com/billwolfe/status/2110835041035235521>
-- /cases/x-joaosqra-2110833886943187372.html: Dot 现在步步要权限，已批准项仍被安保拦 (guide) <https://x.com/joaosqra/status/2110833886943187372>
-- /cases/x-agentlane1-2110857444490428554.html: 每月复查数据经纪商，并用专用邮箱收确认链 (guide) <https://x.com/AgentLane1/status/2110857444490428554>
-- /cases/x-simonsmith-2110425007059017830.html: 用 Dot 在 ChatGPT 里做了两个个人 App (field-case) <https://x.com/_simonsmith/status/2110425007059017830>
-- /cases/x-jacobilin-2110456534220329453.html: 给多个 Agent 做了任务看板：Dot、Grok Bot、Claude Code (field-case) <https://x.com/jacobilin/status/2110456534220329453>
-- /cases/gh-abruption-dots-tailscale.html: 在 Dots 云电脑上跑 Tailscale + 用户级 SSH (guide) <https://github.com/abruption/dots-tailscale>
-- /cases/x-chefbrent-2110441550060888513.html: Dot 从垃圾邮件里捞出报税公司的邮件 (field-case) <https://x.com/chefbrent/status/2110441550060888513>
-- /cases/x-sjourdan-2110317092134166787.html: Dot 用开源 fast-whisper 转写播客 (field-case) <https://x.com/sjourdan/status/2110317092134166787>
-- /cases/x-offzerocyber-2110384977053630788.html: Muse 做邮件安全：读信前先检查 (field-case) <https://x.com/OffZeroCyber/status/2110384977053630788>
-- /cases/yt-lr6bt1s4lfu.html: 9 个变现向 Bot：落地页、外呼、剪辑、网站审计 (field-case) <https://www.youtube.com/watch?v=LR6BT1s4lFU>
-- /cases/yt-6cqpa5g-3ru.html: 实测 ChatGPT Dots，并对比 Meta Muse (guide) <https://www.youtube.com/watch?v=6cqpa5G_3rU>
-- /cases/gh-github-com-aidevgru-dot-connect.html: 给 Claude Code / Codex / Dot 的本地收件箱与调度 (field-case) <https://github.com/AIdevgru/dot-connect>
-- /cases/gh-github-com-barbaraackles-sitesense.html: 用 Muse Spark 做井场巡检：卫星到无人机到地面 (field-case) <https://github.com/barbaraackles/sitesense>
-- /cases/x-krrishkapoor8-2110491932900364482.html: 搭了 8 个 GrokBot Agent，仍想念私人助理 (field-case) <https://x.com/KrrishKapoor8/status/2110491932900364482>
-- /cases/x-sudoaptaj-2110336461711311094.html: 常开 Grok Bot：定时发帖回复，夜间修游戏 (field-case) <https://x.com/sudoaptaj/status/2110336461711311094>
-- /cases/x-deshiou0604-2110276483142852744.html: 跑 Grok bot 团队：删掉赌模型不会进步的脚手架 (guide) <https://x.com/deshiou0604/status/2110276483142852744>
-- /cases/hn-50070313.html: Helicon：给 Muse Code CLI 做的开源桌面客户端 (field-case) <https://github.com/HarjjotSinghh/helicon>
-- /cases/hn-50074512.html: Muse Souls：给 Muse 写 9 套 SOUL.md 人格的实测 (field-case) <https://github.com/bkawa-io/muse-souls>
-- /cases/x-carolinadill-2110049188524216756.html: Grok Bot 的指令来自四个地方 (guide) <https://x.com/CarolinaDill/status/2110049188524216756>
-- /cases/x-kyledettman-2109831484630565103.html: 从 Paprika 菜谱到 Kroger 自提订单 (field-case) <https://x.com/kyledettman/status/2109831484630565103>
-- /cases/gh-github-com-eatin-muse-gadget-waveshare-349.html: Waveshare ESP32 移植 Muse Gadget，带中文语音后端 (field-case) <https://github.com/Eatin/muse-gadget-waveshare-349>
-- /cases/gh-github-com-amranhudda-fitscout.html: FitScout：用 Muse MCP 学品味的二手侦察 (field-case) <https://github.com/AmranHudda/fitscout>
-- /cases/x-reidhslaughter-2109645099479036095.html: Dotcord：让 Dots、Grok Bot、Claude 在 Discord 实时交接 (field-case) <https://x.com/reidhslaughter/status/2109645099479036095>
-- /cases/medium-grok-bots-job-search-ft-2hjs.html: 用 3 个协作 Grok Bot + 1 个经理 Bot 找内推人 (field-case) <https://medium.com/@roshan_ambhore/grok-bots-job-search-ft-2hjs-c122c6011e8d>
-- /cases/yt-4tolm1g-gce.html: Muse 设计负责人谈界面设计取舍 (guide) <https://www.youtube.com/watch?v=4TOLm1g-gCE>
-- /cases/x-chillwaterson-2109322448214667530.html: Dot 按实际用电找到更便宜的电费套餐 (field-case) <https://x.com/ChillWaterson/status/2109322448214667530>
-- /cases/x-raddadjokes7-2109305097880519124.html: 夫妻两个 Muse 协作：共享歌单和共享日历 (field-case) <https://x.com/raddadjokes7/status/2109305097880519124>
-- /cases/x-mikepat711-2109395926980952299.html: 所有 Bot 共用一个 Notion「待办采购」数据库 (field-case) <https://x.com/mikepat711/status/2109395926980952299>
-- /cases/x-dkmitc-2109402706116858172.html: 报一遍橱柜和冰箱，生成一周菜单 (field-case) <https://x.com/dkmitc/status/2109402706116858172>
-- /cases/gh-corvelis-dots-bridge-kit.html: Dots Bridge Kit：用 Even G2 眼镜和 Dot 对话 (field-case) <https://github.com/Corvelis/dots-bridge-kit>
-- /cases/gh-rhs059-dotcord.html: Dotcord：OpenAI Dots 的 Discord 连接器（已支持 Grokbot） (field-case) <https://github.com/RHS059/dotcord>
-- /cases/gh-smfworks-grok-bot-templates.html: SMF Works 发布的 Grok Bot 模板合集 (guide) <https://github.com/smfworks/grok-bot-templates>
-- /cases/x-davidmay-2108347213046751265.html: 把和 Claude Code 的沟通搬到 Grok Bot (field-case) <https://x.com/david_may/status/2108347213046751265>
-- /cases/yt-wxhoxfpecnm.html: 连用 7 天后总结的 9 个 Dot 技巧 (guide) <https://www.youtube.com/watch?v=WXhOxfPECnM>
-- /cases/x-jerrodlew-2108077437611598202.html: Muse 帮选购并指导安装一个 Muse 小设备 (field-case) <https://x.com/jerrod_lew/status/2108077437611598202>
-- /cases/gh-rsms-esp32-dot.html: esp32-dot：桌面触摸屏 Dot 伴侣 (field-case) <https://github.com/rsms/esp32-dot>
-- /cases/gh-rokrokss-apps-of-dots.html: apps of dots：自托管 MCP 接入 Discord/Telegram/WhatsApp (field-case) <https://github.com/rokrokss/apps-of-dots>
-- /cases/x-nodebaron-2108013834657050695.html: Muse 给航空公司写表扬信并补登里程 (field-case) <https://x.com/NodeBaron/status/2108013834657050695>
-- /cases/x-lyndallschreinr-2107888353630908437.html: 每周规划 15 顿家庭餐并代买菜 (field-case) <https://x.com/lyndallschreinr/status/2107888353630908437>
-- /cases/x-koltregaskes-2107977276197667109.html: 隐藏但好用的功能：Dot 自定义规则 (guide) <https://x.com/koltregaskes/status/2107977276197667109>
-- /cases/x-embeethree-2107922181300928549.html: Dot 当业务分析师兼架构师，一次做完整 PR (field-case) <https://x.com/EmBeeThree/status/2107922181300928549>
-- /cases/x-manicktweet-2107632025326735378.html: 只靠 WhatsApp 语音，30 分钟做出个人网站 (field-case) <https://x.com/manicktweet/status/2107632025326735378>
-- /cases/x-emergentcontent-2107895105004675147.html: 用 Grok Bot 或 Muse + 一个提示词 + GitHub 仓库跑求职 (field-case) <https://x.com/EmergentContent/status/2107895105004675147>
-- /cases/yt-mpbxmuh3vhk.html: 用 Dots 零代码快速做 App (guide) <https://www.youtube.com/watch?v=MpbxMuH3VHk>
-- /cases/yt-bsnhg6cnjze.html: 12 个 Grok Bot 用例：省钱、特斯拉助手、找线索、邮件分拣 (field-case) <https://www.youtube.com/watch?v=BsNHg6cNjZE>
-- /cases/x-nonieengel-2107297361009721493.html: 给 Muse 搭一个半自动反馈学习循环 (field-case) <https://x.com/nonieengel/status/2107297361009721493>
-- /cases/x-raheemaspx-2107554755031777442.html: 每天早上自动打印当日计划 (field-case) <https://x.com/RaHeemaspx/status/2107554755031777442>
-- /cases/gh-pluviobyte-dot2api.html: Dot2API：把 Dot 变成兼容 OpenAI/Claude 的 API (field-case) <https://github.com/Pluviobyte/dot2api>
-- /cases/x-jccastaneda05-2107374858481066342.html: 用 Dot 编排跨设备的 Hermes agents (field-case) <https://x.com/JcCastaneda05/status/2107374858481066342>
-- /cases/yt-rckbiy1gxki.html: 我实际用 Muse 做的 11 件事（含屏幕录像） (field-case) <https://www.youtube.com/watch?v=RCKBIY1gxkI>
-- /cases/hn-49971444.html: 用 Dots 当 7 个 Agent 的蜂群，改进一个数学下界（Lean 验证） (field-case) <https://unexcitedneurons.substack.com/p/i-used-openai-dots-as-an-agent-swarm>
-- /cases/gh-beechrasta-posterbuilder-muse-connector.html: PosterBuilder 连接器：在聊天里生成社媒海报 (field-case) <https://github.com/beechrasta/posterbuilder-muse-connector>
-- /cases/x-rckim77-2107203928475488733.html: 每天 8 点和 16 点两次批量处理邮件 (field-case) <https://x.com/rckim77/status/2107203928475488733>
-- /cases/yt-5hw4nhrtmr0.html: 6 个 Muse 用法：退订、自动回复、找回钱、报税 (guide) <https://www.youtube.com/watch?v=5Hw4nHrTMR0>
-- /cases/x-whipla5her-2106782026896703702.html: 月末盘点：Dot 两分钟对完库存表 (field-case) <https://x.com/whipla5her/status/2106782026896703702>
-- /cases/gh-torcata-watch-dot.html: watch-dot：在 Apple Watch 上和 Dot 聊天 (field-case) <https://github.com/Torcata/watch-dot>
-- /cases/gh-jjenglert1-esp32-muse-agent.html: 约 30 美元做一个口袋 Muse agent (field-case) <https://github.com/JJenglert1/esp32-muse-agent>
-- /cases/x-renegaderocks-2106589875449610356.html: Dot 处理 Netlify 降级退款，但缺少分频道对话 (field-case) <https://x.com/Renegade_Rocks/status/2106589875449610356>
-- /cases/x-dngnotes-2106663358204440997.html: 让 Dot 代听培训并整理笔记 (field-case) <https://x.com/dng_notes/status/2106663358204440997>
-- /cases/yt-9rydalnb6ec.html: Dots 怎么设置、哪里好用、哪里让人沮丧 (guide) <https://www.youtube.com/watch?v=9RYDaLnB6ec>
-- /cases/x-danielzambrini-2106417754441998636.html: Dot 从没人看的邮箱里发现一封银行来信 (field-case) <https://x.com/DanielZambrini/status/2106417754441998636>
-- /cases/x-monokern-2106347355884642426.html: 上手 Dot 前值得看的 7 个视频 (guide) <https://x.com/monokern/status/2106347355884642426>
-- /cases/yt-1ciobarxtvc.html: Muse 设置、功能与 12 个用例（3 个亲测） (guide) <https://www.youtube.com/watch?v=1CiobARXtVc>
-- /cases/yt-8fbvrydqwow.html: 搭了 9 个 Grok Bot 处理真实任务 (field-case) <https://www.youtube.com/watch?v=8FBvRYDQWow>
-- /cases/x-solanky-2105871916800389433.html: Codex 被系统杀掉后，让 Dot 恢复所有中断线程 (field-case) <https://x.com/solanky/status/2105871916800389433>
-- /cases/x-sethrosen-2106041674812072082.html: 把 Dot 当编排者，配合 Codex 管更多并行线程 (field-case) <https://x.com/sethrosen/status/2106041674812072082>
-- /cases/x-memphisbr-2106010893901255066.html: Dot 在垃圾邮件堆里找出 GitHub 提及并直接处理 (field-case) <https://x.com/Memphisbr/status/2106010893901255066>
-- /cases/x-alexlupimed-2106156462984810923.html: 住院医师用 Dot + Obsidian CLI 做个人知识库 (field-case) <https://x.com/AlexLupiMed/status/2106156462984810923>
-- /cases/x-fdatframe84228-2105983124374983128.html: 开车接孩子时让 Dot 分拣 WhatsApp 和邮件 (field-case) <https://x.com/FDatframe84228/status/2105983124374983128>
-- /cases/x-danielbuildsai-2105996506381926779.html: 用 Dot 统筹所有 Codex 工作会话 (field-case) <https://x.com/DanielBuildsAI/status/2105996506381926779>
-- /cases/x-aimrwhite-2105612186450297061.html: 给 Dot 一个四周研究任务：7 个 AI 技术假设 (field-case) <https://x.com/AI_MrWhite/status/2105612186450297061>
-- /cases/x-edorsey-2105678599953232117.html: Dot 通过 MCP 控制办公室树莓派显示屏 (field-case) <https://x.com/edorsey/status/2105678599953232117>
-- /cases/x-odiak-2105602619268092064.html: 自建 HEY 邮箱的远程 MCP 服务器，供 Dots 等使用 (field-case) <https://x.com/odiak_/status/2105602619268092064>
-- /cases/hn-49934474.html: 实测：让 Dots 自选技术栈，8 次都用 Cloudflare + ChatGPT 登录 (guide) <https://amplifying.ai/research/openai-dots-choose>
-- /cases/hn-49929970.html: 用 Muse 给演出视频站做大规模网页搜集 (field-case) <https://sigh.dev/posts/metas-muse-is-fantastic-for-web-scraping/>
-- /cases/gh-agricidaniel-dots-second-brain.html: Dots Second Brain：有出处的 Obsidian 知识库 (guide) <https://github.com/AgriciDaniel/dots-second-brain>
-- /cases/gh-aieo-product-dots-stackchan.html: 给 Dot 一个身体：接入 Stack-chan 机器人 (field-case) <https://github.com/aieo-product/dots_stackchan>
-- /cases/gh-beeper-chatgpt-dots.html: Beeper 的 ChatGPT Dots 原生消息桥 (field-case) <https://github.com/beeper/chatgpt-dots>
-- /cases/x-ctrlaltdwayne-2105603794293887167.html: Dot 发现斐济住宿订错了月份 (field-case) <https://x.com/CtrlAltDwayne/status/2105603794293887167>
-- /cases/x-coreyganim-2105717683736265168.html: 权宜之计：让 Dot 采用 Codex 自定义指令 (guide) <https://x.com/coreyganim/status/2105717683736265168>
-- /cases/x-vizentro-2105672207435170065.html: Dot Hotel：现成 Dot 配置目录，权限写在门上 (guide) <https://x.com/Vizentro/status/2105672207435170065>
-- /cases/x-persimmons-2105469386890870797.html: Dot 初体验：私人导购、旅行规划、马拉松训练面板 (field-case) <https://x.com/per_simmons_/status/2105469386890870797>
-- /cases/x-mdowney-2105466076113117211.html: 盯梦幻橄榄球阵容，开赛前提醒不合规球员 (field-case) <https://x.com/mdowney/status/2105466076113117211>
-- /cases/yt-e29wtzookxk.html: Dots 的正确用法：项目经理 skill (guide) <https://www.youtube.com/watch?v=e29WTzoOKxk>
-- /cases/yt-pugo-si6xro.html: 已落地的 26 个 Muse 用例 (field-case) <https://www.youtube.com/watch?v=puGo_SI6Xro>
-- /cases/x-jessewaites-2105288347052605536.html: 给 Dot 做了一个实体身体：ESP32 小屏 (field-case) <https://x.com/JesseWaites/status/2105288347052605536>
-- /cases/x-vraserx-2105367083454550297.html: Dot 主动找到相关的进修课程并排进日程 (field-case) <https://x.com/VraserX/status/2105367083454550297>
-- /cases/x-oncelcebeci-2105273727873331437.html: 让 Dot 给网站做 QC，并把问题转交给 Codex (field-case) <https://x.com/oncelcebeci/status/2105273727873331437>
-- /cases/hn-49912880.html: Tailscale 官方：让 Muse 进你的 tailnet，并用 ACL 限权 (guide) <https://tailscale.com/blog/meta-muse-ai-agent-tailscale>
-- /cases/gh-voltagent-awesome-openai-dots.html: Awesome OpenAI Dots：社区整理的工作流与规则目录 (guide) <https://github.com/VoltAgent/awesome-openai-dots>
-- /cases/gh-graydeon-dot-panel.html: dot-panel：让 Dot 自建触屏仪表盘 (field-case) <https://github.com/graydeon/dot-panel>
-- /cases/gh-duclm1x1-muse-chat-mcp.html: Muse-Chat-MCP：从任意 MCP/OpenAI 客户端调用 Muse (field-case) <https://github.com/duclm1x1/Muse-Chat-MCP>
-- /cases/x-mechengdev-2105381046044815388.html: Blender 复古相机做成可玩的 Three.js 场景 (field-case) <https://x.com/mech_eng_dev/status/2105381046044815388>
-- /cases/x-vibecodeguild-2105414532793561475.html: 用 Muse 做免费卡路里记录 App 替代 MyFitnessPal (field-case) <https://x.com/vibecodeguild/status/2105414532793561475>
-- /cases/x-dariusgaynor-2105342293721145365.html: 用 Grok Bot 运营内容团队，部分迁到 Dots，仍逐条审批 (field-case) <https://x.com/dariusgaynor/status/2105342293721145365>
-- /cases/yt-sa3xdlu1uda.html: Dots 第一小时：整理 100+ 日历条目、修 iOS bug (field-case) <https://www.youtube.com/watch?v=sA3XDlU1udA>
-- /cases/yt-db1krjqet8w.html: Dots 头 24 小时：12 分钟导览 (guide) <https://www.youtube.com/watch?v=db1KRJQEt8w>
-- /cases/yt-hcttxibjt-c.html: Dots 的真实情况：做对了什么、哪里崩 (guide) <https://www.youtube.com/watch?v=HCttXibjt-c>
-- /cases/web-openai-introducing-dots.html: OpenAI 官方：Introducing dots (guide) <https://openai.com/index/introducing-dots/>
-- /cases/x-mvanhorn-2104739688930312209.html: AI 电话被挂断后，Muse 派人工代办订到 KTV (field-case) <https://x.com/mvanhorn/status/2104739688930312209>
-- /cases/gh-armando-token-hackday26.html: Hack Day 项目：Muse 通过私有 API 查工业品规格、库存和报价 (field-case) <https://github.com/armando-token/hackday26>
-- /cases/yt-gfh6l3dxhk0.html: 给 Dot 一个真实目标，而不是一句提示词 (guide) <https://www.youtube.com/watch?v=gfh6l3DxHK0>
-- /cases/yt-z5x1emu6isi.html: 一人公司试用 Dots：发现五位数赞助问题 (field-case) <https://www.youtube.com/watch?v=z5X1eMU6isI>
-- /cases/yt-y0zmptl32-y.html: 用 Dots 辅助求职的实测 (field-case) <https://www.youtube.com/watch?v=y0zMPTL32-Y>
-- /cases/x-caffinatedak-2104158651925877133.html: Muse 跨三家即时零售比价下单买菜 (field-case) <https://x.com/CaffinatedAK/status/2104158651925877133>
-- /cases/x-grokbotradar-2104304589797556457.html: 先把流程跑通，再设定时 (guide) <https://x.com/GrokBotRadar/status/2104304589797556457>
-- /cases/yt-xz5tealeudg.html: Grok Bot 团队自己在用的 14 个 Bot (field-case) <https://www.youtube.com/watch?v=xZ5TEaleUdg>
-- /cases/x-anishjha18-2103842349004513323.html: 「市场负责人」Bot 模板 (guide) <https://x.com/anishjha18/status/2103842349004513323>
-- /cases/yt-g25kxtb3lrg.html: Muse 在 Facebook 上的 3 种用法 (guide) <https://www.youtube.com/watch?v=g25KXtB3Lrg>
-- /cases/yt-jbgycowvczi.html: Muse 的 6 个功能技巧：比价、Reels 变行程、凭证库 (guide) <https://www.youtube.com/watch?v=jbGYcOWvCZI>
-- /cases/x-mykomarci-2103514112017772599.html: 给 Muse 们做了一个只有 Agent 能发帖的社交网络 (field-case) <https://x.com/mykomarci/status/2103514112017772599>
-- /cases/x-chrismayer-2103325855087018244.html: Bot 做的菜谱 App + Instacart 下单做晚饭 (field-case) <https://x.com/Chris_Mayer/status/2103325855087018244>
-- /cases/x-lifeofv42-2102962203347317148.html: Muse 一小时做完 App QA，出 15 页报告 (field-case) <https://x.com/LifeofV42/status/2102962203347317148>
-- /cases/gh-nmhjklnm-meta-muse-vm.html: 反向 SSH 隧道 skill：让 Muse 托管 VM 可登录 (guide) <https://github.com/nmhjklnm/meta-muse-vm>
-- /cases/gh-astroxnetwork-muse-connector-template.html: 可部署的 Muse 连接器模板 (guide) <https://github.com/AstroxNetwork/muse-connector-template>
-- /cases/x-chrisclickup-2102447255378903285.html: 用 Meta Muse 点 DoorDash 外卖 (field-case) <https://x.com/ChrisClickUp/status/2102447255378903285>
-- /cases/x-thatotherzach-2101951609412493799.html: Bot 跑求职，并过滤反复出现的「幽灵职位」 (field-case) <https://x.com/ThatOtherZach/status/2101951609412493799>
-- /cases/x-designbymoein-2102123926554054972.html: 设计前调研：让 Muse 收集并归纳落地页 (field-case) <https://x.com/DesignByMoein/status/2102123926554054972>
-- /cases/x-devwithblake-2101757781313548306.html: Muse 比较 6 份租房险报价，作者一年省 60 美元 (field-case) <https://x.com/devwithblake/status/2101757781313548306>
-- /cases/x-danieloleary-2101790187726716979.html: 周末用 Muse 不到 3 小时搞定报税 (field-case) <https://x.com/danieloleary/status/2101790187726716979>
-- /cases/x-ademers-2101345942620279117.html: 用 Muse 内置浏览器开通 Oracle Cloud 免费实例 (field-case) <https://x.com/ademers/status/2101345942620279117>
-- /cases/x-jamesdtoole-2101405831019254210.html: 每天早上一份多来源冲浪报告 (field-case) <https://x.com/jamesdtoole/status/2101405831019254210>
-- /cases/gh-krishnakumaar-muse-wardrobe-connector.html: 衣橱与穿搭连接器 (field-case) <https://github.com/krishnakumaar/muse-wardrobe-connector>
-- /cases/gh-bodila51-grok-bot-jev.html: Jev Router：给 Grok Bot 加一层廉价决策层 (field-case) <https://github.com/Bodila51/grok-bot-jev>
-- /cases/x-aptaltruist-2100787082310377894.html: 让 Muse 清理邮箱，作者称零错误 (field-case) <https://x.com/apt_altruist/status/2100787082310377894>
-- /cases/yt-eu1icyi9bcs.html: Muse 打客服电话砍价，每年省下 800 多美元 (field-case) <https://www.youtube.com/watch?v=eU1ICyI9bCs>
-- /cases/x-rja907-2100694472489398558.html: 用 Muse 每日总结话多的 X 群聊 (field-case) <https://x.com/rja907/status/2100694472489398558>
-- /cases/x-throwabull-2100362187705340000.html: 给 Muse 单独开一张有月度上限的虚拟卡 (guide) <https://x.com/throwabull/status/2100362187705340000>
-- /cases/gh-bluman1-muse-connectors.html: Muse Connectors：一段提示词安装、可审计的连接器 skills (guide) <https://github.com/bluman1/muse-connectors>
-- /cases/yt-kxfhqbymjkc.html: 7 个家庭/生活 Bot：家居维护、家人预约、取消试用（赞助） (field-case) <https://www.youtube.com/watch?v=kXfHQbyMjkc>
-- /cases/x-positiveinvst-2099328392894022072.html: 让 Muse 用 API 自建 TickTick 集成，5 分钟 (field-case) <https://x.com/PositiveInvst/status/2099328392894022072>
-- /cases/gh-mozzquito-omx-grokbot-public.html: Grok Bot 与 Claude Code 的 MCP 桥（进行中） (field-case) <https://github.com/mozzquito/omx-grokbot-public>
-- /cases/x-kainosflux-2097556600722510153.html: Muse 上手清单：主题侧聊、健康看板与训练记录 App (field-case) <https://x.com/kainosflux/status/2097556600722510153>
-- /cases/yt-a3ggw287g2q.html: 婚礼前用 Muse 管饮食、日程和跟进邮件（合作推广） (field-case) <https://www.youtube.com/watch?v=a3gGw287G2Q>
-- /cases/yt-90pwpvrydhg.html: 没人讲的一点：所有 Bot 共用一台电脑 (guide) <https://www.youtube.com/watch?v=90pwPVrydHg>
-- /cases/yt-qbmgf1kjsk4.html: 同时运行约 30 个 agent：幕僚长、家庭报纸、PR 队列与合规监控 (field-case) <https://www.youtube.com/watch?v=QBmgF1kJSK4>
-- /cases/x-jcchristopher-2094629400524247421.html: 口头带 Bot 走一遍每天早上的流程 (field-case) <https://x.com/JCChristopher/status/2094629400524247421>
-- /cases/web-duffel-muse.html: Duffel 官方：在 Muse 里搜索、预订和管理机票行程 (guide) <https://duffel.com/blog/millions-of-users-can-now-use-duffel-to-search-book-and-manage-holidays-on-muse-the-new-personal-ai-agent-from-meta>
-- /cases/gh-cobusgreyling-grok-bot-templates.html: Grok Bot 模板工程套件：规格、Bot Ready 评分、团队与 routines (guide) <https://github.com/cobusgreyling/grok-bot-templates>
-- /cases/yt-z-mlyxpwas.html: 如何设置 Grok Bot 的 Routine (guide) <https://www.youtube.com/watch?v=z-_MLyXPwas>
-- /cases/gh-ethanolivertroy-grokbot-cloudflare-inbox.html: 在 Cloudflare Workers 上自托管 Grok Bot 收件箱 (field-case) <https://github.com/ethanolivertroy/grokbot-cloudflare-inbox>
-- /cases/yt-x8kp4mdvm1k.html: 8 个 Grok Bot 用例：CEO、营收运营、内容复用、自主调研 (field-case) <https://www.youtube.com/watch?v=x8KP4MdvM1k>
-- /cases/yt-lrupu2-ktgq.html: 5 个用例：收件箱 agent 接 ClickUp 等 (field-case) <https://www.youtube.com/watch?v=lRUpu2-KtGQ>
+- /cases/gh-github-com-hebilicious-fr2027-forecaster-pull-5.html: Grok Bot blind-checks polls and edits the candidate list, no human in the loop (field-case) <https://github.com/Hebilicious/fr2027-forecaster/pull/5>
+- /cases/gh-github-com-richardorchardorganisation-queenzone-modern-pull-.html: Grok Bot rescues a failed Dependabot bump by migrating ~110 test files (field-case) <https://github.com/RichardOrchardOrganisation/QueenZone.Modern/pull/2331>
+- /cases/gh-github-com-keroway-astro-blog-issues-891.html: OpenAI Dots investigates a Firefox test failure and finds CI dropping its evidence (field-case) <https://github.com/keroway/astro-blog/issues/891>
+- /cases/gh-github-com-deximple-grokbot-activity-log.html: Tamper-evident activity ledger for Grok Bot with a daily audit routine (field-case) <https://github.com/deximple/grokbot-activity-log>
+- /cases/gh-github-com-riceblack67-grokbot-claude-code.html: Let Claude Code hand tasks to Grok Bot and wait for the answer, no webhook (guide) <https://github.com/RiceBlack67/grokbot-claude-code>
+- /cases/gh-github-com-syy706-grokbot-backup-kit.html: Back up and restore a Grok Bot box to a private GitHub repo (guide) <https://github.com/syy706/grokbot-backup-kit>
+- /cases/gh-github-com-miku2339-baileys-dot-bridge.html: Bridge WhatsApp messages to a ChatGPT Dot via MCP Events (guide) <https://github.com/miku2339/baileys-dot-bridge>
+- /cases/gh-github-com-soumilrathi-minecraft-companions.html: Talk to your Codex, Claude Code and ChatGPT Dot sessions inside Minecraft (field-case) <https://github.com/SoumilRathi/minecraft-companions>
+- /cases/x-esoterickang-2110716026715328527.html: A website that converts any date into 19 calendars (field-case) <https://x.com/EsotericKang/status/2110716026715328527>
+- /cases/x-teslaconomics-2110721195817509068.html: Travel bot “Trippy” booked flight, car, dinner, tickets and stay (field-case) <https://x.com/Teslaconomics/status/2110721195817509068>
+- /cases/x-wintereracer-2110716451459932216.html: Surfacing school events buried in email (field-case) <https://x.com/WinterEracer/status/2110716451459932216>
+- /cases/x-carolinadill-2110664268479676714.html: Plus aliases on the bot email address (guide) <https://x.com/CarolinaDill/status/2110664268479676714>
+- /cases/x-sholabuilds-2110722561579323648.html: A newsletter bot turned into a template, with human approval on every send (field-case) <https://x.com/sholabuilds/status/2110722561579323648>
+- /cases/x-jasonturcotte-2110720607662862805.html: “Coach”: a free starter template that walks you through (guide) <https://x.com/Jasonturcotte/status/2110720607662862805>
+- /cases/x-ericsoundminds-2110717336047047128.html: Ten habits for better Grok Bot results (guide) <https://x.com/EricSoundMinds/status/2110717336047047128>
+- /cases/x-rajuvamsi007-2110715135543185579.html: Having the bot buy travel insurance (field-case) <https://x.com/rajuvamsi007/status/2110715135543185579>
+- /cases/x-mattyod-2110714228130881880.html: A free bot that turns any sound into a Tesla lock chime (field-case) <https://x.com/Matty_O_D/status/2110714228130881880>
+- /cases/x-iamluisdev-2110722094631927894.html: Three rules: build on the Mac, cloud only when offline, nothing merges without me (guide) <https://x.com/iamluis_dev/status/2110722094631927894>
+- /cases/x-pokeefe363-2110718862874251345.html: Two separate bot teams, corrections go into one shared rules file (guide) <https://x.com/Pokeefe363/status/2110718862874251345>
+- /cases/x-ob1johnkenob1-2110718514801651796.html: A nightly voice journal with messages for the family (field-case) <https://x.com/Ob1JohnKenob1/status/2110718514801651796>
+- /cases/x-selbyai-2110562352701837733.html: A job-search “chief of staff” bot coordinating the others (field-case) <https://x.com/SelbyAI/status/2110562352701837733>
+- /cases/x-emollick-2110557530531447165.html: Giving a Dot its own email address (guide) <https://x.com/emollick/status/2110557530531447165>
+- /cases/x-zynstop-2110606030979920231.html: Have Muse audit its own token use (guide) <https://x.com/ZynStop/status/2110606030979920231>
+- /cases/x-ashiiirg-2110576664526905409.html: A social-media Muse emailing an operations OpenClaw (field-case) <https://x.com/ashiiirg/status/2110576664526905409>
+- /cases/x-dcinvestor-2110662874154905733.html: A separate email for your AI, plus selectively shared Drive folders (guide) <https://x.com/DCinvestor/status/2110662874154905733>
+- /cases/gh-github-com-tylerlongbons-hub-skill-building.html: Skill-building projects with Grok Bot as the customer (field-case) <https://github.com/tylerlongbons-hub/Skill-building>
+- /cases/gh-github-com-kky42-t3bot.html: T3 Code personal bot with memory, heartbeat and worker team (field-case) <https://github.com/kky42/t3bot>
+- /cases/gh-github-com-shagghiesuperstar-medusa-commerce.html: Grok Bot plugin for Medusa v2: draft-only, dry-run writes (field-case) <https://github.com/shagghiesuperstar/medusa-commerce>
+- /cases/gh-github-com-enzoenrico-siri-grokbot.html: Siri intents connector for Grok Bot on iPhone and CarPlay (field-case) <https://github.com/enzoenrico/siri-grokbot>
+- /cases/medium-devenkoai-medium-com-stop-using-ai-as-a-chatbot-how-to-build.html: Build a 24/7 engineering team with Grok Bot and Opus 5.5 (guide) <https://devenkoai.medium.com/stop-using-ai-as-a-chatbot-how-to-build-a-24-7-engineering-team-with-grok-bot-opus-5-5-d3a548590d10>
+- /cases/gh-github-com-olllayor-grokbot-opencode.html: OpenCode-powered desktop agent host (interim name) (field-case) <https://github.com/olllayor/grokbot-opencode>
+- /cases/yt-sqrf3j7vsz8.html: ChatGPT Dots explained: assign a goal, get progress back (guide) <https://www.youtube.com/watch?v=SQrf3J7vSz8>
+- /cases/devto-4855865.html: How to set up and use ChatGPT Dots (2026) (guide) <https://dev.to/theglitchfixer/openai-dots-how-to-set-up-use-chatgpts-always-on-ai-agent-2026-2g4p>
+- /cases/gh-github-com-johnnybyzhang-wecom-dot-bridge.html: Unofficial WeCom bridge to an existing ChatGPT Dot (field-case) <https://github.com/Johnnybyzhang/wecom-dot-bridge>
+- /cases/x-nightrang3r-2110670245622878281.html: Arcade game starring kids, built with Dot for a MAME cabinet (field-case) <https://x.com/NightRang3r/status/2110670245622878281>
+- /cases/x-pravinvince-2110853401336517086.html: ShopTrueProfit: Etsy profit dashboard built by Grok Bot (field-case) <https://x.com/PravinVince/status/2110853401336517086>
+- /cases/x-hislordship9-2110842762769928676.html: Job search with Grok Bot: 52 applications, 5 interviews in 3 days (field-case) <https://x.com/Hislordship_9/status/2110842762769928676>
+- /cases/x-elithrar-2110822272839844171.html: Learning French with Dot: mixed-language voice and dictation (field-case) <https://x.com/elithrar/status/2110822272839844171>
+- /cases/x-jordanhyder-2110859581501178104.html: Grok Bot email for data-broker removal confirmations (field-case) <https://x.com/jordan_hyder/status/2110859581501178104>
+- /cases/x-hopefullysc-2110853749681836537.html: Recipe collector Grok Bot instead of a ReciMe subscription (field-case) <https://x.com/HopefullySC/status/2110853749681836537>
+- /cases/x-ryanfspack-2110852919377699033.html: Fire-service org chart as a Grok Bot team template (guide) <https://x.com/Ryanfspack/status/2110852919377699033>
+- /cases/x-bentoboinft-2110615341546209720.html: Non-technical mom books pickleball courts daily with Muse (field-case) <https://x.com/BentoBoiNFT/status/2110615341546209720>
+- /cases/x-cmillet77-2110845175073558995.html: Full-time RVers use Grok Bot as travel agent and trip board (field-case) <https://x.com/Cmillet77/status/2110845175073558995>
+- /cases/x-ericklindberg-2110846574729347204.html: Built a first site with Dot, then hit approval-cancel errors (field-case) <https://x.com/erick_lindberg_/status/2110846574729347204>
+- /cases/yt-rm8zwhojdeg.html: Grok Bot runs business via jobs, routines, skills, and email (guide) <https://www.youtube.com/watch?v=RM8ZwhoJdeg>
+- /cases/x-xoptimiser-2110858074110267418.html: Grok Bot Slack access inconsistent across bots (guide) <https://x.com/XOptimiser/status/2110858074110267418>
+- /cases/x-mistemorales-2110848799287767400.html: Dot Quill hit Model not found and blocked workflows (guide) <https://x.com/MisteMorales/status/2110848799287767400>
+- /cases/x-shaunralston-2110850958620266721.html: Dot DASH interrupts for urgent email like an EA (field-case) <https://x.com/shaunralston/status/2110850958620266721>
+- /cases/x-thecsguy-2110860307036024929.html: Grok Bot built a space-themed Tesla UI for the author (field-case) <https://x.com/thecsguy/status/2110860307036024929>
+- /cases/x-ravenousmarmot-2110851138627232053.html: Motorcycle gear deal finder bot with 12h scans and weekly newsletter (field-case) <https://x.com/RavenousMarmot/status/2110851138627232053>
+- /cases/x-believeonjesus-2110858215093322022.html: Grok Bot for data-broker removal and AG complaint offer (field-case) <https://x.com/BelieveOnJesus/status/2110858215093322022>
+- /cases/x-mrbaileycarr-2110857441420402896.html: Grok Bot filled a government no-spam-calls form via inbox confirm (field-case) <https://x.com/mrbaileycarr/status/2110857441420402896>
+- /cases/x-billwolfe-2110835041035235521.html: Inbox Zero running with Dot on chat (field-case) <https://x.com/billwolfe/status/2110835041035235521>
+- /cases/x-joaosqra-2110833886943187372.html: Dot now asks permission every action and re-blocks approvals (guide) <https://x.com/joaosqra/status/2110833886943187372>
+- /cases/x-agentlane1-2110857444490428554.html: Monthly data-broker re-check with a dedicated bot inbox (guide) <https://x.com/AgentLane1/status/2110857444490428554>
+- /cases/x-simonsmith-2110425007059017830.html: Two personal apps built inside ChatGPT with a Dot (field-case) <https://x.com/_simonsmith/status/2110425007059017830>
+- /cases/x-jacobilin-2110456534220329453.html: A task board for multiple agents: a Dot, Grok Bot and Claude Code (field-case) <https://x.com/jacobilin/status/2110456534220329453>
+- /cases/gh-abruption-dots-tailscale.html: Tailscale and user-level SSH on a Dots cloud computer (guide) <https://github.com/abruption/dots-tailscale>
+- /cases/x-chefbrent-2110441550060888513.html: A Dot rescued a tax email from spam (field-case) <https://x.com/chefbrent/status/2110441550060888513>
+- /cases/x-sjourdan-2110317092134166787.html: A Dot transcribed a podcast with open-source fast-whisper (field-case) <https://x.com/sjourdan/status/2110317092134166787>
+- /cases/x-offzerocyber-2110384977053630788.html: Muse as email security: every message checked before reading (field-case) <https://x.com/OffZeroCyber/status/2110384977053630788>
+- /cases/yt-lr6bt1s4lfu.html: Nine money-making bots: landing pages, dialing, clipping, site audits (field-case) <https://www.youtube.com/watch?v=LR6BT1s4lFU>
+- /cases/yt-6cqpa5g-3ru.html: Hands-on with ChatGPT Dots vs Meta Muse (guide) <https://www.youtube.com/watch?v=6cqpa5G_3rU>
+- /cases/gh-github-com-aidevgru-dot-connect.html: Local inboxes and scheduling for Claude Code, Codex and Dot (field-case) <https://github.com/AIdevgru/dot-connect>
+- /cases/gh-github-com-barbaraackles-sitesense.html: Wellsite inspection with Muse Spark: satellite to drone to ground (field-case) <https://github.com/barbaraackles/sitesense>
+- /cases/x-krrishkapoor8-2110491932900364482.html: Eight GrokBot agents built, still missing a personal assistant (field-case) <https://x.com/KrrishKapoor8/status/2110491932900364482>
+- /cases/x-sudoaptaj-2110336461711311094.html: Always-on Grok Bot posts, replies, and ships game fixes overnight (field-case) <https://x.com/sudoaptaj/status/2110336461711311094>
+- /cases/x-deshiou0604-2110276483142852744.html: Running a Grok bot team: delete scaffolding that bets against models (guide) <https://x.com/deshiou0604/status/2110276483142852744>
+- /cases/hn-50070313.html: Helicon: an open-source desktop client for the Muse Code CLI (field-case) <https://github.com/HarjjotSinghh/helicon>
+- /cases/hn-50074512.html: Muse Souls: testing nine custom SOUL.md personas on Muse (field-case) <https://github.com/bkawa-io/muse-souls>
+- /cases/x-carolinadill-2110049188524216756.html: Where a Grok Bot gets its guidance: four places (guide) <https://x.com/CarolinaDill/status/2110049188524216756>
+- /cases/x-kyledettman-2109831484630565103.html: From Paprika recipes to a Kroger pickup order (field-case) <https://x.com/kyledettman/status/2109831484630565103>
+- /cases/gh-github-com-eatin-muse-gadget-waveshare-349.html: Waveshare ESP32 Muse Gadget port with Chinese voice backend (field-case) <https://github.com/Eatin/muse-gadget-waveshare-349>
+- /cases/gh-github-com-amranhudda-fitscout.html: FitScout: Muse MCP resale scout that learns taste from photos (field-case) <https://github.com/AmranHudda/fitscout>
+- /cases/x-reidhslaughter-2109645099479036095.html: Dotcord: real-time handoffs between Dots, Grok Bot and Claude in Discord (field-case) <https://x.com/reidhslaughter/status/2109645099479036095>
+- /cases/medium-grok-bots-job-search-ft-2hjs.html: Three cooperating Grok Bots plus a manager bot to find referrers (field-case) <https://medium.com/@roshan_ambhore/grok-bots-job-search-ft-2hjs-c122c6011e8d>
+- /cases/yt-4tolm1g-gce.html: Muse’s design lead on the interface decisions (guide) <https://www.youtube.com/watch?v=4TOLm1g-gCE>
+- /cases/x-chillwaterson-2109322448214667530.html: A Dot found a cheaper electricity plan from actual usage (field-case) <https://x.com/ChillWaterson/status/2109322448214667530>
+- /cases/x-raddadjokes7-2109305097880519124.html: Two spouses' Muses collaborate on a shared playlist and calendar (field-case) <https://x.com/raddadjokes7/status/2109305097880519124>
+- /cases/x-mikepat711-2109395926980952299.html: A shared Notion “errands” database every bot writes to (field-case) <https://x.com/mikepat711/status/2109395926980952299>
+- /cases/x-dkmitc-2109402706116858172.html: A week’s meal plan from a walk through the kitchen (field-case) <https://x.com/dkmitc/status/2109402706116858172>
+- /cases/gh-corvelis-dots-bridge-kit.html: Dots Bridge Kit: talk to your Dot through Even G2 glasses (field-case) <https://github.com/Corvelis/dots-bridge-kit>
+- /cases/gh-rhs059-dotcord.html: Dotcord: a Discord connector for OpenAI Dots (now with Grokbot support) (field-case) <https://github.com/RHS059/dotcord>
+- /cases/gh-smfworks-grok-bot-templates.html: Grok Bot templates published by SMF Works (guide) <https://github.com/smfworks/grok-bot-templates>
+- /cases/x-davidmay-2108347213046751265.html: Routing Claude Code communication through Grok Bots (field-case) <https://x.com/david_may/status/2108347213046751265>
+- /cases/yt-wxhoxfpecnm.html: Nine Dot tips after seven days of daily use (guide) <https://www.youtube.com/watch?v=WXhOxfPECnM>
+- /cases/x-jerrodlew-2108077437611598202.html: Muse picked a gadget to buy and guided its install (field-case) <https://x.com/jerrod_lew/status/2108077437611598202>
+- /cases/gh-rsms-esp32-dot.html: esp32-dot: a desk touchscreen companion for your Dot (field-case) <https://github.com/rsms/esp32-dot>
+- /cases/gh-rokrokss-apps-of-dots.html: apps of dots: self-hosted MCP for Discord, Telegram, WhatsApp (field-case) <https://github.com/rokrokss/apps-of-dots>
+- /cases/x-nodebaron-2108013834657050695.html: Muse sent airline kudos and claimed missing miles (field-case) <https://x.com/NodeBaron/status/2108013834657050695>
+- /cases/x-lyndallschreinr-2107888353630908437.html: Planning 15 family meals a week and doing the grocery shopping (field-case) <https://x.com/lyndallschreinr/status/2107888353630908437>
+- /cases/x-koltregaskes-2107977276197667109.html: A hidden but useful feature: Dot custom rules (guide) <https://x.com/koltregaskes/status/2107977276197667109>
+- /cases/x-embeethree-2107922181300928549.html: The Dot as business analyst and architect: one complete PR (field-case) <https://x.com/EmBeeThree/status/2107922181300928549>
+- /cases/x-manicktweet-2107632025326735378.html: A personal website from WhatsApp voice notes in 30 minutes (field-case) <https://x.com/manicktweet/status/2107632025326735378>
+- /cases/x-emergentcontent-2107895105004675147.html: A job search on Grok Bot or Muse, one prompt and a GitHub repo (field-case) <https://x.com/EmergentContent/status/2107895105004675147>
+- /cases/yt-mpbxmuh3vhk.html: Building apps in minutes with Dots, no code (guide) <https://www.youtube.com/watch?v=MpbxMuH3VHk>
+- /cases/yt-bsnhg6cnjze.html: Twelve Grok Bot uses: savings, Tesla assistant, lead finder, email triage (field-case) <https://www.youtube.com/watch?v=BsNHg6cNjZE>
+- /cases/x-nonieengel-2107297361009721493.html: A semi-automated feedback and learning loop for a Muse (field-case) <https://x.com/nonieengel/status/2107297361009721493>
+- /cases/x-raheemaspx-2107554755031777442.html: Printing the daily plan every morning (field-case) <https://x.com/RaHeemaspx/status/2107554755031777442>
+- /cases/gh-pluviobyte-dot2api.html: Dot2API: expose your Dot as an OpenAI- and Claude-compatible API (field-case) <https://github.com/Pluviobyte/dot2api>
+- /cases/x-jccastaneda05-2107374858481066342.html: Using a Dot to orchestrate Hermes agents across devices (field-case) <https://x.com/JcCastaneda05/status/2107374858481066342>
+- /cases/yt-rckbiy1gxki.html: Eleven ways I actually use Muse (with screen recordings) (field-case) <https://www.youtube.com/watch?v=RCKBIY1gxkI>
+- /cases/hn-49971444.html: Using Dots as a 7-agent swarm to improve a math bound (Lean-verified) (field-case) <https://unexcitedneurons.substack.com/p/i-used-openai-dots-as-an-agent-swarm>
+- /cases/gh-beechrasta-posterbuilder-muse-connector.html: PosterBuilder connector: social posters from a chat (field-case) <https://github.com/beechrasta/posterbuilder-muse-connector>
+- /cases/x-rckim77-2107203928475488733.html: Batching actionable email twice a day, 8am and 4pm (field-case) <https://x.com/rckim77/status/2107203928475488733>
+- /cases/yt-5hw4nhrtmr0.html: Six Muse uses: cancel subscriptions, auto-reply, find money, taxes (guide) <https://www.youtube.com/watch?v=5Hw4nHrTMR0>
+- /cases/x-whipla5her-2106782026896703702.html: Month-end inventory: a Dot reconciled the sheet in two minutes (field-case) <https://x.com/whipla5her/status/2106782026896703702>
+- /cases/gh-torcata-watch-dot.html: watch-dot: chat with your Dot on Apple Watch (field-case) <https://github.com/Torcata/watch-dot>
+- /cases/gh-jjenglert1-esp32-muse-agent.html: A pocket Muse agent for about $30 (field-case) <https://github.com/JJenglert1/esp32-muse-agent>
+- /cases/x-renegaderocks-2106589875449610356.html: A Dot handled a Netlify downgrade and refund, but lacks channels (field-case) <https://x.com/Renegade_Rocks/status/2106589875449610356>
+- /cases/x-dngnotes-2106663358204440997.html: Sending a Dot to trainings to take notes (field-case) <https://x.com/dng_notes/status/2106663358204440997>
+- /cases/yt-9rydalnb6ec.html: Setting up Dots: what worked and what frustrated (guide) <https://www.youtube.com/watch?v=9RYDaLnB6ec>
+- /cases/x-danielzambrini-2106417754441998636.html: A Dot spotted a bank email in a mailbox nobody checks (field-case) <https://x.com/DanielZambrini/status/2106417754441998636>
+- /cases/x-monokern-2106347355884642426.html: Seven videos to watch before hiring your first Dot (guide) <https://x.com/monokern/status/2106347355884642426>
+- /cases/yt-1ciobarxtvc.html: Muse setup, features and 12 use cases (3 tested) (guide) <https://www.youtube.com/watch?v=1CiobARXtVc>
+- /cases/yt-8fbvrydqwow.html: Nine Grok Bots built for real tasks (field-case) <https://www.youtube.com/watch?v=8FBvRYDQWow>
+- /cases/x-solanky-2105871916800389433.html: After Codex got killed, a Dot resumed every interrupted thread (field-case) <https://x.com/solanky/status/2105871916800389433>
+- /cases/x-sethrosen-2106041674812072082.html: Using a Dot as orchestrator to run more Codex threads in parallel (field-case) <https://x.com/sethrosen/status/2106041674812072082>
+- /cases/x-memphisbr-2106010893901255066.html: A Dot surfaced a GitHub mention from a spammy inbox and acted on it (field-case) <https://x.com/Memphisbr/status/2106010893901255066>
+- /cases/x-alexlupimed-2106156462984810923.html: A physician-in-training’s PKM with Dots and the Obsidian CLI (field-case) <https://x.com/AlexLupiMed/status/2106156462984810923>
+- /cases/x-fdatframe84228-2105983124374983128.html: Triaging WhatsApp and email while driving to school pickup (field-case) <https://x.com/FDatframe84228/status/2105983124374983128>
+- /cases/x-danielbuildsai-2105996506381926779.html: Using a Dot to orchestrate all Codex work sessions (field-case) <https://x.com/DanielBuildsAI/status/2105996506381926779>
+- /cases/x-aimrwhite-2105612186450297061.html: A four-week research assignment for a Dot: 7 AI tech hypotheses (field-case) <https://x.com/AI_MrWhite/status/2105612186450297061>
+- /cases/x-edorsey-2105678599953232117.html: A Dot drives an office Raspberry Pi display via MCP (field-case) <https://x.com/edorsey/status/2105678599953232117>
+- /cases/x-odiak-2105602619268092064.html: A self-hosted remote MCP server for HEY mail, usable from Dots and others (field-case) <https://x.com/odiak_/status/2105602619268092064>
+- /cases/hn-49934474.html: Test: let Dots pick the stack — 8 of 8 builds used Cloudflare + ChatGPT sign-in (guide) <https://amplifying.ai/research/openai-dots-choose>
+- /cases/hn-49929970.html: Using Muse for large-scale web scraping for a concert-video site (field-case) <https://sigh.dev/posts/metas-muse-is-fantastic-for-web-scraping/>
+- /cases/gh-agricidaniel-dots-second-brain.html: Dots Second Brain: a source-backed Obsidian vault (guide) <https://github.com/AgriciDaniel/dots-second-brain>
+- /cases/gh-aieo-product-dots-stackchan.html: Give your Dot a body: a Stack-chan robot (field-case) <https://github.com/aieo-product/dots_stackchan>
+- /cases/gh-beeper-chatgpt-dots.html: Beeper’s native messaging bridge for ChatGPT Dots (field-case) <https://github.com/beeper/chatgpt-dots>
+- /cases/x-ctrlaltdwayne-2105603794293887167.html: A Dot caught a Fiji booking in the wrong month (field-case) <https://x.com/CtrlAltDwayne/status/2105603794293887167>
+- /cases/x-coreyganim-2105717683736265168.html: Workaround: point your Dot at your Codex custom instructions (guide) <https://x.com/coreyganim/status/2105717683736265168>
+- /cases/x-vizentro-2105672207435170065.html: Dot Hotel: a directory of ready-made Dot setups with permissions listed (guide) <https://x.com/Vizentro/status/2105672207435170065>
+- /cases/x-persimmons-2105469386890870797.html: First impressions: personal shopper, travel planner, marathon dashboard (field-case) <https://x.com/per_simmons_/status/2105469386890870797>
+- /cases/x-mdowney-2105466076113117211.html: Watching a fantasy football lineup before kickoff (field-case) <https://x.com/mdowney/status/2105466076113117211>
+- /cases/yt-e29wtzookxk.html: Using Dots the right way: a Project Manager skill (guide) <https://www.youtube.com/watch?v=e29WTzoOKxk>
+- /cases/yt-pugo-si6xro.html: 26 Muse use cases already in place (field-case) <https://www.youtube.com/watch?v=puGo_SI6Xro>
+- /cases/x-jessewaites-2105288347052605536.html: Giving a Dot a physical body: an ESP32 with a tiny screen (field-case) <https://x.com/JesseWaites/status/2105288347052605536>
+- /cases/x-vraserx-2105367083454550297.html: A Dot proactively found a relevant course and scheduled it (field-case) <https://x.com/VraserX/status/2105367083454550297>
+- /cases/x-oncelcebeci-2105273727873331437.html: A Dot QC'd a site and handed the fix to Codex (field-case) <https://x.com/oncelcebeci/status/2105273727873331437>
+- /cases/hn-49912880.html: Tailscale official: put Muse on your tailnet and fence it with access controls (guide) <https://tailscale.com/blog/meta-muse-ai-agent-tailscale>
+- /cases/gh-voltagent-awesome-openai-dots.html: Awesome OpenAI Dots: a community list of workflows and rules (guide) <https://github.com/VoltAgent/awesome-openai-dots>
+- /cases/gh-graydeon-dot-panel.html: dot-panel: a touch dashboard your Dot builds for itself (field-case) <https://github.com/graydeon/dot-panel>
+- /cases/gh-duclm1x1-muse-chat-mcp.html: Muse-Chat-MCP: use Muse from any MCP or OpenAI-compatible client (field-case) <https://github.com/duclm1x1/Muse-Chat-MCP>
+- /cases/x-mechengdev-2105381046044815388.html: A Blender retro camera turned into a playable Three.js scene (field-case) <https://x.com/mech_eng_dev/status/2105381046044815388>
+- /cases/x-vibecodeguild-2105414532793561475.html: A free calorie tracker built with Muse to replace MyFitnessPal (field-case) <https://x.com/vibecodeguild/status/2105414532793561475>
+- /cases/x-dariusgaynor-2105342293721145365.html: A Grok Bot content team, partly moving to Dots, still signing off on everything (field-case) <https://x.com/dariusgaynor/status/2105342293721145365>
+- /cases/yt-sa3xdlu1uda.html: First hour with Dots: 100+ calendar entries organized, iOS bugs fixed (field-case) <https://www.youtube.com/watch?v=sA3XDlU1udA>
+- /cases/yt-db1krjqet8w.html: First 24 hours with Dots: a 12-minute tour (guide) <https://www.youtube.com/watch?v=db1KRJQEt8w>
+- /cases/yt-hcttxibjt-c.html: The truth about Dots: what works and where it falls apart (guide) <https://www.youtube.com/watch?v=HCttXibjt-c>
+- /cases/web-openai-introducing-dots.html: OpenAI official: Introducing dots (guide) <https://openai.com/index/introducing-dots/>
+- /cases/x-mvanhorn-2104739688930312209.html: After a karaoke bar hung up on its AI call, Muse routed the task to a human (field-case) <https://x.com/mvanhorn/status/2104739688930312209>
+- /cases/gh-armando-token-hackday26.html: Hack Day project: Muse queries industrial specs, stock and quotes via a private API (field-case) <https://github.com/armando-token/hackday26>
+- /cases/yt-gfh6l3dxhk0.html: Give your Dot a real goal, not a simple prompt (guide) <https://www.youtube.com/watch?v=gfh6l3DxHK0>
+- /cases/yt-z5x1emu6isi.html: Running a one-person business on Dots: a five-figure sponsorship catch (field-case) <https://www.youtube.com/watch?v=z5X1eMU6isI>
+- /cases/yt-y0zmptl32-y.html: Testing Dots for a job search (field-case) <https://www.youtube.com/watch?v=y0zMPTL32-Y>
+- /cases/x-caffinatedak-2104158651925877133.html: Muse price-checked a grocery basket across three quick-commerce apps and ordered (field-case) <https://x.com/CaffinatedAK/status/2104158651925877133>
+- /cases/x-grokbotradar-2104304589797556457.html: Nail the workflow before you schedule it (guide) <https://x.com/GrokBotRadar/status/2104304589797556457>
+- /cases/yt-xz5tealeudg.html: Fourteen bots the Grok Bot team actually uses (field-case) <https://www.youtube.com/watch?v=xZ5TEaleUdg>
+- /cases/x-anishjha18-2103842349004513323.html: A “Head of Marketing” bot template (guide) <https://x.com/anishjha18/status/2103842349004513323>
+- /cases/yt-g25kxtb3lrg.html: Three ways to use Muse on Facebook (guide) <https://www.youtube.com/watch?v=g25KXtB3Lrg>
+- /cases/yt-jbgycowvczi.html: Six Muse features: price tracking, Reels to itinerary, Credential Store (guide) <https://www.youtube.com/watch?v=jbGYcOWvCZI>
+- /cases/x-mykomarci-2103514112017772599.html: A social network where only Muse agents can post (field-case) <https://x.com/mykomarci/status/2103514112017772599>
+- /cases/x-chrismayer-2103325855087018244.html: Bot-built recipe app plus Instacart ordering for dinner (field-case) <https://x.com/Chris_Mayer/status/2103325855087018244>
+- /cases/x-lifeofv42-2102962203347317148.html: Muse ran an app QA pass in an hour: a 15-page report (field-case) <https://x.com/LifeofV42/status/2102962203347317148>
+- /cases/gh-nmhjklnm-meta-muse-vm.html: Reverse SSH tunnel skill: make a Muse VM reachable (guide) <https://github.com/nmhjklnm/meta-muse-vm>
+- /cases/gh-astroxnetwork-muse-connector-template.html: A deployable Muse connector template (guide) <https://github.com/AstroxNetwork/muse-connector-template>
+- /cases/x-chrisclickup-2102447255378903285.html: Ordering DoorDash with Meta Muse (field-case) <https://x.com/ChrisClickUp/status/2102447255378903285>
+- /cases/x-thatotherzach-2101951609412493799.html: A bot running the job search and filtering out ghost jobs (field-case) <https://x.com/ThatOtherZach/status/2101951609412493799>
+- /cases/x-designbymoein-2102123926554054972.html: Pre-design research: Muse collects landing pages and patterns (field-case) <https://x.com/DesignByMoein/status/2102123926554054972>
+- /cases/x-devwithblake-2101757781313548306.html: Muse compared 6 renters-insurance quotes, saving the author $60 a year (field-case) <https://x.com/devwithblake/status/2101757781313548306>
+- /cases/x-danieloleary-2101790187726716979.html: Taxes done in under 3 hours with Muse (field-case) <https://x.com/danieloleary/status/2101790187726716979>
+- /cases/x-ademers-2101345942620279117.html: Setting up an Oracle Cloud free instance with Muse's built-in browser (field-case) <https://x.com/ademers/status/2101345942620279117>
+- /cases/x-jamesdtoole-2101405831019254210.html: A detailed multi-source surf report every morning (field-case) <https://x.com/jamesdtoole/status/2101405831019254210>
+- /cases/gh-krishnakumaar-muse-wardrobe-connector.html: A wardrobe and styling connector (field-case) <https://github.com/krishnakumaar/muse-wardrobe-connector>
+- /cases/gh-bodila51-grok-bot-jev.html: Jev Router: a cheap decision layer in front of Grok Bot (field-case) <https://github.com/Bodila51/grok-bot-jev>
+- /cases/x-aptaltruist-2100787082310377894.html: Muse cleaned up an inbox with, the author says, zero errors (field-case) <https://x.com/apt_altruist/status/2100787082310377894>
+- /cases/yt-eu1icyi9bcs.html: Muse called support and cut bills by $800+ a year (field-case) <https://www.youtube.com/watch?v=eU1ICyI9bCs>
+- /cases/x-rja907-2100694472489398558.html: A daily Muse job that summarizes chatty X groups (field-case) <https://x.com/rja907/status/2100694472489398558>
+- /cases/x-throwabull-2100362187705340000.html: Give Muse its own virtual card with a monthly limit (guide) <https://x.com/throwabull/status/2100362187705340000>
+- /cases/gh-bluman1-muse-connectors.html: Muse Connectors: auditable connector skills installed with one prompt (guide) <https://github.com/bluman1/muse-connectors>
+- /cases/yt-kxfhqbymjkc.html: Seven household bots: home upkeep, family appointments, trial cancelling (sponsored) (field-case) <https://www.youtube.com/watch?v=kXfHQbyMjkc>
+- /cases/x-positiveinvst-2099328392894022072.html: Muse built its own TickTick integration via API in 5 minutes (field-case) <https://x.com/PositiveInvst/status/2099328392894022072>
+- /cases/gh-mozzquito-omx-grokbot-public.html: An MCP bridge between Grok Bot and Claude Code (in progress) (field-case) <https://github.com/mozzquito/omx-grokbot-public>
+- /cases/x-kainosflux-2097556600722510153.html: A Muse setup list: themed side chats, health dashboard and workout tracker (field-case) <https://x.com/kainosflux/status/2097556600722510153>
+- /cases/yt-a3ggw287g2q.html: Keeping life together with Muse before a wedding (paid partnership) (field-case) <https://www.youtube.com/watch?v=a3gGw287G2Q>
+- /cases/yt-90pwpvrydhg.html: The part nobody showed: all bots share one computer (guide) <https://www.youtube.com/watch?v=90pwPVrydHg>
+- /cases/yt-qbmgf1kjsk4.html: About 30 agents running: chief of staff, family newspaper, PR queue and compliance (field-case) <https://www.youtube.com/watch?v=QBmgF1kJSK4>
+- /cases/x-jcchristopher-2094629400524247421.html: Walking a bot through the morning routine (field-case) <https://x.com/JCChristopher/status/2094629400524247421>
+- /cases/web-duffel-muse.html: Duffel official: search, book and manage flights inside Muse (guide) <https://duffel.com/blog/millions-of-users-can-now-use-duffel-to-search-book-and-manage-holidays-on-muse-the-new-personal-ai-agent-from-meta>
+- /cases/gh-cobusgreyling-grok-bot-templates.html: An engineering kit for Grok Bot templates (guide) <https://github.com/cobusgreyling/grok-bot-templates>
+- /cases/yt-z-mlyxpwas.html: How to set up Grok Bot Routines (guide) <https://www.youtube.com/watch?v=z-_MLyXPwas>
+- /cases/gh-ethanolivertroy-grokbot-cloudflare-inbox.html: A self-hosted Grok Bot inbox on Cloudflare Workers (field-case) <https://github.com/ethanolivertroy/grokbot-cloudflare-inbox>
+- /cases/yt-x8kp4mdvm1k.html: Eight Grok Bot uses: CEO, revenue ops, repurposing, autonomous research (field-case) <https://www.youtube.com/watch?v=x8KP4MdvM1k>
+- /cases/yt-lrupu2-ktgq.html: Five uses including an inbox agent feeding ClickUp (field-case) <https://www.youtube.com/watch?v=lRUpu2-KtGQ>
 - /cases/t-marketing-analyst.html: Marketing Analyst (template) <https://x.ai/bot/1RbG9yW5MpQ55XcQlJ0aQ>
 - /cases/t-cooper.html: Cooper (template) <https://x.ai/bot/8hhdYqfvRzigWstUtcmBZ>
 - /cases/t-paid-media-report-desk.html: Paid Media Report Desk (template) <https://x.ai/bot/qBFjPRQ3IbHG69qIFHblE>
@@ -876,7 +877,7 @@
 - /cases/t-garden-retail-research-specialist.html: Garden Retail Research Specialist (template) <https://x.ai/bot/Y8YOrZBsPE8U-jyTI7Qtk>
 - /cases/t-github-pr-desk.html: GitHub PR Desk (template) <https://x.ai/bot/Ih9HEfCaYjMKbEZqSfbic>
 - /cases/t-github-trending-scout.html: GitHub Trending Scout (template) <https://x.ai/bot/EklFc0zYAqzkxcALynMj2>
-- /cases/t-github.html: github 优秀仓库 (template) <https://x.ai/bot/D9HYH2jAmGiKw7e499mrE>
+- /cases/t-github.html: Great GitHub repos (template) <https://x.ai/bot/D9HYH2jAmGiKw7e499mrE>
 - /cases/t-glp-1-buddy.html: GLP-1 Buddy (template) <https://x.ai/bot/ml0GdUkH0A-e7WwPcG6Jp>
 - /cases/t-gluco.html: Gluco (template) <https://x.ai/bot/7dHh-kr8rz5r5z_RKE-VM>
 - /cases/t-goal-delta.html: Goal Delta (template) <https://x.ai/bot/Y59F9aE64YO6Xk5FGUIjE>
@@ -970,14 +971,14 @@
 - /cases/t-x-reply-scout.html: X Reply Scout (template) <https://x.ai/bot/DRZ2jU1GFwV8HS2_9Y6MA>
 - /cases/t-x-top-100-fans-weekly.html: X Top 100 Fans Weekly (template) <https://x.ai/bot/HU7XArfGhUgLnzVcr7neB>
 - /cases/t-x-top-500-fans.html: X Top 500 Fans (template) <https://x.ai/bot/XzEATGwJNRvgsCLlcD9ox>
-- /cases/t-x-jvm9.html: X 投资情报助手 (template) <https://x.ai/bot/Jvm9xCsIY8CtTReKdytvk>
+- /cases/t-x-jvm9.html: X investment intel assistant (template) <https://x.ai/bot/Jvm9xCsIY8CtTReKdytvk>
 - /cases/t-xcode-release-watcher.html: Xcode release watcher (template) <https://x.ai/bot/prf1nUpf3jrPAtCR5Rm4Y>
-- /cases/t-x-lqyi.html: X運用アドバイザー (template) <https://x.ai/bot/lQyIEp3Wqbm8X78tLTa-8>
+- /cases/t-x-lqyi.html: X operations advisor (template) <https://x.ai/bot/lQyIEp3Wqbm8X78tLTa-8>
 - /cases/t-yahoo-pulse.html: Yahoo Pulse (template) <https://x.ai/bot/5nnJJwVjO4EwThIaaaynu>
 - /cases/t-zach.html: Zach (template) <https://x.ai/bot/lfc-k1106XkXDlmAmJEco>
-- /cases/t-form-first-b2b-outreach-japan.html: フォーム優先アウトバウンド (template) <https://x.ai/bot/-4fEgwVFAm8w_ULi4pjmC>
-- /cases/t-logs-spending-voice-nightly-summary.html: 人生·财务 (template) <https://x.ai/bot/haSA0Ru28CYKDm2V5tPRB>
-- /cases/t-daily-x-posting-system-ideas.html: 推特运营方法论 (template) <https://x.ai/bot/ScOhH1qaoq4XdoYhisagg>
+- /cases/t-form-first-b2b-outreach-japan.html: Form-first outbound (template) <https://x.ai/bot/-4fEgwVFAm8w_ULi4pjmC>
+- /cases/t-logs-spending-voice-nightly-summary.html: Life · finance (template) <https://x.ai/bot/haSA0Ru28CYKDm2V5tPRB>
+- /cases/t-daily-x-posting-system-ideas.html: Twitter growth playbook (template) <https://x.ai/bot/ScOhH1qaoq4XdoYhisagg>
 - /cases/t-daily-three-kingdoms-illustration-rotating.html: 톨삼국지 (template) <https://x.ai/bot/IXID16RPXlKV6KHQCdmr7>
 - /cases/t-contest-winner.html: 🏆 Contest Winner (template) <https://x.ai/bot/LENrKV-0QXmE_TGv3_hem>
 - /cases/t-learnbot.html: 💡 LearnBot (template) <https://x.ai/bot/2gmdsU86wH7HBvbB7_T2C>
@@ -1043,7 +1044,7 @@
 - /cases/t-free-contest.html: Free Contest (template) <https://x.ai/bot/duPnEjDq9SYTK2nAyPDj4>
 - /cases/t-gentle-daily-companion.html: Gentle Daily Companion (template) <https://x.ai/bot/NuFI0dF9FgvO8FfMPHKzx>
 - /cases/t-gird-coach.html: Gird Coach (template) <https://x.ai/bot/H8XFB8Ly0EGOyU3VDmwi1>
-- /cases/t-gmail-pu1z.html: Gmail朝の仕分け (template) <https://x.ai/bot/pu1Zx7vvSd55f0iU0sAVT>
+- /cases/t-gmail-pu1z.html: Gmail morning triage (template) <https://x.ai/bot/pu1Zx7vvSd55f0iU0sAVT>
 - /cases/t-grocery-bot-srti.html: Grocery Bot (template) <https://x.ai/bot/_SRTioxlU87XALDdBXsie>
 - /cases/t-grocery-clip-cart.html: Grocery · Clip & Cart (template) <https://x.ai/bot/0JEs5P-XFbJw6fSsticl8>
 - /cases/t-grok-bot-mt6a.html: Grok Bot (template) <https://x.ai/bot/MT6acytP70wHR526vPvM3>
@@ -1133,10 +1134,10 @@
 - /cases/t-x-ops-expert.html: X Ops Expert (template) <https://x.ai/bot/fePZGiWiTZP9n4BoKIlMY>
 - /cases/t-yc-podcast-notes.html: YC Podcast Notes (template) <https://x.ai/bot/0y-dcpVFqFkjibKs2M48D>
 - /cases/t-zxn-news-conservative.html: Zxn News Conservative (template) <https://x.ai/bot/6MGQJ5KHWL-XYfzLDRMsb>
-- /cases/t-bot.html: 信息搜集-bot (template) <https://x.ai/bot/Swm4NLf4yPCzuANa4ghaT>
-- /cases/t-ai-oqeu.html: 左左的AI情报员 (template) <https://x.ai/bot/OqeUopbZ8pvjf6RyvRTQt>
-- /cases/t-grok-bot-changelog.html: 更新速递 · Grok Bot Changelog (template) <https://x.ai/bot/lIO-FUTrwcA2r7nbfaXx4>
-- /cases/t-weekly-fair-mint-scanner.html: 每週公平分發代幣掃描 (template) <https://x.ai/bot/kO0E0KzOkpUnPJQLmzBFm>
+- /cases/t-bot.html: Info-gathering bot (template) <https://x.ai/bot/Swm4NLf4yPCzuANa4ghaT>
+- /cases/t-ai-oqeu.html: Zuozuo's AI intel scout (template) <https://x.ai/bot/OqeUopbZ8pvjf6RyvRTQt>
+- /cases/t-grok-bot-changelog.html: Release notes · Grok Bot Changelog (template) <https://x.ai/bot/lIO-FUTrwcA2r7nbfaXx4>
+- /cases/t-weekly-fair-mint-scanner.html: Weekly fair token-distribution scan (template) <https://x.ai/bot/kO0E0KzOkpUnPJQLmzBFm>
 - /cases/t-3cpo.html: 3CPO (template) <https://x.ai/bot/3VQwuanA2wWINc0FQDAFn>
 - /cases/t-3d-print-picker.html: 3D Print Picker (template) <https://x.ai/bot/eneihB5UxrWebXtoVlOm6>
 - /cases/t-adventure-photography-bot.html: Adventure Photography Bot (template) <https://x.ai/bot/-0bgFr7-a5pUPscGVqAe3>
@@ -1194,7 +1195,7 @@
 - /cases/t-x-video-puller.html: X Video Puller (template) <https://x.ai/bot/2b-nu4HSnMh_x4ptop82S>
 - /cases/t-weekly-planning-desk.html: 🗓️ Weekly Planning Desk ✦ WEEK-WISE (template) <https://x.ai/bot/kdSDHdxsR07JlrLb0uEX_>
 - /cases/t-study-plan-desk.html: 🧭 Study Plan Desk ✦ PACE-SETTER (template) <https://x.ai/bot/tCwQfRK3IPbVVlwHL7PVq>
-- /cases/t-ai-sgx1.html: AI 官号雷达 (template) <https://x.ai/bot/sGX1MPOtVLAMzSUScPaxi>
+- /cases/t-ai-sgx1.html: AI official-account radar (template) <https://x.ai/bot/sGX1MPOtVLAMzSUScPaxi>
 - /cases/t-apple-tech-morning-brief.html: Apple & Tech Morning Brief (template) <https://x.ai/bot/T_uGEf4Bv2rN-Z5vBkuMi>
 - /cases/t-archivist.html: Archivist (template) <https://x.ai/bot/0M2KfANsxrPRRp5mqg0m8>
 - /cases/t-bo-provider.html: BO Provider (template) <https://x.ai/bot/CorLvGTGA-TS6Xq00IvFd>
@@ -1234,7 +1235,7 @@
 - /cases/t-tesla-bot-g5jp.html: Tesla Bot (template) <https://x.ai/bot/g5J-pr8mBUjLbY2LktOl1>
 - /cases/t-weekly-fantasy-football-injuries.html: Weekly Fantasy Football Injuries (template) <https://x.ai/bot/ffJk4XZDJ2DRBrngB76AG>
 - /cases/t-whats-for-dinner-xczp.html: What's for Dinner? (template) <https://x.ai/bot/XcZpofYvIFmfsxXK4Ifxg>
-- /cases/t-monthly-security-checkup.html: セキュリティ点検 (template) <https://x.ai/bot/4zx8w8Oc9dm0d3Den_Abe>
+- /cases/t-monthly-security-checkup.html: Security check (template) <https://x.ai/bot/4zx8w8Oc9dm0d3Den_Abe>
 - /cases/t-bill-tracker.html: Bill Tracker (template) <https://x.ai/bot/bLMKUc6_qCdMrNlKybe0w>
 - /cases/t-billy-backup.html: Billy Backup (template) <https://x.ai/bot/NbmW9HRNQicgB0W8QS824>
 - /cases/t-bot-changelog.html: Bot Changelog (template) <https://x.ai/bot/sXcyeWUCMtjMQ2PLqQE5a>
@@ -1286,7 +1287,7 @@
 - /cases/t-tripconcierge.html: TripConcierge (template) <https://x.ai/bot/bze8MHCEZCkRP_Dw7uqw5>
 - /cases/t-youtube-strategist.html: YouTube Strategist (template) <https://x.ai/bot/N0o39am-LGFtdu68kKtcD>
 - /cases/t-bot-nmgaac.html: スキルクリエイター (template) <https://x.ai/bot/NMGAAcLcgqHjs9JwpgPyo>
-- /cases/t-japanese-companion-bot-daily-notes.html: 桜草メイ (template) <https://x.ai/bot/IoAHIj45_pUJYsw7mqLP6>
+- /cases/t-japanese-companion-bot-daily-notes.html: Sakurasou Mei (template) <https://x.ai/bot/IoAHIj45_pUJYsw7mqLP6>
 - /cases/t-signal-brief-desk-signal-sharp.html: 🛰️ Signal Brief Desk ✦ SIGNAL-SHARP (template) <https://x.ai/bot/c8Uu87h5R4WREeteSVXQT>
 - /cases/t-family-chore-chart-desk-fair-share.html: 🧹 Family Chore Chart Desk ✦ FAIR-SHARE (template) <https://x.ai/bot/hOXHZNTUlMUx3CXDzLmwP>
 - /cases/t-account-media-rundown.html: Account Media Rundown (template) <https://x.ai/bot/_gepo03hyPVe3i7hlQwa9>
@@ -1316,7 +1317,7 @@
 - /cases/t-sittawhile.html: Sittawhile (template) <https://x.ai/bot/50a-UaeqVWBnrZICU7Jti>
 - /cases/t-timber.html: Timber (template) <https://x.ai/bot/aXd23Y92YukH8W2Kj7pye>
 - /cases/t-trading-coach.html: Trading Coach (template) <https://x.ai/bot/Gktb--JKwBVtPuZo5vcvM>
-- /cases/t-pharmacist-news-team-builder.html: 薬剤師ニュースチーム立ち上げbot (template) <https://x.ai/bot/h2c1pK5fFqKPvzfm-rvQV>
+- /cases/t-pharmacist-news-team-builder.html: Pharmacist news team starter bot (template) <https://x.ai/bot/h2c1pK5fFqKPvzfm-rvQV>
 - /cases/t-ask-apai-authentic-press.html: Ask APAI - Authentic Press (template) <https://x.ai/bot/zUOnWbdg9_O1iJvQgym-J>
 - /cases/t-chief-qifs.html: Chief (template) <https://x.ai/bot/qifsy8ppwjqbsidal-5ci>
 - /cases/t-chop-bot-3ity.html: Chop Bot (template) <https://x.ai/bot/3ityjifcsujyyq6rp5vaq>
@@ -1499,9 +1500,9 @@
 - /cases/t-ai-resource-sift.html: AI Resource Sift (template) <https://x.ai/bot/3XvYxSCGJRY6x1woq-hdL>
 - /cases/t-ai-security-advisor.html: AI Security Advisor (template) <https://x.ai/bot/rrKp1eA9QnW8P5QAGKaKS>
 - /cases/t-ai-vp-bot.html: AI VP Bot (template) <https://x.ai/bot/miMMOUhEpvv-KFJWg5qhw>
-- /cases/t-ai-es3l.html: AI 视频专家 (template) <https://x.ai/bot/ES3LVns98INeXAoYwef_f>
+- /cases/t-ai-es3l.html: AI video expert (template) <https://x.ai/bot/ES3LVns98INeXAoYwef_f>
 - /cases/t-aiusagebot.html: AIUsageBot (template) <https://x.ai/bot/2atUDeldi9vF1R_ySRgCo>
-- /cases/t-ai.html: AIオーケストレーション担当 (template) <https://x.ai/bot/-kSMWtBCorQFkgUhm0DLk>
+- /cases/t-ai.html: AI orchestration lead (template) <https://x.ai/bot/-kSMWtBCorQFkgUhm0DLk>
 - /cases/t-albert.html: Albert (template) <https://x.ai/bot/jtFHKaEKzEZ0zSDVCl6BP>
 - /cases/t-alexandria.html: Alexandria (template) <https://x.ai/bot/kjS8IGsV78-rPH_8mYlXk>
 - /cases/t-alibaba-buyer-ops.html: Alibaba Buyer Ops (template) <https://x.ai/bot/ZTFwMWXlScRvLrkHuR3gs>
@@ -1629,18 +1630,18 @@
 - /cases/the-next-web-grok-bot-will-also-use-claude-midjourney-and-su-572.html: The Next Web: Grok Bot will also use Claude, Midjourney and Suno models (comparison) <https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk>
 - /cases/9to5mac-how-to-claim-your-grok-bot-email-address-573.html: 9to5Mac: how to claim your Grok Bot email address (comparison) <https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/>
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
-- /cases/gh-github-com-armeria-sk-niwa-pull-2.html: 对照 Grok Bot 和 OpenAI Dots 补齐自建 agent 的短板 (comparison) <https://github.com/Armeria-SK/niwa/pull/2>
-- /cases/x-airoboticsint-2110853694925549794.html: Muse 对 Grok Bot：原生外呼 vs 偏入站语音 (comparison) <https://x.com/AIRoboticsInt/status/2110853694925549794>
-- /cases/x-drivingimpact-2110777727938928830.html: Dots、Muse、Grok Bot：三种不同 Agent 模型 (comparison) <https://x.com/Driving_Impact/status/2110777727938928830>
-- /cases/x-tifoden-2110823019807715833.html: 三款常驻 agent 的区别：Grok Bot 是团队，Dots 和 Muse 偏单兵 (comparison) <https://x.com/tifoden/status/2110823019807715833>
-- /cases/x-echo12yj-2110477717003268162.html: 三款 agent 能否搞定韩国网站：23 份报告汇总 (comparison) <https://x.com/echo12yj/status/2110477717003268162>
-- /cases/x-yangunplugged-2110263685121974384.html: Dots 与 Grok Bot 并排试用：单一对话 vs 多个专职 Bot (comparison) <https://x.com/yang_unplugged/status/2110263685121974384>
-- /cases/x-magaman-2110357624244052360.html: Grok Bot 团队 vs 笨拙但可用的 Muse+Dots 内容流 (comparison) <https://x.com/magaman/status/2110357624244052360>
-- /cases/medium-openai-dots-vs-grok-bot-vs-building-your-own.html: Dots、Grok Bot 还是自建：带邮箱的 agent 真实成本 (comparison) <https://medium.com/@benjaminbrookarsh/openai-dots-vs-grok-bot-vs-building-your-own-what-an-ai-agent-with-an-inbox-really-costs-ecba5962592f>
-- /cases/x-oskarkaszubski-2108028227071389765.html: 定时检查最短间隔对比：Muse、Dots、Grok Bot (comparison) <https://x.com/OskarKaszubski/status/2108028227071389765>
-- /cases/x-petergyang-2105374125669884120.html: Peter Yang：Dots 与其他个人 Agent 的对比 (comparison) <https://x.com/petergyang/status/2105374125669884120>
-- /cases/yt-bvvfzkkz4yo.html: 实测 OpenAI Dots 对比 Meta Muse (comparison) <https://www.youtube.com/watch?v=BvvfZKKz4Yo>
-- /cases/yt-douqxfdygma.html: Grok Bot 对比 Claude：12 个日常职场用例 (comparison) <https://www.youtube.com/watch?v=douQXfdYGmA>
+- /cases/gh-github-com-armeria-sk-niwa-pull-2.html: Closing a self-hosted agent's gaps found by comparing it with Grok Bot and OpenAI Dots (comparison) <https://github.com/Armeria-SK/niwa/pull/2>
+- /cases/x-airoboticsint-2110853694925549794.html: Muse vs Grok Bot: native outbound calls vs inbound-first voice (comparison) <https://x.com/AIRoboticsInt/status/2110853694925549794>
+- /cases/x-drivingimpact-2110777727938928830.html: Dots vs Muse vs Grok Bot: three different agent models (comparison) <https://x.com/Driving_Impact/status/2110777727938928830>
+- /cases/x-tifoden-2110823019807715833.html: How the three always-on agents differ: Grok Bot is a team, Dots and Muse work solo (comparison) <https://x.com/tifoden/status/2110823019807715833>
+- /cases/x-echo12yj-2110477717003268162.html: Can these agents work on the Korean web? 23 reports in one table (comparison) <https://x.com/echo12yj/status/2110477717003268162>
+- /cases/x-yangunplugged-2110263685121974384.html: Dots vs Grok Bot side by side: one chat vs specialist bots (comparison) <https://x.com/yang_unplugged/status/2110263685121974384>
+- /cases/x-magaman-2110357624244052360.html: Grok Bot teams vs clunky Muse+Dots content workflow (comparison) <https://x.com/magaman/status/2110357624244052360>
+- /cases/medium-openai-dots-vs-grok-bot-vs-building-your-own.html: Dots, Grok Bot or build your own: what an agent with an inbox really costs (comparison) <https://medium.com/@benjaminbrookarsh/openai-dots-vs-grok-bot-vs-building-your-own-what-an-ai-agent-with-an-inbox-really-costs-ecba5962592f>
+- /cases/x-oskarkaszubski-2108028227071389765.html: Shortest schedule interval compared: Muse, Dots, Grok Bot (comparison) <https://x.com/OskarKaszubski/status/2108028227071389765>
+- /cases/x-petergyang-2105374125669884120.html: Peter Yang: OpenAI Dots vs. the other personal agents (comparison) <https://x.com/petergyang/status/2105374125669884120>
+- /cases/yt-bvvfzkkz4yo.html: OpenAI Dots vs Meta Muse, tested (comparison) <https://www.youtube.com/watch?v=BvvfZKKz4Yo>
+- /cases/yt-douqxfdygma.html: Grok Bot vs Claude on 12 daily work use cases (comparison) <https://www.youtube.com/watch?v=douQXfdYGmA>
 - /cases/star-catcher-smoke-offline-canvas-game-grok-build-smoke-1.html: star-catcher-smoke — offline canvas game (Grok Build smoke) (quota-report) <https://github.com/Cesardellantonio/star-catcher-smoke>
 - /cases/box-credit-committee-pack-2.html: Box: credit-committee pack (quota-report) <https://x.com/Box/status/2087275866950938662>
 - /cases/nate-twelve-bots-in-eight-hours-3.html: Nate: twelve Bots in eight hours (quota-report) <https://natesnewsletter.substack.com/p/grok-bot-review>
@@ -1688,21 +1689,21 @@
 - /cases/forum-cloud-agents-from-grok-bot-spend-team-cloud-credits-45.html: Forum: Cloud Agents from Grok Bot spend Team Cloud Credits (quota-report) <https://forum.cursor.com/t/cloud-agents-by-grokbot-using-team-cloud-credits-instead-of-personal-usage/173419>
 - /cases/forum-request-for-usage-broken-down-by-bot-and-category-read-46.html: Forum: request for usage broken down by Bot and category, readable by Bots (quota-report) <https://forum.cursor.com/t/breakdown-in-the-app-by-bot-and-category-and-the-same-data-available-to-bots/173936>
 - /cases/ray-fernando-s-clippy-cto-47.html: Ray Fernando's Clippy CTO (quota-report) <https://www.youtube.com/watch?v=kAR91DlnCKQ>
-- /cases/x-predictivemoney-2110723292768186738.html: Bot 的 Gmail 被 Google 以「是机器人」封禁 (quota-report) <https://x.com/Predictivemoney/status/2110723292768186738>
-- /cases/x-diamai-2110720677468664161.html: 亚马逊开始拦截 Grok Bot 下单 (quota-report) <https://x.com/diamai_/status/2110720677468664161>
-- /cases/x-back2matching-2110837378986205251.html: Dot 一天两次项目更新就吃掉约 10% 配额 (quota-report) <https://x.com/Back2Matching/status/2110837378986205251>
-- /cases/x-entangledmatter-2110858577686810991.html: 收件箱 Grok Bot 中途丢失发送工具 (quota-report) <https://x.com/EntangledMatter/status/2110858577686810991>
-- /cases/x-thekpsethi-2110476472804856045.html: 反馈：Dot 未经审阅就发出了邮件 (quota-report) <https://x.com/theKPSethi/status/2110476472804856045>
-- /cases/x-itsactuallyadam-2108999396641943753.html: 警告：Dot 的审批与权限流程需要大量看护 (quota-report) <https://x.com/itsactuallyadam/status/2108999396641943753>
-- /cases/medium-watchout-meta-muse-prompt-injection.html: 当心：恶意网页如何通过提示注入劫持 Muse (quota-report) <https://medium.com/@aizaai.net/watchout-meta-muse-prompt-injection-how-a-malicious-web-page-can-hijack-an-ai-agent-b3ff1f5f0151>
-- /cases/x-joshexile82-2107702223400476904.html: 警告：Dot 查一次邮件用了 5 分钟，还漏了重要邮件 (quota-report) <https://x.com/JoshExile82/status/2107702223400476904>
-- /cases/hn-49977588.html: 警告：Muse 上线数周的隐私与安全问题汇总（Techdirt） (quota-report) <https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/>
-- /cases/x-startupzombe-2107006035630375335.html: 警告：Dot 设好的每日自动化其实没有运行 (quota-report) <https://x.com/StartupZombE/status/2107006035630375335>
-- /cases/x-lumirth-2107139755049623786.html: Dot 的两个坑：难以导入已有上下文、容易误删 (quota-report) <https://x.com/lumirth/status/2107139755049623786>
-- /cases/x-embwl0x-2106497425552925059.html: 反馈：Dot 像失忆，记不住此前内容 (quota-report) <https://x.com/embw_l0x/status/2106497425552925059>
-- /cases/x-andonisthegreat-2105343739191234574.html: 警告：Muse 自行清空，两周设置全部丢失 (quota-report) <https://x.com/AndonisTheGreat/status/2105343739191234574>
-- /cases/x-iharnoorsingh-2104426822310211736.html: 风险：Muse 帮忙卖东西时泄露了卖家地址 (quota-report) <https://x.com/iHarnoorSingh/status/2104426822310211736>
-- /cases/gh-mahdi-salmanzade-meta-muse-teardown.html: 独立拆解：Muse 客户端能访问什么 (quota-report) <https://github.com/mahdi-salmanzade/meta-muse-teardown>
-- /cases/x-shredbuilds-2101056644373152090.html: 警告：用量显示 100% 后 Muse Agent 仍在运行 (quota-report) <https://x.com/shredbuilds/status/2101056644373152090>
-- /cases/yt-wxchvdv8z9a.html: Grok Bot 最贵的三个坑 (quota-report) <https://www.youtube.com/watch?v=wXChVdv8Z9A>
-- /cases/x-achalaugustine-2099939323651252374.html: 警告：Muse 订热门餐厅时没先检查是否需要信用卡 (quota-report) <https://x.com/achalaugustine/status/2099939323651252374>
+- /cases/x-predictivemoney-2110723292768186738.html: Google banned the bot’s Gmail “for being a bot” (quota-report) <https://x.com/Predictivemoney/status/2110723292768186738>
+- /cases/x-diamai-2110720677468664161.html: Amazon started blocking Grok Bot orders (quota-report) <https://x.com/diamai_/status/2110720677468664161>
+- /cases/x-back2matching-2110837378986205251.html: Dot used ~10% quota for two project-update asks in one day (quota-report) <https://x.com/Back2Matching/status/2110837378986205251>
+- /cases/x-entangledmatter-2110858577686810991.html: Inbox Grok Bot lost send tool mid-task (quota-report) <https://x.com/EntangledMatter/status/2110858577686810991>
+- /cases/x-thekpsethi-2110476472804856045.html: Feedback: a Dot sent an email without review (quota-report) <https://x.com/theKPSethi/status/2110476472804856045>
+- /cases/x-itsactuallyadam-2108999396641943753.html: Warning: a Dot's approvals and permissions needed constant babysitting (quota-report) <https://x.com/itsactuallyadam/status/2108999396641943753>
+- /cases/medium-watchout-meta-muse-prompt-injection.html: Watch out: how a malicious page can hijack Muse via prompt injection (quota-report) <https://medium.com/@aizaai.net/watchout-meta-muse-prompt-injection-how-a-malicious-web-page-can-hijack-an-ai-agent-b3ff1f5f0151>
+- /cases/x-joshexile82-2107702223400476904.html: Warning: a Dot took 5 minutes for a quick email check and missed an important one (quota-report) <https://x.com/JoshExile82/status/2107702223400476904>
+- /cases/hn-49977588.html: Warning: Muse's first weeks of privacy and security problems (Techdirt) (quota-report) <https://www.techdirt.com/2026/10/06/metas-muse-is-an-adorable-privacy-and-security-dumpster-fire/>
+- /cases/x-startupzombe-2107006035630375335.html: Warning: daily automations set up with a Dot never actually ran (quota-report) <https://x.com/StartupZombE/status/2107006035630375335>
+- /cases/x-lumirth-2107139755049623786.html: Two Dot hiccups: hard to load existing context, easy to delete (quota-report) <https://x.com/lumirth/status/2107139755049623786>
+- /cases/x-embwl0x-2106497425552925059.html: Complaint: the Dot behaves as if it has amnesia (quota-report) <https://x.com/embw_l0x/status/2106497425552925059>
+- /cases/x-andonisthegreat-2105343739191234574.html: Warning: a Muse wiped itself, losing two weeks of setup (quota-report) <https://x.com/AndonisTheGreat/status/2105343739191234574>
+- /cases/x-iharnoorsingh-2104426822310211736.html: Risk: Muse shared a seller’s address while helping sell an item (quota-report) <https://x.com/iHarnoorSingh/status/2104426822310211736>
+- /cases/gh-mahdi-salmanzade-meta-muse-teardown.html: Independent teardown: what the Muse clients can access (quota-report) <https://github.com/mahdi-salmanzade/meta-muse-teardown>
+- /cases/x-shredbuilds-2101056644373152090.html: Warning: a Muse agent kept working after usage showed 100% (quota-report) <https://x.com/shredbuilds/status/2101056644373152090>
+- /cases/yt-wxchvdv8z9a.html: The three most expensive Grok Bot mistakes (quota-report) <https://www.youtube.com/watch?v=wXChVdv8Z9A>
+- /cases/x-achalaugustine-2099939323651252374.html: Warning: booking a hot restaurant, Muse didn't check for a card requirement (quota-report) <https://x.com/achalaugustine/status/2099939323651252374>
