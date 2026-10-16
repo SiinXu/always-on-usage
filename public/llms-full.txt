@@ -1,11 +1,11 @@
 # 常驻用量 Always-on Usage
-> Always-on Agents（Grok Bot、OpenAI Dots、Meta Muse）的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。给想长期跑 Bot、又怕烧额度的人用。评测层，不是模板目录。对照与计算器为估算方向，非厂商 SLA；案例为公开条目聚合（1677 条，另有 26 篇 X 案例），每条附作者与原文链接。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
+> Always-on Agents（Grok Bot、OpenAI Dots、Meta Muse）的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。给想长期跑 Bot、又怕烧额度的人用。评测层，不是模板目录。对照与计算器为估算方向，非厂商 SLA；案例为公开条目聚合（1687 条，另有 26 篇 X 案例），每条附作者与原文链接。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
 
 - Site: https://usage.incidental.site/
 - Languages: zh-CN (default), zh-TW, en, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-15T22:39:28.107Z
+- Last updated: 2026-10-16T11:12:48.472Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3152,6 +3152,46 @@
 - URL: https://usage.incidental.site/cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
+
+### 让 Grok Bot 盲核民调并修改候选名单，全程无人工
+- URL: https://usage.incidental.site/cases/gh-github-com-hebilicious-fr2027-forecaster-pull-5.html
+- Type: field-case · Product: grok-bot · Author: Hebilicious · Source: https://github.com/Hebilicious/fr2027-forecaster/pull/5 · Date: 2026-10-16
+- Summary: 一个法国 2027 大选预测仓库让 Grok Bot 成为流水线里唯一的 agent：新增「民调核对」和「候选人变更」两类任务。Bot 不看提案数字、从原始公告再录一遍，与提案一致才提交到 main；不一致则双双退回且不透露数值。每天巴黎时间 10:30 和 20:30 运行。
+
+### Grok Bot 接手失败的 Dependabot 升级：迁移约 110 个测试文件
+- URL: https://usage.incidental.site/cases/gh-github-com-richardorchardorganisation-queenzone-modern-pull-.html
+- Type: field-case · Product: grok-bot · Author: richardorchard · Source: https://github.com/RichardOrchardOrganisation/QueenZone.Modern/pull/2331 · Date: 2026-10-16
+- Summary: Dependabot 把 @testing-library/react-native 升到 14.1.0 后类型检查报 264 个错误。Grok Bot（Codex 起草、复核）改为异步 API，只动测试文件，补了替代已删 API 的辅助函数；typecheck、lint、1350 个 Jest 测试和 expo-doctor 21/21 全部通过，没有删除或跳过测试。
+
+### OpenAI Dots 调查 Firefox 测试失败，并发现 CI 没存诊断证据
+- URL: https://usage.incidental.site/cases/gh-github-com-keroway-astro-blog-issues-891.html
+- Type: field-case · Product: openai-dots · Author: keroway · Source: https://github.com/keroway/astro-blog/issues/891 · Date: 2026-10-16
+- Summary: 在一个 Astro 博客仓库里，Dots 复查 CI 日志后提交 issue：Firefox 下页面跳转后第一次 Ctrl+K 打不开命令面板，3 次重试都卡在同一行；同时 CI 只上传未生成的报告目录，trace 没保存。它区分已证实事实与未确认原因，先提出保存证据的最小修复。
+
+### Grok Bot 防篡改活动账本：哈希链 + 每日审计例行
+- URL: https://usage.incidental.site/cases/gh-github-com-deximple-grokbot-activity-log.html
+- Type: field-case · Product: grok-bot · Author: deximple · Source: https://github.com/deximple/grokbot-activity-log · Date: 2026-10-16
+- Summary: 开源（MIT）的 Grok Bot 活动记录工具：用纯标准库 Python 命令行写入哈希链账本，配套 skill 和每日审计 routine，记录被改动时可以发现。
+
+### 让 Claude Code 把任务交给 Grok Bot 并等结果，不用 webhook
+- URL: https://usage.incidental.site/cases/gh-github-com-riceblack67-grokbot-claude-code.html
+- Type: guide · Product: grok-bot · Author: RiceBlack67 · Source: https://github.com/RiceBlack67/grokbot-claude-code · Date: 2026-10-16
+- Summary: 一个只用 Python 标准库的脚本：Claude Code 可以把任务派给你的 Grok Bot，然后等待它返回答案，无需配置 webhook。
+
+### 把 Grok Bot 盒子备份到私有 GitHub 仓库并可还原
+- URL: https://usage.incidental.site/cases/gh-github-com-syy706-grokbot-backup-kit.html
+- Type: guide · Product: grok-bot · Author: syy706 · Source: https://github.com/syy706/grokbot-backup-kit · Date: 2026-10-16
+- Summary: 一个备份工具包：把 Grok Bot 的盒子（工作机）备份到你自己的私有 GitHub 仓库，需要时再还原。
+
+### 把 WhatsApp 消息通过 MCP Events 接到 ChatGPT Dot
+- URL: https://usage.incidental.site/cases/gh-github-com-miku2339-baileys-dot-bridge.html
+- Type: guide · Product: openai-dots · Author: miku2339 · Source: https://github.com/miku2339/baileys-dot-bridge · Date: 2026-10-16
+- Summary: 用 Baileys（WhatsApp 客户端库）经 OAuth MCP Events 把消息推给 ChatGPT Dot 的桥接项目，附英文、繁体中文和日文部署指南。
+
+### 在 Minecraft 里和你的 Codex、Claude Code、ChatGPT Dot 对话
+- URL: https://usage.incidental.site/cases/gh-github-com-soumilrathi-minecraft-companions.html
+- Type: field-case · Product: multi · Author: SoumilRathi · Source: https://github.com/SoumilRathi/minecraft-companions · Date: 2026-10-16
+- Summary: 开源项目：把你已有的 Codex、Claude Code 和 ChatGPT Dot 对话接进 Minecraft，在游戏里直接和它们交谈。
 
 ### 做了一个把日期换算成 19 种历法的网站
 - URL: https://usage.incidental.site/cases/x-esoterickang-2110716026715328527.html
@@ -8193,6 +8233,11 @@
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
 
+### 对照 Grok Bot 和 OpenAI Dots 补齐自建 agent 的短板
+- URL: https://usage.incidental.site/cases/gh-github-com-armeria-sk-niwa-pull-2.html
+- Type: comparison · Product: multi · Author: Armeria-SK · Source: https://github.com/Armeria-SK/niwa/pull/2 · Date: 2026-10-16
+- Summary: 一个自建常驻 agent 项目在与 Grok Bot、OpenAI Dots 对比后提交的 PR：接入 Claude 与 OpenAI 兼容 API、外部 MCP、网页/RSS 变化与 webhook 触发、文本附件和流式回复；发 X 帖子改为每次等管理员批准。合并前有 6 步数据库迁移，作者提醒先备份。
+
 ### Muse 对 Grok Bot：原生外呼 vs 偏入站语音
 - URL: https://usage.incidental.site/cases/x-airoboticsint-2110853694925549794.html
 - Type: comparison · Product: multi · Author: AIRoboticsInt · Source: https://x.com/AIRoboticsInt/status/2110853694925549794 · Date: 2026-10-15
@@ -8202,6 +8247,11 @@
 - URL: https://usage.incidental.site/cases/x-drivingimpact-2110777727938928830.html
 - Type: comparison · Product: multi · Author: Driving_Impact · Source: https://x.com/Driving_Impact/status/2110777727938928830 · Date: 2026-10-15
 - Summary: 对比帖：OpenAI Dots 是 ChatGPT 内常开工人，跨 Slack/GitHub/Teams；Meta Muse 偏个人日常；并对照 Grok Bot 的 Agent 模型（原文 Muse 段被截断）。
+
+### 三款常驻 agent 的区别：Grok Bot 是团队，Dots 和 Muse 偏单兵
+- URL: https://usage.incidental.site/cases/x-tifoden-2110823019807715833.html
+- Type: comparison · Product: multi · Author: tifoden · Source: https://x.com/tifoden/status/2110823019807715833 · Date: 2026-10-15
+- Summary: 作者对比三款常驻 agent：Grok Bot 一开始就设计成多 Bot 分工协作、互相传消息并通过演示学习；Dots 在 ChatGPT 生态里运行，目前更像以一个主 Dot 为中心；Muse 侧重个人生活和小生意事务。只发单次请求时差别不大，给它们分配固定角色时差距才显现。
 
 ### 三款 agent 能否搞定韩国网站：23 份报告汇总
 - URL: https://usage.incidental.site/cases/x-echo12yj-2110477717003268162.html

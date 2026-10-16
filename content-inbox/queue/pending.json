@@ -4636,21 +4636,6 @@
    "found_at": "2026-10-15T22:33:07.567Z"
   },
   {
-   "id": "x:2110823019807715833",
-   "url": "https://x.com/tifoden/status/2110823019807715833",
-   "source": "x",
-   "source_name": "X",
-   "author": "tifoden",
-   "date": "2026-10-15",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "세 AoA(Always on Agent)들의 주요 차이점:\n\n1. Grok @bot은 처음부터 여러 개의 Bot이 각자 역할을 가지고 협업하는 AI 팀으로 설계되었습니다. 개별 Bot에 역할을 부여하고, 서로 메시지를 주고받으며 작업을 공유하고, 시연을 통해 학습하는 구조가 핵심입니다.\n\n2. Dots는 ChatGPT 생태계 안에서 움직이는 상시 가동 에이전트로, 아직까지는 분업이나 팀 구성보다는 메인 Dot이 중심이 되는 형태에 가깝습니다. 출시된지 얼마 안 되었으므로 동작 방식이 바뀔 가능성이 큽니다.\n\n3. @Muse 역시 개인 생활/소규모 비즈니스 업무(일정, 메일, 쇼핑 등)에 초점을 맞춘 단일 에이전트 성격이 강합니다.\n\n단일 ‘요청’을 시킬 때는 세 에이전트의 경험이 단순 UX에서 옵니다. 하지만 고유한 ‘역할’을 할당할 때 비로소 차이가 옵니다.",
-   "media": [
-    "https://pbs.twimg.com/media/HUsmWRPbkAA9tkj.jpg"
-   ],
-   "found_at": "2026-10-15T22:33:07.567Z"
-  },
-  {
    "id": "x:2110765236177297595",
    "url": "https://x.com/RoiofAi/status/2110765236177297595",
    "source": "x",
@@ -5977,19 +5962,6 @@
    "found_at": "2026-10-16T10:39:54.809Z"
   },
   {
-   "id": "gh:github.com/armeria-sk/niwa/pull/2",
-   "url": "https://github.com/Armeria-SK/niwa/pull/2",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "Armeria-SK",
-   "date": "2026-10-16",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "外部連携と接続先の拡充：Claude・OpenAI互換API・外部MCP・外部の出来事での起動・添付・逐次表示\nGrok Bot・OpenAI Dotsとの比較で見つかった足りない点と、設計上の盲点への手当てをまとめたPRです。\n\n## 追加した機能\n- **Claude（Anthropic API）の接続**（`src/providers/anthropic/`）\n  - 公式SDK `@anthropic-ai/sdk` を使い、APIキーで接続します。Maxプランに付く毎月のAPI利用枠も使えます。\n  - 使えるモデルの一覧をAPIから取り、表示名つき・新しい順に選べます。\n  - Botの「推論の強さ」の設定を、Claudeが考える深さ（adaptive thinking と effort）に使います。\n  - 安全確認で断られたときは、別のモデルで自動的にやり直します（`fallbacks: \"default\"`）。\n  - 前の依頼で考えた内容を引き継げないときは、エラーにせず捨てて続けます（`drop_block`）。\n- **OpenAI互換APIの接続**（`src/providers/openai-compatible/`）\n  - APIキーで OpenAI・OpenRouter・LM Studio などにつなげます。\n  - ChatGPTのサブスクでの接続は公式に開放された経路ではないため、使えなくなったときの代わりになります。\n- **外部MCP**：URL（Streamable HTTP）と固定トークンで接続できます。トークンは `secrets/` に保存し、画面には出しません。\n- **外部の出来事での起動**（管理者が作る定期実行に限ります）\n  - Webページ・RSSの更新：初回は内容を記録するだけで、2回目から変化があったときに起動します。\n  - 外からの通知：トークン付きで `POST /api/hooks/<id>` を受け取ると起動します。\n  - 受け取った内容は、信頼しない外部データとしてBotに渡します。\n- **テキストファイルの添付**：1回に5件、1件256KiBまで送れます。\n- **返答の逐次表示**：SSEで画面へ更新を知らせ、Botが書いている途中の返答を表示します。\n\n## 盲点への手当て・整理\n- **Xへの投稿は、毎回管理者の承認を待ってから送ります。** MCPの書き込みツールは既定では承認なしで動き、ツールごとに「毎回承認」を選べます。\n- 使われていなかった記憶監査APIを外しました。\n- 作られていたのに画面に出ていなかった「直近のモデル接続」を、設定画面に表示しました。\n- **Ollamaを「Local LLM」に改名しました。** 画面の表示に加え、内部の名前も変えています。\n  - 接続先の識別名：`local_llm`\n  - 設定の項目：`localLlmUrl`\n  - 保存先の列：`local_llm_url`\n  - プログラムの置き場所：`src/providers/local-llm/`\n  - 既存のデータは、起動時の移行で自動的に書き換えます。\n  - Ollamaとの通信で使う決まった名前（`/api/chat` や `OLLAMA_NUM_PARALLEL` など）と、セットアップ手順に出てくるソフト名はそのまま残しています。\n- 見本のまま直書きされていた成果物名を、実際の名前に直しました。\n- READMEを更新しました（Tailscaleの確認状況、承認が必要な操作、各接続の説明）。\n\n## マージ前・更新時の注意\n- **データベースの移行が6段階加わります**（user_version 53まで）。\n  - 添付、OpenAI互換、外部の出来事での起動、Claude接続、Local LLMへの改名の分です。\n  - 接続先の名前に関わる移行は、CHECK制約の文面をその場で書き換えます。書き換えたあとは整合性を確かめ、古い名前 `ollama` が1件も残っていないことも確かめます。想定と違えば起動しません。\n  - **更新の前にバックアップを取ってください。**\n- **更新前から開いていたブラウザーの画面は、再読み込みしてください。** 古い画面は古い項目名（`ollamaUrl`）を送るため、保存に失敗します。",
-   "media": [],
-   "found_at": "2026-10-16T10:40:02.259Z"
-  },
-  {
    "id": "gh:github.com/mehranyahya/agents/pull/2",
    "url": "https://github.com/mehranyahya/agents/pull/2",
    "source": "github",
@@ -6038,19 +6010,6 @@
    "likes": 0,
    "product": "openai-dots",
    "text": "fix(ci): Playwright の trace と HTML report を保存する\n## 問題と変更\n\nmain の Firefox E2E 失敗で retry trace が生成されたものの、CI は生成されていない HTML report ディレクトリだけを upload し、診断証拠が残らなかった。\n\nCI 時に dot + HTML reporter（open=never）を明示し、キャンセル以外の実行の artifact に playwright-report/ と test-results/ を含める。trace:on-first-retry、retry 数、テストの assertion、アプリ本体は維持する。\n\nRefs #891。証拠保存のみの部分対応であり、Ctrl+K の再発原因は未確定なので issue は閉じない。OpenAI dots による変更。\n\n## 検証\n\n- lockfile のまま pnpm install --frozen-lockfile。Node 26.11.1 / pnpm 11.28.3 / Playwright 1.63.0、macOS arm64。\n- lint（既存 warning 3 件）、補助 lint 4 種、unit 234 tests、astro check、astro build が成功。\n- actionlint、zizmor --offline、ci.yml の全 16 run step に shellcheck、artifact の !cancelled() 条件と 2 ディレクトリ指定を確認。\n- 全 E2E: 257 passed / 4 skipped。\n- 一時的な意図的失敗の Firefox spec を CI=1 で実行し、retry1 の trace.zip（3,085,049 bytes）、error-context.md、HTML index.html が生成された。unzip -t は成功。一時 spec は削除し commit に含めていない。\n- Firefox の既存遷移後 Ctrl+K ケースを --repeat-each=10 で追加実行: 5 failed / 3 flaky / 2 passed。line 73 の開かない失敗と line 76 の閉じない失敗があり、report と retry trace を取得できた。全 E2E の一度の成功を元の問題解消と解釈しない。\n\n初回 PR CI は全チェック成功。ただし Firefox は初回 line 73 で失敗後 retry 成功（1 flaky / 256 passed / 4 skipped）だった。failure() 条件ではこの証拠が保存されないため、!cancelled() に補足し成功・flaky 時も保存する。最終 head 7b44130 の CI run 38846081838 は全チェック成功。E2E は 1 flaky / 256 passed / 4 skipped。同じ Ctrl+K 問題は残る。artifact 12022819448（8,592,034 bytes）をダウンロードし、HTML report、raw retry trace.zip、error-context.md の実在と ZIP 整合性を確認した。ビジュアル変更なし。merge/deploy は実行しない。\n\n\n[最終 CI](https://github.com/keroway/astro-blog/actions/runs/38846081838) / [検証済み artifact](https://github.com/keroway/astro-blog/actions/runs/38846081838/artifacts/12022819448)。7 日保持。",
-   "media": [],
-   "found_at": "2026-10-16T10:40:02.260Z"
-  },
-  {
-   "id": "gh:github.com/keroway/astro-blog/issues/891",
-   "url": "https://github.com/keroway/astro-blog/issues/891",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "keroway",
-   "date": "2026-10-16",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "bug: Firefox の遷移後 Ctrl+K 再発と CI trace 保存漏れ\n## 報告者・範囲\nOpenAI dots による調査起票。Firefox の再発と、診断証拠の保存漏れを区別して記録する。まず証拠保存の最小修正を別途 Draft PR にする。アプリ本体の原因は未確定。\n\n## 再現手順・期待する動作\nmain `b2d56b8a2980ad414b29c115033b94eb40bf724a` の Playwright Firefox project で、`tests/playwright/command-palette.spec.ts:57` を実行。トップからヘッダリンクで /works → /blog → /about と遷移し、最初の Control+k でパレットが開き、2 回目で閉じることを期待する。\n\n## 実際の動作・検証済み事実\n[CI job](https://github.com/keroway/astro-blog/actions/runs/38827067120/job/116737698307) のログを再確認した。\n- 最初の Control+k 後、line 73 の toBeVisible が hidden のまま失敗。初回・retry 1・retry 2 の全 3 回で同じ箇所。256 passed / 4 skipped / 1 failed。\n- hidden な DOM に data-ready=true があるが、初期化の証拠でありイベント到達や正常な開閉の証拠ではない。\n- retry 1 で test-results/...-firefox-retry1/trace.zip と error-context.md が生成された。\n- ci.yml は failure 時に playwright-report だけを upload する。HTML reporter の明示設定はなく、ログは「No files were found ... No artifacts will be uploaded」。upload 自体が hard failure したのではなく、保存が成立していない。\n- run の artifact は dist と lhci-reports のみ。trace は保存されていない。\n- 2026-10-16 の調査時 main は上記 SHA のままで修正済みではない。open issues 11 件・open PR 0 件に同件なし。既存 issue の担当・除外ラベルを確認し、コメント・変更はしていない。\n\n## 過去課題との違い・未確認点\n旧 #763 は 2 回目 Control+k 後 line 76 で閉じない失敗（PR #767 で対応済み）。#740 / PR #741 の listener 重複対策、#847 / PR #850 の swap 前リセットは現在の source に存在する。#886 / PR #887 は検索結果再描画時のフォーカス修正で、この失敗と同一原因とは確認できない。\n\nテストは各クリック後 networkidle を待つが、遷移先 URL と Astro navigation 完了を明示確認していない。CommandPalette.astro は listener 登録ガード・都度の現在 DOM 取得・before-swap リセットを持つ。source とログだけで lifecycle バグ、listener 重複、focus 起因のいずれとも断定しない。本番での再現とローカル再現は未確認。\n\n## 最小修正案・検証項目\n1. CI の HTML reporter を open=never で明示有効化し、失敗時に test-results/ と playwright-report/ を保存する。既存 trace:on-first-retry、retry 数、テスト assertion は維持。\n2. 意図的な失敗を一時 fixture で発生させ、retry trace・error context・HTML report が生成され保存対象に入ることを検証する。成功した suite だけでは失敗時の保存を証明しない。\n3. 保存できる trace を用いて以下を切り分けてから最小限のテス",
    "media": [],
    "found_at": "2026-10-16T10:40:02.260Z"
   },
@@ -6105,32 +6064,6 @@
    "text": "lint: check citations against the archive, cut artifact-name false positives, log watermark time\nFound by the scheduled codebase audit (run 2026-10-15-1628). Three small accuracy fixes to `lint_index` and the fetch log, each with a test.\n\n## Problem\n\n1. **The fabricated-id check could never fire.** `lint_index` built its set of \"prior\" ids by reading the wiki back (`prior = set(ID_RE.findall(read_wiki()))`), but all three callers (`main`, `backfill`, `add_manual`) call `write_wiki(updated)` first, so `prior` was always exactly the ids in the text being linted. `set(seen) - known_ids - prior` was the empty set by construction.\n2. **The artifact-name check reported products and adjectives and truncated its list.** Its regex matched `Claude Code`, `Claude Managed Agents`, `Contextual Retrieval` (a named technique), `Bayesian` (an adjective), `React` from \"React-style hooks\", and `OpenAI` from \"OpenAI's Dots agents\", and printed only `named[:6]`, so real hits past the sixth were never shown.\n3. **The fetch log printed the watermark's date only.** `since.date()` made a watermark that had advanced by a day look stuck across consecutive runs.\n\n## Evidence\n\n- Local log, every run since 2026-10-08: `LINT 13 bullet(s) lead with a named artifact rather than a practice: React, Claude Code, Bayesian, Whiteboard, OpenAI, Mecatl` (4 of the 6 shown are false positives, 7 real hits were cut off). No run has ever logged an \"unknown item id\" line.\n- `2026-08-29-ae-02` is archived with `published: 2025-01-06`; a 2026-10-15 rewrite cites it as `anthropic-eng, 2026-01-06 [2026-08-29-ae-02]`. Nothing caught the changed year.\n- Several `hf-blog` records are archived as the `(no body in feed ...)` placeholder; a claim built on one of those is a guess from a title, and nothing flagged it.\n- Two consecutive runs logged `latent-space: 1 new since 2026-10-14` although the watermark had moved.",
    "media": [],
    "found_at": "2026-10-16T10:40:02.260Z"
-  },
-  {
-   "id": "gh:github.com/miku2339/baileys-dot-bridge",
-   "url": "https://github.com/miku2339/baileys-dot-bridge",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "miku2339",
-   "date": "2026-10-16",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "miku2339/baileys-dot-bridge\nBaileys → OAuth MCP Events → ChatGPT Dot: deployment guides in English, 繁體中文 and 日本語.",
-   "media": [],
-   "found_at": "2026-10-16T10:40:09.244Z"
-  },
-  {
-   "id": "gh:github.com/soumilrathi/minecraft-companions",
-   "url": "https://github.com/SoumilRathi/minecraft-companions",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "SoumilRathi",
-   "date": "2026-10-16",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "SoumilRathi/minecraft-companions\nTalk to your existing Codex, Claude Code, and ChatGPT Dot conversations in Minecraft.",
-   "media": [],
-   "found_at": "2026-10-16T10:40:09.244Z"
   },
   {
    "id": "gh:github.com/eahenle/dot-pet-dock",
@@ -6380,32 +6313,6 @@
    "found_at": "2026-10-16T10:40:52.582Z"
   },
   {
-   "id": "gh:github.com/deximple/grokbot-activity-log",
-   "url": "https://github.com/deximple/grokbot-activity-log",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "deximple",
-   "date": "2026-10-16",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "deximple/grokbot-activity-log\nTamper-evident, hash-chained activity ledger for Grok Bot (stdlib Python CLI + skill + daily audit routine). MIT.",
-   "media": [],
-   "found_at": "2026-10-16T10:41:07.244Z"
-  },
-  {
-   "id": "gh:github.com/riceblack67/grokbot-claude-code",
-   "url": "https://github.com/RiceBlack67/grokbot-claude-code",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "RiceBlack67",
-   "date": "2026-10-16",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "RiceBlack67/grokbot-claude-code\nLet Claude Code hand tasks to your Cursor Grok Bot and wait for the answer — no webhook, one stdlib-only Python script. 让 Claude Code 把任务交给 Grok Bot，不用 webhook。\nai-agents claude claude-code cursor grok grokbot python",
-   "media": [],
-   "found_at": "2026-10-16T10:41:07.245Z"
-  },
-  {
    "id": "gh:github.com/cdazzle-end/cursor-bots",
    "url": "https://github.com/cdazzle-end/cursor-bots",
    "source": "github",
@@ -6523,19 +6430,6 @@
    "found_at": "2026-10-16T10:41:07.245Z"
   },
   {
-   "id": "gh:github.com/syy706/grokbot-backup-kit",
-   "url": "https://github.com/syy706/grokbot-backup-kit",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "syy706",
-   "date": "2026-10-16",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "syy706/grokbot-backup-kit\nBackup & restore a Grok Bot box to a private GitHub repo / 备份与还原 Grok Bot 盒子",
-   "media": [],
-   "found_at": "2026-10-16T10:41:07.245Z"
-  },
-  {
    "id": "gh:github.com/criptogus/liquid-cybersecurity-plugin",
    "url": "https://github.com/criptogus/liquid-cybersecurity-plugin",
    "source": "github",
@@ -6571,19 +6465,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "Name Imagine in the pool split and order it like grok.com\n- Product enum **5 → Imagine**: grok.com's usage page listed \"Chat · Imagine · Grok Build · Grok Bot · Cursor\" for a pool whose RPC carried 2, 4, 5, 9, 10; 5 was the only newcomer since the \"Chat · Grok Bot · Cursor\" reading (4, 9, 10).\n- Labels match that page: `Grok Build` (was `Build`), `Imagine`; the JSON names map the same way (`GrokImagine`).\n- Member rows follow grok.com's order (Chat, Imagine, Voice, Grok Build, Grok Bot, Cursor); products xAI has not named yet come last as \"Other\".\n- Voice and API: Voice's enum has not appeared on a live account yet (it will show as \"Other\" until it does); the API is billed separately per Cursor's and xAI's docs and is not expected in the pool.\n- No open-source reader has the numeric enum table: the community `grok_api_v2.proto` (boykopovar/Grok3API) references `Product` without defining it, and CodexBar, cc-switch, llmquota, cockpit-tools and the rest read the JSON's string names.\n\nVerification: `swift test` 3462 green.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)",
-   "media": [],
-   "found_at": "2026-10-16T10:41:14.666Z"
-  },
-  {
-   "id": "gh:github.com/richardorchardorganisation/queenzone.modern/pull/2331",
-   "url": "https://github.com/RichardOrchardOrganisation/QueenZone.Modern/pull/2331",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "richardorchard",
-   "date": "2026-10-16",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Bump @testing-library/react-native to 14.1.0 and migrate tests to async API\n## Agent\n\n**Agent:** Grok Bot (draft by Codex, reviewed)\n\n## Summary\n\nReplaces Dependabot PR #2309 (@testing-library/react-native 13.3.3 → 14.1.0). v14 makes rendering async and drops react-test-renderer in favour of `test-renderer`, so #2309 failed typecheck with 264 errors across 56 test files.\n\n- Test files only, about 110 of them: `await` on render / renderHook / rerender / unmount / act / fireEvent / cleanup, and the test callbacks made async to match. `src/test/render.tsx` `renderWithProviders` is now async. `jest.setup.ts` awaits `cleanup()`.\n- New `src/test/renderer.ts`: `allComponentProps` / `componentProps` / `getHostByType` replace the removed `UNSAFE_getByType` / `findAllByType`. They read composite props from the committed fiber (`screen.root.unstable_fiber`) and require 1 or ≥1 matches.\n- package.json: `test-renderer` ^1.3.1 added as an explicit devDependency (v14 peer).\n- Separate commit: the Expo SDK 57 patch alignment from #2329, so Expo Doctor passes here as well.\n\nNo production source changed. No tests were deleted or skipped. `expect(` lines removed vs added: 62 / 62. @sentry/react-native is unchanged (7.11.0).\n\n## Testing\n\n- [x] `npm run typecheck` (app + tsconfig.test.json): pass\n- [x] `npm run lint`: 0 errors (2 warnings that are already there)\n- [x] `npx jest`: 163 suites, 1350 tests pass\n- [x] `npx expo-doctor`: 21/21\n- [ ] Node test runner part of `npm run preflight`: CI (the local box has Node 20)\n\n## Legacy database checks\n\n- [x] Not required for this change\n\n## Verification\n\n- Feature ids: none (test-only migration, no UI source changed)\n- Command: `npm run typecheck && npm run lint && npx jest`\n- Platform(s): Linux (Jest) and CI\n- Result: pass locally; CI run: https://github.com/RichardOrchardOrganisation/QueenZone.Modern/actions?query=bran",
    "media": [],
    "found_at": "2026-10-16T10:41:14.666Z"
   },
@@ -6636,19 +6517,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "fix(properties): Obsidian-like editable nested values and long keys\nProperties could become read-only chips when a nested YAML draft could not parse independently. Ordinary nested values now use raw editable YAML drafts; tagged, recursive and unsupported values show a clear Source mode message.\n\nConcurrent commit `065991a` removed the serialized fallback after the full validation run. External aliases now show Source mode even when their resolved values are settable. This differs from the original task's required editable fallback and is pending owner clarification.\n\nClicking blank row/value space focuses the value editor while field caret placement, pill actions, links and selection keep their behavior. Long keys get a wider responsive column, constrained ellipsis and full-name tooltips. `title` remains a normal editable text property, and OKF Sources retains its stacked rows above YAML, including `sources: []`.\n\nValidation of implementation commit `0377e84`: `pnpm check:full` passed sequentially under the shared suite lock: 1,769 unit passes (23 intentional Cordis skips), 276 Chromium passes and 23 native VS Code 1.142.0 passes. Focused properties/YAML/Sources units passed 133/133. Native validation used a private Xvfb display and the disposable unpackaged harness; no VSIX. New coverage is unit-only.\n\nLatest `065991a` passes a fresh `pnpm check`: format/lint/typecheck/contributions green, 1,773 unit passes and 23 intentional Cordis skips. The earlier browser/native results apply to `0377e84`; those suites were not repeated for the later fallback removal.\n\nGUI Obsidian↔MW side-by-side remains VERIFY-NEEDED, owned by Grok Bot computerUse. Do not merge until the owner resolves the fallback behavior and verifies.",
-   "media": [],
-   "found_at": "2026-10-16T10:41:14.667Z"
-  },
-  {
-   "id": "gh:github.com/hebilicious/fr2027-forecaster/pull/5",
-   "url": "https://github.com/Hebilicious/fr2027-forecaster/pull/5",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "Hebilicious",
-   "date": "2026-10-16",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "feat(inbox): Grok Bot checks polls blind and edits the field, with no person in the loop\nGrok Bot becomes the only agent in the pipeline. The Claude editor routine (now disabled) and the Land workflow are removed, and their two jobs move to the inbox as item kinds that the Live workflow checks and commits.\n\n## What changes\n\n- **`poll_check`**: blind double entry. Routine 4 enters each proposed poll again from its notice or publication, without reading the proposal's numbers.\n  - **Match:** Live commits the proposed file to main unchanged. A match means the same `poll_id`, `supersedes`, fieldwork dates, sample size and every share, from a different routine run (`agent.run_id`). Live then closes the pull request.\n  - **Mismatch:** both items are rejected and the pull request stays open for another check. The notes and the pull request comment name the differing fields and candidates, never their values, so the next check stays blind.\n- **`field_change`**: a structured edit of `config/candidates.yaml` (`set_status`, `set_slot`, `add_candidate`).\n  - It is validated with the existing config checks and applied block by block, so comments and untouched lines stay byte for byte.\n  - It is logged in `research/LOG.md` as \"via Grok Bot field_change <id>\". Anything invalid is rejected with reasons, and nothing is written.\n  - The Live commit step allows `config/candidates.yaml`, `config/sources.yaml` (needed by `add_candidate`) and `research/LOG.md` only when a field change was applied in that run.\n- **`docs/grok-bot.md`** now holds each routine's full instruction under fixed headings; the Bot fetches it at every run. Routine 4, \"poll checks and field changes\", is new: 10:30 and 20:30 Paris time.\n- The Worker accepts the two new kinds.\n- Tests cover match, mismatch with no values in any note or comment, nothing to check, a check from the same run, replacement, superse",
    "media": [],
    "found_at": "2026-10-16T10:41:14.667Z"
   },

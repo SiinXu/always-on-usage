@@ -1,5 +1,5 @@
 {
- "last_ingest": "2026-10-15T22:39:28.107Z",
+ "last_ingest": "2026-10-16T11:12:48.472Z",
  "items": [
   {
    "id": "x:2105612186450297061",
@@ -12841,6 +12841,568 @@
     }
    },
    "added_at": "2026-10-15T22:39:28.107Z"
+  },
+  {
+   "id": "gh:github.com/hebilicious/fr2027-forecaster/pull/5",
+   "url": "https://github.com/Hebilicious/fr2027-forecaster/pull/5",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "Hebilicious",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "feat(inbox): Grok Bot checks polls blind and edits the field, with no person in the loop\nGrok Bot becomes the only agent in the pipeline. The Claude editor routine (now disabled) and the Land workflow are removed, and their two jobs move to the inbox as item kinds that the Live workflow checks and commits.\n\n## What changes\n\n- **`poll_check`**: blind double entry. Routine 4 enters each proposed poll again from its notice or publication, without reading the proposal's numbers.\n  - **Match:** Live commits the proposed file to main unchanged. A match means the same `poll_id`, `supersedes`, fieldwork dates, sample size and every share, from a different routine run (`agent.run_id`). Live then closes the pull request.\n  - **Mismatch:** both items are rejected and the pull request stays open for another check. The notes and the pull request comment name the differing fields and candidates, never their values, so the next check stays blind.\n- **`field_change`**: a structured edit of `config/candidates.yaml` (`set_status`, `set_slot`, `add_candidate`).\n  - It is validated with the existing config checks and applied block by block, so comments and untouched lines stay byte for byte.\n  - It is logged in `research/LOG.md` as \"via Grok Bot field_change <id>\". Anything invalid is rejected with reasons, and nothing is written.\n  - The Live commit step allows `config/candidates.yaml`, `config/sources.yaml` (needed by `add_candidate`) and `research/LOG.md` only when a field change was applied in that run.\n- **`docs/grok-bot.md`** now holds each routine's full instruction under fixed headings; the Bot fetches it at every run. Routine 4, \"poll checks and field changes\", is new: 10:30 and 20:30 Paris time.\n- The Worker accepts the two new kinds.\n- Tests cover match, mismatch with no values in any note or comment, nothing to check, a check from the same run, replacement, superse",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "让 Grok Bot 盲核民调并修改候选名单，全程无人工",
+     "summary": "一个法国 2027 大选预测仓库让 Grok Bot 成为流水线里唯一的 agent：新增「民调核对」和「候选人变更」两类任务。Bot 不看提案数字、从原始公告再录一遍，与提案一致才提交到 main；不一致则双双退回且不透露数值。每天巴黎时间 10:30 和 20:30 运行。"
+    },
+    "zh-TW": {
+     "title": "讓 Grok Bot 盲核民調並修改候選名單，全程無人工",
+     "summary": "一個法國 2027 大選預測倉庫讓 Grok Bot 成為流水線裡唯一的 agent：新增「民調核對」和「候選人變更」兩類任務。Bot 不看提案數字、從原始公告再錄一遍，與提案一致才提交到 main；不一致則雙雙退回且不透露數值。每天巴黎時間 10:30 和 20:30 執行。"
+    },
+    "en": {
+     "title": "Grok Bot blind-checks polls and edits the candidate list, no human in the loop",
+     "summary": "A France 2027 election forecaster makes Grok Bot the only agent in its pipeline. A new routine re-enters each proposed poll from the original notice without seeing the proposal's numbers; only an exact match is committed to main, a mismatch is rejected without revealing values. Structured candidate edits are validated and logged. Runs at 10:30 and 20:30 Paris time."
+    },
+    "ja": {
+     "title": "Grok Bot が世論調査をブラインド照合し候補者リストも更新、人手なし",
+     "summary": "フランス 2027 年大統領選の予測リポジトリで、Grok Bot をパイプライン唯一のエージェントに。新ルーティンは提案の数値を見ずに元の公表資料から調査結果を再入力し、完全一致のときだけ main にコミット。不一致は値を伏せて差し戻す。候補者の変更も検証してログに残す。パリ時間 10:30 と 20:30 に実行。"
+    },
+    "ko": {
+     "title": "Grok Bot이 여론조사를 블라인드 검증하고 후보 목록까지 수정, 사람 개입 없음",
+     "summary": "프랑스 2027 대선 예측 저장소가 Grok Bot을 파이프라인의 유일한 에이전트로 삼았다. 새 루틴은 제안된 수치를 보지 않고 원문 공지에서 여론조사를 다시 입력해, 완전히 일치할 때만 main에 커밋하고 불일치는 값을 숨긴 채 반려한다. 후보 변경도 검증 후 기록한다. 파리 시간 10:30, 20:30 실행."
+    },
+    "ms": {
+     "title": "Grok Bot semak tinjauan secara buta dan ubah senarai calon tanpa manusia",
+     "summary": "Repo ramalan pilihan raya Perancis 2027 menjadikan Grok Bot satu-satunya agen dalam saluran paip. Rutin baharu memasukkan semula setiap tinjauan daripada notis asal tanpa melihat nombor cadangan; hanya padanan tepat dikomit ke main, ketidakpadanan ditolak tanpa mendedahkan nilai. Perubahan calon disahkan dan dilog. Berjalan 10:30 dan 20:30 waktu Paris."
+    },
+    "vi": {
+     "title": "Grok Bot đối chiếu mù số liệu thăm dò và sửa danh sách ứng viên, không cần người",
+     "summary": "Một repo dự báo bầu cử Pháp 2027 để Grok Bot là agent duy nhất trong pipeline. Routine mới nhập lại từng cuộc thăm dò từ thông báo gốc mà không xem số của đề xuất; chỉ khớp hoàn toàn mới commit lên main, lệch thì từ chối mà không lộ giá trị. Thay đổi ứng viên được kiểm tra và ghi log. Chạy 10:30 và 20:30 giờ Paris."
+    },
+    "fr": {
+     "title": "Grok Bot vérifie les sondages à l'aveugle et modifie la liste des candidats, sans humain",
+     "summary": "Un dépôt de prévision de la présidentielle 2027 fait de Grok Bot le seul agent du pipeline. Une nouvelle routine ressaisit chaque sondage depuis la notice d'origine sans voir les chiffres proposés ; seule une correspondance exacte est commitée sur main, sinon rejet sans révéler les valeurs. Les modifications de candidats sont validées et journalisées. Exécution à 10h30 et 20h30, heure de Paris."
+    },
+    "es": {
+     "title": "Grok Bot verifica encuestas a ciegas y edita la lista de candidatos, sin humanos",
+     "summary": "Un repositorio que pronostica las elecciones francesas de 2027 deja a Grok Bot como único agente del pipeline. Una rutina nueva vuelve a capturar cada encuesta desde el aviso original sin ver las cifras propuestas; solo una coincidencia exacta se sube a main y una discrepancia se rechaza sin revelar valores. Los cambios de candidatos se validan y registran. Corre a las 10:30 y 20:30, hora de París."
+    },
+    "de": {
+     "title": "Grok Bot prüft Umfragen blind und pflegt die Kandidatenliste, ohne Menschen",
+     "summary": "Ein Prognose-Repo zur französischen Wahl 2027 macht Grok Bot zum einzigen Agenten der Pipeline. Eine neue Routine erfasst jede Umfrage erneut aus der Originalmeldung, ohne die vorgeschlagenen Zahlen zu sehen; nur bei exakter Übereinstimmung wird auf main committet, Abweichungen werden ohne Werte abgelehnt. Kandidatenänderungen werden validiert und protokolliert. Läuft um 10:30 und 20:30 Pariser Zeit."
+    }
+   },
+   "added_at": "2026-10-16T11:12:48.472Z"
+  },
+  {
+   "id": "gh:github.com/richardorchardorganisation/queenzone.modern/pull/2331",
+   "url": "https://github.com/RichardOrchardOrganisation/QueenZone.Modern/pull/2331",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "richardorchard",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Bump @testing-library/react-native to 14.1.0 and migrate tests to async API\n## Agent\n\n**Agent:** Grok Bot (draft by Codex, reviewed)\n\n## Summary\n\nReplaces Dependabot PR #2309 (@testing-library/react-native 13.3.3 → 14.1.0). v14 makes rendering async and drops react-test-renderer in favour of `test-renderer`, so #2309 failed typecheck with 264 errors across 56 test files.\n\n- Test files only, about 110 of them: `await` on render / renderHook / rerender / unmount / act / fireEvent / cleanup, and the test callbacks made async to match. `src/test/render.tsx` `renderWithProviders` is now async. `jest.setup.ts` awaits `cleanup()`.\n- New `src/test/renderer.ts`: `allComponentProps` / `componentProps` / `getHostByType` replace the removed `UNSAFE_getByType` / `findAllByType`. They read composite props from the committed fiber (`screen.root.unstable_fiber`) and require 1 or ≥1 matches.\n- package.json: `test-renderer` ^1.3.1 added as an explicit devDependency (v14 peer).\n- Separate commit: the Expo SDK 57 patch alignment from #2329, so Expo Doctor passes here as well.\n\nNo production source changed. No tests were deleted or skipped. `expect(` lines removed vs added: 62 / 62. @sentry/react-native is unchanged (7.11.0).\n\n## Testing\n\n- [x] `npm run typecheck` (app + tsconfig.test.json): pass\n- [x] `npm run lint`: 0 errors (2 warnings that are already there)\n- [x] `npx jest`: 163 suites, 1350 tests pass\n- [x] `npx expo-doctor`: 21/21\n- [ ] Node test runner part of `npm run preflight`: CI (the local box has Node 20)\n\n## Legacy database checks\n\n- [x] Not required for this change\n\n## Verification\n\n- Feature ids: none (test-only migration, no UI source changed)\n- Command: `npm run typecheck && npm run lint && npx jest`\n- Platform(s): Linux (Jest) and CI\n- Result: pass locally; CI run: https://github.com/RichardOrchardOrganisation/QueenZone.Modern/actions?query=bran",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 接手失败的 Dependabot 升级：迁移约 110 个测试文件",
+     "summary": "Dependabot 把 @testing-library/react-native 升到 14.1.0 后类型检查报 264 个错误。Grok Bot（Codex 起草、复核）改为异步 API，只动测试文件，补了替代已删 API 的辅助函数；typecheck、lint、1350 个 Jest 测试和 expo-doctor 21/21 全部通过，没有删除或跳过测试。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 接手失敗的 Dependabot 升級：遷移約 110 個測試檔",
+     "summary": "Dependabot 把 @testing-library/react-native 升到 14.1.0 後型別檢查報 264 個錯誤。Grok Bot（Codex 起草、複核）改為非同步 API，只動測試檔，補了替代已刪 API 的輔助函式；typecheck、lint、1350 個 Jest 測試和 expo-doctor 21/21 全部通過，沒有刪除或略過測試。"
+    },
+    "en": {
+     "title": "Grok Bot rescues a failed Dependabot bump by migrating ~110 test files",
+     "summary": "Dependabot's @testing-library/react-native 14.1.0 bump failed typecheck with 264 errors. Grok Bot (draft by Codex, reviewed) moved the tests to the async API, touching test files only, and added helpers for removed APIs. Typecheck, lint, 1,350 Jest tests and expo-doctor 21/21 pass; no tests deleted or skipped."
+    },
+    "ja": {
+     "title": "失敗した Dependabot 更新を Grok Bot が引き継ぎ、約 110 のテストを移行",
+     "summary": "@testing-library/react-native 14.1.0 への Dependabot 更新は型チェックで 264 件のエラー。Grok Bot（Codex が下書き、レビュー済み）がテストだけを非同期 API に移行し、削除された API の代替ヘルパーを追加。typecheck、lint、Jest 1,350 件、expo-doctor 21/21 すべて通過し、テストの削除やスキップはなし。"
+    },
+    "ko": {
+     "title": "실패한 Dependabot 업데이트를 Grok Bot이 인수, 테스트 약 110개 이전",
+     "summary": "@testing-library/react-native 14.1.0 Dependabot 업데이트가 타입 검사에서 264개 오류로 실패했다. Grok Bot(Codex 초안, 검토 완료)이 테스트 파일만 비동기 API로 옮기고 제거된 API를 대신할 헬퍼를 추가했다. typecheck, lint, Jest 1,350개, expo-doctor 21/21 모두 통과, 삭제하거나 건너뛴 테스트 없음."
+    },
+    "ms": {
+     "title": "Grok Bot selamatkan kemas kini Dependabot yang gagal dengan pindah ~110 fail ujian",
+     "summary": "Kemas kini Dependabot @testing-library/react-native 14.1.0 gagal semakan jenis dengan 264 ralat. Grok Bot (draf oleh Codex, disemak) memindahkan ujian ke API async, hanya menyentuh fail ujian, dan menambah pembantu bagi API yang dibuang. Typecheck, lint, 1,350 ujian Jest dan expo-doctor 21/21 lulus; tiada ujian dibuang atau dilangkau."
+    },
+    "vi": {
+     "title": "Grok Bot cứu bản nâng cấp Dependabot thất bại, chuyển ~110 file test",
+     "summary": "Bản nâng cấp @testing-library/react-native 14.1.0 của Dependabot lỗi typecheck với 264 lỗi. Grok Bot (Codex soạn nháp, đã review) chuyển test sang API bất đồng bộ, chỉ sửa file test và thêm helper thay API đã bị bỏ. Typecheck, lint, 1.350 test Jest và expo-doctor 21/21 đều qua; không xóa hay bỏ qua test nào."
+    },
+    "fr": {
+     "title": "Grok Bot reprend une mise à jour Dependabot ratée et migre ~110 fichiers de test",
+     "summary": "La mise à jour Dependabot vers @testing-library/react-native 14.1.0 échouait au typecheck avec 264 erreurs. Grok Bot (brouillon par Codex, relu) a migré les tests vers l'API asynchrone, sans toucher au code de production, et ajouté des helpers pour les API supprimées. Typecheck, lint, 1 350 tests Jest et expo-doctor 21/21 passent ; aucun test supprimé ni ignoré."
+    },
+    "es": {
+     "title": "Grok Bot rescata una actualización fallida de Dependabot migrando ~110 archivos de test",
+     "summary": "La actualización de Dependabot a @testing-library/react-native 14.1.0 fallaba el typecheck con 264 errores. Grok Bot (borrador de Codex, revisado) migró los tests a la API asíncrona, tocando solo archivos de test, y añadió helpers para las API eliminadas. Typecheck, lint, 1.350 tests de Jest y expo-doctor 21/21 pasan; ningún test borrado ni omitido."
+    },
+    "de": {
+     "title": "Grok Bot rettet ein gescheitertes Dependabot-Update und migriert ~110 Testdateien",
+     "summary": "Das Dependabot-Update auf @testing-library/react-native 14.1.0 scheiterte am Typecheck mit 264 Fehlern. Grok Bot (Entwurf von Codex, geprüft) stellte nur Testdateien auf die asynchrone API um und ergänzte Helfer für entfernte APIs. Typecheck, Lint, 1.350 Jest-Tests und expo-doctor 21/21 bestehen; kein Test gelöscht oder übersprungen."
+    }
+   },
+   "added_at": "2026-10-16T11:12:48.472Z"
+  },
+  {
+   "id": "gh:github.com/keroway/astro-blog/issues/891",
+   "url": "https://github.com/keroway/astro-blog/issues/891",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "keroway",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "openai-dots",
+   "text": "bug: Firefox の遷移後 Ctrl+K 再発と CI trace 保存漏れ\n## 報告者・範囲\nOpenAI dots による調査起票。Firefox の再発と、診断証拠の保存漏れを区別して記録する。まず証拠保存の最小修正を別途 Draft PR にする。アプリ本体の原因は未確定。\n\n## 再現手順・期待する動作\nmain `b2d56b8a2980ad414b29c115033b94eb40bf724a` の Playwright Firefox project で、`tests/playwright/command-palette.spec.ts:57` を実行。トップからヘッダリンクで /works → /blog → /about と遷移し、最初の Control+k でパレットが開き、2 回目で閉じることを期待する。\n\n## 実際の動作・検証済み事実\n[CI job](https://github.com/keroway/astro-blog/actions/runs/38827067120/job/116737698307) のログを再確認した。\n- 最初の Control+k 後、line 73 の toBeVisible が hidden のまま失敗。初回・retry 1・retry 2 の全 3 回で同じ箇所。256 passed / 4 skipped / 1 failed。\n- hidden な DOM に data-ready=true があるが、初期化の証拠でありイベント到達や正常な開閉の証拠ではない。\n- retry 1 で test-results/...-firefox-retry1/trace.zip と error-context.md が生成された。\n- ci.yml は failure 時に playwright-report だけを upload する。HTML reporter の明示設定はなく、ログは「No files were found ... No artifacts will be uploaded」。upload 自体が hard failure したのではなく、保存が成立していない。\n- run の artifact は dist と lhci-reports のみ。trace は保存されていない。\n- 2026-10-16 の調査時 main は上記 SHA のままで修正済みではない。open issues 11 件・open PR 0 件に同件なし。既存 issue の担当・除外ラベルを確認し、コメント・変更はしていない。\n\n## 過去課題との違い・未確認点\n旧 #763 は 2 回目 Control+k 後 line 76 で閉じない失敗（PR #767 で対応済み）。#740 / PR #741 の listener 重複対策、#847 / PR #850 の swap 前リセットは現在の source に存在する。#886 / PR #887 は検索結果再描画時のフォーカス修正で、この失敗と同一原因とは確認できない。\n\nテストは各クリック後 networkidle を待つが、遷移先 URL と Astro navigation 完了を明示確認していない。CommandPalette.astro は listener 登録ガード・都度の現在 DOM 取得・before-swap リセットを持つ。source とログだけで lifecycle バグ、listener 重複、focus 起因のいずれとも断定しない。本番での再現とローカル再現は未確認。\n\n## 最小修正案・検証項目\n1. CI の HTML reporter を open=never で明示有効化し、失敗時に test-results/ と playwright-report/ を保存する。既存 trace:on-first-retry、retry 数、テスト assertion は維持。\n2. 意図的な失敗を一時 fixture で発生させ、retry trace・error context・HTML report が生成され保存対象に入ることを検証する。成功した suite だけでは失敗時の保存を証明しない。\n3. 保存できる trace を用いて以下を切り分けてから最小限のテス",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "OpenAI Dots 调查 Firefox 测试失败，并发现 CI 没存诊断证据",
+     "summary": "在一个 Astro 博客仓库里，Dots 复查 CI 日志后提交 issue：Firefox 下页面跳转后第一次 Ctrl+K 打不开命令面板，3 次重试都卡在同一行；同时 CI 只上传未生成的报告目录，trace 没保存。它区分已证实事实与未确认原因，先提出保存证据的最小修复。"
+    },
+    "zh-TW": {
+     "title": "OpenAI Dots 調查 Firefox 測試失敗，並發現 CI 沒存診斷證據",
+     "summary": "在一個 Astro 部落格倉庫裡，Dots 複查 CI 日誌後提交 issue：Firefox 下頁面跳轉後第一次 Ctrl+K 打不開命令面板，3 次重試都卡在同一行；同時 CI 只上傳未產生的報告目錄，trace 沒保存。它區分已證實事實與未確認原因，先提出保存證據的最小修正。"
+    },
+    "en": {
+     "title": "OpenAI Dots investigates a Firefox test failure and finds CI dropping its evidence",
+     "summary": "In an Astro blog repo, Dots re-read the CI logs and filed an issue: after navigation in Firefox the first Ctrl+K never opens the command palette, failing on the same line in all 3 attempts, while CI uploads only a report folder that was never generated, so traces are lost. It separates verified facts from unconfirmed causes and proposes a minimal evidence-saving fix first."
+    },
+    "ja": {
+     "title": "OpenAI Dots が Firefox のテスト失敗を調査、CI が証拠を残していないことも発見",
+     "summary": "Astro ブログのリポジトリで Dots が CI ログを再確認して issue を起票。Firefox で遷移後の最初の Ctrl+K でパレットが開かず、3 回とも同じ行で失敗。さらに CI は生成されていない HTML レポートだけをアップロードし trace が保存されていなかった。確認済みの事実と未確定の原因を分け、まず証拠保存の最小修正を提案。"
+    },
+    "ko": {
+     "title": "OpenAI Dots가 Firefox 테스트 실패를 조사하고 CI의 증거 누락까지 발견",
+     "summary": "Astro 블로그 저장소에서 Dots가 CI 로그를 다시 확인해 이슈를 올렸다. Firefox에서 페이지 이동 후 첫 Ctrl+K에 명령 팔레트가 열리지 않아 3번 모두 같은 줄에서 실패했고, CI는 생성되지도 않은 리포트 폴더만 올려 trace가 남지 않았다. 확인된 사실과 미확인 원인을 구분하고 증거 보존용 최소 수정부터 제안했다."
+    },
+    "ms": {
+     "title": "OpenAI Dots siasat kegagalan ujian Firefox dan dapati CI tidak simpan bukti",
+     "summary": "Dalam repo blog Astro, Dots menyemak semula log CI dan membuka isu: selepas navigasi di Firefox, Ctrl+K pertama tidak membuka palet arahan, gagal pada baris sama dalam ketiga-tiga cubaan, manakala CI hanya memuat naik folder laporan yang tidak pernah dijana, jadi trace hilang. Ia memisahkan fakta yang disahkan daripada punca yang belum pasti dan mencadangkan pembaikan minimum dahulu."
+    },
+    "vi": {
+     "title": "OpenAI Dots điều tra lỗi test Firefox và phát hiện CI không lưu bằng chứng",
+     "summary": "Trong một repo blog Astro, Dots đọc lại log CI và mở issue: sau khi chuyển trang trên Firefox, lần Ctrl+K đầu không mở được command palette, cả 3 lần chạy đều lỗi ở cùng một dòng; trong khi CI chỉ tải lên thư mục báo cáo chưa từng được tạo nên mất trace. Nó tách sự thật đã xác minh khỏi nguyên nhân chưa rõ và đề xuất sửa tối thiểu để lưu bằng chứng trước."
+    },
+    "fr": {
+     "title": "OpenAI Dots enquête sur un test Firefox en échec et découvre que la CI perd ses preuves",
+     "summary": "Dans le dépôt d'un blog Astro, Dots a relu les logs CI et ouvert une issue : après navigation sous Firefox, le premier Ctrl+K n'ouvre pas la palette de commandes, échec à la même ligne sur les 3 tentatives, et la CI n'envoie qu'un dossier de rapport jamais généré, donc les traces sont perdues. Il sépare faits vérifiés et causes non confirmées et propose d'abord un correctif minimal pour conserver les preuves."
+    },
+    "es": {
+     "title": "OpenAI Dots investiga un fallo de test en Firefox y descubre que la CI pierde la evidencia",
+     "summary": "En el repositorio de un blog Astro, Dots releyó los logs de CI y abrió un issue: tras navegar en Firefox, el primer Ctrl+K no abre la paleta de comandos y falla en la misma línea en los 3 intentos, mientras la CI solo sube una carpeta de informe que nunca se generó, así que se pierden las trazas. Separa hechos verificados de causas sin confirmar y propone primero un arreglo mínimo para guardar evidencia."
+    },
+    "de": {
+     "title": "OpenAI Dots untersucht einen Firefox-Testfehler und findet verlorene CI-Belege",
+     "summary": "In einem Astro-Blog-Repo las Dots die CI-Logs erneut und eröffnete ein Issue: Nach Navigation in Firefox öffnet der erste Strg+K die Befehlspalette nicht, in allen 3 Versuchen an derselben Zeile; zugleich lädt die CI nur einen nie erzeugten Report-Ordner hoch, Traces gehen verloren. Belegte Fakten und offene Ursachen werden getrennt, zuerst wird ein minimaler Fix zur Beweissicherung vorgeschlagen."
+    }
+   },
+   "added_at": "2026-10-16T11:12:48.472Z"
+  },
+  {
+   "id": "gh:github.com/deximple/grokbot-activity-log",
+   "url": "https://github.com/deximple/grokbot-activity-log",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "deximple",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "deximple/grokbot-activity-log\nTamper-evident, hash-chained activity ledger for Grok Bot (stdlib Python CLI + skill + daily audit routine). MIT.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 防篡改活动账本：哈希链 + 每日审计例行",
+     "summary": "开源（MIT）的 Grok Bot 活动记录工具：用纯标准库 Python 命令行写入哈希链账本，配套 skill 和每日审计 routine，记录被改动时可以发现。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 防竄改活動帳本：雜湊鏈 + 每日稽核例行",
+     "summary": "開源（MIT）的 Grok Bot 活動紀錄工具：用純標準函式庫 Python 命令列寫入雜湊鏈帳本，搭配 skill 和每日稽核 routine，紀錄被改動時可以察覺。"
+    },
+    "en": {
+     "title": "Tamper-evident activity ledger for Grok Bot with a daily audit routine",
+     "summary": "An MIT-licensed, hash-chained activity log for Grok Bot: a stdlib-only Python CLI writes the ledger, plus a skill and a daily audit routine, so edits to past entries can be detected."
+    },
+    "ja": {
+     "title": "Grok Bot の改ざん検知つき活動台帳、毎日の監査ルーティン付き",
+     "summary": "MIT ライセンスの Grok Bot 向け活動ログ。標準ライブラリだけの Python CLI でハッシュチェーン台帳を書き、skill と毎日の監査ルーティンを同梱。過去の記録が書き換えられると検知できる。"
+    },
+    "ko": {
+     "title": "Grok Bot용 위변조 감지 활동 장부와 매일 감사 루틴",
+     "summary": "MIT 라이선스의 Grok Bot 활동 기록 도구. 표준 라이브러리만 쓰는 Python CLI가 해시 체인 장부를 쓰고, skill과 매일 감사 루틴이 함께 제공되어 과거 기록 수정 여부를 확인할 수 있다."
+    },
+    "ms": {
+     "title": "Lejar aktiviti kalis usik untuk Grok Bot dengan rutin audit harian",
+     "summary": "Log aktiviti berantai hash berlesen MIT untuk Grok Bot: CLI Python stdlib sahaja menulis lejar, disertakan skill dan rutin audit harian, supaya suntingan pada entri lama dapat dikesan."
+    },
+    "vi": {
+     "title": "Sổ nhật ký hoạt động chống sửa đổi cho Grok Bot, kèm routine kiểm tra hằng ngày",
+     "summary": "Công cụ ghi log hoạt động cho Grok Bot, giấy phép MIT: CLI Python chỉ dùng thư viện chuẩn ghi sổ chuỗi băm, kèm skill và routine kiểm tra hằng ngày, nên phát hiện được khi mục cũ bị sửa."
+    },
+    "fr": {
+     "title": "Registre d'activité infalsifiable pour Grok Bot avec audit quotidien",
+     "summary": "Un journal d'activité chaîné par hachage pour Grok Bot, sous licence MIT : une CLI Python sans dépendances écrit le registre, avec une skill et une routine d'audit quotidienne qui détecte toute modification d'entrées passées."
+    },
+    "es": {
+     "title": "Registro de actividad a prueba de manipulación para Grok Bot con auditoría diaria",
+     "summary": "Un registro de actividad encadenado por hash para Grok Bot, con licencia MIT: una CLI de Python solo con la librería estándar escribe el libro, junto con una skill y una rutina de auditoría diaria que detecta cambios en entradas pasadas."
+    },
+    "de": {
+     "title": "Manipulationssicheres Aktivitätsprotokoll für Grok Bot mit täglichem Audit",
+     "summary": "Ein hash-verkettetes Aktivitätsprotokoll für Grok Bot unter MIT-Lizenz: Ein Python-CLI nur mit Standardbibliothek schreibt das Ledger, dazu ein Skill und eine tägliche Audit-Routine, die Änderungen an alten Einträgen erkennt."
+    }
+   },
+   "added_at": "2026-10-16T11:12:48.472Z"
+  },
+  {
+   "id": "gh:github.com/riceblack67/grokbot-claude-code",
+   "url": "https://github.com/RiceBlack67/grokbot-claude-code",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "RiceBlack67",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "RiceBlack67/grokbot-claude-code\nLet Claude Code hand tasks to your Cursor Grok Bot and wait for the answer — no webhook, one stdlib-only Python script. 让 Claude Code 把任务交给 Grok Bot，不用 webhook。\nai-agents claude claude-code cursor grok grokbot python",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "让 Claude Code 把任务交给 Grok Bot 并等结果，不用 webhook",
+     "summary": "一个只用 Python 标准库的脚本：Claude Code 可以把任务派给你的 Grok Bot，然后等待它返回答案，无需配置 webhook。"
+    },
+    "zh-TW": {
+     "title": "讓 Claude Code 把任務交給 Grok Bot 並等結果，不用 webhook",
+     "summary": "一個只用 Python 標準函式庫的腳本：Claude Code 可以把任務派給你的 Grok Bot，然後等待它回傳答案，無需設定 webhook。"
+    },
+    "en": {
+     "title": "Let Claude Code hand tasks to Grok Bot and wait for the answer, no webhook",
+     "summary": "A single stdlib-only Python script lets Claude Code delegate a task to your Grok Bot and wait for its reply, without setting up a webhook."
+    },
+    "ja": {
+     "title": "Claude Code から Grok Bot にタスクを渡して回答を待つ、webhook 不要",
+     "summary": "標準ライブラリだけの Python スクリプト 1 本で、Claude Code が Grok Bot にタスクを任せて返答を待てる。webhook の設定は不要。"
+    },
+    "ko": {
+     "title": "Claude Code가 Grok Bot에 작업을 넘기고 답을 기다리기, webhook 불필요",
+     "summary": "표준 라이브러리만 쓰는 Python 스크립트 하나로 Claude Code가 Grok Bot에 작업을 맡기고 답을 기다릴 수 있다. webhook 설정이 필요 없다."
+    },
+    "ms": {
+     "title": "Biar Claude Code serah tugas kepada Grok Bot dan tunggu jawapan, tanpa webhook",
+     "summary": "Satu skrip Python stdlib sahaja membolehkan Claude Code mewakilkan tugas kepada Grok Bot anda dan menunggu balasannya, tanpa menyediakan webhook."
+    },
+    "vi": {
+     "title": "Để Claude Code giao việc cho Grok Bot và chờ kết quả, không cần webhook",
+     "summary": "Một script Python chỉ dùng thư viện chuẩn cho phép Claude Code giao việc cho Grok Bot của bạn và chờ câu trả lời, không cần cấu hình webhook."
+    },
+    "fr": {
+     "title": "Claude Code délègue des tâches à Grok Bot et attend la réponse, sans webhook",
+     "summary": "Un seul script Python sans dépendances permet à Claude Code de confier une tâche à votre Grok Bot et d'attendre sa réponse, sans configurer de webhook."
+    },
+    "es": {
+     "title": "Claude Code delega tareas a Grok Bot y espera la respuesta, sin webhook",
+     "summary": "Un único script de Python solo con la librería estándar permite que Claude Code delegue una tarea a tu Grok Bot y espere su respuesta, sin configurar un webhook."
+    },
+    "de": {
+     "title": "Claude Code gibt Aufgaben an Grok Bot ab und wartet auf die Antwort, ohne Webhook",
+     "summary": "Ein einzelnes Python-Skript nur mit Standardbibliothek lässt Claude Code eine Aufgabe an deinen Grok Bot delegieren und auf die Antwort warten, ganz ohne Webhook."
+    }
+   },
+   "added_at": "2026-10-16T11:12:48.472Z"
+  },
+  {
+   "id": "gh:github.com/syy706/grokbot-backup-kit",
+   "url": "https://github.com/syy706/grokbot-backup-kit",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "syy706",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "syy706/grokbot-backup-kit\nBackup & restore a Grok Bot box to a private GitHub repo / 备份与还原 Grok Bot 盒子",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "把 Grok Bot 盒子备份到私有 GitHub 仓库并可还原",
+     "summary": "一个备份工具包：把 Grok Bot 的盒子（工作机）备份到你自己的私有 GitHub 仓库，需要时再还原。"
+    },
+    "zh-TW": {
+     "title": "把 Grok Bot 盒子備份到私有 GitHub 倉庫並可還原",
+     "summary": "一個備份工具包：把 Grok Bot 的盒子（工作機）備份到你自己的私有 GitHub 倉庫，需要時再還原。"
+    },
+    "en": {
+     "title": "Back up and restore a Grok Bot box to a private GitHub repo",
+     "summary": "A backup kit that saves a Grok Bot box (its working machine) to your own private GitHub repository and restores it when needed."
+    },
+    "ja": {
+     "title": "Grok Bot のボックスを非公開 GitHub リポジトリにバックアップ・復元",
+     "summary": "Grok Bot のボックス（作業用マシン）を自分の非公開 GitHub リポジトリに保存し、必要なときに復元できるバックアップキット。"
+    },
+    "ko": {
+     "title": "Grok Bot 박스를 비공개 GitHub 저장소에 백업하고 복원",
+     "summary": "Grok Bot의 박스(작업 머신)를 내 비공개 GitHub 저장소에 저장하고 필요할 때 복원하는 백업 도구 모음."
+    },
+    "ms": {
+     "title": "Sandar dan pulihkan kotak Grok Bot ke repo GitHub peribadi",
+     "summary": "Kit sandaran yang menyimpan kotak Grok Bot (mesin kerjanya) ke repositori GitHub peribadi anda dan memulihkannya apabila perlu."
+    },
+    "vi": {
+     "title": "Sao lưu và khôi phục box của Grok Bot vào repo GitHub riêng tư",
+     "summary": "Bộ công cụ sao lưu box của Grok Bot (máy làm việc của nó) vào repo GitHub riêng tư của bạn và khôi phục khi cần."
+    },
+    "fr": {
+     "title": "Sauvegarder et restaurer la box d'un Grok Bot dans un dépôt GitHub privé",
+     "summary": "Un kit de sauvegarde qui enregistre la box d'un Grok Bot (sa machine de travail) dans votre dépôt GitHub privé et la restaure au besoin."
+    },
+    "es": {
+     "title": "Respaldar y restaurar la box de Grok Bot en un repositorio privado de GitHub",
+     "summary": "Un kit de respaldo que guarda la box de Grok Bot (su máquina de trabajo) en tu repositorio privado de GitHub y la restaura cuando haga falta."
+    },
+    "de": {
+     "title": "Grok-Bot-Box in ein privates GitHub-Repo sichern und wiederherstellen",
+     "summary": "Ein Backup-Kit, das die Box eines Grok Bot (seine Arbeitsmaschine) in deinem privaten GitHub-Repository sichert und bei Bedarf wiederherstellt."
+    }
+   },
+   "added_at": "2026-10-16T11:12:48.472Z"
+  },
+  {
+   "id": "gh:github.com/miku2339/baileys-dot-bridge",
+   "url": "https://github.com/miku2339/baileys-dot-bridge",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "miku2339",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "openai-dots",
+   "text": "miku2339/baileys-dot-bridge\nBaileys → OAuth MCP Events → ChatGPT Dot: deployment guides in English, 繁體中文 and 日本語.",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "把 WhatsApp 消息通过 MCP Events 接到 ChatGPT Dot",
+     "summary": "用 Baileys（WhatsApp 客户端库）经 OAuth MCP Events 把消息推给 ChatGPT Dot 的桥接项目，附英文、繁体中文和日文部署指南。"
+    },
+    "zh-TW": {
+     "title": "把 WhatsApp 訊息透過 MCP Events 接到 ChatGPT Dot",
+     "summary": "用 Baileys（WhatsApp 用戶端函式庫）經 OAuth MCP Events 把訊息推給 ChatGPT Dot 的橋接專案，附英文、繁體中文和日文部署指南。"
+    },
+    "en": {
+     "title": "Bridge WhatsApp messages to a ChatGPT Dot via MCP Events",
+     "summary": "A bridge that uses Baileys (a WhatsApp client library) to push messages through OAuth MCP Events to a ChatGPT Dot, with deployment guides in English, Traditional Chinese and Japanese."
+    },
+    "ja": {
+     "title": "WhatsApp のメッセージを MCP Events 経由で ChatGPT Dot へ",
+     "summary": "Baileys（WhatsApp クライアントライブラリ）から OAuth MCP Events を通じて ChatGPT Dot にメッセージを届けるブリッジ。英語・繁体字中国語・日本語のデプロイ手順付き。"
+    },
+    "ko": {
+     "title": "WhatsApp 메시지를 MCP Events로 ChatGPT Dot에 연결",
+     "summary": "Baileys(WhatsApp 클라이언트 라이브러리)로 받은 메시지를 OAuth MCP Events를 거쳐 ChatGPT Dot에 보내는 브리지. 영어, 번체 중국어, 일본어 배포 가이드 포함."
+    },
+    "ms": {
+     "title": "Sambung mesej WhatsApp ke ChatGPT Dot melalui MCP Events",
+     "summary": "Jambatan yang menggunakan Baileys (pustaka klien WhatsApp) untuk menolak mesej melalui OAuth MCP Events ke ChatGPT Dot, dengan panduan pemasangan dalam bahasa Inggeris, Cina Tradisional dan Jepun."
+    },
+    "vi": {
+     "title": "Nối tin nhắn WhatsApp tới ChatGPT Dot qua MCP Events",
+     "summary": "Cầu nối dùng Baileys (thư viện client WhatsApp) đẩy tin nhắn qua OAuth MCP Events tới ChatGPT Dot, kèm hướng dẫn triển khai bằng tiếng Anh, tiếng Trung phồn thể và tiếng Nhật."
+    },
+    "fr": {
+     "title": "Relier les messages WhatsApp à un ChatGPT Dot via MCP Events",
+     "summary": "Une passerelle qui utilise Baileys (bibliothèque client WhatsApp) pour envoyer les messages via OAuth MCP Events à un ChatGPT Dot, avec des guides de déploiement en anglais, chinois traditionnel et japonais."
+    },
+    "es": {
+     "title": "Conectar mensajes de WhatsApp a un ChatGPT Dot mediante MCP Events",
+     "summary": "Un puente que usa Baileys (librería cliente de WhatsApp) para enviar mensajes por OAuth MCP Events a un ChatGPT Dot, con guías de despliegue en inglés, chino tradicional y japonés."
+    },
+    "de": {
+     "title": "WhatsApp-Nachrichten per MCP Events an einen ChatGPT Dot weiterleiten",
+     "summary": "Eine Brücke, die mit Baileys (WhatsApp-Client-Bibliothek) Nachrichten über OAuth MCP Events an einen ChatGPT Dot schickt, mit Deployment-Anleitungen auf Englisch, traditionellem Chinesisch und Japanisch."
+    }
+   },
+   "added_at": "2026-10-16T11:12:48.472Z"
+  },
+  {
+   "id": "gh:github.com/soumilrathi/minecraft-companions",
+   "url": "https://github.com/SoumilRathi/minecraft-companions",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "SoumilRathi",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "multi",
+   "text": "SoumilRathi/minecraft-companions\nTalk to your existing Codex, Claude Code, and ChatGPT Dot conversations in Minecraft.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "在 Minecraft 里和你的 Codex、Claude Code、ChatGPT Dot 对话",
+     "summary": "开源项目：把你已有的 Codex、Claude Code 和 ChatGPT Dot 对话接进 Minecraft，在游戏里直接和它们交谈。"
+    },
+    "zh-TW": {
+     "title": "在 Minecraft 裡和你的 Codex、Claude Code、ChatGPT Dot 對話",
+     "summary": "開源專案：把你已有的 Codex、Claude Code 和 ChatGPT Dot 對話接進 Minecraft，在遊戲裡直接和它們交談。"
+    },
+    "en": {
+     "title": "Talk to your Codex, Claude Code and ChatGPT Dot sessions inside Minecraft",
+     "summary": "An open-source project that brings your existing Codex, Claude Code and ChatGPT Dot conversations into Minecraft so you can talk to them in-game."
+    },
+    "ja": {
+     "title": "Minecraft の中で Codex・Claude Code・ChatGPT Dot と会話",
+     "summary": "既存の Codex、Claude Code、ChatGPT Dot の会話を Minecraft に持ち込み、ゲーム内で直接話しかけられるオープンソースプロジェクト。"
+    },
+    "ko": {
+     "title": "Minecraft 안에서 Codex, Claude Code, ChatGPT Dot과 대화",
+     "summary": "기존 Codex, Claude Code, ChatGPT Dot 대화를 Minecraft로 가져와 게임 안에서 바로 말을 걸 수 있는 오픈소스 프로젝트."
+    },
+    "ms": {
+     "title": "Berbual dengan sesi Codex, Claude Code dan ChatGPT Dot dalam Minecraft",
+     "summary": "Projek sumber terbuka yang membawa perbualan Codex, Claude Code dan ChatGPT Dot sedia ada anda ke dalam Minecraft supaya anda boleh bercakap dengannya dalam permainan."
+    },
+    "vi": {
+     "title": "Trò chuyện với Codex, Claude Code và ChatGPT Dot ngay trong Minecraft",
+     "summary": "Dự án mã nguồn mở đưa các cuộc trò chuyện Codex, Claude Code và ChatGPT Dot sẵn có của bạn vào Minecraft để nói chuyện với chúng trong game."
+    },
+    "fr": {
+     "title": "Parler à vos sessions Codex, Claude Code et ChatGPT Dot dans Minecraft",
+     "summary": "Un projet open source qui amène vos conversations Codex, Claude Code et ChatGPT Dot existantes dans Minecraft pour leur parler en jeu."
+    },
+    "es": {
+     "title": "Habla con tus sesiones de Codex, Claude Code y ChatGPT Dot dentro de Minecraft",
+     "summary": "Un proyecto de código abierto que lleva tus conversaciones existentes de Codex, Claude Code y ChatGPT Dot a Minecraft para hablarles dentro del juego."
+    },
+    "de": {
+     "title": "Mit Codex, Claude Code und ChatGPT Dot direkt in Minecraft sprechen",
+     "summary": "Ein Open-Source-Projekt, das deine bestehenden Codex-, Claude-Code- und ChatGPT-Dot-Unterhaltungen nach Minecraft holt, damit du im Spiel mit ihnen sprichst."
+    }
+   },
+   "added_at": "2026-10-16T11:12:48.472Z"
+  },
+  {
+   "id": "gh:github.com/armeria-sk/niwa/pull/2",
+   "url": "https://github.com/Armeria-SK/niwa/pull/2",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "Armeria-SK",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "multi",
+   "text": "外部連携と接続先の拡充：Claude・OpenAI互換API・外部MCP・外部の出来事での起動・添付・逐次表示\nGrok Bot・OpenAI Dotsとの比較で見つかった足りない点と、設計上の盲点への手当てをまとめたPRです。\n\n## 追加した機能\n- **Claude（Anthropic API）の接続**（`src/providers/anthropic/`）\n  - 公式SDK `@anthropic-ai/sdk` を使い、APIキーで接続します。Maxプランに付く毎月のAPI利用枠も使えます。\n  - 使えるモデルの一覧をAPIから取り、表示名つき・新しい順に選べます。\n  - Botの「推論の強さ」の設定を、Claudeが考える深さ（adaptive thinking と effort）に使います。\n  - 安全確認で断られたときは、別のモデルで自動的にやり直します（`fallbacks: \"default\"`）。\n  - 前の依頼で考えた内容を引き継げないときは、エラーにせず捨てて続けます（`drop_block`）。\n- **OpenAI互換APIの接続**（`src/providers/openai-compatible/`）\n  - APIキーで OpenAI・OpenRouter・LM Studio などにつなげます。\n  - ChatGPTのサブスクでの接続は公式に開放された経路ではないため、使えなくなったときの代わりになります。\n- **外部MCP**：URL（Streamable HTTP）と固定トークンで接続できます。トークンは `secrets/` に保存し、画面には出しません。\n- **外部の出来事での起動**（管理者が作る定期実行に限ります）\n  - Webページ・RSSの更新：初回は内容を記録するだけで、2回目から変化があったときに起動します。\n  - 外からの通知：トークン付きで `POST /api/hooks/<id>` を受け取ると起動します。\n  - 受け取った内容は、信頼しない外部データとしてBotに渡します。\n- **テキストファイルの添付**：1回に5件、1件256KiBまで送れます。\n- **返答の逐次表示**：SSEで画面へ更新を知らせ、Botが書いている途中の返答を表示します。\n\n## 盲点への手当て・整理\n- **Xへの投稿は、毎回管理者の承認を待ってから送ります。** MCPの書き込みツールは既定では承認なしで動き、ツールごとに「毎回承認」を選べます。\n- 使われていなかった記憶監査APIを外しました。\n- 作られていたのに画面に出ていなかった「直近のモデル接続」を、設定画面に表示しました。\n- **Ollamaを「Local LLM」に改名しました。** 画面の表示に加え、内部の名前も変えています。\n  - 接続先の識別名：`local_llm`\n  - 設定の項目：`localLlmUrl`\n  - 保存先の列：`local_llm_url`\n  - プログラムの置き場所：`src/providers/local-llm/`\n  - 既存のデータは、起動時の移行で自動的に書き換えます。\n  - Ollamaとの通信で使う決まった名前（`/api/chat` や `OLLAMA_NUM_PARALLEL` など）と、セットアップ手順に出てくるソフト名はそのまま残しています。\n- 見本のまま直書きされていた成果物名を、実際の名前に直しました。\n- READMEを更新しました（Tailscaleの確認状況、承認が必要な操作、各接続の説明）。\n\n## マージ前・更新時の注意\n- **データベースの移行が6段階加わります**（user_version 53まで）。\n  - 添付、OpenAI互換、外部の出来事での起動、Claude接続、Local LLMへの改名の分です。\n  - 接続先の名前に関わる移行は、CHECK制約の文面をその場で書き換えます。書き換えたあとは整合性を確かめ、古い名前 `ollama` が1件も残っていないことも確かめます。想定と違えば起動しません。\n  - **更新の前にバックアップを取ってください。**\n- **更新前から開いていたブラウザーの画面は、再読み込みしてください。** 古い画面は古い項目名（`ollamaUrl`）を送るため、保存に失敗します。",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "对照 Grok Bot 和 OpenAI Dots 补齐自建 agent 的短板",
+     "summary": "一个自建常驻 agent 项目在与 Grok Bot、OpenAI Dots 对比后提交的 PR：接入 Claude 与 OpenAI 兼容 API、外部 MCP、网页/RSS 变化与 webhook 触发、文本附件和流式回复；发 X 帖子改为每次等管理员批准。合并前有 6 步数据库迁移，作者提醒先备份。"
+    },
+    "zh-TW": {
+     "title": "對照 Grok Bot 和 OpenAI Dots 補齊自建 agent 的短板",
+     "summary": "一個自建常駐 agent 專案在與 Grok Bot、OpenAI Dots 比較後提交的 PR：接入 Claude 與 OpenAI 相容 API、外部 MCP、網頁/RSS 變化與 webhook 觸發、文字附件和串流回覆；發 X 貼文改為每次等管理員核准。合併前有 6 步資料庫遷移，作者提醒先備份。"
+    },
+    "en": {
+     "title": "Closing a self-hosted agent's gaps found by comparing it with Grok Bot and OpenAI Dots",
+     "summary": "A self-hosted always-on agent project lists what a comparison with Grok Bot and OpenAI Dots showed was missing, and adds it: Claude and OpenAI-compatible APIs, external MCP, triggers from page/RSS changes and webhooks, text attachments and streamed replies. Posting to X now waits for admin approval every time. Six database migrations; back up first."
+    },
+    "ja": {
+     "title": "Grok Bot・OpenAI Dots と比べて分かった自作エージェントの不足を補う",
+     "summary": "自作の常駐エージェントで、Grok Bot と OpenAI Dots との比較から見つかった不足をまとめて追加した PR。Claude と OpenAI 互換 API、外部 MCP、Web ページ・RSS の変化や webhook での起動、テキスト添付、逐次表示に対応。X への投稿は毎回管理者の承認待ちに。DB 移行が 6 段階あるため事前のバックアップを推奨。"
+    },
+    "ko": {
+     "title": "Grok Bot, OpenAI Dots와 비교해 찾은 자체 에이전트의 빈틈 메우기",
+     "summary": "자체 호스팅 상시 에이전트 프로젝트가 Grok Bot, OpenAI Dots와 비교하며 찾은 부족한 점을 추가한 PR. Claude 및 OpenAI 호환 API, 외부 MCP, 웹 페이지/RSS 변화와 webhook 트리거, 텍스트 첨부, 스트리밍 응답을 지원한다. X 게시는 매번 관리자 승인을 기다린다. DB 마이그레이션 6단계가 있어 먼저 백업 권장."
+    },
+    "ms": {
+     "title": "Menutup jurang agen hos sendiri selepas dibanding dengan Grok Bot dan OpenAI Dots",
+     "summary": "PR projek agen sentiasa aktif hos sendiri yang menambah apa yang didapati kurang selepas dibandingkan dengan Grok Bot dan OpenAI Dots: API Claude dan serasi OpenAI, MCP luaran, pencetus daripada perubahan halaman/RSS dan webhook, lampiran teks serta balasan berstrim. Siaran ke X kini menunggu kelulusan admin setiap kali. Enam migrasi pangkalan data; buat sandaran dahulu."
+    },
+    "vi": {
+     "title": "Lấp chỗ thiếu của agent tự host sau khi so với Grok Bot và OpenAI Dots",
+     "summary": "PR của một dự án agent luôn chạy tự host, bổ sung những gì còn thiếu khi so với Grok Bot và OpenAI Dots: API Claude và tương thích OpenAI, MCP bên ngoài, kích hoạt khi trang/RSS thay đổi hoặc qua webhook, đính kèm văn bản và trả lời dạng stream. Đăng lên X giờ luôn chờ admin duyệt. Có 6 bước migrate cơ sở dữ liệu; nên sao lưu trước."
+    },
+    "fr": {
+     "title": "Combler les manques d'un agent auto-hébergé face à Grok Bot et OpenAI Dots",
+     "summary": "Une PR d'un projet d'agent permanent auto-hébergé ajoute ce qu'une comparaison avec Grok Bot et OpenAI Dots a révélé manquant : API Claude et compatibles OpenAI, MCP externe, déclenchement par changement de page/RSS et webhook, pièces jointes texte et réponses en streaming. Publier sur X attend désormais l'accord de l'admin à chaque fois. Six migrations de base ; sauvegarder d'abord."
+    },
+    "es": {
+     "title": "Cerrar las carencias de un agente autoalojado comparándolo con Grok Bot y OpenAI Dots",
+     "summary": "Un PR de un proyecto de agente siempre activo autoalojado añade lo que la comparación con Grok Bot y OpenAI Dots mostró que faltaba: API de Claude y compatibles con OpenAI, MCP externo, disparadores por cambios en páginas/RSS y webhooks, adjuntos de texto y respuestas en streaming. Publicar en X ahora espera aprobación del admin cada vez. Seis migraciones de base de datos; haz copia antes."
+    },
+    "de": {
+     "title": "Lücken eines selbst gehosteten Agenten schließen, gefunden im Vergleich mit Grok Bot und OpenAI Dots",
+     "summary": "Ein PR eines selbst gehosteten Always-on-Agenten ergänzt, was der Vergleich mit Grok Bot und OpenAI Dots als fehlend zeigte: Claude- und OpenAI-kompatible APIs, externes MCP, Auslöser durch Seiten-/RSS-Änderungen und Webhooks, Textanhänge und gestreamte Antworten. Posten auf X wartet jetzt jedes Mal auf Admin-Freigabe. Sechs DB-Migrationen; vorher sichern."
+    }
+   },
+   "added_at": "2026-10-16T11:12:48.472Z"
+  },
+  {
+   "id": "x:2110823019807715833",
+   "url": "https://x.com/tifoden/status/2110823019807715833",
+   "source": "x",
+   "source_name": "X",
+   "author": "tifoden",
+   "date": "2026-10-15",
+   "likes": 0,
+   "product": "multi",
+   "text": "세 AoA(Always on Agent)들의 주요 차이점:\n\n1. Grok @bot은 처음부터 여러 개의 Bot이 각자 역할을 가지고 협업하는 AI 팀으로 설계되었습니다. 개별 Bot에 역할을 부여하고, 서로 메시지를 주고받으며 작업을 공유하고, 시연을 통해 학습하는 구조가 핵심입니다.\n\n2. Dots는 ChatGPT 생태계 안에서 움직이는 상시 가동 에이전트로, 아직까지는 분업이나 팀 구성보다는 메인 Dot이 중심이 되는 형태에 가깝습니다. 출시된지 얼마 안 되었으므로 동작 방식이 바뀔 가능성이 큽니다.\n\n3. @Muse 역시 개인 생활/소규모 비즈니스 업무(일정, 메일, 쇼핑 등)에 초점을 맞춘 단일 에이전트 성격이 강합니다.\n\n단일 ‘요청’을 시킬 때는 세 에이전트의 경험이 단순 UX에서 옵니다. 하지만 고유한 ‘역할’을 할당할 때 비로소 차이가 옵니다.",
+   "media": [
+    "https://pbs.twimg.com/media/HUsmWRPbkAA9tkj.jpg"
+   ],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "三款常驻 agent 的区别：Grok Bot 是团队，Dots 和 Muse 偏单兵",
+     "summary": "作者对比三款常驻 agent：Grok Bot 一开始就设计成多 Bot 分工协作、互相传消息并通过演示学习；Dots 在 ChatGPT 生态里运行，目前更像以一个主 Dot 为中心；Muse 侧重个人生活和小生意事务。只发单次请求时差别不大，给它们分配固定角色时差距才显现。"
+    },
+    "zh-TW": {
+     "title": "三款常駐 agent 的差別：Grok Bot 是團隊，Dots 和 Muse 偏單兵",
+     "summary": "作者比較三款常駐 agent：Grok Bot 一開始就設計成多 Bot 分工協作、互相傳訊息並透過示範學習；Dots 在 ChatGPT 生態裡運作，目前更像以一個主 Dot 為中心；Muse 側重個人生活和小生意事務。只發單次請求時差別不大，分配固定角色時差距才顯現。"
+    },
+    "en": {
+     "title": "How the three always-on agents differ: Grok Bot is a team, Dots and Muse work solo",
+     "summary": "The author compares three always-on agents. Grok Bot was designed from the start as a team of bots with roles that message each other and learn from demonstrations; Dots runs inside ChatGPT and so far centres on one main Dot; Muse focuses on personal life and small-business errands. For one-off requests they feel similar; the gap shows when you assign lasting roles."
+    },
+    "ja": {
+     "title": "常駐エージェント 3 種の違い：Grok Bot はチーム、Dots と Muse は単独型",
+     "summary": "投稿者が 3 つの常駐エージェントを比較。Grok Bot は最初から役割を持つ複数の Bot がメッセージをやり取りし、デモから学ぶチームとして設計。Dots は ChatGPT の中で動き、今のところメインの Dot が中心。Muse は個人の生活や小規模ビジネスの用事が中心。単発の依頼では差は小さく、固定の役割を任せたときに差が出る。"
+    },
+    "ko": {
+     "title": "상시 에이전트 3종의 차이: Grok Bot은 팀, Dots와 Muse는 단독형",
+     "summary": "작성자가 상시 에이전트 세 가지를 비교했다. Grok Bot은 처음부터 역할을 가진 여러 Bot이 메시지를 주고받으며 시연으로 배우는 AI 팀으로 설계됐고, Dots는 ChatGPT 생태계 안에서 아직 메인 Dot 중심이며, Muse는 개인 생활과 소규모 비즈니스 업무에 초점을 둔다. 단일 요청에서는 비슷하지만 고유 역할을 맡길 때 차이가 난다."
+    },
+    "ms": {
+     "title": "Beza tiga agen sentiasa aktif: Grok Bot satu pasukan, Dots dan Muse bersendirian",
+     "summary": "Penulis membandingkan tiga agen sentiasa aktif. Grok Bot direka dari awal sebagai pasukan bot berperanan yang saling menghantar mesej dan belajar daripada demonstrasi; Dots berjalan dalam ChatGPT dan setakat ini berpusat pada satu Dot utama; Muse fokus pada urusan peribadi dan perniagaan kecil. Untuk permintaan sekali, rasanya serupa; bezanya ketara apabila diberi peranan tetap."
+    },
+    "vi": {
+     "title": "Ba agent luôn chạy khác nhau thế nào: Grok Bot là một đội, Dots và Muse làm một mình",
+     "summary": "Tác giả so sánh ba agent luôn chạy. Grok Bot được thiết kế từ đầu như một đội bot có vai trò riêng, nhắn tin cho nhau và học qua trình diễn; Dots chạy trong ChatGPT và hiện xoay quanh một Dot chính; Muse tập trung vào việc cá nhân và kinh doanh nhỏ. Với yêu cầu một lần thì giống nhau; khác biệt lộ ra khi giao vai trò cố định."
+    },
+    "fr": {
+     "title": "Ce qui distingue les trois agents permanents : Grok Bot en équipe, Dots et Muse en solo",
+     "summary": "L'auteur compare trois agents permanents. Grok Bot a été conçu dès le départ comme une équipe de bots avec des rôles, qui s'envoient des messages et apprennent par démonstration ; Dots vit dans ChatGPT et tourne pour l'instant autour d'un Dot principal ; Muse vise la vie perso et les tâches de petite entreprise. Pour une demande ponctuelle, peu d'écart ; il apparaît quand on attribue des rôles durables."
+    },
+    "es": {
+     "title": "En qué se diferencian los tres agentes siempre activos: Grok Bot es un equipo, Dots y Muse van solos",
+     "summary": "El autor compara tres agentes siempre activos. Grok Bot se diseñó desde el inicio como un equipo de bots con roles que se envían mensajes y aprenden de demostraciones; Dots funciona dentro de ChatGPT y por ahora gira en torno a un Dot principal; Muse se centra en la vida personal y tareas de pequeños negocios. En peticiones puntuales se parecen; la diferencia aparece al asignar roles fijos."
+    },
+    "de": {
+     "title": "Wie sich die drei Always-on-Agenten unterscheiden: Grok Bot als Team, Dots und Muse solo",
+     "summary": "Der Autor vergleicht drei Always-on-Agenten. Grok Bot wurde von Anfang an als Team von Bots mit Rollen entworfen, die sich Nachrichten schicken und aus Vorführungen lernen; Dots läuft in ChatGPT und dreht sich bisher um einen Haupt-Dot; Muse zielt auf Privates und Kleinunternehmer-Aufgaben. Bei Einzelanfragen ähneln sie sich; der Unterschied zeigt sich bei festen Rollen."
+    }
+   },
+   "added_at": "2026-10-16T11:12:48.472Z"
   }
  ]
 }

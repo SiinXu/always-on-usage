@@ -1,11 +1,11 @@
 # 常驻用量 Always-on Usage
-> Always-on Agents（Grok Bot、OpenAI Dots、Meta Muse）的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。给想长期跑 Bot、又怕烧额度的人用。评测层，不是模板目录。对照与计算器为估算方向，非厂商 SLA；案例为公开条目聚合（1677 条，另有 26 篇 X 案例），每条附作者与原文链接。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
+> Always-on Agents（Grok Bot、OpenAI Dots、Meta Muse）的用量与工作流百科：谁适合干什么、什么会烧额度、怎么搭才省钱。给想长期跑 Bot、又怕烧额度的人用。评测层，不是模板目录。对照与计算器为估算方向，非厂商 SLA；案例为公开条目聚合（1687 条，另有 26 篇 X 案例），每条附作者与原文链接。Grok Bot 条目最多；Dots 与 Muse 的公开案例按轮次增量收录。
 
 - Site: https://usage.incidental.site/
 - Languages: zh-CN (default), zh-TW, en, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-15T22:39:28.107Z
+- Last updated: 2026-10-16T11:12:48.472Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse 对照矩阵
@@ -613,6 +613,14 @@
 - /cases/grok-bot-templates-669.html: Grok Bot Templates (guide) <https://www.aibuilderclub.com/blog/grok-bot-templates>
 - /cases/how-to-use-grok-bot-670.html: How to Use Grok Bot (guide) <https://www.aibuilderclub.com/blog/grok-bot-guide>
 - /cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html: herdr-web-ui: watch always-on coding agents from your phone and browser (field-case) <https://github.com/devswha/herdr-web-ui>
+- /cases/gh-github-com-hebilicious-fr2027-forecaster-pull-5.html: 让 Grok Bot 盲核民调并修改候选名单，全程无人工 (field-case) <https://github.com/Hebilicious/fr2027-forecaster/pull/5>
+- /cases/gh-github-com-richardorchardorganisation-queenzone-modern-pull-.html: Grok Bot 接手失败的 Dependabot 升级：迁移约 110 个测试文件 (field-case) <https://github.com/RichardOrchardOrganisation/QueenZone.Modern/pull/2331>
+- /cases/gh-github-com-keroway-astro-blog-issues-891.html: OpenAI Dots 调查 Firefox 测试失败，并发现 CI 没存诊断证据 (field-case) <https://github.com/keroway/astro-blog/issues/891>
+- /cases/gh-github-com-deximple-grokbot-activity-log.html: Grok Bot 防篡改活动账本：哈希链 + 每日审计例行 (field-case) <https://github.com/deximple/grokbot-activity-log>
+- /cases/gh-github-com-riceblack67-grokbot-claude-code.html: 让 Claude Code 把任务交给 Grok Bot 并等结果，不用 webhook (guide) <https://github.com/RiceBlack67/grokbot-claude-code>
+- /cases/gh-github-com-syy706-grokbot-backup-kit.html: 把 Grok Bot 盒子备份到私有 GitHub 仓库并可还原 (guide) <https://github.com/syy706/grokbot-backup-kit>
+- /cases/gh-github-com-miku2339-baileys-dot-bridge.html: 把 WhatsApp 消息通过 MCP Events 接到 ChatGPT Dot (guide) <https://github.com/miku2339/baileys-dot-bridge>
+- /cases/gh-github-com-soumilrathi-minecraft-companions.html: 在 Minecraft 里和你的 Codex、Claude Code、ChatGPT Dot 对话 (field-case) <https://github.com/SoumilRathi/minecraft-companions>
 - /cases/x-esoterickang-2110716026715328527.html: 做了一个把日期换算成 19 种历法的网站 (field-case) <https://x.com/EsotericKang/status/2110716026715328527>
 - /cases/x-teslaconomics-2110721195817509068.html: 旅行 Bot「Trippy」订机票、租车、订餐厅和民宿 (field-case) <https://x.com/Teslaconomics/status/2110721195817509068>
 - /cases/x-wintereracer-2110716451459932216.html: 从邮件里捞出学校活动，不再错过 (field-case) <https://x.com/WinterEracer/status/2110716451459932216>
@@ -1621,8 +1629,10 @@
 - /cases/the-next-web-grok-bot-will-also-use-claude-midjourney-and-su-572.html: The Next Web: Grok Bot will also use Claude, Midjourney and Suno models (comparison) <https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk>
 - /cases/9to5mac-how-to-claim-your-grok-bot-email-address-573.html: 9to5Mac: how to claim your Grok Bot email address (comparison) <https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/>
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
+- /cases/gh-github-com-armeria-sk-niwa-pull-2.html: 对照 Grok Bot 和 OpenAI Dots 补齐自建 agent 的短板 (comparison) <https://github.com/Armeria-SK/niwa/pull/2>
 - /cases/x-airoboticsint-2110853694925549794.html: Muse 对 Grok Bot：原生外呼 vs 偏入站语音 (comparison) <https://x.com/AIRoboticsInt/status/2110853694925549794>
 - /cases/x-drivingimpact-2110777727938928830.html: Dots、Muse、Grok Bot：三种不同 Agent 模型 (comparison) <https://x.com/Driving_Impact/status/2110777727938928830>
+- /cases/x-tifoden-2110823019807715833.html: 三款常驻 agent 的区别：Grok Bot 是团队，Dots 和 Muse 偏单兵 (comparison) <https://x.com/tifoden/status/2110823019807715833>
 - /cases/x-echo12yj-2110477717003268162.html: 三款 agent 能否搞定韩国网站：23 份报告汇总 (comparison) <https://x.com/echo12yj/status/2110477717003268162>
 - /cases/x-yangunplugged-2110263685121974384.html: Dots 与 Grok Bot 并排试用：单一对话 vs 多个专职 Bot (comparison) <https://x.com/yang_unplugged/status/2110263685121974384>
 - /cases/x-magaman-2110357624244052360.html: Grok Bot 团队 vs 笨拙但可用的 Muse+Dots 内容流 (comparison) <https://x.com/magaman/status/2110357624244052360>

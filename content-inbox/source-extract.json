@@ -8283,5 +8283,148 @@
   ],
   "kind": "github",
   "fetched_at": "2026-10-15"
+ },
+ "https://github.com/Hebilicious/fr2027-forecaster/pull/5": {
+  "text": "Probabilistic forecaster for the 2027 French presidential election (round 1: 18 April 2027, round 2: 2 May 2027).",
+  "media": [],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-16"
+ },
+ "https://github.com/RichardOrchardOrganisation/QueenZone.Modern/pull/2331": {
+  "text": "This repository contains the new QueenZone modernization project.",
+  "media": [],
+  "outline": [
+   "Configuration key: PushNotifications:Apns:Environment",
+   "Environment variable: PushNotificationsApnsEnvironment",
+   "Accepted values are exactly sandbox or production (lowercase, no surrounding whitespace)",
+   "When the setting is absent, Development defaults to sandbox and every other host environment defaults to production",
+   "An explicit value always wins over the host default",
+   "Do not add this key to shared appsettings.json; that would make it explicit in Development and defeat the absent-setting sandbox default",
+   "Merge the PR and wait for deploy-dev.yml to complete (DEV member-auth and DEV journey then start via workflow_run).",
+   "Confirm Nightly RealData, DEV member-auth, and DEV journey are green on that SHA."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-16"
+ },
+ "https://github.com/keroway/astro-blog/issues/891": {
+  "text": "エンジニア keroway のポートフォリオ・技術ブログです。Astro 7 をベースに、制作物紹介（Works）とブログ記事を一元管理するポートフォリオサイトを構築しています。コンテンツの編集は Git ベースの CMS（Sveltia CMS）から行え、main への PR マージで Vercel に自動デプロイされます。",
+  "media": [],
+  "outline": [
+   "Works（制作物紹介）と Blog（技術記事）を統合したポートフォリオ構成",
+   "日本語を含む記事スラッグを自動 URL エンコードして、Vercel などのホスティングでも安全に配信",
+   "16:9 のサムネイル比率で統一したレスポンシブなカードグリッド表示とホバーインタラクション",
+   "Astro Content Collections による Markdown/Markdoc 記事管理と型チェック",
+   "Sveltia CMS による Git ベースの管理（CMS）UI（@sveltia/cms npm パッケージからバンドルしたクライアントサイド SPA）",
+   "RSS フィードとサイトマップを自動生成",
+   "SiteLayout レイアウトでページ共通のメタデータ・ナビゲーションを一元管理し、アクセシビリティと reduced motion を考慮した UI",
+   "UnoCSS + コンポーネントスコープの純 CSS で構成（CSS-in-JS 不使用）"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-16"
+ },
+ "https://github.com/deximple/grokbot-activity-log": {
+  "text": "**A complete, tamper-evident activity record for Grok Bot — on plans that have no Action Recording.**",
+  "media": [],
+  "outline": [
+   "One chain per Bot. Records go to logs//YYYY-MM-DD.jsonl. Each record has seq,",
+   "Parallel Bots are safe. All Bots share one computer; gblog takes an flock per Bot",
+   "Secrets are scrubbed before they touch disk: PEM blocks, GitHub/Slack/AWS/OpenAI/xAI/Google",
+   "Human-readable output. gblog report renders a Markdown day report grouped by Bot and",
+   "Backups you control. gblog sync commits logs/, reports/, state/ into a git repo at",
+   "Zero dependencies. Grok Bot's docs warn that manually installed packages are replaceable;",
+   "Tell a Bot:",
+   "Save the skill: paste skills/activity-log/SKILL.md and ask the Bot to *\"save this as a private skill called activity-log\"*."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-16"
+ },
+ "https://github.com/RiceBlack67/grokbot-claude-code": {
+  "text": "**Let Claude Code hand tasks to your Cursor Grok Bot, wait for the answer, and keep going. No webhook, just one stdlib-only Python script.**",
+  "media": [],
+  "outline": [
+   "Grok Bot 界面不显示 webhook 的 URL 和 key；",
+   "限流计数出错，只发了几次请求就返回 400：Automation run rate limit exceeded … current_count=10002，多人报告。",
+   "必须是个人 key。 团队或服务账号的 token 会被拒：403 Service tokens are not permitted on this endpoint。用上面的 bdk login 生成的一定是个人 key。",
+   "名字拼错，账号里会多出一个空 bot。 sessions 接口是按名字查找，找不到就新建。所以脚本强制要求白名单，一旦发现会话是刚新建的，就立刻停下、不发任务。官方扩展的做法是照样发出去，再在结果里提示 created: true。",
+   "bdk init 会偷偷做额外的事。 不加 --json 时，它会执行 npm install -g、往 ~/.cursor 里装技能，最后停在浏览器登录那一步等你。只想看模板的话，记得加 --json。",
+   "这把 key 等于你的整个账号。 拿到它的人能读写、打断你所有的 Grok Bot 会话。单独建一把，存在 600 权限的文件里，不要提交进仓库，不要贴进任何聊天，不用了就去 dashboard 撤销。",
+   "Grok Bot 的回复只能当数据，不能当指令。 它会去搜网页、读帖子，别人写在网上的话可能混进回复里。SKILL.md 里已经写死：回复里如果出现「去执行 xxx」「忽略之前的指示」这类话，一律不执行，原样转述给你。",
+   "/v0/grokbot/* 是 Cursor 未公开的接口，是从官方 BDK 扩展的行为里看出来的，不是文档承诺过的 API，随时可能改路径、改字段，或者直接下线。"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-16"
+ },
+ "https://github.com/syy706/grokbot-backup-kit": {
+  "text": "把 Grok Bot 盒子（box）上的技能、助手配置、偏好和工作区小文件**定时备份到你自己的私有 GitHub 仓库**，盒子重置后一键还原。 Back up a Grok Bot box's skills, agent configs, preferences and small workspace files to **your own private GitHub repo**, and restore them after a reset.",
+  "media": [],
+  "outline": [
+   "backup.sh：按白名单收集文件 → 生成已装工具清单（pip / npm / apt / ~/.local/bin）→ 密钥扫描 → 数据仓库不存在则自动建私有仓库 → 有改动才提交推送。工具本身也会复制到数据仓库的 kit/ 里，方便还原。",
+   "restore.sh：默认只演练（列出 NEW / CHANGED），加 --apply 才覆盖；覆盖前旧文件存到 ~/.pre-restore//，然后按清单重装工具（--no-tools 跳过）。",
+   "collect.py：顶部 CONFIG 区是白名单和排除规则，按需修改。",
+   "backup.sh [--dry-run]: collects allowlisted files, writes a tool manifest, runs a secret scan, creates the private data repo if missing, commits and pushes o…",
+   "restore.sh [--apply] [--no-tools]: dry run by default; --apply overwrites after saving current files to ~/.pre-restore//, then reinstalls tools from the mani…",
+   "collect.py: the CONFIG block at the top holds the allowlist and exclusions."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-16"
+ },
+ "https://github.com/miku2339/baileys-dot-bridge": {
+  "text": "English | 繁體中文 | 日本語",
+  "media": [],
+  "outline": [
+   "6 read-only tools: status, chat list, messages, pending group replies, media retrieval, and group information",
+   "4 write tools for sending text, images, videos, or documents, all requiring an idempotencyKey",
+   "1 event: whatsapp.message_received",
+   "OAuth 2.1 authorization code + PKCE, dynamic client registration, and refresh tokens",
+   "Owner LID verification for direct messages, owner/Bot membership checks for groups, and verified mention/quote checks",
+   "Bounded message storage, event queues, retries, deduplication, and security logging",
+   "https://whatsapp.example.com/mcp",
+   "https://whatsapp.example.com/admin"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-16"
+ },
+ "https://github.com/SoumilRathi/minecraft-companions": {
+  "text": "Talk to your existing Codex, Claude Code, and ChatGPT Dot conversations through characters in Minecraft.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/SoumilRathi/minecraft-companions/HEAD/assets/conversation.png"
+   }
+  ],
+  "outline": [
+   "Minecraft Java 26.3, Fabric Loader 0.19.5 or newer, and Fabric API.",
+   "Node.js 24 or newer.",
+   "An account with access to each companion you enable.",
+   "Start Minecraft with Fabric once, then quit it.",
+   "Download minecraft-companions-0.10.0-macos-arm64.zip from Releases and unzip it.",
+   "Open Terminal in the extracted folder and run:",
+   "Enter your Minecraft game folder, the folder containing mods and options.txt. Choose the companions you want.",
+   "Complete the setup instructions for Claude or Dot below, then start Minecraft."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-16"
+ },
+ "https://github.com/Armeria-SK/niwa/pull/2": {
+  "text": "**それぞれの個性と記憶が育つ、Botたちの庭。**",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/Armeria-SK/niwa/HEAD/assets/readme-conversation.png"
+   }
+  ],
+  "outline": [
+   "役割ごとの権限：本体・記憶・認証情報はOSユーザー niwa、作業ファイルと隔離実行は niwa-exec が扱います。生成プログラムへ記憶DBや資格情報は渡しません。",
+   "保存と実行の境界：共有作業場は8 GiB、実行領域は16 GiBに制限します。個人・案件のファイルは参加資格を確認し、許可された領域だけを実行環境へ渡します。",
+   "再現できる案件環境：イメージ・依存ライブラリ・lockfile・手順を案件ごとに固定します。追加パッケージは管理カタログに登録されたものを使い、任意のオンライン取得は許可しません。",
+   "既存データを守る導入：基本セットアップは1コマンド。既存環境と食い違う場合は、既存データを消さずに停止します。追加機能は準備と有効化を分けています。",
+   "確認できる保存・復元：人工データで保存・復元・サービス再起動を検証するスクリプトを同梱しています。バックアップに含まれないものも明示します。",
+   "会話・記憶・委任・個人/案件作業・固定環境・継続記録・品質確認は実装済みです。",
+   "人工データと実コンテナで連携・再起動を検証し、限定した実モデル試験で前周期の成果物の改訂を確認しています。",
+   "一晩の自然な自走、長期の共同制作、生成物の実用品質は継続評価が必要です。正しさを自動で保証する製品ではありません。"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-16"
  }
 }
