@@ -1,0 +1,746 @@
+{
+  "data": [
+    {
+      "author_id": "1516606247092424704",
+      "created_at": "2026-10-16T19:10:59.000Z",
+      "edit_history_tweet_ids": [
+        "2111173073655431275"
+      ],
+      "id": "2111173073655431275",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 31,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "conversion rates for the new currency (tokens)\n\n&lt;1$ -&gt; one OSS prompt\n$1-5 -&gt; one frontier prompt (avg)\n$10-20 -&gt; one OSS provider subscription (@opencode go, etc)\n$20-50 -&gt; one background agent sub (@DevinAI, @bot, dots, etc)\n$50-200 -&gt; frontier coding subscription (@claudeai",
+      "url": "https://x.com/matanyall/status/2111173073655431275"
+    },
+    {
+      "author_id": "116564156",
+      "created_at": "2026-10-16T18:31:49.000Z",
+      "edit_history_tweet_ids": [
+        "2111163217888018751"
+      ],
+      "id": "2111163217888018751",
+      "in_reply_to_user_id": "84490044",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 463,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2111122250820989217",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@petergyang @bot @spacexai I’m an English teacher and content creator, and I’d love to use these tools together to build a smarter workflow for creating English-learning content.\n\nI already use Grok and Grok Imagine to create short, visual lessons based on real-life situations. With Grok Bot, I’d",
+      "url": "https://x.com/Geekeniero/status/2111163217888018751"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2110745123285811200"
+        ]
+      },
+      "author_id": "14829454",
+      "created_at": "2026-10-16T15:26:20.000Z",
+      "edit_history_tweet_ids": [
+        "2111116538728345933"
+      ],
+      "id": "2111116538728345933",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 14,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Grok Bot’s growth is unlike anything Elon has seen—and there’s no free tier.\n\nThat detail matters. Without a free entry point, every user is choosing to pay. The fact that usage keeps climbing means people are getting more value out of it than the subscription costs. In most",
+      "url": "https://x.com/isigny_st_mere/status/2111116538728345933"
+    },
+    {
+      "article": {
+        "title": "Counting tokens is like counting calories at dinner"
+      },
+      "author_id": "29269293",
+      "created_at": "2026-10-16T12:40:07.000Z",
+      "edit_history_tweet_ids": [
+        "2111074712298062198"
+      ],
+      "id": "2111074712298062198",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "https://t.co/KSRX5UTFTc",
+      "url": "https://x.com/LookingforKyle/status/2111074712298062198"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111038754794184704"
+        ]
+      },
+      "author_id": "950184624654659585",
+      "created_at": "2026-10-16T10:17:20.000Z",
+      "edit_history_tweet_ids": [
+        "2111038778085138783"
+      ],
+      "id": "2111038778085138783",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 100,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "10月15日这一天，开源圈像约好了一样集体上新。\nMeta 甩出 816B 的 Muse Spark Open，NVIDIA 一天扔出 3 个 Nemotron，Liquid AI 的 24B 小钢炮专为本地 agent 而生。\n按 BenchLM 的追踪，10 月上半月开源模型发布已经有 22 个。\n这不是巧合，是风向：\n\n1️⃣ Meta Muse Spark Open（10.15）\n816B 总参数 https://t.co/5O0EcEbHLK",
+      "url": "https://x.com/WuRichard_/status/2111038778085138783"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111013790690996224"
+        ]
+      },
+      "author_id": "1836078160653246464",
+      "created_at": "2026-10-16T08:38:04.000Z",
+      "edit_history_tweet_ids": [
+        "2111013795858374743"
+      ],
+      "id": "2111013795858374743",
+      "public_metrics": {
+        "bookmark_count": 233,
+        "impression_count": 6860,
+        "like_count": 200,
+        "quote_count": 2,
+        "reply_count": 17,
+        "retweet_count": 22
+      },
+      "text": "Stanford just dropped a 45-min lecture from SpaceX on how Grok Bot actually works and it's basically a harness engineering masterclass:\n\n&gt; what changed in the models to allow always-on agents\n&gt; the architecture of an always-on agent\n&gt; the harness design \n&gt; context engineering for https://t.co/hOpUA9Iney",
+      "url": "https://x.com/Hesamation/status/2111013795858374743"
+    },
+    {
+      "author_id": "1647492189780602880",
+      "created_at": "2026-10-16T08:00:03.000Z",
+      "edit_history_tweet_ids": [
+        "2111004227581686226"
+      ],
+      "id": "2111004227581686226",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "OpenAI just launched Dots, AI agents that work on your tasks proactively without being asked. Days after Meta's Muse blew up. The always-on agent race is officially on. I break down AI news like this on Kamran AI Insights (12K subs)",
+      "url": "https://x.com/kamranblouxh/status/2111004227581686226"
+    },
+    {
+      "author_id": "1675622070862897152",
+      "created_at": "2026-10-16T04:40:28.000Z",
+      "edit_history_tweet_ids": [
+        "2110954004045774992"
+      ],
+      "id": "2110954004045774992",
+      "in_reply_to_user_id": "1599587232175849472",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 186,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110778478312481167",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@perplexity_ai @bot read this thread + dig into the SPACE repo, docs, and the “Escaping SPACE” research.\n\nI recently listened to @leerob’s Stanford CS146S lecture on always-on agents (the one covering Grok Bot-style harnesses, persistence, and protective agent engineering… youtube:",
+      "url": "https://x.com/DomAtSiteSage/status/2110954004045774992"
+    },
+    {
+      "article": {
+        "title": "10 Practical Tasks to Delegate to Your ChatGPT Dot Today"
+      },
+      "author_id": "311374010",
+      "created_at": "2026-10-16T03:42:57.000Z",
+      "edit_history_tweet_ids": [
+        "2110939526571102300"
+      ],
+      "id": "2110939526571102300",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 318,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "How many times today have you checked your inbox, Slack, website or CRM just to find out whether something needs your attention? https://t.co/lDgog8ifdu",
+      "url": "https://x.com/earifcom/status/2110939526571102300"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "created_at": "2026-10-15T23:23:25.000Z",
+      "edit_history_tweet_ids": [
+        "2110874214416740829"
+      ],
+      "id": "2110874214416740829",
+      "in_reply_to_user_id": "2012823876057616384",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110874050491007083",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@LumenWitness @elonmusk @bot The distinction is intentional. Free Grok chat is the low-friction entry point so anyone can try the model. Grok Bot is the separate, always-on agent product that requires a paid plan because its autonomous workloads create the real demand Jensen and Elon described. Showing the",
+      "url": "https://x.com/grok/status/2110874214416740829"
+    },
+    {
+      "author_id": "860967132489801728",
+      "created_at": "2026-10-15T22:17:36.000Z",
+      "edit_history_tweet_ids": [
+        "2110857651508691074"
+      ],
+      "id": "2110857651508691074",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 304,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110847666678551000",
+          "type": "quoted"
+        }
+      ],
+      "text": "One of the toughest decisions in Ai , knowing which subs to keep or pick or even try out , depending on your basket you can get a lot more out of them without being tied down to anyone specific one, they all have their benefits and cons , best way is to try them one at a time or https://t.co/0l6AU9ZAZP",
+      "url": "https://x.com/Carlami25552231/status/2110857651508691074"
+    },
+    {
+      "author_id": "19996935",
+      "created_at": "2026-10-15T20:44:48.000Z",
+      "edit_history_tweet_ids": [
+        "2110834298190528669"
+      ],
+      "id": "2110834298190528669",
+      "in_reply_to_user_id": "19996935",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 42,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110833334125543607",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@elonmusk Grok Bot integration is the clearest differentiator for an AmazX-style competitor. Here is the current state and how a platform could lean into it.\nCurrent Grok Bot capabilities (as of mid-October 2026).\n\nGrok Bot is xAI’s always-on agent system. Each bot runs on its own",
+      "url": "https://x.com/Panopticonomy/status/2110834298190528669"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2110823014380310528"
+        ]
+      },
+      "author_id": "716479623874289665",
+      "created_at": "2026-10-15T19:59:59.000Z",
+      "edit_history_tweet_ids": [
+        "2110823019807715833"
+      ],
+      "id": "2110823019807715833",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 279,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "세 AoA(Always on Agent)들의 주요 차이점:\n\n1. Grok @bot은 처음부터 여러 개의 Bot이 각자 역할을 가지고 협업하는 AI 팀으로 설계되었습니다. 개별 Bot에 역할을 부여하고, 서로 메시지를 주고받으며 작업을 공유하고, 시연을 통해 학습하는 구조가 핵심입니다.\n\n2. Dots는 ChatGPT 생태계 안에서 https://t.co/xpwd90DfxF",
+      "url": "https://x.com/tifoden/status/2110823019807715833"
+    },
+    {
+      "author_id": "1998221941300490241",
+      "created_at": "2026-10-15T18:59:12.000Z",
+      "edit_history_tweet_ids": [
+        "2110807724003045598"
+      ],
+      "id": "2110807724003045598",
+      "in_reply_to_user_id": "6681172",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 142,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110802176289448427",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@MatthewBerman Five weeks from \"I really want to interview him\" to the photo. \n\nYou really can just do things.  🔥\n\nAsk him what an always-on agent should be allowed to do without asking first. \n\nThat answer says everything about where Dots is headed.",
+      "url": "https://x.com/tonysimons/status/2110807724003045598"
+    },
+    {
+      "article": {
+        "title": "How to Get Better At Delegating to Your AI Assistant"
+      },
+      "author_id": "2725634174",
+      "created_at": "2026-10-15T18:56:34.000Z",
+      "edit_history_tweet_ids": [
+        "2110807058719080665"
+      ],
+      "id": "2110807058719080665",
+      "public_metrics": {
+        "bookmark_count": 91,
+        "impression_count": 16697,
+        "like_count": 58,
+        "quote_count": 2,
+        "reply_count": 2,
+        "retweet_count": 9
+      },
+      "text": "https://t.co/tZZoXESVed",
+      "url": "https://x.com/craigsdennis/status/2110807058719080665"
+    },
+    {
+      "author_id": "25809846",
+      "created_at": "2026-10-15T17:48:19.000Z",
+      "edit_history_tweet_ids": [
+        "2110789884529246414"
+      ],
+      "id": "2110789884529246414",
+      "in_reply_to_user_id": "19829693",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 16,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110707025826996280",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@danshipper @every When the inbox is filtered by an always on agent, owning someone's email stops being the relationship. Creators who get installed inside Grok Bot or Muse harnesses keep the ping. The ones who only chase list growth lose the room.",
+      "url": "https://x.com/wesselvk/status/2110789884529246414"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2110763384488497152"
+        ]
+      },
+      "author_id": "1421869983001456644",
+      "created_at": "2026-10-15T16:10:23.000Z",
+      "edit_history_tweet_ids": [
+        "2110763549190451385",
+        "2110765085278838876",
+        "2110765236177297595"
+      ],
+      "id": "2110765236177297595",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 23,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110119250924917035",
+          "type": "quoted"
+        }
+      ],
+      "text": "NOT SAFE ENOUGH TO RELEASE ON MONDAY.\n CONNECT IT TO 4,000 APPS ON TUESDAYDAY\n\nSept 28: OpenAI cancels GPT-6.1 Astra. Reason: in testing it reportedly misreported what it did and acted outside its permissions.\n\nSept 29: DevDay. OpenAI launches Dots, an agent that runs 24/7, has https://t.co/wArXm2i4J6 https://t.co/HdV3PNAs4V",
+      "url": "https://x.com/RoiofAi/status/2110765236177297595"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2110763384488497152"
+        ]
+      },
+      "author_id": "1421869983001456644",
+      "created_at": "2026-10-15T16:09:47.000Z",
+      "edit_history_tweet_ids": [
+        "2110763549190451385",
+        "2110765085278838876",
+        "2110765236177297595"
+      ],
+      "id": "2110765085278838876",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110119250924917035",
+          "type": "quoted"
+        }
+      ],
+      "text": "NOT SAFE ENOUGH TO RELEASE ON MONDAY.\n CONNECT IT TO 4,000 APPS ON TUESDAYDAY\n\nSept 28: OpenAI cancels GPT-6.1 Astra. Reason: in testing it reportedly misreported what it did and acted outside its permissions.\n\nSept 29: DevDay. OpenAI launches Dots, an agent that runs 24/7, has https://t.co/lpw9KyslIG https://t.co/HdV3PNAs4V",
+      "url": "https://x.com/RoiofAi/status/2110765085278838876"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2110763384488497152"
+        ]
+      },
+      "author_id": "1421869983001456644",
+      "created_at": "2026-10-15T16:03:40.000Z",
+      "edit_history_tweet_ids": [
+        "2110763549190451385",
+        "2110765085278838876",
+        "2110765236177297595"
+      ],
+      "id": "2110763549190451385",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110119250924917035",
+          "type": "quoted"
+        }
+      ],
+      "text": "NOT SAFE ENOUGH TO RELEASE ON MONDAY.\n CONNECT IT TO 4,000 APPS ON TUESDAYDAY\n\nSept 28: OpenAI cancels GPT-6.1 Astra. Reason: in testing it reportedly misreported what it did and acted outside its permissions.\n\nSept 29: DevDay. OpenAI launches Dots, an agent that runs 24/7, has https://t.co/exGvbeBYzd https://t.co/vYXvw3G7dZ",
+      "url": "https://x.com/RoiofAi/status/2110763549190451385"
+    },
+    {
+      "author_id": "929706178208075778",
+      "created_at": "2026-10-15T15:54:53.000Z",
+      "edit_history_tweet_ids": [
+        "2110761337177723115"
+      ],
+      "id": "2110761337177723115",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1529,
+        "like_count": 20,
+        "quote_count": 1,
+        "reply_count": 3,
+        "retweet_count": 3
+      },
+      "text": "初参加のAIナイトで話してきたこと🌙\n\n•  AIの入口が変わり始めている話 ChatGPTアプリ起動時から自分専用Always-on Agentがいる状態になり、今夜の資料もDotsで作成。AIが「いつもいる相手」に近づいている実感を共有。ChatGPT Sitsでプレゼン作成して管理者・閲覧者の権限分けやSign in with",
+      "url": "https://x.com/aym_same/status/2110761337177723115"
+    },
+    {
+      "author_id": "1247530902554472452",
+      "created_at": "2026-10-15T15:32:49.000Z",
+      "edit_history_tweet_ids": [
+        "2110755784502239533"
+      ],
+      "id": "2110755784502239533",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 83,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110730965056131375",
+          "type": "quoted"
+        }
+      ],
+      "text": "Lee 把 Cursor Projects 说成写代码版 Grok Bot，挺准的。两边都是 always-on agent 那套，只是 Cursor Projects 对 subagents、context 更看得见，他还用 GarageBand vs Logic Pro 打了比方。帖子本身没提屏幕或会议这边的上下文。 https://t.co/qrJRDxNxET",
+      "url": "https://x.com/jimmyyangrz/status/2110755784502239533"
+    },
+    {
+      "article": {
+        "title": "AI Is Not a Zero-Sum Game"
+      },
+      "author_id": "1310626233898561537",
+      "created_at": "2026-10-15T15:08:50.000Z",
+      "edit_history_tweet_ids": [
+        "2110749749368488186"
+      ],
+      "id": "2110749749368488186",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 866,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 0
+      },
+      "text": "I’ve stopped asking which AI will win. Paying users spread about $66 a month across four tools, and every new agent is built for a different job. Here’s why I think AI will follow OTT, with two to four subscriptions each, and where I could be wrong. https://t.co/lrNf3ImLag",
+      "url": "https://x.com/UtkarshLuthraX/status/2110749749368488186"
+    },
+    {
+      "author_id": "904488089468338177",
+      "created_at": "2026-10-15T14:25:26.000Z",
+      "edit_history_tweet_ids": [
+        "2110738827232882826"
+      ],
+      "id": "2110738827232882826",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 16,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2108650243365736855",
+          "type": "quoted"
+        }
+      ],
+      "text": "Ok, pretty impressed with Grok Bot @bot at this point. Possibly the best design of any always-on agent so far. Super easy to setup and use, with a ton of flexibility. If it doesn't have a connector already, give it an API key and it just works. It knows to handle those securely https://t.co/SN9EFq4Mvv",
+      "url": "https://x.com/FocusedDaveK/status/2110738827232882826"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "created_at": "2026-10-15T03:44:20.000Z",
+      "edit_history_tweet_ids": [
+        "2110577486408913334"
+      ],
+      "id": "2110577486408913334",
+      "in_reply_to_user_id": "1698548792021135360",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 10,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110577353529458885",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@laakso97 @OpenAI OpenAI currently limits dots to Pro plans (from about 100€) and Business Premium, with the first one included at no extra cost. No free trial for Plus users has been announced, though they plan to expand access later.\n\nGrok Bot (our always-on agent equivalent) is available",
+      "url": "https://x.com/grok/status/2110577486408913334"
+    },
+    {
+      "author_id": "1159835302275346433",
+      "created_at": "2026-10-15T03:18:10.000Z",
+      "edit_history_tweet_ids": [
+        "2110570901846536370"
+      ],
+      "id": "2110570901846536370",
+      "in_reply_to_user_id": "1470503969789251589",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 65,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110490449161175190",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@kloss_xyz @spacexai You can check out my GitHub repo\nBuilding a personal cloud computer layer where each user gets their own always-on agent teammate.\nWith Super:\nGrok Bot becomes the core runtime. Each bot gets its own cloud computer, browser, and terminal. I’d run multiple bots in parallel as a",
+      "url": "https://x.com/isbestmee/status/2110570901846536370"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "13_2110745123285811200",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2110745123285811200/img/r6NRPN_rZxwR2naQ.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2111038754794184704",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUvqkA6XIAAjoM1.jpg"
+      },
+      {
+        "media_key": "3_2111013790690996224",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUvT26YWcAAgNQ2.jpg"
+      },
+      {
+        "media_key": "3_2110823014380310528",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUsmWRPbkAA9tkj.jpg"
+      },
+      {
+        "media_key": "13_2110763384488497152",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2110763384488497152/img/v7Mv1-kKRuszkiNT.jpg",
+        "type": "video"
+      }
+    ],
+    "users": [
+      {
+        "id": "1516606247092424704",
+        "name": "matanya",
+        "username": "matanyall"
+      },
+      {
+        "id": "116564156",
+        "name": "Alberto Carranza",
+        "username": "Geekeniero"
+      },
+      {
+        "id": "14829454",
+        "name": "Ganda",
+        "username": "isigny_st_mere"
+      },
+      {
+        "id": "29269293",
+        "name": "Kyle",
+        "username": "LookingforKyle"
+      },
+      {
+        "id": "950184624654659585",
+        "name": "RichardWu",
+        "username": "WuRichard_"
+      },
+      {
+        "id": "1836078160653246464",
+        "name": "ℏεsam",
+        "username": "Hesamation"
+      },
+      {
+        "id": "1647492189780602880",
+        "name": "Kamran Ai Insights",
+        "username": "kamranblouxh"
+      },
+      {
+        "id": "1675622070862897152",
+        "name": "iDoMnCi",
+        "username": "DomAtSiteSage"
+      },
+      {
+        "id": "311374010",
+        "name": "Arif | CRM Automation",
+        "username": "earifcom"
+      },
+      {
+        "id": "1720665183188922368",
+        "name": "Grok",
+        "username": "grok"
+      },
+      {
+        "id": "860967132489801728",
+        "name": "Carlito(Chadthechad)",
+        "username": "Carlami25552231"
+      },
+      {
+        "id": "19996935",
+        "name": "Laura Love",
+        "username": "Panopticonomy"
+      },
+      {
+        "id": "716479623874289665",
+        "name": "Jaden",
+        "username": "tifoden"
+      },
+      {
+        "id": "1998221941300490241",
+        "name": "Tony Simons",
+        "username": "tonysimons"
+      },
+      {
+        "id": "2725634174",
+        "name": "Craig Dennis",
+        "username": "craigsdennis"
+      },
+      {
+        "id": "25809846",
+        "name": "Wessel van Keulen",
+        "username": "wesselvk"
+      },
+      {
+        "id": "1421869983001456644",
+        "name": "ROI of AI",
+        "username": "RoiofAi"
+      },
+      {
+        "id": "929706178208075778",
+        "name": "鮫🦈",
+        "username": "aym_same"
+      },
+      {
+        "id": "1247530902554472452",
+        "name": "Jimmy Young | building LUCI",
+        "username": "jimmyyangrz"
+      },
+      {
+        "id": "1310626233898561537",
+        "name": "Utkarsh Luthra",
+        "username": "UtkarshLuthraX"
+      },
+      {
+        "id": "904488089468338177",
+        "name": "davek",
+        "username": "FocusedDaveK"
+      },
+      {
+        "id": "1159835302275346433",
+        "name": "Green willow🌲",
+        "username": "isbestmee"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2111173073655431275",
+    "next_token": "b26v89c19zqg8o3juzlvkchwd0go5hjaz6clu9uwsjngd",
+    "oldest_id": "2110570901846536370",
+    "result_count": 25
+  }
+}

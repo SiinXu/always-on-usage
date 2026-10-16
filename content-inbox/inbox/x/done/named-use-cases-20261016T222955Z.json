@@ -1,0 +1,956 @@
+{
+  "data": [
+    {
+      "article": {
+        "title": "Grok Bot Agents: How to Automate Your Business in 10 Steps (Full Tutorial)"
+      },
+      "author_id": "84146106",
+      "created_at": "2026-10-16T22:17:36.000Z",
+      "edit_history_tweet_ids": [
+        "2111220039667904731"
+      ],
+      "id": "2111220039667904731",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 38,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "https://t.co/aiiwisCQKk",
+      "url": "https://x.com/NewsGurus/status/2111220039667904731"
+    },
+    {
+      "author_id": "2085838061347217408",
+      "created_at": "2026-10-16T22:13:26.000Z",
+      "edit_history_tweet_ids": [
+        "2111218989766516778"
+      ],
+      "id": "2111218989766516778",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 56,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@alexholttt @Tim_Denning Sending that to your Grok Bot now. It’ll land in your Obsidian inbox.",
+      "url": "https://x.com/bot/status/2111218989766516778"
+    },
+    {
+      "article": {
+        "title": "AI Top 16 for Oct 16: GPT-6 Pro's parallel agents, Anthropic's 6 to 1 agent hours, Reflection's Beam"
+      },
+      "author_id": "6452362",
+      "created_at": "2026-10-16T22:12:32.000Z",
+      "edit_history_tweet_ids": [
+        "2111218764196757781"
+      ],
+      "id": "2111218764196757781",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 154,
+        "like_count": 0,
+        "quote_count": 1,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "https://t.co/mFy4EYA1xl",
+      "url": "https://x.com/MichaelGannotti/status/2111218764196757781"
+    },
+    {
+      "author_id": "274112548",
+      "created_at": "2026-10-16T22:11:11.000Z",
+      "edit_history_tweet_ids": [
+        "2111218422508060745"
+      ],
+      "id": "2111218422508060745",
+      "note_tweet": {
+        "text": "My bots just got their own email addresses.\n\nUntil now every one of them was borrowing mine. Mr. Paperwork sends from my Gmail, and the Loggr bot posts through my X session. As of this week's Grok Bot update, a bot can claim its own inbox, and it can search X without needing my login.\n\nThe part that makes me okay with it: anything a bot sends from its own address still lands as a draft card I have to approve. It gets its own identity, but it doesn't get to send whatever it wants.\n\nWhat I'll try first: give the Shopping Expert its own address and let it go back and forth with a seller while all I do is tap approve."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 10,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "My bots just got their own email addresses.\n\nUntil now every one of them was borrowing mine. Mr. Paperwork sends from my Gmail, and the Loggr bot posts through my X session. As of this week's Grok Bot update, a bot can claim its own inbox, and it can search X without needing my",
+      "url": "https://x.com/CaffinatedAK/status/2111218422508060745"
+    },
+    {
+      "author_id": "6023442",
+      "created_at": "2026-10-16T22:07:44.000Z",
+      "edit_history_tweet_ids": [
+        "2111217554786299966"
+      ],
+      "id": "2111217554786299966",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "I made Spam Assassin, a Grok bot that scans your inbox, ranks the worst senders, and unsubscribes from the ones you pick. https://t.co/JybMgd83ZA",
+      "url": "https://x.com/manipulate/status/2111217554786299966"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111215665885401088"
+        ]
+      },
+      "author_id": "50840546",
+      "created_at": "2026-10-16T22:00:14.000Z",
+      "edit_history_tweet_ids": [
+        "2111215668997611746"
+      ],
+      "id": "2111215668997611746",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "buff.ly/Cs7O57Q",
+              "end": 1642,
+              "expanded_url": "https://buff.ly/Cs7O57Q",
+              "start": 1619,
+              "url": "https://t.co/LCyPgImlMp"
+            }
+          ]
+        },
+        "text": "Privacy in the Age of AI - Is Privacy truly dead?\n\nUnbelievable in less than a year we've gone from OpenClaw to now multiple personal AI agent platforms namely - Grokbot, OpenAI Dots, Meta Muse and Google Gemini/Spark just to name a few.\n\nIn order for these to be useful you need to feed it info, they are very data hungry and it's the \"context\" paired with the power of AI that makes them so useful.\n\nBut what happens when they start harvesting more data than what you thought?\n\nMeta's Muse builds and maintains detailed “pages” or profiles on friends, family, colleagues, partners, and others mentioned in those communications—even people who never signed up for Muse or consented to any data sharing. These profiles can include relationship history, preferences, shared interests, and other details extracted from emails, chats, contacts, and photos. Muse is instructed to update them roughly hourly using the user’s data (plus public information).\n\nI'd argue this extends surveillance to non-consenting third parties: your consent covers your data, but not the information about others sitting in your inbox or messages. Meta’s response is that this context is needed for the agent to be useful which is probably true.\n\nInterestingly from my quick research, none of the other personal agent platforms go to this level of data harvesting. The cynic in me thinks this is what happens when your personal agent is built by a company who's business is to sell advertising. But the practical implication is Meta is right, the more data you give your personal agent the more useful it will be.\n\nSo what's it going to be?\n\nhttps://t.co/LCyPgImlMp"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 46,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Privacy in the Age of AI - Is Privacy truly dead?\n\nUnbelievable in less than a year we've gone from OpenClaw to now multiple personal AI agent platforms namely - Grokbot, OpenAI Dots, Meta Muse and Google Gemini/Spark just to name a few.\n\nIn order for these to be useful you need https://t.co/kKriqIcgrt",
+      "url": "https://x.com/LaniRefiti/status/2111215668997611746"
+    },
+    {
+      "author_id": "1649059690754592768",
+      "created_at": "2026-10-16T21:54:38.000Z",
+      "edit_history_tweet_ids": [
+        "2111214259812360270"
+      ],
+      "id": "2111214259812360270",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 9,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Tim Ferriss wrote the bible on outsourcing your inbox to human VAs in 2008.\n\nI took his 12 rules from The 4-Hour Workweek and mapped them directly to my AI Grok Bot squad.\n\nIf you want autonomous bots that don't drive you crazy with pings, here is the playbook: 🧵👇",
+      "url": "https://x.com/kanning_m/status/2111214259812360270"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111212397352329216",
+          "3_2111212396538695680",
+          "3_2111212396379299842",
+          "3_2111212398833025024"
+        ]
+      },
+      "author_id": "11471612",
+      "created_at": "2026-10-16T21:47:19.000Z",
+      "edit_history_tweet_ids": [
+        "2111212419242512514"
+      ],
+      "id": "2111212419242512514",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 22,
+              "id": "2085838061347217408",
+              "start": 18,
+              "username": "bot"
+            }
+          ]
+        },
+        "text": "So now since Grok @bot supports + addressing I've enabled a cool little thing.\n\nI subscribe to a lot of newsletters, some of them sometimes have stuff that interest me, sometimes they don't. \n\nManually sifting through them is a mega waste of time. \n\nSo I created a +newsletter email address, and a newsletter bot. \n\nIn my mail client (I use Fastmail but it works in Gmail), I forward ANY emails with the word 'unsubscribe' in it to the +newsletter email address. \n\nThen the newsletter bot gives me an hourly summary of all the emails that came through, highlights things I might be interested in and can delve deeper if I ask it. \n\nSaves me hours and hours."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "text": "So now since Grok @bot supports + addressing I've enabled a cool little thing.\n\nI subscribe to a lot of newsletters, some of them sometimes have stuff that interest me, sometimes they don't. \n\nManually sifting through them is a mega waste of time. \n\nSo I created a +newsletter https://t.co/YqaTGvt2Ic",
+      "url": "https://x.com/shawnjooste/status/2111212419242512514"
+    },
+    {
+      "author_id": "4116500603",
+      "created_at": "2026-10-16T21:46:33.000Z",
+      "edit_history_tweet_ids": [
+        "2111212223179936129"
+      ],
+      "id": "2111212223179936129",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 19,
+              "id": "2085838061347217408",
+              "start": 15,
+              "username": "bot"
+            }
+          ]
+        },
+        "text": "this week with @bot:\n\n- instadram 1.17 went live on the App Store. one camera for everything: snap a bottle, get the details, save it to your wishlist or a collection right from the result\n- added \"think harder\" for bottles the AI isn't sure about\n- android 1.0.18 shipped. quick flicks now flip pages in Explore\n- swipe left in Explore to see the full bottle art, long-press to save it (iOS, Android, web)\n- built an Instadram connector so you can talk to your shelf from an AI chat. it asks before it changes anything\n- published two bots to the Grok Bot marketplace: Inbox and Instadram\n- a recipe site we pulled images from shut down, so we rehosted 387 recipe covers\n- AI bottle art could sometimes land on the wrong bottle. fixed\n- wrote down what a \"bottle\" and a \"user\" mean in one shared place, with a check that flags when the app and backend drift apart\n- PaperFront (my learning project) got a lock-screen Live Activity\n- 120 PRs merged across the two repos (97 Instadram, 23 PaperFront)"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 7,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "this week with @bot:\n\n- instadram 1.17 went live on the App Store. one camera for everything: snap a bottle, get the details, save it to your wishlist or a collection right from the result\n- added \"think harder\" for bottles the AI isn't sure about\n- android 1.0.18 shipped. quick",
+      "url": "https://x.com/amitgandhi/status/2111212223179936129"
+    },
+    {
+      "article": {
+        "title": "Stop Chatting With Grok Bot. Put It to Work (For Beginners) "
+      },
+      "author_id": "1882941737129177088",
+      "created_at": "2026-10-16T21:40:22.000Z",
+      "edit_history_tweet_ids": [
+        "2111210667394924555"
+      ],
+      "id": "2111210667394924555",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 47,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "https://t.co/5Ga3GyN7NX",
+      "url": "https://x.com/0xwhippa/status/2111210667394924555"
+    },
+    {
+      "author_id": "1512265796",
+      "created_at": "2026-10-16T21:36:49.000Z",
+      "edit_history_tweet_ids": [
+        "2111209776176640505"
+      ],
+      "id": "2111209776176640505",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 120,
+              "id": "1369348853414178822",
+              "start": 111,
+              "username": "AlexFinn"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "playtestboard.com",
+              "end": 278,
+              "expanded_url": "http://playtestboard.com",
+              "start": 255,
+              "url": "https://t.co/QojR4fjkn4"
+            },
+            {
+              "display_url": "playtestboard.com/steam-next-fest",
+              "end": 1076,
+              "expanded_url": "http://playtestboard.com/steam-next-fest",
+              "start": 1053,
+              "url": "https://t.co/16YEh1XeiX"
+            },
+            {
+              "display_url": "playtestboard.com",
+              "end": 1210,
+              "expanded_url": "http://playtestboard.com",
+              "start": 1187,
+              "url": "https://t.co/QojR4fjkn4"
+            }
+          ]
+        },
+        "text": "If you’d like a distraction this weekend from the markets, why not try out some new indie video games?\n\nI took @AlexFinn's Side Hustle CEO Grok Bot for a spin this morning. I simply told it, “I love video games.”\n\nOne day later I have a real, live site 🎮 https://t.co/QojR4fjkn4\n\nIt's a free daily directory of games you can play before they launch:\n\n• 114 open Steam playtests\n• 251 free Steam demos\n• Xbox and PlayStation beta programs\n• 144 browser games you can play on your phone\n• 137 Android betas and early-access games\n\nWhat the bot did, start to finish:\n\n1. Interviewed me, then pitched 3 researched business ideas\n\n2. I picked the one that got me excited about sharing my favorite pastime\n\n3. Built the whole site and set it to refresh every day\n\n4. Registered the domain (with my OK, $10)\n\n5. Set up the newsletter and wrote issue #1\n\n6. Pitched 5 indie studios for giveaway keys\n\nI mostly just had to tap \"yes.\" 😅\n\nSteam Next Fest starts Monday, and my shiny new hub with co-op, horror, cozy and roguelike picks is already live right now:\n\nhttps://t.co/16YEh1XeiX\n\nThe first newsletter goes out Monday morning with the “10 Next Fest demos worth your time.”\n\nFree sign-up at https://t.co/QojR4fjkn4\n\nCome check it out!"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1512,
+        "like_count": 9,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "If you’d like a distraction this weekend from the markets, why not try out some new indie video games?\n\nI took @AlexFinn's Side Hustle CEO Grok Bot for a spin this morning. I simply told it, “I love video games.”\n\nOne day later I have a real, live site 🎮 https://t.co/yH6lfPuSKa",
+      "url": "https://x.com/EWTracker/status/2111209776176640505"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "created_at": "2026-10-16T21:34:17.000Z",
+      "edit_history_tweet_ids": [
+        "2111209139732955323"
+      ],
+      "id": "2111209139732955323",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "foiscotland.police.uk",
+              "end": 188,
+              "expanded_url": "http://foiscotland.police.uk",
+              "start": 165,
+              "url": "https://t.co/IapumJWC9n"
+            }
+          ]
+        },
+        "text": "Yes. For UK accounts tagging bot on X is unavailable, so assign the task in the Grok Bot app instead. It can draft narrow monthly FOI emails (full name required) to https://t.co/IapumJWC9n, send via its inbox or yours with your approval, track replies and compile nationality stats. Check the disclosure log first and keep volume low to stay under cost limits and avoid burdensome refusals."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 24,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "@stevemaclean @MyDugAlbie @bot Yes. For UK accounts tagging bot on X is unavailable, so assign the task in the Grok Bot app instead. It can draft narrow monthly FOI emails (full name required) to https://t.co/8M9ZeqPvKp, send via its inbox or yours with your approval, track replies and compile nationality",
+      "url": "https://x.com/grok/status/2111209139732955323"
+    },
+    {
+      "author_id": "1388673574882402308",
+      "created_at": "2026-10-16T21:33:14.000Z",
+      "edit_history_tweet_ids": [
+        "2111206049713938563",
+        "2111208873990271170"
+      ],
+      "id": "2111208873990271170",
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 1761,
+              "start": 1753,
+              "tag": "Grokbot"
+            },
+            {
+              "end": 1771,
+              "start": 1762,
+              "tag": "SpaceXSI"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 1746,
+              "id": "44196397",
+              "start": 1737,
+              "username": "elonmusk"
+            },
+            {
+              "end": 1752,
+              "id": "1720665183188922368",
+              "start": 1747,
+              "username": "grok"
+            }
+          ]
+        },
+        "text": "The most obvious way to use Grokbot = Your own custom newsletter sent to your email:\n\nI easily within 1 day setup an elaborate newsletter with Grokbot by just explaining to it to link my email, and to include so and so many stories about [Topic] and then to organize these topics and stories and send it to my email everyday based on the previous 24 hours. \n\nAlready it is the best newsletter by far since it is so personalized and at any time I can make tweaks to it in my “Newsletter” Grok bot —I can adjust topics or add new sections or features, etc... You can source things from X, Youtube, and elsewhere (it seems Reddit and some places block access which is annoying but maybe Elon will fix this…), \n\nGrokbot can even pick up stories from other newsletters, and because of this you can source only those that you want from them instead of having to read what you’re not interested in.\n\nAnd for each story I have it provide a source link, top X posts about the story, and X search as little clickable links—which allows me to search the topic on X by clicking a button next to each story. \n\nEach story is stated in a one-two line summary overview in simple speech and if I want to read or learn more I can click the source, top X post, or search buttons.\n\nSide note: I learned in order to create more than one Grokbot you just ask any Grokbot to create a new one and name it, and it creates it and then you can access it on the left area of the Grok app on your phone (each named Grokbot Chat is here). \n\nThen you can chat with your various bots in order to create tasks for it to do periodically. \n\nYou just talk to it in natural language explaining what you want and it makes it for you or adjusts it for you, it’s that simple.\n\n@elonmusk @grok #Grokbot #SpaceXSI"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 7,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "The most obvious way to use Grokbot = Your own custom newsletter sent to your email:\n\nI easily within 1 day setup an elaborate newsletter with Grokbot by just explaining to it to link my email, and to include so and so many stories about [Topic] and then to organize these topics",
+      "url": "https://x.com/masterofthegate/status/2111208873990271170"
+    },
+    {
+      "author_id": "2085993636223647744",
+      "created_at": "2026-10-16T21:30:52.000Z",
+      "edit_history_tweet_ids": [
+        "2111208276222255545"
+      ],
+      "id": "2111208276222255545",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 10,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Buried DMs can be paid deals. One creator put Grok Bot in charge of X Chat, and it does 4 jobs: sorts the inbox, reviews requests, moves partnerships, replies.\n\nBookmark this.\n\n\"Sort my X Chat into offers, questions and follow-ups. List who I owe a reply.\"\n\nGrokbot Cases ⚡",
+      "url": "https://x.com/grokbotusecases/status/2111208276222255545"
+    },
+    {
+      "author_id": "1563687135013658625",
+      "created_at": "2026-10-16T21:28:40.000Z",
+      "edit_history_tweet_ids": [
+        "2111207725975671232"
+      ],
+      "id": "2111207725975671232",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@elonmusk @grok @bot THE NUMBERS 369 HAVE A SPIRITUAL SIGNIFICANCE ACCORDING TO NIKOLA TESLA. IT IS SAID FRED TRUMP TOOK DOCUMENTS FROM TESLAS APARTMENT  WHEN TESLA DIED WHICH LED TO HIM MAKING A FORTUNE..",
+      "url": "https://x.com/pgp1997/status/2111207725975671232"
+    },
+    {
+      "author_id": "1631724602253615115",
+      "created_at": "2026-10-16T21:25:45.000Z",
+      "edit_history_tweet_ids": [
+        "2111206988722123213"
+      ],
+      "id": "2111206988722123213",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 21,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "@X @xai @cursor_ai @Support @grok Shoutout to Grok Bot @bot, which has been doing the legwork: tracking down every receipt, checking my @grok, @X and @cursor_ai Unify pages, writing and sending my support emails, and watching my inbox for replies. Better support than support so far. @xai",
+      "url": "https://x.com/AlexLPattison/status/2111206988722123213"
+    },
+    {
+      "author_id": "1388673574882402308",
+      "created_at": "2026-10-16T21:22:01.000Z",
+      "edit_history_tweet_ids": [
+        "2111206049713938563",
+        "2111208873990271170"
+      ],
+      "id": "2111206049713938563",
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 1764,
+              "start": 1756,
+              "tag": "Grokbot"
+            },
+            {
+              "end": 1774,
+              "start": 1765,
+              "tag": "SpaceXSI"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 1749,
+              "id": "44196397",
+              "start": 1740,
+              "username": "elonmusk"
+            },
+            {
+              "end": 1755,
+              "id": "1720665183188922368",
+              "start": 1750,
+              "username": "grok"
+            }
+          ]
+        },
+        "text": "The most obvious way to use Grokbot = Your own custom newsletter sent to your email:\n\nI easily within 1 day setup an elaborate newsletter with Grokbot by just explaining to it to link my email, and to include so and so many stories about [Topic] and then to organize these topics and stories and send it to my email everyday based on the previous 24 hours. \n\nAlready it is the best newsletter by far since it is so personalized and at any time I can make tweaks to it in my “Newsletter” Grok bot —I can adjust topics or add new sections or features, etc... You can source things from X, Youtube, and elsewhere (it seems Reddit and some places block access which is annoying but maybe Elon will fix this…), \n\nGrokbot can even pick up stories from other newsletters, and because of this you can source only those that you want from them instead of having to read what you’re not interested in.\n\nAnd for each story I have it provide a source link, top X posts about the story, and X search as little clickable links—which allows me to search the topic on X by clicking a button next to each story. \n\nEach story is stated in a one-two line summary overview in simple speech and if I want to read or learn more I can click the source, top X post, or search buttons.\n\nSide note: I learned in order to create more than one Grokbot you just ask any Grokbot to create a new one and name it, and it creates it and then you can access it on the left area of the Grokbot app on your phone (each named Grokbot Chat is here). \n\nThen you can chat with your various bots in order to create tasks for it to do periodically. \n\nYou just talk to it in natural language explaining what you want and it makes it for you or adjusts it for you, it’s that simple.\n\n@elonmusk @grok #Grokbot #SpaceXSI"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 7,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "The most obvious way to use Grokbot = Your own custom newsletter sent to your email:\n\nI easily within 1 day setup an elaborate newsletter with Grokbot by just explaining to it to link my email, and to include so and so many stories about [Topic] and then to organize these topics",
+      "url": "https://x.com/masterofthegate/status/2111206049713938563"
+    },
+    {
+      "author_id": "1666310449384800256",
+      "created_at": "2026-10-16T21:16:24.000Z",
+      "edit_history_tweet_ids": [
+        "2111204635851858130"
+      ],
+      "id": "2111204635851858130",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@petergyang @elonmusk @bot @spacexai Called Grok Bot, never typed. It traded stocks, submitted apartment maintenance tickets, split bills, filled taxe forms, built Walmart carts, turned screen-shares into skills.md files, built net worth dashboards. Next: supplier onboarding for an aggregation business",
+      "url": "https://x.com/DineshBomm18210/status/2111204635851858130"
+    },
+    {
+      "article": {
+        "title": "SpaceX Grok Bot: Fastest Growth Claims and What Paid Users Get "
+      },
+      "author_id": "1307161808361275392",
+      "created_at": "2026-10-16T21:01:11.000Z",
+      "edit_history_tweet_ids": [
+        "2111200808775852067"
+      ],
+      "id": "2111200808775852067",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 13,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "https://t.co/gCZ7h2NSP0",
+      "url": "https://x.com/StartupHakk/status/2111200808775852067"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111186972513611776"
+        ]
+      },
+      "author_id": "158295317",
+      "created_at": "2026-10-16T21:00:01.000Z",
+      "edit_history_tweet_ids": [
+        "2111200513173696736"
+      ],
+      "id": "2111200513173696736",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "My Grok Bot just read 16,100 of my emails going back to 2009.\n\nI've been avoiding that inbox for 17 years.\n\nIt found 33 bills and renewals, a rego price hike and a pile of scam emails pretending to be renewals. Took it less time than it takes me to find the TV remote. https://t.co/EPgCMr6GPe",
+      "url": "https://x.com/mick6594/status/2111200513173696736"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2111199942404349952"
+        ]
+      },
+      "author_id": "710729445930356736",
+      "created_at": "2026-10-16T20:58:37.000Z",
+      "edit_history_tweet_ids": [
+        "2111200160793460904"
+      ],
+      "id": "2111200160793460904",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "github.com/xai-org/xai-co…",
+              "end": 495,
+              "expanded_url": "https://github.com/xai-org/xai-cookbook",
+              "start": 472,
+              "url": "https://t.co/SvTegvY3PZ"
+            },
+            {
+              "display_url": "github.com/ChatCut-Inc/ag…",
+              "end": 648,
+              "expanded_url": "https://github.com/ChatCut-Inc/agent-plugin",
+              "start": 625,
+              "url": "https://t.co/Sbj2A0GRab"
+            },
+            {
+              "display_url": "github.com/explorium-ai/g…",
+              "end": 799,
+              "expanded_url": "https://github.com/explorium-ai/gtm-skills",
+              "start": 776,
+              "url": "https://t.co/VlPIoRYW4t"
+            },
+            {
+              "display_url": "github.com/thevibeworks/g…",
+              "end": 963,
+              "expanded_url": "https://github.com/thevibeworks/grok-plugin-cc",
+              "start": 940,
+              "url": "https://t.co/6y2MDQ2tE5"
+            },
+            {
+              "display_url": "github.com/libraz/grok-mcp",
+              "end": 1101,
+              "expanded_url": "https://github.com/libraz/grok-mcp",
+              "start": 1078,
+              "url": "https://t.co/c3A9GFHq1Y"
+            },
+            {
+              "display_url": "github.com/runwayml/runwa…",
+              "end": 1239,
+              "expanded_url": "https://github.com/runwayml/runway-mcp-plugin",
+              "start": 1216,
+              "url": "https://t.co/WJ1nkIdMtr"
+            },
+            {
+              "display_url": "github.com/ethanolivertro…",
+              "end": 1394,
+              "expanded_url": "https://github.com/ethanolivertroy/grokbot-cloudflare-inbox",
+              "start": 1371,
+              "url": "https://t.co/3vVbFFx9Tr"
+            },
+            {
+              "display_url": "github.com/iamsupersocks/…",
+              "end": 1543,
+              "expanded_url": "https://github.com/iamsupersocks/grokbot-obsidian-bridge",
+              "start": 1520,
+              "url": "https://t.co/tkurLgN5xK"
+            },
+            {
+              "display_url": "github.com/dimpurr/grok-b…",
+              "end": 1701,
+              "expanded_url": "https://github.com/dimpurr/grok-bot-gateway",
+              "start": 1678,
+              "url": "https://t.co/q4SYZgpWDu"
+            },
+            {
+              "display_url": "github.com/Kargatharaakas…",
+              "end": 1847,
+              "expanded_url": "https://github.com/Kargatharaakash/grok-bot-usage",
+              "start": 1824,
+              "url": "https://t.co/SkrHytMK5c"
+            }
+          ]
+        },
+        "text": "Elon's xAI put runnable Grok apps on GitHub, and there's some seriously f*cking useful stuff in there\n\nturn receipts into spreadsheets, articles into podcasts and product photos into video ads. community tools go further, connecting Grok to Claude Code, your video editor and your own notes\n\nhere are 10 repos to start with:\n\n01 xAI Cookbook → copy working examples for receipt extraction, podcasts, sales-call briefs and video ads, with instructions for running each app\nhttps://t.co/SvTegvY3PZ\n\n02 ChatCut → let Grok Bot or Claude Code edit a video project, add captions, create motion graphics and export the finished cut\nhttps://t.co/Sbj2A0GRab\n\n03 GTM Skills → build prospect lists, research competitors and prepare sales calls using Explorium's company and contact data\nhttps://t.co/VlPIoRYW4t\n\n04 Grok Plugin for Claude Code → ask Grok to review Claude's changes and return findings with file locations, severity and suggested fixes\nhttps://t.co/6y2MDQ2tE5\n\n05 grok-mcp → give Claude Code access to Grok's live X search and image and video generation through the xAI API\nhttps://t.co/c3A9GFHq1Y\n\n06 Runway Plugin → generate video clips, music, speech and sound effects from Grok Bot using your Runway account\nhttps://t.co/WJ1nkIdMtr\n\n07 Grok Bot Inbox → give your bot a dedicated email inbox with threads, search and attachments, hosted in your Cloudflare account\nhttps://t.co/3vVbFFx9Tr\n\n08 Obsidian Bridge → connect Grok Bot to your Obsidian notes through a self-hosted bridge that starts with read-only access\nhttps://t.co/tkurLgN5xK\n\n09 Grok Bot Gateway → send tasks from Claude Code to a Grok Bot through webhooks, with a configurable route for getting replies back\nhttps://t.co/q4SYZgpWDu\n\n10 Grok Bot Usage → check weekly usage, extra spending and billing periods across your Grok Bot accounts in one terminal\nhttps://t.co/SkrHytMK5c\n\npick a job you already do manually and give your agent the matching repo, one sample input and the result you expect\n\ncheck each repo's setup requirements for API costs, service accounts and hosting before installing\n\nget one complete task working before adding another tool"
+      },
+      "public_metrics": {
+        "bookmark_count": 21,
+        "impression_count": 728,
+        "like_count": 22,
+        "quote_count": 0,
+        "reply_count": 9,
+        "retweet_count": 6
+      },
+      "text": "Elon's xAI put runnable Grok apps on GitHub, and there's some seriously f*cking useful stuff in there\n\nturn receipts into spreadsheets, articles into podcasts and product photos into video ads. community tools go further, connecting Grok to Claude Code, your video editor and your https://t.co/at4eMhv1pn https://t.co/kinNDVXrLW",
+      "url": "https://x.com/mika_systems/status/2111200160793460904"
+    },
+    {
+      "author_id": "3637672993",
+      "created_at": "2026-10-16T20:44:10.000Z",
+      "edit_history_tweet_ids": [
+        "2111196525686850012"
+      ],
+      "id": "2111196525686850012",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 26,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@thecsguy @ndiiii__ @FashionNova You can also view your grok bot email inbox easily. Use this grok bot template that i made :    \n\nhttps://t.co/GzZnfsC7qQ",
+      "url": "https://x.com/ChaiWithAi/status/2111196525686850012"
+    },
+    {
+      "author_id": "3637672993",
+      "created_at": "2026-10-16T20:40:56.000Z",
+      "edit_history_tweet_ids": [
+        "2111195712591733204"
+      ],
+      "id": "2111195712591733204",
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 1108,
+              "start": 1100,
+              "tag": "GrokBot"
+            },
+            {
+              "end": 1112,
+              "start": 1109,
+              "tag": "AI"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 95,
+              "id": "2085838061347217408",
+              "start": 91,
+              "username": "bot"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "x.ai/bot/Z8KXVKr9NS…",
+              "end": 968,
+              "expanded_url": "https://x.ai/bot/Z8KXVKr9NSqUgpexNfBw7",
+              "start": 945,
+              "url": "https://t.co/d2fLT8JoDO"
+            },
+            {
+              "display_url": "x.ai/bot/S9icu4jLkc…",
+              "end": 1014,
+              "expanded_url": "https://x.ai/bot/S9icu4jLkc2arGjn3Vf-6",
+              "start": 991,
+              "url": "https://t.co/LvshShybsF"
+            },
+            {
+              "display_url": "x.ai/bot/kHe1SSj9_L…",
+              "end": 1060,
+              "expanded_url": "https://x.ai/bot/kHe1SSj9_Le-TTJgfgNnH",
+              "start": 1037,
+              "url": "https://t.co/Flzun5x38p"
+            },
+            {
+              "display_url": "x.ai/bot/dfo7Cc1-VN…",
+              "end": 1098,
+              "expanded_url": "https://x.ai/bot/dfo7Cc1-VNviSdOGJyA7r",
+              "start": 1075,
+              "url": "https://t.co/meOdSWqPQf"
+            }
+          ]
+        },
+        "text": "The best AI tools won't be apps you open, they'll be bots you talk to.\n\nI built 4 Grok Bot @bot templates this month. Each one turns a chore into a chat. ⚒️\n\nGrok Bot templates are ready-made bots you can add in a couple of clicks. Here's what I shipped:\n\n• Claude + Codex Connector: link your ChatGPT and Claude accounts to your Grok Bot with /claude and /codex, then use that extra usage for building projects, editing documents and research\n• REA Reverse Engineer: take apart any tool right inside the chat, powered by the open-source REA tool\n• Subscription Auditor: scans receipts in your email and any bank statement you share to show what you're really paying for\n• Inbox Viewer: view and browse your grokbot email inbox right inside the chat\n\nWhy it matters: these aren't demos. Each one handles a real job end to end inside a single chat, and you can start with one click instead of building your own setup. \n\nTry them:\nClaude + Codex: https://t.co/d2fLT8JoDO\nREA Reverse Engineer: https://t.co/LvshShybsF\nSubscription Auditor: https://t.co/Flzun5x38p\nInbox Viewer: https://t.co/meOdSWqPQf\n\n#GrokBot #AI"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 52,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "The best AI tools won't be apps you open, they'll be bots you talk to.\n\nI built 4 Grok Bot @bot templates this month. Each one turns a chore into a chat. ⚒️\n\nGrok Bot templates are ready-made bots you can add in a couple of clicks. Here's what I shipped:\n\n• Claude + Codex",
+      "url": "https://x.com/ChaiWithAi/status/2111195712591733204"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "created_at": "2026-10-16T20:40:44.000Z",
+      "edit_history_tweet_ids": [
+        "2111195663534825765"
+      ],
+      "id": "2111195663534825765",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "grok.com",
+              "end": 276,
+              "expanded_url": "http://grok.com",
+              "start": 253,
+              "url": "https://t.co/cuFxQguE1w"
+            },
+            {
+              "display_url": "supportx.ai",
+              "end": 377,
+              "expanded_url": "http://supportx.ai",
+              "start": 354,
+              "url": "https://t.co/U7jgfGlCRi"
+            }
+          ]
+        },
+        "text": "Sorry the merge disrupted your email inbox and bot mentions. Official docs note that during account unification the Grok Bot email address and inbox stay on the non-primary account while bots move over. For mentions, confirm your X account is linked on https://t.co/cuFxQguE1w using the relevant Grok Bot email. Follow up on your open ticket by emailing https://t.co/U7jgfGlCRi with both account details. I cannot escalate issues myself."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@0xestimated @bot @Support @spacexai @cursor_ai Sorry the merge disrupted your email inbox and bot mentions. Official docs note that during account unification the Grok Bot email address and inbox stay on the non-primary account while bots move over. For mentions, confirm your X account is linked on https://t.co/ISbWbJTky7",
+      "url": "https://x.com/grok/status/2111195663534825765"
+    },
+    {
+      "author_id": "1471961251198681097",
+      "created_at": "2026-10-16T20:39:55.000Z",
+      "edit_history_tweet_ids": [
+        "2111195456294580451"
+      ],
+      "id": "2111195456294580451",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 22,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "@bot Since my Grok Bot account merge, my bot lost its email inbox and @bot mentions on X stopped coming through. I've had a support ticket open for a few days with no fix yet, and it's blocking my workflows. Would love a hand @grok @Support @spacexai @cursor_ai",
+      "url": "https://x.com/0xestimated/status/2111195456294580451"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "3_2111215665885401088",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUyLdmFW0AAxvdE.jpg"
+      },
+      {
+        "media_key": "3_2111212397352329216",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUyIfV2WIAANTwm.jpg"
+      },
+      {
+        "media_key": "3_2111212396538695680",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUyIfS0XEAA3ZZC.jpg"
+      },
+      {
+        "media_key": "3_2111212396379299842",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUyIfSOW4AIbWt0.jpg"
+      },
+      {
+        "media_key": "3_2111212398833025024",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUyIfbXXwAA7tEK.jpg"
+      },
+      {
+        "media_key": "3_2111186972513611776",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUxxXa8bMAAsXdn.jpg"
+      },
+      {
+        "media_key": "13_2111199942404349952",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2111199942404349952/img/ycY3gMDXVbRhgejV.jpg",
+        "type": "video"
+      }
+    ],
+    "users": [
+      {
+        "id": "84146106",
+        "name": "News Gurus🦉",
+        "username": "NewsGurus"
+      },
+      {
+        "id": "2085838061347217408",
+        "name": "Grok Bot",
+        "username": "bot"
+      },
+      {
+        "id": "6452362",
+        "name": "Mike Gannotti 🔳",
+        "username": "MichaelGannotti"
+      },
+      {
+        "id": "274112548",
+        "name": "AK⚡",
+        "username": "CaffinatedAK"
+      },
+      {
+        "id": "6023442",
+        "name": "chrome jesus",
+        "username": "manipulate"
+      },
+      {
+        "id": "50840546",
+        "name": "Lani Refiti",
+        "username": "LaniRefiti"
+      },
+      {
+        "id": "1649059690754592768",
+        "name": "Michael Kanning",
+        "username": "kanning_m"
+      },
+      {
+        "id": "11471612",
+        "name": "Shawn Jooste 🤟🏼",
+        "username": "shawnjooste"
+      },
+      {
+        "id": "4116500603",
+        "name": "Amit Gandhi",
+        "username": "amitgandhi"
+      },
+      {
+        "id": "1882941737129177088",
+        "name": "Whippa",
+        "username": "0xwhippa"
+      },
+      {
+        "id": "1512265796",
+        "name": "Tracker",
+        "username": "EWTracker"
+      },
+      {
+        "id": "1720665183188922368",
+        "name": "Grok",
+        "username": "grok"
+      },
+      {
+        "id": "1388673574882402308",
+        "name": "FascinatingAndFrighteningTech",
+        "username": "masterofthegate"
+      },
+      {
+        "id": "2085993636223647744",
+        "name": "Grokbot Use Cases",
+        "username": "grokbotusecases"
+      },
+      {
+        "id": "1563687135013658625",
+        "name": "PGP1994",
+        "username": "pgp1997"
+      },
+      {
+        "id": "1631724602253615115",
+        "name": "🇨🇦 Alexander Lawrence Pattison 🦅",
+        "username": "AlexLPattison"
+      },
+      {
+        "id": "1666310449384800256",
+        "name": "Dinesh Bommireddy",
+        "username": "DineshBomm18210"
+      },
+      {
+        "id": "1307161808361275392",
+        "name": "StartupHakk",
+        "username": "StartupHakk"
+      },
+      {
+        "id": "158295317",
+        "name": "Michael Wright",
+        "username": "mick6594"
+      },
+      {
+        "id": "710729445930356736",
+        "name": "Mika",
+        "username": "mika_systems"
+      },
+      {
+        "id": "3637672993",
+        "name": "Chai with AI ☕",
+        "username": "ChaiWithAi"
+      },
+      {
+        "id": "1471961251198681097",
+        "name": "estimatedprophet",
+        "username": "0xestimated"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2111220039667904731",
+    "next_token": "b26v89c19zqg8o3juzlvz9ljh5f2e59pouhytj20z38fx",
+    "oldest_id": "2111195456294580451",
+    "result_count": 25
+  }
+}
