@@ -154,7 +154,7 @@ async function verify(){const ing=J("content-inbox/ingest.json",{});for(let i=0;
 function commit(){const ing=J("content-inbox/ingest.json",{items:[]});
   sh("git add -A");try{execSync("git diff --cached --quiet",{cwd:ROOT});log("nothing to commit");return}catch{}
   sh(`git -c user.name=SiinXu -c user.email=sinxu.xsy@gmail.com commit -q -m "ingest: ${ing.items.length} items, last_ingest ${ing.last_ingest}"`);
-  if(!flag("no-push"))sh("git push -q origin HEAD")}
+  if(!flag("no-push")){try{sh("git pull -q --rebase origin HEAD")}catch(e){log("pull --rebase failed:",e.message)}sh("git push -q origin HEAD")}}
 
 if(run("collect"))await collect();
 if(run("apply"))apply();

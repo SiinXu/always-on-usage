@@ -1,0 +1,64 @@
+name: Scheduled update
+# Headless part of UPDATE.md, every 6h:
+#   1 collect (HN, YouTube, GitHub, Medium, dev.to, RSS, Reddit best effort) -> content-inbox/queue/pending.json
+#   3 apply   (publishes items an agent already translated into queue/translated.json)
+#   3b extract, 4 build, 5 deploy (only if CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID secrets exist), 6 verify, 7 commit + push
+# NOT here (need agent tools, see UPDATE.md "Which steps need agent tools"):
+#   0 X fetch (x MCP)  and  2 relevance + 10-locale translation (LLM).
+# Without those, new items wait in pending.json and last_ingest does not move.
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths: ["content-inbox/queue/translated.json"]   # agent pushed new translations -> publish them
+
+permissions:
+  contents: write
+
+concurrency:
+  group: usage-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: npm ci
+      - name: Writable /workspace (mk_worker.mjs writes /workspace/cf_deploy_v6.js)
+        run: sudo mkdir -p /workspace && sudo chown "$USER" /workspace
+      - name: Collect (headless, no LLM)
+        if: github.event_name != 'push'
+        run: node scripts/update.mjs collect
+      - name: Apply translated items, extract sources, build
+        run: node scripts/update.mjs apply extract build
+      - name: Deploy Worker + verify
+        if: env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
+        run: node scripts/update.mjs deploy verify
+      - name: Deploy skipped (no Cloudflare secrets)
+        if: env.CLOUDFLARE_API_TOKEN == '' || env.CLOUDFLARE_ACCOUNT_ID == ''
+        run: |
+          msg="Deploy skipped: repo secrets CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID are not set. Live site unchanged; an agent must deploy via Cloudflare MCP (UPDATE.md step 5)."
+          echo "::warning::$msg"; echo "$msg" >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit + push data
+        run: node scripts/update.mjs commit
+      - name: Summary
+        if: always()
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, os
+          def J(p, d):
+              return json.load(open(p)) if os.path.exists(p) else d
+          ing = J("content-inbox/ingest.json", {"items": []}); pend = J("content-inbox/queue/pending.json", {"items": []})
+          print(f"### Data\n- last_ingest: `{ing.get('last_ingest')}`\n- published incremental items: {len(ing.get('items', []))}\n- pending (waiting for agent translation): {len(pend.get('items', []))}")
+          PY

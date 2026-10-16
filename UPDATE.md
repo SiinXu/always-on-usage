@@ -59,3 +59,15 @@ Translation rules:
 - `content-inbox/queue/{pending,translated,rejected}.json`: the work queue.
 - `content-inbox/inbox/x/`: raw X responses dropped there by the runner.
 - `content-inbox/x-cases.json` + `x-stories-i18n.json` + `x-source-posts.json`: the long-form X stories under `/stories/`. Each story has zh-CN facts, rewrites in the other 9 locales, and the verbatim post text and media re-fetched from X.
+
+## Scheduled run (GitHub Actions)
+
+`.github/workflows/update.yml` runs every 6 hours (`23 */6 * * *` UTC), on manual dispatch, and when an agent pushes `content-inbox/queue/translated.json`. It runs collect → apply → extract → build → commit + push, all headless. Deploy and verify run only when the repo secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` exist. Until then the run logs a warning and the live Worker stays as it is, so an agent still deploys through Cloudflare MCP (step 5).
+
+Still agent-only, not in Actions:
+- step 0, X fetch (x MCP)
+- step 2, relevance check and 10-locale translation (LLM)
+
+An agent routine (1–2 times a day) should `git pull`, run steps 0 and 2, and push `translated.json`. The push triggers the workflow, which publishes the items.
+
+`commit` now runs `git pull --rebase` before pushing, so agent pushes and CI pushes don't reject each other.
