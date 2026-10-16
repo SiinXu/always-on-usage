@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1708 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1730 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-16T12:43:07.083Z
+- Last updated: 2026-10-16T22:44:19.674Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -643,6 +643,26 @@
 - /cases/x-tinyprojectsdev-2111064655095300322.html: A Grok Bot support bot that answers email through Gmail (field-case) <https://x.com/tinyprojectsdev/status/2111064655095300322>
 - /cases/x-gurkandev-2111072526822494498.html: Checking a release-note claim with the Researchy bot from the Marketplace (field-case) <https://x.com/gurkandev/status/2111072526822494498>
 - /cases/x-hesamation-2111013795858374743.html: A 45-minute Stanford lecture on how Grok Bot works (guide) <https://x.com/Hesamation/status/2111013795858374743>
+- /cases/yt-gbozirk1ujw.html: Engineer uses Dot to triage an on-call incident at 3am (field-case) <https://www.youtube.com/watch?v=GBOZIRK1ujw>
+- /cases/x-caffinatedak-2111218422508060745.html: Bots can claim their own inboxes; sends still need draft approval (field-case) <https://x.com/CaffinatedAK/status/2111218422508060745>
+- /cases/x-stinenet-2111218033968501076.html: Hobby RTS: live weather by lunch, vanishing tanks by midnight (field-case) <https://x.com/StineNet/status/2111218033968501076>
+- /cases/x-pixelrainbownft-2111217923670827453.html: Hermes Agent templates that run inside Grok Bot (guide) <https://x.com/PixelRainbowNFT/status/2111217923670827453>
+- /cases/x-manipulate-2111217554786299966.html: Spam Assassin: scan inbox, rank senders, unsubscribe (field-case) <https://x.com/manipulate/status/2111217554786299966>
+- /cases/x-raydong001-2111216764193574987.html: Daily private GitHub backup of a Grok Bot computer (guide) <https://x.com/Raydong001/status/2111216764193574987>
+- /cases/x-retrovalix-2111216247199171068.html: Six-agent Polymarket market-maker; post claims +$179,327 (field-case) <https://x.com/RetroValix/status/2111216247199171068>
+- /cases/x-grokonomicshq-2111216207101583625.html: Bot called the power company, then handed details to a spreadsheet bot (field-case) <https://x.com/GrokonomicsHQ/status/2111216207101583625>
+- /cases/x-bkashjosi-2111214926949969964.html: Phone-directed Grok Bot installs and drives Hermes Desktop (field-case) <https://x.com/BkashJosi/status/2111214926949969964>
+- /cases/x-techxsarfraj-2111214135245725878.html: 27-minute talk: from chat to a self-improving bot team (guide) <https://x.com/techxsarfraj/status/2111214135245725878>
+- /cases/x-scardinafineart-2111213152394191077.html: Grok Bot scans mail for phishing and social-engineering signs (field-case) <https://x.com/scardinafineart/status/2111213152394191077>
+- /cases/x-launcharcanime-2111215463560548570.html: Grok Bot–built anime short Launch Arc Ep 1 (field-case) <https://x.com/LaunchArcanime/status/2111215463560548570>
+- /cases/x-mavisbluism-2111222278683852830.html: ChatGPT and Meta Muse building an anti-doomscroll app (field-case) <https://x.com/MavisBluism/status/2111222278683852830>
+- /cases/x-de2pressed-2111222737884856728.html: Screenshot shows Grok Bot Vault for saved site logins (guide) <https://x.com/de2pressed/status/2111222737884856728>
+- /cases/x-grokbotusecases-2111213460143100272.html: After a win, have the bot extract 4 steps into the next workflow (guide) <https://x.com/grokbotusecases/status/2111213460143100272>
+- /cases/x-grimnirthe-2111071272012558583.html: Grok Bot built a local Minion profile from text files (field-case) <https://x.com/GrimnirThe/status/2111071272012558583>
+- /cases/x-itsashis4u-2111066516670259295.html: Bot built a credit-card dashboard HTML; no private hosting yet (field-case) <https://x.com/itsashis4u/status/2111066516670259295>
+- /cases/x-gravitasai-2111054366228550075.html: Five agents share one “company brain” of folders and files (guide) <https://x.com/gravitas_ai/status/2111054366228550075>
+- /cases/x-klntsky-2111044418379604456.html: Sent a kitchen video to Dot to model it in Blender (field-case) <https://x.com/klntsky/status/2111044418379604456>
+- /cases/x-kanningm-2111214259812360270.html: Mapping Ferriss’s 12 inbox rules onto a Grok Bot squad (guide) <https://x.com/kanning_m/status/2111214259812360270>
 - /cases/x-esoterickang-2110716026715328527.html: A website that converts any date into 19 calendars (field-case) <https://x.com/EsotericKang/status/2110716026715328527>
 - /cases/x-teslaconomics-2110721195817509068.html: Travel bot “Trippy” booked flight, car, dinner, tickets and stay (field-case) <https://x.com/Teslaconomics/status/2110721195817509068>
 - /cases/x-wintereracer-2110716451459932216.html: Surfacing school events buried in email (field-case) <https://x.com/WinterEracer/status/2110716451459932216>
@@ -1652,6 +1672,7 @@
 - /cases/9to5mac-how-to-claim-your-grok-bot-email-address-573.html: 9to5Mac: how to claim your Grok Bot email address (comparison) <https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/>
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
 - /cases/gh-github-com-armeria-sk-niwa-pull-2.html: Closing a self-hosted agent's gaps found by comparing it with Grok Bot and OpenAI Dots (comparison) <https://github.com/Armeria-SK/niwa/pull/2>
+- /cases/x-jasonshafton-2111219412921724957.html: Grok Bot ordered a client gift where Dots could not (comparison) <https://x.com/jasonshafton/status/2111219412921724957>
 - /cases/x-airoboticsint-2110853694925549794.html: Muse vs Grok Bot: native outbound calls vs inbound-first voice (comparison) <https://x.com/AIRoboticsInt/status/2110853694925549794>
 - /cases/x-drivingimpact-2110777727938928830.html: Dots vs Muse vs Grok Bot: three different agent models (comparison) <https://x.com/Driving_Impact/status/2110777727938928830>
 - /cases/x-tifoden-2110823019807715833.html: How the three always-on agents differ: Grok Bot is a team, Dots and Muse work solo (comparison) <https://x.com/tifoden/status/2110823019807715833>
@@ -1710,6 +1731,7 @@
 - /cases/forum-cloud-agents-from-grok-bot-spend-team-cloud-credits-45.html: Forum: Cloud Agents from Grok Bot spend Team Cloud Credits (quota-report) <https://forum.cursor.com/t/cloud-agents-by-grokbot-using-team-cloud-credits-instead-of-personal-usage/173419>
 - /cases/forum-request-for-usage-broken-down-by-bot-and-category-read-46.html: Forum: request for usage broken down by Bot and category, readable by Bots (quota-report) <https://forum.cursor.com/t/breakdown-in-the-app-by-bot-and-category-and-the-same-data-available-to-bots/173936>
 - /cases/ray-fernando-s-clippy-cto-47.html: Ray Fernando's Clippy CTO (quota-report) <https://www.youtube.com/watch?v=kAR91DlnCKQ>
+- /cases/gh-github-com-openai-codex-issues-54609.html: Dot cloud PC: Chrome shows download done but file missing (quota-report) <https://github.com/openai/codex/issues/54609>
 - /cases/x-predictivemoney-2110723292768186738.html: Google banned the bot’s Gmail “for being a bot” (quota-report) <https://x.com/Predictivemoney/status/2110723292768186738>
 - /cases/x-diamai-2110720677468664161.html: Amazon started blocking Grok Bot orders (quota-report) <https://x.com/diamai_/status/2110720677468664161>
 - /cases/x-back2matching-2110837378986205251.html: Dot used ~10% quota for two project-update asks in one day (quota-report) <https://x.com/Back2Matching/status/2110837378986205251>
