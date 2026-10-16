@@ -1,0 +1,574 @@
+{
+  "data": [
+    {
+      "author_id": "13608762",
+      "created_at": "2026-10-16T12:03:00.000Z",
+      "edit_history_tweet_ids": [
+        "2111065369272357221"
+      ],
+      "id": "2111065369272357221",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 96,
+              "id": "2425151",
+              "start": 91,
+              "username": "Meta"
+            },
+            {
+              "end": 200,
+              "id": "1888791214864072705",
+              "start": 189,
+              "username": "StepFun_ai"
+            },
+            {
+              "end": 278,
+              "id": "1909081835776413696",
+              "start": 267,
+              "username": "AntLingAGI"
+            },
+            {
+              "end": 331,
+              "id": "1635809139808141320",
+              "start": 322,
+              "username": "liquidai"
+            },
+            {
+              "end": 423,
+              "id": "2026858943033782273",
+              "start": 409,
+              "username": "Blackfrost_AI"
+            },
+            {
+              "end": 473,
+              "id": "1550009227493752834",
+              "start": 463,
+              "username": "MiaAI_lab"
+            },
+            {
+              "end": 532,
+              "id": "1492053555381174280",
+              "start": 520,
+              "username": "0xWhiteMage"
+            }
+          ]
+        },
+        "text": "AGI Checkpoint #2 is out, and it's the week open weights went vertical 🚀\n\nTop releases 🌟\n\n・@Meta: Muse Spark: MoE 816B total parameters, 42B active, 1M context window, best open US model.\n・@StepFun_ai: Step 5 Preview: 600B MoE, 27B active, 1M context, open weights.\n・@AntLingAGI: Ling-3.1-flash: ~560B total, 25B active.\n・@liquidai: LFM2.5-24B-A2B: 131K context, built for agents.\n\nKudos to the community 🔥\n\n・@Blackfrost_AI released a free model-editing course.\n・@MiaAI_lab is cooking a new quant (EAQ) for TensorFold.\n・@0xWhiteMage pushed a compaction system for Hermes.\n\nAdditionally, two things I shipped this week: Javi0.3 (made-up links from 53% to 1%) and RepoBeagle, a tool to scan repos before you clone them!\n\nThis edition is packed, enjoy!👇"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 130,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "text": "AGI Checkpoint #2 is out, and it's the week open weights went vertical 🚀\n\nTop releases 🌟\n\n・@Meta: Muse Spark: MoE 816B total parameters, 42B active, 1M context window, best open US model.\n・@StepFun_ai: Step 5 Preview: 600B MoE, 27B active, 1M context, open weights.",
+      "url": "https://x.com/jvr0x/status/2111065369272357221"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111051857074229248"
+        ]
+      },
+      "author_id": "1675315753430417408",
+      "created_at": "2026-10-16T11:09:19.000Z",
+      "edit_history_tweet_ids": [
+        "2111051861146890637"
+      ],
+      "id": "2111051861146890637",
+      "note_tweet": {
+        "entities": {
+          "cashtags": [
+            {
+              "end": 1245,
+              "start": 1240,
+              "tag": "LMND"
+            }
+          ],
+          "mentions": [
+            {
+              "end": 944,
+              "id": "11695352",
+              "start": 930,
+              "username": "shai_wininger"
+            },
+            {
+              "end": 1130,
+              "id": "1288132398257811457",
+              "start": 1115,
+              "username": "PaperBagInvest"
+            }
+          ]
+        },
+        "text": "The future is here. \n\nI wrote the piece below in a X post on September 29th 2026: \n\n“Excited about how the adoption of Meta Muse and AI agents in general will impact how consumers shop for insurance (i.e., your AI agent is tasked with finding you the best value insurance for pet, best priced car insurance per mile driven, or best priced car insurance for FSD). Lemonade has advantages that position it well for the changing future. It has a low cost structure that is poised to go lower with time, already is the easiest platform to get an insurance plan on, and is built to adapt to new technological changes (see what the company did recently with integrating TypeSafe AI Jev). \n\nWorthwhile to keep in mind that Prashant Ratanchandani, the VP of Engineering for AI Products at Meta, is on the board of Lemonade. Looking forward to what will be discussed and potentially disclosed at Lemonade Investor Day in November. \n\nAlso, @shai_wininger posted on X in the middle of May about LoCo, Lemonades OS being “great for humans, but practically it’s heaven for (ai) agents.” I posted a screenshot of the post below. @PaperBagInvest replied to Shai Winingers post with “the autonomous organization.” Enough said!” \n\nThe best is yet to come!\n\n$LMND"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 236,
+        "like_count": 5,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "The future is here. \n\nI wrote the piece below in a X post on September 29th 2026: \n\n“Excited about how the adoption of Meta Muse and AI agents in general will impact how consumers shop for insurance (i.e., your AI agent is tasked with finding you the best value insurance for pet, https://t.co/rpfRImjzhV https://t.co/v9AqILikoc",
+      "url": "https://x.com/DavidABurstein/status/2111051861146890637"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111025350272843776"
+        ]
+      },
+      "author_id": "2013613489798160388",
+      "created_at": "2026-10-16T09:24:03.000Z",
+      "edit_history_tweet_ids": [
+        "2111025370585862223"
+      ],
+      "id": "2111025370585862223",
+      "note_tweet": {
+        "text": "Sarvam just plugged its Indus agents into Figma through MCP. Here's what you need to know.\n\nSarvam announced that agents built on its Indus model can now create designs directly in Figma. They read your components, variables and layouts, then build with them inside the file. Sarvam posted the news on Oct 16, 2026.\n\nIt ties to Figma's first-ever Config India, held Oct 15, 2026 at BIEC in Bengaluru. Figma announced 20 new MCP partners there, and Sarvam Agents is one of them. Figma also announced an MCP partnership with Sarvam as part of its largest investment in India yet.\n\nThe other partners on the list: Amp, ClickUp, Dia, Junie by JetBrains, Linear, Meta Muse, Mistral, Notion, OpenCode, Agentforce Vibes, Amazon Quick, Amplitude Wave, Cline, Delta, Dust, Glass, Gradial, Writer, Zed and Microsoft 365 Copilot.\n\nFigma also launched new ways to build with code on the canvas. That includes code layers, Figma Specs as a native home for context, and connections to a backend framework and a CMS for real data and content.\n\nFigma also shared a survey of 507 Indian respondents. AI adoption in design is rising and product-building workflows are getting faster. The same people worry that AI-generated output looks generic.\n\nReactions from the event were mixed. Attendees praised the energy and the crowds of designers. One said the show felt underwhelming and the queues were long. Another pointed to a line heard on stage, \"We're not here to replace anybody, we're just here to increase productivity.\" One developer said writebacks that change shared variables should need human approval.\n\nKey numbers:\n- 20 new MCP partners announced\n- 507 survey responses from India\n- Oct 15, 2026: first Config India, Bengaluru\n\nSarvam's Indus agents can now read and build with a team's own Figma design system."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 161,
+        "like_count": 0,
+        "quote_count": 6,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Sarvam just plugged its Indus agents into Figma through MCP. Here's what you need to know.\n\nSarvam announced that agents built on its Indus model can now create designs directly in Figma. They read your components, variables and layouts, then build with them inside the file. https://t.co/yEGb8jFLpk https://t.co/cxK1nYbKwh",
+      "url": "https://x.com/AGTPinsights/status/2111025370585862223"
+    },
+    {
+      "article": {
+        "title": "IA ouverte : du data center à votre bureau, ce que ça change pour l'Afrique"
+      },
+      "author_id": "789052274786140160",
+      "created_at": "2026-10-16T08:18:24.000Z",
+      "edit_history_tweet_ids": [
+        "2111008846055460868"
+      ],
+      "id": "2111008846055460868",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 47,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "https://t.co/BxKm3EKsNc",
+      "url": "https://x.com/Steph_Yapi/status/2111008846055460868"
+    },
+    {
+      "article": {
+        "title": "Meta「Muse Spark Open」公開。816BのオープンウェイトをエージェントAIに使う前に押さえたい5つのこと"
+      },
+      "author_id": "145617093",
+      "created_at": "2026-10-16T07:14:32.000Z",
+      "edit_history_tweet_ids": [
+        "2110992775776813281"
+      ],
+      "id": "2110992775776813281",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 527,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Metaが「Muse Spark Open」の重みを公開。816B／アクティブ42BのMoEをエージェント用途で使う前に、必要メモリ、性能比較、独自ライセンスと運用上の注意を整理しました。 https://t.co/PJhNEG9ydV",
+      "url": "https://x.com/superdoccimo/status/2110992775776813281"
+    },
+    {
+      "author_id": "1610027224110882818",
+      "created_at": "2026-10-16T06:11:49.000Z",
+      "edit_history_tweet_ids": [
+        "2110976989750288415"
+      ],
+      "id": "2110976989750288415",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 10,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "🚀 Meet Meta Muse Wonder!\nMeta’s new AI models are built for advanced coding, long-running AI agents, computer use, and smarter task completion. \n👇 Read the complete guide!\nhttps://t.co/HmtuLkPPsY\n#MetaAI #MuseWonder #AITools #ArtificialIntelligence #TechNews",
+      "url": "https://x.com/DavidOyewola/status/2110976989750288415"
+    },
+    {
+      "article": {
+        "title": "Meta Muse Is Now a Shopping Agent: How Brands Get Recommended by Meta's AI (2026 Guide)"
+      },
+      "author_id": "2069660450929913856",
+      "created_at": "2026-10-16T06:01:51.000Z",
+      "edit_history_tweet_ids": [
+        "2110974484392145007"
+      ],
+      "id": "2110974484392145007",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 206,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "6.6 million installs. No. 1 on the App Store. Now it shops for people.\n\nMeta Muse is the new storefront. Is your brand in it? 👇\n\n#MetaMuse #AI https://t.co/iU3tzq6qRc",
+      "url": "https://x.com/umerdarazkha/status/2110974484392145007"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2110953852904308737"
+        ]
+      },
+      "author_id": "146108201",
+      "created_at": "2026-10-16T04:39:59.000Z",
+      "edit_history_tweet_ids": [
+        "2110953880238604380"
+      ],
+      "id": "2110953880238604380",
+      "note_tweet": {
+        "entities": {
+          "cashtags": [
+            {
+              "end": 622,
+              "start": 617,
+              "tag": "META"
+            },
+            {
+              "end": 628,
+              "start": 623,
+              "tag": "AAPL"
+            }
+          ],
+          "hashtags": [
+            {
+              "end": 603,
+              "start": 598,
+              "tag": "Meta"
+            },
+            {
+              "end": 610,
+              "start": 604,
+              "tag": "Apple"
+            },
+            {
+              "end": 615,
+              "start": 611,
+              "tag": "MLX"
+            }
+          ]
+        },
+        "text": "Meta Muse Spark Open is built to run on two Mac Studios\n\nMeta dropped Muse Spark Open and called it the most capable US open-weight model to date. The headline spec: 816 billion parameters, natively multimodal, and it runs on two Apple M5 Ultra Mac Studios with the latest MLX stack — first in its class to sit on a desk like that.\n\nZuckerberg and new Apple CEO John Ternus publicly cheered each other. Rivals, but they have been collaborating for months. Apple also posted a technical write-up on MLX plus two other open models.\n\nOpen weights, Apple silicon, 816B. The desktop AI bar just moved.\n\n#Meta #Apple #MLX\n\n$META $AAPL"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 160,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Meta Muse Spark Open is built to run on two Mac Studios\n\nMeta dropped Muse Spark Open and called it the most capable US open-weight model to date. The headline spec: 816 billion parameters, natively multimodal, and it runs on two Apple M5 Ultra Mac Studios with the latest MLX https://t.co/Ec2OqmnVY2",
+      "url": "https://x.com/Tesla_Optimus_K/status/2110953880238604380"
+    },
+    {
+      "author_id": "56761270",
+      "created_at": "2026-10-16T04:07:34.000Z",
+      "edit_history_tweet_ids": [
+        "2110945722526994911"
+      ],
+      "id": "2110945722526994911",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@icreatelife I teach people to use AI tools, just dropped another meta muse tutorial tonight here and on YouTube and Facebook",
+      "url": "https://x.com/vibecodeguild/status/2110945722526994911"
+    },
+    {
+      "author_id": "1645450973014560768",
+      "created_at": "2026-10-16T04:03:52.000Z",
+      "edit_history_tweet_ids": [
+        "2110944790833676626"
+      ],
+      "id": "2110944790833676626",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 21,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Muse just went OPEN. 🔓\nMeta released Muse Spark Open today — 816B parameters, 1M-token context, built for coding + agent work, tuned to run on two Mac Studios.\nThe frontier is downloadable now. 🐺\n@Muse @Meta #Muse #Meta #AI #TechNews",
+      "url": "https://x.com/Howlsoverbaaz/status/2110944790833676626"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2110927118205108224"
+        ]
+      },
+      "author_id": "56761270",
+      "created_at": "2026-10-16T03:01:50.000Z",
+      "edit_history_tweet_ids": [
+        "2110929181886525931"
+      ],
+      "id": "2110929181886525931",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "Last.FM",
+              "end": 177,
+              "expanded_url": "http://Last.FM",
+              "start": 154,
+              "url": "https://t.co/fR0HbAQ88n"
+            },
+            {
+              "display_url": "Last.FM",
+              "end": 592,
+              "expanded_url": "http://Last.FM",
+              "start": 569,
+              "url": "https://t.co/fR0HbAQ88n"
+            },
+            {
+              "display_url": "Last.FM",
+              "end": 854,
+              "expanded_url": "http://Last.FM",
+              "start": 831,
+              "url": "https://t.co/fR0HbAQ88n"
+            }
+          ]
+        },
+        "text": "I'm continuing to try to push the frontier with Meta Muse.  In this video, I used their built in Spotify connector and also made a customer connector for https://t.co/fR0HbAQ88n to build an app that can generate playlists for me.  It was all free to build, and it's all inside Meta Muse so I don't have to waste time with hosting or security settings.\n\nI continue to be pleasantly surprised with Meta Muse every day and how easy it is to just build things.  Spotify doesn't actually expose their music recommendation engine via their API, and that's why I had to bring https://t.co/fR0HbAQ88n into it, and at first I thought that would be a show stopper, but Gus, my Meta Muse knocked it out of the park and got everything working and set up.\n\nWe had to do some correction to build a routine that can crawl through songs using the https://t.co/fR0HbAQ88n data to find related tracks to build playlists, and I also gave it a fun 70's Funky Disco look at the end.  This was a super fun build and it just makes me more and more grateful for our AI tools every day.  This would have been such a hassle to make in 2024\n\nDo you have any app ideas that you'd like to see me build?  I'm having so much fun helping people learn how to get started with this tool, if there's something you want to see, let me know and I'll give it a shot!"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 81,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "text": "I'm continuing to try to push the frontier with Meta Muse.  In this video, I used their built in Spotify connector and also made a customer connector for https://t.co/tKAqRFW9ma to build an app that can generate playlists for me.  It was all free to build, and it's all inside https://t.co/5sEgQWQIeF",
+      "url": "https://x.com/vibecodeguild/status/2110929181886525931"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2110897119322427392"
+        ]
+      },
+      "author_id": "1974232796270108672",
+      "created_at": "2026-10-16T00:54:27.000Z",
+      "edit_history_tweet_ids": [
+        "2110897121755009304"
+      ],
+      "id": "2110897121755009304",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 8,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Meta just open-sourced Muse Spark Open, an 816B-parameter model that runs on two Mac Studios, built with Apple's help. I'll say it: the open-source labs are about to embarrass every $200B closed AI company. Source: #AI #Meta #Muse #apple https://t.co/QEBjTALgWU",
+      "url": "https://x.com/TechXsense/status/2110897121755009304"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2110877807324614657"
+        ]
+      },
+      "author_id": "2034267014135685120",
+      "created_at": "2026-10-15T23:38:48.000Z",
+      "edit_history_tweet_ids": [
+        "2110878087646720006"
+      ],
+      "id": "2110878087646720006",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 773,
+              "id": "2034267014135685120",
+              "start": 758,
+              "username": "thehypedotnews"
+            }
+          ]
+        },
+        "text": "meta muse spark open beats 3 open-weight models – best pixel survivors game \n\nmuse spark open builds the most playable game of the four for $0.59. same brief for all: a vampire survivors-style pixel game, plain canvas 2d, no libraries, no images, built in 4 steps\n\ncost\n#1 hy4 preview – $0.52\n#2 inkling – $0.52\n#3 muse spark open – $0.59\n#4 step 5 preview – $0.60\n\ntime\n#1 inkling – 10m 53s\n#2 muse spark open – 19m 58s\n#3 step 5 preview – 20m 31s\n#4 hy4 preview – 52m 27s\n\nobservations:\n• muse – the most game-like: hordes, damage numbers, level-ups, zero crashes\n• hy4 – slowest by far, but clean code at every step\n• step – crashed mid-build and needed an extra fix turn\n• inkling – fastest, prettiest graveyard, but its weapons deal zero damage\n\nfollow @thehypedotnews for 24/7 ai news, analysis and breakdowns"
+      },
+      "public_metrics": {
+        "bookmark_count": 16,
+        "impression_count": 8807,
+        "like_count": 28,
+        "quote_count": 6,
+        "reply_count": 16,
+        "retweet_count": 6
+      },
+      "text": "meta muse spark open beats 3 open-weight models – best pixel survivors game \n\nmuse spark open builds the most playable game of the four for $0.59. same brief for all: a vampire survivors-style pixel game, plain canvas 2d, no libraries, no images, built in 4 steps\n\ncost\n#1 hy4 https://t.co/lgC2Ss13rT https://t.co/PFmMII2Mkl",
+      "url": "https://x.com/thehypedotnews/status/2110878087646720006"
+    },
+    {
+      "author_id": "1800137407955652608",
+      "created_at": "2026-10-15T23:28:15.000Z",
+      "edit_history_tweet_ids": [
+        "2110875430601506928"
+      ],
+      "id": "2110875430601506928",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 33,
+              "id": "19016936",
+              "start": 20,
+              "username": "morganlinton"
+            },
+            {
+              "end": 306,
+              "id": "2085838061347217408",
+              "start": 302,
+              "username": "bot"
+            }
+          ]
+        },
+        "text": "I’ve been following @morganlinton Muse experiments and experience - I probably would’ve ignored Meta Muse if I hadn’t seen some of these posts from y’all. I haven’t tried it yet, but I’m interested to dig into it soon.\n\nWonder if cursor will offer it or if meta will allow that.\n\nI’ve been loving grok @bot this week as a new user - so easy to use."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 26,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@BrianRoemmele @grok @bot I’ve been following @morganlinton Muse experiments and experience - I probably would’ve ignored Meta Muse if I hadn’t seen some of these posts from y’all. I haven’t tried it yet, but I’m interested to dig into it soon.\n\nWonder if cursor will offer it or if meta will allow that.",
+      "url": "https://x.com/CreativeSkyAI/status/2110875430601506928"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "3_2111051857074229248",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUv2eqtWkAAeTkk.jpg"
+      },
+      {
+        "media_key": "3_2111025350272843776",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUveXxLbgAA4Z8s.jpg"
+      },
+      {
+        "media_key": "3_2110953852904308737",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUudWEuagAEEF7I.jpg"
+      },
+      {
+        "media_key": "13_2110927118205108224",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2110927118205108224/img/bLxAJcwwMFnxEkdP.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2110897119322427392",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUtpvvqb0AA7JjB.jpg"
+      },
+      {
+        "media_key": "13_2110877807324614657",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2110877807324614657/img/QqhwcyPUdqyKs-J_.jpg",
+        "type": "video"
+      }
+    ],
+    "users": [
+      {
+        "id": "13608762",
+        "name": "Javier • priv/acc",
+        "username": "jvr0x"
+      },
+      {
+        "id": "1675315753430417408",
+        "name": "David Burstein",
+        "username": "DavidABurstein"
+      },
+      {
+        "id": "2013613489798160388",
+        "name": "AGTP",
+        "username": "AGTPinsights"
+      },
+      {
+        "id": "789052274786140160",
+        "name": "Stéphane Yapi | Tsalach Ventures",
+        "username": "Steph_Yapi"
+      },
+      {
+        "id": "145617093",
+        "name": "美濃加茂まむ",
+        "username": "superdoccimo"
+      },
+      {
+        "id": "1610027224110882818",
+        "name": "david oyewola",
+        "username": "DavidOyewola"
+      },
+      {
+        "id": "2069660450929913856",
+        "name": "Umer Daraz Khan",
+        "username": "umerdarazkha"
+      },
+      {
+        "id": "146108201",
+        "name": "Tesla_Optimus",
+        "username": "Tesla_Optimus_K"
+      },
+      {
+        "id": "56761270",
+        "name": "Shane McGrath",
+        "username": "vibecodeguild"
+      },
+      {
+        "id": "1645450973014560768",
+        "name": "Howls over Baaz",
+        "username": "Howlsoverbaaz"
+      },
+      {
+        "id": "1974232796270108672",
+        "name": "TechXsense",
+        "username": "TechXsense"
+      },
+      {
+        "id": "2034267014135685120",
+        "name": "thehype.",
+        "username": "thehypedotnews"
+      },
+      {
+        "id": "1800137407955652608",
+        "name": "Skinner | Creative Sky AI",
+        "username": "CreativeSkyAI"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2111065369272357221",
+    "next_token": "b26v89c19zqg8o3juzlvkiw30ke71num8jefky1boq071",
+    "oldest_id": "2110875430601506928",
+    "result_count": 14
+  }
+}

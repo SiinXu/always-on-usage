@@ -1,0 +1,132 @@
+{
+  "data": [
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2111017428566384640"
+        ]
+      },
+      "author_id": "1724414743363149824",
+      "created_at": "2026-10-16T09:03:37.000Z",
+      "edit_history_tweet_ids": [
+        "2111020227383439460"
+      ],
+      "id": "2111020227383439460",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 28,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "grok bot, muse and openai dots made me want a personal agent i actually own.\n\nso we built one.\n\nsocius: open, local, any model, any provider, with a marketplace for skills + mcp connectors.\n\n~200 commits later it won a hackathon. repo's open, break it 👇 https://t.co/f5tKpxZMpU",
+      "url": "https://x.com/itsjustmatrix/status/2111020227383439460"
+    },
+    {
+      "author_id": "2034178403663024131",
+      "created_at": "2026-10-16T05:27:07.000Z",
+      "edit_history_tweet_ids": [
+        "2110965743034761422"
+      ],
+      "id": "2110965743034761422",
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 1928,
+              "start": 1921,
+              "tag": "OpenAI"
+            },
+            {
+              "end": 1934,
+              "start": 1929,
+              "tag": "Dots"
+            },
+            {
+              "end": 1943,
+              "start": 1935,
+              "tag": "GrokBot"
+            },
+            {
+              "end": 1953,
+              "start": 1944,
+              "tag": "AIAgents"
+            },
+            {
+              "end": 1977,
+              "start": 1954,
+              "tag": "ArtificialIntelligence"
+            },
+            {
+              "end": 1991,
+              "start": 1978,
+              "tag": "FutureOfWork"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "openai.com/index/introduc…",
+              "end": 1840,
+              "expanded_url": "https://openai.com/index/introducing-dots/",
+              "start": 1817,
+              "url": "https://t.co/rUlWj17DMk"
+            },
+            {
+              "display_url": "x.com/OpenAI/status/…",
+              "end": 1885,
+              "expanded_url": "https://x.com/OpenAI/status/2110797830361436604",
+              "start": 1862,
+              "url": "https://t.co/e1usPuROFx"
+            },
+            {
+              "display_url": "docs.x.ai/x-subscription…",
+              "end": 1920,
+              "expanded_url": "https://docs.x.ai/x-subscription/grok-bot",
+              "start": 1897,
+              "url": "https://t.co/YaJfPYpFrm"
+            }
+          ]
+        },
+        "text": "OpenAI's Dots looks impressive.\n\nBut seriously, OpenAI, is this AI Agent supposed to make money for me, or am I supposed to make money just to afford it? 💀\n\nOpenAI just introduced Dots, its new generation of 24/7 autonomous AI agents.\n\nPowered by GPT-6 Astra, each Dot gets its own cloud computer, access to thousands of apps, and the ability to research, code, manage projects, and keep working while you sleep.\n\nSounds incredible.\n\nUntil you look at the pricing.\n\nOpenAI Dots: Starting at $100/month.\n\nGrok Bot: Starting at $30/month.\n\nThat's a 3.3x difference in entry cost.\n\nAnd here's the funniest part.\n\nOpenAI currently includes only your first Dot. Pricing for additional Dots hasn't even been announced yet.\n\nMeanwhile, Grok Bot already offers multi-step task execution and automated workflows at a much lower entry price.\n\nOf course, these aren't identical products. Their capabilities, usage limits, and infrastructure differ.\n\nBut here's my problem with OpenAI's strategy.\n\nWasn't the whole point of AI Agents to democratize access to digital labor?\n\nApparently, OpenAI's version of democratization starts with a premium subscription.\n\nCongratulations.\n\nWe've officially entered an era where even your AI employees have expensive hiring requirements.\n\nI'm not questioning OpenAI's technical capabilities.\n\nI'm questioning the economics.\n\nBecause the real AI Agent war won't be won by whoever builds the smartest model.\n\nIt will be won by whoever delivers the most useful work at the lowest sustainable cost.\n\nIf your $100/month AI employee can't generate at least $100 in value, congratulations.\n\nYou didn't hire an employee.\n\nYou adopted an expensive digital pet. 🐶\n\nOpenAI, your technology might be frontier-level.\n\nBut could your pricing please return to planet Earth?\n\nOfficial sources:\n\nOpenAI Dots:\nhttps://t.co/rUlWj17DMk\nOpenAI announcement:\nhttps://t.co/e1usPuROFx\n\nGrok Bot:\nhttps://t.co/YaJfPYpFrm\n#OpenAI #Dots #GrokBot #AIAgents #ArtificialIntelligence #FutureOfWork"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 64,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "OpenAI's Dots looks impressive.\n\nBut seriously, OpenAI, is this AI Agent supposed to make money for me, or am I supposed to make money just to afford it? 💀\n\nOpenAI just introduced Dots, its new generation of 24/7 autonomous AI agents.\n\nPowered by GPT-6 Astra, each Dot gets its https://t.co/e1usPuROFx",
+      "url": "https://x.com/YomiAISlight/status/2110965743034761422"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "13_2111017428566384640",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2111017428566384640/img/PEIUko9gh4zHb4xX.jpg",
+        "type": "video"
+      }
+    ],
+    "users": [
+      {
+        "id": "1724414743363149824",
+        "name": "nikhil",
+        "username": "itsjustmatrix"
+      },
+      {
+        "id": "2034178403663024131",
+        "name": "Yomi",
+        "username": "YomiAISlight"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2111020227383439460",
+    "next_token": "b26v89c19zqg8o3juzlvkl0idhmdadwe90wftitrlekql",
+    "oldest_id": "2110965743034761422",
+    "result_count": 2
+  }
+}

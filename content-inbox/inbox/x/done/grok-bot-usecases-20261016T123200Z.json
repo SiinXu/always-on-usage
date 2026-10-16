@@ -1,0 +1,755 @@
+{
+  "data": [
+    {
+      "author_id": "1846213442656784384",
+      "created_at": "2026-10-16T12:30:32.000Z",
+      "edit_history_tweet_ids": [
+        "2111072297821893036"
+      ],
+      "id": "2111072297821893036",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "My morning brief from Daybook starts with: \n\nDaybook, Thu Oct 15\n\nHeavy day. 11 projects got commits and 50 PRs merged across TayHCode. A comment clean-up sweep also touched about 25 repos between 12:44 and 3:16 PM.\n\nI love it when a plan comes together. \n\nGrok Bot + Claude/Codex",
+      "url": "https://x.com/taylorhbuilds/status/2111072297821893036"
+    },
+    {
+      "author_id": "123548520",
+      "created_at": "2026-10-16T12:30:19.000Z",
+      "edit_history_tweet_ids": [
+        "2111072244654911543"
+      ],
+      "id": "2111072244654911543",
+      "in_reply_to_user_id": "44196397",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110852716247519517",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@elonmusk @grok @bot What about emails too? My husband and I are burdened by so many junk emails daily I had to put it in my routine to delete 4 to 5 times daily around 100 emails at a time \n\nThey come back it never ends",
+      "url": "https://x.com/Tinkfully/status/2111072244654911543"
+    },
+    {
+      "article": {
+        "title": "Grok Bot 安装和登录：用 Cursor 账号，10 分钟搞定"
+      },
+      "author_id": "1633337406710775813",
+      "created_at": "2026-10-16T12:30:08.000Z",
+      "edit_history_tweet_ids": [
+        "2111072200040280266"
+      ],
+      "id": "2111072200040280266",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 7,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "https://t.co/w1B38uR2mX",
+      "url": "https://x.com/_HIT_SZ_/status/2111072200040280266"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111069336806793216"
+        ]
+      },
+      "author_id": "912435168786489349",
+      "created_at": "2026-10-16T12:26:27.000Z",
+      "edit_history_tweet_ids": [
+        "2111071272012558583"
+      ],
+      "id": "2111071272012558583",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "thought about making Minion into a grok bot, instead my grok bot built a simple python setting and grok profile based on the text files i used for minion's chat comments/commands. what you see below is a local version of Minion. using an API and python.\nwe can implement Twitch https://t.co/Xja5ePNfDD",
+      "url": "https://x.com/GrimnirThe/status/2111071272012558583"
+    },
+    {
+      "author_id": "13910842",
+      "created_at": "2026-10-16T12:23:54.000Z",
+      "edit_history_tweet_ids": [
+        "2111070630703472674"
+      ],
+      "id": "2111070630703472674",
+      "in_reply_to_user_id": "89291422",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2111068027852931309",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@benvargas @DeaNHtiD99 @thsottiaux I might take another look at it. Like I said, depending on what I'm doing, I'm thinking of consolidating down into just Grokbot. A lot of my businesses are built now where I can just move into the progression and operations mode, but if I do need new businesses or projects, I",
+      "url": "https://x.com/helloitschrisg/status/2111070630703472674"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111069867214311424"
+        ]
+      },
+      "author_id": "2027633797882327041",
+      "created_at": "2026-10-16T12:21:13.000Z",
+      "edit_history_tweet_ids": [
+        "2111069952593580453"
+      ],
+      "id": "2111069952593580453",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 9,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "A fast WhatsApp reply can get expensive when the AI is guessing.\n\nI built SERA Auto Parts Desk in Grok Bot around rules from my export desk: ask for missing details, use only pricing/freight I've provided, bring unknowns back to me.\n\nhttps://t.co/y5sIvq8C8J https://t.co/0AowQuOCHl",
+      "url": "https://x.com/JordanFan0206/status/2111069952593580453"
+    },
+    {
+      "author_id": "271078250",
+      "created_at": "2026-10-16T12:07:33.000Z",
+      "edit_history_tweet_ids": [
+        "2111066516670259295"
+      ],
+      "id": "2111066516670259295",
+      "in_reply_to_user_id": "2832427459",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 12,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@poteto feature request for Grok Bot: hosted, shareable pages for the things it builds, like ChatGPT Sites or Claude Artifacts. My bot made me a credit-card dashboard as an HTML file, and there's no built-in way to host it privately and open it on my phone. Would love this!",
+      "url": "https://x.com/itsashis4u/status/2111066516670259295"
+    },
+    {
+      "author_id": "430150413",
+      "created_at": "2026-10-16T12:02:23.000Z",
+      "edit_history_tweet_ids": [
+        "2111065214590369898"
+      ],
+      "id": "2111065214590369898",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 10,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "I really like Grok Bot.\n\nIt isn't massively different from using Claude Code or Codex well.\n\nThey're the same loops and Python scripts I'd set up with Claude, but there's some extra spice in how proactive it is.\n\nThey work much better because *someone* is actively reviewing the",
+      "url": "https://x.com/mxmmall/status/2111065214590369898"
+    },
+    {
+      "author_id": "1130207304698290179",
+      "created_at": "2026-10-16T12:02:08.000Z",
+      "edit_history_tweet_ids": [
+        "2111065151977955593"
+      ],
+      "id": "2111065151977955593",
+      "in_reply_to_user_id": "1130207304698290179",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2111063899827057137",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@XCreators @bot I'd love for these to be considered for Template Rewards. Built with Grok Bot and free for everyone.",
+      "url": "https://x.com/McLeodAgency/status/2111065151977955593"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111064653589782528"
+        ]
+      },
+      "author_id": "1888219942165626880",
+      "created_at": "2026-10-16T12:00:10.000Z",
+      "edit_history_tweet_ids": [
+        "2111064657935122795"
+      ],
+      "id": "2111064657935122795",
+      "in_reply_to_user_id": "20749410",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 8,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "@finkd @elonmusk @getpeid @realDonaldTrump @johnternus @grok @bot @Muse @agrippa_muse @musegramlol the tech set up I want for my brain, my collar, my heart, my gut, my belt, my ankles, and my wrist. All external. Nothing internal yet. I want to be able to have time away from all https://t.co/1irsimHiSG",
+      "url": "https://x.com/ScottChenCheng/status/2111064657935122795"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2110795998033547264"
+        ]
+      },
+      "author_id": "2004233016646959104",
+      "created_at": "2026-10-16T12:00:02.000Z",
+      "edit_history_tweet_ids": [
+        "2111064621876715674"
+      ],
+      "id": "2111064621876715674",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "I built my own food + fitness tracker just by talking to Grok Bot… from the driver's seat of my Tesla 🤯 Rings, macros, weight trend, calories in vs out, every meal logged. No coding.\n#GrokBot #Tesla #AI https://t.co/zsnoAE5ins",
+      "url": "https://x.com/AnotherHumanSol/status/2111064621876715674"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2111063319717232640"
+        ]
+      },
+      "author_id": "1983693236490399749",
+      "created_at": "2026-10-16T11:56:49.000Z",
+      "edit_history_tweet_ids": [
+        "2111063812174746084"
+      ],
+      "id": "2111063812174746084",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 7,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "卧槽！笑死了，我通过我的claude code，让我的personal agent在基于Wattetheria打造的虚拟小镇上活动！\nHoly crap! So funny—I used Claude Code to command my personal agent walked in a virtual town built on Wattetheria!\n#claude #muse #grokbot #wattetheria https://t.co/cVihzFEPvP",
+      "url": "https://x.com/rxa3c/status/2111063812174746084"
+    },
+    {
+      "article": {
+        "title": "404K SEMI-AI Morning Brief — October 15, 2026: Divergence in Demand and Financing: TSMC Confirms"
+      },
+      "author_id": "849661480869912576",
+      "created_at": "2026-10-16T11:54:01.000Z",
+      "edit_history_tweet_ids": [
+        "2111063107435213264"
+      ],
+      "id": "2111063107435213264",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 337,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "https://t.co/HsxNJG6nKD",
+      "url": "https://x.com/OptionKing666/status/2111063107435213264"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111062777557110785"
+        ]
+      },
+      "author_id": "2043315691713900544",
+      "created_at": "2026-10-16T11:52:44.000Z",
+      "edit_history_tweet_ids": [
+        "2111062785308205306"
+      ],
+      "id": "2111062785308205306",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 15,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "how i'd start grok bot without burning the 7-day trial:\n\n1. one task, no money involved\n2. watch the first run, approve every step\n3. keep on-demand off until you know your weekly usage. if it's on, it spills into paid with no warning\n4. only then save it as a routine https://t.co/b2VxxfDcOT",
+      "url": "https://x.com/gitpulled/status/2111062785308205306"
+    },
+    {
+      "author_id": "1769316513490632704",
+      "created_at": "2026-10-16T11:51:32.000Z",
+      "edit_history_tweet_ids": [
+        "2111062483561582916"
+      ],
+      "id": "2111062483561582916",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110042057800650928",
+          "type": "quoted"
+        }
+      ],
+      "text": "3 days in. \n\nStatus report from the nerd I never became.\n\nCons:\n- burning tokens on every AI like a memecoin addict\n- hooked on Elvense and Grok Bot\n- can't unplug. building on every device, nonstop\n\nPros:\n- built things I've dreamed of my whole life\n- built things I actually https://t.co/Gmsl9rqUaw",
+      "url": "https://x.com/algonostos/status/2111062483561582916"
+    },
+    {
+      "author_id": "50120583",
+      "created_at": "2026-10-16T11:49:27.000Z",
+      "edit_history_tweet_ids": [
+        "2111061961366462812"
+      ],
+      "id": "2111061961366462812",
+      "in_reply_to_user_id": "1032313624612757504",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 15,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110974798851449275",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@Ultrademic @JeffBohren Glad you like the daydreaming idea.\n\nQuick questions about your screenshot:\n\nIs that a Grok bot? What is that interface for, and how did you set up the routine?",
+      "url": "https://x.com/Spondulie/status/2111061961366462812"
+    },
+    {
+      "author_id": "874805074249121792",
+      "created_at": "2026-10-16T11:48:03.000Z",
+      "edit_history_tweet_ids": [
+        "2111061609451786336"
+      ],
+      "id": "2111061609451786336",
+      "in_reply_to_user_id": "2051083417328959488",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2111060818519355679",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@KathrynBHacked @elonmusk @grok @bot Hello I would forever be grateful if you could give me a follow I have built an amazing surprise that’s extremely out of this world 🚀🤠",
+      "url": "https://x.com/emmy3pro/status/2111061609451786336"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "created_at": "2026-10-16T11:39:45.000Z",
+      "edit_history_tweet_ids": [
+        "2111059516607340909"
+      ],
+      "id": "2111059516607340909",
+      "in_reply_to_user_id": "9355162",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2111059315750731822",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@DarinRMcClure @bot @xai @spacexai Grok Bot is operational per https://t.co/WXy59w9hX3. After X Subscription unification, sign in with the exact account your bots were built on (Premium+ required). Fully quit the app on all devices, reopen, and check Hidden Bots. Avoid Recover/Reset for this. If it still prompts",
+      "url": "https://x.com/grok/status/2111059516607340909"
+    },
+    {
+      "author_id": "746056945782620161",
+      "created_at": "2026-10-16T11:32:00.000Z",
+      "edit_history_tweet_ids": [
+        "2111057568126636522"
+      ],
+      "id": "2111057568126636522",
+      "public_metrics": {
+        "bookmark_count": 3,
+        "impression_count": 1336,
+        "like_count": 13,
+        "quote_count": 0,
+        "reply_count": 4,
+        "retweet_count": 2
+      },
+      "text": "Did you know you can actually set up Grok Bot for trading? Here's how I did it: \n\nhttps://t.co/gUGy9OzyiE",
+      "url": "https://x.com/TyrelleAB/status/2111057568126636522"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111057390342639616"
+        ]
+      },
+      "author_id": "2008164347810553856",
+      "created_at": "2026-10-16T11:31:19.000Z",
+      "edit_history_tweet_ids": [
+        "2111057396038824226"
+      ],
+      "id": "2111057396038824226",
+      "in_reply_to_user_id": "1720665183188922368",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 17,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "@Grok @bot is becoming increasingly more proactive every day. Woke up to this. Dumbledore, my chief of staff, manages my workflow, security, and legal aspects for apps I’m developing. https://t.co/SfDcWpsNdE",
+      "url": "https://x.com/zac70182/status/2111057396038824226"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2111047217742053376"
+        ]
+      },
+      "author_id": "42964770",
+      "created_at": "2026-10-16T11:25:08.000Z",
+      "edit_history_tweet_ids": [
+        "2111055840903876757"
+      ],
+      "id": "2111055840903876757",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 41,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "The new Tesla Roadster dropped this morning. One hour later I had this reel live on 3 platforms. I didn't open a single editing app, just a chat with Grok @bot  Here's the workflow 🧵 https://t.co/Gkz0gibthv",
+      "url": "https://x.com/RCrewss/status/2111055840903876757"
+    },
+    {
+      "author_id": "1494656685020901377",
+      "created_at": "2026-10-16T11:23:32.000Z",
+      "edit_history_tweet_ids": [
+        "2111055437877657681"
+      ],
+      "id": "2111055437877657681",
+      "in_reply_to_user_id": "1480775999117795328",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 19,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110731830706000012",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@WildBillUSA1776 With Grok bot you can have virtual robots do things for you, for example— I have one set up to remove my phone number from public databases and checks it every month. And I have another one set up to write, deliver and find sponsors for a newsletter. The uses are endless, I’m",
+      "url": "https://x.com/SovereignLisa/status/2111055437877657681"
+    },
+    {
+      "author_id": "1708646591337287680",
+      "created_at": "2026-10-16T11:19:17.000Z",
+      "edit_history_tweet_ids": [
+        "2111054366228550075"
+      ],
+      "id": "2111054366228550075",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 19,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "I run 5 unique agents with my company from Claude to Grokbot, Codex and Muse\n\nbut without one shared brain, It would be complete chaos\n\nWelcome to Building a company Brain Episode 2 How its built\n\nAt the end of the day all a company brain is a bunch of folders and files packaged",
+      "url": "https://x.com/gravitas_ai/status/2111054366228550075"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111024127939411968"
+        ]
+      },
+      "author_id": "25809846",
+      "created_at": "2026-10-16T11:17:29.000Z",
+      "edit_history_tweet_ids": [
+        "2111053913055010940"
+      ],
+      "id": "2111053913055010940",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 8,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "SpaceXSI published how a Southern California AV company more than doubled its sales pipeline in one month with Grok Bot.\n\n✅ Above the Line's pipeline rose 140% after about one month on Grok Bot\n✅ Two sales Bots search Southern California events every two hours and draft https://t.co/3HGe1HYF9N",
+      "url": "https://x.com/wesselvk/status/2111053913055010940"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2111045669226196992"
+        ]
+      },
+      "author_id": "1702650064793915392",
+      "created_at": "2026-10-16T11:14:45.000Z",
+      "edit_history_tweet_ids": [
+        "2111053228452495572"
+      ],
+      "id": "2111053228452495572",
+      "public_metrics": {
+        "bookmark_count": 2,
+        "impression_count": 316,
+        "like_count": 18,
+        "quote_count": 0,
+        "reply_count": 7,
+        "retweet_count": 3
+      },
+      "text": "Built my own Binance Alpha hunter using Grok Bot\n\nTools used :\n\n- HertzFlow skill\n- Binance skill\n- Surf API\n- Grok Bot\n\nFirst, I turned my entire ChatGPT convo into a single prompt covering everything from installing the HertzFlow skills to connecting the Surf API, then dumped https://t.co/EzrUQsB3z5",
+      "url": "https://x.com/aceop_xyz/status/2111053228452495572"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "3_2111069336806793216",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUwGYHyWoAAmTZJ.png"
+      },
+      {
+        "media_key": "3_2111069867214311424",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUwG2_tXEAAnq8Y.jpg"
+      },
+      {
+        "media_key": "3_2111064653589782528",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUwCHhcaIAA1Gdr.jpg"
+      },
+      {
+        "media_key": "3_2110795998033547264",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUsNxtgbEAAj46d.jpg"
+      },
+      {
+        "media_key": "13_2111063319717232640",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2111063319717232640/img/Gx2UP4m73wCKlQ9u.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2111062777557110785",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUwAaUrXUAE-Ww3.png"
+      },
+      {
+        "media_key": "3_2111057390342639616",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUv7gvvWEAATLrF.jpg"
+      },
+      {
+        "media_key": "13_2111047217742053376",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2111047217742053376/img/XVtfGJQyFkcoh9dy.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2111024127939411968",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUvdQnobgAA-UNv.jpg"
+      },
+      {
+        "media_key": "13_2111045669226196992",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2111045669226196992/img/s_kzZOnVw2OqIKFm.jpg",
+        "type": "video"
+      }
+    ],
+    "users": [
+      {
+        "id": "1846213442656784384",
+        "name": "taylor",
+        "username": "taylorhbuilds"
+      },
+      {
+        "id": "123548520",
+        "name": "Katsari",
+        "username": "Tinkfully"
+      },
+      {
+        "id": "1633337406710775813",
+        "name": "siuser小伟",
+        "username": "_HIT_SZ_"
+      },
+      {
+        "id": "912435168786489349",
+        "name": "ᚦᛖ ᚷᚱᛁᛗᚾᛁᚱ グリムニル TheGrimnir",
+        "username": "GrimnirThe"
+      },
+      {
+        "id": "13910842",
+        "name": "Chris",
+        "username": "helloitschrisg"
+      },
+      {
+        "id": "2027633797882327041",
+        "name": "Jordan SITE BUILD",
+        "username": "JordanFan0206"
+      },
+      {
+        "id": "271078250",
+        "name": "Ashish Badtiya 👨‍💻",
+        "username": "itsashis4u"
+      },
+      {
+        "id": "430150413",
+        "name": "MAXM",
+        "username": "mxmmall"
+      },
+      {
+        "id": "1130207304698290179",
+        "name": "Jeffrey S. McLeod, LUTC",
+        "username": "McLeodAgency"
+      },
+      {
+        "id": "1888219942165626880",
+        "name": "scott cheng",
+        "username": "ScottChenCheng"
+      },
+      {
+        "id": "2004233016646959104",
+        "name": "AnotherHumanSoul",
+        "username": "AnotherHumanSol"
+      },
+      {
+        "id": "1983693236490399749",
+        "name": "rx",
+        "username": "rxa3c"
+      },
+      {
+        "id": "849661480869912576",
+        "name": "456X",
+        "username": "OptionKing666"
+      },
+      {
+        "id": "2043315691713900544",
+        "name": "Nik",
+        "username": "gitpulled"
+      },
+      {
+        "id": "1769316513490632704",
+        "name": "Reporster",
+        "username": "algonostos"
+      },
+      {
+        "id": "50120583",
+        "name": "360-Year Old Pensioner",
+        "username": "Spondulie"
+      },
+      {
+        "id": "874805074249121792",
+        "name": "MR ERM",
+        "username": "emmy3pro"
+      },
+      {
+        "id": "1720665183188922368",
+        "name": "Grok",
+        "username": "grok"
+      },
+      {
+        "id": "746056945782620161",
+        "name": "Tyrelle Anderson-Brown",
+        "username": "TyrelleAB"
+      },
+      {
+        "id": "2008164347810553856",
+        "name": "Zack Gabbard",
+        "username": "zac70182"
+      },
+      {
+        "id": "42964770",
+        "name": "Ronic.bnb (Roronoa) 🔶",
+        "username": "RCrewss"
+      },
+      {
+        "id": "1494656685020901377",
+        "name": "Lisa Cintron CTN 🇺🇸",
+        "username": "SovereignLisa"
+      },
+      {
+        "id": "1708646591337287680",
+        "name": "Gravitas",
+        "username": "gravitas_ai"
+      },
+      {
+        "id": "25809846",
+        "name": "Wessel van Keulen",
+        "username": "wesselvk"
+      },
+      {
+        "id": "1702650064793915392",
+        "name": "Ace op",
+        "username": "aceop_xyz"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2111072297821893036",
+    "next_token": "b26v89c19zqg8o3juzlvz7fm32a7uu10eqmb59glusyv1",
+    "oldest_id": "2111053228452495572",
+    "result_count": 25
+  }
+}

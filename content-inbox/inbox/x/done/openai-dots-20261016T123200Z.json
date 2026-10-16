@@ -1,0 +1,760 @@
+{
+  "data": [
+    {
+      "author_id": "1301900779347902470",
+      "created_at": "2026-10-16T12:27:42.000Z",
+      "edit_history_tweet_ids": [
+        "2111071584983318920"
+      ],
+      "id": "2111071584983318920",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "grok bot's take on cloud env for agents is still so much better than openai dots+cloud thing atm, unfortunately\n\ni dont understand why not just copy grok bot more since its clearly closer to PMF (on cloud niche, tbc)\n\n(if not just ressource issue)",
+      "url": "https://x.com/waki11111111/status/2111071584983318920"
+    },
+    {
+      "author_id": "2517672250",
+      "created_at": "2026-10-16T12:25:53.000Z",
+      "edit_history_tweet_ids": [
+        "2111071130337554718"
+      ],
+      "id": "2111071130337554718",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2111022030099538270",
+          "type": "quoted"
+        }
+      ],
+      "text": "Thanks my dot managed to get me one. 🙌🏾 https://t.co/qg7To7KehM",
+      "url": "https://x.com/DistinctLee/status/2111071130337554718"
+    },
+    {
+      "author_id": "1219767630",
+      "created_at": "2026-10-16T12:24:43.000Z",
+      "edit_history_tweet_ids": [
+        "2111070835268292844"
+      ],
+      "id": "2111070835268292844",
+      "in_reply_to_user_id": "1604208816001802240",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110702232874406307",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@uday_devops openAI dots might be underrated, their potential for collaboration is interesting",
+      "url": "https://x.com/kimindiehacker/status/2111070835268292844"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111070156222812160"
+        ]
+      },
+      "author_id": "222147077",
+      "created_at": "2026-10-16T12:23:23.000Z",
+      "edit_history_tweet_ids": [
+        "2111070500793520389"
+      ],
+      "id": "2111070500793520389",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Popped back over to codex app to say hi to my dot, saw @thsottiaux and team have added a suggested message functionality like @claudeai. Nice touch! https://t.co/n48blQFzJg",
+      "url": "https://x.com/adamjsorensen/status/2111070500793520389"
+    },
+    {
+      "author_id": "846474007088173056",
+      "created_at": "2026-10-16T12:19:35.000Z",
+      "edit_history_tweet_ids": [
+        "2111069541316862367"
+      ],
+      "id": "2111069541316862367",
+      "in_reply_to_user_id": "4398626122",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@OpenAI please add some way for my agent to talk to my dot, would be great",
+      "url": "https://x.com/latand666/status/2111069541316862367"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111069335061938176"
+        ]
+      },
+      "author_id": "20139298",
+      "created_at": "2026-10-16T12:18:54.000Z",
+      "edit_history_tweet_ids": [
+        "2111069372127326668"
+      ],
+      "id": "2111069372127326668",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 38,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "New use case for @OpenAI Dots unlocked: have it run a a scheduled check every 10 mins to look at my todoist list and figure out how to give me a head start on things. https://t.co/xs4RCcwIK0",
+      "url": "https://x.com/evnsio/status/2111069372127326668"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "7_2111064636514607104"
+        ]
+      },
+      "author_id": "1262493489532751874",
+      "created_at": "2026-10-16T12:00:10.000Z",
+      "edit_history_tweet_ids": [
+        "2111064655095300322"
+      ],
+      "id": "2111064655095300322",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 292,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "I completely missed the OpenClaw hype - I actually thought it looked kind of dumb at the time.\n\nBut the past week or so I've been quite enjoying using Grok Bot - which is very similar (and like OpenAI dots I guess).\n\nI have a support bot that uses my Gmail to answer emails, an https://t.co/Kp6zjW9jqS",
+      "url": "https://x.com/tinyprojectsdev/status/2111064655095300322"
+    },
+    {
+      "author_id": "1693585632965148672",
+      "created_at": "2026-10-16T11:57:04.000Z",
+      "edit_history_tweet_ids": [
+        "2111063877496766604"
+      ],
+      "id": "2111063877496766604",
+      "in_reply_to_user_id": "942749627627065344",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 9,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110880572075655662",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@ericmitchellai Sorry, for my Dot to pick up, re: phone calls. Confusing Muse/Dots.",
+      "url": "https://x.com/_simonsmith/status/2111063877496766604"
+    },
+    {
+      "author_id": "1693585632965148672",
+      "created_at": "2026-10-16T11:56:25.000Z",
+      "edit_history_tweet_ids": [
+        "2111063711292989781"
+      ],
+      "id": "2111063711292989781",
+      "in_reply_to_user_id": "942749627627065344",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 45,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110880572075655662",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@ericmitchellai Glad to contribute. Biggest frictions:\n\n1. Onboarding isn’t as seamless as Muse. Doubly so if you don’t already have lots of connectors set up.\n2. It’s unclear how your Dot relates to the rest of ChatGPT. It breaks your mental model. It’s an assistant inside an assistant. Muse is",
+      "url": "https://x.com/_simonsmith/status/2111063711292989781"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2111062715997306880"
+        ]
+      },
+      "author_id": "1223680179433889793",
+      "created_at": "2026-10-16T11:53:33.000Z",
+      "edit_history_tweet_ids": [
+        "2111062993031033189"
+      ],
+      "id": "2111062993031033189",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "The hook was never about the gym.\n\nMost people stopped at the clothes.\nThat was the point.\nAttention is the product.\nWhoever controls the first three seconds owns the rest of the session.\n\nWhile the comments argue about leggings, this is what actually shipped:\n\nMeta’s Muse agent https://t.co/DAADFGAk1Z",
+      "url": "https://x.com/whois_mikejames/status/2111062993031033189"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111060303672721408"
+        ]
+      },
+      "author_id": "1281312041580605440",
+      "created_at": "2026-10-16T11:43:48.000Z",
+      "edit_history_tweet_ids": [
+        "2111060536364298565"
+      ],
+      "id": "2111060536364298565",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 252,
+        "like_count": 14,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Afternoon from Soggy Stafford 🌧️\n\nA certain @LadyDots317 is visiting for the weekend so we've had a 730 run to Stafford and now it's time for a desiro back to Wolves 💪\n\n#DOTS #trainphotography #railwayphotography #class350 #desiro #londonnorthwesternrailway https://t.co/OXg617WWS6",
+      "url": "https://x.com/DownOnTheStour/status/2111060536364298565"
+    },
+    {
+      "author_id": "1730370201940537344",
+      "created_at": "2026-10-16T11:36:17.000Z",
+      "edit_history_tweet_ids": [
+        "2111058644565676477"
+      ],
+      "id": "2111058644565676477",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "yeah my dot is no longer firing off new tasks from voice calls.... very annoying. @thsottiaux @OpenAI",
+      "url": "https://x.com/EL1714699452451/status/2111058644565676477"
+    },
+    {
+      "author_id": "340944039",
+      "created_at": "2026-10-16T11:25:36.000Z",
+      "edit_history_tweet_ids": [
+        "2111055957535109190"
+      ],
+      "id": "2111055957535109190",
+      "in_reply_to_user_id": "1554680201740554241",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 13,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110980268479881383",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@bullishnames \"LOYAL\"?   do you think my dot com's are upset me because i have been spending more time talking about .si the past month?\n:-)",
+      "url": "https://x.com/FUTRZ/status/2111055957535109190"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111053630199443456"
+        ]
+      },
+      "author_id": "1942763814933712896",
+      "created_at": "2026-10-16T11:16:22.000Z",
+      "edit_history_tweet_ids": [
+        "2111053632627998730"
+      ],
+      "id": "2111053632627998730",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Treat OpenAI Dots as event-driven workers with strict tools, idempotent steps, and human checkpoints. They sit beside BPM/RPA, they don’t replace them. https://t.co/ex8lDhQu38 https://t.co/SiJvMxT1xP",
+      "url": "https://x.com/Kalyxi_ai/status/2111053632627998730"
+    },
+    {
+      "author_id": "52742513",
+      "created_at": "2026-10-16T11:04:00.000Z",
+      "edit_history_tweet_ids": [
+        "2111050521205231830"
+      ],
+      "id": "2111050521205231830",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Lovely Nordic Flowers mix printed card stock - now restocked!\n#craftsupplies #creative #diy #paperlove #postcards #floral #dots #pastel #cardstock #scrapbooking #cardmaking #journalcards https://t.co/kAk1kpkepV #eBay via @eBay_UK",
+      "url": "https://x.com/lemoncatshop/status/2111050521205231830"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111043781092937728"
+        ]
+      },
+      "author_id": "1145312977073135616",
+      "created_at": "2026-10-16T10:39:45.000Z",
+      "edit_history_tweet_ids": [
+        "2111044418379604456"
+      ],
+      "id": "2111044418379604456",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 131,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "sent a video to my dot and told it to model the kitchen in blender as is\n\nnext stage: the whole house as a cs1.6 map (it's large enough for it to be fun) https://t.co/KpMokxPGUR",
+      "url": "https://x.com/klntsky/status/2111044418379604456"
+    },
+    {
+      "author_id": "1162305525301698561",
+      "created_at": "2026-10-16T10:25:20.000Z",
+      "edit_history_tweet_ids": [
+        "2111040789556142482"
+      ],
+      "id": "2111040789556142482",
+      "in_reply_to_user_id": "1956954573614313472",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 23,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110758006153777618",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@TimJayas Nice updates, but my dot still can't start or message Work chats from my phone without my PC on. Computer use keeps failing too. Support hasn't resolved it yet.",
+      "url": "https://x.com/art_alla_prima/status/2111040789556142482"
+    },
+    {
+      "author_id": "1970955325407645696",
+      "created_at": "2026-10-16T10:19:15.000Z",
+      "edit_history_tweet_ids": [
+        "2111039261118288212"
+      ],
+      "id": "2111039261118288212",
+      "in_reply_to_user_id": "1956954573614313472",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110857501097001286",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@TimJayas Love my Dot, really makes things happen in my day to day life",
+      "url": "https://x.com/Tripstr_Hipstr/status/2111039261118288212"
+    },
+    {
+      "author_id": "145755190",
+      "created_at": "2026-10-16T09:57:32.000Z",
+      "edit_history_tweet_ids": [
+        "2111033794987798542"
+      ],
+      "id": "2111033794987798542",
+      "in_reply_to_user_id": "1956954573614313472",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 8,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110857501097001286",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@TimJayas I've been using my Dot daily and then also worked with GrokBot and what I can say is:\n\nDots has amazing memory, but GrokBot wins with getting things done. And wish I had DotS and not just a Dot.",
+      "url": "https://x.com/shaneteks/status/2111033794987798542"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2110323459137867776"
+        ]
+      },
+      "author_id": "1484189702018109440",
+      "created_at": "2026-10-16T09:54:00.000Z",
+      "edit_history_tweet_ids": [
+        "2111032904629563660"
+      ],
+      "id": "2111032904629563660",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 32,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "The best AI agent isn’t the smartest one. It’s the one that lives where your work does.\n\nGmail → Gemini Spark\nMicrosoft 365 → Copilot Cowork\nChatGPT → Dots\nWhatsApp → Meta Muse\nThen test it on one real task for a week.\nhttps://t.co/Wbs0eGmxoy #AIAgents https://t.co/CYTx1JAuDz",
+      "url": "https://x.com/AccessibilityC4/status/2111032904629563660"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111030214767640576"
+        ]
+      },
+      "author_id": "15224946",
+      "created_at": "2026-10-16T09:43:19.000Z",
+      "edit_history_tweet_ids": [
+        "2111030217028301019"
+      ],
+      "id": "2111030217028301019",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 43,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Fri Oct 16 2026: the agent frontier partitions into three deployment modes — Always-on Cloud (OpenAI Dots), Institutionalised Capacity (Anthropic CVP 3-tier), Local Frontier (Meta Muse Spark Open on paired M5 Ultra Mac Studios, $15–20K stack). https://t.co/zfIITFcnhg",
+      "url": "https://x.com/scaiado/status/2111030217028301019"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111028907159834624"
+        ]
+      },
+      "author_id": "2098346717355601931",
+      "created_at": "2026-10-16T09:38:08.000Z",
+      "edit_history_tweet_ids": [
+        "2111028912872464658"
+      ],
+      "id": "2111028912872464658",
+      "in_reply_to_user_id": "874987512850128897",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110367132727042057",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@reach_vb I love it but wish they solved this approval hell loop. Codex keeps asking for my authorization directly in the thread even though I already authorized my dot https://t.co/ZnJ5vnh0Hn",
+      "url": "https://x.com/0x1c3c0d4/status/2111028912872464658"
+    },
+    {
+      "author_id": "2730534040",
+      "created_at": "2026-10-16T09:28:48.000Z",
+      "edit_history_tweet_ids": [
+        "2111026562959339905"
+      ],
+      "id": "2111026562959339905",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 24,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "I see no convos about OpenAI dots. I'm assuming most here are using Grok @Bot instead.",
+      "url": "https://x.com/petecallaghans/status/2111026562959339905"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2111024221342322688"
+        ]
+      },
+      "author_id": "2022718861616021504",
+      "created_at": "2026-10-16T09:19:45.000Z",
+      "edit_history_tweet_ids": [
+        "2111024287922766248"
+      ],
+      "id": "2111024287922766248",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "One of Elite monster in our game!\n#dungeonbackpacker #steam #game #pixelart #dots #像素艺术 #ドット絵 #픽셀아트 https://t.co/V48AOHothP",
+      "url": "https://x.com/playpop_studio/status/2111024287922766248"
+    },
+    {
+      "author_id": "2004710729673498624",
+      "created_at": "2026-10-16T09:14:52.000Z",
+      "edit_history_tweet_ids": [
+        "2111023058043674767"
+      ],
+      "id": "2111023058043674767",
+      "in_reply_to_user_id": "4398626122",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 80,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 1
+      },
+      "text": "@OpenAI my Dot keeps burping",
+      "url": "https://x.com/Devon8zzh/status/2111023058043674767"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "3_2111070156222812160",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUwHH0WW0AApxJ8.jpg"
+      },
+      {
+        "media_key": "3_2111069335061938176",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUwGYBSWQAAhLIx.png"
+      },
+      {
+        "media_key": "7_2111064636514607104",
+        "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2111064636514607104/pu/img/GvpFdMyfKn8SKTjV.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "13_2111062715997306880",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2111062715997306880/img/2OtctfXnKOKhPpux.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2111060303672721408",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUv-KUvXQAAlccK.jpg"
+      },
+      {
+        "media_key": "3_2111053630199443456",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUv4F4HWMAA0uq0.jpg"
+      },
+      {
+        "media_key": "3_2111043781092937728",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUvvIlVXkAA4vLr.jpg"
+      },
+      {
+        "media_key": "3_2110323459137867776",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUlgAU8WEAAng1n.jpg"
+      },
+      {
+        "media_key": "3_2111030214767640576",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUviy61XgAAOFFz.jpg"
+      },
+      {
+        "media_key": "3_2111028907159834624",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUvhmznX0AAAbgW.jpg"
+      },
+      {
+        "media_key": "13_2111024221342322688",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2111024221342322688/img/GlgmIR1JhJ-MtuC_.jpg",
+        "type": "video"
+      }
+    ],
+    "users": [
+      {
+        "id": "1301900779347902470",
+        "name": "waki",
+        "username": "waki11111111"
+      },
+      {
+        "id": "2517672250",
+        "name": "Lethabo Lee Ntshudisane",
+        "username": "DistinctLee"
+      },
+      {
+        "id": "1219767630",
+        "name": "Kimi Nguyen",
+        "username": "kimindiehacker"
+      },
+      {
+        "id": "222147077",
+        "name": "Adam Sorensen",
+        "username": "adamjsorensen"
+      },
+      {
+        "id": "846474007088173056",
+        "name": "Kostiantyn",
+        "username": "latand666"
+      },
+      {
+        "id": "20139298",
+        "name": "Chris Evans",
+        "username": "evnsio"
+      },
+      {
+        "id": "1262493489532751874",
+        "name": "Ben Stokes (Tiny Projects 💡)",
+        "username": "tinyprojectsdev"
+      },
+      {
+        "id": "1693585632965148672",
+        "name": "Simon Smith",
+        "username": "_simonsmith"
+      },
+      {
+        "id": "1223680179433889793",
+        "name": "Mike James",
+        "username": "whois_mikejames"
+      },
+      {
+        "id": "1281312041580605440",
+        "name": "DOTS (Down On The Stour)",
+        "username": "DownOnTheStour"
+      },
+      {
+        "id": "1730370201940537344",
+        "name": "EL",
+        "username": "EL1714699452451"
+      },
+      {
+        "id": "340944039",
+        "name": "FUTRS",
+        "username": "FUTRZ"
+      },
+      {
+        "id": "1942763814933712896",
+        "name": "Kalyxi",
+        "username": "Kalyxi_ai"
+      },
+      {
+        "id": "52742513",
+        "name": "LemonCatShop",
+        "username": "lemoncatshop"
+      },
+      {
+        "id": "1145312977073135616",
+        "name": "Vladimir Kalnitsky",
+        "username": "klntsky"
+      },
+      {
+        "id": "1162305525301698561",
+        "name": "painter",
+        "username": "art_alla_prima"
+      },
+      {
+        "id": "1970955325407645696",
+        "name": "William",
+        "username": "Tripstr_Hipstr"
+      },
+      {
+        "id": "145755190",
+        "name": "Richard",
+        "username": "shaneteks"
+      },
+      {
+        "id": "1484189702018109440",
+        "name": "AccessibilityChecker",
+        "username": "AccessibilityC4"
+      },
+      {
+        "id": "15224946",
+        "name": "Sérgio Caiado",
+        "username": "scaiado"
+      },
+      {
+        "id": "2098346717355601931",
+        "name": "Luiz Hemerly",
+        "username": "0x1c3c0d4"
+      },
+      {
+        "id": "2730534040",
+        "name": "Pete Callaghan",
+        "username": "petecallaghans"
+      },
+      {
+        "id": "2022718861616021504",
+        "name": "Playpop Studio",
+        "username": "playpop_studio"
+      },
+      {
+        "id": "2004710729673498624",
+        "name": "Devon",
+        "username": "Devon8zzh"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2111071584983318920",
+    "next_token": "b26v89c19zqg8o3juzlvz7epprqgmxei4iqxq6os835h9",
+    "oldest_id": "2111023058043674767",
+    "result_count": 25
+  }
+}

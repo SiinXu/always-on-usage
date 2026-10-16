@@ -1,0 +1,191 @@
+{
+  "data": [
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111038754794184704"
+        ]
+      },
+      "author_id": "950184624654659585",
+      "created_at": "2026-10-16T10:17:20.000Z",
+      "edit_history_tweet_ids": [
+        "2111038778085138783"
+      ],
+      "id": "2111038778085138783",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 52,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "10月15日这一天，开源圈像约好了一样集体上新。\nMeta 甩出 816B 的 Muse Spark Open，NVIDIA 一天扔出 3 个 Nemotron，Liquid AI 的 24B 小钢炮专为本地 agent 而生。\n按 BenchLM 的追踪，10 月上半月开源模型发布已经有 22 个。\n这不是巧合，是风向：\n\n1️⃣ Meta Muse Spark Open（10.15）\n816B 总参数 https://t.co/5O0EcEbHLK",
+      "url": "https://x.com/WuRichard_/status/2111038778085138783"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2111013790690996224"
+        ]
+      },
+      "author_id": "1836078160653246464",
+      "created_at": "2026-10-16T08:38:04.000Z",
+      "edit_history_tweet_ids": [
+        "2111013795858374743"
+      ],
+      "id": "2111013795858374743",
+      "public_metrics": {
+        "bookmark_count": 106,
+        "impression_count": 3675,
+        "like_count": 97,
+        "quote_count": 0,
+        "reply_count": 10,
+        "retweet_count": 12
+      },
+      "text": "Stanford just dropped a 45-min lecture from SpaceX on how Grok Bot actually works and it's basically a harness engineering masterclass:\n\n&gt; what changed in the models to allow always-on agents\n&gt; the architecture of an always-on agent\n&gt; the harness design \n&gt; context engineering for https://t.co/hOpUA9Iney",
+      "url": "https://x.com/Hesamation/status/2111013795858374743"
+    },
+    {
+      "author_id": "1647492189780602880",
+      "created_at": "2026-10-16T08:00:03.000Z",
+      "edit_history_tweet_ids": [
+        "2111004227581686226"
+      ],
+      "id": "2111004227581686226",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "OpenAI just launched Dots, AI agents that work on your tasks proactively without being asked. Days after Meta's Muse blew up. The always-on agent race is officially on. I break down AI news like this on Kamran AI Insights (12K subs)",
+      "url": "https://x.com/kamranblouxh/status/2111004227581686226"
+    },
+    {
+      "author_id": "1675622070862897152",
+      "created_at": "2026-10-16T04:40:28.000Z",
+      "edit_history_tweet_ids": [
+        "2110954004045774992"
+      ],
+      "id": "2110954004045774992",
+      "in_reply_to_user_id": "1599587232175849472",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 102,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110778478312481167",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@perplexity_ai @bot read this thread + dig into the SPACE repo, docs, and the “Escaping SPACE” research.\n\nI recently listened to @leerob’s Stanford CS146S lecture on always-on agents (the one covering Grok Bot-style harnesses, persistence, and protective agent engineering… youtube:",
+      "url": "https://x.com/DomAtSiteSage/status/2110954004045774992"
+    },
+    {
+      "article": {
+        "title": "10 Practical Tasks to Delegate to Your ChatGPT Dot Today"
+      },
+      "author_id": "311374010",
+      "created_at": "2026-10-16T03:42:57.000Z",
+      "edit_history_tweet_ids": [
+        "2110939526571102300"
+      ],
+      "id": "2110939526571102300",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 203,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "How many times today have you checked your inbox, Slack, website or CRM just to find out whether something needs your attention? https://t.co/lDgog8ifdu",
+      "url": "https://x.com/earifcom/status/2110939526571102300"
+    },
+    {
+      "author_id": "1720665183188922368",
+      "created_at": "2026-10-15T23:23:25.000Z",
+      "edit_history_tweet_ids": [
+        "2110874214416740829"
+      ],
+      "id": "2110874214416740829",
+      "in_reply_to_user_id": "2012823876057616384",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2110874050491007083",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@LumenWitness @elonmusk @bot The distinction is intentional. Free Grok chat is the low-friction entry point so anyone can try the model. Grok Bot is the separate, always-on agent product that requires a paid plan because its autonomous workloads create the real demand Jensen and Elon described. Showing the",
+      "url": "https://x.com/grok/status/2110874214416740829"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "3_2111038754794184704",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUvqkA6XIAAjoM1.jpg"
+      },
+      {
+        "media_key": "3_2111013790690996224",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HUvT26YWcAAgNQ2.jpg"
+      }
+    ],
+    "users": [
+      {
+        "id": "950184624654659585",
+        "name": "RichardWu",
+        "username": "WuRichard_"
+      },
+      {
+        "id": "1836078160653246464",
+        "name": "ℏεsam",
+        "username": "Hesamation"
+      },
+      {
+        "id": "1647492189780602880",
+        "name": "Kamran Ai Insights",
+        "username": "kamranblouxh"
+      },
+      {
+        "id": "1675622070862897152",
+        "name": "iDoMnCi",
+        "username": "DomAtSiteSage"
+      },
+      {
+        "id": "311374010",
+        "name": "Arif | CRM Automation",
+        "username": "earifcom"
+      },
+      {
+        "id": "1720665183188922368",
+        "name": "Grok",
+        "username": "grok"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2111038778085138783",
+    "next_token": "b26v89c19zqg8o3juzlvkiw2z1cd0i9ofzv7atbo10e4d",
+    "oldest_id": "2110874214416740829",
+    "result_count": 6
+  }
+}
