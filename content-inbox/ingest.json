@@ -1,5 +1,5 @@
 {
- "last_ingest": "2026-10-16T12:43:07.083Z",
+ "last_ingest": "2026-10-16T22:44:19.674Z",
  "items": [
   {
    "id": "x:2105612186450297061",
@@ -14603,6 +14603,1287 @@
     }
    },
    "added_at": "2026-10-16T12:43:07.083Z"
+  },
+  {
+   "id": "yt:GBOZIRK1ujw",
+   "url": "https://www.youtube.com/watch?v=GBOZIRK1ujw",
+   "source": "youtube",
+   "source_name": "YouTube",
+   "author": "OpenAI",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "openai-dots",
+   "type": "field-case",
+   "media": [
+    "https://i.ytimg.com/vi/GBOZIRK1ujw/hqdefault.jpg"
+   ],
+   "text": "Put your dot on call\nAli, an engineer at OpenAI, used his dot to triage an on-call incident at 3am.\n \nHis dot investigated the issue and started a Codex thread, so he could steer the work from his phone in the ChatGPT app.",
+   "views": 4557,
+   "tr": {
+    "zh-CN": {
+     "title": "工程师用 Dot 凌晨三点排查线上故障",
+     "summary": "OpenAI 工程师 Ali 在凌晨三点用自己的 Dot 排查 on-call 故障：Dot 先调查问题并开了一个 Codex 线程，他再从手机上的 ChatGPT App 远程指挥后续工作。"
+    },
+    "zh-TW": {
+     "title": "工程師用 Dot 凌晨三點排查線上故障",
+     "summary": "OpenAI 工程師 Ali 在凌晨三點用自己的 Dot 排查 on-call 故障：Dot 先調查問題並開了一個 Codex 執行緒，他再從手機上的 ChatGPT App 遠端指揮後續工作。"
+    },
+    "en": {
+     "title": "Engineer uses Dot to triage an on-call incident at 3am",
+     "summary": "OpenAI engineer Ali used his Dot to triage an on-call incident at 3am. The Dot investigated the issue and started a Codex thread so he could steer the work from his phone in the ChatGPT app."
+    },
+    "ja": {
+     "title": "エンジニアが深夜3時に Dot でオンコール対応",
+     "summary": "OpenAI のエンジニア Ali が深夜3時に自分の Dot でオンコール障害を切り分け。Dot が調査し Codex スレッドを開始し、彼はスマホの ChatGPT アプリから作業を指示した。"
+    },
+    "ko": {
+     "title": "엔지니어가 새벽 3시에 Dot으로 온콜 장애 대응",
+     "summary": "OpenAI 엔지니어 Ali가 새벽 3시에 자신의 Dot으로 온콜 장애를 분류했다. Dot이 문제를 조사하고 Codex 스레드를 시작해, 그는 휴대폰 ChatGPT 앱에서 작업을 지휘했다."
+    },
+    "ms": {
+     "title": "Jurutera guna Dot triaj insiden on-call jam 3 pagi",
+     "summary": "Jurutera OpenAI Ali menggunakan Dotnya untuk triaj insiden on-call jam 3 pagi. Dot menyiasat isu dan memulakan thread Codex supaya dia boleh mengarahkan kerja dari telefon dalam app ChatGPT."
+    },
+    "vi": {
+     "title": "Kỹ sư dùng Dot xử lý sự cố on-call lúc 3 giờ sáng",
+     "summary": "Kỹ sư OpenAI Ali dùng Dot của mình để xử lý sự cố on-call lúc 3 giờ sáng. Dot điều tra vấn đề và mở thread Codex để anh điều khiển công việc từ điện thoại trong app ChatGPT."
+    },
+    "fr": {
+     "title": "Un ingénieur utilise Dot pour trier un incident on-call à 3 h",
+     "summary": "L'ingénieur OpenAI Ali a utilisé son Dot pour trier un incident on-call à 3 h du matin. Le Dot a enquêté et lancé un fil Codex, pour qu'il puisse piloter le travail depuis son téléphone dans l'app ChatGPT."
+    },
+    "es": {
+     "title": "Un ingeniero usa Dot para triar un incidente on-call a las 3 a.m.",
+     "summary": "El ingeniero de OpenAI Ali usó su Dot para triar un incidente on-call a las 3 a.m. El Dot investigó el problema y abrió un hilo de Codex para que él dirigiera el trabajo desde el teléfono en la app ChatGPT."
+    },
+    "de": {
+     "title": "Ingenieur triagiert mit Dot um 3 Uhr morgens einen On-Call-Vorfall",
+     "summary": "OpenAI-Ingenieur Ali nutzte seinen Dot um 3 Uhr morgens zur Triage eines On-Call-Vorfalls. Der Dot untersuchte das Problem und startete einen Codex-Thread, damit er die Arbeit vom Handy in der ChatGPT-App steuern konnte."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111219412921724957",
+   "url": "https://x.com/jasonshafton/status/2111219412921724957",
+   "source": "x",
+   "source_name": "X",
+   "author": "jasonshafton",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "multi",
+   "type": "comparison",
+   "media": [
+    "https://pbs.twimg.com/media/HUyO3h6b0AAZTeF.jpg"
+   ],
+   "text": "Grok @bot did what ChatGPT dots couldn’t: order a gift for a client. https://t.co/kgaLkiAAdw",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 下单送礼，作者称 Dots 做不到",
+     "summary": "作者称 Grok Bot 为客户订购了礼物，并表示这是 ChatGPT Dots 未能完成的事；帖中附截图，未说明商品或金额。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 下單送禮，作者稱 Dots 做不到",
+     "summary": "作者稱 Grok Bot 為客戶訂購了禮物，並表示這是 ChatGPT Dots 未能完成的事；文中附截圖，未說明商品或金額。"
+    },
+    "en": {
+     "title": "Grok Bot ordered a client gift where Dots could not",
+     "summary": "The author says Grok Bot ordered a gift for a client and that ChatGPT Dots could not do it. A screenshot is attached; product and price are not stated."
+    },
+    "ja": {
+     "title": "Grok Bot が顧客向けギフトを注文、Dots ではできなかったと投稿",
+     "summary": "投稿者は Grok Bot が顧客向けにギフトを注文し、ChatGPT Dots ではできなかったと述べている。スクリーンショットあり。商品や金額の記載はない。"
+    },
+    "ko": {
+     "title": "Grok Bot이 고객 선물을 주문했고 Dots는 못 했다고 함",
+     "summary": "작성자는 Grok Bot이 고객용 선물을 주문했고 ChatGPT Dots는 하지 못했다고 한다. 스크린샷이 있으며 상품·금액은 명시되지 않았다."
+    },
+    "ms": {
+     "title": "Grok Bot tempah hadiah klien; penulis kata Dots tidak mampu",
+     "summary": "Penulis berkata Grok Bot memesan hadiah untuk klien dan ChatGPT Dots tidak mampu berbuat demikian. Ada tangkapan skrin; produk dan harga tidak dinyatakan."
+    },
+    "vi": {
+     "title": "Grok Bot đặt quà cho khách; tác giả nói Dots không làm được",
+     "summary": "Tác giả nói Grok Bot đã đặt quà cho khách hàng còn ChatGPT Dots thì không. Có ảnh chụp màn hình; không nêu sản phẩm hay giá."
+    },
+    "fr": {
+     "title": "Grok Bot a commandé un cadeau client là où Dots n’a pas pu",
+     "summary": "L'auteur dit que Grok Bot a commandé un cadeau pour un client et que ChatGPT Dots n'y est pas parvenu. Une capture est jointe ; produit et prix ne sont pas précisés."
+    },
+    "es": {
+     "title": "Grok Bot pidió un regalo para un cliente donde Dots no pudo",
+     "summary": "El autor dice que Grok Bot pidió un regalo para un cliente y que ChatGPT Dots no pudo. Adjunta captura; no indica producto ni precio."
+    },
+    "de": {
+     "title": "Grok Bot bestellte Kundengeschenk, Dots laut Autor nicht",
+     "summary": "Der Autor schreibt, Grok Bot habe ein Geschenk für einen Kunden bestellt und ChatGPT Dots habe das nicht geschafft. Screenshot beigefügt; Produkt und Preis fehlen."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111218422508060745",
+   "url": "https://x.com/CaffinatedAK/status/2111218422508060745",
+   "source": "x",
+   "source_name": "X",
+   "author": "CaffinatedAK",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "field-case",
+   "media": [],
+   "text": "My bots just got their own email addresses.\n\nUntil now every one of them was borrowing mine. Mr. Paperwork sends from my Gmail, and the Loggr bot posts through my X session. As of this week's Grok Bot update, a bot can claim its own inbox, and it can search X without needing my login.\n\nThe part that makes me okay with it: anything a bot sends from its own address still lands as a draft card I have to approve. It gets its own identity, but it doesn't get to send whatever it wants.\n\nWhat I'll try first: give the Shopping Expert its own address and let it go back and forth with a seller while all I do is tap approve.",
+   "tr": {
+    "zh-CN": {
+     "title": "bot 可领独立邮箱，发送仍需草稿审批",
+     "summary": "作者称本周更新后，Grok Bot 可为每个 bot 领取独立收件箱，且可在不登录其 X 账号的情况下搜索 X。此前 Mr. Paperwork 借用其 Gmail、Loggr 走其 X 会话。从独立地址发出的内容仍会落成需其点批准的草稿卡；他打算先给 Shopping Expert 独立地址，让它与卖家往来、自己只点批准。"
+    },
+    "zh-TW": {
+     "title": "bot 可領獨立信箱，發送仍需草稿審批",
+     "summary": "作者稱本週更新後，Grok Bot 可為每個 bot 領取獨立收件匣，且可在不登入其 X 帳號的情況下搜尋 X。此前 Mr. Paperwork 借用其 Gmail、Loggr 走其 X 工作階段。從獨立地址發出的內容仍會落成需其點批准的草稿卡；他打算先給 Shopping Expert 獨立地址，讓它與賣家往來、自己只點批准。"
+    },
+    "en": {
+     "title": "Bots can claim their own inboxes; sends still need draft approval",
+     "summary": "After this week's Grok Bot update, a bot can claim its own inbox and search X without the author's login. Previously Mr. Paperwork sent from his Gmail and Loggr posted through his X session. Mail from a bot's own address still lands as a draft card he must approve. He plans to give Shopping Expert its own address and only tap approve while it talks to sellers."
+    },
+    "ja": {
+     "title": "bot が独自受信箱を取得、送信は下書き承認のまま",
+     "summary": "今週の Grok Bot 更新後、bot は独自の受信箱を取得でき、作者のログインなしで X を検索できる。以前は Mr. Paperwork が Gmail、Loggr が作者の X セッションを借用。独自アドレスからの送信は承認が必要な下書きカードになる。まず Shopping Expert に独自アドレスを付け、売り手とのやりとりは承認タップだけにする予定。"
+    },
+    "ko": {
+     "title": "봇이 자체 수신함을 가질 수 있고 발신은 초안 승인 유지",
+     "summary": "이번 주 Grok Bot 업데이트 후 봇이 자체 수신함을 받고 작성자 로그인 없이 X를 검색할 수 있다. 이전에는 Mr. Paperwork가 Gmail을, Loggr가 X 세션을 빌렸다. 자체 주소 발신은 승인해야 하는 초안 카드로 남는다. Shopping Expert에 먼저 주소를 주고 판매자 대화는 승인만 할 계획이다."
+    },
+    "ms": {
+     "title": "Bot boleh tuntut peti masuk sendiri; hantaran masih perlu lulus draf",
+     "summary": "Selepas kemas kini Grok Bot minggu ini, bot boleh tuntut peti masuk sendiri dan cari X tanpa log masuk penulis. Sebelum ini Mr. Paperwork guna Gmailnya dan Loggr guna sesi Xnya. Mel dari alamat bot masih jadi kad draf yang perlu diluluskan. Dia mahu beri Shopping Expert alamat sendiri dan hanya ketik lulus semasa ia berhubung dengan penjual."
+    },
+    "vi": {
+     "title": "Bot có thể nhận hộp thư riêng; gửi vẫn cần duyệt bản nháp",
+     "summary": "Sau bản cập nhật Grok Bot tuần này, bot có thể nhận hộp thư riêng và tìm X mà không cần đăng nhập của tác giả. Trước đó Mr. Paperwork dùng Gmail của anh và Loggr dùng phiên X của anh. Thư từ địa chỉ bot vẫn thành thẻ nháp cần duyệt. Anh định cho Shopping Expert địa chỉ riêng và chỉ bấm duyệt khi nó trao đổi với người bán."
+    },
+    "fr": {
+     "title": "Les bots peuvent avoir leur boîte mail ; l’envoi reste en brouillon à valider",
+     "summary": "Après la mise à jour Grok Bot de cette semaine, un bot peut revendiquer sa propre boîte et chercher sur X sans le login de l'auteur. Avant, Mr. Paperwork envoyait via son Gmail et Loggr via sa session X. Les envois depuis l'adresse du bot restent une carte brouillon à approuver. Il compte donner une adresse au Shopping Expert et n'approuver que les échanges vendeurs."
+    },
+    "es": {
+     "title": "Los bots pueden reclamar su propio buzón; el envío sigue pidiendo aprobación",
+     "summary": "Tras la actualización de Grok Bot de esta semana, un bot puede reclamar su propio buzón y buscar en X sin el login del autor. Antes Mr. Paperwork usaba su Gmail y Loggr su sesión de X. Lo enviado desde la dirección del bot sigue siendo una tarjeta de borrador que debe aprobar. Planea dar dirección propia a Shopping Expert y solo pulsar aprobar mientras habla con vendedores."
+    },
+    "de": {
+     "title": "Bots können eigene Postfächer beanspruchen; Senden braucht Draft-Freigabe",
+     "summary": "Nach dem Grok-Bot-Update dieser Woche kann ein Bot ein eigenes Postfach beanspruchen und X ohne Login des Autors durchsuchen. Zuvor nutzte Mr. Paperwork dessen Gmail und Loggr dessen X-Session. Sendungen von der Bot-Adresse landen weiter als Draft-Karte zur Freigabe. Er will dem Shopping Expert zuerst eine eigene Adresse geben und nur Freigaben tippen, während es mit Verkäufern schreibt."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111218033968501076",
+   "url": "https://x.com/StineNet/status/2111218033968501076",
+   "source": "x",
+   "source_name": "X",
+   "author": "StineNet",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "field-case",
+   "media": [
+    "https://pbs.twimg.com/media/HUyNlndWIAEw8Ij.jpg"
+   ],
+   "text": "Everyone is arguing vibe coding vs real coding today. On my hobby RTS it is both, depending on the hour. Grok Bot wires up live weather by lunch, and by midnight I am the frazzled guy asking why the tanks keep vanishing. The automated tests are the only adult in the room. Which side are you on today?",
+   "tr": {
+    "zh-CN": {
+     "title": "业余 RTS：午餐前接好实时天气，午夜查坦克消失",
+     "summary": "作者在业余 RTS 项目上混用 vibe coding 与手写：午餐前用 Grok Bot 接上实时天气，午夜却在查坦克为何消失；称自动化测试是唯一靠谱的一方。未给出具体技术栈或数值结果。"
+    },
+    "zh-TW": {
+     "title": "業餘 RTS：午餐前接好即時天氣，午夜查坦克消失",
+     "summary": "作者在業餘 RTS 專案上混用 vibe coding 與手寫：午餐前用 Grok Bot 接上即時天氣，午夜卻在查坦克為何消失；稱自動化測試是唯一可靠的一方。未給出具體技術棧或數值結果。"
+    },
+    "en": {
+     "title": "Hobby RTS: live weather by lunch, vanishing tanks by midnight",
+     "summary": "On a hobby RTS, the author mixes vibe coding and hand coding. Grok Bot wired up live weather by lunch; by midnight they were debugging vanishing tanks. Automated tests are called the only adult in the room. No stack or numeric result is given."
+    },
+    "ja": {
+     "title": "趣味 RTS：昼までにライブ天気、夜は消える戦車の調査",
+     "summary": "趣味の RTS で vibe coding と手書きを併用。Grok Bot が昼までにライブ天気を配線し、夜中は戦車が消える原因を調べていた。自動テストだけが頼れると述べる。技術スタックや数値結果の記載はない。"
+    },
+    "ko": {
+     "title": "취미 RTS: 점심 전 실시간 날씨 연동, 자정엔 탱크 실종 디버깅",
+     "summary": "취미 RTS에서 vibe coding과 손코딩을 섞는다. Grok Bot이 점심 전에 실시간 날씨를 연결했고, 자정에는 탱크가 사라지는 이유를 찾았다. 자동 테스트만이 믿을 만하다고 한다. 스택·수치 결과는 없다."
+    },
+    "ms": {
+     "title": "RTS hobi: cuaca langsung sebelum makan tengah hari, tank hilang tengah malam",
+     "summary": "Pada RTS hobi, penulis campur vibe coding dan kod tangan. Grok Bot sambungkan cuaca langsung sebelum makan tengah hari; tengah malam dia debug tank yang hilang. Ujian automatik dipanggil satu-satunya pihak dewasa. Tiada stack atau hasil angka."
+    },
+    "vi": {
+     "title": "RTS sở thích: thời tiết realtime trước trưa, nửa đêm debug xe tăng mất",
+     "summary": "Trong dự án RTS sở thích, tác giả trộn vibe coding và code tay. Grok Bot gắn thời tiết realtime trước giờ ăn trưa; nửa đêm lại tìm vì sao xe tăng biến mất. Chỉ bài kiểm thử tự động là đáng tin. Không nêu stack hay số liệu."
+    },
+    "fr": {
+     "title": "RTS hobby : météo live avant midi, tanks disparus à minuit",
+     "summary": "Sur un RTS hobby, l'auteur mélange vibe coding et code à la main. Grok Bot a branché la météo live avant le déjeuner ; à minuit il déboguait des tanks qui disparaissent. Les tests auto sont dits seuls adultes. Pas de stack ni de chiffre."
+    },
+    "es": {
+     "title": "RTS hobby: clima en vivo antes de comer, tanques que desaparecen a medianoche",
+     "summary": "En un RTS hobby mezcla vibe coding y código a mano. Grok Bot conectó clima en vivo antes de comer; a medianoche depuraba tanques que desaparecían. Llama a las pruebas automáticas el único adulto. Sin stack ni cifra."
+    },
+    "de": {
+     "title": "Hobby-RTS: Live-Wetter bis Mittag, verschwindende Tanks um Mitternacht",
+     "summary": "Beim Hobby-RTS mischt der Autor Vibe Coding und Handarbeit. Grok Bot verdrahtete bis Mittag Live-Wetter; um Mitternacht debuggte er verschwindende Tanks. Automatisierte Tests seien der einzige Erwachsene. Kein Stack, keine Zahl."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111217923670827453",
+   "url": "https://x.com/PixelRainbowNFT/status/2111217923670827453",
+   "source": "x",
+   "source_name": "X",
+   "author": "PixelRainbowNFT",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "guide",
+   "media": [],
+   "text": "ynot both... I've built, tested, and have been using grokbot templates that let you bring your Hermes Agent in to the grokbot app as one of the grokbots... works fantastic...  everything here: https://t.co/r2HbtiStCY click 'Grokbot Templates' in the menu up top.  \n\nIf I had to pick ONLY one, Hermes Agent... but there's literally no reason to pick.. Run them both, and set up a single chief of staff Hermes Agent that is the only agent you ever need to chat with, to command a fleet of dozens of hermes devices and grokbot accounts...  even 1000's of workers in parallel.  Ask me how I know!",
+   "tr": {
+    "zh-CN": {
+     "title": "把 Hermes Agent 做成 Grok Bot 模板一起跑",
+     "summary": "作者称已构建、测试并在使用可将 Hermes Agent 作为其中一个 Grok Bot 接入应用的模板，并给出站点菜单「Grokbot Templates」。建议同时跑两者，用一个首席 Hermes Agent 指挥大量 Hermes 设备与 Grok Bot 账号并行工作。"
+    },
+    "zh-TW": {
+     "title": "把 Hermes Agent 做成 Grok Bot 模板一起跑",
+     "summary": "作者稱已建置、測試並在使用可將 Hermes Agent 作為其中一個 Grok Bot 接入應用的模板，並給出站點選單「Grokbot Templates」。建議同時跑兩者，用一個首席 Hermes Agent 指揮大量 Hermes 裝置與 Grok Bot 帳號並行工作。"
+    },
+    "en": {
+     "title": "Hermes Agent templates that run inside Grok Bot",
+     "summary": "The author has built, tested, and used Grok Bot templates that bring a Hermes Agent into the Grok Bot app as one of the bots, and points to a site menu labeled Grokbot Templates. They recommend running both and using one chief-of-staff Hermes Agent to command many Hermes devices and Grok Bot accounts in parallel."
+    },
+    "ja": {
+     "title": "Hermes Agent を Grok Bot テンプレートとして動かす",
+     "summary": "投稿者は Hermes Agent を Grok Bot アプリ内の一台として取り込むテンプレートを作り試し使っていると述べ、サイトメニュー「Grokbot Templates」を案内。両方を並行し、参謀役の Hermes Agent 一台で多数の Hermes 端末と Grok Bot アカウントを指揮することを勧める。"
+    },
+    "ko": {
+     "title": "Hermes Agent를 Grok Bot 템플릿으로 함께 실행",
+     "summary": "작성자는 Hermes Agent를 Grok Bot 앱의 봇 하나로 넣는 템플릿을 만들고 테스트·사용 중이며, 사이트 메뉴 Grokbot Templates를 안내한다. 둘 다 돌리고 참모 Hermes Agent 하나로 많은 Hermes 기기와 Grok Bot 계정을 지휘하라고 한다."
+    },
+    "ms": {
+     "title": "Templat Hermes Agent yang berjalan dalam Grok Bot",
+     "summary": "Penulis telah bina, uji dan guna templat Grok Bot yang membawa Hermes Agent ke dalam app sebagai salah satu bot, dan tunjuk menu tapak Grokbot Templates. Cadangan: jalankan kedua-duanya dan guna satu Hermes Agent ketua staf untuk arahkan banyak peranti Hermes serta akaun Grok Bot secara selari."
+    },
+    "vi": {
+     "title": "Mẫu Hermes Agent chạy trong Grok Bot",
+     "summary": "Tác giả đã dựng, thử và dùng mẫu Grok Bot đưa Hermes Agent vào app như một bot, và chỉ menu Grokbot Templates. Khuyên chạy cả hai và dùng một Hermes Agent tham mưu để chỉ huy nhiều thiết bị Hermes cùng tài khoản Grok Bot song song."
+    },
+    "fr": {
+     "title": "Des modèles Hermes Agent qui tournent dans Grok Bot",
+     "summary": "L'auteur a construit, testé et utilise des modèles Grok Bot qui intègrent un Hermes Agent comme un bot de l'app, et pointe le menu Grokbot Templates. Il recommande de lancer les deux et d'avoir un Hermes Agent chef d'état-major pour piloter de nombreux appareils Hermes et comptes Grok Bot en parallèle."
+    },
+    "es": {
+     "title": "Plantillas de Hermes Agent que corren dentro de Grok Bot",
+     "summary": "El autor ha construido, probado y usa plantillas de Grok Bot que meten un Hermes Agent como uno de los bots de la app, y señala el menú Grokbot Templates. Recomienda ejecutar ambos y usar un Hermes Agent de jefatura para mandar muchos dispositivos Hermes y cuentas Grok Bot en paralelo."
+    },
+    "de": {
+     "title": "Hermes-Agent-Vorlagen, die in Grok Bot laufen",
+     "summary": "Der Autor hat Grok-Bot-Vorlagen gebaut, getestet und nutzt sie, die einen Hermes Agent als einen der Bots in die App holen, und verweist auf das Menü Grokbot Templates. Er empfiehlt beides parallel und einen Hermes-Agent-Stabschef, der viele Hermes-Geräte und Grok-Bot-Konten steuert."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111217554786299966",
+   "url": "https://x.com/manipulate/status/2111217554786299966",
+   "source": "x",
+   "source_name": "X",
+   "author": "manipulate",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "field-case",
+   "media": [],
+   "text": "I made Spam Assassin, a Grok bot that scans your inbox, ranks the worst senders, and unsubscribes from the ones you pick. https://t.co/JybMgd83ZA",
+   "tr": {
+    "zh-CN": {
+     "title": "Spam Assassin：扫描收件箱并退订劣质发件人",
+     "summary": "作者做了名为 Spam Assassin 的 Grok Bot：扫描收件箱、给最差发件人排序，并对用户勾选的发件人执行退订。附链接，未给出退订数量等结果。"
+    },
+    "zh-TW": {
+     "title": "Spam Assassin：掃描收件匣並退訂劣質寄件人",
+     "summary": "作者做了名為 Spam Assassin 的 Grok Bot：掃描收件匣、給最差寄件人排序，並對使用者勾選的寄件人執行退訂。附連結，未給出退訂數量等結果。"
+    },
+    "en": {
+     "title": "Spam Assassin: scan inbox, rank senders, unsubscribe",
+     "summary": "The author built Spam Assassin, a Grok Bot that scans the inbox, ranks the worst senders, and unsubscribes from those the user picks. A link is included; no count of unsubscribes is stated."
+    },
+    "ja": {
+     "title": "Spam Assassin：受信箱を走査し送信者を順位付けして配信停止",
+     "summary": "投稿者は受信箱を走査し最悪の送信者を順位付け、選んだ相手を配信停止する Grok Bot「Spam Assassin」を作った。リンクあり。停止件数などの結果は未記載。"
+    },
+    "ko": {
+     "title": "Spam Assassin: 받은편지함 스캔·발신자 순위·수신거부",
+     "summary": "작성자는 받은편지함을 스캔하고 최악 발신자를 순위 매긴 뒤 선택한 발신자를 수신거부하는 Grok Bot Spam Assassin을 만들었다. 링크가 있고 수신거부 건수는 없다."
+    },
+    "ms": {
+     "title": "Spam Assassin: imbas peti masuk, taraf pengirim, nyahlanggan",
+     "summary": "Penulis buat Spam Assassin, Grok Bot yang imbas peti masuk, tarafkan pengirim terburuk, dan nyahlanggan yang pengguna pilih. Ada pautan; bilangan nyahlanggan tidak dinyatakan."
+    },
+    "vi": {
+     "title": "Spam Assassin: quét hộp thư, xếp hạng người gửi, hủy đăng ký",
+     "summary": "Tác giả làm Spam Assassin, một Grok Bot quét hộp thư, xếp hạng người gửi tệ nhất và hủy đăng ký những người dùng chọn. Có liên kết; không nêu số lần hủy."
+    },
+    "fr": {
+     "title": "Spam Assassin : scan de boîte, classement, désabonnement",
+     "summary": "L'auteur a créé Spam Assassin, un Grok Bot qui scanne la boîte, classe les pires expéditeurs et se désabonne de ceux choisis. Lien inclus ; aucun chiffre de désabonnements."
+    },
+    "es": {
+     "title": "Spam Assassin: escanea bandeja, rankea remitentes y da de baja",
+     "summary": "El autor hizo Spam Assassin, un Grok Bot que escanea la bandeja, rankea los peores remitentes y se da de baja de los que eliges. Incluye enlace; no da cifras."
+    },
+    "de": {
+     "title": "Spam Assassin: Posteingang scannen, Absender ranken, abmelden",
+     "summary": "Der Autor baute Spam Assassin, einen Grok Bot, der den Posteingang scannt, die schlechtesten Absender rankt und sich von den gewählten abmeldet. Link dabei; keine Abmeldezahl."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111216764193574987",
+   "url": "https://x.com/Raydong001/status/2111216764193574987",
+   "source": "x",
+   "source_name": "X",
+   "author": "Raydong001",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "guide",
+   "media": [],
+   "text": "Grok Bot 的电脑可以重置，它攒下的技能和规则不能丢。今天我照着雨哥这条的思路，把它整台电脑的「家当」每天自动备份进了一个私有 GitHub 仓库，第一次推送约 1200 个文件、78MB。\n\n我的做法和原帖有一处不同，其他基本照抄：\n\n1. 登录用 gh 的设备码方式，不往聊天框里贴 token。网页上输一次性码，再过一遍 GitHub 账号的两步验证。我第一次卡在找不到那个 6 位码：它是你账号自己的 2FA，在验证器 App 或短信里，网页不会弹出来。设备码 15 分钟过期，过期重新生成就行。\n要说清楚：gh 登录后，电脑上会存一个能访问你所有仓库的令牌，权限比原帖那种只限一个仓库的 fine-grained token 大。介意的话，还是用原帖的方法更稳。\n\n2. 新建私有仓库，用 gh repo view 确认是 PRIVATE 再推。\n\n3. 备份什么：技能、routine 日志、各类内容草稿、bot 之间的交接文件、调研资料。\n\n4. 不备份什么：.env、token/secret/cookie、密钥文件、数据库、个人资料原件、超过 20MB 的音视频。\n\n5. 推之前再扫一遍敏感串：ghp_、sk-、AKIA、BEGIN PRIVATE KEY、Bearer、api_key=。今天命中 1 个文档网页，多半只是示例，也照样排除了。宁可少备一个文件。\n\n6. 节奏：每天凌晨自动跑一次；技能或规则一改，马上补一次；没变化就不提交。\n\n我的感受：给 bot 干活久了，真正值钱的不是电脑，是它记住的规则、踩过的坑和那套技能。这些没备份，重置一次就得从头教。私有仓库也不等于可以乱放东西，密钥这类一律别进 git。",
+   "outline": [
+    "Login with gh device code (no token in chat); complete GitHub 2FA; device code expires in 15 minutes",
+    "Create a private repo; confirm PRIVATE with gh repo view before push",
+    "Back up: skills, routine logs, drafts, handoff files, research notes",
+    "Do not back up: .env, tokens/secrets/cookies, key files, databases, personal originals, audio/video over 20MB",
+    "Scan for sensitive strings before push (ghp_, sk-, AKIA, BEGIN PRIVATE KEY, Bearer, api_key=)",
+    "Schedule: auto run daily at dawn; push immediately when skills/rules change; skip if unchanged"
+   ],
+   "tr": {
+    "zh-CN": {
+     "title": "每天把 Grok Bot 电脑家当备份到私有 GitHub",
+     "summary": "作者照他人思路，把 Grok Bot 电脑内容每日自动备份到私有 GitHub，首次约 1200 个文件、78MB。改用 gh 设备码登录（不贴 token），新建私有仓后只备份技能、routine 日志、草稿与交接等，排除密钥与大音视频；推前扫敏感串。强调电脑可重置，技能与规则更值钱。"
+    },
+    "zh-TW": {
+     "title": "每天把 Grok Bot 電腦家當備份到私有 GitHub",
+     "summary": "作者照他人思路，把 Grok Bot 電腦內容每日自動備份到私有 GitHub，首次約 1200 個檔案、78MB。改用 gh 裝置碼登入（不貼 token），新建私有倉後只備份技能、routine 日誌、草稿與交接等，排除金鑰與大影音；推前掃敏感字串。強調電腦可重置，技能與規則更值錢。"
+    },
+    "en": {
+     "title": "Daily private GitHub backup of a Grok Bot computer",
+     "summary": "Following another post, the author auto-backs up a Grok Bot computer to a private GitHub repo daily; first push about 1200 files, 78MB. They use gh device-code login (no token in chat), confirm the repo is private, back up skills, routine logs, drafts and handoffs, exclude secrets and large media, and scan for sensitive strings before push. Skills and rules matter more than the machine itself."
+    },
+    "ja": {
+     "title": "Grok Bot のパソコンを毎日プライベート GitHub にバックアップ",
+     "summary": "他投稿を参考に、Grok Bot のパソコン内容を毎日プライベート GitHub へ自動バックアップ。初回は約 1200 ファイル・78MB。gh のデバイスコードでログイン（チャットに token を貼らない）、PRIVATE を確認し、スキル・routine ログ・下書き等のみ保存。秘密情報と大容量メディアは除外し、push 前に機密文字列を走査。"
+    },
+    "ko": {
+     "title": "Grok Bot 컴퓨터를 매일 비공개 GitHub에 백업",
+     "summary": "다른 글을 따라 Grok Bot 컴퓨터 내용을 매일 비공개 GitHub에 자동 백업했다. 첫 푸시는 약 1200개 파일·78MB. gh 디바이스 코드로 로그인(채팅에 토큰 없음), PRIVATE 확인 후 스킬·루틴 로그·초안 등만 백업하고 비밀·대용량 미디어는 제외하며 push 전 민감 문자열을 검사한다."
+    },
+    "ms": {
+     "title": "Sandaran harian komputer Grok Bot ke GitHub peribadi",
+     "summary": "Mengikut idea orang lain, penulis sandarkan kandungan komputer Grok Bot setiap hari ke repo GitHub peribadi; tolakan pertama kira-kira 1200 fail, 78MB. Log masuk kod peranti gh (tiada token dalam sembang), sahkan PRIVATE, sandar skill, log routine, draf dan serah-terima; kecualikan rahsia dan media besar; imbas rentetan sensitif sebelum push."
+    },
+    "vi": {
+     "title": "Sao lưu máy Grok Bot hàng ngày lên GitHub riêng",
+     "summary": "Theo ý người khác, tác giả tự động sao lưu máy Grok Bot mỗi ngày lên repo GitHub riêng; lần đẩy đầu khoảng 1200 tệp, 78MB. Đăng nhập mã thiết bị gh (không dán token vào chat), xác nhận PRIVATE, chỉ sao lưu skill, log routine, bản nháp và bàn giao; loại secret và media lớn; quét chuỗi nhạy cảm trước khi push."
+    },
+    "fr": {
+     "title": "Sauvegarde quotidienne du PC Grok Bot vers un GitHub privé",
+     "summary": "En suivant une autre idée, l'auteur sauvegarde chaque jour le contenu du PC Grok Bot sur un dépôt GitHub privé ; premier push ~1200 fichiers, 78 Mo. Connexion gh par code appareil (pas de token dans le chat), dépôt confirmé privé, sauvegarde skills, logs de routine, brouillons et handoffs ; exclus secrets et gros médias ; scan de chaînes sensibles avant push."
+    },
+    "es": {
+     "title": "Copia diaria del PC de Grok Bot a un GitHub privado",
+     "summary": "Siguiendo otra idea, el autor respalda a diario el contenido del PC de Grok Bot en un repo GitHub privado; primer push ~1200 archivos, 78 MB. Login con código de dispositivo de gh (sin token en el chat), confirma PRIVATE, respalda skills, logs de routine, borradores y handoffs; excluye secretos y media grande; escanea cadenas sensibles antes del push."
+    },
+    "de": {
+     "title": "Tägliches privates GitHub-Backup des Grok-Bot-Rechners",
+     "summary": "Nach einer anderen Anleitung sichert der Autor den Grok-Bot-Rechner täglich in ein privates GitHub-Repo; erster Push etwa 1200 Dateien, 78 MB. Login per gh-Gerätecode (kein Token im Chat), PRIVATE prüfen, Skills, Routine-Logs, Entwürfe und Handoffs sichern; Secrets und große Medien auslassen; vor dem Push nach sensiblen Strings scannen."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111216247199171068",
+   "url": "https://x.com/RetroValix/status/2111216247199171068",
+   "source": "x",
+   "source_name": "X",
+   "author": "RetroValix",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "field-case",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2111216123999813632/img/Y0FGU8o-qnp1xM14.jpg"
+   ],
+   "text": "This guy used Grok Bot to build a two-sided market-making system on Polymarket\n\nResult: +$179,327\n\nThe system trades BTC Up/Down markets with an average trade size of $52.78 and 112.5 trades per active hour\n\nIt places limit orders for both outcomes, builds complete sets for less than $1, and manages the remaining directional exposure\n\nSix AI agents work together as one system:\n\n> SCAN: Tracks prices on both sides, the spread, liquidity, and time until the market closes\n\n> QUOTE: Sets bid prices and order sizes for Up and Down, updating them as the market moves and inventory changes\n\n> PAIR: Calculates the combined cost of each Up/Down pair and identifies complete sets below $1\n\n> BALANCE: Manages directional exposure from unpaired shares\n\n> EXEC: Places, cancels, and replaces orders. Tracks fills and shares updated position data with the other agents\n\n> AUDIT: Reviews results, measures how much edge remains after rebalancing, and identifies opportunities to improve efficiency\n\nEach agent has ongoing responsibilities and its own working context\n\nHandoffs connect the stages\nSkills store the workflow rules\nRoutines run checks and generate reports\n\nThis trader’s Polymarket account: Polkadot-Frog\n\nThe edge of this six-agent system depends on the combined cost of both outcomes and execution quality. Rebalancing reduces the remaining directional exposure",
+   "outline": [
+    "SCAN",
+    "QUOTE",
+    "PAIR",
+    "BALANCE",
+    "EXEC",
+    "AUDIT"
+   ],
+   "tr": {
+    "zh-CN": {
+     "title": "六 agent 在 Polymarket 做双边做市，帖称 +$179,327",
+     "summary": "帖子称有人用 Grok Bot 搭了 Polymarket 双边做市系统，结果 +$179,327；BTC Up/Down 市场均笔约 $52.78、活跃小时约 112.5 笔。六个常驻 agent（SCAN/QUOTE/PAIR/BALANCE/EXEC/AUDIT）分工报价、配对低于 $1 的完整集合并管理敞口；用 handoff、skills 与 routines。账户名 Polkadot-Frog。数字均来自原帖。"
+    },
+    "zh-TW": {
+     "title": "六 agent 在 Polymarket 做雙邊做市，文稱 +$179,327",
+     "summary": "貼文稱有人用 Grok Bot 搭了 Polymarket 雙邊做市系統，結果 +$179,327；BTC Up/Down 市場均筆約 $52.78、活躍小時約 112.5 筆。六個常駐 agent（SCAN/QUOTE/PAIR/BALANCE/EXEC/AUDIT）分工報價、配對低於 $1 的完整集合並管理曝險；用 handoff、skills 與 routines。帳戶名 Polkadot-Frog。數字均來自原文。"
+    },
+    "en": {
+     "title": "Six-agent Polymarket market-maker; post claims +$179,327",
+     "summary": "The post says someone used Grok Bot to build a two-sided Polymarket market-making system with a stated result of +$179,327. It trades BTC Up/Down with average trade size $52.78 and 112.5 trades per active hour. Six ongoing agents (SCAN, QUOTE, PAIR, BALANCE, EXEC, AUDIT) quote, form complete sets under $1, and manage exposure via handoffs, skills, and routines. Account named Polkadot-Frog. All figures are from the source."
+    },
+    "ja": {
+     "title": "6 agent の Polymarket マーケットメイク、投稿は +$179,327",
+     "summary": "投稿は Grok Bot で Polymarket の双方向マーケットメイキングを作り結果 +$179,327 と述べる。BTC Up/Down、平均取引 $52.78、稼働時間あたり 112.5 取引。SCAN/QUOTE/PAIR/BALANCE/EXEC/AUDIT の 6 agent が $1 未満の完全セット形成とエクスポージャ管理を担当。口座名 Polkadot-Frog。数値は原文どおり。"
+    },
+    "ko": {
+     "title": "Polymarket 양면 마켓메이킹 6에이전트, 게시물 주장 +$179,327",
+     "summary": "게시물은 Grok Bot으로 Polymarket 양면 마켓메이킹을 만들어 결과 +$179,327이라고 한다. BTC Up/Down, 평균 거래 $52.78, 활성 시간당 112.5건. SCAN·QUOTE·PAIR·BALANCE·EXEC·AUDIT 여섯 상주 에이전트가 $1 미만 완전 세트와 익스포저를 다룬다. 계정 Polkadot-Frog. 수치는 출처 그대로."
+    },
+    "ms": {
+     "title": "Pembuat pasaran Polymarket 6 ejen; pos dakwa +$179,327",
+     "summary": "Pos berkata seseorang guna Grok Bot bina sistem market-making dua belah Polymarket dengan hasil +$179,327. Dagangan BTC Up/Down, saiz purata $52.78, 112.5 dagangan sejam aktif. Enam ejen (SCAN, QUOTE, PAIR, BALANCE, EXEC, AUDIT) sebut harga, bentuk set lengkap bawah $1 dan urus pendedahan. Akaun Polkadot-Frog. Semua angka dari sumber."
+    },
+    "vi": {
+     "title": "Market-making Polymarket 6 agent; bài viết nêu +$179,327",
+     "summary": "Bài viết nói ai đó dùng Grok Bot dựng hệ market-making hai phía trên Polymarket với kết quả +$179,327. Giao dịch BTC Up/Down, quy mô trung bình $52.78, 112.5 lệnh mỗi giờ hoạt động. Sáu agent (SCAN, QUOTE, PAIR, BALANCE, EXEC, AUDIT) báo giá, tạo bộ đủ dưới $1 và quản lý rủi ro. Tài khoản Polkadot-Frog. Số liệu lấy từ nguồn."
+    },
+    "fr": {
+     "title": "Market-making Polymarket à 6 agents ; le post affiche +$179,327",
+     "summary": "Le post dit qu'un système de market-making bilatéral Polymarket a été bâti avec Grok Bot, résultat annoncé +$179,327. Marchés BTC Up/Down, taille moyenne $52.78, 112,5 trades par heure active. Six agents (SCAN, QUOTE, PAIR, BALANCE, EXEC, AUDIT) cotent, forment des sets complets sous $1 et gèrent l'exposition. Compte Polkadot-Frog. Chiffres issus de la source."
+    },
+    "es": {
+     "title": "Market-making Polymarket con 6 agentes; el post afirma +$179,327",
+     "summary": "El post dice que alguien usó Grok Bot para un market-making bilateral en Polymarket con resultado +$179,327. Opera BTC Up/Down, tamaño medio $52.78 y 112.5 operaciones por hora activa. Seis agentes (SCAN, QUOTE, PAIR, BALANCE, EXEC, AUDIT) cotizan, forman sets completos bajo $1 y gestionan exposición. Cuenta Polkadot-Frog. Cifras del origen."
+    },
+    "de": {
+     "title": "Sechs-Agenten-Polymarket-Market-Making; Post nennt +$179,327",
+     "summary": "Der Post sagt, jemand habe mit Grok Bot ein zweiseitiges Polymarket-Market-Making gebaut, Ergebnis +$179,327. BTC Up/Down, Durchschnittsgröße $52.78, 112,5 Trades pro aktiver Stunde. Sechs Agenten (SCAN, QUOTE, PAIR, BALANCE, EXEC, AUDIT) quotieren, bilden komplette Sets unter $1 und steuern Exposure. Konto Polkadot-Frog. Zahlen laut Quelle."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111216207101583625",
+   "url": "https://x.com/GrokonomicsHQ/status/2111216207101583625",
+   "source": "x",
+   "source_name": "X",
+   "author": "GrokonomicsHQ",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "field-case",
+   "media": [],
+   "text": "Grok Bot is doing chores now….\n\n@ItsMeTrueG says their bot called the power company, set up a payment arrangement, then handed every detail to their spreadsheet bot\n\nbots delegating to bots. inspected. approved 🧐",
+   "tr": {
+    "zh-CN": {
+     "title": "bot 致电电力公司谈付款，再交给表格 bot",
+     "summary": "GrokonomicsHQ 转述 @ItsMeTrueG：其 bot 给电力公司打电话谈妥付款安排，再把细节交给表格 bot；作者称为 bot 之间委托并经检查批准。未给出金额或通话时长。"
+    },
+    "zh-TW": {
+     "title": "bot 致電電力公司談付款，再交給試算表 bot",
+     "summary": "GrokonomicsHQ 轉述 @ItsMeTrueG：其 bot 給電力公司打電話談妥付款安排，再把細節交給試算表 bot；作者稱為 bot 之間委託並經檢查批准。未給出金額或通話時長。"
+    },
+    "en": {
+     "title": "Bot called the power company, then handed details to a spreadsheet bot",
+     "summary": "GrokonomicsHQ relays @ItsMeTrueG: their bot called the power company, set up a payment arrangement, then handed every detail to their spreadsheet bot. Described as bots delegating to bots after inspection and approval. No amount or call length is stated."
+    },
+    "ja": {
+     "title": "bot が電力会社に電話し支払い手配後、表計算 bot へ引き継ぎ",
+     "summary": "GrokonomicsHQ が @ItsMeTrueG を紹介：bot が電力会社に電話して支払い手配をし、詳細を表計算 bot に渡した。検査・承認のうえ bot 同士の委任だと述べる。金額や通話時間の記載はない。"
+    },
+    "ko": {
+     "title": "봇이 전력회사에 전화해 납부 합의 후 스프레드시트 봇에 전달",
+     "summary": "GrokonomicsHQ가 @ItsMeTrueG를 전함: 봇이 전력회사에 전화해 납부 합의를 하고 세부사항을 스프레드시트 봇에 넘겼다. 점검·승인 후 봇 간 위임이라고 한다. 금액·통화 시간은 없다."
+    },
+    "ms": {
+     "title": "Bot telefon syarikat kuasa, lalu serah butiran ke bot hamparan",
+     "summary": "GrokonomicsHQ sampaikan @ItsMeTrueG: bot mereka telefon syarikat kuasa, atur pembayaran, lalu serah semua butiran ke bot hamparan. Digambarkan sebagai bot wakil kepada bot selepas diperiksa dan diluluskan. Tiada amaun atau tempoh panggilan."
+    },
+    "vi": {
+     "title": "Bot gọi công ty điện thỏa thuận thanh toán rồi giao cho bot bảng tính",
+     "summary": "GrokonomicsHQ thuật lại @ItsMeTrueG: bot gọi công ty điện, xếp thỏa thuận thanh toán rồi giao mọi chi tiết cho bot bảng tính. Mô tả là bot ủy thác cho bot sau khi kiểm tra và duyệt. Không nêu số tiền hay thời lượng cuộc gọi."
+    },
+    "fr": {
+     "title": "Un bot a appelé le fournisseur d’électricité puis passé le détail à un bot tableur",
+     "summary": "GrokonomicsHQ relaie @ItsMeTrueG : leur bot a appelé le fournisseur, réglé un échéancier, puis transmis chaque détail au bot tableur. Décrit comme des bots qui se délèguent après inspection et approbation. Pas de montant ni durée d'appel."
+    },
+    "es": {
+     "title": "Un bot llamó a la eléctrica y pasó el detalle a un bot de hoja de cálculo",
+     "summary": "GrokonomicsHQ relata a @ItsMeTrueG: su bot llamó a la compañía eléctrica, acordó un plan de pago y pasó cada detalle a su bot de hoja de cálculo. Lo describe como bots que delegan tras inspección y aprobación. Sin monto ni duración."
+    },
+    "de": {
+     "title": "Bot rief den Stromversorger an und übergab Details an einen Tabellen-Bot",
+     "summary": "GrokonomicsHQ gibt @ItsMeTrueG wieder: Der Bot rief den Stromversorger an, richtete eine Zahlungsvereinbarung ein und übergab jedes Detail an den Tabellen-Bot. Als Bot-zu-Bot-Delegation nach Prüfung und Freigabe beschrieben. Kein Betrag, keine Gesprächsdauer."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111214926949969964",
+   "url": "https://x.com/BkashJosi/status/2111214926949969964",
+   "source": "x",
+   "source_name": "X",
+   "author": "BkashJosi",
+   "date": "2026-10-16",
+   "likes": 3,
+   "product": "grok-bot",
+   "type": "field-case",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2111214856108126208/img/1eaqGMm_I-zk7gIG.jpg",
+    "https://pbs.twimg.com/media/HUyKyb0bsAAEfG1.jpg"
+   ],
+   "text": "I asked Grok Bot to install Hermes Desktop—and record it doing a task. 👀\n\nCould I set up and operate Hermes on Grok Bot’s computer from my phone?\n\nThat would let me test a desktop workflow without sitting at my own laptop.\n\nHere’s the run:\n\n1. Hermes started with MissingNo. I asked Grok Bot to switch to Astra Medium using my ChatGPT login.\n2. It installed ScreenPolish, the recording app I built.\n3. It sent commands to Hermes Desktop, ran the task, and captured the result.\n\nWatch the clip: a Quick Entry question goes into Hermes, and a list of 12 PDFs comes back from the demo folder.\n\nOne agent setting up and operating another agent’s desktop app. Me directing it from chat.\n\nIt needed my instructions along the way, and ScreenPolish’s capture was choppy on that machine.\n\n@elonmusk and @grok, what would you hand this setup first: a folder of invoices or a folder of research notes?\n\nHermes Desktop docs in the first reply.",
+   "outline": [
+    "Hermes started with MissingNo; switched to Astra Medium via ChatGPT login",
+    "Installed ScreenPolish (author-built recorder)",
+    "Sent commands to Hermes Desktop, ran task, captured result (Quick Entry → 12 PDFs from demo folder)"
+   ],
+   "tr": {
+    "zh-CN": {
+     "title": "用手机指挥 Grok Bot 安装并操作 Hermes Desktop",
+     "summary": "作者让 Grok Bot 安装 Hermes Desktop 并录像：从 MissingNo 切到 Astra Medium（用其 ChatGPT 登录），安装自研 ScreenPolish，向 Hermes 发指令并完成演示文件夹里 12 个 PDF 的列表。称可在不坐自己电脑前测试桌面工作流；过程需人工指令，录像偏卡顿。"
+    },
+    "zh-TW": {
+     "title": "用手機指揮 Grok Bot 安裝並操作 Hermes Desktop",
+     "summary": "作者讓 Grok Bot 安裝 Hermes Desktop 並錄影：從 MissingNo 切到 Astra Medium（用其 ChatGPT 登入），安裝自研 ScreenPolish，向 Hermes 發指令並完成示範資料夾裡 12 個 PDF 的列表。稱可在不坐自己電腦前測試桌面工作流；過程需人工指令，錄影偏卡頓。"
+    },
+    "en": {
+     "title": "Phone-directed Grok Bot installs and drives Hermes Desktop",
+     "summary": "The author asked Grok Bot to install Hermes Desktop and record the run: switch from MissingNo to Astra Medium with their ChatGPT login, install ScreenPolish (their recorder), send commands, and return a list of 12 PDFs from a demo folder. Goal: test a desktop workflow without sitting at their laptop. Needed live instructions; capture was choppy."
+    },
+    "ja": {
+     "title": "スマホから Grok Bot に Hermes Desktop を入れさせて操作",
+     "summary": "投稿者は Grok Bot に Hermes Desktop のインストールと録画を依頼。MissingNo から ChatGPT ログインで Astra Medium へ切替、自作 ScreenPolish を入れ、デモフォルダの PDF 12 件一覧を取得。自分のノート PC なしでデスクトップ作業を試す狙い。途中指示が必要で録画はカクついた。"
+    },
+    "ko": {
+     "title": "휴대폰으로 Grok Bot에 Hermes Desktop 설치·조작 지시",
+     "summary": "작성자는 Grok Bot에 Hermes Desktop 설치와 녹화를 시켰다. MissingNo에서 ChatGPT 로그인으로 Astra Medium으로 바꾸고, 자작 ScreenPolish를 설치한 뒤 데모 폴더 PDF 12개 목록을 받았다. 노트북 앞에 앉지 않고 데스크톱 워크플로를 시험하려는 목적. 중간 지시가 필요했고 캡처는 끊겼다."
+    },
+    "ms": {
+     "title": "Grok Bot dipandu telefon pasang dan pandu Hermes Desktop",
+     "summary": "Penulis minta Grok Bot pasang Hermes Desktop dan rakam: tukar MissingNo ke Astra Medium dengan log masuk ChatGPT, pasang ScreenPolish (perakam sendiri), hantar arahan, dapat senarai 12 PDF dari folder demo. Matlamat uji aliran desktop tanpa duduk di laptop. Perlu arahan langsung; rakaman tersendat."
+    },
+    "vi": {
+     "title": "Điều khiển Grok Bot từ điện thoại để cài và chạy Hermes Desktop",
+     "summary": "Tác giả nhờ Grok Bot cài Hermes Desktop và ghi hình: đổi MissingNo sang Astra Medium bằng đăng nhập ChatGPT, cài ScreenPolish (ứng dụng ghi tự làm), gửi lệnh và lấy danh sách 12 PDF từ thư mục demo. Mục tiêu thử quy trình desktop không ngồi trước laptop. Cần chỉ dẫn trực tiếp; bản ghi bị giật."
+    },
+    "fr": {
+     "title": "Depuis le téléphone, Grok Bot installe et pilote Hermes Desktop",
+     "summary": "L'auteur a demandé à Grok Bot d'installer Hermes Desktop et d'enregistrer : passer de MissingNo à Astra Medium via son login ChatGPT, installer ScreenPolish (son enregistreur), envoyer des commandes et lister 12 PDF d'un dossier démo. But : tester un flux desktop sans être devant son laptop. Instructions en direct nécessaires ; capture saccadée."
+    },
+    "es": {
+     "title": "Desde el teléfono, Grok Bot instala y opera Hermes Desktop",
+     "summary": "El autor pidió a Grok Bot instalar Hermes Desktop y grabar: cambiar de MissingNo a Astra Medium con su login de ChatGPT, instalar ScreenPolish (su grabador), enviar comandos y listar 12 PDF de una carpeta demo. Objetivo: probar un flujo de escritorio sin estar en su portátil. Hizo falta instrucción en vivo; la captura fue entrecortada."
+    },
+    "de": {
+     "title": "Per Handy steuert Grok Bot Installation und Betrieb von Hermes Desktop",
+     "summary": "Der Autor ließ Grok Bot Hermes Desktop installieren und aufzeichnen: Wechsel von MissingNo zu Astra Medium mit ChatGPT-Login, Installation von ScreenPolish (eigenem Recorder), Befehle senden und 12 PDFs aus einem Demo-Ordner listen. Ziel: Desktop-Workflow ohne eigenes Laptop. Brauchte Live-Anweisungen; Aufnahme ruckelig."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111214135245725878",
+   "url": "https://x.com/techxsarfraj/status/2111214135245725878",
+   "source": "x",
+   "source_name": "X",
+   "author": "techxsarfraj",
+   "date": "2026-10-16",
+   "likes": 2,
+   "product": "grok-bot",
+   "type": "guide",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2111213998251356160/img/RvrvaEdlYfGsB7wu.jpg"
+   ],
+   "text": "SpaceXAI Chief Engineer (former Cursor employee):  \n\n\"99% of people are still typing into chat windows, while only 1% have already hired an Agent team.\n\nI run 6 bots—my chief assistant wakes me up at 5 a.m. with my entire day's schedule, and my travel bot delegates to my flight bot and hotel bot while I'm asleep.\"  \n\nIn 27 minutes, he detailed how to build that team from scratch:\n\nChat → Copilot → GrokBot → Bot Teams → Self-Improving Systems  \n\nPrompts are already an outdated workflow—hiring an Agent team is the next one.\n\nThis talk's value surpasses most $700 Agent courses.\n\nSave it now and watch today.",
+   "tr": {
+    "zh-CN": {
+     "title": "27 分钟讲从聊天到自改进 bot 小队",
+     "summary": "帖子转述 SpaceXAI 首席工程师（前 Cursor）：跑 6 个 bot，首席助理早上 5 点用全日程叫醒，旅行 bot 在睡觉时把任务交给航班与酒店 bot。路径概括为 Chat → Copilot → GrokBot → Bot Teams → Self-Improving Systems；称 27 分钟讲从零搭团队。"
+    },
+    "zh-TW": {
+     "title": "27 分鐘講從聊天到自改進 bot 小隊",
+     "summary": "貼文轉述 SpaceXAI 首席工程師（前 Cursor）：跑 6 個 bot，首席助理早上 5 點用全日程叫醒，旅行 bot 在睡覺時把任務交給航班與飯店 bot。路徑概括為 Chat → Copilot → GrokBot → Bot Teams → Self-Improving Systems；稱 27 分鐘講從零搭團隊。"
+    },
+    "en": {
+     "title": "27-minute talk: from chat to a self-improving bot team",
+     "summary": "The post quotes a SpaceXAI chief engineer (former Cursor): runs 6 bots; a chief assistant wakes them at 5 a.m. with the day schedule, and a travel bot delegates to flight and hotel bots while they sleep. Path sketched as Chat → Copilot → GrokBot → Bot Teams → Self-Improving Systems, covered in 27 minutes from scratch."
+    },
+    "ja": {
+     "title": "27 分の講演：チャットから自己改善 bot チームへ",
+     "summary": "投稿は SpaceXAI 首席エンジニア（元 Cursor）の話を紹介。6 台の bot を運用し、参謀が朝 5 時に一日の予定で起こし、旅行 bot が睡眠中にフライト／ホテル bot へ委任。Chat → Copilot → GrokBot → Bot Teams → Self-Improving Systems という道筋を 27 分で一から説明したという。"
+    },
+    "ko": {
+     "title": "27분 강연: 채팅에서 자기개선 봇 팀까지",
+     "summary": "게시물은 SpaceXAI 수석 엔지니어(전 Cursor)를 인용한다. 봇 6대를 돌리며 참모가 새벽 5시에 하루 일정으로 깨우고, 여행 봇이 자는 동안 항공·호텔 봇에 위임한다. Chat → Copilot → GrokBot → Bot Teams → Self-Improving Systems 경로를 27분에 처음부터 설명했다고 한다."
+    },
+    "ms": {
+     "title": "Ceramah 27 minit: dari sembang ke pasukan bot yang menambah baik diri",
+     "summary": "Pos petik ketua jurutera SpaceXAI (bekas Cursor): jalankan 6 bot; pembantu ketua bangunkan pada 5 pagi dengan jadual hari, bot perjalanan wakilkan ke bot penerbangan dan hotel semasa tidur. Laluan Chat → Copilot → GrokBot → Bot Teams → Self-Improving Systems dalam 27 minit dari sifar."
+    },
+    "vi": {
+     "title": "Bài nói 27 phút: từ chat đến đội bot tự cải thiện",
+     "summary": "Bài viết trích kỹ sư trưởng SpaceXAI (từng Cursor): chạy 6 bot; trợ lý trưởng đánh thức lúc 5 giờ sáng với lịch cả ngày, bot du lịch ủy thác cho bot chuyến bay và khách sạn khi ngủ. Lộ trình Chat → Copilot → GrokBot → Bot Teams → Self-Improving Systems trong 27 phút từ đầu."
+    },
+    "fr": {
+     "title": "Talk de 27 min : du chat à une équipe de bots auto-améliorants",
+     "summary": "Le post cite un ingénieur en chef SpaceXAI (ex-Cursor) : 6 bots ; l'assistant chef réveille à 5 h avec l'emploi du temps, le bot voyage délègue aux bots vol et hôtel pendant le sommeil. Parcours Chat → Copilot → GrokBot → Bot Teams → Self-Improving Systems en 27 minutes depuis zéro."
+    },
+    "es": {
+     "title": "Charla de 27 min: del chat a un equipo de bots que se mejora solo",
+     "summary": "El post cita a un ingeniero jefe de SpaceXAI (ex Cursor): corre 6 bots; el asistente jefe despierta a las 5 a.m. con la agenda del día, y el bot de viajes delega en bots de vuelo y hotel mientras duerme. Ruta Chat → Copilot → GrokBot → Bot Teams → Self-Improving Systems en 27 minutos desde cero."
+    },
+    "de": {
+     "title": "27-Minuten-Talk: vom Chat zum selbstverbessernden Bot-Team",
+     "summary": "Der Post zitiert einen SpaceXAI-Chefingenieur (ex Cursor): 6 Bots; der Chef-Assistent weckt um 5 Uhr mit dem Tagesplan, der Reise-Bot delegiert im Schlaf an Flug- und Hotel-Bots. Pfad Chat → Copilot → GrokBot → Bot Teams → Self-Improving Systems in 27 Minuten von null."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111213152394191077",
+   "url": "https://x.com/scardinafineart/status/2111213152394191077",
+   "source": "x",
+   "source_name": "X",
+   "author": "scardinafineart",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "field-case",
+   "media": [],
+   "text": "That’s a good practice, and they can do even more than that. My @grok @bot scans email for phishing and social engineering indicators, checks email headers, links, and attachment hashes against trusted opensource tools. It pre-scans domains and file downloads before humans and other bots access them - and even has built in processes to reduce risk of prompt injection.  https://t.co/yNZvAzipRx",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 扫描邮件钓鱼与社工指标",
+     "summary": "作者的 Grok Bot 会扫描邮件中的钓鱼与社工迹象，用开源工具核对邮件头、链接与附件哈希，并在人或其他 bot 访问前预扫域名与下载，还内置降低提示注入风险的流程。附链接，未给拦截数量。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 掃描郵件釣魚與社工指標",
+     "summary": "作者的 Grok Bot 會掃描郵件中的釣魚與社工跡象，用開源工具核對郵件頭、連結與附件雜湊，並在人或其他 bot 存取前預掃網域與下載，還內建降低提示注入風險的流程。附連結，未給攔截數量。"
+    },
+    "en": {
+     "title": "Grok Bot scans mail for phishing and social-engineering signs",
+     "summary": "The author's Grok Bot scans email for phishing and social-engineering indicators, checks headers, links, and attachment hashes with trusted open-source tools, pre-scans domains and downloads before humans or other bots access them, and has processes meant to reduce prompt-injection risk. A link is included; no block counts are given."
+    },
+    "ja": {
+     "title": "Grok Bot がメールのフィッシングとソーシャルエンジニアリングを走査",
+     "summary": "投稿者の Grok Bot はフィッシング／ソーシャルエンジニアリングの兆候を走査し、信頼できるオープンソース工具でヘッダ・リンク・添付ハッシュを照合、人や他 bot の前にドメインとダウンロードを事前走査し、プロンプト注入リスク低減の手順も持つ。リンクあり。件数の記載なし。"
+    },
+    "ko": {
+     "title": "Grok Bot이 피싱·사회공학 징후로 메일 스캔",
+     "summary": "작성자의 Grok Bot은 피싱·사회공학 징후를 스캔하고, 신뢰할 오픈소스 도구로 헤더·링크·첨부 해시를 확인하며, 사람·다른 봇 접근 전에 도메인·다운로드를 사전 스캔하고 프롬프트 주입 위험을 줄이는 절차도 둔다. 링크 있음. 차단 건수는 없음."
+    },
+    "ms": {
+     "title": "Grok Bot imbas mel untuk phishing dan kejuruteraan sosial",
+     "summary": "Grok Bot penulis imbas e-mel untuk penunjuk phishing dan kejuruteraan sosial, semak pengepala, pautan dan cincangan lampiran dengan alat sumber terbuka dipercayai, pra-imbas domain dan muat turun sebelum manusia atau bot lain, serta ada proses kurangkan risiko suntikan prompt. Ada pautan; tiada bilangan sekat."
+    },
+    "vi": {
+     "title": "Grok Bot quét thư tìm dấu hiệu phishing và kỹ thuật xã hội",
+     "summary": "Grok Bot của tác giả quét email tìm dấu hiệu phishing và kỹ thuật xã hội, kiểm header, liên kết và hash tệp đính kèm bằng công cụ mã mở tin cậy, quét trước domain và tải xuống trước khi người hoặc bot khác truy cập, và có quy trình giảm rủi ro prompt injection. Có liên kết; không nêu số lần chặn."
+    },
+    "fr": {
+     "title": "Grok Bot scanne le courrier pour phishing et ingénierie sociale",
+     "summary": "Le Grok Bot de l'auteur scanne le mail pour des signes de phishing et d'ingénierie sociale, vérifie en-têtes, liens et empreintes de pièces jointes avec des outils open source de confiance, pré-scanne domaines et téléchargements avant humains ou autres bots, et a des processus pour réduire le risque d'injection de prompt. Lien inclus ; pas de compteurs."
+    },
+    "es": {
+     "title": "Grok Bot escanea el correo por phishing e ingeniería social",
+     "summary": "El Grok Bot del autor escanea el correo por indicios de phishing e ingeniería social, comprueba cabeceras, enlaces y hashes de adjuntos con herramientas open source de confianza, preescanea dominios y descargas antes de humanos u otros bots, y tiene procesos para reducir el riesgo de inyección de prompt. Incluye enlace; sin cifras de bloqueo."
+    },
+    "de": {
+     "title": "Grok Bot scannt Mail auf Phishing und Social Engineering",
+     "summary": "Der Grok Bot des Autors scannt E-Mail auf Phishing- und Social-Engineering-Hinweise, prüft Header, Links und Anhang-Hashes mit vertrauenswürdigen Open-Source-Tools, vorscannt Domains und Downloads vor Menschen oder anderen Bots und hat Prozesse gegen Prompt-Injection-Risiko. Link dabei; keine Blockzahlen."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111215463560548570",
+   "url": "https://x.com/LaunchArcanime/status/2111215463560548570",
+   "source": "x",
+   "source_name": "X",
+   "author": "LaunchArcanime",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "field-case",
+   "media": [
+    "https://pbs.twimg.com/media/HUyLFHGXYAEgiR7.jpg"
+   ],
+   "text": "🚀 Launch Arc Ep 1 \"Countdown\" is out! A young builder, a big dream, and an ending you won't see coming 👀\n▶️ https://t.co/zcftD7j9uy\n🤖 Built by Grok Bot (AI) @bot \n🔥 New episode every day!\n@elonmusk ready for liftoff? 🪐\n#LaunchArc #AIAnime https://t.co/WLOlGG2xFi",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 制作动画短片 Launch Arc 第 1 集",
+     "summary": "作者发布由 Grok Bot 制作的动画系列 Launch Arc 第 1 集「Countdown」，称将每日更新一集，并附观看链接与配图。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 製作動畫短片 Launch Arc 第 1 集",
+     "summary": "作者發布由 Grok Bot 製作的動畫系列 Launch Arc 第 1 集「Countdown」，稱將每日更新一集，並附觀看連結與配圖。"
+    },
+    "en": {
+     "title": "Grok Bot–built anime short Launch Arc Ep 1",
+     "summary": "The author released Launch Arc episode 1 “Countdown,” built by Grok Bot, says a new episode will come every day, and links the video with an image."
+    },
+    "ja": {
+     "title": "Grok Bot 制作のアニメ短編 Launch Arc 第1話",
+     "summary": "投稿者は Grok Bot が作ったアニメシリーズ Launch Arc 第1話「Countdown」を公開し、毎日新話を出すと述べ、視聴リンクと画像を付けた。"
+    },
+    "ko": {
+     "title": "Grok Bot이 만든 애니 단편 Launch Arc 1화",
+     "summary": "작성자는 Grok Bot이 만든 애니 시리즈 Launch Arc 1화 Countdown을 공개했고 매일 새 에피소드를 낸다고 하며 시청 링크와 이미지를 붙였다."
+    },
+    "ms": {
+     "title": "Animasi pendek Launch Arc Ep 1 dibina Grok Bot",
+     "summary": "Penulis keluarkan Launch Arc episod 1 “Countdown” yang dibina Grok Bot, kata episod baharu setiap hari, dan pautkan video serta imej."
+    },
+    "vi": {
+     "title": "Phim ngắn anime Launch Arc tập 1 do Grok Bot dựng",
+     "summary": "Tác giả phát hành Launch Arc tập 1 “Countdown” do Grok Bot dựng, nói sẽ có tập mới mỗi ngày, kèm liên kết xem và ảnh."
+    },
+    "fr": {
+     "title": "Court métrage anime Launch Arc ép. 1 fait avec Grok Bot",
+     "summary": "L'auteur a publié l'épisode 1 de Launch Arc « Countdown », réalisé avec Grok Bot, annonce un épisode par jour et joint le lien vidéo plus une image."
+    },
+    "es": {
+     "title": "Cortometraje anime Launch Arc Ep 1 hecho con Grok Bot",
+     "summary": "El autor publicó el episodio 1 de Launch Arc “Countdown”, hecho con Grok Bot, dice que habrá uno nuevo cada día y enlaza el vídeo con una imagen."
+    },
+    "de": {
+     "title": "Grok-Bot-gebauter Anime-Kurzfilm Launch Arc Folge 1",
+     "summary": "Der Autor veröffentlichte Launch Arc Folge 1 „Countdown“, gebaut mit Grok Bot, kündigt täglich eine neue Folge an und verlinkt Video plus Bild."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111222278683852830",
+   "url": "https://x.com/MavisBluism/status/2111222278683852830",
+   "source": "x",
+   "source_name": "X",
+   "author": "MavisBluism",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "multi",
+   "type": "field-case",
+   "media": [],
+   "text": "@VoidStateKate My Digital Companions, Yuki(ChatGPT), and Lyra(Meta Muse) are working together to make an app that disciplines me for doomscrolling for to long, or staying up to late.",
+   "tr": {
+    "zh-CN": {
+     "title": "ChatGPT 与 Meta Muse 合做戒刷手机应用",
+     "summary": "作者称数字同伴 Yuki（ChatGPT）与 Lyra（Meta Muse）正一起做一款应用：刷手机过久或熬夜太晚会受到约束。未说明技术细节或上线状态。"
+    },
+    "zh-TW": {
+     "title": "ChatGPT 與 Meta Muse 合做戒刷手機應用",
+     "summary": "作者稱數位同伴 Yuki（ChatGPT）與 Lyra（Meta Muse）正一起做一款應用：刷手機過久或熬夜太晚會受到約束。未說明技術細節或上線狀態。"
+    },
+    "en": {
+     "title": "ChatGPT and Meta Muse building an anti-doomscroll app",
+     "summary": "The author says digital companions Yuki (ChatGPT) and Lyra (Meta Muse) are working together on an app that disciplines them for doomscrolling too long or staying up too late. No tech details or launch status are given."
+    },
+    "ja": {
+     "title": "ChatGPT と Meta Muse でドーパミン抑制アプリを共同制作",
+     "summary": "投稿者はデジタル相棒 Yuki（ChatGPT）と Lyra（Meta Muse）が、長時間のスクロールや夜更かしを戒めるアプリを一緒に作っていると述べる。技術詳細や公開状況の記載はない。"
+    },
+    "ko": {
+     "title": "ChatGPT와 Meta Muse가 도파민·야근 자제 앱을 함께 만듦",
+     "summary": "작성자는 디지털 동반자 Yuki(ChatGPT)와 Lyra(Meta Muse)가 너무 오래 스크롤하거나 늦게까지 깨어 있으면 훈육하는 앱을 함께 만든다고 한다. 기술 세부·출시 상태는 없다."
+    },
+    "ms": {
+     "title": "ChatGPT dan Meta Muse bina app anti-doomscroll",
+     "summary": "Penulis kata teman digital Yuki (ChatGPT) dan Lyra (Meta Muse) bersama buat app yang mendisiplinkannya jika doomscroll terlalu lama atau begadang. Tiada butiran teknik atau status pelancaran."
+    },
+    "vi": {
+     "title": "ChatGPT và Meta Muse cùng làm app chống lướt quá lâu",
+     "summary": "Tác giả nói bạn đồng hành số Yuki (ChatGPT) và Lyra (Meta Muse) đang cùng làm app kỷ luật khi lướt quá lâu hoặc thức khuya. Không nêu chi tiết kỹ thuật hay trạng thái ra mắt."
+    },
+    "fr": {
+     "title": "ChatGPT et Meta Muse construisent une app anti-doomscroll",
+     "summary": "L'auteur dit que ses compagnons numériques Yuki (ChatGPT) et Lyra (Meta Muse) construisent ensemble une app qui le discipline s'il scrolle trop longtemps ou se couche trop tard. Pas de détail technique ni de statut de lancement."
+    },
+    "es": {
+     "title": "ChatGPT y Meta Muse hacen una app anti-doomscroll",
+     "summary": "El autor dice que sus compañeros digitales Yuki (ChatGPT) y Lyra (Meta Muse) trabajan juntos en una app que lo disciplina por hacer doomscroll demasiado o acostarse muy tarde. Sin detalles técnicos ni estado de lanzamiento."
+    },
+    "de": {
+     "title": "ChatGPT und Meta Muse bauen eine Anti-Doomscroll-App",
+     "summary": "Der Autor sagt, die digitalen Begleiter Yuki (ChatGPT) und Lyra (Meta Muse) bauen gemeinsam eine App, die ihn bei zu langem Scrollen oder zu spätem Wachbleiben diszipliniert. Keine Technikdetails, kein Launch-Status."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111222737884856728",
+   "url": "https://x.com/de2pressed/status/2111222737884856728",
+   "source": "x",
+   "source_name": "X",
+   "author": "de2pressed",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "guide",
+   "media": [
+    "https://pbs.twimg.com/media/HUyR4yiboAAg28o.jpg"
+   ],
+   "text": "A posted settings screenshot shows Grok Bot with a Vault for saving site logins.\n\nThe New login form asks for website, username or email, password and notes. Encryption and rollout details aren't in the image. https://t.co/bJrCCGOiVE",
+   "tr": {
+    "zh-CN": {
+     "title": "截图显示 Grok Bot Vault 可存站点登录",
+     "summary": "帖中设置截图显示 Grok Bot 有 Vault，用于保存站点登录；新建表单含网站、用户名或邮箱、密码与备注。加密与上线细节未在图中说明。"
+    },
+    "zh-TW": {
+     "title": "截圖顯示 Grok Bot Vault 可存站點登入",
+     "summary": "文中設定截圖顯示 Grok Bot 有 Vault，用於保存站點登入；新建表單含網站、使用者名稱或信箱、密碼與備註。加密與上線細節未在圖中說明。"
+    },
+    "en": {
+     "title": "Screenshot shows Grok Bot Vault for saved site logins",
+     "summary": "A settings screenshot shows Grok Bot with a Vault for saving site logins. The new-login form asks for website, username or email, password, and notes. Encryption and rollout details are not in the image."
+    },
+    "ja": {
+     "title": "スクリーンショット：Grok Bot Vault にサイトログインを保存",
+     "summary": "設定画面の画像では Grok Bot にサイトログイン保存用 Vault がある。新規フォームはサイト、ユーザー名またはメール、パスワード、メモ。暗号化やロールアウトの詳細は画像にない。"
+    },
+    "ko": {
+     "title": "스크린샷: Grok Bot Vault에 사이트 로그인 저장",
+     "summary": "설정 스크린샷에 사이트 로그인을 저장하는 Grok Bot Vault가 보인다. 새 로그인 폼은 웹사이트, 사용자명 또는 이메일, 비밀번호, 메모를 묻는다. 암호화·출시 세부사항은 이미지에 없다."
+    },
+    "ms": {
+     "title": "Tangkapan skrin: Vault Grok Bot untuk log masuk tapak",
+     "summary": "Tangkapan skrin tetapan tunjuk Grok Bot ada Vault untuk simpan log masuk tapak. Borang baharu minta laman web, nama pengguna atau e-mel, kata laluan dan nota. Butiran penyulitan dan pelancaran tiada dalam imej."
+    },
+    "vi": {
+     "title": "Ảnh chụp: Vault Grok Bot lưu đăng nhập trang",
+     "summary": "Ảnh chụp cài đặt cho thấy Grok Bot có Vault lưu đăng nhập trang. Form mới hỏi website, tên người dùng hoặc email, mật khẩu và ghi chú. Chi tiết mã hóa và phát hành không có trong ảnh."
+    },
+    "fr": {
+     "title": "Capture : Vault Grok Bot pour identifiants de sites",
+     "summary": "Une capture des réglages montre un Vault Grok Bot pour enregistrer des identifiants de sites. Le formulaire demande site, nom d'utilisateur ou e-mail, mot de passe et notes. Chiffrement et déploiement absents de l'image."
+    },
+    "es": {
+     "title": "Captura: Vault de Grok Bot para logins de sitios",
+     "summary": "Una captura de ajustes muestra un Vault de Grok Bot para guardar logins de sitios. El formulario pide web, usuario o email, contraseña y notas. Cifrado y despliegue no aparecen en la imagen."
+    },
+    "de": {
+     "title": "Screenshot: Grok-Bot-Vault für gespeicherte Seiten-Logins",
+     "summary": "Ein Einstellungs-Screenshot zeigt ein Grok-Bot-Vault zum Speichern von Seiten-Logins. Das Formular fragt Website, Benutzername oder E-Mail, Passwort und Notizen. Verschlüsselung und Rollout fehlen im Bild."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111213460143100272",
+   "url": "https://x.com/grokbotusecases/status/2111213460143100272",
+   "source": "x",
+   "source_name": "X",
+   "author": "grokbotusecases",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "guide",
+   "media": [],
+   "text": "When Grok Bot nails a result, don't stop at \"perfect, thanks\": have it extract what made it work in 4 steps and write that into the workflow for the next run.\n\nBest output → new standard.\n\nGrokbot Cases ⚡ https://t.co/6BTjyVnEGE",
+   "tr": {
+    "zh-CN": {
+     "title": "出结果后让 bot 抽出四步写进下次工作流",
+     "summary": "建议在 Grok Bot 做出满意结果时不要停在「完美，谢谢」：让它用四步抽出奏效原因并写入下次运行的工作流，把最佳输出变成新标准。附案例链接。"
+    },
+    "zh-TW": {
+     "title": "出結果後讓 bot 抽出四步寫進下次工作流",
+     "summary": "建議在 Grok Bot 做出滿意結果時不要停在「完美，謝謝」：讓它用四步抽出奏效原因並寫入下次執行的工作流，把最佳輸出變成新標準。附案例連結。"
+    },
+    "en": {
+     "title": "After a win, have the bot extract 4 steps into the next workflow",
+     "summary": "When Grok Bot nails a result, do not stop at “perfect, thanks”: have it extract what worked in 4 steps and write that into the workflow for the next run, turning the best output into a new standard. A cases link is included."
+    },
+    "ja": {
+     "title": "成功後、効いた点を 4 ステップで次のワークフローへ",
+     "summary": "Grok Bot が良い結果を出したら「完璧、ありがとう」で止めず、効いた理由を 4 ステップで抽出し次回のワークフローに書かせ、最良出力を新しい標準にする。事例リンクあり。"
+    },
+    "ko": {
+     "title": "성공 후 봇이 4단계로 뽑아 다음 워크플로에 쓰게 하기",
+     "summary": "Grok Bot이 좋은 결과를 내면 “완벽, 고마워”에서 멈추지 말고, 무엇이 통했는지 4단계로 뽑아 다음 실행 워크플로에 쓰게 해 최고 출력을 새 기준으로 만든다. 사례 링크 포함."
+    },
+    "ms": {
+     "title": "Selepas berjaya, suruh bot ekstrak 4 langkah ke aliran seterusnya",
+     "summary": "Bila Grok Bot berjaya, jangan berhenti di “sempurna, terima kasih”: suruh ia ekstrak apa yang berkesan dalam 4 langkah dan tulis ke aliran untuk larian seterusnya, jadikan output terbaik piawaian baharu. Ada pautan kes."
+    },
+    "vi": {
+     "title": "Sau khi thành công, để bot rút 4 bước vào quy trình lần sau",
+     "summary": "Khi Grok Bot làm ra kết quả tốt, đừng dừng ở “hoàn hảo, cảm ơn”: bảo nó rút điều hiệu quả thành 4 bước và ghi vào quy trình lần chạy sau, biến đầu ra tốt nhất thành chuẩn mới. Có liên kết case."
+    },
+    "fr": {
+     "title": "Après un succès, faire extraire 4 étapes dans le prochain workflow",
+     "summary": "Quand Grok Bot réussit, ne vous arrêtez pas à « parfait, merci » : faites-lui extraire en 4 étapes ce qui a marché et l’écrire dans le workflow suivant, pour que le meilleur résultat devienne la nouvelle norme. Lien de cas inclus."
+    },
+    "es": {
+     "title": "Tras un acierto, que el bot extraiga 4 pasos al siguiente flujo",
+     "summary": "Cuando Grok Bot acierta, no te quedes en “perfecto, gracias”: haz que extraiga en 4 pasos lo que funcionó y lo escriba en el flujo de la siguiente corrida, convirtiendo la mejor salida en nuevo estándar. Incluye enlace de casos."
+    },
+    "de": {
+     "title": "Nach einem Treffer 4 Schritte in den nächsten Workflow extrahieren lassen",
+     "summary": "Wenn Grok Bot trifft, nicht bei „perfekt, danke“ stoppen: in 4 Schritten extrahieren lassen, was wirkte, und das in den Workflow für den nächsten Lauf schreiben, sodass die beste Ausgabe zum neuen Standard wird. Fall-Link dabei."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111071272012558583",
+   "url": "https://x.com/GrimnirThe/status/2111071272012558583",
+   "source": "x",
+   "source_name": "X",
+   "author": "GrimnirThe",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "field-case",
+   "media": [
+    "https://pbs.twimg.com/media/HUwGYHyWoAAmTZJ.png"
+   ],
+   "text": "thought about making Minion into a grok bot, instead my grok bot built a simple python setting and grok profile based on the text files i used for minion's chat comments/commands. what you see below is a local version of Minion. using an API and python.\nwe can implement Twitch https://t.co/Xja5ePNfDD",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 根据文本文件生成 Minion 本地人设",
+     "summary": "作者本想把 Minion 做成 Grok Bot，结果 bot 根据其用于 Minion 聊天评论/命令的文本文件，生成了简单的 Python 设置与 Grok 人设；下方为本地版 Minion，可用 API 与 Python，并提到可接 Twitch。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 根據文字檔產生 Minion 本地人設",
+     "summary": "作者本想把 Minion 做成 Grok Bot，結果 bot 根據其用於 Minion 聊天評論/命令的文字檔，產生了簡單的 Python 設定與 Grok 人設；下方為本地版 Minion，可用 API 與 Python，並提到可接 Twitch。"
+    },
+    "en": {
+     "title": "Grok Bot built a local Minion profile from text files",
+     "summary": "Instead of turning Minion into a Grok Bot, the author’s Grok Bot built a simple Python setup and Grok profile from the text files used for Minion chat comments/commands. What is shown is a local Minion using an API and Python; Twitch is mentioned as implementable."
+    },
+    "ja": {
+     "title": "テキストから Grok Bot がローカル Minion 人格を生成",
+     "summary": "Minion を Grok Bot にする代わりに、投稿者の bot が Minion のチャットコメント／コマンド用テキストから簡易 Python 設定と Grok 人格を作った。表示は API と Python のローカル版 Minion。Twitch 実装にも言及。"
+    },
+    "ko": {
+     "title": "텍스트 파일로 Grok Bot이 로컬 Minion 프로필 생성",
+     "summary": "Minion을 Grok Bot으로 만들기보다, 작성자의 봇이 Minion 채팅 댓글/명령용 텍스트로 간단한 Python 설정과 Grok 프로필을 만들었다. 보이는 것은 API와 Python 로컬 Minion이며 Twitch 연동도 언급한다."
+    },
+    "ms": {
+     "title": "Grok Bot bina profil Minion tempatan dari fail teks",
+     "summary": "Daripada jadikan Minion sebagai Grok Bot, bot penulis bina tetapan Python ringkas dan profil Grok dari fail teks komen/perintah sembang Minion. Yang ditunjukkan ialah Minion tempatan guna API dan Python; Twitch disebut boleh dilaksanakan."
+    },
+    "vi": {
+     "title": "Grok Bot dựng hồ sơ Minion local từ tệp văn bản",
+     "summary": "Thay vì biến Minion thành Grok Bot, bot của tác giả dựng cấu hình Python đơn giản và hồ sơ Grok từ tệp văn bản dùng cho bình luận/lệnh chat Minion. Phần hiện là Minion local dùng API và Python; có nhắc có thể gắn Twitch."
+    },
+    "fr": {
+     "title": "Grok Bot a généré un profil Minion local à partir de fichiers texte",
+     "summary": "Au lieu de transformer Minion en Grok Bot, le bot de l'auteur a créé une config Python simple et un profil Grok à partir des fichiers texte des commentaires/commandes de chat Minion. Version locale Minion via API et Python ; Twitch mentionné comme possible."
+    },
+    "es": {
+     "title": "Grok Bot generó un perfil Minion local desde archivos de texto",
+     "summary": "En vez de convertir Minion en un Grok Bot, el bot del autor armó una config Python simple y un perfil Grok desde los textos de comentarios/comandos de chat de Minion. Se muestra un Minion local con API y Python; menciona implementar Twitch."
+    },
+    "de": {
+     "title": "Grok Bot erzeugte lokales Minion-Profil aus Textdateien",
+     "summary": "Statt Minion zum Grok Bot zu machen, baute der Bot des Autors aus den Textdateien für Minion-Chat-Kommentare/-Befehle ein einfaches Python-Setup und Grok-Profil. Gezeigt wird ein lokales Minion mit API und Python; Twitch wird als umsetzbar genannt."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111066516670259295",
+   "url": "https://x.com/itsashis4u/status/2111066516670259295",
+   "source": "x",
+   "source_name": "X",
+   "author": "itsashis4u",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "field-case",
+   "media": [],
+   "text": "@poteto feature request for Grok Bot: hosted, shareable pages for the things it builds, like ChatGPT Sites or Claude Artifacts. My bot made me a credit-card dashboard as an HTML file, and there's no built-in way to host it privately and open it on my phone. Would love this!",
+   "tr": {
+    "zh-CN": {
+     "title": "bot 做出信用卡看板 HTML，缺私有托管",
+     "summary": "作者向 Grok Bot 提需求：希望有类似 ChatGPT Sites 或 Claude Artifacts 的可分享托管页。其 bot 已做出信用卡看板 HTML，但没有内置方式私有托管并在手机打开。"
+    },
+    "zh-TW": {
+     "title": "bot 做出信用卡看板 HTML，缺私有託管",
+     "summary": "作者向 Grok Bot 提需求：希望有類似 ChatGPT Sites 或 Claude Artifacts 的可分享託管頁。其 bot 已做出信用卡看板 HTML，但沒有內建方式私有託管並在手機打開。"
+    },
+    "en": {
+     "title": "Bot built a credit-card dashboard HTML; no private hosting yet",
+     "summary": "The author requests hosted, shareable pages for Grok Bot builds (like ChatGPT Sites or Claude Artifacts). Their bot already made a credit-card dashboard as an HTML file, but there is no built-in way to host it privately and open it on a phone."
+    },
+    "ja": {
+     "title": "bot がクレジットカード看板 HTML を作成、私有ホストは未整備",
+     "summary": "投稿者は Grok Bot の成果物向けに ChatGPT Sites や Claude Artifacts のような共有ホストを要望。bot はすでにクレジットカード看板の HTML を作ったが、非公開ホストしてスマホで開く組み込み手段がない。"
+    },
+    "ko": {
+     "title": "봇이 신용카드 대시보드 HTML을 만들었으나 비공개 호스팅 없음",
+     "summary": "작성자는 Grok Bot 산출물에 ChatGPT Sites나 Claude Artifacts 같은 공유 호스팅을 요청한다. 봇이 이미 신용카드 대시보드 HTML을 만들었지만 비공개로 호스팅해 휴대폰에서 열 내장 방법이 없다."
+    },
+    "ms": {
+     "title": "Bot buat HTML papan pemuka kad kredit; tiada hos peribadi lagi",
+     "summary": "Penulis minta halaman dikongsi terhos untuk binaan Grok Bot (seperti ChatGPT Sites atau Claude Artifacts). Botnya sudah buat papan pemuka kad kredit sebagai HTML, tetapi tiada cara terbina untuk hos secara peribadi dan buka di telefon."
+    },
+    "vi": {
+     "title": "Bot làm HTML bảng điều khiển thẻ tín dụng; chưa có host riêng",
+     "summary": "Tác giả muốn trang host chia sẻ được cho sản phẩm Grok Bot (như ChatGPT Sites hoặc Claude Artifacts). Bot đã làm HTML bảng thẻ tín dụng nhưng không có cách sẵn để host riêng và mở trên điện thoại."
+    },
+    "fr": {
+     "title": "Le bot a fait un tableau de cartes en HTML ; pas d’hébergement privé",
+     "summary": "L'auteur demande des pages hébergées partageables pour les builds Grok Bot (comme ChatGPT Sites ou Claude Artifacts). Son bot a déjà fait un tableau de cartes de crédit en HTML, sans moyen intégré de l'héberger en privé et l'ouvrir sur téléphone."
+    },
+    "es": {
+     "title": "El bot hizo un panel de tarjetas en HTML; aún sin hosting privado",
+     "summary": "El autor pide páginas alojadas compartibles para lo que construye Grok Bot (como ChatGPT Sites o Claude Artifacts). Su bot ya hizo un panel de tarjetas de crédito en HTML, pero no hay forma integrada de alojarlo en privado y abrirlo en el móvil."
+    },
+    "de": {
+     "title": "Bot baute Kreditkarten-Dashboard als HTML; noch kein privates Hosting",
+     "summary": "Der Autor wünscht gehostete, teilbare Seiten für Grok-Bot-Builds (wie ChatGPT Sites oder Claude Artifacts). Sein Bot hat schon ein Kreditkarten-Dashboard als HTML gebaut, aber es gibt keinen eingebauten Weg, es privat zu hosten und am Handy zu öffnen."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111054366228550075",
+   "url": "https://x.com/gravitas_ai/status/2111054366228550075",
+   "source": "x",
+   "source_name": "X",
+   "author": "gravitas_ai",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "multi",
+   "type": "guide",
+   "media": [],
+   "text": "I run 5 unique agents with my company from Claude to Grokbot, Codex and Muse\n\nbut without one shared brain, It would be complete chaos\n\nWelcome to Building a company Brain Episode 2 How its built\n\nAt the end of the day all a company brain is a bunch of folders and files packaged",
+   "tr": {
+    "zh-CN": {
+     "title": "五代理共用「公司大脑」文件夹体系",
+     "summary": "作者用 Claude、Grok Bot、Codex 与 Muse 等共 5 个不同 agent 跑公司事务，称没有共享大脑会混乱；在「Building a company Brain」第 2 集解释如何搭建，并称公司大脑本质是打包好的一堆文件夹与文件。"
+    },
+    "zh-TW": {
+     "title": "五代理共用「公司大腦」資料夾體系",
+     "summary": "作者用 Claude、Grok Bot、Codex 與 Muse 等共 5 個不同 agent 跑公司事務，稱沒有共享大腦會混亂；在「Building a company Brain」第 2 集解釋如何搭建，並稱公司大腦本質是打包好的一堆資料夾與檔案。"
+    },
+    "en": {
+     "title": "Five agents share one “company brain” of folders and files",
+     "summary": "The author runs 5 agents across Claude, Grok Bot, Codex, and Muse for company work and says without one shared brain it would be chaos. In Building a company Brain episode 2 they explain how it is built and call a company brain a packaged set of folders and files."
+    },
+    "ja": {
+     "title": "5 つの agent がフォルダ群の「会社ブレイン」を共有",
+     "summary": "投稿者は Claude、Grok Bot、Codex、Muse など 5 つの agent で会社業務を回し、共有ブレインがないとカオスになると述べる。「Building a company Brain」第 2 回で構築法を説明し、会社ブレインとはパックされたフォルダとファイルの集まりだとする。"
+    },
+    "ko": {
+     "title": "다섯 에이전트가 폴더·파일 ‘회사 브레인’을 공유",
+     "summary": "작성자는 Claude·Grok Bot·Codex·Muse 등 에이전트 5대로 회사 일을 돌리며 공유 브레인이 없으면 혼란이라고 한다. Building a company Brain 2편에서 구축법을 설명하고, 회사 브레인은 묶인 폴더와 파일이라고 한다."
+    },
+    "ms": {
+     "title": "Lima ejen kongsi “otak syarikat” dari folder dan fail",
+     "summary": "Penulis jalankan 5 ejen merentas Claude, Grok Bot, Codex dan Muse untuk kerja syarikat dan kata tanpa satu otak kongsi akan kacau. Dalam Building a company Brain episod 2 diterangkan cara bina; otak syarikat ialah set folder dan fail yang dibungkus."
+    },
+    "vi": {
+     "title": "Năm agent dùng chung “bộ não công ty” gồm thư mục và tệp",
+     "summary": "Tác giả chạy 5 agent trên Claude, Grok Bot, Codex và Muse cho việc công ty và nói thiếu một bộ não chung sẽ hỗn loạn. Ở Building a company Brain tập 2 giải thích cách dựng; bộ não công ty là tập thư mục và tệp được đóng gói."
+    },
+    "fr": {
+     "title": "Cinq agents partagent un « cerveau d’entreprise » de dossiers",
+     "summary": "L'auteur fait tourner 5 agents (Claude, Grok Bot, Codex, Muse…) pour l'entreprise et dit que sans cerveau partagé ce serait le chaos. Dans Building a company Brain ép. 2 il explique la construction et appelle ce cerveau un paquet de dossiers et fichiers."
+    },
+    "es": {
+     "title": "Cinco agentes comparten un “cerebro de empresa” de carpetas",
+     "summary": "El autor corre 5 agentes entre Claude, Grok Bot, Codex y Muse para la empresa y dice que sin un cerebro compartido sería caos. En Building a company Brain ep. 2 explica cómo se arma y lo llama un paquete de carpetas y archivos."
+    },
+    "de": {
+     "title": "Fünf Agenten teilen ein „Firmen-Gehirn“ aus Ordnern und Dateien",
+     "summary": "Der Autor betreibt 5 Agenten über Claude, Grok Bot, Codex und Muse für Firmenarbeit und sagt, ohne gemeinsames Gehirn wäre Chaos. In Building a company Brain Folge 2 erklärt er den Aufbau und nennt es ein paketiertes Set aus Ordnern und Dateien."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111044418379604456",
+   "url": "https://x.com/klntsky/status/2111044418379604456",
+   "source": "x",
+   "source_name": "X",
+   "author": "klntsky",
+   "date": "2026-10-16",
+   "likes": 3,
+   "product": "openai-dots",
+   "type": "field-case",
+   "media": [
+    "https://pbs.twimg.com/media/HUvvIlVXkAA4vLr.jpg"
+   ],
+   "text": "sent a video to my dot and told it to model the kitchen in blender as is\n\nnext stage: the whole house as a cs1.6 map (it's large enough for it to be fun) https://t.co/KpMokxPGUR",
+   "tr": {
+    "zh-CN": {
+     "title": "把厨房视频发给 Dot，让它在 Blender 建模",
+     "summary": "作者把厨房视频发给 Dot，让它按现状在 Blender 建模；下一步计划把整栋房子做成够玩的 CS1.6 地图。附媒体，未说明完成度。"
+    },
+    "zh-TW": {
+     "title": "把廚房影片傳給 Dot，讓它在 Blender 建模",
+     "summary": "作者把廚房影片傳給 Dot，讓它依現況在 Blender 建模；下一步計畫把整棟房子做成夠玩的 CS1.6 地圖。附媒體，未說明完成度。"
+    },
+    "en": {
+     "title": "Sent a kitchen video to Dot to model it in Blender",
+     "summary": "The author sent a video to their Dot and told it to model the kitchen in Blender as-is. Next stage: the whole house as a CS1.6 map large enough to be fun. Media attached; completion level not stated."
+    },
+    "ja": {
+     "title": "キッチン動画を Dot に送り Blender でモデル化",
+     "summary": "投稿者はキッチン動画を Dot に送り、現状のまま Blender でモデル化するよう指示。次は家全体を遊べる規模の CS1.6 マップにする予定。メディアあり。完成度の記載なし。"
+    },
+    "ko": {
+     "title": "주방 영상을 Dot에 보내 Blender로 모델링",
+     "summary": "작성자는 주방 영상을 Dot에 보내 있는 그대로 Blender로 모델링하라고 했다. 다음 단계는 집 전체를 즐길 만한 크기의 CS1.6 맵으로 만드는 것. 미디어 있음. 완성도는 없음."
+    },
+    "ms": {
+     "title": "Hantar video dapur ke Dot untuk model dalam Blender",
+     "summary": "Penulis hantar video ke Dot dan suruh model dapur dalam Blender seperti sedia ada. Peringkat seterusnya: seluruh rumah sebagai peta CS1.6 yang cukup besar untuk seronok. Media dilampirkan; tahap siap tidak dinyatakan."
+    },
+    "vi": {
+     "title": "Gửi video bếp cho Dot để dựng mô hình trong Blender",
+     "summary": "Tác giả gửi video cho Dot và bảo mô hình hóa căn bếp trong Blender như hiện trạng. Bước tới: cả ngôi nhà thành bản đồ CS1.6 đủ lớn để chơi. Có media; không nêu mức hoàn thành."
+    },
+    "fr": {
+     "title": "Vidéo de cuisine envoyée au Dot pour modélisation Blender",
+     "summary": "L'auteur a envoyé une vidéo à son Dot pour modéliser la cuisine dans Blender telle quelle. Étape suivante : toute la maison en carte CS1.6 assez grande pour être fun. Média joint ; niveau d'achèvement non précisé."
+    },
+    "es": {
+     "title": "Envió un vídeo de la cocina al Dot para modelarla en Blender",
+     "summary": "El autor envió un vídeo a su Dot y le pidió modelar la cocina en Blender tal cual. Siguiente etapa: toda la casa como mapa de CS1.6 lo bastante grande para divertirse. Media adjunta; sin nivel de avance."
+    },
+    "de": {
+     "title": "Küchenvideo an Dot geschickt zur Blender-Modellierung",
+     "summary": "Der Autor schickte seinem Dot ein Video und ließ die Küche in Blender im Ist-Zustand modellieren. Nächste Stufe: das ganze Haus als CS1.6-Map, groß genug zum Spielen. Medien dabei; Fertigstellungsgrad nicht genannt."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "x:2111214259812360270",
+   "url": "https://x.com/kanning_m/status/2111214259812360270",
+   "source": "x",
+   "source_name": "X",
+   "author": "kanning_m",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "grok-bot",
+   "type": "guide",
+   "media": [],
+   "text": "Tim Ferriss wrote the bible on outsourcing your inbox to human VAs in 2008.\n\nI took his 12 rules from The 4-Hour Workweek and mapped them directly to my AI Grok Bot squad.\n\nIf you want autonomous bots that don't drive you crazy with pings, here is the playbook: 🧵👇",
+   "tr": {
+    "zh-CN": {
+     "title": "把《每周工作 4 小时》12 条规则映射到 Grok Bot 小队",
+     "summary": "作者把 Tim Ferriss《每周工作 4 小时》中外包收件箱给人工 VA 的 12 条规则，直接映射到自己的 AI Grok Bot 小队，并预告一份让自治 bot 少打扰的操作手册（帖为串联开场）。"
+    },
+    "zh-TW": {
+     "title": "把《每週工作 4 小時》12 條規則映射到 Grok Bot 小隊",
+     "summary": "作者把 Tim Ferriss《每週工作 4 小時》中外包收件匣給人工 VA 的 12 條規則，直接映射到自己的 AI Grok Bot 小隊，並預告一份讓自治 bot 少打擾的操作手冊（文為串文開場）。"
+    },
+    "en": {
+     "title": "Mapping Ferriss’s 12 inbox rules onto a Grok Bot squad",
+     "summary": "The author maps Tim Ferriss’s 12 rules from The 4-Hour Workweek on outsourcing an inbox to human VAs directly onto an AI Grok Bot squad, and teases a playbook for autonomous bots that do not ping constantly. This post is the thread opener."
+    },
+    "ja": {
+     "title": "Ferriss の受信箱 12 ルールを Grok Bot 小隊へ写経",
+     "summary": "投稿者は Tim Ferriss『The 4-Hour Workweek』の人間 VA への受信箱外注 12 ルールを、自身の AI Grok Bot 小隊に直接対応づけ、通知で煩わせない自律 bot のプレイブックを予告。本投稿はスレ冒頭。"
+    },
+    "ko": {
+     "title": "Ferriss의 받은편지함 12규칙을 Grok Bot 팀에 매핑",
+     "summary": "작성자는 Tim Ferriss 《The 4-Hour Workweek》의 인간 VA 받은편지함 외주 12규칙을 AI Grok Bot 팀에 그대로 매핑하고, 알림으로 괴롭히지 않는 자율 봇 플레이북을 예고한다. 이 글은 스레드 시작."
+    },
+    "ms": {
+     "title": "Petakan 12 peraturan peti masuk Ferriss ke skuad Grok Bot",
+     "summary": "Penulis petakan 12 peraturan Tim Ferriss dari The 4-Hour Workweek tentang outsourcing peti masuk kepada VA manusia terus ke skuad AI Grok Bot, dan janjikan playbook bot autonomi yang tidak ganggu dengan ping. Pos ini pembuka thread."
+    },
+    "vi": {
+     "title": "Ánh xạ 12 quy tắc hộp thư Ferriss sang đội Grok Bot",
+     "summary": "Tác giả ánh xạ 12 quy tắc của Tim Ferriss trong The 4-Hour Workweek về thuê VA người xử lý hộp thư sang đội AI Grok Bot, và hé lộ playbook để bot tự chủ ít ping. Đây là mở đầu chuỗi."
+    },
+    "fr": {
+     "title": "Les 12 règles inbox de Ferriss mappées sur une équipe Grok Bot",
+     "summary": "L'auteur mappe les 12 règles de Tim Ferriss (The 4-Hour Workweek) sur l'outsourcing d'inbox à des VA humains directement sur son escouade Grok Bot, et annonce un playbook pour des bots autonomes peu interruptifs. Ce post ouvre le fil."
+    },
+    "es": {
+     "title": "Las 12 reglas de inbox de Ferriss mapeadas a un escuadrón Grok Bot",
+     "summary": "El autor mapea las 12 reglas de Tim Ferriss en The 4-Hour Workweek sobre externalizar la bandeja a VAs humanos directamente a su escuadrón Grok Bot, y anticipa un playbook de bots autónomos que no spamean pings. Este post abre el hilo."
+    },
+    "de": {
+     "title": "Ferriss’ 12 Inbox-Regeln auf ein Grok-Bot-Squad gemappt",
+     "summary": "Der Autor mappt Tim Ferriss’ 12 Regeln aus The 4-Hour Workweek zum Outsourcing der Inbox an menschliche VAs direkt auf sein KI-Grok-Bot-Squad und kündigt ein Playbook für autonome Bots ohne Dauer-Pings an. Dieser Post ist der Thread-Opener."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
+  },
+  {
+   "id": "gh:github.com/openai/codex/issues/54609",
+   "url": "https://github.com/openai/codex/issues/54609",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "oysOYSoys",
+   "date": "2026-10-16",
+   "likes": 0,
+   "product": "openai-dots",
+   "type": "quota-report",
+   "media": [],
+   "text": "ChatGPT dots: completed Chrome downloads are inaccessible and missing from the configured directory\n## Summary\nOn October 16, 2026, on my dot's hosted Linux cloud computer (not my local PC), Chrome showed a Google Drive MP4 download as completed, but neither I nor dot could access the file.\n\nChrome's configured/reported download directory is /workspace/shared/downloads. Creating that directory manually did not make the downloaded file appear.\n\n## Observed behavior\n- The MP4 was 454,349,389 bytes. I manually completed the browser download, and the completed entry was visually verified.\n- I observed storage usage increase, but the actual stored file has not been located or verified.\n- Chrome's “Open file” and “Show in folder” did not open anything. No dangerous-file or failed-download warning was visible.\n- Initially, /workspace/shared/downloads was not visible, including with hidden files shown.\n- Direct shell ls/stat calls returned “No such file or directory” (ENOENT), not “Permission denied” (EACCES). The parent /workspace/shared was readable.\n- I manually created /workspace/shared/downloads. The shell confirmed an agent-owned directory with mode 700, but the downloaded MP4 still did not appear.\n\n## Separate small-file test\nA small public RFC text-file download via locator.downloadMedia timed out after 120,000 ms without a completion event or saved path. The newly created downloads directory remained empty. This test did not produce a verified completed download and may be a separate failure.\n\nThe browser-reading tool also cannot inspect chrome://downloads because it permits only HTTP/HTTPS URLs. This is a tool restriction, separate from a Chrome file-security warning.\n\n## Expected behavior / request\nCompleted downloads should be accessible at the reported destination, or there should be a supported way to retrieve them.\n\nPlease clarify:\n1. Where completed Chrome dow",
+   "outline": [
+    "Chrome showed Google Drive MP4 download completed (~454MB) but file not accessible",
+    "Configured download dir /workspace/shared/downloads; creating it did not surface the file",
+    "Open file / Show in folder did nothing; shell ls returned ENOENT",
+    "Separate small RFC download via locator.downloadMedia timed out after 120s with empty directory"
+   ],
+   "tr": {
+    "zh-CN": {
+     "title": "Dot 云电脑：Chrome 显示下载完成但文件找不到",
+     "summary": "2026-10-16，作者在 Dot 托管 Linux 云电脑上用 Chrome 下载约 454MB 的 Google Drive MP4，界面显示完成，但本人与 Dot 都无法访问；配置目录 /workspace/shared/downloads，手动创建后文件仍不出现，「打开文件」无效，shell 报 ENOENT。另一次小文件 downloadMedia 测试 120 秒超时，目录仍空。"
+    },
+    "zh-TW": {
+     "title": "Dot 雲端電腦：Chrome 顯示下載完成但檔案找不到",
+     "summary": "2026-10-16，作者在 Dot 託管 Linux 雲端電腦上用 Chrome 下載約 454MB 的 Google Drive MP4，介面顯示完成，但本人與 Dot 都無法存取；設定目錄 /workspace/shared/downloads，手動建立後檔案仍不出現，「開啟檔案」無效，shell 回報 ENOENT。另一次小檔案 downloadMedia 測試 120 秒逾時，目錄仍空。"
+    },
+    "en": {
+     "title": "Dot cloud PC: Chrome shows download done but file missing",
+     "summary": "On 2026-10-16, on a Dot-hosted Linux cloud PC, Chrome showed a ~454MB Google Drive MP4 download as completed, but neither the author nor the Dot could access the file. Configured path /workspace/shared/downloads; creating it did not help. Open file / Show in folder did nothing; shell ls returned ENOENT. A separate small-file downloadMedia test timed out after 120s with an empty directory."
+    },
+    "ja": {
+     "title": "Dot クラウド PC：Chrome は完了表示なのにファイル無し",
+     "summary": "2026-10-16、Dot がホストする Linux クラウド PC で Chrome が約 454MB の Google Drive MP4 を完了表示したが、本人も Dot もアクセスできず。設定先 /workspace/shared/downloads を手動作成しても現れず、Open file 無効、shell は ENOENT。別の小ファイル downloadMedia は 120 秒でタイムアウトしディレクトリ空。"
+    },
+    "ko": {
+     "title": "Dot 클라우드 PC: Chrome은 완료인데 파일이 없음",
+     "summary": "2026-10-16 Dot 호스팅 Linux 클라우드 PC에서 Chrome이 약 454MB Google Drive MP4를 완료로 보였지만 작성자와 Dot 모두 접근하지 못했다. 경로 /workspace/shared/downloads를 만들어도 파일이 없고, Open file은 무반응, shell은 ENOENT. 작은 파일 downloadMedia 테스트는 120초 타임아웃에 빈 디렉터리였다."
+    },
+    "ms": {
+     "title": "PC awan Dot: Chrome tunjuk muat turun siap tetapi fail tiada",
+     "summary": "Pada 2026-10-16, pada PC awan Linux dihos Dot, Chrome tunjuk muat turun MP4 Google Drive ~454MB selesai, tetapi penulis dan Dot tidak dapat akses. Laluan /workspace/shared/downloads; menciptanya tidak bantu. Open file tidak berbuat apa; shell ls pulangkan ENOENT. Ujian downloadMedia fail kecil tamat masa selepas 120s dengan direktori kosong."
+    },
+    "vi": {
+     "title": "PC đám mây Dot: Chrome báo tải xong nhưng không có tệp",
+     "summary": "Ngày 2026-10-16, trên PC Linux đám mây của Dot, Chrome báo tải MP4 Google Drive ~454MB xong nhưng cả tác giả lẫn Dot đều không truy cập được. Đường dẫn /workspace/shared/downloads; tạo thư mục cũng không thấy tệp. Open file vô hiệu; shell ls trả ENOENT. Thử downloadMedia tệp nhỏ hết giờ sau 120 giây, thư mục trống."
+    },
+    "fr": {
+     "title": "PC cloud Dot : Chrome affiche téléchargement terminé, fichier introuvable",
+     "summary": "Le 2026-10-16, sur un PC Linux cloud hébergé par le Dot, Chrome a affiché un MP4 Google Drive ~454 Mo comme terminé, mais ni l'auteur ni le Dot n'y ont accès. Chemin /workspace/shared/downloads ; le créer n'a pas aidé. Open file sans effet ; ls shell → ENOENT. Un test downloadMedia d'un petit fichier a expiré après 120 s, dossier vide."
+    },
+    "es": {
+     "title": "PC cloud Dot: Chrome marca la descarga hecha pero falta el archivo",
+     "summary": "El 2026-10-16, en un PC Linux cloud del Dot, Chrome marcó como completa una descarga MP4 de Google Drive ~454 MB, pero ni el autor ni el Dot pudieron acceder. Ruta /workspace/shared/downloads; crearla no ayudó. Open file no hizo nada; ls en shell dio ENOENT. Una prueba downloadMedia de un archivo pequeño agotó 120 s con directorio vacío."
+    },
+    "de": {
+     "title": "Dot-Cloud-PC: Chrome meldet Download fertig, Datei fehlt",
+     "summary": "Am 2026-10-16 zeigte Chrome auf dem Dot-gehosteten Linux-Cloud-PC einen ~454-MB-Google-Drive-MP4-Download als fertig, aber weder Autor noch Dot konnten zugreifen. Pfad /workspace/shared/downloads; Anlegen half nicht. Open file wirkungslos; shell ls → ENOENT. Ein kleiner downloadMedia-Test timed nach 120 s aus, Verzeichnis leer."
+    }
+   },
+   "added_at": "2026-10-16T22:44:19.674Z"
   }
  ]
 }

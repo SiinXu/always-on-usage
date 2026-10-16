@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1708 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1730 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-16T12:43:07.083Z
+- Last updated: 2026-10-16T22:44:19.674Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3297,6 +3297,106 @@
 - URL: https://usage.incidental.site/cases/x-hesamation-2111013795858374743.html
 - Type: guide · Product: grok-bot · Author: Hesamation · Source: https://x.com/Hesamation/status/2111013795858374743 · Date: 2026-10-16
 - Summary: The post points to a 45-minute Stanford lecture from SpaceX on how Grok Bot works. Topics include what changed in the models to allow always-on agents, the architecture of an always-on agent, the harness design and context engineering (the post is cut off there).
+
+### Engineer uses Dot to triage an on-call incident at 3am
+- URL: https://usage.incidental.site/cases/yt-gbozirk1ujw.html
+- Type: field-case · Product: openai-dots · Author: OpenAI · Source: https://www.youtube.com/watch?v=GBOZIRK1ujw · Date: 2026-10-16
+- Summary: OpenAI engineer Ali used his Dot to triage an on-call incident at 3am. The Dot investigated the issue and started a Codex thread so he could steer the work from his phone in the ChatGPT app.
+
+### Bots can claim their own inboxes; sends still need draft approval
+- URL: https://usage.incidental.site/cases/x-caffinatedak-2111218422508060745.html
+- Type: field-case · Product: grok-bot · Author: CaffinatedAK · Source: https://x.com/CaffinatedAK/status/2111218422508060745 · Date: 2026-10-16
+- Summary: After this week's Grok Bot update, a bot can claim its own inbox and search X without the author's login. Previously Mr. Paperwork sent from his Gmail and Loggr posted through his X session. Mail from a bot's own address still lands as a draft card he must approve. He plans to give Shopping Expert its own address and only tap approve while it talks to sellers.
+
+### Hobby RTS: live weather by lunch, vanishing tanks by midnight
+- URL: https://usage.incidental.site/cases/x-stinenet-2111218033968501076.html
+- Type: field-case · Product: grok-bot · Author: StineNet · Source: https://x.com/StineNet/status/2111218033968501076 · Date: 2026-10-16
+- Summary: On a hobby RTS, the author mixes vibe coding and hand coding. Grok Bot wired up live weather by lunch; by midnight they were debugging vanishing tanks. Automated tests are called the only adult in the room. No stack or numeric result is given.
+
+### Hermes Agent templates that run inside Grok Bot
+- URL: https://usage.incidental.site/cases/x-pixelrainbownft-2111217923670827453.html
+- Type: guide · Product: grok-bot · Author: PixelRainbowNFT · Source: https://x.com/PixelRainbowNFT/status/2111217923670827453 · Date: 2026-10-16
+- Summary: The author has built, tested, and used Grok Bot templates that bring a Hermes Agent into the Grok Bot app as one of the bots, and points to a site menu labeled Grokbot Templates. They recommend running both and using one chief-of-staff Hermes Agent to command many Hermes devices and Grok Bot accounts in parallel.
+
+### Spam Assassin: scan inbox, rank senders, unsubscribe
+- URL: https://usage.incidental.site/cases/x-manipulate-2111217554786299966.html
+- Type: field-case · Product: grok-bot · Author: manipulate · Source: https://x.com/manipulate/status/2111217554786299966 · Date: 2026-10-16
+- Summary: The author built Spam Assassin, a Grok Bot that scans the inbox, ranks the worst senders, and unsubscribes from those the user picks. A link is included; no count of unsubscribes is stated.
+
+### Daily private GitHub backup of a Grok Bot computer
+- URL: https://usage.incidental.site/cases/x-raydong001-2111216764193574987.html
+- Type: guide · Product: grok-bot · Author: Raydong001 · Source: https://x.com/Raydong001/status/2111216764193574987 · Date: 2026-10-16
+- Summary: Following another post, the author auto-backs up a Grok Bot computer to a private GitHub repo daily; first push about 1200 files, 78MB. They use gh device-code login (no token in chat), confirm the repo is private, back up skills, routine logs, drafts and handoffs, exclude secrets and large media, and scan for sensitive strings before push. Skills and rules matter more than the machine itself.
+
+### Six-agent Polymarket market-maker; post claims +$179,327
+- URL: https://usage.incidental.site/cases/x-retrovalix-2111216247199171068.html
+- Type: field-case · Product: grok-bot · Author: RetroValix · Source: https://x.com/RetroValix/status/2111216247199171068 · Date: 2026-10-16
+- Summary: The post says someone used Grok Bot to build a two-sided Polymarket market-making system with a stated result of +$179,327. It trades BTC Up/Down with average trade size $52.78 and 112.5 trades per active hour. Six ongoing agents (SCAN, QUOTE, PAIR, BALANCE, EXEC, AUDIT) quote, form complete sets under $1, and manage exposure via handoffs, skills, and routines. Account named Polkadot-Frog. All figures are from the source.
+
+### Bot called the power company, then handed details to a spreadsheet bot
+- URL: https://usage.incidental.site/cases/x-grokonomicshq-2111216207101583625.html
+- Type: field-case · Product: grok-bot · Author: GrokonomicsHQ · Source: https://x.com/GrokonomicsHQ/status/2111216207101583625 · Date: 2026-10-16
+- Summary: GrokonomicsHQ relays @ItsMeTrueG: their bot called the power company, set up a payment arrangement, then handed every detail to their spreadsheet bot. Described as bots delegating to bots after inspection and approval. No amount or call length is stated.
+
+### Phone-directed Grok Bot installs and drives Hermes Desktop
+- URL: https://usage.incidental.site/cases/x-bkashjosi-2111214926949969964.html
+- Type: field-case · Product: grok-bot · Author: BkashJosi · Source: https://x.com/BkashJosi/status/2111214926949969964 · Date: 2026-10-16
+- Summary: The author asked Grok Bot to install Hermes Desktop and record the run: switch from MissingNo to Astra Medium with their ChatGPT login, install ScreenPolish (their recorder), send commands, and return a list of 12 PDFs from a demo folder. Goal: test a desktop workflow without sitting at their laptop. Needed live instructions; capture was choppy.
+
+### 27-minute talk: from chat to a self-improving bot team
+- URL: https://usage.incidental.site/cases/x-techxsarfraj-2111214135245725878.html
+- Type: guide · Product: grok-bot · Author: techxsarfraj · Source: https://x.com/techxsarfraj/status/2111214135245725878 · Date: 2026-10-16
+- Summary: The post quotes a SpaceXAI chief engineer (former Cursor): runs 6 bots; a chief assistant wakes them at 5 a.m. with the day schedule, and a travel bot delegates to flight and hotel bots while they sleep. Path sketched as Chat → Copilot → GrokBot → Bot Teams → Self-Improving Systems, covered in 27 minutes from scratch.
+
+### Grok Bot scans mail for phishing and social-engineering signs
+- URL: https://usage.incidental.site/cases/x-scardinafineart-2111213152394191077.html
+- Type: field-case · Product: grok-bot · Author: scardinafineart · Source: https://x.com/scardinafineart/status/2111213152394191077 · Date: 2026-10-16
+- Summary: The author's Grok Bot scans email for phishing and social-engineering indicators, checks headers, links, and attachment hashes with trusted open-source tools, pre-scans domains and downloads before humans or other bots access them, and has processes meant to reduce prompt-injection risk. A link is included; no block counts are given.
+
+### Grok Bot–built anime short Launch Arc Ep 1
+- URL: https://usage.incidental.site/cases/x-launcharcanime-2111215463560548570.html
+- Type: field-case · Product: grok-bot · Author: LaunchArcanime · Source: https://x.com/LaunchArcanime/status/2111215463560548570 · Date: 2026-10-16
+- Summary: The author released Launch Arc episode 1 “Countdown,” built by Grok Bot, says a new episode will come every day, and links the video with an image.
+
+### ChatGPT and Meta Muse building an anti-doomscroll app
+- URL: https://usage.incidental.site/cases/x-mavisbluism-2111222278683852830.html
+- Type: field-case · Product: multi · Author: MavisBluism · Source: https://x.com/MavisBluism/status/2111222278683852830 · Date: 2026-10-16
+- Summary: The author says digital companions Yuki (ChatGPT) and Lyra (Meta Muse) are working together on an app that disciplines them for doomscrolling too long or staying up too late. No tech details or launch status are given.
+
+### Screenshot shows Grok Bot Vault for saved site logins
+- URL: https://usage.incidental.site/cases/x-de2pressed-2111222737884856728.html
+- Type: guide · Product: grok-bot · Author: de2pressed · Source: https://x.com/de2pressed/status/2111222737884856728 · Date: 2026-10-16
+- Summary: A settings screenshot shows Grok Bot with a Vault for saving site logins. The new-login form asks for website, username or email, password, and notes. Encryption and rollout details are not in the image.
+
+### After a win, have the bot extract 4 steps into the next workflow
+- URL: https://usage.incidental.site/cases/x-grokbotusecases-2111213460143100272.html
+- Type: guide · Product: grok-bot · Author: grokbotusecases · Source: https://x.com/grokbotusecases/status/2111213460143100272 · Date: 2026-10-16
+- Summary: When Grok Bot nails a result, do not stop at “perfect, thanks”: have it extract what worked in 4 steps and write that into the workflow for the next run, turning the best output into a new standard. A cases link is included.
+
+### Grok Bot built a local Minion profile from text files
+- URL: https://usage.incidental.site/cases/x-grimnirthe-2111071272012558583.html
+- Type: field-case · Product: grok-bot · Author: GrimnirThe · Source: https://x.com/GrimnirThe/status/2111071272012558583 · Date: 2026-10-16
+- Summary: Instead of turning Minion into a Grok Bot, the author’s Grok Bot built a simple Python setup and Grok profile from the text files used for Minion chat comments/commands. What is shown is a local Minion using an API and Python; Twitch is mentioned as implementable.
+
+### Bot built a credit-card dashboard HTML; no private hosting yet
+- URL: https://usage.incidental.site/cases/x-itsashis4u-2111066516670259295.html
+- Type: field-case · Product: grok-bot · Author: itsashis4u · Source: https://x.com/itsashis4u/status/2111066516670259295 · Date: 2026-10-16
+- Summary: The author requests hosted, shareable pages for Grok Bot builds (like ChatGPT Sites or Claude Artifacts). Their bot already made a credit-card dashboard as an HTML file, but there is no built-in way to host it privately and open it on a phone.
+
+### Five agents share one “company brain” of folders and files
+- URL: https://usage.incidental.site/cases/x-gravitasai-2111054366228550075.html
+- Type: guide · Product: multi · Author: gravitas_ai · Source: https://x.com/gravitas_ai/status/2111054366228550075 · Date: 2026-10-16
+- Summary: The author runs 5 agents across Claude, Grok Bot, Codex, and Muse for company work and says without one shared brain it would be chaos. In Building a company Brain episode 2 they explain how it is built and call a company brain a packaged set of folders and files.
+
+### Sent a kitchen video to Dot to model it in Blender
+- URL: https://usage.incidental.site/cases/x-klntsky-2111044418379604456.html
+- Type: field-case · Product: openai-dots · Author: klntsky · Source: https://x.com/klntsky/status/2111044418379604456 · Date: 2026-10-16
+- Summary: The author sent a video to their Dot and told it to model the kitchen in Blender as-is. Next stage: the whole house as a CS1.6 map large enough to be fun. Media attached; completion level not stated.
+
+### Mapping Ferriss’s 12 inbox rules onto a Grok Bot squad
+- URL: https://usage.incidental.site/cases/x-kanningm-2111214259812360270.html
+- Type: guide · Product: grok-bot · Author: kanning_m · Source: https://x.com/kanning_m/status/2111214259812360270 · Date: 2026-10-16
+- Summary: The author maps Tim Ferriss’s 12 rules from The 4-Hour Workweek on outsourcing an inbox to human VAs directly onto an AI Grok Bot squad, and teases a playbook for autonomous bots that do not ping constantly. This post is the thread opener.
 
 ### A website that converts any date into 19 calendars
 - URL: https://usage.incidental.site/cases/x-esoterickang-2110716026715328527.html
@@ -8343,6 +8443,11 @@
 - Type: comparison · Product: multi · Author: Armeria-SK · Source: https://github.com/Armeria-SK/niwa/pull/2 · Date: 2026-10-16
 - Summary: A self-hosted always-on agent project lists what a comparison with Grok Bot and OpenAI Dots showed was missing, and adds it: Claude and OpenAI-compatible APIs, external MCP, triggers from page/RSS changes and webhooks, text attachments and streamed replies. Posting to X now waits for admin approval every time. Six database migrations; back up first.
 
+### Grok Bot ordered a client gift where Dots could not
+- URL: https://usage.incidental.site/cases/x-jasonshafton-2111219412921724957.html
+- Type: comparison · Product: multi · Author: jasonshafton · Source: https://x.com/jasonshafton/status/2111219412921724957 · Date: 2026-10-16
+- Summary: The author says Grok Bot ordered a gift for a client and that ChatGPT Dots could not do it. A screenshot is attached; product and price are not stated.
+
 ### Muse vs Grok Bot: native outbound calls vs inbound-first voice
 - URL: https://usage.incidental.site/cases/x-airoboticsint-2110853694925549794.html
 - Type: comparison · Product: multi · Author: AIRoboticsInt · Source: https://x.com/AIRoboticsInt/status/2110853694925549794 · Date: 2026-10-15
@@ -8632,6 +8737,11 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### Dot cloud PC: Chrome shows download done but file missing
+- URL: https://usage.incidental.site/cases/gh-github-com-openai-codex-issues-54609.html
+- Type: quota-report · Product: openai-dots · Author: oysOYSoys · Source: https://github.com/openai/codex/issues/54609 · Date: 2026-10-16
+- Summary: On 2026-10-16, on a Dot-hosted Linux cloud PC, Chrome showed a ~454MB Google Drive MP4 download as completed, but neither the author nor the Dot could access the file. Configured path /workspace/shared/downloads; creating it did not help. Open file / Show in folder did nothing; shell ls returned ENOENT. A separate small-file downloadMedia test timed out after 120s with an empty directory.
 
 ### Google banned the bot’s Gmail “for being a bot”
 - URL: https://usage.incidental.site/cases/x-predictivemoney-2110723292768186738.html
