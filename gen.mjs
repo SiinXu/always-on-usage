@@ -230,6 +230,7 @@ for(const s of RT)out["@"+s]=out[K(s)];fs.writeFileSync("src/strings.json",JSON.
   h=h.replace(/(<meta (?:name|property)="(?:og:[\w:]+|twitter:\w+)" content=")([^"]*)(")/g,(m,a,v,b)=>a+esc(enText(unesc(v)))+b);
   h=h.replace(/<meta property="og:locale" content="zh_CN">/,'<meta property="og:locale" content="en_US">').replace('<meta property="og:locale:alternate" content="en_US">','<meta property="og:locale:alternate" content="zh_CN">');
   h=h.replace(/(<script type="application\/ld\+json">)([\s\S]*?)(<\/script>)/g,(m,a,j,b)=>{try{const o=JSON.parse(j),walk=x=>Array.isArray(x)?x.map(walk):x&&typeof x==="object"?Object.fromEntries(Object.entries(x).map(([k,v])=>[k,walk(v)])):typeof x==="string"?enText(x):x;return a+JSON.stringify(walk(o)).replace(/</g,"\\u003c")+b}catch(_){return m}});
+  h=h.replace(/aria-valuetext="(\d+) 个 Bot"/g,(m,n)=>`aria-valuetext="${n} ${n==="1"?"bot":"bots"}"`);
   // any other attribute still holding Han (aria-valuetext etc.) -> English
   h=h.replace(/<(?!script|style)[a-z][^>]*>/g,tag=>/[\u4e00-\u9fff]/.test(tag)&&!/^<option/.test(tag)?tag.replace(/(\s[\w-]+=")([^"]*[\u4e00-\u9fff][^"]*)(")/g,(m,a,v,b)=>a+esc(enText(unesc(v)))+b):tag);
   if(Z.length)h=h.replace("</body>",`<script type="application/json" id="zh">${JSON.stringify(Z).replace(/</g,"\\u003c")}</script></body>`);
