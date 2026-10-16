@@ -494,3 +494,5 @@ ol.outline li{margin:2px 0}
 .ie-sub-row button{padding:10px 16px;border-radius:10px;border:0;background:var(--ie-acc,#4f46e5);color:var(--ie-acc-ink,#fff);font:inherit;font-weight:600;font-size:13px;line-height:1;cursor:pointer;white-space:nowrap}
 .ie-sub-msg{flex:1 1 100%;margin:0;font-size:13px;opacity:.85}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
 @media (max-width:560px){.ie-sub-row{flex-direction:column}.ie-sub-row button{width:100%}}
+
+[data-ql][hidden],[data-ql-note][hidden]{display:none!important}
