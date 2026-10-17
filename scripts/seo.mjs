@@ -33,7 +33,7 @@ export function seo(f,html,meta={}){
    `<meta property="og:type" content="${og}"><meta property="og:site_name" content="${esc(BRAND)}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${BASE}/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="${esc(BRAND)}"><meta property="og:locale" content="zh_CN">${["zh_TW","en_US","ja_JP","ko_KR","ms_MY","vi_VN","fr_FR","es_ES","de_DE"].map(l=>`<meta property="og:locale:alternate" content="${l}">`).join("")}`+
    `<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${BASE}/og.png">`+
    `<script type="application/ld+json">${ld}</script>`+
-   `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${CF_TOKEN}"}'></script><script defer src="https://stats.incidental.site/events.js" data-site="usage"></script><script defer src="https://stats.incidental.site/subscribe.js"></script>`;
+   `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${CF_TOKEN}"}'></script><script defer src="https://stats.incidental.site/events.js" data-site="usage"${/^(cases|stories)\/(?!index\.html).+\.html$/.test(f)?' data-goal="case_detail"':''}></script><script defer src="https://stats.incidental.site/subscribe.js"></script>`;
   PAGES.push([url,meta.lastmod||""]);
   return html.replace(/<link rel="alternate" hreflang="x-default" href="[^"]*">/,"").replace("</head>",head+"</head>");
 }
