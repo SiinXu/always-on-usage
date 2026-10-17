@@ -293,7 +293,7 @@ html[lang="zh-CN"] .cc-title .lcb[data-lc="zh-CN"],html[lang="zh-CN"] .story-hea
 .story-cta{margin:40px 0 0}
 @media (max-width:640px){.case.story{padding-inline:20px}.story .story-body{font-size:17px}.story-src{padding:16px}}
 .x-embed blockquote a{overflow-wrap:anywhere;word-break:break-all;font-size:13px;color:var(--muted)}
-.story .story-body blockquote{margin:0 0 1.4em;padding:12px 0 12px 18px;border-left:2px solid var(--accent);color:var(--muted);font-size:16px}
+.story .story-body blockquote{margin:0 0 1.4em;padding:12px 18px;border:1px solid var(--line);border-radius:12px;background:color-mix(in srgb,var(--ink) 4%,var(--surface));color:var(--muted);font-size:16px}
 
 /* ===== v9 motion-led viz (DESIGN_NOTES_VIZ) ===== */
 :root{--accent:#3B8BFF;--low:#3B8BFF;--bg:#07080A;--surface:#0E1013;--line:#1C1F24;--stage:#0B0C0F}
@@ -429,7 +429,7 @@ ul.steps{gap:10px}
 .post-fig .vid{position:relative;display:block}
 .post-fig .play{position:absolute;inset:0;margin:auto;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:rgba(0,0,0,.6);color:#fff;font-size:20px}
 .post-fig figcaption{font-size:13px;color:var(--muted)}
-.res-box{margin:18px 0 0;padding:16px 20px;border-left:3px solid var(--accent);background:color-mix(in srgb,var(--accent) 7%,var(--surface));border-radius:0 12px 12px 0}
+.res-box{margin:18px 0 0;padding:16px 20px;border:1px solid var(--line);background:color-mix(in srgb,var(--accent) 7%,var(--surface));border-radius:12px}
 .res-k{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
 .res-v{margin:0;font:600 clamp(19px,2vw,22px)/1.4 var(--font);color:var(--accent)}
 .code{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--surface)}
@@ -449,8 +449,11 @@ ul.steps{gap:10px}
  .story-wrap .case.story{margin:0;padding-inline:0}
  .toc{display:block;position:sticky;top:96px;align-self:start;margin-top:clamp(40px,7vw,96px);font-size:14px}
  .toc-k{margin:0 0 10px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+ /* allow-left-border: toc rail (nav) */
  .toc ol{list-style:none;margin:0;padding:0;display:grid;gap:8px;border-left:1px solid var(--line)}
+ /* allow-left-border: toc rail (nav) */
  .toc a{display:block;padding-left:14px;margin-left:-1px;border-left:1px solid transparent;color:var(--muted);text-decoration:none}
+ /* allow-left-border: toc rail (nav) */
  .toc a:hover,.toc a.on{color:var(--ink);border-left-color:var(--accent)}
 }
 .story section{scroll-margin-top:90px}
