@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1730 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1746 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-16T22:44:19.674Z
+- Last updated: 2026-10-20T22:41:56.857Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3152,6 +3152,71 @@
 - URL: https://usage.incidental.site/cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
+
+### Setting up a ChatGPT dot as a YouTube growth coach
+- URL: https://usage.incidental.site/cases/yt--i9csc3khis.html
+- Type: guide · Product: openai-dots · Author: Kevin Stratvert · Source: https://www.youtube.com/watch?v=-I9Csc3khis · Date: 2026-10-20
+- Summary: Kevin Stratvert's step-by-step tutorial: create and customize a dot, connect apps such as vidIQ, give it a channel-growth goal, review the plan and scheduled updates, collaborate in Spaces and Pages, give feedback on a voice call, and check the next day's results. Sponsored by OpenAI.
+
+### 7 practical use cases for Meta Muse
+- URL: https://usage.incidental.site/cases/yt-hhfsbdclqyi.html
+- Type: guide · Product: meta-muse · Author: Paul J Lipsky · Source: https://www.youtube.com/watch?v=HhfSBDcLQYI · Date: 2026-10-20
+- Summary: Paul J Lipsky shows how to set up Meta Muse and seven ways to use it, including a daily morning briefing, saving money on deals, a personal shopper, restaurant reservations, goal tracking, and a newsfeed for ideas. His advice: start with one task you've been putting off. Sponsored by Reception.ai.
+
+### Meta Muse tutorial: one user had it build a warehouse system
+- URL: https://usage.incidental.site/cases/yt-oblo2f1xbgo.html
+- Type: guide · Product: meta-muse · Author: Tips&Tricks Tutorials · Source: https://www.youtube.com/watch?v=oBLo2F1Xbgo · Date: 2026-10-20
+- Summary: The tutorial covers how Muse differs from a chatbot, its own cloud computer and browser, getting started on web, phone and Mac, and connecting Gmail, Calendar and other apps. It shows a warehouse management system, a POS and ledger apps that Muse built for one user. The channel says Muse researched, scripted and produced the video itself, and it ends with Muse's limits.
+
+### Grok Bot turned 20 years of online orders into one sheet
+- URL: https://usage.incidental.site/cases/x-tsak70-2112673503870849451.html
+- Type: field-case · Product: grok-bot · Author: TSak70 · Source: https://x.com/TSak70/status/2112673503870849451 · Date: 2026-10-20
+- Summary: The author says their Grok Bot turned about 20 years of online orders, more than 2,100 of them, into one clean, searchable sheet, and calls batch work where these bots shine.
+
+### A Grok Bot whose only job is a project hub
+- URL: https://usage.incidental.site/cases/x-bjjanon2222-2112673279613784277.html
+- Type: field-case · Product: grok-bot · Author: BJJAnon2222 · Source: https://x.com/BJJAnon2222/status/2112673279613784277 · Date: 2026-10-20
+- Summary: Running many Grok Bots got messy, so the author made one whose only job is keeping a private project hub current. Every bot sends it a short note when it ships something, the hub refreshes once a day, and one page shows what's done and what's next. A template is shared.
+
+### Don't build a bot team on day one: one topic, one bot
+- URL: https://usage.incidental.site/cases/x-andresruggiero3-2112671200291811680.html
+- Type: guide · Product: grok-bot · Author: AndresRuggiero3 · Source: https://x.com/AndresRuggiero3/status/2112671200291811680 · Date: 2026-10-20
+- Summary: The author calls it the most common Grok Bot overcomplication: separate bills, subscriptions, budget and reminder bots for home finances. One money bot can find subscriptions, flag unused ones, remind you before bills are due and send a weekly summary. It keeps all the context, uses fewer tokens and has one set of instructions. Split only when the job is genuinely different.
+
+### Bringing Grok Bot-style email draft cards to Hermes
+- URL: https://usage.incidental.site/cases/x-arsik21921-2112670417798533338.html
+- Type: field-case · Product: grok-bot · Author: arsik21921 · Source: https://x.com/arsik21921/status/2112670417798533338 · Date: 2026-10-20
+- Summary: After Grok Bot shipped email draft cards, the author built an open-source plugin for Hermes: the agent drafts, you get a card, revisions highlight what changed, you can edit inline, and nothing sends until you press Send.
+
+### One person runs 7 YouTube channels with a Grok Bot team
+- URL: https://usage.incidental.site/cases/x-ashnichrist-2112669769077789026.html
+- Type: field-case · Product: grok-bot · Author: ashnichrist · Source: https://x.com/ashnichrist/status/2112669769077789026 · Date: 2026-10-20
+- Summary: Alongside a full-time job, the author uses a team of bots to manage 7 YouTube channels and post 21 talking-head clips, 14 B-roll clips and 1 carousel a day. Roles include planning the day and locking scripts, finding viral trends, editing A- and B-roll, picking topics and editing each long-form channel, writing X copy, prepping a newsletter and a weekday news roundup, handling home busywork, Gmail and Calendar, tracking a Coast FIRE plan, and a bot that designs and fixes the other bots.
+
+### A Strava connector for Grok Bot
+- URL: https://usage.incidental.site/cases/x-naoise-2112669073498628375.html
+- Type: field-case · Product: grok-bot · Author: naoise · Source: https://x.com/naoise/status/2112669073498628375 · Date: 2026-10-20
+- Summary: The author built a Grok Bot connector for Strava that lets you connect your Grok Bot to your Strava account, and shared a link to it.
+
+### Give your busy bot a helper
+- URL: https://usage.incidental.site/cases/x-wheelerman-2112668934969209226.html
+- Type: guide · Product: grok-bot · Author: WheelerMan · Source: https://x.com/WheelerMan/status/2112668934969209226 · Date: 2026-10-20
+- Summary: The author's DNA bot, Helix, kept stalling: each bot gets one browser, so while Helix was busy on one site everything else waited. A second bot, Strand, now takes anything that needs a visual look in a browser and runs its own background tasks, so Helix gets more done at once.
+
+### Have your main bot audit token-hungry routines
+- URL: https://usage.incidental.site/cases/x-benenewton-2112668191700795603.html
+- Type: guide · Product: grok-bot · Author: BenENewton · Source: https://x.com/BenENewton/status/2112668191700795603 · Date: 2026-10-20
+- Summary: The author's tip: ask your main Grok Bot to have every bot report the routines that are using up tokens. You'll find ones that sounded cool when you built them and that you forgot about.
+
+### A 3D virtual pet game built in one day with Grok Bot, no code
+- URL: https://usage.incidental.site/cases/x-davidemasia3-2112667789597245675.html
+- Type: field-case · Product: grok-bot · Author: DavideMasia3 · Source: https://x.com/DavideMasia3/status/2112667789597245675 · Date: 2026-10-20
+- Summary: The author says they built AiGotchi, a full 3D virtual pet game, in one day with Grok Bot without writing code: 10 monsters that each evolve through 4 forms with their own tricks, 3D food with chewing animations, adventures, trick battles, a garden, hybrid breeding and mini-games, in English and Italian, with no AI inside the pet.
+
+### Put Grok Bot on your iPhone Action Button
+- URL: https://usage.incidental.site/cases/x-andresruggiero3-2112666949624930390.html
+- Type: guide · Product: grok-bot · Author: AndresRuggiero3 · Source: https://x.com/AndresRuggiero3/status/2112666949624930390 · Date: 2026-10-20
+- Summary: Five steps: open Settings and tap Action Button, swipe left to Shortcut, tap "Choose a Shortcut...", search "Grok bot", and pick "Start Voice Chat".
 
 ### Grok Bot blind-checks polls and edits the candidate list, no human in the loop
 - URL: https://usage.incidental.site/cases/gh-github-com-hebilicious-fr2027-forecaster-pull-5.html
@@ -8438,6 +8503,16 @@
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
 
+### For a work AI assistant, the author picks Grok Bot over dots
+- URL: https://usage.incidental.site/cases/x-shunsukenoway-2112673417812201883.html
+- Type: comparison · Product: openai-dots · Author: shunsuke_no_way · Source: https://x.com/shunsuke_no_way/status/2112673417812201883 · Date: 2026-10-20
+- Summary: The author's reasons: Grok Bot starts at $30 a month (dots from $100), you can add bots per role and run them in parallel, and it works with models other than Grok. Email and Slack replies and browser automation can be handed to it by voice.
+
+### Voice mode detail: who hangs up after goodbye
+- URL: https://usage.incidental.site/cases/x-rickye26-2112670544361586849.html
+- Type: comparison · Product: openai-dots · Author: rickye26 · Source: https://x.com/rickye26/status/2112670544361586849 · Date: 2026-10-20
+- Summary: The author compares voice mode: say goodbye to ChatGPT Dots and it says goodbye but stays on the line; say goodbye to Grok Bot and it says goodbye and hangs up. A tiny detail the author counts as a clear win for Grok Bot.
+
 ### Closing a self-hosted agent's gaps found by comparing it with Grok Bot and OpenAI Dots
 - URL: https://usage.incidental.site/cases/gh-github-com-armeria-sk-niwa-pull-2.html
 - Type: comparison · Product: multi · Author: Armeria-SK · Source: https://github.com/Armeria-SK/niwa/pull/2 · Date: 2026-10-16
@@ -8737,6 +8812,11 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### Vibe coding with Meta Muse on GitHub took usage from 2% to 40% in a day
+- URL: https://usage.incidental.site/cases/x-midnightbobarun-2112673320806068348.html
+- Type: quota-report · Product: meta-muse · Author: midnightbobarun · Source: https://x.com/midnightbobarun/status/2112673320806068348 · Date: 2026-10-20
+- Summary: After connecting Meta Muse to GitHub and vibe coding with it, the author's usage jumped from 2% to 40% in less than 24 hours. They add that it is surprisingly okay at coding.
 
 ### Dot cloud PC: Chrome shows download done but file missing
 - URL: https://usage.incidental.site/cases/gh-github-com-openai-codex-issues-54609.html
