@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1746 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1762 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-20T22:41:56.857Z
+- Last updated: 2026-10-21T12:42:18.906Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -614,6 +614,21 @@
 - /cases/grok-bot-templates-669.html: Grok Bot Templates (guide) <https://www.aibuilderclub.com/blog/grok-bot-templates>
 - /cases/how-to-use-grok-bot-670.html: How to Use Grok Bot (guide) <https://www.aibuilderclub.com/blog/grok-bot-guide>
 - /cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html: herdr-web-ui: watch always-on coding agents from your phone and browser (field-case) <https://github.com/devswha/herdr-web-ui>
+- /cases/x-yashhsm-2112883696181338262.html: ChatGPT Dots + Codex: a phone-first orchestrator setup (field-case) <https://x.com/yashhsm/status/2112883696181338262>
+- /cases/x-charlesscott-2112874833377665188.html: A monthly X visibility check run by Grok Bot (field-case) <https://x.com/CharlesScott/status/2112874833377665188>
+- /cases/x-todaykan-2112877017737974007.html: First week with Grok Bot: get two routines working first (guide) <https://x.com/TodayKan/status/2112877017737974007>
+- /cases/x-shuntian2026-2112884815016169916.html: Grok Bot lesson 1: what to do right after installing (guide) <https://x.com/shuntian2026/status/2112884815016169916>
+- /cases/x-kw2erob-2112884970284818882.html: A Grok Bot working as a personal finance manager (field-case) <https://x.com/KW2E_Rob/status/2112884970284818882>
+- /cases/x-protonjan-2112883789177483278.html: What one Grok Bot did in a week (field-case) <https://x.com/ProtonJan/status/2112883789177483278>
+- /cases/x-michaelgannotti-2112880538516124002.html: A second music video from a self-built Grok Bot Video Studio (field-case) <https://x.com/MichaelGannotti/status/2112880538516124002>
+- /cases/x-tommithetechie-2112876808131449222.html: A retro-computer 3D trading card built by Grok Bot in Blender (field-case) <https://x.com/tommithetechie/status/2112876808131449222>
+- /cases/x-unihiker-2112722559523598586.html: UNIHIKER K10 now works with Meta Muse (guide) <https://x.com/UNIHIKER/status/2112722559523598586>
+- /cases/x-aetheron0x-2112879201057735139.html: FPV barrel roll and dolly zoom shots generated with Meta Muse (field-case) <https://x.com/Aetheron_0x/status/2112879201057735139>
+- /cases/x-robodenis-2112885154142150907.html: An indie game boss escort built with Grok Bot (field-case) <https://x.com/robo_denis/status/2112885154142150907>
+- /cases/gh-github-com-zeke-dots-on-cloudflare.html: dots-on-cloudflare: an always-on personal agent on Cloudflare (field-case) <https://github.com/zeke/dots-on-cloudflare>
+- /cases/gh-github-com-xianjia95-oss-muse-wechat-clawbot.html: muse-wechat-clawbot: connecting Meta Muse to WeChat ClawBot (field-case) <https://github.com/xianjia95-oss/muse-wechat-clawbot>
+- /cases/gh-github-com-jamespendry-send-to-grok-bot-pull-31.html: iPhone Shortcut now sends to Grok Bot through the share sheet (field-case) <https://github.com/jamespendry/send-to-grok-bot/pull/31>
+- /cases/gh-github-com-mawwalker-infostation-pull-1.html: InfoStation adds a Grok Bot handoff mode and X posts as a source (field-case) <https://github.com/mawwalker/infostation/pull/1>
 - /cases/yt--i9csc3khis.html: Setting up a ChatGPT dot as a YouTube growth coach (guide) <https://www.youtube.com/watch?v=-I9Csc3khis>
 - /cases/yt-hhfsbdclqyi.html: 7 practical use cases for Meta Muse (guide) <https://www.youtube.com/watch?v=HhfSBDcLQYI>
 - /cases/yt-oblo2f1xbgo.html: Meta Muse tutorial: one user had it build a warehouse system (guide) <https://www.youtube.com/watch?v=oBLo2F1Xbgo>
@@ -1746,6 +1761,7 @@
 - /cases/forum-cloud-agents-from-grok-bot-spend-team-cloud-credits-45.html: Forum: Cloud Agents from Grok Bot spend Team Cloud Credits (quota-report) <https://forum.cursor.com/t/cloud-agents-by-grokbot-using-team-cloud-credits-instead-of-personal-usage/173419>
 - /cases/forum-request-for-usage-broken-down-by-bot-and-category-read-46.html: Forum: request for usage broken down by Bot and category, readable by Bots (quota-report) <https://forum.cursor.com/t/breakdown-in-the-app-by-bot-and-category-and-the-same-data-available-to-bots/173936>
 - /cases/ray-fernando-s-clippy-cto-47.html: Ray Fernando's Clippy CTO (quota-report) <https://www.youtube.com/watch?v=kAR91DlnCKQ>
+- /cases/x-gippp69-2112878801633861648.html: Grok Bot routines: every 5 minutes vs hourly (quota-report) <https://x.com/gippp69/status/2112878801633861648>
 - /cases/x-midnightbobarun-2112673320806068348.html: Vibe coding with Meta Muse on GitHub took usage from 2% to 40% in a day (quota-report) <https://x.com/midnightbobarun/status/2112673320806068348>
 - /cases/gh-github-com-openai-codex-issues-54609.html: Dot cloud PC: Chrome shows download done but file missing (quota-report) <https://github.com/openai/codex/issues/54609>
 - /cases/x-predictivemoney-2110723292768186738.html: Google banned the bot’s Gmail “for being a bot” (quota-report) <https://x.com/Predictivemoney/status/2110723292768186738>

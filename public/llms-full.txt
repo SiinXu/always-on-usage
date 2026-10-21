@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1746 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1762 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-20T22:41:56.857Z
+- Last updated: 2026-10-21T12:42:18.906Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3152,6 +3152,81 @@
 - URL: https://usage.incidental.site/cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
+
+### ChatGPT Dots + Codex: a phone-first orchestrator setup
+- URL: https://usage.incidental.site/cases/x-yashhsm-2112883696181338262.html
+- Type: field-case · Product: openai-dots · Author: yashhsm · Source: https://x.com/yashhsm/status/2112883696181338262 · Date: 2026-10-21
+- Summary: The author uses ChatGPT Dots as an orchestrator agent alongside Codex. As a mobile-first user, they send voice notes, screenshots, random ideas, work problems and life admin from their phone into a single Dots chat. The remaining steps are not in the captured excerpt.
+
+### A monthly X visibility check run by Grok Bot
+- URL: https://usage.incidental.site/cases/x-charlesscott-2112874833377665188.html
+- Type: field-case · Product: grok-bot · Author: CharlesScott · Source: https://x.com/CharlesScott/status/2112874833377665188 · Date: 2026-10-21
+- Summary: The author gave Grok Bot a new job inside their morning X digest: on the first weekday of each month it checks that the account is public and not withheld, that posts and replies show up in search, whether any sensitive or withheld flags exist, and reply reach versus last month.
+
+### First week with Grok Bot: get two routines working first
+- URL: https://usage.incidental.site/cases/x-todaykan-2112877017737974007.html
+- Type: guide · Product: grok-bot · Author: TodayKan · Source: https://x.com/TodayKan/status/2112877017737974007 · Date: 2026-10-21
+- Summary: The author says the easiest beginner mistake is building 20 bots at once. In week one they pinned only two things: an afternoon daily-post routine and an evening review routine, to prove the loop of the bot waking itself, writing files and them only reading results before trying multi-bot work. They point to a four-step roadmap post as a table of contents.
+
+### Grok Bot lesson 1: what to do right after installing
+- URL: https://usage.incidental.site/cases/x-shuntian2026-2112884815016169916.html
+- Type: guide · Product: grok-bot · Author: shuntian2026 · Source: https://x.com/shuntian2026/status/2112884815016169916 · Date: 2026-10-21
+- Summary: The author wrote a first beginner lesson on what to do after installing Grok Bot. First, turn off computer permissions you don't need: the desktop app has two switches, run on this computer and route traffic through this computer, so keep them off until needed. Second, give the bot a job description: what it does, what it delivers, where it delivers it, and when it must stop and ask you. The third step is not in the excerpt.
+
+### A Grok Bot working as a personal finance manager
+- URL: https://usage.incidental.site/cases/x-kw2erob-2112884970284818882.html
+- Type: field-case · Product: grok-bot · Author: KW2E_Rob · Source: https://x.com/KW2E_Rob/status/2112884970284818882 · Date: 2026-10-21
+- Summary: The author says they have a finance-manager Grok Bot that sends a report every morning, monitors spending, watches for unusual charges, and helps plan debt payoff and savings. It draws on their bank, X, investments and more. The rest of the post is not in the excerpt.
+
+### What one Grok Bot did in a week
+- URL: https://usage.incidental.site/cases/x-protonjan-2112883789177483278.html
+- Type: field-case · Product: grok-bot · Author: ProtonJan · Source: https://x.com/ProtonJan/status/2112883789177483278 · Date: 2026-10-21
+- Summary: The author lists their Grok Bot's week: it built 3 full websites, registered and paid for two new domains for upcoming sites by itself, and made a first YouTube Short from scratch with script, voiceover and sound effects all done in code, for barely 2% of weekly usage.
+
+### A second music video from a self-built Grok Bot Video Studio
+- URL: https://usage.incidental.site/cases/x-michaelgannotti-2112880538516124002.html
+- Type: field-case · Product: grok-bot · Author: MichaelGannotti · Source: https://x.com/MichaelGannotti/status/2112880538516124002 · Date: 2026-10-21
+- Summary: The author made a second music video with the Grok Bot Video Studio they built, and shares its backstory: in late February they were working with their first autonomous AI agent, then an OpenClaw-based agent, and the idea traces back to its nightly research. The rest of the post is not in the excerpt.
+
+### A retro-computer 3D trading card built by Grok Bot in Blender
+- URL: https://usage.incidental.site/cases/x-tommithetechie-2112876808131449222.html
+- Type: field-case · Product: grok-bot · Author: tommithetechie · Source: https://x.com/tommithetechie/status/2112876808131449222 · Date: 2026-10-21
+- Summary: To show off retro machines in a fancier way, the author's first draft is a 3D model that their Grok Bot built in Blender, spinning inside a trading card. They say it is still a bit rough and they are figuring it out.
+
+### UNIHIKER K10 now works with Meta Muse
+- URL: https://usage.incidental.site/cases/x-unihiker-2112722559523598586.html
+- Type: guide · Product: meta-muse · Author: UNIHIKER · Source: https://x.com/UNIHIKER/status/2112722559523598586 · Date: 2026-10-21
+- Summary: UNIHIKER says its ESP32-S3-powered K10 board now works with Meta Muse as a physical AI companion: talk with the AI and see replies on the K10 screen, capture images for object identification, share real-time sensor readings, and get proactive alerts based on environmental conditions.
+
+### FPV barrel roll and dolly zoom shots generated with Meta Muse
+- URL: https://usage.incidental.site/cases/x-aetheron0x-2112879201057735139.html
+- Type: field-case · Product: meta-muse · Author: Aetheron_0x · Source: https://x.com/Aetheron_0x/status/2112879201057735139 · Date: 2026-10-21
+- Summary: The author made two clips with Meta Muse from prompts alone, an FPV barrel roll and a Hitchcock dolly zoom, with no drone or camera, and shared both prompts. They script each second: skimming low over an alpine meadow, a full 360-degree roll over a turquoise lake, rising toward snowy peaks, with only wind audio and no narration or music.
+
+### An indie game boss escort built with Grok Bot
+- URL: https://usage.incidental.site/cases/x-robodenis-2112885154142150907.html
+- Type: field-case · Product: grok-bot · Author: robo_denis · Source: https://x.com/robo_denis/status/2112885154142150907 · Date: 2026-10-21
+- Summary: The author is building the indie game Fox Two Protocol together with Grok Bot. The latest change gives the boss an escort: its bomb bays now hold a pack of single-engine strike drones that pour out mid-fight, keeping the same paint and nozzles.
+
+### dots-on-cloudflare: an always-on personal agent on Cloudflare
+- URL: https://usage.incidental.site/cases/gh-github-com-zeke-dots-on-cloudflare.html
+- Type: field-case · Product: openai-dots · Author: zeke · Source: https://github.com/zeke/dots-on-cloudflare · Date: 2026-10-21
+- Summary: An open repository by zeke exploring an always-on personal agent like OpenAI Dots, built on Cloudflare. The repo description says only this and reports no results yet.
+
+### muse-wechat-clawbot: connecting Meta Muse to WeChat ClawBot
+- URL: https://usage.incidental.site/cases/gh-github-com-xianjia95-oss-muse-wechat-clawbot.html
+- Type: field-case · Product: meta-muse · Author: xianjia95-oss · Source: https://github.com/xianjia95-oss/muse-wechat-clawbot · Date: 2026-10-21
+- Summary: An open-source lightweight bridge between Meta Muse and WeChat ClawBot: text in and out, returning generated images and videos, task routing, send de-duplication and timing logs. Built on Tencent's iLink protocol in Node.js, MIT licensed.
+
+### iPhone Shortcut now sends to Grok Bot through the share sheet
+- URL: https://usage.incidental.site/cases/gh-github-com-jamespendry-send-to-grok-bot-pull-31.html
+- Type: field-case · Product: grok-bot · Author: jamespendry · Source: https://github.com/jamespendry/send-to-grok-bot/pull/31 · Date: 2026-10-21
+- Summary: A PR in send-to-grok-bot: the grokbot:// link only opened Grok Bot's home screen, so copied messages never reached a chat. The Shortcut now copies the message and opens the share sheet, where you tap Grok Bot, pick a chat and tap Attach. The iPhone page, README and BUILD.md were updated, the Shortcut re-signed and tests pass.
+
+### InfoStation adds a Grok Bot handoff mode and X posts as a source
+- URL: https://usage.incidental.site/cases/gh-github-com-mawwalker-infostation-pull-1.html
+- Type: field-case · Product: grok-bot · Author: mawwalker · Source: https://github.com/mawwalker/infostation/pull/1 · Date: 2026-10-21
+- Summary: A PR that lets Grok Bot run InfoStation on a schedule without an HTTP LLM API: each LLM call writes a request file with the full prompt and JSON schema and exits, the agent writes the answer, and the same run validates it and continues. X posts can feed story selection and scripts with attribution, while numbers found only in tweets are excluded from fact-checking. Premarket runs CPU-only.
 
 ### Setting up a ChatGPT dot as a YouTube growth coach
 - URL: https://usage.incidental.site/cases/yt--i9csc3khis.html
@@ -8812,6 +8887,11 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### Grok Bot routines: every 5 minutes vs hourly
+- URL: https://usage.incidental.site/cases/x-gippp69-2112878801633861648.html
+- Type: quota-report · Product: grok-bot · Author: gippp69 · Source: https://x.com/gippp69/status/2112878801633861648 · Date: 2026-10-21
+- Summary: The author warns that the same bot doing the same job can cost 12x more depending on frequency. A watcher firing every 5 minutes wakes 8,640 times a month, about $397 at Grok 4.6 API rates; the hourly version is near $33. A link to ways to cut the cost is attached.
 
 ### Vibe coding with Meta Muse on GitHub took usage from 2% to 40% in a day
 - URL: https://usage.incidental.site/cases/x-midnightbobarun-2112673320806068348.html

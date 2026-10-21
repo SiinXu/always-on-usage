@@ -8457,5 +8457,60 @@
   ],
   "kind": "github",
   "fetched_at": "2026-10-16"
+ },
+ "https://github.com/zeke/dots-on-cloudflare": {
+  "text": "An exploration of how to build an always-on personal agent, similar to OpenAI's dots, on Cloudflare. Each person gets one long-lived agent that owns ongoing work, has its own sandboxed computer and browser, connects to MCP servers and tools like GitHub, and can be reached through web chat, messaging, or voice.",
+  "media": [],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
+ },
+ "https://github.com/xianjia95-oss/muse-wechat-clawbot": {
+  "text": "仓库：muse-wechat-clawbot。使用 MIT 许可证，允许使用、修改、分发和商用；分发时须保留版权及许可声明。项目独立开发，与 Meta、腾讯及 OpenClaw 无官方隶属或背书关系。",
+  "media": [],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
+ },
+ "https://github.com/jamespendry/send-to-grok-bot/pull/31": {
+  "text": "Send any post on X to your AI with one click.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/jamespendry/send-to-grok-bot/HEAD/docs/img/chrome-devmode.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/jamespendry/send-to-grok-bot/HEAD/docs/img/chrome-load-unpacked.png"
+   }
+  ],
+  "outline": [
+   "Download it. Click Download the extension.",
+   "Unzip it. Open your Downloads folder and double-click send-to-grok-bot.zip. You get a folder called send-to-grok-bot. Leave it there. On Windows, right-click…",
+   "Open Chrome's extensions page. Copy this, paste it into the address bar at the top of Chrome, and press Enter:",
+   "Turn on Developer mode, then click Load unpacked. Developer mode is a switch at the top right of that page. It lets Chrome load an extension from a folder on…",
+   "Refresh. A card named Send to Grok Bot now shows on the extensions page. If you have x.com open, refresh it so the button appears.",
+   "Send Grok Bot this line. Paste it into any Grok Bot chat:",
+   "Open the routine. Click the bot's name at the top of the chat. Under Routines, click Send to Grok Bot.",
+   "Copy two lines into the connect page. Open sendtogrokbot.com/connect."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
+ },
+ "https://github.com/mawwalker/infostation/pull/1": {
+  "text": "每个交易日自动出两期内容：",
+  "media": [],
+  "outline": [
+   "必须：在 .env 里填 SEC_USER_AGENT=\"你的名字 你的邮箱\"。SEC 要求请求带联系方式，否则可能封 IP。",
+   "建议：改 config/config.yaml 的 brand，填频道中英文名和 @账号。",
+   "建议：往 assets/music/ 放几首免版税背景音乐（YouTube 音频库里选“无需署名”的）。不放就是纯人声。",
+   "可选：选一个喜欢的音色。试听 voices/audition/，方法见下文「换配音音色」。",
+   "打开 runs/_premarket/review.md，确认数字核对是 ✅。",
+   "按 upload/zh/x_thread.md、upload/en/x_thread.md 发推，[image: cards/xxx.png] 处附上对应图卡。",
+   "开盘前发完：盘前报价变化快，开盘后就过时了。",
+   "打开 runs/_recap/review.md，看三件事："
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
  }
 }

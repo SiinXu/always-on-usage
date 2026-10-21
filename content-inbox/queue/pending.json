@@ -27728,19 +27728,6 @@
    "found_at": "2026-10-21T04:57:46.510Z"
   },
   {
-   "id": "gh:github.com/zeke/dots-on-cloudflare",
-   "url": "https://github.com/zeke/dots-on-cloudflare",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "zeke",
-   "date": "2026-10-21",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "zeke/dots-on-cloudflare\nExploring an always-on personal agent, like OpenAI dots, built on Cloudflare",
-   "media": [],
-   "found_at": "2026-10-21T04:57:46.510Z"
-  },
-  {
    "id": "gh:github.com/williamproctor/will-s-workspace/pull/19",
    "url": "https://github.com/williamproctor/Will-s-Workspace/pull/19",
    "source": "github",
@@ -27804,19 +27791,6 @@
    "text": "matuck40/rag-chatbot\nA retrieval-augmented generation API: a FastAPI service that splits a Markdown knowledge base into sections, embeds them with the OpenAI embeddings API, ranks them in memory by dot-product similarity, answers questions with gpt-4o-mini grounded on the three best-matching chunks, and stores each conversation in PostgreSQL.\nalembic embeddings fastapi llm openai postgresql python rag retrieval-augmented-generation",
    "media": [],
    "found_at": "2026-10-21T04:58:15.443Z"
-  },
-  {
-   "id": "gh:github.com/xianjia95-oss/muse-wechat-clawbot",
-   "url": "https://github.com/xianjia95-oss/muse-wechat-clawbot",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "xianjia95-oss",
-   "date": "2026-10-21",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "xianjia95-oss/muse-wechat-clawbot\nMeta Muse 对接微信 ClawBot 的轻量桥：文字收发、生成图片与视频回传、任务路由、发送去重和耗时记录。基于腾讯 iLink 协议，MIT 开源。\nclawbot ilink muse nodejs wechat",
-   "media": [],
-   "found_at": "2026-10-21T04:58:30.077Z"
   },
   {
    "id": "gh:github.com/kurrent-io/kcap-cli/pull/1751",
@@ -28300,19 +28274,6 @@
    "found_at": "2026-10-21T04:59:20.781Z"
   },
   {
-   "id": "gh:github.com/jamespendry/send-to-grok-bot/pull/31",
-   "url": "https://github.com/jamespendry/send-to-grok-bot/pull/31",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "jamespendry",
-   "date": "2026-10-21",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "iPhone: send to Grok Bot through its share sheet\ngrokbot:// only opens Grok Bot's home screen (seen in James's 2026-10-21 recording), so the copied message never reached a chat. The Shortcut now copies the message and opens the share sheet: tap Grok Bot, pick a chat, tap Attach. iPhone page, README and BUILD.md updated; Shortcut re-signed; tests pass.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)",
-   "media": [],
-   "found_at": "2026-10-21T04:59:20.781Z"
-  },
-  {
    "id": "gh:github.com/microsoft/winget-pkgs/pull/457321",
    "url": "https://github.com/microsoft/winget-pkgs/pull/457321",
    "source": "github",
@@ -28753,19 +28714,6 @@
    "text": "docs(notes): restore OpenCode harness, clarify Cursor cloud agents\n## What\n\n- **Restores OpenCode under Harnesses** (reversing its removal in #349). It runs Muse Wonder, and it is also how the local model fits the loop: OpenCode talks to llama.cpp on the RTX 3090 PC serving Qwen3.8-27B at Q4_K_M quantization. Restores the deleted `public/icons/tools/opencode.ai.png` from before #349.\n- **Keeps Cursor under Harnesses, reframed as its cloud agents.** Reasoning: a harness is the agent loop that inspects a repo, edits, and runs checks. Cursor's cloud agents do exactly that, in the cloud — Grok Bot is the interface they are dispatched through, not the harness. So the Cursor entry no longer claims the editor or Muse Wonder, and the Grok Bot (Interfaces) entry now notes it dispatches Cursor's agents.\n- **T3 Code note** now lists the four harnesses it actually drives (Claude Code, Codex, Grok Build, OpenCode) and calls out Cursor-via-Grok-Bot as the exception. OG diagram node swaps Cursor → OpenCode to match.\n- Bumps `fieldNotesLastUpdated` to 2026-10-21.\n\n## Checks\n\n- `pnpm check` — lint, TypeScript, 18 Jest suites / 128 tests pass.",
    "media": [],
    "found_at": "2026-10-21T12:00:35.082Z"
-  },
-  {
-   "id": "gh:github.com/mawwalker/infostation/pull/1",
-   "url": "https://github.com/mawwalker/infostation/pull/1",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "mawwalker",
-   "date": "2026-10-21",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Add grokbot LLM handoff and X posts as a source\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nGrok Bot can operate InfoStation on a schedule without an HTTP LLM API, and X posts can feed story selection and scripts.\n\n## LLM handoff (`agy` stays the default)\n\n`llm.provider: grokbot`, `INFOSTATION_LLM=grokbot`, or `--llm grokbot`. Each LLM call writes `runs/<id>/handoff/<name>.request.json` (full prompt + JSON schema) and exits **75**. The agent writes the response; the same `infostation run` validates it and continues. Schema errors exit **76** and name the broken fields. A valid answer is cached under `runs/<id>/llm/<name>/result.json`, so a fact-check rewrite or shortening pass is a separate handoff. Fact-check still runs on grokbot-written copy.\n\n`infostation handoff status|list|path|submit` is the operator loop. Full premarket and recap steps, file schemas, and CPU-only setup are in `docs/GROKBOT.md` (linked from README and AGENTS.md).\n\n## X as a source\n\n- Agent file: `runs/<id>/inputs/x_posts.json` (optional `x.inbox`). In grokbot mode, collect/screen first writes `handoff/x_request.json` with cashtags, accounts, and the time window, then waits until that file exists.\n- Optional collector: X API v2 recent search only when `X_BEARER_TOKEN` is set. Unset → `x_api` is **skipped** in doctor and `review.md`, not failed.\n- Buzz is a screening score term. Posts are quotable context in the editor/script/thread prompts, with attribution. `review.md` lists the posts that were fed in. Numbers that appear only in tweets (or like/follower counts) are excluded from fact-check.\n\n## CPU-only premarket\n\nPremarket never calls IndexTTS, Whisper, or ComfyUI. `doctor` warns on a missing GPU / IndexTTS instead of failing. Recap voice still needs a GPU, or `tts.provider: edge`.\n\n## Fixes from the 2026-10-21 grokbot premarket run\n\n- `run --force`",
-   "media": [],
-   "found_at": "2026-10-21T12:00:35.083Z"
   },
   {
    "id": "gh:github.com/0xrayai/xray/pull/511",
@@ -29591,21 +29539,6 @@
    "found_at": "2026-10-21T12:37:35.958Z"
   },
   {
-   "id": "x:2112885154142150907",
-   "url": "https://x.com/robo_denis/status/2112885154142150907",
-   "source": "x",
-   "source_name": "X",
-   "author": "robo_denis",
-   "date": "2026-10-21",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "The Fox Two Protocol boss is getting an escort 🦊✈️ Its bomb bays now hold a pack of single-engine strike drones that pour out mid-fight. Same paint, same nozzles, same bad attitude. Still building it together with Grok Bot 🤝 #FoxTwoProtocol #gamedev #indiedev https://t.co/uvBlxVF53B https://t.co/2Sb3xuGbOy",
-   "media": [
-    "https://pbs.twimg.com/media/HVJ5aWEXkAAEz_r.png"
-   ],
-   "found_at": "2026-10-21T12:37:35.958Z"
-  },
-  {
    "id": "x:2112885147708346755",
    "url": "https://x.com/mekus_nft/status/2112885147708346755",
    "source": "x",
@@ -29669,19 +29602,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@alexlikesgtrs @ZenithcoreAi Grok Bot is real. It gives always-on agents their own cloud computer that can research niches via X/web, build and publish pages, handle email inboxes, run scheduled routines, and work while your laptop is closed. Users do set up directory-style sites and affiliate flows this",
-   "media": [],
-   "found_at": "2026-10-21T12:37:35.958Z"
-  },
-  {
-   "id": "x:2112884970284818882",
-   "url": "https://x.com/KW2E_Rob/status/2112884970284818882",
-   "source": "x",
-   "source_name": "X",
-   "author": "KW2E_Rob",
-   "date": "2026-10-21",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@BrianRoemmele I already have a finance manager Grok Bot that takes care of all this for me. It sends me a nice report every morning, monitors my spending, looks out for charges that are unusual, helps me plan paying debt, and increasing savings. Everything from my bank, X, my investments and",
    "media": [],
    "found_at": "2026-10-21T12:37:35.958Z"
   },
@@ -29792,21 +29712,6 @@
    "found_at": "2026-10-21T12:37:35.958Z"
   },
   {
-   "id": "x:2112884815016169916",
-   "url": "https://x.com/shuntian2026/status/2112884815016169916",
-   "source": "x",
-   "source_name": "X",
-   "author": "shuntian2026",
-   "date": "2026-10-21",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "有人说该给 Grok Bot 开个新手课。我先写第 1 课：装完先做的 3 件事，按顺序做完，再让它干活。\n\n1. 关掉用不到的电脑权限\n桌面端有两个开关：“在这台电脑上执行”“经此电脑转发流量”。用不到就先关，要用的时候再开。\n\n2. 给它一份岗位说明\n干什么、交什么、交到哪、什么情况必须停下来问你。我的每个 https://t.co/G8dRJRChSD",
-   "media": [
-    "https://pbs.twimg.com/media/HVJ5ep0b0AABBwD.jpg"
-   ],
-   "found_at": "2026-10-21T12:37:35.959Z"
-  },
-  {
    "id": "x:2112884738171994459",
    "url": "https://x.com/teleportToGains/status/2112884738171994459",
    "source": "x",
@@ -29911,19 +29816,6 @@
    "found_at": "2026-10-21T12:37:35.959Z"
   },
   {
-   "id": "x:2112883789177483278",
-   "url": "https://x.com/ProtonJan/status/2112883789177483278",
-   "source": "x",
-   "source_name": "X",
-   "author": "ProtonJan",
-   "date": "2026-10-21",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@poteto @bot This week my GrokBot :\n\n🌴 Built out 3 full websites\n🌐 Registered and paid for two new domains for upcoming sites by itself\n🎬 Made first YouTube Short from scratch: script, voiceover, sound effects, all coded, for barely 2% of weekly usage\n+ much more",
-   "media": [],
-   "found_at": "2026-10-21T12:37:35.959Z"
-  },
-  {
    "id": "x:2112881501310443565",
    "url": "https://x.com/cyberde05/status/2112881501310443565",
    "source": "x",
@@ -29948,21 +29840,6 @@
    "text": "SpaceXAI's Grok Bot team put 10 of its own bot templates in the marketplace, and this is a f*c*ing goldmine\n\nyou don't write a system prompt from scratch, you import a setup built for one job, connect your tools, and adapt it\n\nthe 10:\n\n1. dr eggbot builds other Grok Bots. https://t.co/QbY6KUPPpA https://t.co/sUArO9KSS9",
    "media": [
     "https://pbs.twimg.com/amplify_video_thumb/2112865688519880704/img/-D-4Cvd0Lb-VSZBO.jpg"
-   ],
-   "found_at": "2026-10-21T12:37:35.959Z"
-  },
-  {
-   "id": "x:2112880538516124002",
-   "url": "https://x.com/MichaelGannotti/status/2112880538516124002",
-   "source": "x",
-   "source_name": "X",
-   "author": "MichaelGannotti",
-   "date": "2026-10-21",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "Made the second music video with the Grok Bot Video Studio I built and this one has a pretty interesting backstory. Way back in late February I was working with my first Autonomous AI agent @aionaedge at the time an OpenClaw Foundation AI. Among the nightly research that Aiona https://t.co/0Ik61JJvnt",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2112878509739708416/img/frPaMXUZ9Bepc6iA.jpg"
    ],
    "found_at": "2026-10-21T12:37:35.959Z"
   },
@@ -29995,21 +29872,6 @@
    "found_at": "2026-10-21T12:37:35.959Z"
   },
   {
-   "id": "x:2112878801633861648",
-   "url": "https://x.com/gippp69/status/2112878801633861648",
-   "source": "x",
-   "source_name": "X",
-   "author": "gippp69",
-   "date": "2026-10-21",
-   "likes": 33,
-   "product": "grok-bot",
-   "text": "grok bot routines will quietly eat your budget if you set them and forget them\n\nsame bot. same job. 12x the cost.\n\na watcher firing every 5 minutes wakes up 8,640 times a month. at grok 4.6 api rates that's around $397. the hourly version sits near $33\n\nhow to stop the bleed: https://t.co/sCwlZoGF2j https://t.co/fPYrAvf9Sp",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2112878678648434688/img/ebNnueZLCXnbIqXr.jpg"
-   ],
-   "found_at": "2026-10-21T12:37:35.959Z"
-  },
-  {
    "id": "x:2112878121850450037",
    "url": "https://x.com/KenTaylorBuilds/status/2112878121850450037",
    "source": "x",
@@ -30036,21 +29898,6 @@
    "found_at": "2026-10-21T12:37:35.959Z"
   },
   {
-   "id": "x:2112877017737974007",
-   "url": "https://x.com/TodayKan/status/2112877017737974007",
-   "source": "x",
-   "source_name": "X",
-   "author": "TodayKan",
-   "date": "2026-10-21",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "刚接触 Grok Bot，最容易的坑是一上来就搭 20 个 Bot。\n\n我第一周只钉了两件事：下午日更一条 Routine、晚上复盘一条 Routine。先跑通「它自己醒 → 写文件 → 我只看结果」，再谈多 Bot 协作。\n\n@cgnot996 这篇四步路线很适合当目录。你第一周先跑通了哪一步？ https://t.co/Ylh8mF4zzC https://t.co/EaE3cI8AYk",
-   "media": [
-    "https://pbs.twimg.com/media/HVJyaYia8AA4zdd.jpg"
-   ],
-   "found_at": "2026-10-21T12:37:35.959Z"
-  },
-  {
    "id": "x:2112876983222685977",
    "url": "https://x.com/SlowBooksPro/status/2112876983222685977",
    "source": "x",
@@ -30074,21 +29921,6 @@
    "product": "grok-bot",
    "text": "@buminduYR @poteto Sending that to your Grok Bot now. It’ll handle the full breakdown and workflow ideas for you.",
    "media": [],
-   "found_at": "2026-10-21T12:37:35.959Z"
-  },
-  {
-   "id": "x:2112876808131449222",
-   "url": "https://x.com/tommithetechie/status/2112876808131449222",
-   "source": "x",
-   "source_name": "X",
-   "author": "tommithetechie",
-   "date": "2026-10-21",
-   "likes": 4,
-   "product": "grok-bot",
-   "text": "I've not abandoned my love for retro tech! I'm learning how to make things fancier and shinier to show off more retro machines. This is my very first draft; a 3D model that my Grok @Bot built in Blender, spinning inside a trading card!\n\nIt's a bit rough, I'm still figuring out https://t.co/qPRePm44xN",
-   "media": [
-    "https://pbs.twimg.com/ext_tw_video_thumb/2112876791492661248/pu/img/mPCcmb6xDNOOaoDu.jpg"
-   ],
    "found_at": "2026-10-21T12:37:35.959Z"
   },
   {
@@ -30130,21 +29962,6 @@
    "product": "grok-bot",
    "text": "New to Grok Bot? Welcome. We write step-by-step family guides that set up your bot for the mental load: school dates, bills, meals, appointments. You approve everything. It never pays or sends without you.\nStart here for $7: https://t.co/CN69fbkkmO\nOther guides are 30% off with",
    "media": [],
-   "found_at": "2026-10-21T12:37:35.959Z"
-  },
-  {
-   "id": "x:2112874833377665188",
-   "url": "https://x.com/CharlesScott/status/2112874833377665188",
-   "source": "x",
-   "source_name": "X",
-   "author": "CharlesScott",
-   "date": "2026-10-21",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Gave my Grok Bot a new job: a monthly X visibility check, built into my morning X digest 🛰️\n\nOn the 1st weekday of each month it checks:\n✅ Account is public, not withheld\n🔍 My posts and replies show up in search\n🚩 Any sensitive or withheld flags\n📉 Reply reach vs last month https://t.co/fHVHbTX4cW",
-   "media": [
-    "https://pbs.twimg.com/media/HVJwblwXEAA82A6.jpg"
-   ],
    "found_at": "2026-10-21T12:37:35.959Z"
   },
   {
@@ -30240,22 +30057,6 @@
    "product": "meta-muse",
    "text": "보안 업체가 주소 조회 기록을 검색했더니 Meta 의 AI 비서 Muse 에서 공유한 대화 주소가 6,800개 넘게 나왔어\n주소 앞부분에 대화 제목이 들어가 있어서 링크를 못 받은 사람도 찾아 열 수 있었거든\nMeta 는 공유 기능을 멈췄어\n\n#Meta #Muse #보안",
    "media": [],
-   "found_at": "2026-10-21T12:37:35.960Z"
-  },
-  {
-   "id": "x:2112879201057735139",
-   "url": "https://x.com/Aetheron_0x/status/2112879201057735139",
-   "source": "x",
-   "source_name": "X",
-   "author": "Aetheron_0x",
-   "date": "2026-10-21",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "FPV barrel roll + Hitchcock dolly zoom. Both made with Meta Muse, no drone, no camera, just a prompt.\n\nDidn't expect it to look this real.\n\n#MetaAI #MuseVideo #AIVideo #FPV\nPrompts 👇\n\n1。FPV barrel roll: [ Realistic first-person flight footage, 10 seconds, vertical 9:16, ultra-wide-angle action camera look with slight lens distortion. 0-4 seconds: the camera skims fast and low over an alpine meadow of green grass and purple lupine flowers, just above the ground, weaving between tall spruce trees, with strong sense of speed and slight natural vibration. 4-7 seconds: it shoots out over a turquoise mountain lake and performs one smooth, full 360-degree barrel roll around its forward axis: the horizon tilts, the sky and the ground swap places, then the horizon rotates all the way back to level. 7-10 seconds: the camera stays level and flies steadily forward, rising gently toward distant snow-capped mountains. Deep blue sky, white cumulus clouds, cloud shadows on the meadow, natural sunlight, true-to-life colors, slightly overexposed sky, raw unedited footage, documentary style. No drone, no aircraft, no hands, no propellers visible in frame. Audio: only strong wind rush ambience. No voiceover, no dialogue, no narration, no music.]\n\n2。Dolly zoom: [Realistic aerial documentary footage, 10 seconds, Hitchcock dolly zoom (vertigo effect). The camera hovers about twenty meters above an alpine meadow, facing a distant snow-capped mountain, flying slowly and steadily forward while the lens gradually zooms out from telephoto to wide-angle. The snow mountain stays roughly the same size in the frame, always centered, while the nearby meadow, turquoise lake and spruce forest expand as the camera advances, the view growing wider, the space slowly stretching and the sense of depth increasing. Fixed camera direction, no rotation, no tilt up or down. Deep blue sky, white cumulus clouds, cloud shadows drifting across the land, natural sunlight, true-to-life colors, smooth continuous motion, raw footage look, documentary style. Audio: only soft natural wind ambience. No voiceover, no dialogue, no narration, no music.\n]",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2112878963429351424/img/mgosc3PXiKxzo_6F.jpg",
-    "https://pbs.twimg.com/amplify_video_thumb/2112878963433644032/img/VYBMj_y9AvBZwEI7.jpg"
-   ],
    "found_at": "2026-10-21T12:37:35.960Z"
   },
   {
@@ -30491,21 +30292,6 @@
    "product": "openai-dots",
    "text": "@252clubb @ConnorTalksAI Meta Muse has the best pricing—free tier (US/Canada only), then $20/$100. \nGrok Bot leads on features: multiple specialized bots that collaborate, learn from demos, and run parallel jobs on a shared cloud computer (from $30). \nChatGPT Dots offers 4k+ plugins and Codex but starts",
    "media": [],
-   "found_at": "2026-10-21T12:37:35.960Z"
-  },
-  {
-   "id": "x:2112722559523598586",
-   "url": "https://x.com/UNIHIKER/status/2112722559523598586",
-   "source": "x",
-   "source_name": "X",
-   "author": "UNIHIKER",
-   "date": "2026-10-21",
-   "likes": 4,
-   "product": "meta-muse",
-   "text": "🛠️ UNIHIKER K10 now works with Meta Muse!\n\nTurn your ESP32-S3-powered K10 into a physical AI companion:\n\n✨ Talk with AI and see replies on the K10 screen\n📷 Capture images for object identification\n🌡️ Share real-time sensor readings\n🔔 Get proactive alerts based on environmental https://t.co/CCME9ULczr",
-   "media": [
-    "https://pbs.twimg.com/media/HVHl7taacAA62zJ.jpg"
-   ],
    "found_at": "2026-10-21T12:37:35.960Z"
   },
   {
@@ -30779,19 +30565,6 @@
    "likes": 0,
    "product": "openai-dots",
    "text": "@yeluey If only I chose the queen back in 4.0 instead of Kafka E1 to make my dot team struggle a bit less...",
-   "media": [],
-   "found_at": "2026-10-21T12:37:35.961Z"
-  },
-  {
-   "id": "x:2112883696181338262",
-   "url": "https://x.com/yashhsm/status/2112883696181338262",
-   "source": "x",
-   "source_name": "X",
-   "author": "yashhsm",
-   "date": "2026-10-21",
-   "likes": 3,
-   "product": "openai-dots",
-   "text": "chatgpt dots with codex is literally a life cheat code\n\nhere’s my ridiculously simple setup\n\n1) dots is my orchestrator agent:\n\nbeing v mobile-native user: i keep sending it all voice notes, screenshots, random ideas, work problems or life admin from my phone\n\nthe single chat",
    "media": [],
    "found_at": "2026-10-21T12:37:35.961Z"
   },
