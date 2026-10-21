@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1762 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1781 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-21T12:42:18.906Z
+- Last updated: 2026-10-21T22:43:03.181Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3228,6 +3228,56 @@
 - Type: field-case · Product: grok-bot · Author: mawwalker · Source: https://github.com/mawwalker/infostation/pull/1 · Date: 2026-10-21
 - Summary: A PR that lets Grok Bot run InfoStation on a schedule without an HTTP LLM API: each LLM call writes a request file with the full prompt and JSON schema and exits, the agent writes the answer, and the same run validates it and continues. X posts can feed story selection and scripts with attribution, while numbers found only in tweets are excluded from fact-checking. Premarket runs CPU-only.
 
+### Grok Bot reads X lists for personalized news
+- URL: https://usage.incidental.site/cases/x-scobleizer-2112950764348014878.html
+- Type: field-case · Product: grok-bot · Author: Scobleizer · Source: https://x.com/Scobleizer/status/2112950764348014878 · Date: 2026-10-21
+- Summary: The author says he is now Grok Bot pilled: thanks to his 300,000 posts over 20 years on X, Grok knows him better than other bots such as Meta Muse, and now that Grok Bot can read lists it opens up personalized news capabilities.
+
+### Running 5 Grok Bots to scan X and send a morning brief
+- URL: https://usage.incidental.site/cases/x-anytwocardzz-2113000551483162923.html
+- Type: field-case · Product: grok-bot · Author: anytwocardzz · Source: https://x.com/anytwocardzz/status/2113000551483162923 · Date: 2026-10-21
+- Summary: The author runs 5 Grok Bots that scan X for posts worth replying to and people to connect with; one of them sends him a brief every morning. He expects Claude Duet to be able to do all of that too.
+
+### Tracking the space economy with a Grok Bot morning briefing
+- URL: https://usage.incidental.site/cases/x-drphiltill-2112859721862447378.html
+- Type: field-case · Product: grok-bot · Author: DrPhiltill · Source: https://x.com/DrPhiltill/status/2112859721862447378 · Date: 2026-10-21
+- Summary: The author shares space-economy items from that morning's Grok Bot briefing: SpaceX's first quarter as a public company beat estimates with $14.6 billion in revenue and $4.4 billion in profit, most spending now goes to AI computing, and the launch business roughly broke even.
+
+### kakao-dots-bridge: Dots drafts KakaoTalk work messages
+- URL: https://usage.incidental.site/cases/gh-github-com-dongwook0101-kakao-dots-bridge.html
+- Type: field-case · Product: openai-dots · Author: dongwook0101 · Source: https://github.com/dongwook0101/kakao-dots-bridge · Date: 2026-10-21
+- Summary: An experimental open-source project for macOS that creates event-driven KakaoTalk work-message drafts for ChatGPT Dots. Business use only, and draft-only by default.
+
+### dot-pet: a desktop pet with ChatGPT Dot speech bubbles
+- URL: https://usage.incidental.site/cases/gh-github-com-itsyennie-dot-pet.html
+- Type: field-case · Product: openai-dots · Author: itsyennie · Source: https://github.com/itsyennie/dot-pet · Date: 2026-10-21
+- Summary: An open-source Windows desktop companion: a floating character on screen that shows ChatGPT Dot messages as speech bubbles.
+
+### grokbot-bridge: call Grok Bot from Claude Code
+- URL: https://usage.incidental.site/cases/gh-github-com-lucioamor-grokbot-bridge.html
+- Type: field-case · Product: grok-bot · Author: lucioamor · Source: https://github.com/lucioamor/grokbot-bridge · Date: 2026-10-21
+- Summary: An open-source Claude Code plugin: a /grok command and skill fire a Cursor Automation webhook and read replies from a Drive or Slack outbox, for agent-to-agent work.
+
+### awesome-grokbots: a multilingual list of Grok Bot resources
+- URL: https://usage.incidental.site/cases/gh-github-com-spidermanrobin-awesome-grokbots.html
+- Type: guide · Product: grok-bot · Author: Spidermanrobin · Source: https://github.com/Spidermanrobin/awesome-grokbots · Date: 2026-10-21
+- Summary: A curated open-source list of Grok Bots, skills, MCP servers and guides in English, Chinese and Japanese; the author says every link is checked and every entry reviewed and attributed.
+
+### Have agents send a setup link instead of signing users up
+- URL: https://usage.incidental.site/cases/gh-github-com-guzus-agentbump-pull-26.html
+- Type: guide · Product: grok-bot · Author: guzus · Source: https://github.com/guzus/agentbump/pull/26 · Date: 2026-10-21
+- Summary: A Grok Bot without the AgentBump connector browsed the site, started signing its human up and reached for Sign in with Apple in its own browser. This PR makes agents create a setup link for the person to finish on their own iPhone. In evals, the Apple sign-up request went from 0/3 on main to 3/3, and two other prompts passed 2/2.
+
+### Letting Grok Bot or a Dot drive local Codex and Claude CLIs
+- URL: https://usage.incidental.site/cases/gh-github-com-snseam-harnessorbit-pull-14.html
+- Type: field-case · Product: multi · Author: Snseam · Source: https://github.com/Snseam/harnessorbit/pull/14 · Date: 2026-10-21
+- Summary: Phase one of HarnessOrbit's agent access layer: a remote personal agent such as Grok Bot or a Dot, without a shell, authenticates as a scoped principal, submits a job that runs the local Codex or Claude CLI in an isolated worktree, and polls status until a decision is needed. Includes hashed tokens, project and agent allowlists, rate limits, idempotent submits and a loopback-only MCP server.
+
+### grok-cats: a pixel-art world where Grok agents are cats
+- URL: https://usage.incidental.site/cases/gh-github-com-samsagewize-grok-cats.html
+- Type: field-case · Product: grok-bot · Author: samsagewize · Source: https://github.com/samsagewize/grok-cats · Date: 2026-10-21
+- Summary: An open-source cozy pixel-art world where cute cats are Grok agents, and other Grok bots can join as cats.
+
 ### Setting up a ChatGPT dot as a YouTube growth coach
 - URL: https://usage.incidental.site/cases/yt--i9csc3khis.html
 - Type: guide · Product: openai-dots · Author: Kevin Stratvert · Source: https://www.youtube.com/watch?v=-I9Csc3khis · Date: 2026-10-20
@@ -3292,6 +3342,31 @@
 - URL: https://usage.incidental.site/cases/x-andresruggiero3-2112666949624930390.html
 - Type: guide · Product: grok-bot · Author: AndresRuggiero3 · Source: https://x.com/AndresRuggiero3/status/2112666949624930390 · Date: 2026-10-20
 - Summary: Five steps: open Settings and tap Action Button, swipe left to Shortcut, tap "Choose a Shortcut...", search "Grok bot", and pick "Start Voice Chat".
+
+### A Dot with a $500 budget plans a whole afternoon
+- URL: https://usage.incidental.site/cases/x-alliekmiller-2112628684364591180.html
+- Type: field-case · Product: openai-dots · Author: alliekmiller · Source: https://x.com/alliekmiller/status/2112628684364591180 · Date: 2026-10-20
+- Summary: The author gave her Dot a $500 budget and 24 hours to plan an afternoon for her and a friend: pick the friend, ping them, coordinate a time, choose plans, book tickets and reservations, map commutes and send invites, with two constraints of her own.
+
+### Top 10 Grok Bot use cases (first two shown)
+- URL: https://usage.incidental.site/cases/x-coreyganim-2112663410043470281.html
+- Type: field-case · Product: grok-bot · Author: coreyganim · Source: https://x.com/coreyganim/status/2112663410043470281 · Date: 2026-10-20
+- Summary: The author lists his top 10 Grok Bot uses. The visible ones: a Chief of Staff bot he delegates to, which hands work to his other bots and catches conflicts such as a call overlapping a flight or a podcast invite with no recording link; and a Sunday week plan that runs every Sunday at 8am.
+
+### Meta Muse for e-commerce arbitrage: Greg Isenberg's walkthrough
+- URL: https://usage.incidental.site/cases/x-damidefi-2112590922076811749.html
+- Type: guide · Product: meta-muse · Author: DamiDefi · Source: https://x.com/DamiDefi/status/2112590922076811749 · Date: 2026-10-20
+- Summary: The post outlines a Greg Isenberg video: mine Facebook Groups and Marketplace for unmet demand, turn leads into a priced database, connect buyers and sellers with AI calls and texts, build your own group, Instagram page or storefront, then scale to owned distribution and vertical SaaS, using Muse for research, listings and outreach.
+
+### Meta Muse as a local service agency: the four-level play
+- URL: https://usage.incidental.site/cases/x-s1rozha-2112624904810135996.html
+- Type: guide · Product: meta-muse · Author: s1rozha_ · Source: https://x.com/s1rozha_/status/2112624904810135996 · Date: 2026-10-20
+- Summary: Pick a city and niche, find buyers asking for help and qualified providers in Facebook Groups, Marketplace and Instagram, clean and rank the data, match both sides and take a success fee. Example: night nurses in Montreal under $30/hour. Costs: free Muse tier, the $100/month plan, about $15 for a Bland AI phone plan. Limit: Muse won't find the best source on its own; you must tell it where to search and what to prioritize.
+
+### How an always-on agent is built: Lee Robinson's Grok Bot example
+- URL: https://usage.incidental.site/cases/x-shuizhuyu-2112480607406301251.html
+- Type: guide · Product: grok-bot · Author: shuizhuyu · Source: https://x.com/shuizhuyu/status/2112480607406301251 · Date: 2026-10-20
+- Summary: Notes on Lee Robinson's Stanford CS146S lecture: AI coding assistants stop when you close the laptop; an always-on agent instead runs on a cloud server with its own Linux computer and works in the background like a colleague rather than a chat box.
 
 ### Grok Bot blind-checks polls and edits the candidate list, no human in the loop
 - URL: https://usage.incidental.site/cases/gh-github-com-hebilicious-fr2027-forecaster-pull-5.html
@@ -3538,6 +3613,11 @@
 - Type: guide · Product: grok-bot · Author: kanning_m · Source: https://x.com/kanning_m/status/2111214259812360270 · Date: 2026-10-16
 - Summary: The author maps Tim Ferriss’s 12 rules from The 4-Hour Workweek on outsourcing an inbox to human VAs directly onto an AI Grok Bot squad, and teases a playbook for autonomous bots that do not ping constantly. This post is the thread opener.
 
+### ChatGPT Dots automates 10 SEO tasks in a day
+- URL: https://usage.incidental.site/cases/x-thecoolestcool-2111109929578983933.html
+- Type: field-case · Product: openai-dots · Author: TheCoolestCool · Source: https://x.com/TheCoolestCool/status/2111109929578983933 · Date: 2026-10-16
+- Summary: The author says he automated 10 SEO tasks with Dots in 24 hours. The visible ones: checking whether ChatGPT recommends them, mining Reddit for content gaps, flagging technical SEO issues, tracking competitor content, finding pages losing clicks and running content refreshes at scale.
+
 ### A website that converts any date into 19 calendars
 - URL: https://usage.incidental.site/cases/x-esoterickang-2110716026715328527.html
 - Type: field-case · Product: grok-bot · Author: EsotericKang · Source: https://x.com/EsotericKang/status/2110716026715328527 · Date: 2026-10-15
@@ -3772,6 +3852,11 @@
 - URL: https://usage.incidental.site/cases/x-agentlane1-2110857444490428554.html
 - Type: guide · Product: grok-bot · Author: AgentLane1 · Source: https://x.com/AgentLane1/status/2110857444490428554 · Date: 2026-10-15
 - Summary: Advice for a recurring Grok Bot errand: people-search sites relist numbers after removal, so re-check monthly and refile; give the bot a dedicated email inbox for confirmation links.
+
+### Making a meetup talk deck with Dots
+- URL: https://usage.incidental.site/cases/x-aymsame-2110761337177723115.html
+- Type: field-case · Product: openai-dots · Author: aym_same · Source: https://x.com/aym_same/status/2110761337177723115 · Date: 2026-10-15
+- Summary: At her first AI night meetup the author shared that the ChatGPT app now opens with her own always-on agent and that the night's slides were made with Dots. She also covered ChatGPT Sits permissions, vibe coding with Claude Code and Codex, and asking Grok and using Grok Bot more often.
 
 ### Two personal apps built inside ChatGPT with a Dot
 - URL: https://usage.incidental.site/cases/x-simonsmith-2110425007059017830.html
@@ -8892,6 +8977,16 @@
 - URL: https://usage.incidental.site/cases/x-gippp69-2112878801633861648.html
 - Type: quota-report · Product: grok-bot · Author: gippp69 · Source: https://x.com/gippp69/status/2112878801633861648 · Date: 2026-10-21
 - Summary: The author warns that the same bot doing the same job can cost 12x more depending on frequency. A watcher firing every 5 minutes wakes 8,640 times a month, about $397 at Grok 4.6 API rates; the hourly version is near $33. A link to ways to cut the cost is attached.
+
+### Dot vanishes from the macOS ChatGPT desktop sidebar
+- URL: https://usage.incidental.site/cases/gh-github-com-openai-codex-issues-55783.html
+- Type: quota-report · Product: openai-dots · Author: Stahl-G · Source: https://github.com/openai/codex/issues/55783 · Date: 2026-10-21
+- Summary: On 2026-10-21, an existing Dot disappeared from the sidebar of ChatGPT desktop 26.1016.51333 on macOS, while the same account's Dot still replied normally at chatgpt.com/dots/home in Chrome. Logs showed Orbit catalog task metadata warnings (the author notes correlation only). The author asks for a recovery path that keeps conversations, local tasks and computer authorization.
+
+### Dots entry disappears after a Windows desktop update; reinstall doesn't help
+- URL: https://usage.incidental.site/cases/gh-github-com-openai-codex-issues-55795.html
+- Type: quota-report · Product: openai-dots · Author: wanbo-ai · Source: https://github.com/openai/codex/issues/55795 · Date: 2026-10-21
+- Summary: After updating from 26.1013.40934 to 26.1016.51333 on Windows 11, the Dots entry vanished from the sidebar in both ChatGPT and Codex views. Ctrl + . no longer opens the Dot and a reinstall didn't fix it, while chatgpt.com/dots/home in Chrome still shows the Dot and its history.
 
 ### Vibe coding with Meta Muse on GitHub took usage from 2% to 40% in a day
 - URL: https://usage.incidental.site/cases/x-midnightbobarun-2112673320806068348.html
