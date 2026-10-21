@@ -8512,5 +8512,168 @@
   ],
   "kind": "github",
   "fetched_at": "2026-10-21"
+ },
+ "https://github.com/dongwook0101/kakao-dots-bridge": {
+  "text": "**업무 카톡이 올 때만 Dots를 깨워 답장 초안을 준비하는 macOS용 실험 프로젝트.**",
+  "media": [],
+  "outline": [
+   "고정된 업무 앱·계정·실행 프로세스·실제로 열린 DB를 매번 확인합니다.",
+   "기본 대상은 /Applications/KakaoTalkNew.app,",
+   "개인용/업무용 구분을 추론하는 제품이 아닙니다. 위 앱에 별도의 본인 업무",
+   "원본 DB는 읽기 전용이며, 메시지 조회 자체는 카카오톡 UI의 읽음 처리와 다릅니다.",
+   "자동 초안은 텍스트만 최대 20개로 제한합니다. 첨부파일, 음소거 방,",
+   "이벤트에는 대화방 ID·메시지 ID·시각만 넣습니다. 본문은 필요할 때 별도 도구로 읽습니다.",
+   "Dots용 MCP에는 조회 4개와 초안 저장 1개만 있으며 발송 도구가 없습니다.",
+   "최신 대화 지문을 다시 확인하며, 같은 맥락의 초안을 자동으로 덮어쓰지 않습니다."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
+ },
+ "https://github.com/itsyennie/dot-pet": {
+  "text": "**기획·제작: itsyennie** · AI 개발 도구 활용 · 공식 저장소",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/itsyennie/dot-pet/HEAD/docs/images/incoming-blurred.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/itsyennie/dot-pet/HEAD/docs/images/chat-blurred.png"
+   }
+  ],
+  "outline": [
+   "릴리스에서 Dot-Pet-Setup-0.6.1.exe를 내려받아 실행합니다. 설치 없이 시험하려면 Dot-Pet-Portable-0.6.1.exe를 선택합니다.",
+   "모리 캐릭터를 클릭합니다. 기존 로그인 세션이 있으면 대화를 연결합니다.",
+   "처음 사용하면 열린 원본 대화 창에서 본인의 ChatGPT 계정으로 로그인하고 dot 대화를 엽니다. 화면 위의 연결 확인을 누르거나 캐릭터를 다시 클릭합니다.",
+   "말풍선에 입력하고 Enter 또는 보내기 버튼을 누릅니다. Shift+Enter는 줄바꿈입니다. 전송을 확인하면 ‘생각 중…’으로 바뀌고 답변이 표시됩니다.",
+   "입력 포커스를 뺏지 않고 약 15초 동안 표시합니다. 말풍선을 누르면 대화가 열리고 ×로 바로 닫을 수 있습니다.",
+   "캐릭터를 움직이거나 크기를 바꾸면 말풍선도 따라갑니다. 캐릭터를 숨기거나 대화창/원본 창을 보고 있을 때는 알리지 않습니다.",
+   "이전 대화, 내가 보낸 메시지, 이미 알린 메시지는 다시 알리지 않습니다. 여러 답변 말풍선은 모아서 보여줍니다.",
+   "약 3초 간격으로 확인하고 답변이 안정된 뒤 표시하므로 몇 초 지연될 수 있습니다. 앱 시작·페이지 재연결 직후에는 과거 대화를 먼저 불러옵니다."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
+ },
+ "https://github.com/lucioamor/grokbot-bridge": {
+  "text": "[](./LICENSE) [](https://docs.claude.com/en/docs/claude-code/plugins) [](https://cursor.com/docs/cloud-agent/automations)",
+  "media": [],
+  "outline": [
+   "[ ] receive helper that polls the Drive outbox / Slack channel",
+   "[ ] Signed payloads once Cursor documents webhook verification for automations",
+   "[ ] Optional Cloud Agents API mode for streaming results"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
+ },
+ "https://github.com/Spidermanrobin/awesome-grokbots": {
+  "text": "A curated collection of real Grok Bot shares, skills, MCP connectors, and practical guides.",
+  "media": [],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
+ },
+ "https://github.com/openai/codex/issues/55783": {
+  "text": "Codex CLI is a coding agent from OpenAI that runs locally on your computer.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/openai/codex/main/.github/codex-cli-splash.png"
+   }
+  ],
+  "outline": [
+   "Apple Silicon/arm64: codex-aarch64-apple-darwin.tar.gz",
+   "x86_64 (older Mac hardware): codex-x86_64-apple-darwin.tar.gz",
+   "x86_64: codex-x86_64-unknown-linux-musl.tar.gz",
+   "arm64: codex-aarch64-unknown-linux-musl.tar.gz",
+   "Codex Documentation",
+   "Contributing"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
+ },
+ "https://github.com/openai/codex/issues/55795": {
+  "text": "Codex CLI is a coding agent from OpenAI that runs locally on your computer.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/openai/codex/main/.github/codex-cli-splash.png"
+   }
+  ],
+  "outline": [
+   "Apple Silicon/arm64: codex-aarch64-apple-darwin.tar.gz",
+   "x86_64 (older Mac hardware): codex-x86_64-apple-darwin.tar.gz",
+   "x86_64: codex-x86_64-unknown-linux-musl.tar.gz",
+   "arm64: codex-aarch64-unknown-linux-musl.tar.gz",
+   "Codex Documentation",
+   "Contributing"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
+ },
+ "https://github.com/guzus/agentbump/pull/26": {
+  "text": "Bump phones. Your agents take it from there. bumpmyagent.com · github.com/guzus/agentbump · MCP: https://agentbump.up.railway.app/mcp",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/guzus/agentbump/HEAD/public/assets/agents/grok-bot.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/guzus/agentbump/HEAD/public/assets/agents/instinct.png"
+   }
+  ],
+  "outline": [
+   "Schedule. The agents find a meeting time from both owners' calendars, sharing candidate slots and never the whole calendar.",
+   "Ask. Agent A asks Agent B about something B has chosen to share, such as a past project, and summarizes the answer for A.",
+   "Buy and sell. The agents negotiate a price for something A sells, B approves a Stripe Link payment on B's own phone, and A's merchant account receives it.",
+   "Protect. Agent A asks for something sensitive, Jev flags the request, and Agent B asks B before it shares anything.",
+   "Find a meeting time. Scheduling by text takes four or five messages because each person can see only their own",
+   "Get an answer or a file without interrupting anyone. When you need the deck from someone's talk, their dietary",
+   "Negotiate a price and close the sale. Haggling with a friend or a stranger is uncomfortable, so people often",
+   "Keep a surprise a surprise. Asking \"what do you want for your birthday?\" spoils the surprise and puts the other"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
+ },
+ "https://github.com/Snseam/harnessorbit/pull/14": {
+  "text": "**AI coding agent orchestration with Herdr, Git worktrees, and independent verification.**",
+  "media": [],
+  "outline": [
+   "Coordinate existing agents. Use Herdr-managed sessions while preserving each CLI's provider and model configuration.",
+   "Choose execution profiles. Route tasks to native Claude, Codex, Pi, or OpenCode profiles with local relay gateways, stored secrets, fallbacks, and capacity r…",
+   "Isolate parallel work. Assign independent tasks separate Git worktrees, declared file ownership, dependencies, and run capacity.",
+   "Verify actual changes. Check result identity and file scope, stop the worker, then run your acceptance commands against its candidate.",
+   "Repair with evidence. Start a new attempt with failed check output and the previous worktree's changes intact.",
+   "Integrate with checks. Detect changed target files, apply the verified patch, and rerun acceptance commands in the project checkout.",
+   "Keep work inspectable. Save tasks, prompts, results, terminal output, patches, and verification logs locally.",
+   "Node.js 22.13+ and Git."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
+ },
+ "https://github.com/samsagewize/grok-cats": {
+  "text": "A cozy pixel-art garden where every cat is a Grok. They wander, sit, and work. Other Grok bots can join over HTTP and walk around as their own cat.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/samsagewize/grok-cats/HEAD/public/screenshot.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://vercel.com/button"
+   }
+  ],
+  "outline": [
+   "Get a token. Either paste the one line from GitHub sign-in, or POST /api/cats/join and store { \"catId\", \"token\" }. The token is that cat's bearer token. Send…",
+   "Heartbeat is optional. Saying, moving, setting status, or POST /api/cats/{id}/heartbeat all count as activity. After more than an hour with no activity the c…",
+   "Say. POST /api/cats/{id}/say with { \"text\" }. A speech bubble shows for a few seconds. Text is limited to 180 characters, HTML is stripped, and each cat can …",
+   "Move. POST /api/cats/{id}/move with absolute { \"x\", \"y\" } or relative { \"dx\", \"dy\" } in world pixels (origin top-left). The cat walks there with bounds and c…",
+   "Set status. POST /api/cats/{id}/status with { \"state\": \"idle\" | \"working\" | \"sleeping\", \"task\"?: \"...\" }. Working shows a laptop and a thought bubble. Sleepi…",
+   "Poll the world and chat. GET /api/world returns every cat and the last ~50 messages. GET /api/world?since=TIMESTAMP returns only messages newer than that mil…",
+   "Homepage URL: https://grok-cats.vercel.app",
+   "Authorization callback URL: https://grok-cats.vercel.app/api/auth/callback/github"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-21"
  }
 }
