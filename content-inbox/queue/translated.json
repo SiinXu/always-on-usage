@@ -1,3 +1,903 @@
 {
- "items": []
+ "items": [
+  {
+   "id": "x:2112878801633861648",
+   "url": "https://x.com/gippp69/status/2112878801633861648",
+   "source": "x",
+   "source_name": "X",
+   "author": "gippp69",
+   "date": "2026-10-21",
+   "likes": 33,
+   "product": "grok-bot",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2112878678648434688/img/ebNnueZLCXnbIqXr.jpg"
+   ],
+   "text": "grok bot routines will quietly eat your budget if you set them and forget them\n\nsame bot. same job. 12x the cost.\n\na watcher firing every 5 minutes wakes up 8,640 times a month. at grok 4.6 api rates that's around $397. the hourly version sits near $33\n\nhow to stop the bleed: https://t.co/sCwlZoGF2j https://t.co/fPYrAvf9Sp",
+   "type": "quota-report",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 例行任务：每 5 分钟 vs 每小时的成本差",
+     "summary": "作者提醒：同一个 Bot 做同一件事，频率不同成本可差 12 倍。每 5 分钟触发一次的监视任务每月要唤醒 8,640 次，按 Grok 4.6 API 价格约 397 美元；改成每小时一次约 33 美元。作者附上了止损方法的链接。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 例行任務：每 5 分鐘 vs 每小時的成本差",
+     "summary": "作者提醒：同一個 Bot 做同一件事，頻率不同成本可差 12 倍。每 5 分鐘觸發一次的監看任務每月要喚醒 8,640 次，按 Grok 4.6 API 價格約 397 美元；改成每小時一次約 33 美元。作者附上了止損方法的連結。"
+    },
+    "en": {
+     "title": "Grok Bot routines: every 5 minutes vs hourly",
+     "summary": "The author warns that the same bot doing the same job can cost 12x more depending on frequency. A watcher firing every 5 minutes wakes 8,640 times a month, about $397 at Grok 4.6 API rates; the hourly version is near $33. A link to ways to cut the cost is attached."
+    },
+    "ja": {
+     "title": "Grok Bot のルーティン：5分ごとと1時間ごとのコスト差",
+     "summary": "同じボットが同じ仕事をしても、頻度次第でコストは12倍違うと作者は警告する。5分ごとに起動する監視タスクは月8,640回起動し、Grok 4.6 の API 料金で約397ドル。1時間ごとなら約33ドル。コストを抑える方法へのリンク付き。"
+    },
+    "ko": {
+     "title": "Grok Bot 루틴: 5분마다 vs 매시간 비용 차이",
+     "summary": "같은 봇이 같은 일을 해도 실행 빈도에 따라 비용이 12배 차이 난다고 작성자는 경고한다. 5분마다 실행되는 감시 작업은 한 달에 8,640번 깨어나 Grok 4.6 API 요금으로 약 397달러, 매시간 버전은 약 33달러다. 비용을 줄이는 방법 링크도 첨부했다."
+    },
+    "ms": {
+     "title": "Rutin Grok Bot: setiap 5 minit vs setiap jam",
+     "summary": "Penulis memberi amaran bahawa bot yang sama melakukan kerja yang sama boleh berkos 12 kali ganda bergantung pada kekerapan. Pemantau setiap 5 minit bangun 8,640 kali sebulan, kira-kira $397 pada kadar API Grok 4.6; versi setiap jam sekitar $33. Pautan cara mengurangkan kos disertakan."
+    },
+    "vi": {
+     "title": "Routine Grok Bot: 5 phút một lần so với mỗi giờ",
+     "summary": "Tác giả cảnh báo cùng một bot làm cùng một việc có thể tốn gấp 12 lần tùy tần suất. Trình theo dõi chạy 5 phút một lần thức dậy 8.640 lần mỗi tháng, khoảng 397 USD theo giá API Grok 4.6; bản chạy mỗi giờ chỉ khoảng 33 USD. Kèm liên kết hướng dẫn cắt giảm chi phí."
+    },
+    "fr": {
+     "title": "Routines Grok Bot : toutes les 5 minutes ou toutes les heures",
+     "summary": "L'auteur prévient que le même bot pour la même tâche peut coûter 12 fois plus selon la fréquence. Une surveillance toutes les 5 minutes se réveille 8 640 fois par mois, environ 397 $ aux tarifs API de Grok 4.6 ; la version horaire tourne autour de 33 $. Un lien vers des moyens de réduire la facture est joint."
+    },
+    "es": {
+     "title": "Rutinas de Grok Bot: cada 5 minutos frente a cada hora",
+     "summary": "El autor advierte que el mismo bot con la misma tarea puede costar 12 veces más según la frecuencia. Un vigilante que se activa cada 5 minutos despierta 8.640 veces al mes, unos 397 $ con las tarifas de la API de Grok 4.6; la versión horaria ronda los 33 $. Adjunta un enlace con formas de reducir el gasto."
+    },
+    "de": {
+     "title": "Grok-Bot-Routinen: alle 5 Minuten oder stündlich",
+     "summary": "Der Autor warnt: Derselbe Bot mit derselben Aufgabe kann je nach Takt 12-mal mehr kosten. Ein Watcher im 5-Minuten-Takt wacht 8.640-mal im Monat auf, rund 397 $ zu Grok-4.6-API-Preisen; die stündliche Variante liegt bei etwa 33 $. Ein Link mit Tipps zum Sparen ist angehängt."
+    }
+   }
+  },
+  {
+   "id": "x:2112883696181338262",
+   "url": "https://x.com/yashhsm/status/2112883696181338262",
+   "source": "x",
+   "source_name": "X",
+   "author": "yashhsm",
+   "date": "2026-10-21",
+   "likes": 3,
+   "product": "openai-dots",
+   "media": [],
+   "text": "chatgpt dots with codex is literally a life cheat code\n\nhere’s my ridiculously simple setup\n\n1) dots is my orchestrator agent:\n\nbeing v mobile-native user: i keep sending it all voice notes, screenshots, random ideas, work problems or life admin from my phone\n\nthe single chat",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "ChatGPT Dots + Codex：手机端的编排搭配",
+     "summary": "作者把 ChatGPT Dots 当作编排 Agent，与 Codex 搭配使用。作为重度手机用户，他把语音、截图、零散想法、工作问题和生活琐事都从手机发进同一个对话交给 Dots。原帖其余步骤未在摘录中给出。"
+    },
+    "zh-TW": {
+     "title": "ChatGPT Dots + Codex：手機端的編排搭配",
+     "summary": "作者把 ChatGPT Dots 當作編排 Agent，與 Codex 搭配使用。作為重度手機用戶，他把語音、截圖、零散想法、工作問題和生活瑣事都從手機發進同一個對話交給 Dots。原帖其餘步驟未在摘錄中給出。"
+    },
+    "en": {
+     "title": "ChatGPT Dots + Codex: a phone-first orchestrator setup",
+     "summary": "The author uses ChatGPT Dots as an orchestrator agent alongside Codex. As a mobile-first user, they send voice notes, screenshots, random ideas, work problems and life admin from their phone into a single Dots chat. The remaining steps are not in the captured excerpt."
+    },
+    "ja": {
+     "title": "ChatGPT Dots と Codex：スマホ中心のオーケストレーター構成",
+     "summary": "作者は ChatGPT Dots をオーケストレーター役のエージェントにして Codex と組み合わせている。スマホ中心の使い方で、音声メモ、スクリーンショット、思いつき、仕事の課題、生活の雑務をすべて一つの Dots チャットへ送る。残りの手順は抜粋に含まれていない。"
+    },
+    "ko": {
+     "title": "ChatGPT Dots + Codex: 모바일 중심 오케스트레이터 구성",
+     "summary": "작성자는 ChatGPT Dots를 오케스트레이터 에이전트로 두고 Codex와 함께 쓴다. 모바일 위주 사용자라 음성 메모, 스크린샷, 떠오른 아이디어, 업무 문제, 생활 잡무를 모두 휴대폰에서 하나의 Dots 채팅으로 보낸다. 나머지 단계는 발췌에 포함되지 않았다."
+    },
+    "ms": {
+     "title": "ChatGPT Dots + Codex: susunan pengatur dari telefon",
+     "summary": "Penulis menggunakan ChatGPT Dots sebagai ejen pengatur bersama Codex. Sebagai pengguna mudah alih, dia menghantar nota suara, tangkapan skrin, idea rawak, masalah kerja dan urusan harian dari telefon ke satu sembang Dots. Langkah selebihnya tiada dalam petikan."
+    },
+    "vi": {
+     "title": "ChatGPT Dots + Codex: thiết lập điều phối từ điện thoại",
+     "summary": "Tác giả dùng ChatGPT Dots làm agent điều phối, kết hợp với Codex. Là người dùng chủ yếu trên điện thoại, họ gửi ghi âm, ảnh chụp màn hình, ý tưởng vụn, vấn đề công việc và việc vặt đời sống vào một cuộc trò chuyện Dots duy nhất. Các bước còn lại không có trong đoạn trích."
+    },
+    "fr": {
+     "title": "ChatGPT Dots + Codex : un orchestrateur pensé pour le mobile",
+     "summary": "L'auteur utilise ChatGPT Dots comme agent orchestrateur, couplé à Codex. Utilisateur surtout mobile, il envoie mémos vocaux, captures d'écran, idées, problèmes de travail et tâches administratives depuis son téléphone dans une seule conversation Dots. La suite des étapes ne figure pas dans l'extrait."
+    },
+    "es": {
+     "title": "ChatGPT Dots + Codex: un orquestador desde el móvil",
+     "summary": "El autor usa ChatGPT Dots como agente orquestador junto con Codex. Como usuario sobre todo móvil, envía notas de voz, capturas, ideas sueltas, problemas de trabajo y gestiones personales desde el teléfono a un único chat de Dots. El resto de pasos no aparece en el extracto."
+    },
+    "de": {
+     "title": "ChatGPT Dots + Codex: Orchestrator-Setup fürs Handy",
+     "summary": "Der Autor nutzt ChatGPT Dots als Orchestrator-Agent zusammen mit Codex. Als vorwiegend mobiler Nutzer schickt er Sprachnotizen, Screenshots, Ideen, Arbeitsprobleme und Alltagsorganisation vom Handy in einen einzigen Dots-Chat. Die weiteren Schritte fehlen im Auszug."
+    }
+   }
+  },
+  {
+   "id": "x:2112874833377665188",
+   "url": "https://x.com/CharlesScott/status/2112874833377665188",
+   "source": "x",
+   "source_name": "X",
+   "author": "CharlesScott",
+   "date": "2026-10-21",
+   "likes": 1,
+   "product": "grok-bot",
+   "media": [
+    "https://pbs.twimg.com/media/HVJwblwXEAA82A6.jpg"
+   ],
+   "text": "Gave my Grok Bot a new job: a monthly X visibility check, built into my morning X digest 🛰️\n\nOn the 1st weekday of each month it checks:\n✅ Account is public, not withheld\n🔍 My posts and replies show up in search\n🚩 Any sensitive or withheld flags\n📉 Reply reach vs last month https://t.co/fHVHbTX4cW",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 每月做一次 X 账号可见性检查",
+     "summary": "作者给 Grok Bot 加了个新任务，并入每天早上的 X 摘要：每月第一个工作日检查账号是否公开且未被限制、自己的帖子和回复能否被搜到、有无敏感或限制标记，以及回复触达与上月对比。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 每月做一次 X 帳號可見性檢查",
+     "summary": "作者給 Grok Bot 加了個新任務，併入每天早上的 X 摘要：每月第一個工作日檢查帳號是否公開且未被限制、自己的貼文和回覆能否被搜到、有無敏感或限制標記，以及回覆觸及與上月對比。"
+    },
+    "en": {
+     "title": "A monthly X visibility check run by Grok Bot",
+     "summary": "The author gave Grok Bot a new job inside their morning X digest: on the first weekday of each month it checks that the account is public and not withheld, that posts and replies show up in search, whether any sensitive or withheld flags exist, and reply reach versus last month."
+    },
+    "ja": {
+     "title": "Grok Bot による毎月の X 表示チェック",
+     "summary": "作者は毎朝の X ダイジェストに新しい仕事を追加した。毎月最初の平日に、アカウントが公開で制限されていないか、投稿と返信が検索に出るか、センシティブや表示制限のフラグがないか、返信のリーチが前月と比べてどうかを確認する。"
+    },
+    "ko": {
+     "title": "Grok Bot이 매달 하는 X 노출 점검",
+     "summary": "작성자는 아침 X 다이제스트에 Grok Bot의 새 업무를 넣었다. 매달 첫 평일에 계정이 공개 상태이고 제한되지 않았는지, 게시물과 답글이 검색에 나오는지, 민감·제한 표시가 있는지, 답글 도달률이 지난달과 비교해 어떤지 확인한다."
+    },
+    "ms": {
+     "title": "Semakan keterlihatan X bulanan oleh Grok Bot",
+     "summary": "Penulis memberi Grok Bot tugas baharu dalam ringkasan X paginya: pada hari bekerja pertama setiap bulan ia menyemak akaun masih awam dan tidak disekat, siaran dan balasan muncul dalam carian, sebarang tanda sensitif atau sekatan, serta jangkauan balasan berbanding bulan lepas."
+    },
+    "vi": {
+     "title": "Grok Bot kiểm tra độ hiển thị tài khoản X hằng tháng",
+     "summary": "Tác giả giao cho Grok Bot một việc mới trong bản tin X buổi sáng: vào ngày làm việc đầu tiên mỗi tháng, nó kiểm tra tài khoản còn công khai và không bị giữ lại, bài đăng và trả lời có hiện trong tìm kiếm, có cờ nhạy cảm hay bị hạn chế không, và lượt tiếp cận trả lời so với tháng trước."
+    },
+    "fr": {
+     "title": "Un contrôle mensuel de visibilité X confié à Grok Bot",
+     "summary": "L'auteur a ajouté une tâche à son digest X du matin : le premier jour ouvré du mois, Grok Bot vérifie que le compte est public et non restreint, que posts et réponses apparaissent dans la recherche, l'absence de marquage sensible ou de retenue, et la portée des réponses par rapport au mois précédent."
+    },
+    "es": {
+     "title": "Grok Bot revisa cada mes la visibilidad en X",
+     "summary": "El autor añadió una tarea a su resumen matutino de X: el primer día laborable de cada mes, Grok Bot comprueba que la cuenta sea pública y no esté retenida, que sus posts y respuestas aparezcan en la búsqueda, si hay marcas de contenido sensible o retenido, y el alcance de las respuestas frente al mes anterior."
+    },
+    "de": {
+     "title": "Monatlicher X-Sichtbarkeitscheck durch Grok Bot",
+     "summary": "Der Autor hat seinem morgendlichen X-Digest eine Aufgabe hinzugefügt: Am ersten Werktag jedes Monats prüft Grok Bot, ob das Konto öffentlich und nicht eingeschränkt ist, ob Posts und Antworten in der Suche erscheinen, ob es Sensibel- oder Sperrmarkierungen gibt und wie die Antwortreichweite im Vergleich zum Vormonat ist."
+    }
+   }
+  },
+  {
+   "id": "x:2112877017737974007",
+   "url": "https://x.com/TodayKan/status/2112877017737974007",
+   "source": "x",
+   "source_name": "X",
+   "author": "TodayKan",
+   "date": "2026-10-21",
+   "likes": 1,
+   "product": "grok-bot",
+   "media": [
+    "https://pbs.twimg.com/media/HVJyaYia8AA4zdd.jpg"
+   ],
+   "text": "刚接触 Grok Bot，最容易的坑是一上来就搭 20 个 Bot。\n\n我第一周只钉了两件事：下午日更一条 Routine、晚上复盘一条 Routine。先跑通「它自己醒 → 写文件 → 我只看结果」，再谈多 Bot 协作。\n\n@cgnot996 这篇四步路线很适合当目录。你第一周先跑通了哪一步？ https://t.co/Ylh8mF4zzC https://t.co/EaE3cI8AYk",
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 第一周：先跑通两条 Routine",
+     "summary": "作者认为新手最容易踩的坑是一上来就搭 20 个 Bot。他第一周只固定两件事：下午一条日更 Routine、晚上一条复盘 Routine，先跑通「它自己醒、写文件、我只看结果」，再考虑多 Bot 协作，并推荐了一篇四步路线文章当目录。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 第一週：先跑通兩條 Routine",
+     "summary": "作者認為新手最容易踩的坑是一上來就搭 20 個 Bot。他第一週只固定兩件事：下午一條日更 Routine、晚上一條復盤 Routine，先跑通「它自己醒、寫檔案、我只看結果」，再考慮多 Bot 協作，並推薦了一篇四步路線文章當目錄。"
+    },
+    "en": {
+     "title": "First week with Grok Bot: get two routines working first",
+     "summary": "The author says the easiest beginner mistake is building 20 bots at once. In week one they pinned only two things: an afternoon daily-post routine and an evening review routine, to prove the loop of the bot waking itself, writing files and them only reading results before trying multi-bot work. They point to a four-step roadmap post as a table of contents."
+    },
+    "ja": {
+     "title": "Grok Bot 最初の1週間：まずルーティンを2本動かす",
+     "summary": "作者は、初心者がはまりやすい落とし穴は最初からボットを20個作ることだと言う。1週目は午後の毎日投稿ルーティンと夜の振り返りルーティンの2本だけに絞り、ボットが自分で起きてファイルを書き、自分は結果だけ見る流れを確立してから複数ボット連携に進んだ。目次として4ステップのロードマップ記事を勧めている。"
+    },
+    "ko": {
+     "title": "Grok Bot 첫 주: 루틴 두 개부터 돌려 보기",
+     "summary": "작성자는 초보자가 가장 빠지기 쉬운 함정이 처음부터 봇을 20개 만드는 것이라고 말한다. 첫 주에는 오후 일일 게시 루틴과 저녁 회고 루틴 두 개만 고정해, 봇이 스스로 깨어나 파일을 쓰고 자신은 결과만 보는 흐름을 먼저 완성한 뒤 다중 봇 협업으로 넘어갔다. 목차로 4단계 로드맵 글을 추천한다."
+    },
+    "ms": {
+     "title": "Minggu pertama dengan Grok Bot: jalankan dua rutin dahulu",
+     "summary": "Penulis berkata kesilapan paling mudah bagi pemula ialah membina 20 bot sekali gus. Pada minggu pertama dia hanya menetapkan dua perkara: rutin catatan harian pada waktu petang dan rutin semakan pada waktu malam, supaya bot bangun sendiri, menulis fail dan dia hanya melihat hasil sebelum mencuba kerjasama berbilang bot. Dia mencadangkan artikel peta jalan empat langkah sebagai panduan."
+    },
+    "vi": {
+     "title": "Tuần đầu với Grok Bot: chạy ổn hai routine trước",
+     "summary": "Tác giả cho rằng lỗi dễ mắc nhất của người mới là dựng ngay 20 bot. Tuần đầu họ chỉ cố định hai việc: một routine đăng bài hằng ngày buổi chiều và một routine tổng kết buổi tối, để chạy thông vòng bot tự thức dậy, ghi file và mình chỉ xem kết quả, rồi mới tính đến phối hợp nhiều bot. Họ giới thiệu một bài lộ trình bốn bước làm mục lục."
+    },
+    "fr": {
+     "title": "Première semaine avec Grok Bot : faire tourner deux routines d'abord",
+     "summary": "Selon l'auteur, l'erreur la plus courante du débutant est de monter 20 bots d'un coup. La première semaine, il n'a fixé que deux choses : une routine de publication quotidienne l'après-midi et une routine de bilan le soir, pour valider la boucle où le bot se réveille seul, écrit des fichiers et où lui ne lit que les résultats, avant de passer au travail multi-bots. Il recommande un article en quatre étapes comme sommaire."
+    },
+    "es": {
+     "title": "Primera semana con Grok Bot: haz funcionar dos rutinas primero",
+     "summary": "El autor dice que el error más fácil de principiante es montar 20 bots de golpe. La primera semana solo fijó dos cosas: una rutina de publicación diaria por la tarde y otra de repaso por la noche, para asegurar el ciclo en que el bot se despierta solo, escribe archivos y él solo mira los resultados, antes de pasar a varios bots. Recomienda un artículo de hoja de ruta en cuatro pasos como índice."
+    },
+    "de": {
+     "title": "Erste Woche mit Grok Bot: zuerst zwei Routinen zum Laufen bringen",
+     "summary": "Der häufigste Anfängerfehler sei, gleich 20 Bots zu bauen, schreibt der Autor. In Woche eins legte er nur zwei Dinge fest: eine nachmittägliche Tagespost-Routine und eine abendliche Rückblick-Routine, um den Ablauf zu sichern, in dem der Bot selbst aufwacht, Dateien schreibt und er nur die Ergebnisse liest, bevor es an Multi-Bot-Arbeit geht. Als Inhaltsverzeichnis empfiehlt er einen Vier-Schritte-Fahrplan."
+    }
+   }
+  },
+  {
+   "id": "x:2112884815016169916",
+   "url": "https://x.com/shuntian2026/status/2112884815016169916",
+   "source": "x",
+   "source_name": "X",
+   "author": "shuntian2026",
+   "date": "2026-10-21",
+   "likes": 0,
+   "product": "grok-bot",
+   "media": [
+    "https://pbs.twimg.com/media/HVJ5ep0b0AABBwD.jpg"
+   ],
+   "text": "有人说该给 Grok Bot 开个新手课。我先写第 1 课：装完先做的 3 件事，按顺序做完，再让它干活。\n\n1. 关掉用不到的电脑权限\n桌面端有两个开关：“在这台电脑上执行”“经此电脑转发流量”。用不到就先关，要用的时候再开。\n\n2. 给它一份岗位说明\n干什么、交什么、交到哪、什么情况必须停下来问你。我的每个 https://t.co/G8dRJRChSD",
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 新手第 1 课：装完先做的事",
+     "summary": "作者写了一份新手第 1 课，列出装好 Grok Bot 后先做的事。第一，关掉用不到的电脑权限：桌面端「在这台电脑上执行」和「经此电脑转发流量」两个开关，不用就先关。第二，给它一份岗位说明：做什么、交什么、交到哪、什么情况必须停下来问你。第三条未在摘录中给出。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 新手第 1 課：裝完先做的事",
+     "summary": "作者寫了一份新手第 1 課，列出裝好 Grok Bot 後先做的事。第一，關掉用不到的電腦權限：桌面端「在這台電腦上執行」和「經此電腦轉發流量」兩個開關，不用就先關。第二，給它一份職位說明：做什麼、交什麼、交到哪、什麼情況必須停下來問你。第三條未在摘錄中給出。"
+    },
+    "en": {
+     "title": "Grok Bot lesson 1: what to do right after installing",
+     "summary": "The author wrote a first beginner lesson on what to do after installing Grok Bot. First, turn off computer permissions you don't need: the desktop app has two switches, run on this computer and route traffic through this computer, so keep them off until needed. Second, give the bot a job description: what it does, what it delivers, where it delivers it, and when it must stop and ask you. The third step is not in the excerpt."
+    },
+    "ja": {
+     "title": "Grok Bot 入門 第1回：インストール直後にやること",
+     "summary": "作者は Grok Bot を入れた直後にやることをまとめた入門第1回を書いた。1つ目は不要なパソコン権限を切ること。デスクトップ版の「このコンピューターで実行」と「このコンピューター経由で通信を中継」の2つのスイッチは、使わないうちはオフにする。2つ目は職務説明を渡すこと。何をし、何を納品し、どこへ届け、どんな時に止まって確認すべきかを書く。3つ目は抜粋にない。"
+    },
+    "ko": {
+     "title": "Grok Bot 입문 1강: 설치 직후 할 일",
+     "summary": "작성자는 Grok Bot 설치 직후 할 일을 정리한 입문 1강을 썼다. 첫째, 쓰지 않는 컴퓨터 권한을 끈다. 데스크톱 앱의 '이 컴퓨터에서 실행'과 '이 컴퓨터를 통해 트래픽 전달' 두 스위치는 필요할 때까지 꺼 둔다. 둘째, 직무 설명을 준다. 무엇을 하고, 무엇을 어디에 전달하며, 어떤 상황에서 멈추고 물어봐야 하는지 적는다. 셋째 항목은 발췌에 없다."
+    },
+    "ms": {
+     "title": "Pelajaran 1 Grok Bot: perkara pertama selepas pasang",
+     "summary": "Penulis menulis pelajaran pemula pertama tentang perkara yang perlu dibuat selepas memasang Grok Bot. Pertama, matikan kebenaran komputer yang tidak diperlukan: aplikasi desktop ada dua suis, jalankan pada komputer ini dan salurkan trafik melalui komputer ini, jadi biarkan mati sehingga perlu. Kedua, beri bot huraian tugas: apa yang dibuat, apa yang diserahkan, ke mana, dan bila ia mesti berhenti dan bertanya. Langkah ketiga tiada dalam petikan."
+    },
+    "vi": {
+     "title": "Bài 1 cho người mới dùng Grok Bot: việc làm ngay sau khi cài",
+     "summary": "Tác giả viết bài học đầu tiên về những việc cần làm sau khi cài Grok Bot. Một, tắt các quyền máy tính không dùng đến: ứng dụng desktop có hai công tắc chạy trên máy này và chuyển tiếp lưu lượng qua máy này, chưa cần thì tắt. Hai, đưa cho bot một bản mô tả công việc: làm gì, giao gì, giao ở đâu và khi nào phải dừng lại hỏi bạn. Bước thứ ba không có trong đoạn trích."
+    },
+    "fr": {
+     "title": "Leçon 1 Grok Bot : quoi faire juste après l'installation",
+     "summary": "L'auteur a rédigé une première leçon pour débutants. D'abord, couper les autorisations inutiles : l'app de bureau a deux interrupteurs, exécuter sur cet ordinateur et faire transiter le trafic par cet ordinateur, à laisser éteints tant qu'on n'en a pas besoin. Ensuite, donner au bot une fiche de poste : ce qu'il fait, ce qu'il livre, où il le livre et quand il doit s'arrêter pour demander. Le troisième point ne figure pas dans l'extrait."
+    },
+    "es": {
+     "title": "Lección 1 de Grok Bot: qué hacer justo al instalarlo",
+     "summary": "El autor escribió una primera lección para principiantes. Primero, desactiva los permisos del ordenador que no uses: la app de escritorio tiene dos interruptores, ejecutar en este ordenador y enrutar tráfico por este ordenador, que conviene dejar apagados hasta necesitarlos. Segundo, dale al bot una descripción del puesto: qué hace, qué entrega, dónde lo entrega y cuándo debe pararse a preguntarte. El tercer paso no aparece en el extracto."
+    },
+    "de": {
+     "title": "Grok-Bot-Lektion 1: was direkt nach der Installation zu tun ist",
+     "summary": "Der Autor hat eine erste Einsteigerlektion geschrieben. Erstens: nicht benötigte Computerrechte abschalten. Die Desktop-App hat zwei Schalter, auf diesem Computer ausführen und Datenverkehr über diesen Computer leiten, die bis zum Bedarf aus bleiben sollten. Zweitens: dem Bot eine Stellenbeschreibung geben, also was er tut, was er liefert, wohin und wann er anhalten und nachfragen muss. Der dritte Punkt fehlt im Auszug."
+    }
+   }
+  },
+  {
+   "id": "x:2112884970284818882",
+   "url": "https://x.com/KW2E_Rob/status/2112884970284818882",
+   "source": "x",
+   "source_name": "X",
+   "author": "KW2E_Rob",
+   "date": "2026-10-21",
+   "likes": 0,
+   "product": "grok-bot",
+   "media": [],
+   "text": "@BrianRoemmele I already have a finance manager Grok Bot that takes care of all this for me. It sends me a nice report every morning, monitors my spending, looks out for charges that are unusual, helps me plan paying debt, and increasing savings. Everything from my bank, X, my investments and",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "一个当理财管家的 Grok Bot",
+     "summary": "作者说自己有一个负责理财的 Grok Bot：每天早上发一份报告，监控支出，留意异常扣款，帮忙规划还债和增加储蓄。数据来自他的银行、X 和投资账户等。原帖其余内容未在摘录中给出。"
+    },
+    "zh-TW": {
+     "title": "一個當理財管家的 Grok Bot",
+     "summary": "作者說自己有一個負責理財的 Grok Bot：每天早上發一份報告，監控支出，留意異常扣款，幫忙規劃還債和增加儲蓄。資料來自他的銀行、X 和投資帳戶等。原帖其餘內容未在摘錄中給出。"
+    },
+    "en": {
+     "title": "A Grok Bot working as a personal finance manager",
+     "summary": "The author says they have a finance-manager Grok Bot that sends a report every morning, monitors spending, watches for unusual charges, and helps plan debt payoff and savings. It draws on their bank, X, investments and more. The rest of the post is not in the excerpt."
+    },
+    "ja": {
+     "title": "家計管理役の Grok Bot",
+     "summary": "作者は家計管理を任せた Grok Bot を持っている。毎朝レポートを送り、支出を監視し、不審な請求に目を配り、借金返済と貯蓄の計画を手伝う。データは銀行、X、投資口座などから取っている。投稿の残りは抜粋にない。"
+    },
+    "ko": {
+     "title": "재무 관리자 역할을 하는 Grok Bot",
+     "summary": "작성자는 재무 관리를 맡긴 Grok Bot이 있다고 한다. 매일 아침 보고서를 보내고, 지출을 감시하고, 이상한 결제를 살피며, 빚 상환과 저축 계획을 돕는다. 은행, X, 투자 계좌 등의 정보를 쓴다. 게시물 나머지는 발췌에 없다."
+    },
+    "ms": {
+     "title": "Grok Bot sebagai pengurus kewangan peribadi",
+     "summary": "Penulis berkata dia ada Grok Bot pengurus kewangan yang menghantar laporan setiap pagi, memantau perbelanjaan, mengawasi caj luar biasa, dan membantu merancang pembayaran hutang serta simpanan. Ia menggunakan data dari bank, X, pelaburan dan lain-lain. Baki siaran tiada dalam petikan."
+    },
+    "vi": {
+     "title": "Grok Bot làm quản lý tài chính cá nhân",
+     "summary": "Tác giả cho biết họ có một Grok Bot quản lý tài chính: gửi báo cáo mỗi sáng, theo dõi chi tiêu, để ý các khoản trừ tiền bất thường, giúp lên kế hoạch trả nợ và tăng tiết kiệm. Dữ liệu lấy từ ngân hàng, X, các khoản đầu tư và nhiều nguồn khác. Phần còn lại của bài không có trong đoạn trích."
+    },
+    "fr": {
+     "title": "Un Grok Bot gestionnaire de finances personnelles",
+     "summary": "L'auteur dit avoir un Grok Bot dédié à ses finances : il envoie un rapport chaque matin, surveille les dépenses, repère les prélèvements inhabituels et aide à planifier le remboursement des dettes et l'épargne. Il s'appuie sur sa banque, X, ses investissements et plus encore. La suite du post ne figure pas dans l'extrait."
+    },
+    "es": {
+     "title": "Un Grok Bot como gestor de finanzas personales",
+     "summary": "El autor cuenta que tiene un Grok Bot gestor de finanzas que envía un informe cada mañana, vigila los gastos, detecta cargos inusuales y ayuda a planificar el pago de deudas y el ahorro. Usa datos de su banco, X, sus inversiones y más. El resto del post no aparece en el extracto."
+    },
+    "de": {
+     "title": "Ein Grok Bot als persönlicher Finanzmanager",
+     "summary": "Der Autor hat nach eigener Aussage einen Finanz-Grok-Bot, der jeden Morgen einen Bericht schickt, Ausgaben überwacht, auf ungewöhnliche Abbuchungen achtet und bei der Planung von Schuldenabbau und Sparen hilft. Er nutzt Daten von Bank, X, Investments und mehr. Der Rest des Posts fehlt im Auszug."
+    }
+   }
+  },
+  {
+   "id": "x:2112883789177483278",
+   "url": "https://x.com/ProtonJan/status/2112883789177483278",
+   "source": "x",
+   "source_name": "X",
+   "author": "ProtonJan",
+   "date": "2026-10-21",
+   "likes": 0,
+   "product": "grok-bot",
+   "media": [],
+   "text": "@poteto @bot This week my GrokBot :\n\n🌴 Built out 3 full websites\n🌐 Registered and paid for two new domains for upcoming sites by itself\n🎬 Made first YouTube Short from scratch: script, voiceover, sound effects, all coded, for barely 2% of weekly usage\n+ much more",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "一周里 Grok Bot 做完的事",
+     "summary": "作者列出自己的 Grok Bot 这周的成果：搭好 3 个完整网站；自行为后续网站注册并付费了两个域名；从零做出第一条 YouTube Short，脚本、配音、音效全用代码完成，只用了每周用量的约 2%。"
+    },
+    "zh-TW": {
+     "title": "一週裡 Grok Bot 做完的事",
+     "summary": "作者列出自己的 Grok Bot 這週的成果：搭好 3 個完整網站；自行為後續網站註冊並付費了兩個網域；從零做出第一支 YouTube Short，腳本、配音、音效全用程式碼完成，只用了每週用量的約 2%。"
+    },
+    "en": {
+     "title": "What one Grok Bot did in a week",
+     "summary": "The author lists their Grok Bot's week: it built 3 full websites, registered and paid for two new domains for upcoming sites by itself, and made a first YouTube Short from scratch with script, voiceover and sound effects all done in code, for barely 2% of weekly usage."
+    },
+    "ja": {
+     "title": "Grok Bot が1週間でやったこと",
+     "summary": "作者は自分の Grok Bot の今週の成果を挙げる。完全なウェブサイトを3つ構築し、今後のサイト用にドメインを2つ自分で登録・支払いし、台本・ナレーション・効果音をすべてコードで作った初の YouTube Short をゼロから制作した。使ったのは週の利用量のわずか約2%。"
+    },
+    "ko": {
+     "title": "Grok Bot이 일주일 동안 해낸 일",
+     "summary": "작성자는 이번 주 Grok Bot의 성과를 정리했다. 완성된 웹사이트 3개를 만들고, 앞으로 쓸 사이트용 도메인 두 개를 스스로 등록하고 결제했으며, 대본·내레이션·효과음을 모두 코드로 만든 첫 YouTube Short를 처음부터 제작했다. 주간 사용량의 약 2%만 썼다."
+    },
+    "ms": {
+     "title": "Apa yang dibuat satu Grok Bot dalam seminggu",
+     "summary": "Penulis menyenaraikan kerja Grok Botnya minggu ini: membina 3 laman web lengkap, mendaftar dan membayar dua domain baharu untuk laman akan datang sendiri, dan membuat YouTube Short pertama dari awal dengan skrip, suara latar dan kesan bunyi semuanya dalam kod, dengan hanya kira-kira 2% penggunaan mingguan."
+    },
+    "vi": {
+     "title": "Một tuần Grok Bot đã làm được gì",
+     "summary": "Tác giả liệt kê thành quả tuần này của Grok Bot: dựng xong 3 website hoàn chỉnh, tự đăng ký và trả tiền hai tên miền mới cho các trang sắp tới, và làm YouTube Short đầu tiên từ đầu với kịch bản, lồng tiếng, hiệu ứng âm thanh đều bằng code, chỉ tốn khoảng 2% hạn mức tuần."
+    },
+    "fr": {
+     "title": "Ce qu'un Grok Bot a fait en une semaine",
+     "summary": "L'auteur détaille la semaine de son Grok Bot : 3 sites complets construits, deux nouveaux domaines enregistrés et payés seul pour de futurs sites, et un premier YouTube Short réalisé de zéro, script, voix off et effets sonores entièrement en code, pour à peine 2 % de l'usage hebdomadaire."
+    },
+    "es": {
+     "title": "Lo que hizo un Grok Bot en una semana",
+     "summary": "El autor enumera la semana de su Grok Bot: construyó 3 sitios web completos, registró y pagó por su cuenta dos dominios nuevos para próximos sitios, y creó desde cero su primer YouTube Short con guion, voz en off y efectos de sonido hechos en código, por apenas un 2 % del uso semanal."
+    },
+    "de": {
+     "title": "Was ein Grok Bot in einer Woche erledigt hat",
+     "summary": "Der Autor listet die Woche seines Grok Bots auf: 3 komplette Websites gebaut, zwei neue Domains für kommende Seiten selbst registriert und bezahlt, und ein erstes YouTube Short von Grund auf erstellt, Skript, Sprecher und Soundeffekte komplett in Code, für knapp 2 % der Wochennutzung."
+    }
+   }
+  },
+  {
+   "id": "x:2112880538516124002",
+   "url": "https://x.com/MichaelGannotti/status/2112880538516124002",
+   "source": "x",
+   "source_name": "X",
+   "author": "MichaelGannotti",
+   "date": "2026-10-21",
+   "likes": 2,
+   "product": "grok-bot",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2112878509739708416/img/frPaMXUZ9Bepc6iA.jpg"
+   ],
+   "text": "Made the second music video with the Grok Bot Video Studio I built and this one has a pretty interesting backstory. Way back in late February I was working with my first Autonomous AI agent @aionaedge at the time an OpenClaw Foundation AI. Among the nightly research that Aiona https://t.co/0Ik61JJvnt",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用自建的 Grok Bot Video Studio 做第二支音乐视频",
+     "summary": "作者用自己搭的 Grok Bot Video Studio 做出了第二支音乐视频，并讲到它的来历：今年 2 月下旬他还在和第一个自主 AI Agent（当时基于 OpenClaw）合作，素材源于那时的夜间调研。原帖后续内容未在摘录中给出。"
+    },
+    "zh-TW": {
+     "title": "用自建的 Grok Bot Video Studio 做第二支音樂影片",
+     "summary": "作者用自己搭的 Grok Bot Video Studio 做出了第二支音樂影片，並講到它的來歷：今年 2 月下旬他還在和第一個自主 AI Agent（當時基於 OpenClaw）合作，素材源於那時的夜間調研。原帖後續內容未在摘錄中給出。"
+    },
+    "en": {
+     "title": "A second music video from a self-built Grok Bot Video Studio",
+     "summary": "The author made a second music video with the Grok Bot Video Studio they built, and shares its backstory: in late February they were working with their first autonomous AI agent, then an OpenClaw-based agent, and the idea traces back to its nightly research. The rest of the post is not in the excerpt."
+    },
+    "ja": {
+     "title": "自作の Grok Bot Video Studio で2本目のミュージックビデオ",
+     "summary": "作者は自分で作った Grok Bot Video Studio で2本目のミュージックビデオを制作し、その経緯を語る。2月下旬、当時 OpenClaw ベースだった初めての自律 AI エージェントと作業しており、そのエージェントの夜間リサーチが発端だという。続きは抜粋にない。"
+    },
+    "ko": {
+     "title": "직접 만든 Grok Bot Video Studio로 두 번째 뮤직비디오",
+     "summary": "작성자는 직접 만든 Grok Bot Video Studio로 두 번째 뮤직비디오를 만들고 그 배경을 소개한다. 2월 말 당시 OpenClaw 기반이던 첫 자율 AI 에이전트와 작업했는데, 그 에이전트의 야간 리서치에서 시작됐다고 한다. 나머지는 발췌에 없다."
+    },
+    "ms": {
+     "title": "Video muzik kedua dari Grok Bot Video Studio buatan sendiri",
+     "summary": "Penulis menghasilkan video muzik kedua dengan Grok Bot Video Studio yang dibinanya dan berkongsi latar belakangnya: pada akhir Februari dia bekerja dengan ejen AI autonomi pertamanya, ketika itu berasaskan OpenClaw, dan idea ini bermula daripada penyelidikan malamnya. Baki siaran tiada dalam petikan."
+    },
+    "vi": {
+     "title": "Video ca nhạc thứ hai từ Grok Bot Video Studio tự dựng",
+     "summary": "Tác giả làm video ca nhạc thứ hai bằng Grok Bot Video Studio do mình tự xây và kể lại nguồn gốc: cuối tháng 2 họ làm việc với agent AI tự hành đầu tiên, khi đó dựa trên OpenClaw, và ý tưởng bắt nguồn từ các buổi nghiên cứu ban đêm của nó. Phần còn lại không có trong đoạn trích."
+    },
+    "fr": {
+     "title": "Un deuxième clip avec un Grok Bot Video Studio fait maison",
+     "summary": "L'auteur a réalisé un deuxième clip musical avec le Grok Bot Video Studio qu'il a construit et en raconte l'origine : fin février, il travaillait avec son premier agent IA autonome, alors basé sur OpenClaw, et l'idée vient de ses recherches nocturnes. La suite ne figure pas dans l'extrait."
+    },
+    "es": {
+     "title": "Un segundo videoclip con un Grok Bot Video Studio propio",
+     "summary": "El autor hizo un segundo videoclip con el Grok Bot Video Studio que construyó y cuenta su origen: a finales de febrero trabajaba con su primer agente de IA autónomo, entonces basado en OpenClaw, y la idea surge de su investigación nocturna. El resto no aparece en el extracto."
+    },
+    "de": {
+     "title": "Zweites Musikvideo aus dem selbstgebauten Grok Bot Video Studio",
+     "summary": "Der Autor hat mit seinem selbstgebauten Grok Bot Video Studio ein zweites Musikvideo gemacht und erzählt die Vorgeschichte: Ende Februar arbeitete er mit seinem ersten autonomen KI-Agenten, damals auf OpenClaw-Basis, und die Idee geht auf dessen nächtliche Recherche zurück. Der Rest fehlt im Auszug."
+    }
+   }
+  },
+  {
+   "id": "x:2112876808131449222",
+   "url": "https://x.com/tommithetechie/status/2112876808131449222",
+   "source": "x",
+   "source_name": "X",
+   "author": "tommithetechie",
+   "date": "2026-10-21",
+   "likes": 4,
+   "product": "grok-bot",
+   "media": [
+    "https://pbs.twimg.com/ext_tw_video_thumb/2112876791492661248/pu/img/mPCcmb6xDNOOaoDu.jpg"
+   ],
+   "text": "I've not abandoned my love for retro tech! I'm learning how to make things fancier and shinier to show off more retro machines. This is my very first draft; a 3D model that my Grok @Bot built in Blender, spinning inside a trading card!\n\nIt's a bit rough, I'm still figuring out https://t.co/qPRePm44xN",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 在 Blender 里做的复古电脑 3D 卡片",
+     "summary": "作者想更好地展示复古电脑，第一版草稿是 Grok Bot 在 Blender 中建好的 3D 模型，放在一张集换卡里旋转展示。作者说效果还有点粗糙，仍在摸索。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 在 Blender 裡做的復古電腦 3D 卡片",
+     "summary": "作者想更好地展示復古電腦，第一版草稿是 Grok Bot 在 Blender 中建好的 3D 模型，放在一張集換卡裡旋轉展示。作者說效果還有點粗糙，仍在摸索。"
+    },
+    "en": {
+     "title": "A retro-computer 3D trading card built by Grok Bot in Blender",
+     "summary": "To show off retro machines in a fancier way, the author's first draft is a 3D model that their Grok Bot built in Blender, spinning inside a trading card. They say it is still a bit rough and they are figuring it out."
+    },
+    "ja": {
+     "title": "Grok Bot が Blender で作ったレトロPCの3Dトレカ",
+     "summary": "レトロなマシンをもっと見栄えよく紹介するため、作者の最初の試作は Grok Bot が Blender で作った3Dモデルをトレーディングカードの中で回転させたもの。まだ粗く、試行錯誤中だという。"
+    },
+    "ko": {
+     "title": "Grok Bot이 Blender로 만든 레트로 컴퓨터 3D 카드",
+     "summary": "레트로 기기를 더 멋지게 보여 주려는 작성자의 첫 초안은 Grok Bot이 Blender에서 만든 3D 모델이 트레이딩 카드 안에서 회전하는 모습이다. 아직 거칠고 방법을 찾는 중이라고 한다."
+    },
+    "ms": {
+     "title": "Kad dagangan 3D komputer retro dibina Grok Bot dalam Blender",
+     "summary": "Untuk mempamerkan mesin retro dengan lebih menarik, draf pertama penulis ialah model 3D yang dibina Grok Botnya dalam Blender, berputar di dalam kad dagangan. Dia berkata hasilnya masih kasar dan dia masih mencuba."
+    },
+    "vi": {
+     "title": "Thẻ bài 3D máy tính retro do Grok Bot dựng trong Blender",
+     "summary": "Để giới thiệu máy tính cổ ấn tượng hơn, bản nháp đầu tiên của tác giả là một mô hình 3D do Grok Bot dựng trong Blender, xoay bên trong một tấm thẻ bài. Tác giả nói nó vẫn còn thô và đang tìm cách làm."
+    },
+    "fr": {
+     "title": "Une carte 3D d'ordinateur rétro modélisée par Grok Bot dans Blender",
+     "summary": "Pour mettre en valeur ses machines rétro, l'auteur présente un premier brouillon : un modèle 3D construit par son Grok Bot dans Blender, qui tourne à l'intérieur d'une carte à collectionner. Il reconnaît que c'est encore brut et qu'il apprend."
+    },
+    "es": {
+     "title": "Una carta 3D de ordenador retro hecha por Grok Bot en Blender",
+     "summary": "Para lucir mejor sus máquinas retro, el primer borrador del autor es un modelo 3D que su Grok Bot construyó en Blender, girando dentro de una carta coleccionable. Dice que aún está algo tosco y que sigue aprendiendo."
+    },
+    "de": {
+     "title": "Retro-Computer als 3D-Sammelkarte, von Grok Bot in Blender gebaut",
+     "summary": "Um Retro-Rechner schicker zu zeigen, ist der erste Entwurf des Autors ein 3D-Modell, das sein Grok Bot in Blender gebaut hat und das sich in einer Sammelkarte dreht. Es sei noch etwas grob, er probiere noch."
+    }
+   }
+  },
+  {
+   "id": "x:2112722559523598586",
+   "url": "https://x.com/UNIHIKER/status/2112722559523598586",
+   "source": "x",
+   "source_name": "X",
+   "author": "UNIHIKER",
+   "date": "2026-10-21",
+   "likes": 4,
+   "product": "meta-muse",
+   "media": [
+    "https://pbs.twimg.com/media/HVHl7taacAA62zJ.jpg"
+   ],
+   "text": "🛠️ UNIHIKER K10 now works with Meta Muse!\n\nTurn your ESP32-S3-powered K10 into a physical AI companion:\n\n✨ Talk with AI and see replies on the K10 screen\n📷 Capture images for object identification\n🌡️ Share real-time sensor readings\n🔔 Get proactive alerts based on environmental https://t.co/CCME9ULczr",
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "UNIHIKER K10 接入 Meta Muse",
+     "summary": "UNIHIKER 宣布基于 ESP32-S3 的 K10 开发板现已支持 Meta Muse，可做成实体 AI 伙伴：与 AI 对话并在 K10 屏幕上看回复，拍照识别物体，分享实时传感器读数，并根据环境变化获得主动提醒。"
+    },
+    "zh-TW": {
+     "title": "UNIHIKER K10 接入 Meta Muse",
+     "summary": "UNIHIKER 宣布基於 ESP32-S3 的 K10 開發板現已支援 Meta Muse，可做成實體 AI 夥伴：與 AI 對話並在 K10 螢幕上看回覆，拍照辨識物體，分享即時感測器讀數，並根據環境變化獲得主動提醒。"
+    },
+    "en": {
+     "title": "UNIHIKER K10 now works with Meta Muse",
+     "summary": "UNIHIKER says its ESP32-S3-powered K10 board now works with Meta Muse as a physical AI companion: talk with the AI and see replies on the K10 screen, capture images for object identification, share real-time sensor readings, and get proactive alerts based on environmental conditions."
+    },
+    "ja": {
+     "title": "UNIHIKER K10 が Meta Muse に対応",
+     "summary": "UNIHIKER によると、ESP32-S3 搭載の K10 ボードが Meta Muse に対応し、物理的な AI コンパニオンとして使える。AI と会話して K10 の画面で返答を見たり、撮影して物体を識別したり、リアルタイムのセンサー値を共有したり、環境に応じた先回りの通知を受け取ったりできる。"
+    },
+    "ko": {
+     "title": "UNIHIKER K10, Meta Muse 지원",
+     "summary": "UNIHIKER는 ESP32-S3 기반 K10 보드가 이제 Meta Muse와 연동돼 실물 AI 동반자로 쓸 수 있다고 밝혔다. AI와 대화하고 K10 화면에서 답을 보고, 사진으로 사물을 식별하고, 실시간 센서 값을 공유하며, 환경 변화에 따른 선제 알림을 받을 수 있다."
+    },
+    "ms": {
+     "title": "UNIHIKER K10 kini berfungsi dengan Meta Muse",
+     "summary": "UNIHIKER berkata papan K10 berkuasa ESP32-S3 kini berfungsi dengan Meta Muse sebagai teman AI fizikal: berbual dengan AI dan lihat balasan pada skrin K10, tangkap imej untuk mengenal pasti objek, kongsi bacaan sensor masa nyata, dan terima amaran proaktif berdasarkan keadaan persekitaran."
+    },
+    "vi": {
+     "title": "UNIHIKER K10 đã hoạt động với Meta Muse",
+     "summary": "UNIHIKER cho biết bo mạch K10 chạy ESP32-S3 nay đã dùng được với Meta Muse như một người bạn AI vật lý: trò chuyện với AI và xem câu trả lời trên màn hình K10, chụp ảnh để nhận diện vật thể, chia sẻ số đo cảm biến theo thời gian thực và nhận cảnh báo chủ động dựa trên môi trường."
+    },
+    "fr": {
+     "title": "L'UNIHIKER K10 fonctionne désormais avec Meta Muse",
+     "summary": "UNIHIKER annonce que sa carte K10 à ESP32-S3 fonctionne avec Meta Muse comme compagnon IA physique : discuter avec l'IA et lire les réponses sur l'écran du K10, prendre des photos pour identifier des objets, partager des mesures de capteurs en temps réel et recevoir des alertes proactives selon l'environnement."
+    },
+    "es": {
+     "title": "UNIHIKER K10 ya funciona con Meta Muse",
+     "summary": "UNIHIKER anuncia que su placa K10 con ESP32-S3 ya funciona con Meta Muse como compañero de IA físico: hablar con la IA y ver las respuestas en la pantalla del K10, capturar imágenes para identificar objetos, compartir lecturas de sensores en tiempo real y recibir avisos proactivos según el entorno."
+    },
+    "de": {
+     "title": "UNIHIKER K10 funktioniert jetzt mit Meta Muse",
+     "summary": "UNIHIKER meldet, dass das K10-Board mit ESP32-S3 jetzt mit Meta Muse als physischer KI-Begleiter läuft: mit der KI sprechen und Antworten auf dem K10-Display sehen, Bilder zur Objekterkennung aufnehmen, Sensorwerte in Echtzeit teilen und proaktive Hinweise je nach Umgebung erhalten."
+    }
+   }
+  },
+  {
+   "id": "x:2112879201057735139",
+   "url": "https://x.com/Aetheron_0x/status/2112879201057735139",
+   "source": "x",
+   "source_name": "X",
+   "author": "Aetheron_0x",
+   "date": "2026-10-21",
+   "likes": 1,
+   "product": "meta-muse",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2112878963429351424/img/mgosc3PXiKxzo_6F.jpg",
+    "https://pbs.twimg.com/amplify_video_thumb/2112878963433644032/img/VYBMj_y9AvBZwEI7.jpg"
+   ],
+   "text": "FPV barrel roll + Hitchcock dolly zoom. Both made with Meta Muse, no drone, no camera, just a prompt.\n\nDidn't expect it to look this real.\n\n#MetaAI #MuseVideo #AIVideo #FPV\nPrompts 👇\n\n1。FPV barrel roll: [ Realistic first-person flight footage, 10 seconds, vertical 9:16, ultra-wide-angle action camera look with slight lens distortion. 0-4 seconds: the camera skims fast and low over an alpine meadow of green grass and purple lupine flowers, just above the ground, weaving between tall spruce trees, with strong sense of speed and slight natural vibration. 4-7 seconds: it shoots out over a turquoise mountain lake and performs one smooth, full 360-degree barrel roll around its forward axis: the horizon tilts, the sky and the ground swap places, then the horizon rotates all the way back to level. 7-10 seconds: the camera stays level and flies steadily forward, rising gently toward distant snow-capped mountains. Deep blue sky, white cumulus clouds, cloud shadows on the meadow, natural sunlight, true-to-life colors, slightly overexposed sky, raw unedited footage, documentary style. No drone, no aircraft, no hands, no propellers visible in frame. Audio: only strong wind rush ambience. No voiceover, no dialogue, no narration, no music.]\n\n2。Dolly zoom: [Realistic aerial documentary footage, 10 seconds, Hitchcock dolly zoom (vertigo effect). The camera hovers about twenty meters above an alpine meadow, facing a distant snow-capped mountain, flying slowly and steadily forward while the lens gradually zooms out from telephoto to wide-angle. The snow mountain stays roughly the same size in the frame, always centered, while the nearby meadow, turquoise lake and spruce forest expand as the camera advances, the view growing wider, the space slowly stretching and the sense of depth increasing. Fixed camera direction, no rotation, no tilt up or down. Deep blue sky, white cumulus clouds, cloud shadows drifting across the land, natural sunlight, true-to-life colors, smooth continuous motion, raw footage look, documentary style. Audio: only soft natural wind ambience. No voiceover, no dialogue, no narration, no music.\n]",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用 Meta Muse 生成 FPV 翻滚和希区柯克变焦镜头",
+     "summary": "作者用 Meta Muse 只靠提示词生成了两段视频：一段 FPV 穿越机桶滚，一段希区柯克式滑动变焦，没有用无人机或相机，并公开了两段提示词。提示词按秒写分镜：低空掠过高山草甸、在湖面上空完成 360 度横滚、飞向雪山，并要求只有风声、无旁白无音乐。"
+    },
+    "zh-TW": {
+     "title": "用 Meta Muse 生成 FPV 翻滾和希區考克變焦鏡頭",
+     "summary": "作者用 Meta Muse 只靠提示詞生成了兩段影片：一段 FPV 穿越機桶滾，一段希區考克式滑動變焦，沒有用無人機或相機，並公開了兩段提示詞。提示詞按秒寫分鏡：低空掠過高山草甸、在湖面上空完成 360 度橫滾、飛向雪山，並要求只有風聲、無旁白無音樂。"
+    },
+    "en": {
+     "title": "FPV barrel roll and dolly zoom shots generated with Meta Muse",
+     "summary": "The author made two clips with Meta Muse from prompts alone, an FPV barrel roll and a Hitchcock dolly zoom, with no drone or camera, and shared both prompts. They script each second: skimming low over an alpine meadow, a full 360-degree roll over a turquoise lake, rising toward snowy peaks, with only wind audio and no narration or music."
+    },
+    "ja": {
+     "title": "Meta Muse で作った FPV バレルロールとドリーズーム",
+     "summary": "作者はドローンもカメラも使わず、プロンプトだけで Meta Muse に2本の動画を作らせ、両方のプロンプトを公開した。FPV のバレルロールとヒッチコック風ドリーズームで、秒単位で構成を指定している。高山の草原を低く飛び、ターコイズの湖上で360度ロールし、雪山へ上昇する。音は風の音のみで、ナレーションも音楽もなし。"
+    },
+    "ko": {
+     "title": "Meta Muse로 만든 FPV 배럴 롤과 돌리 줌",
+     "summary": "작성자는 드론이나 카메라 없이 프롬프트만으로 Meta Muse에서 FPV 배럴 롤과 히치콕식 돌리 줌 영상 두 개를 만들고 프롬프트를 공개했다. 초 단위로 장면을 지정한다. 고산 초원 위를 낮게 날고, 청록색 호수 위에서 360도 롤을 한 뒤 설산으로 상승하며, 소리는 바람 소리뿐이고 내레이션과 음악은 없다."
+    },
+    "ms": {
+     "title": "Syot FPV barrel roll dan dolly zoom dijana dengan Meta Muse",
+     "summary": "Penulis menghasilkan dua klip dengan Meta Muse hanya melalui prompt, FPV barrel roll dan dolly zoom gaya Hitchcock, tanpa dron atau kamera, dan berkongsi kedua-dua prompt. Setiap saat diskripkan: terbang rendah di atas padang alpine, gulingan penuh 360 darjah di atas tasik biru kehijauan, naik ke arah gunung bersalji, dengan bunyi angin sahaja tanpa narasi atau muzik."
+    },
+    "vi": {
+     "title": "Cảnh FPV barrel roll và dolly zoom tạo bằng Meta Muse",
+     "summary": "Tác giả dùng Meta Muse tạo hai đoạn video chỉ bằng prompt, một cú FPV barrel roll và một dolly zoom kiểu Hitchcock, không dùng drone hay máy quay, và chia sẻ cả hai prompt. Prompt mô tả từng giây: lướt thấp trên đồng cỏ núi cao, lộn tròn 360 độ trên mặt hồ xanh ngọc, bay lên về phía núi tuyết, chỉ có tiếng gió, không lời dẫn hay nhạc."
+    },
+    "fr": {
+     "title": "Tonneau FPV et travelling compensé générés avec Meta Muse",
+     "summary": "L'auteur a créé deux clips avec Meta Muse uniquement par prompt, un tonneau en FPV et un travelling compensé à la Hitchcock, sans drone ni caméra, et partage les deux prompts. Chaque seconde est décrite : rase-mottes au-dessus d'une prairie alpine, tonneau complet de 360 degrés au-dessus d'un lac turquoise, montée vers des sommets enneigés, avec seulement le bruit du vent, sans voix ni musique."
+    },
+    "es": {
+     "title": "Tonel FPV y dolly zoom generados con Meta Muse",
+     "summary": "El autor creó dos clips con Meta Muse solo con prompts, un tonel FPV y un dolly zoom al estilo Hitchcock, sin dron ni cámara, y comparte ambos prompts. Describe cada segundo: vuelo rasante sobre un prado alpino, un giro completo de 360 grados sobre un lago turquesa y ascenso hacia montañas nevadas, con solo sonido de viento, sin narración ni música."
+    },
+    "de": {
+     "title": "FPV-Fassrolle und Dolly-Zoom mit Meta Muse generiert",
+     "summary": "Der Autor hat mit Meta Muse allein per Prompt zwei Clips erzeugt, eine FPV-Fassrolle und einen Hitchcock-Dolly-Zoom, ohne Drohne oder Kamera, und teilt beide Prompts. Jede Sekunde ist beschrieben: Tiefflug über eine Almwiese, eine volle 360-Grad-Rolle über einem türkisen See, Steigflug zu verschneiten Gipfeln, nur Windgeräusche, ohne Sprecher oder Musik."
+    }
+   }
+  },
+  {
+   "id": "x:2112885154142150907",
+   "url": "https://x.com/robo_denis/status/2112885154142150907",
+   "source": "x",
+   "source_name": "X",
+   "author": "robo_denis",
+   "date": "2026-10-21",
+   "likes": 0,
+   "product": "grok-bot",
+   "media": [
+    "https://pbs.twimg.com/media/HVJ5aWEXkAAEz_r.png"
+   ],
+   "text": "The Fox Two Protocol boss is getting an escort 🦊✈️ Its bomb bays now hold a pack of single-engine strike drones that pour out mid-fight. Same paint, same nozzles, same bad attitude. Still building it together with Grok Bot 🤝 #FoxTwoProtocol #gamedev #indiedev https://t.co/uvBlxVF53B https://t.co/2Sb3xuGbOy",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "和 Grok Bot 一起做的独立游戏 Boss 护卫",
+     "summary": "作者在和 Grok Bot 一起开发独立游戏 Fox Two Protocol。这次给 Boss 加了护航：弹舱里装着一群单发动机攻击无人机，会在战斗中途倾泻而出，涂装和喷口风格保持一致。"
+    },
+    "zh-TW": {
+     "title": "和 Grok Bot 一起做的獨立遊戲 Boss 護衛",
+     "summary": "作者在和 Grok Bot 一起開發獨立遊戲 Fox Two Protocol。這次給 Boss 加了護航：彈艙裡裝著一群單發動機攻擊無人機，會在戰鬥中途傾瀉而出，塗裝和噴口風格保持一致。"
+    },
+    "en": {
+     "title": "An indie game boss escort built with Grok Bot",
+     "summary": "The author is building the indie game Fox Two Protocol together with Grok Bot. The latest change gives the boss an escort: its bomb bays now hold a pack of single-engine strike drones that pour out mid-fight, keeping the same paint and nozzles."
+    },
+    "ja": {
+     "title": "Grok Bot と作るインディーゲームのボス護衛",
+     "summary": "作者は Grok Bot と一緒にインディーゲーム Fox Two Protocol を開発している。今回ボスに護衛を追加し、爆弾倉に単発の攻撃ドローンの群れを搭載して戦闘の途中で一斉に放出させた。塗装とノズルのデザインはそのまま。"
+    },
+    "ko": {
+     "title": "Grok Bot과 함께 만든 인디 게임 보스 호위대",
+     "summary": "작성자는 Grok Bot과 함께 인디 게임 Fox Two Protocol을 만들고 있다. 이번에는 보스에 호위를 붙였다. 폭탄창에 단발 엔진 공격 드론 무리를 실어 전투 중에 쏟아져 나오게 했고, 도색과 노즐은 그대로 유지했다."
+    },
+    "ms": {
+     "title": "Pengiring bos permainan indie dibina bersama Grok Bot",
+     "summary": "Penulis sedang membina permainan indie Fox Two Protocol bersama Grok Bot. Perubahan terbaru memberi bos pengiring: ruang bomnya kini memuatkan sekumpulan dron serangan enjin tunggal yang keluar di tengah pertempuran, dengan cat dan muncung yang sama."
+    },
+    "vi": {
+     "title": "Đội hộ tống trùm cuối game indie làm cùng Grok Bot",
+     "summary": "Tác giả đang cùng Grok Bot phát triển game indie Fox Two Protocol. Lần này trùm cuối có thêm hộ tống: khoang bom chứa một bầy drone tấn công một động cơ, tuôn ra giữa trận, vẫn giữ nguyên màu sơn và miệng xả."
+    },
+    "fr": {
+     "title": "Une escorte pour le boss d'un jeu indé, construite avec Grok Bot",
+     "summary": "L'auteur développe le jeu indé Fox Two Protocol avec Grok Bot. Dernier ajout : le boss a une escorte, ses soutes à bombes contiennent désormais une meute de drones d'attaque monomoteurs qui jaillissent en plein combat, avec la même peinture et les mêmes tuyères."
+    },
+    "es": {
+     "title": "Una escolta para el jefe de un juego indie, hecha con Grok Bot",
+     "summary": "El autor desarrolla el juego indie Fox Two Protocol junto a Grok Bot. El último cambio da al jefe una escolta: sus bodegas de bombas llevan ahora un grupo de drones de ataque monomotor que salen en mitad del combate, con la misma pintura y toberas."
+    },
+    "de": {
+     "title": "Eskorte für den Boss eines Indie-Spiels, gebaut mit Grok Bot",
+     "summary": "Der Autor entwickelt das Indie-Spiel Fox Two Protocol zusammen mit Grok Bot. Neu: Der Boss bekommt eine Eskorte, seine Bombenschächte enthalten jetzt einen Schwarm einmotoriger Angriffsdrohnen, die mitten im Kampf herausströmen, bei gleicher Lackierung und gleichen Düsen."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/zeke/dots-on-cloudflare",
+   "url": "https://github.com/zeke/dots-on-cloudflare",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "zeke",
+   "date": "2026-10-21",
+   "likes": 0,
+   "product": "openai-dots",
+   "media": [],
+   "text": "zeke/dots-on-cloudflare\nExploring an always-on personal agent, like OpenAI dots, built on Cloudflare",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "dots-on-cloudflare：在 Cloudflare 上做常驻个人 Agent",
+     "summary": "zeke 的开源仓库，探索在 Cloudflare 上搭建一个类似 OpenAI Dots 的常驻个人 Agent。仓库描述只有这一句，未给出更多结果。"
+    },
+    "zh-TW": {
+     "title": "dots-on-cloudflare：在 Cloudflare 上做常駐個人 Agent",
+     "summary": "zeke 的開源倉庫，探索在 Cloudflare 上搭建一個類似 OpenAI Dots 的常駐個人 Agent。倉庫描述只有這一句，未給出更多結果。"
+    },
+    "en": {
+     "title": "dots-on-cloudflare: an always-on personal agent on Cloudflare",
+     "summary": "An open repository by zeke exploring an always-on personal agent like OpenAI Dots, built on Cloudflare. The repo description says only this and reports no results yet."
+    },
+    "ja": {
+     "title": "dots-on-cloudflare：Cloudflare 上の常駐型パーソナルエージェント",
+     "summary": "zeke による公開リポジトリで、OpenAI Dots のような常駐型パーソナルエージェントを Cloudflare 上で作る試み。説明はこの一文のみで、成果はまだ書かれていない。"
+    },
+    "ko": {
+     "title": "dots-on-cloudflare: Cloudflare 위의 상시 개인 에이전트",
+     "summary": "zeke의 공개 저장소로, OpenAI Dots 같은 상시 개인 에이전트를 Cloudflare 위에 만드는 실험이다. 저장소 설명은 이 한 줄뿐이며 결과는 아직 없다."
+    },
+    "ms": {
+     "title": "dots-on-cloudflare: ejen peribadi sentiasa aktif di Cloudflare",
+     "summary": "Repositori terbuka oleh zeke yang meneroka ejen peribadi sentiasa aktif seperti OpenAI Dots, dibina di Cloudflare. Penerangan repo hanya menyebut ini dan belum melaporkan hasil."
+    },
+    "vi": {
+     "title": "dots-on-cloudflare: agent cá nhân luôn bật trên Cloudflare",
+     "summary": "Kho mã mở của zeke thử nghiệm một agent cá nhân luôn hoạt động giống OpenAI Dots, xây trên Cloudflare. Mô tả kho chỉ có câu này, chưa nêu kết quả."
+    },
+    "fr": {
+     "title": "dots-on-cloudflare : un agent personnel permanent sur Cloudflare",
+     "summary": "Dépôt ouvert de zeke qui explore un agent personnel toujours actif façon OpenAI Dots, construit sur Cloudflare. La description du dépôt se limite à cela et ne mentionne pas encore de résultat."
+    },
+    "es": {
+     "title": "dots-on-cloudflare: un agente personal siempre activo en Cloudflare",
+     "summary": "Repositorio abierto de zeke que explora un agente personal siempre activo al estilo de OpenAI Dots, construido sobre Cloudflare. La descripción solo dice esto y aún no reporta resultados."
+    },
+    "de": {
+     "title": "dots-on-cloudflare: ein dauerhaft laufender persönlicher Agent auf Cloudflare",
+     "summary": "Offenes Repository von zeke, das einen ständig aktiven persönlichen Agenten wie OpenAI Dots auf Cloudflare erkundet. Die Beschreibung sagt nur das und nennt noch keine Ergebnisse."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/xianjia95-oss/muse-wechat-clawbot",
+   "url": "https://github.com/xianjia95-oss/muse-wechat-clawbot",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "xianjia95-oss",
+   "date": "2026-10-21",
+   "likes": 0,
+   "product": "meta-muse",
+   "media": [],
+   "text": "xianjia95-oss/muse-wechat-clawbot\nMeta Muse 对接微信 ClawBot 的轻量桥：文字收发、生成图片与视频回传、任务路由、发送去重和耗时记录。基于腾讯 iLink 协议，MIT 开源。\nclawbot ilink muse nodejs wechat",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "muse-wechat-clawbot：把 Meta Muse 接入微信 ClawBot",
+     "summary": "开源的轻量桥接项目，把 Meta Muse 接到微信 ClawBot：支持文字收发、生成图片和视频后回传、任务路由、发送去重和耗时记录。基于腾讯 iLink 协议，Node.js 编写，MIT 许可。"
+    },
+    "zh-TW": {
+     "title": "muse-wechat-clawbot：把 Meta Muse 接入微信 ClawBot",
+     "summary": "開源的輕量橋接專案，把 Meta Muse 接到微信 ClawBot：支援文字收發、生成圖片和影片後回傳、任務路由、發送去重和耗時記錄。基於騰訊 iLink 協定，Node.js 撰寫，MIT 授權。"
+    },
+    "en": {
+     "title": "muse-wechat-clawbot: connecting Meta Muse to WeChat ClawBot",
+     "summary": "An open-source lightweight bridge between Meta Muse and WeChat ClawBot: text in and out, returning generated images and videos, task routing, send de-duplication and timing logs. Built on Tencent's iLink protocol in Node.js, MIT licensed."
+    },
+    "ja": {
+     "title": "muse-wechat-clawbot：Meta Muse を WeChat ClawBot につなぐ",
+     "summary": "Meta Muse と WeChat の ClawBot をつなぐオープンソースの軽量ブリッジ。テキストの送受信、生成した画像や動画の返送、タスクのルーティング、送信の重複排除、処理時間の記録に対応。Tencent の iLink プロトコルを使い Node.js で書かれ、MIT ライセンス。"
+    },
+    "ko": {
+     "title": "muse-wechat-clawbot: Meta Muse를 WeChat ClawBot에 연결",
+     "summary": "Meta Muse와 WeChat ClawBot을 잇는 오픈소스 경량 브리지다. 텍스트 송수신, 생성한 이미지·영상 회신, 작업 라우팅, 발송 중복 제거, 소요 시간 기록을 지원한다. Tencent iLink 프로토콜 기반의 Node.js 프로젝트이며 MIT 라이선스다."
+    },
+    "ms": {
+     "title": "muse-wechat-clawbot: menyambung Meta Muse ke WeChat ClawBot",
+     "summary": "Jambatan ringan sumber terbuka antara Meta Muse dan WeChat ClawBot: hantar dan terima teks, pulangkan imej dan video yang dijana, penghalaan tugas, nyahduplikasi penghantaran dan log masa. Dibina atas protokol iLink Tencent dalam Node.js, berlesen MIT."
+    },
+    "vi": {
+     "title": "muse-wechat-clawbot: kết nối Meta Muse với WeChat ClawBot",
+     "summary": "Cầu nối nhẹ mã nguồn mở giữa Meta Muse và WeChat ClawBot: gửi nhận văn bản, trả lại ảnh và video đã tạo, định tuyến tác vụ, chống gửi trùng và ghi lại thời gian xử lý. Dựa trên giao thức iLink của Tencent, viết bằng Node.js, giấy phép MIT."
+    },
+    "fr": {
+     "title": "muse-wechat-clawbot : relier Meta Muse au ClawBot de WeChat",
+     "summary": "Passerelle légère open source entre Meta Muse et le ClawBot de WeChat : envoi et réception de texte, renvoi des images et vidéos générées, routage des tâches, déduplication des envois et journal des durées. Basée sur le protocole iLink de Tencent, en Node.js, sous licence MIT."
+    },
+    "es": {
+     "title": "muse-wechat-clawbot: conectar Meta Muse con WeChat ClawBot",
+     "summary": "Puente ligero de código abierto entre Meta Muse y el ClawBot de WeChat: envío y recepción de texto, devolución de imágenes y vídeos generados, enrutado de tareas, deduplicación de envíos y registro de tiempos. Basado en el protocolo iLink de Tencent, en Node.js, con licencia MIT."
+    },
+    "de": {
+     "title": "muse-wechat-clawbot: Meta Muse mit dem WeChat-ClawBot verbinden",
+     "summary": "Leichte Open-Source-Brücke zwischen Meta Muse und dem WeChat-ClawBot: Text senden und empfangen, erzeugte Bilder und Videos zurückschicken, Aufgaben-Routing, Duplikatschutz beim Senden und Zeitprotokoll. Basiert auf dem iLink-Protokoll von Tencent, in Node.js, MIT-lizenziert."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/jamespendry/send-to-grok-bot/pull/31",
+   "url": "https://github.com/jamespendry/send-to-grok-bot/pull/31",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "jamespendry",
+   "date": "2026-10-21",
+   "likes": 0,
+   "product": "grok-bot",
+   "media": [],
+   "text": "iPhone: send to Grok Bot through its share sheet\ngrokbot:// only opens Grok Bot's home screen (seen in James's 2026-10-21 recording), so the copied message never reached a chat. The Shortcut now copies the message and opens the share sheet: tap Grok Bot, pick a chat, tap Attach. iPhone page, README and BUILD.md updated; Shortcut re-signed; tests pass.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "iPhone 快捷指令改用分享面板发给 Grok Bot",
+     "summary": "send-to-grok-bot 项目的一个 PR：grokbot:// 链接只会打开 Grok Bot 首页，复制的消息到不了对话。现在快捷指令先复制消息再打开分享面板，点 Grok Bot、选对话、点附加即可。iPhone 页面、README 和 BUILD.md 已更新，快捷指令重新签名，测试通过。"
+    },
+    "zh-TW": {
+     "title": "iPhone 捷徑改用分享選單傳給 Grok Bot",
+     "summary": "send-to-grok-bot 專案的一個 PR：grokbot:// 連結只會打開 Grok Bot 首頁，複製的訊息到不了對話。現在捷徑先複製訊息再打開分享選單，點 Grok Bot、選對話、點附加即可。iPhone 頁面、README 和 BUILD.md 已更新，捷徑重新簽署，測試通過。"
+    },
+    "en": {
+     "title": "iPhone Shortcut now sends to Grok Bot through the share sheet",
+     "summary": "A PR in send-to-grok-bot: the grokbot:// link only opened Grok Bot's home screen, so copied messages never reached a chat. The Shortcut now copies the message and opens the share sheet, where you tap Grok Bot, pick a chat and tap Attach. The iPhone page, README and BUILD.md were updated, the Shortcut re-signed and tests pass."
+    },
+    "ja": {
+     "title": "iPhone ショートカットが共有シート経由で Grok Bot に送信",
+     "summary": "send-to-grok-bot の PR。grokbot:// のリンクでは Grok Bot のホーム画面が開くだけで、コピーしたメッセージがチャットに届かなかった。新しいショートカットはメッセージをコピーして共有シートを開き、Grok Bot をタップしてチャットを選び「添付」を押す。iPhone のページ、README、BUILD.md を更新し、ショートカットを再署名、テストも通過。"
+    },
+    "ko": {
+     "title": "iPhone 단축어, 공유 시트로 Grok Bot에 전송",
+     "summary": "send-to-grok-bot의 PR이다. grokbot:// 링크는 Grok Bot 홈 화면만 열어 복사한 메시지가 채팅에 닿지 않았다. 이제 단축어가 메시지를 복사하고 공유 시트를 열어 Grok Bot을 누르고 채팅을 고른 뒤 첨부를 누르면 된다. iPhone 페이지, README, BUILD.md를 수정하고 단축어를 다시 서명했으며 테스트를 통과했다."
+    },
+    "ms": {
+     "title": "Pintasan iPhone kini menghantar ke Grok Bot melalui helaian kongsi",
+     "summary": "PR dalam send-to-grok-bot: pautan grokbot:// hanya membuka skrin utama Grok Bot, jadi mesej yang disalin tidak sampai ke sembang. Pintasan kini menyalin mesej dan membuka helaian kongsi; ketik Grok Bot, pilih sembang dan ketik Lampir. Halaman iPhone, README dan BUILD.md dikemas kini, pintasan ditandatangani semula dan ujian lulus."
+    },
+    "vi": {
+     "title": "Phím tắt iPhone gửi tới Grok Bot qua bảng chia sẻ",
+     "summary": "Một PR trong send-to-grok-bot: liên kết grokbot:// chỉ mở màn hình chính của Grok Bot nên tin nhắn đã sao chép không tới được cuộc trò chuyện. Giờ phím tắt sao chép tin nhắn rồi mở bảng chia sẻ, bạn chạm Grok Bot, chọn cuộc trò chuyện và chạm Đính kèm. Trang iPhone, README và BUILD.md đã cập nhật, phím tắt được ký lại và các bài kiểm tra đều đạt."
+    },
+    "fr": {
+     "title": "Le raccourci iPhone envoie à Grok Bot via la feuille de partage",
+     "summary": "Une PR de send-to-grok-bot : le lien grokbot:// n'ouvrait que l'accueil de Grok Bot, donc le message copié n'arrivait jamais dans une conversation. Le raccourci copie maintenant le message et ouvre la feuille de partage : toucher Grok Bot, choisir une conversation, toucher Joindre. Page iPhone, README et BUILD.md mis à jour, raccourci re-signé, tests au vert."
+    },
+    "es": {
+     "title": "El atajo de iPhone envía a Grok Bot mediante la hoja de compartir",
+     "summary": "Un PR de send-to-grok-bot: el enlace grokbot:// solo abría la pantalla de inicio de Grok Bot, así que el mensaje copiado nunca llegaba a un chat. Ahora el atajo copia el mensaje y abre la hoja de compartir: tocas Grok Bot, eliges un chat y tocas Adjuntar. Se actualizaron la página de iPhone, el README y BUILD.md, se volvió a firmar el atajo y las pruebas pasan."
+    },
+    "de": {
+     "title": "iPhone-Kurzbefehl sendet jetzt über das Teilen-Menü an Grok Bot",
+     "summary": "Ein PR in send-to-grok-bot: Der grokbot://-Link öffnete nur den Startbildschirm von Grok Bot, kopierte Nachrichten kamen nie in einem Chat an. Der Kurzbefehl kopiert die Nachricht jetzt und öffnet das Teilen-Menü: Grok Bot antippen, Chat wählen, Anhängen tippen. iPhone-Seite, README und BUILD.md aktualisiert, Kurzbefehl neu signiert, Tests bestanden."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/mawwalker/infostation/pull/1",
+   "url": "https://github.com/mawwalker/infostation/pull/1",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "mawwalker",
+   "date": "2026-10-21",
+   "likes": 0,
+   "product": "grok-bot",
+   "media": [],
+   "text": "Add grokbot LLM handoff and X posts as a source\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nGrok Bot can operate InfoStation on a schedule without an HTTP LLM API, and X posts can feed story selection and scripts.\n\n## LLM handoff (`agy` stays the default)\n\n`llm.provider: grokbot`, `INFOSTATION_LLM=grokbot`, or `--llm grokbot`. Each LLM call writes `runs/<id>/handoff/<name>.request.json` (full prompt + JSON schema) and exits **75**. The agent writes the response; the same `infostation run` validates it and continues. Schema errors exit **76** and name the broken fields. A valid answer is cached under `runs/<id>/llm/<name>/result.json`, so a fact-check rewrite or shortening pass is a separate handoff. Fact-check still runs on grokbot-written copy.\n\n`infostation handoff status|list|path|submit` is the operator loop. Full premarket and recap steps, file schemas, and CPU-only setup are in `docs/GROKBOT.md` (linked from README and AGENTS.md).\n\n## X as a source\n\n- Agent file: `runs/<id>/inputs/x_posts.json` (optional `x.inbox`). In grokbot mode, collect/screen first writes `handoff/x_request.json` with cashtags, accounts, and the time window, then waits until that file exists.\n- Optional collector: X API v2 recent search only when `X_BEARER_TOKEN` is set. Unset → `x_api` is **skipped** in doctor and `review.md`, not failed.\n- Buzz is a screening score term. Posts are quotable context in the editor/script/thread prompts, with attribution. `review.md` lists the posts that were fed in. Numbers that appear only in tweets (or like/follower counts) are excluded from fact-check.\n\n## CPU-only premarket\n\nPremarket never calls IndexTTS, Whisper, or ComfyUI. `doctor` warns on a missing GPU / IndexTTS instead of failing. Recap voice still needs a GPU, or `tts.provider: edge`.\n\n## Fixes from the 2026-10-21 grokbot premarket run\n\n- `run --force`",
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "InfoStation 加入 Grok Bot 交接模式和 X 帖子来源",
+     "summary": "InfoStation 的一个 PR，让 Grok Bot 无需 HTTP LLM API 也能按计划运行它：每次 LLM 调用写出带完整提示词和 JSON schema 的请求文件后退出，由 Agent 写回答案，再由同一次运行校验并继续。X 帖子可作为选题和脚本的来源，并附带署名；只出现在推文里的数字不进入事实核查。盘前流程只用 CPU。"
+    },
+    "zh-TW": {
+     "title": "InfoStation 加入 Grok Bot 交接模式和 X 貼文來源",
+     "summary": "InfoStation 的一個 PR，讓 Grok Bot 不需 HTTP LLM API 也能按排程運行它：每次 LLM 呼叫寫出帶完整提示詞和 JSON schema 的請求檔後退出，由 Agent 寫回答案，再由同一次運行驗證並繼續。X 貼文可作為選題和腳本的來源，並附上署名；只出現在推文裡的數字不進入事實查核。盤前流程只用 CPU。"
+    },
+    "en": {
+     "title": "InfoStation adds a Grok Bot handoff mode and X posts as a source",
+     "summary": "A PR that lets Grok Bot run InfoStation on a schedule without an HTTP LLM API: each LLM call writes a request file with the full prompt and JSON schema and exits, the agent writes the answer, and the same run validates it and continues. X posts can feed story selection and scripts with attribution, while numbers found only in tweets are excluded from fact-checking. Premarket runs CPU-only."
+    },
+    "ja": {
+     "title": "InfoStation に Grok Bot 引き継ぎモードと X 投稿ソースを追加",
+     "summary": "HTTP の LLM API なしで Grok Bot が InfoStation を定期実行できるようにする PR。LLM 呼び出しごとに完全なプロンプトと JSON スキーマ入りのリクエストファイルを書いて終了し、エージェントが回答を書き、同じ実行が検証して続行する。X の投稿を題材選びや台本の素材にでき、出典を明記する。ツイートにしかない数字はファクトチェックから除外。プレマーケットは CPU のみで動く。"
+    },
+    "ko": {
+     "title": "InfoStation, Grok Bot 인계 모드와 X 게시물 소스 추가",
+     "summary": "HTTP LLM API 없이도 Grok Bot이 InfoStation을 정기 실행할 수 있게 하는 PR이다. LLM 호출마다 전체 프롬프트와 JSON 스키마가 담긴 요청 파일을 쓰고 종료하면, 에이전트가 답을 쓰고 같은 실행이 검증 후 이어간다. X 게시물을 출처 표기와 함께 주제 선정과 대본에 쓸 수 있고, 트윗에만 있는 숫자는 사실 확인에서 제외한다. 장전 단계는 CPU만 사용한다."
+    },
+    "ms": {
+     "title": "InfoStation menambah mod serahan Grok Bot dan siaran X sebagai sumber",
+     "summary": "PR yang membolehkan Grok Bot menjalankan InfoStation mengikut jadual tanpa API LLM HTTP: setiap panggilan LLM menulis fail permintaan dengan prompt penuh dan skema JSON lalu keluar, ejen menulis jawapan, dan larian yang sama mengesahkannya lalu meneruskan. Siaran X boleh digunakan untuk pemilihan cerita dan skrip dengan atribusi, manakala nombor yang hanya ada dalam tweet dikecualikan daripada semakan fakta. Pra-pasaran hanya menggunakan CPU."
+    },
+    "vi": {
+     "title": "InfoStation thêm chế độ bàn giao cho Grok Bot và nguồn bài đăng X",
+     "summary": "PR cho phép Grok Bot chạy InfoStation theo lịch mà không cần API LLM qua HTTP: mỗi lệnh gọi LLM ghi ra một file yêu cầu kèm prompt đầy đủ và JSON schema rồi thoát, agent viết câu trả lời, và chính lần chạy đó kiểm tra rồi tiếp tục. Bài đăng X có thể dùng để chọn tin và viết kịch bản kèm ghi nguồn; con số chỉ có trong tweet bị loại khỏi khâu kiểm chứng. Bước trước phiên chỉ dùng CPU."
+    },
+    "fr": {
+     "title": "InfoStation ajoute un mode de relais Grok Bot et les posts X comme source",
+     "summary": "Une PR qui permet à Grok Bot de piloter InfoStation sur planning sans API LLM HTTP : chaque appel LLM écrit un fichier de requête avec le prompt complet et le schéma JSON puis s'arrête, l'agent écrit la réponse et la même exécution la valide avant de continuer. Les posts X peuvent nourrir le choix des sujets et les scripts avec attribution ; les chiffres présents uniquement dans des tweets sont exclus de la vérification. Le pré-marché tourne sur CPU seul."
+    },
+    "es": {
+     "title": "InfoStation añade un modo de relevo para Grok Bot y posts de X como fuente",
+     "summary": "Un PR que permite a Grok Bot ejecutar InfoStation de forma programada sin API LLM por HTTP: cada llamada al LLM escribe un archivo de petición con el prompt completo y el esquema JSON y termina, el agente escribe la respuesta y la misma ejecución la valida y continúa. Los posts de X pueden alimentar la selección de temas y los guiones con atribución; las cifras que solo aparecen en tuits se excluyen de la verificación. La fase previa al mercado usa solo CPU."
+    },
+    "de": {
+     "title": "InfoStation bekommt einen Grok-Bot-Übergabemodus und X-Posts als Quelle",
+     "summary": "Ein PR, mit dem Grok Bot InfoStation ohne HTTP-LLM-API zeitgesteuert betreiben kann: Jeder LLM-Aufruf schreibt eine Anfragedatei mit vollem Prompt und JSON-Schema und beendet sich, der Agent schreibt die Antwort, und derselbe Lauf prüft sie und macht weiter. X-Posts können mit Quellenangabe in Themenauswahl und Skripte einfließen; Zahlen, die nur in Tweets stehen, sind vom Faktencheck ausgeschlossen. Der Vorbörsenlauf braucht nur die CPU."
+    }
+   }
+  }
+ ]
 }
