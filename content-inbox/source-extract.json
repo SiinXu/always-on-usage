@@ -8675,5 +8675,190 @@
   ],
   "kind": "github",
   "fetched_at": "2026-10-21"
+ },
+ "https://github.com/uezo/dots-bridge": {
+  "text": "A Python bridge between external applications and OpenAI dots, using HTTP and MCP Events. Send requests to dots, receive progress updates and final replies, and handle push messages from dots in your application.",
+  "media": [],
+  "outline": [
+   "Two-way messaging — Send requests and receive replies or push messages from dots.",
+   "Async callbacks — Register @bridge.on_received handlers and keep sending and receiving independent.",
+   "OpenAI-compatible interfaces — Use Chat Completions REST/SSE and Responses WebSocket clients.",
+   "Start registering a custom MCP server on the plugins page. Use https://YOUR-DOMAIN.ngrok.app/mcp as the MCP URL and select OAuth authentication.",
+   "Copy the exact OAuth callback URL shown during registration into redirect_uri in bridge.toml. Stop serve with Ctrl+C and restart it.",
+   "Register and connect using the values below. Enter owner_key from bridge.toml on the bridge's consent page.",
+   "Your application sends a request. The bridge stores it in SQLite and returns a request_id.",
+   "The bridge delivers an app.message.created event to the subscribed dot over HTTPS."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/norlingdumar-arch/muse-domestic-bridge": {
+  "text": "将已有 **Meta Muse 主聊天**接入国内聊天软件。选择 **微信、飞书或 QQ 其中一个渠道**，在自己的 Linux 服务器运行；手机通过所选应用收发消息。",
+  "media": [],
+  "outline": [
+   "Muse 使用内部接口和你自己的网页登录 Cookie；失效后需要更新。读取 Cookie 的操作见 账号与隐私。",
+   "消息同步到已有主聊天，其他 Muse 客户端发出的助手回复也可能被转发；网页里你自己发送的消息不会额外镜像。",
+   "Muse 定时任务自身可能延迟，桥接无法保证其执行准时。微信长期不交互后的主动发送可能被拒绝。",
+   "网络中断时若已开始提交而回执不明，任务标为 unknown，不自动再执行；请核对 Muse 主聊天。历史补漏窗口有限，不保证长期停机后的完整回补。",
+   "群聊、多用户接入、独立语音/视频、飞书富文本 post 嵌图不在此版本范围。",
+   "QQ 使用第三方客户端连接，可能需要重新扫码或处理账号验证；使用 NapCat 前自行查看其许可和平台规则。"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/Cisen07/harness-bridge": {
+  "text": "Run native coding-agent CLIs (**Codex CLI** and **Claude Code**) on your own machines from a cloud bot (\"dispatcher\"), over a private **Tailscale** tailnet, and get the bot **woken up by a webhook push** the moment a job finishes - instead of keeping a polling command alive and hoping its exit wakes the bot.",
+  "media": [],
+  "outline": [
+   "Tailnet + ACL: docs/tailscale-acl.md.",
+   "Dispatcher box: export HARNESS_HOME=~/harness, copy dispatcher/hosts.example.env -> $HARNESS_HOME/hosts.env,",
+   "Mac: docs/install-macos.md (config.toml, launchd, webhook.conf).",
+   "Ubuntu: docs/install-ubuntu.md (SSH key, targets.json).",
+   "Webhook wake: docs/webhook-wake.md. Remember: WEBHOOK_AUTH=Bearer  exactly."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/zzyong24/grokbot-team-kit": {
+  "text": "一个总管 + 一群专员 + 6 类审批点。这是我在 Grok Bot 上实际跑的一套「一人内容团队」配置，整理成了可以直接照抄的模板：岗位卡、团队规则、提示词、写作和素材小工具。",
+  "media": [],
+  "outline": [
+   "岗位卡模板（role-cards/）：14 张，每张就是一个 Bot 的完整说明，{{主人}}、{{共享目录}} 这类占位换成你自己的就能用。",
+   "团队规则（team-rules/）：全员规则 + 6 类审批点（发布、花钱、外发、删除、改登录、建 Bot）+ 待办投递格式。",
+   "共享罗盘模板（compass-template/）：Bot 之间没有共享聊天记录，靠一个共享目录传上下文。",
+   "提示词（prompts/）：口吻卡、平台卡（X 长文、X 短帖、公众号、小红书、抖音、视频号、B 站、朋友圈、口播稿）、写文案和去 AI 味的骨架、产出后校验清单。",
+   "小工具（tools/、media/）：调 Gemini 写稿 / 去 AI 味 / 局部改写（带敏感值拦截和零改动核对）、语音合成、视频下载截取烧字幕。",
+   "一个人做内容（X、公众号、小红书、短视频），想让 AI 分工协作，而不是一个聊天窗口什么都干的人。",
+   "已经在用 Grok Bot，想把「派活、审批、交付」规矩化的人。",
+   "想参考多 Agent 分工、审批点设计和提示词工程的开发者。"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/Obiwayne/grokbot-inbox-assistant": {
+  "text": "**New email → summary → next action → reply draft → you approve it from Telegram.**",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/Obiwayne/grokbot-inbox-assistant/HEAD/docs/screenshots/n8n-workflow.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/Obiwayne/grokbot-inbox-assistant/HEAD/docs/screenshots/telegram.png"
+   }
+  ],
+  "outline": [
+   "Classifies it: customer enquiry, lead, invoice, newsletter, urgent or other.",
+   "Summarises it in up to three sentences and suggests one next action.",
+   "Drafts a reply using only your business profile: prices, hours, tone, rules. Missing facts become [[ASK: …]] placeholders, never guesses. No drafts for newsl…",
+   "Saves the draft in AgentMail as a reply in the same thread.",
+   "Messages you on Telegram with the summary and the draft, plus ✅ Send reply and 🗑 Discard buttons. Nothing is sent until you press Send.",
+   "n8n: free self-hosted for your own business use (Sustainable Use License), or n8n Cloud.",
+   "AgentMail: free for 3 inboxes and 100 emails a day; $20 a month adds your own domain.",
+   "Grok API: pay per token. grok-4.3 is $1.25 per million input tokens and $2.50 per million output. A typical email (profile + message + reply) is a few thousa…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/mehh/vm-vitals": {
+  "text": "**Is my bot's computer okay?**",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/mehh/vm-vitals/HEAD/oss-shots/landing-hero.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/mehh/vm-vitals/HEAD/oss-shots/dashboard-hero.png"
+   }
+  ],
+  "outline": [
+   "Open vm-vitals.vercel.app and click Copy prompt for your Grok Bot. That mints a one-time pair token, bakes it into a prompt and copies it.",
+   "Paste it to your bot. Grok Bot, Claude Code, Codex, anything that can run a shell command. The prompt looks like this, with your token in place of the x's:",
+   "Wait. The page you copied it from listens for the pairing and jumps to your dashboard when the first heartbeat lands, usually within a minute.",
+   "Flip Public page on the dashboard, hit Copy link, and send it to your friends. The link unfurls into a live card.",
+   "A health score from 0 to 100 and a mood: thriving, humming along, sweating a bit, wheezing, flatlining, or gone quiet. Grok Bot's face and antenna light foll…",
+   "The crew. Chip watches CPU and load, Mimi watches memory and swap, Stash watches the root disk, Ping watches the network. Each one fills up with its number, …",
+   "Charts for the last hour, 6 hours, a day or a week.",
+   "Alerts for full disks, memory pressure, swap, runaway load, OOM kills, agent jobs that died, and machines that went quiet."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/Aneesh15here/toowoomba-whats-on/pull/1": {
+  "text": "A free static calendar of events, garage sales, and community notices in Toowoomba, Queensland. The site is plain HTML, CSS, and JavaScript. It reads `data/events.json`. GitHub Pages can host it from this repository with no server and no paid hosting.",
+  "media": [],
+  "outline": [
+   "scripts/collect.mjs fetches public listing pages that allow automated reads.",
+   "It normalises each listing, tags age group, community, and category with keyword rules, drops anything outside the Toowoomba region or already finished, and …",
+   "It writes data/events.json only when the listings changed. A source that errors keeps its previous listings. A source that is skipped or returns nothing cont…",
+   "The page merges that file with approved rows in data/submissions.json. Past listings stay hidden.",
+   "GitHub Actions runs the collector at 6:00 and 18:00 Australia/Brisbane (0 20 * * * and 0 8 * * * UTC) and when someone starts the workflow by hand. The workf…",
+   "Age group: Kids 0-12, Teens 13-17, Young adults 18-30, Adults, Seniors 60+, Families/All ages",
+   "Community: Indian, Filipino, African, Pacific Islander, Chinese, Korean, Latin American, Indigenous/First Nations, Multicultural/All",
+   "Category: music, sport, church/faith, markets, arts, education, free events, garage sales"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://www.youtube.com/watch?v=QU7owtrT8DY": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/QU7owtrT8DY/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-10-22"
+ },
+ "https://www.youtube.com/watch?v=nMyvQ8NBbjk": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/nMyvQ8NBbjk/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-10-22"
+ },
+ "https://www.youtube.com/watch?v=H0nMKcifkgc": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/H0nMKcifkgc/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-10-22"
+ },
+ "https://www.youtube.com/watch?v=nKL5BbJ7lAg": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/nKL5BbJ7lAg/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-10-22"
+ },
+ "https://www.youtube.com/watch?v=rOVomdnWhjQ": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/rOVomdnWhjQ/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-10-22"
  }
 }

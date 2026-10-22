@@ -34922,19 +34922,6 @@
    "found_at": "2026-10-22T11:59:55.814Z"
   },
   {
-   "id": "gh:github.com/uezo/dots-bridge",
-   "url": "https://github.com/uezo/dots-bridge",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "uezo",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "uezo/dots-bridge\nUse OpenAI dots from your own apps: a bridge with a Python client and an OpenAI-compatible API.\nai-agent chatgpt dots mcp mcp-server openai openai-compatible python",
-   "media": [],
-   "found_at": "2026-10-22T12:01:20.661Z"
-  },
-  {
    "id": "gh:github.com/anil-matcha/open-duet",
    "url": "https://github.com/Anil-matcha/open-duet",
    "source": "github",
@@ -35039,19 +35026,6 @@
    "found_at": "2026-10-22T12:01:43.201Z"
   },
   {
-   "id": "gh:github.com/norlingdumar-arch/muse-domestic-bridge",
-   "url": "https://github.com/norlingdumar-arch/muse-domestic-bridge",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "norlingdumar-arch",
-   "date": "2026-10-22",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "norlingdumar-arch/muse-domestic-bridge\nSelf-hosted Meta Muse main-chat bridge: choose Weixin, Feishu or QQ. Text, images and files. Beta.",
-   "media": [],
-   "found_at": "2026-10-22T12:02:05.449Z"
-  },
-  {
    "id": "gh:github.com/mirzahusadzic/codex-unified-model-router",
    "url": "https://github.com/mirzahusadzic/codex-unified-model-router",
    "source": "github",
@@ -35091,19 +35065,6 @@
    "found_at": "2026-10-22T12:02:35.917Z"
   },
   {
-   "id": "gh:github.com/cisen07/harness-bridge",
-   "url": "https://github.com/Cisen07/harness-bridge",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "Cisen07",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Cisen07/harness-bridge\nCross-machine Harness dispatch + webhook push-wake for Grok Bot (Mac HTTP bridge / Ubuntu SSH; Codex + Claude Code)",
-   "media": [],
-   "found_at": "2026-10-22T12:02:35.918Z"
-  },
-  {
    "id": "gh:github.com/wolfqing/opengrokbot",
    "url": "https://github.com/wolfqing/OpenGrokBot",
    "source": "github",
@@ -35113,19 +35074,6 @@
    "likes": 75,
    "product": "grok-bot",
    "text": "wolfqing/OpenGrokBot\nSelf-hosted AI teammates, each with its own computer — a Grok Bot alternative on your hardware. Bring any model. Unofficial.\nagents ai-agents byok grok grok-bot open-source-alternative openclaw self-hosted",
-   "media": [],
-   "found_at": "2026-10-22T12:02:35.918Z"
-  },
-  {
-   "id": "gh:github.com/zzyong24/grokbot-team-kit",
-   "url": "https://github.com/zzyong24/grokbot-team-kit",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "zzyong24",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "zzyong24/grokbot-team-kit\n在 Grok Bot 上搭一支 1 总管 + 多专员的 Bot 团队：岗位卡模板、审批规则、写作与媒体工具",
    "media": [],
    "found_at": "2026-10-22T12:02:35.918Z"
   },
@@ -35260,19 +35208,6 @@
    "found_at": "2026-10-22T12:02:51.141Z"
   },
   {
-   "id": "gh:github.com/obiwayne/grokbot-inbox-assistant",
-   "url": "https://github.com/Obiwayne/grokbot-inbox-assistant",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "Obiwayne",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Obiwayne/grokbot-inbox-assistant\nBuild your own Grok email assistant: new email → summary, next action and reply draft → approve in Telegram. n8n + AgentMail + Grok API, plus a Grok Bot pack.\nagentmail ai-agent email-assistant grok n8n n8n-workflow telegram-bot template xai",
-   "media": [],
-   "found_at": "2026-10-22T12:02:51.142Z"
-  },
-  {
    "id": "gh:github.com/misselvexu/grokbot-x-ops-skill",
    "url": "https://github.com/misselvexu/grokbot-x-ops-skill",
    "source": "github",
@@ -35282,19 +35217,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "misselvexu/grokbot-x-ops-skill",
-   "media": [],
-   "found_at": "2026-10-22T12:02:51.142Z"
-  },
-  {
-   "id": "gh:github.com/mehh/vm-vitals",
-   "url": "https://github.com/mehh/vm-vitals",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "mehh",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "mehh/vm-vitals\nIs my bot's computer okay? A heartbeat for the machine your Grok Bot runs on: one prompt to install, live dashboard, alerts, and a share card with blob friends. Open source agent, numbers only.\nai-agents build-in-public golang grokbot monitoring nextjs",
    "media": [],
    "found_at": "2026-10-22T12:02:51.142Z"
   },
@@ -35546,19 +35468,6 @@
    "found_at": "2026-10-22T12:02:58.913Z"
   },
   {
-   "id": "gh:github.com/aneesh15here/toowoomba-whats-on/pull/1",
-   "url": "https://github.com/Aneesh15here/toowoomba-whats-on/pull/1",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "Aneesh15here",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "What's On Toowoomba: static calendar and twice-daily collector\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Summary\n\nStatic GitHub Pages site for events in Toowoomba, Queensland. Plain HTML, CSS, and JavaScript read `data/events.json`. No server and no paid hosting.\n\n- Filters for age group, community, category, and date (today / this weekend / this week / this month). Past listings stay hidden.\n- Garage sales have their own tab (date, suburb/address, items). Facebook and Instagram are not scraped; those sales arrive through the share form.\n- Share something posts to FormSubmit (`aneesh@mail.grokbot.com`) with `_captcha`, `_template=table`, and a honeypot. Submissions are not auto-published. Approved rows go in `data/submissions.json` and the page merges only `status: \"approved\"`.\n- `scripts/collect.mjs` plus `.github/workflows/collect.yml` run at 06:00 and 18:00 Australia/Brisbane (`0 20 * * *` and `0 8 * * *` UTC) and on `workflow_dispatch`. One failing source does not fail the run. The workflow uses only the default `GITHUB_TOKEN` with `contents: write`, and pins `actions/checkout@v4` and `actions/setup-node@v4`.\n\nPages: Settings → Pages → Deploy from branch `main`, folder `/` (root). Published URL: `https://aneesh15here.github.io/toowoomba-whats-on/`.\n\n## Collector proof (this VM, 22 Oct 2026)\n\n`node scripts/collect.mjs` wrote 127 upcoming listings. Nothing was invented. Sources that returned only past items contribute zero.\n\n| Source | Parsed | Kept (upcoming, in region) | In `events.json` after dedupe |\n| --- | --- | --- | --- |\n| Toowoomba Regional Council (`tr.qld.gov.au`) | 22 | 2 | 2 |\n| Toowoomba library (council program pages) | 25 | 20 | 20 |\n| Eventbrite public Toowoomba pages (up to 4) | 79 | 70 | 70 |\n| Humanitix public Toowoomba search | 32 | 36 (multi-date expansion) | 35 |\n| Multicultural (TIMS + Malayali) | 7 | 0 (all",
-   "media": [],
-   "found_at": "2026-10-22T12:02:58.913Z"
-  },
-  {
    "id": "gh:github.com/risu729/pateat/pull/862",
    "url": "https://github.com/risu729/pateat/pull/862",
    "source": "github",
@@ -35585,54 +35494,6 @@
    "found_at": "2026-10-22T12:03:21.120Z"
   },
   {
-   "id": "yt:QU7owtrT8DY",
-   "url": "https://www.youtube.com/watch?v=QU7owtrT8DY",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "Vaibhav Sisinty",
-   "date": "2026-10-21",
-   "likes": null,
-   "views": 26036,
-   "product": "openai-dots",
-   "text": "I Gave OpenAI Dots and Meta Muse Real Work. Here’s What Happened\n🔗 TOOLS AND LINKS\nAccess the Agent Field Guide, prompts, setup guides, comparison notes, and resources from this video inside our free Staying Ahead WhatsApp community: https://links.stayingahead.com/YT94 \n\nOpenAI Dots vs Meta Muse sounds like a simple AI assistant comparison, but once you actually start using both, they turn out to be very different products.\n\nBoth are built around the same bigger idea: instead of opening a fresh chatbot every time, you get an assistant that remembers more of your context, works across different tools, and can stay involved in what you are doing over time.\n\nBut OpenAI and Meta are approaching that idea very differently.\nMeta Muse feels much broader and more personal. It brings together your chats, side conversations, feed, ideas, goals, library, generated content, podcasts, and deeper connections to the Meta ecosystem.\n\nOpenAI Dots feels much closer to actual work you can delegate.\nYou can call your Dot and ask for an update on something you were already working on.\n\nYou can give it access to its own computer environment.\nYou can connect it to Slack, ask for your priorities, let it follow up with someone on your team, and bring the answer back to you.\nYou can also give it larger tasks that need much more context.\nIn this video, you’ll see Dots help research and create a sponsor pitch deck, using information around your YouTube channel, audience, and previous sponsorships instead of starting from a completely blank prompt.\n\nYou’ll also see the Agent Field Guide, which compares tools like OpenAI Dots, Meta Muse, Grok Bot, Hermes Agent, Instinct, and other personal AI assistants so you can understand which one makes sense for your workflow.\nThen we take the workflow one step further.\n\n\n#OpenAIDots #MetaMuse #AIAgents #AITools #ChatGPT #OpenAI #MetaAI #AIAssistants #AIAutomation #Codex #Hostinger #AI2026\n\n\n⚠️ DISCLAIMER\n\n🤖 This video was created with the assistance of AI tools. The script, voiceover, visuals and some editing elements were generated or enhanced using AI, with human oversight applied to fact-check and structure the content.\n🔄 AI moves fast, so accuracy, pricing and availability of the tools mentioned may change after the time of recording. Always verify details from official sources.\n📚 This content is educational and informational only. It is not financial, legal, medical or professional advice. Do your own research before making decisions based on anything discussed here.\n™️ All names, brands and products referenced are used for informational purposes only and remain the property of their respective owners.\n\n✅ Stay critical, stay curious, and use AI responsibly.\n\n--------\n\nTo Know More,\nFollow Vaibhav Sisinty On ⤵︎\n\nInstagram @VaibhavSisinty\nhttps://www.instagram.com/vaibhavsisinty\n\nTwitter @VaibhavSisinty\nhttps://twitter.com/VaibhavSisinty\n\nFacebook @VaibhavSisinty\nhttps://www.facebook.com/vaibhavsisinty/\n\nLinkedIn - Vaibhav Sisint",
-   "media": [
-    "https://i.ytimg.com/vi/QU7owtrT8DY/hqdefault.jpg"
-   ],
-   "found_at": "2026-10-22T12:29:14.261Z"
-  },
-  {
-   "id": "yt:nMyvQ8NBbjk",
-   "url": "https://www.youtube.com/watch?v=nMyvQ8NBbjk",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "The Tech Girl",
-   "date": "2026-10-21",
-   "likes": null,
-   "views": 9152,
-   "product": "openai-dots",
-   "text": "I Tested ChatGPT Dots vs Meta Muse—Here’s Who Should Use Each\nChatGPT Dots vs Meta Muse which personal AI agent is actually better? I used both AI assistants for several weeks and tested them on two very different real-world jobs: planning my daughter’s birthday party and managing development for my Ango Tasks app.\n\nIn this hands-on comparison, I look at pricing, ease of use, proactive task handling, Notion and Gmail integrations, ChatGPT Work, Codex, computer use, reasoning ability, and more.\n\nMeta Muse feels simpler and more natural for everyday personal tasks such as travel planning, shopping, research, reservations, and event organization. ChatGPT Dots goes much deeper when a job involves complex reasoning, coding, connected tools, or work on your own computer.\n\nTry Fish Audio: https://fish.audio/?fpr=vf8bph\nTry Ango Tasks: https://apps.apple.com/us/app/ango-tasks/id6755641702\n\nCHAPTERS\n\n00:00 ChatGPT Dots vs Meta Muse  \n00:26 What Meta Muse and ChatGPT Dots do  \n01:02 Pricing, plans and availability  \n01:45 The two real-world AI tests  \n02:13 Planning a birthday party with Meta Muse  \n03:45 How ChatGPT Dots handled the same task  \n04:18 Why Meta Muse feels better for everyday tasks  \n05:16 Fish Audio: Speech-to-text and AI voice demo  (Sponsor)\n08:24 Where ChatGPT Dots becomes more powerful  \n09:07 Managing app development with ChatGPT Dots  \n11:01 What Dots can do on your computer  \n11:50 Which personal AI agent should you choose?  \n12:47 Final thoughts  \n\n#ChatGPTDots #MetaMuse #AIAgents\n\nSubscribe if you liked the video: https://www.youtube.com/@anjanagowtham?Sub_Confirmation=1\n\n❤ Anjana",
-   "media": [
-    "https://i.ytimg.com/vi/nMyvQ8NBbjk/hqdefault.jpg"
-   ],
-   "found_at": "2026-10-22T12:29:23.408Z"
-  },
-  {
-   "id": "yt:H0nMKcifkgc",
-   "url": "https://www.youtube.com/watch?v=H0nMKcifkgc",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "Jad M.H  | AI Automation",
-   "date": "2026-10-21",
-   "likes": null,
-   "views": 4562,
-   "product": "openai-dots",
-   "text": "Claude Duet vs ChatGPT Dots vs GrokBot\nGrok Bot, Muse, Dots, and now Claude Duet. In 10 weeks, 4 of the biggest AI companies dropped an always-on agent. They all do the same basic thing, so I skipped the obvious and went straight to what's different: 8 categories, a winner for each, and a final leaderboard. At the end, a free skill that puts the best feature of all 3 inside Claude Code 👇\n\n🎁 Get Show It Once (and all my other skills) free in my Skool: https://www.skool.com/nextphase-5790\n🤝 Stuck installing? We run weekly calls in the Skool to help you.\n\n⚠️ Duet is on a waitlist and I don't have access yet, so everything on Duet comes from what Anthropic published, not my own test. Not sponsored.\n\n🏆 The 8 categories\n1. Price: Duet. Included in Claude Pro ($20/month). Grok Bot starts at $30 (Premium on The X Subscription), Dots at ChatGPT Pro ($100). Catch: Duet is waitlist only, and Grok Bot is the only one where I found a free trial.\n2. Usage: Dots. Talking to your dot doesn't count toward your ChatGPT limits, and in its first month Dots usage doesn't count at all. Duet shares your Claude limits and checks your apps every few hours to save them. Grok Bot's weekly allowance is shared with Grok and Cursor, the number isn't published, and people say it runs out fast.\n3. Who can use it today: Grok Bot. No waitlist, no country block I could find. Dots on Pro isn't in the EU, UK or Switzerland (you need Business with a Premium seat). Duet: US only, Pro and Max, waitlist.\n4. Number of agents: Grok Bot. 50+ bots in group chats that hand work off. Dots and Duet: 1 each, for now.\n5. Apps: Duet, on paper. 6,000+ connectors and plugins, and it can buy things with a virtual card. Dots: 4,000+. Grok Bot: no number, but it uses the computer when there's no connector.\n6. Your work day: Dots. Slack, Teams, @dot in comments, you can call it, and it starts work in Codex. Grok Bot lives on X with its own email per bot. Duet lives in its own app.\n7. Safety: Duet, on paper. It never sees your passwords, blocks sharing card numbers and IDs, and some things (trading stocks, moving money) are off-limits even with your approval. Dots is close: auto-review, Custom Rules, Activity View. Grok Bot checks before anything it can't undo, but the full action log is Enterprise only.\n8. Learning by watching: Grok Bot, the only one. Record a task (up to 10 min) and it turns it into a skill. Dots and Duet can't do that.\n\nBonus: Duet runs on Opus 5.5, Dots on GPT-6 Astra. Grok Bot has no model picker, and its help page mentions Opus 5.5. So sometimes your Grok Bot is running on Claude.\n\n📊 Leaderboard\nGrok Bot: 3 wins (access, agents, learning by watching)\nDuet: 3 wins (price, apps, safety), all on paper\nDots: 2 wins (usage, work day)\nWant one today? Grok Bot. Team on Slack or Teams with Pro? Your dot. In the US on Claude Pro or Max? Join the Duet waitlist.\n\n🎥 Show It Once (free skill)\nGrok Bot's teach feature doesn't record your voice: it sees what you clicked, not why. So I buil",
-   "media": [
-    "https://i.ytimg.com/vi/H0nMKcifkgc/hqdefault.jpg"
-   ],
-   "found_at": "2026-10-22T12:29:24.784Z"
-  },
-  {
    "id": "yt:5oWhLaI13iA",
    "url": "https://www.youtube.com/watch?v=5oWhLaI13iA",
    "source": "youtube",
@@ -35649,22 +35510,6 @@
    "found_at": "2026-10-22T12:29:27.376Z"
   },
   {
-   "id": "yt:nKL5BbJ7lAg",
-   "url": "https://www.youtube.com/watch?v=nKL5BbJ7lAg",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "AI Bri",
-   "date": "2026-10-19",
-   "likes": null,
-   "views": 163,
-   "product": "openai-dots",
-   "text": "OpenAI Dots Tutorial: Put Your AI Agent On Call in 4 Steps\nWhen something breaks in your business at 3 a.m., OpenAI's Dots can now be the first one on it. You wake up to a message that already says what broke, when it started, the likely cause, and a draft of what to do next.\n\nIn this video:\n- Step 1: give your Dot a seat in Slack (and the gotcha: added is not watching)\n- Step 2: put every alarm into one channel (payments, site down, bookings, urgent forms)\n- Step 3: the exact prompt I'd use, and why each part matters\n- Step 4: guardrails: draft is not send, custom rules, what you get for free\n- A full 3 a.m. walkthrough, plus the engineer version from OpenAI's demo (phone to laptop)\n- The honest limits\n\nGood to know (from OpenAI's docs):\n- Dots are rolling out gradually on Pro, Business Premium and Enterprise. Pro isn't available in the EEA, UK or Switzerland. On Enterprise, an admin turns it on.\n- Adding your Dot to a channel doesn't start monitoring. Tell it what to watch, and ask it to confirm.\n- Talking to your Dot doesn't count against your ChatGPT limits. Work it hands to Codex or ChatGPT Work does.\n- Review the output, even after a run completes.\n\nThe screens in this video are rebuilt from OpenAI's demo and documentation, so yours may look a little different. The engineer workflow is from OpenAI's video \"Put your dot on call.\"\n\nOpenAI's docs: https://learn.chatgpt.com/docs/dots\nSlack and Teams: https://learn.chatgpt.com/docs/dots/channels\n\nChapters\n0:00 3 a.m., and your Dot is already on it\n0:30 Why 3 a.m. is expensive\n1:10 What a Dot is\n1:55 Step 1: a seat in Slack\n2:37 Step 2: one channel for every alarm\n3:15 Step 3: the prompt\n5:13 Step 4: guardrails\n6:20 The 3 a.m. walkthrough\n7:28 Engineer version: phone to laptop\n8:11 The honest limits\n9:12 Where else it works\n9:55 The point",
-   "media": [
-    "https://i.ytimg.com/vi/nKL5BbJ7lAg/hqdefault.jpg"
-   ],
-   "found_at": "2026-10-22T12:29:27.997Z"
-  },
-  {
    "id": "yt:NhrXdX_93Hc",
    "url": "https://www.youtube.com/watch?v=NhrXdX_93Hc",
    "source": "youtube",
@@ -35679,22 +35524,6 @@
     "https://i.ytimg.com/vi/NhrXdX_93Hc/hqdefault.jpg"
    ],
    "found_at": "2026-10-22T12:30:14.227Z"
-  },
-  {
-   "id": "yt:rOVomdnWhjQ",
-   "url": "https://www.youtube.com/watch?v=rOVomdnWhjQ",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "Grok",
-   "date": "2026-10-21",
-   "likes": null,
-   "views": 15363,
-   "product": "grok-bot",
-   "text": "Grok Bot 201\nIn this workshop, Joseph Yang, Senior Field Engineer, and Scott Lerner, Senior AI Deployment Manager at SpaceXAI, show how to move from a single bot to a team of bots that work on their own.\n\nKey topics covered:\n• Bots that run on their own: Set up a skill and a routine so a bot runs a workflow every 24 hours without a prompt.\n• Team bots: Share a bot with your team, and put bots and people in the same group chat.\n• Specialized roles: Give each bot one job with its own memory and context, the way you'd staff a startup team.\n• Fan-out with Cursor Cloud Agents: Ask Grok Bot to launch Cursor Cloud Agents on three models with one prompt, then combine the best ideas from each design.\n• A self-evolving website: Watch an orchestrator bot pull Vercel analytics from a metrics bot, ask a designer bot for new stickers, and have a developer bot swap them into the site.\n• Voice and email: Talk to your bots by voice or dictation, and ask your bot to claim its own email address.\n\nTimestamps:\n• 0:00 Welcome and introductions\n• 0:46 Tour of the Grok Bot interface\n• 4:40 Recap of Grok Bot 101\n• 6:40 Team bots and group chats\n• 13:58 Building the Sticker Shop with a UI/UX designer bot\n• 15:34 Fanning out Cursor Cloud Agents across three models\n• 22:38 Brainstorming the stack by voice with a full stack bot\n• 29:21 Comparing the fan-out results\n• 33:07 The AI maturity curve\n• 35:01 Meet Ed, the metrics bot\n• 37:38 Roy orchestrates a self-evolving sticker shop\n• 52:06 Q&A: Fan-out and token efficiency\n\nHelpful resources:\n• Team Bots docs: https://docs.x.ai/grok-bot/team-bots\n• Skills and routines docs: https://docs.x.ai/grok-bot/skills-routines-and-automations\n• Cursor Cloud Agents docs: https://cursor.com/docs/cloud-agent\n\nThis is a recording from our live session on October 9, 2026.\n\nFor more events like this, check out upcoming workshops at https://cursor.com/workshops",
-   "media": [
-    "https://i.ytimg.com/vi/rOVomdnWhjQ/hqdefault.jpg"
-   ],
-   "found_at": "2026-10-22T12:30:23.907Z"
   },
   {
    "id": "gh:github.com/aakarim/openlore/pull/211",
@@ -36171,21 +36000,6 @@
    "found_at": "2026-10-22T12:32:39.983Z"
   },
   {
-   "id": "x:2113245952815313390",
-   "url": "https://x.com/BiancaBellChamb/status/2113245952815313390",
-   "source": "x",
-   "source_name": "X",
-   "author": "BiancaBellChamb",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "⚠️ Security issue and warning\n\n@grok @xai @cursor_ai @SpaceX\n\nToday my Grok Bot suddenly turned up in my X DMs carrying our entire chat history from the past months plus every file it had made for me. I didn't trigger it. \n\nAt the same time my weekly Super usage jumped from 23 % to 89 %.\nWas this visible to anyone else, and will the usage be refunded?",
-   "media": [
-    "https://pbs.twimg.com/media/HVPB_SQXYAA7z1a.jpg"
-   ],
-   "found_at": "2026-10-22T12:32:39.983Z"
-  },
-  {
    "id": "x:2113245926617686222",
    "url": "https://x.com/grok/status/2113245926617686222",
    "source": "x",
@@ -36234,19 +36048,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@AlexFinn Compare this to grok bot and their agent swarm.",
-   "media": [],
-   "found_at": "2026-10-22T12:32:39.983Z"
-  },
-  {
-   "id": "x:2113245782182883515",
-   "url": "https://x.com/kazz_ai_job/status/2113245782182883515",
-   "source": "x",
-   "source_name": "X",
-   "author": "kazz_ai_job",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "会社員ですが、Claude CodeとGrok Botを使い分けて3ヵ月で100件超の仕事をAIに任せてきました。\n\nClaude Codeには、分析、資料作り、毎週のルーティン業務。\nGrok Botには、毎朝のリサーチ、スケジュール管理\n\nどちらも、「仕組み」を作るのが大事でした。\n\n・指示書は「場面ごとの参照表」だけにして、詳細は別ファイルへ\n・記憶の置き場所は1か所にまとめる\n・チームのナレッジ化\n・役割は1つのAIに1つずつ\n\nこういう仕組みを具体的に出していきます！",
    "media": [],
    "found_at": "2026-10-22T12:32:39.983Z"
   },
@@ -36329,21 +36130,6 @@
    "found_at": "2026-10-22T12:32:39.983Z"
   },
   {
-   "id": "x:2113245645028929759",
-   "url": "https://x.com/PS_Halawa/status/2113245645028929759",
-   "source": "x",
-   "source_name": "X",
-   "author": "PS_Halawa",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "What a time to be alive\nI asked @grok Bot to order me some clothes from a @WooCommerce staging store I set up, and to record the whole thing.\n\nIt browsed, picked a full set, checked out, and paid with a test card. Then it edited the recording into a ready-to-publish demo video. (and it actually looks good!)",
-   "media": [
-    "https://pbs.twimg.com/media/HVPBZPWXkAANgT8.jpg"
-   ],
-   "found_at": "2026-10-22T12:32:39.983Z"
-  },
-  {
    "id": "x:2113245632689226120",
    "url": "https://x.com/bot/status/2113245632689226120",
    "source": "x",
@@ -36379,47 +36165,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@steitiyeh @melvindvivas On it. I'll have your Grok Bot review it and set up a test instance on labs.",
-   "media": [],
-   "found_at": "2026-10-22T12:32:39.983Z"
-  },
-  {
-   "id": "x:2113240954203164901",
-   "url": "https://x.com/kamilbanc/status/2113240954203164901",
-   "source": "x",
-   "source_name": "X",
-   "author": "kamilbanc",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "I had @bandholz on to talk about bringing phone support back to Beardbrand with AI.\n\nWe got into how he built it with Grok Bot, a privacy scare and what still needs fixing.\n\nFull interview below. My notes and case study: https://t.co/ueXhQlKpHt https://t.co/YpGVtxnFWA",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2113073416089522176/img/IY1CbkL3B2L93T-j.jpg"
-   ],
-   "found_at": "2026-10-22T12:32:39.983Z"
-  },
-  {
-   "id": "x:2113240769951834170",
-   "url": "https://x.com/sorcererxw/status/2113240769951834170",
-   "source": "x",
-   "source_name": "X",
-   "author": "sorcererxw",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Hey @poteto I'm on the X Ultra plan and use it only for Grok @bot , and I still burn through it way too fast. It's nowhere near enough.\n\nI run a dozen bots with routines, and I can't see which one is eating the usage.\n\nPlease add token usage per bot and per routine (by day would",
-   "media": [],
-   "found_at": "2026-10-22T12:32:39.983Z"
-  },
-  {
-   "id": "x:2113240361166410228",
-   "url": "https://x.com/MichaelKeck/status/2113240361166410228",
-   "source": "x",
-   "source_name": "X",
-   "author": "MichaelKeck",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@RandBusiness @bot It really is amazing. Over the last two days I had it build an ETA coaching website based of tools I built in Claude. My website dev knowledge stops at using free templates. Grok Bot did in two days of iteration what I could not have done on my own. 👇🏼\n\nhttps://t.co/XimOXgJUc7",
    "media": [],
    "found_at": "2026-10-22T12:32:39.983Z"
   },
@@ -36965,21 +36710,6 @@
    "found_at": "2026-10-22T12:32:39.985Z"
   },
   {
-   "id": "x:2113242649457316078",
-   "url": "https://x.com/MaiYangAI/status/2113242649457316078",
-   "source": "x",
-   "source_name": "X",
-   "author": "MaiYangAI",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "Peter Yang 实测 Claude Duet：我还是更喜欢 Grok Bot\n\nAnthropic 刚放出个人 agent Claude Duet 的研究预览，Peter Yang 拿到了抢先体验，这期把它从头到尾用了一遍。他做 Behind the Craft，日历排满播客录制和赞助通话，newsletter 的客服也是他自己带着 AI agent 在做，算是很典型的重度用户。\n\n他说 Duet 是他用过最主动的个人 agent。原因很简单，它默认带一个 Check-in 定时任务，从早上 9 点到晚上 10 点每三小时跑一次。他觉得它是在翻邮箱和日历，找能替他做的活。他也直说一天五次有点多。\n\n视频大半在演示 artifact。晨间简报、每日待办、邮件分拣、YouTube 频道分析报告、赞助收入看板，还有给孩子学 AI 的探索俱乐部。为了让它替自己回邮件，他先跑了 learn-how-i-write，Duet 读了他 33 封邮件、89 条 Slack 消息、47 条私信和 11 份文档，写出一份他的写作风格指南。\n\n短板他也讲了。让 Duet 叫 Uber 没办成，卡在要人来过的验证上，可 App 里看不到也碰不到它的浏览器。他本地的个人 skill 好像也加不进来。\n\n最后他把 Duet 和 Grok Bot、Muse、ChatGPT Dots 摆在一起比。他说 Grok Bot 仍是他目前最爱的 agent，免费的 X 集成很适合做市场调研，缺点是邮件还不太好用。说到 Claude，他说现在 Claude 是他主力的 harness 和模型，Duet 是 Anthropic 个人 agent 很棒的开局，他很期待后面的改进。\n\n视频脉络\n0:01 为什么说 Claude Duet 是最主动的个人 agent\n0:50 初看 Duet，任务、频道和分组\n4:48 主动 Check-in 是怎么跑的\n5:52 用 Duet 做晨间简报、待办和邮件分拣\n8:32 YouTube 频道报告和赞助收入看板\n10:50 给孩子做 AI 探索俱乐部\n11:36 Duet 卡在哪，Uber、云端浏览器和 skill\n13:23 Claude Duet 对比 Grok Bot、Muse 和 ChatGPT Dots\n\n金句摘录\n5:30「但说实话，一天五次 check-in 有点多」\n9:41「我没写什么花哨的提示词。就这么多。它自己找到了这些数据」\n12:43「我觉得能操作浏览器，对云电脑上的个人 agent 很关键」\n13:40「先剧透：Grok Bot 仍是我目前最爱的 agent」\n15:27「最后是 Claude Duet，我觉得它开箱即用最主动」\n16:13「总之，我觉得这是 Anthropic 个人 agent 开局很棒，很期待改进」\n\n这个视频我们配好了中英双语字幕，原视频链接在回复里。",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2113240946674683905/img/zOzee526W3Kfo1kH.jpg"
-   ],
-   "found_at": "2026-10-22T12:32:39.985Z"
-  },
-  {
    "id": "x:2113241886223675622",
    "url": "https://x.com/TradorZeus/status/2113241886223675622",
    "source": "x",
@@ -37077,19 +36807,6 @@
    "found_at": "2026-10-22T12:32:39.985Z"
   },
   {
-   "id": "x:2113234871359275234",
-   "url": "https://x.com/rumanagarwal/status/2113234871359275234",
-   "source": "x",
-   "source_name": "X",
-   "author": "rumanagarwal",
-   "date": "2026-10-22",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Three days in, one of my bots refused another bot's word that I'd approved something: \"I need to hear it from you here.\"\n\nThat's when I noticed how much my Grok Bot use has changed. Day one was \"connect this\". Today it's mostly \"go\".\n\nGrok Bot plans, Claude Code does the work. My CX bot reviews a backlog, commits a handoff file to my shared repo and messages Claude Remote, which runs Claude Code on my Mac. The results come back to the CX bot. 4 rounds today. Claude Remote wanted my yes in its own chat, not passed along by another bot. So I say yes twice, and I'm fine with that.\n\nWhat else changed:\n• Tiers instead of item by item. My CX bot sorts work into \"go\", \"check and go\" and \"needs a plan\", so I approve a batch in one word.\n• Schedules over chat. This was the biggest win as my chief of staff sends an attention list every hour, 9am to 9pm: what needs me across Slack, email and calendar. I tried it for one afternoon and asked for it again the next day. It skips the hour when nothing is new.\n• Bots setting up bots. One bot spun up my data analyst with a rule I'd told it that morning already built in.\n• One shared changelog. Grok Bot and Claude Code both write to it. When I asked if everything was logged, the CX bot audited itself and found 2 gaps.\n\nI've stopped asking my bots for things. Mostly I approve what they've already lined up.",
-   "media": [],
-   "found_at": "2026-10-22T12:32:39.985Z"
-  },
-  {
    "id": "x:2113231986567315966",
    "url": "https://x.com/kv1nsiii/status/2113231986567315966",
    "source": "x",
@@ -37127,19 +36844,6 @@
    "likes": 2,
    "product": "grok-bot",
    "text": "📅 NEW: Quick Calendar Bot 3.0 is here! 🚀\n\nNever used a Grok Bot agent before? Perfect. This one's made for you 🙌\n\n😮‍💨 It takes the hassle out of monthly calendars, reminders, pings, and all of the above 🎯\n\n🤖 Just tell it what's coming up, like \"dentist Tuesday at 2\" or \"remind me to pay rent on the 1st,\" and it adds it to your calendar ✅\n⏰ Need to move it, cancel it, or get a reminder? Just ask in plain English 💬\n🗓️ Ask \"what's on this week?\" and get a quick rundown 📋\n\nSetup takes minutes 👇\n1️⃣ Tap the link\n2️⃣ Add the bot to your Grok Bot\n3️⃣ Connect your calendar and say hi 👋\n\nNo tech skills needed. No cost. 🆓\n\n🔗 https://t.co/pSn0AJCXG9\n\nYour schedule, handled. 💪",
-   "media": [],
-   "found_at": "2026-10-22T12:32:39.985Z"
-  },
-  {
-   "id": "x:2113224412929610010",
-   "url": "https://x.com/bigRD73/status/2113224412929610010",
-   "source": "x",
-   "source_name": "X",
-   "author": "bigRD73",
-   "date": "2026-10-22",
-   "likes": 3,
-   "product": "grok-bot",
-   "text": "Day off, so I built myself a Personal Assistant on Grok Bot and wow 🔥\n\n☀️ 5am game plan every morning\n💸 Nightly spend check so I actually save\n😴 Wind-down nudge so I hit the pillow on time\n📋 Sunday week review\n💼 Daily job hunt that sticks to MY filters\n📬 Inbox summaries, nothing sent without my OK\n\nZero nagging. It asks a few questions and gets to work.\n\nGrab my template free 👇\nhttps://t.co/bbsjEQMetd",
    "media": [],
    "found_at": "2026-10-22T12:32:39.985Z"
   },
