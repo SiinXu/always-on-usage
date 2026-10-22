@@ -1543,5 +1543,135 @@
   "id": "x:2113033147726360597",
   "url": "https://x.com/WheelieInvestor/status/2113033147726360597",
   "reason": "trading, excluded topic"
+ },
+ {
+  "id": "gh:github.com/hitcdl2019-ux/newapi/pull/5",
+  "url": "https://github.com/hitcdl2019-ux/newapi/pull/5",
+  "reason": "dependency bump PR"
+ },
+ {
+  "id": "gh:github.com/tugrulguner/summonpot/pull/194",
+  "url": "https://github.com/tugrulguner/summonpot/pull/194",
+  "reason": "dependency bump PR"
+ },
+ {
+  "id": "gh:github.com/anomalyco/models.dev/pull/11024",
+  "url": "https://github.com/anomalyco/models.dev/pull/11024",
+  "reason": "model catalog sync PR"
+ },
+ {
+  "id": "gh:github.com/modelschemas/modelschemas/pull/431",
+  "url": "https://github.com/modelschemas/modelschemas/pull/431",
+  "reason": "model catalog PR"
+ },
+ {
+  "id": "gh:github.com/amd-agi/tracelens/pull/1139",
+  "url": "https://github.com/AMD-AGI/TraceLens/pull/1139",
+  "reason": "model tracing PR, not agent usage"
+ },
+ {
+  "id": "gh:github.com/myoshi2891/comparison-of-llms/pull/159",
+  "url": "https://github.com/myoshi2891/Comparison-of-LLMs/pull/159",
+  "reason": "model pricing comparison PR"
+ },
+ {
+  "id": "gh:github.com/bobthebuilder656/ai-digest-news/issues/1",
+  "url": "https://github.com/bobthebuilder656/ai-digest-news/issues/1",
+  "reason": "news digest report"
+ },
+ {
+  "id": "gh:github.com/akatquas/ai-dispatch/issues/132",
+  "url": "https://github.com/AkatQuas/ai-dispatch/issues/132",
+  "reason": "news digest"
+ },
+ {
+  "id": "gh:github.com/rainerschlund/ki-radar/issues/20",
+  "url": "https://github.com/RainerSchlund/ki-radar/issues/20",
+  "reason": "news digest"
+ },
+ {
+  "id": "x:2113211486504120731",
+  "url": "https://x.com/beingsalluu/status/2113211486504120731",
+  "reason": "model release"
+ },
+ {
+  "id": "x:2113244488152011244",
+  "url": "https://x.com/RawrBTC/status/2113244488152011244",
+  "reason": "crypto token, excluded topic"
+ },
+ {
+  "id": "x:2113241831387361395",
+  "url": "https://x.com/savipww/status/2113241831387361395",
+  "reason": "trading, excluded topic"
+ },
+ {
+  "id": "x:2113240702822051995",
+  "url": "https://x.com/Primee32/status/2113240702822051995",
+  "reason": "trading, excluded topic"
+ },
+ {
+  "id": "x:2113245874839015670",
+  "url": "https://x.com/ale289417/status/2113245874839015670",
+  "reason": "politics, unrelated"
+ },
+ {
+  "id": "x:2113245915268174206",
+  "url": "https://x.com/ai_funss/status/2113245915268174206",
+  "reason": "empty reply"
+ },
+ {
+  "id": "x:2113245780194861479",
+  "url": "https://x.com/knowledgedelta/status/2113245780194861479",
+  "reason": "empty reply"
+ },
+ {
+  "id": "x:2113245719737884874",
+  "url": "https://x.com/Organic_Release/status/2113245719737884874",
+  "reason": "empty reply"
+ },
+ {
+  "id": "x:2113231661034844329",
+  "url": "https://x.com/alexmichaelio/status/2113231661034844329",
+  "reason": "empty reply"
+ },
+ {
+  "id": "x:2113228659377213654",
+  "url": "https://x.com/alexmichaelio/status/2113228659377213654",
+  "reason": "empty reply"
+ },
+ {
+  "id": "x:2113230446503092265",
+  "url": "https://x.com/ZanwarSwapnil/status/2113230446503092265",
+  "reason": "empty question"
+ },
+ {
+  "id": "x:2113245419102957964",
+  "url": "https://x.com/kaykawku/status/2113245419102957964",
+  "reason": "empty post"
+ },
+ {
+  "id": "x:2113242878621233299",
+  "url": "https://x.com/Relve_official/status/2113242878621233299",
+  "reason": "earnings news"
+ },
+ {
+  "id": "x:2113229513970847774",
+  "url": "https://x.com/IDEric_/status/2113229513970847774",
+  "reason": "earnings news"
+ },
+ {
+  "id": "x:2113182520145506454",
+  "url": "https://x.com/BrightLabsMedia/status/2113182520145506454",
+  "reason": "earnings news"
+ },
+ {
+  "id": "x:2113193646778355786",
+  "url": "https://x.com/hackprove_/status/2113193646778355786",
+  "reason": "security news roundup"
+ },
+ {
+  "id": "x:2113102983554568521",
+  "url": "https://x.com/neo_logos_/status/2113102983554568521",
+  "reason": "news recap"
  }
 ]
