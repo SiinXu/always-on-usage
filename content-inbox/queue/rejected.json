@@ -1673,5 +1673,45 @@
   "id": "x:2113102983554568521",
   "url": "https://x.com/neo_logos_/status/2113102983554568521",
   "reason": "news recap"
+ },
+ {
+  "id": "gh:github.com/chadluo/model-watch/pull/40",
+  "url": "https://github.com/chadluo/model-watch/pull/40",
+  "reason": "model ranking update, not usage"
+ },
+ {
+  "id": "gh:github.com/anomalyco/models.dev/pull/10989",
+  "url": "https://github.com/anomalyco/models.dev/pull/10989",
+  "reason": "model catalog sync"
+ },
+ {
+  "id": "gh:github.com/harjjotsinghh/helicon/pull/239",
+  "url": "https://github.com/HarjjotSinghh/helicon/pull/239",
+  "reason": "release/version bump"
+ },
+ {
+  "id": "gh:github.com/nbirkner/tarot-ai/pull/1",
+  "url": "https://github.com/nbirkner/tarot-ai/pull/1",
+  "reason": "model retirement fix, unrelated"
+ },
+ {
+  "id": "gh:github.com/gemisis/leviath/pull/1036",
+  "url": "https://github.com/GEMISIS/leviath/pull/1036",
+  "reason": "model routing fix, unrelated"
+ },
+ {
+  "id": "gh:github.com/ovws/issues/issues/105",
+  "url": "https://github.com/ovws/issues/issues/105",
+  "reason": "network config, unrelated"
+ },
+ {
+  "id": "gh:github.com/petrefiedthunder/mcp-firebase/pull/23",
+  "url": "https://github.com/PetrefiedThunder/mcp-firebase/pull/23",
+  "reason": "dependency PR"
+ },
+ {
+  "id": "gh:github.com/alina-lllu/ai-news-radar/issues/236",
+  "url": "https://github.com/alina-lllu/ai-news-radar/issues/236",
+  "reason": "news digest"
  }
 ]

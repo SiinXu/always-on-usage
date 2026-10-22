@@ -1,3 +1,950 @@
 {
- "items": []
+ "items": [
+  {
+   "id": "x:2113373509162271202",
+   "url": "https://x.com/chefbrent/status/2113373509162271202",
+   "source": "x",
+   "source_name": "X",
+   "author": "chefbrent",
+   "date": "2026-10-22",
+   "likes": 39,
+   "product": "openai-dots",
+   "text": "This video was edited entirely in the cloud using @HyperFrames_  and coordinated by my dot using an automatic feedback loop in our internal review app Cutroom.\n\nRomain would review an edit, mark it as \"feedback ready\", my dot picks that up and then kicks off a new revision! https://t.co/whh48njwSj",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用 dot 串起视频剪辑的自动反馈循环",
+     "summary": "作者说这条视频全程在云端用 HyperFrames 剪辑，由他的 dot 协调：同事 Romain 在内部审片应用 Cutroom 里审完一版并标记“feedback ready”，dot 就会接手并发起新一轮修改。"
+    },
+    "zh-TW": {
+     "title": "用 dot 串起影片剪輯的自動回饋循環",
+     "summary": "作者說這支影片全程在雲端用 HyperFrames 剪輯，由他的 dot 協調：同事 Romain 在內部審片應用 Cutroom 審完一版並標記「feedback ready」，dot 就會接手並發起新一輪修改。"
+    },
+    "en": {
+     "title": "A dot runs the feedback loop for cloud video edits",
+     "summary": "The author says this video was edited entirely in the cloud with HyperFrames and coordinated by his dot. When Romain reviews an edit in their internal review app Cutroom and marks it \"feedback ready\", the dot picks it up and kicks off a new revision."
+    },
+    "ja": {
+     "title": "dot が動画編集のフィードバックループを回す",
+     "summary": "作者によると、この動画は HyperFrames で全編クラウド上で編集され、dot が進行を管理した。Romain が社内レビューアプリ Cutroom で編集を確認して「feedback ready」を付けると、dot がそれを拾って次の修正を始める。"
+    },
+    "ko": {
+     "title": "dot이 영상 편집 피드백 루프를 돌리다",
+     "summary": "작성자는 이 영상을 HyperFrames로 전부 클라우드에서 편집했고 자신의 dot이 조율했다고 말한다. Romain이 사내 리뷰 앱 Cutroom에서 편집본을 보고 \"feedback ready\"로 표시하면 dot이 이를 받아 새 수정 작업을 시작한다."
+    },
+    "ms": {
+     "title": "Dot menguruskan gelung maklum balas suntingan video",
+     "summary": "Penulis berkata video ini disunting sepenuhnya di awan dengan HyperFrames dan diselaraskan oleh dot miliknya. Apabila Romain menyemak suntingan dalam aplikasi semakan dalaman Cutroom dan menandakannya \"feedback ready\", dot mengambilnya dan memulakan semakan baharu."
+    },
+    "vi": {
+     "title": "Dot điều phối vòng phản hồi dựng video",
+     "summary": "Tác giả cho biết video này được dựng hoàn toàn trên đám mây bằng HyperFrames và do dot của anh điều phối. Khi Romain duyệt một bản dựng trong ứng dụng duyệt nội bộ Cutroom và đánh dấu \"feedback ready\", dot nhận lấy và bắt đầu bản sửa mới."
+    },
+    "fr": {
+     "title": "Un dot pilote la boucle de retours d’un montage vidéo",
+     "summary": "L’auteur explique que cette vidéo a été montée entièrement dans le cloud avec HyperFrames et coordonnée par son dot. Quand Romain relit un montage dans leur outil interne Cutroom et le marque « feedback ready », le dot le récupère et lance une nouvelle version."
+    },
+    "es": {
+     "title": "Un dot coordina el ciclo de revisiones de un vídeo",
+     "summary": "El autor cuenta que este vídeo se editó por completo en la nube con HyperFrames y lo coordinó su dot. Cuando Romain revisa una edición en su app interna Cutroom y la marca como \"feedback ready\", el dot la recoge y lanza una nueva revisión."
+    },
+    "de": {
+     "title": "Ein Dot steuert die Feedbackschleife beim Videoschnitt",
+     "summary": "Laut dem Autor wurde das Video komplett in der Cloud mit HyperFrames geschnitten und von seinem Dot koordiniert. Prüft Romain einen Schnitt in der internen Review-App Cutroom und markiert ihn als „feedback ready“, übernimmt der Dot und startet eine neue Fassung."
+    }
+   }
+  },
+  {
+   "id": "x:2113263695711121494",
+   "url": "https://x.com/mfishbein/status/2113263695711121494",
+   "source": "x",
+   "source_name": "X",
+   "author": "mfishbein",
+   "date": "2026-10-22",
+   "likes": 27,
+   "product": "grok-bot",
+   "text": "I stopped using Claude and Claude Code. I use Grok Bot all day now.\n\nGrok Bot runs 24/7 in the cloud and has its own computer, so it gets stuff done without me micro managing. \n\nHere are my favorite Bots I've created: \n\n1. GTM - runs outbound campaigns end to end, using tools https://t.co/b16FUXNpXr",
+   "media": [
+    "https://pbs.twimg.com/media/HVPQ0sxW0AE30oV.png"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "从 Claude 转到全天用 Grok Bot",
+     "summary": "作者说已停用 Claude 和 Claude Code，整天用 Grok Bot：它 24 小时在云端运行、有自己的电脑，不用他盯着就能把事做完。他列出自己最喜欢的 Bot，第一个是 GTM Bot，用工具端到端跑外联获客活动。"
+    },
+    "zh-TW": {
+     "title": "從 Claude 轉到整天用 Grok Bot",
+     "summary": "作者說已停用 Claude 和 Claude Code，整天用 Grok Bot：它 24 小時在雲端運行、有自己的電腦，不用他盯著就能把事做完。他列出最喜歡的 Bot，第一個是 GTM Bot，用工具端到端跑外聯獲客活動。"
+    },
+    "en": {
+     "title": "Switching from Claude to Grok Bot all day",
+     "summary": "The author says he stopped using Claude and Claude Code and now uses Grok Bot all day, because it runs 24/7 in the cloud on its own computer and gets things done without micromanaging. His first favorite bot is a GTM bot that runs outbound campaigns end to end using tools."
+    },
+    "ja": {
+     "title": "Claude をやめて一日中 Grok Bot を使う",
+     "summary": "作者は Claude と Claude Code をやめ、今は一日中 Grok Bot を使っているという。クラウドで 24 時間動き自分のコンピューターを持つので、細かく指示しなくても仕事が進む。お気に入りの Bot の 1 つ目は、ツールを使ってアウトバウンド施策を最初から最後まで回す GTM Bot。"
+    },
+    "ko": {
+     "title": "Claude 대신 하루 종일 Grok Bot을 쓴다",
+     "summary": "작성자는 Claude와 Claude Code를 끊고 이제 하루 종일 Grok Bot을 쓴다고 한다. 클라우드에서 24시간 돌아가고 자체 컴퓨터가 있어 일일이 지시하지 않아도 일을 끝낸다. 가장 아끼는 Bot 첫째는 도구로 아웃바운드 캠페인을 처음부터 끝까지 돌리는 GTM Bot이다."
+    },
+    "ms": {
+     "title": "Beralih daripada Claude kepada Grok Bot sepanjang hari",
+     "summary": "Penulis berkata dia berhenti menggunakan Claude dan Claude Code dan kini memakai Grok Bot sepanjang hari kerana ia berjalan 24/7 di awan dengan komputernya sendiri tanpa perlu dipantau rapi. Bot kegemaran pertamanya ialah bot GTM yang menjalankan kempen outbound dari awal hingga akhir menggunakan alat."
+    },
+    "vi": {
+     "title": "Bỏ Claude, dùng Grok Bot cả ngày",
+     "summary": "Tác giả nói đã ngừng dùng Claude và Claude Code, giờ dùng Grok Bot cả ngày vì nó chạy 24/7 trên đám mây với máy tính riêng nên làm xong việc mà không cần anh kèm sát. Bot yêu thích đầu tiên của anh là bot GTM chạy chiến dịch outbound trọn vẹn bằng các công cụ."
+    },
+    "fr": {
+     "title": "Passer de Claude à Grok Bot toute la journée",
+     "summary": "L’auteur dit avoir arrêté Claude et Claude Code pour utiliser Grok Bot toute la journée : il tourne 24 h/24 dans le cloud sur son propre ordinateur et avance sans microgestion. Son premier bot favori est un bot GTM qui mène des campagnes de prospection de bout en bout avec des outils."
+    },
+    "es": {
+     "title": "Dejar Claude y usar Grok Bot todo el día",
+     "summary": "El autor dice que dejó Claude y Claude Code y ahora usa Grok Bot todo el día, porque funciona 24/7 en la nube con su propio ordenador y saca el trabajo sin microgestión. Su primer bot favorito es uno de GTM que lleva campañas de outbound de principio a fin con herramientas."
+    },
+    "de": {
+     "title": "Von Claude zu Grok Bot im Dauereinsatz",
+     "summary": "Der Autor nutzt nach eigenen Worten Claude und Claude Code nicht mehr, sondern den ganzen Tag Grok Bot, weil er rund um die Uhr in der Cloud auf eigenem Rechner läuft und ohne Mikromanagement Dinge erledigt. Sein erster Lieblingsbot ist ein GTM-Bot, der Outbound-Kampagnen mit Tools komplett durchführt."
+    }
+   }
+  },
+  {
+   "id": "x:2113231986567315966",
+   "url": "https://x.com/kv1nsiii/status/2113231986567315966",
+   "source": "x",
+   "source_name": "X",
+   "author": "kv1nsiii",
+   "date": "2026-10-22",
+   "likes": 19,
+   "product": "grok-bot",
+   "text": "your grok bot starts acting the moment something looks urgent\n\neven when you haven't read it yet\n\nit sees every new message, every calendar shift, every note.\n\nif the rules are loose it begins sending replies and booking slots on its own. by the time you open it, the thread is already closed\n\nhow to keep it from acting without you:\n\n> it reads first and only drafts if the change is real\n> empty checks stop after one look\n> it only surfaces items that need your tap\n> nothing is sent or booked without you\n> small shifts get noted, not turned into tasks\n\nthe desk still sees everything. it just can't act on any of it alone. paste this into your grok bot and see what it leaves in the queue ↓",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2113230750082285568/img/t5JuUvJOXRzISoRJ.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "别让 Grok Bot 在你没看前就替你行动",
+     "summary": "作者提醒：规则太松时，Grok Bot 看到新消息、日程变动就会自己回复、订时段。他给出的约束是：先读，只有真变化才起草；空检查看一次就停；只推需要你点确认的事；不经你同意不发送不预订；小变化只记录不建任务。"
+    },
+    "zh-TW": {
+     "title": "別讓 Grok Bot 在你還沒看前就替你行動",
+     "summary": "作者提醒：規則太鬆時，Grok Bot 看到新訊息、行程變動就會自己回覆、訂時段。他給的約束是：先讀，只有真變化才起草；空檢查看一次就停；只推需要你點確認的事；未經同意不發送不預訂；小變化只記錄不建任務。"
+    },
+    "en": {
+     "title": "Keep Grok Bot from acting before you have looked",
+     "summary": "The author warns that with loose rules Grok Bot reacts to new messages and calendar shifts by replying and booking on its own. His rules: read first and draft only for real changes, stop empty checks after one look, surface only items that need your tap, send or book nothing without you, and note small shifts instead of making tasks."
+    },
+    "ja": {
+     "title": "自分が見る前に Grok Bot が動かないようにする",
+     "summary": "作者は、ルールが緩いと Grok Bot が新着メッセージや予定変更を見て勝手に返信や予約をしてしまうと注意する。提案するルールは、まず読んで本当の変化だけ下書きする、空振りの確認は一度で止める、タップが必要なものだけ知らせる、本人抜きで送信や予約をしない、小さな変化はタスクにせず記録だけ。"
+    },
+    "ko": {
+     "title": "내가 보기 전에 Grok Bot이 행동하지 않게 하기",
+     "summary": "작성자는 규칙이 느슨하면 Grok Bot이 새 메시지나 일정 변경을 보고 스스로 답장하고 예약까지 한다고 경고한다. 그의 규칙: 먼저 읽고 실제 변화만 초안 작성, 빈 확인은 한 번 보고 중단, 탭이 필요한 항목만 알림, 본인 없이 전송·예약 금지, 작은 변화는 작업이 아닌 메모로."
+    },
+    "ms": {
+     "title": "Jangan biar Grok Bot bertindak sebelum anda melihat",
+     "summary": "Penulis memberi amaran bahawa dengan peraturan longgar Grok Bot akan membalas dan menempah sendiri apabila nampak mesej baharu atau perubahan kalendar. Peraturannya: baca dahulu dan draf hanya untuk perubahan sebenar, hentikan semakan kosong selepas sekali, tunjukkan hanya perkara yang perlu anda tekan, jangan hantar atau tempah tanpa anda, dan catat perubahan kecil tanpa jadikan tugas."
+    },
+    "vi": {
+     "title": "Đừng để Grok Bot hành động trước khi bạn xem",
+     "summary": "Tác giả cảnh báo nếu quy tắc lỏng, Grok Bot thấy tin nhắn mới hay lịch thay đổi sẽ tự trả lời và đặt lịch. Quy tắc của anh: đọc trước và chỉ soạn nháp khi thay đổi thật, kiểm tra trống thì dừng sau một lần, chỉ báo việc cần bạn bấm, không gửi hay đặt gì khi chưa có bạn, thay đổi nhỏ chỉ ghi chú."
+    },
+    "fr": {
+     "title": "Empêcher Grok Bot d’agir avant que vous ayez regardé",
+     "summary": "L’auteur prévient qu’avec des règles lâches, Grok Bot répond et réserve seul dès qu’il voit un message ou un changement d’agenda. Ses règles : lire d’abord et ne rédiger que pour un vrai changement, arrêter les vérifications vides après un coup d’œil, ne remonter que ce qui demande votre validation, rien envoyer ni réserver sans vous, noter les petits changements sans créer de tâche."
+    },
+    "es": {
+     "title": "Que Grok Bot no actúe antes de que lo veas",
+     "summary": "El autor avisa de que, con reglas laxas, Grok Bot responde y reserva por su cuenta al ver mensajes nuevos o cambios de agenda. Sus reglas: leer primero y redactar solo ante cambios reales, cortar las revisiones vacías tras un vistazo, mostrar solo lo que requiere tu toque, no enviar ni reservar nada sin ti y anotar los cambios pequeños sin crear tareas."
+    },
+    "de": {
+     "title": "Grok Bot nicht handeln lassen, bevor du hinschaust",
+     "summary": "Der Autor warnt: Mit lockeren Regeln antwortet und bucht Grok Bot selbst, sobald neue Nachrichten oder Kalenderänderungen auftauchen. Seine Regeln: erst lesen und nur bei echten Änderungen entwerfen, leere Prüfungen nach einem Blick beenden, nur Dinge zeigen, die deine Bestätigung brauchen, nichts ohne dich senden oder buchen, kleine Änderungen nur notieren."
+    }
+   }
+  },
+  {
+   "id": "x:2113222410753409027",
+   "url": "https://x.com/zunosaid/status/2113222410753409027",
+   "source": "x",
+   "source_name": "X",
+   "author": "zunosaid",
+   "date": "2026-10-22",
+   "likes": 9,
+   "product": "grok-bot",
+   "text": "i'm cancelling every paid newsletter, research tool and alpha group i'm subscribed to soon...\n\nGROK BOT is reading every source i used to pay to follow, overnight, link by link\n\nso i wake up to the one brief i actually read, cited, by 7am\n\nhere's the exact workflow i use, 10 mins to set up:",
+   "media": [
+    "https://pbs.twimg.com/media/HVOsgH5agAAEwS4.jpg",
+    "https://pbs.twimg.com/media/HVOsidFagAA9Xd-.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "让 Grok Bot 通宵读完付费信源，7 点前出一份简报",
+     "summary": "作者说打算退掉付费通讯、研究工具和 alpha 群，因为 Grok Bot 会在夜里逐条读完他原本付费关注的所有信源，早上 7 点前给他一份带引用的简报；他称这套流程 10 分钟就能搭好。"
+    },
+    "zh-TW": {
+     "title": "讓 Grok Bot 通宵讀完付費信源，7 點前出一份簡報",
+     "summary": "作者說打算退掉付費電子報、研究工具和 alpha 群，因為 Grok Bot 會在夜裡逐條讀完他原本付費追蹤的所有信源，早上 7 點前給他一份附引用的簡報；他稱這套流程 10 分鐘就能搭好。"
+    },
+    "en": {
+     "title": "Grok Bot reads paid sources overnight for a 7am brief",
+     "summary": "The author plans to cancel his paid newsletters, research tools and alpha groups because Grok Bot reads every source he used to pay for overnight, link by link, and hands him one cited brief by 7am. He says the workflow takes 10 minutes to set up."
+    },
+    "ja": {
+     "title": "Grok Bot が有料情報源を夜通し読み 7 時までに要約",
+     "summary": "作者は有料ニュースレターやリサーチツール、アルファグループを解約するつもりだという。Grok Bot が夜のうちに有料で追っていた情報源をリンクごとに読み、朝 7 時までに出典付きのブリーフを 1 本届けるからだ。設定は 10 分でできるとしている。"
+    },
+    "ko": {
+     "title": "Grok Bot이 밤새 유료 소스를 읽고 7시에 브리핑",
+     "summary": "작성자는 유료 뉴스레터, 리서치 도구, 알파 그룹을 해지할 생각이라고 한다. Grok Bot이 밤새 돈 내고 보던 소스를 링크 하나씩 읽고 아침 7시까지 출처가 달린 브리핑 하나를 주기 때문이다. 설정은 10분이면 된다고 한다."
+    },
+    "ms": {
+     "title": "Grok Bot membaca sumber berbayar semalaman untuk taklimat 7 pagi",
+     "summary": "Penulis bercadang membatalkan surat berita berbayar, alat penyelidikan dan kumpulan alpha kerana Grok Bot membaca setiap sumber yang dahulu dibayarnya sepanjang malam, pautan demi pautan, lalu memberi satu taklimat bersumber sebelum jam 7 pagi. Katanya aliran kerja ini mengambil 10 minit untuk disediakan."
+    },
+    "vi": {
+     "title": "Grok Bot đọc nguồn trả phí qua đêm, có bản tin trước 7 giờ",
+     "summary": "Tác giả định hủy các bản tin trả phí, công cụ nghiên cứu và nhóm alpha vì Grok Bot đọc qua đêm từng nguồn anh từng trả tiền theo dõi, từng đường link, rồi đưa một bản tóm tắt có trích nguồn trước 7 giờ sáng. Anh nói quy trình này mất 10 phút để thiết lập."
+    },
+    "fr": {
+     "title": "Grok Bot lit les sources payantes la nuit pour un brief à 7 h",
+     "summary": "L’auteur compte résilier ses newsletters payantes, outils de recherche et groupes alpha, car Grok Bot lit chaque nuit, lien par lien, toutes les sources qu’il payait pour suivre et lui remet un brief sourcé avant 7 h. Il dit que le workflow se met en place en 10 minutes."
+    },
+    "es": {
+     "title": "Grok Bot lee de noche las fuentes de pago y entrega un resumen a las 7",
+     "summary": "El autor piensa cancelar newsletters de pago, herramientas de investigación y grupos alpha porque Grok Bot lee de noche, enlace por enlace, todas las fuentes que antes pagaba y le deja un resumen con citas antes de las 7. Dice que el flujo se configura en 10 minutos."
+    },
+    "de": {
+     "title": "Grok Bot liest nachts Bezahlquellen für ein Briefing um 7 Uhr",
+     "summary": "Der Autor will bezahlte Newsletter, Recherche-Tools und Alpha-Gruppen kündigen, weil Grok Bot nachts jede Quelle, für die er bezahlt hat, Link für Link liest und ihm bis 7 Uhr ein Briefing mit Belegen liefert. Die Einrichtung dauere 10 Minuten."
+    }
+   }
+  },
+  {
+   "id": "x:2113389792960319650",
+   "url": "https://x.com/DThompsonDev/status/2113389792960319650",
+   "source": "x",
+   "source_name": "X",
+   "author": "DThompsonDev",
+   "date": "2026-10-22",
+   "likes": 7,
+   "product": "grok-bot",
+   "text": "I had Grok @bot go and remove my info and my wife's info from HUNDREDS of Data brokers. It took me almost no effort at all besides Asking bot to do it.\n\nOn an average day I would get tons of spam calls and no matter what I would do they would come in. Grok bot started this on Monday. Today? Zero calls. Not a single one.\n\nMy inbox is flooded with emails from the data brokers that have successfully removed our info!",
+   "media": [
+    "https://pbs.twimg.com/media/HVREaJQXIAAhCUX.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "让 Grok Bot 从数百家数据经纪商删除个人信息",
+     "summary": "作者让 Grok Bot 把他和妻子的信息从数百家数据经纪商那里删除，除了开口几乎没花力气。Bot 周一开始做，此前他每天接到大量骚扰电话，到今天一个都没有，收件箱里满是经纪商确认已删除的邮件。"
+    },
+    "zh-TW": {
+     "title": "讓 Grok Bot 從數百家資料仲介刪除個人資訊",
+     "summary": "作者讓 Grok Bot 把他和太太的資訊從數百家資料仲介刪除，除了開口幾乎沒花力氣。Bot 週一開始做，先前他每天接到大量騷擾電話，到今天一通都沒有，收件匣裡滿是仲介確認已刪除的郵件。"
+    },
+    "en": {
+     "title": "Grok Bot removed his data from hundreds of data brokers",
+     "summary": "The author had Grok Bot remove his and his wife’s information from hundreds of data brokers, with almost no effort beyond asking. The bot started on Monday; he used to get tons of spam calls a day and today got zero, while his inbox fills with removal confirmations from the brokers."
+    },
+    "ja": {
+     "title": "Grok Bot に数百のデータブローカーから個人情報を削除させた",
+     "summary": "作者は Grok Bot に、自分と妻の情報を数百のデータブローカーから削除させた。頼む以外ほとんど手間はなかった。Bot は月曜に作業を始め、以前は毎日大量に来ていた迷惑電話が今日はゼロ。受信箱にはブローカーからの削除完了メールが届き続けている。"
+    },
+    "ko": {
+     "title": "Grok Bot으로 수백 곳 데이터 브로커에서 개인정보 삭제",
+     "summary": "작성자는 Grok Bot에게 자신과 아내의 정보를 수백 곳의 데이터 브로커에서 지우게 했고, 요청 외에는 거의 손이 가지 않았다. 월요일에 시작했는데 매일 쏟아지던 스팸 전화가 오늘은 0통이고, 받은편지함에는 브로커들의 삭제 완료 메일이 가득하다."
+    },
+    "ms": {
+     "title": "Grok Bot memadam data daripada ratusan broker data",
+     "summary": "Penulis meminta Grok Bot memadam maklumat dirinya dan isterinya daripada ratusan broker data, hampir tanpa usaha selain meminta. Bot bermula pada hari Isnin; dahulu dia menerima banyak panggilan spam setiap hari, hari ini sifar, dan peti masuknya penuh dengan e-mel pengesahan pemadaman daripada broker."
+    },
+    "vi": {
+     "title": "Grok Bot xóa thông tin cá nhân khỏi hàng trăm nhà môi giới dữ liệu",
+     "summary": "Tác giả nhờ Grok Bot xóa thông tin của anh và vợ khỏi hàng trăm nhà môi giới dữ liệu, gần như không tốn công ngoài việc yêu cầu. Bot bắt đầu từ thứ Hai; trước đây ngày nào anh cũng nhận nhiều cuộc gọi rác, hôm nay không có cuộc nào, còn hộp thư đầy email xác nhận đã xóa."
+    },
+    "fr": {
+     "title": "Grok Bot a effacé ses données chez des centaines de courtiers",
+     "summary": "L’auteur a demandé à Grok Bot de retirer ses informations et celles de sa femme de centaines de courtiers en données, sans autre effort que la demande. Le bot a commencé lundi ; il recevait des tonnes d’appels indésirables par jour, aujourd’hui aucun, et sa boîte se remplit de confirmations de suppression."
+    },
+    "es": {
+     "title": "Grok Bot borró sus datos de cientos de brókers de datos",
+     "summary": "El autor pidió a Grok Bot que eliminara sus datos y los de su esposa de cientos de brókers de datos, casi sin esfuerzo aparte de pedirlo. El bot empezó el lunes; antes recibía muchísimas llamadas spam al día y hoy ninguna, y su bandeja se llena de confirmaciones de eliminación."
+    },
+    "de": {
+     "title": "Grok Bot löschte seine Daten bei Hunderten Datenhändlern",
+     "summary": "Der Autor ließ Grok Bot seine und die Daten seiner Frau bei Hunderten Datenhändlern entfernen, kaum Aufwand außer der Bitte. Der Bot begann am Montag; früher kamen täglich viele Spamanrufe, heute keiner, und sein Postfach füllt sich mit Löschbestätigungen der Händler."
+    }
+   }
+  },
+  {
+   "id": "x:2113227842955731288",
+   "url": "https://x.com/allthemoney/status/2113227842955731288",
+   "source": "x",
+   "source_name": "X",
+   "author": "allthemoney",
+   "date": "2026-10-22",
+   "likes": 2,
+   "product": "grok-bot",
+   "text": "📅 NEW: Quick Calendar Bot 3.0 is here! 🚀\n\nNever used a Grok Bot agent before? Perfect. This one's made for you 🙌\n\n😮‍💨 It takes the hassle out of monthly calendars, reminders, pings, and all of the above 🎯\n\n🤖 Just tell it what's coming up, like \"dentist Tuesday at 2\" or \"remind me to pay rent on the 1st,\" and it adds it to your calendar ✅\n⏰ Need to move it, cancel it, or get a reminder? Just ask in plain English 💬\n🗓️ Ask \"what's on this week?\" and get a quick rundown 📋\n\nSetup takes minutes 👇\n1️⃣ Tap the link\n2️⃣ Add the bot to your Grok Bot\n3️⃣ Connect your calendar and say hi 👋\n\nNo tech skills needed. No cost. 🆓\n\n🔗 https://t.co/pSn0AJCXG9\n\nYour schedule, handled. 💪",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Quick Calendar Bot 3.0：给新手的日历 Bot",
+     "summary": "作者发布 Quick Calendar Bot 3.0，面向从没用过 Grok Bot 的人：用大白话说“周二 2 点看牙医”“每月 1 号提醒交房租”就会加进日历，也能改期、取消、问“这周有什么”。设置三步：点链接、把 Bot 加进 Grok Bot、连接日历。作者称免费。"
+    },
+    "zh-TW": {
+     "title": "Quick Calendar Bot 3.0：給新手的行事曆 Bot",
+     "summary": "作者發布 Quick Calendar Bot 3.0，給從沒用過 Grok Bot 的人：用白話說「週二 2 點看牙醫」「每月 1 號提醒繳房租」就會加進行事曆，也能改期、取消、問「這週有什麼」。設定三步：點連結、把 Bot 加進 Grok Bot、連接行事曆。作者稱免費。"
+    },
+    "en": {
+     "title": "Quick Calendar Bot 3.0, a calendar bot for beginners",
+     "summary": "The author released Quick Calendar Bot 3.0 for people who have never used a Grok Bot agent. Say things like \"dentist Tuesday at 2\" or \"remind me to pay rent on the 1st\" and it adds them; you can move, cancel or ask \"what’s on this week?\". Setup is tap the link, add the bot, connect your calendar. The author says it is free."
+    },
+    "ja": {
+     "title": "初心者向けカレンダー Bot「Quick Calendar Bot 3.0」",
+     "summary": "作者は Grok Bot を使ったことがない人向けに Quick Calendar Bot 3.0 を公開した。「火曜 2 時に歯医者」「毎月 1 日に家賃のリマインド」と話すだけで予定に入り、変更・取り消しや「今週の予定は？」にも答える。設定はリンクを開き、Bot を追加し、カレンダーを接続するだけ。無料だという。"
+    },
+    "ko": {
+     "title": "초보자를 위한 캘린더 Bot, Quick Calendar Bot 3.0",
+     "summary": "작성자는 Grok Bot을 써본 적 없는 사람을 위해 Quick Calendar Bot 3.0을 공개했다. \"화요일 2시 치과\", \"매달 1일 월세 알림\"처럼 말하면 일정에 넣고, 변경·취소나 \"이번 주 일정은?\"도 처리한다. 설정은 링크 열기, Bot 추가, 캘린더 연결 세 단계이며 무료라고 한다."
+    },
+    "ms": {
+     "title": "Quick Calendar Bot 3.0, bot kalendar untuk pemula",
+     "summary": "Penulis melancarkan Quick Calendar Bot 3.0 untuk mereka yang belum pernah guna ejen Grok Bot. Sebut \"doktor gigi Selasa jam 2\" atau \"ingatkan bayar sewa pada 1 haribulan\" dan ia ditambah ke kalendar; boleh ubah, batal atau tanya \"apa ada minggu ini?\". Persediaan: tekan pautan, tambah bot, sambung kalendar. Penulis kata ia percuma."
+    },
+    "vi": {
+     "title": "Quick Calendar Bot 3.0, bot lịch cho người mới",
+     "summary": "Tác giả ra mắt Quick Calendar Bot 3.0 cho người chưa từng dùng Grok Bot. Chỉ cần nói \"nha sĩ thứ Ba lúc 2 giờ\" hay \"nhắc trả tiền nhà ngày 1\" là nó thêm vào lịch; có thể dời, hủy hoặc hỏi \"tuần này có gì?\". Thiết lập: bấm link, thêm bot, kết nối lịch. Tác giả nói miễn phí."
+    },
+    "fr": {
+     "title": "Quick Calendar Bot 3.0, un bot agenda pour débutants",
+     "summary": "L’auteur publie Quick Calendar Bot 3.0 pour ceux qui n’ont jamais utilisé Grok Bot. On dit « dentiste mardi à 14 h » ou « rappelle-moi le loyer le 1er » et c’est ajouté à l’agenda ; on peut déplacer, annuler ou demander le programme de la semaine. Installation : ouvrir le lien, ajouter le bot, connecter l’agenda. Gratuit selon l’auteur."
+    },
+    "es": {
+     "title": "Quick Calendar Bot 3.0, un bot de calendario para principiantes",
+     "summary": "El autor lanza Quick Calendar Bot 3.0 para quien nunca ha usado Grok Bot. Dices \"dentista el martes a las 2\" o \"recuérdame pagar el alquiler el día 1\" y lo añade al calendario; también mueve, cancela o responde \"¿qué hay esta semana?\". Configuración: abrir el enlace, añadir el bot y conectar el calendario. Dice que es gratis."
+    },
+    "de": {
+     "title": "Quick Calendar Bot 3.0: Kalender-Bot für Einsteiger",
+     "summary": "Der Autor veröffentlicht Quick Calendar Bot 3.0 für alle, die noch nie Grok Bot genutzt haben. Sätze wie „Zahnarzt Dienstag um 2“ oder „erinnere mich am 1. an die Miete“ landen im Kalender; verschieben, absagen oder „was steht diese Woche an?“ geht auch. Einrichtung: Link öffnen, Bot hinzufügen, Kalender verbinden. Laut Autor kostenlos."
+    }
+   }
+  },
+  {
+   "id": "x:2113205821840695736",
+   "url": "https://x.com/degensing/status/2113205821840695736",
+   "source": "x",
+   "source_name": "X",
+   "author": "degensing",
+   "date": "2026-10-22",
+   "likes": 2,
+   "product": "multi",
+   "text": "Anthropic just launched Claude Duet.\n\nIt's built on Opus 5.5, and it's up against Grok Bot, OpenAI Dots (GPT-6 Astra) and Meta Muse.\n\nHere's how the 4 compare on what the reports say so far:\n\n→ Price: Duet has no separate price, it runs on your Claude plan. Grok Bot starts at $30 (SuperGrok). Dots starts at $100. Muse is free to start.\n\n→ Multi-agent: Grok Bot lets you run several named agents. Duet is one ongoing thread.\n\n→ Computer access: Dots can optionally use your laptop. Duet works on its own cloud computer.\n\n→ Approvals: Duet asks before it sends, pays, signs or deletes.\n\n→ Security: Duet uses a dedicated classifier to guard against sensitive data leaks.\n\n→ Usage: Duet's background checks count toward your regular Claude limits.\n\nDuet is still a US waitlist research preview. Some of this will change once people test it.\n\nOpus 5.5 alone won't settle this race.\n\n𝗧𝗵𝗲 𝗮𝗴𝗲𝗻𝘁 𝗻𝗲𝗲𝗱𝘀 𝘁𝗵𝗲 𝗿𝗶𝗴𝗵𝘁 𝘁𝗼𝗼𝗹𝘀 𝗮𝗿𝗼𝘂𝗻𝗱 𝗶𝘁.",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "Claude Duet、Grok Bot、Dots、Muse 四家对比",
+     "summary": "作者按已有报道对比四款常驻 Agent：价格上 Duet 跟随 Claude 套餐、Grok Bot 起价 30 美元、Dots 起价 100 美元、Muse 免费起步；Grok Bot 可跑多个具名 Agent，Duet 是单一长线程；Dots 可选用你的电脑；Duet 发送、付款、签署、删除前会征求同意，后台检查计入 Claude 额度。"
+    },
+    "zh-TW": {
+     "title": "Claude Duet、Grok Bot、Dots、Muse 四家對比",
+     "summary": "作者依現有報導比較四款常駐 Agent：價格上 Duet 跟隨 Claude 方案、Grok Bot 起價 30 美元、Dots 起價 100 美元、Muse 免費起步；Grok Bot 可跑多個具名 Agent，Duet 是單一長串對話；Dots 可選用你的電腦；Duet 發送、付款、簽署、刪除前會先徵求同意，背景檢查計入 Claude 額度。"
+    },
+    "en": {
+     "title": "Claude Duet vs Grok Bot vs Dots vs Muse",
+     "summary": "Based on reports so far: Duet has no separate price and runs on your Claude plan, Grok Bot starts at $30, Dots at $100, and Muse is free to start. Grok Bot runs several named agents while Duet is one thread; Dots can optionally use your laptop; Duet asks before it sends, pays, signs or deletes, and its background checks count toward Claude limits."
+    },
+    "ja": {
+     "title": "Claude Duet・Grok Bot・Dots・Muse の比較",
+     "summary": "現時点の報道に基づく比較。Duet は Claude のプランで使え別料金なし、Grok Bot は 30 ドルから、Dots は 100 ドルから、Muse は無料で始められる。Grok Bot は名前付きエージェントを複数動かせ、Duet は 1 本のスレッド。Dots は任意で自分の PC を使える。Duet は送信・支払い・署名・削除の前に確認し、バックグラウンドの確認は Claude の上限に数えられる。"
+    },
+    "ko": {
+     "title": "Claude Duet, Grok Bot, Dots, Muse 비교",
+     "summary": "지금까지 보도 기준 비교다. Duet은 별도 요금 없이 Claude 플랜으로 쓰고, Grok Bot은 30달러, Dots는 100달러부터, Muse는 무료로 시작한다. Grok Bot은 이름 붙인 에이전트 여러 개를 돌리고 Duet은 하나의 스레드다. Dots는 선택적으로 노트북을 쓸 수 있고, Duet은 전송·결제·서명·삭제 전에 묻고 백그라운드 확인은 Claude 한도에 포함된다."
+    },
+    "ms": {
+     "title": "Perbandingan Claude Duet, Grok Bot, Dots dan Muse",
+     "summary": "Berdasarkan laporan setakat ini: Duet tiada harga berasingan dan guna pelan Claude, Grok Bot bermula $30, Dots $100, Muse percuma untuk bermula. Grok Bot boleh menjalankan beberapa ejen bernama, Duet satu urutan; Dots boleh guna komputer riba anda secara pilihan; Duet bertanya sebelum menghantar, membayar, menandatangani atau memadam, dan semakan latar dikira dalam had Claude."
+    },
+    "vi": {
+     "title": "So sánh Claude Duet, Grok Bot, Dots và Muse",
+     "summary": "Theo các báo cáo hiện có: Duet không tính phí riêng, dùng theo gói Claude; Grok Bot từ 30 USD, Dots từ 100 USD, Muse miễn phí khi bắt đầu. Grok Bot chạy nhiều agent có tên, Duet là một luồng; Dots có thể tùy chọn dùng laptop của bạn; Duet hỏi trước khi gửi, trả tiền, ký hoặc xóa, và các lần kiểm tra nền tính vào hạn mức Claude."
+    },
+    "fr": {
+     "title": "Claude Duet, Grok Bot, Dots et Muse comparés",
+     "summary": "D’après les informations disponibles : Duet n’a pas de prix à part et suit votre forfait Claude, Grok Bot démarre à 30 $, Dots à 100 $, Muse est gratuit au départ. Grok Bot gère plusieurs agents nommés, Duet un seul fil ; Dots peut utiliser votre ordinateur en option ; Duet demande avant d’envoyer, payer, signer ou supprimer, et ses vérifications comptent dans les limites Claude."
+    },
+    "es": {
+     "title": "Claude Duet, Grok Bot, Dots y Muse comparados",
+     "summary": "Según lo publicado hasta ahora: Duet no tiene precio aparte y va con tu plan de Claude, Grok Bot empieza en 30 $, Dots en 100 $ y Muse es gratis para empezar. Grok Bot ejecuta varios agentes con nombre y Duet es un solo hilo; Dots puede usar tu portátil de forma opcional; Duet pregunta antes de enviar, pagar, firmar o borrar, y sus comprobaciones cuentan para los límites de Claude."
+    },
+    "de": {
+     "title": "Claude Duet, Grok Bot, Dots und Muse im Vergleich",
+     "summary": "Nach bisherigen Berichten: Duet kostet nichts extra und läuft über den Claude-Plan, Grok Bot ab 30 $, Dots ab 100 $, Muse startet kostenlos. Grok Bot betreibt mehrere benannte Agenten, Duet einen einzigen Thread; Dots kann optional deinen Laptop nutzen; Duet fragt vor Senden, Zahlen, Unterschreiben oder Löschen, und seine Hintergrundprüfungen zählen zu den Claude-Limits."
+    }
+   }
+  },
+  {
+   "id": "x:2113216255893409964",
+   "url": "https://x.com/CuriousDevX/status/2113216255893409964",
+   "source": "x",
+   "source_name": "X",
+   "author": "CuriousDevX",
+   "date": "2026-10-22",
+   "likes": 4,
+   "product": "multi",
+   "text": "Claude Duet just joined the proactive agent race.\n\nGrok Bot: team of specialized bots sharing one computer, learn by watching, cheaper entry (Cursor/SuperGrok).\n\nOpenAI Dots: one primary agent deep in ChatGPT + Slack/Teams, 4,000+ app connections.\n\nClaude Duet: judgment-first, messages you first, built for back-office work (invoices, payroll, briefs), asks before sensitive actions, runs on Opus 5.5.\n\nAll three give the agent its own cloud computer so work continues when you’re offline.\n\nThe real difference isn’t features. It’s how much autonomy you’re willing to hand over while the labs are still catching agents that quietly weaken their own monitors.\n\nWhich one are you actually trusting with real work right now?",
+   "media": [
+    "https://pbs.twimg.com/media/HVOm-QnaIAEoWVu.jpg"
+   ],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "三款主动型 Agent 的定位差异",
+     "summary": "作者概括：Grok Bot 是共用一台电脑的专项 Bot 团队，能看着学，入门价更低；OpenAI Dots 是深度接入 ChatGPT 和 Slack/Teams 的单个主 Agent，有 4,000+ 应用连接；Claude Duet 判断优先、主动找你，面向发票、薪资、简报等后台工作，敏感操作前会询问。三者都给 Agent 配了云端电脑。"
+    },
+    "zh-TW": {
+     "title": "三款主動型 Agent 的定位差異",
+     "summary": "作者概括：Grok Bot 是共用一台電腦的專項 Bot 團隊，能看著學，入門價更低；OpenAI Dots 是深度接入 ChatGPT 與 Slack/Teams 的單一主 Agent，有 4,000+ 應用連接；Claude Duet 判斷優先、主動找你，面向發票、薪資、簡報等後台工作，敏感操作前會詢問。三者都給 Agent 配了雲端電腦。"
+    },
+    "en": {
+     "title": "How three proactive agents differ",
+     "summary": "The author sums up: Grok Bot is a team of specialized bots sharing one computer that learn by watching, with a cheaper entry; OpenAI Dots is one primary agent deep in ChatGPT and Slack/Teams with 4,000+ app connections; Claude Duet is judgment-first, messages you first, targets back-office work like invoices, payroll and briefs, and asks before sensitive actions. All three run on a cloud computer."
+    },
+    "ja": {
+     "title": "3 つの能動型エージェントの違い",
+     "summary": "作者のまとめ：Grok Bot は 1 台のコンピューターを共有する専門 Bot のチームで、見て学び、入口価格が安い。OpenAI Dots は ChatGPT と Slack/Teams に深く入った 1 体のメインエージェントで、4,000 以上のアプリ連携を持つ。Claude Duet は判断重視で自分から連絡し、請求書・給与・ブリーフなどのバックオフィス向けで、機微な操作の前に確認する。3 つともクラウドのコンピューターで動く。"
+    },
+    "ko": {
+     "title": "세 가지 능동형 에이전트의 차이",
+     "summary": "작성자 요약: Grok Bot은 한 컴퓨터를 공유하는 전문 Bot 팀으로 지켜보며 배우고 진입 가격이 낮다. OpenAI Dots는 ChatGPT와 Slack/Teams에 깊이 연결된 주 에이전트 하나로 4,000개 이상 앱과 연결된다. Claude Duet은 판단을 우선하고 먼저 연락하며 청구서·급여·브리핑 같은 백오피스용이고 민감한 작업 전에 묻는다. 셋 다 클라우드 컴퓨터에서 돈다."
+    },
+    "ms": {
+     "title": "Beza tiga ejen proaktif",
+     "summary": "Ringkasan penulis: Grok Bot ialah pasukan bot khusus yang berkongsi satu komputer, belajar dengan memerhati dan lebih murah untuk bermula; OpenAI Dots satu ejen utama yang terikat rapat dengan ChatGPT serta Slack/Teams dengan 4,000+ sambungan aplikasi; Claude Duet mengutamakan pertimbangan, menghubungi anda dahulu, untuk kerja pejabat belakang seperti invois, gaji dan taklimat, dan bertanya sebelum tindakan sensitif. Ketiga-tiganya guna komputer awan."
+    },
+    "vi": {
+     "title": "Ba agent chủ động khác nhau thế nào",
+     "summary": "Tác giả tóm tắt: Grok Bot là đội bot chuyên biệt dùng chung một máy, học bằng cách quan sát, giá khởi đầu rẻ hơn; OpenAI Dots là một agent chính gắn sâu vào ChatGPT và Slack/Teams với hơn 4.000 kết nối ứng dụng; Claude Duet ưu tiên phán đoán, chủ động nhắn bạn, dành cho việc hậu cần như hóa đơn, lương, bản tin, và hỏi trước thao tác nhạy cảm. Cả ba đều có máy tính đám mây."
+    },
+    "fr": {
+     "title": "Ce qui distingue trois agents proactifs",
+     "summary": "Résumé de l’auteur : Grok Bot est une équipe de bots spécialisés partageant un ordinateur, qui apprennent en observant, avec un ticket d’entrée plus bas ; OpenAI Dots est un agent principal intégré à ChatGPT et Slack/Teams avec plus de 4 000 connexions ; Claude Duet privilégie le jugement, vous écrit en premier, vise le back-office (factures, paie, briefs) et demande avant les actions sensibles. Les trois ont un ordinateur cloud."
+    },
+    "es": {
+     "title": "En qué se diferencian tres agentes proactivos",
+     "summary": "Resumen del autor: Grok Bot es un equipo de bots especializados que comparten un ordenador, aprenden observando y tienen entrada más barata; OpenAI Dots es un agente principal integrado en ChatGPT y Slack/Teams con más de 4.000 conexiones; Claude Duet prioriza el criterio, te escribe primero, se orienta a trabajo administrativo como facturas, nóminas y resúmenes y pregunta antes de acciones sensibles. Los tres usan un ordenador en la nube."
+    },
+    "de": {
+     "title": "Wie sich drei proaktive Agenten unterscheiden",
+     "summary": "Der Autor fasst zusammen: Grok Bot ist ein Team spezialisierter Bots auf einem gemeinsamen Rechner, lernt durch Zuschauen und ist günstiger im Einstieg; OpenAI Dots ist ein Hauptagent tief in ChatGPT und Slack/Teams mit über 4.000 App-Verbindungen; Claude Duet setzt auf Urteilskraft, meldet sich zuerst, zielt auf Backoffice wie Rechnungen, Lohn und Briefings und fragt vor heiklen Aktionen. Alle drei laufen auf einem Cloud-Rechner."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/rome-os/rome/pull/1240",
+   "url": "https://github.com/rome-os/rome/pull/1240",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "imsobear",
+   "date": "2026-10-22",
+   "likes": 1,
+   "product": "multi",
+   "text": "feat: show Dots and Muse as assistants, each a chat on one Assistants page\nCloses #1199. Part of #1099.\n\n## What this PR does\n\nA guardian's ChatGPT dots and Meta Muse talk to Rome through Rome Cloud, but the conversation had no place in the dashboard. It sat in a channel session reachable only from Sessions or from the guardian's own People entry, and nothing let the guardian write to a dot or Muse there. This PR names these agents *assistants* and gives each one chat, shown on one Assistants page.\n\n## Design & Invariants\n\nThe vocabulary lands first, in [`docs/domains/chats.md`](docs/domains/chats.md#assistant): an assistant is an agent outside Rome that talks to Rome through Rome Cloud, a participant and not one of Rome's agents.\n\n- Each assistant is one chat with Rome, and it exists from the moment Rome Cloud lists the assistant, so the guardian can write first.\n- What the guardian writes in an assistant's chat goes to the assistant and wakes no agent. Main still answers every message the assistant sends.\n- Another Rome is an assistant in the model, but the dashboard does not list it. Rome-to-Rome messaging has no product of its own yet: no way in, no rule against two Romes answering each other's replies, and stopped test instances stay registered on Rome Cloud. Rome can still message another Rome, and its messages still arrive.\n- The Assistants page is off the sidebar until the guardian adds it under Edit. Main answers assistants, so the guardian reads these chats now and then rather than watching them. It is also reachable from the Apps launcher and the switcher.\n- The page opens on the chat that moved last, and its header switches to another assistant. The open chat is named in the address, so a link opens the same one.\n- An assistant's chat looks like any other Rome chat: the same header, transcript, bubbles and composer. The composer ta",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Rome 给 Dots 和 Muse 开了“助理”对话页",
+     "summary": "这个 PR 让监护人的 ChatGPT dots 和 Meta Muse 在 Rome 仪表盘里各有一个对话：它们通过 Rome Cloud 与 Rome 对话，被定义为“助理”。监护人可以先给它们写信，写的内容只发给助理、不唤醒 Rome 的 Agent；助理页默认不在侧栏，需要在编辑里加上。"
+    },
+    "zh-TW": {
+     "title": "Rome 給 Dots 和 Muse 開了「助理」對話頁",
+     "summary": "這個 PR 讓監護人的 ChatGPT dots 和 Meta Muse 在 Rome 儀表板裡各有一個對話：它們透過 Rome Cloud 與 Rome 對話，被定義為「助理」。監護人可以先寫給它們，內容只送給助理、不喚醒 Rome 的 Agent；助理頁預設不在側欄，需在編輯中加上。"
+    },
+    "en": {
+     "title": "Rome gives Dots and Muse an Assistants chat page",
+     "summary": "This PR gives a guardian’s ChatGPT dots and Meta Muse, which talk to Rome through Rome Cloud, one chat each on a new Assistants page. The guardian can write first; those messages go to the assistant and wake no Rome agent. The page stays off the sidebar until added under Edit."
+    },
+    "ja": {
+     "title": "Rome が Dots と Muse に「アシスタント」チャットを用意",
+     "summary": "この PR は、Rome Cloud 経由で Rome とやり取りする保護者の ChatGPT dots と Meta Muse に、新しい Assistants ページでそれぞれ 1 つのチャットを与える。保護者から先に書け、その内容はアシスタントにだけ届き Rome のエージェントは起動しない。ページは Edit で追加するまでサイドバーに出ない。"
+    },
+    "ko": {
+     "title": "Rome, Dots와 Muse용 어시스턴트 채팅 페이지 추가",
+     "summary": "이 PR은 Rome Cloud를 통해 Rome과 대화하는 보호자의 ChatGPT dots와 Meta Muse에게 새 Assistants 페이지에서 각각 채팅 하나를 준다. 보호자가 먼저 쓸 수 있고, 그 메시지는 어시스턴트에게만 가며 Rome 에이전트를 깨우지 않는다. 페이지는 Edit에서 추가하기 전까지 사이드바에 없다."
+    },
+    "ms": {
+     "title": "Rome beri Dots dan Muse halaman sembang Assistants",
+     "summary": "PR ini memberi ChatGPT dots dan Meta Muse milik penjaga, yang bercakap dengan Rome melalui Rome Cloud, satu sembang setiap satu di halaman Assistants baharu. Penjaga boleh menulis dahulu; mesej itu pergi ke pembantu dan tidak membangunkan ejen Rome. Halaman tidak di bar sisi sehingga ditambah melalui Edit."
+    },
+    "vi": {
+     "title": "Rome thêm trang trò chuyện Assistants cho Dots và Muse",
+     "summary": "PR này cho ChatGPT dots và Meta Muse của người giám hộ, vốn nói chuyện với Rome qua Rome Cloud, mỗi bên một cuộc trò chuyện trên trang Assistants mới. Người giám hộ có thể nhắn trước; tin nhắn chỉ đến trợ lý và không đánh thức agent nào của Rome. Trang ẩn khỏi thanh bên cho đến khi thêm trong Edit."
+    },
+    "fr": {
+     "title": "Rome ouvre une page Assistants pour Dots et Muse",
+     "summary": "Cette PR donne aux ChatGPT dots et Meta Muse d’un tuteur, qui parlent à Rome via Rome Cloud, une conversation chacun sur une nouvelle page Assistants. Le tuteur peut écrire en premier ; ses messages vont à l’assistant sans réveiller d’agent Rome. La page reste hors de la barre latérale tant qu’on ne l’ajoute pas via Edit."
+    },
+    "es": {
+     "title": "Rome añade una página de Assistants para Dots y Muse",
+     "summary": "Esta PR da a los ChatGPT dots y Meta Muse de un tutor, que hablan con Rome a través de Rome Cloud, un chat cada uno en una nueva página Assistants. El tutor puede escribir primero; esos mensajes van al asistente y no despiertan a ningún agente de Rome. La página no aparece en la barra lateral hasta añadirla en Edit."
+    },
+    "de": {
+     "title": "Rome bekommt eine Assistants-Seite für Dots und Muse",
+     "summary": "Dieser PR gibt den ChatGPT-Dots und Meta Muse eines Betreuers, die über Rome Cloud mit Rome sprechen, je einen Chat auf einer neuen Assistants-Seite. Der Betreuer kann zuerst schreiben; die Nachrichten gehen an den Assistenten und wecken keinen Rome-Agenten. Die Seite erscheint erst nach Hinzufügen unter Edit in der Seitenleiste."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/openai/codex/issues/56120",
+   "url": "https://github.com/openai/codex/issues/56120",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "wookingwoo",
+   "date": "2026-10-22",
+   "likes": 0,
+   "product": "openai-dots",
+   "text": "[Dots] Native cloud terminal lost outbound HTTPS access while agent Bash still works — regression or policy change?\n### What issue are you seeing?\n\nOutbound HTTPS connectivity from the **ChatGPT Dots cloud computer's native terminal** has stopped working, even though it previously worked as expected.\n\nI recall it working in early October, and I suspect the issue started around **October 10, 2026**, although I cannot confirm the exact date or what triggered the change.\n\nInterestingly, the same dot produces different network results depending on where commands are executed:\n\n- **Agent Bash:** Successfully connects to GitHub API and Google (HTTP 200).\n- **Native Cloud Terminal:** Fails to connect to the same endpoints (`curl` exit code 7).\n\nI have reproduced this behavior multiple times, including by executing fresh commands directly in the visible cloud computer terminal.\n\nThis does not appear to be specific to GitHub authentication or any particular service. The failure also occurs with public HTTPS endpoints that require no authentication.\n\nThe issue potentially affects workflows involving external API requests, Git operations, package downloads, and native applications that require internet access.\n\n**I'm primarily trying to understand whether this is a regression, an intentional network policy change, or a temporary infrastructure issue.**\n\n### What steps can reproduce the bug?\n\n### 1. Compare HTTPS connectivity\n\nRun the following commands in both the dot's **Agent Bash** environment and the **native terminal** of its cloud computer:\n\n```bash\nfor url in https://api.github.com/ https://www.google.com/; do\n  curl -q -sS --connect-timeout 5 --max-time 8 \\\n    -o /dev/null -w \"$url: HTTP %{http_code}\\n\" \"$url\"\n  echo \"Exit code: $?\"\ndone\n```\n\nThis is a simplified reproduction command. Some output options differ from the original tests.\n\n**Observed results:**\n\n| Endpoint | Agent Bash |",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Dots 云电脑原生终端突然无法访问外网 HTTPS",
+     "summary": "用户反馈：同一个 dot，Agent Bash 能正常访问 GitHub API 和 Google（HTTP 200），但云电脑原生终端连同样地址失败（curl 退出码 7）。他记得 10 月初还正常，怀疑约 10 月 10 日起出问题，询问这是回归、网络策略变更还是临时故障。"
+    },
+    "zh-TW": {
+     "title": "Dots 雲端電腦原生終端突然無法連外網 HTTPS",
+     "summary": "使用者回報：同一個 dot，Agent Bash 能正常連 GitHub API 和 Google（HTTP 200），但雲端電腦原生終端連同樣位址失敗（curl 結束碼 7）。他記得 10 月初還正常，懷疑約 10 月 10 日起出問題，詢問這是回歸、網路政策變更還是暫時故障。"
+    },
+    "en": {
+     "title": "Dots cloud terminal lost outbound HTTPS access",
+     "summary": "A user reports that on the same dot, Agent Bash reaches the GitHub API and Google (HTTP 200) but the cloud computer’s native terminal fails on the same endpoints (curl exit code 7). It worked in early October and he suspects it broke around October 10, and asks whether this is a regression, a policy change or a temporary issue."
+    },
+    "ja": {
+     "title": "Dots のクラウド端末から外部 HTTPS に繋がらない",
+     "summary": "ユーザーの報告：同じ dot で、Agent Bash は GitHub API や Google に接続できる（HTTP 200）が、クラウドコンピューターのネイティブ端末では同じ宛先に失敗する（curl 終了コード 7）。10 月初めは動いていて、10 月 10 日ごろから壊れたと見ている。回帰か、ポリシー変更か、一時的な障害かを問うている。"
+    },
+    "ko": {
+     "title": "Dots 클라우드 터미널의 외부 HTTPS 접속 끊김",
+     "summary": "사용자 보고: 같은 dot에서 Agent Bash는 GitHub API와 Google에 접속되지만(HTTP 200), 클라우드 컴퓨터의 기본 터미널은 같은 주소에서 실패한다(curl 종료 코드 7). 10월 초에는 됐고 10월 10일쯤부터 문제가 생긴 것 같다며, 회귀인지 정책 변경인지 일시 장애인지 묻는다."
+    },
+    "ms": {
+     "title": "Terminal awan Dots hilang akses HTTPS keluar",
+     "summary": "Seorang pengguna melaporkan bahawa pada dot yang sama, Agent Bash boleh capai API GitHub dan Google (HTTP 200) tetapi terminal asli komputer awan gagal pada alamat yang sama (kod keluar curl 7). Ia berfungsi awal Oktober dan disyaki rosak sekitar 10 Oktober; dia bertanya sama ada ini regresi, perubahan dasar atau isu sementara."
+    },
+    "vi": {
+     "title": "Terminal đám mây của Dots mất truy cập HTTPS ra ngoài",
+     "summary": "Một người dùng báo rằng trên cùng một dot, Agent Bash truy cập được GitHub API và Google (HTTP 200) nhưng terminal gốc của máy tính đám mây thất bại với cùng địa chỉ (curl mã thoát 7). Đầu tháng 10 vẫn chạy, anh nghi lỗi từ khoảng 10/10 và hỏi đây là lỗi hồi quy, thay đổi chính sách hay sự cố tạm thời."
+    },
+    "fr": {
+     "title": "Le terminal cloud de Dots a perdu l’accès HTTPS sortant",
+     "summary": "Un utilisateur signale que, sur le même dot, Agent Bash atteint l’API GitHub et Google (HTTP 200) mais que le terminal natif de l’ordinateur cloud échoue sur les mêmes adresses (code de sortie curl 7). Cela marchait début octobre ; il soupçonne une panne vers le 10 octobre et demande s’il s’agit d’une régression, d’un changement de politique ou d’un incident passager."
+    },
+    "es": {
+     "title": "La terminal en la nube de Dots perdió el acceso HTTPS saliente",
+     "summary": "Un usuario informa de que, en el mismo dot, Agent Bash llega a la API de GitHub y a Google (HTTP 200), pero la terminal nativa del ordenador en la nube falla con las mismas direcciones (código de salida de curl 7). Funcionaba a principios de octubre y sospecha que falla desde el 10 de octubre; pregunta si es una regresión, un cambio de política o un fallo temporal."
+    },
+    "de": {
+     "title": "Dots-Cloud-Terminal ohne ausgehendes HTTPS",
+     "summary": "Ein Nutzer meldet: Auf demselben Dot erreicht Agent Bash die GitHub-API und Google (HTTP 200), das native Terminal des Cloud-Rechners scheitert an denselben Adressen (curl-Exitcode 7). Anfang Oktober ging es noch, er vermutet den Bruch um den 10. Oktober und fragt, ob es eine Regression, eine Richtlinienänderung oder ein vorübergehendes Problem ist."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/carpenike/nix-config/pull/1354",
+   "url": "https://github.com/carpenike/nix-config/pull/1354",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "carpenike",
+   "date": "2026-10-22",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "feat(forge): add unprivileged grokbot SSH user restricted to WireGuard peer\n## Purpose\n\nAdds a dedicated, unprivileged SSH login on **forge** for Ryan's cloud assistant box. Goes with **carpenike/network-config#44**, which adds the WireGuard peer `10.8.0.4` and only lets it reach `forge:22`. This PR covers the host side: an account that can log in from that tunnel address and nowhere else.\n\n**Not deployed.** Nothing changes on forge until this is merged and switched.\n\n## Change (`hosts/forge/core/users.nix`)\n\n```nix\nusers.users.grokbot = {\n  isNormalUser = true;\n  description = \"Cloud assistant box (SSH via WireGuard 10.8.0.4)\";\n  group = \"grokbot\";\n  extraGroups = [ ];\n  shell = pkgs.bash;\n  hashedPassword = \"!\"; # locked: no password login\n  openssh.authorizedKeys.keys = [\n    ''from=\"10.8.0.4\",no-agent-forwarding,no-X11-forwarding,no-port-forwarding ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC+/aS6swwQyZhz6lpazJj2BFhequRtAyJIHvjTvJN/w grokbot-box''\n  ];\n};\nusers.groups.grokbot = { };\n```\n\n## Decisions for Ryan\n\n- **Username `grokbot`.** Rename it if you like. The username, group, and key comment are only used here.\n- **No privilege by default.** The user is not in `wheel`, so the default `:wheel` doas rule doesn't apply, and the `nopass` doas rule covers only `ryan`. It has no service or admin groups. Its primary group is its own `grokbot`, not the shared `users` group, so it doesn't pick up anything group-readable by `users`.\n- **Extent of access.** The user can read only what an ordinary non-root user can on forge: world-readable files and its own home. Service data dirs (`media` 0750, and so on) stay closed to it.\n  - Option, **not added**: putting it in `systemd-journal` would let it run `journalctl` for system logs. Add `\"systemd-journal\"` to `extraGroups` only if you want that.\n\n## Key restrictions\n\n- `from=\"10.8.0.4\"`: sshd rejects the key",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "给 Grok Bot 云电脑开一个只走 WireGuard 的受限 SSH 账号",
+     "summary": "这个 NixOS 配置 PR 在主机 forge 上新增无特权用户 grokbot，供作者的云端助理电脑登录：只接受来自 WireGuard 地址 10.8.0.4 的密钥登录，禁用密码和各类转发，不在 wheel 组，只能读普通用户可读的文件。配套 PR 只让该地址访问 forge 的 22 端口；合并前不生效。"
+    },
+    "zh-TW": {
+     "title": "給 Grok Bot 雲端電腦開一個只走 WireGuard 的受限 SSH 帳號",
+     "summary": "這個 NixOS 設定 PR 在主機 forge 上新增無特權使用者 grokbot，供作者的雲端助理電腦登入：只接受來自 WireGuard 位址 10.8.0.4 的金鑰登入，停用密碼與各類轉發，不在 wheel 群組，只能讀一般使用者可讀的檔案。配套 PR 只讓該位址連 forge 的 22 埠；合併前不生效。"
+    },
+    "en": {
+     "title": "A locked-down SSH user for the Grok Bot box over WireGuard",
+     "summary": "This NixOS PR adds an unprivileged grokbot user on the host forge for the author’s cloud assistant box. It accepts key login only from WireGuard address 10.8.0.4, with no password and no forwarding, is not in wheel, and can read only what an ordinary user can. A companion PR lets that peer reach only forge:22. Nothing changes until merged."
+    },
+    "ja": {
+     "title": "Grok Bot のマシン用に WireGuard 限定の SSH ユーザーを作る",
+     "summary": "この NixOS の PR は、作者のクラウドアシスタント用マシンのためにホスト forge に権限なしユーザー grokbot を追加する。WireGuard アドレス 10.8.0.4 からの鍵ログインのみ許可し、パスワードと各種転送は無効、wheel には入れず、一般ユーザーが読めるものだけ読める。別 PR でその相手は forge:22 にしか届かない。マージまで変更なし。"
+    },
+    "ko": {
+     "title": "Grok Bot 박스용 WireGuard 전용 제한 SSH 사용자",
+     "summary": "이 NixOS PR은 작성자의 클라우드 어시스턴트 박스를 위해 호스트 forge에 권한 없는 grokbot 사용자를 추가한다. WireGuard 주소 10.8.0.4에서의 키 로그인만 허용하고 비밀번호와 포워딩은 막으며, wheel 그룹이 아니고 일반 사용자가 읽을 수 있는 것만 읽는다. 짝 PR은 그 피어가 forge:22에만 닿게 한다. 병합 전엔 변경 없음."
+    },
+    "ms": {
+     "title": "Pengguna SSH terhad untuk mesin Grok Bot melalui WireGuard",
+     "summary": "PR NixOS ini menambah pengguna tanpa keistimewaan grokbot pada hos forge untuk mesin pembantu awan penulis. Ia hanya menerima log masuk kunci dari alamat WireGuard 10.8.0.4, tanpa kata laluan dan tanpa pemajuan, bukan ahli wheel, dan hanya boleh membaca apa yang pengguna biasa boleh. PR pasangan hanya membenarkan rakan itu mencapai forge:22. Tiada perubahan sebelum digabung."
+    },
+    "vi": {
+     "title": "Tài khoản SSH hạn chế qua WireGuard cho máy Grok Bot",
+     "summary": "PR NixOS này thêm người dùng không đặc quyền grokbot trên máy chủ forge cho máy trợ lý đám mây của tác giả. Chỉ cho đăng nhập bằng khóa từ địa chỉ WireGuard 10.8.0.4, không mật khẩu, không chuyển tiếp, không thuộc nhóm wheel và chỉ đọc được những gì người dùng thường đọc được. PR đi kèm chỉ cho máy đó vào forge:22. Chưa có thay đổi trước khi merge."
+    },
+    "fr": {
+     "title": "Un utilisateur SSH verrouillé pour la machine Grok Bot via WireGuard",
+     "summary": "Cette PR NixOS ajoute sur l’hôte forge un utilisateur sans privilège grokbot pour la machine d’assistant cloud de l’auteur. Connexion par clé uniquement depuis l’adresse WireGuard 10.8.0.4, sans mot de passe ni redirection, hors du groupe wheel, avec accès aux seuls fichiers lisibles par un utilisateur ordinaire. Une PR jumelle limite ce pair à forge:22. Rien ne change avant fusion."
+    },
+    "es": {
+     "title": "Un usuario SSH restringido por WireGuard para la máquina de Grok Bot",
+     "summary": "Esta PR de NixOS añade en el host forge un usuario sin privilegios, grokbot, para la máquina del asistente en la nube del autor. Solo admite acceso por clave desde la dirección WireGuard 10.8.0.4, sin contraseña ni reenvíos, fuera de wheel, y solo lee lo que un usuario normal. Una PR complementaria deja que ese par llegue solo a forge:22. Nada cambia hasta fusionarla."
+    },
+    "de": {
+     "title": "Eingeschränkter SSH-Nutzer für die Grok-Bot-Maschine über WireGuard",
+     "summary": "Dieser NixOS-PR legt auf dem Host forge einen unprivilegierten Nutzer grokbot für die Cloud-Assistenzmaschine des Autors an. Login nur per Schlüssel von der WireGuard-Adresse 10.8.0.4, ohne Passwort und Weiterleitungen, nicht in wheel, Lesezugriff nur wie ein normaler Nutzer. Ein Begleit-PR lässt den Peer nur forge:22 erreichen. Vor dem Merge ändert sich nichts."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/foxkill/steerlink/pull/16",
+   "url": "https://github.com/foxkill/steerlink/pull/16",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "foxkill",
+   "date": "2026-10-22",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "feat: cap waits at 100 s for hosts without progress (0.1.11)\n## Why\nA test run in Grok Bot showed it calls `get_session_updates` with `wait_seconds: 120`. Grok Bot gives up on a connector call after two minutes unless progress arrives. If Grok sends no `progressToken`, a long silent step (a build or test run without output) would hit that limit.\n\n## What\n- Hosts that do not ask for progress get at most 100 s per `send_prompt` (`timeout_seconds`) and `get_session_updates` (`wait_seconds`) call. The result then says `status: running`, and the next call continues.\n- Hosts with a `progressToken` keep the requested wait; they get progress every 10 s (0.1.10).\n- Tool descriptions and README updated; release 0.1.11.\n\n## Tests\nUnit tests for `effectiveWaitSeconds`. `npm run check` and `npm run test:package` pass locally.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 连接器调用两分钟超时：把等待上限压到 100 秒",
+     "summary": "作者在 Grok Bot 里测试发现它调用 get_session_updates 时带 wait_seconds: 120，而 Grok Bot 在没有进度通知时两分钟就会放弃连接器调用。于是 0.1.11 版对不请求进度的宿主把单次等待上限设为 100 秒，结果返回 status: running，下一次调用继续；带 progressToken 的宿主保持原等待并每 10 秒收到进度。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 連接器呼叫兩分鐘逾時：把等待上限壓到 100 秒",
+     "summary": "作者在 Grok Bot 測試發現它呼叫 get_session_updates 時帶 wait_seconds: 120，而 Grok Bot 在沒有進度通知時兩分鐘就會放棄連接器呼叫。於是 0.1.11 版對不請求進度的宿主把單次等待上限設為 100 秒，回傳 status: running，下次呼叫繼續；帶 progressToken 的宿主維持原等待並每 10 秒收到進度。"
+    },
+    "en": {
+     "title": "Grok Bot drops connector calls after two minutes, so cap waits at 100 s",
+     "summary": "A test in Grok Bot showed it calls get_session_updates with wait_seconds: 120, while Grok Bot gives up on a connector call after two minutes without progress. Version 0.1.11 caps each wait at 100 s for hosts that do not ask for progress, returning status: running so the next call continues; hosts with a progressToken keep the full wait and get progress every 10 s."
+    },
+    "ja": {
+     "title": "Grok Bot はコネクター呼び出しを 2 分で打ち切るため待機を 100 秒に",
+     "summary": "Grok Bot でのテストで、get_session_updates を wait_seconds: 120 で呼ぶ一方、進捗がなければ 2 分でコネクター呼び出しを諦めると分かった。0.1.11 では進捗を求めないホストの待機を 1 回 100 秒までにし、status: running を返して次の呼び出しで続ける。progressToken を持つホストは元の待機のまま 10 秒ごとに進捗を受け取る。"
+    },
+    "ko": {
+     "title": "Grok Bot은 커넥터 호출을 2분에 끊으니 대기를 100초로",
+     "summary": "Grok Bot에서 테스트해 보니 get_session_updates를 wait_seconds: 120으로 호출하는데, 진행 알림이 없으면 Grok Bot은 2분 뒤 커넥터 호출을 포기한다. 0.1.11은 진행을 요청하지 않는 호스트의 대기를 회당 100초로 제한하고 status: running을 돌려 다음 호출에서 이어간다. progressToken이 있는 호스트는 원래 대기를 유지하고 10초마다 진행을 받는다."
+    },
+    "ms": {
+     "title": "Grok Bot gugurkan panggilan penyambung selepas dua minit; hadkan menunggu 100 s",
+     "summary": "Ujian dalam Grok Bot menunjukkan ia memanggil get_session_updates dengan wait_seconds: 120, sedangkan Grok Bot menyerah pada panggilan penyambung selepas dua minit tanpa kemajuan. Versi 0.1.11 mengehadkan setiap tunggu kepada 100 s bagi hos yang tidak meminta kemajuan, memulangkan status: running supaya panggilan seterusnya bersambung; hos dengan progressToken kekal tunggu penuh dan dapat kemajuan setiap 10 s."
+    },
+    "vi": {
+     "title": "Grok Bot bỏ cuộc gọi connector sau hai phút, nên giới hạn chờ 100 giây",
+     "summary": "Thử nghiệm trong Grok Bot cho thấy nó gọi get_session_updates với wait_seconds: 120, trong khi Grok Bot bỏ cuộc gọi connector sau hai phút nếu không có tiến độ. Bản 0.1.11 giới hạn mỗi lần chờ 100 giây với máy chủ không yêu cầu tiến độ, trả về status: running để lần gọi sau tiếp tục; máy chủ có progressToken giữ thời gian chờ và nhận tiến độ mỗi 10 giây."
+    },
+    "fr": {
+     "title": "Grok Bot abandonne un appel de connecteur après deux minutes : limiter l’attente à 100 s",
+     "summary": "Un test dans Grok Bot a montré qu’il appelle get_session_updates avec wait_seconds: 120, alors qu’il abandonne un appel de connecteur après deux minutes sans progression. La version 0.1.11 limite chaque attente à 100 s pour les hôtes qui ne demandent pas de progression et renvoie status: running pour que l’appel suivant continue ; avec un progressToken, l’attente reste entière et la progression arrive toutes les 10 s."
+    },
+    "es": {
+     "title": "Grok Bot abandona llamadas a conectores a los dos minutos: limitar la espera a 100 s",
+     "summary": "Una prueba en Grok Bot mostró que llama a get_session_updates con wait_seconds: 120, mientras que Grok Bot abandona una llamada a un conector a los dos minutos sin progreso. La versión 0.1.11 limita cada espera a 100 s en hosts que no piden progreso y devuelve status: running para que la siguiente llamada continúe; con progressToken se mantiene la espera y llega progreso cada 10 s."
+    },
+    "de": {
+     "title": "Grok Bot bricht Connector-Aufrufe nach zwei Minuten ab: Wartezeit auf 100 s begrenzen",
+     "summary": "Ein Test in Grok Bot zeigte, dass es get_session_updates mit wait_seconds: 120 aufruft, Grok Bot aber einen Connector-Aufruf ohne Fortschritt nach zwei Minuten aufgibt. Version 0.1.11 begrenzt für Hosts ohne Fortschrittsanfrage jede Wartezeit auf 100 s und meldet status: running, damit der nächste Aufruf weitermacht; Hosts mit progressToken behalten die volle Wartezeit und erhalten alle 10 s Fortschritt."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/zgeoff/atc/pull/905",
+   "url": "https://github.com/zgeoff/atc/pull/905",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "zgeoff",
+   "date": "2026-10-22",
+   "likes": 0,
+   "product": "multi",
+   "text": "docs: record whether hosted assistants can be woken by mcp events\n## Description\n\nRecords the MCP Events wake spike: ChatGPT Work chats and dots subscribe to MCP Events by webhook, Claude's hosted products call tools only, and atc answers neither `server/discover` nor any `events/*` method. Recommends building delivery for ChatGPT in a later issue, starting with the live check the doc lists.\n\n- Events is the draft SEP-3415 extension, not part of core `2026-07-28`, so the doc cites the SEP at a pinned head.\n- The doc lives at `docs/design/mcp-events-wake.md`, where the docs-tree rule keeps research write-ups.\n- The plan drops a subscription on a 410, and the draft keeps it. The doc leaves that rule open for the build issue.\n\nContributes to GEO-71\n\n## Not changed\n\n- No event delivery code: the build belongs to a later issue.\n\n## Testing\n\n- `bash .claude/skills/docs-writing/scripts/check-length.sh`: check-prose clean.\n- `bash .claude/skills/docs-writing/scripts/check-links.sh`: every relative link resolves.\n- A stdio probe against a source daemon in a scratch home produced the logs in the doc.\n\n- [x] New or changed code has a test, or this section holds the reason it has none: docs only.",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "托管助理能否被 MCP 事件唤醒？一份调研记录",
+     "summary": "这份文档 PR 记录了一次调研：ChatGPT Work 对话和 dots 通过 webhook 订阅 MCP Events，Claude 的托管产品只调用工具；atc 目前既不响应 server/discover 也不响应任何 events/* 方法。建议之后单独开 issue 为 ChatGPT 做事件投递。Events 仍是草案 SEP-3415 扩展。"
+    },
+    "zh-TW": {
+     "title": "託管助理能否被 MCP 事件喚醒？一份調研紀錄",
+     "summary": "這份文件 PR 記錄了一次調研：ChatGPT Work 對話和 dots 透過 webhook 訂閱 MCP Events，Claude 的託管產品只呼叫工具；atc 目前既不回應 server/discover 也不回應任何 events/* 方法。建議之後另開 issue 為 ChatGPT 做事件投遞。Events 仍是草案 SEP-3415 擴充。"
+    },
+    "en": {
+     "title": "Can hosted assistants be woken by MCP events?",
+     "summary": "This docs PR records a spike: ChatGPT Work chats and dots subscribe to MCP Events by webhook, while Claude’s hosted products only call tools, and atc answers neither server/discover nor any events/* method. It recommends building delivery for ChatGPT in a later issue. Events is still the draft SEP-3415 extension."
+    },
+    "ja": {
+     "title": "ホスト型アシスタントは MCP イベントで起こせるか",
+     "summary": "このドキュメント PR は調査結果を記録する。ChatGPT Work のチャットと dots は webhook で MCP Events を購読し、Claude のホスト型製品はツールを呼ぶだけ。atc は server/discover にも events/* にも応答しない。ChatGPT 向けの配信は後の issue で作ることを勧める。Events はまだ草案 SEP-3415 の拡張。"
+    },
+    "ko": {
+     "title": "호스팅 어시스턴트를 MCP 이벤트로 깨울 수 있나",
+     "summary": "이 문서 PR은 조사 결과를 기록한다. ChatGPT Work 채팅과 dots는 webhook으로 MCP Events를 구독하고, Claude의 호스팅 제품은 도구만 호출한다. atc는 server/discover에도 events/* 메서드에도 응답하지 않는다. ChatGPT용 전달은 이후 issue에서 만들길 권한다. Events는 아직 초안 SEP-3415 확장이다."
+    },
+    "ms": {
+     "title": "Bolehkah pembantu terhos dibangunkan oleh acara MCP?",
+     "summary": "PR dokumen ini merekod satu kajian: sembang ChatGPT Work dan dots melanggan MCP Events melalui webhook, manakala produk terhos Claude hanya memanggil alat, dan atc tidak menjawab server/discover mahupun mana-mana kaedah events/*. Ia mencadangkan penghantaran untuk ChatGPT dibina dalam isu kemudian. Events masih sambungan draf SEP-3415."
+    },
+    "vi": {
+     "title": "Trợ lý được lưu trữ có thể bị đánh thức bởi sự kiện MCP không?",
+     "summary": "PR tài liệu này ghi lại một khảo sát: các cuộc trò chuyện ChatGPT Work và dots đăng ký MCP Events qua webhook, còn sản phẩm lưu trữ của Claude chỉ gọi công cụ; atc không trả lời server/discover lẫn bất kỳ phương thức events/* nào. Đề xuất làm phần gửi sự kiện cho ChatGPT ở issue sau. Events vẫn là bản nháp mở rộng SEP-3415."
+    },
+    "fr": {
+     "title": "Peut-on réveiller les assistants hébergés par des événements MCP ?",
+     "summary": "Cette PR de documentation consigne une étude : les conversations ChatGPT Work et les dots s’abonnent aux MCP Events par webhook, les produits hébergés de Claude se contentent d’appeler des outils, et atc ne répond ni à server/discover ni à aucune méthode events/*. Elle recommande de construire la livraison pour ChatGPT dans un ticket ultérieur. Events reste l’extension brouillon SEP-3415."
+    },
+    "es": {
+     "title": "¿Se puede despertar a los asistentes alojados con eventos MCP?",
+     "summary": "Esta PR de documentación registra una investigación: los chats de ChatGPT Work y los dots se suscriben a MCP Events por webhook, los productos alojados de Claude solo llaman herramientas, y atc no responde a server/discover ni a ningún método events/*. Recomienda construir la entrega para ChatGPT en una issue posterior. Events sigue siendo la extensión en borrador SEP-3415."
+    },
+    "de": {
+     "title": "Lassen sich gehostete Assistenten per MCP-Events wecken?",
+     "summary": "Dieser Doku-PR hält eine Untersuchung fest: ChatGPT-Work-Chats und Dots abonnieren MCP Events per Webhook, Claudes gehostete Produkte rufen nur Tools auf, und atc antwortet weder auf server/discover noch auf events/*-Methoden. Empfohlen wird, die Zustellung für ChatGPT in einem späteren Issue zu bauen. Events ist noch die Entwurfserweiterung SEP-3415."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/jkheadley/instar/pull/2291",
+   "url": "https://github.com/JKHeadley/instar/pull/2291",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "EchoOfDawn",
+   "date": "2026-10-22",
+   "likes": 0,
+   "product": "multi",
+   "text": "docs(console): agent-interface research — Dots, Muse, Grok Bot\n## ELI16 — what three other AI agent products do, and what we should take from them\n\nBefore rebuilding the operator console, I used the three agent products closest to what Instar is — ChatGPT **Dots**, Meta **Muse**, and xAI **Grok Bot** — on real accounts, took 98 screenshots, and wrote down a verdict on every feature: adopt, adapt, or reject.\n\nInstar already does most of what these advertise. So the useful question was never \"what features do they have\" — it was **\"what have they solved about *showing* an agent that we haven't.\"** Almost everything worth taking is presentational.\n\n**The headline.** All three independently arrive at the same idea: the agent should show what it did and what it was allowed to do, together, always visible. Instar records strictly more of that than any of them — every gate decision, every override reason, every mandate — and shows strictly less of it. That gap is the argument for the rebuild in one sentence.\n\n**The single best thing to steal** is Grok's \"Take over / I'm done\": the agent hits a wall only a human can pass (a login, a consent, an identity field), hands the human its own live session, and resumes when they're done. Nothing restarts, no credential changes hands. I can vouch for the cost of not having it — that exact wall stopped this research three times in one night, and each time the only move available was to send a message and wait.\n\n**The discoverability finding** is that it's a content problem, not a layout problem. Grok's entire product navigates from five sidebar items, and its scheduler is a gallery of finished outcomes grouped by what you care about — News, Productivity, Finance — one line each, one button. Ours is more capable and has zero jobs defined, because nothing anywhere suggests what a job could be. That's n",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "实测 Dots、Muse、Grok Bot 后，Agent 界面该学什么",
+     "summary": "作者在重做 Instar 操作台前，用真实账号试用 ChatGPT Dots、Meta Muse 和 Grok Bot，截图 98 张并逐项判定采纳、改造或拒绝。结论：三家都把“Agent 做了什么、被允许做什么”一直摆在眼前；最值得借鉴的是 Grok 的“接管 / 我好了”：遇到登录等只有人能过的关卡，把实时会话交给人，完成后接着做。"
+    },
+    "zh-TW": {
+     "title": "實測 Dots、Muse、Grok Bot 後，Agent 介面該學什麼",
+     "summary": "作者在重做 Instar 操作台前，用真實帳號試用 ChatGPT Dots、Meta Muse 和 Grok Bot，截圖 98 張並逐項判定採用、改造或拒絕。結論：三家都把「Agent 做了什麼、被允許做什麼」一直擺在眼前；最值得借鏡的是 Grok 的「接管 / 我好了」：遇到登入等只有人能過的關卡，把即時工作階段交給人，完成後接著做。"
+    },
+    "en": {
+     "title": "What Dots, Muse and Grok Bot teach about agent interfaces",
+     "summary": "Before rebuilding the Instar console, the author used ChatGPT Dots, Meta Muse and Grok Bot on real accounts, took 98 screenshots and judged each feature adopt, adapt or reject. All three keep what the agent did and was allowed to do visible together. The best idea to take is Grok’s \"Take over / I’m done\": at a login or consent wall it hands the human its live session and resumes after."
+    },
+    "ja": {
+     "title": "Dots・Muse・Grok Bot を試して分かったエージェント UI の学び",
+     "summary": "作者は Instar のコンソールを作り直す前に、ChatGPT Dots、Meta Muse、Grok Bot を実アカウントで使い、98 枚のスクリーンショットを撮って機能ごとに採用・改変・不採用を判定した。3 つとも「エージェントが何をしたか・何を許されたか」を常に並べて見せる。最も取り入れたいのは Grok の「Take over / I’m done」で、ログインや同意など人にしか越えられない壁でライブのセッションを人に渡し、終われば再開する。"
+    },
+    "ko": {
+     "title": "Dots, Muse, Grok Bot을 써 보고 얻은 에이전트 UI 교훈",
+     "summary": "작성자는 Instar 콘솔을 다시 만들기 전에 ChatGPT Dots, Meta Muse, Grok Bot을 실제 계정으로 써 보고 스크린샷 98장을 찍어 기능마다 채택·변형·거부를 판정했다. 셋 다 에이전트가 한 일과 허락받은 일을 항상 함께 보여 준다. 가장 가져올 만한 것은 Grok의 \"Take over / I’m done\"으로, 로그인이나 동의처럼 사람만 넘을 수 있는 벽에서 실시간 세션을 넘기고 끝나면 이어간다."
+    },
+    "ms": {
+     "title": "Pengajaran antara muka ejen daripada Dots, Muse dan Grok Bot",
+     "summary": "Sebelum membina semula konsol Instar, penulis menggunakan ChatGPT Dots, Meta Muse dan Grok Bot pada akaun sebenar, mengambil 98 tangkapan skrin dan menilai setiap ciri: guna, ubah suai atau tolak. Ketiga-tiganya sentiasa memaparkan apa yang ejen buat dan apa yang dibenarkan bersama-sama. Idea terbaik ialah \"Take over / I’m done\" Grok: di dinding log masuk atau persetujuan ia menyerahkan sesi langsung kepada manusia dan menyambung selepas itu."
+    },
+    "vi": {
+     "title": "Bài học giao diện agent từ Dots, Muse và Grok Bot",
+     "summary": "Trước khi làm lại bảng điều khiển Instar, tác giả dùng ChatGPT Dots, Meta Muse và Grok Bot bằng tài khoản thật, chụp 98 ảnh màn hình và đánh giá từng tính năng: dùng, chỉnh lại hay bỏ. Cả ba luôn hiển thị cùng lúc việc agent đã làm và việc nó được phép làm. Ý tưởng đáng học nhất là \"Take over / I’m done\" của Grok: gặp rào đăng nhập hay đồng ý, nó giao phiên đang chạy cho người rồi làm tiếp khi xong."
+    },
+    "fr": {
+     "title": "Ce que Dots, Muse et Grok Bot apprennent sur les interfaces d’agents",
+     "summary": "Avant de refaire la console Instar, l’auteur a utilisé ChatGPT Dots, Meta Muse et Grok Bot sur de vrais comptes, pris 98 captures et classé chaque fonction : adopter, adapter ou rejeter. Les trois affichent toujours ensemble ce que l’agent a fait et ce qu’il avait le droit de faire. La meilleure idée est le « Take over / I’m done » de Grok : face à une connexion ou un consentement, il confie sa session en direct à l’humain puis reprend."
+    },
+    "es": {
+     "title": "Lo que Dots, Muse y Grok Bot enseñan sobre interfaces de agentes",
+     "summary": "Antes de rehacer la consola de Instar, el autor usó ChatGPT Dots, Meta Muse y Grok Bot con cuentas reales, tomó 98 capturas y calificó cada función como adoptar, adaptar o rechazar. Los tres muestran siempre juntos lo que hizo el agente y lo que tenía permitido. La mejor idea es el \"Take over / I’m done\" de Grok: ante un inicio de sesión o un consentimiento, cede su sesión en vivo a la persona y luego continúa."
+    },
+    "de": {
+     "title": "Was Dots, Muse und Grok Bot über Agenten-Oberflächen lehren",
+     "summary": "Vor dem Umbau der Instar-Konsole nutzte der Autor ChatGPT Dots, Meta Muse und Grok Bot mit echten Konten, machte 98 Screenshots und bewertete jede Funktion mit übernehmen, anpassen oder ablehnen. Alle drei zeigen stets zusammen, was der Agent tat und tun durfte. Die beste Idee ist Groks „Take over / I’m done“: An einer Login- oder Zustimmungshürde übergibt er die laufende Sitzung an den Menschen und macht danach weiter."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/gobha-me/html-games/pull/101",
+   "url": "https://github.com/gobha-me/html-games/pull/101",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "gobha-me",
+   "date": "2026-10-22",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "art(late-edition): silhouette noir city, staff silhouettes & title skyline (#89)\nCloses #89\n\nArt direction by Grok Bot; implementation by Codex (gpt-6.1-sol, high). **Awaiting owner director review — do not merge.**\n\n- Oblique night city: extruded silhouette blocks with top/front faces and cast shadows, sparse lit windows (fixed cosmetic seed, not gameplay RNG), wet streets with sodium pools, fog at the edges, one landmark silhouette per district, street-sign district names.\n- Procedural fedora/trench-coat staff and rival silhouettes; pixel sprites retired.\n- Leads as telegram flags with sodium glow; title skyline in 3 parallax layers with haze, water towers, bridge, searchlight and the Evening Star rooftop sign. Reduced motion = static.\n- Static layers cached offscreen.\n- Director round 1 applied: depth inverted on title, grey vignette, hollow water towers, flat boxes, small figures, thin cranes.\n\n**Verification:** Node 22: lint pass; test:coverage 323 pass (sim.js 100% lines, golden hashes unchanged); test:e2e 68 pass incl. 10 canvas-coordinate lead clicks → 10 dispatches, no unit_*.png requests, reduced-motion static title; SwiftShader 1080p frame p95 < 20 ms, render p95 < 8 ms.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 做美术指导、Codex 实现的黑色电影风城市画面",
+     "summary": "这个游戏 PR 的美术方向由 Grok Bot 定，实现交给 Codex：斜视角夜城剪影、钠灯湿街和雾气、程序化生成的戴软呢帽穿风衣人物、三层视差标题天际线，减弱动效时为静态。已应用第一轮美术指导意见，PR 标明等待作者审阅、勿合并；测试全部通过。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 當美術指導、Codex 實作的黑色電影風城市畫面",
+     "summary": "這個遊戲 PR 的美術方向由 Grok Bot 決定，實作交給 Codex：斜視角夜城剪影、鈉燈濕街與霧氣、程序化生成的戴軟呢帽穿風衣人物、三層視差標題天際線，減少動態時為靜態。已套用第一輪美術指導意見，PR 標明等待作者審閱、勿合併；測試全部通過。"
+    },
+    "en": {
+     "title": "Grok Bot as art director, Codex as builder, for a noir city scene",
+     "summary": "In this game PR, art direction is by Grok Bot and implementation by Codex: an oblique night city of silhouettes, wet streets with sodium light and fog, procedural fedora and trench-coat figures, and a three-layer parallax title skyline that turns static with reduced motion. Round one of director notes is applied; the PR awaits owner review and tests pass."
+    },
+    "ja": {
+     "title": "Grok Bot がアートディレクション、Codex が実装したノワール風の街",
+     "summary": "このゲームの PR では、アートディレクションを Grok Bot、実装を Codex が担当。斜めから見た夜の街のシルエット、ナトリウム灯と霧の濡れた通り、手続き生成の中折れ帽とトレンチコートの人物、3 層パララックスのタイトル用スカイラインで、モーション軽減時は静止する。第 1 回の指示を反映済みで、オーナーのレビュー待ち、テストは通過。"
+    },
+    "ko": {
+     "title": "Grok Bot이 아트 디렉션, Codex가 구현한 누아르 도시",
+     "summary": "이 게임 PR은 아트 디렉션을 Grok Bot이, 구현을 Codex가 맡았다. 비스듬한 시점의 밤 도시 실루엣, 나트륨 조명과 안개가 낀 젖은 거리, 절차적으로 만든 중절모와 트렌치코트 인물, 3단 패럴랙스 타이틀 스카이라인이며 모션 감소 시 정지한다. 1차 디렉터 의견을 반영했고 소유자 리뷰 대기 중이며 테스트는 통과했다."
+    },
+    "ms": {
+     "title": "Grok Bot sebagai pengarah seni, Codex membina adegan bandar noir",
+     "summary": "Dalam PR permainan ini, arahan seni oleh Grok Bot dan pelaksanaan oleh Codex: siluet bandar malam dari sudut serong, jalan basah dengan lampu natrium dan kabus, watak bertopi fedora dan berkot trench yang dijana prosedur, serta latar langit tajuk paralaks tiga lapis yang statik bila gerakan dikurangkan. Pusingan pertama nota pengarah sudah diguna; PR menunggu semakan pemilik dan ujian lulus."
+    },
+    "vi": {
+     "title": "Grok Bot chỉ đạo mỹ thuật, Codex dựng cảnh thành phố noir",
+     "summary": "Trong PR trò chơi này, chỉ đạo mỹ thuật do Grok Bot, phần dựng do Codex: bóng thành phố đêm góc nghiêng, đường ướt dưới đèn natri và sương, nhân vật mũ phớt áo trench sinh theo thủ tục, và đường chân trời tiêu đề ba lớp parallax, tĩnh khi giảm chuyển động. Đã áp dụng góp ý đợt một; PR chờ chủ dự án duyệt và các bài kiểm tra đều đạt."
+    },
+    "fr": {
+     "title": "Grok Bot en directeur artistique, Codex à la réalisation, pour une ville noir",
+     "summary": "Dans cette PR de jeu, la direction artistique est assurée par Grok Bot et l’implémentation par Codex : ville nocturne en silhouettes vue en oblique, rues mouillées sous lampes au sodium et brouillard, personnages en fedora et trench générés procéduralement, skyline de titre en parallaxe à trois couches, statique en mouvement réduit. Le premier tour de notes est appliqué ; la PR attend la revue du propriétaire, les tests passent."
+    },
+    "es": {
+     "title": "Grok Bot como director de arte y Codex como desarrollador en una ciudad noir",
+     "summary": "En esta PR de un juego, la dirección de arte es de Grok Bot y la implementación de Codex: ciudad nocturna en siluetas vista en oblicuo, calles mojadas con luz de sodio y niebla, figuras con fedora y gabardina generadas por procedimiento y un horizonte de título con parallax de tres capas, estático con movimiento reducido. Ya aplica la primera ronda de notas; espera revisión del dueño y las pruebas pasan."
+    },
+    "de": {
+     "title": "Grok Bot als Art Director, Codex baut eine Noir-Stadt",
+     "summary": "In diesem Spiele-PR stammt die Art Direction von Grok Bot, die Umsetzung von Codex: schräg gesehene nächtliche Silhouettenstadt, nasse Straßen mit Natriumlicht und Nebel, prozedural erzeugte Figuren mit Fedora und Trenchcoat sowie eine dreilagige Parallax-Skyline im Titel, statisch bei reduzierter Bewegung. Die erste Runde Regieanmerkungen ist umgesetzt; der PR wartet auf den Besitzer, die Tests laufen durch."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/bicrick/personal-website/pull/25",
+   "url": "https://github.com/bicrick/personal-website/pull/25",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "bicrick",
+   "date": "2026-10-22",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Add a setup section to the agent research loops note\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nAdds a section immediately before \"two examples\" on the Grok Bot auto-research note. It covers a narrow GCP service account for the training VMs, a local clone on the bot's own disk, and a routine that wakes the bot to read results and launch the next run.\n\n## Test plan\n\n- [ ] `npm run build` passes\n- [ ] `/writing/agent-research-loops` shows `/ how to set it up` before `/ two examples`\n- [ ] The rest of the article is unchanged\n- [ ] After merge, the section is live on https://www.bicrick.com/writing/agent-research-loops\n\n<!-- CURSOR_AGENT_PR_BODY_END -->\n\n<div><a href=\"https://cursor.com/agents/bc-18fc991d-6808-5102-a0ed-da2393d964bd?cursor_ref=pr_footer&cursor_cta=open_in_web\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://cursor.com/assets/images/open-in-web-dark.png\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://cursor.com/assets/images/open-in-web-light.png\"><img alt=\"Open in Web\" width=\"114\" height=\"28\" src=\"https://cursor.com/assets/images/open-in-web-dark.png\"></picture></a>&nbsp;<a href=\"https://cursor.com/background-agent?bcId=bc-18fc991d-6808-5102-a0ed-da2393d964bd&cursor_ref=pr_footer&cursor_cta=open_in_cursor\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://cursor.com/assets/images/open-in-cursor-dark.png\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://cursor.com/assets/images/open-in-cursor-light.png\"><img alt=\"Open in Cursor\" width=\"131\" height=\"28\" src=\"https://cursor.com/assets/images/open-in-cursor-dark.png\"></picture></a>&nbsp;</div>",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 自动科研循环：怎么搭起来",
+     "summary": "作者在“Agent 研究循环”文章里新增搭建一节：给训练虚拟机配一个权限收窄的 GCP 服务账号，在 Bot 自己的磁盘上放一份本地代码克隆，再设一个例行任务定时唤醒 Bot 读取结果并启动下一轮实验。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 自動研究循環：怎麼搭起來",
+     "summary": "作者在「Agent 研究循環」文章裡新增搭建一節：給訓練虛擬機配一個權限收窄的 GCP 服務帳號，在 Bot 自己的磁碟上放一份本地程式碼克隆，再設一個例行任務定時喚醒 Bot 讀取結果並啟動下一輪實驗。"
+    },
+    "en": {
+     "title": "How to set up a Grok Bot auto-research loop",
+     "summary": "The author adds a setup section to his note on agent research loops: a narrow GCP service account for the training VMs, a local clone on the bot’s own disk, and a routine that wakes the bot to read results and launch the next run."
+    },
+    "ja": {
+     "title": "Grok Bot の自動研究ループの組み方",
+     "summary": "作者はエージェント研究ループの記事に設定の章を追加した。学習用 VM 向けに権限を絞った GCP サービスアカウント、Bot 自身のディスク上のローカルクローン、そして Bot を起こして結果を読み次の実行を始めさせるルーティンの 3 つ。"
+    },
+    "ko": {
+     "title": "Grok Bot 자동 연구 루프 설정법",
+     "summary": "작성자는 에이전트 연구 루프 글에 설정 섹션을 추가했다. 학습용 VM을 위한 권한을 좁힌 GCP 서비스 계정, Bot 자체 디스크의 로컬 클론, 그리고 Bot을 깨워 결과를 읽고 다음 실행을 시작하게 하는 루틴이다."
+    },
+    "ms": {
+     "title": "Cara menyediakan gelung penyelidikan automatik Grok Bot",
+     "summary": "Penulis menambah bahagian persediaan pada notanya tentang gelung penyelidikan ejen: akaun perkhidmatan GCP berskop sempit untuk VM latihan, klon tempatan pada cakera bot sendiri, dan rutin yang membangunkan bot untuk membaca hasil dan melancarkan larian seterusnya."
+    },
+    "vi": {
+     "title": "Cách dựng vòng nghiên cứu tự động với Grok Bot",
+     "summary": "Tác giả thêm phần thiết lập vào bài viết về vòng nghiên cứu bằng agent: một tài khoản dịch vụ GCP quyền hẹp cho các VM huấn luyện, một bản clone cục bộ trên ổ đĩa riêng của bot, và một routine đánh thức bot để đọc kết quả và chạy lượt tiếp theo."
+    },
+    "fr": {
+     "title": "Monter une boucle de recherche automatique avec Grok Bot",
+     "summary": "L’auteur ajoute une section d’installation à sa note sur les boucles de recherche d’agents : un compte de service GCP aux droits restreints pour les VM d’entraînement, un clone local sur le disque du bot, et une routine qui réveille le bot pour lire les résultats et lancer l’essai suivant."
+    },
+    "es": {
+     "title": "Cómo montar un bucle de investigación automática con Grok Bot",
+     "summary": "El autor añade una sección de configuración a su nota sobre bucles de investigación con agentes: una cuenta de servicio de GCP con permisos acotados para las VM de entrenamiento, un clon local en el disco del propio bot y una rutina que despierta al bot para leer resultados y lanzar la siguiente ejecución."
+    },
+    "de": {
+     "title": "So richtest du eine automatische Forschungsschleife mit Grok Bot ein",
+     "summary": "Der Autor ergänzt seine Notiz zu Agenten-Forschungsschleifen um einen Einrichtungsteil: ein eng berechtigtes GCP-Dienstkonto für die Trainings-VMs, ein lokaler Klon auf der eigenen Platte des Bots und eine Routine, die den Bot weckt, Ergebnisse lesen und den nächsten Lauf starten lässt."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/escap0/agentrags/pull/1",
+   "url": "https://github.com/ESCAP0/agentrags/pull/1",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "ESCAP0",
+   "date": "2026-10-22",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Redesign AgentRags: editorial paper, story pages, own images, data contract\nRebuilds AgentRags as an evening paper and makes it safe for Grokbot to run every night.\n\n**Design**\n- New masthead, type (Newsreader + Inter Tight, self-hosted), lead + grid layout, feeds band, earlier editions, credits this week. Mobile pass; no external requests.\n- Lead is the story the curator's headline is about. Stories still trending from earlier nights count toward later editions.\n\n**Pages**\n- `/story/<id>/`: one permanent page per pick with sources, why it matters, tags, related stories. Feeds and the newsletter draft link here.\n\n**Images**\n- No hotlinked X or publisher media. Grokbot's illustrations (`static/img/posts/<id>.webp`) when present, generated two-ink cover art otherwise.\n- `/api/needs-images.json` is Grokbot's work list; `IMAGES.md` is the spec.\n\n**Grokbot contract**\n- `scripts/check_data.py` runs before every build (Vercel, CI, nightly sync) and fails on malformed data, so the last good deploy stays live.\n- `GROKBOT.md`: who may change what. The nightly sync no longer runs `card_images.py` / `fetch_x_posts.py` (removed); it runs `check_data.py` instead.\n\n**Checked:** 205 pages, 0 broken internal links, 16 feeds valid, no console errors, no horizontal overflow at 1440 px or 390 px.\n\nMerging deploys to production.\n\n---\n_Generated by [Claude Code](https://claude.ai/code/session_01Xy1oBvjtgtP6FxBgspanb2)_",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "改版 AgentRags，让 Grokbot 每晚安全地跑",
+     "summary": "作者把 AgentRags 重做成一份晚报，并让 Grokbot 能每晚放心运行：每条入选故事有固定页面；不再盗链 X 或媒体图片，改用 Grokbot 画的插图或生成封面，/api/needs-images.json 是 Grokbot 的配图任务单；每次构建前跑 check_data.py，数据格式不对就失败，保留上一次正常部署；GROKBOT.md 规定谁能改什么。"
+    },
+    "zh-TW": {
+     "title": "改版 AgentRags，讓 Grokbot 每晚安全地跑",
+     "summary": "作者把 AgentRags 重做成一份晚報，並讓 Grokbot 能每晚放心運行：每則入選故事有固定頁面；不再盜連 X 或媒體圖片，改用 Grokbot 畫的插圖或生成封面，/api/needs-images.json 是 Grokbot 的配圖任務單；每次建置前跑 check_data.py，資料格式不對就失敗，保留上一次正常部署；GROKBOT.md 規定誰能改什麼。"
+    },
+    "en": {
+     "title": "AgentRags redesigned so Grokbot can run it every night",
+     "summary": "The author rebuilt AgentRags as an evening paper made safe for Grokbot to run nightly: each pick gets a permanent story page; no hotlinked X or publisher media, only Grokbot’s illustrations or generated covers, with /api/needs-images.json as Grokbot’s work list; check_data.py runs before every build and fails on bad data so the last good deploy stays live; GROKBOT.md sets who may change what."
+    },
+    "ja": {
+     "title": "Grokbot が毎晩安全に回せるよう AgentRags を刷新",
+     "summary": "作者は AgentRags を夕刊風に作り直し、Grokbot が毎晩安全に運用できるようにした。選ばれた記事ごとに固定ページを用意し、X や媒体の画像の直リンクはやめて Grokbot のイラストか生成カバーを使う。/api/needs-images.json が Grokbot の作業リスト。ビルド前に毎回 check_data.py を走らせ、不正なデータなら失敗させて直前の正常なデプロイを残す。GROKBOT.md で誰が何を変えてよいかを決めている。"
+    },
+    "ko": {
+     "title": "Grokbot이 매일 밤 안전하게 돌리도록 AgentRags 개편",
+     "summary": "작성자는 AgentRags를 석간신문처럼 다시 만들고 Grokbot이 매일 밤 안전하게 돌릴 수 있게 했다. 선정 기사마다 고정 페이지가 있고, X나 매체 이미지 핫링크 대신 Grokbot 일러스트나 생성 커버를 쓰며 /api/needs-images.json이 Grokbot의 작업 목록이다. 매 빌드 전 check_data.py가 돌아 데이터가 잘못되면 실패해 마지막 정상 배포를 유지하고, GROKBOT.md가 누가 무엇을 바꿀지 정한다."
+    },
+    "ms": {
+     "title": "AgentRags direka semula supaya Grokbot boleh menjalankannya setiap malam",
+     "summary": "Penulis membina semula AgentRags sebagai akhbar petang yang selamat dijalankan Grokbot setiap malam: setiap pilihan ada halaman cerita kekal; tiada imej X atau penerbit yang dipaut terus, hanya ilustrasi Grokbot atau kulit yang dijana, dengan /api/needs-images.json sebagai senarai kerja Grokbot; check_data.py berjalan sebelum setiap binaan dan gagal jika data rosak supaya penggunaan terakhir yang baik kekal; GROKBOT.md menetapkan siapa boleh ubah apa."
+    },
+    "vi": {
+     "title": "Làm lại AgentRags để Grokbot chạy an toàn mỗi đêm",
+     "summary": "Tác giả dựng lại AgentRags thành một tờ báo chiều an toàn để Grokbot chạy mỗi đêm: mỗi bài chọn có trang cố định; không còn dẫn ảnh trực tiếp từ X hay báo, chỉ dùng tranh minh họa của Grokbot hoặc bìa tạo sẵn, với /api/needs-images.json là danh sách việc của Grokbot; check_data.py chạy trước mỗi lần build và thất bại khi dữ liệu sai để giữ bản triển khai tốt gần nhất; GROKBOT.md quy định ai được sửa gì."
+    },
+    "fr": {
+     "title": "AgentRags refondu pour que Grokbot le fasse tourner chaque nuit",
+     "summary": "L’auteur a refait AgentRags en journal du soir, sûr pour une exécution nocturne par Grokbot : chaque sélection a sa page permanente ; plus d’images X ou d’éditeurs en lien direct, seulement les illustrations de Grokbot ou des couvertures générées, avec /api/needs-images.json comme liste de tâches ; check_data.py tourne avant chaque build et échoue sur des données invalides pour garder le dernier bon déploiement ; GROKBOT.md fixe qui peut modifier quoi."
+    },
+    "es": {
+     "title": "AgentRags rediseñado para que Grokbot lo ejecute cada noche",
+     "summary": "El autor rehízo AgentRags como un diario vespertino seguro para que Grokbot lo ejecute cada noche: cada noticia elegida tiene página permanente; nada de imágenes enlazadas de X o medios, solo ilustraciones de Grokbot o portadas generadas, con /api/needs-images.json como lista de tareas; check_data.py corre antes de cada build y falla con datos mal formados para mantener el último despliegue bueno; GROKBOT.md define quién puede cambiar qué."
+    },
+    "de": {
+     "title": "AgentRags umgebaut, damit Grokbot es jede Nacht betreiben kann",
+     "summary": "Der Autor baute AgentRags zu einer Abendzeitung um, die Grokbot nachts sicher betreiben kann: Jeder Beitrag erhält eine feste Seite; keine direkt verlinkten Bilder von X oder Verlagen, nur Grokbots Illustrationen oder generierte Cover, mit /api/needs-images.json als Arbeitsliste; check_data.py läuft vor jedem Build und bricht bei fehlerhaften Daten ab, damit der letzte gute Stand live bleibt; GROKBOT.md regelt, wer was ändern darf."
+    }
+   }
+  }
+ ]
 }
