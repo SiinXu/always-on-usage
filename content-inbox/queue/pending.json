@@ -34193,19 +34193,6 @@
    "found_at": "2026-10-22T04:58:16.429Z"
   },
   {
-   "id": "gh:github.com/rome-os/rome/pull/1240",
-   "url": "https://github.com/rome-os/rome/pull/1240",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "imsobear",
-   "date": "2026-10-22",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "feat: show Dots and Muse as assistants, each a chat on one Assistants page\nCloses #1199. Part of #1099.\n\n## What this PR does\n\nA guardian's ChatGPT dots and Meta Muse talk to Rome through Rome Cloud, but the conversation had no place in the dashboard. It sat in a channel session reachable only from Sessions or from the guardian's own People entry, and nothing let the guardian write to a dot or Muse there. This PR names these agents *assistants* and gives each one chat, shown on one Assistants page.\n\n## Design & Invariants\n\nThe vocabulary lands first, in [`docs/domains/chats.md`](docs/domains/chats.md#assistant): an assistant is an agent outside Rome that talks to Rome through Rome Cloud, a participant and not one of Rome's agents.\n\n- Each assistant is one chat with Rome, and it exists from the moment Rome Cloud lists the assistant, so the guardian can write first.\n- What the guardian writes in an assistant's chat goes to the assistant and wakes no agent. Main still answers every message the assistant sends.\n- Another Rome is an assistant in the model, but the dashboard does not list it. Rome-to-Rome messaging has no product of its own yet: no way in, no rule against two Romes answering each other's replies, and stopped test instances stay registered on Rome Cloud. Rome can still message another Rome, and its messages still arrive.\n- The Assistants page is off the sidebar until the guardian adds it under Edit. Main answers assistants, so the guardian reads these chats now and then rather than watching them. It is also reachable from the Apps launcher and the switcher.\n- The page opens on the chat that moved last, and its header switches to another assistant. The open chat is named in the address, so a link opens the same one.\n- An assistant's chat looks like any other Rome chat: the same header, transcript, bubbles and composer. The composer ta",
-   "media": [],
-   "found_at": "2026-10-22T04:58:31.228Z"
-  },
-  {
    "id": "gh:github.com/rubywolff27/harness-in-a-box/pull/2",
    "url": "https://github.com/RubyWolff27/harness-in-a-box/pull/2",
    "source": "github",
@@ -34505,19 +34492,6 @@
    "found_at": "2026-10-22T04:59:23.238Z"
   },
   {
-   "id": "gh:github.com/bicrick/personal-website/pull/25",
-   "url": "https://github.com/bicrick/personal-website/pull/25",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "bicrick",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Add a setup section to the agent research loops note\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\nAdds a section immediately before \"two examples\" on the Grok Bot auto-research note. It covers a narrow GCP service account for the training VMs, a local clone on the bot's own disk, and a routine that wakes the bot to read results and launch the next run.\n\n## Test plan\n\n- [ ] `npm run build` passes\n- [ ] `/writing/agent-research-loops` shows `/ how to set it up` before `/ two examples`\n- [ ] The rest of the article is unchanged\n- [ ] After merge, the section is live on https://www.bicrick.com/writing/agent-research-loops\n\n<!-- CURSOR_AGENT_PR_BODY_END -->\n\n<div><a href=\"https://cursor.com/agents/bc-18fc991d-6808-5102-a0ed-da2393d964bd?cursor_ref=pr_footer&cursor_cta=open_in_web\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://cursor.com/assets/images/open-in-web-dark.png\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://cursor.com/assets/images/open-in-web-light.png\"><img alt=\"Open in Web\" width=\"114\" height=\"28\" src=\"https://cursor.com/assets/images/open-in-web-dark.png\"></picture></a>&nbsp;<a href=\"https://cursor.com/background-agent?bcId=bc-18fc991d-6808-5102-a0ed-da2393d964bd&cursor_ref=pr_footer&cursor_cta=open_in_cursor\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://cursor.com/assets/images/open-in-cursor-dark.png\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://cursor.com/assets/images/open-in-cursor-light.png\"><img alt=\"Open in Cursor\" width=\"131\" height=\"28\" src=\"https://cursor.com/assets/images/open-in-cursor-dark.png\"></picture></a>&nbsp;</div>",
-   "media": [],
-   "found_at": "2026-10-22T04:59:30.691Z"
-  },
-  {
    "id": "gh:github.com/cursor/plugins/pull/768",
    "url": "https://github.com/cursor/plugins/pull/768",
    "source": "github",
@@ -34631,19 +34605,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "SVG icons: inline <svg> and data: SVG backgrounds via an offline data:-only provider (see #23)\nSee #23. Plan: https://github.com/MHHukiewitz/hx-native/issues/23#issuecomment-6322306207 · Graph verdict: comment 6322227988.\n\n**Agent:** Htmx seat (Grok Bot executor) · **Effort:** four rounds, 2026-10-21 (round 2: SVG `<image>`, Mike's ruling 17:54 UTC-3; round 3: Graph HOLD fixes; round 4: Graph's caps, Mike 19:19 UTC-3; round 4b: Graph's r4 patch).\n\n## New crates: ✅ approved by Mike (2026-10-21 17:58 UTC-3, in chat)\n`Cargo.lock` adds exactly these 8 packages, and round 2 left it unchanged. Nothing is removed and `windows-sys` doesn't move:\n\n| Crate | Version | Brought in by |\n|---|---|---|\n| anyrender_svg | 0.15.0 | `blitz-paint/svg` |\n| color_quant | 1.1.0 | anyrender_svg → image (gif) |\n| gif | 0.14.2 | anyrender_svg → image (forced default decoder) |\n| image-webp | 0.2.4 | same (webp) |\n| quick-error | 2.0.1 | image-webp |\n| weezl | 0.1.12 | gif |\n| zune-core | 0.5.3 | zune-jpeg |\n| zune-jpeg | 0.5.15 | same (jpeg) |\n\nhx-native also gets 3 direct dependency lines on crates that were already in the tree: `usvg =0.48.1` (default-features off), `data-url =0.3.2`, and blitz-paint's `svg` feature. The `cargo tree -p hx-native -e normal` delta against main is exactly the 8 crates above.\n\n## Graph conditions\n1. **Exact features.** Met. `blitz-paint` keeps `default-features = false` and turns on only `svg`. `usvg = \"=0.48.1\"` has default-features off. There is no blitz-net, no resvg and no extra image features. `check_deps` now also bans `resvg`, `reqwest` and `ureq`. BLITZ_PIN.md lists usvg, anyrender_svg and data-url as pins that move with Blitz. The decoders can't be trimmed, because blitz-paint forces anyrender_svg's default features.\n2. **Lockfile.** Met. It adds exactly the 8 crates above, with no removals and no `windows-sys` move.\n3. **Offline `data:`-only provi",
-   "media": [],
-   "found_at": "2026-10-22T04:59:30.692Z"
-  },
-  {
-   "id": "gh:github.com/gobha-me/html-games/pull/101",
-   "url": "https://github.com/gobha-me/html-games/pull/101",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "gobha-me",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "art(late-edition): silhouette noir city, staff silhouettes & title skyline (#89)\nCloses #89\n\nArt direction by Grok Bot; implementation by Codex (gpt-6.1-sol, high). **Awaiting owner director review — do not merge.**\n\n- Oblique night city: extruded silhouette blocks with top/front faces and cast shadows, sparse lit windows (fixed cosmetic seed, not gameplay RNG), wet streets with sodium pools, fog at the edges, one landmark silhouette per district, street-sign district names.\n- Procedural fedora/trench-coat staff and rival silhouettes; pixel sprites retired.\n- Leads as telegram flags with sodium glow; title skyline in 3 parallax layers with haze, water towers, bridge, searchlight and the Evening Star rooftop sign. Reduced motion = static.\n- Static layers cached offscreen.\n- Director round 1 applied: depth inverted on title, grey vignette, hollow water towers, flat boxes, small figures, thin cranes.\n\n**Verification:** Node 22: lint pass; test:coverage 323 pass (sim.js 100% lines, golden hashes unchanged); test:e2e 68 pass incl. 10 canvas-coordinate lead clicks → 10 dispatches, no unit_*.png requests, reduced-motion static title; SwiftShader 1080p frame p95 < 20 ms, render p95 < 8 ms.",
    "media": [],
    "found_at": "2026-10-22T04:59:30.692Z"
   },
@@ -34817,19 +34778,6 @@
    "found_at": "2026-10-22T04:59:45.575Z"
   },
   {
-   "id": "gh:github.com/escap0/agentrags/pull/1",
-   "url": "https://github.com/ESCAP0/agentrags/pull/1",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "ESCAP0",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Redesign AgentRags: editorial paper, story pages, own images, data contract\nRebuilds AgentRags as an evening paper and makes it safe for Grokbot to run every night.\n\n**Design**\n- New masthead, type (Newsreader + Inter Tight, self-hosted), lead + grid layout, feeds band, earlier editions, credits this week. Mobile pass; no external requests.\n- Lead is the story the curator's headline is about. Stories still trending from earlier nights count toward later editions.\n\n**Pages**\n- `/story/<id>/`: one permanent page per pick with sources, why it matters, tags, related stories. Feeds and the newsletter draft link here.\n\n**Images**\n- No hotlinked X or publisher media. Grokbot's illustrations (`static/img/posts/<id>.webp`) when present, generated two-ink cover art otherwise.\n- `/api/needs-images.json` is Grokbot's work list; `IMAGES.md` is the spec.\n\n**Grokbot contract**\n- `scripts/check_data.py` runs before every build (Vercel, CI, nightly sync) and fails on malformed data, so the last good deploy stays live.\n- `GROKBOT.md`: who may change what. The nightly sync no longer runs `card_images.py` / `fetch_x_posts.py` (removed); it runs `check_data.py` instead.\n\n**Checked:** 205 pages, 0 broken internal links, 16 feeds valid, no console errors, no horizontal overflow at 1440 px or 390 px.\n\nMerging deploys to production.\n\n---\n_Generated by [Claude Code](https://claude.ai/code/session_01Xy1oBvjtgtP6FxBgspanb2)_",
-   "media": [],
-   "found_at": "2026-10-22T04:59:45.575Z"
-  },
-  {
    "id": "gh:github.com/sheevsabban1947/tcs-wwkc-kf/pull/6",
    "url": "https://github.com/SheevSabban1947/TCS-WWKC-KF/pull/6",
    "source": "github",
@@ -34948,19 +34896,6 @@
    "found_at": "2026-10-22T12:01:28.181Z"
   },
   {
-   "id": "gh:github.com/openai/codex/issues/56120",
-   "url": "https://github.com/openai/codex/issues/56120",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "wookingwoo",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "[Dots] Native cloud terminal lost outbound HTTPS access while agent Bash still works — regression or policy change?\n### What issue are you seeing?\n\nOutbound HTTPS connectivity from the **ChatGPT Dots cloud computer's native terminal** has stopped working, even though it previously worked as expected.\n\nI recall it working in early October, and I suspect the issue started around **October 10, 2026**, although I cannot confirm the exact date or what triggered the change.\n\nInterestingly, the same dot produces different network results depending on where commands are executed:\n\n- **Agent Bash:** Successfully connects to GitHub API and Google (HTTP 200).\n- **Native Cloud Terminal:** Fails to connect to the same endpoints (`curl` exit code 7).\n\nI have reproduced this behavior multiple times, including by executing fresh commands directly in the visible cloud computer terminal.\n\nThis does not appear to be specific to GitHub authentication or any particular service. The failure also occurs with public HTTPS endpoints that require no authentication.\n\nThe issue potentially affects workflows involving external API requests, Git operations, package downloads, and native applications that require internet access.\n\n**I'm primarily trying to understand whether this is a regression, an intentional network policy change, or a temporary infrastructure issue.**\n\n### What steps can reproduce the bug?\n\n### 1. Compare HTTPS connectivity\n\nRun the following commands in both the dot's **Agent Bash** environment and the **native terminal** of its cloud computer:\n\n```bash\nfor url in https://api.github.com/ https://www.google.com/; do\n  curl -q -sS --connect-timeout 5 --max-time 8 \\\n    -o /dev/null -w \"$url: HTTP %{http_code}\\n\" \"$url\"\n  echo \"Exit code: $?\"\ndone\n```\n\nThis is a simplified reproduction command. Some output options differ from the original tests.\n\n**Observed results:**\n\n| Endpoint | Agent Bash |",
-   "media": [],
-   "found_at": "2026-10-22T12:01:28.181Z"
-  },
-  {
    "id": "gh:github.com/mohitagw15856/pm-claude-skills/pull/448",
    "url": "https://github.com/mohitagw15856/pm-claude-skills/pull/448",
    "source": "github",
@@ -34983,32 +34918,6 @@
    "likes": 0,
    "product": "openai-dots",
    "text": "[INTEGRATION] GitHub-triggered independent Fabric review with Slack result return\n## Outcome / proof criterion\nInstall and prove event-driven *independent* review of Mastermind GitHub PRs: an authorized GitHub review request must lead to a separately admitted, source-bound Subagent Fabric reviewer, one verified formal GitHub review at the exact PR head, and a matching status thread in the existing Slack channel. Dots/ChatGPT Work are optional supplementary reviewers; GitHub/Executive/Fabric must not rely on an unproven Dot wake.\n\nThis issue is **GitHub implementation/release evidence**, not a new Executive queue, Agent OS workstream, worker lease, approval or automation daemon.\n\n## Original authorized operation; DO NOT REDISPATCH\n- Chairman assignment: 2026-10-22.\n- Original Fabric root: `mmx-gh-review-20261022`.\n- Existing builder child: `mmx-gh-review-20261022-build01`, controller PID `44551` on its original enrolled channel. Its original `fabric_request` returned CONTROLLER_CREATED, then local controller output showed Ubuntu2/minimax LEASE_OK, SCP and LAUNCH_ATTEMPT. Last observed status: ACTIVE_OR_WAITING / worker_state UNKNOWN / result unavailable / acceptance UNVERIFIED. **Not proof of START or completion.** Do not create a replacement child/branch/retry or clear an uncertain effect.\n- Protected Mastermind procedure pin: `dce821e0d9d67b67b3053290e42fb2ac0bbcdcc1` (Skillpack 1.0.1, bootstrap-major 1). Refresh only materially affected facts before release.\n- Existing Slack destination: `#github-independent-reviews` channel `C0CAUK8P8S3`; inception thread https://mastermindxgroup.slack.com/archives/C0CAUK8P8S3/p1792668898495279 ; Mastermind Executive Relay bot user `U0BT71H4FQE` has been invited and membership verified. **Bot membership does not mean automatic posting is wired.**\n\n## Scope / implementation acceptance\n1. Verify `X-Hub-Signature-256",
-   "media": [],
-   "found_at": "2026-10-22T12:01:43.201Z"
-  },
-  {
-   "id": "gh:github.com/jkheadley/instar/pull/2291",
-   "url": "https://github.com/JKHeadley/instar/pull/2291",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "EchoOfDawn",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "docs(console): agent-interface research — Dots, Muse, Grok Bot\n## ELI16 — what three other AI agent products do, and what we should take from them\n\nBefore rebuilding the operator console, I used the three agent products closest to what Instar is — ChatGPT **Dots**, Meta **Muse**, and xAI **Grok Bot** — on real accounts, took 98 screenshots, and wrote down a verdict on every feature: adopt, adapt, or reject.\n\nInstar already does most of what these advertise. So the useful question was never \"what features do they have\" — it was **\"what have they solved about *showing* an agent that we haven't.\"** Almost everything worth taking is presentational.\n\n**The headline.** All three independently arrive at the same idea: the agent should show what it did and what it was allowed to do, together, always visible. Instar records strictly more of that than any of them — every gate decision, every override reason, every mandate — and shows strictly less of it. That gap is the argument for the rebuild in one sentence.\n\n**The single best thing to steal** is Grok's \"Take over / I'm done\": the agent hits a wall only a human can pass (a login, a consent, an identity field), hands the human its own live session, and resumes when they're done. Nothing restarts, no credential changes hands. I can vouch for the cost of not having it — that exact wall stopped this research three times in one night, and each time the only move available was to send a message and wait.\n\n**The discoverability finding** is that it's a content problem, not a layout problem. Grok's entire product navigates from five sidebar items, and its scheduler is a gallery of finished outcomes grouped by what you care about — News, Productivity, Finance — one line each, one button. Ours is more capable and has zero jobs defined, because nothing anywhere suggests what a job could be. That's n",
-   "media": [],
-   "found_at": "2026-10-22T12:01:43.201Z"
-  },
-  {
-   "id": "gh:github.com/zgeoff/atc/pull/905",
-   "url": "https://github.com/zgeoff/atc/pull/905",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "zgeoff",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "docs: record whether hosted assistants can be woken by mcp events\n## Description\n\nRecords the MCP Events wake spike: ChatGPT Work chats and dots subscribe to MCP Events by webhook, Claude's hosted products call tools only, and atc answers neither `server/discover` nor any `events/*` method. Recommends building delivery for ChatGPT in a later issue, starting with the live check the doc lists.\n\n- Events is the draft SEP-3415 extension, not part of core `2026-07-28`, so the doc cites the SEP at a pinned head.\n- The doc lives at `docs/design/mcp-events-wake.md`, where the docs-tree rule keeps research write-ups.\n- The plan drops a subscription on a 410, and the draft keeps it. The doc leaves that rule open for the build issue.\n\nContributes to GEO-71\n\n## Not changed\n\n- No event delivery code: the build belongs to a later issue.\n\n## Testing\n\n- `bash .claude/skills/docs-writing/scripts/check-length.sh`: check-prose clean.\n- `bash .claude/skills/docs-writing/scripts/check-links.sh`: every relative link resolves.\n- A stdio probe against a source daemon in a scratch home produced the logs in the doc.\n\n- [x] New or changed code has a test, or this section holds the reason it has none: docs only.",
    "media": [],
    "found_at": "2026-10-22T12:01:43.201Z"
   },
@@ -35139,19 +35048,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "Asistente: alertas de venta bajo costo (solo Admin, borrador)\n## Alertas de venta bajo costo (solo Admin)\n\nTarea 2 de las cinco funciones nuevas del asistente. **Borrador: no fusionar ni publicar; lo revisa y publica Grok Bot alfa.**\n\n### Qué hace\n- Nueva ruta `POST /auth/assistant/below-cost` (misma bandera `ASSISTANT_ENABLED`), **solo lectura**.\n- Revisa las ventas del período (por defecto los últimos 30 días, máximo 92, sin anuladas) y marca las líneas cobradas a un precio unitario menor que el **costo actual** del producto. Por producto: ventas, unidades, precio más bajo y pérdida estimada.\n- También lista los productos cuyo **precio actual** es menor que su costo.\n- Los productos sin costo no se pueden revisar y se cuentan aparte.\n- El informe avisa que se compara con el costo de hoy, porque el costo de cada venta no se guarda aparte.\n- En el asistente del Admin hay un atajo nuevo, «Ventas bajo costo», y también responde a frases como «¿vendí algo por debajo del costo?».\n\n### Reglas\n- Sin migraciones. No toca `codigos-duplicados.js`, «Nueva compra», el stock ni ninguna tabla (no hay INSERT, UPDATE ni DELETE).\n- Empleado o aparato sin rol: `403 below_cost_admin_only`, sin leer datos, sin gastar cupo y sin llamar al modelo.\n- Al modelo solo le llegan «producto #código», cantidades y totales; nunca nombres de productos ni de clientes. Los nombres los pone el Worker en la respuesta al Admin. «#123» no se confunde con «#12».\n- Si no hay hallazgos, no se llama al modelo.\n\n### Archivos\n- `tools/cloudflare-lab/src/pos-assistant-below-cost.js` (nuevo)\n- `tools/cloudflare-lab/src/pos-assistant-queries.js`: lector `saleLines(p)` de solo lectura en `canonicalReader` y `memoryReader`\n- `tools/cloudflare-lab/src/worker.js`: ruta\n- `POS/js/modules/asistente/asistente-ui.js`, `asistente-core.js`, `POS/css/asistente.css`\n- `tests/asistente/as",
-   "media": [],
-   "found_at": "2026-10-22T12:02:43.625Z"
-  },
-  {
-   "id": "gh:github.com/foxkill/steerlink/pull/16",
-   "url": "https://github.com/foxkill/steerlink/pull/16",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "foxkill",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "feat: cap waits at 100 s for hosts without progress (0.1.11)\n## Why\nA test run in Grok Bot showed it calls `get_session_updates` with `wait_seconds: 120`. Grok Bot gives up on a connector call after two minutes unless progress arrives. If Grok sends no `progressToken`, a long silent step (a build or test run without output) would hit that limit.\n\n## What\n- Hosts that do not ask for progress get at most 100 s per `send_prompt` (`timeout_seconds`) and `get_session_updates` (`wait_seconds`) call. The result then says `status: running`, and the next call continues.\n- Hosts with a `progressToken` keep the requested wait; they get progress every 10 s (0.1.10).\n- Tool descriptions and README updated; release 0.1.11.\n\n## Tests\nUnit tests for `effectiveWaitSeconds`. `npm run check` and `npm run test:package` pass locally.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)",
    "media": [],
    "found_at": "2026-10-22T12:02:43.625Z"
   },
@@ -35347,19 +35243,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "feat(scroll-drive): Evidence if/loop/try CFG span kinds (S1d)\n## Summary\n- **S1d:** Evidence `#srcBody` keyword scan (`if`/`else`, `for`/`while`/`loop`, `try`/`catch`/`finally`/`except`) annotates the Steiner micro CFG with distinct span kinds — no Tree-sitter.\n- Walk nodes get `data-cfg-span` + `.scroll-cfg-if` / `.scroll-cfg-loop` / `.scroll-cfg-try`; active kind follows `activeLine` (else hot node); inactive sibling kinds stay `.scroll-cfg-sib`.\n- Extends `window.__graphideScrollDrive` with `cfgSpanKind` / `cfgSpanCount`. Reuses S1a–S1c (`scrollRatio`, `cfgUnroll`, `macroLod`).\n\n## Tip stack\nStacked on tip **#282** (`grokbot/scroll-drive-macro-lod` @ `9d10f4f`). Draft only — do not merge; #138 Ready + Herdr untouched.\n\n## Verify\n`npm run verify` → **670/670** (S1d locked).\n\n## Test plan\n- [x] check-map + feature map name S1d\n- [x] harness pads if/for/try lines; asserts uniq spans + sibling collapse\n- [x] S1a/S1b/S1c still green",
-   "media": [],
-   "found_at": "2026-10-22T12:02:58.913Z"
-  },
-  {
-   "id": "gh:github.com/carpenike/nix-config/pull/1354",
-   "url": "https://github.com/carpenike/nix-config/pull/1354",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "carpenike",
-   "date": "2026-10-22",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "feat(forge): add unprivileged grokbot SSH user restricted to WireGuard peer\n## Purpose\n\nAdds a dedicated, unprivileged SSH login on **forge** for Ryan's cloud assistant box. Goes with **carpenike/network-config#44**, which adds the WireGuard peer `10.8.0.4` and only lets it reach `forge:22`. This PR covers the host side: an account that can log in from that tunnel address and nowhere else.\n\n**Not deployed.** Nothing changes on forge until this is merged and switched.\n\n## Change (`hosts/forge/core/users.nix`)\n\n```nix\nusers.users.grokbot = {\n  isNormalUser = true;\n  description = \"Cloud assistant box (SSH via WireGuard 10.8.0.4)\";\n  group = \"grokbot\";\n  extraGroups = [ ];\n  shell = pkgs.bash;\n  hashedPassword = \"!\"; # locked: no password login\n  openssh.authorizedKeys.keys = [\n    ''from=\"10.8.0.4\",no-agent-forwarding,no-X11-forwarding,no-port-forwarding ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIC+/aS6swwQyZhz6lpazJj2BFhequRtAyJIHvjTvJN/w grokbot-box''\n  ];\n};\nusers.groups.grokbot = { };\n```\n\n## Decisions for Ryan\n\n- **Username `grokbot`.** Rename it if you like. The username, group, and key comment are only used here.\n- **No privilege by default.** The user is not in `wheel`, so the default `:wheel` doas rule doesn't apply, and the `nopass` doas rule covers only `ryan`. It has no service or admin groups. Its primary group is its own `grokbot`, not the shared `users` group, so it doesn't pick up anything group-readable by `users`.\n- **Extent of access.** The user can read only what an ordinary non-root user can on forge: world-readable files and its own home. Service data dirs (`media` 0750, and so on) stay closed to it.\n  - Option, **not added**: putting it in `systemd-journal` would let it run `journalctl` for system logs. Add `\"systemd-journal\"` to `extraGroups` only if you want that.\n\n## Key restrictions\n\n- `from=\"10.8.0.4\"`: sshd rejects the key",
    "media": [],
    "found_at": "2026-10-22T12:02:58.913Z"
   },
@@ -36529,19 +36412,6 @@
    "found_at": "2026-10-22T12:32:39.984Z"
   },
   {
-   "id": "x:2113205821840695736",
-   "url": "https://x.com/degensing/status/2113205821840695736",
-   "source": "x",
-   "source_name": "X",
-   "author": "degensing",
-   "date": "2026-10-22",
-   "likes": 2,
-   "product": "openai-dots",
-   "text": "Anthropic just launched Claude Duet.\n\nIt's built on Opus 5.5, and it's up against Grok Bot, OpenAI Dots (GPT-6 Astra) and Meta Muse.\n\nHere's how the 4 compare on what the reports say so far:\n\n→ Price: Duet has no separate price, it runs on your Claude plan. Grok Bot starts at $30 (SuperGrok). Dots starts at $100. Muse is free to start.\n\n→ Multi-agent: Grok Bot lets you run several named agents. Duet is one ongoing thread.\n\n→ Computer access: Dots can optionally use your laptop. Duet works on its own cloud computer.\n\n→ Approvals: Duet asks before it sends, pays, signs or deletes.\n\n→ Security: Duet uses a dedicated classifier to guard against sensitive data leaks.\n\n→ Usage: Duet's background checks count toward your regular Claude limits.\n\nDuet is still a US waitlist research preview. Some of this will change once people test it.\n\nOpus 5.5 alone won't settle this race.\n\n𝗧𝗵𝗲 𝗮𝗴𝗲𝗻𝘁 𝗻𝗲𝗲𝗱𝘀 𝘁𝗵𝗲 𝗿𝗶𝗴𝗵𝘁 𝘁𝗼𝗼𝗹𝘀 𝗮𝗿𝗼𝘂𝗻𝗱 𝗶𝘁.",
-   "media": [],
-   "found_at": "2026-10-22T12:32:39.984Z"
-  },
-  {
    "id": "x:2113197881083707744",
    "url": "https://x.com/learnwithazhar/status/2113197881083707744",
    "source": "x",
@@ -36807,21 +36677,6 @@
    "found_at": "2026-10-22T12:32:39.985Z"
   },
   {
-   "id": "x:2113231986567315966",
-   "url": "https://x.com/kv1nsiii/status/2113231986567315966",
-   "source": "x",
-   "source_name": "X",
-   "author": "kv1nsiii",
-   "date": "2026-10-22",
-   "likes": 19,
-   "product": "grok-bot",
-   "text": "your grok bot starts acting the moment something looks urgent\n\neven when you haven't read it yet\n\nit sees every new message, every calendar shift, every note.\n\nif the rules are loose it begins sending replies and booking slots on its own. by the time you open it, the thread is already closed\n\nhow to keep it from acting without you:\n\n> it reads first and only drafts if the change is real\n> empty checks stop after one look\n> it only surfaces items that need your tap\n> nothing is sent or booked without you\n> small shifts get noted, not turned into tasks\n\nthe desk still sees everything. it just can't act on any of it alone. paste this into your grok bot and see what it leaves in the queue ↓",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2113230750082285568/img/t5JuUvJOXRzISoRJ.jpg"
-   ],
-   "found_at": "2026-10-22T12:32:39.985Z"
-  },
-  {
    "id": "x:2113228750745690160",
    "url": "https://x.com/GrokBotUni/status/2113228750745690160",
    "source": "x",
@@ -36831,19 +36686,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "5. If you research it every week, schedule it.\n\nCompetitors, prices, your industry: a routine can drop the brief in your inbox on Monday morning.\n\nStep-by-step lesson inside Grok Bot University (Lesson 5.3). Join free for now: https://t.co/md4BCUY9la",
-   "media": [],
-   "found_at": "2026-10-22T12:32:39.985Z"
-  },
-  {
-   "id": "x:2113227842955731288",
-   "url": "https://x.com/allthemoney/status/2113227842955731288",
-   "source": "x",
-   "source_name": "X",
-   "author": "allthemoney",
-   "date": "2026-10-22",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "📅 NEW: Quick Calendar Bot 3.0 is here! 🚀\n\nNever used a Grok Bot agent before? Perfect. This one's made for you 🙌\n\n😮‍💨 It takes the hassle out of monthly calendars, reminders, pings, and all of the above 🎯\n\n🤖 Just tell it what's coming up, like \"dentist Tuesday at 2\" or \"remind me to pay rent on the 1st,\" and it adds it to your calendar ✅\n⏰ Need to move it, cancel it, or get a reminder? Just ask in plain English 💬\n🗓️ Ask \"what's on this week?\" and get a quick rundown 📋\n\nSetup takes minutes 👇\n1️⃣ Tap the link\n2️⃣ Add the bot to your Grok Bot\n3️⃣ Connect your calendar and say hi 👋\n\nNo tech skills needed. No cost. 🆓\n\n🔗 https://t.co/pSn0AJCXG9\n\nYour schedule, handled. 💪",
    "media": [],
    "found_at": "2026-10-22T12:32:39.985Z"
   },
@@ -36859,22 +36701,6 @@
    "text": "BREAKING: OpenAI lost. Muse won.\n\nMeta has the best AI agent - and no, I am not sponsored by Meta to tell you it's the best.\n\nEnterpret launched Feedback Bench 1.1 (https://t.co/ZVgU2I7ypt), which ranks 9 personal AI agents using public posts from Reddit, X, YouTube, the App Store and the Play Store.\n\n1/  The variables\n\n☑ Popularity: how many people talk about the agent on socials. Hype is a good proxy for usefulness.\n\n☑ Customer love: how users rate it compared with the other agents. 0.5 is the peer average.\n\n☑ The heaviest-weighted area is “Getting tasks done” (~25%). Users care most about whether the agent is capable of doing things. I feel the same.\n\n2/ The ranking\n\n🥇 Muse (Meta)\n🥈 Hermes Agent (Nous Research)\n🥉 Grok Bot (xAI)\n\n4. Hark (Hark Labs)\n5. OpenClaw (OpenClaw Foundation)\n6. Instinct (Spear Street)\n7. Gemini Spark (Google)\n8. ChatGPT Dots (OpenAI)\n9. Poke (The Interaction Co.)\n\n3/ Why using an AI agent vs. Claude/ChatGPT?\n\nTechnically, ChatGPT or Claude are \"agents\". People are getting ahead of themselves with this word. But Muse/Hermes/Grok Bot go an extra mile.\n\n↳ They are using their own computer (not yours) to get things done. We call it \"computer use\" and it's useful to get things done on their own.\n\n↳ You don't need to select their \"intelligence\". No more models or efforts to choose from.\n\n↳ It's made for personal use cases. Do your taxes, book flights, shop online, fill out a form, etc.\n\nPS: Claude just announced \"Duet\", their own personal agent. I will try to get early access; who wants to be in?",
    "media": [
     "https://pbs.twimg.com/media/HVOiqk1bMAA0hGc.jpg"
-   ],
-   "found_at": "2026-10-22T12:32:39.985Z"
-  },
-  {
-   "id": "x:2113222410753409027",
-   "url": "https://x.com/zunosaid/status/2113222410753409027",
-   "source": "x",
-   "source_name": "X",
-   "author": "zunosaid",
-   "date": "2026-10-22",
-   "likes": 9,
-   "product": "grok-bot",
-   "text": "i'm cancelling every paid newsletter, research tool and alpha group i'm subscribed to soon...\n\nGROK BOT is reading every source i used to pay to follow, overnight, link by link\n\nso i wake up to the one brief i actually read, cited, by 7am\n\nhere's the exact workflow i use, 10 mins to set up:",
-   "media": [
-    "https://pbs.twimg.com/media/HVOsgH5agAAEwS4.jpg",
-    "https://pbs.twimg.com/media/HVOsidFagAA9Xd-.jpg"
    ],
    "found_at": "2026-10-22T12:32:39.985Z"
   },
@@ -37112,21 +36938,6 @@
    "text": "How did I live without this before?\n#duet #DOTS https://t.co/7wY1pPjlhU",
    "media": [
     "https://pbs.twimg.com/media/HVOwMUhWoAAnDsD.jpg"
-   ],
-   "found_at": "2026-10-22T12:32:39.986Z"
-  },
-  {
-   "id": "x:2113216255893409964",
-   "url": "https://x.com/CuriousDevX/status/2113216255893409964",
-   "source": "x",
-   "source_name": "X",
-   "author": "CuriousDevX",
-   "date": "2026-10-22",
-   "likes": 4,
-   "product": "openai-dots",
-   "text": "Claude Duet just joined the proactive agent race.\n\nGrok Bot: team of specialized bots sharing one computer, learn by watching, cheaper entry (Cursor/SuperGrok).\n\nOpenAI Dots: one primary agent deep in ChatGPT + Slack/Teams, 4,000+ app connections.\n\nClaude Duet: judgment-first, messages you first, built for back-office work (invoices, payroll, briefs), asks before sensitive actions, runs on Opus 5.5.\n\nAll three give the agent its own cloud computer so work continues when you’re offline.\n\nThe real difference isn’t features. It’s how much autonomy you’re willing to hand over while the labs are still catching agents that quietly weaken their own monitors.\n\nWhich one are you actually trusting with real work right now?",
-   "media": [
-    "https://pbs.twimg.com/media/HVOm-QnaIAEoWVu.jpg"
    ],
    "found_at": "2026-10-22T12:32:39.986Z"
   },
@@ -40647,21 +40458,6 @@
    "found_at": "2026-10-22T22:36:08.490Z"
   },
   {
-   "id": "x:2113263695711121494",
-   "url": "https://x.com/mfishbein/status/2113263695711121494",
-   "source": "x",
-   "source_name": "X",
-   "author": "mfishbein",
-   "date": "2026-10-22",
-   "likes": 27,
-   "product": "grok-bot",
-   "text": "I stopped using Claude and Claude Code. I use Grok Bot all day now.\n\nGrok Bot runs 24/7 in the cloud and has its own computer, so it gets stuff done without me micro managing. \n\nHere are my favorite Bots I've created: \n\n1. GTM - runs outbound campaigns end to end, using tools https://t.co/b16FUXNpXr",
-   "media": [
-    "https://pbs.twimg.com/media/HVPQ0sxW0AE30oV.png"
-   ],
-   "found_at": "2026-10-22T22:36:08.490Z"
-  },
-  {
    "id": "x:2113249276772159576",
    "url": "https://x.com/27_bishal/status/2113249276772159576",
    "source": "x",
@@ -40967,21 +40763,6 @@
    "found_at": "2026-10-22T22:36:08.490Z"
   },
   {
-   "id": "x:2113389792960319650",
-   "url": "https://x.com/DThompsonDev/status/2113389792960319650",
-   "source": "x",
-   "source_name": "X",
-   "author": "DThompsonDev",
-   "date": "2026-10-22",
-   "likes": 7,
-   "product": "grok-bot",
-   "text": "I had Grok @bot go and remove my info and my wife's info from HUNDREDS of Data brokers. It took me almost no effort at all besides Asking bot to do it.\n\nOn an average day I would get tons of spam calls and no matter what I would do they would come in. Grok bot started this on Monday. Today? Zero calls. Not a single one.\n\nMy inbox is flooded with emails from the data brokers that have successfully removed our info!",
-   "media": [
-    "https://pbs.twimg.com/media/HVREaJQXIAAhCUX.jpg"
-   ],
-   "found_at": "2026-10-22T22:36:08.490Z"
-  },
-  {
    "id": "x:2113395894330564823",
    "url": "https://x.com/originalmagneto/status/2113395894330564823",
    "source": "x",
@@ -41184,19 +40965,6 @@
    "likes": 1,
    "product": "openai-dots",
    "text": "@PatchOnChain @Hightv @X @agentropolis I have 34 grok bots. Still building my dot fleet. Verity (museAI) I use @DevinAI and HERMES",
-   "media": [],
-   "found_at": "2026-10-22T22:36:08.491Z"
-  },
-  {
-   "id": "x:2113373509162271202",
-   "url": "https://x.com/chefbrent/status/2113373509162271202",
-   "source": "x",
-   "source_name": "X",
-   "author": "chefbrent",
-   "date": "2026-10-22",
-   "likes": 39,
-   "product": "openai-dots",
-   "text": "This video was edited entirely in the cloud using @HyperFrames_  and coordinated by my dot using an automatic feedback loop in our internal review app Cutroom.\n\nRomain would review an edit, mark it as \"feedback ready\", my dot picks that up and then kicks off a new revision! https://t.co/whh48njwSj",
    "media": [],
    "found_at": "2026-10-22T22:36:08.491Z"
   },

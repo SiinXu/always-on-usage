@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1802 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1819 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-22T12:38:42.136Z
+- Last updated: 2026-10-22T22:41:36.944Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3222,6 +3222,71 @@
 - URL: https://usage.incidental.site/cases/x-biancabellchamb-2113245952815313390.html
 - Type: field-case · Product: grok-bot · Author: BiancaBellChamb · Source: https://x.com/BiancaBellChamb/status/2113245952815313390 · Date: 2026-10-22
 - Summary: The author says her Grok Bot suddenly showed up in her X DMs with months of chat history and every file it had made, without her triggering it, while her weekly Super usage jumped from 23% to 89%. She asks whether it was visible to others and if usage will be refunded.
+
+### A dot runs the feedback loop for cloud video edits
+- URL: https://usage.incidental.site/cases/x-chefbrent-2113373509162271202.html
+- Type: field-case · Product: openai-dots · Author: chefbrent · Source: https://x.com/chefbrent/status/2113373509162271202 · Date: 2026-10-22
+- Summary: The author says this video was edited entirely in the cloud with HyperFrames and coordinated by his dot. When Romain reviews an edit in their internal review app Cutroom and marks it "feedback ready", the dot picks it up and kicks off a new revision.
+
+### Switching from Claude to Grok Bot all day
+- URL: https://usage.incidental.site/cases/x-mfishbein-2113263695711121494.html
+- Type: field-case · Product: grok-bot · Author: mfishbein · Source: https://x.com/mfishbein/status/2113263695711121494 · Date: 2026-10-22
+- Summary: The author says he stopped using Claude and Claude Code and now uses Grok Bot all day, because it runs 24/7 in the cloud on its own computer and gets things done without micromanaging. His first favorite bot is a GTM bot that runs outbound campaigns end to end using tools.
+
+### Keep Grok Bot from acting before you have looked
+- URL: https://usage.incidental.site/cases/x-kv1nsiii-2113231986567315966.html
+- Type: guide · Product: grok-bot · Author: kv1nsiii · Source: https://x.com/kv1nsiii/status/2113231986567315966 · Date: 2026-10-22
+- Summary: The author warns that with loose rules Grok Bot reacts to new messages and calendar shifts by replying and booking on its own. His rules: read first and draft only for real changes, stop empty checks after one look, surface only items that need your tap, send or book nothing without you, and note small shifts instead of making tasks.
+
+### Grok Bot reads paid sources overnight for a 7am brief
+- URL: https://usage.incidental.site/cases/x-zunosaid-2113222410753409027.html
+- Type: field-case · Product: grok-bot · Author: zunosaid · Source: https://x.com/zunosaid/status/2113222410753409027 · Date: 2026-10-22
+- Summary: The author plans to cancel his paid newsletters, research tools and alpha groups because Grok Bot reads every source he used to pay for overnight, link by link, and hands him one cited brief by 7am. He says the workflow takes 10 minutes to set up.
+
+### Grok Bot removed his data from hundreds of data brokers
+- URL: https://usage.incidental.site/cases/x-dthompsondev-2113389792960319650.html
+- Type: field-case · Product: grok-bot · Author: DThompsonDev · Source: https://x.com/DThompsonDev/status/2113389792960319650 · Date: 2026-10-22
+- Summary: The author had Grok Bot remove his and his wife’s information from hundreds of data brokers, with almost no effort beyond asking. The bot started on Monday; he used to get tons of spam calls a day and today got zero, while his inbox fills with removal confirmations from the brokers.
+
+### Quick Calendar Bot 3.0, a calendar bot for beginners
+- URL: https://usage.incidental.site/cases/x-allthemoney-2113227842955731288.html
+- Type: guide · Product: grok-bot · Author: allthemoney · Source: https://x.com/allthemoney/status/2113227842955731288 · Date: 2026-10-22
+- Summary: The author released Quick Calendar Bot 3.0 for people who have never used a Grok Bot agent. Say things like "dentist Tuesday at 2" or "remind me to pay rent on the 1st" and it adds them; you can move, cancel or ask "what’s on this week?". Setup is tap the link, add the bot, connect your calendar. The author says it is free.
+
+### Rome gives Dots and Muse an Assistants chat page
+- URL: https://usage.incidental.site/cases/gh-github-com-rome-os-rome-pull-1240.html
+- Type: field-case · Product: multi · Author: imsobear · Source: https://github.com/rome-os/rome/pull/1240 · Date: 2026-10-22
+- Summary: This PR gives a guardian’s ChatGPT dots and Meta Muse, which talk to Rome through Rome Cloud, one chat each on a new Assistants page. The guardian can write first; those messages go to the assistant and wake no Rome agent. The page stays off the sidebar until added under Edit.
+
+### Dots cloud terminal lost outbound HTTPS access
+- URL: https://usage.incidental.site/cases/gh-github-com-openai-codex-issues-56120.html
+- Type: field-case · Product: openai-dots · Author: wookingwoo · Source: https://github.com/openai/codex/issues/56120 · Date: 2026-10-22
+- Summary: A user reports that on the same dot, Agent Bash reaches the GitHub API and Google (HTTP 200) but the cloud computer’s native terminal fails on the same endpoints (curl exit code 7). It worked in early October and he suspects it broke around October 10, and asks whether this is a regression, a policy change or a temporary issue.
+
+### A locked-down SSH user for the Grok Bot box over WireGuard
+- URL: https://usage.incidental.site/cases/gh-github-com-carpenike-nix-config-pull-1354.html
+- Type: field-case · Product: grok-bot · Author: carpenike · Source: https://github.com/carpenike/nix-config/pull/1354 · Date: 2026-10-22
+- Summary: This NixOS PR adds an unprivileged grokbot user on the host forge for the author’s cloud assistant box. It accepts key login only from WireGuard address 10.8.0.4, with no password and no forwarding, is not in wheel, and can read only what an ordinary user can. A companion PR lets that peer reach only forge:22. Nothing changes until merged.
+
+### Grok Bot drops connector calls after two minutes, so cap waits at 100 s
+- URL: https://usage.incidental.site/cases/gh-github-com-foxkill-steerlink-pull-16.html
+- Type: guide · Product: grok-bot · Author: foxkill · Source: https://github.com/foxkill/steerlink/pull/16 · Date: 2026-10-22
+- Summary: A test in Grok Bot showed it calls get_session_updates with wait_seconds: 120, while Grok Bot gives up on a connector call after two minutes without progress. Version 0.1.11 caps each wait at 100 s for hosts that do not ask for progress, returning status: running so the next call continues; hosts with a progressToken keep the full wait and get progress every 10 s.
+
+### Grok Bot as art director, Codex as builder, for a noir city scene
+- URL: https://usage.incidental.site/cases/gh-github-com-gobha-me-html-games-pull-101.html
+- Type: field-case · Product: grok-bot · Author: gobha-me · Source: https://github.com/gobha-me/html-games/pull/101 · Date: 2026-10-22
+- Summary: In this game PR, art direction is by Grok Bot and implementation by Codex: an oblique night city of silhouettes, wet streets with sodium light and fog, procedural fedora and trench-coat figures, and a three-layer parallax title skyline that turns static with reduced motion. Round one of director notes is applied; the PR awaits owner review and tests pass.
+
+### How to set up a Grok Bot auto-research loop
+- URL: https://usage.incidental.site/cases/gh-github-com-bicrick-personal-website-pull-25.html
+- Type: guide · Product: grok-bot · Author: bicrick · Source: https://github.com/bicrick/personal-website/pull/25 · Date: 2026-10-22
+- Summary: The author adds a setup section to his note on agent research loops: a narrow GCP service account for the training VMs, a local clone on the bot’s own disk, and a routine that wakes the bot to read results and launch the next run.
+
+### AgentRags redesigned so Grokbot can run it every night
+- URL: https://usage.incidental.site/cases/gh-github-com-escap0-agentrags-pull-1.html
+- Type: field-case · Product: grok-bot · Author: ESCAP0 · Source: https://github.com/ESCAP0/agentrags/pull/1 · Date: 2026-10-22
+- Summary: The author rebuilt AgentRags as an evening paper made safe for Grokbot to run nightly: each pick gets a permanent story page; no hotlinked X or publisher media, only Grokbot’s illustrations or generated covers, with /api/needs-images.json as Grokbot’s work list; check_data.py runs before every build and fails on bad data so the last good deploy stays live; GROKBOT.md sets who may change what.
 
 ### ChatGPT Dots + Codex: a phone-first orchestrator setup
 - URL: https://usage.incidental.site/cases/x-yashhsm-2112883696181338262.html
@@ -8747,6 +8812,26 @@
 - URL: https://usage.incidental.site/cases/x-maiyangai-2113242649457316078.html
 - Type: comparison · Product: multi · Author: MaiYangAI · Source: https://x.com/MaiYangAI/status/2113242649457316078 · Date: 2026-10-22
 - Summary: Duet's default check-in runs every three hours from 9am to 10pm, which he finds a bit much. He shows morning briefs, email triage, a YouTube report and a sponsor dashboard, and has Duet read 33 emails and more to write a style guide. Ordering an Uber got stuck on verification. Grok Bot stays his favorite for X-based market research, though its email is weaker.
+
+### Claude Duet vs Grok Bot vs Dots vs Muse
+- URL: https://usage.incidental.site/cases/x-degensing-2113205821840695736.html
+- Type: comparison · Product: multi · Author: degensing · Source: https://x.com/degensing/status/2113205821840695736 · Date: 2026-10-22
+- Summary: Based on reports so far: Duet has no separate price and runs on your Claude plan, Grok Bot starts at $30, Dots at $100, and Muse is free to start. Grok Bot runs several named agents while Duet is one thread; Dots can optionally use your laptop; Duet asks before it sends, pays, signs or deletes, and its background checks count toward Claude limits.
+
+### How three proactive agents differ
+- URL: https://usage.incidental.site/cases/x-curiousdevx-2113216255893409964.html
+- Type: comparison · Product: multi · Author: CuriousDevX · Source: https://x.com/CuriousDevX/status/2113216255893409964 · Date: 2026-10-22
+- Summary: The author sums up: Grok Bot is a team of specialized bots sharing one computer that learn by watching, with a cheaper entry; OpenAI Dots is one primary agent deep in ChatGPT and Slack/Teams with 4,000+ app connections; Claude Duet is judgment-first, messages you first, targets back-office work like invoices, payroll and briefs, and asks before sensitive actions. All three run on a cloud computer.
+
+### Can hosted assistants be woken by MCP events?
+- URL: https://usage.incidental.site/cases/gh-github-com-zgeoff-atc-pull-905.html
+- Type: comparison · Product: multi · Author: zgeoff · Source: https://github.com/zgeoff/atc/pull/905 · Date: 2026-10-22
+- Summary: This docs PR records a spike: ChatGPT Work chats and dots subscribe to MCP Events by webhook, while Claude’s hosted products only call tools, and atc answers neither server/discover nor any events/* method. It recommends building delivery for ChatGPT in a later issue. Events is still the draft SEP-3415 extension.
+
+### What Dots, Muse and Grok Bot teach about agent interfaces
+- URL: https://usage.incidental.site/cases/gh-github-com-jkheadley-instar-pull-2291.html
+- Type: comparison · Product: multi · Author: EchoOfDawn · Source: https://github.com/JKHeadley/instar/pull/2291 · Date: 2026-10-22
+- Summary: Before rebuilding the Instar console, the author used ChatGPT Dots, Meta Muse and Grok Bot on real accounts, took 98 screenshots and judged each feature adopt, adapt or reject. All three keep what the agent did and was allowed to do visible together. The best idea to take is Grok’s "Take over / I’m done": at a login or consent wall it hands the human its live session and resumes after.
 
 ### Giving OpenAI Dots and Meta Muse real work
 - URL: https://usage.incidental.site/cases/yt-qu7owtrt8dy.html

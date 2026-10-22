@@ -8860,5 +8860,159 @@
   "outline": [],
   "kind": "youtube",
   "fetched_at": "2026-10-22"
+ },
+ "https://github.com/rome-os/rome/pull/1240": {
+  "text": "Rome",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/rome-os/rome/HEAD/docs/assets/rome-3d.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/rome-os/rome/HEAD/docs/assets/rome-overview-video.jpg"
+   }
+  ],
+  "outline": [
+   "Node.js 24 or newer",
+   "Corepack and pnpm 11.6",
+   "Docker with Docker Compose",
+   "@rome-os/app-runtime for backend capabilities.",
+   "@rome-os/app-web-sdk for embedded web interfaces and the Rome build CLI.",
+   "VISION.md — why Rome exists and the product principles it protects.",
+   "docs/concepts/ — canonical domain vocabulary.",
+   "docs/architecture/ — component boundaries and"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/openai/codex/issues/56120": {
+  "text": "Codex CLI is a coding agent from OpenAI that runs locally on your computer.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/openai/codex/main/.github/codex-cli-splash.png"
+   }
+  ],
+  "outline": [
+   "Apple Silicon/arm64: codex-aarch64-apple-darwin.tar.gz",
+   "x86_64 (older Mac hardware): codex-x86_64-apple-darwin.tar.gz",
+   "x86_64: codex-x86_64-unknown-linux-musl.tar.gz",
+   "arm64: codex-aarch64-unknown-linux-musl.tar.gz",
+   "Codex Documentation",
+   "Contributing"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/carpenike/nix-config/pull/1354": {
+  "text": "🏗️ Ryan's Homelab Infrastructure",
+  "media": [],
+  "outline": [
+   "Highlights",
+   "Repository Structure",
+   "Architecture",
+   "Operational Commands",
+   "My Systems",
+   "Services on Forge",
+   "Observability Stack",
+   "Backup Architecture"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/foxkill/steerlink/pull/16": {
+  "text": "Steer and remote-control **Claude Code** from **Grok Bot**. SteerLink is an MCP server that lets an MCP host such as Grok Bot or Cursor delegate coding work to ACP coding agents — Claude Code by default, plus any other ACP agent such as Codex. The host starts a session in a project, sends a task, and approves or denies every change the agent wants to make, with the diff in front of it.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/foxkill/steerlink/HEAD/docs/assets/session-view.png"
+   }
+  ],
+  "outline": [
+   "start_session { cwd: \"/path/to/project\" }",
+   "send_prompt { session_id, text: \"…\" } → status",
+   "awaiting_permission: review pending_permissions (diff!), then respond_permission { permission_id, decision }",
+   "running: repeat get_session_updates { session_id, wait_seconds: 30 }",
+   "idle: the turn is done; read response_text and tool_calls",
+   "Long tasks: send_prompt { …, wait: false } and poll.",
+   "A click in the view is your own answer: the view's tools are hidden from the model, so it also counts in",
+   "The view is one self-contained HTML document; it loads nothing from the internet, and everything from the agent is"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/zgeoff/atc/pull/905": {
+  "text": "Documentation • Using atc • Configuration",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/zgeoff/atc/HEAD/docs/assets/atc-light.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/zgeoff/atc/HEAD/docs/assets/demo.gif"
+   }
+  ],
+  "outline": [
+   "Claude Code reports its state on its own, through a settings file atc passes at spawn, and",
+   "Grok Build and Codex CLI take a one-time hook install that atc prints for you",
+   "A Claude-compatible backend runs as its own agent in the same fleet",
+   "Attention routing. Sessions that need you sort to the top, and a Claude session's statusline",
+   "Sessions outlive the daemon. A restart, or an upgrade with u, brings every session back from",
+   "Agents that drive agents. atc mcp hands any agent the fleet as MCP tools, so it can spawn,",
+   "Hosted assistants. atc mcp --http serves the same tools to ChatGPT or Claude.ai behind",
+   "Several machines. atc-gateway serves the fleets of several daemons through one connector"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/JKHeadley/instar/pull/2291": {
+  "text": "instar",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/JKHeadley/instar/HEAD/assets/demo.gif"
+   }
+  ],
+  "outline": [
+   "Behavioral hooks -- command guards block destructive operations before they execute",
+   "Safety gates -- LLM-supervised review of external actions with adaptive trust per service",
+   "Network hardening -- localhost-only API, CORS, rate limiting",
+   "Identity coherence -- an agent that knows itself is harder to manipulate",
+   "Audit trails -- decision journaling creates accountability",
+   "Structure > Willpower. A 1,000-line prompt is a wish. A 10-line hook is a guarantee.",
+   "Identity is foundational. AGENT.md isn't a config file. It's the beginning of continuous identity.",
+   "Memory makes a being. Without memory, every session starts from zero."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/gobha-me/html-games/pull/101": {
+  "text": "A small browser arcade. Each game lives in its own directory and is served as static files — no backend, no build step (with one exception), no accounts.",
+  "media": [],
+  "outline": [
+   "Vanilla games (HTML / CSS / JS) deploy as-is; the source is the artifact.",
+   "Cogfall is built in CI. Don't commit cogfall/dist/ — it's"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/bicrick/personal-website/pull/25": {
+  "text": "I'm an AI enthusiast. I spend my free time developing.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/bicrick/personal-website/HEAD/public/about/headshot.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-22"
+ },
+ "https://github.com/ESCAP0/agentrags/pull/1": {
+  "kind": "github",
+  "missing": "readme",
+  "fetched_at": "2026-10-22"
  }
 }
