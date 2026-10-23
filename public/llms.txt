@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1819 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1838 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-22T22:41:36.944Z
+- Last updated: 2026-10-23T12:39:47.308Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -614,6 +614,23 @@
 - /cases/grok-bot-templates-669.html: Grok Bot Templates (guide) <https://www.aibuilderclub.com/blog/grok-bot-templates>
 - /cases/how-to-use-grok-bot-670.html: How to Use Grok Bot (guide) <https://www.aibuilderclub.com/blog/grok-bot-guide>
 - /cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html: herdr-web-ui: watch always-on coding agents from your phone and browser (field-case) <https://github.com/devswha/herdr-web-ui>
+- /cases/x-akanashimitsugi-2113608883826520399.html: Grok Bot dug through old email and found about 210 signed-up services (field-case) <https://x.com/akanashimitsugi/status/2113608883826520399>
+- /cases/x-0xinhua-2113608241880146021.html: Scheduling X posts from Grok Bot with PostPiper over MCP (guide) <https://x.com/0xinhua/status/2113608241880146021>
+- /cases/x-kelvknows-2113607979337412825.html: A whole website built with Grok Bot, from domain to published page (field-case) <https://x.com/KelvKnows/status/2113607979337412825>
+- /cases/x-northidahojoe-2113607354659000544.html: A couple of lines got Grok Bot to build an interactive Bigfoot sightings map (field-case) <https://x.com/northidahojoe/status/2113607354659000544>
+- /cases/x-allanbranch-2113607185779368040.html: A Grok Bot that finds the why behind leases and policies (field-case) <https://x.com/allanbranch/status/2113607185779368040>
+- /cases/x-milhaushd-2113607149079404859.html: A volunteer firefighter shipped a paid app with Grok Bot and Claude Code (field-case) <https://x.com/milhaushd/status/2113607149079404859>
+- /cases/x-allthemoney-2113605468555788484.html: EasyWeather, a free weather assistant built on Grok Bot (field-case) <https://x.com/allthemoney/status/2113605468555788484>
+- /cases/x-newdvn2025-2113604681675268201.html: Grok Bot ran a job search on BOSS Zhipin: 3 interview invites in 2 workdays (field-case) <https://x.com/newdvn2025/status/2113604681675268201>
+- /cases/x-bgiordan-2113600083166179456.html: Twelve single-job agents on Grok Bot, run by a chief of staff (field-case) <https://x.com/bgiordan/status/2113600083166179456>
+- /cases/x-ryanpon-2113608805028425938.html: A construction business owner: a site built in 30 days, email triage by Grok Bot (field-case) <https://x.com/ryanpon/status/2113608805028425938>
+- /cases/x-benenewton-2113608855112630423.html: BlackOps: Claude finishes, names Grok Bot next, and it picks up the same note (field-case) <https://x.com/BenENewton/status/2113608855112630423>
+- /cases/x-kuwakenwip-2113607757912019104.html: Meta Muse collects user data by default; here’s where to turn it off (guide) <https://x.com/kuwa_ken_WIP/status/2113607757912019104>
+- /cases/gh-github-com-hunvreus-grokbot-discord.html: grokbot-discord: relay Discord slash commands to a Grok Bot routine webhook (guide) <https://github.com/hunvreus/grokbot-discord>
+- /cases/gh-github-com-keenranger-dot-cloud-g2.html: dot-cloud-g2: connect ChatGPT Dots to Even G2 (guide) <https://github.com/keenranger/dot-cloud-g2>
+- /cases/gh-github-com-openai-codex-issues-56348.html: Deleting a “New chat” in Recents removed the whole dot, with no warning (field-case) <https://github.com/openai/codex/issues/56348>
+- /cases/gh-github-com-openai-codex-issues-56307.html: Dots’ cloud browser blocked by site safety on the WeChat Official Account admin (field-case) <https://github.com/openai/codex/issues/56307>
+- /cases/reddit-reddit-com-r-aiwars-comments-1xd00tm-dots-just-figured-out-i.html: Dots worked out a middleman session to use local folders and a browser at once (field-case) <https://www.reddit.com/r/aiwars/comments/1xd00tm/dots_just_figured_out_it_can_relay_between_a/>
 - /cases/gh-github-com-uezo-dots-bridge.html: dots-bridge: use OpenAI Dots from your own apps (guide) <https://github.com/uezo/dots-bridge>
 - /cases/gh-github-com-norlingdumar-arch-muse-domestic-bridge.html: muse-domestic-bridge: route Meta Muse's main chat to Weixin, Feishu or QQ (guide) <https://github.com/norlingdumar-arch/muse-domestic-bridge>
 - /cases/gh-github-com-cisen07-harness-bridge.html: harness-bridge: Grok Bot dispatches Codex and Claude Code across machines (guide) <https://github.com/Cisen07/harness-bridge>
@@ -1745,6 +1762,8 @@
 - /cases/the-next-web-grok-bot-will-also-use-claude-midjourney-and-su-572.html: The Next Web: Grok Bot will also use Claude, Midjourney and Suno models (comparison) <https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk>
 - /cases/9to5mac-how-to-claim-your-grok-bot-email-address-573.html: 9to5Mac: how to claim your Grok Bot email address (comparison) <https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/>
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
+- /cases/x-talkaboutdesign-2113451214645932336.html: Weeks with Dots: the best use wasn’t errands (comparison) <https://x.com/talkaboutdesign/status/2113451214645932336>
+- /cases/x-jyunth-2113463662015029720.html: Grok Bot builds the always-on agent from the bottom up (comparison) <https://x.com/j_yunth/status/2113463662015029720>
 - /cases/x-maiyangai-2113242649457316078.html: Peter Yang tests Claude Duet and still prefers Grok Bot (comparison) <https://x.com/MaiYangAI/status/2113242649457316078>
 - /cases/x-degensing-2113205821840695736.html: Claude Duet vs Grok Bot vs Dots vs Muse (comparison) <https://x.com/degensing/status/2113205821840695736>
 - /cases/x-curiousdevx-2113216255893409964.html: How three proactive agents differ (comparison) <https://x.com/CuriousDevX/status/2113216255893409964>

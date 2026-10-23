@@ -9014,5 +9014,75 @@
   "kind": "github",
   "missing": "readme",
   "fetched_at": "2026-10-22"
+ },
+ "https://github.com/hunvreus/grokbot-discord": {
+  "text": "A Cloudflare Worker that lets you talk to a Grok Bot from Discord. You type a slash command such as `/ask prompt: check issue #200`, the Worker forwards it to a Grok Bot routine webhook, and the bot replies in the same channel.",
+  "media": [],
+  "outline": [
+   "Discord's Interactions Endpoint must answer a PING with {\"type\":1} before Discord will save the URL.",
+   "Every request is signed with Ed25519. The endpoint must verify the signature and return 401 when it is wrong. Discord sends deliberately bad signatures to ch…",
+   "The endpoint must answer within 3 seconds, in Discord's response format.",
+   "The routine webhook needs its key in an Authorization header, and Discord can't add custom headers.",
+   "Discord POSTs the slash command to the Worker.",
+   "The Worker verifies the signature and checks the user, server and channel allowlists. If something is wrong, it replies with a message only the sender can se…",
+   "The Worker answers with a deferred response, so Discord shows \" is thinking...\".",
+   "In the background, the Worker POSTs the command to the routine webhook as JSON (see Payload format)."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-23"
+ },
+ "https://github.com/keenranger/dot-cloud-g2": {
+  "text": "Dot Cloud G2 connects Even G2 to ChatGPT Dot without a Mac relay, using a Sites-hosted relay and an Even Hub companion. Each user signs in with ChatGPT, pairs their own companion with a one-time code, and connects their own Dot. Speech is not transcribed on the device: the companion streams audio from the phone directly to Soniox's cloud over WebSocket with the user's own API key, and only the resulting transcript reaches the relay. The relay delivers utterance events to Dot, then returns its MCP reply to the paired G2. An actual cloud Dot has reported an active subscription. …",
+  "media": [],
+  "outline": [
+   "D1 binding: DB, declared in .openai/hosting.json.",
+   "MCP capability: mcp, declared in the same manifest.",
+   "Public ingress allows each user to sign in and manage only their own connections. No single-user allowlist or account ID setup is required.",
+   "Speech transcription needs no Site configuration. Each user enters their own Soniox API key in the companion on their phone (see Speech recognition key). Do …",
+   "ChatGPT sign-in establishes identity; it does not supply speech API credentials or include API usage. The legacy server-side transcription adapter (OpenAI au…",
+   "Open the hosted setup page and use Sign in with ChatGPT.",
+   "Review your personal connection status. No account ID configuration is required. The dashboard shows a sanitized summary of the latest Dot delivery attempt (…",
+   "ChatGPT MCP connection, web first: the Site's native MCP plugin must be installed in ChatGPT. If it is not, add /mcp as a custom MCP server on the ChatGPT Pl…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-23"
+ },
+ "https://github.com/openai/codex/issues/56348": {
+  "text": "Codex CLI is a coding agent from OpenAI that runs locally on your computer.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/openai/codex/main/.github/codex-cli-splash.png"
+   }
+  ],
+  "outline": [
+   "Apple Silicon/arm64: codex-aarch64-apple-darwin.tar.gz",
+   "x86_64 (older Mac hardware): codex-x86_64-apple-darwin.tar.gz",
+   "x86_64: codex-x86_64-unknown-linux-musl.tar.gz",
+   "arm64: codex-aarch64-unknown-linux-musl.tar.gz",
+   "Codex Documentation",
+   "Contributing"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-23"
+ },
+ "https://github.com/openai/codex/issues/56307": {
+  "text": "Codex CLI is a coding agent from OpenAI that runs locally on your computer.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/openai/codex/main/.github/codex-cli-splash.png"
+   }
+  ],
+  "outline": [
+   "Apple Silicon/arm64: codex-aarch64-apple-darwin.tar.gz",
+   "x86_64 (older Mac hardware): codex-x86_64-apple-darwin.tar.gz",
+   "x86_64: codex-x86_64-unknown-linux-musl.tar.gz",
+   "arm64: codex-aarch64-unknown-linux-musl.tar.gz",
+   "Codex Documentation",
+   "Contributing"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-23"
  }
 }

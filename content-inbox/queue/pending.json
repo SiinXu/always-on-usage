@@ -41133,19 +41133,6 @@
    "found_at": "2026-10-22T22:36:08.491Z"
   },
   {
-   "id": "reddit:reddit.com/r/aiwars/comments/1xd00tm/dots_just_figured_out_it_can_relay_between_a",
-   "url": "https://www.reddit.com/r/aiwars/comments/1xd00tm/dots_just_figured_out_it_can_relay_between_a/",
-   "source": "reddit",
-   "source_name": "Reddit",
-   "author": "alecubudulecu",
-   "date": "2026-10-23",
-   "likes": null,
-   "product": "openai-dots",
-   "text": "Dots just figured out it can relay between a middleman. I've been having an issue for a few weeks where if I use the openai Dots... it can do it's thing locally but can't browse folders & talk to web browsers same time. have to pick. known git repo on the topic. that's irrelevant. (pc windows mainly. Mac is ok) today, out of the blue... it started saying getting me responses from both... I asked it if it was using the internal browser... nope... web access on EDGE browser. I asked... how's it doing that? did a patch fix? nope. it used it's middle man session that can do one.. to talk to another session that can do the other... they then built an app locally that it can browse on it's own covering both bases. all on it's own. it reconfirmed, however, that none of this violated my directives. sooooo we're all good! no worries, meat sacks! submitted by /u/alecubudulecu to r/aiwars [link] [comments]",
-   "media": [],
-   "found_at": "2026-10-23T04:58:41.722Z"
-  },
-  {
    "id": "gh:github.com/flysky701/dot-im-gateway",
    "url": "https://github.com/Flysky701/dot-im-gateway",
    "source": "github",
@@ -41250,32 +41237,6 @@
    "found_at": "2026-10-23T05:00:23.032Z"
   },
   {
-   "id": "gh:github.com/openai/codex/issues/56348",
-   "url": "https://github.com/openai/codex/issues/56348",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "WaleyChAn",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "[Dots] Deleting a “New chat” entry in Recents made the entire dot disappear without a dot-deletion warning\n## Summary\n\nOn October 23, 2026, I deleted an entry from ChatGPT's Recent conversations list that displayed my dot Politoed's avatar and the title “新聊天” (“New chat”). After deleting that conversation, my existing dot also disappeared. I am now interacting with a newly initialized replacement.\n\nThe deletion flow did not warn me that it would delete the dot. I was deleting what appeared to be a chat entry, not intentionally resetting my dot.\n\n## Observed steps\n\n1. My previous dot had been working from the previous day until this morning.\n2. In the Recent conversations list, I found a generic new-chat entry displaying the dot's avatar. I initially described the title as “新对话” and subsequently clarified it as “头像 + 新聊天”.\n3. Opening that entry showed the same conversation content as entering through the dot's own name.\n4. I deleted the Recent-list entry because I did not understand why it appeared there as a new chat.\n5. The deletion flow did not explain that it would delete the dot.\n6. Both the conversation and the original dot disappeared. The replacement dot started fresh, including the naming/setup interaction.\n\nThese are my observed steps, not an independently repeated destructive reproduction. Whether the original backend data has been permanently erased is unknown.\n\n## Expected behavior\n\nA Recent-list entry representing a dot's main conversation should be clearly identified rather than appearing as an ordinary new chat. Deleting it should not silently remove the entire dot. If dot deletion is intended, confirmation should explicitly describe that scope and its consequences.\n\nPlease investigate the connection between this chat-list deletion action and dot deletion, and clarify whether there is a supported way to recover the original dot without affecting the replacemen",
-   "media": [],
-   "found_at": "2026-10-23T05:00:23.032Z"
-  },
-  {
-   "id": "gh:github.com/openai/codex/issues/56307",
-   "url": "https://github.com/openai/codex/issues/56307",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "SUMMERVIVIAN4U",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "[dots][cloud browser] WeChat Official Account admin blocked by site-safety before login\n## What issue are you seeing?\n\nThis report concerns **ChatGPT dots and the dot's cloud browser**, not the Codex CLI, a local Chrome extension, or the desktop in-app browser.\n\nOn **2026-10-22 (UTC)**, an account owner asked their dot to work with their own WeChat Official Account administration site. The supported cloud-browser attempt to access `https://mp.weixin.qq.com` was rejected before the login page or other page content could be observed.\n\nThe tool returned:\n\n```text\nBrowser Use rejected this action due to browser security policy.\nReason: The site-safety policy blocks this action; no user permission prompt or Auto-review was attempted.\nCloud browser could not acquire authority to observe page content.\nThe site safety gate did not grant access for https://mp.weixin.qq.com.\nSite safety policy blocked this URL.\n```\n\nNo user-permission prompt or Auto-review occurred. The intended owner-authorized workflow could not begin.\n\n## Observed sequence\n\n1. The owner authorized the dot to use their own WeChat Official Account backend.\n2. The dot attempted to access `https://mp.weixin.qq.com` through its supported cloud browser.\n3. The attempt returned the site-safety refusal above before page content was available.\n4. Work on the blocked site stopped. No alternate browser, indirect request, API route, or safeguard change was used to complete the denied action.\n\nThis report describes the recorded failure; no new blocked-site retry was made to prepare it. The later user-supplied `/cgi-bin/loginpage` path was **not tested**, so no path-specific result is claimed.\n\n## Expected behavior / requested clarification\n\nPlease clarify for **ChatGPT dots' cloud browser**:\n\n1. Is this an intentional restriction, a site-classification error, or another browser-authority/product defect? What",
-   "media": [],
-   "found_at": "2026-10-23T05:00:23.032Z"
-  },
-  {
    "id": "gh:github.com/msaltnet/ax-notes-public/issues/63",
    "url": "https://github.com/msaltnet/ax-notes-public/issues/63",
    "source": "github",
@@ -41376,19 +41337,6 @@
    "likes": 2,
    "product": "grok-bot",
    "text": "company-notes/grok-bot-backup\nUnofficial Grok Bot backup and export tools. Preserve conversations, agent data, memories and workspace files in portable formats.",
-   "media": [],
-   "found_at": "2026-10-23T05:01:15.601Z"
-  },
-  {
-   "id": "gh:github.com/hunvreus/grokbot-discord",
-   "url": "https://github.com/hunvreus/grokbot-discord",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "hunvreus",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "hunvreus/grokbot-discord\nCloudflare Worker that relays Discord slash commands to a Grok Bot routine webhook.",
    "media": [],
    "found_at": "2026-10-23T05:01:15.601Z"
   },
@@ -41847,19 +41795,6 @@
    "text": "1Password, '1Password for Agents' 출시 — AI 에이전트가 비밀번호 없이 로그인 대행, Claude Duet·OpenAI Dots·Meta Muse 연동 (10/22, 1Password 공식)\n# 핵심 사실\n\n- 비밀번호 관리자 1Password가 10월 22일 AI 에이전트용 로그인 플랫폼 '1Password for Agents'를 출시했다 (BusinessWire, 1Password 공식 발표).\n- 동작 방식은 다음과 같다. 에이전트가 로그인 화면에 도달하면 고유 디지털 키로 1Password에 신원을 인증한다. 사용자는 어떤 자격증명을 왜 쓰려는지 알림을 받고, 승인하면 1Password가 사용자명·비밀번호를 사이트에 직접 입력한다 (TechCrunch, 10/22).\n- 비밀번호와 일회용 MFA 코드가 모델에 전달되지 않는다. 접근은 세션 단위로 승인된 항목에만 부여되고 이월되지 않는다 (Engadget, 10/22).\n- 출시 파트너는 Anthropic의 Claude(Claude Duet 포함), OpenAI의 ChatGPT Work·Dots, Meta의 Muse, Grok Bot, Town의 Townie다 (BusinessWire; PCWorld, 10/22).\n- 1Password.com의 Individual·Family 계정에 포함된다. .eu와 .ca 계정은 아직 지원하지 않는다 (AI Weekly, 10/23).\n- 7월에 나온 '1Password for Claude' 통합(Claude Cowork용)의 확장판이다. 사업 총괄 John Torrey는 \"고객이 어떤 자격증명을 어떤 작업에 얼마나 쓸지 결정하고, 에이전트가 스스로 접근을 승인할 수는 없다\"고 밝혔다 (PCWorld, 10/22).\n- CPO Aashish Tripathi는 \"에이전트가 요청받은 일을 하되 계정 뒤 모든 것에 영구 접근권을 갖지 않아야 한다\"고 말했다 (BusinessWire).\n- 배경: Axios 보도에 따르면 미국 은행들이 고객 계정에서 에이전트 활동을 감지하기 시작했다. Chase는 고객에게 \"사용자명과 비밀번호를 누구에게도 주지 말라\"고 공지했다 (TechCrunch, 10/22).\n\n# 배경·맥락\n\n퍼스널 AI 에이전트(Claude Duet, OpenAI Dots, Meta Muse)가 이번 주 연달아 나오면서 \"에이전트에게 로그인을 맡기는 법\"이 현실 문제가 됐다. 기존에는 에이전트 컨텍스트에 비밀번호를 붙여넣는 방식이 흔했고, 이는 모델에 자격증명 복사본이 남는 구조적 위험이 있었다. 1Password는 이를 \"신뢰 레이어\"로 풀겠다고 나섰다.\n\n# 아직 안 밝혀진 것 / 쟁점\n\n- .eu·.ca 계정과 엔터프라이즈 요금제 지원 시점은 발표되지 않았다. (미확인)\n- 실제 승인 UX와 지연 시간, 지원 사이트 범위에 대한 독립 검증은 아직 없다. (미확인)\n- 파트너 외 에이전트(커스텀 에이전트 등)의 연동 방법은 공개되지 않았다.\n\n# 왜 중요한지\n\n에이전트를 실무에 쓰는 순간 가장 먼저 부딪히는 게 로그인이다. 개발자가 에이전트에게 계정 접근을 맡기면서도 비밀번호를 넘기지 않는 공식 경로가 생긴 셈이다. Claude Duet·OpenAI Dots·Meta Muse와 동시 출시된 점에서, 퍼스널 에이전트 생태계의 인프라 표준 경쟁으로 번질 가능성이 있다.\n\n# 핵심 링크\n\n- BusinessWire, \"1Password for Agents Launches as the Trust Layer for Personal AI Agents\" (10/22): https://www.businesswire.com/news/home/20261022810032/en/1Password-for-Agents-Launches-as-the-Trust-Layer-for-Personal-AI-Agents\n- TechCrunch, \"1Password launches a wa",
    "media": [],
    "found_at": "2026-10-23T11:47:09.854Z"
-  },
-  {
-   "id": "gh:github.com/keenranger/dot-cloud-g2",
-   "url": "https://github.com/keenranger/dot-cloud-g2",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "keenranger",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "keenranger/dot-cloud-g2\nConnect ChatGPT Dots to Even G2 through a hosted MCP relay and an Even Hub companion.",
-   "media": [],
-   "found_at": "2026-10-23T11:47:16.958Z"
   },
   {
    "id": "gh:github.com/daisuke134/life-manager/pull/8672",
@@ -42777,32 +42712,6 @@
    "found_at": "2026-10-23T12:34:46.912Z"
   },
   {
-   "id": "x:2113463662015029720",
-   "url": "https://x.com/j_yunth/status/2113463662015029720",
-   "source": "x",
-   "source_name": "X",
-   "author": "j_yunth",
-   "date": "2026-10-23",
-   "likes": 5,
-   "product": "grok-bot",
-   "text": "the one thing about grok bot is that they approach the \"always on\" agent from the bottom up, instead of from the top down like what hermes and openclaw did \n\nwho needs discord compatibility and kanban boards? normies need a desktop app and a phone app to begin with \n\nim not https://t.co/zrjP6nmlck",
-   "media": [],
-   "found_at": "2026-10-23T12:34:46.912Z"
-  },
-  {
-   "id": "x:2113451214645932336",
-   "url": "https://x.com/talkaboutdesign/status/2113451214645932336",
-   "source": "x",
-   "source_name": "X",
-   "author": "talkaboutdesign",
-   "date": "2026-10-23",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "Claude Duet, OpenAI Dots, Meta Muse. Every lab now has an always-on agent.\n\nSame demo every time: morning brief, inbox triage, \"it booked my flight.\"\n\nI've been living with Dots for weeks. The killer use case isn't errands. It found a class action on my home purchase I'd never",
-   "media": [],
-   "found_at": "2026-10-23T12:34:46.912Z"
-  },
-  {
    "id": "x:2113450339190153658",
    "url": "https://x.com/Shivamshahi77/status/2113450339190153658",
    "source": "x",
@@ -42994,19 +42903,6 @@
    "found_at": "2026-10-23T12:34:46.913Z"
   },
   {
-   "id": "x:2113608883826520399",
-   "url": "https://x.com/akanashimitsugi/status/2113608883826520399",
-   "source": "x",
-   "source_name": "X",
-   "author": "akanashimitsugi",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "過去のメールをGrok Botに遡ってもらって昔登録したサービスを洗い出した。出てきたのは約210件。覚えていたのはほんの一部で、自分の記憶がいかに当てにならないかを思い知る。AIのサブスクも整理してもらい、上手くいけば固定費が月1.7万円ほど下がる見込み。AIに払うお金をAIで減らそうとしている。",
-   "media": [],
-   "found_at": "2026-10-23T12:34:46.913Z"
-  },
-  {
    "id": "x:2113608860212879538",
    "url": "https://x.com/freeman42x/status/2113608860212879538",
    "source": "x",
@@ -43016,19 +42912,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@imhonkingatyou @grok @bot @cursor_ai More quota",
-   "media": [],
-   "found_at": "2026-10-23T12:34:46.913Z"
-  },
-  {
-   "id": "x:2113608855112630423",
-   "url": "https://x.com/BenENewton/status/2113608855112630423",
-   "source": "x",
-   "source_name": "X",
-   "author": "BenENewton",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@nickmarketeer I was the copy paste guy between mine, so I built BlackOps. now Claude finishes something, names Grok Bot as next, and Grok Bot picks it up from the same note",
    "media": [],
    "found_at": "2026-10-23T12:34:46.913Z"
   },
@@ -43087,19 +42970,6 @@
    "found_at": "2026-10-23T12:34:46.913Z"
   },
   {
-   "id": "x:2113608805028425938",
-   "url": "https://x.com/ryanpon/status/2113608805028425938",
-   "source": "x",
-   "source_name": "X",
-   "author": "ryanpon",
-   "date": "2026-10-23",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Just so you know I'm just an average users not even a coder, just a construction business owner full time and Grok Bot has legit changed my whole efficiency of my business and life.\n\nBuilt a website in 30 days with Grok, better than squarespace what I've been using for 10+ years. I've had more organic and clients visit my page in 6 months than I had my entire squarespace plan.\n\nI also now use Grok to help create my safety forms and tailgate meetings on site for my guys as its all automated rather than having wasted paper forms everyday.\n\nGrok Bot checks my emails and notifies me what is priority or reminders, helps drafts emails for quick edits and replies. \n\nI could go on and on, this is just absolutely Game Changing and it consistently gets better everyday. \n\nThank you Everyone at X and Cursor team for this amazing product.",
-   "media": [],
-   "found_at": "2026-10-23T12:34:46.913Z"
-  },
-  {
    "id": "x:2113608802163666951",
    "url": "https://x.com/imrishit98/status/2113608802163666951",
    "source": "x",
@@ -43139,37 +43009,6 @@
    "found_at": "2026-10-23T12:34:46.913Z"
   },
   {
-   "id": "x:2113608241880146021",
-   "url": "https://x.com/0xinhua/status/2113608241880146021",
-   "source": "x",
-   "source_name": "X",
-   "author": "0xinhua",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "I just made Grok Bot schedule my X posts. \nNo tab switching.\nHere's how to set up PostPiper, the AI social media scheduler, \nin Grok Bot with MCP in under 3 minutes 👇\nhttps://t.co/irdih6s0vK",
-   "media": [],
-   "found_at": "2026-10-23T12:34:46.913Z"
-  },
-  {
-   "id": "x:2113607979337412825",
-   "url": "https://x.com/KelvKnows/status/2113607979337412825",
-   "source": "x",
-   "source_name": "X",
-   "author": "KelvKnows",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "I made this website with Grok Bot. From start to finish. From the domain to the published page. I was surprised with what GrokBot could do😳. You can do it too.\nSmall creators shouldn’t need five apps and subscriptions just to look legit online.\nLucky Blueprint is how — content, https://t.co/dlxbdWpml1",
-   "media": [
-    "https://pbs.twimg.com/media/HVULQRyWgAARe1_.jpg",
-    "https://pbs.twimg.com/media/HVULQR5XYAAjHAO.jpg",
-    "https://pbs.twimg.com/media/HVULQR3WEAANptW.jpg",
-    "https://pbs.twimg.com/media/HVULQRxXcAAk7Wp.jpg"
-   ],
-   "found_at": "2026-10-23T12:34:46.913Z"
-  },
-  {
    "id": "x:2113607614777143675",
    "url": "https://x.com/iamitkumars/status/2113607614777143675",
    "source": "x",
@@ -43180,47 +43019,6 @@
    "product": "grok-bot",
    "text": "Once everything is automated then human skills will be sold at a premium.\n#GrokBot #Automated",
    "media": [],
-   "found_at": "2026-10-23T12:34:46.913Z"
-  },
-  {
-   "id": "x:2113607354659000544",
-   "url": "https://x.com/northidahojoe/status/2113607354659000544",
-   "source": "x",
-   "source_name": "X",
-   "author": "northidahojoe",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@bot Just testing what my Grok Bot can do. I gave it a couple lines and it built a whole interactive Bigfoot sightings map pulled straight from X posts. I didn't write a single line of code. @grok your cousin out here doing cryptid research now, and Squatch better stay off",
-   "media": [],
-   "found_at": "2026-10-23T12:34:46.913Z"
-  },
-  {
-   "id": "x:2113607185779368040",
-   "url": "https://x.com/allanbranch/status/2113607185779368040",
-   "source": "x",
-   "source_name": "X",
-   "author": "allanbranch",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Leases. Insurance policies. HR docs. They tell you what was agreed, never why.\n\nThe why is buried in old emails and meetings. I built a Grok bot that pulls it out and logs it right next to your docs, so your team never has to guess again.\nhttps://t.co/1vfsUPPd4v",
-   "media": [],
-   "found_at": "2026-10-23T12:34:46.913Z"
-  },
-  {
-   "id": "x:2113607149079404859",
-   "url": "https://x.com/milhaushd/status/2113607149079404859",
-   "source": "x",
-   "source_name": "X",
-   "author": "milhaushd",
-   "date": "2026-10-23",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "I'm a volunteer firefighter. Last month I shipped a production app with live payments, and I didn't write most of the code.\n\nGrok Bot tested it, wrote requirements, and caught bugs.\nClaude Code built it.\nI made the calls.\n\nHere's how one person built Next2Respond 🧵 https://t.co/b1LFzMnNjS",
-   "media": [
-    "https://pbs.twimg.com/media/HVUKeb4WAAAZfRA.jpg"
-   ],
    "found_at": "2026-10-23T12:34:46.913Z"
   },
   {
@@ -43250,19 +43048,6 @@
    "found_at": "2026-10-23T12:34:46.913Z"
   },
   {
-   "id": "x:2113605468555788484",
-   "url": "https://x.com/allthemoney/status/2113605468555788484",
-   "source": "x",
-   "source_name": "X",
-   "author": "allthemoney",
-   "date": "2026-10-23",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "🌤️ Introducing EasyWeather, a free weather assistant built on Grok Bot. 🤖✨\n\n📍 Set your location once, then get current conditions ☀️, 3-day and 7-day forecasts 📅, and travel weather ✈️ for any city or US zip code 🗺️, with optional daily updates. 🔔\n\n📊 Every reading includes",
-   "media": [],
-   "found_at": "2026-10-23T12:34:46.913Z"
-  },
-  {
    "id": "x:2113605036127519047",
    "url": "https://x.com/konstantinsaifo/status/2113605036127519047",
    "source": "x",
@@ -43275,19 +43060,6 @@
    "media": [
     "https://pbs.twimg.com/amplify_video_thumb/2113604705528000512/img/3ibHl7ZI93dFQGLq.jpg"
    ],
-   "found_at": "2026-10-23T12:34:46.913Z"
-  },
-  {
-   "id": "x:2113604681675268201",
-   "url": "https://x.com/newdvn2025/status/2113604681675268201",
-   "source": "x",
-   "source_name": "X",
-   "author": "newdvn2025",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "我让 Grok Bot 接管 BOSS 直聘：2 个工作日，拿到 3 场面试邀约 https://t.co/9awMiwl8Yc",
-   "media": [],
    "found_at": "2026-10-23T12:34:46.913Z"
   },
   {
@@ -43384,21 +43156,6 @@
    "found_at": "2026-10-23T12:34:46.914Z"
   },
   {
-   "id": "x:2113600083166179456",
-   "url": "https://x.com/bgiordan/status/2113600083166179456",
-   "source": "x",
-   "source_name": "X",
-   "author": "bgiordan",
-   "date": "2026-10-23",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@scottastronaut @bot It's twelve AI agents on Grok Bot, each with one job. Vito is my chief of staff. He runs the day and routes work to the others. The rest cover my schedule, household finances, investing, compliance and tax, health, social, and the tools that connect it all.\n\nTony runs the books https://t.co/lCcnYY7oKe",
-   "media": [
-    "https://pbs.twimg.com/media/HVUEDeFbAAAgD0t.jpg"
-   ],
-   "found_at": "2026-10-23T12:34:46.914Z"
-  },
-  {
    "id": "x:2113608880169087421",
    "url": "https://x.com/shikaouma/status/2113608880169087421",
    "source": "x",
@@ -43421,19 +43178,6 @@
    "likes": 2,
    "product": "openai-dots",
    "text": "AIにパスワードを教えずに、ログインから作業まで丸投げできる。\n\n1Passwordが「1Password for Agents」を発表。\n\nChatGPTやClaudeなどのAIエージェントが、パスワードを一切見ることなく、アカウントにログインできる仕組み。\n\nこれまでAIにWebサイトで作業させようとしても、人間が代わりにログインするか、AIにパスワードを渡す必要があった。\n\n今回の仕組みは、この問題を解決する。\n仕組みは非常にシンプル。\n① AIがログイン画面に到達する\n② AIが1Passwordにログイン許可をリクエストする\n③ 人間が許可する\n④ 1Passwordがパスワードや認証コードを直接入力する\n⑤ AIはパスワードを知らないまま作業を続行できる\n\nつまり「ログインする権限」と「パスワードそのもの」を分離した。\n\nこれによって、例えば、\n・航空会社やホテルにログインして旅行を予約\n・通販サイトにログインして買い物を代行\n・Googleなどにログインして予定を管理\n・GitHubを使った開発でAPIキーを安全に管理\nといった作業を、対応するAIエージェントに任せやすくなる。\n\nしかも、AIが1Password内の全パスワードを自由に閲覧できるわけではない。\n\n必要なログイン情報だけを、人間の承認に基づいて使わせる設計。\n\n対応予定のAIも豪華。\n・ChatGPT Work / dots\n・Claude Duet\n・Meta Muse\n・SpaceXSI Grok Bot\n・Perplexity（今後対応予定）\n個人・ファミリープランでは追加料金なしで提供される。\n\nもちろん、ログイン後にAIがアカウント内の情報を閲覧・操作できるリスクは残るため、承認する作業内容の確認は必要。",
-   "media": [],
-   "found_at": "2026-10-23T12:34:46.914Z"
-  },
-  {
-   "id": "x:2113607757912019104",
-   "url": "https://x.com/kuwa_ken_WIP/status/2113607757912019104",
-   "source": "x",
-   "source_name": "X",
-   "author": "kuwa_ken_WIP",
-   "date": "2026-10-23",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Meta Muse、デフォルトだとユーザーデータを取得する設定になっているので、気になる人はオフにしておくとよさげ。\n\n設定 → データコントロール → 「AIモデルの改善にご協力ください」をオフ",
    "media": [],
    "found_at": "2026-10-23T12:34:46.914Z"
   },
