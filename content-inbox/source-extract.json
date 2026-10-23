@@ -525,7 +525,7 @@
  },
  "https://forum.cursor.com/t/breakdown-in-the-app-by-bot-and-category-and-the-same-data-available-to-bots/173936": {
   "error": "HTTP Error 404: Not Found",
-  "fetched_at": "2026-10-22"
+  "fetched_at": "2026-10-23"
  },
  "https://www.youtube.com/watch?v=kAR91DlnCKQ": {
   "text": "",
@@ -3049,7 +3049,7 @@
  },
  "https://forum.cursor.com/t/subject-grok-bot-agent-computer-unreachable-on-ios-and-windows/172958": {
   "error": "HTTP Error 404: Not Found",
-  "fetched_at": "2026-10-22"
+  "fetched_at": "2026-10-23"
  },
  "https://forum.cursor.com/t/grok-bot-stuck-on-setting-up-grok-bots-computer-mac-and-ios-cannot-connect/172957": {
   "text": "Where does the bug appear (feature/product)?\n\nGrok Bot (desktop + Cursor Mobile / iOS). Not the Cursor code editor.\n\nDescribe the Bug\n\nGrok Bot cannot connect to the Agent Computer. On Mac it stays on “Setting up Grok Bot’s computer” (white screen with a black orb) and never finishes. I also saw Reconnecting / couldn’t reach Grok Bot’s computer. The iPhone app fails on the same account.\n\nSteps to Reproduce\n\n• Open Grok Bot on Mac while signed into my Cursor account.\n\n• Wait for it to connect to the Agent Computer.\n\n• The app stays on “Setting up Grok Bot’s computer” and never loads my bots.\n\n• Open Grok Bot on iPhone with the same account — it also cannot connect.\n\nExpected Behavior\n\nThe app should attach to my existing Agent Computer and show my bots. Setup should finish in a few minutes.\n\nScreenshots / Screen Recordings\n\nAttached: Mac screenshot of “Setting up Grok Bot’s computer”. …",
@@ -3298,7 +3298,7 @@
  },
  "https://forum.cursor.com/t/grok-bot-unreachable-on-windows-and-phone-since-sep-20-evening-kst-routines-still-run/172453": {
   "error": "HTTP Error 404: Not Found",
-  "fetched_at": "2026-10-22"
+  "fetched_at": "2026-10-23"
  },
  "https://forum.cursor.com/t/1password-connector/172310": {
   "text": "Where does the bug appear (feature/product)?\n\nGrok Bot\n\nDescribe the Bug\n\n1Password connector requiring a Mac for initial setup on Windows - No Windows Path\n\nSteps to Reproduce\n\n1Password - Connect 1Password Button - Nothing happens (Description specifically says Mac to connect wiht this being a windows setup)\n\nExpected Behavior\n\nConnec to 1Password\n\nScreenshots / Screen Recordings\n\n1Password Grok Bot Windows Issue.png711×625 34.5 KB\n\nOperating System\n\nWindows 10/11\n\nVersion Information\n\nGrok Bot\n\nVersion: 0.56.1\n\nBuilt: 2026-09-17T18:33:31.407Z\n\nRelease Track: stable\n\nOS: win32\n\nDoes this stop you from using Cursor\n\nNo - Cursor works, but with this issue",
@@ -5967,7 +5967,7 @@
  },
  "https://forum.cursor.com/t/my-browser-blocks-every-action-with-a-credential-check-error/173944": {
   "error": "HTTP Error 404: Not Found",
-  "fetched_at": "2026-10-22"
+  "fetched_at": "2026-10-23"
  },
  "https://forum.cursor.com/t/grok-bot-computer-very-slow-high-cpu-steal-and-i-o-stalls-wh/173995": {
   "text": "Where does the bug appear (feature/product)?\n\nGrok Bot\n\nDescribe the Bug\n\nMy Grok Bot computer has been very slow since this morning even though it’s mostly idle.\n\nWhat I’m seeing:\n\n• Load average is 35 to 70 on 8 cores, but only about 4 processes are running.\n\n• vmstat shows CPU steal (st) up to 36%, while user plus system time is only 1 to 13%.\n\n• I/O pressure (full avg10) is around 22%, with almost no local disk traffic.\n\n• Memory is fine: 5 GB free, no swap in use.\n\n• Both Chrome browsers on the computer have stopped responding.\n\n• Uptime is about 46 hours.\n\nI already ran “Update Grok Bot’s Computer.” That fixed my disk size (now 126 GB) but not the slowness.\n\nThis looks like a busy host or slow underlying storage, not something running on my computer. Can you move my computer to a less busy host or check the storage? I rely on it for scheduled recordings, so I need it stable today. …",
