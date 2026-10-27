@@ -8,7 +8,6 @@ User-agent: SemrushBot
 Disallow: /*?
 Crawl-delay: 10
 
-
 # AI / generative search crawlers are welcome
 User-agent: GPTBot
 Allow: /
