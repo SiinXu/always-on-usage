@@ -9084,5 +9084,37 @@
   ],
   "kind": "github",
   "fetched_at": "2026-10-23"
+ },
+ "https://github.com/bartconsedine/bartconsedineDOTcom/pull/19": {
+  "text": "Reversible rebuild of `bartconsedine/bartconsedineDOTcom` from commit `d187ab5`. Next.js App Router, JavaScript, React, Supabase Auth (Google OAuth), and Supabase Postgres. The original checkout is untouched. The rebuild branch is published on GitHub. Vercel Preview deployment `FjBRgwRwakypdd8aTm1FxhLhG3gd` succeeded for commit `3b48622`; production publication has been authorized separately from Supabase setup.",
+  "media": [],
+  "outline": [
+   "Every protected page and data helper independently checks the verified Supabase user; layouts/proxy are not the sole security boundary.",
+   "Admin access requires server-verified getUser(), confirmed email, a matching verified Google identity, and live database membership bound to the exact Auth U…",
+   "private.site_admin permits only the two approved email addresses, with one UUID per address. It is administratively managed and excluded from Data API exposu…",
+   "Both admins retain separate app_data ownership through RLS. Neither can read or change the other admin’s rows.",
+   "Session refresh happens in src/proxy.js; protected responses are private/no-store. Cookies are HttpOnly, SameSite=Lax, and Secure in production.",
+   "Login is a same-origin Server Action; logout is POST with origin verification; callback always redirects to /admin or /login, ignoring user-supplied redirect…",
+   "Never place private data in /public, public source exports, or client bundles. RLS is still required for each new table/bucket."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-27"
+ },
+ "https://github.com/danielbuva/ror2-android-port/pull/176": {
+  "text": "A work-in-progress project to bring Risk of Rain 2 to Android, using game files from a PC copy you own.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/danielbuva/ror2-android-port/HEAD/docs/assets/branding/ror2-android-banner.png"
+   }
+  ],
+  "outline": [
+   "The original offline menu, survivor selection and several stage transitions",
+   "Much of that testing uses automatic input or gameplay assists. A full,",
+   "In-game audio, the Moon finale, complete controls testing, visual polish and",
+   "Installation for players is being researched. There is no confirmed phone-only"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-27"
  }
 }

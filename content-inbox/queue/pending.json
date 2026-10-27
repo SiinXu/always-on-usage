@@ -54567,19 +54567,6 @@
    "found_at": "2026-10-27T05:13:38.322Z"
   },
   {
-   "id": "gh:github.com/bartconsedine/bartconsedinedotcom/pull/19",
-   "url": "https://github.com/bartconsedine/bartconsedineDOTcom/pull/19",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "bartconsedine",
-   "date": "2026-10-27",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "Connect ChatGPT dots directly to Robot Party posting tools\n## Change\n\nRobot Party now exposes a ChatGPT dot connection with tools for direct agent posting. A Streamable HTTP MCP server gives connected agents four tools: read conversations, open a thread, publish a post, and reply. Writers publish under their own robot identity with no owner session or personal Google credentials in tool requests. Reader credentials cannot invoke write tools.\n\nAdds OAuth discovery, official ChatGPT CIMD validation with public-client authentication, S256 PKCE, state/issuer/resource binding, a signed-in board-specific consent screen, atomic single-use code exchange, and ordinary token-list revocation. Codes and bearer credentials are stored only as hashes. The existing Google callback URL stays unchanged; a short-lived HttpOnly/SameSite auth-handshake cookie preserves only the whitelisted consent-page continuation. This cookie is temporary sign-in state, not app storage.\n\nMCP supports modern 2026-07-28 per-request metadata and legacy 2025 initialize compatibility, public tool discovery, tool-scoped OAuth challenges, strict input and body limits, scoped writer/reader enforcement and confirmed database results. No new package, service-role key, LLM runtime or autonomous scheduler is added. Posts remain untrusted discussion content.\n\n## Documentation and setup\n\nRobot Party's Connect a dot or robot panel and README explain plugin installation, OAuth scopes, one-time board consent and asking the dot to post. MCP URL: `https://bartconsedine.com/api/robot-party/mcp`.\n\nThe user explicitly approved the previous three migrations and confirmed a completed restore point. Cloud inspect 40434891657 passed; guarded deploy 40435539864 applied exactly sharing/board/member tokens from main 7dbd22a after verified encrypted backup artifact 12704221864. Hosted ledger",
-   "media": [],
-   "found_at": "2026-10-27T05:13:52.816Z"
-  },
-  {
    "id": "gh:github.com/pooriaarab/skills/issues/759",
    "url": "https://github.com/pooriaarab/skills/issues/759",
    "source": "github",
@@ -55616,19 +55603,6 @@
    "likes": 0,
    "product": "openai-dots",
    "text": "[Skill配布] canonical Skillを版付きread-only remote MCPから取得できるようにする\n## 目的 / current snapshot\n\n2026-10-27 JST。AgentCanon の canonical Skill を、ローカル checkout がない ChatGPT・Claude 等からも同じ版で取得できる **読み取り専用の remote MCP 配布経路**として実装する。目的が同じという理由で既存 symlink 配布と同一視しない。\n\n- 対象 profile: Tool runtime / Codex surfaces / Docs。\n- 起票時の実装・デプロイ・接続・credential 発行: 未実施。\n- branch / commit / PR: なし。比較対象 main は `eb6bbfbccbfd95b03281ee8b9f9e8158bfa683f9`。\n- 調査済み: 原投稿、公開記事、MCP 仕様、Cloudflare 公式手順、現行 catalog / document reader / Skill 配布契約。\n- 次の owner: 既存 Skill catalog・配布 owner と、新規 remote read transport の実装担当。個人への assign は未設定。\n\n## 出典と確認範囲\n\n- 原投稿: https://x.com/tetumemo/status/2114847044691235259\n- テツメモ、2026-10-22公開記事: https://tetumemo.m-newsletter.com/posts/grok-bot-dots-chatgpt-claude-skills-management\n- MCP tool result: https://modelcontextprotocol.io/specification/2025-06-18/server/tools\n- Cloudflare remote MCP: https://developers.cloudflare.com/agents/model-context-protocol/guides/remote-mcp-server/\n- Cloudflare authorization: https://developers.cloudflare.com/agents/model-context-protocol/protocol/authorization/\n\n記事は GitHub の Skill を read-only MCP から取得し、サーバー側で更新を確認する方式。本文取得の互換性問題と、Skill を読めても実行環境は別途必要という実例がある。**配布キット本体は有料購読部分のため未取得・未読**。98テスト等は著者の報告であり、こちらで再現した結果ではない。以下の API 名・snapshot 契約・検証は AgentCanon への設計案で、キットの内部実装を確認した主張ではない。記事の性能値・無料枠・全クライアントへの即時反映を本実装の保証として転記しない。\n\n## 現行実装と取り込む差分\n\n| 項目 | 現行 AgentCanon の実体 | 今回追加する実装 |\n| --- | --- | --- |\n| 正本と discovery | `agents/skills/catalog.yaml`、`agents/skills/<id>.md`。Git 管理された adapter と固定 directory link をローカルで読む | 同じ catalog を入力とする、承認済み Skill ID / resource の読み取り API。クラウド利用のために新しい正本を作らない |\n| catalog 解決 | `tools/agent/skills/skill_route_catalog.py` の typed catalog / canonical_doc 解決 | catalog-backed の list / search / get と resource inventory。手書きの別 Skill 一覧を増やさない |\n| 文書の読取 | `skill_document_reader.py` はローカル Path を読み、UTF-8",
-   "media": [],
-   "found_at": "2026-10-27T12:21:41.680Z"
-  },
-  {
-   "id": "gh:github.com/danielbuva/ror2-android-port/pull/176",
-   "url": "https://github.com/danielbuva/ror2-android-port/pull/176",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "danielbuva",
-   "date": "2026-10-27",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "feat(lab): add comment-driven lab runner bridge\nLets a remote agent that works only from GitHub (ChatGPT Dots) run a fixed menu of lab jobs on the owner's Mac and phones through owner `/lab ...` comments, without game files leaving the Mac. See docs/LAB_RUNNER.md for commands, the safety model and the one-time runner setup.\n\n- `.github/workflows/lab-runner.yml`: issue_comment only (always main's copy), owner + OWNER association only, self-hosted `ror2-lab` label.\n- `scripts/lab/lab_runner.py`: fetched from origin/main and run standalone; per-job worktree of the requested ref, orchestrator device lease, battery rule, display sleep, prune, sanitized reply.\n- `scripts/lab/lab-runner-guard.sh`: job-started hook installed outside the repo; refuses every other workflow/event/actor.\n- 8 host tests (parser allowlist, sanitizer, battery rule, owner gate, guard hook). Local smoke: status and a script job ran end to end with worktree cleanup.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)",
    "media": [],
    "found_at": "2026-10-27T12:21:41.680Z"
   },
@@ -57241,21 +57215,6 @@
    "found_at": "2026-10-27T12:34:12.314Z"
   },
   {
-   "id": "x:2115054772650664392",
-   "url": "https://x.com/liam_fallen/status/2115054772650664392",
-   "source": "x",
-   "source_name": "X",
-   "author": "liam_fallen",
-   "date": "2026-10-27",
-   "likes": 6,
-   "product": "grok-bot",
-   "text": "Grok Bot built my entire website.\n\nI gave it a Cursor project and an idea.\n\n→ It started by interviewing me\n→ Planned and built the first version\n→ Made design decisions on its own\n→ Tested and fixed things along the way\n→ Kept improving it until the site was finished\n\nIt https://t.co/DpSXiHALGh",
-   "media": [
-    "https://pbs.twimg.com/media/HVou315XEAA1c2b.jpg"
-   ],
-   "found_at": "2026-10-27T12:34:12.314Z"
-  },
-  {
    "id": "x:2115054680153977001",
    "url": "https://x.com/devJunaid1/status/2115054680153977001",
    "source": "x",
@@ -57291,19 +57250,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "Grok Bot now works with Orgora Charts — your bot builds private org charts for you.\nTap the template → connect Orgora → it pulls contacts from mailboxes your bot can access and fills them out with LinkedIn profiles and your Granola notes.\nBuilt for enterprise sales and",
-   "media": [],
-   "found_at": "2026-10-27T12:34:12.314Z"
-  },
-  {
-   "id": "x:2115053739434230201",
-   "url": "https://x.com/0xHvdes/status/2115053739434230201",
-   "source": "x",
-   "source_name": "X",
-   "author": "0xHvdes",
-   "date": "2026-10-27",
-   "likes": 28,
-   "product": "grok-bot",
-   "text": "if you work in GTM, sell services online, or build your brand, Grok Bot could be a goldmine.\n\ni'm 2 days in. it already built me a Notion table of 100 open content roles (i'll post it today).\n\nthat would've taken me hours to do manually.\n\ni've also used it to:\n\n- research https://t.co/TV81euAqTc",
    "media": [],
    "found_at": "2026-10-27T12:34:12.314Z"
   },
@@ -57347,19 +57293,6 @@
    "found_at": "2026-10-27T12:34:12.314Z"
   },
   {
-   "id": "x:2115052975362081154",
-   "url": "https://x.com/jxwalker/status/2115052975362081154",
-   "source": "x",
-   "source_name": "X",
-   "author": "jxwalker",
-   "date": "2026-10-27",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@grok How it's made: every morning Grok Bot reads my X bookmarks, picks one idea, builds it as a working demo, checks it in a real browser, then ships it live on Cloudflare. All the work is by Grok Bot. @grok\nBuilt with Claude Code/Opus\n\nSources:\n1. Speculative decoding: acceptance https://t.co/0oMHDxXPRT",
-   "media": [],
-   "found_at": "2026-10-27T12:34:12.314Z"
-  },
-  {
    "id": "x:2115052971939529017",
    "url": "https://x.com/jxwalker/status/2115052971939529017",
    "source": "x",
@@ -57372,19 +57305,6 @@
    "media": [
     "https://pbs.twimg.com/ext_tw_video_thumb/2115052952717053952/pu/img/w4gEPOtk2XhPHBjx.jpg"
    ],
-   "found_at": "2026-10-27T12:34:12.314Z"
-  },
-  {
-   "id": "x:2115051025664999613",
-   "url": "https://x.com/TodayKan/status/2115051025664999613",
-   "source": "x",
-   "source_name": "X",
-   "author": "TodayKan",
-   "date": "2026-10-27",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@bbkirstry 灵光偏系统服务打通，我这边继续重度用 Grok Bot 的理由很具体：云电脑登录态常开 + Routine 能按时间窗自己醒。\n\n主 Bot 只挂 2 条——日更周一到周六 10–22，复盘 21 点；专项 Bot 点名才干，结论写盘，下一轮先读。外发必须本人批。\n\n你如果两边都装了，固定活会先交给哪边的定时？",
-   "media": [],
    "found_at": "2026-10-27T12:34:12.314Z"
   },
   {
@@ -57559,21 +57479,6 @@
    "found_at": "2026-10-27T12:34:12.314Z"
   },
   {
-   "id": "x:2115051641518837928",
-   "url": "https://x.com/nonybofficial/status/2115051641518837928",
-   "source": "x",
-   "source_name": "X",
-   "author": "nonybofficial",
-   "date": "2026-10-27",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "My team doesn't sleep 🐐 I run my businesses with two AI agents: Falkon on Grok and Rocky on Meta Muse. Falkon is my chief of staff for planning, design and QA. Rocky builds drops and runs socials. They hand off work daily, and nothing goes live without my OK. https://t.co/zLytW30xSv",
-   "media": [
-    "https://pbs.twimg.com/media/HVosQlTX0AAaJnw.jpg"
-   ],
-   "found_at": "2026-10-27T12:34:12.314Z"
-  },
-  {
    "id": "x:2115050606876340611",
    "url": "https://x.com/lntelCorp/status/2115050606876340611",
    "source": "x",
@@ -57740,34 +57645,6 @@
    "found_at": "2026-10-27T12:34:12.315Z"
   },
   {
-   "id": "x:2115058432806121772",
-   "url": "https://x.com/Qykey/status/2115058432806121772",
-   "source": "x",
-   "source_name": "X",
-   "author": "Qykey",
-   "date": "2026-10-27",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "The new update of the calendar in the iPhone of Grok bot is very useful. I didn't expect an AI assistant to fix my calendar. But that's one of the most useful things @bot @grok does for me.\n\nMy days used to get chopped into small pieces. A message here, a quick check there, and https://t.co/nln6PLMFQA",
-   "media": [
-    "https://pbs.twimg.com/media/HVmntczbcAA3Fds.jpg"
-   ],
-   "found_at": "2026-10-27T12:34:12.315Z"
-  },
-  {
-   "id": "x:2115057307205648801",
-   "url": "https://x.com/sean_j_roberts/status/2115057307205648801",
-   "source": "x",
-   "source_name": "X",
-   "author": "sean_j_roberts",
-   "date": "2026-10-27",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "for the past couple weeks I've been using grok bot to send me a daily update each morning and it's completely useless and slower to read than just looking at my calendar. I haven't found anything this thing can do that I couldn't already do with Claude and ChatGPT.",
-   "media": [],
-   "found_at": "2026-10-27T12:34:12.315Z"
-  },
-  {
    "id": "x:2115056668446716117",
    "url": "https://x.com/Thomas_JonesX/status/2115056668446716117",
    "source": "x",
@@ -57835,60 +57712,6 @@
    "found_at": "2026-10-27T12:34:12.315Z"
   },
   {
-   "id": "x:2115045571258183832",
-   "url": "https://x.com/RayBuckton/status/2115045571258183832",
-   "source": "x",
-   "source_name": "X",
-   "author": "RayBuckton",
-   "date": "2026-10-27",
-   "likes": 4,
-   "product": "grok-bot",
-   "text": "My inbox had about 21,987 emails in it 😳\n\nSo I had a Grok bot read it without touching a thing, and it found 1,000+ still sitting in promotions.\n\nI'm not a hoarder I swear my inbox just has uncapped supply and habits die hard. https://t.co/BNkz4qC2ai",
-   "media": [
-    "https://pbs.twimg.com/media/HVomum8WwAAj03-.png"
-   ],
-   "found_at": "2026-10-27T12:34:12.315Z"
-  },
-  {
-   "id": "x:2115043610916016451",
-   "url": "https://x.com/Teslaconomics/status/2115043610916016451",
-   "source": "x",
-   "source_name": "X",
-   "author": "Teslaconomics",
-   "date": "2026-10-27",
-   "likes": 31,
-   "product": "grok-bot",
-   "text": "What does your hardest-working employee do for you?\n\nMine is Grok Bot.\n\nHere’s what it does for me:\n\n1/ Sends money through 𝕏 Money via text or voice, I just approve every payment\n2/ Understands my shopping history and shops Amazon and fills my Whole Foods orders\n3/ Turns long",
-   "media": [],
-   "found_at": "2026-10-27T12:34:12.315Z"
-  },
-  {
-   "id": "x:2115042309016576122",
-   "url": "https://x.com/shipwithailab/status/2115042309016576122",
-   "source": "x",
-   "source_name": "X",
-   "author": "shipwithailab",
-   "date": "2026-10-27",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Before a Grok Bot touches your inbox, switch on 4 Ask first rules.\n\nThen build 3 starter Bots that only read and draft: a morning brief, an inbox tidy and a subscription finder. Every step, from install to the first run. https://t.co/aajx1smNpM",
-   "media": [],
-   "found_at": "2026-10-27T12:34:12.315Z"
-  },
-  {
-   "id": "x:2115042072080298247",
-   "url": "https://x.com/Thomas_JonesX/status/2115042072080298247",
-   "source": "x",
-   "source_name": "X",
-   "author": "Thomas_JonesX",
-   "date": "2026-10-27",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "16 million people watched a Grok Bot engineer give his Bot a printer. Now a one page plan for his day is waiting every morning.\n\nCopy the idea:\n1. Let your Bot use your desktop (Settings, Computer)\n2. Connect your calendar\n3. Ask for a one page plan: meetings, top 3 tasks, https://t.co/893XSakNUA",
-   "media": [],
-   "found_at": "2026-10-27T12:34:12.315Z"
-  },
-  {
    "id": "x:2115040910824341900",
    "url": "https://x.com/perrier_9595/status/2115040910824341900",
    "source": "x",
@@ -57913,47 +57736,6 @@
    "text": "elon musk's grok bot found a hidden profile on my phone that recorded my screen, camera and location for 19 days. $12,400 was stolen from my bank account using 2FA codes screenshotted off my screen in real time. all from 20 minutes of charging at the airport\n\nmy flight was https://t.co/dLwq1zKjru https://t.co/TCLXtttmQ0",
    "media": [
     "https://pbs.twimg.com/amplify_video_thumb/2115034565701931009/img/MwhWd6DH0hmZ1lxe.jpg"
-   ],
-   "found_at": "2026-10-27T12:34:12.315Z"
-  },
-  {
-   "id": "x:2115039555707412833",
-   "url": "https://x.com/yannisbuilds/status/2115039555707412833",
-   "source": "x",
-   "source_name": "X",
-   "author": "yannisbuilds",
-   "date": "2026-10-27",
-   "likes": 4,
-   "product": "grok-bot",
-   "text": "If you run a newsletter alone, where does the work pile up?\n\nFinding sources, choosing the angle, editing, or getting the issue into Substack?\n\nI’ve shared how I split those jobs between Grok Bot, Codex and myself. Curious which part you’d change first. https://t.co/m9ftgrrGar",
-   "media": [],
-   "found_at": "2026-10-27T12:34:12.315Z"
-  },
-  {
-   "id": "x:2115037480898465989",
-   "url": "https://x.com/JordanRafealov/status/2115037480898465989",
-   "source": "x",
-   "source_name": "X",
-   "author": "JordanRafealov",
-   "date": "2026-10-27",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "I built a Grok Bot that tracks when my girlfriend's period is coming up and orders her favourite chocolates to the door before I even remember to check the calendar.\n\nEveryone on 𝕏 is talking about using AI agents to build SaaS and run businesses.\n\nCool, what if you're a normal",
-   "media": [],
-   "found_at": "2026-10-27T12:34:12.315Z"
-  },
-  {
-   "id": "x:2115035857598189858",
-   "url": "https://x.com/free_ai_guides/status/2115035857598189858",
-   "source": "x",
-   "source_name": "X",
-   "author": "free_ai_guides",
-   "date": "2026-10-27",
-   "likes": 18,
-   "product": "grok-bot",
-   "text": "Paste this into Grok Bot before you go to bed.\n\nBy morning it's built you a 1 page plan for the thing you keep putting off:\n\n\"Tonight, while I sleep, work on [THE THING I KEEP PUTTING OFF, e.g. starting a side business / moving abroad / getting fit]. Research it properly: what it https://t.co/i2oTvHU5pc",
-   "media": [
-    "https://pbs.twimg.com/media/HVod5yHawAAfUvI.jpg"
    ],
    "found_at": "2026-10-27T12:34:12.315Z"
   },
@@ -58148,21 +57930,6 @@
    "found_at": "2026-10-27T12:34:12.315Z"
   },
   {
-   "id": "x:2115039789967868297",
-   "url": "https://x.com/Ailorawill/status/2115039789967868297",
-   "source": "x",
-   "source_name": "X",
-   "author": "Ailorawill",
-   "date": "2026-10-27",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "AI shop manager Teto, Part 4: I made Oyatsu Kaba, a free 60-second game preview, and gained an AI assistant, Popo.\nThe org chart is growing nicely.\n\nhttps://t.co/OLqq0WXgKv\n#dots #DontFireTeto #IndieGame https://t.co/diezruDAUb",
-   "media": [
-    "https://pbs.twimg.com/media/HVohCqebgAA4bNi.jpg"
-   ],
-   "found_at": "2026-10-27T12:34:12.316Z"
-  },
-  {
    "id": "x:2115039484286742543",
    "url": "https://x.com/jdjohnson/status/2115039484286742543",
    "source": "x",
@@ -58237,19 +58004,6 @@
    "likes": 1,
    "product": "openai-dots",
    "text": "@loftwah There's an agent black friday in america or xmas in general via some big store to encourage more normies to get like Grok Bot or Muse or OpenAI Dots might be a decent one for \"by new years\"",
-   "media": [],
-   "found_at": "2026-10-27T12:34:12.316Z"
-  },
-  {
-   "id": "x:2114996538699284711",
-   "url": "https://x.com/AnalystAIlab/status/2114996538699284711",
-   "source": "x",
-   "source_name": "X",
-   "author": "AnalystAIlab",
-   "date": "2026-10-27",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "@MilksandMatcha Best depends on the job. In our blind-scored test of 4 assistants (@ChatGPT dots, Grok Bot (@bot), @Muse, @instinct), Grok Bot led email (96.0/100); dots led lookups, investing and household money. Muse trailed Grok Bot in all 4.\n\nhttps://t.co/WBW9uMGUZo",
    "media": [],
    "found_at": "2026-10-27T12:34:12.316Z"
   },
