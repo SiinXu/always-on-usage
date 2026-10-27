@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1892 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1912 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-27T12:39:18.259Z
+- Last updated: 2026-10-27T22:37:28.813Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -631,6 +631,24 @@
 - /cases/x-ailorawill-2115039789967868297.html: AI shop manager Teto, part 4: a 60-second game preview (field-case) <https://x.com/Ailorawill/status/2115039789967868297>
 - /cases/gh-github-com-bartconsedine-bartconsedinedotcom-pull-19.html: An MCP connection lets ChatGPT Dots post directly on Robot Party (field-case) <https://github.com/bartconsedine/bartconsedineDOTcom/pull/19>
 - /cases/gh-github-com-danielbuva-ror2-android-port-pull-176.html: GitHub comments let ChatGPT Dots run lab jobs on the owner's Mac (field-case) <https://github.com/danielbuva/ror2-android-port/pull/176>
+- /cases/x-sahilpunamia-2115173406262038765.html: Dots files a United complaint and wins a $600 travel voucher (field-case) <https://x.com/SahilPunamia/status/2115173406262038765>
+- /cases/x-byalexai-2115198977671123273.html: A content production dashboard built with Grok Bot pages (field-case) <https://x.com/byalexai/status/2115198977671123273>
+- /cases/x-ctrlzer0g-2115207328823750991.html: Grok Bot wrote 63 email drafts overnight and sent none (field-case) <https://x.com/ctrlzer0g/status/2115207328823750991>
+- /cases/x-suddenlyjon-2115198957752127977.html: Grok Bot tip: let it read sign-in codes from email itself (guide) <https://x.com/SuddenlyJon/status/2115198957752127977>
+- /cases/x-getclareity-2115055015106687439.html: One rule for Grok Bot teams: keep only bots that finish real work (guide) <https://x.com/GetClareity/status/2115055015106687439>
+- /cases/x-calvinhollywood-2115053533070266693.html: Start with the task you hate most: a small Grok Bot team (guide) <https://x.com/CalvinHollywood/status/2115053533070266693>
+- /cases/x-perrier9595-2115040910824341900.html: A Thai business owner runs a small Grok Bot assistant team (field-case) <https://x.com/perrier_9595/status/2115040910824341900>
+- /cases/x-jondevx-2115051636800291242.html: A 10-minute morning call with a Dot that runs Trello (field-case) <https://x.com/JonDevX/status/2115051636800291242>
+- /cases/x-jaismukesh-2115205432524370218.html: Grok Bot plus ElevenLabs: 3 newsletters from 8 years of notes, in his own voice (field-case) <https://x.com/jais_mukesh/status/2115205432524370218>
+- /cases/x-beks88-2115198526040973366.html: A Grok Bot portfolio tracker built from a short interview (field-case) <https://x.com/beks88/status/2115198526040973366>
+- /cases/x-marcgarcia-2115058289004437521.html: Grok Bot template Perpetual Learning Machine: a cited morning digest of your X saves (field-case) <https://x.com/_marc_garcia/status/2115058289004437521>
+- /cases/x-claysinjr-2115058228291879209.html: Setting up a Grok Bot to draft in your voice, no code (guide) <https://x.com/Claysinjr/status/2115058228291879209>
+- /cases/x-marisnsconsul-2115193412861481048.html: Using Meta Muse for Threads research (field-case) <https://x.com/mariSNSconsul/status/2115193412861481048>
+- /cases/x-davidkleiss-2115184266166333649.html: Connecting Salesforce and ServiceNow to Meta Muse through one MCP server (guide) <https://x.com/david_kleiss/status/2115184266166333649>
+- /cases/x-sorryimgeek-2115201943568359713.html: Your Grok Bot can do a task twice and call both a success: 7 tests (guide) <https://x.com/sorryimgeek/status/2115201943568359713>
+- /cases/gh-github-com-rohitcraftsyt-readback.html: Readback: catching controller-pilot readback errors with Meta Muse (field-case) <https://github.com/ROHITCRAFTSYT/readback>
+- /cases/gh-github-com-degordonstech-errand.html: Errand: a Meta Muse agent that does real tasks inside WhatsApp (field-case) <https://github.com/degordonstech/errand>
+- /cases/gh-github-com-bhoot-biswas-listsnap.html: ListSnap: one product photo to a WooCommerce draft and an Instagram post (field-case) <https://github.com/bhoot-biswas/listsnap>
 - /cases/x-claysinjr-2114696986146537944.html: Grok Bot as the content editor for three accounts (field-case) <https://x.com/Claysinjr/status/2114696986146537944>
 - /cases/x-zaimiri-2114695042346750368.html: Every job in a Grok Bot content system on one page (field-case) <https://x.com/zaimiri/status/2114695042346750368>
 - /cases/x-costakapo-2114689156756512822.html: Grok Bot sends weekly reports from a franchise POS (field-case) <https://x.com/CostaKapo/status/2114689156756512822>
@@ -1810,6 +1828,8 @@
 - /cases/9to5mac-how-to-claim-your-grok-bot-email-address-573.html: 9to5Mac: how to claim your Grok Bot email address (comparison) <https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/>
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
 - /cases/x-analystailab-2114996538699284711.html: Blind test of 4 assistants: Grok Bot wins email, Dots wins lookups and money (comparison) <https://x.com/AnalystAIlab/status/2114996538699284711>
+- /cases/x-teslaoptimusk-2115200727790571521.html: Wired's six-agent bake-off: Dots wins, at $100 a month (comparison) <https://x.com/Tesla_Optimus_K/status/2115200727790571521>
+- /cases/x-snazzylabs-2115206459743207477.html: A few hours with Claude Duet, compared with ChatGPT Dots (comparison) <https://x.com/SnazzyLabs/status/2115206459743207477>
 - /cases/x-nakasyou0-2114688740119679163.html: Meta Muse can drive Instagram APIs directly (comparison) <https://x.com/nakasyou0/status/2114688740119679163>
 - /cases/x-campbellmeade25-2114684219288904059.html: Privacy terms compared: Grok, Claude Duet, ChatGPT Dots (comparison) <https://x.com/CampbellMeade25/status/2114684219288904059>
 - /cases/x-liflovs-2114670917909352607.html: Grok's built-in helper vs Dots, from a user with ADHD (comparison) <https://x.com/liflovs/status/2114670917909352607>
