@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1892 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1912 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-27T12:39:18.259Z
+- Last updated: 2026-10-27T22:37:28.813Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3237,6 +3237,96 @@
 - URL: https://usage.incidental.site/cases/gh-github-com-danielbuva-ror2-android-port-pull-176.html
 - Type: field-case · Product: openai-dots · Author: danielbuva · Source: https://github.com/danielbuva/ror2-android-port/pull/176 · Date: 2026-10-27
 - Summary: This PR lets a remote agent that works only through GitHub (ChatGPT Dots) run a fixed menu of lab jobs on the owner's Mac and phones via the owner's /lab comments, without game files leaving the Mac. The workflow responds only to the owner's comments on a self-hosted runner and comes with 8 host tests.
+
+### Dots files a United complaint and wins a $600 travel voucher
+- URL: https://usage.incidental.site/cases/x-sahilpunamia-2115173406262038765.html
+- Type: field-case · Product: openai-dots · Author: SahilPunamia · Source: https://x.com/SahilPunamia/status/2115173406262038765 · Date: 2026-10-27
+- Summary: After a bad experience with United, the author called their Dot and asked it to file a complaint and request flight credit. The Dot handled it on its own and got a $600 travel voucher.
+
+### A content production dashboard built with Grok Bot pages
+- URL: https://usage.incidental.site/cases/x-byalexai-2115198977671123273.html
+- Type: field-case · Product: grok-bot · Author: byalexai · Source: https://x.com/byalexai/status/2115198977671123273 · Date: 2026-10-27
+- Summary: The author used Grok Bot's new pages feature to build one place to track content their AI agents handle across projects: 13 ideas, 2 in research, 37 drafts, 27 awaiting approval and 26 published, 105 items in all. It includes a kanban board, a publishing calendar and filters by project, platform and assigned agent.
+
+### Grok Bot wrote 63 email drafts overnight and sent none
+- URL: https://usage.incidental.site/cases/x-ctrlzer0g-2115207328823750991.html
+- Type: field-case · Product: grok-bot · Author: ctrlzer0g · Source: https://x.com/ctrlzer0g/status/2115207328823750991 · Date: 2026-10-27
+- Summary: The author's only rule before bed: do the work, send nothing without my yes. At 7am there were 63 drafts (oldest unanswered first), 3 urgent threads with reasons, 2 meetings to drop, 1 invoice reply with the amount left blank, and 0 sent. Over coffee they approved 41 in 20 minutes, rewrote 9 and deleted the rest, versus two hours before. It used the chief of staff job, which pulls from Slack, email, calendar and meeting notes.
+
+### Grok Bot tip: let it read sign-in codes from email itself
+- URL: https://usage.incidental.site/cases/x-suddenlyjon-2115198957752127977.html
+- Type: guide · Product: grok-bot · Author: SuddenlyJon · Source: https://x.com/SuddenlyJon/status/2115198957752127977 · Date: 2026-10-27
+- Summary: When a site emails a sign-in code halfway through a task, you don't have to dig it out: connect Gmail or Outlook and the bot reads the code or link itself instead of asking you. It checks its own inbox too.
+
+### One rule for Grok Bot teams: keep only bots that finish real work
+- URL: https://usage.incidental.site/cases/x-getclareity-2115055015106687439.html
+- Type: guide · Product: grok-bot · Author: GetClareity · Source: https://x.com/GetClareity/status/2115055015106687439 · Date: 2026-10-27
+- Summary: Some call Grok Bot teams a busy-work factory; the author says that's half right. Their rule: every bot must finish something they'd otherwise do themselves. Job search, deal alerts and fixing a TV setup pass; a bot that only produces more reports to read gets cut.
+
+### Start with the task you hate most: a small Grok Bot team
+- URL: https://usage.incidental.site/cases/x-calvinhollywood-2115053533070266693.html
+- Type: guide · Product: grok-bot · Author: CalvinHollywood · Source: https://x.com/CalvinHollywood/status/2115053533070266693 · Date: 2026-10-27
+- Summary: The author says what made Grok Bot worth it was a small team: one bot for calendar and mail, one that collects Grok Bot news, each with written rules. Start with the task you hate most and add the next bot only once that one runs.
+
+### A Thai business owner runs a small Grok Bot assistant team
+- URL: https://usage.incidental.site/cases/x-perrier9595-2115040910824341900.html
+- Type: field-case · Product: grok-bot · Author: perrier_9595 · Source: https://x.com/perrier_9595/status/2115040910824341900 · Date: 2026-10-27
+- Summary: After 10 years running a business in Thailand, the author now has a small team of Grok Bot assistants: one runs inbox and calendar, one tracks cash flow, one manages the ERP rollout, one reads the drivers' LINE group, and one argues with them before big decisions. They just talk to them.
+
+### A 10-minute morning call with a Dot that runs Trello
+- URL: https://usage.incidental.site/cases/x-jondevx-2115051636800291242.html
+- Type: field-case · Product: openai-dots · Author: JonDevX · Source: https://x.com/JonDevX/status/2115051636800291242 · Date: 2026-10-27
+- Summary: The author found they spent 30 to 90 minutes a day managing tasks on a big project, so they wrote a workflow: every morning now starts with a 10-minute call with their Dot, which breaks everything down and manages Trello for them.
+
+### Grok Bot plus ElevenLabs: 3 newsletters from 8 years of notes, in his own voice
+- URL: https://usage.incidental.site/cases/x-jaismukesh-2115205432524370218.html
+- Type: field-case · Product: grok-bot · Author: jais_mukesh · Source: https://x.com/jais_mukesh/status/2115205432524370218 · Date: 2026-10-27
+- Summary: In one day the author used Grok Bot with ElevenLabs to complete and schedule 3 Substack newsletter issues based on 8+ years of personal notes, narrated in their own voice. They publish every Sunday and Wednesday.
+
+### A Grok Bot portfolio tracker built from a short interview
+- URL: https://usage.incidental.site/cases/x-beks88-2115198526040973366.html
+- Type: field-case · Product: grok-bot · Author: beks88 · Source: https://x.com/beks88/status/2115198526040973366 · Date: 2026-10-27
+- Summary: The author shares a Grok Bot portfolio tracker built from a short interview: exchange API, CSV or manual entry; an append-only ledger with cost basis; dividends with withholding tax and a calendar; optional on-chain wallets (public addresses only); and every balance verified.
+
+### Grok Bot template Perpetual Learning Machine: a cited morning digest of your X saves
+- URL: https://usage.incidental.site/cases/x-marcgarcia-2115058289004437521.html
+- Type: field-case · Product: grok-bot · Author: _marc_garcia · Source: https://x.com/_marc_garcia/status/2115058289004437521 · Date: 2026-10-27
+- Summary: The author released an open-source (MIT) Grok Bot template that reads your X likes, bookmarks and followed topics. It is read-only and never likes, replies, follows or posts. Overnight it studies what you noticed and delivers a cited digest in the morning.
+
+### Setting up a Grok Bot to draft in your voice, no code
+- URL: https://usage.incidental.site/cases/x-claysinjr-2115058228291879209.html
+- Type: guide · Product: grok-bot · Author: Claysinjr · Source: https://x.com/Claysinjr/status/2115058228291879209 · Date: 2026-10-27
+- Summary: The author's steps: 1. give it your voice: it read every post they'd made and wrote itself a style guide; 2. give it rules: no hashtags, no hype, a source for every fact; 3. make it research before drafting anything; 4. have it send drafts to you (the post is cut off here).
+
+### Using Meta Muse for Threads research
+- URL: https://usage.incidental.site/cases/x-marisnsconsul-2115193412861481048.html
+- Type: field-case · Product: meta-muse · Author: mariSNSconsul · Source: https://x.com/mariSNSconsul/status/2115193412861481048 · Date: 2026-10-27
+- Summary: Days after Meta Muse launched in Japan, the author already uses it to research Threads posts: it returns example posts' URLs, summaries and engagement counts in one batch.
+
+### Connecting Salesforce and ServiceNow to Meta Muse through one MCP server
+- URL: https://usage.incidental.site/cases/x-davidkleiss-2115184266166333649.html
+- Type: guide · Product: meta-muse · Author: david_kleiss · Source: https://x.com/david_kleiss/status/2115184266166333649 · Date: 2026-10-27
+- Summary: The post shares a walkthrough with CData's Joe Karlsson on connecting work apps through one MCP server, so Meta Muse can check your Salesforce pipeline or open ServiceNow tickets.
+
+### Your Grok Bot can do a task twice and call both a success: 7 tests
+- URL: https://usage.incidental.site/cases/x-sorryimgeek-2115201943568359713.html
+- Type: guide · Product: grok-bot · Author: sorryimgeek · Source: https://x.com/sorryimgeek/status/2115201943568359713 · Date: 2026-10-27
+- Summary: The author put together 7 tests for duplicate work, interrupted runs, stale evidence and weak reviews in Grok Bot, plus a job card and a one-bot versus team scorecard.
+
+### Readback: catching controller-pilot readback errors with Meta Muse
+- URL: https://usage.incidental.site/cases/gh-github-com-rohitcraftsyt-readback.html
+- Type: field-case · Product: meta-muse · Author: ROHITCRAFTSYT · Source: https://github.com/ROHITCRAFTSYT/readback · Date: 2026-10-27
+- Summary: The GitHub project readback catches readback errors between air traffic controllers and pilots using Meta's Muse models. It was built for the Meta Global AI Developer Hackathon 2026, tagged aviation safety and speech recognition.
+
+### Errand: a Meta Muse agent that does real tasks inside WhatsApp
+- URL: https://usage.incidental.site/cases/gh-github-com-degordonstech-errand.html
+- Type: field-case · Product: meta-muse · Author: degordonstech · Source: https://github.com/degordonstech/errand · Date: 2026-10-27
+- Summary: The GitHub project errand is an agent inside WhatsApp that handles real tasks: invoices, NAFDAC product checks, letters and replies. It is built on Meta Muse Spark and Muse Voice Transcribe.
+
+### ListSnap: one product photo to a WooCommerce draft and an Instagram post
+- URL: https://usage.incidental.site/cases/gh-github-com-bhoot-biswas-listsnap.html
+- Type: field-case · Product: meta-muse · Author: bhoot-biswas · Source: https://github.com/bhoot-biswas/listsnap · Date: 2026-10-27
+- Summary: The GitHub project listsnap turns a product photo into a WooCommerce draft, studio photos and an Instagram post, in English and Bangla. It is built with Meta Muse Spark, SAM 3.1 and Muse Image.
 
 ### Grok Bot as the content editor for three accounts
 - URL: https://usage.incidental.site/cases/x-claysinjr-2114696986146537944.html
@@ -9132,6 +9222,16 @@
 - URL: https://usage.incidental.site/cases/x-analystailab-2114996538699284711.html
 - Type: comparison · Product: multi · Author: AnalystAIlab · Source: https://x.com/AnalystAIlab/status/2114996538699284711 · Date: 2026-10-27
 - Summary: In the author's blind-scored test of ChatGPT Dots, Grok Bot, Muse and Instinct, Grok Bot led email (96.0/100), while Dots led lookups, investing and household money. Muse trailed Grok Bot in all 4 categories.
+
+### Wired's six-agent bake-off: Dots wins, at $100 a month
+- URL: https://usage.incidental.site/cases/x-teslaoptimusk-2115200727790571521.html
+- Type: comparison · Product: multi · Author: Tesla_Optimus_K · Source: https://x.com/Tesla_Optimus_K/status/2115200727790571521 · Date: 2026-10-27
+- Summary: Per the post, a Wired reporter ran Meta Muse, OpenAI Dots, Instinct, Claude Duet, Gemini Spark and Grok Bot through five tasks. Dots scored 5/5 on lunch and the calendar-email clash, Muse won the China itinerary, Gemini Spark wrote the best headline but scored 1/5 on lunch, and Instinct was most annoying. Prices: Dots $100, Muse free and a close second, Claude Duet a $20 preview, Grok Bot $30, Gemini Spark $20.
+
+### A few hours with Claude Duet, compared with ChatGPT Dots
+- URL: https://usage.incidental.site/cases/x-snazzylabs-2115206459743207477.html
+- Type: comparison · Product: openai-dots · Author: SnazzyLabs · Source: https://x.com/SnazzyLabs/status/2115206459743207477 · Date: 2026-10-27
+- Summary: After a few hours with Claude Duet, the author finds its UX significantly better than ChatGPT Dots, but its scope is narrower and it lacks solid local machine control, which makes it less compelling for them. They want a Dots Duet.
 
 ### Meta Muse can drive Instagram APIs directly
 - URL: https://usage.incidental.site/cases/x-nakasyou0-2114688740119679163.html

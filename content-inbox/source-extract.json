@@ -9116,5 +9116,35 @@
   ],
   "kind": "github",
   "fetched_at": "2026-10-27"
+ },
+ "https://github.com/ROHITCRAFTSYT/readback": {
+  "text": "A controller says \"CSA1DZ, descend flight level one hundred\". The pilot replies \"descending flight level one one zero, CSA1DZ\". Nobody notices. That missed **readback error** is a classic cause of altitude busts and loss of separation.",
+  "media": [],
+  "outline": [
+   "Hearing the radio. Muse Voice Transcribe separates controller and pilot turns, and its keyword biasing gets the callsigns of aircraft that ADS-B says are act…",
+   "Understanding clearances. Each turn becomes a structured clearance: callsign, instruction, altitude, heading, speed, frequency, runway, squawk.",
+   "Two checks. The readback against the clearance, and the aircraft's ADS-B track against the clearance (for example, cleared to FL100 but still descending thro…",
+   "On-premises mode. Air navigation providers can't send radio audio to a cloud service, so the parser also runs on Muse Glimmer (open weights).",
+   "standard ICAO phraseology",
+   "everyday variation: readbacks without keywords, stations, greetings, wind and taxi distractors, spelled ICAO codes",
+   "real radio: clips cut off mid-word, hesitations, corrections, misheard words, airlines it has never seen",
+   "stress: every kind of noise at once, more often"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-27"
+ },
+ "https://github.com/degordonstech/errand": {
+  "text": "MyPaddy is a friend in your Telegram that remembers things for you, reminds you before it is too late, checks whether things are fake, and handles small tasks such as invoices and replies to letters. Send it a text, voice note, photo, video or PDF, in English or Nigerian Pidgin. It never sends anything on your behalf until you say YES.",
+  "media": [],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-27"
+ },
+ "https://github.com/bhoot-biswas/listsnap": {
+  "text": "**Snap a product photo. Get a store listing in English and Bangla.**",
+  "media": [],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-27"
  }
 }
