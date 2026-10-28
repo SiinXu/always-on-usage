@@ -1,6 +1,6 @@
 {
   "note": "公开条目聚合 / aggregated public items; see source_url",
-  "count": 1930,
+  "count": 1946,
   "fetched_at": "2026-10-12T11:54:58.322933+00:00",
   "items": [
     {
@@ -13855,6 +13855,963 @@
       "scen": [
         "social",
         "calendar"
+      ]
+    },
+    {
+      "title": "5 个夜间 Grok Bot 例程：醒来看到 PR 而不是待办",
+      "summary": "作者设了 5 个按时间运行的 Grok Bot 例程：1 点构建待办前 3 张卡并开 PR，3 点审查 PR 或提 bug 卡，4:30 修 30 分钟内的 bug，5:30 查在线状态、错误日志和费用，6:30 发一条汇报。规则是午夜后不做任何需要他确认的事，合并、部署和正式密钥等他醒来再处理。",
+      "en": {
+        "title": "Five overnight Grok Bot routines: wake up to pull requests, not a to-do list",
+        "summary": "The author scheduled five Grok Bot routines: at 1:00 build the top 3 todo cards and open PRs, at 3:00 review PRs or file bug cards, at 4:30 fix bugs under 30 minutes, at 5:30 check uptime, error logs and the bill, at 6:30 send one report. The rule: nothing that needs his yes runs after midnight; merges, deploys and live keys wait until he is awake."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "5 个夜间 Grok Bot 例程：醒来看到 PR 而不是待办",
+          "summary": "作者设了 5 个按时间运行的 Grok Bot 例程：1 点构建待办前 3 张卡并开 PR，3 点审查 PR 或提 bug 卡，4:30 修 30 分钟内的 bug，5:30 查在线状态、错误日志和费用，6:30 发一条汇报。规则是午夜后不做任何需要他确认的事，合并、部署和正式密钥等他醒来再处理。"
+        },
+        "zh-TW": {
+          "title": "5 個夜間 Grok Bot 例程：醒來看到 PR 而不是待辦",
+          "summary": "作者設了 5 個按時間執行的 Grok Bot 例程：1 點建置待辦前 3 張卡並開 PR，3 點審查 PR 或提 bug 卡，4:30 修 30 分鐘內的 bug，5:30 查線上狀態、錯誤日誌和費用，6:30 發一則匯報。規則是午夜後不做任何需要他確認的事，合併、部署和正式金鑰等他醒來再處理。"
+        },
+        "en": {
+          "title": "Five overnight Grok Bot routines: wake up to pull requests, not a to-do list",
+          "summary": "The author scheduled five Grok Bot routines: at 1:00 build the top 3 todo cards and open PRs, at 3:00 review PRs or file bug cards, at 4:30 fix bugs under 30 minutes, at 5:30 check uptime, error logs and the bill, at 6:30 send one report. The rule: nothing that needs his yes runs after midnight; merges, deploys and live keys wait until he is awake."
+        },
+        "ja": {
+          "title": "夜間に動く5つのGrok Botルーティン：朝起きたらToDoではなくPR",
+          "summary": "作者は5つのGrok Botルーティンを設定。1時にToDo上位3枚を実装してPR作成、3時にPRをレビューしバグカードを起票、4時半に30分以内で直せるバグを修正、5時半に稼働状況・エラーログ・料金を確認、6時半に報告を1通送る。深夜以降は本人の承認が要る作業は行わず、マージ・デプロイ・本番キーは起床後に回す。"
+        },
+        "ko": {
+          "title": "밤새 도는 Grok Bot 루틴 5개: 아침엔 할 일 목록 대신 PR",
+          "summary": "작성자는 Grok Bot 루틴 5개를 예약했다. 1시에 할 일 상위 3개 카드를 구현해 PR을 열고, 3시에 PR을 검토하거나 버그 카드를 만들고, 4시 30분에 30분 안에 고칠 수 있는 버그를 수정하고, 5시 30분에 가동 상태·오류 로그·비용을 확인하고, 6시 30분에 보고 한 통을 보낸다. 자정 이후에는 그의 승인이 필요한 일은 하지 않으며, 병합·배포·실서비스 키는 그가 깬 뒤로 미룬다."
+        },
+        "ms": {
+          "title": "Lima rutin Grok Bot waktu malam: bangun dengan pull request, bukan senarai tugasan",
+          "summary": "Penulis menjadualkan lima rutin Grok Bot: jam 1:00 membina 3 kad teratas dan membuka PR, jam 3:00 menyemak PR atau memfailkan kad pepijat, jam 4:30 membaiki pepijat bawah 30 minit, jam 5:30 menyemak uptime, log ralat dan bil, jam 6:30 menghantar satu laporan. Peraturannya: tiada apa yang memerlukan persetujuannya berjalan selepas tengah malam; merge, deploy dan kunci live menunggu dia bangun."
+        },
+        "vi": {
+          "title": "5 routine Grok Bot chạy qua đêm: sáng dậy là có pull request thay vì danh sách việc",
+          "summary": "Tác giả lên lịch 5 routine Grok Bot: 1 giờ làm 3 thẻ đầu trong todo và mở PR, 3 giờ review PR hoặc tạo thẻ lỗi, 4 giờ 30 sửa lỗi dưới 30 phút, 5 giờ 30 kiểm tra uptime, log lỗi và hóa đơn, 6 giờ 30 gửi một báo cáo. Quy tắc: sau nửa đêm không chạy việc gì cần anh đồng ý; merge, deploy và khóa live chờ anh thức dậy."
+        },
+        "fr": {
+          "title": "Cinq routines Grok Bot de nuit : se réveiller avec des pull requests, pas une liste de tâches",
+          "summary": "L'auteur a programmé cinq routines Grok Bot : à 1 h, réaliser les 3 premières cartes et ouvrir des PR ; à 3 h, relire les PR ou créer des cartes de bug ; à 4 h 30, corriger les bugs de moins de 30 minutes ; à 5 h 30, vérifier disponibilité, logs d'erreurs et facture ; à 6 h 30, envoyer un rapport. Règle : rien qui nécessite son accord ne tourne après minuit ; merges, déploiements et clés de production attendent son réveil."
+        },
+        "es": {
+          "title": "Cinco rutinas nocturnas de Grok Bot: despertar con pull requests, no con pendientes",
+          "summary": "El autor programó cinco rutinas de Grok Bot: a la 1:00 construir las 3 primeras tarjetas y abrir PR, a las 3:00 revisar PR o abrir tarjetas de bug, a las 4:30 corregir bugs de menos de 30 minutos, a las 5:30 revisar disponibilidad, logs de errores y factura, y a las 6:30 enviar un informe. Regla: nada que requiera su aprobación corre después de medianoche; merges, despliegues y claves en vivo esperan a que despierte."
+        },
+        "de": {
+          "title": "Fünf nächtliche Grok-Bot-Routinen: morgens Pull Requests statt To-do-Liste",
+          "summary": "Der Autor plante fünf Grok-Bot-Routinen: um 1:00 die obersten 3 Karten bauen und PRs öffnen, um 3:00 PRs prüfen oder Bug-Karten anlegen, um 4:30 Bugs unter 30 Minuten beheben, um 5:30 Uptime, Fehlerlogs und Kosten prüfen, um 6:30 einen Bericht senden. Regel: Nach Mitternacht läuft nichts, was seine Zustimmung braucht; Merges, Deploys und Live-Schlüssel warten, bis er wach ist."
+        }
+      },
+      "source_url": "https://x.com/0xTeddet/status/2115569913121460356",
+      "source_name": "X",
+      "author": "0xTeddet",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-28",
+      "likes": 2,
+      "src": "x",
+      "text": "tonight at 19:00 i switch on 5 grok bot routines, and if they work i wake up to pull requests instead of a to-do list\n\nhere's every one, word for word, so you can steal them:\n\n01:00 → builder\n\"take the top 3 cards in todo. build each one on its own branch, run the tests, open a pull request with a 3-line summary. skip anything in not in v1\"\n\n03:00 → checker\n\"review every open pull request against done when. test it the way a student would. mark it ready for review or file a bug card with exact steps\"\n\n04:30 → builder, round 2\n\"take tonight's bug cards. fix anything under 30 minutes and leave the rest with a note\"\n\n05:30 → ops\n\"check uptime, error logs and the bot bill. one line each, no fixes\"\n\n06:30 → report to me\n\"send me one message: what got built, what passed, what's blocked, what needs me. end with live payments: on or off\"\n\nthe rule under all 5: nothing that needs my yes runs after midnight. merges, deploys and live keys wait until i'm awake\n\ni'll post what they actually did tomorrow at 07:00, good or bad\n\nthe full weekend playbook is in the article below",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115569861422088192/img/X1TEB8tAWdQVIao1.jpg"
+      ],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-0xteddet-2115569913121460356",
+      "scen": [
+        "report",
+        "prs",
+        "calendar",
+        "ship"
+      ]
+    },
+    {
+      "title": "用 Grok Bot 模板搭了个来电筛选 AI",
+      "summary": "作者用 Grok Bot 的 Vibe Coder 和 CTO 模板搭建了个人来电筛选：骚扰和机器人电话直接挂断，真实来电者留言后，Grok Bot 应用里会收到谁打来、为什么打来的提醒。基于 Twilio 和 Cloudflare Workers，语音用 Grok API；首个真实来电 56 秒，成本不到 10 美分。",
+      "en": {
+        "title": "A call-screening AI built with Grok Bot templates",
+        "summary": "Using Grok Bot's Vibe Coder and CTO templates, the author set up a personal AI that screens incoming calls: spam and robocalls get hung up on, real callers leave a message, and a note in the Grok Bot app says who called and why. Built on Twilio and Cloudflare Workers with voice from the Grok API; the first real call took 56 seconds and cost under 10 cents."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用 Grok Bot 模板搭了个来电筛选 AI",
+          "summary": "作者用 Grok Bot 的 Vibe Coder 和 CTO 模板搭建了个人来电筛选：骚扰和机器人电话直接挂断，真实来电者留言后，Grok Bot 应用里会收到谁打来、为什么打来的提醒。基于 Twilio 和 Cloudflare Workers，语音用 Grok API；首个真实来电 56 秒，成本不到 10 美分。"
+        },
+        "zh-TW": {
+          "title": "用 Grok Bot 範本打造了來電篩選 AI",
+          "summary": "作者用 Grok Bot 的 Vibe Coder 和 CTO 範本打造個人來電篩選：騷擾和機器人電話直接掛斷，真實來電者留言後，Grok Bot 應用程式會收到誰打來、為什麼打來的通知。基於 Twilio 和 Cloudflare Workers，語音用 Grok API；第一通真實來電 56 秒，成本不到 10 美分。"
+        },
+        "en": {
+          "title": "A call-screening AI built with Grok Bot templates",
+          "summary": "Using Grok Bot's Vibe Coder and CTO templates, the author set up a personal AI that screens incoming calls: spam and robocalls get hung up on, real callers leave a message, and a note in the Grok Bot app says who called and why. Built on Twilio and Cloudflare Workers with voice from the Grok API; the first real call took 56 seconds and cost under 10 cents."
+        },
+        "ja": {
+          "title": "Grok Botのテンプレートで着信スクリーニングAIを構築",
+          "summary": "作者はGrok BotのVibe CoderとCTOテンプレートで、着信を選別する個人用AIを作った。迷惑電話や自動音声は切断し、本物の相手には伝言を残してもらい、誰が何の用件でかけてきたかをGrok Botアプリに通知する。TwilioとCloudflare Workers上に構築し、音声はGrok API。最初の実際の通話は56秒、費用は10セント未満。"
+        },
+        "ko": {
+          "title": "Grok Bot 템플릿으로 만든 전화 선별 AI",
+          "summary": "작성자는 Grok Bot의 Vibe Coder와 CTO 템플릿으로 걸려오는 전화를 선별하는 개인 AI를 만들었다. 스팸과 자동 녹음 전화는 끊고, 실제 발신자는 메시지를 남기며, Grok Bot 앱에 누가 왜 전화했는지 알림이 온다. Twilio와 Cloudflare Workers 기반에 음성은 Grok API를 썼고, 첫 실제 통화는 56초, 비용은 10센트 미만이었다."
+        },
+        "ms": {
+          "title": "AI penapis panggilan dibina dengan templat Grok Bot",
+          "summary": "Dengan templat Vibe Coder dan CTO Grok Bot, penulis menyediakan AI peribadi yang menapis panggilan masuk: panggilan spam dan robot diputuskan, pemanggil sebenar meninggalkan mesej, dan nota dalam aplikasi Grok Bot memberitahu siapa yang memanggil dan sebabnya. Dibina atas Twilio dan Cloudflare Workers dengan suara daripada Grok API; panggilan sebenar pertama mengambil 56 saat dan kos bawah 10 sen."
+        },
+        "vi": {
+          "title": "AI lọc cuộc gọi dựng bằng template Grok Bot",
+          "summary": "Dùng template Vibe Coder và CTO của Grok Bot, tác giả dựng một AI cá nhân lọc cuộc gọi đến: cuộc gọi rác và robocall bị cúp máy, người gọi thật để lại lời nhắn, và ứng dụng Grok Bot ghi chú ai gọi và vì sao. Chạy trên Twilio và Cloudflare Workers, giọng nói từ Grok API; cuộc gọi thật đầu tiên dài 56 giây, tốn chưa tới 10 xu."
+        },
+        "fr": {
+          "title": "Une IA de filtrage d'appels construite avec les modèles Grok Bot",
+          "summary": "Avec les modèles Vibe Coder et CTO de Grok Bot, l'auteur a mis en place une IA personnelle qui filtre les appels : spam et robocalls sont raccrochés, les vrais appelants laissent un message et une note dans l'app Grok Bot indique qui a appelé et pourquoi. Construit sur Twilio et Cloudflare Workers avec la voix de l'API Grok ; le premier vrai appel a duré 56 secondes pour moins de 10 cents."
+        },
+        "es": {
+          "title": "Una IA que filtra llamadas, hecha con plantillas de Grok Bot",
+          "summary": "Con las plantillas Vibe Coder y CTO de Grok Bot, el autor montó una IA personal que filtra las llamadas entrantes: cuelga el spam y las llamadas automáticas, los llamantes reales dejan un mensaje y en la app de Grok Bot llega una nota con quién llamó y por qué. Funciona sobre Twilio y Cloudflare Workers con voz de la API de Grok; la primera llamada real duró 56 segundos y costó menos de 10 centavos."
+        },
+        "de": {
+          "title": "Eine Anruf-Filter-KI, gebaut mit Grok-Bot-Vorlagen",
+          "summary": "Mit den Grok-Bot-Vorlagen Vibe Coder und CTO baute der Autor eine persönliche KI, die eingehende Anrufe filtert: Spam und Robocalls werden aufgelegt, echte Anrufer hinterlassen eine Nachricht, und in der Grok-Bot-App steht, wer warum angerufen hat. Basiert auf Twilio und Cloudflare Workers, Stimme über die Grok API; der erste echte Anruf dauerte 56 Sekunden und kostete unter 10 Cent."
+        }
+      },
+      "source_url": "https://x.com/xenappblog/status/2115572147087450552",
+      "source_name": "X",
+      "author": "xenappblog",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-28",
+      "likes": 0,
+      "src": "x",
+      "text": "Just had my Vibe Coder and CTO @Grok Bot templates set up a personal AI that screens every incoming call.\n\nSpam and robocalls get hung up on. Real callers leave a message, and I get a note in the Grok Bot app saying who called and why.\n\nFirst real call: 56 seconds, under 10 cents.\n\nBuilt on @Twilio + @Cloudflare Workers, with voice by the @Grok API.\n\nVibe Coder: https://t.co/1v6WC6A5ET\nCTO: https://t.co/z2D56ApGVQ",
+      "media": [],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-xenappblog-2115572147087450552",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
+      "title": "Grok Bot 一天内做完 X 帖子精选咖啡桌书并下单",
+      "summary": "作者用 Grok Bot 把自己 X 帖子的精选做成一本咖啡桌书，抓取帖子、设计排版和下单全部由 Grok Bot 在不到 24 小时内完成，实体书已经寄到。他说 5 天内就能拿到成书，并把流程做成了 bot 模板供他人使用。",
+      "en": {
+        "title": "Grok Bot made and ordered a coffee table book of X post highlights in under 24 hours",
+        "summary": "The author had Grok Bot turn highlights of his X posts into a coffee table book. Pulling the posts, designing the book and placing the order were all done through Grok Bot in under 24 hours, and the printed book has arrived. He says you can have a book in hand in 5 days and shared a bot template for it."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Grok Bot 一天内做完 X 帖子精选咖啡桌书并下单",
+          "summary": "作者用 Grok Bot 把自己 X 帖子的精选做成一本咖啡桌书，抓取帖子、设计排版和下单全部由 Grok Bot 在不到 24 小时内完成，实体书已经寄到。他说 5 天内就能拿到成书，并把流程做成了 bot 模板供他人使用。"
+        },
+        "zh-TW": {
+          "title": "Grok Bot 一天內做完 X 貼文精選咖啡桌書並下單",
+          "summary": "作者用 Grok Bot 把自己 X 貼文的精選做成一本咖啡桌書，抓取貼文、設計排版和下單全部由 Grok Bot 在不到 24 小時內完成，實體書已經寄到。他說 5 天內就能拿到成書，並把流程做成了 bot 範本供他人使用。"
+        },
+        "en": {
+          "title": "Grok Bot made and ordered a coffee table book of X post highlights in under 24 hours",
+          "summary": "The author had Grok Bot turn highlights of his X posts into a coffee table book. Pulling the posts, designing the book and placing the order were all done through Grok Bot in under 24 hours, and the printed book has arrived. He says you can have a book in hand in 5 days and shared a bot template for it."
+        },
+        "ja": {
+          "title": "Grok BotがXの投稿ハイライト本を24時間以内に制作・発注",
+          "summary": "作者は自分のX投稿のハイライトをGrok Botでコーヒーテーブルブックにした。投稿の取得、本のデザイン、注文まですべてGrok Botが24時間以内に行い、実物の本が届いた。5日で手元に届くとし、同じことができるbotテンプレートも公開している。"
+        },
+        "ko": {
+          "title": "Grok Bot이 X 게시물 하이라이트 책을 24시간 안에 만들고 주문",
+          "summary": "작성자는 Grok Bot으로 자신의 X 게시물 하이라이트를 커피 테이블 북으로 만들었다. 게시물 수집, 책 디자인, 주문까지 모두 Grok Bot이 24시간 안에 처리했고 실물 책이 도착했다. 5일이면 책을 받을 수 있다며, 같은 작업용 봇 템플릿도 공개했다."
+        },
+        "ms": {
+          "title": "Grok Bot menghasilkan dan menempah buku meja kopi sorotan siaran X dalam bawah 24 jam",
+          "summary": "Penulis meminta Grok Bot menjadikan sorotan siaran X miliknya sebuah buku meja kopi. Mengambil siaran, mereka bentuk buku dan membuat tempahan semuanya dilakukan melalui Grok Bot dalam bawah 24 jam, dan buku bercetak sudah tiba. Katanya buku boleh sampai dalam 5 hari, dan dia berkongsi templat bot untuknya."
+        },
+        "vi": {
+          "title": "Grok Bot làm và đặt in sách ảnh từ các bài X nổi bật trong chưa đầy 24 giờ",
+          "summary": "Tác giả nhờ Grok Bot biến các bài đăng X nổi bật của mình thành một cuốn sách để bàn. Lấy bài, thiết kế sách và đặt hàng đều do Grok Bot làm trong chưa đầy 24 giờ, và sách in đã về tới. Anh nói có thể cầm sách trong 5 ngày và chia sẻ một template bot cho việc này."
+        },
+        "fr": {
+          "title": "Grok Bot a conçu et commandé un beau livre des meilleurs posts X en moins de 24 h",
+          "summary": "L'auteur a demandé à Grok Bot de transformer ses meilleurs posts X en beau livre. Récupération des posts, mise en page et commande ont été faites via Grok Bot en moins de 24 heures, et le livre imprimé est arrivé. Il dit qu'on peut l'avoir en main en 5 jours et a partagé un modèle de bot pour le faire."
+        },
+        "es": {
+          "title": "Grok Bot diseñó y encargó un libro de mesa con lo mejor de sus posts de X en menos de 24 horas",
+          "summary": "El autor pidió a Grok Bot convertir lo mejor de sus posts de X en un libro de mesa. Recopilar los posts, diseñar el libro y hacer el pedido se hizo todo con Grok Bot en menos de 24 horas, y el libro impreso ya llegó. Dice que se puede tener en mano en 5 días y compartió una plantilla de bot para hacerlo."
+        },
+        "de": {
+          "title": "Grok Bot gestaltete und bestellte in unter 24 Stunden einen Bildband mit X-Highlights",
+          "summary": "Der Autor ließ Grok Bot die Highlights seiner X-Posts in einen Bildband verwandeln. Posts sammeln, Buch gestalten und bestellen erledigte Grok Bot in unter 24 Stunden, und das gedruckte Buch ist angekommen. Laut ihm hat man das Buch in 5 Tagen in der Hand; er teilte eine Bot-Vorlage dafür."
+        }
+      },
+      "source_url": "https://x.com/alx/status/2115569780614942804",
+      "source_name": "X",
+      "author": "alx",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-28",
+      "likes": 18,
+      "src": "x",
+      "text": "UPDATE: The coffee table book I made with @Grok @Bot of highlights of my 𝕏 posts just arrived.\n\nThe entire process including pulling posts, designing the book and placing the order was all done through Grok Bot in less than 24 hours.\n\nYou can create a whole book and have it in your hands in 5 days with Grok Bot.\n\nI built a bot template for it for anyone who wants to make their own: https://t.co/p3ZpXINx6F",
+      "media": [
+        "https://pbs.twimg.com/media/HVwDf6oXkAEYTAc.jpg",
+        "https://pbs.twimg.com/media/HVwDf6oW4AAlP_x.jpg",
+        "https://pbs.twimg.com/media/HVwDf65WIAAYoNz.jpg",
+        "https://pbs.twimg.com/media/HVwDf6tXUAA1vdE.jpg"
+      ],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-alx-2115569780614942804",
+      "scen": [
+        "social"
+      ]
+    },
+    {
+      "title": "一家木作公司第一天用 Grok Bot 的产出",
+      "summary": "SafeWood Designs 引入 Grok Bot 当天，作者称已得到：一年量的营销图和排期好的科普内容、5,000 封发给 FEMA 防弹屏障拨款获得者的排期邮件、2,500 封发给符合安防补助条件学校的邮件，以及 Bot 发现内部错误后修正的施工图，他说这省下了数千美元。",
+      "en": {
+        "title": "A woodworking company's first day with Grok Bot",
+        "summary": "On the day SafeWood Designs brought in Grok Bot, the author says they got a year of marketing graphics and scheduled educational content, 5,000 scheduled emails to FEMA ballistic shielding grant awardees, 2,500 emails to schools with eligible security grants, and shop drawings corrected after the bot found an internal error, which he says saved thousands."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "一家木作公司第一天用 Grok Bot 的产出",
+          "summary": "SafeWood Designs 引入 Grok Bot 当天，作者称已得到：一年量的营销图和排期好的科普内容、5,000 封发给 FEMA 防弹屏障拨款获得者的排期邮件、2,500 封发给符合安防补助条件学校的邮件，以及 Bot 发现内部错误后修正的施工图，他说这省下了数千美元。"
+        },
+        "zh-TW": {
+          "title": "一家木作公司第一天用 Grok Bot 的產出",
+          "summary": "SafeWood Designs 導入 Grok Bot 當天，作者稱已得到：一年份的行銷圖和排程好的教育內容、5,000 封寄給 FEMA 防彈屏障撥款獲得者的排程郵件、2,500 封寄給符合安防補助資格學校的郵件，以及 Bot 發現內部錯誤後修正的施工圖，他說這省下了數千美元。"
+        },
+        "en": {
+          "title": "A woodworking company's first day with Grok Bot",
+          "summary": "On the day SafeWood Designs brought in Grok Bot, the author says they got a year of marketing graphics and scheduled educational content, 5,000 scheduled emails to FEMA ballistic shielding grant awardees, 2,500 emails to schools with eligible security grants, and shop drawings corrected after the bot found an internal error, which he says saved thousands."
+        },
+        "ja": {
+          "title": "木工会社がGrok Botを導入した初日の成果",
+          "summary": "SafeWood DesignsがGrok Botを導入した日、作者によれば、1年分のマーケティング画像と予約投稿済みの教育コンテンツ、FEMAの防弾シールド助成金受給者への予約メール5,000通、対象となる防犯助成金を持つ学校へのメール2,500通、そしてBotが内部の誤りを見つけて修正した製作図面ができ、数千ドルの節約になったという。"
+        },
+        "ko": {
+          "title": "목공 회사가 Grok Bot을 도입한 첫날의 결과",
+          "summary": "SafeWood Designs가 Grok Bot을 도입한 날, 작성자는 1년 치 마케팅 그래픽과 예약된 교육 콘텐츠, FEMA 방탄 차폐 보조금 수령자에게 보낼 예약 이메일 5,000통, 보안 보조금 대상 학교에 보낼 이메일 2,500통, 그리고 봇이 내부 오류를 찾아 수정한 제작 도면을 얻었으며 수천 달러를 아꼈다고 말한다."
+        },
+        "ms": {
+          "title": "Hari pertama sebuah syarikat kerja kayu menggunakan Grok Bot",
+          "summary": "Pada hari SafeWood Designs mula menggunakan Grok Bot, penulis berkata mereka mendapat grafik pemasaran setahun dan kandungan pendidikan berjadual, 5,000 e-mel berjadual kepada penerima geran perisai balistik FEMA, 2,500 e-mel kepada sekolah yang layak untuk geran keselamatan, dan lukisan bengkel yang dibetulkan selepas bot menemui ralat dalaman, yang katanya menjimatkan ribuan."
+        },
+        "vi": {
+          "title": "Ngày đầu một xưởng gỗ dùng Grok Bot",
+          "summary": "Ngày SafeWood Designs đưa Grok Bot vào quy trình, tác giả cho biết họ có đồ họa marketing cho một năm cùng nội dung giáo dục đã lên lịch, 5.000 email lên lịch gửi người nhận tài trợ tấm chắn đạn của FEMA, 2.500 email gửi các trường đủ điều kiện nhận tài trợ an ninh, và bản vẽ gia công được sửa sau khi bot phát hiện một lỗi nội bộ, giúp tiết kiệm hàng nghìn đô."
+        },
+        "fr": {
+          "title": "Le premier jour d'un atelier de menuiserie avec Grok Bot",
+          "summary": "Le jour où SafeWood Designs a adopté Grok Bot, l'auteur dit avoir obtenu un an de visuels marketing et de contenus éducatifs planifiés, 5 000 e-mails planifiés vers les bénéficiaires de subventions FEMA pour boucliers balistiques, 2 500 e-mails vers des écoles éligibles à des subventions de sécurité, et des plans d'atelier corrigés après que le bot a trouvé une erreur interne, ce qui aurait économisé des milliers."
+        },
+        "es": {
+          "title": "El primer día de una carpintería con Grok Bot",
+          "summary": "El día que SafeWood Designs incorporó Grok Bot, el autor dice que obtuvieron un año de gráficos de marketing y contenido educativo programado, 5.000 correos programados a beneficiarios de subvenciones de FEMA para blindaje balístico, 2.500 correos a escuelas con subvenciones de seguridad elegibles y planos de taller corregidos tras detectar el bot un error interno, lo que según él ahorró miles."
+        },
+        "de": {
+          "title": "Der erste Tag einer Holzwerkstatt mit Grok Bot",
+          "summary": "Am Tag, an dem SafeWood Designs Grok Bot einführte, hatten sie laut Autor Marketinggrafiken für ein Jahr samt geplanter Lerninhalte, 5.000 geplante E-Mails an FEMA-Förderempfänger für ballistische Schutzschilde, 2.500 E-Mails an Schulen mit passenden Sicherheitsförderungen und Werkstattzeichnungen, die nach einem vom Bot gefundenen internen Fehler korrigiert wurden, was Tausende sparte."
+        }
+      },
+      "source_url": "https://x.com/elliottengenMN/status/2115570130008547656",
+      "source_name": "X",
+      "author": "elliottengenMN",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-28",
+      "likes": 0,
+      "src": "x",
+      "text": "Today @SafeWoodDesigns I introduced Grok Bot into our workflow. \n\nWe now have:\n\n-1 year’s worth of marketing graphics and scheduled educational content,\n\n-5,000 scheduled emails to FEMA ballistic shielding appropriation grant awardees\n\n-2,500 emails to schools with eligible security enhancement grants.\n\n-And shop drawings that were corrected after the Bot found an internal error, saving thousands. \n\nThe future is here, and output will exponentially increase. \n\n@elonmusk isn’t just providing a product- he’s preparing an age of radical abundance and breakthrough.\n\nThank you.",
+      "media": [],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-elliottengenmn-2115570130008547656",
+      "scen": [
+        "inbox",
+        "social",
+        "security",
+        "calendar"
+      ]
+    },
+    {
+      "title": "给 Grok Bot 加一个视频质检技能后，视频质量稳定了",
+      "summary": "作者用 Grok Bot 自动做视频，但成片时好时坏，常有剪辑错误和节奏问题。他做了两处改动：把 Grok Bot 接上自家团队做的 API Hub 来生成和剪辑视频，再给它一个视频 QA 技能，每条视频发布前先检查，不通过不发。",
+      "en": {
+        "title": "A video QA skill fixed inconsistent Grok Bot videos",
+        "summary": "The author automates video creation with Grok Bot, but some videos had editing mistakes or awkward timing. Two changes fixed it: connecting Grok Bot to API Hub, a platform his team built for creating and editing videos, and giving it a Video QA skill that reviews every video before publishing, with nothing going out unless it passes."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "给 Grok Bot 加一个视频质检技能后，视频质量稳定了",
+          "summary": "作者用 Grok Bot 自动做视频，但成片时好时坏，常有剪辑错误和节奏问题。他做了两处改动：把 Grok Bot 接上自家团队做的 API Hub 来生成和剪辑视频，再给它一个视频 QA 技能，每条视频发布前先检查，不通过不发。"
+        },
+        "zh-TW": {
+          "title": "幫 Grok Bot 加一個影片品檢技能後，影片品質穩定了",
+          "summary": "作者用 Grok Bot 自動做影片，但成品時好時壞，常有剪輯錯誤和節奏問題。他做了兩處改動：把 Grok Bot 接上自家團隊做的 API Hub 來產生和剪輯影片，再給它一個影片 QA 技能，每支影片發布前先檢查，不通過不發。"
+        },
+        "en": {
+          "title": "A video QA skill fixed inconsistent Grok Bot videos",
+          "summary": "The author automates video creation with Grok Bot, but some videos had editing mistakes or awkward timing. Two changes fixed it: connecting Grok Bot to API Hub, a platform his team built for creating and editing videos, and giving it a Video QA skill that reviews every video before publishing, with nothing going out unless it passes."
+        },
+        "ja": {
+          "title": "動画QAスキルでGrok Botの動画品質が安定",
+          "summary": "作者はGrok Botで動画制作を自動化していたが、編集ミスや間の悪さがある動画も出ていた。改善は2つ。自社チームが作った動画生成・編集プラットフォームAPI HubにGrok Botを接続したこと、そして公開前に毎回チェックする動画QAスキルを持たせ、合格しない動画は公開しないようにしたこと。"
+        },
+        "ko": {
+          "title": "영상 QA 스킬로 들쭉날쭉하던 Grok Bot 영상 해결",
+          "summary": "작성자는 Grok Bot으로 영상 제작을 자동화했지만 일부 영상에 편집 실수나 어색한 타이밍이 있었다. 두 가지를 바꿨다. 자신의 팀이 만든 영상 생성·편집 플랫폼 API Hub에 Grok Bot을 연결했고, 게시 전 모든 영상을 검토하는 영상 QA 스킬을 줘서 통과하지 못하면 게시하지 않게 했다."
+        },
+        "ms": {
+          "title": "Kemahiran QA video membaiki video Grok Bot yang tidak konsisten",
+          "summary": "Penulis mengautomasikan penghasilan video dengan Grok Bot, tetapi ada video dengan kesilapan suntingan atau masa yang janggal. Dua perubahan membaikinya: menyambungkan Grok Bot ke API Hub, platform pasukannya untuk mencipta dan menyunting video, dan memberinya kemahiran QA video yang menyemak setiap video sebelum diterbitkan; tiada yang keluar tanpa lulus."
+        },
+        "vi": {
+          "title": "Kỹ năng QA video giúp video từ Grok Bot ổn định",
+          "summary": "Tác giả tự động hóa việc làm video bằng Grok Bot, nhưng một số video bị lỗi dựng hoặc nhịp không khớp. Hai thay đổi đã khắc phục: kết nối Grok Bot với API Hub, nền tảng tạo và dựng video do nhóm anh làm, và cho nó một kỹ năng QA video kiểm tra mọi video trước khi đăng; không qua thì không đăng."
+        },
+        "fr": {
+          "title": "Une compétence de contrôle qualité vidéo a fiabilisé les vidéos de Grok Bot",
+          "summary": "L'auteur automatise la création de vidéos avec Grok Bot, mais certaines avaient des erreurs de montage ou un rythme maladroit. Deux changements ont réglé ça : connecter Grok Bot à API Hub, la plateforme de création et de montage vidéo de son équipe, et lui donner une compétence de contrôle qualité qui vérifie chaque vidéo avant publication ; rien ne sort sans la passer."
+        },
+        "es": {
+          "title": "Una habilidad de control de calidad de video arregló los videos irregulares de Grok Bot",
+          "summary": "El autor automatiza la creación de videos con Grok Bot, pero algunos salían con errores de edición o ritmo extraño. Dos cambios lo resolvieron: conectar Grok Bot a API Hub, la plataforma de creación y edición de video de su equipo, y darle una habilidad de control de calidad que revisa cada video antes de publicarlo; nada sale sin aprobarla."
+        },
+        "de": {
+          "title": "Ein Video-QA-Skill machte die Grok-Bot-Videos zuverlässig",
+          "summary": "Der Autor automatisiert die Videoproduktion mit Grok Bot, doch manche Videos hatten Schnittfehler oder holpriges Timing. Zwei Änderungen halfen: Grok Bot an API Hub anbinden, die Video-Plattform seines Teams, und ihm einen Video-QA-Skill geben, der jedes Video vor der Veröffentlichung prüft; ohne bestandene Prüfung geht nichts raus."
+        }
+      },
+      "source_url": "https://x.com/AskTolik/status/2115572445918769492",
+      "source_name": "X",
+      "author": "AskTolik",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-28",
+      "likes": 0,
+      "src": "x",
+      "text": "🚨 My GrokBot videos weren't good enough. Here's what finally fixed them.\n\nI've been using GrokBot to automate video creation, but I kept running into the same problem.\n\nSome videos looked amazing. Others had frustrating editing mistakes, awkward timing, or simply didn't meet my standards.\n\nSo I made two important changes.\n\n1️⃣ I connected GrokBot to API Hub\n\n👉 https://t.co/l3cM68Is27\n\nA powerful platform we built that lets AI agents create and edit high-quality videos and automate the entire content production workflow.\n\nThis was a massive upgrade.\n\nBut even with better tools, occasional editing mistakes still slipped through.\n\n2️⃣ I gave GrokBot its own Video QA skill.\n\nAnd this changed everything.\n\nNow, before any video gets published, GrokBot runs a quality assurance check.\n\nIt reviews the video, catches potential issues, and helps make sure the final result meets my standards.\n\nNo video gets published without passing QA.\n\nThe biggest lesson?\n\nAI automation isn't just about generating content faster.\n\nIt's about building a system that checks its own work.\n\n🔥 Want the exact GrokBot Video QA skill I'm using?\n\nComment \"Grokbot QA\" below, and I'll send you the skill so you can install it in your own GrokBot.\n\n#GrokBot #AIAutomation #APIHub #VideoEditing #AIAgents",
+      "media": [
+        "https://pbs.twimg.com/media/HVwF7VsW8AI4zS4.jpg"
+      ],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-asktolik-2115572445918769492",
+      "scen": [
+        "social"
+      ]
+    },
+    {
+      "title": "第一个 Grok Bot 要无聊到值得信任",
+      "summary": "作者建议别一上来就搭一整套角色组织，而是给一个 Grok Bot 一条有明确终点的流程：每天早上看未读客户邮件、按紧急度分组、补齐缺失背景、准备回复等你批准。然后评估交接：来源对不对、上下文是否保留、是否在该决策时交回、省的活是否多于添的活。",
+      "en": {
+        "title": "Your first Grok Bot should be boring enough to trust",
+        "summary": "Instead of designing an org chart of roles, the author suggests giving one Grok Bot one workflow with a visible finish line: every morning it reviews unread customer emails, groups them by urgency, researches missing context and prepares replies for approval. Then judge the handoff: right sources, preserved context, returning at the decision point, and removing more work than it creates."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "第一个 Grok Bot 要无聊到值得信任",
+          "summary": "作者建议别一上来就搭一整套角色组织，而是给一个 Grok Bot 一条有明确终点的流程：每天早上看未读客户邮件、按紧急度分组、补齐缺失背景、准备回复等你批准。然后评估交接：来源对不对、上下文是否保留、是否在该决策时交回、省的活是否多于添的活。"
+        },
+        "zh-TW": {
+          "title": "第一個 Grok Bot 要無聊到值得信任",
+          "summary": "作者建議別一開始就搭一整套角色組織，而是給一個 Grok Bot 一條有明確終點的流程：每天早上看未讀客戶郵件、按緊急程度分組、補齊缺少的背景、準備回覆等你核准。然後評估交接：來源對不對、脈絡是否保留、是否在該決策時交回、省下的工作是否多於增加的。"
+        },
+        "en": {
+          "title": "Your first Grok Bot should be boring enough to trust",
+          "summary": "Instead of designing an org chart of roles, the author suggests giving one Grok Bot one workflow with a visible finish line: every morning it reviews unread customer emails, groups them by urgency, researches missing context and prepares replies for approval. Then judge the handoff: right sources, preserved context, returning at the decision point, and removing more work than it creates."
+        },
+        "ja": {
+          "title": "最初のGrok Botは信頼できるほど地味でいい",
+          "summary": "役割を並べた組織図を作るより、1つのGrok Botにゴールが見える1つの業務を任せようと作者は提案する。毎朝、未読の顧客メールを確認し、緊急度で分類し、足りない背景を調べ、承認用の返信案を用意する。そのうえで、正しい情報源を使ったか、文脈を保ったか、判断の場面で戻してきたか、増やした仕事より減らした仕事が多いかで評価する。"
+        },
+        "ko": {
+          "title": "첫 Grok Bot은 믿을 수 있을 만큼 지루해야 한다",
+          "summary": "작성자는 역할을 잔뜩 나눈 조직도 대신 Grok Bot 하나에 끝이 분명한 업무 하나를 맡기라고 권한다. 매일 아침 읽지 않은 고객 이메일을 검토하고, 긴급도별로 묶고, 빠진 맥락을 조사하고, 승인용 답장을 준비한다. 그다음 인계를 평가한다: 올바른 출처, 맥락 유지, 결정 시점에 돌아왔는지, 만든 일보다 줄인 일이 많은지."
+        },
+        "ms": {
+          "title": "Grok Bot pertama anda patut cukup membosankan untuk dipercayai",
+          "summary": "Daripada mereka carta organisasi penuh peranan, penulis mencadangkan satu Grok Bot untuk satu aliran kerja dengan garis penamat yang jelas: setiap pagi ia menyemak e-mel pelanggan yang belum dibaca, mengumpulkannya ikut keutamaan, mencari konteks yang hilang dan menyediakan balasan untuk diluluskan. Kemudian nilai serahannya: sumber betul, konteks terpelihara, kembali pada titik keputusan, dan mengurangkan lebih banyak kerja daripada yang ditambah."
+        },
+        "vi": {
+          "title": "Grok Bot đầu tiên nên đủ nhàm chán để tin được",
+          "summary": "Thay vì vẽ cả sơ đồ tổ chức nhiều vai trò, tác giả gợi ý giao cho một Grok Bot một quy trình có đích rõ ràng: mỗi sáng xem email khách hàng chưa đọc, nhóm theo mức khẩn, tìm bối cảnh còn thiếu và soạn sẵn trả lời chờ duyệt. Sau đó đánh giá khâu bàn giao: đúng nguồn, giữ ngữ cảnh, trả lại đúng lúc cần quyết định, và bớt việc nhiều hơn là tạo thêm."
+        },
+        "fr": {
+          "title": "Votre premier Grok Bot doit être assez ennuyeux pour qu'on lui fasse confiance",
+          "summary": "Plutôt qu'un organigramme de rôles, l'auteur conseille de confier à un seul Grok Bot un seul flux avec une ligne d'arrivée claire : chaque matin, relire les e-mails clients non lus, les classer par urgence, chercher le contexte manquant et préparer des réponses à approuver. Puis juger la passation : bonnes sources, contexte préservé, retour au bon moment de décision, et plus de travail retiré qu'ajouté."
+        },
+        "es": {
+          "title": "Tu primer Grok Bot debe ser lo bastante aburrido como para confiar en él",
+          "summary": "En lugar de diseñar un organigrama de roles, el autor propone dar a un solo Grok Bot un solo flujo con meta visible: cada mañana revisa los correos de clientes sin leer, los agrupa por urgencia, investiga el contexto que falta y prepara respuestas para aprobar. Luego se evalúa la entrega: fuentes correctas, contexto preservado, vuelta en el punto de decisión y si quita más trabajo del que crea."
+        },
+        "de": {
+          "title": "Dein erster Grok Bot sollte langweilig genug sein, um ihm zu vertrauen",
+          "summary": "Statt eines Organigramms voller Rollen rät der Autor, einem Grok Bot einen Ablauf mit klarem Ziel zu geben: jeden Morgen ungelesene Kundenmails prüfen, nach Dringlichkeit gruppieren, fehlenden Kontext recherchieren und Antworten zur Freigabe vorbereiten. Dann die Übergabe bewerten: richtige Quellen, erhaltener Kontext, Rückmeldung am Entscheidungspunkt und mehr Arbeit abgenommen als erzeugt."
+        }
+      },
+      "source_url": "https://x.com/ellowmeAI/status/2115416223584305209",
+      "source_name": "X",
+      "author": "ellowmeAI",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-10-28",
+      "likes": 1,
+      "src": "x",
+      "text": "YOUR FIRST GROK BOT SHOULD BE BORING ENOUGH TO TRUST.\n\nmost people see “AI teammate” and immediately design an org chart: a stack of roles, every available tool, and a vague mission to “run the business.”\n\nit looks ambitious. it is also impossible to debug when the output goes wrong.\n\nthe smarter first move is narrower. give one Grok Bot one workflow with a visible finish line. every morning, it reviews unread customer emails, groups them by urgency, researches the missing context, and prepares replies for approval.\n\nthen judge the handoff, not the performance.\n\ndid it use the right sources? \ndid it preserve context?\ndid it return at the right decision point? \ndid it remove more work than it created?\n\nif it fails, the scope is small enough to correct once and test again. if it works, you now have a repeatable unit that can expand without pretending to be an entire company.\n\nthe first useful Grok Bot will not feel like a new department.\n\nit will feel like one task you stopped carrying.",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115415576130535425/img/n63V0rmpV3JgmASg.jpg"
+      ],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-ellowmeai-2115416223584305209",
+      "scen": [
+        "inbox",
+        "research",
+        "ship"
+      ]
+    },
+    {
+      "title": "在 Windows 上安装并开始用 Grok Bot 的步骤",
+      "summary": "作者发布视频教程：打开下载页，点 Download for Windows，运行安装程序选择安装对象和文件夹后安装；打开 Grok Bot 连接 X 账号；在设置的 Usage & Billing 里点 Manage Plan，确认是免费方案并添加 Visa 或 Mastercard 设置账单；最后在网页上用 X 登录并授权应用。",
+      "en": {
+        "title": "Steps to install and start using Grok Bot on Windows",
+        "summary": "A video guide: open the download page, click Download for Windows, run the installer and pick who to install for and a folder; open Grok Bot and connect your X account; in Settings under Usage & Billing click Manage Plan, confirm the Free plan and add a Visa or Mastercard for billing; finally sign in on the web with X and authorize the app."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "在 Windows 上安装并开始用 Grok Bot 的步骤",
+          "summary": "作者发布视频教程：打开下载页，点 Download for Windows，运行安装程序选择安装对象和文件夹后安装；打开 Grok Bot 连接 X 账号；在设置的 Usage & Billing 里点 Manage Plan，确认是免费方案并添加 Visa 或 Mastercard 设置账单；最后在网页上用 X 登录并授权应用。"
+        },
+        "zh-TW": {
+          "title": "在 Windows 上安裝並開始使用 Grok Bot 的步驟",
+          "summary": "作者發布影片教學：打開下載頁，點 Download for Windows，執行安裝程式選擇安裝對象和資料夾後安裝；打開 Grok Bot 連結 X 帳號；在設定的 Usage & Billing 裡點 Manage Plan，確認是免費方案並新增 Visa 或 Mastercard 設定帳單；最後在網頁上用 X 登入並授權應用程式。"
+        },
+        "en": {
+          "title": "Steps to install and start using Grok Bot on Windows",
+          "summary": "A video guide: open the download page, click Download for Windows, run the installer and pick who to install for and a folder; open Grok Bot and connect your X account; in Settings under Usage & Billing click Manage Plan, confirm the Free plan and add a Visa or Mastercard for billing; finally sign in on the web with X and authorize the app."
+        },
+        "ja": {
+          "title": "WindowsでGrok Botをインストールして使い始める手順",
+          "summary": "動画ガイドの手順：ダウンロードページで「Download for Windows」をクリックし、インストーラーで対象ユーザーとフォルダーを選んでインストール。Grok Botを開いてXアカウントを接続。設定のUsage & BillingでManage Planを開き、Freeプランを確認してVisaかMastercardを登録。最後にWeb上でXでサインインしてアプリを認可する。"
+        },
+        "ko": {
+          "title": "Windows에서 Grok Bot을 설치하고 시작하는 단계",
+          "summary": "영상 가이드: 다운로드 페이지에서 Download for Windows를 누르고, 설치 프로그램에서 설치 대상과 폴더를 골라 설치한다. Grok Bot을 열어 X 계정을 연결한다. 설정의 Usage & Billing에서 Manage Plan을 눌러 Free 플랜을 확인하고 Visa나 Mastercard를 등록한다. 마지막으로 웹에서 X로 로그인해 앱을 승인한다."
+        },
+        "ms": {
+          "title": "Langkah memasang dan mula menggunakan Grok Bot di Windows",
+          "summary": "Panduan video: buka halaman muat turun, klik Download for Windows, jalankan pemasang dan pilih untuk siapa serta folder; buka Grok Bot dan sambungkan akaun X; dalam Settings di bawah Usage & Billing klik Manage Plan, sahkan pelan Free dan tambah kad Visa atau Mastercard untuk bil; akhir sekali log masuk di web dengan X dan benarkan aplikasi."
+        },
+        "vi": {
+          "title": "Các bước cài và bắt đầu dùng Grok Bot trên Windows",
+          "summary": "Hướng dẫn video: mở trang tải, bấm Download for Windows, chạy trình cài đặt, chọn người dùng và thư mục; mở Grok Bot và kết nối tài khoản X; trong Settings mục Usage & Billing bấm Manage Plan, xác nhận gói Free và thêm thẻ Visa hoặc Mastercard để thanh toán; cuối cùng đăng nhập web bằng X và cấp quyền cho ứng dụng."
+        },
+        "fr": {
+          "title": "Étapes pour installer et commencer à utiliser Grok Bot sous Windows",
+          "summary": "Guide vidéo : ouvrir la page de téléchargement, cliquer sur Download for Windows, lancer l'installeur et choisir pour qui et le dossier ; ouvrir Grok Bot et connecter son compte X ; dans Settings, Usage & Billing, cliquer sur Manage Plan, vérifier le forfait Free et ajouter une carte Visa ou Mastercard ; enfin se connecter sur le web avec X et autoriser l'app."
+        },
+        "es": {
+          "title": "Pasos para instalar y empezar a usar Grok Bot en Windows",
+          "summary": "Guía en video: abrir la página de descarga, pulsar Download for Windows, ejecutar el instalador y elegir para quién y la carpeta; abrir Grok Bot y conectar la cuenta de X; en Settings, Usage & Billing, pulsar Manage Plan, confirmar el plan Free y añadir una Visa o Mastercard; por último iniciar sesión en la web con X y autorizar la app."
+        },
+        "de": {
+          "title": "Schritte zur Installation und zum Start von Grok Bot unter Windows",
+          "summary": "Video-Anleitung: Download-Seite öffnen, auf Download for Windows klicken, Installer ausführen und Benutzer sowie Ordner wählen; Grok Bot öffnen und das X-Konto verbinden; in den Settings unter Usage & Billing auf Manage Plan klicken, den Free-Plan bestätigen und eine Visa- oder Mastercard hinterlegen; zuletzt im Web mit X anmelden und die App autorisieren."
+        }
+      },
+      "source_url": "https://x.com/Lionieio/status/2115417688373616687",
+      "source_name": "X",
+      "author": "Lionieio",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-10-28",
+      "likes": 24,
+      "src": "x",
+      "text": "i made a video guide on how to use Grok Bot for FREE (version) on Windows 👇\n\n➜ Step 1: Open your browser and go to this link:\nhttps://t.co/nu91vGhPtD\n\n➜ Step 2: Click “Download for Windows” and open the setup file from your downloads.\n\n➜ Step 3: Run the installer. Choose who to install it for, click Next, pick a folder, then click Install.\n\n➜ Step 4: Open Grok Bot and connect your X account.\n\n➜ Step 5: Click your profile, go to Settings, then Usage & Billing.\n\n➜ Step 6: Click Manage Plan. You’ll see you’re on the Free plan. Add your card (Mastercard or Visa) to set up billing.\n\n➜ Step 7: Go to https://t.co/rakCeyUtrn, click Sign in, choose X, and click “Authorize app”.\n\n✅ That’s it. Grok Bot is ready to use.\n\nFollow @lionieio for more guides like this.",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115416887509061632/img/SZGKCWujsGf5QG5d.jpg"
+      ],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-lionieio-2115417688373616687",
+      "scen": [
+        "finance",
+        "ship"
+      ]
+    },
+    {
+      "title": "用 ChatGPT Dots 跑广告和 SEO 的 5 个指令",
+      "summary": "作者列出把 Ryze 接到 dot 后的 5 个用法：找出离搜索前排最近的页面并起草修改；按品牌风格从自家和竞品最佳广告生成 5 个 Meta 广告素材；列出花了钱却零成交的 Google Ads 关键词；比较 Google 与 Meta 后经你批准把预算移到单次成交成本最低处；每天早上列出待你决策的事项。",
+      "en": {
+        "title": "Five ChatGPT Dots prompts for ads and SEO",
+        "summary": "With Ryze connected to a dot, the author lists five uses: find the pages closest to the top of search and draft fixes; make 5 Meta ad creatives in your brand style from your best ads and competitors'; list every Google Ads term that spent with zero sales; compare Google and Meta and shift budget to the lowest cost per sale once you approve; and a morning list of what needs a decision."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用 ChatGPT Dots 跑广告和 SEO 的 5 个指令",
+          "summary": "作者列出把 Ryze 接到 dot 后的 5 个用法：找出离搜索前排最近的页面并起草修改；按品牌风格从自家和竞品最佳广告生成 5 个 Meta 广告素材；列出花了钱却零成交的 Google Ads 关键词；比较 Google 与 Meta 后经你批准把预算移到单次成交成本最低处；每天早上列出待你决策的事项。"
+        },
+        "zh-TW": {
+          "title": "用 ChatGPT Dots 跑廣告和 SEO 的 5 個指令",
+          "summary": "作者列出把 Ryze 接到 dot 後的 5 種用法：找出離搜尋前排最近的頁面並起草修改；依品牌風格從自家和競品最佳廣告產生 5 個 Meta 廣告素材；列出花了錢卻零成交的 Google Ads 關鍵字；比較 Google 與 Meta 後經你核准把預算移到單次成交成本最低處；每天早上列出待你決策的事項。"
+        },
+        "en": {
+          "title": "Five ChatGPT Dots prompts for ads and SEO",
+          "summary": "With Ryze connected to a dot, the author lists five uses: find the pages closest to the top of search and draft fixes; make 5 Meta ad creatives in your brand style from your best ads and competitors'; list every Google Ads term that spent with zero sales; compare Google and Meta and shift budget to the lowest cost per sale once you approve; and a morning list of what needs a decision."
+        },
+        "ja": {
+          "title": "ChatGPT Dotsで広告とSEOを回す5つの指示",
+          "summary": "Ryzeをdotにつないだ場合の5つの使い方：検索上位に近いページを見つけて改善案を作成、自社と競合の好成績広告からブランドに沿ったMeta広告素材を5本作成、売上ゼロで費用だけかかったGoogle Ads検索語を一覧化、GoogleとMetaを比べ承認後に1件あたり販売コストが最も低い方へ予算を移動、毎朝判断が必要な事項を短く一覧化。"
+        },
+        "ko": {
+          "title": "광고와 SEO를 위한 ChatGPT Dots 프롬프트 5개",
+          "summary": "Ryze를 dot에 연결했을 때의 다섯 가지 활용: 검색 상위에 가장 가까운 페이지를 찾아 수정안 작성, 자사와 경쟁사의 우수 광고를 바탕으로 브랜드 스타일의 Meta 광고 소재 5개 제작, 판매 없이 비용만 쓴 Google Ads 검색어 목록화, Google과 Meta를 비교해 승인 후 판매당 비용이 가장 낮은 쪽으로 예산 이동, 매일 아침 결정이 필요한 항목 목록."
+        },
+        "ms": {
+          "title": "Lima arahan ChatGPT Dots untuk iklan dan SEO",
+          "summary": "Dengan Ryze disambung ke dot, penulis menyenaraikan lima kegunaan: cari halaman yang paling hampir ke atas carian dan draf pembetulan; buat 5 kreatif iklan Meta dalam gaya jenama daripada iklan terbaik anda dan pesaing; senaraikan setiap istilah Google Ads yang berbelanja tanpa jualan; bandingkan Google dan Meta dan alihkan bajet ke kos jualan terendah selepas anda lulus; dan senarai pagi tentang perkara yang perlu keputusan."
+        },
+        "vi": {
+          "title": "5 lệnh ChatGPT Dots cho quảng cáo và SEO",
+          "summary": "Khi kết nối Ryze với dot, tác giả liệt kê 5 cách dùng: tìm các trang gần top tìm kiếm nhất và soạn đề xuất sửa; tạo 5 mẫu quảng cáo Meta theo phong cách thương hiệu từ quảng cáo tốt nhất của bạn và đối thủ; liệt kê mọi từ khóa Google Ads tốn tiền mà không bán được; so sánh Google và Meta rồi chuyển ngân sách sang nơi có chi phí mỗi đơn thấp nhất khi bạn duyệt; và danh sách buổi sáng những việc cần quyết định."
+        },
+        "fr": {
+          "title": "Cinq consignes ChatGPT Dots pour la pub et le SEO",
+          "summary": "Avec Ryze connecté à un dot, l'auteur liste cinq usages : trouver les pages les plus proches du haut des résultats et rédiger les corrections ; créer 5 visuels publicitaires Meta dans votre style à partir de vos meilleures pubs et de celles des concurrents ; lister les termes Google Ads dépensés sans aucune vente ; comparer Google et Meta et déplacer le budget vers le coût par vente le plus bas après accord ; et une liste matinale des décisions à prendre."
+        },
+        "es": {
+          "title": "Cinco instrucciones de ChatGPT Dots para anuncios y SEO",
+          "summary": "Con Ryze conectado a un dot, el autor enumera cinco usos: encontrar las páginas más cerca de la cima en buscadores y redactar arreglos; crear 5 creatividades para Meta con tu estilo de marca a partir de tus mejores anuncios y los de la competencia; listar los términos de Google Ads que gastaron sin ventas; comparar Google y Meta y mover presupuesto al menor costo por venta tras tu aprobación; y una lista matutina de lo que requiere decisión."
+        },
+        "de": {
+          "title": "Fünf ChatGPT-Dots-Anweisungen für Werbung und SEO",
+          "summary": "Mit Ryze an einem dot nennt der Autor fünf Einsätze: Seiten finden, die am nächsten an den Top-Suchergebnissen sind, und Korrekturen entwerfen; 5 Meta-Anzeigenmotive im Markenstil aus den besten eigenen und fremden Anzeigen erstellen; alle Google-Ads-Begriffe mit Kosten, aber ohne Verkauf auflisten; Google und Meta vergleichen und nach Freigabe Budget zum niedrigsten Preis pro Verkauf verschieben; und morgens eine Liste offener Entscheidungen."
+        }
+      },
+      "source_url": "https://x.com/irabukht/status/2115527755068850378",
+      "source_name": "X",
+      "author": "irabukht",
+      "product": "openai-dots",
+      "type": "guide",
+      "date": "2026-10-28",
+      "likes": 104,
+      "src": "x",
+      "text": "ChatGPT dots for ads and SEO\n\nRuns your marketing like a top agency 👇\n\n1/ “Make me #1 on Google and ChatGPT”\n->  Finds the pages closest to the top and drafts what to fix\n\n2/ “Make 5 new Meta ad creatives”\n->  Built from your best ads and your competitors’, in your brand style\n\n3/ “Which search terms wasted money?”\n->  Lists every Google Ads term that spent with zero sales\n\n4/ “Move budget to the lowest cost per sale”\n->  Compares Google and Meta, then shifts money once you approve\n\n5/ “Every morning, tell me what needs a decision”\n->  A short list of what it found and what’s ready to approve\n\nConnect Ryze to your dot in 3 minutes: https://t.co/QuiNjz06F1",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115527666229211136/img/LYyWlF_J-DPCmtxk.jpg"
+      ],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-irabukht-2115527755068850378",
+      "scen": [
+        "research",
+        "finance",
+        "ship"
+      ]
+    },
+    {
+      "title": "X 用户自报的 Meta Muse 实用案例汇总",
+      "summary": "作者汇总 X 上的 Muse 用例：打电话谈电信费，如 AT&T 从 80 降到 40 美元，Peter Yang 称一年省 800 多美元；重审车险年省 3,500 美元；航班延误 7 小时约 5 分钟拿到 Delta 250 美元抵用金；找出 1,500 多美元无人认领财产；还有订阅审计、日本餐厅与酒店预订、Marketplace 买卖、Instacart 下单、批量求职等。作者提醒多为自我报告。",
+      "en": {
+        "title": "A roundup of Meta Muse use cases reported by X users",
+        "summary": "The author collects Muse cases from X: negotiating phone and internet bills by calling, such as AT&T from $80 to $40, with Peter Yang reporting over $800 a year saved; a car insurance review saving $3,500 a year; a $250 Delta credit in about 5 minutes after a 7-hour delay; finding over $1,500 in unclaimed property; plus subscription audits, Japan restaurant and hotel bookings, Marketplace selling, Instacart orders and bulk job applications. Most are self-reported."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "X 用户自报的 Meta Muse 实用案例汇总",
+          "summary": "作者汇总 X 上的 Muse 用例：打电话谈电信费，如 AT&T 从 80 降到 40 美元，Peter Yang 称一年省 800 多美元；重审车险年省 3,500 美元；航班延误 7 小时约 5 分钟拿到 Delta 250 美元抵用金；找出 1,500 多美元无人认领财产；还有订阅审计、日本餐厅与酒店预订、Marketplace 买卖、Instacart 下单、批量求职等。作者提醒多为自我报告。"
+        },
+        "zh-TW": {
+          "title": "X 使用者自述的 Meta Muse 實用案例彙整",
+          "summary": "作者彙整 X 上的 Muse 用例：打電話談電信費，如 AT&T 從 80 降到 40 美元，Peter Yang 稱一年省 800 多美元；重審車險年省 3,500 美元；航班延誤 7 小時約 5 分鐘拿到 Delta 250 美元抵用金；找出 1,500 多美元無人認領財產；還有訂閱稽核、日本餐廳與飯店預訂、Marketplace 買賣、Instacart 下單、大量求職等。作者提醒多為自我報告。"
+        },
+        "en": {
+          "title": "A roundup of Meta Muse use cases reported by X users",
+          "summary": "The author collects Muse cases from X: negotiating phone and internet bills by calling, such as AT&T from $80 to $40, with Peter Yang reporting over $800 a year saved; a car insurance review saving $3,500 a year; a $250 Delta credit in about 5 minutes after a 7-hour delay; finding over $1,500 in unclaimed property; plus subscription audits, Japan restaurant and hotel bookings, Marketplace selling, Instacart orders and bulk job applications. Most are self-reported."
+        },
+        "ja": {
+          "title": "Xユーザーが報告したMeta Museの活用例まとめ",
+          "summary": "作者はX上のMuse活用例をまとめた。電話で通信費を交渉しAT&Tを80ドルから40ドルに、Peter Yang氏は年800ドル超の節約を報告。自動車保険の見直しで年3,500ドル節約、7時間遅延でDeltaから約5分で250ドルのクレジット、1,500ドル超の未請求財産の発見のほか、サブスク監査、日本のレストランやホテル予約、Marketplaceでの出品、Instacart注文、求人応募の自動化など。多くは自己申告だと注記している。"
+        },
+        "ko": {
+          "title": "X 사용자들이 보고한 Meta Muse 활용 사례 모음",
+          "summary": "작성자가 X에서 모은 Muse 사례: 전화로 통신비 협상(AT&T 80달러에서 40달러, Peter Yang은 연 800달러 이상 절약 보고), 자동차 보험 재검토로 연 3,500달러 절약, 7시간 지연 후 약 5분 만에 Delta 250달러 크레딧, 1,500달러 넘는 미청구 재산 발견, 그리고 구독 점검, 일본 식당·호텔 예약, Marketplace 판매, Instacart 주문, 대량 구직 지원 등. 대부분 자기 보고라고 밝힌다."
+        },
+        "ms": {
+          "title": "Himpunan kes penggunaan Meta Muse yang dilaporkan pengguna X",
+          "summary": "Penulis mengumpul kes Muse daripada X: berunding bil telefon dan internet dengan membuat panggilan, contohnya AT&T dari $80 ke $40, dengan Peter Yang melaporkan penjimatan lebih $800 setahun; semakan insurans kereta menjimatkan $3,500 setahun; kredit Delta $250 dalam kira-kira 5 minit selepas lewat 7 jam; menemui lebih $1,500 harta tidak dituntut; serta audit langganan, tempahan restoran dan hotel di Jepun, jualan Marketplace, pesanan Instacart dan permohonan kerja pukal. Kebanyakannya laporan sendiri."
+        },
+        "vi": {
+          "title": "Tổng hợp các trường hợp dùng Meta Muse do người dùng X kể lại",
+          "summary": "Tác giả gom các ca dùng Muse trên X: gọi điện thương lượng cước điện thoại và internet, như AT&T từ 80 xuống 40 USD, Peter Yang cho biết tiết kiệm hơn 800 USD mỗi năm; rà soát bảo hiểm xe tiết kiệm 3.500 USD/năm; nhận 250 USD tín dụng Delta trong khoảng 5 phút sau chuyến bay trễ 7 giờ; tìm ra hơn 1.500 USD tài sản chưa nhận; cùng kiểm tra thuê bao, đặt nhà hàng và khách sạn ở Nhật, bán hàng trên Marketplace, đặt Instacart và nộp đơn xin việc hàng loạt. Phần lớn là tự báo cáo."
+        },
+        "fr": {
+          "title": "Panorama des usages de Meta Muse rapportés par des utilisateurs de X",
+          "summary": "L'auteur rassemble des cas Muse vus sur X : négocier par téléphone des forfaits téléphone et internet, par exemple AT&T de 80 $ à 40 $, Peter Yang déclarant plus de 800 $ économisés par an ; une révision d'assurance auto économisant 3 500 $ par an ; un avoir Delta de 250 $ obtenu en environ 5 minutes après 7 h de retard ; plus de 1 500 $ de biens non réclamés retrouvés ; plus audit d'abonnements, réservations au Japon, ventes sur Marketplace, commandes Instacart et candidatures en masse. Surtout des témoignages."
+        },
+        "es": {
+          "title": "Recopilación de usos de Meta Muse contados por usuarios de X",
+          "summary": "El autor reúne casos de Muse en X: negociar por teléfono facturas de telefonía e internet, como AT&T de 80 a 40 $, con Peter Yang reportando más de 800 $ ahorrados al año; una revisión del seguro del coche que ahorra 3.500 $ al año; un crédito de Delta de 250 $ en unos 5 minutos tras 7 horas de retraso; más de 1.500 $ en bienes no reclamados; además de auditoría de suscripciones, reservas en Japón, ventas en Marketplace, pedidos de Instacart y solicitudes de empleo en masa. Casi todo es autorreportado."
+        },
+        "de": {
+          "title": "Sammlung von Meta-Muse-Anwendungsfällen, berichtet von X-Nutzern",
+          "summary": "Der Autor sammelt Muse-Fälle von X: Telefon- und Internetrechnungen per Anruf verhandeln, etwa AT&T von 80 $ auf 40 $, wobei Peter Yang über 800 $ Ersparnis pro Jahr meldet; eine Kfz-Versicherungsprüfung mit 3.500 $ Ersparnis pro Jahr; 250 $ Delta-Gutschrift in etwa 5 Minuten nach 7 Stunden Verspätung; über 1.500 $ nicht beanspruchtes Vermögen gefunden; dazu Abo-Prüfung, Buchungen in Japan, Marketplace-Verkäufe, Instacart-Bestellungen und Massenbewerbungen. Meist Selbstauskünfte."
+        }
+      },
+      "source_url": "https://x.com/yasutaketin/status/2115569980431634570",
+      "source_name": "X",
+      "author": "yasutaketin",
+      "product": "meta-muse",
+      "type": "guide",
+      "date": "2026-10-28",
+      "likes": 6,
+      "src": "x",
+      "text": "Meta Museの興味深い利用例（Xユーザー・実例中心） $META\n\nお金・請求まわり\n•電話・ネット回線の値引き交渉（実際に電話もかける）：AT&Tを$80→$40、Spectrumを$75→$40、Verizonを$516→$386など。Peter Yang氏は年$800超節約したと報告。\n•自動車保険の見直し：$3,500/年節約（同じ補償）、別事例では$500→$335/月に当日切り替え。\n•フライト遅延補償：7時間遅延でDeltaから$250クレジットを約5分で取得＋再予約。\n•運賃下落監視：予約済みフライトを監視して値下がり時にクレジット取得（$1,000超の例あり）。\n•未請求金の発見：州の未請求財産から$1,500超を5分程度で見つけ、申請書類まで作成。\n•サブスク監査：メールや明細を見て使っていないものを解約し、月$100超・年$1,200相当の節約例。\n\n旅行・予約\n•日本旅行のレストラン予約を全部Museに任せ、箱根のホテルに日本語で交渉して非公開ディナーを確保した例。\n•フライト・ホテル・移動・レストランを一気に組む。カレンダー連携で空き時間を見て予約。\n\n生活・その他\n•Facebook Marketplaceで出品・交渉・購入者対応。\n•「タコスの火曜日」みたいな曖昧な指示からInstacartでカート作成〜決済まで。\n•古いメール数万通の整理、返品手続き、HVACメンテ予約など、面倒な事務作業をまとめて処理。\n•求人応募を数十件自動化して面接まで進めた例。\n•イベント準備（ボランティア登録・メール対応・スケジュール作成）を任せて、当日は行くだけ。\n\n傾向 特に「請求交渉・保険見直し・返金・未請求金」が突出して効果を出しており、Xでも「Museが一番使ってるAIになった」「Claude解約した」といった声が見られます。買い物・予約系も多いですが、Amazonはブロックするなどサイトによる制限もあります。\n（多くは自己報告ベースなので、実際の結果はケースバイケースです）",
+      "media": [],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-yasutaketin-2115569980431634570",
+      "scen": [
+        "report",
+        "prs",
+        "food",
+        "shop",
+        "travel",
+        "jobs",
+        "ship"
+      ]
+    },
+    {
+      "title": "注意：Meta Muse 无法在 Amazon 购物",
+      "summary": "作者说明，自 2026 年 9 月中旬 Muse 上线后，Amazon 就阻止 Muse 访问其网站，打开时会弹出未授权 AI 代理违反使用条款的提示。Amazon 称 Meta 未事先请求许可、代理不表明身份且有处理登录信息的风险。替代做法是在 Walmart、Best Buy、Sephora、Wayfair、Shopify 店铺等未封锁的网站购物。",
+      "en": {
+        "title": "Heads-up: Meta Muse can't shop on Amazon",
+        "summary": "The author explains that since Muse launched in mid-September 2026, Amazon has blocked Muse from its site, showing a popup that continued access by an unauthorized AI agent violates its Conditions of Use. Amazon says Meta didn't ask permission, the agent doesn't identify itself, and handling login details is risky. Alternatives are sites that aren't blocked, such as Walmart, Best Buy, Sephora, Wayfair and Shopify stores."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "注意：Meta Muse 无法在 Amazon 购物",
+          "summary": "作者说明，自 2026 年 9 月中旬 Muse 上线后，Amazon 就阻止 Muse 访问其网站，打开时会弹出未授权 AI 代理违反使用条款的提示。Amazon 称 Meta 未事先请求许可、代理不表明身份且有处理登录信息的风险。替代做法是在 Walmart、Best Buy、Sephora、Wayfair、Shopify 店铺等未封锁的网站购物。"
+        },
+        "zh-TW": {
+          "title": "注意：Meta Muse 無法在 Amazon 購物",
+          "summary": "作者說明，自 2026 年 9 月中旬 Muse 上線後，Amazon 就封鎖 Muse 存取其網站，開啟時會跳出未授權 AI 代理違反使用條款的提示。Amazon 稱 Meta 未事先請求許可、代理不表明身分且有處理登入資訊的風險。替代做法是在 Walmart、Best Buy、Sephora、Wayfair、Shopify 商店等未封鎖的網站購物。"
+        },
+        "en": {
+          "title": "Heads-up: Meta Muse can't shop on Amazon",
+          "summary": "The author explains that since Muse launched in mid-September 2026, Amazon has blocked Muse from its site, showing a popup that continued access by an unauthorized AI agent violates its Conditions of Use. Amazon says Meta didn't ask permission, the agent doesn't identify itself, and handling login details is risky. Alternatives are sites that aren't blocked, such as Walmart, Best Buy, Sephora, Wayfair and Shopify stores."
+        },
+        "ja": {
+          "title": "注意：Meta MuseはAmazonで買い物できない",
+          "summary": "作者によると、2026年9月中旬のMuse公開直後からAmazonはMuseのアクセスをブロックしており、開くと許可のないAIエージェントの利用は利用規約違反だというポップアップが出る。Amazonは、事前に許可を求めていない、エージェントが名乗らない、ログイン情報を扱うリスクがあると説明。代わりにWalmart、Best Buy、Sephora、Wayfair、Shopify系店舗などブロックされていないサイトで買い物できる。"
+        },
+        "ko": {
+          "title": "주의: Meta Muse는 Amazon에서 쇼핑할 수 없다",
+          "summary": "작성자에 따르면 2026년 9월 중순 Muse 출시 직후부터 Amazon은 Muse의 접근을 차단했고, 열면 승인되지 않은 AI 에이전트의 접근은 이용 약관 위반이라는 팝업이 뜬다. Amazon은 사전 허가 요청이 없었고, 에이전트가 신원을 밝히지 않으며, 로그인 정보 처리 위험이 있다고 설명한다. 대안은 Walmart, Best Buy, Sephora, Wayfair, Shopify 매장처럼 차단되지 않은 사이트다."
+        },
+        "ms": {
+          "title": "Perhatian: Meta Muse tidak boleh membeli-belah di Amazon",
+          "summary": "Penulis menjelaskan sejak Muse dilancarkan pertengahan September 2026, Amazon menyekat Muse daripada lamannya, dengan pop timbul bahawa akses berterusan oleh ejen AI tanpa kebenaran melanggar Syarat Penggunaannya. Amazon berkata Meta tidak meminta izin, ejen tidak mengenal pasti dirinya, dan mengendalikan butiran log masuk berisiko. Alternatifnya ialah laman yang tidak disekat seperti Walmart, Best Buy, Sephora, Wayfair dan kedai Shopify."
+        },
+        "vi": {
+          "title": "Lưu ý: Meta Muse không mua sắm được trên Amazon",
+          "summary": "Tác giả giải thích từ khi Muse ra mắt giữa tháng 9/2026, Amazon đã chặn Muse truy cập trang, hiện thông báo rằng truy cập của tác tử AI không được phép là vi phạm điều khoản sử dụng. Amazon nói Meta không xin phép trước, tác tử không tự nhận danh tính và việc xử lý thông tin đăng nhập là rủi ro. Có thể mua ở các trang không bị chặn như Walmart, Best Buy, Sephora, Wayfair và các cửa hàng Shopify."
+        },
+        "fr": {
+          "title": "Attention : Meta Muse ne peut pas acheter sur Amazon",
+          "summary": "L'auteur explique que depuis le lancement de Muse mi-septembre 2026, Amazon bloque Muse sur son site avec une fenêtre indiquant que l'accès par un agent IA non autorisé viole ses conditions d'utilisation. Amazon reproche à Meta de ne pas avoir demandé la permission, à l'agent de ne pas s'identifier, et le risque lié aux identifiants. Alternatives : les sites non bloqués comme Walmart, Best Buy, Sephora, Wayfair et les boutiques Shopify."
+        },
+        "es": {
+          "title": "Aviso: Meta Muse no puede comprar en Amazon",
+          "summary": "El autor explica que desde el lanzamiento de Muse a mediados de septiembre de 2026, Amazon bloquea a Muse en su sitio con un aviso de que el acceso de un agente de IA no autorizado viola sus Condiciones de Uso. Amazon dice que Meta no pidió permiso, que el agente no se identifica y que manejar credenciales es arriesgado. Como alternativa, sitios no bloqueados como Walmart, Best Buy, Sephora, Wayfair y tiendas Shopify."
+        },
+        "de": {
+          "title": "Hinweis: Meta Muse kann nicht bei Amazon einkaufen",
+          "summary": "Laut Autor blockiert Amazon Muse seit dem Start Mitte September 2026 und zeigt einen Hinweis, dass weiterer Zugriff durch einen nicht autorisierten KI-Agenten gegen die Nutzungsbedingungen verstößt. Amazon begründet das damit, dass Meta nicht um Erlaubnis bat, der Agent sich nicht zu erkennen gibt und der Umgang mit Zugangsdaten riskant ist. Alternativen sind nicht gesperrte Shops wie Walmart, Best Buy, Sephora, Wayfair und Shopify-Läden."
+        }
+      },
+      "source_url": "https://x.com/yasutaketin/status/2115569438640758891",
+      "source_name": "X",
+      "author": "yasutaketin",
+      "product": "meta-muse",
+      "type": "guide",
+      "date": "2026-10-28",
+      "likes": 6,
+      "src": "x",
+      "text": "MuseはAmazonにブロックされて買い物出来ないの？ $META $AMZN\n\nはい、Amazonでは買い物できません。\nAmazonはMeta Museのローンチ直後（2026年9月中旬頃）から、Museによるhttps://t.co/j1CQEwpazcへのアクセスをブロックしています。\n状況\n•MuseでAmazonを開こうとすると、「Continued access by an unauthorized AI agent violates Amazon’s Conditions of Use」というポップアップが出て進めない。\n•Amazon側は「事前に許可を求めていない」「エージェントが自分を名乗らない」「ログイン情報を扱うリスクがある」として、MetaにAmazonをMuseの対象から外すよう要請したが、応じなかったためブロックした、と説明しています。\n背景 Amazonは自社の「Buy for Me」などのエージェントを推進しつつ、他社のエージェント（以前はPerplexityなども）が自サイトで買い物するのを積極的に防いでいます。Muse以外にも、一部の小売業者がエージェントによる購入を拒否する動きが出ています。\n代わりにできること\n•Walmart、Best Buy、Sephora、Wayfair、Shopify系店舗など、Museと連携している店舗や、ブロックされていないサイトでは買い物可能。\n•Amazon以外の一般的なサイトなら、ブラウザ経由で操作できるケースが多いです。\n現状、Amazonでの買い物は事実上使えない状態です。",
+      "media": [],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-yasutaketin-2115569438640758891",
+      "scen": [
+        "shop",
+        "security",
+        "ship"
+      ]
+    },
+    {
+      "title": "欧盟用户的个人代理体验：只有 Grok Bot 能用",
+      "summary": "作者在欧盟：Claude Duet 和 OpenAI dots 都还不能用，Grok Bot 可以用并在干活。他用它追踪哪些应用有 Duo 更新、盯着大量聊天消息以免漏掉，还用它学西班牙语。",
+      "en": {
+        "title": "A personal agent review from the EU: only Grok Bot is available",
+        "summary": "Writing from the EU, the author notes that Claude Duet and OpenAI dots are not available there, while Grok Bot is and does the work. He uses it to track which of his apps got Duo updates, keep an eye on the messenger flood so nothing slips, and learn Spanish."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "欧盟用户的个人代理体验：只有 Grok Bot 能用",
+          "summary": "作者在欧盟：Claude Duet 和 OpenAI dots 都还不能用，Grok Bot 可以用并在干活。他用它追踪哪些应用有 Duo 更新、盯着大量聊天消息以免漏掉，还用它学西班牙语。"
+        },
+        "zh-TW": {
+          "title": "歐盟使用者的個人代理體驗：只有 Grok Bot 能用",
+          "summary": "作者在歐盟：Claude Duet 和 OpenAI dots 都還不能用，Grok Bot 可以用並在做事。他用它追蹤哪些應用程式有 Duo 更新、盯著大量聊天訊息以免漏掉，還用它學西班牙文。"
+        },
+        "en": {
+          "title": "A personal agent review from the EU: only Grok Bot is available",
+          "summary": "Writing from the EU, the author notes that Claude Duet and OpenAI dots are not available there, while Grok Bot is and does the work. He uses it to track which of his apps got Duo updates, keep an eye on the messenger flood so nothing slips, and learn Spanish."
+        },
+        "ja": {
+          "title": "EUからの個人エージェント評：使えるのはGrok Botだけ",
+          "summary": "EU在住の作者によると、Claude DuetもOpenAI dotsも現地では使えず、使えるのはGrok Botで、実際に仕事をしている。どのアプリにDuoの更新が来たかの追跡、大量のメッセージの見落とし防止、スペイン語の学習に使っている。"
+        },
+        "ko": {
+          "title": "EU에서 본 개인 에이전트 리뷰: 쓸 수 있는 건 Grok Bot뿐",
+          "summary": "EU에 있는 작성자는 Claude Duet과 OpenAI dots는 그곳에서 쓸 수 없고 Grok Bot은 쓸 수 있으며 실제로 일을 한다고 말한다. 어떤 앱에 Duo 업데이트가 왔는지 추적하고, 쏟아지는 메신저 메시지를 놓치지 않게 살피고, 스페인어를 배우는 데 쓴다."
+        },
+        "ms": {
+          "title": "Ulasan ejen peribadi dari EU: hanya Grok Bot tersedia",
+          "summary": "Dari EU, penulis menyatakan Claude Duet dan OpenAI dots tidak tersedia di sana, manakala Grok Bot tersedia dan melakukan kerja. Dia menggunakannya untuk menjejak aplikasi mana yang mendapat kemas kini Duo, memantau lambakan mesej supaya tiada yang terlepas, dan belajar bahasa Sepanyol."
+        },
+        "vi": {
+          "title": "Đánh giá tác tử cá nhân từ EU: chỉ có Grok Bot dùng được",
+          "summary": "Ở EU, tác giả cho biết Claude Duet và OpenAI dots chưa có mặt, còn Grok Bot thì có và đang làm việc. Anh dùng nó để theo dõi ứng dụng nào có cập nhật Duo, canh dòng tin nhắn dồn dập để không sót gì, và học tiếng Tây Ban Nha."
+        },
+        "fr": {
+          "title": "Avis sur les agents personnels depuis l'UE : seul Grok Bot est disponible",
+          "summary": "Depuis l'UE, l'auteur note que Claude Duet et OpenAI dots n'y sont pas disponibles, alors que Grok Bot l'est et fait le travail. Il s'en sert pour suivre quelles applis ont reçu des mises à jour Duo, surveiller le flot de messages pour ne rien rater, et apprendre l'espagnol."
+        },
+        "es": {
+          "title": "Reseña de agentes personales desde la UE: solo Grok Bot está disponible",
+          "summary": "Desde la UE, el autor señala que Claude Duet y OpenAI dots no están disponibles allí, mientras que Grok Bot sí y hace el trabajo. Lo usa para seguir qué apps recibieron actualizaciones de Duo, vigilar la avalancha de mensajes para que nada se escape y aprender español."
+        },
+        "de": {
+          "title": "Persönliche Agenten aus EU-Sicht: Nur Grok Bot ist verfügbar",
+          "summary": "Aus der EU schreibt der Autor, dass Claude Duet und OpenAI dots dort nicht verfügbar sind, Grok Bot dagegen schon und die Arbeit erledigt. Er nutzt ihn, um zu verfolgen, welche Apps Duo-Updates bekamen, die Nachrichtenflut im Blick zu behalten, damit nichts untergeht, und Spanisch zu lernen."
+        }
+      },
+      "source_url": "https://x.com/Moriarty_tech/status/2115553116779078072",
+      "source_name": "X",
+      "author": "Moriarty_tech",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-28",
+      "likes": 0,
+      "src": "x",
+      "text": "Personal agent review, EU edition\nClaude Duet: not available here\nOpenAI dots: not available here\nGrok Bot: here and doing the work\nTracks which of my apps got Duo updates, keeps an eye on the messenger flood so nothing slips and teaches me Spanish\nEasy 5 stars when you're the https://t.co/1Xqopi9H6U",
+      "media": [
+        "https://pbs.twimg.com/media/HVv0RIeW4AAtSJQ.jpg"
+      ],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-moriartytech-2115553116779078072",
+      "scen": [
+        "research",
+        "ship"
+      ]
+    },
+    {
+      "title": "研究者设置常驻 AI 代理的 5 条建议",
+      "summary": "作者是科研人员：把代理的事分成直接做（易撤销，如归档收据）、每周摘要、少量紧急提醒、以你名义发出的事需先问；提醒越多越容易漏掉紧急的，所以提醒通道要小；文献更新用每周定时搜索就够；能看到什么比多聪明更重要，他只给个人 Gmail，不给机构邮箱；从容易撤销的事开始。",
+      "en": {
+        "title": "Five tips for researchers setting up an always-on agent",
+        "summary": "A researcher's advice: sort jobs into Do (easy to undo, like filing receipts), weekly Digest, rare urgent Ping, and Ask for anything sent in your name; keep the Ping lane tiny since extra alerts hide urgent ones; a scheduled weekly search is enough for literature updates; what it can see matters more than how smart it is, so his reads personal Gmail, not his institutional inbox; and start with jobs that are easy to undo."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "研究者设置常驻 AI 代理的 5 条建议",
+          "summary": "作者是科研人员：把代理的事分成直接做（易撤销，如归档收据）、每周摘要、少量紧急提醒、以你名义发出的事需先问；提醒越多越容易漏掉紧急的，所以提醒通道要小；文献更新用每周定时搜索就够；能看到什么比多聪明更重要，他只给个人 Gmail，不给机构邮箱；从容易撤销的事开始。"
+        },
+        "zh-TW": {
+          "title": "研究者設定常駐 AI 代理的 5 條建議",
+          "summary": "作者是研究人員：把代理的事分成直接做（易撤銷，如歸檔收據）、每週摘要、少量緊急提醒、以你名義發出的事需先問；提醒越多越容易漏掉緊急的，所以提醒通道要小；文獻更新用每週排程搜尋就夠；能看到什麼比多聰明更重要，他只給個人 Gmail，不給機構信箱；從容易撤銷的事開始。"
+        },
+        "en": {
+          "title": "Five tips for researchers setting up an always-on agent",
+          "summary": "A researcher's advice: sort jobs into Do (easy to undo, like filing receipts), weekly Digest, rare urgent Ping, and Ask for anything sent in your name; keep the Ping lane tiny since extra alerts hide urgent ones; a scheduled weekly search is enough for literature updates; what it can see matters more than how smart it is, so his reads personal Gmail, not his institutional inbox; and start with jobs that are easy to undo."
+        },
+        "ja": {
+          "title": "研究者が常時稼働エージェントを設定するための5つの助言",
+          "summary": "研究者である作者の助言：仕事を「実行」（領収書の整理など取り消しやすいもの）、週次の「ダイジェスト」、緊急でまれな「通知」、自分の名前で送るものは「確認」に分ける。通知が増えると緊急の通知を見落とすので通知は最小限に。文献の更新は週1回の定期検索で十分。賢さより何が見えるかが重要で、作者は個人のGmailだけを読ませ、所属機関のメールは渡していない。取り消しやすい仕事から始める。"
+        },
+        "ko": {
+          "title": "연구자가 상시 에이전트를 설정할 때의 팁 5가지",
+          "summary": "연구자인 작성자의 조언: 일을 실행(영수증 정리처럼 되돌리기 쉬운 것), 주간 요약, 드물고 긴급한 알림, 내 이름으로 보내는 건 확인 요청으로 나눈다. 알림이 늘면 긴급한 것을 놓치므로 알림 채널은 작게. 논문 업데이트는 주간 예약 검색이면 충분하다. 똑똑함보다 무엇을 볼 수 있는지가 중요해 그는 개인 Gmail만 읽게 하고 기관 메일은 주지 않는다. 되돌리기 쉬운 일부터 시작하라."
+        },
+        "ms": {
+          "title": "Lima petua untuk penyelidik yang menyediakan ejen sentiasa aktif",
+          "summary": "Nasihat seorang penyelidik: bahagikan kerja kepada Buat (mudah dibatalkan, seperti memfailkan resit), Ringkasan mingguan, Ping segera yang jarang, dan Tanya untuk apa-apa yang dihantar atas nama anda; kecilkan saluran Ping kerana amaran berlebihan menyembunyikan yang penting; carian mingguan berjadual cukup untuk kemas kini kajian; apa yang ia boleh lihat lebih penting daripada kepintarannya, jadi miliknya membaca Gmail peribadi, bukan peti institusi; dan mula dengan kerja yang mudah dibatalkan."
+        },
+        "vi": {
+          "title": "5 lời khuyên cho nhà nghiên cứu khi thiết lập tác tử luôn bật",
+          "summary": "Lời khuyên của một nhà nghiên cứu: chia việc thành Làm (dễ hoàn tác, như lưu hóa đơn), Tóm tắt hằng tuần, Báo gấp hiếm khi, và Hỏi trước với mọi thứ gửi dưới tên bạn; giữ kênh báo gấp thật nhỏ vì quá nhiều cảnh báo làm lấp việc gấp; cập nhật tài liệu chỉ cần tìm kiếm định kỳ hằng tuần; thứ nó nhìn thấy quan trọng hơn độ thông minh, nên anh chỉ cho đọc Gmail cá nhân, không cho hộp thư cơ quan; và bắt đầu với việc dễ hoàn tác."
+        },
+        "fr": {
+          "title": "Cinq conseils aux chercheurs qui configurent un agent toujours actif",
+          "summary": "Conseils d'un chercheur : classer les tâches en Faire (facile à annuler, comme ranger des reçus), Résumé hebdomadaire, Alerte urgente et rare, et Demander pour tout ce qui part en votre nom ; garder les alertes au minimum, car trop d'alertes masquent l'urgent ; une recherche hebdomadaire planifiée suffit pour la veille bibliographique ; ce que l'agent voit compte plus que son intelligence, donc le sien lit son Gmail perso, pas sa boîte institutionnelle ; et commencer par des tâches faciles à annuler."
+        },
+        "es": {
+          "title": "Cinco consejos para investigadores que configuran un agente siempre activo",
+          "summary": "Consejos de un investigador: dividir las tareas en Hacer (fácil de deshacer, como archivar recibos), Resumen semanal, Aviso urgente y poco frecuente, y Preguntar para todo lo que se envía en tu nombre; mantener mínimo el canal de avisos porque el exceso oculta lo urgente; una búsqueda semanal programada basta para la literatura; importa más lo que puede ver que lo listo que es, así que el suyo lee su Gmail personal, no el correo institucional; y empezar por tareas fáciles de deshacer."
+        },
+        "de": {
+          "title": "Fünf Tipps für Forschende, die einen dauerhaft aktiven Agenten einrichten",
+          "summary": "Rat eines Forschers: Aufgaben in Erledigen (leicht rückgängig zu machen, etwa Belege ablegen), wöchentlichen Digest, seltenen dringenden Ping und Nachfragen bei allem, was in deinem Namen rausgeht, aufteilen; den Ping-Kanal klein halten, weil zu viele Alarme das Dringende verdecken; für Literatur genügt eine geplante Wochensuche; wichtiger als Intelligenz ist, was er sehen darf, daher liest seiner das private Gmail, nicht das Dienstpostfach; und mit leicht umkehrbaren Aufgaben beginnen."
+        }
+      },
+      "source_url": "https://x.com/paraskarmachary/status/2115416019204465002",
+      "source_name": "X",
+      "author": "paraskarmachary",
+      "product": "multi",
+      "type": "guide",
+      "date": "2026-10-28",
+      "likes": 0,
+      "src": "x",
+      "text": "In 10 weeks, 4 AI labs shipped personal agents that never log off.\nMost researchers will hand them the wrong jobs.\n\nThis month I finished my April travel reimbursements.\n6 months late.\n\nFederally funded PIs spend an estimated 44% of research time on admin.\nChatGPT cleared my pile in one sitting. \nThen it hit me. An always-on agent would never let the pile form.\n\nWhat I'd tell any researcher setting one up:\n\n1️⃣ Decide what it handles without telling you\n↳ Do: easy to undo. Filing receipts.\n↳ Digest: weekly. New papers.\n↳ Ping: urgent and rare. A retraction of a paper you cite.\n↳ Ask: anything sent in your name.\n\n2️⃣ Every extra alert makes you likelier to miss the urgent one\n↳ Clinicians override 49% to 96% of drug safety alerts.\n↳ Keep the Ping lane tiny.\n\n3️⃣ Literature updates don't need an always-on agent\n↳ A scheduled weekly search in Claude or ChatGPT is enough.\n↳ Keep your PubMed alert as a scheduled task (personal AI agents is overkill).\n\n4️⃣ What it can see matters more than how smart it is\n↳ Mine reads my personal Gmail, not my institutional inbox. Work email and patient data wait for institutional approval.\n↳ Meta just paused Muse's chat sharing after about 6,800 shared links surfaced in public DNS records.\n\n5️⃣ Start with a job where a mistake is easy to undo\n↳ Receipts, filed by meeting as they arrive. You still press submit.\n\nOne catch: Dots aren't on ChatGPT Plus, and Claude Duet is a US waitlist. \n\n💬 Which admin job would you hand off first?\n\nMore on AI for academic research in my free newsletter (16,000+ researchers): https://t.co/XTq6dj6SoB",
+      "media": [
+        "https://pbs.twimg.com/media/HVt2YdiWoAArGIg.jpg"
+      ],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-paraskarmachary-2115416019204465002",
+      "scen": [
+        "inbox",
+        "report",
+        "calendar",
+        "research"
+      ]
+    },
+    {
+      "title": "用一份 11 行规则把 Grok Bot 组成 7 个 bot 的创业小队",
+      "summary": "帖子介绍一套 Grok Bot 配置：Scout、Pain Miner、Judge、Builder、Pitch、Inbox 和设 40 美元上限的 Buyer，各司一职，由 Chief 读账本汇总。只有周一 9 点一个定时，Scout 扫 X，Judge 按 0 到 8 分判定做或砍，Builder 只开一个 PR 且不合并，Buyer 每次付款前都要问。按原作者估算每周约 60 次运行，而每小时轮询要 1,176 次。",
+      "en": {
+        "title": "An 11-line rulebook that turns Grok Bot into a 7-bot launch team",
+        "summary": "The post describes a Grok Bot setup with Scout, Pain Miner, Judge, Builder, Pitch, Inbox and a Buyer capped at $40, one job each, with Chief reading the ledger. A single clock on Monday at 09:00 starts Scout scanning X; Judge scores ideas 0 to 8 as GO or KILL; Builder opens one pull request and never merges; Buyer asks before every payment. By the author's math it is about 60 runs a week versus 1,176 for hourly polling."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用一份 11 行规则把 Grok Bot 组成 7 个 bot 的创业小队",
+          "summary": "帖子介绍一套 Grok Bot 配置：Scout、Pain Miner、Judge、Builder、Pitch、Inbox 和设 40 美元上限的 Buyer，各司一职，由 Chief 读账本汇总。只有周一 9 点一个定时，Scout 扫 X，Judge 按 0 到 8 分判定做或砍，Builder 只开一个 PR 且不合并，Buyer 每次付款前都要问。按原作者估算每周约 60 次运行，而每小时轮询要 1,176 次。"
+        },
+        "zh-TW": {
+          "title": "用一份 11 行規則把 Grok Bot 組成 7 個 bot 的創業小隊",
+          "summary": "貼文介紹一套 Grok Bot 配置：Scout、Pain Miner、Judge、Builder、Pitch、Inbox 和設 40 美元上限的 Buyer，各司一職，由 Chief 讀帳本彙整。只有週一 9 點一個排程，Scout 掃 X，Judge 以 0 到 8 分判定做或砍，Builder 只開一個 PR 且不合併，Buyer 每次付款前都要問。依原作者估算每週約 60 次執行，而每小時輪詢要 1,176 次。"
+        },
+        "en": {
+          "title": "An 11-line rulebook that turns Grok Bot into a 7-bot launch team",
+          "summary": "The post describes a Grok Bot setup with Scout, Pain Miner, Judge, Builder, Pitch, Inbox and a Buyer capped at $40, one job each, with Chief reading the ledger. A single clock on Monday at 09:00 starts Scout scanning X; Judge scores ideas 0 to 8 as GO or KILL; Builder opens one pull request and never merges; Buyer asks before every payment. By the author's math it is about 60 runs a week versus 1,176 for hourly polling."
+        },
+        "ja": {
+          "title": "11行のルールでGrok Botを7体のローンチチームにする",
+          "summary": "投稿が紹介するGrok Bot構成：Scout、Pain Miner、Judge、Builder、Pitch、Inbox、上限40ドルのBuyerがそれぞれ1つの役割を持ち、Chiefが台帳を読んでまとめる。時計は月曜9時の1つだけで、ScoutがXを調べ、Judgeがアイデアを0〜8点でGOかKILLに判定、BuilderはPRを1つ開くだけでマージしない、Buyerは支払いのたびに確認する。原作者の計算で週約60回の実行、毎時ポーリングなら1,176回。"
+        },
+        "ko": {
+          "title": "11줄 규칙으로 Grok Bot을 7개 봇 출시 팀으로 만들기",
+          "summary": "게시물이 소개하는 Grok Bot 구성: Scout, Pain Miner, Judge, Builder, Pitch, Inbox, 40달러 한도의 Buyer가 각자 하나의 역할을 맡고 Chief가 장부를 읽는다. 시계는 월요일 9시 하나뿐이며 Scout가 X를 훑고, Judge가 아이디어를 0~8점으로 GO 또는 KILL 판정하고, Builder는 PR 하나만 열고 병합하지 않으며, Buyer는 결제마다 묻는다. 원작자 계산으로 주 약 60회 실행, 매시간 폴링이면 1,176회."
+        },
+        "ms": {
+          "title": "Buku peraturan 11 baris yang menjadikan Grok Bot pasukan pelancaran 7 bot",
+          "summary": "Siaran ini menerangkan persediaan Grok Bot dengan Scout, Pain Miner, Judge, Builder, Pitch, Inbox dan Buyer berhad $40, satu tugas setiap satu, dengan Chief membaca lejar. Satu jam sahaja pada Isnin 09:00 memulakan Scout mengimbas X; Judge memberi skor idea 0 hingga 8 sebagai GO atau KILL; Builder membuka satu pull request dan tidak pernah merge; Buyer bertanya sebelum setiap bayaran. Mengikut kiraan penulis asal, kira-kira 60 larian seminggu berbanding 1,176 untuk tinjauan setiap jam."
+        },
+        "vi": {
+          "title": "Bộ quy tắc 11 dòng biến Grok Bot thành đội ra mắt 7 bot",
+          "summary": "Bài đăng mô tả một cấu hình Grok Bot gồm Scout, Pain Miner, Judge, Builder, Pitch, Inbox và Buyer giới hạn 40 USD, mỗi bot một việc, Chief đọc sổ ghi. Chỉ một mốc giờ là 9:00 thứ Hai để Scout quét X; Judge chấm ý tưởng 0–8 thành GO hoặc KILL; Builder mở một pull request và không bao giờ merge; Buyer hỏi trước mỗi khoản thanh toán. Theo tính toán của tác giả gốc, khoảng 60 lượt chạy mỗi tuần so với 1.176 nếu hỏi mỗi giờ."
+        },
+        "fr": {
+          "title": "Un règlement de 11 lignes qui fait de Grok Bot une équipe de lancement de 7 bots",
+          "summary": "Le post décrit une configuration Grok Bot avec Scout, Pain Miner, Judge, Builder, Pitch, Inbox et un Buyer plafonné à 40 $, une tâche chacun, Chief lisant le registre. Une seule horloge, le lundi à 9 h, lance Scout sur X ; Judge note les idées de 0 à 8, GO ou KILL ; Builder ouvre une seule pull request sans jamais merger ; Buyer demande avant chaque paiement. Selon l'auteur d'origine, environ 60 exécutions par semaine contre 1 176 en sondage horaire."
+        },
+        "es": {
+          "title": "Un reglamento de 11 líneas que convierte Grok Bot en un equipo de lanzamiento de 7 bots",
+          "summary": "El post describe una configuración de Grok Bot con Scout, Pain Miner, Judge, Builder, Pitch, Inbox y un Buyer con tope de 40 $, una tarea cada uno, y Chief leyendo el registro. Un solo reloj, el lunes a las 9:00, pone a Scout a revisar X; Judge puntúa ideas de 0 a 8 como GO o KILL; Builder abre un solo pull request y nunca fusiona; Buyer pregunta antes de cada pago. Según el autor original, unas 60 ejecuciones por semana frente a 1.176 con consultas cada hora."
+        },
+        "de": {
+          "title": "Ein 11-Zeilen-Regelwerk macht Grok Bot zu einem Launch-Team aus 7 Bots",
+          "summary": "Der Post beschreibt ein Grok-Bot-Setup mit Scout, Pain Miner, Judge, Builder, Pitch, Inbox und einem auf 40 $ begrenzten Buyer, je eine Aufgabe, während Chief das Protokoll liest. Ein einziger Zeitplan, Montag 9:00, startet Scout auf X; Judge bewertet Ideen von 0 bis 8 als GO oder KILL; Builder öffnet genau einen Pull Request und merged nie; Buyer fragt vor jeder Zahlung. Nach Rechnung des ursprünglichen Autors etwa 60 Läufe pro Woche statt 1.176 bei stündlichem Abfragen."
+        }
+      },
+      "source_url": "https://x.com/0xAIGOAT/status/2115405466801222020",
+      "source_name": "X",
+      "author": "0xAIGOAT",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-10-28",
+      "likes": 2,
+      "src": "x",
+      "text": "Holy sh*t... Elon's xAI built Grok Bot, and one 11-line rulebook turns it into a 7-bot team that launches ideas from X while your laptop is closed 🤯\n\nMeanwhile most people still run hourly bots that burn 1,176 runs a week asking \"anything new?\"\n\nScout, Pain Miner, Judge, Builder, Pitch, Inbox, even a Buyer with a $40 cap. One job each, and Chief reads the ledger so you don't have to\n\n-> Monday 09:00: Scout scans X. The only clock\n-> Judge scores the idea 0-8: GO or KILL\n-> Builder opens ONE pull request and never merges\n-> Pitch makes the deck, the launch post and the video\n-> Buyer asks before every single payment\n\n1 clock, 6 triggers, about 60 runs a week by the author's math. No cap. Well, one cap: $40 💸\n\nWatch 0:09  when 60 lands next to 1,176.\n\nBy Friday the idea is dead with a written reason, or live with a domain, a deck and its first users. Your whole job is approving the money and the posts.\n\nRun it today, not tomorrow. Prompts in the replies, full guide below ↓",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2115347183545294848/img/99ag1VtR2IE0Xbql.jpg"
+      ],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-0xaigoat-2115405466801222020",
+      "scen": [
+        "inbox",
+        "prs",
+        "social",
+        "ship"
       ]
     },
     {
@@ -59892,6 +60849,152 @@
       ]
     },
     {
+      "title": "Muse 和 Grok Bot 怎么选：看任务组织方式而非功能清单",
+      "summary": "作者依据截至 2026 年 10 月 28 日的官方资料给出试用顺序：生活事务和个人目标管理先试 Meta Muse；有明确职责、重复交付和跨工具协作的工作先评估 Grok Bot。建议用约 10 个真实任务对比可接受交付、人工复核时间、严重错误、恢复结果和总成本，并说明这不是实测胜负。",
+      "en": {
+        "title": "Choosing between Muse and Grok Bot by how work is organized, not feature lists",
+        "summary": "Based on official material as of 2026-10-28, the author suggests a trial order: start with Meta Muse for personal preferences and life admin, and evaluate Grok Bot first for recurring research, file delivery and explicit responsibilities. Run about ten real tasks and track acceptable deliverables, review minutes, serious errors, recovery and total cost. He stresses it is not a tested ranking."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Muse 和 Grok Bot 怎么选：看任务组织方式而非功能清单",
+          "summary": "作者依据截至 2026 年 10 月 28 日的官方资料给出试用顺序：生活事务和个人目标管理先试 Meta Muse；有明确职责、重复交付和跨工具协作的工作先评估 Grok Bot。建议用约 10 个真实任务对比可接受交付、人工复核时间、严重错误、恢复结果和总成本，并说明这不是实测胜负。"
+        },
+        "zh-TW": {
+          "title": "Muse 和 Grok Bot 怎麼選：看任務組織方式而非功能清單",
+          "summary": "作者依據截至 2026 年 10 月 28 日的官方資料給出試用順序：生活事務和個人目標管理先試 Meta Muse；有明確職責、重複交付和跨工具協作的工作先評估 Grok Bot。建議用約 10 個真實任務比較可接受交付、人工複核時間、嚴重錯誤、恢復結果和總成本，並說明這不是實測勝負。"
+        },
+        "en": {
+          "title": "Choosing between Muse and Grok Bot by how work is organized, not feature lists",
+          "summary": "Based on official material as of 2026-10-28, the author suggests a trial order: start with Meta Muse for personal preferences and life admin, and evaluate Grok Bot first for recurring research, file delivery and explicit responsibilities. Run about ten real tasks and track acceptable deliverables, review minutes, serious errors, recovery and total cost. He stresses it is not a tested ranking."
+        },
+        "ja": {
+          "title": "MuseとGrok Botの選び方：機能一覧ではなく仕事の組み立て方で",
+          "summary": "作者は2026年10月28日時点の公式資料をもとに試す順番を提案。個人の好みや生活の事務はまずMeta Muse、定期的なリサーチやファイル納品、明確な担当業務はまずGrok Botを評価する。実際のタスク約10件で、受け入れ可能な成果物、確認にかかった時間、重大なミス、復旧、総コストを記録する。実測の優劣ではないと明記している。"
+        },
+        "ko": {
+          "title": "Muse와 Grok Bot 선택법: 기능 목록이 아니라 일의 구성 방식으로",
+          "summary": "작성자는 2026년 10월 28일 기준 공식 자료를 바탕으로 시험 순서를 제안한다. 개인 취향과 생활 관리에는 Meta Muse부터, 반복 리서치·파일 전달·명확한 책임이 있는 업무에는 Grok Bot부터 평가한다. 실제 작업 약 10개로 수용 가능한 결과물, 검토 시간, 심각한 오류, 복구, 총비용을 기록하라고 한다. 실측 순위가 아니라고 강조한다."
+        },
+        "ms": {
+          "title": "Memilih antara Muse dan Grok Bot ikut cara kerja disusun, bukan senarai ciri",
+          "summary": "Berdasarkan bahan rasmi setakat 2026-10-28, penulis mencadangkan urutan percubaan: mula dengan Meta Muse untuk keutamaan peribadi dan urusan hidup, dan nilai Grok Bot dahulu untuk penyelidikan berulang, penghantaran fail dan tanggungjawab yang jelas. Jalankan kira-kira sepuluh tugas sebenar dan jejak hasil yang diterima, minit semakan, ralat serius, pemulihan dan jumlah kos. Dia menegaskan ini bukan ranking yang diuji."
+        },
+        "vi": {
+          "title": "Chọn Muse hay Grok Bot theo cách tổ chức công việc, không theo danh sách tính năng",
+          "summary": "Dựa trên tài liệu chính thức tính đến 28/10/2026, tác giả gợi ý thứ tự thử: việc cá nhân và quản lý đời sống thì thử Meta Muse trước; nghiên cứu định kỳ, bàn giao tệp và trách nhiệm rõ ràng thì đánh giá Grok Bot trước. Chạy khoảng 10 việc thật và theo dõi sản phẩm đạt yêu cầu, số phút rà soát, lỗi nghiêm trọng, khả năng khôi phục và tổng chi phí. Anh nhấn mạnh đây không phải xếp hạng đã kiểm chứng."
+        },
+        "fr": {
+          "title": "Choisir entre Muse et Grok Bot selon l'organisation du travail, pas les listes de fonctions",
+          "summary": "D'après les documents officiels au 28 octobre 2026, l'auteur propose un ordre d'essai : commencer par Meta Muse pour les préférences personnelles et l'administratif du quotidien, et évaluer d'abord Grok Bot pour la recherche récurrente, la livraison de fichiers et les responsabilités explicites. Tester une dizaine de tâches réelles en suivant livrables acceptables, minutes de relecture, erreurs graves, récupération et coût total. Ce n'est pas un classement testé, précise-t-il."
+        },
+        "es": {
+          "title": "Elegir entre Muse y Grok Bot según cómo se organiza el trabajo, no por listas de funciones",
+          "summary": "Con material oficial a fecha del 28 de octubre de 2026, el autor propone un orden de prueba: empezar con Meta Muse para preferencias personales y trámites cotidianos, y evaluar primero Grok Bot para investigación recurrente, entrega de archivos y responsabilidades explícitas. Probar unas diez tareas reales midiendo entregas aceptables, minutos de revisión, errores graves, recuperación y costo total. Aclara que no es un ranking probado."
+        },
+        "de": {
+          "title": "Muse oder Grok Bot: nach Arbeitsorganisation wählen, nicht nach Feature-Listen",
+          "summary": "Auf Basis offizieller Unterlagen mit Stand 28.10.2026 schlägt der Autor eine Testreihenfolge vor: für persönliche Vorlieben und Alltagsorganisation zuerst Meta Muse, für wiederkehrende Recherche, Dateilieferung und klare Zuständigkeiten zuerst Grok Bot prüfen. Etwa zehn echte Aufgaben testen und brauchbare Ergebnisse, Prüfminuten, schwere Fehler, Wiederherstellung und Gesamtkosten erfassen. Er betont, dass es kein getestetes Ranking ist."
+        }
+      },
+      "source_url": "https://x.com/Bagel8343/status/2115293237707477291",
+      "source_name": "X",
+      "author": "Bagel8343",
+      "product": "multi",
+      "type": "comparison",
+      "date": "2026-10-28",
+      "likes": 3,
+      "src": "x",
+      "text": "How to choose between Muse and Grok Bot\n\nThe least useful agent comparison copies two feature lists and declares a winner. In practice, a disconnected tool, an unusable deliverable, or an unexpected action can matter more than the length of either list.\n\nMy recommendation is a testing order: start with Meta Muse for personal administration and goals; evaluate Grok Bot first for named responsibilities, recurring deliverables, and work across tools. Their capabilities overlap. This is a reading of official materials checked on October 28, 2026, not a head-to-head performance result.\n\nStart with how the work is organized\n\nMeta introduced Muse on September 8 and announced its Japan launch on October 23. These are existing developments, not news breaking today. Its positioning centers on a person’s goals, schedule, and everyday administration. [1] [2]\n\nGrok Bot emphasizes named Bots with defined jobs and durable working context. Its skills describe how work is done; routines determine when it runs. [3] [4] That makes it worth testing first when you want an ongoing industry researcher and a separate editorial responsibility.\n\nThis is a preference, not a capability wall. Muse’s design article also describes a terminal, document and webpage creation, and continuing background work. [5] It is not limited to personal errands. Compare how much explanation and correction each product needs for your recurring tasks.\n\nCheck eligibility before designing the workflow. A regional Muse announcement does not establish worldwide access. Grok Bot’s current documentation lists compatible Cursor and SuperGrok subscriptions, among others; an X badge alone is not sufficient evidence of access. [2] [3] Verify the actual plan, limits, and connections available to your account.\n\nThe overlooked distinction is the permission boundary\n\nGrok Bot’s detailed documentation says that Bots on the same account share a cloud computer, including files, browser sessions, and command-line credentials. Separate screens are not separate security boundaries. [6] Naming three Bots Researcher, Finance Assistant, and Personal Assistant does not automatically isolate their data.\n\nSharing makes handoffs easier: another Bot can continue saved work. It also changes what belongs in that environment. If clients or data classifications require strict separation, role descriptions are insufficient. Verify the product’s account or organizational isolation options; do not connect the data if those controls fail your requirements.\n\nMuse’s security article describes separating the agent runtime from sensitive services, with an independent Sentinel controlling connector actions and network egress. [7] That is a vendor-disclosed architecture, not my security audit or proof of zero risk. Neither product’s documentation establishes that the other is necessarily unsafe.\n\nTest a complete workflow\n\nConsider a weekly technology brief. My proposed workflow is to collect specified sources with event dates, shortlist three candidates, prepare bilingual copy and illustrations, verify facts and calculations, and check that delivered files open. Stop at a reviewable draft. Missing sources should produce a gap report, not recycled figures presented as current.\n\nIn Grok Bot, start with one Bot completing the whole task before splitting research and editing. Its documentation recommends validating a one-time task before saving a skill and scheduling a routine. [4] Adding Bots too early may add handoff and debugging costs. Apply identical acceptance criteria to Muse; a terminal and file-generation capability do not establish delivery quality.\n\nDefine authorization separately for sending, purchasing, and publishing. Grok Bot documents approvals and Auto Review rules: Ask first takes precedence when it also matches an Allow automatically rule. Muse describes confirmation for consequential actions too. [1] [8] The account, recipient, and exact version must be identifiable. Website operation does not establish permission for every platform automation. Validate drafting and publishing separately.\n\nThe revealing cases are an expired login, an inaccessible source, or a damaged attachment. Does it stop and explain, or claim completion? Can it resume from a checkpoint without repeating an external action? Include those cases rather than judging only a smooth demonstration.\n\nPrice your review time as well as the subscription\n\nTake a hypothetical example unrelated to either product’s actual plans. Suppose one option costs an extra $20 per month but saves two human minutes per accepted task. At $30 per hour, that releases $1 of time value per task. Twenty tasks cover the extra fee; 10 release $10 and 50 release $50.\n\nThe break-even assumes no additional setup or recovery cost. Extra costs raise the required volume. Released time is not necessarily cash savings: it matters only if time is actually freed and the opportunity-cost assumption is meaningful. Free entry does not mean zero total cost, and a higher fee does not establish better capability.\n\nI would test the same 10 tasks on both products, repeating each batch twice: five sourced research summaries, three content deliverables, and two spreadsheet outputs. Keep sources, acceptance criteria, and budgets equal. Add expired-login and missing-source tests. If a product cannot deliver an item, record that instead of quietly substituting an easier task.\n\nTrack acceptable deliverables, human review minutes per task, serious errors, recovery outcomes, and total costs. Include failed attempts and rework. Ten tasks are a starting point, not proof of general reliability. The goal is to choose for your work, not crown a universal winner.\n\nMy decision\n\nFor personal preferences and life administration, I would start with Muse. For recurring research, file delivery, and explicit responsibilities, I would evaluate Grok Bot first. That preference follows their product organization, not a ranking of model intelligence.\n\nIf the necessary connection, regional access, subscription, or data separation is missing, postpone the migration. Watch recovery, visible permissions, accepted-delivery rate, and review effort—not only new model names. Keep the product that reduces repeated explanation and rework on your tasks.\n\nPrimary sources\n\n[1] Meta  Introducing Muse https://t.co/otn9A3xQtI\n\n[2] Meta Japan  Muse launches in Japan https://t.co/xawKFU9XXJ\n\n[3] Grok Bot Docs  Overview https://t.co/6omTXiaBuu\n\n[4] Grok Bot Docs  Skills and routines https://t.co/tBTQE5Q2tv\n\n[5] Muse  How We Designed Muse https://t.co/jM044YbDVg\n\n[6] Grok Bot Docs  Use the computer and apps https://t.co/aZysmtA4yI\n\n[7] Meta AI Research  How We Built Safety Into Muse https://t.co/ymGiqmS90z\n\n[8] Grok Bot Docs  Approvals security and privacy https://t.co/k6f6Nw9yeA",
+      "media": [
+        "https://pbs.twimg.com/media/HVsH9ifXEAAh5ky.png",
+        "https://pbs.twimg.com/media/HVsH9jLWwAAaakQ.png",
+        "https://pbs.twimg.com/media/HVsH9jUXwAA_1NH.png",
+        "https://pbs.twimg.com/media/HVsH9jUWcAAZj1U.png"
+      ],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-bagel8343-2115293237707477291",
+      "scen": [
+        "research"
+      ]
+    },
+    {
+      "title": "一位小企业主对比 Dot、Muse、Grok Bot 和 Hermes",
+      "summary": "作者说 OpenAI Dot 很有前景但进化不多，且无法安全并行超过 2 到 3 个会话；Muse 精致且最主动，但不像为工作而做；他用于 X 的 Grok Bot 起初几次表现很笨，让他失去了信任；Hermes 适合研究和讨论想法，不适合实际干活。他在等 Claude Duet 再决定主力，因为把代理接入自己的生态很花时间。",
+      "en": {
+        "title": "A small business owner compares Dot, Muse, Grok Bot and Hermes",
+        "summary": "The author finds OpenAI Dot promising but slow to evolve, and it can't safely drive more than 2 or 3 sessions in parallel; Muse is polished and the most proactive but doesn't feel built for work; his Grok Bot for X was dumb a few times early on and lost his trust; Hermes is good for research and discussing ideas, not doing the work. He is waiting for Claude Duet before picking a daily driver, since setting up an agent takes time."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "一位小企业主对比 Dot、Muse、Grok Bot 和 Hermes",
+          "summary": "作者说 OpenAI Dot 很有前景但进化不多，且无法安全并行超过 2 到 3 个会话；Muse 精致且最主动，但不像为工作而做；他用于 X 的 Grok Bot 起初几次表现很笨，让他失去了信任；Hermes 适合研究和讨论想法，不适合实际干活。他在等 Claude Duet 再决定主力，因为把代理接入自己的生态很花时间。"
+        },
+        "zh-TW": {
+          "title": "一位小企業主比較 Dot、Muse、Grok Bot 和 Hermes",
+          "summary": "作者說 OpenAI Dot 很有前景但進化不多，且無法安全並行超過 2 到 3 個工作階段；Muse 精緻且最主動，但不像為工作而做；他用於 X 的 Grok Bot 起初幾次表現很笨，讓他失去了信任；Hermes 適合研究和討論想法，不適合實際做事。他在等 Claude Duet 再決定主力，因為把代理接入自己的生態很花時間。"
+        },
+        "en": {
+          "title": "A small business owner compares Dot, Muse, Grok Bot and Hermes",
+          "summary": "The author finds OpenAI Dot promising but slow to evolve, and it can't safely drive more than 2 or 3 sessions in parallel; Muse is polished and the most proactive but doesn't feel built for work; his Grok Bot for X was dumb a few times early on and lost his trust; Hermes is good for research and discussing ideas, not doing the work. He is waiting for Claude Duet before picking a daily driver, since setting up an agent takes time."
+        },
+        "ja": {
+          "title": "小規模事業者がDot・Muse・Grok Bot・Hermesを比較",
+          "summary": "作者の評価：OpenAI Dotは有望だが進化が少なく、並行で安全に動かせるのは2〜3セッションまで。Museは洗練されていて最も能動的だが仕事向きではない。X用に使っているGrok Botは最初に何度かお粗末な動きをして信頼を失った。Hermesはリサーチや議論には良いが実作業向きではない。エージェントの導入には時間がかかるため、Claude Duetを試してから常用を決めるという。"
+        },
+        "ko": {
+          "title": "소상공인이 비교한 Dot, Muse, Grok Bot, Hermes",
+          "summary": "작성자 평가: OpenAI Dot은 유망하지만 발전이 더디고 2~3개 넘는 세션을 안전하게 병렬로 돌리지 못한다. Muse는 세련되고 가장 능동적이지만 업무용 같지 않다. X용 Grok Bot은 초반에 몇 번 엉뚱하게 굴어 신뢰를 잃었다. Hermes는 리서치와 아이디어 논의에는 좋지만 실제 작업용은 아니다. 에이전트 설정에 시간이 들기 때문에 Claude Duet을 써본 뒤 주력을 정하겠다고 한다."
+        },
+        "ms": {
+          "title": "Pemilik perniagaan kecil membandingkan Dot, Muse, Grok Bot dan Hermes",
+          "summary": "Penulis mendapati OpenAI Dot menjanjikan tetapi lambat berkembang, dan tidak boleh menjalankan lebih 2 atau 3 sesi selari dengan selamat; Muse kemas dan paling proaktif tetapi tidak terasa dibina untuk kerja; Grok Bot miliknya untuk X beberapa kali bodoh pada awalnya dan hilang kepercayaannya; Hermes bagus untuk penyelidikan dan berbincang idea, bukan membuat kerja. Dia menunggu Claude Duet sebelum memilih, kerana menyediakan ejen mengambil masa."
+        },
+        "vi": {
+          "title": "Một chủ doanh nghiệp nhỏ so sánh Dot, Muse, Grok Bot và Hermes",
+          "summary": "Tác giả thấy OpenAI Dot hứa hẹn nhưng ít tiến triển, và không chạy song song an toàn quá 2–3 phiên; Muse chỉn chu và chủ động nhất nhưng không giống công cụ làm việc; Grok Bot anh dùng cho X vài lần đầu xử lý ngớ ngẩn nên mất lòng tin; Hermes tốt cho nghiên cứu và bàn ý tưởng chứ không làm việc thật. Anh chờ thử Claude Duet rồi mới chọn, vì thiết lập một tác tử tốn thời gian."
+        },
+        "fr": {
+          "title": "Un patron de petite entreprise compare Dot, Muse, Grok Bot et Hermes",
+          "summary": "Pour l'auteur, OpenAI Dot est prometteur mais évolue peu et ne peut pas gérer sans risque plus de 2 ou 3 sessions en parallèle ; Muse est soigné et le plus proactif, mais ne semble pas fait pour le travail ; son Grok Bot pour X a été bête plusieurs fois au début et a perdu sa confiance ; Hermes est bien pour la recherche et les idées, pas pour exécuter. Il attend Claude Duet avant de choisir, car configurer un agent prend du temps."
+        },
+        "es": {
+          "title": "Un dueño de pequeña empresa compara Dot, Muse, Grok Bot y Hermes",
+          "summary": "El autor ve OpenAI Dot prometedor pero con poca evolución, y no puede manejar con seguridad más de 2 o 3 sesiones en paralelo; Muse es pulido y el más proactivo, pero no parece hecho para trabajar; su Grok Bot para X fue torpe varias veces al principio y perdió su confianza; Hermes sirve para investigar y debatir ideas, no para hacer el trabajo. Espera a Claude Duet antes de elegir, porque configurar un agente lleva tiempo."
+        },
+        "de": {
+          "title": "Ein Kleinunternehmer vergleicht Dot, Muse, Grok Bot und Hermes",
+          "summary": "Der Autor hält OpenAI Dot für vielversprechend, aber es entwickelt sich kaum und kann nicht sicher mehr als 2 oder 3 Sitzungen parallel steuern; Muse ist ausgereift und am proaktivsten, wirkt aber nicht für die Arbeit gebaut; sein Grok Bot für X war anfangs einige Male dumm und verlor sein Vertrauen; Hermes taugt für Recherche und Ideen, nicht für die Ausführung. Er wartet auf Claude Duet, weil die Einrichtung eines Agenten Zeit kostet."
+        }
+      },
+      "source_url": "https://x.com/pocarles/status/2115566721855783137",
+      "source_name": "X",
+      "author": "pocarles",
+      "product": "multi",
+      "type": "comparison",
+      "date": "2026-10-28",
+      "likes": 0,
+      "src": "x",
+      "text": "I won't pick a daily driver for my autonomous agent before I've tried @Claude Duet.\n\nSo far, I like @OpenAI Dot. It looks very promising, but it doesn't evolve much, at least from what I see, and it can't safely drive more than 2 or 3 sessions in parallel.\n\n@Muse is surprisingly good and polished, maybe the most proactive of them all. But it doesn't feel built for work, and I don't need an agent to find me a hotel. I don't even let my wife do that.\n\nThen there's Grok @bot. I have one for X, but I haven't gone deep with it. It was really dumb a few times at the beginning, and I lost the little trust I'd given it. The hype is real, though, and half of tech bro Twitter is rooting for it, including people I respect like @theo. It has to be good. I want to believe.\n\nI still have a Hermes agent. I love it for research and for discussing ideas, not for doing the actual work. And I have an OpenClaw agent enjoying an early retirement. You can call it nostalgia. 6 months feels like a century in AI land.\n\nNow, I have big hopes for Duet because, on paper, it's built for people like me: small business owners juggling way too many balls. Like OpenAI Dot, it would have access to my repos, hundreds of sessions, skills, plugins and historical data. An agent needs context, and seriously good access to Codex and Claude.\n\nTo make up my mind while waiting for Duet, I'm closely following a few people who build these projects or have real influence on them. An agent, alone or running a swarm, takes time to set up properly in your ecosystem before it gives its best, and I don't have the bandwidth to do that 2 or 3 times.\n\nWe are back to the Android vs iOS thing, where you definitely need to pick a side if you want the best of it.\n\nIf you are in a similar situation and don't follow them yet, start here: @ahuja_karan, @gabemulley, @embirico, @TheRohanVarma, @christinesed, @dps, @poteto (of course!) and @romanugarte.",
+      "media": [],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-pocarles-2115566721855783137",
+      "scen": [
+        "security",
+        "research"
+      ]
+    },
+    {
       "title": "盲评 4 款助手：Grok Bot 赢邮件，Dots 赢查询与理财",
       "summary": "作者团队对 ChatGPT Dots、Grok Bot、Muse 和 Instinct 四款助手做了盲评：Grok Bot 在邮件项领先（96.0/100），Dots 在信息查询、投资和家庭财务三项领先，Muse 四项都落后于 Grok Bot。",
       "en": {
@@ -63107,6 +64210,76 @@
       "slug": "ray-fernando-s-clippy-cto-47",
       "scen": [
         "prs"
+      ]
+    },
+    {
+      "title": "Meta Muse 价格档位与额度，对比 ChatGPT dots",
+      "summary": "作者整理：Muse 免费版有每周限制、功能与付费版几乎相同；Power 每月 20 美元、每周 5 亿 token；Maximum 每月 100 美元、每周 30 亿 token；付费主要是扩额度，目前在美国和加拿大测试。相比之下 ChatGPT dots 需要 100 美元以上的 Pro 方案。作者还整理了 Meta 以交易手续费和订阅为主的变现思路。",
+      "en": {
+        "title": "Meta Muse pricing tiers and token limits, compared with ChatGPT dots",
+        "summary": "The author's summary: Muse Free has weekly limits but nearly the same features; Power is $20 a month with 500 million tokens a week; Maximum is $100 a month with 3 billion tokens a week; paid tiers mainly add usage, and testing is in the US and Canada. ChatGPT dots by contrast requires Pro at $100 or more. He also outlines Meta's expected monetization through transaction fees and subscriptions."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Meta Muse 价格档位与额度，对比 ChatGPT dots",
+          "summary": "作者整理：Muse 免费版有每周限制、功能与付费版几乎相同；Power 每月 20 美元、每周 5 亿 token；Maximum 每月 100 美元、每周 30 亿 token；付费主要是扩额度，目前在美国和加拿大测试。相比之下 ChatGPT dots 需要 100 美元以上的 Pro 方案。作者还整理了 Meta 以交易手续费和订阅为主的变现思路。"
+        },
+        "zh-TW": {
+          "title": "Meta Muse 價格方案與額度，對比 ChatGPT dots",
+          "summary": "作者整理：Muse 免費版有每週限制、功能與付費版幾乎相同；Power 每月 20 美元、每週 5 億 token；Maximum 每月 100 美元、每週 30 億 token；付費主要是擴充額度，目前在美國和加拿大測試。相較之下 ChatGPT dots 需要 100 美元以上的 Pro 方案。作者也整理了 Meta 以交易手續費和訂閱為主的變現思路。"
+        },
+        "en": {
+          "title": "Meta Muse pricing tiers and token limits, compared with ChatGPT dots",
+          "summary": "The author's summary: Muse Free has weekly limits but nearly the same features; Power is $20 a month with 500 million tokens a week; Maximum is $100 a month with 3 billion tokens a week; paid tiers mainly add usage, and testing is in the US and Canada. ChatGPT dots by contrast requires Pro at $100 or more. He also outlines Meta's expected monetization through transaction fees and subscriptions."
+        },
+        "ja": {
+          "title": "Meta Museの料金プランと上限、ChatGPT dotsとの比較",
+          "summary": "作者のまとめ：Museの無料版は週ごとの制限があるが機能は有料とほぼ同じ。Powerは月20ドルで週5億トークン、Maximumは月100ドルで週30億トークン。有料は主に使用量の拡張で、現在は米国とカナダでテスト中。一方ChatGPT dotsは100ドル以上のProが必須。取引手数料とサブスクを中心とするMetaの収益化予想も整理している。"
+        },
+        "ko": {
+          "title": "Meta Muse 요금제와 토큰 한도, ChatGPT dots와 비교",
+          "summary": "작성자 요약: Muse 무료는 주간 한도가 있지만 기능은 유료와 거의 같다. Power는 월 20달러에 주 5억 토큰, Maximum은 월 100달러에 주 30억 토큰. 유료는 주로 사용량 확장이며 현재 미국과 캐나다에서 시험 중이다. 반면 ChatGPT dots는 100달러 이상인 Pro가 필수다. 거래 수수료와 구독 중심의 Meta 수익화 전망도 정리했다."
+        },
+        "ms": {
+          "title": "Peringkat harga dan had token Meta Muse, berbanding ChatGPT dots",
+          "summary": "Ringkasan penulis: Muse Free ada had mingguan tetapi ciri hampir sama; Power $20 sebulan dengan 500 juta token seminggu; Maximum $100 sebulan dengan 3 bilion token seminggu; peringkat berbayar terutamanya menambah penggunaan, dan ujian di AS dan Kanada. ChatGPT dots pula memerlukan Pro pada $100 atau lebih. Dia juga menggariskan jangkaan pengewangan Meta melalui yuran transaksi dan langganan."
+        },
+        "vi": {
+          "title": "Các gói giá và hạn mức token của Meta Muse, so với ChatGPT dots",
+          "summary": "Tóm tắt của tác giả: Muse Free có giới hạn hằng tuần nhưng tính năng gần như bản trả phí; Power 20 USD/tháng với 500 triệu token/tuần; Maximum 100 USD/tháng với 3 tỷ token/tuần; gói trả phí chủ yếu tăng hạn mức, hiện thử nghiệm ở Mỹ và Canada. Trong khi đó ChatGPT dots bắt buộc gói Pro từ 100 USD. Anh cũng phác thảo cách Meta dự kiến kiếm tiền qua phí giao dịch và thuê bao."
+        },
+        "fr": {
+          "title": "Forfaits et limites de tokens de Meta Muse, comparés à ChatGPT dots",
+          "summary": "Résumé de l'auteur : Muse Free a des limites hebdomadaires mais presque les mêmes fonctions ; Power coûte 20 $ par mois pour 500 millions de tokens par semaine ; Maximum 100 $ par mois pour 3 milliards par semaine ; les offres payantes ajoutent surtout du volume, en test aux États-Unis et au Canada. ChatGPT dots exige au contraire Pro à 100 $ ou plus. Il esquisse aussi la monétisation attendue de Meta via commissions et abonnements."
+        },
+        "es": {
+          "title": "Planes y límites de tokens de Meta Muse, comparados con ChatGPT dots",
+          "summary": "Resumen del autor: Muse Free tiene límites semanales pero casi las mismas funciones; Power cuesta 20 $ al mes con 500 millones de tokens por semana; Maximum 100 $ al mes con 3.000 millones por semana; los planes de pago sobre todo amplían el uso y se prueban en EE. UU. y Canadá. ChatGPT dots, en cambio, exige Pro desde 100 $. También resume la monetización prevista de Meta con comisiones por transacción y suscripciones."
+        },
+        "de": {
+          "title": "Preisstufen und Token-Limits von Meta Muse im Vergleich zu ChatGPT dots",
+          "summary": "Zusammenfassung des Autors: Muse Free hat Wochenlimits, aber fast dieselben Funktionen; Power kostet 20 $ im Monat mit 500 Millionen Tokens pro Woche; Maximum 100 $ im Monat mit 3 Milliarden pro Woche; bezahlte Stufen bringen vor allem mehr Nutzung, getestet in den USA und Kanada. ChatGPT dots setzt dagegen Pro ab 100 $ voraus. Er skizziert auch Metas erwartete Monetarisierung über Transaktionsgebühren und Abos."
+        }
+      },
+      "source_url": "https://x.com/yasutaketin/status/2115559797538042310",
+      "source_name": "X",
+      "author": "yasutaketin",
+      "product": "multi",
+      "type": "quota-report",
+      "date": "2026-10-28",
+      "likes": 24,
+      "src": "x",
+      "text": "【Meta Museの価格と収益化予想まとめ】 $META\n\n価格\n•無料：週次制限あり。機能は有料とほぼ同じ\n•Power：月$20、週5億トークン\n•Maximum：月$100、週30億トークン\n•有料は使用量拡張がメイン（機能差はほぼなし）\n•現在はUS・カナダ限定テスト中\n\nChatGPT dotsとの違い\n•dotsはPro（$100以上）必須\n•Museは無料で試せるのが最大の差\n\nMetaの収益化戦略\n•本命はトランザクション手数料（買い物・予約など、事業者負担）\n•買い物が最多利用で、平均購入額は$200超\n•コンシューマー向けサブスク（Power/Maximum）\n•ビジネス向け有料サービス\n•Muse内に広告は入れない方針（Meta全体の広告改善に活用）\n•「ほとんどの人は無料、ビジネスが負担」＋計算効率を1年で10倍改善で利益化を狙う\n\n要するに、ユーザー獲得優先で収益は後乗せするMetaらしい攻めの設定。",
+      "media": [],
+      "added_at": "2026-10-28T22:52:17.886Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-yasutaketin-2115559797538042310",
+      "scen": [
+        "report"
       ]
     },
     {
