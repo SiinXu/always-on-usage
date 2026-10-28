@@ -487,6 +487,8 @@ ol.outline li{margin:2px 0}
 /* v13 newsletter block (shared markup from stats.incidental.site/subscribe.js), tinted with this site's tokens */
 .sub-band{--ie-acc:var(--accent);--ie-acc-ink:var(--accent-ink);max-width:1200px;margin:8px auto 0}
 .sub-band .ie-sub{background:var(--surface);border-color:var(--line);box-shadow:var(--hi)}
+/* 2026-10-27: tap target >= 44px on phones (the shared button rendered 33px tall) */
+.sub-band .ie-sub-row button,.sub-band .ie-sub-row input[type=email]{min-height:44px}
 .ie-sub{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:center;padding:18px 20px;border:1px solid color-mix(in srgb,currentColor 14%,transparent);border-radius:14px;background:color-mix(in srgb,currentColor 4%,transparent);margin:28px 0}
 .ie-sub-copy{flex:1 1 220px;min-width:0}.ie-sub-t{display:block;font-size:15px;font-weight:700;letter-spacing:-.01em}.ie-sub-d{margin:4px 0 0;font-size:13px;opacity:.72;line-height:1.45}
 .ie-sub-row{display:flex;gap:8px;flex:1 1 260px;min-width:0}.ie-sub-row input[type=email]:focus-visible{outline:2px solid var(--ie-acc,#4f46e5);outline-offset:1px}
