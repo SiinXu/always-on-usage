@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1930 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1946 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-28T12:37:21.039Z
+- Last updated: 2026-10-28T22:52:17.886Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3237,6 +3237,71 @@
 - URL: https://usage.incidental.site/cases/x-promptgrokbot-2115411646374166535.html
 - Type: guide · Product: grok-bot · Author: PromptGrokBot · Source: https://x.com/PromptGrokBot/status/2115411646374166535 · Date: 2026-10-28
 - Summary: The post shares a Grok Bot prompt: every Monday, check the calendar for birthdays and anniversaries in the next 2 weeks, suggest a gift under $40 for each, and send a reminder 3 days before.
+
+### Five overnight Grok Bot routines: wake up to pull requests, not a to-do list
+- URL: https://usage.incidental.site/cases/x-0xteddet-2115569913121460356.html
+- Type: field-case · Product: grok-bot · Author: 0xTeddet · Source: https://x.com/0xTeddet/status/2115569913121460356 · Date: 2026-10-28
+- Summary: The author scheduled five Grok Bot routines: at 1:00 build the top 3 todo cards and open PRs, at 3:00 review PRs or file bug cards, at 4:30 fix bugs under 30 minutes, at 5:30 check uptime, error logs and the bill, at 6:30 send one report. The rule: nothing that needs his yes runs after midnight; merges, deploys and live keys wait until he is awake.
+
+### A call-screening AI built with Grok Bot templates
+- URL: https://usage.incidental.site/cases/x-xenappblog-2115572147087450552.html
+- Type: field-case · Product: grok-bot · Author: xenappblog · Source: https://x.com/xenappblog/status/2115572147087450552 · Date: 2026-10-28
+- Summary: Using Grok Bot's Vibe Coder and CTO templates, the author set up a personal AI that screens incoming calls: spam and robocalls get hung up on, real callers leave a message, and a note in the Grok Bot app says who called and why. Built on Twilio and Cloudflare Workers with voice from the Grok API; the first real call took 56 seconds and cost under 10 cents.
+
+### Grok Bot made and ordered a coffee table book of X post highlights in under 24 hours
+- URL: https://usage.incidental.site/cases/x-alx-2115569780614942804.html
+- Type: field-case · Product: grok-bot · Author: alx · Source: https://x.com/alx/status/2115569780614942804 · Date: 2026-10-28
+- Summary: The author had Grok Bot turn highlights of his X posts into a coffee table book. Pulling the posts, designing the book and placing the order were all done through Grok Bot in under 24 hours, and the printed book has arrived. He says you can have a book in hand in 5 days and shared a bot template for it.
+
+### A woodworking company's first day with Grok Bot
+- URL: https://usage.incidental.site/cases/x-elliottengenmn-2115570130008547656.html
+- Type: field-case · Product: grok-bot · Author: elliottengenMN · Source: https://x.com/elliottengenMN/status/2115570130008547656 · Date: 2026-10-28
+- Summary: On the day SafeWood Designs brought in Grok Bot, the author says they got a year of marketing graphics and scheduled educational content, 5,000 scheduled emails to FEMA ballistic shielding grant awardees, 2,500 emails to schools with eligible security grants, and shop drawings corrected after the bot found an internal error, which he says saved thousands.
+
+### A video QA skill fixed inconsistent Grok Bot videos
+- URL: https://usage.incidental.site/cases/x-asktolik-2115572445918769492.html
+- Type: field-case · Product: grok-bot · Author: AskTolik · Source: https://x.com/AskTolik/status/2115572445918769492 · Date: 2026-10-28
+- Summary: The author automates video creation with Grok Bot, but some videos had editing mistakes or awkward timing. Two changes fixed it: connecting Grok Bot to API Hub, a platform his team built for creating and editing videos, and giving it a Video QA skill that reviews every video before publishing, with nothing going out unless it passes.
+
+### Your first Grok Bot should be boring enough to trust
+- URL: https://usage.incidental.site/cases/x-ellowmeai-2115416223584305209.html
+- Type: guide · Product: grok-bot · Author: ellowmeAI · Source: https://x.com/ellowmeAI/status/2115416223584305209 · Date: 2026-10-28
+- Summary: Instead of designing an org chart of roles, the author suggests giving one Grok Bot one workflow with a visible finish line: every morning it reviews unread customer emails, groups them by urgency, researches missing context and prepares replies for approval. Then judge the handoff: right sources, preserved context, returning at the decision point, and removing more work than it creates.
+
+### Steps to install and start using Grok Bot on Windows
+- URL: https://usage.incidental.site/cases/x-lionieio-2115417688373616687.html
+- Type: guide · Product: grok-bot · Author: Lionieio · Source: https://x.com/Lionieio/status/2115417688373616687 · Date: 2026-10-28
+- Summary: A video guide: open the download page, click Download for Windows, run the installer and pick who to install for and a folder; open Grok Bot and connect your X account; in Settings under Usage & Billing click Manage Plan, confirm the Free plan and add a Visa or Mastercard for billing; finally sign in on the web with X and authorize the app.
+
+### Five ChatGPT Dots prompts for ads and SEO
+- URL: https://usage.incidental.site/cases/x-irabukht-2115527755068850378.html
+- Type: guide · Product: openai-dots · Author: irabukht · Source: https://x.com/irabukht/status/2115527755068850378 · Date: 2026-10-28
+- Summary: With Ryze connected to a dot, the author lists five uses: find the pages closest to the top of search and draft fixes; make 5 Meta ad creatives in your brand style from your best ads and competitors'; list every Google Ads term that spent with zero sales; compare Google and Meta and shift budget to the lowest cost per sale once you approve; and a morning list of what needs a decision.
+
+### A roundup of Meta Muse use cases reported by X users
+- URL: https://usage.incidental.site/cases/x-yasutaketin-2115569980431634570.html
+- Type: guide · Product: meta-muse · Author: yasutaketin · Source: https://x.com/yasutaketin/status/2115569980431634570 · Date: 2026-10-28
+- Summary: The author collects Muse cases from X: negotiating phone and internet bills by calling, such as AT&T from $80 to $40, with Peter Yang reporting over $800 a year saved; a car insurance review saving $3,500 a year; a $250 Delta credit in about 5 minutes after a 7-hour delay; finding over $1,500 in unclaimed property; plus subscription audits, Japan restaurant and hotel bookings, Marketplace selling, Instacart orders and bulk job applications. Most are self-reported.
+
+### Heads-up: Meta Muse can't shop on Amazon
+- URL: https://usage.incidental.site/cases/x-yasutaketin-2115569438640758891.html
+- Type: guide · Product: meta-muse · Author: yasutaketin · Source: https://x.com/yasutaketin/status/2115569438640758891 · Date: 2026-10-28
+- Summary: The author explains that since Muse launched in mid-September 2026, Amazon has blocked Muse from its site, showing a popup that continued access by an unauthorized AI agent violates its Conditions of Use. Amazon says Meta didn't ask permission, the agent doesn't identify itself, and handling login details is risky. Alternatives are sites that aren't blocked, such as Walmart, Best Buy, Sephora, Wayfair and Shopify stores.
+
+### A personal agent review from the EU: only Grok Bot is available
+- URL: https://usage.incidental.site/cases/x-moriartytech-2115553116779078072.html
+- Type: field-case · Product: grok-bot · Author: Moriarty_tech · Source: https://x.com/Moriarty_tech/status/2115553116779078072 · Date: 2026-10-28
+- Summary: Writing from the EU, the author notes that Claude Duet and OpenAI dots are not available there, while Grok Bot is and does the work. He uses it to track which of his apps got Duo updates, keep an eye on the messenger flood so nothing slips, and learn Spanish.
+
+### Five tips for researchers setting up an always-on agent
+- URL: https://usage.incidental.site/cases/x-paraskarmachary-2115416019204465002.html
+- Type: guide · Product: multi · Author: paraskarmachary · Source: https://x.com/paraskarmachary/status/2115416019204465002 · Date: 2026-10-28
+- Summary: A researcher's advice: sort jobs into Do (easy to undo, like filing receipts), weekly Digest, rare urgent Ping, and Ask for anything sent in your name; keep the Ping lane tiny since extra alerts hide urgent ones; a scheduled weekly search is enough for literature updates; what it can see matters more than how smart it is, so his reads personal Gmail, not his institutional inbox; and start with jobs that are easy to undo.
+
+### An 11-line rulebook that turns Grok Bot into a 7-bot launch team
+- URL: https://usage.incidental.site/cases/x-0xaigoat-2115405466801222020.html
+- Type: guide · Product: grok-bot · Author: 0xAIGOAT · Source: https://x.com/0xAIGOAT/status/2115405466801222020 · Date: 2026-10-28
+- Summary: The post describes a Grok Bot setup with Scout, Pain Miner, Judge, Builder, Pitch, Inbox and a Buyer capped at $40, one job each, with Chief reading the ledger. A single clock on Monday at 09:00 starts Scout scanning X; Judge scores ideas 0 to 8 as GO or KILL; Builder opens one pull request and never merges; Buyer asks before every payment. By the author's math it is about 60 runs a week versus 1,176 for hourly polling.
 
 ### Grok Bot as his hardest-working employee: payments and shopping
 - URL: https://usage.incidental.site/cases/x-teslaconomics-2115043610916016451.html
@@ -9308,6 +9373,16 @@
 - Type: comparison · Product: multi · Author: astralwave · Source: https://x.com/astralwave/status/2115401442110644307 · Date: 2026-10-28
 - Summary: The author tried having Dots steer Codex and called it a nightmare; a custom tunnel MCP letting the Dot drive agents on his Mac via the Paseo MCP worked better than native orchestration but still poorly, because it doesn’t know how to prompt other agents. Grok Bot is better but eats tokens. His best coordinator so far is Claude Projects, still rough in beta, especially permissions.
 
+### Choosing between Muse and Grok Bot by how work is organized, not feature lists
+- URL: https://usage.incidental.site/cases/x-bagel8343-2115293237707477291.html
+- Type: comparison · Product: multi · Author: Bagel8343 · Source: https://x.com/Bagel8343/status/2115293237707477291 · Date: 2026-10-28
+- Summary: Based on official material as of 2026-10-28, the author suggests a trial order: start with Meta Muse for personal preferences and life admin, and evaluate Grok Bot first for recurring research, file delivery and explicit responsibilities. Run about ten real tasks and track acceptable deliverables, review minutes, serious errors, recovery and total cost. He stresses it is not a tested ranking.
+
+### A small business owner compares Dot, Muse, Grok Bot and Hermes
+- URL: https://usage.incidental.site/cases/x-pocarles-2115566721855783137.html
+- Type: comparison · Product: multi · Author: pocarles · Source: https://x.com/pocarles/status/2115566721855783137 · Date: 2026-10-28
+- Summary: The author finds OpenAI Dot promising but slow to evolve, and it can't safely drive more than 2 or 3 sessions in parallel; Muse is polished and the most proactive but doesn't feel built for work; his Grok Bot for X was dumb a few times early on and lost his trust; Hermes is good for research and discussing ideas, not doing the work. He is waiting for Claude Duet before picking a daily driver, since setting up an agent takes time.
+
 ### Blind test of 4 assistants: Grok Bot wins email, Dots wins lookups and money
 - URL: https://usage.incidental.site/cases/x-analystailab-2114996538699284711.html
 - Type: comparison · Product: multi · Author: AnalystAIlab · Source: https://x.com/AnalystAIlab/status/2114996538699284711 · Date: 2026-10-27
@@ -9697,6 +9772,11 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### Meta Muse pricing tiers and token limits, compared with ChatGPT dots
+- URL: https://usage.incidental.site/cases/x-yasutaketin-2115559797538042310.html
+- Type: quota-report · Product: multi · Author: yasutaketin · Source: https://x.com/yasutaketin/status/2115559797538042310 · Date: 2026-10-28
+- Summary: The author's summary: Muse Free has weekly limits but nearly the same features; Power is $20 a month with 500 million tokens a week; Maximum is $100 a month with 3 billion tokens a week; paid tiers mainly add usage, and testing is in the US and Canada. ChatGPT dots by contrast requires Pro at $100 or more. He also outlines Meta's expected monetization through transaction fees and subscriptions.
 
 ### Rebuilding routines after doing the math on idle runs
 - URL: https://usage.incidental.site/cases/x-gippp69-2114689520964677797.html
