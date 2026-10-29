@@ -9201,5 +9201,53 @@
   ],
   "kind": "github",
   "fetched_at": "2026-10-29"
+ },
+ "https://github.com/Manasa-L-Hegde/billback": {
+  "text": "> Small shops and families pay bills where the real agreement lives in a voice note, the proof of delivery is a paper slip, and the bill is a photo. There's no ERP and no contract system. Overcharges slip through (wrong math, fees nobody agreed to, items billed twice or never delivered) because checking means cross-referencing three messy sources by hand, and disputing means writing and chasing emails. BillBack is an agent that reads all three, proves each overcharge with arithmetic, and carries the dispute through to recovery.",
+  "media": [],
+  "outline": [
+   "Multimodal Bill & Slip Extraction: Extracts line items (name, quantity, rate, amount, total) from printed and handwritten invoices and delivery challans.",
+   "Arithmetic Verification: Validates line-item math ($qty \\times rate = amount$), subtotal consistency, and grand totals.",
+   "Cross-Source Audit Engine: Cross-references invoices with delivery slips and agreed rate cards to catch unauthorized delivery fees, duplicate items, delivere…",
+   "Autonomous Dispute Generation: Formulates clear dispute findings backed by exact mathematical proofs.",
+   "Clone the repository:",
+   "Set up virtual environment & install dependencies:",
+   "Configure Environment Variables:",
+   "Run Bill Extraction:"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-29"
+ },
+ "https://github.com/cabetan/camtoshop": {
+  "text": "**From camera to shop.** A small merchant talks about a product on their phone, mistakes included. Camtoshop turns that one video into everything needed to sell it:",
+  "media": [],
+  "outline": [
+   "An edited Reel, directed by an AI agent. It removes failed takes and self-corrections, puts word-by-word captions where they never cover the product, adds gi…",
+   "Studio catalog photos made from the real product, not a lookalike.",
+   "A bilingual store listing (English first, plus the video's language) with title, description, key points, SEO and price.",
+   "Three Meta ad variants (benefit, story, offer), with copy and a designed creative.",
+   "One-click publishing to a Shopify store, the Meta catalog (Instagram & Facebook Shops, WhatsApp catalog) and Instagram Reels.",
+   "Montage (once per video): Voice Transcribe → XLSR alignment → Spark picks word ranges to keep → cut list. SAM tracks the product.",
+   "Direction: Spark proposes the graphics for the chosen *look* (directo, anuncio, premium). Domain rules clamp the proposal: at most 2 giant-text moments, cuta…",
+   "Render: ffmpeg + Pillow. Alternating punch-in zooms centered on the product hide jump cuts. Giant text is drawn between the background and the SAM mask of sp…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-29"
+ },
+ "https://github.com/number5meme/grokbot-wechatclaw-bridge": {
+  "text": "Bridge a **WeChat ClawBot (Tencent iLink bot API)** to any HTTP webhook or AI agent. Messages sent to your WeChat ClawBot (text, images, voice, files, video) are forwarded as JSON to your webhook, and your agent replies with plain text, images, videos, or files from the command line. A typical use is a **Grok Bot routine** that answers your WeChat messages, but any HTTP endpoint works: another AI agent, a bot framework, an automation platform, or your own service. For QQ, see the sibling project grokbot-qqbot-bridge.",
+  "media": [],
+  "outline": [
+   "Outbound-only: no open port, public IP, domain, or TLS certificate; it runs behind NAT, on a laptop, or in a",
+   "Any webhook: one JSON POST per accepted message (payload); payloads the webhook does not",
+   "Safe replies: reply.sh --to '' --stdin with the text in a quoted heredoc, so reply text written by",
+   "Self-recovering: reconnects forever with capped backoff, timeouts on every request, and recovery within about",
+   "login.sh gets a QR code from iLink. You scan it with WeChat and confirm. The bot token is saved to state/ (mode 600).",
+   "bin/bridge.js long-polls ilink/bot/getupdates. For each user message it applies dedupe and owner protection,",
+   "Your agent replies with ./reply.sh --to '' --stdin (text in a quoted heredoc), or with --image,",
+   "QR login (terminal QR code, PNG copy, or a link to open inside WeChat), including verification codes and QR refresh."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-29"
  }
 }

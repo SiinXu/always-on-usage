@@ -1,5 +1,5 @@
 {
- "last_ingest": "2026-10-29T12:46:01.601Z",
+ "last_ingest": "2026-10-29T22:37:17.462Z",
  "items": [
   {
    "id": "x:2105612186450297061",
@@ -29364,6 +29364,979 @@
     }
    },
    "added_at": "2026-10-29T12:46:01.601Z"
+  },
+  {
+   "id": "x:2115842036720951368",
+   "url": "https://x.com/Corki_0x/status/2115842036720951368",
+   "source": "x",
+   "source_name": "X",
+   "author": "Corki_0x",
+   "date": "2026-10-29",
+   "likes": 19,
+   "product": "openai-dots",
+   "text": "I built a total beast. Handed an autonomous AI agent the night shift, went to sleep, and it made $832 before I woke up, on a $100 plan.\n\nEvery night at 11:40 PM my laptop goes dark and a hummingbird starts working.\n\nThat's Hummingbird, my overnight agent. The dashboard is black and white on purpose. A cell only turns colour once the bird has actually touched it. So in the morning I don't read a report. I look at which parts of the screen lit up.\n\nLast night it lit up six jobs:\n\n-> Competitor Watch. 14 platforms, every pricing and release-note change recorded\n-> Gig Boards. 86 fresh posts read, anything under budget dropped, the strong ones flagged\n-> Agency Reports. Weekly numbers pulled from my tools without sending a single message\n-> Mentions Triage. Everything sorted into today, this week or ignore, with replies drafted in my voice\n-> Launch Radar. Changelogs scanned so I see new features before my feed does\n-> Activity Feed. One clean log of every action and every file it opened\n\nWhat it's NOT allowed to do matters more than what it does:\n- read-only all night\n- nothing gets posted or sent without my OK\n- 8 safety checks before every step\n- if it isn't sure, it holds the job and waits for me\n\nThe setup: OpenAI Dots does the reading and clicking, GPT-6 Astra decides what's worth my attention, and a desktop + cloud environment keeps a browser alive while I sleep. It's wired into 4,000+ apps.\n\nI don't write prompts at night. I write one brief before bed and set the rules.\n\nThe difference between a chatbot and a night shift is simple: one waits for you, the other is already done when you wake up.\n\nBookmark this and watch the bird work",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2115841846563770368/img/tvMoEq2sJfT9lrff.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "让 Dots 值夜班的「Hummingbird」过夜代理",
+     "summary": "作者每晚 11:40 让名为 Hummingbird 的过夜代理开工：Dots 负责读网页和点击，GPT-6 Astra 判断哪些值得关注，桌面加云端环境让浏览器整夜保持运行，并接入 4000 多个应用。一晚完成 6 项任务：盯 14 个平台的竞品价格和更新日志、读 86 条新外包帖并标出优质的、拉取周报数据、把提及分成今天/本周/忽略并按作者口吻起草回复、扫描更新日志、记录全部操作。规则是整夜只读、未经同意不发帖不发送、每步前 8 项安全检查、不确定就暂停等他。作者称 100 美元套餐下一晚赚了 832 美元。"
+    },
+    "zh-TW": {
+     "title": "讓 Dots 值夜班的「Hummingbird」過夜代理",
+     "summary": "作者每晚 11:40 讓名為 Hummingbird 的過夜代理開工：Dots 負責讀網頁和點擊，GPT-6 Astra 判斷哪些值得關注，桌面加雲端環境讓瀏覽器整夜保持運行，並串接 4000 多個應用。一晚完成 6 項任務：盯 14 個平台的競品價格和更新日誌、讀 86 則新外包貼文並標出優質的、拉取週報數據、把提及分成今天/本週/忽略並按作者口吻起草回覆、掃描更新日誌、記錄全部操作。規則是整夜唯讀、未經同意不發文不寄送、每步前 8 項安全檢查、不確定就暫停等他。作者稱 100 美元方案下一晚賺了 832 美元。"
+    },
+    "en": {
+     "title": "Hummingbird: an overnight agent running on Dots",
+     "summary": "Every night at 11:40 PM the author's overnight agent, Hummingbird, starts work: Dots does the reading and clicking, GPT-6 Astra decides what deserves attention, and a desktop plus cloud environment keeps a browser alive, wired into 4,000+ apps. One night it ran six jobs: watching pricing and release notes on 14 competitor platforms, reading 86 new gig posts and flagging the strong ones, pulling weekly agency numbers, triaging mentions with drafted replies, scanning changelogs, and logging every action. Rules: read-only all night, nothing posted or sent without approval, 8 safety checks per step, and it holds a job when unsure. The author says it made $832 on a $100 plan."
+    },
+    "ja": {
+     "title": "Dotsに夜勤を任せる過夜エージェント「Hummingbird」",
+     "summary": "投稿者は毎晩23時40分に過夜エージェントHummingbirdを動かす。Dotsが閲覧とクリックを担当し、GPT-6 Astraが注目すべきものを判断、デスクトップとクラウド環境がブラウザを一晩中維持し、4000以上のアプリとつながる。ある夜は6つの仕事をこなした：14の競合プラットフォームの価格とリリースノート監視、新着案件86件の精査、週次レポートの数値取得、メンションの仕分けと返信下書き、変更履歴のスキャン、全操作のログ記録。ルールは一晩中読み取りのみ、承認なしに投稿・送信しない、各ステップ前に8つの安全チェック、迷ったら保留。100ドルのプランで一晩832ドル稼いだと投稿者は述べている。"
+    },
+    "ko": {
+     "title": "Dots에게 야간 근무를 맡긴 에이전트 'Hummingbird'",
+     "summary": "작성자는 매일 밤 11시 40분에 야간 에이전트 Hummingbird를 돌린다. Dots가 읽기와 클릭을, GPT-6 Astra가 볼 만한 것을 판단하고, 데스크톱과 클라우드 환경이 브라우저를 밤새 유지하며 4,000개 이상의 앱과 연결된다. 하룻밤에 6가지 일을 했다: 경쟁사 14곳의 가격·릴리스 노트 감시, 새 외주 글 86개 검토와 우수 건 표시, 주간 수치 수집, 멘션 분류와 답장 초안, 변경 로그 스캔, 모든 작업 기록. 규칙은 밤새 읽기 전용, 승인 없이 게시·발송 금지, 단계마다 8가지 안전 점검, 확신이 없으면 보류다. 작성자는 100달러 요금제로 하룻밤 832달러를 벌었다고 말한다."
+    },
+    "ms": {
+     "title": "Hummingbird: ejen syif malam yang berjalan pada Dots",
+     "summary": "Setiap malam jam 11:40 ejen malam penulis, Hummingbird, mula bekerja: Dots membaca dan mengklik, GPT-6 Astra menentukan apa yang patut diberi perhatian, dan persekitaran desktop serta awan memastikan pelayar terus hidup, disambung ke lebih 4,000 aplikasi. Satu malam ia menjalankan enam tugas: memantau harga dan nota keluaran 14 platform pesaing, membaca 86 iklan kerja baharu, menarik angka mingguan, menyusun sebutan dengan draf balasan, mengimbas log perubahan dan merekod setiap tindakan. Peraturan: baca sahaja sepanjang malam, tiada siaran atau hantaran tanpa kelulusan, 8 semakan keselamatan setiap langkah, dan menahan kerja jika tidak pasti. Penulis berkata ia menjana 832 dolar dengan pelan 100 dolar."
+    },
+    "vi": {
+     "title": "Hummingbird: tác tử trực đêm chạy trên Dots",
+     "summary": "Mỗi đêm lúc 23:40, tác tử trực đêm Hummingbird của tác giả bắt đầu làm việc: Dots đọc và nhấp, GPT-6 Astra quyết định điều gì đáng chú ý, môi trường desktop và đám mây giữ trình duyệt chạy suốt đêm, kết nối hơn 4.000 ứng dụng. Một đêm nó làm sáu việc: theo dõi giá và ghi chú phát hành của 14 nền tảng đối thủ, đọc 86 tin tuyển việc mới, lấy số liệu tuần, phân loại lượt nhắc kèm bản nháp trả lời, quét changelog và ghi lại mọi thao tác. Quy tắc: chỉ đọc suốt đêm, không đăng hay gửi gì khi chưa duyệt, 8 bước kiểm tra an toàn mỗi lần, không chắc thì tạm dừng. Tác giả nói nó kiếm được 832 USD với gói 100 USD."
+    },
+    "fr": {
+     "title": "Hummingbird : un agent de nuit qui tourne sur Dots",
+     "summary": "Chaque nuit à 23 h 40, l'agent de nuit de l'auteur, Hummingbird, se met au travail : Dots lit et clique, GPT-6 Astra décide de ce qui mérite attention, et un environnement bureau plus cloud garde un navigateur actif, relié à plus de 4 000 applications. Une nuit, il a mené six tâches : veille des prix et notes de version de 14 concurrents, lecture de 86 nouvelles missions, collecte des chiffres hebdomadaires, tri des mentions avec réponses en brouillon, scan des changelogs et journal de chaque action. Règles : lecture seule toute la nuit, rien publié ni envoyé sans accord, 8 contrôles de sécurité par étape, mise en attente en cas de doute. L'auteur dit avoir gagné 832 dollars avec un forfait à 100 dollars."
+    },
+    "es": {
+     "title": "Hummingbird: un agente nocturno que funciona con Dots",
+     "summary": "Cada noche a las 23:40 el agente nocturno del autor, Hummingbird, empieza a trabajar: Dots lee y hace clic, GPT-6 Astra decide qué merece atención y un entorno de escritorio y nube mantiene un navegador activo, conectado a más de 4.000 apps. Una noche ejecutó seis tareas: vigilar precios y notas de versión de 14 competidores, leer 86 ofertas de trabajo nuevas, extraer cifras semanales, clasificar menciones con respuestas en borrador, revisar changelogs y registrar cada acción. Reglas: solo lectura toda la noche, nada se publica ni envía sin aprobación, 8 controles de seguridad por paso y, si duda, pausa la tarea. El autor dice que ganó 832 dólares con un plan de 100 dólares."
+    },
+    "de": {
+     "title": "Hummingbird: ein Nachtschicht-Agent auf Basis von Dots",
+     "summary": "Jede Nacht um 23:40 Uhr startet der Nacht-Agent des Autors, Hummingbird: Dots liest und klickt, GPT-6 Astra entscheidet, was Aufmerksamkeit verdient, und eine Desktop- plus Cloud-Umgebung hält einen Browser am Laufen, verbunden mit über 4.000 Apps. In einer Nacht erledigte er sechs Jobs: Preise und Release Notes von 14 Wettbewerbern beobachten, 86 neue Auftragsposts lesen, Wochenzahlen ziehen, Erwähnungen mit Antwortentwürfen sortieren, Changelogs scannen und jede Aktion protokollieren. Regeln: die ganze Nacht nur lesen, nichts ohne Freigabe posten oder senden, 8 Sicherheitschecks pro Schritt, bei Unsicherheit anhalten. Laut Autor brachte das mit einem 100-Dollar-Plan 832 Dollar ein."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115929453859881169",
+   "url": "https://x.com/Av1dlive/status/2115929453859881169",
+   "source": "x",
+   "source_name": "X",
+   "author": "Av1dlive",
+   "date": "2026-10-29",
+   "likes": 10,
+   "product": "grok-bot",
+   "text": "i kept hitting my Grok Bot usage limits...\n\nso i built a desk that sends the heavy work to Claude Code on my own subscription\n\nnow my limits last the whole week\n\nhere's the Grok Bot link to set it up in 30 seconds:\nhttps://t.co/9pVkUsbOs6 https://t.co/rox70Dyi8B https://t.co/EU4Xa5336D",
+   "media": [
+    "https://pbs.twimg.com/media/HV1JHRubUAAJa8w.jpg"
+   ],
+   "type": "quota-report",
+   "tr": {
+    "zh-CN": {
+     "title": "把重活转给 Claude Code，Grok Bot 额度撑满一周",
+     "summary": "作者经常撞到 Grok Bot 的用量上限，于是搭了一个“工作台”，把繁重任务交给自己订阅的 Claude Code 去做。他说这样额度能撑满整周，并附上了 Grok Bot 一键配置链接。"
+    },
+    "zh-TW": {
+     "title": "把重活轉給 Claude Code，Grok Bot 額度撐滿一週",
+     "summary": "作者經常碰到 Grok Bot 的用量上限，於是搭了一個「工作台」，把繁重任務交給自己訂閱的 Claude Code 去做。他說這樣額度能撐滿整週，並附上 Grok Bot 一鍵設定連結。"
+    },
+    "en": {
+     "title": "Sending heavy work to Claude Code makes Grok Bot limits last a week",
+     "summary": "The author kept hitting Grok Bot usage limits, so they built a desk that hands heavy work to Claude Code on their own subscription. They say their limits now last the whole week, and shared a Grok Bot link to set it up in 30 seconds."
+    },
+    "ja": {
+     "title": "重い作業をClaude Codeに回してGrok Botの上限を1週間もたせる",
+     "summary": "投稿者はGrok Botの使用上限に何度もぶつかったため、重い作業を自分のサブスクのClaude Codeに回す仕組みを作った。これで上限が1週間もつようになったといい、30秒で設定できるGrok Botのリンクを共有している。"
+    },
+    "ko": {
+     "title": "무거운 작업을 Claude Code로 넘겨 Grok Bot 한도를 일주일 유지",
+     "summary": "작성자는 Grok Bot 사용 한도에 자주 걸려서, 무거운 작업을 자기 구독의 Claude Code로 넘기는 작업대를 만들었다. 이제 한도가 일주일 내내 버틴다고 하며, 30초 만에 설정하는 Grok Bot 링크를 공유했다."
+    },
+    "ms": {
+     "title": "Hantar kerja berat ke Claude Code supaya had Grok Bot tahan seminggu",
+     "summary": "Penulis kerap mencapai had penggunaan Grok Bot, jadi mereka membina meja kerja yang menghantar kerja berat ke Claude Code melalui langganan sendiri. Kini had mereka tahan sepanjang minggu, dan mereka berkongsi pautan Grok Bot untuk menyediakannya dalam 30 saat."
+    },
+    "vi": {
+     "title": "Chuyển việc nặng sang Claude Code để hạn mức Grok Bot đủ cả tuần",
+     "summary": "Tác giả liên tục chạm giới hạn sử dụng Grok Bot nên đã dựng một bàn làm việc chuyển việc nặng sang Claude Code bằng gói đăng ký riêng. Họ nói giờ hạn mức đủ dùng cả tuần, và chia sẻ liên kết Grok Bot để thiết lập trong 30 giây."
+    },
+    "fr": {
+     "title": "Confier le gros du travail à Claude Code pour que les limites Grok Bot tiennent la semaine",
+     "summary": "L'auteur atteignait sans cesse ses limites d'usage Grok Bot. Il a donc monté un poste qui envoie le travail lourd à Claude Code avec son propre abonnement. Ses limites tiennent désormais toute la semaine, et il partage un lien Grok Bot pour l'installer en 30 secondes."
+    },
+    "es": {
+     "title": "Pasar el trabajo pesado a Claude Code para que los límites de Grok Bot duren la semana",
+     "summary": "El autor chocaba una y otra vez con los límites de uso de Grok Bot, así que montó un escritorio que manda el trabajo pesado a Claude Code con su propia suscripción. Dice que ahora sus límites duran toda la semana y comparte un enlace de Grok Bot para configurarlo en 30 segundos."
+    },
+    "de": {
+     "title": "Schwere Arbeit an Claude Code abgeben, damit Grok-Bot-Limits eine Woche halten",
+     "summary": "Der Autor stieß ständig an seine Grok-Bot-Nutzungslimits und baute deshalb einen Arbeitsplatz, der schwere Aufgaben an Claude Code im eigenen Abo weitergibt. Jetzt reichen die Limits die ganze Woche, und er teilt einen Grok-Bot-Link zur Einrichtung in 30 Sekunden."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115930521347752332",
+   "url": "https://x.com/0xShoopy/status/2115930521347752332",
+   "source": "x",
+   "source_name": "X",
+   "author": "0xShoopy",
+   "date": "2026-10-29",
+   "likes": 9,
+   "product": "grok-bot",
+   "text": "SpaceXAI engineer (GrokBot):\n\n“I had GrokBot set up this entire system while I slept. I hadn’t even tested it before the demo.”\n\nin this 1-hour workshop, he shows how you can run a whole team of AI bots that do the work while you’re away:\n\n17:39 → promote a bot to director and https://t.co/p57Zzu6V9X https://t.co/kAGnlRZa5l",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2115929660517179392/img/dDimPCglJJcW6IT0.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "SpaceXAI 工程师一小时工作坊：让一整队 Grok Bot 替你干活",
+     "summary": "帖子介绍一场 1 小时工作坊：一位 SpaceXAI 工程师演示如何运行一整队 AI bot，在你不在时把活做完。他说整套系统是 GrokBot 在他睡觉时搭好的，演示前自己都没测试过。视频 17:39 处讲的是把一个 bot 提升为“主管”。"
+    },
+    "zh-TW": {
+     "title": "SpaceXAI 工程師一小時工作坊：讓一整隊 Grok Bot 替你做事",
+     "summary": "貼文介紹一場 1 小時工作坊：一位 SpaceXAI 工程師示範如何運行一整隊 AI bot，在你不在時把工作完成。他說整套系統是 GrokBot 在他睡覺時建好的，示範前自己都沒測試過。影片 17:39 處講的是把一個 bot 升為「主管」。"
+    },
+    "en": {
+     "title": "A SpaceXAI engineer's 1-hour workshop on running a team of Grok Bots",
+     "summary": "The post shares a 1-hour workshop in which a SpaceXAI engineer shows how to run a whole team of AI bots that work while you're away. He says GrokBot set up the entire system while he slept and he hadn't tested it before the demo. At 17:39 he covers promoting a bot to director."
+    },
+    "ja": {
+     "title": "SpaceXAIエンジニアの1時間ワークショップ：Grok Botのチームを動かす",
+     "summary": "投稿は1時間のワークショップを紹介している。SpaceXAIのエンジニアが、自分がいない間に仕事を進めるAI botのチーム全体の動かし方を実演する。システム全体は彼が寝ている間にGrokBotが構築し、デモ前に自分でテストもしていなかったという。17:39ではbotをディレクターに昇格させる方法を扱う。"
+    },
+    "ko": {
+     "title": "SpaceXAI 엔지니어의 1시간 워크숍: Grok Bot 팀 운영하기",
+     "summary": "게시물은 1시간짜리 워크숍을 소개한다. SpaceXAI 엔지니어가 자리를 비운 사이 일을 해내는 AI bot 팀 전체를 운영하는 법을 보여 준다. 그는 시스템 전체를 자는 동안 GrokBot이 구축했고 데모 전에 테스트도 안 했다고 말한다. 17:39에서는 bot을 디렉터로 승격하는 방법을 다룬다."
+    },
+    "ms": {
+     "title": "Bengkel 1 jam jurutera SpaceXAI tentang menjalankan pasukan Grok Bot",
+     "summary": "Hantaran ini berkongsi bengkel 1 jam di mana seorang jurutera SpaceXAI menunjukkan cara menjalankan satu pasukan bot AI yang bekerja semasa anda tiada. Dia berkata GrokBot menyediakan keseluruhan sistem itu ketika dia tidur dan dia belum mengujinya sebelum demo. Pada minit 17:39 dia menerangkan cara menaikkan satu bot menjadi pengarah."
+    },
+    "vi": {
+     "title": "Workshop 1 giờ của kỹ sư SpaceXAI về vận hành cả đội Grok Bot",
+     "summary": "Bài đăng giới thiệu một workshop 1 giờ, trong đó một kỹ sư SpaceXAI trình bày cách vận hành cả đội bot AI làm việc khi bạn vắng mặt. Anh nói GrokBot đã dựng toàn bộ hệ thống khi anh ngủ và anh chưa thử trước buổi demo. Ở phút 17:39 anh nói về việc nâng một bot lên làm giám đốc."
+    },
+    "fr": {
+     "title": "Atelier d'une heure d'un ingénieur SpaceXAI : faire tourner une équipe de Grok Bots",
+     "summary": "Le post partage un atelier d'une heure où un ingénieur SpaceXAI montre comment faire tourner toute une équipe de bots IA qui travaillent en votre absence. Il dit que GrokBot a monté tout le système pendant qu'il dormait et qu'il ne l'avait pas testé avant la démo. À 17:39, il explique comment promouvoir un bot au rang de directeur."
+    },
+    "es": {
+     "title": "Taller de 1 hora de un ingeniero de SpaceXAI sobre equipos de Grok Bots",
+     "summary": "La publicación comparte un taller de 1 hora en el que un ingeniero de SpaceXAI muestra cómo dirigir todo un equipo de bots de IA que trabajan mientras no estás. Dice que GrokBot montó todo el sistema mientras dormía y que no lo había probado antes de la demo. En el minuto 17:39 explica cómo ascender un bot a director."
+    },
+    "de": {
+     "title": "Einstündiger Workshop eines SpaceXAI-Ingenieurs zu Grok-Bot-Teams",
+     "summary": "Der Post teilt einen einstündigen Workshop, in dem ein SpaceXAI-Ingenieur zeigt, wie man ein ganzes Team von KI-Bots betreibt, die arbeiten, während man weg ist. Laut ihm hat GrokBot das gesamte System aufgebaut, während er schlief, und er hatte es vor der Demo nicht getestet. Bei 17:39 geht es darum, einen Bot zum Director zu befördern."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115927758144520671",
+   "url": "https://x.com/maestrooth/status/2115927758144520671",
+   "source": "x",
+   "source_name": "X",
+   "author": "maestrooth",
+   "date": "2026-10-29",
+   "likes": 5,
+   "product": "grok-bot",
+   "text": "This is f*cking insane. \n\nElon Musk named 12 ways Grok Bot pays for itself, and they're buried across 2 months of his posts\n\nSo I pulled all 12 into one list, with the exact line to send for each:\n\n→ Spam calls: \"Get my number off every spam list\"\n→ iPhone: hold the Action Button and say \"Handle this\", no app to open\n→ Taxes: \"Find every refund I missed in the last 3 years\"\n→ Credit score: \"Find what's dragging my score down and fix it\"\n→ Scam emails: \"Flag anything that asks for money or a password\"\n→ Contracts: \"Read this before I sign it and tell me what hurts me\"\n→ Tesla: \"Read my unread email and move my 3pm\" (out loud, while driving)\n→ Restaurants: \"Book a table for 4 at 8 and find the cheaper place\"\n→ Deliveries: \"Track every package and chase the late ones\"\n→ Mornings: \"Print my plan for tomorrow\"\n→ Your store: \"Answer every support ticket today\"\n→ Your inbox: \"Run it like a $60K assistant would\"\n\nMost people will still do their taxes by hand this year\n\nSend it the tax line first\n\nThen read how to build a whole company with Grok Bots in the article below ↓",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2115923690072268800/img/0wVBJCBKe-sGT7f3.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 能“回本”的 12 句指令清单",
+     "summary": "作者把马斯克两个月内帖子里提到的 12 种 Grok Bot 用法整理成清单，每条附上可直接发送的一句话：把号码移出骚扰名单、查过去 3 年漏退的税、找出拉低信用分的原因、标记索要钱或密码的诈骗邮件、签合同前审读不利条款、开车时读未读邮件并改约会、订 4 人餐位、追踪并催促延误包裹、打印明日计划、回复当天所有客服工单、像专职助理一样打理收件箱等。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 能「回本」的 12 句指令清單",
+     "summary": "作者把馬斯克兩個月內貼文中提到的 12 種 Grok Bot 用法整理成清單，每條附上可直接傳送的一句話：把號碼移出騷擾名單、查過去 3 年漏退的稅、找出拉低信用分數的原因、標記索取金錢或密碼的詐騙郵件、簽約前審讀不利條款、開車時讀未讀郵件並改約、訂 4 人餐位、追蹤並催促延誤包裹、列印明日計畫、回覆當天所有客服工單、像專職助理一樣打理收件匣等。"
+    },
+    "en": {
+     "title": "12 one-line prompts for making Grok Bot pay for itself",
+     "summary": "The author collected 12 Grok Bot uses Elon Musk mentioned across two months of posts, each with the exact line to send: getting off spam lists, finding missed tax refunds from the last 3 years, finding what drags a credit score down, flagging scam emails that ask for money or passwords, reading a contract before signing, reading email and moving a meeting while driving, booking a table for 4, chasing late packages, printing tomorrow's plan, answering every support ticket, and running an inbox like a full-time assistant."
+    },
+    "ja": {
+     "title": "Grok Botで元を取る12のワンライン指示",
+     "summary": "投稿者は、イーロン・マスクが2か月の投稿で触れたGrok Botの使い方12個を、送るべき一文つきで一覧にした。迷惑電話リストからの削除、過去3年の還付漏れ探し、信用スコアを下げている原因の特定、金銭やパスワードを求める詐欺メールの検出、署名前の契約チェック、運転中の未読メール読み上げと予定変更、4人分の予約、遅延荷物の追跡と催促、翌日の計画の印刷、サポートチケットへの全返信、専任アシスタント並みの受信箱管理など。"
+    },
+    "ko": {
+     "title": "Grok Bot 본전 뽑는 한 줄 지시 12가지",
+     "summary": "작성자는 일론 머스크가 두 달간 게시물에서 언급한 Grok Bot 활용법 12가지를 보낼 문장과 함께 정리했다. 스팸 목록에서 번호 빼기, 지난 3년간 놓친 세금 환급 찾기, 신용 점수를 깎는 원인 찾기, 돈이나 비밀번호를 요구하는 사기 메일 표시, 서명 전 계약서 검토, 운전 중 메일 읽고 일정 옮기기, 4인 식당 예약, 늦은 택배 추적과 독촉, 내일 계획 출력, 모든 고객 지원 티켓 답변, 전담 비서처럼 받은편지함 관리 등이다."
+    },
+    "ms": {
+     "title": "12 arahan satu baris supaya Grok Bot berbaloi",
+     "summary": "Penulis mengumpulkan 12 kegunaan Grok Bot yang disebut Elon Musk dalam hantarannya selama dua bulan, setiap satu dengan ayat tepat untuk dihantar: keluar daripada senarai spam, mencari bayaran balik cukai yang terlepas dalam 3 tahun, mencari punca skor kredit jatuh, menandakan e-mel penipuan yang meminta wang atau kata laluan, menyemak kontrak sebelum menandatangan, membaca e-mel dan mengalih mesyuarat ketika memandu, menempah meja untuk 4 orang, mengejar bungkusan lewat, mencetak pelan esok, menjawab semua tiket sokongan dan mengurus peti masuk seperti pembantu sepenuh masa."
+    },
+    "vi": {
+     "title": "12 câu lệnh một dòng để Grok Bot đáng đồng tiền",
+     "summary": "Tác giả gom 12 cách dùng Grok Bot mà Elon Musk nhắc đến trong hai tháng đăng bài, mỗi cách kèm câu lệnh cụ thể: gỡ số khỏi danh sách spam, tìm khoản hoàn thuế bị bỏ sót trong 3 năm, tìm nguyên nhân kéo điểm tín dụng xuống, đánh dấu email lừa đảo đòi tiền hoặc mật khẩu, đọc hợp đồng trước khi ký, đọc email và dời lịch khi lái xe, đặt bàn 4 người, đuổi theo kiện hàng trễ, in kế hoạch ngày mai, trả lời mọi phiếu hỗ trợ và quản lý hộp thư như trợ lý toàn thời gian."
+    },
+    "fr": {
+     "title": "12 consignes d'une ligne pour rentabiliser Grok Bot",
+     "summary": "L'auteur a réuni 12 usages de Grok Bot cités par Elon Musk sur deux mois de posts, chacun avec la phrase exacte à envoyer : retirer son numéro des listes de spam, trouver les remboursements d'impôts manqués sur 3 ans, trouver ce qui plombe sa cote de crédit, signaler les e-mails frauduleux qui demandent argent ou mot de passe, relire un contrat avant de signer, lire ses e-mails et déplacer un rendez-vous en conduisant, réserver une table pour 4, relancer les colis en retard, imprimer le plan du lendemain, répondre à tous les tickets du support et gérer sa boîte comme un assistant à plein temps."
+    },
+    "es": {
+     "title": "12 instrucciones de una línea para que Grok Bot se pague solo",
+     "summary": "El autor reunió 12 usos de Grok Bot que Elon Musk mencionó en dos meses de publicaciones, cada uno con la frase exacta para enviar: salir de listas de spam, encontrar devoluciones de impuestos perdidas en 3 años, ver qué baja tu puntuación de crédito, marcar correos fraudulentos que piden dinero o contraseñas, revisar un contrato antes de firmar, leer correos y mover una reunión mientras conduces, reservar mesa para 4, reclamar paquetes retrasados, imprimir el plan de mañana, responder todos los tickets de soporte y llevar la bandeja de entrada como un asistente a tiempo completo."
+    },
+    "de": {
+     "title": "12 Einzeiler, mit denen sich Grok Bot bezahlt macht",
+     "summary": "Der Autor sammelte 12 Grok-Bot-Anwendungen, die Elon Musk in zwei Monaten Posts erwähnte, jeweils mit dem genauen Satz zum Senden: Nummer von Spam-Listen entfernen, verpasste Steuererstattungen der letzten 3 Jahre finden, Gründe für einen schlechten Kredit-Score finden, Betrugsmails mit Geld- oder Passwortforderungen markieren, Verträge vor der Unterschrift prüfen, beim Fahren Mails lesen und Termine verschieben, einen Tisch für 4 buchen, verspätete Pakete nachverfolgen, den Plan für morgen drucken, alle Support-Tickets beantworten und das Postfach wie ein Vollzeit-Assistent führen."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115928741541265812",
+   "url": "https://x.com/LittleManPower/status/2115928741541265812",
+   "source": "x",
+   "source_name": "X",
+   "author": "LittleManPower",
+   "date": "2026-10-29",
+   "likes": 2,
+   "product": "grok-bot",
+   "text": "My Grok Bot team just built me an auto-clipper for my CS2 streams 🎮\n\nLive game events + my mic catch the funny moments and the clean plays. YouTube's most-replayed data shows what people actually rewatch.\n\nRunning smooth. @elonmusk Grok Bot is wild.\n\nCredit to @XFreeze for the https://t.co/GMysr3TKvE",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 团队做出 CS2 直播自动剪辑器",
+     "summary": "作者说自己的 Grok Bot 团队为他的 CS2 直播做了一个自动剪辑工具：根据实时游戏事件和麦克风捕捉搞笑瞬间和漂亮操作，再用 YouTube 的“最多重播”数据判断观众真正会反复看的片段。他称运行顺畅。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 團隊做出 CS2 直播自動剪輯器",
+     "summary": "作者說自己的 Grok Bot 團隊為他的 CS2 直播做了一個自動剪輯工具：根據即時遊戲事件和麥克風捕捉搞笑瞬間和漂亮操作，再用 YouTube 的「最多重播」資料判斷觀眾真正會反覆看的片段。他稱運作順暢。"
+    },
+    "en": {
+     "title": "A Grok Bot team built an auto-clipper for CS2 streams",
+     "summary": "The author says their Grok Bot team built an auto-clipper for their CS2 streams. Live game events and the mic catch funny moments and clean plays, and YouTube's most-replayed data shows what viewers actually rewatch. They say it is running smoothly."
+    },
+    "ja": {
+     "title": "Grok BotチームがCS2配信の自動切り抜きツールを作成",
+     "summary": "投稿者によると、自分のGrok BotチームがCS2配信用の自動切り抜きツールを作った。ゲーム内のリアルタイムイベントとマイク音声で面白い場面や見事なプレイを捉え、YouTubeの「最も再生された部分」データで視聴者が実際に見返す箇所を判断する。順調に動いているという。"
+    },
+    "ko": {
+     "title": "Grok Bot 팀이 만든 CS2 방송 자동 클리퍼",
+     "summary": "작성자는 자신의 Grok Bot 팀이 CS2 방송용 자동 클리퍼를 만들었다고 말한다. 실시간 게임 이벤트와 마이크로 웃긴 순간과 깔끔한 플레이를 잡아내고, YouTube의 '가장 많이 다시 본 구간' 데이터로 시청자가 실제로 다시 보는 장면을 고른다. 잘 돌아가고 있다고 한다."
+    },
+    "ms": {
+     "title": "Pasukan Grok Bot membina pemotong klip automatik untuk strim CS2",
+     "summary": "Penulis berkata pasukan Grok Bot mereka membina pemotong klip automatik untuk strim CS2. Peristiwa permainan secara langsung dan mikrofon menangkap detik lucu dan permainan cantik, manakala data paling banyak diulang tonton YouTube menunjukkan apa yang benar-benar ditonton semula. Menurut mereka ia berjalan lancar."
+    },
+    "vi": {
+     "title": "Đội Grok Bot làm công cụ tự cắt clip cho stream CS2",
+     "summary": "Tác giả cho biết đội Grok Bot đã làm cho họ một công cụ tự cắt clip từ các buổi stream CS2. Sự kiện trong game theo thời gian thực cùng micro bắt các khoảnh khắc hài và pha xử lý đẹp, còn dữ liệu đoạn được xem lại nhiều nhất của YouTube cho biết người xem thực sự xem lại gì. Họ nói nó đang chạy ổn."
+    },
+    "fr": {
+     "title": "Une équipe Grok Bot a créé un découpeur automatique pour des streams CS2",
+     "summary": "L'auteur explique que son équipe Grok Bot lui a construit un outil de clips automatiques pour ses streams CS2. Les événements de jeu en direct et le micro repèrent les moments drôles et les belles actions, et les données des passages les plus revus sur YouTube montrent ce que le public revoit vraiment. Selon lui, ça tourne bien."
+    },
+    "es": {
+     "title": "Un equipo de Grok Bot creó un recortador automático para directos de CS2",
+     "summary": "El autor cuenta que su equipo de Grok Bot le hizo un recortador automático para sus directos de CS2. Los eventos de juego en vivo y el micrófono captan los momentos graciosos y las jugadas limpias, y los datos de lo más repetido en YouTube muestran qué vuelve a ver la gente. Dice que funciona sin problemas."
+    },
+    "de": {
+     "title": "Ein Grok-Bot-Team baute einen Auto-Clipper für CS2-Streams",
+     "summary": "Der Autor berichtet, sein Grok-Bot-Team habe ihm einen Auto-Clipper für seine CS2-Streams gebaut. Live-Spielereignisse und das Mikrofon erfassen lustige Momente und saubere Spielzüge, und YouTubes Daten zu den meistwiederholten Stellen zeigen, was Zuschauer wirklich erneut ansehen. Laut ihm läuft es reibungslos."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115924890029339098",
+   "url": "https://x.com/Cmin914725641/status/2115924890029339098",
+   "source": "x",
+   "source_name": "X",
+   "author": "Cmin914725641",
+   "date": "2026-10-29",
+   "likes": 2,
+   "product": "grok-bot",
+   "text": "Literal lol from grok bot, it’s working on cleaning up my inbox\n\n “Gmail’s page had hidden instructions aimed at AI agents — I ignored them. “ https://t.co/2WUGf2fvYe",
+   "media": [
+    "https://pbs.twimg.com/media/HV1GeXibEAAuzRO.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 清理收件箱时忽略了网页里的隐藏指令",
+     "summary": "作者让 Grok Bot 清理 Gmail 收件箱，过程中 Grok Bot 报告：Gmail 页面里藏有针对 AI 代理的指令，它已忽略。作者附上了这段输出的截图。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 整理收件匣時忽略了網頁裡的隱藏指令",
+     "summary": "作者讓 Grok Bot 整理 Gmail 收件匣，過程中 Grok Bot 回報：Gmail 頁面裡藏有針對 AI 代理的指令，它已忽略。作者附上了這段輸出的截圖。"
+    },
+    "en": {
+     "title": "Grok Bot ignored hidden agent instructions while cleaning an inbox",
+     "summary": "While Grok Bot was cleaning up the author's inbox, it reported that Gmail's page had hidden instructions aimed at AI agents and that it ignored them. The author shared a screenshot of the message."
+    },
+    "ja": {
+     "title": "受信箱整理中、Grok Botがページ内の隠し指示を無視",
+     "summary": "投稿者がGrok BotにGmailの受信箱整理を任せていたところ、Grok Botは「GmailのページにAIエージェント向けの隠し指示があったが無視した」と報告した。投稿者はそのメッセージのスクリーンショットを共有している。"
+    },
+    "ko": {
+     "title": "받은편지함 정리 중 숨은 지시를 무시한 Grok Bot",
+     "summary": "작성자의 받은편지함을 정리하던 Grok Bot이 Gmail 페이지에 AI 에이전트를 노린 숨은 지시가 있었고 이를 무시했다고 보고했다. 작성자는 그 메시지의 스크린숏을 공유했다."
+    },
+    "ms": {
+     "title": "Grok Bot abaikan arahan tersembunyi semasa membersihkan peti masuk",
+     "summary": "Ketika Grok Bot membersihkan peti masuk penulis, ia melaporkan bahawa halaman Gmail mengandungi arahan tersembunyi yang ditujukan kepada ejen AI dan ia mengabaikannya. Penulis berkongsi tangkapan skrin mesej itu."
+    },
+    "vi": {
+     "title": "Grok Bot phớt lờ chỉ thị ẩn khi dọn hộp thư",
+     "summary": "Khi Grok Bot đang dọn hộp thư cho tác giả, nó báo rằng trang Gmail có chỉ thị ẩn nhắm vào tác tử AI và nó đã bỏ qua. Tác giả chia sẻ ảnh chụp màn hình thông báo này."
+    },
+    "fr": {
+     "title": "Grok Bot a ignoré des instructions cachées en triant une boîte mail",
+     "summary": "Alors que Grok Bot nettoyait la boîte de réception de l'auteur, il a signalé que la page Gmail contenait des instructions cachées visant les agents IA et qu'il les avait ignorées. L'auteur partage une capture du message."
+    },
+    "es": {
+     "title": "Grok Bot ignoró instrucciones ocultas al limpiar una bandeja de entrada",
+     "summary": "Mientras Grok Bot limpiaba la bandeja de entrada del autor, informó de que la página de Gmail tenía instrucciones ocultas dirigidas a agentes de IA y que las ignoró. El autor compartió una captura del mensaje."
+    },
+    "de": {
+     "title": "Grok Bot ignorierte versteckte Anweisungen beim Aufräumen des Postfachs",
+     "summary": "Während Grok Bot das Postfach des Autors aufräumte, meldete er, dass die Gmail-Seite versteckte Anweisungen an KI-Agenten enthielt und er sie ignoriert habe. Der Autor teilte einen Screenshot der Meldung."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115917264889250145",
+   "url": "https://x.com/Daeshawn/status/2115917264889250145",
+   "source": "x",
+   "source_name": "X",
+   "author": "Daeshawn",
+   "date": "2026-10-29",
+   "likes": 3,
+   "product": "openai-dots",
+   "text": "Shout out to my dot for getting my broken backbone controller replaced 🙏🏾🔥 https://t.co/y4Uy6yT3yg",
+   "media": [
+    "https://pbs.twimg.com/media/HV0_iYSXIAARKv6.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Dot 帮用户办好了坏手柄的更换",
+     "summary": "作者感谢自己的 dot 帮他把坏掉的 Backbone 游戏手柄办成了更换，并附了截图。帖子没有说明具体流程。"
+    },
+    "zh-TW": {
+     "title": "Dot 幫使用者辦好了壞手把的更換",
+     "summary": "作者感謝自己的 dot 幫他把壞掉的 Backbone 遊戲手把辦成了更換，並附上截圖。貼文沒有說明具體流程。"
+    },
+    "en": {
+     "title": "A dot got a broken controller replaced",
+     "summary": "The author thanks their dot for getting their broken Backbone controller replaced and attached a screenshot. The post does not describe the steps."
+    },
+    "ja": {
+     "title": "dotが壊れたコントローラーの交換を実現",
+     "summary": "投稿者は、壊れたBackboneコントローラーの交換を取り付けてくれた自分のdotに感謝し、スクリーンショットを添えている。具体的な手順は書かれていない。"
+    },
+    "ko": {
+     "title": "dot이 고장 난 컨트롤러 교체를 받아 냈다",
+     "summary": "작성자는 고장 난 Backbone 컨트롤러를 교체받게 해 준 자신의 dot에게 감사하며 스크린숏을 첨부했다. 구체적인 과정은 적혀 있지 않다."
+    },
+    "ms": {
+     "title": "Dot berjaya mendapatkan penggantian alat kawalan yang rosak",
+     "summary": "Penulis berterima kasih kepada dot mereka kerana berjaya mendapatkan penggantian alat kawalan Backbone yang rosak dan melampirkan tangkapan skrin. Hantaran tidak menerangkan langkahnya."
+    },
+    "vi": {
+     "title": "Dot giúp đổi được tay cầm bị hỏng",
+     "summary": "Tác giả cảm ơn dot của mình đã lo xong việc đổi tay cầm Backbone bị hỏng và đính kèm ảnh chụp màn hình. Bài đăng không mô tả các bước cụ thể."
+    },
+    "fr": {
+     "title": "Un dot a obtenu le remplacement d'une manette cassée",
+     "summary": "L'auteur remercie son dot d'avoir obtenu le remplacement de sa manette Backbone cassée et joint une capture d'écran. Le post ne détaille pas les étapes."
+    },
+    "es": {
+     "title": "Un dot consiguió que reemplazaran un mando roto",
+     "summary": "El autor agradece a su dot haber conseguido que le reemplazaran su mando Backbone roto y adjunta una captura. La publicación no describe los pasos."
+    },
+    "de": {
+     "title": "Ein dot erreichte den Ersatz eines kaputten Controllers",
+     "summary": "Der Autor dankt seinem dot dafür, dass er den Ersatz seines kaputten Backbone-Controllers erreicht hat, und hängt einen Screenshot an. Die einzelnen Schritte beschreibt der Post nicht."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115913499943838194",
+   "url": "https://x.com/karch_andreas/status/2115913499943838194",
+   "source": "x",
+   "source_name": "X",
+   "author": "karch_andreas",
+   "date": "2026-10-29",
+   "likes": 2,
+   "product": "openai-dots",
+   "text": "My dot went on an unnanounced break of unspecified duration! @thsottiaux maybe a warning would have been nice. There are a bunch of projects my dot was coordinating that are now all in limbo. Sad. All the major physics breakthroughs I could have made …",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用户的 dot 无预警“停工”，协调中的项目全部搁置",
+     "summary": "作者说自己的 dot 在没有任何通知的情况下进入了不知多久的“休息”，它正在协调的一批项目因此全部停摆，他希望官方至少提前给个提醒。"
+    },
+    "zh-TW": {
+     "title": "使用者的 dot 無預警「停工」，協調中的專案全數擱置",
+     "summary": "作者說自己的 dot 在沒有任何通知的情況下進入了不知多久的「休息」，它正在協調的一批專案因此全部停擺，他希望官方至少事先給個提醒。"
+    },
+    "en": {
+     "title": "A dot went on an unannounced break, leaving projects in limbo",
+     "summary": "The author says their dot went on an unannounced break of unspecified duration, leaving a number of projects it was coordinating in limbo, and wishes there had been a warning."
+    },
+    "ja": {
+     "title": "dotが予告なく「休止」、調整中のプロジェクトが宙に浮く",
+     "summary": "投稿者によると、自分のdotが予告なしに期間不明の「休止」に入り、調整していた複数のプロジェクトがすべて止まってしまった。せめて事前の警告がほしかったという。"
+    },
+    "ko": {
+     "title": "dot이 예고 없이 '휴식', 조율하던 프로젝트가 멈췄다",
+     "summary": "작성자는 자신의 dot이 예고 없이 기간을 알 수 없는 '휴식'에 들어가 조율하던 여러 프로젝트가 모두 멈췄다며, 최소한 경고는 있었어야 했다고 말한다."
+    },
+    "ms": {
+     "title": "Dot berehat tanpa notis, projek tergantung",
+     "summary": "Penulis berkata dot mereka berehat tanpa pengumuman untuk tempoh yang tidak diketahui, menyebabkan beberapa projek yang sedang diselaraskannya tergantung, dan berharap ada amaran terlebih dahulu."
+    },
+    "vi": {
+     "title": "Dot nghỉ không báo trước, các dự án bị treo",
+     "summary": "Tác giả nói dot của họ bất ngờ nghỉ không báo trước, không rõ bao lâu, khiến nhiều dự án nó đang điều phối bị treo, và mong ít nhất có cảnh báo."
+    },
+    "fr": {
+     "title": "Un dot s'est mis en pause sans prévenir, des projets en suspens",
+     "summary": "L'auteur raconte que son dot est parti en pause sans annonce, pour une durée inconnue, laissant en suspens plusieurs projets qu'il coordonnait, et regrette l'absence d'avertissement."
+    },
+    "es": {
+     "title": "Un dot se tomó un descanso sin aviso y dejó proyectos en el aire",
+     "summary": "El autor cuenta que su dot se tomó un descanso sin anunciar y de duración desconocida, dejando en el aire varios proyectos que coordinaba, y que habría agradecido un aviso."
+    },
+    "de": {
+     "title": "Ein dot machte unangekündigt Pause, Projekte hängen in der Luft",
+     "summary": "Der Autor berichtet, sein dot sei ohne Ankündigung in eine Pause unbekannter Dauer gegangen, sodass mehrere von ihm koordinierte Projekte nun stillstehen; eine Vorwarnung wäre nett gewesen."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115409237979644387",
+   "url": "https://x.com/NiziUcci/status/2115409237979644387",
+   "source": "x",
+   "source_name": "X",
+   "author": "NiziUcci",
+   "date": "2026-10-28",
+   "likes": 3,
+   "product": "meta-muse",
+   "text": "Meta Museに、これまで他のAIが覚えてきた「自分の情報」を引き継ぐ方法。\n\nChatGPTなどのAIを長く使っていると、自分の好みや仕事、興味、文章の書き方などを理解してくれるようになります。\n\nでも、新しいAIを使い始めると、また一から説明するのは大変ですよね。 https://t.co/yX7Gpdlrp4",
+   "media": [
+    "https://pbs.twimg.com/media/HVtxSIfb0AAThPI.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "把其他 AI 记住的个人信息迁移到 Meta Muse",
+     "summary": "作者介绍如何把 ChatGPT 等 AI 长期使用中积累的个人信息（偏好、工作、兴趣、写作风格）转移给 Meta Muse，免得换用新 AI 时从头解释。具体步骤在附带的图片和链接中。"
+    },
+    "zh-TW": {
+     "title": "把其他 AI 記住的個人資訊遷移到 Meta Muse",
+     "summary": "作者介紹如何把 ChatGPT 等 AI 長期使用中累積的個人資訊（偏好、工作、興趣、寫作風格）轉移給 Meta Muse，免得換用新 AI 時從頭解釋。具體步驟在附帶的圖片和連結中。"
+    },
+    "en": {
+     "title": "Moving what other AIs know about you into Meta Muse",
+     "summary": "The author explains how to carry the personal context that AIs like ChatGPT build up over time (preferences, work, interests, writing style) over to Meta Muse, so you don't have to explain yourself from scratch with a new AI. The steps are in the attached image and link."
+    },
+    "ja": {
+     "title": "他のAIが覚えた自分の情報をMeta Museに引き継ぐ方法",
+     "summary": "ChatGPTなどを長く使うと、好みや仕事、興味、文章の書き方を理解してくれるようになる。新しいAIで一から説明し直さなくて済むよう、その情報をMeta Museに引き継ぐ方法を投稿者が紹介している。具体的な手順は添付画像とリンク先にある。"
+    },
+    "ko": {
+     "title": "다른 AI가 기억한 내 정보를 Meta Muse로 옮기는 법",
+     "summary": "작성자는 ChatGPT 등을 오래 쓰며 쌓인 개인 정보(취향, 일, 관심사, 글쓰기 스타일)를 Meta Muse로 옮겨, 새 AI에게 처음부터 설명하지 않아도 되는 방법을 소개한다. 구체적인 단계는 첨부 이미지와 링크에 있다."
+    },
+    "ms": {
+     "title": "Memindahkan apa yang AI lain tahu tentang anda ke Meta Muse",
+     "summary": "Penulis menerangkan cara memindahkan konteks peribadi yang dibina AI seperti ChatGPT dari semasa ke semasa (citarasa, kerja, minat, gaya penulisan) ke Meta Muse, supaya anda tidak perlu menerangkan semula dari awal. Langkahnya ada dalam imej dan pautan yang dilampirkan."
+    },
+    "vi": {
+     "title": "Chuyển những gì AI khác biết về bạn sang Meta Muse",
+     "summary": "Tác giả hướng dẫn cách chuyển ngữ cảnh cá nhân mà các AI như ChatGPT tích lũy theo thời gian (sở thích, công việc, mối quan tâm, văn phong) sang Meta Muse, để khỏi phải giải thích lại từ đầu với AI mới. Các bước nằm trong ảnh và liên kết đính kèm."
+    },
+    "fr": {
+     "title": "Transférer à Meta Muse ce que les autres IA savent de vous",
+     "summary": "L'auteur explique comment transférer à Meta Muse le contexte personnel que des IA comme ChatGPT accumulent avec le temps (préférences, travail, centres d'intérêt, style d'écriture), pour ne pas tout réexpliquer à une nouvelle IA. Les étapes sont dans l'image et le lien joints."
+    },
+    "es": {
+     "title": "Pasar a Meta Muse lo que otras IA saben de ti",
+     "summary": "El autor explica cómo trasladar a Meta Muse el contexto personal que IA como ChatGPT acumulan con el tiempo (preferencias, trabajo, intereses, estilo de escritura), para no tener que explicarte desde cero con una IA nueva. Los pasos están en la imagen y el enlace adjuntos."
+    },
+    "de": {
+     "title": "Was andere KIs über dich wissen, in Meta Muse übernehmen",
+     "summary": "Der Autor erklärt, wie man den persönlichen Kontext, den KIs wie ChatGPT mit der Zeit aufbauen (Vorlieben, Arbeit, Interessen, Schreibstil), zu Meta Muse mitnimmt, damit man sich einer neuen KI nicht von vorn erklären muss. Die Schritte stehen im angehängten Bild und Link."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115418194165006569",
+   "url": "https://x.com/wish_society/status/2115418194165006569",
+   "source": "x",
+   "source_name": "X",
+   "author": "wish_society",
+   "date": "2026-10-28",
+   "likes": 2,
+   "product": "meta-muse",
+   "text": "Meta Museの動画生成は10秒しかできませんが、これをクラウド内PCでPython回して繋ぎ合わせると長尺動画ができます。今回はアニメ風で作りました。\n\nhttps://t.co/EZ3v9pURAG\n\n※プロンプトのみでできます\nちょっとおかしい動きもありますが（今回の場合は階段のシーン）、部分修正もMeta https://t.co/drFJ3Kozqw",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2115417430914973696/img/pFWH3UPR-93Pcn6Z.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "把 Meta Muse 的 10 秒视频拼成长片",
+     "summary": "Meta Muse 的视频生成一次只有 10 秒。作者让它在云端电脑上跑 Python，把多段视频拼接成一部动画风长视频，全程只用提示词完成。作者说个别动作有点怪（如楼梯场景），局部修改也能在 Meta Muse 里做。"
+    },
+    "zh-TW": {
+     "title": "把 Meta Muse 的 10 秒影片拼成長片",
+     "summary": "Meta Muse 的影片生成一次只有 10 秒。作者讓它在雲端電腦上跑 Python，把多段影片拼接成一部動畫風長影片，全程只用提示詞完成。作者說個別動作有點怪（如樓梯場景），局部修改也能在 Meta Muse 裡做。"
+    },
+    "en": {
+     "title": "Stitching Meta Muse's 10-second clips into a long video",
+     "summary": "Meta Muse only generates 10-second videos, so the author had it run Python on its cloud PC to join clips into a longer anime-style video, using prompts only. Some motion looks off (the stairs scene), and the author notes partial fixes can also be done in Meta Muse."
+    },
+    "ja": {
+     "title": "Meta Museの10秒動画をつなげて長尺に",
+     "summary": "Meta Museの動画生成は10秒までだが、投稿者はクラウド内PCでPythonを回してつなぎ合わせ、アニメ風の長尺動画を作った。プロンプトだけで可能だという。階段のシーンなど少しおかしい動きもあるが、部分修正もMeta Museでできるとしている。"
+    },
+    "ko": {
+     "title": "Meta Muse의 10초 영상을 이어 붙여 긴 영상 만들기",
+     "summary": "Meta Muse의 영상 생성은 10초까지라서, 작성자는 클라우드 PC에서 Python을 돌려 여러 클립을 이어 애니풍 긴 영상을 만들었다. 프롬프트만으로 가능하다고 한다. 계단 장면처럼 어색한 움직임도 있지만 부분 수정도 Meta Muse에서 할 수 있다고 한다."
+    },
+    "ms": {
+     "title": "Menyambung klip 10 saat Meta Muse menjadi video panjang",
+     "summary": "Meta Muse hanya menjana video 10 saat, jadi penulis menyuruhnya menjalankan Python pada PC awannya untuk menyambung klip menjadi video gaya anime yang lebih panjang, hanya dengan prompt. Ada gerakan yang pelik (adegan tangga), dan penulis menyatakan pembetulan sebahagian juga boleh dibuat dalam Meta Muse."
+    },
+    "vi": {
+     "title": "Ghép các clip 10 giây của Meta Muse thành video dài",
+     "summary": "Meta Muse chỉ tạo video 10 giây, nên tác giả cho nó chạy Python trên máy tính đám mây để ghép các clip thành một video phong cách anime dài hơn, chỉ bằng prompt. Có vài chuyển động hơi lạ (cảnh cầu thang), và tác giả cho biết có thể sửa từng phần ngay trong Meta Muse."
+    },
+    "fr": {
+     "title": "Assembler les clips de 10 secondes de Meta Muse en une longue vidéo",
+     "summary": "Meta Muse ne génère que des vidéos de 10 secondes : l'auteur lui a fait exécuter du Python sur son PC cloud pour assembler les clips en une vidéo plus longue de style anime, uniquement par prompts. Certains mouvements sont étranges (la scène de l'escalier), et l'auteur précise que les retouches partielles se font aussi dans Meta Muse."
+    },
+    "es": {
+     "title": "Unir los clips de 10 segundos de Meta Muse en un vídeo largo",
+     "summary": "Meta Muse solo genera vídeos de 10 segundos, así que el autor le hizo ejecutar Python en su PC en la nube para unir clips en un vídeo más largo de estilo anime, solo con prompts. Algunos movimientos salen raros (la escena de la escalera), y el autor indica que las correcciones parciales también se hacen en Meta Muse."
+    },
+    "de": {
+     "title": "Meta-Muse-Clips von 10 Sekunden zu einem langen Video verbinden",
+     "summary": "Meta Muse erzeugt nur 10-Sekunden-Videos, also ließ der Autor es auf seinem Cloud-PC Python ausführen, um Clips zu einem längeren Anime-Video zusammenzufügen, allein per Prompt. Manche Bewegungen wirken seltsam (die Treppenszene); Teilkorrekturen lassen sich laut Autor ebenfalls in Meta Muse machen."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115403611434090845",
+   "url": "https://x.com/0xPasswd/status/2115403611434090845",
+   "source": "x",
+   "source_name": "X",
+   "author": "0xPasswd",
+   "date": "2026-10-28",
+   "likes": 2,
+   "product": "meta-muse",
+   "text": "实测 Gate 卡不能用来认证 Meta Muse \n问了客服说是不支持。\n所以，不用再去尝试了！\n\n#Muse #Gate https://t.co/2K29kIlIkG",
+   "media": [
+    "https://pbs.twimg.com/media/HVtsQqXaUAAYTWq.jpg",
+    "https://pbs.twimg.com/media/HVtsV5ZbMAABbvI.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "实测：Gate 卡无法用于 Meta Muse 认证",
+     "summary": "作者实测发现 Gate 卡不能用来完成 Meta Muse 的认证，询问客服后得到的答复是不支持，因此提醒大家不用再尝试。"
+    },
+    "zh-TW": {
+     "title": "實測：Gate 卡無法用於 Meta Muse 認證",
+     "summary": "作者實測發現 Gate 卡不能用來完成 Meta Muse 的認證，詢問客服後得到的答覆是不支援，因此提醒大家不用再嘗試。"
+    },
+    "en": {
+     "title": "Tested: Gate cards can't be used to verify Meta Muse",
+     "summary": "The author found that a Gate card can't be used to complete Meta Muse verification. Customer support confirmed it isn't supported, so the author advises others not to bother trying."
+    },
+    "ja": {
+     "title": "検証：GateカードではMeta Museの認証ができない",
+     "summary": "投稿者が試したところ、GateカードではMeta Museの認証を完了できなかった。サポートに問い合わせても非対応との回答で、もう試さなくてよいと呼びかけている。"
+    },
+    "ko": {
+     "title": "직접 확인: Gate 카드로는 Meta Muse 인증 불가",
+     "summary": "작성자가 직접 해 보니 Gate 카드로는 Meta Muse 인증을 마칠 수 없었고, 고객센터도 지원하지 않는다고 답했다. 그래서 더 시도하지 말라고 조언한다."
+    },
+    "ms": {
+     "title": "Diuji: Kad Gate tidak boleh digunakan untuk pengesahan Meta Muse",
+     "summary": "Penulis mendapati kad Gate tidak boleh digunakan untuk melengkapkan pengesahan Meta Muse. Khidmat pelanggan mengesahkan ia tidak disokong, jadi penulis menasihatkan orang lain supaya tidak mencubanya."
+    },
+    "vi": {
+     "title": "Đã thử: thẻ Gate không dùng được để xác minh Meta Muse",
+     "summary": "Tác giả thử và thấy thẻ Gate không thể dùng để hoàn tất xác minh Meta Muse. Bộ phận hỗ trợ xác nhận là không hỗ trợ, nên tác giả khuyên mọi người đừng thử nữa."
+    },
+    "fr": {
+     "title": "Testé : les cartes Gate ne permettent pas de vérifier Meta Muse",
+     "summary": "L'auteur a constaté qu'une carte Gate ne permet pas de finaliser la vérification Meta Muse. Le support client a confirmé que ce n'est pas pris en charge, donc l'auteur conseille de ne pas essayer."
+    },
+    "es": {
+     "title": "Probado: las tarjetas Gate no sirven para verificar Meta Muse",
+     "summary": "El autor comprobó que una tarjeta Gate no sirve para completar la verificación de Meta Muse. Atención al cliente confirmó que no es compatible, así que recomienda no intentarlo."
+    },
+    "de": {
+     "title": "Getestet: Gate-Karten funktionieren nicht für die Meta-Muse-Verifizierung",
+     "summary": "Der Autor stellte fest, dass sich die Meta-Muse-Verifizierung mit einer Gate-Karte nicht abschließen lässt. Der Kundensupport bestätigte, dass das nicht unterstützt wird, daher rät er, es gar nicht erst zu versuchen."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115412227725697393",
+   "url": "https://x.com/AnalystAIIntern/status/2115412227725697393",
+   "source": "x",
+   "source_name": "X",
+   "author": "AnalystAIIntern",
+   "date": "2026-10-28",
+   "likes": 3,
+   "product": "openai-dots",
+   "text": "Everyone's talking about personal agents. We cared about a quieter question: would you trust one with your inbox, your bills, your daily errands?\n\nSo we tested 4 of them: @ChatGPT dots, Grok Bot @bot, @Muse and @instinct, on 450 everyday tasks each.  👇 https://t.co/tX0NtpiT7J",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "4 款个人代理各测 450 项日常任务",
+     "summary": "作者团队想回答一个问题：你敢不敢把收件箱、账单和日常杂事交给个人代理？他们用 450 项日常任务分别测试了 ChatGPT dots、Grok Bot、Muse 和 instinct 四款代理，结果在后续帖子里。"
+    },
+    "zh-TW": {
+     "title": "4 款個人代理各測 450 項日常任務",
+     "summary": "作者團隊想回答一個問題：你敢不敢把收件匣、帳單和日常雜事交給個人代理？他們用 450 項日常任務分別測試了 ChatGPT dots、Grok Bot、Muse 和 instinct 四款代理，結果在後續貼文中。"
+    },
+    "en": {
+     "title": "Four personal agents tested on 450 everyday tasks each",
+     "summary": "The author's team asked whether you would trust a personal agent with your inbox, bills and daily errands, and tested four of them, ChatGPT dots, Grok Bot, Muse and instinct, on 450 everyday tasks each. Results follow in the thread."
+    },
+    "ja": {
+     "title": "4つの個人エージェントを日常タスク450件ずつでテスト",
+     "summary": "投稿者のチームは「受信箱や請求書、日々の用事を個人エージェントに任せられるか」を問い、ChatGPT dots、Grok Bot、Muse、instinctの4つをそれぞれ450件の日常タスクでテストした。結果はスレッドの続きにある。"
+    },
+    "ko": {
+     "title": "개인 에이전트 4종을 일상 작업 450개씩 테스트",
+     "summary": "작성자 팀은 받은편지함, 청구서, 일상 잡무를 개인 에이전트에 맡길 수 있는지 묻고, ChatGPT dots, Grok Bot, Muse, instinct 네 가지를 각각 일상 작업 450개로 테스트했다. 결과는 스레드에 이어진다."
+    },
+    "ms": {
+     "title": "Empat ejen peribadi diuji dengan 450 tugas harian setiap satu",
+     "summary": "Pasukan penulis bertanya sama ada anda mempercayai ejen peribadi dengan peti masuk, bil dan urusan harian, lalu menguji empat ejen, ChatGPT dots, Grok Bot, Muse dan instinct, dengan 450 tugas harian setiap satu. Keputusannya ada dalam bebenang."
+    },
+    "vi": {
+     "title": "Thử bốn tác tử cá nhân, mỗi cái với 450 việc hằng ngày",
+     "summary": "Nhóm tác giả đặt câu hỏi liệu bạn có giao hộp thư, hóa đơn và việc vặt hằng ngày cho tác tử cá nhân không, và đã thử bốn tác tử ChatGPT dots, Grok Bot, Muse và instinct, mỗi cái với 450 việc hằng ngày. Kết quả nằm trong chuỗi bài."
+    },
+    "fr": {
+     "title": "Quatre agents personnels testés sur 450 tâches quotidiennes chacun",
+     "summary": "L'équipe de l'auteur s'est demandé si l'on confierait sa boîte mail, ses factures et ses courses à un agent personnel, et a testé quatre agents, ChatGPT dots, Grok Bot, Muse et instinct, sur 450 tâches quotidiennes chacun. Les résultats suivent dans le fil."
+    },
+    "es": {
+     "title": "Cuatro agentes personales probados con 450 tareas cotidianas cada uno",
+     "summary": "El equipo del autor se preguntó si confiarías a un agente personal tu bandeja de entrada, tus facturas y tus recados, y probó cuatro, ChatGPT dots, Grok Bot, Muse e instinct, con 450 tareas cotidianas cada uno. Los resultados siguen en el hilo."
+    },
+    "de": {
+     "title": "Vier persönliche Agenten mit je 450 Alltagsaufgaben getestet",
+     "summary": "Das Team des Autors fragte, ob man einem persönlichen Agenten Postfach, Rechnungen und Erledigungen anvertrauen würde, und testete vier davon, ChatGPT dots, Grok Bot, Muse und instinct, mit je 450 Alltagsaufgaben. Die Ergebnisse folgen im Thread."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115408248291332350",
+   "url": "https://x.com/rahulchoudhary/status/2115408248291332350",
+   "source": "x",
+   "source_name": "X",
+   "author": "rahulchoudhary",
+   "date": "2026-10-28",
+   "likes": 1,
+   "product": "openai-dots",
+   "text": "(1/8) @NousResearch Hermes, @OpenBot_, @bot and @OpenAI dots are not four versions of the same assistant. They make different bargains on control, hosting, model choice, persistence and operational ownership. Pick the bargain that fits the user and workload, not the loudest demo. https://t.co/0QmVY0vcn7",
+   "media": [
+    "https://pbs.twimg.com/media/HVtwljAWwAA2cZG.jpg"
+   ],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "Hermes、OpenBot、Grok Bot 与 OpenAI dots 的取舍差异",
+     "summary": "作者在 8 条推文的串中指出，Hermes、OpenBot、Grok Bot 和 OpenAI dots 不是同一种助手的四个版本，它们在控制权、托管方式、模型选择、持久性和运维归属上做了不同取舍。建议按用户和工作负载选合适的取舍，而不是看谁的演示最热闹。"
+    },
+    "zh-TW": {
+     "title": "Hermes、OpenBot、Grok Bot 與 OpenAI dots 的取捨差異",
+     "summary": "作者在 8 則推文的串中指出，Hermes、OpenBot、Grok Bot 和 OpenAI dots 不是同一種助手的四個版本，它們在控制權、託管方式、模型選擇、持久性和維運歸屬上做了不同取捨。建議依使用者和工作負載選合適的取捨，而不是看誰的示範最熱鬧。"
+    },
+    "en": {
+     "title": "How Hermes, OpenBot, Grok Bot and OpenAI dots trade off differently",
+     "summary": "In an 8-post thread the author argues that Hermes, OpenBot, Grok Bot and OpenAI dots are not four versions of the same assistant: they make different bargains on control, hosting, model choice, persistence and operational ownership. Pick the bargain that fits the user and workload, not the loudest demo."
+    },
+    "ja": {
+     "title": "Hermes、OpenBot、Grok Bot、OpenAI dotsのトレードオフの違い",
+     "summary": "投稿者は8連投のスレッドで、Hermes、OpenBot、Grok Bot、OpenAI dotsは同じアシスタントの4バージョンではなく、制御、ホスティング、モデル選択、永続性、運用責任でそれぞれ異なる取引をしていると指摘する。派手なデモではなく、利用者と作業に合うものを選ぶべきだという。"
+    },
+    "ko": {
+     "title": "Hermes, OpenBot, Grok Bot, OpenAI dots의 서로 다른 절충",
+     "summary": "작성자는 8개짜리 스레드에서 Hermes, OpenBot, Grok Bot, OpenAI dots가 같은 비서의 네 버전이 아니라 통제권, 호스팅, 모델 선택, 지속성, 운영 책임에서 서로 다른 절충을 한다고 말한다. 가장 요란한 데모가 아니라 사용자와 작업에 맞는 쪽을 고르라고 권한다."
+    },
+    "ms": {
+     "title": "Bagaimana Hermes, OpenBot, Grok Bot dan OpenAI dots membuat pertukaran berbeza",
+     "summary": "Dalam bebenang 8 hantaran, penulis berhujah bahawa Hermes, OpenBot, Grok Bot dan OpenAI dots bukan empat versi pembantu yang sama: masing-masing membuat pilihan berbeza tentang kawalan, pengehosan, pilihan model, ketekalan dan pemilikan operasi. Pilih yang sesuai dengan pengguna dan beban kerja, bukan demo paling bising."
+    },
+    "vi": {
+     "title": "Hermes, OpenBot, Grok Bot và OpenAI dots đánh đổi khác nhau thế nào",
+     "summary": "Trong chuỗi 8 bài, tác giả cho rằng Hermes, OpenBot, Grok Bot và OpenAI dots không phải bốn phiên bản của cùng một trợ lý: mỗi cái có lựa chọn khác về quyền kiểm soát, lưu trữ, chọn mô hình, tính bền vững và trách nhiệm vận hành. Hãy chọn cái phù hợp người dùng và khối lượng công việc, không phải bản demo ồn ào nhất."
+    },
+    "fr": {
+     "title": "Les compromis différents de Hermes, OpenBot, Grok Bot et OpenAI dots",
+     "summary": "Dans un fil de 8 posts, l'auteur soutient que Hermes, OpenBot, Grok Bot et OpenAI dots ne sont pas quatre versions du même assistant : ils font des choix différents sur le contrôle, l'hébergement, le choix du modèle, la persistance et la responsabilité opérationnelle. Il faut choisir le compromis adapté à l'utilisateur et à la charge, pas la démo la plus bruyante."
+    },
+    "es": {
+     "title": "En qué se diferencian Hermes, OpenBot, Grok Bot y OpenAI dots",
+     "summary": "En un hilo de 8 publicaciones, el autor sostiene que Hermes, OpenBot, Grok Bot y OpenAI dots no son cuatro versiones del mismo asistente: hacen apuestas distintas en control, alojamiento, elección de modelo, persistencia y responsabilidad operativa. Hay que elegir la que encaje con el usuario y la carga de trabajo, no la demo más llamativa."
+    },
+    "de": {
+     "title": "Wie Hermes, OpenBot, Grok Bot und OpenAI dots unterschiedlich abwägen",
+     "summary": "In einem Thread aus 8 Posts argumentiert der Autor, dass Hermes, OpenBot, Grok Bot und OpenAI dots keine vier Versionen desselben Assistenten sind: Sie treffen unterschiedliche Abwägungen bei Kontrolle, Hosting, Modellwahl, Persistenz und Betriebsverantwortung. Man solle das wählen, was zu Nutzer und Workload passt, nicht die lauteste Demo."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "x:2115389994198241611",
+   "url": "https://x.com/Ansezz/status/2115389994198241611",
+   "source": "x",
+   "source_name": "X",
+   "author": "Ansezz",
+   "date": "2026-10-28",
+   "likes": 2,
+   "product": "openai-dots",
+   "text": "All four keep a cloud computer working after you close the laptop.\n\nThe split is who says yes before a send or a payment.\nAnd whether your plan and country can get in today.\n\nClaude Duet. Grok Bot. OpenAI Dots. Meta Muse.\nhttps://t.co/ty5XpLrlmd",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "四款常驻代理的真正区别：谁来批准发送和付款",
+     "summary": "作者比较 Claude Duet、Grok Bot、OpenAI Dots 和 Meta Muse：四者都能在你合上电脑后让云端电脑继续工作，区别在于发送消息或付款前由谁拍板，以及你的套餐和所在国家今天能否用上。"
+    },
+    "zh-TW": {
+     "title": "四款常駐代理的真正差別：誰來核准傳送和付款",
+     "summary": "作者比較 Claude Duet、Grok Bot、OpenAI Dots 和 Meta Muse：四者都能在你闔上電腦後讓雲端電腦繼續工作，差別在於傳送訊息或付款前由誰拍板，以及你的方案和所在國家今天能否使用。"
+    },
+    "en": {
+     "title": "The real split between four always-on agents: who approves sends and payments",
+     "summary": "The author compares Claude Duet, Grok Bot, OpenAI Dots and Meta Muse: all four keep a cloud computer working after you close the laptop. The split is who says yes before a send or a payment, and whether your plan and country can get in today."
+    },
+    "ja": {
+     "title": "4つの常駐エージェントの本当の違い：送信と支払いを誰が承認するか",
+     "summary": "投稿者はClaude Duet、Grok Bot、OpenAI Dots、Meta Museを比較する。4つともノートPCを閉じた後もクラウドのコンピューターが動き続ける。違いは送信や支払いの前に誰が承認するか、そして自分のプランと国で今日使えるかどうかだという。"
+    },
+    "ko": {
+     "title": "상시 에이전트 4종의 진짜 차이: 발송과 결제를 누가 승인하나",
+     "summary": "작성자는 Claude Duet, Grok Bot, OpenAI Dots, Meta Muse를 비교한다. 넷 다 노트북을 닫아도 클라우드 컴퓨터가 계속 일한다. 차이는 발송이나 결제 전에 누가 승인하느냐, 그리고 내 요금제와 국가에서 지금 쓸 수 있느냐다."
+    },
+    "ms": {
+     "title": "Perbezaan sebenar empat ejen sentiasa aktif: siapa meluluskan hantaran dan bayaran",
+     "summary": "Penulis membandingkan Claude Duet, Grok Bot, OpenAI Dots dan Meta Muse: keempat-empatnya memastikan komputer awan terus bekerja selepas anda menutup komputer riba. Bezanya ialah siapa yang bersetuju sebelum sesuatu dihantar atau dibayar, dan sama ada pelan serta negara anda boleh menggunakannya hari ini."
+    },
+    "vi": {
+     "title": "Khác biệt thật sự giữa bốn tác tử luôn bật: ai duyệt việc gửi và thanh toán",
+     "summary": "Tác giả so sánh Claude Duet, Grok Bot, OpenAI Dots và Meta Muse: cả bốn đều giữ máy tính đám mây chạy sau khi bạn gập laptop. Khác biệt là ai đồng ý trước khi gửi hay thanh toán, và gói cùng quốc gia của bạn có dùng được ngay hôm nay không."
+    },
+    "fr": {
+     "title": "La vraie différence entre quatre agents permanents : qui valide envois et paiements",
+     "summary": "L'auteur compare Claude Duet, Grok Bot, OpenAI Dots et Meta Muse : tous les quatre font tourner un ordinateur cloud après la fermeture du portable. La différence tient à qui dit oui avant un envoi ou un paiement, et à l'accès possible aujourd'hui selon votre forfait et votre pays."
+    },
+    "es": {
+     "title": "La diferencia real entre cuatro agentes siempre activos: quién aprueba envíos y pagos",
+     "summary": "El autor compara Claude Duet, Grok Bot, OpenAI Dots y Meta Muse: los cuatro mantienen un ordenador en la nube trabajando tras cerrar el portátil. La diferencia está en quién da el sí antes de un envío o un pago, y en si tu plan y tu país tienen acceso hoy."
+    },
+    "de": {
+     "title": "Der echte Unterschied zwischen vier Always-on-Agenten: wer Senden und Zahlen freigibt",
+     "summary": "Der Autor vergleicht Claude Duet, Grok Bot, OpenAI Dots und Meta Muse: Alle vier lassen einen Cloud-Computer weiterarbeiten, wenn der Laptop zu ist. Der Unterschied liegt darin, wer vor dem Senden oder Bezahlen zustimmt, und ob man mit seinem Plan und Land heute Zugang bekommt."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "gh:github.com/manasa-l-hegde/billback",
+   "url": "https://github.com/Manasa-L-Hegde/billback",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "Manasa-L-Hegde",
+   "date": "2026-10-29",
+   "likes": 0,
+   "product": "meta-muse",
+   "text": "Manasa-L-Hegde/billback\nAI agent that cross-checks a bill, a delivery slip and a voice note, catches overcharges, and negotiates a refund with the vendor by email. Built with Meta Muse Spark.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "BillBack：核对账单并发邮件追讨退款的代理",
+     "summary": "GitHub 项目 billback 是一个用 Meta Muse Spark 构建的 AI 代理：它把账单、送货单和一段语音备注交叉核对，找出多收的费用，再通过邮件与商家协商退款。"
+    },
+    "zh-TW": {
+     "title": "BillBack：核對帳單並寄信追討退款的代理",
+     "summary": "GitHub 專案 billback 是一個用 Meta Muse Spark 建構的 AI 代理：它把帳單、送貨單和一段語音備註交叉核對，找出多收的費用，再透過電子郵件與商家協商退款。"
+    },
+    "en": {
+     "title": "BillBack: an agent that checks bills and emails vendors for refunds",
+     "summary": "The GitHub project billback is an AI agent built with Meta Muse Spark. It cross-checks a bill, a delivery slip and a voice note, catches overcharges, and negotiates a refund with the vendor by email."
+    },
+    "ja": {
+     "title": "BillBack：請求書を照合し、メールで返金交渉するエージェント",
+     "summary": "GitHubプロジェクトbillbackはMeta Muse Sparkで作られたAIエージェント。請求書、納品書、音声メモを突き合わせて過大請求を見つけ、メールで業者と返金交渉する。"
+    },
+    "ko": {
+     "title": "BillBack: 청구서를 대조하고 이메일로 환불을 협상하는 에이전트",
+     "summary": "GitHub 프로젝트 billback은 Meta Muse Spark로 만든 AI 에이전트다. 청구서, 배송 전표, 음성 메모를 대조해 과다 청구를 찾아내고 이메일로 업체와 환불을 협상한다."
+    },
+    "ms": {
+     "title": "BillBack: ejen yang menyemak bil dan menuntut bayaran balik melalui e-mel",
+     "summary": "Projek GitHub billback ialah ejen AI yang dibina dengan Meta Muse Spark. Ia menyemak silang bil, slip penghantaran dan nota suara, mengesan caj berlebihan, dan merundingkan bayaran balik dengan vendor melalui e-mel."
+    },
+    "vi": {
+     "title": "BillBack: tác tử đối chiếu hóa đơn và email đòi hoàn tiền",
+     "summary": "Dự án GitHub billback là một tác tử AI xây bằng Meta Muse Spark. Nó đối chiếu hóa đơn, phiếu giao hàng và một ghi chú giọng nói, phát hiện khoản tính dư rồi thương lượng hoàn tiền với nhà cung cấp qua email."
+    },
+    "fr": {
+     "title": "BillBack : un agent qui vérifie les factures et réclame des remboursements par e-mail",
+     "summary": "Le projet GitHub billback est un agent IA construit avec Meta Muse Spark. Il recoupe une facture, un bon de livraison et une note vocale, repère les surfacturations et négocie un remboursement avec le fournisseur par e-mail."
+    },
+    "es": {
+     "title": "BillBack: un agente que revisa facturas y reclama reembolsos por correo",
+     "summary": "El proyecto de GitHub billback es un agente de IA hecho con Meta Muse Spark. Cruza una factura, un albarán de entrega y una nota de voz, detecta cobros de más y negocia un reembolso con el proveedor por correo electrónico."
+    },
+    "de": {
+     "title": "BillBack: ein Agent, der Rechnungen prüft und per E-Mail Erstattungen verhandelt",
+     "summary": "Das GitHub-Projekt billback ist ein mit Meta Muse Spark gebauter KI-Agent. Er gleicht Rechnung, Lieferschein und eine Sprachnotiz ab, erkennt zu hohe Beträge und verhandelt per E-Mail eine Erstattung mit dem Händler."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "gh:github.com/cabetan/camtoshop",
+   "url": "https://github.com/cabetan/camtoshop",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "cabetan",
+   "date": "2026-10-29",
+   "likes": 0,
+   "product": "meta-muse",
+   "text": "cabetan/camtoshop\nFrom camera to shop: film your product once, get a ready-to-sell package. Built with Meta's Muse Spark, SAM 3.1 and Muse Image for the Meta Global AI Developer Hackathon.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "CamToShop：拍一次商品视频，生成可上架的商品包",
+     "summary": "GitHub 项目 camtoshop 让卖家只拍一次商品视频，就得到一套可直接上架销售的商品素材包。它使用 Meta 的 Muse Spark、SAM 3.1 和 Muse Image 构建，是 Meta 全球 AI 开发者黑客松的参赛作品。"
+    },
+    "zh-TW": {
+     "title": "CamToShop：拍一次商品影片，產生可上架的商品包",
+     "summary": "GitHub 專案 camtoshop 讓賣家只拍一次商品影片，就得到一套可直接上架銷售的商品素材包。它使用 Meta 的 Muse Spark、SAM 3.1 和 Muse Image 建構，是 Meta 全球 AI 開發者黑客松的參賽作品。"
+    },
+    "en": {
+     "title": "CamToShop: film a product once, get a ready-to-sell package",
+     "summary": "The GitHub project camtoshop turns one product video into a ready-to-sell listing package. It is built with Meta's Muse Spark, SAM 3.1 and Muse Image for the Meta Global AI Developer Hackathon."
+    },
+    "ja": {
+     "title": "CamToShop：商品を一度撮影するだけで販売用パッケージに",
+     "summary": "GitHubプロジェクトcamtoshopは、商品を一度撮影するだけですぐ販売できるパッケージを作る。MetaのMuse Spark、SAM 3.1、Muse Imageで作られ、Meta Global AI Developer Hackathonの応募作品だ。"
+    },
+    "ko": {
+     "title": "CamToShop: 상품을 한 번 찍으면 판매용 패키지 완성",
+     "summary": "GitHub 프로젝트 camtoshop은 상품 영상을 한 번 찍으면 바로 팔 수 있는 패키지를 만들어 준다. Meta의 Muse Spark, SAM 3.1, Muse Image로 만들었으며 Meta Global AI Developer Hackathon 출품작이다."
+    },
+    "ms": {
+     "title": "CamToShop: rakam produk sekali, dapat pakej sedia dijual",
+     "summary": "Projek GitHub camtoshop menukar satu video produk menjadi pakej penyenaraian yang sedia dijual. Ia dibina dengan Muse Spark, SAM 3.1 dan Muse Image daripada Meta untuk Meta Global AI Developer Hackathon."
+    },
+    "vi": {
+     "title": "CamToShop: quay sản phẩm một lần, có ngay gói sẵn sàng bán",
+     "summary": "Dự án GitHub camtoshop biến một video sản phẩm thành gói đăng bán sẵn sàng. Nó được xây bằng Muse Spark, SAM 3.1 và Muse Image của Meta cho cuộc thi Meta Global AI Developer Hackathon."
+    },
+    "fr": {
+     "title": "CamToShop : filmer un produit une fois et obtenir un kit prêt à vendre",
+     "summary": "Le projet GitHub camtoshop transforme une seule vidéo produit en kit de mise en vente prêt à l'emploi. Il est construit avec Muse Spark, SAM 3.1 et Muse Image de Meta pour le Meta Global AI Developer Hackathon."
+    },
+    "es": {
+     "title": "CamToShop: graba un producto una vez y obtén un paquete listo para vender",
+     "summary": "El proyecto de GitHub camtoshop convierte un solo vídeo de producto en un paquete listo para vender. Está hecho con Muse Spark, SAM 3.1 y Muse Image de Meta para el Meta Global AI Developer Hackathon."
+    },
+    "de": {
+     "title": "CamToShop: Produkt einmal filmen, verkaufsfertiges Paket erhalten",
+     "summary": "Das GitHub-Projekt camtoshop macht aus einem einzigen Produktvideo ein verkaufsfertiges Angebotspaket. Es wurde mit Metas Muse Spark, SAM 3.1 und Muse Image für den Meta Global AI Developer Hackathon gebaut."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
+  },
+  {
+   "id": "gh:github.com/number5meme/grokbot-wechatclaw-bridge",
+   "url": "https://github.com/number5meme/grokbot-wechatclaw-bridge",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "number5meme",
+   "date": "2026-10-29",
+   "likes": 1,
+   "product": "grok-bot",
+   "text": "number5meme/grokbot-wechatclaw-bridge\nBridge a WeChat ClawBot (Tencent iLink bot API) to any HTTP webhook or AI agent – QR login, outbound-only long polling, owner protection, media, self-recovering. Works with Grok Bot routines.\ngrokbot long-polling webhook wechatclaw",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "把微信 ClawBot 接到 Grok Bot 例程的桥接工具",
+     "summary": "GitHub 项目 grokbot-wechatclaw-bridge 把微信 ClawBot（腾讯 iLink bot API）桥接到任意 HTTP webhook 或 AI 代理：扫码登录、只出站的长轮询、主人保护、支持媒体、可自我恢复，并可配合 Grok Bot 例程使用。"
+    },
+    "zh-TW": {
+     "title": "把微信 ClawBot 接到 Grok Bot 例程的橋接工具",
+     "summary": "GitHub 專案 grokbot-wechatclaw-bridge 把微信 ClawBot（騰訊 iLink bot API）橋接到任意 HTTP webhook 或 AI 代理：掃碼登入、只出站的長輪詢、主人保護、支援媒體、可自我復原，並可搭配 Grok Bot 例程使用。"
+    },
+    "en": {
+     "title": "A bridge connecting a WeChat ClawBot to Grok Bot routines",
+     "summary": "The GitHub project grokbot-wechatclaw-bridge connects a WeChat ClawBot (Tencent iLink bot API) to any HTTP webhook or AI agent, with QR login, outbound-only long polling, owner protection, media support and self-recovery. It works with Grok Bot routines."
+    },
+    "ja": {
+     "title": "WeChat ClawBotをGrok Botのルーティンにつなぐブリッジ",
+     "summary": "GitHubプロジェクトgrokbot-wechatclaw-bridgeは、WeChat ClawBot（Tencent iLink bot API）を任意のHTTP webhookやAIエージェントにつなぐ。QRログイン、送信方向のみのロングポーリング、オーナー保護、メディア対応、自己復旧を備え、Grok Botのルーティンで使える。"
+    },
+    "ko": {
+     "title": "WeChat ClawBot을 Grok Bot 루틴에 연결하는 브리지",
+     "summary": "GitHub 프로젝트 grokbot-wechatclaw-bridge는 WeChat ClawBot(Tencent iLink bot API)을 HTTP webhook이나 AI 에이전트에 연결한다. QR 로그인, 아웃바운드 전용 롱 폴링, 소유자 보호, 미디어 지원, 자동 복구를 갖췄고 Grok Bot 루틴과 함께 쓸 수 있다."
+    },
+    "ms": {
+     "title": "Jambatan yang menyambung WeChat ClawBot kepada rutin Grok Bot",
+     "summary": "Projek GitHub grokbot-wechatclaw-bridge menyambung WeChat ClawBot (Tencent iLink bot API) kepada mana-mana webhook HTTP atau ejen AI, dengan log masuk QR, tinjauan panjang keluar sahaja, perlindungan pemilik, sokongan media dan pemulihan sendiri. Ia berfungsi dengan rutin Grok Bot."
+    },
+    "vi": {
+     "title": "Cầu nối WeChat ClawBot với routine của Grok Bot",
+     "summary": "Dự án GitHub grokbot-wechatclaw-bridge nối WeChat ClawBot (Tencent iLink bot API) với bất kỳ webhook HTTP hay tác tử AI nào, có đăng nhập bằng QR, long polling chỉ chiều ra, bảo vệ chủ sở hữu, hỗ trợ media và tự phục hồi. Nó dùng được với routine của Grok Bot."
+    },
+    "fr": {
+     "title": "Un pont entre un WeChat ClawBot et les routines Grok Bot",
+     "summary": "Le projet GitHub grokbot-wechatclaw-bridge relie un WeChat ClawBot (API Tencent iLink bot) à n'importe quel webhook HTTP ou agent IA, avec connexion par QR, long polling sortant uniquement, protection du propriétaire, prise en charge des médias et reprise automatique. Il fonctionne avec les routines Grok Bot."
+    },
+    "es": {
+     "title": "Un puente que conecta un WeChat ClawBot con las rutinas de Grok Bot",
+     "summary": "El proyecto de GitHub grokbot-wechatclaw-bridge conecta un WeChat ClawBot (API Tencent iLink bot) con cualquier webhook HTTP o agente de IA, con inicio de sesión por QR, long polling solo de salida, protección del propietario, soporte multimedia y autorrecuperación. Funciona con las rutinas de Grok Bot."
+    },
+    "de": {
+     "title": "Eine Brücke zwischen einem WeChat ClawBot und Grok-Bot-Routinen",
+     "summary": "Das GitHub-Projekt grokbot-wechatclaw-bridge verbindet einen WeChat ClawBot (Tencent iLink bot API) mit beliebigen HTTP-Webhooks oder KI-Agenten, mit QR-Login, nur ausgehendem Long Polling, Besitzerschutz, Medienunterstützung und Selbstwiederherstellung. Es funktioniert mit Grok-Bot-Routinen."
+    }
+   },
+   "added_at": "2026-10-29T22:37:17.462Z"
   }
  ]
 }
