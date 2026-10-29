@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1965 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1982 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-29T12:46:01.601Z
+- Last updated: 2026-10-29T22:37:17.462Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -625,6 +625,16 @@
 - /cases/gh-github-com-xuanpeichu-2025-poselah.html: PoseLah: an AI photo coach in the phone browser (field-case) <https://github.com/xuanpeichu-2025/PoseLah>
 - /cases/gh-github-com-berlysia-dotfiles-pull-459.html: ask-grokbot: handing a local task to a Grok Bot webhook (field-case) <https://github.com/berlysia/dotfiles/pull/459>
 - /cases/x-freeaiguides-2115760815374774429.html: SpaceXAI publishes 18 free Grok Bot playbooks (guide) <https://x.com/free_ai_guides/status/2115760815374774429>
+- /cases/x-corki0x-2115842036720951368.html: Hummingbird: an overnight agent running on Dots (field-case) <https://x.com/Corki_0x/status/2115842036720951368>
+- /cases/x-0xshoopy-2115930521347752332.html: A SpaceXAI engineer's 1-hour workshop on running a team of Grok Bots (guide) <https://x.com/0xShoopy/status/2115930521347752332>
+- /cases/x-maestrooth-2115927758144520671.html: 12 one-line prompts for making Grok Bot pay for itself (guide) <https://x.com/maestrooth/status/2115927758144520671>
+- /cases/x-littlemanpower-2115928741541265812.html: A Grok Bot team built an auto-clipper for CS2 streams (field-case) <https://x.com/LittleManPower/status/2115928741541265812>
+- /cases/x-cmin914725641-2115924890029339098.html: Grok Bot ignored hidden agent instructions while cleaning an inbox (field-case) <https://x.com/Cmin914725641/status/2115924890029339098>
+- /cases/x-daeshawn-2115917264889250145.html: A dot got a broken controller replaced (field-case) <https://x.com/Daeshawn/status/2115917264889250145>
+- /cases/x-karchandreas-2115913499943838194.html: A dot went on an unannounced break, leaving projects in limbo (field-case) <https://x.com/karch_andreas/status/2115913499943838194>
+- /cases/gh-github-com-manasa-l-hegde-billback.html: BillBack: an agent that checks bills and emails vendors for refunds (field-case) <https://github.com/Manasa-L-Hegde/billback>
+- /cases/gh-github-com-cabetan-camtoshop.html: CamToShop: film a product once, get a ready-to-sell package (field-case) <https://github.com/cabetan/camtoshop>
+- /cases/gh-github-com-number5meme-grokbot-wechatclaw-bridge.html: A bridge connecting a WeChat ClawBot to Grok Bot routines (guide) <https://github.com/number5meme/grokbot-wechatclaw-bridge>
 - /cases/x-nicholashphoto-2115419535763538282.html: A one-person photography business run with 17 bots (field-case) <https://x.com/NicholasHPhoto/status/2115419535763538282>
 - /cases/x-timothybrown-2115419097986965620.html: Read-only remote access to a Mac’s Mail, Calendar and Messages for Grok Bot (field-case) <https://x.com/TimothyBrown/status/2115419097986965620>
 - /cases/x-martinbarna333-2115417754723336371.html: Keep recurring routines off your main bot (guide) <https://x.com/MartinBarna333/status/2115417754723336371>
@@ -661,6 +671,9 @@
 - /cases/x-wabibi-2115534070457495811.html: A personal team of 17 Grok Bot bots (field-case) <https://x.com/Wabibi/status/2115534070457495811>
 - /cases/x-kyleblanchard-2115541017202204686.html: Working with OpenAI Dots over iMessage (field-case) <https://x.com/KyleBlanchard_/status/2115541017202204686>
 - /cases/x-paraskarmachary-2115414615068696697.html: Five tips for researchers setting up an always-on agent (guide) <https://x.com/paraskarmachary/status/2115414615068696697>
+- /cases/x-niziucci-2115409237979644387.html: Moving what other AIs know about you into Meta Muse (guide) <https://x.com/NiziUcci/status/2115409237979644387>
+- /cases/x-wishsociety-2115418194165006569.html: Stitching Meta Muse's 10-second clips into a long video (field-case) <https://x.com/wish_society/status/2115418194165006569>
+- /cases/x-0xpasswd-2115403611434090845.html: Tested: Gate cards can't be used to verify Meta Muse (field-case) <https://x.com/0xPasswd/status/2115403611434090845>
 - /cases/x-teslaconomics-2115043610916016451.html: Grok Bot as his hardest-working employee: payments and shopping (field-case) <https://x.com/Teslaconomics/status/2115043610916016451>
 - /cases/x-0xhvdes-2115053739434230201.html: Two days in: Grok Bot built a Notion table of 100 content roles (field-case) <https://x.com/0xHvdes/status/2115053739434230201>
 - /cases/x-freeaiguides-2115035857598189858.html: Bedtime prompt: Grok Bot drafts a one-page plan overnight (guide) <https://x.com/free_ai_guides/status/2115035857598189858>
@@ -1878,6 +1891,9 @@
 - /cases/x-bagel8343-2115293237707477291.html: Choosing between Muse and Grok Bot by how work is organized, not feature lists (comparison) <https://x.com/Bagel8343/status/2115293237707477291>
 - /cases/x-pocarles-2115566721855783137.html: A small business owner compares Dot, Muse, Grok Bot and Hermes (comparison) <https://x.com/pocarles/status/2115566721855783137>
 - /cases/x-bagel8343-2115293018177655113.html: Muse or Grok Bot: choose by how the work is organised (comparison) <https://x.com/Bagel8343/status/2115293018177655113>
+- /cases/x-analystaiintern-2115412227725697393.html: Four personal agents tested on 450 everyday tasks each (comparison) <https://x.com/AnalystAIIntern/status/2115412227725697393>
+- /cases/x-rahulchoudhary-2115408248291332350.html: How Hermes, OpenBot, Grok Bot and OpenAI dots trade off differently (comparison) <https://x.com/rahulchoudhary/status/2115408248291332350>
+- /cases/x-ansezz-2115389994198241611.html: The real split between four always-on agents: who approves sends and payments (comparison) <https://x.com/Ansezz/status/2115389994198241611>
 - /cases/x-analystailab-2114996538699284711.html: Blind test of 4 assistants: Grok Bot wins email, Dots wins lookups and money (comparison) <https://x.com/AnalystAIlab/status/2114996538699284711>
 - /cases/x-teslaoptimusk-2115200727790571521.html: Wired's six-agent bake-off: Dots wins, at $100 a month (comparison) <https://x.com/Tesla_Optimus_K/status/2115200727790571521>
 - /cases/x-snazzylabs-2115206459743207477.html: A few hours with Claude Duet, compared with ChatGPT Dots (comparison) <https://x.com/SnazzyLabs/status/2115206459743207477>
@@ -1957,6 +1973,7 @@
 - /cases/forum-request-for-usage-broken-down-by-bot-and-category-read-46.html: Forum: request for usage broken down by Bot and category, readable by Bots (quota-report) <https://forum.cursor.com/t/breakdown-in-the-app-by-bot-and-category-and-the-same-data-available-to-bots/173936>
 - /cases/ray-fernando-s-clippy-cto-47.html: Ray Fernando's Clippy CTO (quota-report) <https://www.youtube.com/watch?v=kAR91DlnCKQ>
 - /cases/x-m4lkxx-2115775972536434946.html: Most of a Grok Bot token bill went to re-reading old chat (quota-report) <https://x.com/m4lkxx/status/2115775972536434946>
+- /cases/x-av1dlive-2115929453859881169.html: Sending heavy work to Claude Code makes Grok Bot limits last a week (quota-report) <https://x.com/Av1dlive/status/2115929453859881169>
 - /cases/x-yasutaketin-2115559797538042310.html: Meta Muse pricing tiers and token limits, compared with ChatGPT dots (quota-report) <https://x.com/yasutaketin/status/2115559797538042310>
 - /cases/x-gippp69-2114689520964677797.html: Rebuilding routines after doing the math on idle runs (quota-report) <https://x.com/gippp69/status/2114689520964677797>
 - /cases/x-vikramadityav1-2114622301077733643.html: Grok Bot's usage pool has no published numbers (quota-report) <https://x.com/Vikramaditya_V1/status/2114622301077733643>
