@@ -9146,5 +9146,60 @@
   "outline": [],
   "kind": "github",
   "fetched_at": "2026-10-27"
+ },
+ "https://github.com/nanduoop/snap-to-claim": {
+  "text": "I agent that turns damage photos into a verified insurance claim, built with Meta Muse Spark, SAM 3.1 and Muse Image",
+  "media": [],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-29"
+ },
+ "https://github.com/desilva23/proofstep": {
+  "text": "Checks from a video whether each step of a physical procedure was actually done. When the evidence doesn't settle it, proofstep says **\"can't verify, look at 2:42\"** instead of guessing.",
+  "media": [],
+  "outline": [
+   "Spark watches (proofstep/watch.py). One call per video. For each step: done / not done / can't tell, start and end times, and the objects a camera would see …",
+   "SAM finds the evidence (proofstep/evidence.py). SAM 3.1 segments each named object and every hand across a 2-frames-per-second copy of the video. A frame cou…",
+   "Rules decide (proofstep/decide.py). Plain code, no model:",
+   "The evidence shown is the in-hand stretch closest to Spark's time. Moments inside another step that uses the same object belong to that step.",
+   "An object named for three or more steps (the mug a drink is made in) is treated as background, not evidence.",
+   "Order rules are checked only between verified steps.",
+   "Second look (proofstep/second_look.py). For each \"can't verify\", Spark gets a narrower question about a short clip, not the whole video again:",
+   "Spark placed the step, SAM never saw its object in hand.* Usually a naming miss. Spark names what's in the person's hands in plain words, SAM searches again,…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-29"
+ },
+ "https://github.com/xuanpeichu-2025/PoseLah": {
+  "text": "PoseLah: an AI photo coach in your phone browser. Scan the scene, find the best light and angle, then match a pose outline. Built with Meta’s Muse Spark and SAM 3.1.",
+  "media": [],
+  "outline": [
+   "Scan: pan your phone slowly around you. The app captures a few frames along with the compass heading of each.",
+   "Analyze: Meta's Muse Spark reads the scene and judges the light and background in each direction. SAM 3.1 finds the people and objects in the frame.",
+   "Move: arrows on the camera view tell you which way to turn and tilt.",
+   "Pose: pick a white pose outline suited to the scene, drawing on composition ideas such as the rule of thirds and 留白 (negative space).",
+   "Match and capture: line yourself up with the outline and take the shot.",
+   "[ ] Camera page with front/back switch",
+   "[ ] Compass heading and tilt readout",
+   "[ ] Direction arrows"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-29"
+ },
+ "https://github.com/berlysia/dotfiles/pull/459": {
+  "text": "depends on chezmoi",
+  "media": [],
+  "outline": [
+   "install chezmoi",
+   "sh -c \"$(curl -fsLS get.chezmoi.io)\" -- -b $HOME/.local/bin",
+   "winget install twpayne.chezmoi",
+   "if you are in PowerShell, Set-ExecutionPolicy -ExecutionPolicy ByPass -Scope Process",
+   "chezmoi init --apply berlysia",
+   "~/.local/bin will be added to $PATH",
+   "~/.local/.bin will be added to $PATH , and overwrite this directory with symlink",
+   "claude-manual: used by .github/workflows/claude.yml"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-29"
  }
 }

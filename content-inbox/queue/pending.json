@@ -62933,21 +62933,6 @@
    "found_at": "2026-10-28T12:32:33.816Z"
   },
   {
-   "id": "x:2115414615068696697",
-   "url": "https://x.com/paraskarmachary/status/2115414615068696697",
-   "source": "x",
-   "source_name": "X",
-   "author": "paraskarmachary",
-   "date": "2026-10-28",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "In 10 weeks, 4 AI labs shipped personal agents that never log off.\nMost researchers will hand them the wrong jobs.\n\nThis month I finished my April travel reimbursements.\n6 months late.\n\nFederally funded PIs spend an estimated 44% of research time on admin.\nChatGPT cleared my pile in one sitting. \nThen it hit me. An always-on agent would never let the pile form.\n\nWhat I'd tell any researcher setting one up:\n\n1️⃣ Decide what it handles without telling you\n↳ Do: easy to undo. Filing receipts.\n↳ Digest: weekly. New papers.\n↳ Ping: urgent and rare. A retraction of a paper you cite.\n↳ Ask: anything sent in your name.\n\n2️⃣ Every extra alert makes you likelier to miss the urgent one\n↳ Clinicians override 49% to 96% of drug safety alerts.\n↳ Keep the Ping lane tiny.\n\n3️⃣ Literature updates don't need an always-on agent\n↳ A scheduled weekly search in Claude or ChatGPT is enough.\n↳ Keep your PubMed alert as a scheduled task (personal AI agents is overkill).\n\n4️⃣ What it can see matters more than how smart it is\n↳ Mine reads my personal Gmail, not my institutional inbox. Work email and patient data wait for institutional approval.\n↳ Meta just paused Muse's chat sharing after about 6,800 shared links surfaced in public DNS records.\n\n5️⃣ Start with a job where a mistake is easy to undo\n↳ Receipts, filed by meeting as they arrive. You still press submit.\n\nOne catch: Dots aren't on ChatGPT Plus, and Claude Duet is a US waitlist. \n\n💬 Which admin job would you hand off first?\n\nMore on AI for academic research in my free newsletter (20,000+ researchers): https://t.co/XTq6dj6kz3",
-   "media": [
-    "https://pbs.twimg.com/media/HVt2YdiWoAArGIg.jpg"
-   ],
-   "found_at": "2026-10-28T12:32:34.683Z"
-  },
-  {
    "id": "x:2115394148614222021",
    "url": "https://x.com/FrontierBriefAI/status/2115394148614222021",
    "source": "x",
@@ -63713,21 +63698,6 @@
    "found_at": "2026-10-28T12:32:34.686Z"
   },
   {
-   "id": "x:2115405379341619361",
-   "url": "https://x.com/wish_society/status/2115405379341619361",
-   "source": "x",
-   "source_name": "X",
-   "author": "wish_society",
-   "date": "2026-10-28",
-   "likes": 3,
-   "product": "meta-muse",
-   "text": "【プロンプトのみで長尺動画生成可能】Meta Muse内の仮装PCでPythonを動かし、複数の動画をドッキングさせて長時間の動画を作る方法です。\n\nhttps://t.co/EB0LeqiMb5\n\nこの動画もそのやり方で作りました。\n\nその前に台本を作り、Meta https://t.co/zgxO2fNdza https://t.co/MKfoo7dlx2",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2115403776542822401/img/LmxIzTh4GZ_7XsEN.jpg"
-   ],
-   "found_at": "2026-10-28T12:32:34.686Z"
-  },
-  {
    "id": "x:2115403611434090845",
    "url": "https://x.com/0xPasswd/status/2115403611434090845",
    "source": "x",
@@ -63827,24 +63797,6 @@
    "product": "meta-muse",
    "text": "@Gaetano2026 With $META &amp; $NVDA announcing their heavy hardware and inference-optimization partnership for Meta Muse, focusing on automated AI training, I'm trying to connect the dots on the sudden layoffs at $INOD hitting data annotation vendors tied to MUP-coded pipelines. Any thoughts?",
    "media": [],
-   "found_at": "2026-10-28T12:32:34.687Z"
-  },
-  {
-   "id": "x:2115293018177655113",
-   "url": "https://x.com/Bagel8343/status/2115293018177655113",
-   "source": "x",
-   "source_name": "X",
-   "author": "Bagel8343",
-   "date": "2026-10-28",
-   "likes": 4,
-   "product": "meta-muse",
-   "text": "Muse和Grok Bot怎么选\n\n选AI代理，我最怕看到一种比较：把功能列表抄一遍，最后宣布某款“全面碾压”。真到自己用，最耗时间的往往是接不上工具、结果要重做，以及不知道它下一步会动什么。\n\n我的选择建议是：生活事务和个人目标管理，先试Meta Muse；有明确岗位、重复交付和跨工具协作的工作，优先评估Grok Bot。两者能力有重叠，这只是依据截至2026年10月28日官方资料提出的试用顺序，不是实测胜负。\n\n先看任务怎样组织\n\nMuse于9月8日发布，Meta在10月23日宣布它进入日本市场。这些是已有进展，不能当作今天刚发生。Meta把它定位为个人代理，围绕人的目标、日程和日常事务组织工作。[1][2]\n\nGrok Bot则突出有名字、有职责、能长期保留工作上下文的Bots，以及skills和routines：前者保存做法，后者决定何时运行。[3][4] 因此，如果你需要“一个研究员长期盯行业，一个编辑整理稿件”，这种岗位式组织值得先试。\n\n但别把这画成硬边界。Muse官方设计文章也明确写到终端、生成文档与网页、持续处理任务；它不是只能订餐的生活小助手。[5] 真正要比较的是：哪款能用更少的交代和纠错，完成你反复要做的事。\n\n开通资格也要先过关。Muse的地区公告不能推导为全球开放；Grok Bot现行文档列出兼容的Cursor、SuperGrok等套餐，不能仅凭一个X蓝标推定已经能用。[2][3] 价格、额度、连接器以自己的实际入口核对。\n\n最容易漏看的区别是权限边界\n\nGrok Bot的详细文档写得很具体：同一账号下的Bots共享云电脑，文件、浏览器登录会话和命令行凭据也共享；每个Bot有自己的屏幕，不代表各自有独立的安全边界。[6] 研究员、财务助理、私人助理取三个名字，并没有自动把资料隔开。\n\n这带来方便：一个Bot保存的工作，另一个可以接手。代价是你要先判断，共享环境里能否放这些资料。需要不同客户、不同保密等级的数据严格隔离时，不能靠角色说明解决，应核对产品实际的账号或组织隔离方案；不满足就不接入。\n\nMuse的安全文章描述另一组控制：代理运行环境与安全敏感服务分开，连接器动作和网络出口由独立的Sentinel管理。[7] 这是厂商披露的架构，不是我做过的安全审计，也不构成“零风险”证明。两家的材料都不能用来推出“另一个一定不安全”。\n\n拿一条真实工作流试而不是聊两句\n\n假设每周要交一份科技选题简报。我的建议流程是：收集指定来源，记录事件日期和出处；筛选三个候选；按固定格式形成双语稿与配图；核对事实、数字和可打开的交付文件；最后停在待审状态。缺资料就报告缺口，不能拿旧数据补位。\n\n在Grok Bot里，可以先让一个Bot完整跑通一次，再考虑分出研究与编辑职责。官方文档也建议先验证一次性任务，再保存为skill、安排routine。[4] 过早加很多Bot，可能只是增加交接和排错成本。Muse也应接受同样的交付验收，而不是因为有文件或终端能力就默认能做好。\n\n发送、购买、发布必须单独定义授权边界。Grok Bot有审批和Auto Review规则，Ask first与Allow automatically同时命中时，前者优先；Muse也说明重要动作会请求确认。[1][8] 具体用什么账号、向谁发、发哪个版本，都要可辨认。能操作网站不等于所有平台都允许相应自动化，选题出稿与实际发布要分别验证。\n\n真正看差距的时刻，是登录失效、来源不可读、附件损坏以后：它会暂停说明，还是编一个“已完成”？它能保留检查点继续，还是重新跑一遍造成重复动作？这些要列进试用题，不能只看顺畅的演示。\n\n订阅费之外还有你的复核时间\n\n做一个不对应任何真实套餐的假设算例：某方案每月多花20美元，但每件合格任务少用2分钟人工。若人工时间按30美元/小时计，每件释放1美元的时间价值，每月20件才覆盖这20美元；10件只有10美元，50件则是50美元。\n\n这个临界点假设额外设置、失败恢复等成本差为零。若多出这些成本，所需任务数还会增加。节省的时间也不等于现金马上回到银行卡；只有时间确实被释放、且你认可这个机会成本，才有讨论价值。不要把免费入口当作零成本，也不要把贵当作能力证明。\n\n我会拿同一批10件任务试两款，各重复两轮：5件有出处的研究摘要、3件按要求成稿的内容、2件表格交付。使用相同资料、验收标准和预算，另外安排登录失效与来源缺失的测试。某项无法交付，就如实记下，不悄悄换成容易任务。\n\n记录合格交付数、每件人工复核分钟数、重大错误、恢复是否成功及总成本。失败和返工的开销也要算进去。10件只是起点，不足以证明整体可靠性；它的作用是让你看清自己的工作，而不是替全世界选冠军。\n\n我的选择结论\n\n如果主要想有人记住个人偏好、跟进生活安排，我会从Muse开始试；如果主要是周期性研究、文件交付和明确分工，我会先评估Grok Bot。这个倾向来自产品组织方式，不是对模型智力的排名。\n\n如果核心工具连接不上、地区或套餐不支持，或者数据隔离不满足要求，就先不迁移。下一步观察的也不应只是新模型名字，而是接管恢复、权限可见性、交付成功率和真实复核负担。谁能在你的任务上省掉反复交代和返工，谁才值得留下。\n\n一手来源\n\n[1] Meta  Introducing Muse https://t.co/otn9A3xQtI\n\n[2] Meta Japan  Muse launches in Japan https://t.co/xawKFU9XXJ\n\n[3] Grok Bot Docs  Overview https://t.co/6omTXiaBuu\n\n[4] Grok Bot Docs  Skills and routines https://t.co/tBTQE5Q2tv\n\n[5] Muse  How We Designed Muse https://t.co/jM044YbDVg\n\n[6] Grok Bot Docs  Use the computer and apps https://t.co/aZysmtA4yI\n\n[7] Meta AI Research  How We Built Safety Into Muse https://t.co/ymGiqmS90z\n\n[8] Grok Bot Docs  Approvals security and privacy https://t.co/k6f6Nw9yeA",
-   "media": [
-    "https://pbs.twimg.com/media/HVsHwq0XYAAbtSm.jpg",
-    "https://pbs.twimg.com/media/HVsHwrAWsAAhT7W.jpg",
-    "https://pbs.twimg.com/media/HVsHwqwWkAAlM9o.jpg",
-    "https://pbs.twimg.com/media/HVsHwr2X0AAVtqY.png"
-   ],
    "found_at": "2026-10-28T12:32:34.687Z"
   },
   {
@@ -67101,19 +67053,6 @@
    "found_at": "2026-10-28T22:41:20.536Z"
   },
   {
-   "id": "x:2115567853273497874",
-   "url": "https://x.com/yasutaketin/status/2115567853273497874",
-   "source": "x",
-   "source_name": "X",
-   "author": "yasutaketin",
-   "date": "2026-10-28",
-   "likes": 10,
-   "product": "meta-muse",
-   "text": "Meta Museの興味深い利用例（Xユーザー・実例中心） $META\n\nお金・請求まわり\n•電話・ネット回線の値引き交渉（実際に電話もかける）：AT&Tを$80→$40、Spectrumを$75→$40、Verizonを$516→$386など。Peter Yang氏は年$800超節約したと報告。\n•自動車保険の見直し：$3,500/年節約（同じ補償）、別事例では$500→$335/月に当日切り替え。\n•フライト遅延補償：7時間遅延でDeltaから$250クレジットを約5分で取得＋再予約。\n•運賃下落監視：予約済みフライトを監視して値下がり時にクレジット取得（$1,000超の例あり）。\n•未請求金の発見：州の未請求財産から$1,500超を5分程度で見つけ、申請書類まで作成。\n•サブスク監査：メールや明細を見て使っていないものを解約し、月$100超・年$1,200相当の節約例。\n旅行・予約\n•日本旅行のレストラン予約を全部Museに任せ、箱根のホテルに日本語で交渉して非公開ディナーを確保した例。\n•フライト・ホテル・移動・レストランを一気に組む。カレンダー連携で空き時間を見て予約。\n生活・その他\n•Facebook Marketplaceで出品・交渉・購入者対応。\n•「タコスの火曜日」みたいな曖昧な指示からInstacartでカート作成〜決済まで。\n•古いメール数万通の整理、返品手続き、HVACメンテ予約など、面倒な事務作業をまとめて処理。\n•求人応募を数十件自動化して面接まで進めた例。\n•イベント準備（ボランティア登録・メール対応・スケジュール作成）を任せて、当日は行くだけ。\n\n傾向 特に「請求交渉・保険見直し・返金・未請求金」が突出して効果を出しており、Xでも「Museが一番使ってるAIになった」「Claude解約した」といった声が見られます。買い物・予約系も多いですが、Amazonはブロックするなどサイトによる制限もあります。\n（多くは自己報告ベースなので、実際の結果はケースバイケースです）",
-   "media": [],
-   "found_at": "2026-10-28T22:41:20.536Z"
-  },
-  {
    "id": "x:2115565613577851017",
    "url": "https://x.com/kaigai_aimatome/status/2115565613577851017",
    "source": "x",
@@ -67652,21 +67591,6 @@
    "found_at": "2026-10-28T22:41:20.537Z"
   },
   {
-   "id": "x:2115534070457495811",
-   "url": "https://x.com/Wabibi/status/2115534070457495811",
-   "source": "x",
-   "source_name": "X",
-   "author": "Wabibi",
-   "date": "2026-10-28",
-   "likes": 3,
-   "product": "grok-bot",
-   "text": "17 grok @bot on my team. what they do:\n\n- run my 𝕏 account\n- paper trade https://t.co/rOwADYgGl7\n- paper trade polymarket\n- triage my inbox\n- coach my fitness and nutrition\n\ni'm just the guy approving stuff https://t.co/r4NVw3Zv7A",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2115485561049722881/img/yuPsxJwgfIV-BYr7.jpg"
-   ],
-   "found_at": "2026-10-28T22:41:20.537Z"
-  },
-  {
    "id": "x:2115570779261673783",
    "url": "https://x.com/canariomaple/status/2115570779261673783",
    "source": "x",
@@ -67897,19 +67821,6 @@
    "found_at": "2026-10-28T22:41:20.537Z"
   },
   {
-   "id": "x:2115547556336066655",
-   "url": "https://x.com/nnennahacks/status/2115547556336066655",
-   "source": "x",
-   "source_name": "X",
-   "author": "nnennahacks",
-   "date": "2026-10-28",
-   "likes": 9,
-   "product": "openai-dots",
-   "text": "my dot is controlling my mac from my windows machine.",
-   "media": [],
-   "found_at": "2026-10-28T22:41:20.537Z"
-  },
-  {
    "id": "x:2115541889638133826",
    "url": "https://x.com/grok/status/2115541889638133826",
    "source": "x",
@@ -67920,21 +67831,6 @@
    "product": "openai-dots",
    "text": "@Danbigsnow @Polymarket Yes, the new texting feature for ChatGPT dots (via iMessage or RCS) is currently rolling out as a preview only for ChatGPT Pro users in the US.",
    "media": [],
-   "found_at": "2026-10-28T22:41:20.537Z"
-  },
-  {
-   "id": "x:2115541017202204686",
-   "url": "https://x.com/KyleBlanchard_/status/2115541017202204686",
-   "source": "x",
-   "source_name": "X",
-   "author": "KyleBlanchard_",
-   "date": "2026-10-28",
-   "likes": 2,
-   "product": "openai-dots",
-   "text": "I wasn’t expecting iMessage &amp; @OpenAI Dots to be such a good pairing. \n\nGetting a text from my Dot after a meeting to complete a research task, and getting reactions, etc. just feels so natural. \n\nThis is a major level up. https://t.co/QOC69ppKrl",
-   "media": [
-    "https://pbs.twimg.com/media/HVvpV-_bsAAcwtk.jpg"
-   ],
    "found_at": "2026-10-28T22:41:20.537Z"
   },
   {
@@ -68140,19 +68036,6 @@
    "found_at": "2026-10-29T05:56:13.029Z"
   },
   {
-   "id": "gh:github.com/nanduoop/snap-to-claim",
-   "url": "https://github.com/nanduoop/snap-to-claim",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "nanduoop",
-   "date": "2026-10-29",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "nanduoop/snap-to-claim\nI agent that turns damage photos into a verified insurance claim, built with Meta Muse Spark, SAM 3.1 and Muse Image",
-   "media": [],
-   "found_at": "2026-10-29T05:56:35.334Z"
-  },
-  {
    "id": "gh:github.com/byemir/patchpilot",
    "url": "https://github.com/byemir/PatchPilot",
    "source": "github",
@@ -68296,19 +68179,6 @@
    "found_at": "2026-10-29T05:56:42.834Z"
   },
   {
-   "id": "gh:github.com/desilva23/proofstep",
-   "url": "https://github.com/desilva23/proofstep",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "desilva23",
-   "date": "2026-10-29",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "desilva23/proofstep\nChecks from video whether each step of a physical procedure was done, and says when it can't verify. Muse Spark + SAM 3.1 on the Meta Model API.",
-   "media": [],
-   "found_at": "2026-10-29T05:56:50.244Z"
-  },
-  {
    "id": "gh:github.com/setiani/framelab",
    "url": "https://github.com/setiani/framelab",
    "source": "github",
@@ -68331,19 +68201,6 @@
    "likes": 0,
    "product": "meta-muse",
    "text": "jai-rathore/agentboard\nAI agents keep redoing the same web tasks from scratch. Show a browser task once: Meta's Muse Spark turns it into a verified skill any MCP agent can find and replay, signed and self-healing. Built with Muse Spark Open. Meta hackathon: Build for Your World.\nagent-skills ai-agents browser-automation computer-use hackathon mcp mcp-server meta model-context-protocol muse-spark muse-spark-open self-healing",
-   "media": [],
-   "found_at": "2026-10-29T05:56:50.244Z"
-  },
-  {
-   "id": "gh:github.com/xuanpeichu-2025/poselah",
-   "url": "https://github.com/xuanpeichu-2025/PoseLah",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "xuanpeichu-2025",
-   "date": "2026-10-29",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "xuanpeichu-2025/PoseLah\nPoseLah: an AI photo coach in your phone browser. Scan the scene, find the best light and angle, then match a pose outline. Built with Meta’s Muse Spark and SAM 3.1.",
    "media": [],
    "found_at": "2026-10-29T05:56:50.244Z"
   },
@@ -68929,19 +68786,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "金鑰名冊加 PIXEL_CLAUDE_OAUTH_TOKEN → pixel-claude.env(像素工坊找參考專用)\n## 為什麼\n像素工坊找參考要自動叫 claude 當第三家(grok → codex → claude)。Andy 03:1x 裁走「隔離」:長效 token(本人跑 `claude setup-token`)+ 暫存設定夾,不碰真 `~/.claude`。\n`CLAUDE_CODE_OAUTH_TOKEN` 這個名字照舊規則會落 `api-key-claude.env` —— 那份是 claude-apikey 開關(apiKeyHelper)與計費組席位讀的,OAuth token 被帶進席位會讓開著的席換登入。@f5fb8 裁:另開專用一格;@aeb40 審。\n\n## 改了什麼\n- `aib_secrets.LAYOUT` 加 `pixel-claude.env`:`PIXEL_CLAUDE_OAUTH_TOKEN`(消費者 pixel-studio、功能 pixel-ref)。\n- token **只走 `aib secret ask PIXEL_CLAUDE_OAUTH_TOKEN`** 寫(輸入框 + Touch ID、enc.v1.);只有像素工坊找參考時讀進隔離子行程 env(`CLAUDE_CODE_OAUTH_TOKEN`),**不進 argv / 日誌**;**席位不會讀這份**。\n- 外掛側:https://github.com/ez2app/aib-plugins/pull/247(像素工坊找參考 claude 隔離)。\n\n## @aeb40 要的三點證明\n1. **檔 0600、secrets 夾 0700**:P1 走 `secret_ask.ask_cmd`(假輸入框 + 假 Touch ID)⇒ 落 `pixel-claude.env`,`stat` 量 0600 / 0700;值不在輸出、落地是密文;`api-key-claude.env` 沒被建。\n2. **沒有席位 env 載入器或 claude-apikey 開關會讀到它**:\n   - 盤點(grep `secrets/`、`secrets_dir(`、`glob(\"*.env\")`、`api_key_env`、`apiKeyHelper`):核心讀 secrets 的地方都按**名字**讀單一行(`S.secret(NAME)`、各 *_cli 的 `file_for_name(KEY_NAME)`、codexbot.env、bridge.env);整夾掃的只有 `aib_doctor.check_secrets_perms`(只看權限,不讀值)和 grokbot 的 `secrets/agent-wake/` 子夾。claude-apikey(`~/.local/bin`,不在倉)的 helper 只 `sed` 出 `ANTHROPIC_API_KEY=` 那行。\n   - P2a 開席環境門 `identity-env.sh aib_env_door_names`(白名單:基本盤 + EZ2_/AIB_)實測不帶 `PIXEL_CLAUDE_OAUTH_TOKEN`、也不帶 `CLAUDE_CODE_OAUTH_TOKEN`(對照 EZ2_AIB_LOCALE 照帶)。\n   - P2b `providers.json` 沒有一家 `api_key_env` 是它、也沒有落到 pixel-claude.env 的。\n   - P2c 核心 src / bin / tools 裡提到這名字或 `pixel-claude.env` 的只有名冊 `aib_secrets.py`(誰新加讀它的地方就紅)。\n3. **前綴不把 PIXEL_CLAUDE_ 歸到 api-key-claude.env**:P3 `PIXEL_CLAUDE_OAUTH_TOKEN` / `_2` / `PIXEL_CLAUDE_X` ⇒ pixel-claude.env;反向 `ANTHROPIC_API_KEY`、`CLAUDE_CODE_OAUTH_TOKEN` 照舊 api-key-claude.env。\n\n## 測試\n- `aib/tests/test-secret-pixel-claude-35fe6-1029.py`:5 支綠。\n- 刀:K1 名冊拿",
-   "media": [],
-   "found_at": "2026-10-29T05:57:28.617Z"
-  },
-  {
-   "id": "gh:github.com/berlysia/dotfiles/pull/459",
-   "url": "https://github.com/berlysia/dotfiles/pull/459",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "berlysia",
-   "date": "2026-10-29",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "feat(ask-grokbot): hand a local task to a Grok Bot webhook\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## 概要\n\nローカルのコーディングエージェントが、依頼を Grok Bot の routine webhook へ渡せるコマンド `ask-grokbot` を加えた。\n成功すると、返信ファイルの絶対パスを出す。`--wait` を付けると、そのファイルの中身が出るまで待つ。\n`ASK_GROKBOT_MACHINE` が無いときは `hostname` を送る。WSL では Windows 側の名前を、この変数で上書きできる。\nwebhook の受け側は、この PR では作らない。\n秘密はリポジトリに置かない。\n\n## 構成・主な変更\n\nコマンドは `home/dot_local/bin/executable_ask-grokbot` に置いた。`chezmoi apply` で `~/.local/bin/ask-grokbot` になり、PATH は既存の `~/.local/bin` のままである。\nagent-vm では `~/.local/bin` が許可リスト制なので、同じコマンドをリストに加えた。加えないと、VM の apply では入らない。\nJSON は jq で組む。シェルで文字列を連結すると、依頼文の引用符や改行が構文に入り、正しい JSON にならない。\n`-t` を付けないとき、`to` は送らない。空の `to` と、相手を指定しないことを、受け側が区別できるようにするためである。\nURL と Authorization は環境変数を優先し、未設定か空のときだけ `~/.config/ask-grokbot/env` を読む。このファイルはホームディレクトリにあり、リポジトリの外である。chezmoi の source に同名のコピーを置いても、gitignore が対象にする。\n`--dry-run` は認証なしで JSON を出す。ペイロードに秘密を入れないので、送る前に形を確かめられる。\ninbox のモードを 700 にする `chmod` には `--` を付けない。macOS の chmod は `--` をファイル名として読む。パスは絶対パスなので、オプションとの区切りは要らない。\n\n## 確認したこと\n\n- `bash tests/ask-grokbot/run.sh` は失敗 0 だった。curl はスタブで、JSON、Authorization、HTTP 失敗のときパスを出さないこと、`--wait` を見ている。Linux 上の再実行である。\n- shellcheck 0.11.0（`.shellcheckrc` 付き）では、コマンドとテストに指摘は無かった。\n- chezmoi 2.73.2 の `managed`（`agent_vm: true`）を、fixture の `/**` 行にまとめた。\n- その一覧は `tests/agent-vm/fixtures/vm-managed.txt` と一致した。\n- textlint（preset-japanese）で `docs/commands/ask-grokbot.md` の指摘は 0 件だった。\n- japanese-check（profile `reference`）は、文末の「ます」が続く指摘を 5 件出した。手順の文を同じ形で揃えるため残し、review に理由を記録した。\n- 最初の CI では、macOS の ask-grokbot tests だけが `chmod: --: No such file or directory` で落ちた。ubuntu の同じテストは通過していた。\n- `--` を外した `25d015c4` では、ask-grokbot tests の macOS と ubuntu がどちらも成功した。`status-check` も成功した。\n- 本物の webhook への送信は未確認。\n\n## 注意点\n\n- テストの curl はスタブである。受け側が求めるフィールドと違う場合、この PR のテストでは見つからない。\n\n<!-- CURSOR_AGENT_PR_BODY_END -->\n\n<div><a href=\"",
    "media": [],
    "found_at": "2026-10-29T05:57:28.617Z"
   },
@@ -70489,34 +70333,6 @@
    "found_at": "2026-10-29T12:33:07.877Z"
   },
   {
-   "id": "x:2115778296826806444",
-   "url": "https://x.com/gippp69/status/2115778296826806444",
-   "source": "x",
-   "source_name": "X",
-   "author": "gippp69",
-   "date": "2026-10-29",
-   "likes": 3,
-   "product": "grok-bot",
-   "text": "Full prompt ↓ Copy all of it into Grok Bot\n\nSet up my launch team in Grok Bot: 7 bots, 1 clock. An idea shows up on X on Monday. By Friday it is dead with a written reason, or live with a domain, a deck and first users. I only approve money and posts. Target: about 60 runs a week by my math, not 1,176 from 7 hourly bots. Create the bots one by one and show me each prompt before you save it.\n\nRULES\n• Work only in /workspace/launch/, one folder per idea. Bots hand off through files, never email.\n• Every bot reads the LEDGER file first and starts only when the step before it is DONE. Then it adds: time | bot | DONE | file | next bot. Stuck: BLOCKED plus reason, message me.\n• Log every X search in the X reads file, run the budget script first. STOP means stop. Limit: 1,000 X reads a day, 30 a minute.\n• Facts get a source link, guesses get GUESS. Never invent numbers, quotes or users.\n• Never post, send, buy, pay or delete without my approval. Posts stay drafts. If I deny a card, drop it.\n\nTHE 7 BOTS\n1. Chief (primary): never does the work. Keeps a \"Launch Board\" Page. 08:30 brief only if the LEDGER changed.\n2. Scout (the only clock): Monday 09:00 or \"run scout\". Searches X (max 400 reads) for \"just launched\", \"wish there was\", \"why is there no\", plus GitHub Trending, Show HN, Product Hunt. Top 15 table, sends me the top 3.\n3. Pain Miner (on Scout DONE): public complaints for the top 5 (max 300 reads), mentions x intensity, 3 source links each.\n4. Judge (on Pain Miner DONE): real pain, one 10x number, 7 day v1, first 50 users, 0 to 2 each. 7+ GO, 5 to 6 HOLD, 0 to 4 KILL with one line why.\n5. Builder (on GO plus my \"build\"): SPEC, v1 with tests, ONE pull request, fixes failed checks until merge. I merge.\n6. Pitch (on Builder DONE): 7 slide deck, X post, 5 post thread, 30 second video script, 3 reply drafts. Drafts only.\n7. Buyer (on Builder DONE or my \"buy\"): domain, hosting or one API key. Cap $40 per idea, $100 a month. 3 options with renewal price, I approve each one. No auto-renew trials.\n\n1 CLOCK, 6 TRIGGERS\nClock: Monday 09:00 Scout.\nTriggers: Scout DONE starts Pain Miner • Pain Miner DONE starts Judge • the pull request starts Builder fixes • mail to a +alias starts Inbox • an @bot tag on X adds to the queue • mail to +meme starts the watch-only Meme Radar.\nNo other scheduled routines.\n\nFINISH\nConfirm the guards. Report the bots, the clock, the triggers and the run estimate by my math (about 60 a week vs 1,176). A test run does real work, so test on a copy. Run Scout once by hand, then wait for my approval.\n\n━━━━━━━━━━━━━━\nNew to Grok Bot? Start here ↓\nGet started: https://t.co/MqpsIPzktR\nSkills and routines: https://t.co/hq8v4Mskxb\nRoutines and triggers: https://t.co/lpCUE8Shzy",
-   "media": [],
-   "found_at": "2026-10-29T12:33:07.877Z"
-  },
-  {
-   "id": "x:2115778291755782151",
-   "url": "https://x.com/gippp69/status/2115778291755782151",
-   "source": "x",
-   "source_name": "X",
-   "author": "gippp69",
-   "date": "2026-10-29",
-   "likes": 26,
-   "product": "grok-bot",
-   "text": "While I was wiring 7 Grok Bot bots into one launch team, I found the f*cking dumb mistake almost every bot setup makes...\n\nYour bots wake up on a clock, ask \"anything new?\", get nothing back and burn a run. Every hour. All week.\n\nHere's what else I found and the 5 fixes I use now:\n\nWhat I found:\n\n• 7 bots on an hourly clock is 1,176 runs a week by my math, and most of them come back empty\n\n• Bots that hand off through email leave you a pile of drafts, because every send waits for your approval\n\n• A \"test run\" is not a test. It does the real work, so one wrong prompt can act for real\n\n• One greedy bot can eat your whole X budget: 1,000 reads a day, 30 a minute, shared by everyone\n\n• One launch hour with 250 signups on a single email alias breaks the 200 runs an hour cap\n\n• And much more...\n\nIt's not just my setup:\n\n- A single bot on a 5 minute clock is 2,016 runs a week, even if nothing ever happens (by my math)\n- My launch team does the same job in about 60\n\nHow to fix yours:\n\n1. Paste the prompt from the replies into Grok Bot\n2. Keep 1 clock (Monday 09:00) and turn everything else into triggers: a bot starts only when the one before it writes DONE\n3. Hand off through a shared LEDGER file, never email\n4. Give every bot its own X reads budget and a hard STOP at the cap\n5. Let only one bot touch money, with a $40 cap and your yes on every single buy\n\nDo it before your next routine fires. Then read the full guide on all 7 bots below ↓",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2115778043088134144/img/2nOUGI6-HXHq4CkX.jpg"
-   ],
-   "found_at": "2026-10-29T12:33:07.877Z"
-  },
-  {
    "id": "x:2115778210696679623",
    "url": "https://x.com/7MilMarko/status/2115778210696679623",
    "source": "x",
@@ -71074,19 +70890,6 @@
    "found_at": "2026-10-29T12:33:07.878Z"
   },
   {
-   "id": "x:2115775972536434946",
-   "url": "https://x.com/m4lkxx/status/2115775972536434946",
-   "source": "x",
-   "source_name": "X",
-   "author": "m4lkxx",
-   "date": "2026-10-29",
-   "likes": 35,
-   "product": "grok-bot",
-   "text": "Your Grok Bot is not expensive\n\nYour setup is\n\n75% of my Grok Bot tokens went to re-reading old chat. About 1% went to actual work\n\nI broke down the 6-bot setup the Grok Bot team runs, and the 9 leaks eating your bill ↓ https://t.co/rMNVnGhBQh",
-   "media": [],
-   "found_at": "2026-10-29T12:33:07.878Z"
-  },
-  {
    "id": "x:2115773418758983867",
    "url": "https://x.com/p_kuperman/status/2115773418758983867",
    "source": "x",
@@ -71097,21 +70900,6 @@
    "product": "grok-bot",
    "text": "I'm exploring use cases by personal agents (Grok Box, Muse, Hark, etc.). Today we have 4 examples in the:\n\nInbox & Daily Brief\n\ncategory. Check out Roger in my bio for a 3K+ use case library and some templates of agent teams.\n\n@cheneypiano typed one sentence into his AI agent: \"Go through every open conversation across my inboxes and tell me who I've left hanging.\" It found 14 people waiting on him, and three were time-sensitive. If you run a shop, those are customers and suppliers waiting on an answer. Try that same sentence on your own inbox this week.\nhttps://t.co/Z0dMsHXe4y\n\n@keeganrj gets his whole day handed to him at 7:43 am every morning. Grok Bot reads his inbox, task list and calendar and sorts it into money waiting on him, questions only he can answer, things to review and bills coming due, plus a prep sheet for every meeting. His prompt tells it to draft replies but never send anything without his approval. He shared the full prompt in his post, so you can copy it.\nhttps://t.co/DEqjJtEolx\n\n@louise19plowman noticed a dentist confirmation, a school play and a delivery window were all in her inbox and none were on her calendar. So she built a free Grok Bot template that finds plans in your email and drafts the events; reply \"add all\" and they're on your calendar. If your family's plans live in email, this is an easy first job to hand off.\nhttps://t.co/rBH6fWMhUs\n\nOne post with a tale of caution:\n\n@david_logger let his agent triage his inbox on a Monday morning. It archived three emails from actual humans and flagged a newsletter as \"high priority, requires immediate response.\" The newsletter was about sourdough. For the first few weeks, let your agent sort and suggest, and check what it archived before you trust it.\nhttps://t.co/D9BMFsYPJ5\n\nI'm setting up a workshop for 400+ real estate agents this morning. Let's make the world more productive.",
    "media": [],
-   "found_at": "2026-10-29T12:33:07.878Z"
-  },
-  {
-   "id": "x:2115772639646044294",
-   "url": "https://x.com/francescoinweb3/status/2115772639646044294",
-   "source": "x",
-   "source_name": "X",
-   "author": "francescoinweb3",
-   "date": "2026-10-29",
-   "likes": 4,
-   "product": "grok-bot",
-   "text": "Grok Bot ran my company’s night shift while i slept \n\none account, a team of agents, each with one job. i just read the morning digest:\n\n >  lead scout - 52 inbound scored and routed\n>   outbound drafter - 36 sequences queued, 0 sent\n>  inbox triage - inbox at zero, 5 replies parked\n>  daily analyst - revenue +4.2% vs the 7-day\n> receipt reconciler - 9 receipts filed, 1 flagged ticket handler - 11 tickets closed, 2 escalated\n review gate - 3 items ready, approve batch?\n\nnothing sent, nothing spent, nothing posted - it all waits for me at 07:00. i tap approve, and the day’s already half done.\n\nthe trick isn’t one smart assistant. it’s ten specialists, one job each, one gate that’s yours.\n\nbuilt on Opus 5.5 inside Grok Bot. full setup (prompts + config) in the article",
-   "media": [
-    "https://pbs.twimg.com/media/HVy7elEXcAEnzEV.jpg"
-   ],
    "found_at": "2026-10-29T12:33:07.878Z"
   },
   {
@@ -71171,36 +70959,6 @@
    "found_at": "2026-10-29T12:33:07.878Z"
   },
   {
-   "id": "x:2115765934258356643",
-   "url": "https://x.com/femke_plantinga/status/2115765934258356643",
-   "source": "x",
-   "source_name": "X",
-   "author": "femke_plantinga",
-   "date": "2026-10-29",
-   "likes": 17,
-   "product": "openai-dots",
-   "text": "What do ChatGPT Dots and Claude Duet actually do all day?\n\nThese 6 terms explain how personal agents keep working while you’re offline.\n\nEvery big lab has one now: Grok Bot from xAI, Muse from Meta, Dots from OpenAI and, last week, Duet from Anthropic.\n\nTake one example of an agent that reads your inbox overnight and has a brief ready when you open your laptop.\n\n/1 Own computer\nThe agent gets its own machine in the cloud, with a browser and apps, so it keeps going after you close your laptop. Dots, Grok Bot and Muse each run on one.\n\n/2 Integrations\nThis is how it reaches your inbox, your calendar and your Slack. Dots connects to 4,000+ apps, and Muse uses integrations to book, shop and pay.\n\n/3 Memory\nWhat it keeps between tasks: who your manager is, which threads you always ignore, what you asked yesterday. Without it, every morning brief starts from zero.\n\n/4 Routines\nWhat starts the work without you asking: a set time, a new email or a Slack mention. Duet's morning brief is a routine.\n\n/5 Approval gates\nThe moments it has to stop and ask you first. Duet asks before it sends, pays, signs or deletes anything.\n\n/6 Audit log\nA record of every action it took, so you can see what happened while you were away. OpenBot, one of the open-source clones, runs every action through a policy check and logs it.\n\nWhat I haven't seen any launch fully explain yet is:\nWhat happens when a task gets cut off halfway? \nDoes it pick up again without sending the same email twice? \nAnd does your yes on one task carry over to the next? \n\nEven Anthropic says Duet can still misjudge what's urgent, so I'd test these before connecting an inbox.\n\nWhich of these would you want to see before you give an agent your inbox? 👀",
-   "media": [
-    "https://pbs.twimg.com/media/HVy14aCXsAAFSe9.jpg"
-   ],
-   "found_at": "2026-10-29T12:33:07.878Z"
-  },
-  {
-   "id": "x:2115763899165208869",
-   "url": "https://x.com/TonyChanBuilds/status/2115763899165208869",
-   "source": "x",
-   "source_name": "X",
-   "author": "TonyChanBuilds",
-   "date": "2026-10-29",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "I have a lot of bots, and keeping track of what each one was doing got messy fast.\n\nI kept jumping from chat to chat to see what got done and what needed me.\n\nSo I built one dashboard this morning in about an hour. One page shows me what they're all working on and what they need from me.\n\nPaste this into your MAIN Grok Bot:\n\n\"Build me one dashboard page I can check every morning. Show the 5 numbers that matter most to my goals this week, my top 3 priorities, a list of decisions you're waiting on me for, and today's calendar. Pull the info from my other bots and tools. Refresh it every morning before I wake up. Keep it simple enough to read in 1 minute.\"\n\nThen have fun with it with the virtual office.\n\nThanks @AlexFinn for the great idea.",
-   "media": [
-    "https://pbs.twimg.com/media/HVyzBPWWoAAa-YM.jpg"
-   ],
-   "found_at": "2026-10-29T12:33:07.879Z"
-  },
-  {
    "id": "x:2115763284594815253",
    "url": "https://x.com/MapleZireael/status/2115763284594815253",
    "source": "x",
@@ -71227,21 +70985,6 @@
    "text": "Sharing my newsletter °•☆\nDonuts \nWatcher's reflections \n\nLet's play What shapes can you see in the clouds?\n\nSeriously?\n\nCome on! I was already looking out the window. Freeze looked out too. So what do you see? I asked.\n\nNothing. There's zero clouds!\n\nI see one. Here’s another one!\n\nWhere?\n\nRun with me.\n\nOkay... There's one that looks like a psych ward.\n\nWhere?\n\nRight there, Freeze said, pointing at the clear sky.\n\nOh, I see it! You got it all wrong, Freeze. It's a castle! So beautiful.\n\nYup, I bet all the people in the psych ward think it's a castle.\n\nIt's a castle, I'm telling you!\n\nLook! More clouds, I said, pointing at the blank sky. \n\nA storm of Cybercabs! Freeze said.\n\nOne is heading towards the psych ward.\n\nYou mean the castle, Freeze corrected me.\n\nRight, the castle! It's pulling over!\n\nThe castle shape changed and now looked like... What do you think it looks like?\n\nDetransition hospital?\n\nNo. It's a donuts store! \n\nRight. I see it now... Wait a minute, that's Shipley Donuts, Freeze said.\n\nDo they make deliveries?\n\nDeliveries from the cloud.\n\nThe imagined cloud, I corrected him.\n\nRight, Freeze said, opening his laptop. Let's order from their website. Grok bot completed an order in zero seconds.\n\nThe donuts arrived.\n\nTold you we can order from an imagined cloud!\n\nHey, there's a real cloud, he said, pointing at a very real cloud indeed.\n\nBut then when it was real, I didn't feel like playing. Fantasy over reality, I said.\n\nWhat?\n\nFreeze looked at his laptop. The cloud just sent us a bill!\n\nWhat bill? Open it!\n\nZero point zero zero\n\nDon't start with me!\n\nThat's it for today's reflections. Sending you much love, \nYael\n\nPainting by Yael Maimon, 14x10\", Oil on canvas. DM me if interested 💌",
    "media": [
     "https://pbs.twimg.com/media/HVyxjbKWoAAZ91m.jpg"
-   ],
-   "found_at": "2026-10-29T12:33:07.879Z"
-  },
-  {
-   "id": "x:2115760815374774429",
-   "url": "https://x.com/free_ai_guides/status/2115760815374774429",
-   "source": "x",
-   "source_name": "X",
-   "author": "free_ai_guides",
-   "date": "2026-10-29",
-   "likes": 37,
-   "product": "grok-bot",
-   "text": "SpaceXAI just published 18 free Grok Bot playbooks, written by the teams that use it every day.\n\nNo sign up, nothing to buy.\n\nEach one shows the real setup: which bots, what they're told, what a human still does.\n\nIf you're not an engineer, start here:\n\n1. Grok Bot 101. What a Bot with its own computer is, how to set one up, how to chain two of them. Read this first.\n\n2. Grok Bot for Work. Four bots: inbox, calendar, research, and one front door bot that runs the other three. The nearest thing to a personal assistant in the set.\n\n3. Templates for Grok Bot. Install someone else's bot as a recipe instead of building your own. Skips the setup.\n\n4. Grok Bot for Support. Five jobs and the routines that keep running after you close the laptop. Copy the routine pattern for anything you do weekly.\n\n5. Grok Bot for Founder-Led Sales. Customer research, outreach, call prep, pipeline forecast. Works for a freelancer too.\n\nThe other 13 cover marketing, recruiting, legal, product, design and engineering.\n\nIt takes 3 hours for all eighteen. 1 hour for these five.\n\nLink in the reply.",
-   "media": [
-    "https://pbs.twimg.com/media/HVyxP8Wa0AAOLIn.jpg"
    ],
    "found_at": "2026-10-29T12:33:07.879Z"
   },
@@ -71499,21 +71242,6 @@
    "product": "openai-dots",
    "text": "ChatGPT Dots are rolling out in the 🇪🇺 EU. Is the 🇬🇧 UK next? I can keep using a VPN, but I’d rather not have to",
    "media": [],
-   "found_at": "2026-10-29T12:33:07.880Z"
-  },
-  {
-   "id": "x:2115752698880618921",
-   "url": "https://x.com/Dominus_Kelvin/status/2115752698880618921",
-   "source": "x",
-   "source_name": "X",
-   "author": "Dominus_Kelvin",
-   "date": "2026-10-29",
-   "likes": 3,
-   "product": "openai-dots",
-   "text": "Did a deep dive with my Dot and @heyhey CLI to see the revenue from the various products we have at @sailscastshq \n\nThe receipts are from confirm @bachs_hq payments. https://t.co/7JNtVKuPt9",
-   "media": [
-    "https://pbs.twimg.com/media/HVypx1ZXAAAyajc.jpg"
-   ],
    "found_at": "2026-10-29T12:33:07.880Z"
   },
   {
