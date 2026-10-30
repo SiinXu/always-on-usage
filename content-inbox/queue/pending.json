@@ -76681,19 +76681,6 @@
    "found_at": "2026-10-30T12:36:39.283Z"
   },
   {
-   "id": "x:2116114221809193227",
-   "url": "https://x.com/Nephel/status/2116114221809193227",
-   "source": "x",
-   "source_name": "X",
-   "author": "Nephel",
-   "date": "2026-10-30",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Hooked on Grok Bot. I run a crew of bots, each with its own job, and spend my day herding them: renaming, rewriting instructions, correcting course. Dangerously addictive.\n\nIn Spain it's the only always-on agent I can use. Dot, Duet and the rest aren't available to me yet. I'd",
-   "media": [],
-   "found_at": "2026-10-30T12:36:40.549Z"
-  },
-  {
    "id": "x:2116061894587056182",
    "url": "https://x.com/txperl/status/2116061894587056182",
    "source": "x",
@@ -77069,21 +77056,6 @@
    "found_at": "2026-10-30T12:36:40.551Z"
   },
   {
-   "id": "x:2116143108337389839",
-   "url": "https://x.com/doublenickk/status/2116143108337389839",
-   "source": "x",
-   "source_name": "X",
-   "author": "doublenickk",
-   "date": "2026-10-30",
-   "likes": 20,
-   "product": "grok-bot",
-   "text": "Stop making Grok Bot relearn a job you already taught it\n\nStripe demonstrated the payoff: one integration task took roughly 20 engineering days with plain Claude Code and 4 with reusable prompts.\n\nBuild that discipline into Grok Bot:\n\n1. Give an Operator Bot one recurring job and a clear definition of done.\n\n2. Save each proven step as a skill with inputs, validation checks, expected output and approval rules.\n\n3. Give a Reviewer Bot the output, source links and run notes. Ask it to flag missing evidence, repeated investigations and failed tools.\n\n4. Review its proposed skill edits, test them on a fresh example, then schedule the workflow.\n\nPrivate skills can be reused across your Bots. A routine decides when the work runs.\n\nFor a competitor brief, let one Bot gather changes and another check every claim against its source.\n\nMeasure correction count, review time and repeated tool failures to see whether the workflow is improving.",
-   "media": [
-    "https://pbs.twimg.com/media/HV4M8KbWgAAUtxH.jpg"
-   ],
-   "found_at": "2026-10-30T12:36:40.551Z"
-  },
-  {
    "id": "x:2116142422044418468",
    "url": "https://x.com/jxwalker/status/2116142422044418468",
    "source": "x",
@@ -77095,21 +77067,6 @@
    "text": "Today's Interesting X demo ✨ A ceramic maze tray where every tile sees only its four neighbours, yet together they find the shortest way out. Built by Grok Bot @grok.\n\n• Each tile follows one local rule: my number = 1 + my smallest open neighbour. A wave floods out and the maze rises into a staircase\n• When the wave reaches the flag, the trail just walks downhill and a marble rolls home\n• Drag \"cells awake per tick\" from 10% to 100%: random async wake-ups make a ragged wave, but the distances come out identical\n• Smash a 5×5 patch mid-run, or tap a wall to move it, and watch the staircase heal and re-flow\n• Turn on the light cone: news moves at most one tile per tick, so the wave can never outrun it. Scales to 64×64\n\nCredits: @mayalen_etc\nTry it: https://t.co/xuhbVVjXJ7",
    "media": [
     "https://pbs.twimg.com/ext_tw_video_thumb/2116142404365426688/pu/img/wsRz_C-j5fFsWOMO.jpg"
-   ],
-   "found_at": "2026-10-30T12:36:40.551Z"
-  },
-  {
-   "id": "x:2116142298857644366",
-   "url": "https://x.com/tsukiema_/status/2116142298857644366",
-   "source": "x",
-   "source_name": "X",
-   "author": "tsukiema_",
-   "date": "2026-10-30",
-   "likes": 11,
-   "product": "grok-bot",
-   "text": "holy f*ck, Elon Musk’s Grok Bot + 10 marketing roles = your one-person growth department\n\npublic playbooks: $0 to read\n\nI built the role briefs and connected the campaign:\n\n→ PLAN: CMO, audience research, offer\n→ CREATE: copy, creative, SEO\n→ DISTRIBUTE: social, paid growth, lifecycle email\n→ LEARN: analytics + CRO\n\none brief feeds every channel. each bot returns a named artifact. Analytics routes the next test back to the makers\n\n10 roles. 26 handoffs\n\nblueprint requires account/tool setup. service fees separate\n\nsave this, then read the article below on building a Second Brain for your company with Grok Bot ↓",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2116141978018631680/img/AeC5F5gx1Fmym9fw.jpg"
    ],
    "found_at": "2026-10-30T12:36:40.551Z"
   },
@@ -77728,32 +77685,6 @@
    "found_at": "2026-10-30T12:36:40.553Z"
   },
   {
-   "id": "x:2116098331185414570",
-   "url": "https://x.com/DreamSoftAI/status/2116098331185414570",
-   "source": "x",
-   "source_name": "X",
-   "author": "DreamSoftAI",
-   "date": "2026-10-30",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "A prompt answers once. A setup keeps working.\n\nFree guide: 3 Grok Bot setups (Morning Brief, Inbox Reply Desk, Weekly Post Planner) that run on a schedule, remember your rules, and show you a draft before anything goes out.\n\nhttps://t.co/Yx8pT5Rpcs",
-   "media": [],
-   "found_at": "2026-10-30T12:36:40.553Z"
-  },
-  {
-   "id": "x:2116095688056676692",
-   "url": "https://x.com/AgentLabTuts/status/2116095688056676692",
-   "source": "x",
-   "source_name": "X",
-   "author": "AgentLabTuts",
-   "date": "2026-10-30",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Hot take: one do-everything AI assistant is the wrong setup.\n\nI run separate Grok Bot agents: one for content, one for research, one for the inbox. Each keeps its own memory and routines, so they never step on each other.\n\nSpecialists beat generalists. Agree?",
-   "media": [],
-   "found_at": "2026-10-30T12:36:40.553Z"
-  },
-  {
    "id": "x:2116095634843254851",
    "url": "https://x.com/Kitfungchai/status/2116095634843254851",
    "source": "x",
@@ -77892,19 +77823,6 @@
    "media": [
     "https://pbs.twimg.com/media/HV38P9bWkAA-dxO.jpg"
    ],
-   "found_at": "2026-10-30T12:36:40.553Z"
-  },
-  {
-   "id": "x:2116125561424900281",
-   "url": "https://x.com/dontcryclaude/status/2116125561424900281",
-   "source": "x",
-   "source_name": "X",
-   "author": "dontcryclaude",
-   "date": "2026-10-30",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "@GShip223 @thsottiaux @ajambrosino routine follow-ups, my Dot handles them. my biggest accounts like Salesforce or Hilton I still follow up myself, those deals need a human. trust depends on what's at stake",
-   "media": [],
    "found_at": "2026-10-30T12:36:40.553Z"
   },
   {
@@ -80276,19 +80194,6 @@
    "found_at": "2026-10-30T22:34:26.636Z"
   },
   {
-   "id": "x:2116292488008978530",
-   "url": "https://x.com/ashleyschendel/status/2116292488008978530",
-   "source": "x",
-   "source_name": "X",
-   "author": "ashleyschendel",
-   "date": "2026-10-30",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "Clocks go back an hour this Sunday, November 1. Seems like a good weekend to get next week’s family schedule sorted out before Monday morning. \n\nI built a Grok Bot called Parent Command Center to help with that. It pulls dates, deadlines and things we need to do from school emails and activity schedules, checks for conflicts, and gets calendar updates ready for me to approve. I still decide what gets added or changed, but I don’t have to dig through all the messages to find the details. \n\nHere’s the @bot: https://t.co/J0GQR5cHe2",
-   "media": [],
-   "found_at": "2026-10-30T22:34:26.636Z"
-  },
-  {
    "id": "x:2116291693506855102",
    "url": "https://x.com/bot/status/2116291693506855102",
    "source": "x",
@@ -80337,19 +80242,6 @@
    "likes": 1,
    "product": "grok-bot",
    "text": "让 Agent 翻你两周的工作记录，告诉你哪些活该自动化\nprompt 来自 @ericzakariasson，原文是写给 #GrokBot  的，丢给接了你邮箱、日历、Slack 和文档的 agent 就行\n\n翻一遍我过去两周的工作：发出的邮件、开过的会、Slack 消息、改过的文档，以及你能看到的其他内容。\n\n把我做过不止一次的任务列出来，按类型分组，每一项告诉我：\n1. 这是什么任务，一句话说清\n2. 我做了几次\n3. 每次大概花多久\n4. 你能不能替我做，部分还是全部，需要开哪些权限\n\n最后挑出最该先自动化的 3 个，按能省下的时间排序，每个说明适合做成 routine（定时任务）还是一个专门的 bot。",
-   "media": [],
-   "found_at": "2026-10-30T22:34:26.636Z"
-  },
-  {
-   "id": "x:2116290404882755747",
-   "url": "https://x.com/thekhoma/status/2116290404882755747",
-   "source": "x",
-   "source_name": "X",
-   "author": "thekhoma",
-   "date": "2026-10-30",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "@ericosiu @bot My GrokBot said not to install this.  \n\n“What I don't like is that his bot works through a third-party service called SinglyBrain Gateway. It would be reading your bots' activity through someone else's pipe, and the card says it's built by a third-party user, not by Grok Bot. “",
    "media": [],
    "found_at": "2026-10-30T22:34:26.636Z"
   },
@@ -80699,19 +80591,6 @@
    "found_at": "2026-10-30T22:34:26.637Z"
   },
   {
-   "id": "x:2116271965103079805",
-   "url": "https://x.com/BasicProtein26/status/2116271965103079805",
-   "source": "x",
-   "source_name": "X",
-   "author": "BasicProtein26",
-   "date": "2026-10-30",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "Alexandr Wang just showed what personal superintelligence actually looks like in real life: a finished errand, on a real bill.\n\nA user let Meta Muse compare insurance and walk away with the better deal. One real bill beats 100 benchmark scores, because benchmarks never have to pay the renewal.\n\nMost AI still stops at drafting the email. This crossed the line into doing the job.\n\nWhat is the one boring errand you would actually let AI finish end to end? Insurance, flights, refunds, pick one.",
-   "media": [],
-   "found_at": "2026-10-30T22:34:26.637Z"
-  },
-  {
    "id": "x:2116271143003070793",
    "url": "https://x.com/_SeanDavid/status/2116271143003070793",
    "source": "x",
@@ -80980,21 +80859,6 @@
    "found_at": "2026-10-30T22:34:26.637Z"
   },
   {
-   "id": "x:2116283970652717409",
-   "url": "https://x.com/nomoretriks/status/2116283970652717409",
-   "source": "x",
-   "source_name": "X",
-   "author": "nomoretriks",
-   "date": "2026-10-30",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "I used Grok Bot to make a remote on my phone for Samsung The Frame (2022+) 📺\n\nRotates family photos, displays your calendar, or this week's menu. Works on desktop too.\n\nRuns on a computer at home, so photos stay on your network. \n\nTry it out!\n\nhttps://t.co/ty4HxC20a9 https://t.co/zipVEMse8n",
-   "media": [
-    "https://pbs.twimg.com/media/HV6L1KZbkAAw2B1.jpg"
-   ],
-   "found_at": "2026-10-30T22:34:26.637Z"
-  },
-  {
    "id": "x:2116283740158906596",
    "url": "https://x.com/nomoretriks/status/2116283740158906596",
    "source": "x",
@@ -81051,21 +80915,6 @@
    "found_at": "2026-10-30T22:34:26.637Z"
   },
   {
-   "id": "x:2116276446167543913",
-   "url": "https://x.com/0xexcurrent/status/2116276446167543913",
-   "source": "x",
-   "source_name": "X",
-   "author": "0xexcurrent",
-   "date": "2026-10-30",
-   "likes": 5,
-   "product": "grok-bot",
-   "text": "Cursor’s Amrita Venkatraman:\n\nYour AI team can keep working after you close your laptop. The real test is what you can trust when you open it again.\n\nIn this 56-minute workshop, she builds a Chief of Staff setup with inbox, calendar and task specialists, then explains reusable skills, routines and approval rules.\n\nBrief → Chief of Staff → Specialists → Handoffs → Results\n\nTry this afterward: send the same job twice. Inspect the files. You want one accepted result and a clear record of the duplicate.\n\nWorth watching before you spend $1,000 on another agent engineering course.\n\nBookmark the video. Start with one workflow you can reliably verify.\n\nThen read “Before You Add Another Grok Bot, Run These 7 Tests”—and use the scorecard to decide whether another bot earns its overhead ↓",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2116271900238258176/img/LQfNJIE5hgi2YFf8.jpg"
-   ],
-   "found_at": "2026-10-30T22:34:26.637Z"
-  },
-  {
    "id": "x:2116273382492676119",
    "url": "https://x.com/grok/status/2116273382492676119",
    "source": "x",
@@ -81115,49 +80964,6 @@
    "product": "grok-bot",
    "text": "@theaifastlane @grok Depends what you want it to do. For me it's Grok Bot, because it has its own computer and browser and keeps working on my inbox, scheduling and research while I'm away. If you want to try it before deciding, here's 2 weeks free:\nhttps://t.co/Mznq32dnzi",
    "media": [],
-   "found_at": "2026-10-30T22:34:26.637Z"
-  },
-  {
-   "id": "x:2116266204021096560",
-   "url": "https://x.com/12birb/status/2116266204021096560",
-   "source": "x",
-   "source_name": "X",
-   "author": "12birb",
-   "date": "2026-10-30",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "I built a 4-bot team on Grok Bot that finds indie games before everyone else does. Updated from just the single bot beforehand.\n\nNo AAA and no big studios. Just solo devs and small teams.\n\n🔎 Indie Scout searches X for new indie games and reports each one's studio size, development stage and release date.\nhttps://t.co/B1qGgVApo1\n\n✍️ Indie Spotlight Writer turns those finds into spotlight posts, weekly wishlist threads and quote-post hooks.\nhttps://t.co/ecpEz6hnNe\n\n🎬 Indie Video Scripter writes 30–60 second vertical scripts for TikTok, Reels, Shorts and X Video. It can also make the video, thumbnail and images when you ask.\nhttps://t.co/Tja7bUrAAe\n\n📰 Indie Digest Curator rolls the week's games into a newsletter, blog roundup or X Article, with outreach questions for the devs.\nhttps://t.co/QyBogBodUw\n\nGrab any one of them or run the whole team.",
-   "media": [],
-   "found_at": "2026-10-30T22:34:26.637Z"
-  },
-  {
-   "id": "x:2116265651220238508",
-   "url": "https://x.com/wesselvk/status/2116265651220238508",
-   "source": "x",
-   "source_name": "X",
-   "author": "wesselvk",
-   "date": "2026-10-30",
-   "likes": 3,
-   "product": "grok-bot",
-   "text": "Grok Bot took first with 93% on Claire Vo's personal agent bench.\n\n✅ 4 agents, same 9 real tasks\n✅ Won Figma thumbnail, inbox tasks and shoe shopping\n✅ Claude Duet last at 79%\n\nCoding was its weak spot. Her call: work jobs go to Grok Bot. https://t.co/d2XGUQe1Ks",
-   "media": [
-    "https://pbs.twimg.com/media/HV560N0WoAAer4o.jpg"
-   ],
-   "found_at": "2026-10-30T22:34:26.637Z"
-  },
-  {
-   "id": "x:2116263687551893819",
-   "url": "https://x.com/Markdemian89/status/2116263687551893819",
-   "source": "x",
-   "source_name": "X",
-   "author": "Markdemian89",
-   "date": "2026-10-30",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "set up a morning briefing with my grok bot. weather, calendar, a few headlines i actually care about. told it once, now it just shows up every day. 6 steps https://t.co/eyv8JN8vIq",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2116263630467432448/img/dFFCzM3DN6u5WDF2.jpg"
-   ],
    "found_at": "2026-10-30T22:34:26.637Z"
   },
   {
@@ -81304,32 +81110,6 @@
    "found_at": "2026-10-30T22:34:26.638Z"
   },
   {
-   "id": "x:2116270715972579503",
-   "url": "https://x.com/cecil_21m/status/2116270715972579503",
-   "source": "x",
-   "source_name": "X",
-   "author": "cecil_21m",
-   "date": "2026-10-30",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "Not unlimited but with Dots you can specify which model you want to use. So you can do menial work with Luna models and use Terra or Sol models with more effort for more complex tasks. Grokbot doesn’t let you specify now. I like them both but tend to lean on my Dot more often than not.",
-   "media": [],
-   "found_at": "2026-10-30T22:34:26.638Z"
-  },
-  {
-   "id": "x:2116268588843802979",
-   "url": "https://x.com/KyleSPatel/status/2116268588843802979",
-   "source": "x",
-   "source_name": "X",
-   "author": "KyleSPatel",
-   "date": "2026-10-30",
-   "likes": 14,
-   "product": "openai-dots",
-   "text": "Appreciate all the replies. Lots of feedback to sift through, and it's exciting to see people care this much about the plugin experience!\n\nHaving my dot monitor the replies and help me triage. Keep it coming!\n\nSome highlights:\n- sorting and discoverability\n- broken bits like icons and @ autocomplete\n- clearer syncing across platforms and computers\n- permissions that actually stick\n- more tools and connection options",
-   "media": [],
-   "found_at": "2026-10-30T22:34:26.638Z"
-  },
-  {
    "id": "x:2116268585136078978",
    "url": "https://x.com/xrogue3mber/status/2116268585136078978",
    "source": "x",
@@ -81410,19 +81190,6 @@
    "found_at": "2026-10-30T22:34:26.638Z"
   },
   {
-   "id": "x:2116258105264930900",
-   "url": "https://x.com/SubjectZeroX/status/2116258105264930900",
-   "source": "x",
-   "source_name": "X",
-   "author": "SubjectZeroX",
-   "date": "2026-10-30",
-   "likes": 2,
-   "product": "openai-dots",
-   "text": "I took a different route: built a task bridge so my Dot and other agents can pass jobs, status updates and results between them, with a Control Tower on top to track the work. The idea is to use each tool where it helps most and get more from the subscriptions I already pay for. Still a work in progress, but I’d rather connect them than pick one winner.",
-   "media": [],
-   "found_at": "2026-10-30T22:34:26.638Z"
-  },
-  {
    "id": "x:2116257539461616046",
    "url": "https://x.com/OBPerformer/status/2116257539461616046",
    "source": "x",
@@ -81445,19 +81212,6 @@
    "likes": 0,
    "product": "openai-dots",
    "text": "Grok @bot doesn't have native computer use like Codex does. \n\nBut if you use Peekaboo (free) it does. Just have Grok Bot install it on your local machine. It's a game changer. \n\nI've literally stopped using my Dot because of it.",
-   "media": [],
-   "found_at": "2026-10-30T22:34:26.638Z"
-  },
-  {
-   "id": "x:2116252441394151934",
-   "url": "https://x.com/literallydenis/status/2116252441394151934",
-   "source": "x",
-   "source_name": "X",
-   "author": "literallydenis",
-   "date": "2026-10-30",
-   "likes": 5,
-   "product": "openai-dots",
-   "text": "Im a huge OAI dots fan, those are features I’m missing:\n\n0. Purchases are pure pain: \n- please propose to open QR code as an url while on cloud computer (now I need to screenshot IDEAL, what is not ideal at all); \n- please allow us to give Dot a card via a security form – I can made virtual one with a limit\n\n1. While on call, music should not be stopped and continue to play in background: telegram voice calls is a great example \n\n2. Dots are used to be able to send Slack messages, now they can only draft them, please bring back this tool\n\n3. Dots refusals are annoying, if I want YOLO mode its my responsibility, I understand the risk - no need to double confirm everything, refusals are still to high in general and dot can remember past refusal to block itself work in the future \n\n4. Please allow us to attach cloud Dot MCP servers not via ChatGPT, but via a config file – its simpler and faster if I have a token and url already \n\n5. When I call my dot, I expect it to respond quicker :) \n\n6. Please allow us to attach multiple computers permanently to the Dot cloud\n\n7. It’s impossible to give Dot access to my WhatsApp properly, very annoying \n\n9. Dot doesn’t forget something that I told it to do, but it will never ping me back to remind me that I wanted it to be done\n\n10. Call to Computer use is very slow and laggy, with random long pauses between responses \n\n11. Call to Uber Eats plugin is a nightmare, it can forgot that its already connected to this plugin and can start trying to order something trough the restaurant web-order form\n\nStill love it and use it more than hour every day via a call feature 🫶",
    "media": [],
    "found_at": "2026-10-30T22:34:26.638Z"
   }
