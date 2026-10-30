@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (1998 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2015 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-30T12:46:01.622Z
+- Last updated: 2026-10-30T22:41:12.016Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -627,6 +627,21 @@
 - /cases/x-devanshujain-2116121227991667141.html: Dots escalates a stuck App Store review (field-case) <https://x.com/devanshujain_/status/2116121227991667141>
 - /cases/x-darwinsantosnyc-2116137312744620288.html: Dot flags every change to a conference speaking schedule (field-case) <https://x.com/DarwinSantosNYC/status/2116137312744620288>
 - /cases/x-tinhochu-2116007150791139559.html: Rinde: snap a grocery list, compare live prices in Colombia (field-case) <https://x.com/TinHoChu/status/2116007150791139559>
+- /cases/x-kylespatel-2116268588843802979.html: Having a Dot monitor post replies and triage feedback (field-case) <https://x.com/KyleSPatel/status/2116268588843802979>
+- /cases/x-tsukiema-2116142298857644366.html: A 10-role marketing team built on Grok Bot (field-case) <https://x.com/tsukiema_/status/2116142298857644366>
+- /cases/x-0xexcurrent-2116276446167543913.html: A 56-minute workshop: a Chief of Staff bot team on Grok Bot (guide) <https://x.com/0xexcurrent/status/2116276446167543913>
+- /cases/x-ashleyschendel-2116292488008978530.html: Parent Command Center: sorting the family schedule from school emails (field-case) <https://x.com/ashleyschendel/status/2116292488008978530>
+- /cases/x-thekhoma-2116290404882755747.html: A Grok Bot advises against installing a third-party bot (field-case) <https://x.com/thekhoma/status/2116290404882755747>
+- /cases/x-12birb-2116266204021096560.html: A 4-bot team that scouts indie games (field-case) <https://x.com/12birb/status/2116266204021096560>
+- /cases/x-subjectzerox-2116258105264930900.html: A task bridge so a Dot and other agents can hand off work (field-case) <https://x.com/SubjectZeroX/status/2116258105264930900>
+- /cases/x-dontcryclaude-2116125561424900281.html: Routine follow-ups go to a Dot; big accounts stay human (field-case) <https://x.com/dontcryclaude/status/2116125561424900281>
+- /cases/x-dreamsoftai-2116098331185414570.html: Free guide: 3 scheduled Grok Bot setups (guide) <https://x.com/DreamSoftAI/status/2116098331185414570>
+- /cases/x-agentlabtuts-2116095688056676692.html: Separate Grok Bots for content, research and inbox (field-case) <https://x.com/AgentLabTuts/status/2116095688056676692>
+- /cases/x-basicprotein26-2116271965103079805.html: Meta Muse compares insurance and lands a better deal (field-case) <https://x.com/BasicProtein26/status/2116271965103079805>
+- /cases/x-nomoretriks-2116283970652717409.html: A phone remote for Samsung The Frame, built with Grok Bot (field-case) <https://x.com/nomoretriks/status/2116283970652717409>
+- /cases/x-markdemian89-2116263687551893819.html: A daily morning briefing from Grok Bot (field-case) <https://x.com/Markdemian89/status/2116263687551893819>
+- /cases/x-nephel-2116114221809193227.html: In Spain, Grok Bot is the only always-on agent available (field-case) <https://x.com/Nephel/status/2116114221809193227>
+- /cases/x-literallydenis-2116252441394151934.html: Missing features listed by a daily Dot user (field-case) <https://x.com/literallydenis/status/2116252441394151934>
 - /cases/x-gippp69-2115778291755782151.html: Empty runs found while wiring 7 Grok Bot bots, and 5 fixes (guide) <https://x.com/gippp69/status/2115778291755782151>
 - /cases/x-gippp69-2115778296826806444.html: Full Grok Bot launch-team prompt: 7 bots, 1 clock (guide) <https://x.com/gippp69/status/2115778296826806444>
 - /cases/x-femkeplantinga-2115765934258356643.html: Six terms that explain always-on personal agents (guide) <https://x.com/femke_plantinga/status/2115765934258356643>
@@ -1902,6 +1917,8 @@
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
 - /cases/x-stautomation-2116140049947644309.html: ChatGPT Dot vs Grok Bot on rework, from real use (comparison) <https://x.com/ST_Automation/status/2116140049947644309>
 - /cases/x-vicyan1225-2115984059298103572.html: Choosing among 5 AI personal assistants: Muse, dots, Cue, Grok Bot, Today (comparison) <https://x.com/vicyan1225/status/2115984059298103572>
+- /cases/x-wesselvk-2116265651220238508.html: Claire Vo's personal agent bench: Grok Bot first at 93% (comparison) <https://x.com/wesselvk/status/2116265651220238508>
+- /cases/x-cecil21m-2116270715972579503.html: Dots lets you pick a model per task; Grok Bot doesn't yet (comparison) <https://x.com/cecil_21m/status/2116270715972579503>
 - /cases/x-astralwave-2115401442110644307.html: Coordinating coding agents with Dots, Grok Bot and Claude Projects (comparison) <https://x.com/astralwave/status/2115401442110644307>
 - /cases/x-bagel8343-2115293237707477291.html: Choosing between Muse and Grok Bot by how work is organized, not feature lists (comparison) <https://x.com/Bagel8343/status/2115293237707477291>
 - /cases/x-pocarles-2115566721855783137.html: A small business owner compares Dot, Muse, Grok Bot and Hermes (comparison) <https://x.com/pocarles/status/2115566721855783137>
