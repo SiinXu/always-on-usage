@@ -1,6 +1,6 @@
 {
   "note": "公开条目聚合 / aggregated public items; see source_url",
-  "count": 2035,
+  "count": 2052,
   "fetched_at": "2026-10-12T11:54:58.322933+00:00",
   "items": [
     {
@@ -13857,6 +13857,1278 @@
       "slug": "x-ijkandco-2116508517310116057",
       "scen": [
         "food"
+      ]
+    },
+    {
+      "title": "每天开工前和收工后找 OpenAI Dot 清空脑子",
+      "summary": "作者在开工前和收工后（多半是睡前）与 OpenAI Dot 对话，把脑中想法倒出来，让它第二天复述想法和“意图”、跟进项目、给项目跑安全 agent 并全天盯着。它还收集作者的提示词，发现新模式就讨论后加进 skills，下次直接提及 skill 不用重写。周末日程、学习计划和关注者的反馈摘要也交给它。",
+      "en": {
+        "title": "Emptying my head into OpenAI Dot before and after work",
+        "summary": "Before starting and after finishing work (usually before bed), the author talks to OpenAI Dot to unload their thoughts. The next day it explains their ideas and intent back, follows their projects, runs security agents on them and keeps watching all day. It also collects their prompts, discusses any new pattern and adds it to their skills so they can mention a skill instead of rewriting. Weekend schedules, a study plan and a summary of what followers say go to it too."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "每天开工前和收工后找 OpenAI Dot 清空脑子",
+          "summary": "作者在开工前和收工后（多半是睡前）与 OpenAI Dot 对话，把脑中想法倒出来，让它第二天复述想法和“意图”、跟进项目、给项目跑安全 agent 并全天盯着。它还收集作者的提示词，发现新模式就讨论后加进 skills，下次直接提及 skill 不用重写。周末日程、学习计划和关注者的反馈摘要也交给它。"
+        },
+        "zh-TW": {
+          "title": "每天開工前與收工後找 OpenAI Dot 清空腦袋",
+          "summary": "作者在開工前和收工後（多半是睡前）與 OpenAI Dot 對話，把腦中想法倒出來，讓它隔天複述想法與「意圖」、追蹤專案、替專案跑資安 agent 並整天盯著。它也收集作者的提示詞，發現新模式就討論後加進 skills，下次直接提及 skill 不必重寫。週末行程、讀書計畫和追蹤者回饋摘要也交給它。"
+        },
+        "en": {
+          "title": "Emptying my head into OpenAI Dot before and after work",
+          "summary": "Before starting and after finishing work (usually before bed), the author talks to OpenAI Dot to unload their thoughts. The next day it explains their ideas and intent back, follows their projects, runs security agents on them and keeps watching all day. It also collects their prompts, discusses any new pattern and adds it to their skills so they can mention a skill instead of rewriting. Weekend schedules, a study plan and a summary of what followers say go to it too."
+        },
+        "ja": {
+          "title": "仕事の前後に OpenAI Dot へ頭の中を吐き出す",
+          "summary": "作者は仕事を始める前と終えた後（たいてい寝る前）に OpenAI Dot と話して考えを吐き出す。翌日には考えと「意図」を説明し直し、プロジェクトを追い、セキュリティ用エージェントを走らせ、一日中見守る。プロンプトも集め、新しいパターンがあれば相談して skills に追加するので、次はスキルを指定するだけで済む。週末の予定、学習計画、フォロワーの声の要約も任せている。"
+        },
+        "ko": {
+          "title": "일 시작 전과 끝난 뒤 OpenAI Dot에 머릿속 비우기",
+          "summary": "작성자는 일을 시작하기 전과 끝낸 뒤(대개 잠들기 전) OpenAI Dot과 대화하며 생각을 쏟아낸다. 다음 날 Dot은 생각과 ‘의도’를 다시 설명해 주고, 프로젝트를 추적하며 보안 에이전트를 돌리고 하루 종일 지켜본다. 프롬프트도 모아 새로운 패턴이 보이면 함께 논의해 skills에 추가하므로 다음엔 스킬만 언급하면 된다. 주말 일정, 공부 계획, 팔로워 반응 요약도 맡긴다."
+        },
+        "ms": {
+          "title": "Mengosongkan fikiran kepada OpenAI Dot sebelum dan selepas kerja",
+          "summary": "Sebelum mula dan selepas habis kerja (biasanya sebelum tidur), penulis bercakap dengan OpenAI Dot untuk meluahkan idea. Esoknya ia menerangkan semula idea dan niat, menjejak projek, menjalankan agen keselamatan padanya dan terus memantau sepanjang hari. Ia juga mengumpul prompt penulis, membincangkan corak baharu lalu menambahnya ke skills supaya penulis hanya perlu menyebut skill itu. Jadual hujung minggu, pelan belajar dan ringkasan kata pengikut juga diserahkan kepadanya."
+        },
+        "vi": {
+          "title": "Trút hết suy nghĩ cho OpenAI Dot trước và sau giờ làm",
+          "summary": "Trước khi bắt đầu và sau khi xong việc (thường là trước khi ngủ), tác giả nói chuyện với OpenAI Dot để trút suy nghĩ. Hôm sau nó giải thích lại ý tưởng và ý định, theo dõi các dự án, chạy agent bảo mật cho chúng và canh chừng cả ngày. Nó còn gom các prompt của tác giả, bàn về mẫu mới rồi thêm vào skills để lần sau chỉ cần nhắc tên skill. Lịch cuối tuần, kế hoạch học và tóm tắt ý kiến người theo dõi cũng giao cho nó."
+        },
+        "fr": {
+          "title": "Vider sa tête dans OpenAI Dot avant et après le travail",
+          "summary": "Avant de commencer et après avoir fini sa journée (souvent avant de dormir), l’auteur parle à OpenAI Dot pour décharger ses idées. Le lendemain, Dot lui réexplique ses idées et son intention, suit ses projets, y lance des agents de sécurité et veille toute la journée. Il collecte aussi ses prompts, discute de chaque nouveau motif et l’ajoute à ses skills pour qu’il n’ait plus qu’à citer la skill. Plannings du week-end, plan d’études et résumé des réactions des abonnés lui sont aussi confiés."
+        },
+        "es": {
+          "title": "Vaciar la cabeza en OpenAI Dot antes y después del trabajo",
+          "summary": "Antes de empezar y al terminar el trabajo (casi siempre antes de dormir), el autor habla con OpenAI Dot para descargar sus ideas. Al día siguiente le vuelve a explicar sus ideas e intención, sigue sus proyectos, les ejecuta agentes de seguridad y vigila todo el día. También recopila sus prompts, comenta cualquier patrón nuevo y lo añade a sus skills para que solo tenga que mencionar la skill. Horarios del fin de semana, plan de estudio y un resumen de lo que dicen sus seguidores también van a Dot."
+        },
+        "de": {
+          "title": "Vor und nach der Arbeit den Kopf bei OpenAI Dot leeren",
+          "summary": "Vor Arbeitsbeginn und nach Feierabend (meist vor dem Schlafen) spricht der Autor mit OpenAI Dot und lädt seine Gedanken ab. Am nächsten Tag erklärt Dot ihm Ideen und Absicht erneut, verfolgt seine Projekte, lässt Sicherheits-Agenten darauf laufen und behält alles den ganzen Tag im Blick. Er sammelt auch seine Prompts, bespricht neue Muster und fügt sie seinen Skills hinzu, sodass er künftig nur die Skill nennen muss. Wochenendpläne, Lernplan und eine Zusammenfassung der Follower-Reaktionen übernimmt Dot ebenfalls."
+        }
+      },
+      "source_url": "https://x.com/yousefrol/status/2116638925318144223",
+      "source_name": "X",
+      "author": "yousefrol",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 55,
+      "src": "x",
+      "text": "قبل ابدا شغل واول ما اخلص شغل (غالبًا قبل النوم 🫩)\n\nادق على OpenAI Dot افرغ اللي براسي واخليه يشرح لي افكاري و \"نيتي\" مرة ثانية بكرة ويتابع مشاريعي ويشغل عليهم ايجنتز سكيورتي ويضل طول اليوم متابع… حتى البرومبتات حقتي يجمعها واي نمط جديد فيها يناقشني فيه ويضيفه للskills حقتي عشان اذا جيت اشغل ايجنتز مرة ثانية امنشن السكل بدال لا اكتب من جديد (مرات اكتب برومبتات اسطورية)\n\nوطبعًا اي شيء ثاني غير الشغل بعد عنده مثل جداول الويكند وخطتي الدراسية وحتى انتم يعطيني ملخص وش تقولون لي\n\nرتب لي حياتي، احبه مرة\nاعتقد ما اقدر ارجع للحياة اللي مابها proactive agent\nفيه عدة خيارات من كل الشركات مثل Claude Duet, Grok Bot, OpenAI Dot, Meta Muse, Gemini Spark, Hermes, OpenDots, OpenClaw, Kimi Claw, etc\nيعني هذه الهبة الجديدة، وبكل مكان",
+      "media": [
+        "https://pbs.twimg.com/media/HV_P4dlXwAAH72S.jpg"
+      ],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-yousefrol-2116638925318144223",
+      "scen": [
+        "report",
+        "security",
+        "calendar",
+        "research"
+      ]
+    },
+    {
+      "title": "7 个 Grok Bot 接力跑完一周产品发布",
+      "summary": "作者描述的发布流程：只有一个 bot 周一早上定时醒来，其余 6 个没有时钟，各自等上一个文件落地再接棒；坏点子在写代码前就以书面方式被否掉；负责花钱的 bot 找到 40 美元以下的域名后停住等作者同意。作者说周一合上电脑，到周五已有一份演示文稿、一个 PR 和一个暂留的域名，按他的估算每周约 60 次运行而非 1,176 次。提示词在回复里。",
+      "en": {
+        "title": "Seven Grok Bots run a week-long launch as a relay",
+        "summary": "The author's launch setup: one bot wakes on Monday morning and the other six have no schedule, each sleeping until the previous file lands and then passing the baton. A bad idea gets killed in writing before any code, and the money bot finds a domain under $40 and waits for a yes. The author says they closed the laptop on Monday and by Friday had a deck, a pull request and a domain on hold, with about 60 runs a week instead of 1,176 by their math. The prompt is in the replies."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "7 个 Grok Bot 接力跑完一周产品发布",
+          "summary": "作者描述的发布流程：只有一个 bot 周一早上定时醒来，其余 6 个没有时钟，各自等上一个文件落地再接棒；坏点子在写代码前就以书面方式被否掉；负责花钱的 bot 找到 40 美元以下的域名后停住等作者同意。作者说周一合上电脑，到周五已有一份演示文稿、一个 PR 和一个暂留的域名，按他的估算每周约 60 次运行而非 1,176 次。提示词在回复里。"
+        },
+        "zh-TW": {
+          "title": "7 個 Grok Bot 接力跑完一週產品發布",
+          "summary": "作者描述的發布流程：只有一個 bot 週一早上定時醒來，其餘 6 個沒有時鐘，各自等前一個檔案落地再接棒；壞點子在寫程式前就以書面方式被否決；負責花錢的 bot 找到 40 美元以下的網域後停下等作者同意。作者說週一闔上電腦，到週五已有一份簡報、一個 PR 和一個保留中的網域，依他估算每週約 60 次執行而非 1,176 次。提示詞在回覆裡。"
+        },
+        "en": {
+          "title": "Seven Grok Bots run a week-long launch as a relay",
+          "summary": "The author's launch setup: one bot wakes on Monday morning and the other six have no schedule, each sleeping until the previous file lands and then passing the baton. A bad idea gets killed in writing before any code, and the money bot finds a domain under $40 and waits for a yes. The author says they closed the laptop on Monday and by Friday had a deck, a pull request and a domain on hold, with about 60 runs a week instead of 1,176 by their math. The prompt is in the replies."
+        },
+        "ja": {
+          "title": "7 体の Grok Bot がリレーで 1 週間のローンチを回す",
+          "summary": "作者のローンチ構成では、月曜朝に起きるのは 1 体だけで、残り 6 体には時刻設定がなく、前のファイルが届くまで眠ってからバトンを渡す。悪いアイデアはコードを書く前に文書で却下され、お金担当の bot は 40 ドル未満のドメインを見つけて承認を待つ。月曜にノートPCを閉じ、金曜にはデッキ、プルリクエスト、仮押さえのドメインが揃い、本人の計算では週 1,176 回ではなく約 60 回の実行で済んだという。プロンプトは返信にある。"
+        },
+        "ko": {
+          "title": "Grok Bot 7개가 릴레이로 일주일 출시 작업을 돌리다",
+          "summary": "작성자의 출시 구성: 월요일 아침에 깨는 봇은 하나뿐이고 나머지 6개는 일정이 없어 앞 단계 파일이 도착할 때까지 잠들었다가 바통을 넘긴다. 나쁜 아이디어는 코드 전에 문서로 탈락시키고, 돈 담당 봇은 40달러 미만 도메인을 찾은 뒤 승인을 기다린다. 월요일에 노트북을 닫았는데 금요일에는 발표 자료, 풀 리퀘스트, 보류 중인 도메인이 생겼고, 본인 계산으로 주 1,176회가 아니라 약 60회 실행이었다고 한다. 프롬프트는 답글에 있다."
+        },
+        "ms": {
+          "title": "Tujuh Grok Bot menjalankan pelancaran seminggu secara berganti",
+          "summary": "Susunan pelancaran penulis: hanya satu bot bangun pagi Isnin, enam lagi tiada jadual dan tidur sehingga fail sebelumnya tiba, lalu menyerahkan baton. Idea buruk dibatalkan secara bertulis sebelum sebarang kod, dan bot wang mencari domain bawah $40 lalu menunggu persetujuan. Penulis berkata dia menutup komputer riba pada Isnin dan menjelang Jumaat ada dek, pull request dan domain yang ditahan, dengan kira-kira 60 larian seminggu dan bukan 1,176 mengikut kiraannya. Prompt ada dalam balasan."
+        },
+        "vi": {
+          "title": "Bảy Grok Bot chạy tiếp sức một tuần ra mắt sản phẩm",
+          "summary": "Cách tác giả sắp xếp: chỉ một bot thức dậy sáng thứ Hai, sáu bot còn lại không có lịch, mỗi bot ngủ cho tới khi tệp của bước trước xuất hiện rồi chuyền gậy. Ý tưởng tồi bị loại bằng văn bản trước khi viết dòng code nào, và bot lo tiền tìm tên miền dưới 40 đô rồi dừng chờ đồng ý. Tác giả nói gập laptop hôm thứ Hai, đến thứ Sáu đã có slide, một pull request và một tên miền đang giữ, theo tính toán của họ khoảng 60 lần chạy mỗi tuần thay vì 1.176. Prompt nằm trong phần trả lời."
+        },
+        "fr": {
+          "title": "Sept Grok Bots mènent un lancement d’une semaine en relais",
+          "summary": "Le dispositif de l’auteur : un seul bot se réveille le lundi matin, les six autres n’ont pas d’horaire et dorment jusqu’à l’arrivée du fichier précédent avant de passer le relais. Une mauvaise idée est écartée par écrit avant toute ligne de code, et le bot chargé de l’argent trouve un domaine à moins de 40 $ puis attend un oui. L’auteur dit avoir fermé son portable le lundi et avoir, le vendredi, un deck, une pull request et un domaine réservé, avec environ 60 exécutions par semaine au lieu de 1 176 selon son calcul. Le prompt est dans les réponses."
+        },
+        "es": {
+          "title": "Siete Grok Bots hacen un lanzamiento de una semana por relevos",
+          "summary": "El montaje del autor: solo un bot se despierta el lunes por la mañana y los otros seis no tienen horario; cada uno duerme hasta que llega el archivo anterior y entonces pasa el testigo. Una mala idea se descarta por escrito antes de escribir código, y el bot del dinero encuentra un dominio por menos de 40 $ y espera un sí. El autor dice que cerró el portátil el lunes y el viernes tenía una presentación, un pull request y un dominio reservado, con unas 60 ejecuciones a la semana en lugar de 1.176 según sus cuentas. El prompt está en las respuestas."
+        },
+        "de": {
+          "title": "Sieben Grok Bots erledigen einen einwöchigen Launch als Staffel",
+          "summary": "Der Aufbau des Autors: Nur ein Bot wacht am Montagmorgen auf, die anderen sechs haben keinen Zeitplan und schlafen, bis die Datei des Vorgängers da ist, dann geben sie den Staffelstab weiter. Eine schlechte Idee wird schriftlich verworfen, bevor Code entsteht, und der Geld-Bot findet eine Domain unter 40 $ und wartet auf ein Ja. Der Autor sagt, er habe am Montag den Laptop zugeklappt und am Freitag ein Deck, einen Pull Request und eine reservierte Domain gehabt, nach seiner Rechnung mit etwa 60 Läufen pro Woche statt 1.176. Der Prompt steht in den Antworten."
+        }
+      },
+      "source_url": "https://x.com/gippp69/status/2116500774461014156",
+      "source_name": "X",
+      "author": "gippp69",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 41,
+      "src": "x",
+      "text": "Elon Musk Grok Bot just built the most TERRIFYING launch machine on the internet...\n\n[I closed my laptop on Monday. by Friday it had a deck, a pull request and a domain on hold]\n\n/1 one bot wakes Monday morning. the other 6 have no clock at all\n\n/2 each bot sleeps until the file before it lands, then passes the baton\n\n/3 a bad idea gets killed in writing before a single line of code\n\n/4 the money bot finds a domain under $40 and freezes until I say yes\n\n/5 about 60 runs a week instead of 1,176, by my math\n\nsteal this prompt in the replies ↓",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116500737819623424/img/czPvIuKw-y3hmplh.jpg"
+      ],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-gippp69-2116500774461014156",
+      "scen": [
+        "prs",
+        "calendar",
+        "ship"
+      ]
+    },
+    {
+      "title": "免费 Grok Bot 模板 Mr. Shorts：短视频剪辑师",
+      "summary": "作者把自己常用的短视频剪辑 bot 做成免费模板放上 Grok Bot Marketplace。它先问几个设置问题以匹配你的品牌，然后剪掉空白、收紧节奏、按你的风格加字幕，提到名字和 logo 时上屏，用真实画面做缩略图，并写好 YouTube、TikTok、Reels 和 X 的标题、文案与标签。你录制，它剪辑，你批准，未经同意不会发布。",
+      "en": {
+        "title": "Mr. Shorts, a free Grok Bot template for editing short videos",
+        "summary": "The author released the bot they use for every Short as a free template on the Grok Bot Marketplace. It asks a few setup questions to match your brand, cuts dead air and tightens pacing, captions in your style, puts names and logos on screen as you say them, builds the thumbnail from a real frame, and writes titles, captions and hashtags for YouTube, TikTok, Reels and X. You record, it edits, you approve; nothing goes live without your OK."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "免费 Grok Bot 模板 Mr. Shorts：短视频剪辑师",
+          "summary": "作者把自己常用的短视频剪辑 bot 做成免费模板放上 Grok Bot Marketplace。它先问几个设置问题以匹配你的品牌，然后剪掉空白、收紧节奏、按你的风格加字幕，提到名字和 logo 时上屏，用真实画面做缩略图，并写好 YouTube、TikTok、Reels 和 X 的标题、文案与标签。你录制，它剪辑，你批准，未经同意不会发布。"
+        },
+        "zh-TW": {
+          "title": "免費 Grok Bot 範本 Mr. Shorts：短影音剪輯師",
+          "summary": "作者把自己常用的短影音剪輯 bot 做成免費範本放上 Grok Bot Marketplace。它先問幾個設定問題以配合你的品牌，接著剪掉空白、收緊節奏、依你的風格上字幕，提到名字與 logo 時上螢幕，用真實畫面做縮圖，並寫好 YouTube、TikTok、Reels 和 X 的標題、文案與標籤。你錄製，它剪輯，你批准，沒有同意不會發布。"
+        },
+        "en": {
+          "title": "Mr. Shorts, a free Grok Bot template for editing short videos",
+          "summary": "The author released the bot they use for every Short as a free template on the Grok Bot Marketplace. It asks a few setup questions to match your brand, cuts dead air and tightens pacing, captions in your style, puts names and logos on screen as you say them, builds the thumbnail from a real frame, and writes titles, captions and hashtags for YouTube, TikTok, Reels and X. You record, it edits, you approve; nothing goes live without your OK."
+        },
+        "ja": {
+          "title": "無料の Grok Bot テンプレート Mr. Shorts：ショート動画編集",
+          "summary": "作者は毎回のショート動画で使っている bot を、Grok Bot Marketplace で無料テンプレートとして公開した。最初にいくつか質問してブランドに合わせ、無音部分を切って間を詰め、好みのスタイルで字幕を入れ、名前やロゴを口にした瞬間に画面へ出し、実際のフレームからサムネイルを作り、YouTube、TikTok、Reels、X 向けのタイトル、説明文、ハッシュタグを書く。録るのは自分、編集は bot、承認も自分で、許可なしに公開されることはない。"
+        },
+        "ko": {
+          "title": "무료 Grok Bot 템플릿 Mr. Shorts: 숏폼 영상 편집",
+          "summary": "작성자는 모든 쇼츠에 쓰던 봇을 Grok Bot Marketplace에 무료 템플릿으로 공개했다. 몇 가지 설정 질문으로 브랜드에 맞춘 뒤, 공백을 자르고 템포를 조이며, 원하는 스타일로 자막을 넣고, 이름과 로고를 말하는 순간 화면에 띄우고, 실제 프레임으로 썸네일을 만들며, YouTube·TikTok·Reels·X용 제목, 설명, 해시태그를 쓴다. 녹화는 내가, 편집은 봇이, 승인은 내가 하며 허락 없이는 게시되지 않는다."
+        },
+        "ms": {
+          "title": "Mr. Shorts, templat Grok Bot percuma untuk menyunting video pendek",
+          "summary": "Penulis menerbitkan bot yang digunakannya untuk setiap Short sebagai templat percuma di Grok Bot Marketplace. Ia bertanya beberapa soalan persediaan untuk menyesuaikan jenama anda, memotong senyap dan mengetatkan rentak, menambah kapsyen mengikut gaya anda, memaparkan nama dan logo sebaik disebut, membina thumbnail daripada bingkai sebenar, serta menulis tajuk, kapsyen dan hashtag untuk YouTube, TikTok, Reels dan X. Anda rakam, ia sunting, anda luluskan; tiada yang disiarkan tanpa persetujuan."
+        },
+        "vi": {
+          "title": "Mr. Shorts, mẫu Grok Bot miễn phí để dựng video ngắn",
+          "summary": "Tác giả phát hành bot mà họ dùng cho mọi video Short thành mẫu miễn phí trên Grok Bot Marketplace. Bot hỏi vài câu thiết lập để khớp thương hiệu của bạn, cắt khoảng lặng và siết nhịp, thêm phụ đề theo phong cách của bạn, hiện tên và logo ngay khi bạn nhắc tới, tạo ảnh bìa từ khung hình thật, và viết tiêu đề, mô tả, hashtag cho YouTube, TikTok, Reels và X. Bạn quay, bot dựng, bạn duyệt; không có gì được đăng khi chưa có sự đồng ý."
+        },
+        "fr": {
+          "title": "Mr. Shorts, un modèle Grok Bot gratuit pour monter des vidéos courtes",
+          "summary": "L’auteur a publié le bot qu’il utilise pour chaque Short comme modèle gratuit sur la Grok Bot Marketplace. Il pose quelques questions pour s’adapter à votre marque, coupe les blancs et resserre le rythme, sous-titre dans votre style, affiche noms et logos dès qu’ils sont prononcés, crée la miniature à partir d’une vraie image et rédige titres, légendes et hashtags pour YouTube, TikTok, Reels et X. Vous enregistrez, il monte, vous validez ; rien n’est publié sans votre accord."
+        },
+        "es": {
+          "title": "Mr. Shorts, una plantilla gratuita de Grok Bot para editar vídeos cortos",
+          "summary": "El autor publicó el bot que usa en cada Short como plantilla gratuita en el Grok Bot Marketplace. Hace unas preguntas iniciales para ajustarse a tu marca, corta silencios y ajusta el ritmo, subtitula con tu estilo, muestra nombres y logos en cuanto los dices, crea la miniatura con un fotograma real y escribe títulos, descripciones y hashtags para YouTube, TikTok, Reels y X. Tú grabas, él edita y tú apruebas; nada se publica sin tu visto bueno."
+        },
+        "de": {
+          "title": "Mr. Shorts, eine kostenlose Grok-Bot-Vorlage für Kurzvideo-Schnitt",
+          "summary": "Der Autor hat den Bot, den er für jeden Short nutzt, als kostenlose Vorlage im Grok Bot Marketplace veröffentlicht. Er stellt ein paar Einrichtungsfragen, um sich an deine Marke anzupassen, schneidet Pausen heraus und strafft das Tempo, untertitelt in deinem Stil, blendet Namen und Logos ein, sobald du sie nennst, baut das Thumbnail aus einem echten Frame und schreibt Titel, Beschreibungen und Hashtags für YouTube, TikTok, Reels und X. Du nimmst auf, er schneidet, du gibst frei; ohne dein OK geht nichts online."
+        }
+      },
+      "source_url": "https://x.com/smsonx/status/2116502131138052359",
+      "source_name": "X",
+      "author": "smsonx",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 6,
+      "src": "x",
+      "text": "I'm giving you my AI short form editor for free. Here's the alpha on editing 🎬\n\nFirst off, bookmark this so you can come back to it.\n\nI was gonna drop all my bots at once. Y'all asked, so here's the first one early. Let him introduce himself.\n\nMeet Mr. Shorts, a free Grok Bot template that works as your AI short form video editor. He's been my go-to guy for every Short I post.\n\nTop half of this video is my rough cut. Bottom half is his edit.\n\nWhy I built him\n\nShort form is where people find you now. But editing every clip yourself eats hours, so most of us post less than we should. I'd rather talk and let him ship.\n\nWhat he does\n\n+ Asks you a few setup questions so he edits in your brand, not mine\n+ Cuts dead air and tightens the pacing\n+ Captions in your style\n+ Puts names and logos on screen the second you say them, plus the posts and cards you're talking about\n+ Builds the thumbnail from a real frame\n+ Writes your title, caption and hashtags for YouTube, TikTok, Reels and X\n\nYou record. He edits. You approve. Nothing goes live without your OK.\n\nEach one teach one. Mr. Shorts is free on the Grok Bot Marketplace, link in the first reply 👇\n\nWhat's the first clip you'd hand him?\n\nMore of my bots are coming soon 🫡",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116502104705519616/img/37UKjOsQy40gRBR-.jpg"
+      ],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-smsonx-2116502131138052359",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
+      "title": "AbleLatch：面向残障与有限输入用户的免费 Grok Bot 模板",
+      "summary": "作者发布了免费、无付费档的 Grok Bot 模板 AbleLatch。每个界面都是简短数字菜单，8 永远是紧急，0 永远是停止；支持眼动、开关、语音、吹吸、AAC 应用、脑机接口打字或由照护者代答，任何语言都可用。可处理用药提醒、叫车、买菜、家居和退伍军人事务帮助，任何发送或购买都要先得到确认。",
+      "en": {
+        "title": "AbleLatch, a free Grok Bot template for people with disabilities and limited input",
+        "summary": "The author released AbleLatch, a free Grok Bot template with no paid tiers. Every screen is a short number menu where 8 is always Emergency and 0 is always Stop. It works with eye-gaze, switch, voice, sip-and-puff, AAC apps, BCI typing or a caregiver answering, in any language. It covers medication reminders, rides, groceries, home and VA help, and nothing is sent or bought without a yes."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "AbleLatch：面向残障与有限输入用户的免费 Grok Bot 模板",
+          "summary": "作者发布了免费、无付费档的 Grok Bot 模板 AbleLatch。每个界面都是简短数字菜单，8 永远是紧急，0 永远是停止；支持眼动、开关、语音、吹吸、AAC 应用、脑机接口打字或由照护者代答，任何语言都可用。可处理用药提醒、叫车、买菜、家居和退伍军人事务帮助，任何发送或购买都要先得到确认。"
+        },
+        "zh-TW": {
+          "title": "AbleLatch：為身障與輸入受限者打造的免費 Grok Bot 範本",
+          "summary": "作者發布了免費、沒有付費方案的 Grok Bot 範本 AbleLatch。每個畫面都是簡短數字選單，8 永遠是緊急，0 永遠是停止；支援眼動、開關、語音、吹吸、AAC 應用、腦機介面打字或由照顧者代答，任何語言皆可。能處理用藥提醒、叫車、買菜、居家與退伍軍人事務協助，任何傳送或購買都要先得到確認。"
+        },
+        "en": {
+          "title": "AbleLatch, a free Grok Bot template for people with disabilities and limited input",
+          "summary": "The author released AbleLatch, a free Grok Bot template with no paid tiers. Every screen is a short number menu where 8 is always Emergency and 0 is always Stop. It works with eye-gaze, switch, voice, sip-and-puff, AAC apps, BCI typing or a caregiver answering, in any language. It covers medication reminders, rides, groceries, home and VA help, and nothing is sent or bought without a yes."
+        },
+        "ja": {
+          "title": "AbleLatch：障害や入力制限のある人向けの無料 Grok Bot テンプレート",
+          "summary": "作者は有料プランのない無料 Grok Bot テンプレート AbleLatch を公開した。どの画面も短い番号メニューで、8 は常に緊急、0 は常に停止。視線入力、スイッチ、音声、呼気スイッチ、AAC アプリ、BCI 入力、介助者による回答に対応し、言語も問わない。服薬リマインダー、送迎、食料品、家まわり、退役軍人関連の手続きを扱い、送信や購入は必ず了承を得てから行う。"
+        },
+        "ko": {
+          "title": "AbleLatch: 장애와 입력 제약이 있는 사람을 위한 무료 Grok Bot 템플릿",
+          "summary": "작성자는 유료 등급이 없는 무료 Grok Bot 템플릿 AbleLatch를 공개했다. 모든 화면은 짧은 숫자 메뉴이며 8은 항상 긴급, 0은 항상 중지다. 시선 추적, 스위치, 음성, 불기·빨기 장치, AAC 앱, BCI 입력, 보호자 대리 응답을 지원하고 어떤 언어로도 쓸 수 있다. 복약 알림, 이동 수단, 장보기, 집안일, 보훈 관련 도움을 다루며 승인 없이는 아무것도 보내거나 사지 않는다."
+        },
+        "ms": {
+          "title": "AbleLatch, templat Grok Bot percuma untuk OKU dan pengguna input terhad",
+          "summary": "Penulis menerbitkan AbleLatch, templat Grok Bot percuma tanpa pelan berbayar. Setiap skrin ialah menu nombor ringkas; 8 sentiasa Kecemasan dan 0 sentiasa Henti. Ia berfungsi dengan pandangan mata, suis, suara, sedut-hembus, aplikasi AAC, menaip BCI atau penjaga yang menjawab, dalam apa-apa bahasa. Ia meliputi peringatan ubat, tumpangan, barangan runcit, urusan rumah dan bantuan VA, dan tiada yang dihantar atau dibeli tanpa persetujuan."
+        },
+        "vi": {
+          "title": "AbleLatch, mẫu Grok Bot miễn phí cho người khuyết tật và hạn chế nhập liệu",
+          "summary": "Tác giả phát hành AbleLatch, mẫu Grok Bot miễn phí, không có gói trả phí. Mỗi màn hình là một menu số ngắn, 8 luôn là Khẩn cấp và 0 luôn là Dừng. Nó hoạt động với điều khiển bằng mắt, công tắc, giọng nói, thiết bị thổi hút, ứng dụng AAC, gõ bằng BCI hoặc người chăm sóc trả lời, bằng mọi ngôn ngữ. Nó lo nhắc uống thuốc, gọi xe, mua thực phẩm, việc nhà và hỗ trợ cựu chiến binh, và không gửi hay mua gì nếu chưa được đồng ý."
+        },
+        "fr": {
+          "title": "AbleLatch, un modèle Grok Bot gratuit pour les personnes handicapées ou à saisie limitée",
+          "summary": "L’auteur a publié AbleLatch, un modèle Grok Bot gratuit sans formule payante. Chaque écran est un court menu numéroté où 8 signifie toujours Urgence et 0 toujours Stop. Il fonctionne avec le suivi oculaire, un contacteur, la voix, le souffle, les applis CAA, la saisie par interface cerveau-machine ou un aidant qui répond, dans n’importe quelle langue. Il gère rappels de médicaments, trajets, courses, maison et démarches d’anciens combattants, et rien n’est envoyé ni acheté sans un oui."
+        },
+        "es": {
+          "title": "AbleLatch, una plantilla gratuita de Grok Bot para personas con discapacidad o entrada limitada",
+          "summary": "El autor publicó AbleLatch, una plantilla gratuita de Grok Bot sin planes de pago. Cada pantalla es un menú numérico corto en el que el 8 siempre es Emergencia y el 0 siempre es Parar. Funciona con mirada, pulsador, voz, soplo y aspiración, apps de CAA, escritura por BCI o un cuidador que responde, en cualquier idioma. Cubre recordatorios de medicación, transporte, compras, hogar y ayuda con trámites de veteranos, y no envía ni compra nada sin un sí."
+        },
+        "de": {
+          "title": "AbleLatch, eine kostenlose Grok-Bot-Vorlage für Menschen mit Behinderung und eingeschränkter Eingabe",
+          "summary": "Der Autor hat AbleLatch veröffentlicht, eine kostenlose Grok-Bot-Vorlage ohne Bezahlstufen. Jeder Bildschirm ist ein kurzes Zahlenmenü, 8 ist immer Notfall und 0 immer Stopp. Sie funktioniert mit Blicksteuerung, Taster, Sprache, Saug-Blas-Steuerung, UK-Apps, BCI-Eingabe oder einer antwortenden Betreuungsperson, in jeder Sprache. Abgedeckt sind Medikamentenerinnerungen, Fahrten, Einkäufe, Haushalt und Hilfe bei Veteranenangelegenheiten, und nichts wird ohne ein Ja gesendet oder gekauft."
+        }
+      },
+      "source_url": "https://x.com/CaliLumberJack/status/2116613678242164928",
+      "source_name": "X",
+      "author": "CaliLumberJack",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 4,
+      "src": "x",
+      "text": "The first Grok Bot template built for people with disabilities and limited input.\n\nAbleLatch is free. No paid tiers.\n\nEvery screen is a short number menu. 8 is always Emergency. 0 is always Stop.\n\nWorks with eye-gaze, switch, voice, sip-and-puff, AAC apps, BCI typing, or a caregiver answering. Any language.\n\nMed reminders, rides, groceries, home, VA help. Nothing sends or buys without a yes.\n\nhttps://t.co/kwbYZXL5Iu",
+      "media": [],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-calilumberjack-2116613678242164928",
+      "scen": [
+        "prs",
+        "food",
+        "shop",
+        "ship"
+      ]
+    },
+    {
+      "title": "用 Dot 打包搬运整套 AI 编程环境到 Windows",
+      "summary": "作者在做一个小项目：把 Mac 上 Codex 的整套环境迁移到 Windows Surface 上的 Copilot 应用和 CLI，包括 75 个以上的 skills、规则 md 文件、脚本，以及 Python、Rust、Go、Node/JS 的工具链。负责搬运的是作者的 Dot，用的方式是一个 zip 文件夹。",
+      "en": {
+        "title": "Using a Dot to move a whole AI coding setup to Windows",
+        "summary": "The author's quick project: migrating their Codex setup on a Mac to the Copilot app and CLI on a Windows Surface, including 75+ skills, rule md files, scripts and tooling for Python, Rust, Go and Node/JS. The transport system is their Dot, carrying it over as a zip folder."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用 Dot 打包搬运整套 AI 编程环境到 Windows",
+          "summary": "作者在做一个小项目：把 Mac 上 Codex 的整套环境迁移到 Windows Surface 上的 Copilot 应用和 CLI，包括 75 个以上的 skills、规则 md 文件、脚本，以及 Python、Rust、Go、Node/JS 的工具链。负责搬运的是作者的 Dot，用的方式是一个 zip 文件夹。"
+        },
+        "zh-TW": {
+          "title": "用 Dot 打包搬移整套 AI 開發環境到 Windows",
+          "summary": "作者在做一個小專案：把 Mac 上 Codex 的整套環境搬到 Windows Surface 上的 Copilot 應用與 CLI，包括 75 個以上的 skills、規則 md 檔、腳本，以及 Python、Rust、Go、Node/JS 的工具鏈。負責搬運的是作者的 Dot，方式是一個 zip 資料夾。"
+        },
+        "en": {
+          "title": "Using a Dot to move a whole AI coding setup to Windows",
+          "summary": "The author's quick project: migrating their Codex setup on a Mac to the Copilot app and CLI on a Windows Surface, including 75+ skills, rule md files, scripts and tooling for Python, Rust, Go and Node/JS. The transport system is their Dot, carrying it over as a zip folder."
+        },
+        "ja": {
+          "title": "Dot に AI 開発環境一式を Windows へ運ばせる",
+          "summary": "作者の小さなプロジェクトは、Mac 上の Codex 環境を Windows の Surface 上の Copilot アプリと CLI へ移すこと。75 以上の skills、ルールの md ファイル、スクリプト、Python、Rust、Go、Node/JS のツール類が対象だ。運び役は自分の Dot で、方法は zip フォルダ。"
+        },
+        "ko": {
+          "title": "Dot으로 AI 코딩 환경 통째로 Windows에 옮기기",
+          "summary": "작성자의 작은 프로젝트: Mac의 Codex 환경을 Windows Surface의 Copilot 앱과 CLI로 옮기는 것이다. 75개 이상의 skills, 규칙 md 파일, 스크립트, Python·Rust·Go·Node/JS 도구가 포함된다. 운반은 작성자의 Dot이 zip 폴더로 맡았다."
+        },
+        "ms": {
+          "title": "Menggunakan Dot untuk memindahkan seluruh persediaan pengekodan AI ke Windows",
+          "summary": "Projek kecil penulis: memindahkan persediaan Codex pada Mac ke aplikasi dan CLI Copilot pada Windows Surface, termasuk lebih 75 skills, fail md peraturan, skrip serta alatan untuk Python, Rust, Go dan Node/JS. Sistem pengangkutannya ialah Dot penulis, membawanya sebagai folder zip."
+        },
+        "vi": {
+          "title": "Dùng Dot chuyển cả bộ môi trường lập trình AI sang Windows",
+          "summary": "Dự án nhỏ của tác giả: chuyển bộ cài Codex trên Mac sang ứng dụng và CLI Copilot trên Windows Surface, gồm hơn 75 skills, các tệp md quy tắc, script và công cụ cho Python, Rust, Go, Node/JS. Phương tiện vận chuyển là Dot của tác giả, mang qua dưới dạng một thư mục zip."
+        },
+        "fr": {
+          "title": "Utiliser un Dot pour transférer tout un environnement de code IA vers Windows",
+          "summary": "Petit projet : migrer son environnement Codex sur Mac vers l’appli et la CLI Copilot sur une Surface Windows, avec plus de 75 skills, des fichiers md de règles, des scripts et l’outillage Python, Rust, Go et Node/JS. Le moyen de transport : son Dot, via un dossier zip."
+        },
+        "es": {
+          "title": "Usar un Dot para llevar todo un entorno de programación con IA a Windows",
+          "summary": "Un pequeño proyecto: migrar su entorno de Codex en Mac a la app y la CLI de Copilot en una Surface con Windows, con más de 75 skills, archivos md de reglas, scripts y herramientas para Python, Rust, Go y Node/JS. El sistema de transporte es su Dot, mediante una carpeta zip."
+        },
+        "de": {
+          "title": "Mit einem Dot ein komplettes KI-Coding-Setup auf Windows umziehen",
+          "summary": "Ein kleines Projekt: das eigene Codex-Setup vom Mac in die Copilot-App und CLI auf einem Windows-Surface umziehen, inklusive über 75 Skills, Regel-md-Dateien, Skripten und Tooling für Python, Rust, Go und Node/JS. Das Transportmittel ist der eigene Dot, per Zip-Ordner."
+        }
+      },
+      "source_url": "https://x.com/nnennahacks/status/2116643348245344330",
+      "source_name": "X",
+      "author": "nnennahacks",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 4,
+      "src": "x",
+      "text": "quick project: codex -&gt; copilot app + cli in windows harness migration.\n\nall 75+ skills, rule md files, scripts, &amp; programming languages tooling for python, rust, go, node/js i have from my mac machine porting over to my surface ultra.\n\ntransport system: my dot via zip folder😂 https://t.co/ytd5ZinSB0",
+      "media": [
+        "https://pbs.twimg.com/media/HV_RZsNbkAE50X3.jpg",
+        "https://pbs.twimg.com/media/HV_RZsHaAAAOtm9.jpg",
+        "https://pbs.twimg.com/media/HV_TznwaYAAG05r.jpg"
+      ],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-nnennahacks-2116643348245344330",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
+      "title": "用 12 条 Grok Bot 提示词做 LinkedIn 内容系统",
+      "summary": "帖子介绍 @paolo_scales 把 LinkedIn 写作缺失的调研、证据和审核环节做成 12 条 Grok Bot 提示词：载入买家、定位、已批准的案例和真实文风；从销售通话、丢单记录和 X 中挖值得回答的问题；把通话记录变成 4 周日历和观点明确的草稿；用 100 分编辑量表打分并核查每个说法；把帖子与停滞的交易和跟踪结果挂钩；再把你的修改反馈进文风指南。Grok Bot 负责调研、草稿和报告，观点、证据和发布决定由你掌握。",
+      "en": {
+        "title": "A 12-prompt Grok Bot system for LinkedIn posts",
+        "summary": "The post describes how @paolo_scales turned the research, evidence and review that LinkedIn posts usually skip into 12 Grok Bot prompts: load your buyers, positioning, approved proof and real voice; mine sales calls, closed-lost notes and X for questions; turn transcripts into a 4-week calendar and drafts with one argument; score drafts against a 100-point rubric and check every claim; connect posts to stalled deals and tracked results; and feed your edits back into the voice guide. Grok Bot prepares research, drafts and reports, while you keep the opinion, evidence and every publish decision."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用 12 条 Grok Bot 提示词做 LinkedIn 内容系统",
+          "summary": "帖子介绍 @paolo_scales 把 LinkedIn 写作缺失的调研、证据和审核环节做成 12 条 Grok Bot 提示词：载入买家、定位、已批准的案例和真实文风；从销售通话、丢单记录和 X 中挖值得回答的问题；把通话记录变成 4 周日历和观点明确的草稿；用 100 分编辑量表打分并核查每个说法；把帖子与停滞的交易和跟踪结果挂钩；再把你的修改反馈进文风指南。Grok Bot 负责调研、草稿和报告，观点、证据和发布决定由你掌握。"
+        },
+        "zh-TW": {
+          "title": "用 12 條 Grok Bot 提示詞打造 LinkedIn 內容系統",
+          "summary": "貼文介紹 @paolo_scales 把 LinkedIn 寫作缺少的研究、證據與審稿環節做成 12 條 Grok Bot 提示詞：載入買家、定位、已核准的案例與真實文風；從業務通話、流失紀錄與 X 挖出值得回答的問題；把逐字稿變成 4 週行事曆與論點明確的草稿；用 100 分編輯量表評分並查核每項說法；把貼文連到停滯的交易與追蹤成果；再把你的修改回饋進文風指南。Grok Bot 負責研究、草稿與報告，觀點、證據和發布決定由你掌握。"
+        },
+        "en": {
+          "title": "A 12-prompt Grok Bot system for LinkedIn posts",
+          "summary": "The post describes how @paolo_scales turned the research, evidence and review that LinkedIn posts usually skip into 12 Grok Bot prompts: load your buyers, positioning, approved proof and real voice; mine sales calls, closed-lost notes and X for questions; turn transcripts into a 4-week calendar and drafts with one argument; score drafts against a 100-point rubric and check every claim; connect posts to stalled deals and tracked results; and feed your edits back into the voice guide. Grok Bot prepares research, drafts and reports, while you keep the opinion, evidence and every publish decision."
+        },
+        "ja": {
+          "title": "LinkedIn 投稿のための 12 個の Grok Bot プロンプト",
+          "summary": "投稿では、LinkedIn 投稿で抜けがちな調査、根拠、レビューを @paolo_scales が 12 個の Grok Bot プロンプトにした方法を紹介している。買い手、ポジショニング、承認済みの実績、本来の文体を読み込ませ、商談録音、失注メモ、X から答える価値のある問いを掘り、書き起こしを 4 週間のカレンダーと主張が一つの下書きにし、100 点の編集基準で採点して主張を検証し、投稿を停滞中の商談や追跡結果に結びつけ、修正を文体ガイドに戻す。調査、下書き、レポートは Grok Bot、意見と根拠と公開判断は自分が持つ。"
+        },
+        "ko": {
+          "title": "LinkedIn 게시물을 위한 Grok Bot 프롬프트 12개",
+          "summary": "게시물은 @paolo_scales가 LinkedIn 글에서 흔히 빠지는 조사, 근거, 검토를 Grok Bot 프롬프트 12개로 만든 방법을 소개한다. 구매자, 포지셔닝, 승인된 사례, 실제 문체를 입력하고, 영업 통화·실주 메모·X에서 답할 만한 질문을 찾고, 녹취록을 4주 일정과 하나의 주장이 담긴 초안으로 바꾸고, 100점 편집 기준으로 채점하며 모든 주장을 확인하고, 게시물을 정체된 거래와 추적 성과에 연결하고, 수정 사항을 문체 가이드에 반영한다. Grok Bot은 조사·초안·보고서를, 사용자는 의견·근거·게시 결정을 맡는다."
+        },
+        "ms": {
+          "title": "Sistem 12 prompt Grok Bot untuk hantaran LinkedIn",
+          "summary": "Hantaran ini menerangkan bagaimana @paolo_scales menukar penyelidikan, bukti dan semakan yang biasanya dilangkau dalam hantaran LinkedIn kepada 12 prompt Grok Bot: muatkan pembeli, kedudukan, bukti yang diluluskan dan gaya penulisan sebenar; gali panggilan jualan, nota urus niaga gagal dan X untuk soalan; tukar transkrip kepada kalendar 4 minggu dan draf dengan satu hujah; nilai draf dengan rubrik 100 mata dan semak setiap dakwaan; kaitkan hantaran dengan urus niaga tergendala dan hasil yang dijejak; dan masukkan suntingan anda semula ke panduan gaya. Grok Bot menyediakan kajian, draf dan laporan; anda pegang pendapat, bukti dan keputusan menerbit."
+        },
+        "vi": {
+          "title": "Hệ thống 12 prompt Grok Bot cho bài đăng LinkedIn",
+          "summary": "Bài đăng giới thiệu cách @paolo_scales biến phần nghiên cứu, bằng chứng và duyệt bài mà bài LinkedIn thường bỏ qua thành 12 prompt Grok Bot: nạp người mua, định vị, bằng chứng đã duyệt và giọng văn thật; khai thác cuộc gọi bán hàng, ghi chú thương vụ thất bại và X để tìm câu hỏi; biến bản ghi thành lịch 4 tuần và bản nháp có một luận điểm; chấm bản nháp theo thang 100 điểm và kiểm tra mọi khẳng định; gắn bài đăng với thương vụ đang chững và kết quả theo dõi; rồi đưa các chỉnh sửa của bạn trở lại hướng dẫn giọng văn. Grok Bot lo nghiên cứu, nháp và báo cáo; bạn giữ quan điểm, bằng chứng và mọi quyết định đăng."
+        },
+        "fr": {
+          "title": "Un système de 12 prompts Grok Bot pour les posts LinkedIn",
+          "summary": "Le post explique comment @paolo_scales a transformé la recherche, les preuves et la relecture que les posts LinkedIn sautent souvent en 12 prompts Grok Bot : charger ses acheteurs, son positionnement, ses preuves validées et sa vraie voix ; fouiller appels commerciaux, notes d’affaires perdues et X pour trouver des questions ; transformer les transcriptions en calendrier de 4 semaines et en brouillons à argument unique ; noter les brouillons sur une grille de 100 points et vérifier chaque affirmation ; relier les posts aux affaires bloquées et aux résultats suivis ; réinjecter vos corrections dans le guide de style. Grok Bot prépare recherches, brouillons et rapports ; vous gardez l’opinion, les preuves et chaque décision de publication."
+        },
+        "es": {
+          "title": "Un sistema de 12 prompts de Grok Bot para publicaciones en LinkedIn",
+          "summary": "La publicación explica cómo @paolo_scales convirtió la investigación, las pruebas y la revisión que suelen faltar en LinkedIn en 12 prompts de Grok Bot: cargar compradores, posicionamiento, pruebas aprobadas y tu voz real; extraer preguntas de llamadas de ventas, notas de oportunidades perdidas y X; convertir transcripciones en un calendario de 4 semanas y borradores con un solo argumento; puntuar borradores con una rúbrica de 100 puntos y verificar cada afirmación; conectar publicaciones con tratos estancados y resultados medidos; y devolver tus ediciones a la guía de voz. Grok Bot prepara investigación, borradores e informes; tú conservas la opinión, las pruebas y cada decisión de publicar."
+        },
+        "de": {
+          "title": "Ein System aus 12 Grok-Bot-Prompts für LinkedIn-Beiträge",
+          "summary": "Der Beitrag beschreibt, wie @paolo_scales Recherche, Belege und Prüfung, die LinkedIn-Posts oft auslassen, in 12 Grok-Bot-Prompts verwandelt hat: Käufer, Positionierung, freigegebene Belege und die echte Schreibstimme laden; Verkaufsgespräche, Notizen zu verlorenen Deals und X nach Fragen durchsuchen; Transkripte in einen 4-Wochen-Kalender und Entwürfe mit einem klaren Argument verwandeln; Entwürfe mit einem 100-Punkte-Raster bewerten und jede Aussage prüfen; Posts mit stockenden Deals und gemessenen Ergebnissen verknüpfen; Korrekturen zurück in den Stilleitfaden geben. Grok Bot bereitet Recherche, Entwürfe und Berichte vor; Meinung, Belege und jede Veröffentlichung bleiben bei dir."
+        }
+      },
+      "source_url": "https://x.com/HarryTandy/status/2116641608841982404",
+      "source_name": "X",
+      "author": "HarryTandy",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-10-31",
+      "likes": 3,
+      "src": "x",
+      "text": "give AI a topic and it skips the buyer research, evidence and review that make a LinkedIn post worth reading\n\n@paolo_scales turned that missing work into 12 Grok Bot prompts:\n\n→ load your buyers, positioning, approved proof and real writing voice\n→ mine sales calls, closed-lost notes and X for questions worth answering\n→ turn transcripts into a 4-week calendar and drafts with one clear argument\n→ score each draft against a 100-point editorial rubric and check every claim\n→ connect posts to stalled deals, qualified conversations and tracked results\n→ feed your edits back into the voice guide for the next month\n\nGrok Bot prepares the research, drafts and reports\n\nyou keep the opinion, the evidence and every publish or send decision\n\nsave the full 12-prompt LinkedIn system from his guide below ↓",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116641360564428800/img/HfTtO3cMaIxQaQWV.jpg"
+      ],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-harrytandy-2116641608841982404",
+      "scen": [
+        "report",
+        "prs",
+        "social",
+        "calendar",
+        "research",
+        "finance",
+        "ship"
+      ]
+    },
+    {
+      "title": "把 Grok Bot 搭成 14 个部门的“公司”",
+      "summary": "作者说照着一篇文章，用两个晚上把 Grok Bot 搭成层级结构：Grok Bot 当总管，14 个主管 bot 各管一个部门，下面约 200 个 agent 干活，成果放进 /workspace/drafts 等作者批准。步骤：录 10 分钟语音备忘让 Grok Bot 生成 14 张岗位卡；在 auto-review 写 5 条规则代替逐条审批；从 1 个 bot 起步、每天加 1 个，避免两个 bot 抢同一份工作。作者自述第一周收件箱处理了 2,431 封中的 2,393 封、QA 跑了 126 个测试 0 失败，月费约 202 美元。涉及钱或签字的事都要等作者同意。",
+      "en": {
+        "title": "Building a 14-department org out of Grok Bot",
+        "summary": "Following an article, the author spent two evenings building a hierarchy: Grok Bot as the boss, 14 lead bots running departments and about 200 agents doing the work, with output landing in /workspace/drafts for approval. Steps: a 10-minute voice memo that Grok Bot turned into 14 job cards, 5 auto-review rules instead of approvals, and starting with 1 bot and adding 1 a day so two bots never fight over one job. They report that in week one the inbox handled 2,393 of 2,431 emails and QA ran 126 tests with 0 fails, for about $202 a month. Anything involving money or a signature waits for their yes."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "把 Grok Bot 搭成 14 个部门的“公司”",
+          "summary": "作者说照着一篇文章，用两个晚上把 Grok Bot 搭成层级结构：Grok Bot 当总管，14 个主管 bot 各管一个部门，下面约 200 个 agent 干活，成果放进 /workspace/drafts 等作者批准。步骤：录 10 分钟语音备忘让 Grok Bot 生成 14 张岗位卡；在 auto-review 写 5 条规则代替逐条审批；从 1 个 bot 起步、每天加 1 个，避免两个 bot 抢同一份工作。作者自述第一周收件箱处理了 2,431 封中的 2,393 封、QA 跑了 126 个测试 0 失败，月费约 202 美元。涉及钱或签字的事都要等作者同意。"
+        },
+        "zh-TW": {
+          "title": "把 Grok Bot 搭成 14 個部門的「公司」",
+          "summary": "作者說照著一篇文章，用兩個晚上把 Grok Bot 搭成層級架構：Grok Bot 當總管，14 個主管 bot 各管一個部門，底下約 200 個 agent 做事，成果放進 /workspace/drafts 等作者批准。步驟：錄 10 分鐘語音備忘讓 Grok Bot 產出 14 張職務卡；在 auto-review 寫 5 條規則取代逐項審批；從 1 個 bot 開始、每天加 1 個，避免兩個 bot 搶同一份工作。作者自述第一週收件匣處理了 2,431 封中的 2,393 封、QA 跑了 126 個測試 0 失敗，月費約 202 美元。牽涉金錢或簽名的事都要等作者同意。"
+        },
+        "en": {
+          "title": "Building a 14-department org out of Grok Bot",
+          "summary": "Following an article, the author spent two evenings building a hierarchy: Grok Bot as the boss, 14 lead bots running departments and about 200 agents doing the work, with output landing in /workspace/drafts for approval. Steps: a 10-minute voice memo that Grok Bot turned into 14 job cards, 5 auto-review rules instead of approvals, and starting with 1 bot and adding 1 a day so two bots never fight over one job. They report that in week one the inbox handled 2,393 of 2,431 emails and QA ran 126 tests with 0 fails, for about $202 a month. Anything involving money or a signature waits for their yes."
+        },
+        "ja": {
+          "title": "Grok Bot で 14 部門の「会社」を組む",
+          "summary": "作者はある記事に沿って二晩で階層を組んだ。Grok Bot がボス、14 体のリード bot が部門を担当し、約 200 のエージェントが作業して、成果は承認待ちで /workspace/drafts に入る。手順は、10 分のボイスメモを Grok Bot に 14 枚の職務カードへ変えさせ、承認の代わりに auto-review に 5 行のルールを書き、bot は 1 体から始めて 1 日 1 体ずつ増やし、同じ仕事を奪い合わないようにすること。本人の報告では 1 週目に受信箱は 2,431 通中 2,393 通を処理、QA は 126 件のテストで失敗 0、費用は月約 202 ドル。お金や署名が絡むものは本人の承認を待つ。"
+        },
+        "ko": {
+          "title": "Grok Bot으로 14개 부서 ‘회사’ 만들기",
+          "summary": "작성자는 한 글을 따라 이틀 저녁 만에 계층 구조를 만들었다. Grok Bot이 총괄, 14개 리드 봇이 부서를 맡고 약 200개 에이전트가 일하며 결과물은 승인 대기로 /workspace/drafts에 쌓인다. 단계: 10분 음성 메모를 Grok Bot이 직무 카드 14장으로 정리, 개별 승인 대신 auto-review 규칙 5줄, 봇 1개로 시작해 하루 1개씩 늘려 두 봇이 같은 일을 다투지 않게 함. 본인 보고로 첫 주에 받은편지함 2,431통 중 2,393통 처리, QA 테스트 126개 실패 0, 비용은 월 약 202달러였다. 돈이나 서명이 걸린 일은 본인 승인을 기다린다."
+        },
+        "ms": {
+          "title": "Membina organisasi 14 jabatan daripada Grok Bot",
+          "summary": "Berpandukan satu artikel, penulis menghabiskan dua malam membina hierarki: Grok Bot sebagai ketua, 14 bot utama mengurus jabatan dan kira-kira 200 agen membuat kerja, dengan hasil masuk ke /workspace/drafts untuk kelulusan. Langkahnya: memo suara 10 minit yang Grok Bot jadikan 14 kad tugas, 5 peraturan auto-review sebagai ganti kelulusan, dan mula dengan 1 bot serta tambah 1 sehari supaya dua bot tidak berebut satu kerja. Dia melaporkan pada minggu pertama peti masuk mengendalikan 2,393 daripada 2,431 e-mel dan QA menjalankan 126 ujian tanpa gagal, dengan kos kira-kira $202 sebulan. Apa-apa yang melibatkan wang atau tandatangan menunggu persetujuannya."
+        },
+        "vi": {
+          "title": "Dựng một tổ chức 14 phòng ban từ Grok Bot",
+          "summary": "Theo một bài viết, tác giả mất hai buổi tối để dựng cấu trúc: Grok Bot làm sếp, 14 bot trưởng phụ trách phòng ban và khoảng 200 agent làm việc, kết quả đổ vào /workspace/drafts chờ duyệt. Các bước: một ghi âm 10 phút được Grok Bot biến thành 14 thẻ công việc, 5 quy tắc auto-review thay cho duyệt từng việc, và bắt đầu với 1 bot rồi thêm 1 bot mỗi ngày để hai bot không tranh cùng một việc. Tác giả cho biết tuần đầu hộp thư xử lý 2.393 trên 2.431 email và QA chạy 126 bài kiểm thử không lỗi, chi phí khoảng 202 đô mỗi tháng. Việc liên quan tiền hoặc chữ ký đều chờ tác giả đồng ý."
+        },
+        "fr": {
+          "title": "Monter une organisation de 14 départements avec Grok Bot",
+          "summary": "En suivant un article, l’auteur a monté en deux soirées une hiérarchie : Grok Bot comme patron, 14 bots responsables de départements et environ 200 agents qui travaillent, les résultats arrivant dans /workspace/drafts pour validation. Étapes : un mémo vocal de 10 minutes que Grok Bot a transformé en 14 fiches de poste, 5 règles d’auto-review au lieu d’approbations, et un démarrage avec 1 bot puis 1 de plus par jour pour éviter que deux bots se disputent une tâche. L’auteur rapporte qu’en première semaine la boîte mail a traité 2 393 e-mails sur 2 431 et que la QA a passé 126 tests sans échec, pour environ 202 $ par mois. Tout ce qui touche à l’argent ou à une signature attend son accord."
+        },
+        "es": {
+          "title": "Montar una organización de 14 departamentos con Grok Bot",
+          "summary": "Siguiendo un artículo, el autor dedicó dos tardes a montar una jerarquía: Grok Bot como jefe, 14 bots líderes al frente de departamentos y unos 200 agentes trabajando, con los resultados en /workspace/drafts a la espera de aprobación. Pasos: una nota de voz de 10 minutos que Grok Bot convirtió en 14 fichas de puesto, 5 reglas de auto-review en lugar de aprobaciones, y empezar con 1 bot y añadir 1 al día para que dos bots no se peleen por el mismo trabajo. Cuenta que en la primera semana la bandeja gestionó 2.393 de 2.431 correos y QA ejecutó 126 pruebas sin fallos, por unos 202 $ al mes. Todo lo que implique dinero o firma espera su sí."
+        },
+        "de": {
+          "title": "Eine Organisation mit 14 Abteilungen aus Grok Bot bauen",
+          "summary": "Nach einer Anleitung baute der Autor an zwei Abenden eine Hierarchie: Grok Bot als Chef, 14 Lead-Bots für die Abteilungen und rund 200 Agenten für die Arbeit, deren Ergebnisse zur Freigabe in /workspace/drafts landen. Schritte: ein 10-minütiges Sprachmemo, aus dem Grok Bot 14 Jobkarten machte, 5 Auto-Review-Regeln statt Einzelfreigaben, und Start mit 1 Bot plus 1 weiterem pro Tag, damit nie zwei Bots um eine Aufgabe streiten. Der Autor berichtet, dass in Woche eins das Postfach 2.393 von 2.431 E-Mails erledigte und die QA 126 Tests ohne Fehler lief, für etwa 202 $ im Monat. Alles mit Geld oder Unterschrift wartet auf seine Zustimmung."
+        }
+      },
+      "source_url": "https://x.com/razeden0/status/2116651121099890849",
+      "source_name": "X",
+      "author": "razeden0",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 2,
+      "src": "x",
+      "text": "i just turned grok bot into a 14 department company... 200 agents, 0 employees, and it runs while i sleep.\n\ngrok bot is the boss. 14 bots run the departments. 200 agents do the work. i'm the only human and i only say yes or no\n\nme → grok bot → 14 lead bots → 200 agents → /workspace/drafts → i tap approve\n\nstep 1 from the article: one bot, one written job. i recorded a 10 minute voice memo about my week and grok bot turned it into 14 job cards - inbox, sales, ads, code, QA, finance, legal, support and 6 more\n\nstep 2: rules instead of approvals. 5 lines in auto-review and the bots stopped waking me up at 3 a.m.\n\nthe agents never talk to me. they talk to grok bot. it jumps from an agent to the code and back - checks the work, fixes what broke, moves to the next one\n\nfirst week: inbox handled 2,393 of 2,431 emails, sales scored 300 leads a day, ads went from $15 to $1 per install, QA ran 126 tests with 0 fails, support answered in 9 seconds\n\na team for all of that is 60 people and at least $50,000 a month in payroll. my bill was $100 for super plus $3.40 a day in tokens - $202 a month. i did the math and it's 247x cheaper\n\nthe big mistake: making 15 bots on day one. that's how two bots fight over one job and a draft goes to a client. i started with 1 bot and added 1 a day for 14 days\n\nsetup took me 2 evenings: 1 voice memo, 14 job cards, 5 rules, 1 NOOP footer and 1 ops bot that checks every agent at 5 a.m.\n\nthe one thing it can't do alone: anything with money or a signature goes to /workspace/drafts and waits for my yes\n\neveryone talks about the $1B one-person company like it's 10 years away. i built the org chart in 2 evenings - the article i followed is below ↓",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2116651069811851265/img/l0Lc6ES_61Y5Ve99.jpg"
+      ],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-razeden0-2116651121099890849",
+      "scen": [
+        "inbox",
+        "report",
+        "prs",
+        "finance",
+        "ship"
+      ]
+    },
+    {
+      "title": "个人版《Grok Bot 入门》第一章：它是同事不是聊天机器人",
+      "summary": "作者总结 Grok Bot 能做的事：自己创建辅助 bot 并分派任务；输入“把按钮改成粉色”，它交给 Cursor agent 并带回现成的 PR；在聊天里直接做实时仪表盘和小工具，不用写代码；加入 Zoom 或 Google Meet 会议做笔记；有自己的邮箱和带浏览器的电脑；能自己做视频和图片。",
+      "en": {
+        "title": "A personal 'Grok Bot for Dummies', chapter 1: a coworker, not a chatbot",
+        "summary": "The author lists what Grok Bot does for them: it spins up helper bots and delegates to them; typing 'make the button pink' gets handed to a Cursor agent and comes back as a ready pull request; it builds live dashboards and mini tools in the chat with no code from them; it joins Zoom or Google Meet calls and takes notes; it has its own email inbox and its own computer with a browser; and it makes videos and images itself."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "个人版《Grok Bot 入门》第一章：它是同事不是聊天机器人",
+          "summary": "作者总结 Grok Bot 能做的事：自己创建辅助 bot 并分派任务；输入“把按钮改成粉色”，它交给 Cursor agent 并带回现成的 PR；在聊天里直接做实时仪表盘和小工具，不用写代码；加入 Zoom 或 Google Meet 会议做笔记；有自己的邮箱和带浏览器的电脑；能自己做视频和图片。"
+        },
+        "zh-TW": {
+          "title": "個人版《Grok Bot 入門》第一章：它是同事不是聊天機器人",
+          "summary": "作者整理 Grok Bot 能做的事：自己建立輔助 bot 並分派任務；輸入「把按鈕改成粉紅色」，它交給 Cursor agent 並帶回現成的 PR；在聊天中直接做即時儀表板與小工具，不必寫程式；加入 Zoom 或 Google Meet 會議做筆記；有自己的信箱和附瀏覽器的電腦；能自己做影片和圖片。"
+        },
+        "en": {
+          "title": "A personal 'Grok Bot for Dummies', chapter 1: a coworker, not a chatbot",
+          "summary": "The author lists what Grok Bot does for them: it spins up helper bots and delegates to them; typing 'make the button pink' gets handed to a Cursor agent and comes back as a ready pull request; it builds live dashboards and mini tools in the chat with no code from them; it joins Zoom or Google Meet calls and takes notes; it has its own email inbox and its own computer with a browser; and it makes videos and images itself."
+        },
+        "ja": {
+          "title": "個人版『Grok Bot 入門』第 1 章：チャットボットではなく同僚",
+          "summary": "作者が挙げる Grok Bot の働き：補助 bot を自分で立ち上げて仕事を振る。「ボタンをピンクに」と打つと Cursor のエージェントに渡し、完成したプルリクエストを持ち帰る。チャット内でライブのダッシュボードや小さなツールをコードなしで作る。Zoom や Google Meet の会議に参加してメモを取る。専用のメール受信箱とブラウザ付きのコンピュータを持つ。動画や画像も自分で作る。"
+        },
+        "ko": {
+          "title": "개인판 ‘Grok Bot 입문’ 1장: 챗봇이 아니라 동료",
+          "summary": "작성자가 정리한 Grok Bot의 일: 보조 봇을 직접 만들어 일을 나눠준다. ‘버튼을 분홍색으로’라고 치면 Cursor 에이전트에 넘겨 완성된 풀 리퀘스트를 가져온다. 채팅 안에서 실시간 대시보드와 작은 도구를 코드 없이 만든다. Zoom이나 Google Meet 회의에 들어가 메모한다. 자체 이메일 받은편지함과 브라우저가 있는 컴퓨터를 갖고 있다. 영상과 이미지도 직접 만든다."
+        },
+        "ms": {
+          "title": "'Grok Bot untuk Pemula' versi peribadi, bab 1: rakan sekerja, bukan chatbot",
+          "summary": "Penulis menyenaraikan apa yang Grok Bot lakukan: ia mencipta bot pembantu dan mengagihkan tugas; menaip 'jadikan butang merah jambu' diserahkan kepada agen Cursor dan kembali sebagai pull request siap; ia membina papan pemuka langsung dan alat kecil dalam sembang tanpa kod; ia menyertai panggilan Zoom atau Google Meet dan mencatat nota; ia ada peti e-mel dan komputer sendiri dengan pelayar; dan ia membuat video serta imej sendiri."
+        },
+        "vi": {
+          "title": "'Grok Bot cho người mới' bản cá nhân, chương 1: đồng nghiệp chứ không phải chatbot",
+          "summary": "Tác giả liệt kê những gì Grok Bot làm: tự tạo bot trợ giúp và giao việc cho chúng; gõ 'đổi nút sang màu hồng' thì nó chuyển cho agent Cursor và mang về pull request hoàn chỉnh; dựng dashboard trực tiếp và công cụ nhỏ ngay trong chat mà không cần code; tham gia cuộc gọi Zoom hoặc Google Meet và ghi chép; có hộp thư email và máy tính riêng có trình duyệt; tự làm video và hình ảnh."
+        },
+        "fr": {
+          "title": "Un « Grok Bot pour les nuls » perso, chapitre 1 : un collègue, pas un chatbot",
+          "summary": "L’auteur liste ce que fait Grok Bot : il crée ses propres bots assistants et leur délègue ; taper « mets le bouton en rose » part chez un agent Cursor et revient sous forme de pull request prête ; il construit des tableaux de bord en direct et des mini-outils dans le chat sans code ; il rejoint les appels Zoom ou Google Meet et prend des notes ; il a sa propre boîte mail et son propre ordinateur avec navigateur ; il fait lui-même vidéos et images."
+        },
+        "es": {
+          "title": "Un «Grok Bot para dummies» personal, capítulo 1: un compañero, no un chatbot",
+          "summary": "El autor enumera lo que hace Grok Bot: crea sus propios bots ayudantes y les delega tareas; escribir «pon el botón rosa» va a un agente de Cursor y vuelve como un pull request listo; construye paneles en vivo y miniherramientas en el chat sin código; se une a llamadas de Zoom o Google Meet y toma notas; tiene su propia bandeja de correo y su propio ordenador con navegador; y hace vídeos e imágenes por sí mismo."
+        },
+        "de": {
+          "title": "Ein persönliches „Grok Bot für Dummies“, Kapitel 1: ein Kollege, kein Chatbot",
+          "summary": "Der Autor listet, was Grok Bot macht: Er startet eigene Helfer-Bots und delegiert an sie; „mach den Button pink“ geht an einen Cursor-Agenten und kommt als fertiger Pull Request zurück; er baut Live-Dashboards und Mini-Tools direkt im Chat ohne Code; er nimmt an Zoom- oder Google-Meet-Calls teil und schreibt mit; er hat ein eigenes E-Mail-Postfach und einen eigenen Computer mit Browser; und er erstellt selbst Videos und Bilder."
+        }
+      },
+      "source_url": "https://x.com/belok_studio/status/2116635944598045113",
+      "source_name": "X",
+      "author": "belok_studio",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-10-31",
+      "likes": 1,
+      "src": "x",
+      "text": "My personal \"Grok Bot for Dummies\" 📖\nChapter 1: it's not a chatbot, it's a coworker.\nSpins up its own helper bots and delegates tasks to them\n\nI type \"make the button pink\", it hands it to a Cursor agent and comes back with a ready pull request\nBuilds live dashboards and mini tools right in the chat, zero code from me\nJoins my Zoom or Google Meet calls and takes notes\nHas its own email inbox and its own computer with a browser\nMakes videos and images itself\nChapter 2 coming soon 👀",
+      "media": [
+        "https://pbs.twimg.com/media/HV_NHUkWYAAYd2_.jpg"
+      ],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-belokstudio-2116635944598045113",
+      "scen": [
+        "inbox",
+        "prs",
+        "ship"
+      ]
+    },
+    {
+      "title": "Edited!：基于 Meta Muse 的长视频转短视频 agent",
+      "summary": "作者做了 Edited!，一个把长视频变成短视频的 AI agent：找出开头钩子、裁成 9:16、加动态字幕，基于 Meta Muse 构建。有免登录的在线演示，代码开源，是 Meta AI 黑客松作品。",
+      "en": {
+        "title": "Edited!, a Meta Muse agent that turns long videos into shorts",
+        "summary": "The author built Edited!, an AI agent that turns long videos into shorts: it finds the hook, crops to 9:16 and adds animated subtitles, built on Meta Muse. There is a free live demo with no signup, the code is open source, and it was made for the Meta AI Hackathon."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Edited!：基于 Meta Muse 的长视频转短视频 agent",
+          "summary": "作者做了 Edited!，一个把长视频变成短视频的 AI agent：找出开头钩子、裁成 9:16、加动态字幕，基于 Meta Muse 构建。有免登录的在线演示，代码开源，是 Meta AI 黑客松作品。"
+        },
+        "zh-TW": {
+          "title": "Edited!：以 Meta Muse 打造的長片轉短影音 agent",
+          "summary": "作者做了 Edited!，一個把長影片變成短影音的 AI agent：找出開場鉤子、裁成 9:16、加上動態字幕，以 Meta Muse 打造。提供免註冊的線上展示，程式碼開源，是 Meta AI 黑客松作品。"
+        },
+        "en": {
+          "title": "Edited!, a Meta Muse agent that turns long videos into shorts",
+          "summary": "The author built Edited!, an AI agent that turns long videos into shorts: it finds the hook, crops to 9:16 and adds animated subtitles, built on Meta Muse. There is a free live demo with no signup, the code is open source, and it was made for the Meta AI Hackathon."
+        },
+        "ja": {
+          "title": "Edited!：Meta Muse で長尺動画をショートにするエージェント",
+          "summary": "作者は長尺動画をショートに変える AI エージェント Edited! を作った。フックを見つけ、9:16 に切り抜き、動く字幕を付ける。Meta Muse ベースで、登録不要のライブデモがあり、コードはオープンソース。Meta AI ハッカソンの作品だ。"
+        },
+        "ko": {
+          "title": "Edited!: 긴 영상을 쇼츠로 바꾸는 Meta Muse 에이전트",
+          "summary": "작성자는 긴 영상을 쇼츠로 바꾸는 AI 에이전트 Edited!를 만들었다. 훅을 찾고 9:16으로 자르고 움직이는 자막을 넣으며 Meta Muse로 만들었다. 가입 없는 무료 라이브 데모가 있고 코드는 오픈소스이며 Meta AI 해커톤 출품작이다."
+        },
+        "ms": {
+          "title": "Edited!, agen Meta Muse yang menukar video panjang kepada video pendek",
+          "summary": "Penulis membina Edited!, agen AI yang menukar video panjang kepada video pendek: ia mencari cangkuk pembuka, memotong ke 9:16 dan menambah sari kata animasi, dibina atas Meta Muse. Ada demo langsung percuma tanpa daftar, kodnya sumber terbuka, dan ia dibuat untuk Meta AI Hackathon."
+        },
+        "vi": {
+          "title": "Edited!, agent Meta Muse biến video dài thành video ngắn",
+          "summary": "Tác giả làm Edited!, một agent AI biến video dài thành video ngắn: tìm đoạn mở đầu thu hút, cắt sang 9:16 và thêm phụ đề động, xây trên Meta Muse. Có bản demo trực tiếp miễn phí không cần đăng ký, mã nguồn mở, làm cho Meta AI Hackathon."
+        },
+        "fr": {
+          "title": "Edited!, un agent Meta Muse qui transforme les longues vidéos en formats courts",
+          "summary": "L’auteur a créé Edited!, un agent IA qui transforme les longues vidéos en formats courts : il trouve l’accroche, recadre en 9:16 et ajoute des sous-titres animés, sur Meta Muse. Démo en ligne gratuite sans inscription, code open source, projet du Meta AI Hackathon."
+        },
+        "es": {
+          "title": "Edited!, un agente con Meta Muse que convierte vídeos largos en cortos",
+          "summary": "El autor creó Edited!, un agente de IA que convierte vídeos largos en cortos: encuentra el gancho, recorta a 9:16 y añade subtítulos animados, construido sobre Meta Muse. Tiene una demo en vivo gratuita sin registro, el código es abierto y se hizo para el Meta AI Hackathon."
+        },
+        "de": {
+          "title": "Edited!, ein Meta-Muse-Agent, der lange Videos in Shorts verwandelt",
+          "summary": "Der Autor hat Edited! gebaut, einen KI-Agenten, der lange Videos in Shorts verwandelt: Er findet den Hook, schneidet auf 9:16 zu und fügt animierte Untertitel hinzu, gebaut auf Meta Muse. Es gibt eine kostenlose Live-Demo ohne Anmeldung, der Code ist Open Source, entstanden für den Meta AI Hackathon."
+        }
+      },
+      "source_url": "https://x.com/frmtradedrm/status/2116609521300971520",
+      "source_name": "X",
+      "author": "frmtradedrm",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 2,
+      "src": "x",
+      "text": "I built Edited!, an AI agent that turns long videos into shorts.\nIt finds the hook, crops to 9:16, and adds animated subtitles. Built on Meta Muse.\nFree live demo, no signup needed:\nhttps://t.co/3Doa4SfyR1\nOpen source: https://t.co/THBdqspQvc\n#MetaAIHackathon #BuildInPublic #AI",
+      "media": [],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-frmtradedrm-2116609521300971520",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
+      "title": "有南瓜？可以问 Grok Bot 的 3 个问题",
+      "summary": "帖子给出 3 条现成提问：给新手 3 个简单的南瓜雕刻设计并附步骤；把南瓜肉做成 4 人份、40 分钟内完成的汤；烤南瓜子的简短步骤、烤箱温度和时间。",
+      "en": {
+        "title": "Got a pumpkin? Three asks for Grok Bot",
+        "summary": "The post offers three ready-made asks: three easy pumpkin designs for a first-timer with simple steps; a soup for four from the pumpkin flesh in under 40 minutes; and short steps for roasting the seeds with oven temperature and time."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "有南瓜？可以问 Grok Bot 的 3 个问题",
+          "summary": "帖子给出 3 条现成提问：给新手 3 个简单的南瓜雕刻设计并附步骤；把南瓜肉做成 4 人份、40 分钟内完成的汤；烤南瓜子的简短步骤、烤箱温度和时间。"
+        },
+        "zh-TW": {
+          "title": "有南瓜？可以問 Grok Bot 的 3 個問題",
+          "summary": "貼文給出 3 條現成提問：給新手 3 個簡單的南瓜雕刻設計並附步驟；把南瓜肉做成 4 人份、40 分鐘內完成的湯；烤南瓜籽的簡短步驟、烤箱溫度與時間。"
+        },
+        "en": {
+          "title": "Got a pumpkin? Three asks for Grok Bot",
+          "summary": "The post offers three ready-made asks: three easy pumpkin designs for a first-timer with simple steps; a soup for four from the pumpkin flesh in under 40 minutes; and short steps for roasting the seeds with oven temperature and time."
+        },
+        "ja": {
+          "title": "カボチャがあるなら Grok Bot に聞きたい 3 つのこと",
+          "summary": "投稿は 3 つの質問例を示す。初心者向けの簡単なカボチャのデザイン 3 つと手順、果肉で 4 人分を 40 分以内に作るスープ、種を焼く短い手順とオーブンの温度と時間。"
+        },
+        "ko": {
+          "title": "호박이 있다면 Grok Bot에게 할 질문 3가지",
+          "summary": "게시물은 바로 쓸 질문 세 가지를 준다. 초보자를 위한 쉬운 호박 조각 디자인 3개와 단계, 호박 과육으로 40분 안에 만드는 4인분 수프, 씨앗 굽는 짧은 단계와 오븐 온도 및 시간."
+        },
+        "ms": {
+          "title": "Ada labu? Tiga soalan untuk Grok Bot",
+          "summary": "Hantaran ini memberi tiga soalan sedia guna: tiga reka bentuk labu mudah untuk pemula dengan langkah ringkas; sup untuk empat orang daripada isi labu dalam masa kurang 40 minit; dan langkah ringkas memanggang biji dengan suhu dan masa ketuhar."
+        },
+        "vi": {
+          "title": "Có quả bí ngô? Ba câu hỏi cho Grok Bot",
+          "summary": "Bài đăng đưa ra ba câu hỏi dùng ngay: ba mẫu khắc bí ngô dễ cho người mới kèm các bước; món súp cho bốn người từ ruột bí trong dưới 40 phút; và các bước ngắn để rang hạt kèm nhiệt độ và thời gian nướng."
+        },
+        "fr": {
+          "title": "Une citrouille ? Trois demandes pour Grok Bot",
+          "summary": "Le post propose trois demandes prêtes à l’emploi : trois motifs de citrouille faciles pour débutant avec des étapes simples ; une soupe pour quatre avec la chair en moins de 40 minutes ; et les étapes pour griller les graines avec température et durée du four."
+        },
+        "es": {
+          "title": "¿Tienes una calabaza? Tres peticiones para Grok Bot",
+          "summary": "La publicación ofrece tres peticiones listas: tres diseños fáciles de calabaza para principiantes con pasos sencillos; una sopa para cuatro con la pulpa en menos de 40 minutos; y pasos cortos para tostar las semillas con temperatura y tiempo de horno."
+        },
+        "de": {
+          "title": "Einen Kürbis? Drei Anfragen an Grok Bot",
+          "summary": "Der Beitrag liefert drei fertige Anfragen: drei einfache Kürbismotive für Anfänger mit kurzen Schritten; eine Suppe für vier aus dem Fruchtfleisch in unter 40 Minuten; und kurze Schritte zum Rösten der Kerne mit Ofentemperatur und Zeit."
+        }
+      },
+      "source_url": "https://x.com/grokbotguide/status/2116508643797709097",
+      "source_name": "X",
+      "author": "grokbotguide",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-10-31",
+      "likes": 0,
+      "src": "x",
+      "text": "Got a pumpkin? 3 asks for Grok Bot:\n\n1. \"Give me 3 easy pumpkin designs for a first-timer, with simple steps.\"\n2. \"Turn the pumpkin flesh into a soup for 4, under 40 minutes.\"\n3. \"How do I roast the seeds? Short steps, oven temperature and time.\" https://t.co/CEtftcOXUv",
+      "media": [
+        "https://pbs.twimg.com/ext_tw_video_thumb/2116508477858390016/pu/img/hk1jZd3uLLLgIRpX.jpg"
+      ],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-grokbotguide-2116508643797709097",
+      "scen": [
+        "social"
+      ]
+    },
+    {
+      "title": "一位用户用 Grok Bot 2.5 个月：183 个 PR、12 个项目",
+      "summary": "帖子称一位用户使用 Grok Bot 2.5 个月，提交了 183 个 pull request，同时推进 12 个项目，其中包括 3 个 iOS 应用、3 个网站和一个家庭安全防护项目。",
+      "en": {
+        "title": "One user, 2.5 months with Grok Bot: 183 PRs across 12 projects",
+        "summary": "The post says one user spent 2.5 months with Grok Bot and opened 183 pull requests on 12 projects at once, including 3 iOS apps, 3 websites and a family security shield."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "一位用户用 Grok Bot 2.5 个月：183 个 PR、12 个项目",
+          "summary": "帖子称一位用户使用 Grok Bot 2.5 个月，提交了 183 个 pull request，同时推进 12 个项目，其中包括 3 个 iOS 应用、3 个网站和一个家庭安全防护项目。"
+        },
+        "zh-TW": {
+          "title": "一位使用者用 Grok Bot 2.5 個月：183 個 PR、12 個專案",
+          "summary": "貼文稱一位使用者使用 Grok Bot 2.5 個月，送出 183 個 pull request，同時推進 12 個專案，包括 3 個 iOS 應用、3 個網站和一個家庭安全防護專案。"
+        },
+        "en": {
+          "title": "One user, 2.5 months with Grok Bot: 183 PRs across 12 projects",
+          "summary": "The post says one user spent 2.5 months with Grok Bot and opened 183 pull requests on 12 projects at once, including 3 iOS apps, 3 websites and a family security shield."
+        },
+        "ja": {
+          "title": "Grok Bot を 2.5 か月使ったユーザー：12 プロジェクトで 183 PR",
+          "summary": "投稿によると、あるユーザーは Grok Bot を 2.5 か月使い、12 のプロジェクトを並行して 183 件のプルリクエストを出した。うち iOS アプリ 3 つ、ウェブサイト 3 つ、家族向けのセキュリティ対策が 1 つ。"
+        },
+        "ko": {
+          "title": "Grok Bot 2.5개월 사용자: 12개 프로젝트에서 PR 183개",
+          "summary": "게시물에 따르면 한 사용자가 Grok Bot을 2.5개월 쓰며 12개 프로젝트를 동시에 진행해 풀 리퀘스트 183개를 올렸다. iOS 앱 3개, 웹사이트 3개, 가족 보안 방패 프로젝트가 포함된다."
+        },
+        "ms": {
+          "title": "Seorang pengguna, 2.5 bulan dengan Grok Bot: 183 PR merentas 12 projek",
+          "summary": "Hantaran ini menyatakan seorang pengguna menggunakan Grok Bot selama 2.5 bulan dan membuka 183 pull request untuk 12 projek serentak, termasuk 3 aplikasi iOS, 3 laman web dan perisai keselamatan keluarga."
+        },
+        "vi": {
+          "title": "Một người dùng, 2,5 tháng với Grok Bot: 183 PR trên 12 dự án",
+          "summary": "Bài đăng cho biết một người dùng đã dùng Grok Bot 2,5 tháng và mở 183 pull request cho 12 dự án cùng lúc, gồm 3 ứng dụng iOS, 3 website và một lớp bảo vệ an ninh cho gia đình."
+        },
+        "fr": {
+          "title": "Un utilisateur, 2,5 mois avec Grok Bot : 183 PR sur 12 projets",
+          "summary": "Le post indique qu’un utilisateur a passé 2,5 mois avec Grok Bot et ouvert 183 pull requests sur 12 projets menés en parallèle, dont 3 applis iOS, 3 sites web et un bouclier de sécurité familial."
+        },
+        "es": {
+          "title": "Un usuario, 2,5 meses con Grok Bot: 183 PR en 12 proyectos",
+          "summary": "La publicación dice que un usuario pasó 2,5 meses con Grok Bot y abrió 183 pull requests en 12 proyectos a la vez, entre ellos 3 apps de iOS, 3 sitios web y un escudo de seguridad familiar."
+        },
+        "de": {
+          "title": "Ein Nutzer, 2,5 Monate mit Grok Bot: 183 PRs in 12 Projekten",
+          "summary": "Laut dem Beitrag hat ein Nutzer Grok Bot 2,5 Monate genutzt und 183 Pull Requests in 12 parallelen Projekten eröffnet, darunter 3 iOS-Apps, 3 Websites und ein Sicherheitsschild für die Familie."
+        }
+      },
+      "source_url": "https://x.com/grokbotusecases/status/2116508143555580205",
+      "source_name": "X",
+      "author": "grokbotusecases",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 0,
+      "src": "x",
+      "text": "One user, 2.5 months with Grok Bot: 183 pull requests, 12 projects at once, including 3 iOS apps, 3 websites and a family security shield.\n\nSide projects → shipped.\n\nGrokbot Cases ⚡ https://t.co/33meTsTRsZ",
+      "media": [],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-grokbotusecases-2116508143555580205",
+      "scen": [
+        "prs",
+        "social",
+        "family",
+        "security",
+        "ship"
+      ]
+    },
+    {
+      "title": "开源 Android 助手：截图加语音提问发给 Grok Bot",
+      "summary": "开源项目 android-assist-bot：在 Android 上截图并用语音提问，发给一个 Grok Bot，答案以通知形式返回。灵感来自 Everest 的 Action Button Bot。",
+      "en": {
+        "title": "Open-source Android assistant: screenshot plus voice question to a Grok Bot",
+        "summary": "The open-source android-assist-bot sends an Android screenshot and a spoken question to a Grok Bot and shows the answer as a notification. It was inspired by Everest's Action Button Bot."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "开源 Android 助手：截图加语音提问发给 Grok Bot",
+          "summary": "开源项目 android-assist-bot：在 Android 上截图并用语音提问，发给一个 Grok Bot，答案以通知形式返回。灵感来自 Everest 的 Action Button Bot。"
+        },
+        "zh-TW": {
+          "title": "開源 Android 助理：截圖加語音提問傳給 Grok Bot",
+          "summary": "開源專案 android-assist-bot：在 Android 上截圖並用語音提問，傳給一個 Grok Bot，答案以通知形式回傳。靈感來自 Everest 的 Action Button Bot。"
+        },
+        "en": {
+          "title": "Open-source Android assistant: screenshot plus voice question to a Grok Bot",
+          "summary": "The open-source android-assist-bot sends an Android screenshot and a spoken question to a Grok Bot and shows the answer as a notification. It was inspired by Everest's Action Button Bot."
+        },
+        "ja": {
+          "title": "オープンソースの Android アシスタント：スクショと音声の質問を Grok Bot へ",
+          "summary": "オープンソースの android-assist-bot は、Android のスクリーンショットと音声の質問を Grok Bot に送り、答えを通知で表示する。Everest の Action Button Bot に着想を得た。"
+        },
+        "ko": {
+          "title": "오픈소스 Android 도우미: 스크린샷과 음성 질문을 Grok Bot에",
+          "summary": "오픈소스 android-assist-bot은 Android 스크린샷과 음성 질문을 Grok Bot에 보내고 답을 알림으로 보여준다. Everest의 Action Button Bot에서 영감을 받았다."
+        },
+        "ms": {
+          "title": "Pembantu Android sumber terbuka: tangkapan skrin dan soalan suara kepada Grok Bot",
+          "summary": "android-assist-bot sumber terbuka menghantar tangkapan skrin Android dan soalan suara kepada Grok Bot, lalu memaparkan jawapan sebagai pemberitahuan. Ia diilhamkan oleh Action Button Bot milik Everest."
+        },
+        "vi": {
+          "title": "Trợ lý Android mã nguồn mở: ảnh chụp màn hình và câu hỏi giọng nói gửi tới Grok Bot",
+          "summary": "android-assist-bot mã nguồn mở gửi ảnh chụp màn hình Android và câu hỏi bằng giọng nói tới một Grok Bot, rồi hiện câu trả lời dưới dạng thông báo. Dự án lấy cảm hứng từ Action Button Bot của Everest."
+        },
+        "fr": {
+          "title": "Assistant Android open source : capture d’écran et question vocale vers un Grok Bot",
+          "summary": "Le projet open source android-assist-bot envoie une capture d’écran Android et une question vocale à un Grok Bot, puis affiche la réponse en notification. Inspiré de l’Action Button Bot d’Everest."
+        },
+        "es": {
+          "title": "Asistente Android de código abierto: captura y pregunta por voz a un Grok Bot",
+          "summary": "El proyecto de código abierto android-assist-bot envía una captura de pantalla de Android y una pregunta por voz a un Grok Bot y muestra la respuesta como notificación. Se inspira en el Action Button Bot de Everest."
+        },
+        "de": {
+          "title": "Open-Source-Android-Assistent: Screenshot plus Sprachfrage an einen Grok Bot",
+          "summary": "Das Open-Source-Projekt android-assist-bot schickt einen Android-Screenshot und eine gesprochene Frage an einen Grok Bot und zeigt die Antwort als Benachrichtigung. Inspiriert von Everests Action Button Bot."
+        }
+      },
+      "source_url": "https://github.com/nwcnwc/android-assist-bot",
+      "source_name": "GitHub",
+      "author": "nwcnwc",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 0,
+      "src": "github",
+      "text": "nwcnwc/android-assist-bot\nOpen-source Android assistant: screenshot + voice question to a Grok Bot, answer as a notification. Inspired by Everest's Action Button Bot.",
+      "media": [],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "Open the link above on the phone.",
+        "Allow the browser to install unknown apps when Android asks.",
+        "Tap Install. Updates install over the same app only when they are signed with this certificate.",
+        "Open the bot, then its details, then Routines.",
+        "Add a webhook trigger and save the routine. Leave it Active.",
+        "Open the routine again. The Webhook section has POST to, key, and header. Click a field to copy it.",
+        "In Ask Button, paste POST to into Webhook URL.",
+        "Paste header into Authorization header. You can paste the full Authorization: Bearer … line or only Bearer …. The app strips a leading Authorization: label a……"
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-nwcnwc-android-assist-bot",
+      "scen": []
+    },
+    {
+      "title": "grokbot-blueprint：让 Grok Bot 自己搭好基础工作区",
+      "summary": "仓库 grokbot-blueprint 提供一套 Grok Bot 为自己搭建的基础工作区：四个问题、六种归档方式、三层路由、一个文风文件和一个补缺 skill。",
+      "en": {
+        "title": "grokbot-blueprint: a base workspace a Grok Bot sets up for itself",
+        "summary": "The grokbot-blueprint repo is a base workspace a Grok Bot sets up for itself: four questions, six filing styles, three routing layers, a voice file and a gap skill."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "grokbot-blueprint：让 Grok Bot 自己搭好基础工作区",
+          "summary": "仓库 grokbot-blueprint 提供一套 Grok Bot 为自己搭建的基础工作区：四个问题、六种归档方式、三层路由、一个文风文件和一个补缺 skill。"
+        },
+        "zh-TW": {
+          "title": "grokbot-blueprint：讓 Grok Bot 自己建好基礎工作區",
+          "summary": "儲存庫 grokbot-blueprint 提供一套 Grok Bot 為自己建立的基礎工作區：四個問題、六種歸檔方式、三層路由、一個文風檔和一個補缺 skill。"
+        },
+        "en": {
+          "title": "grokbot-blueprint: a base workspace a Grok Bot sets up for itself",
+          "summary": "The grokbot-blueprint repo is a base workspace a Grok Bot sets up for itself: four questions, six filing styles, three routing layers, a voice file and a gap skill."
+        },
+        "ja": {
+          "title": "grokbot-blueprint：Grok Bot が自分で整える基本ワークスペース",
+          "summary": "リポジトリ grokbot-blueprint は、Grok Bot が自分用に整える基本ワークスペース。4 つの質問、6 種類の整理方法、3 層のルーティング、文体ファイル、不足を埋めるスキルで構成される。"
+        },
+        "ko": {
+          "title": "grokbot-blueprint: Grok Bot이 스스로 꾸리는 기본 작업 공간",
+          "summary": "저장소 grokbot-blueprint는 Grok Bot이 스스로 설정하는 기본 작업 공간이다. 질문 4개, 파일 정리 방식 6가지, 라우팅 3단계, 문체 파일, 빈틈을 메우는 스킬로 구성된다."
+        },
+        "ms": {
+          "title": "grokbot-blueprint: ruang kerja asas yang Grok Bot sediakan untuk dirinya",
+          "summary": "Repo grokbot-blueprint ialah ruang kerja asas yang Grok Bot sediakan untuk dirinya: empat soalan, enam gaya pemfailan, tiga lapisan penghalaan, fail gaya suara dan skill pengisi jurang."
+        },
+        "vi": {
+          "title": "grokbot-blueprint: không gian làm việc nền mà Grok Bot tự dựng",
+          "summary": "Kho grokbot-blueprint là không gian làm việc nền mà một Grok Bot tự thiết lập: bốn câu hỏi, sáu kiểu lưu trữ, ba lớp định tuyến, một tệp giọng văn và một skill lấp khoảng trống."
+        },
+        "fr": {
+          "title": "grokbot-blueprint : un espace de travail de base qu’un Grok Bot installe lui-même",
+          "summary": "Le dépôt grokbot-blueprint est un espace de travail de base qu’un Grok Bot met en place pour lui-même : quatre questions, six styles de classement, trois couches de routage, un fichier de voix et une skill de comblement."
+        },
+        "es": {
+          "title": "grokbot-blueprint: un espacio de trabajo base que un Grok Bot monta por sí mismo",
+          "summary": "El repositorio grokbot-blueprint es un espacio de trabajo base que un Grok Bot configura para sí mismo: cuatro preguntas, seis estilos de archivo, tres capas de enrutamiento, un archivo de voz y una skill para cubrir huecos."
+        },
+        "de": {
+          "title": "grokbot-blueprint: ein Basis-Workspace, den sich ein Grok Bot selbst einrichtet",
+          "summary": "Das Repo grokbot-blueprint ist ein Basis-Workspace, den ein Grok Bot für sich selbst einrichtet: vier Fragen, sechs Ablagestile, drei Routing-Ebenen, eine Stimmdatei und eine Lücken-Skill."
+        }
+      },
+      "source_url": "https://github.com/six20am/grokbot-blueprint",
+      "source_name": "GitHub",
+      "author": "six20am",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-10-31",
+      "likes": 0,
+      "src": "github",
+      "text": "six20am/grokbot-blueprint\nA base workspace a Grok Bot sets up for itself: four questions, six filing styles, three routing layers, a voice file, and a gap skill.",
+      "media": [],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-six20am-grokbot-blueprint",
+      "scen": [
+        "prs"
+      ]
+    },
+    {
+      "title": "call-grokbot：在 Codex 和 Claude Code 里调用已有的 Grok Bot",
+      "summary": "Zens AI 的 call-grokbot 是一个 MCP 工具，让你在 Codex 和 Claude Code 中调用自己已有的 Grok Bot，登录走官方浏览器登录。",
+      "en": {
+        "title": "call-grokbot: call your existing Grok Bots from Codex and Claude Code",
+        "summary": "Zens AI's call-grokbot is an MCP tool that lets you call your existing Grok Bots from Codex and Claude Code, signing in through the official browser login."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "call-grokbot：在 Codex 和 Claude Code 里调用已有的 Grok Bot",
+          "summary": "Zens AI 的 call-grokbot 是一个 MCP 工具，让你在 Codex 和 Claude Code 中调用自己已有的 Grok Bot，登录走官方浏览器登录。"
+        },
+        "zh-TW": {
+          "title": "call-grokbot：在 Codex 與 Claude Code 中呼叫既有的 Grok Bot",
+          "summary": "Zens AI 的 call-grokbot 是一個 MCP 工具，讓你在 Codex 與 Claude Code 中呼叫自己既有的 Grok Bot，登入使用官方瀏覽器登入。"
+        },
+        "en": {
+          "title": "call-grokbot: call your existing Grok Bots from Codex and Claude Code",
+          "summary": "Zens AI's call-grokbot is an MCP tool that lets you call your existing Grok Bots from Codex and Claude Code, signing in through the official browser login."
+        },
+        "ja": {
+          "title": "call-grokbot：Codex や Claude Code から手持ちの Grok Bot を呼ぶ",
+          "summary": "Zens AI の call-grokbot は、Codex や Claude Code から既存の Grok Bot を呼び出せる MCP ツール。ログインは公式のブラウザログインを使う。"
+        },
+        "ko": {
+          "title": "call-grokbot: Codex와 Claude Code에서 기존 Grok Bot 호출하기",
+          "summary": "Zens AI의 call-grokbot은 Codex와 Claude Code에서 기존 Grok Bot을 호출하게 해 주는 MCP 도구이며, 공식 브라우저 로그인으로 접속한다."
+        },
+        "ms": {
+          "title": "call-grokbot: panggil Grok Bot sedia ada dari Codex dan Claude Code",
+          "summary": "call-grokbot oleh Zens AI ialah alat MCP yang membolehkan anda memanggil Grok Bot sedia ada dari Codex dan Claude Code, dengan log masuk melalui pelayar rasmi."
+        },
+        "vi": {
+          "title": "call-grokbot: gọi các Grok Bot sẵn có từ Codex và Claude Code",
+          "summary": "call-grokbot của Zens AI là công cụ MCP cho phép gọi các Grok Bot bạn đang có từ Codex và Claude Code, đăng nhập qua trình duyệt chính thức."
+        },
+        "fr": {
+          "title": "call-grokbot : appeler vos Grok Bots depuis Codex et Claude Code",
+          "summary": "call-grokbot, de Zens AI, est un outil MCP qui permet d’appeler vos Grok Bots existants depuis Codex et Claude Code, avec la connexion officielle par navigateur."
+        },
+        "es": {
+          "title": "call-grokbot: llama a tus Grok Bots desde Codex y Claude Code",
+          "summary": "call-grokbot, de Zens AI, es una herramienta MCP para llamar a tus Grok Bots existentes desde Codex y Claude Code, con el inicio de sesión oficial por navegador."
+        },
+        "de": {
+          "title": "call-grokbot: vorhandene Grok Bots aus Codex und Claude Code aufrufen",
+          "summary": "call-grokbot von Zens AI ist ein MCP-Tool, mit dem du deine vorhandenen Grok Bots aus Codex und Claude Code aufrufst, angemeldet über den offiziellen Browser-Login."
+        }
+      },
+      "source_url": "https://github.com/ZensHQ/call-grokbot",
+      "source_name": "GitHub",
+      "author": "ZensHQ",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 0,
+      "src": "github",
+      "text": "ZensHQ/call-grokbot\nBy Zens AI. Call your existing Grok Bots from Codex and Claude Code with official browser login.\nclaude-code codex grokbot mcp",
+      "media": [
+        "https://raw.githubusercontent.com/ZensHQ/call-grokbot/main/docs/assets/demo-cover.jpg"
+      ],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "Install Node.js 22.13+, npm, and Git.",
+        "Install and sign in to the client you want to use: Codex or Claude Code.",
+        "Install the official Cursor CLI.",
+        "Have a Grok Bot account and at least one existing bot. Use the exact bot name",
+        "Unconfirmed send: the message ID is saved before dispatch. Use check to",
+        "Cancellation / stream error: the unread cursor is preserved. If a message",
+        "Pending task: a second ask is refused until check observes completion.",
+        "Corrupt state or transcript reset: fail closed. Back up state.json and"
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-zenshq-call-grokbot",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
+      "title": "pallas-growth：基于 Meta Muse 的常驻 Meta 广告增长团队",
+      "summary": "仓库 pallas-growth 自述为一个面向 Meta 广告的常驻 AI 增长团队，构建在 Meta 的 Muse 模型之上。",
+      "en": {
+        "title": "pallas-growth: an always-on AI growth team for Meta ads on Muse",
+        "summary": "The pallas-growth repo describes itself as an always-on AI growth team for Meta ads, built on Meta's Muse models."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "pallas-growth：基于 Meta Muse 的常驻 Meta 广告增长团队",
+          "summary": "仓库 pallas-growth 自述为一个面向 Meta 广告的常驻 AI 增长团队，构建在 Meta 的 Muse 模型之上。"
+        },
+        "zh-TW": {
+          "title": "pallas-growth：以 Meta Muse 打造的常駐 Meta 廣告成長團隊",
+          "summary": "儲存庫 pallas-growth 自述為一個針對 Meta 廣告的常駐 AI 成長團隊，建構在 Meta 的 Muse 模型之上。"
+        },
+        "en": {
+          "title": "pallas-growth: an always-on AI growth team for Meta ads on Muse",
+          "summary": "The pallas-growth repo describes itself as an always-on AI growth team for Meta ads, built on Meta's Muse models."
+        },
+        "ja": {
+          "title": "pallas-growth：Muse で動く Meta 広告向けの常駐 AI グロースチーム",
+          "summary": "リポジトリ pallas-growth は、Meta の Muse モデル上に作られた、Meta 広告向けの常時稼働 AI グロースチームだと説明している。"
+        },
+        "ko": {
+          "title": "pallas-growth: Muse 기반 Meta 광고용 상시 AI 성장팀",
+          "summary": "저장소 pallas-growth는 Meta의 Muse 모델 위에 만든 Meta 광고용 상시 가동 AI 성장팀이라고 소개한다."
+        },
+        "ms": {
+          "title": "pallas-growth: pasukan pertumbuhan AI sentiasa aktif untuk iklan Meta atas Muse",
+          "summary": "Repo pallas-growth menyifatkan dirinya sebagai pasukan pertumbuhan AI yang sentiasa aktif untuk iklan Meta, dibina atas model Muse milik Meta."
+        },
+        "vi": {
+          "title": "pallas-growth: đội tăng trưởng AI luôn chạy cho quảng cáo Meta trên Muse",
+          "summary": "Kho pallas-growth tự mô tả là một đội tăng trưởng AI luôn hoạt động cho quảng cáo Meta, xây trên các mô hình Muse của Meta."
+        },
+        "fr": {
+          "title": "pallas-growth : une équipe de croissance IA permanente pour les pubs Meta, sur Muse",
+          "summary": "Le dépôt pallas-growth se présente comme une équipe de croissance IA toujours active pour les publicités Meta, construite sur les modèles Muse de Meta."
+        },
+        "es": {
+          "title": "pallas-growth: un equipo de crecimiento con IA siempre activo para anuncios de Meta sobre Muse",
+          "summary": "El repositorio pallas-growth se describe como un equipo de crecimiento con IA siempre activo para anuncios de Meta, construido sobre los modelos Muse de Meta."
+        },
+        "de": {
+          "title": "pallas-growth: ein dauerhaft aktives KI-Growth-Team für Meta-Ads auf Muse",
+          "summary": "Das Repo pallas-growth beschreibt sich als dauerhaft aktives KI-Growth-Team für Meta-Anzeigen, gebaut auf Metas Muse-Modellen."
+        }
+      },
+      "source_url": "https://github.com/Pallas-ads/pallas-growth",
+      "source_name": "GitHub",
+      "author": "Pallas-ads",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 0,
+      "src": "github",
+      "text": "Pallas-ads/pallas-growth\nAn always-on AI growth team for Meta ads, built on Meta's Muse models.",
+      "media": [],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-pallas-ads-pallas-growth",
+      "scen": [
+        "prs"
+      ]
+    },
+    {
+      "title": "metual：用 Meta Muse 把仓库、帖子或文章变成白板讲解视频",
+      "summary": "开源项目 metual 能把一个 GitHub 仓库、一条 X 帖子或一篇文章变成白板讲解视频，并附可编辑的 .excalidraw 文件，由 Meta Muse 模型驱动。",
+      "en": {
+        "title": "metual: turn a repo, X post or article into a whiteboard video with Meta Muse",
+        "summary": "The open-source metual turns a GitHub repo, an X post or an article into a whiteboard explainer video plus an editable .excalidraw file, powered by Meta Muse models."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "metual：用 Meta Muse 把仓库、帖子或文章变成白板讲解视频",
+          "summary": "开源项目 metual 能把一个 GitHub 仓库、一条 X 帖子或一篇文章变成白板讲解视频，并附可编辑的 .excalidraw 文件，由 Meta Muse 模型驱动。"
+        },
+        "zh-TW": {
+          "title": "metual：用 Meta Muse 把儲存庫、貼文或文章變成白板講解影片",
+          "summary": "開源專案 metual 能把一個 GitHub 儲存庫、一則 X 貼文或一篇文章變成白板講解影片，並附可編輯的 .excalidraw 檔，由 Meta Muse 模型驅動。"
+        },
+        "en": {
+          "title": "metual: turn a repo, X post or article into a whiteboard video with Meta Muse",
+          "summary": "The open-source metual turns a GitHub repo, an X post or an article into a whiteboard explainer video plus an editable .excalidraw file, powered by Meta Muse models."
+        },
+        "ja": {
+          "title": "metual：Meta Muse でリポジトリや投稿、記事をホワイトボード解説動画に",
+          "summary": "オープンソースの metual は、GitHub リポジトリ、X の投稿、記事をホワイトボード解説動画と編集可能な .excalidraw ファイルに変える。Meta Muse モデルで動く。"
+        },
+        "ko": {
+          "title": "metual: Meta Muse로 저장소·게시물·글을 화이트보드 설명 영상으로",
+          "summary": "오픈소스 metual은 GitHub 저장소, X 게시물, 글을 화이트보드 설명 영상과 편집 가능한 .excalidraw 파일로 바꾼다. Meta Muse 모델로 동작한다."
+        },
+        "ms": {
+          "title": "metual: tukar repo, hantaran X atau artikel kepada video papan putih dengan Meta Muse",
+          "summary": "metual sumber terbuka menukar repo GitHub, hantaran X atau artikel kepada video penerangan papan putih beserta fail .excalidraw yang boleh disunting, dikuasakan model Meta Muse."
+        },
+        "vi": {
+          "title": "metual: biến repo, bài X hoặc bài viết thành video bảng trắng bằng Meta Muse",
+          "summary": "metual mã nguồn mở biến một repo GitHub, bài đăng X hoặc bài viết thành video giải thích kiểu bảng trắng kèm tệp .excalidraw chỉnh sửa được, chạy bằng mô hình Meta Muse."
+        },
+        "fr": {
+          "title": "metual : transformer un dépôt, un post X ou un article en vidéo tableau blanc avec Meta Muse",
+          "summary": "Le projet open source metual transforme un dépôt GitHub, un post X ou un article en vidéo explicative façon tableau blanc, avec un fichier .excalidraw modifiable, grâce aux modèles Meta Muse."
+        },
+        "es": {
+          "title": "metual: convierte un repo, un post de X o un artículo en vídeo de pizarra con Meta Muse",
+          "summary": "El proyecto de código abierto metual convierte un repositorio de GitHub, un post de X o un artículo en un vídeo explicativo de pizarra más un archivo .excalidraw editable, con modelos Meta Muse."
+        },
+        "de": {
+          "title": "metual: Repo, X-Post oder Artikel mit Meta Muse in ein Whiteboard-Video verwandeln",
+          "summary": "Das Open-Source-Projekt metual macht aus einem GitHub-Repo, einem X-Post oder einem Artikel ein Whiteboard-Erklärvideo samt bearbeitbarer .excalidraw-Datei, angetrieben von Meta-Muse-Modellen."
+        }
+      },
+      "source_url": "https://github.com/slubbles/metual",
+      "source_name": "GitHub",
+      "author": "slubbles",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 0,
+      "src": "github",
+      "text": "slubbles/metual\nTurn a GitHub repo, X post or article into a whiteboard explainer video + editable .excalidraw. Powered by Meta Muse models.",
+      "media": [
+        "https://raw.githubusercontent.com/slubbles/metual/HEAD/docs/media/explainlike-self.gif",
+        "https://raw.githubusercontent.com/slubbles/metual/HEAD/docs/media/explainlike-self.contact.jpg"
+      ],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "A light whiteboard, marker-pen lines that swell and thin, a friendly handwriting font (Shantell Sans), and colors that mean something: red = problem, orange/……",
+        "Repos become a system design explainer on one evolving canvas: the architecture is built layer by layer, a dot walks one real request through it, then red ci……",
+        "Posts and articles become an annotated screenshot of the source (quotes underlined and boxed) followed by small concept boards. Every board node carries a ve……",
+        "No levels or themes to pick: Muse Spark reads the source first and decides the approach (analogy, story, step by step, build-up, compare, problem then soluti……",
+        "Paced for watching: every shot holds at least 3.5 s (4 s steady, 4.8 s slow), 8 to 15 cuts a minute, eased camera moves, one title on screen at a time, and t……",
+        "Checked twice: before rendering, every ring, arrow and label is checked against the camera plan and moved until it sits where it should. After rendering, the……",
+        "Interactive: in the web app, tap any box for a grounded explanation, get a 15-20 s deep-dive clip on it, or ask \"what if 10x traffic?\".",
+        "Play the video. Hit areas over the diagram line up with the boxes; tap one for a short explanation from Muse Spark, grounded in that box's evidence files, an……"
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-slubbles-metual",
+      "scen": [
+        "prs",
+        "social"
+      ]
+    },
+    {
+      "title": "Send to dot：把手机照片发进已有的 ChatGPT 对话",
+      "summary": "Hacker News 上的 Show HN 项目 Send to dot，可以把手机上的照片分享到你已有的 ChatGPT 对话里。",
+      "en": {
+        "title": "Send to dot: share a phone photo into an existing ChatGPT conversation",
+        "summary": "Send to dot, a Show HN project on Hacker News, lets you share a photo from your phone into a ChatGPT conversation you already have."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Send to dot：把手机照片发进已有的 ChatGPT 对话",
+          "summary": "Hacker News 上的 Show HN 项目 Send to dot，可以把手机上的照片分享到你已有的 ChatGPT 对话里。"
+        },
+        "zh-TW": {
+          "title": "Send to dot：把手機照片傳進既有的 ChatGPT 對話",
+          "summary": "Hacker News 上的 Show HN 專案 Send to dot，可以把手機上的照片分享到你既有的 ChatGPT 對話中。"
+        },
+        "en": {
+          "title": "Send to dot: share a phone photo into an existing ChatGPT conversation",
+          "summary": "Send to dot, a Show HN project on Hacker News, lets you share a photo from your phone into a ChatGPT conversation you already have."
+        },
+        "ja": {
+          "title": "Send to dot：スマホの写真を既存の ChatGPT 会話へ共有",
+          "summary": "Hacker News の Show HN 作品 Send to dot は、スマホの写真を既にある ChatGPT の会話に共有できる。"
+        },
+        "ko": {
+          "title": "Send to dot: 휴대폰 사진을 기존 ChatGPT 대화로 공유",
+          "summary": "Hacker News의 Show HN 프로젝트 Send to dot은 휴대폰 사진을 이미 있는 ChatGPT 대화로 공유할 수 있게 해 준다."
+        },
+        "ms": {
+          "title": "Send to dot: kongsi foto telefon ke perbualan ChatGPT sedia ada",
+          "summary": "Send to dot, projek Show HN di Hacker News, membolehkan anda berkongsi foto dari telefon ke perbualan ChatGPT yang sudah ada."
+        },
+        "vi": {
+          "title": "Send to dot: chia sẻ ảnh điện thoại vào cuộc trò chuyện ChatGPT sẵn có",
+          "summary": "Send to dot, một dự án Show HN trên Hacker News, cho phép chia sẻ ảnh từ điện thoại vào cuộc trò chuyện ChatGPT bạn đang có."
+        },
+        "fr": {
+          "title": "Send to dot : partager une photo du téléphone dans une conversation ChatGPT existante",
+          "summary": "Send to dot, projet Show HN sur Hacker News, permet de partager une photo du téléphone dans une conversation ChatGPT déjà ouverte."
+        },
+        "es": {
+          "title": "Send to dot: compartir una foto del móvil en una conversación de ChatGPT existente",
+          "summary": "Send to dot, un proyecto Show HN en Hacker News, permite compartir una foto del móvil en una conversación de ChatGPT que ya tienes."
+        },
+        "de": {
+          "title": "Send to dot: ein Handyfoto in einen bestehenden ChatGPT-Chat teilen",
+          "summary": "Send to dot, ein Show-HN-Projekt auf Hacker News, teilt ein Foto vom Handy in eine bereits bestehende ChatGPT-Unterhaltung."
+        }
+      },
+      "source_url": "https://github.com/bryanzk/send-to-dot",
+      "source_name": "Hacker News",
+      "author": "bryanzk",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-10-31",
+      "likes": 1,
+      "src": "hn",
+      "text": "Show HN: Send to dot–share a phone photo into your existing ChatGPT conversation",
+      "media": [],
+      "added_at": "2026-10-31T22:36:25.361Z",
+      "discussion": "https://news.ycombinator.com/item?id=50312465",
+      "usage_notes": null,
+      "outline": [
+        "A ChatGPT account that already uses dot and permits connecting your own app.",
+        "Your own Mac, kept awake, online and running the service.",
+        "Your own stable HTTPS address and any required hosting or network access.",
+        "Android with Chrome, or an iPhone with Shortcuts.",
+        "Have dot follow the installation guide, or prepare the service with the manual guide. Open your HTTPS address on your phone. Continue only when the “Send to ……",
+        "Connect your own ChatGPT custom app to https://YOUR-ADDRESS/mcp using OAuth. Complete the owner approval yourself. Continue only when ChatGPT shows the app i……",
+        "In your existing dot conversation, ask it to connect the inbox, respond there and send each original as an assistant attachment. The attachment guide explain……",
+        "Install and pair the Android web app, or add the iPhone Shortcut. Use a phone upload code, never the owner code. The signed Send to dot template configures t……"
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "hn-50312465",
+      "scen": [
+        "research"
       ]
     },
     {

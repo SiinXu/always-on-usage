@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2035 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2052 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-31T12:41:43.851Z
+- Last updated: 2026-10-31T22:36:25.361Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3237,6 +3237,91 @@
 - URL: https://usage.incidental.site/cases/x-ijkandco-2116508517310116057.html
 - Type: guide · Product: grok-bot · Author: ijkandco · Source: https://x.com/ijkandco/status/2116508517310116057 · Date: 2026-10-31
 - Summary: For restaurants without online booking, Grok Bot can make the call: give it the place, time and party size, it phones in a voice you pick, asks for the table, then sends you a transcript of what they actually said.
+
+### Emptying my head into OpenAI Dot before and after work
+- URL: https://usage.incidental.site/cases/x-yousefrol-2116638925318144223.html
+- Type: field-case · Product: openai-dots · Author: yousefrol · Source: https://x.com/yousefrol/status/2116638925318144223 · Date: 2026-10-31
+- Summary: Before starting and after finishing work (usually before bed), the author talks to OpenAI Dot to unload their thoughts. The next day it explains their ideas and intent back, follows their projects, runs security agents on them and keeps watching all day. It also collects their prompts, discusses any new pattern and adds it to their skills so they can mention a skill instead of rewriting. Weekend schedules, a study plan and a summary of what followers say go to it too.
+
+### Seven Grok Bots run a week-long launch as a relay
+- URL: https://usage.incidental.site/cases/x-gippp69-2116500774461014156.html
+- Type: field-case · Product: grok-bot · Author: gippp69 · Source: https://x.com/gippp69/status/2116500774461014156 · Date: 2026-10-31
+- Summary: The author's launch setup: one bot wakes on Monday morning and the other six have no schedule, each sleeping until the previous file lands and then passing the baton. A bad idea gets killed in writing before any code, and the money bot finds a domain under $40 and waits for a yes. The author says they closed the laptop on Monday and by Friday had a deck, a pull request and a domain on hold, with about 60 runs a week instead of 1,176 by their math. The prompt is in the replies.
+
+### Mr. Shorts, a free Grok Bot template for editing short videos
+- URL: https://usage.incidental.site/cases/x-smsonx-2116502131138052359.html
+- Type: field-case · Product: grok-bot · Author: smsonx · Source: https://x.com/smsonx/status/2116502131138052359 · Date: 2026-10-31
+- Summary: The author released the bot they use for every Short as a free template on the Grok Bot Marketplace. It asks a few setup questions to match your brand, cuts dead air and tightens pacing, captions in your style, puts names and logos on screen as you say them, builds the thumbnail from a real frame, and writes titles, captions and hashtags for YouTube, TikTok, Reels and X. You record, it edits, you approve; nothing goes live without your OK.
+
+### AbleLatch, a free Grok Bot template for people with disabilities and limited input
+- URL: https://usage.incidental.site/cases/x-calilumberjack-2116613678242164928.html
+- Type: field-case · Product: grok-bot · Author: CaliLumberJack · Source: https://x.com/CaliLumberJack/status/2116613678242164928 · Date: 2026-10-31
+- Summary: The author released AbleLatch, a free Grok Bot template with no paid tiers. Every screen is a short number menu where 8 is always Emergency and 0 is always Stop. It works with eye-gaze, switch, voice, sip-and-puff, AAC apps, BCI typing or a caregiver answering, in any language. It covers medication reminders, rides, groceries, home and VA help, and nothing is sent or bought without a yes.
+
+### Using a Dot to move a whole AI coding setup to Windows
+- URL: https://usage.incidental.site/cases/x-nnennahacks-2116643348245344330.html
+- Type: field-case · Product: openai-dots · Author: nnennahacks · Source: https://x.com/nnennahacks/status/2116643348245344330 · Date: 2026-10-31
+- Summary: The author's quick project: migrating their Codex setup on a Mac to the Copilot app and CLI on a Windows Surface, including 75+ skills, rule md files, scripts and tooling for Python, Rust, Go and Node/JS. The transport system is their Dot, carrying it over as a zip folder.
+
+### A 12-prompt Grok Bot system for LinkedIn posts
+- URL: https://usage.incidental.site/cases/x-harrytandy-2116641608841982404.html
+- Type: guide · Product: grok-bot · Author: HarryTandy · Source: https://x.com/HarryTandy/status/2116641608841982404 · Date: 2026-10-31
+- Summary: The post describes how @paolo_scales turned the research, evidence and review that LinkedIn posts usually skip into 12 Grok Bot prompts: load your buyers, positioning, approved proof and real voice; mine sales calls, closed-lost notes and X for questions; turn transcripts into a 4-week calendar and drafts with one argument; score drafts against a 100-point rubric and check every claim; connect posts to stalled deals and tracked results; and feed your edits back into the voice guide. Grok Bot prepares research, drafts and reports, while you keep the opinion, evidence and every publish decision.
+
+### Building a 14-department org out of Grok Bot
+- URL: https://usage.incidental.site/cases/x-razeden0-2116651121099890849.html
+- Type: field-case · Product: grok-bot · Author: razeden0 · Source: https://x.com/razeden0/status/2116651121099890849 · Date: 2026-10-31
+- Summary: Following an article, the author spent two evenings building a hierarchy: Grok Bot as the boss, 14 lead bots running departments and about 200 agents doing the work, with output landing in /workspace/drafts for approval. Steps: a 10-minute voice memo that Grok Bot turned into 14 job cards, 5 auto-review rules instead of approvals, and starting with 1 bot and adding 1 a day so two bots never fight over one job. They report that in week one the inbox handled 2,393 of 2,431 emails and QA ran 126 tests with 0 fails, for about $202 a month. Anything involving money or a signature waits for their yes.
+
+### A personal 'Grok Bot for Dummies', chapter 1: a coworker, not a chatbot
+- URL: https://usage.incidental.site/cases/x-belokstudio-2116635944598045113.html
+- Type: guide · Product: grok-bot · Author: belok_studio · Source: https://x.com/belok_studio/status/2116635944598045113 · Date: 2026-10-31
+- Summary: The author lists what Grok Bot does for them: it spins up helper bots and delegates to them; typing 'make the button pink' gets handed to a Cursor agent and comes back as a ready pull request; it builds live dashboards and mini tools in the chat with no code from them; it joins Zoom or Google Meet calls and takes notes; it has its own email inbox and its own computer with a browser; and it makes videos and images itself.
+
+### Edited!, a Meta Muse agent that turns long videos into shorts
+- URL: https://usage.incidental.site/cases/x-frmtradedrm-2116609521300971520.html
+- Type: field-case · Product: meta-muse · Author: frmtradedrm · Source: https://x.com/frmtradedrm/status/2116609521300971520 · Date: 2026-10-31
+- Summary: The author built Edited!, an AI agent that turns long videos into shorts: it finds the hook, crops to 9:16 and adds animated subtitles, built on Meta Muse. There is a free live demo with no signup, the code is open source, and it was made for the Meta AI Hackathon.
+
+### Got a pumpkin? Three asks for Grok Bot
+- URL: https://usage.incidental.site/cases/x-grokbotguide-2116508643797709097.html
+- Type: guide · Product: grok-bot · Author: grokbotguide · Source: https://x.com/grokbotguide/status/2116508643797709097 · Date: 2026-10-31
+- Summary: The post offers three ready-made asks: three easy pumpkin designs for a first-timer with simple steps; a soup for four from the pumpkin flesh in under 40 minutes; and short steps for roasting the seeds with oven temperature and time.
+
+### One user, 2.5 months with Grok Bot: 183 PRs across 12 projects
+- URL: https://usage.incidental.site/cases/x-grokbotusecases-2116508143555580205.html
+- Type: field-case · Product: grok-bot · Author: grokbotusecases · Source: https://x.com/grokbotusecases/status/2116508143555580205 · Date: 2026-10-31
+- Summary: The post says one user spent 2.5 months with Grok Bot and opened 183 pull requests on 12 projects at once, including 3 iOS apps, 3 websites and a family security shield.
+
+### Open-source Android assistant: screenshot plus voice question to a Grok Bot
+- URL: https://usage.incidental.site/cases/gh-github-com-nwcnwc-android-assist-bot.html
+- Type: field-case · Product: grok-bot · Author: nwcnwc · Source: https://github.com/nwcnwc/android-assist-bot · Date: 2026-10-31
+- Summary: The open-source android-assist-bot sends an Android screenshot and a spoken question to a Grok Bot and shows the answer as a notification. It was inspired by Everest's Action Button Bot.
+
+### grokbot-blueprint: a base workspace a Grok Bot sets up for itself
+- URL: https://usage.incidental.site/cases/gh-github-com-six20am-grokbot-blueprint.html
+- Type: guide · Product: grok-bot · Author: six20am · Source: https://github.com/six20am/grokbot-blueprint · Date: 2026-10-31
+- Summary: The grokbot-blueprint repo is a base workspace a Grok Bot sets up for itself: four questions, six filing styles, three routing layers, a voice file and a gap skill.
+
+### call-grokbot: call your existing Grok Bots from Codex and Claude Code
+- URL: https://usage.incidental.site/cases/gh-github-com-zenshq-call-grokbot.html
+- Type: field-case · Product: grok-bot · Author: ZensHQ · Source: https://github.com/ZensHQ/call-grokbot · Date: 2026-10-31
+- Summary: Zens AI's call-grokbot is an MCP tool that lets you call your existing Grok Bots from Codex and Claude Code, signing in through the official browser login.
+
+### pallas-growth: an always-on AI growth team for Meta ads on Muse
+- URL: https://usage.incidental.site/cases/gh-github-com-pallas-ads-pallas-growth.html
+- Type: field-case · Product: meta-muse · Author: Pallas-ads · Source: https://github.com/Pallas-ads/pallas-growth · Date: 2026-10-31
+- Summary: The pallas-growth repo describes itself as an always-on AI growth team for Meta ads, built on Meta's Muse models.
+
+### metual: turn a repo, X post or article into a whiteboard video with Meta Muse
+- URL: https://usage.incidental.site/cases/gh-github-com-slubbles-metual.html
+- Type: field-case · Product: meta-muse · Author: slubbles · Source: https://github.com/slubbles/metual · Date: 2026-10-31
+- Summary: The open-source metual turns a GitHub repo, an X post or an article into a whiteboard explainer video plus an editable .excalidraw file, powered by Meta Muse models.
+
+### Send to dot: share a phone photo into an existing ChatGPT conversation
+- URL: https://usage.incidental.site/cases/hn-50312465.html
+- Type: field-case · Product: openai-dots · Author: bryanzk · Source: https://github.com/bryanzk/send-to-dot · Date: 2026-10-31
+- Summary: Send to dot, a Show HN project on Hacker News, lets you share a photo from your phone into a ChatGPT conversation you already have.
 
 ### A trading journal with Grok Bot and Notion
 - URL: https://usage.incidental.site/cases/x-jacexbt-2116145975832334787.html
