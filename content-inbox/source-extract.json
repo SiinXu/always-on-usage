@@ -9281,5 +9281,97 @@
   ],
   "kind": "github",
   "fetched_at": "2026-10-31"
+ },
+ "https://github.com/nwcnwc/android-assist-bot": {
+  "text": "Ask Button is a small Android app that does what Everest's iPhone Action Button Bot does, on any phone. Hold the assistant gesture on a reel, video, or page, ask out loud, and the app posts the question, the link, the on-screen text, and a screenshot to a Grok Bot routine webhook. The bot answers in its own chat. The Grok Bot app delivers that as its own push notification. This app does not read the webhook response.",
+  "media": [],
+  "outline": [
+   "Open the link above on the phone.",
+   "Allow the browser to install unknown apps when Android asks.",
+   "Tap Install. Updates install over the same app only when they are signed with this certificate.",
+   "Open the bot, then its details, then Routines.",
+   "Add a webhook trigger and save the routine. Leave it Active.",
+   "Open the routine again. The Webhook section has POST to, key, and header. Click a field to copy it.",
+   "In Ask Button, paste POST to into Webhook URL.",
+   "Paste header into Authorization header. You can paste the full Authorization: Bearer … line or only Bearer …. The app strips a leading Authorization: label a…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-31"
+ },
+ "https://github.com/six20am/grokbot-blueprint": {
+  "text": "This repo was a vendor-specific copy of the Workspace Blueprint. It is archived and read-only.",
+  "media": [],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-31"
+ },
+ "https://github.com/ZensHQ/call-grokbot": {
+  "text": "Ask your existing **Grok Bots** from **Codex** and **Claude Code**. A local stdio MCP server sends one self-contained task, reads incremental replies, and can interrupt a contacted bot. Your bot keeps its existing conversation, memory, and connected tools.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/ZensHQ/call-grokbot/main/docs/assets/demo-cover.jpg"
+   }
+  ],
+  "outline": [
+   "Install Node.js 22.13+, npm, and Git.",
+   "Install and sign in to the client you want to use: Codex or Claude Code.",
+   "Install the official Cursor CLI.",
+   "Have a Grok Bot account and at least one existing bot. Use the exact bot name",
+   "Unconfirmed send: the message ID is saved before dispatch. Use check to",
+   "Cancellation / stream error: the unread cursor is preserved. If a message",
+   "Pending task: a second ask is refused until check observes completion.",
+   "Corrupt state or transcript reset: fail closed. Back up state.json and"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-31"
+ },
+ "https://github.com/Pallas-ads/pallas-growth": {
+  "text": "An always-on AI growth team for Meta ads, built on Meta's Muse models for the Meta Global AI Developer Hackathon (Indie developer track).",
+  "media": [],
+  "outline": [],
+  "kind": "github",
+  "fetched_at": "2026-10-31"
+ },
+ "https://github.com/slubbles/metual": {
+  "text": "Paste a GitHub repo, an X post or an article. Get a **whiteboard explainer video** (mp4) and **editable boards** of it (a `.tldr` for tldraw.com and an `.excalidraw` for excalidraw.com).",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/slubbles/metual/HEAD/docs/media/explainlike-self.gif"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/slubbles/metual/HEAD/docs/media/explainlike-self.contact.jpg"
+   }
+  ],
+  "outline": [
+   "A light whiteboard, marker-pen lines that swell and thin, a friendly handwriting font (Shantell Sans), and colors that mean something: red = problem, orange/…",
+   "Repos become a system design explainer on one evolving canvas: the architecture is built layer by layer, a dot walks one real request through it, then red ci…",
+   "Posts and articles become an annotated screenshot of the source (quotes underlined and boxed) followed by small concept boards. Every board node carries a ve…",
+   "No levels or themes to pick: Muse Spark reads the source first and decides the approach (analogy, story, step by step, build-up, compare, problem then soluti…",
+   "Paced for watching: every shot holds at least 3.5 s (4 s steady, 4.8 s slow), 8 to 15 cuts a minute, eased camera moves, one title on screen at a time, and t…",
+   "Checked twice: before rendering, every ring, arrow and label is checked against the camera plan and moved until it sits where it should. After rendering, the…",
+   "Interactive: in the web app, tap any box for a grounded explanation, get a 15-20 s deep-dive clip on it, or ask \"what if 10x traffic?\".",
+   "Play the video. Hit areas over the diagram line up with the boxes; tap one for a short explanation from Muse Spark, grounded in that box's evidence files, an…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-31"
+ },
+ "https://github.com/bryanzk/send-to-dot": {
+  "text": "**English** | 简体中文",
+  "media": [],
+  "outline": [
+   "A ChatGPT account that already uses dot and permits connecting your own app.",
+   "Your own Mac, kept awake, online and running the service.",
+   "Your own stable HTTPS address and any required hosting or network access.",
+   "Android with Chrome, or an iPhone with Shortcuts.",
+   "Have dot follow the installation guide, or prepare the service with the manual guide. Open your HTTPS address on your phone. Continue only when the “Send to …",
+   "Connect your own ChatGPT custom app to https://YOUR-ADDRESS/mcp using OAuth. Complete the owner approval yourself. Continue only when ChatGPT shows the app i…",
+   "In your existing dot conversation, ask it to connect the inbox, respond there and send each original as an assistant attachment. The attachment guide explain…",
+   "Install and pair the Android web app, or add the iPhone Shortcut. Use a phone upload code, never the owner code. The signed Send to dot template configures t…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-31"
  }
 }

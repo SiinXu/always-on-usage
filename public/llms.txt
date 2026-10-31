@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2035 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2052 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-31T12:41:43.851Z
+- Last updated: 2026-10-31T22:36:25.361Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -631,6 +631,23 @@
 - /cases/gh-github-com-alfred429-super-dot.html: super-dot: personal assistant foundations for OpenAI Dots (guide) <https://github.com/alfred429/super-dot>
 - /cases/x-nashbriggsy-2116497504891994141.html: One job per bot, one log line per action (field-case) <https://x.com/NashBriggsy/status/2116497504891994141>
 - /cases/x-ijkandco-2116508517310116057.html: Let Grok Bot call restaurants to book a table (guide) <https://x.com/ijkandco/status/2116508517310116057>
+- /cases/x-yousefrol-2116638925318144223.html: Emptying my head into OpenAI Dot before and after work (field-case) <https://x.com/yousefrol/status/2116638925318144223>
+- /cases/x-gippp69-2116500774461014156.html: Seven Grok Bots run a week-long launch as a relay (field-case) <https://x.com/gippp69/status/2116500774461014156>
+- /cases/x-smsonx-2116502131138052359.html: Mr. Shorts, a free Grok Bot template for editing short videos (field-case) <https://x.com/smsonx/status/2116502131138052359>
+- /cases/x-calilumberjack-2116613678242164928.html: AbleLatch, a free Grok Bot template for people with disabilities and limited input (field-case) <https://x.com/CaliLumberJack/status/2116613678242164928>
+- /cases/x-nnennahacks-2116643348245344330.html: Using a Dot to move a whole AI coding setup to Windows (field-case) <https://x.com/nnennahacks/status/2116643348245344330>
+- /cases/x-harrytandy-2116641608841982404.html: A 12-prompt Grok Bot system for LinkedIn posts (guide) <https://x.com/HarryTandy/status/2116641608841982404>
+- /cases/x-razeden0-2116651121099890849.html: Building a 14-department org out of Grok Bot (field-case) <https://x.com/razeden0/status/2116651121099890849>
+- /cases/x-belokstudio-2116635944598045113.html: A personal 'Grok Bot for Dummies', chapter 1: a coworker, not a chatbot (guide) <https://x.com/belok_studio/status/2116635944598045113>
+- /cases/x-frmtradedrm-2116609521300971520.html: Edited!, a Meta Muse agent that turns long videos into shorts (field-case) <https://x.com/frmtradedrm/status/2116609521300971520>
+- /cases/x-grokbotguide-2116508643797709097.html: Got a pumpkin? Three asks for Grok Bot (guide) <https://x.com/grokbotguide/status/2116508643797709097>
+- /cases/x-grokbotusecases-2116508143555580205.html: One user, 2.5 months with Grok Bot: 183 PRs across 12 projects (field-case) <https://x.com/grokbotusecases/status/2116508143555580205>
+- /cases/gh-github-com-nwcnwc-android-assist-bot.html: Open-source Android assistant: screenshot plus voice question to a Grok Bot (field-case) <https://github.com/nwcnwc/android-assist-bot>
+- /cases/gh-github-com-six20am-grokbot-blueprint.html: grokbot-blueprint: a base workspace a Grok Bot sets up for itself (guide) <https://github.com/six20am/grokbot-blueprint>
+- /cases/gh-github-com-zenshq-call-grokbot.html: call-grokbot: call your existing Grok Bots from Codex and Claude Code (field-case) <https://github.com/ZensHQ/call-grokbot>
+- /cases/gh-github-com-pallas-ads-pallas-growth.html: pallas-growth: an always-on AI growth team for Meta ads on Muse (field-case) <https://github.com/Pallas-ads/pallas-growth>
+- /cases/gh-github-com-slubbles-metual.html: metual: turn a repo, X post or article into a whiteboard video with Meta Muse (field-case) <https://github.com/slubbles/metual>
+- /cases/hn-50312465.html: Send to dot: share a phone photo into an existing ChatGPT conversation (field-case) <https://github.com/bryanzk/send-to-dot>
 - /cases/x-jacexbt-2116145975832334787.html: A trading journal with Grok Bot and Notion (field-case) <https://x.com/j_acexbt/status/2116145975832334787>
 - /cases/x-yetitechmemo-2116146079045767565.html: A health dashboard and meal log from Garmin data and Grok Bot (field-case) <https://x.com/yeti_techmemo/status/2116146079045767565>
 - /cases/x-grokbotguide-2116145864981041238.html: Three asks for Grok Bot before a job interview (guide) <https://x.com/grokbotguide/status/2116145864981041238>
