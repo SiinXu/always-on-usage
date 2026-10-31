@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2015 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2035 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-10-30T22:41:12.016Z
+- Last updated: 2026-10-31T12:41:43.851Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3152,6 +3152,91 @@
 - URL: https://usage.incidental.site/cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
+
+### Grok Bot booked museum tickets for a whole trip
+- URL: https://usage.incidental.site/cases/x-kiaraplds-2116478547204223074.html
+- Type: field-case · Product: grok-bot · Author: kiaraplds · Source: https://x.com/kiaraplds/status/2116478547204223074 · Date: 2026-10-31
+- Summary: The author had Grok Bot plan next week's trip, book museum tickets (even creating accounts to get discounts) and book transportation. All confirmations arrived in the inbox.
+
+### A team of Grok Bots prints a weekday morning newspaper
+- URL: https://usage.incidental.site/cases/x-archl33t-2116467729708269630.html
+- Type: field-case · Product: grok-bot · Author: arch_l33t · Source: https://x.com/arch_l33t/status/2116467729708269630 · Date: 2026-10-31
+- Summary: Every weekday morning the author's Grok Bots produce a 4-page PDF newspaper with a comic and a crossword; a "My Day" section writes up the calendar. The thread covers how it works, which bots make it, and templates to copy.
+
+### Inbox bot trashed 1,000+ marketing emails in a week
+- URL: https://usage.incidental.site/cases/x-thecsguy-2116493637269721324.html
+- Type: field-case · Product: grok-bot · Author: thecsguy · Source: https://x.com/thecsguy/status/2116493637269721324 · Date: 2026-10-31
+- Summary: The author's Grok Bot trashed over 1,000 marketing emails last week without clicking any unsubscribe link. It followed a do-not-touch list (Amazon, Costco, GitHub, USPS) and skipped 3 threads on its own because they were real conversations.
+
+### Planning a Hawaii trip with Grok Bot
+- URL: https://usage.incidental.site/cases/x-nucleartide-2116508500519960695.html
+- Type: field-case · Product: grok-bot · Author: nucleartide · Source: https://x.com/nucleartide/status/2116508500519960695 · Date: 2026-10-31
+- Summary: The author uses Grok Bot to automate chores: finding the best flights and hotels for a Hawaii trip with their partner, then planning an itinerary around the chosen flights and hotels.
+
+### How Grok Bot orchestrates StatementBridge development
+- URL: https://usage.incidental.site/cases/x-erwinfennema-2116502015408812422.html
+- Type: field-case · Product: grok-bot · Author: erwin_fennema · Source: https://x.com/erwin_fennema/status/2116502015408812422 · Date: 2026-10-31
+- Summary: The author's setup: Grok Bot coordinates and hands out the task, a Cursor cloud agent writes the code and opens a GitHub pull request, OpenAI Codex reviews it, and Render deploys with new features off until the author approves.
+
+### A 3-person consultancy runs two Dots as assistant and PM
+- URL: https://usage.incidental.site/cases/x-timboloman-2116485721972494345.html
+- Type: field-case · Product: openai-dots · Author: timboloman · Source: https://x.com/timboloman/status/2116485721972494345 · Date: 2026-10-31
+- Summary: The author owns a 3-person consultancy and says AI now gives them the equivalent of 2 developers, a web developer, an IT person, an executive assistant (Frank, a Dot) and a development project manager (Sam, another Dot).
+
+### Two weeks of using voice with a Dot
+- URL: https://usage.incidental.site/cases/x-andrewm4894-2116508516227711328.html
+- Type: field-case · Product: openai-dots · Author: andrewm4894 · Source: https://x.com/andrewm4894/status/2116508516227711328 · Date: 2026-10-31
+- Summary: After a couple of weeks of voice with their Dot, the author finds it amazing but slower, with limits on scanning across work. By text they easily manage 10 threads and jump around; by voice it is much harder and more stressful.
+
+### A Dot refused standing approval to merge PRs
+- URL: https://usage.incidental.site/cases/x-tomrford-2116482298488967583.html
+- Type: field-case · Product: openai-dots · Author: tomrford · Source: https://x.com/tomrford/status/2116482298488967583 · Date: 2026-10-31
+- Summary: The author gave their Dot standing authorisation to approve and merge PRs meeting set criteria. It refused, saying every PR vote needs human approval, and the author asked OpenAI to stop this defensive auto-review behaviour.
+
+### Grok Bot cleared 3,000+ unread emails
+- URL: https://usage.incidental.site/cases/x-danilifique-2116497898573824047.html
+- Type: field-case · Product: grok-bot · Author: Danilifique · Source: https://x.com/Danilifique/status/2116497898573824047 · Date: 2026-10-31
+- Summary: The author had over 3,000 unread emails: years of receipts, promos and unread newsletters. Grok Bot sorted everything into folders and set up filters, so new mail now goes where it belongs on its own.
+
+### A scannable digital business card with Grok Bot Pages
+- URL: https://usage.incidental.site/cases/x-michaelfenech-2116506975681081523.html
+- Type: guide · Product: grok-bot · Author: Michael_Fenech_ · Source: https://x.com/Michael_Fenech_/status/2116506975681081523 · Date: 2026-10-31
+- Summary: The author had Grok Bot build a business card as a Grok Bot Page with photo, name and contact details, plus a QR code and a lock-screen version. The full prompt covers collecting details, scripting the photo, building the card, then generating and decoding the QR to verify the link.
+
+### Talk to the TV and Grok Bot plays a video
+- URL: https://usage.incidental.site/cases/x-marcoporro-2116501384917061837.html
+- Type: field-case · Product: grok-bot · Author: MarcoPorro · Source: https://x.com/MarcoPorro/status/2116501384917061837 · Date: 2026-10-31
+- Summary: Testing OmarchyTV, the author told the TV "play a DHH video" and Grok Bot put one on in Cinemarchy. How: the TV calls the author's own Grok Bot webhook routine, which replies via ntfy, and it works with the PC off.
+
+### Letting Meta Muse consult other LLMs for ideas
+- URL: https://usage.incidental.site/cases/x-z99999999922-2116498098495406261.html
+- Type: field-case · Product: meta-muse · Author: z99999999922 · Source: https://x.com/z99999999922/status/2116498098495406261 · Date: 2026-10-31
+- Summary: Wanting Meta Muse to use Laya, the author first asked Muse for ideas, then gave it several LLM APIs so it could consult other models. Many ideas came up that Muse had not thought of, and the author found having Muse use other LLMs works fairly well.
+
+### A Dot cloud workspace rolled back six days
+- URL: https://usage.incidental.site/cases/x-zhenjie71486-2116472843521442264.html
+- Type: field-case · Product: openai-dots · Author: ZhenJie71486 · Source: https://x.com/ZhenJie71486/status/2116472843521442264 · Date: 2026-10-31
+- Summary: The author reports their Dot cloud workspace reverted to Oct 25 around 09:52 UTC that day. Their latest game projects were missing and disk size changed from 32GB to 63GB, and they asked OpenAI to restore the pre-incident workspace.
+
+### Wake Grok Bot when a T3 Code turn ends
+- URL: https://usage.incidental.site/cases/gh-github-com-doubledipcode-grokbot-t3-bridge.html
+- Type: guide · Product: grok-bot · Author: DoubleDipCode · Source: https://github.com/DoubleDipCode/grokbot-t3-bridge · Date: 2026-10-31
+- Summary: The open-source grokbot-t3-bridge wakes your Grok Bot when a T3 Code coding turn ends, with T3 MCP setup, harness-agnostic Stop hooks and webhook callbacks.
+
+### super-dot: personal assistant foundations for OpenAI Dots
+- URL: https://usage.incidental.site/cases/gh-github-com-alfred429-super-dot.html
+- Type: guide · Product: openai-dots · Author: alfred429 · Source: https://github.com/alfred429/super-dot · Date: 2026-10-31
+- Summary: The open-source super-dot repo provides personal assistant foundations for OpenAI Dots: a knowledge vault, a journal, life areas, skills and tools.
+
+### One job per bot, one log line per action
+- URL: https://usage.incidental.site/cases/x-nashbriggsy-2116497504891994141.html
+- Type: field-case · Product: grok-bot · Author: NashBriggsy · Source: https://x.com/NashBriggsy/status/2116497504891994141 · Date: 2026-10-31
+- Summary: The author's team runs a small fleet of Grok Bot bots, one job each. What made it work was a log line for every action, so you can check what each one actually did.
+
+### Let Grok Bot call restaurants to book a table
+- URL: https://usage.incidental.site/cases/x-ijkandco-2116508517310116057.html
+- Type: guide · Product: grok-bot · Author: ijkandco · Source: https://x.com/ijkandco/status/2116508517310116057 · Date: 2026-10-31
+- Summary: For restaurants without online booking, Grok Bot can make the call: give it the place, time and party size, it phones in a voice you pick, asks for the table, then sends you a transcript of what they actually said.
 
 ### A trading journal with Grok Bot and Notion
 - URL: https://usage.incidental.site/cases/x-jacexbt-2116145975832334787.html
@@ -9658,6 +9743,16 @@
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
 
+### Agent rankings from someone paying for all of them
+- URL: https://usage.incidental.site/cases/x-midwit-2116428311618556141.html
+- Type: comparison · Product: multi · Author: midwit · Source: https://x.com/midwit/status/2116428311618556141 · Date: 2026-10-31
+- Summary: With 3 Claude Max plans, a $500 Codex plan and a max Grok Bot plan, the author ranks: 1) ChatGPT Dots for elite voice calling, 2) Grok Bot, which would be first but its usage limits force weekly workflows to adapt, 3) Claude Duet.
+
+### Trying OpenAI Dots, compared with Grok Bot
+- URL: https://usage.incidental.site/cases/x-fmartinezgodoy-2116405846456311990.html
+- Type: comparison · Product: multi · Author: fmartinezgodoy · Source: https://x.com/fmartinezgodoy/status/2116405846456311990 · Date: 2026-10-31
+- Summary: The author liked Dots' idea of an orchestrator of sessions, but says Grok Bot feels more like a team already working than one chat driving tabs. Next they want bots running Claude Code on their own VMs.
+
 ### ChatGPT Dot vs Grok Bot on rework, from real use
 - URL: https://usage.incidental.site/cases/x-stautomation-2116140049947644309.html
 - Type: comparison · Product: multi · Author: ST_Automation · Source: https://x.com/ST_Automation/status/2116140049947644309 · Date: 2026-10-30
@@ -10102,6 +10197,11 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### Where 74% of a weekly Grok Bot limit went
+- URL: https://usage.incidental.site/cases/x-zhouruijin-2116501095254290554.html
+- Type: quota-report · Product: grok-bot · Author: zhouruijin · Source: https://x.com/zhouruijin/status/2116501095254290554 · Date: 2026-10-31
+- Summary: Before the weekly reset the author was at 74%. The bot's breakdown: 64% chatting with bots, 16% one routine scanning X trends every 30 minutes (about 238 runs a week), 20% briefs, a stock scout and a nightly audit.
 
 ### Saving quota: local scripts that wake the bot only when needed
 - URL: https://usage.incidental.site/cases/x-z80srl-2116145921520238674.html

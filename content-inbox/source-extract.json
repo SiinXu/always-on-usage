@@ -9249,5 +9249,37 @@
   ],
   "kind": "github",
   "fetched_at": "2026-10-29"
+ },
+ "https://github.com/DoubleDipCode/grokbot-t3-bridge": {
+  "text": "Connect Grok Bot agents to T3 Code (source) and get woken up when a coding thread finishes, instead of polling it.",
+  "media": [],
+  "outline": [
+   "Connect T3 Code to Grok Bot. Turn on T3 Connect remote access in T3 Code, then add T3's remote MCP as a connector in Grok Bot and authorize it with OAuth. De…",
+   "Install the hook on the machine that runs T3 Code:",
+   "Trust the hook in Codex. Run codex, type /hooks, and trust the \"Notifying Grok Bot\" hook. Claude Code has no trust step. See docs/hooks.md.",
+   "Create a webhook routine per bot in Grok Bot, named \"T3 callback\", using templates/routine-prompt.md as its prompt. Copy its URL and Authorization header fro…",
+   "Store each bot's webhook on the Mac (or Linux machine):",
+   "Add the brief footer from templates/brief-footer.md to every brief the bot sends to T3. It tells the coding agent to write the .grokbot marker and a .grokbot…",
+   "Test it. Have the bot launch a small thread, then watch ~/.grokbot-hooks/notify.log. You should see a status= line followed by webhook http=200.",
+   "The hook only tells you that a turn ended. Everything else comes from reading the thread through the MCP."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-31"
+ },
+ "https://github.com/alfred429/super-dot": {
+  "text": "Version: 1.3.0 · 2026-10-31",
+  "media": [],
+  "outline": [
+   "A personal knowledge vault: Personal, Family, Work, Hobbies, Money and Wellbeing.",
+   "Memory and reflection: “Note it,” source-linked knowledge, morning prompts and evening journals.",
+   "Focused help: brainstorming, Grill Me, Prompt Master, debugging, Ponytail and i-have-adhd.",
+   "Room to grow: project starters, skill creation/vetting, research, routines and gentle vault care.",
+   "Connected creation: Notion, Apple Keychain guidance, hosting, web research and Hyperframes.",
+   "Planning and content: ClickUp, n8n social-media automations and Higgsfield premium media.",
+   "Ongoing care: vault/Notion organisation, daily storage reports, instruction review and grouped",
+   "“Note it: I'd like to learn wildlife photography.”"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-10-31"
  }
 }

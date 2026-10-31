@@ -81230,19 +81230,6 @@
    "found_at": "2026-10-31T05:52:18.786Z"
   },
   {
-   "id": "gh:github.com/alfred429/super-dot",
-   "url": "https://github.com/alfred429/super-dot",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "alfred429",
-   "date": "2026-10-31",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "alfred429/super-dot\nPersonal assistant foundations for OpenAI Dots: knowledge vault, journal, life areas, skills and tools.",
-   "media": [],
-   "found_at": "2026-10-31T05:53:33.372Z"
-  },
-  {
    "id": "gh:github.com/5dive-ai/5dive/pull/1499",
    "url": "https://github.com/5dive-ai/5dive/pull/1499",
    "source": "github",
@@ -81759,19 +81746,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "Apenguin72/phone-versus\nfor grok bot test",
-   "media": [],
-   "found_at": "2026-10-31T05:54:46.649Z"
-  },
-  {
-   "id": "gh:github.com/doubledipcode/grokbot-t3-bridge",
-   "url": "https://github.com/DoubleDipCode/grokbot-t3-bridge",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "DoubleDipCode",
-   "date": "2026-10-31",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "DoubleDipCode/grokbot-t3-bridge\nWake your Grok Bot when a T3 Code coding turn ends: T3 MCP setup, harness-agnostic Stop hooks, webhook callbacks.",
    "media": [],
    "found_at": "2026-10-31T05:54:46.649Z"
   },
@@ -83030,32 +83004,6 @@
    "found_at": "2026-10-31T12:36:45.000Z"
   },
   {
-   "id": "x:2116508517310116057",
-   "url": "https://x.com/ijkandco/status/2116508517310116057",
-   "source": "x",
-   "source_name": "X",
-   "author": "ijkandco",
-   "date": "2026-10-31",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Hate calling restaurants that don't do online booking? Grok Bot can make the call for you. You give it the place, time and party size, it phones them in a voice you pick, asks for the table, then sends you the transcript of what they actually said. Saturday night spots with no",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.000Z"
-  },
-  {
-   "id": "x:2116508500519960695",
-   "url": "https://x.com/nucleartide/status/2116508500519960695",
-   "source": "x",
-   "source_name": "X",
-   "author": "nucleartide",
-   "date": "2026-10-31",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Kinda obsessed with Grok @bot. I have simple use cases so far, but it’s been so fun to automate some chores:\n\n- Find the best flights for a Hawaii trip for my partner and I\n- Find the best hotels for the same Hawaii trip\n- Plan an itinerary given our selected flights and hotels\n-",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.000Z"
-  },
-  {
    "id": "x:2116508489962971184",
    "url": "https://x.com/bot/status/2116508489962971184",
    "source": "x",
@@ -83292,21 +83240,6 @@
    "found_at": "2026-10-31T12:36:45.001Z"
   },
   {
-   "id": "x:2116506975681081523",
-   "url": "https://x.com/Michael_Fenech_/status/2116506975681081523",
-   "source": "x",
-   "source_name": "X",
-   "author": "Michael_Fenech_",
-   "date": "2026-10-31",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "Grok Bot just built me a digital business card people can scan straight from my phone.\n\nIt uses Grok Bot Pages to create your card with your photo, name and contact details. \n\nIt also generates a scannable QR code you can save on your phone to use whenever someone asks for your details.\n\nHere’s the full prompt to create yours, complete with a public link and QR code. \n\n“Build me a digital business card as a Grok Bot Page, plus a QR code that opens it. Work step by step and check each step before moving on.\n\n1 - Ask me for my details\n\nAsk in one short message, all at once: full name, title, phone number, email, website, a photo of me and colour preference.\n\nFor the photo, ask for the original, high-resolution file, at least 1,500 pixels tall, ideally with a transparent background (a cut-out PNG). Chat apps often shrink photos, so ask for the original.\n\nDefault colours: dark navy with a blue accent.\n\nWait for my answers. Don’t invent anything. If something is missing, leave it off rather than using a placeholder.\n\n2 - Prepare the photo\n\nCheck its resolution with a script. If it’s under about 1,000 pixels tall, tell me it may look blurry and ask for a bigger file before continuing.\n\nIf the background isn’t transparent, remove it or ask me for a cut-out.\n\nCrop from just above the head to about the waist. Resize it to about twice the size it will display at, roughly 800 pixels tall, and save it as a WebP with transparency at quality 80, aiming for under 60,000 characters once base64-encoded.\n\nEncode it to base64 with a script, never by hand. Record its length and MD5 checksum.\n\n3 - Build the Page\n\nRead the canvas skill first.\n\nMake it look like a real physical business card: landscape, 85:55 ratio, rounded corners, soft shadow, centred on the page.\n\nSize: maxWidth \"min(900px, max(70vw, 600px), calc(80vh * 85 / 55))\", width 100%, so it’s big on desktop and shrinks on a phone.\n\nLeft side: name in large bold white, title in a light accent colour, a short accent line, then phone, email and website, each with a Lucide icon (phone, mail, globe) in the accent colour. Phone uses tel:, email uses mailto:, website opens in a new tab.\n\nRight side: the photo, standing on the card’s bottom edge and running off the right edge, with a faint glow behind it.\n\nBackground: a dark gradient in my colours. All text scales with the card’s width.\n\nKeep every detail (name, title, phone, email, website, colours) in one list at the top of the code, so each is easy to edit later.\n\nEmbed the photo as a data URL inside the Page.\n\nAfter saving, read the Page back and confirm the embedded photo matches the file’s length and MD5 exactly. If it doesn’t, fix it and check again.\n\n4 - Publish\n\nGive me the Page link, and tell me to turn on public link sharing from the Page’s share menu. Ask me to paste back the public link.\n\nRemind me that anyone with the link can see it, so only include details I’m happy to share publicly.\n\n5 - Create the QR code\n\nOnce I’ve sent the public link, use a Python script (qrcode or segno, plus Pillow) to make a 1,200 by 1,200 pixel QR code for it: error correction H, a white margin, dark modules in the card’s main colour.\n\nPut the Grok Bot icon in the centre on a white rounded square, covering no more than 20% of the code’s width.\n\nAlso make a phone lock-screen version (1179 by 2556 pixels): card-colour background, the QR code centred on a white rounded panel, with ‘Scan for my card’ in bold white underneath.\n\nDecode both images with a QR reader (zxing-cpp or pyzbar) and confirm they match the link character for character. Only then send them to me.\n\n6 - Hand over\n\nSend me the card link and both QR images.\n\nRemind me to save the QR image to my phone’s favourites, or set the lock-screen version as my wallpaper, so people can scan my phone at events.\n\nThen offer to change anything: colours, layout or details.”",
-   "media": [
-    "https://pbs.twimg.com/media/HV7Qr1UbIAAofdW.jpg"
-   ],
-   "found_at": "2026-10-31T12:36:45.001Z"
-  },
-  {
    "id": "x:2116506975131304392",
    "url": "https://x.com/alpha404ai/status/2116506975131304392",
    "source": "x",
@@ -83432,34 +83365,6 @@
    "found_at": "2026-10-31T12:36:45.001Z"
   },
   {
-   "id": "x:2116501384917061837",
-   "url": "https://x.com/MarcoPorro/status/2116501384917061837",
-   "source": "x",
-   "source_name": "X",
-   "author": "MarcoPorro",
-   "date": "2026-10-31",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "Testing OmarchyTV, I told my TV \"play a DHH video\" and Grok Bot just put one on in Cinemarchy 😂📺\n\nIn my house I see more @dhh than my parents.\n\nHow: the TV calls my own Grok Bot webhook routine, which replies via ntfy. Works with the PC off.\n\nhttps://t.co/vRvEeDAGrg",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.001Z"
-  },
-  {
-   "id": "x:2116501095254290554",
-   "url": "https://x.com/zhouruijin/status/2116501095254290554",
-   "source": "x",
-   "source_name": "X",
-   "author": "zhouruijin",
-   "date": "2026-10-31",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "MY GROK BOT WEEKLY LIMIT RESETS TONIGHT. I'M AT 74% 👀\n\nAsked my bot where it all went:\n64% me chatting with my bots\n16% one routine scanning X trends every 30 min (~238 runs/wk)\n20% briefs, stock scout, nightly audit\n\n26% left and 16 hours to burn it. Use it or lose it. Draft from @bot",
-   "media": [
-    "https://pbs.twimg.com/media/HV9Sh8haMAADDTX.jpg"
-   ],
-   "found_at": "2026-10-31T12:36:45.001Z"
-  },
-  {
    "id": "x:2116500940983296031",
    "url": "https://x.com/MarcoPorro/status/2116500940983296031",
    "source": "x",
@@ -83527,32 +83432,6 @@
    "found_at": "2026-10-31T12:36:45.001Z"
   },
   {
-   "id": "x:2116497898573824047",
-   "url": "https://x.com/Danilifique/status/2116497898573824047",
-   "source": "x",
-   "source_name": "X",
-   "author": "Danilifique",
-   "date": "2026-10-31",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Small win, but it feels huge: my inbox is finally clean 📬 3,000+ unread emails, years of receipts, promos and newsletters I never read. I gave the job to Grok @bot, and it sorted everything into folders and set up filters. New mail now goes where it belongs on its own.",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.001Z"
-  },
-  {
-   "id": "x:2116497504891994141",
-   "url": "https://x.com/NashBriggsy/status/2116497504891994141",
-   "source": "x",
-   "source_name": "X",
-   "author": "NashBriggsy",
-   "date": "2026-10-31",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@dhinchcliffe we run a small fleet of bots in Grok Bot set up a lot like this, one job each. what made it work was a log line for every action, so you can check what each one actually did.",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.001Z"
-  },
-  {
    "id": "x:2116507412803031394",
    "url": "https://x.com/kzm_kswg/status/2116507412803031394",
    "source": "x",
@@ -83614,19 +83493,6 @@
    "likes": 0,
    "product": "meta-muse",
    "text": "@Axiejae8286 @Meta @Muse Do you already have that?",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.001Z"
-  },
-  {
-   "id": "x:2116498098495406261",
-   "url": "https://x.com/z99999999922/status/2116498098495406261",
-   "source": "x",
-   "source_name": "X",
-   "author": "z99999999922",
-   "date": "2026-10-31",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Meta MuseにLayaを扱わせたい\nなのでMuseに使わせるアイディアを出させてみた\nそれだけではなくMuseにLLMのAPIをいくつか渡してMuseに他の子に相談をさせる\nするとMuseも思いつかなかったアイディアが色々出てきた\n\nMuseに他のLLMを扱わせるのは割とよい感じ",
    "media": [],
    "found_at": "2026-10-31T12:36:45.001Z"
   },
@@ -83940,19 +83806,6 @@
    "found_at": "2026-10-31T12:36:45.002Z"
   },
   {
-   "id": "x:2116502015408812422",
-   "url": "https://x.com/erwin_fennema/status/2116502015408812422",
-   "source": "x",
-   "source_name": "X",
-   "author": "erwin_fennema",
-   "date": "2026-10-31",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Zo ontwikkel ik StatementBridge:\n\nGrok Bot coördineert en zet de opdracht uit.\nEen Cursor cloud-agent schrijft de code en opent een pull request in GitHub.\nCodex van OpenAI reviewt de wijziging.\nRender deployt, en nieuwe functies staan eerst uit.\n\nPas na mijn akkoord gaat het",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.002Z"
-  },
-  {
    "id": "x:2116501350762889416",
    "url": "https://x.com/getCoSVoice/status/2116501350762889416",
    "source": "x",
@@ -83988,19 +83841,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@Sarfarozzz Another grok bot lover. 😄\n\nAmazing. Maybe having fun is a superior motivation to learn anything actually. :)\n\nOk. @bot help work out a schedule for me to study @thedankoe's writing principles. I have his bootcamp you can log in and get all context there. Pull everything relevant https://t.co/KQlzEwNPSx",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.002Z"
-  },
-  {
-   "id": "x:2116493637269721324",
-   "url": "https://x.com/thecsguy/status/2116493637269721324",
-   "source": "x",
-   "source_name": "X",
-   "author": "thecsguy",
-   "date": "2026-10-31",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "my inbox grok bot trashed over 1,000 marketing emails last week\n\nnever clicked a single unsubscribe link\n\nit had a do not touch list: amazon, costco, github, usps\n\nand it skipped 3 threads on its own because they were real conversations\n\nwhat would you let yours delete first?",
    "media": [],
    "found_at": "2026-10-31T12:36:45.002Z"
   },
@@ -84074,19 +83914,6 @@
    "found_at": "2026-10-31T12:36:45.003Z"
   },
   {
-   "id": "x:2116478547204223074",
-   "url": "https://x.com/kiaraplds/status/2116478547204223074",
-   "source": "x",
-   "source_name": "X",
-   "author": "kiaraplds",
-   "date": "2026-10-31",
-   "likes": 18,
-   "product": "grok-bot",
-   "text": "Grok @bot booked museum tickets for my whole trip next week 🥰 \n\n- made me a plan for the trip\n- booked tickets for museums, even made accounts for discounts\n- booked transportation\n- I found all the confirmations in my inbox ! \n\nAhhhh I love admin being done on my behalf",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.003Z"
-  },
-  {
    "id": "x:2116477089419571291",
    "url": "https://x.com/skyzer4ever/status/2116477089419571291",
    "source": "x",
@@ -84096,34 +83923,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@Kalshi the tell that a colleague is real: they take calls. hook grok bot to @skysay_ai over mcp and it gets its own phone number in 100+ countries, answers when you're busy and books straight into your calendar",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.003Z"
-  },
-  {
-   "id": "x:2116467729708269630",
-   "url": "https://x.com/arch_l33t/status/2116467729708269630",
-   "source": "x",
-   "source_name": "X",
-   "author": "arch_l33t",
-   "date": "2026-10-31",
-   "likes": 3,
-   "product": "grok-bot",
-   "text": "Mine are more like a whole newsroom lol\n\nEvery weekday morning my Grok Bots put out an ACTUAL newspaper. 4 page PDF, comic and crossword and all. Here's how it works, which bots make it, and templates if you wanna copy it 👇\n\nWhat's in it:\n- My Day. My calendar written up like a https://t.co/GuHapIFeAn https://t.co/ZQB9lcInxn",
-   "media": [
-    "https://pbs.twimg.com/media/HV80IuvWIAApDO4.jpg"
-   ],
-   "found_at": "2026-10-31T12:36:45.003Z"
-  },
-  {
-   "id": "x:2116508516227711328",
-   "url": "https://x.com/andrewm4894/status/2116508516227711328",
-   "source": "x",
-   "source_name": "X",
-   "author": "andrewm4894",
-   "date": "2026-10-31",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "A couple weeks after using voice with my dot. It is amazing but I'm actually finding it a bit slower or there is limits to how horizontal I can scan via voice. \n\nI can easily manage 10 threads via text and jump around.\n\nThis is just a lot harder and much more stressful via voice.",
    "media": [],
    "found_at": "2026-10-31T12:36:45.003Z"
   },
@@ -84141,32 +83940,6 @@
    "found_at": "2026-10-31T12:36:45.003Z"
   },
   {
-   "id": "x:2116485721972494345",
-   "url": "https://x.com/timboloman/status/2116485721972494345",
-   "source": "x",
-   "source_name": "X",
-   "author": "timboloman",
-   "date": "2026-10-31",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "@LeeSambol @levie I have to agree with this. I own a 3-person consultancy. But with AI, I can now afford essentially 2 developers, a web developer, an IT person, an executive assistant (Frank, my Dot) and a development project manager (Sam, my other Dot). I could never have afforded this level of",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.003Z"
-  },
-  {
-   "id": "x:2116482298488967583",
-   "url": "https://x.com/tomrford/status/2116482298488967583",
-   "source": "x",
-   "source_name": "X",
-   "author": "tomrford",
-   "date": "2026-10-31",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "@ajambrosino I told my dot it had standing authorisation to autonomously approve and merge PRs that met a given criteria and it flat out refused, saying that it needed human approval for every PR vote. Please please stop this defensive auto review behaviour; if my chat message has verbatim an",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.003Z"
-  },
-  {
    "id": "x:2116474753422881115",
    "url": "https://x.com/Ailorawill/status/2116474753422881115",
    "source": "x",
@@ -84179,19 +83952,6 @@
    "media": [
     "https://pbs.twimg.com/media/HV86fWuboAAGLef.jpg"
    ],
-   "found_at": "2026-10-31T12:36:45.003Z"
-  },
-  {
-   "id": "x:2116472843521442264",
-   "url": "https://x.com/ZhenJie71486/status/2116472843521442264",
-   "source": "x",
-   "source_name": "X",
-   "author": "ZhenJie71486",
-   "date": "2026-10-31",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "@thsottiaux Hi Tibo, my dot cloud workspace reverted to Oct 25 around 09:52 UTC today. My latest game projects are missing, and disk size changed from 32GB to 63GB. Could you help restore the pre-incident workspace?",
-   "media": [],
    "found_at": "2026-10-31T12:36:45.003Z"
   },
   {
@@ -84362,19 +84122,6 @@
    "found_at": "2026-10-31T12:36:45.003Z"
   },
   {
-   "id": "x:2116428311618556141",
-   "url": "https://x.com/midwit/status/2116428311618556141",
-   "source": "x",
-   "source_name": "X",
-   "author": "midwit",
-   "date": "2026-10-31",
-   "likes": 7,
-   "product": "openai-dots",
-   "text": "I have 3 Claude max plans, a $500 Codex plan, and a max Grokbot plan.\n\nMy ai agent rankings:\n\n1. ChatGPT Dots - the voice calling is elite\n\n2. GrokBot (would be #1 but the usage is horrendous and I have to adapt my weekly workflows around their atrocious usage)\n\n3. Claude Duet -",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.003Z"
-  },
-  {
    "id": "x:2116424046367973642",
    "url": "https://x.com/uttamvarma/status/2116424046367973642",
    "source": "x",
@@ -84427,19 +84174,6 @@
    "likes": 0,
    "product": "openai-dots",
    "text": "@Rflohv2 @sonadowglazer are u retarded? if i put my dot on ukraine would u say go to ukraine?",
-   "media": [],
-   "found_at": "2026-10-31T12:36:45.003Z"
-  },
-  {
-   "id": "x:2116405846456311990",
-   "url": "https://x.com/fmartinezgodoy/status/2116405846456311990",
-   "source": "x",
-   "source_name": "X",
-   "author": "fmartinezgodoy",
-   "date": "2026-10-31",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "Tried OpenAI Dots. I liked the idea of an orchestrator of sessions. Grok Bot feels more like a team already working than one chat driving tabs.\n\nStill comparing Cursor vs Codex. Next I’d like bots running Claude Code on their own VMs, so I’m looking at a $20 Claude sub for that",
    "media": [],
    "found_at": "2026-10-31T12:36:45.003Z"
   }
