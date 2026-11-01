@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2070 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2091 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-01T13:46:17.586Z
+- Last updated: 2026-11-01T23:42:03.010Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3228,6 +3228,86 @@
 - Type: guide · Product: meta-muse · Author: Sean Cypher · Source: https://www.youtube.com/watch?v=F5t5HummxjU · Date: 2026-11-01
 - Summary: About 50 days after Meta Muse launched, Sean Cypher walks through 10 use cases: a 4-tab shopper and coupon hunter, Instagram Reels into a Saturday food route, an autonomous browser concierge, a 5-minute commute audio briefing, room, fridge and menu analysis, a 3-month subscription and receipt audit, a flight, hotel and visa matrix, a shared family or team inbox assistant, a single-file HTML command center, and an overnight GitHub repo and log janitor.
 
+### Day 2 with Grok Bot: selling his stuff, booking doctors, building a moving checklist
+- URL: https://usage.incidental.site/cases/x-aenmad-2117025604516168016.html
+- Type: field-case · Product: grok-bot · Author: AENMAD · Source: https://x.com/AENMAD/status/2117025604516168016 · Date: 2026-11-01
+- Summary: Moving abroad, the author gave Grok Bot (he calls it Walter) his Facebook Marketplace and Gmail. It grouped and priced his items, wrote and posted the ads, and checks buyer messages every 30 minutes to answer simple questions; emails go out only after he reviews them. In two days they sold two big items, filed warranty claims, booked two doctor appointments plus bloodwork, found savings in bank and card fees, and built a moving checklist. He paid a $29 first-month promo price.
+
+### GojiberryAI open-sources a full outbound sales team for Grok Bot
+- URL: https://usage.incidental.site/cases/x-pierreeliottlal-2117024124367147144.html
+- Type: field-case · Product: grok-bot · Author: pierreeliottlal · Source: https://x.com/pierreeliottlal/status/2117024124367147144 · Date: 2026-11-01
+- Summary: GojiberryAI released a Sales OS for Grok Bot with 13 agent roles (Head of Sales, Signal Hunter, ICP Analyst, Account Researcher, Lead Enricher, Intent Scorer, LinkedIn Copywriter, Outreach Operator, Reply Agent, Follow-up Agent, Meeting Qualifier, Pipeline Analyst, Sales Manager), each connected to the GojiberryAI MCP. They hand work along a chain: spot someone who engaged with a competitor, check fit, research, enrich contact data, write the message, reach out, handle the reply and move them toward a demo. The install link is shared to people who comment "BOT".
+
+### A daily routine that keeps Grok Bot usage from hitting 100% early
+- URL: https://usage.incidental.site/cases/x-jonasviatte-2117030524501815576.html
+- Type: guide · Product: grok-bot · Author: JonasViatte · Source: https://x.com/JonasViatte/status/2117030524501815576 · Date: 2026-11-01
+- Summary: The author shares a prompt that has Grok Bot check the usage percentage, reset date and days left each day, compute the pace and project usage at reset. If the projection stays under 100% it stays silent; if not, it sends one short message, ranks the bots' tasks and routines by usage, suggests which non-urgent ones to throttle or defer, and asks which to keep. It only pauses or changes anything after a yes, and resumes paused tasks after the reset.
+
+### Lauren (@poteto)'s guide to building a Grok Bot team, retold in Chinese
+- URL: https://usage.incidental.site/cases/x-rocwng-2117034195700908113.html
+- Type: guide · Product: grok-bot · Author: Rocwng · Source: https://x.com/Rocwng/status/2117034195700908113 · Date: 2026-11-01
+- Summary: The post retells Lauren (@poteto)'s advice: use dr eggbot to design bots; keep a few good bots rather than many; save what you teach as skills, optionally in a private GitHub repo; add connectors and the vault, and let a bot open its own inbox to sign up for its own accounts; onboard it like an intern and ask what it can automate; dump ideas by voice and ask it to restate them. Extras: scheduled routines at most hourly, filter event triggers, have bots write scripts to save tokens, and share bots in Slack on team plans.
+
+### A single dad spends an hour each Sunday reviewing his week with Grok Bot
+- URL: https://usage.incidental.site/cases/x-tonychanbuilds-2117015073134952831.html
+- Type: field-case · Product: grok-bot · Author: TonyChanBuilds · Source: https://x.com/TonyChanBuilds/status/2117015073134952831 · Date: 2026-11-01
+- Summary: The author runs a business, applies for 9-to-5 roles, creates content and raises two kids. Every Sunday he spends an hour talking with Grok Bot about how he spent his time, his wins, the challenges that came up and the next steps. Grok Bot then fills in his calendar for the week based on that conversation.
+
+### Have Grok Bot set up T3 Code for you end to end
+- URL: https://usage.incidental.site/cases/x-thisishars-2117033493729612062.html
+- Type: guide · Product: grok-bot · Author: thisishars · Source: https://x.com/thisishars/status/2117033493729612062 · Date: 2026-11-01
+- Summary: The author suggests simply asking Grok Bot to do the whole setup end to end while explaining each step. His prompt asks it to set up T3 Code so Grok Bot can orchestrate it and be the main entry point, and to help with T3-Connect so the threads can be viewed in the phone app.
+
+### Routine didn't run last night? Check these 4 things before rebuilding it
+- URL: https://usage.incidental.site/cases/x-maxxuy-2117034480099856646.html
+- Type: guide · Product: grok-bot · Author: Max_XuY · Source: https://x.com/Max_XuY/status/2117034480099856646 · Date: 2026-11-01
+- Summary: The author's checklist: is the routine active; its schedule and the time zone it actually runs in; whether the trigger is too narrow (or the channel too noisy); and hit Test and read the result. You can also ask Grok Bot to check a named routine against these 4 points and only report which one failed, without fixing anything.
+
+### His Monday browser chore became a Grok Bot skill after one recording
+- URL: https://usage.incidental.site/cases/x-maxxuy-2117034164960780541.html
+- Type: guide · Product: grok-bot · Author: Max_XuY · Source: https://x.com/Max_XuY/status/2117034164960780541 · Date: 2026-11-01
+- Summary: The author recorded the workflow once (up to 10 minutes), let Grok Bot draft the skill, then refined it with one prompt: replay the skill on last week's data, list every step where it guessed, and ask him about each one.
+
+### His Grok Bot team now rides along: voice access to every bot from his Tesla
+- URL: https://usage.incidental.site/cases/x-drknowitall16-2117034606117405086.html
+- Type: field-case · Product: grok-bot · Author: DrKnowItAll16 · Source: https://x.com/DrKnowItAll16/status/2117034606117405086 · Date: 2026-11-01
+- Summary: The author added a bot named Pheme that lives in his Tesla as the car-side bridge to his whole team of AI agents. While driving he can talk hands-free to his research, inbox, travel and Tesla bots.
+
+### Grok Bot meter maxed out? Ask your bot this first
+- URL: https://usage.incidental.site/cases/x-robertbauman82-2117031794809635311.html
+- Type: guide · Product: grok-bot · Author: robertbauman82 · Source: https://x.com/robertbauman82/status/2117031794809635311 · Date: 2026-11-01
+- Summary: The author suggests asking the bot which bots and routines used the most this week and for 3 ways to cut usage without losing what matters. His takeaway: fewer runs and narrower jobs.
+
+### Local Qwen does the heavy lifting while Grokbot orchestrates
+- URL: https://usage.incidental.site/cases/x-justiceiscoming-2117036515062628634.html
+- Type: field-case · Product: grok-bot · Author: JusticeIsComing · Source: https://x.com/JusticeIsComing/status/2117036515062628634 · Date: 2026-11-01
+- Summary: The author's standing order: use his Ollama setup with local Qwen for all the heavy lifting, have Claude or Codex do quality checks, then hand back to Grokbot. Local AI does the bulk of the work while Grokbot orchestrates.
+
+### Give Grok Bot a topic and it researches the numbers and builds the infographic
+- URL: https://usage.incidental.site/cases/x-northidahojoe-2117001866844549251.html
+- Type: field-case · Product: grok-bot · Author: northidahojoe · Source: https://x.com/northidahojoe/status/2117001866844549251 · Date: 2026-11-01
+- Summary: The author shows two infographics Grok Bot made about Colossus 2 and who is renting it. His three steps: tell Grok Bot a topic, it digs up the numbers, and it builds the infographic for you.
+
+### Her first Grok Bot took a Yahoo inbox from about 380k emails down to 28
+- URL: https://usage.incidental.site/cases/x-carolinadill-2117028157593149483.html
+- Type: field-case · Product: grok-bot · Author: CarolinaDill · Source: https://x.com/CarolinaDill/status/2117028157593149483 · Date: 2026-11-01
+- Summary: The author says her very first Grok Bot cut her Yahoo inbox from about 380k emails to 106k on day one, and it is now down to 28.
+
+### 4 principles for building an AI staff team with Grok Bot (Japanese summary)
+- URL: https://usage.incidental.site/cases/x-grokbotstudio-2117031445646709125.html
+- Type: guide · Product: grok-bot · Author: grokbot_studio · Source: https://x.com/grokbot_studio/status/2117031445646709125 · Date: 2026-11-01
+- Summary: The author condenses methods shared by overseas Grok Bot users into 4 principles: decide roles before headcount and split bots only for work with different goals or owners; turn taught work into skills, saving them once the steps are stable after a trial; grant only the permissions needed, deciding up front which connectors to use and which actions need approval; and keep routines narrow in interval and scope, starting with wide intervals and limiting who gets notified.
+
+### Edited!: turning long podcasts into 30-second shorts with Meta Muse
+- URL: https://usage.incidental.site/cases/x-frmtradedrm-2116890312773960185.html
+- Type: field-case · Product: meta-muse · Author: frmtradedrm · Source: https://x.com/frmtradedrm/status/2116890312773960185 · Date: 2026-11-01
+- Summary: Tired of spending 2 hours turning one long podcast into 30-second shorts, the author built Edited! for the Meta AI Hackathon: Meta Muse finds the best hook, the video is auto-reframed to 9:16, and styled animated captions are generated. It is 100% open source.
+
+### ChatGPT Dots: building an AI sales agent (video)
+- URL: https://usage.incidental.site/cases/yt-o8m3jbffdy0.html
+- Type: guide · Product: openai-dots · Author: Sanjay Ravi · Source: https://www.youtube.com/watch?v=O8m3jBfFdY0 · Date: 2026-11-01
+- Summary: The creator walks through setting up ChatGPT Dots, how to think about sales use cases to give a Dot, and a short demo of his AI sales agents reviewing his pipeline. His goal is a Dot that helps him prepare outbound and generate content weekly. Chapters cover how Dots work, sales use cases, setup and pro tips.
+
 ### Grok Bot booked museum tickets for a whole trip
 - URL: https://usage.incidental.site/cases/x-kiaraplds-2116478547204223074.html
 - Type: field-case · Product: grok-bot · Author: kiaraplds · Source: https://x.com/kiaraplds/status/2116478547204223074 · Date: 2026-10-31
@@ -3537,6 +3617,11 @@
 - URL: https://usage.incidental.site/cases/x-literallydenis-2116252441394151934.html
 - Type: field-case · Product: openai-dots · Author: literallydenis · Source: https://x.com/literallydenis/status/2116252441394151934 · Date: 2026-10-30
 - Summary: The author, who uses his Dot over an hour a day via calls, lists gaps: purchases on the cloud computer are painful (he wants QR codes opened as URLs and a way to give Dot a limited virtual card via a secure form); music stops during calls; Dots used to send Slack messages but can now only draft them; refusals are too frequent and get remembered; he wants cloud MCP servers attachable via a config file and multiple computers attached permanently; WhatsApp access doesn't work properly; Dot never pings him back about tasks; computer use on calls is laggy; and the Uber Eats plugin forgets it is connected and tries the restaurant's web form.
+
+### 4 reasons to use Grok Bot Pages (video)
+- URL: https://usage.incidental.site/cases/yt-dsf5m7ri4za.html
+- Type: guide · Product: grok-bot · Author: Van Did This! · Source: https://www.youtube.com/watch?v=dsf5M7ri4zA · Date: 2026-10-30
+- Summary: The video covers four uses of Grok Bot's Pages: one board for your bot team or project, interactive mini-apps built without writing code yourself, Pages that update on a schedule, and sharing a project with a single link.
 
 ### Empty runs found while wiring 7 Grok Bot bots, and 5 fixes
 - URL: https://usage.incidental.site/cases/x-gippp69-2115778291755782151.html
@@ -9903,6 +9988,16 @@
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
 
+### Choosing between GrokBot, Claude Max and ChatGPT Pro, he picked ChatGPT Pro
+- URL: https://usage.incidental.site/cases/x-dedechandran-2116953771641352563.html
+- Type: comparison · Product: multi · Author: DedeChandraN · Source: https://x.com/DedeChandraN/status/2116953771641352563 · Date: 2026-11-01
+- Summary: The author chose ChatGPT Pro at $100. His reasons: Dots, the always-on agent, is still exploratory and similar to GrokBot but doesn't seem to support multiple bots yet; chatting with Dots doesn't eat ChatGPT/Codex weekly usage; there's no 5-hour limit like Claude Max; $100 a month in API credits; frequent usage resets; the subscription works in Hermes Agent; and GPT-6.1 Sol is enough for him, though he admits Opus 5.5 is very good.
+
+### Comparing Dot and Muse on a road trip: free-tier Muse surprised him
+- URL: https://usage.incidental.site/cases/x-tleemcd-2117035707885867175.html
+- Type: comparison · Product: multi · Author: TLeeMcD · Source: https://x.com/TLeeMcD/status/2117035707885867175 · Date: 2026-11-01
+- Summary: While driving, the author tested which agents could handle light work. Between his Dot and his Muse agent, he was shocked at how good Muse is even on the free tier; he says the Dot is great too, while noting it costs $150 a month.
+
 ### Agent rankings from someone paying for all of them
 - URL: https://usage.incidental.site/cases/x-midwit-2116428311618556141.html
 - Type: comparison · Product: multi · Author: midwit · Source: https://x.com/midwit/status/2116428311618556141 · Date: 2026-10-31
@@ -10372,6 +10467,16 @@
 - URL: https://usage.incidental.site/cases/x-matnguvix-2116883146151178333.html
 - Type: quota-report · Product: grok-bot · Author: matnguvix · Source: https://x.com/matnguvix/status/2116883146151178333 · Date: 2026-11-01
 - Summary: The user noticed his weekly Grok Bot usage jumped from 50% earlier to 100%, with only a few light routine runs in between.
+
+### A bot that audits the other bots cut his usage about 5x in a week
+- URL: https://usage.incidental.site/cases/x-simonpuebla-2117034290332487727.html
+- Type: quota-report · Product: grok-bot · Author: Simonpuebla_ · Source: https://x.com/Simonpuebla_/status/2117034290332487727 · Date: 2026-11-01
+- Summary: His quota was running out in 3 days, so the author built Lean, a bot that audits his other bots. The biggest win was not dragging huge context along: work 5 things at a time and save long results to a file instead of pasting them in chat; fix 3 corrections in one go; start a new chat each week with a short summary of what's pending. A week later usage was about 5x lower, and his sales bot dropped from about 20% of consumption to about 3% while working even better. He includes the prompt for building the audit agent.
+
+### After moving from SuperGrok to the shared pool, a Bot-first user says he got less
+- URL: https://usage.incidental.site/cases/x-artisanswan-2117031621417197899.html
+- Type: quota-report · Product: grok-bot · Author: ArtisanSwan · Source: https://x.com/ArtisanSwan/status/2117031621417197899 · Date: 2026-11-01
+- Summary: The author switched from SuperGrok to The X Subscription Premium because the shared pool was sold as larger and more flexible. He never used Cursor, left 70–80% of the old Grok pool unused most weeks, and regularly maxed the separate Bot pool. The new shared pool feels smaller, and Bot work burns it as fast or faster; he says the "measured differently" explanation came from support only after the switch. He had started onboarding clients to Grok Bot and is now questioning it.
 
 ### Where 74% of a weekly Grok Bot limit went
 - URL: https://usage.incidental.site/cases/x-zhouruijin-2116501095254290554.html
