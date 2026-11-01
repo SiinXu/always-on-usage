@@ -4428,5 +4428,130 @@
   "id": "x:2116867496485552261",
   "url": "https://x.com/wellzhiai/status/2116867496485552261",
   "reason": "noise: empty/bot reply, referral, poll or opinion without usage"
+ },
+ {
+  "id": "x:2117004257639448853",
+  "url": "https://x.com/Kevin_VibeX/status/2117004257639448853",
+  "reason": "memecoin trading bot (excluded topic)"
+ },
+ {
+  "id": "x:2117017193195901106",
+  "url": "https://x.com/Takerovitch/status/2117017193195901106",
+  "reason": "memecoin trading bot (excluded topic)"
+ },
+ {
+  "id": "gh:github.com/mw00/project-maya/pull/778",
+  "url": "https://github.com/mw00/project-maya/pull/778",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/satisfymath/c12-fst/pull/4",
+  "url": "https://github.com/satisfymath/c12-fst/pull/4",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/pytorch/torchtitan/pull/5726",
+  "url": "https://github.com/pytorch/torchtitan/pull/5726",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/rodneydanger1/deep-bots/pull/4",
+  "url": "https://github.com/RodneyDanger1/deep-bots/pull/4",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/86",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/86",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/82",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/82",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/87",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/87",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/88",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/88",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/84",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/84",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/83",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/83",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/89",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/89",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/senoldogann/dot/pull/744",
+  "url": "https://github.com/senoldogann/Dot/pull/744",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/85",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/85",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/60",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/60",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/59",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/59",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/zhiqiyang/geometry-axiom/pull/363",
+  "url": "https://github.com/ZhiQiYang/geometry-axiom/pull/363",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/58",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/58",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/56",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/56",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/51",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/51",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/29",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/29",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/19",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/19",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/50",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/50",
+  "reason": "dependency/dev PR or issue, not a usage case"
+ },
+ {
+  "id": "gh:github.com/ovhirup/dynamic-llm-router/issues/53",
+  "url": "https://github.com/ovhirup/dynamic-llm-router/issues/53",
+  "reason": "dependency/dev PR or issue, not a usage case"
  }
 ]
