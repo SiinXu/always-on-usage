@@ -47,12 +47,15 @@ export function sitemaps(today){
 export const ROBOTS=`User-agent: *
 Allow: /
 
-# 2026-10-26: heavy non-citing crawlers - skip ?lang= / query duplicates (each page x10 locales); Crawl-delay only honored by SemrushBot
+# 2026-10-26: heavy non-citing crawlers - skip ?lang= / query duplicates (each page x10 locales)
 User-agent: Amazonbot
 User-agent: meta-externalagent
-User-agent: SemrushBot
 Disallow: /*?
 Crawl-delay: 10
+
+# 2026-11-01: SemrushBot is an SEO-tool crawler, not a search or AI engine: disallow everything
+User-agent: SemrushBot
+Disallow: /
 
 # AI / generative search crawlers are welcome
 User-agent: GPTBot
