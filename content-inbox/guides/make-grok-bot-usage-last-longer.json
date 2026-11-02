@@ -1,0 +1,195 @@
+{
+ "slug": "make-grok-bot-usage-last-longer",
+ "title": "How to make Grok Bot usage last longer",
+ "desc": "Ways to stretch Grok Bot's weekly usage, from the official docs and public posts by users who cut theirs: fewer empty routine runs, shorter chats, fewer bots.",
+ "date": "2026-11-01",
+ "lede": "Grok Bot draws from a weekly usage pool, and many users report running out early. This guide collects what the official docs say and what users have publicly posted about cutting their usage. Official statements are labelled as such; user numbers are the authors' own and are not vendor figures. Last checked 1 November 2026.",
+ "sections": [
+  {
+   "id": "s-docs",
+   "h": "What the official docs say",
+   "html": "<p>Start with the documented rules, because most of the tips below are workarounds for them.</p>\n<ul class=\"steps\">\n<li>On The X Subscription, each paid seat gets a weekly pool for eligible first-party usage, shared across Grok and Cursor surfaces rather than split by product. Grok Bot draws from that pool. Higher tiers include larger pools (<a href=\"https://docs.x.ai/x-subscription/usage-limits\" rel=\"noopener\" target=\"_blank\">usage limits</a>, <a href=\"https://docs.x.ai/x-subscription/grok-bot\" rel=\"noopener\" target=\"_blank\">Grok Bot on The X Subscription</a>).</li>\n<li>The docs say how fast you use it up “depends on the kind of work you give Grok Bot and how much effort each task takes” (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n<li>Every routine run spends usage. An hourly schedule, a short interval or a Slack trigger on a busy channel “can use a week of usage in a day” (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills and routines</a>).</li>\n<li>The documented first fix: pause routines you do not need, then ask the Bot to widen schedules and narrow Slack triggers before you raise a plan or an on-demand limit. A routine that never runs does not spend usage; Test does, because it performs the real work (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills and routines</a>, <a href=\"https://cursor.com/help/grok-bot/routines\" rel=\"noopener\" target=\"_blank\">Cursor help</a>).</li>\n<li>Routine schedules must be at least five minutes apart. All routines together can run up to 300 times an hour and each routine up to 200; a run past either limit fails with “Automation run rate limit exceeded” and is not retried automatically. The docs add that some runs can fail with this error because of a shared limit, a known issue being fixed (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills and routines</a>).</li>\n<li>To avoid paid overage on The X Subscription, leave Auto Top-up off or set a monthly additional usage limit. The FAQ adds that a cap does not stop a Bot in the middle of a run, so a running task can go a little past it (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n<li>For trials, the FAQ says credit is drawn down by agent steps and tokens rather than the number of messages, and that one big task can use all of it (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n</ul>"
+  },
+  {
+   "id": "s-find",
+   "h": "1. Find out where the usage goes",
+   "html": "<p>Before changing anything, get a breakdown. Two public examples are below.</p>\n<ul class=\"steps\">\n<li><strong>One user's breakdown.</strong> Before a weekly reset at 74%, @zhouruijin asked the bot where it went. The bot's answer: 64% from chatting with bots, 16% from one routine scanning X trends every 30 minutes (about 238 runs a week), and 20% from briefs, a stock scout and a nightly audit (<a href=\"../cases/x-zhouruijin-2116501095254290554.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n<li><strong>Old chat is the hidden cost.</strong> @m4lkxx says 75% of their tokens went to re-reading old chat and about 1% to actual work, and concludes that the setup is the expensive part, not Grok Bot (<a href=\"../cases/x-m4lkxx-2115775972536434946.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n<li><strong>Make the bots report.</strong> @BenENewton suggests asking your main bot to have every bot report the routines that are using up tokens; you will find ones that sounded cool when you built them and that you forgot about (<a href=\"../cases/x-benenewton-2112668191700795603.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n<li><strong>The meter is coarse.</strong> @sorcererxw runs a dozen bots with routines and could not see which one was eating the allowance, and asked for token usage per bot and per routine (<a href=\"../cases/x-sorcererxw-2113240769951834170.html\" rel=\"noopener\" target=\"_blank\">case</a>). Until you have that, ask each bot to list its routines and their schedules, and write down your usage percentage before and after each change.</li>\n</ul>"
+  },
+  {
+   "id": "s-routines",
+   "h": "2. Stop routines that wake up for nothing",
+   "html": "<p>The most repeated advice in public posts is about routines that run on a timer, find nothing and still spend a run.</p>\n<div class=\"res-box\"><span class=\"res-k\">The arithmetic</span><p class=\"res-v\">@gippp69 counts one routine every 5 minutes as 8,640 runs a month against 720 for hourly, 12 times as many. By their estimate at Grok 4.6 API rates that is about $397 against $33 for the same job. Your plan meters usage differently, but the 12x ratio of runs is plain arithmetic (<a href=\"../cases/x-gippp69-2112878801633861648.html\" rel=\"noopener\" target=\"_blank\">case</a>, <a href=\"../cases/x-gippp69-2114689520964677797.html\" rel=\"noopener\" target=\"_blank\">case</a>).</p></div>\n<ul class=\"steps\">\n<li><strong>One clock, the rest triggers.</strong> Wiring 7 bots into a launch team, @gippp69 counted 1,176 runs a week on hourly clocks, most coming back empty. Their fix: keep one clock (Monday 09:00) and have every other bot start only when the one before it writes DONE; hand off through a shared ledger file instead of email; give each bot its own cap on X reads; let only one bot touch money, with a $40 cap and approval on every buy. They say the same job then takes about 60 runs (<a href=\"../cases/x-gippp69-2115778291755782151.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n<li><strong>Check before waking the bot.</strong> @z80srl moved most quota-hungry routines into small local scripts on the Grok Bot machine. The scripts use no quota and only wake the bot when the result matches a planned case; for example, a script watches bank movements and if nothing moved, the bot stays asleep (<a href=\"../cases/x-z80srl-2116145921520238674.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n<li><strong>Give routines their own bot.</strong> @MartinBarna333 runs one bot just for routines, in a short clean chat so the main chat does not burn tokens, at most 1 to 2 runs a day and preferably on an event such as an incoming email rather than a timer. The know-how lives in files, so a replacement bot can pick up right away (<a href=\"../cases/x-martinbarna333-2115417754723336371.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n<li><strong>The docs agree.</strong> They recommend narrow triggers and warn against broad listeners such as “every new message”, which “create noise, consume usage” (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills and routines</a>).</li>\n</ul>"
+  },
+  {
+   "id": "s-context",
+   "h": "3. Keep each conversation short",
+   "html": "<p>Long chats get re-read on every turn, which is where @m4lkxx's 75% went. One user turned that into a concrete routine:</p>\n<ul class=\"steps\">\n<li>@Simonpuebla_ says his quota was running out in 3 days. He built a bot named Lean that audits his other bots. The change that moved most was not dragging huge context along: have the bot work five things at a time and save long results to a file instead of pasting them into the chat; when he corrects three things in a row, fix them all together rather than one by one; start a new chat each week with a short summary of what is pending.</li>\n<li>A week later he reports about 5x lower usage, and a sales bot that had been about 20% of his consumption dropped to about 3% while working as well or better. The post, written in Spanish, includes the prompt he used to build the audit agent (<a href=\"../cases/x-simonpuebla-2117034290332487727.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n</ul>\n<p>This is one person's result, not a guarantee, but it matches the docs' point that usage follows how much work each task takes.</p>"
+  },
+  {
+   "id": "s-bots",
+   "h": "4. Use fewer bots",
+   "html": "<ul class=\"steps\">\n<li><strong>One topic, one bot.</strong> @AndresRuggiero3 calls splitting home finances into bills, subscriptions, budget and reminder bots the most common overcomplication: four bots mean four sets of instructions, more handoffs and a bigger token bill. One money bot keeps all the context, needs fewer handoffs and has one set of instructions to fix. Split only when the work becomes a genuinely different job (<a href=\"../cases/x-andresruggiero3-2112671200291811680.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n<li><strong>Three good ones.</strong> A post by @distortgeekin relays Grok Bot engineer Lauren Tan: “three good ones beat a team you can't manage”. She onboards each bot like an intern on day one and saves each explained task as a skill (<a href=\"../cases/x-distortgeekin-2116885715292192867.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n<li><strong>Skills before routines.</strong> The docs say to start with a one-time task, make it reliable, save the method as a skill and only then automate it, and to test the skill on a real one-time task before turning it into a routine (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills and routines</a>, <a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n</ul>"
+  },
+  {
+   "id": "s-limits",
+   "h": "5. Know the limits before you schedule",
+   "html": "<ul class=\"steps\">\n<li><strong>Test is real work.</strong> @DissipativeS lists the routine pitfalls: a new schedule does not run until the next slot, and Test does the real work and spends usage (<a href=\"../cases/x-dissipatives-2116885597004439994.html\" rel=\"noopener\" target=\"_blank\">case</a>). The docs say the same: “A test run performs real work” (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills and routines</a>).</li>\n<li><strong>Do not let overage surprise you.</strong> @gitpulled advises starting with one task that involves no money, watching the first run, and keeping on-demand off until you know your weekly usage, because otherwise it spills into paid with no warning (<a href=\"../cases/x-gitpulled-2111062785308205306.html\" rel=\"noopener\" target=\"_blank\">case</a>). The official equivalent on The X Subscription is leaving Auto Top-up off or setting a monthly additional usage limit (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n<li><strong>The pool is shared.</strong> @Vikramaditya_V1 points out that Bot tasks, Grok chat and Grok in Cursor share one weekly pool, and that an always-on agent can drain that pool on its own (<a href=\"../cases/x-vikramadityav1-2114622301077733643.html\" rel=\"noopener\" target=\"_blank\">case</a>). That matches the docs' description of a pool shared across surfaces.</li>\n</ul>"
+  },
+  {
+   "id": "s-elsewhere",
+   "h": "6. Send heavy work elsewhere",
+   "html": "<ul class=\"steps\">\n<li>@Av1dlive kept hitting Grok Bot usage limits, so built a desk that hands heavy work to Claude Code on their own subscription, and says their limits now last the whole week (<a href=\"../cases/x-av1dlive-2115929453859881169.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n<li>@nnaatt00xx says five hours of back-and-forth on a research repo used half the weekly budget, has started delegating work to a Cursor cloud agent, and asks whether that is best practice. The post is a question, not a result (<a href=\"../cases/x-nnaatt00xx-2116883629871899112.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n</ul>\n<p>Handing work to another tool means that tool's own subscription, limits and terms apply, so check those first.</p>"
+  },
+  {
+   "id": "s-odd",
+   "h": "7. If the meter jumps for no reason",
+   "html": "<p>Several users reported sudden jumps on 1 November. These are user reports; the sources we read contain no confirmation of a cause from the vendor.</p>\n<ul class=\"steps\">\n<li>@matthewsligh says usage rose from under 45% to 87% in two hours with almost no activity. His export shows about 2M tokens overnight against 150–250M on a normal day, and at 12:20 AM the app showed 87% while the bot's own usage check said 43.6% (<a href=\"../cases/x-matthewsligh-2116885595188326723.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n<li>@matnguvix saw weekly usage go from 50% to 100% with only a few light routine runs in between (<a href=\"../cases/x-matnguvix-2116883146151178333.html\" rel=\"noopener\" target=\"_blank\">case</a>).</li>\n</ul>\n<p>What both did that you can copy: note the time and percentage before and after, and compare them with your usage export so you have evidence if you need to ask for a correction.</p>"
+  },
+  {
+   "id": "s-list",
+   "h": "A short checklist",
+   "html": "<ol class=\"steps\">\n<li>Pause routines you do not need (official docs).</li>\n<li>Ask each bot to list the routines it owns and how often they run (@BenENewton).</li>\n<li>Replace timers with narrow event triggers; if you need a timer, widen it (docs, @MartinBarna333, @gippp69).</li>\n<li>Run a cheap check first and wake the bot only when something changed (@z80srl, @gippp69).</li>\n<li>Keep recurring routines on one dedicated bot in a short chat (@MartinBarna333).</li>\n<li>Batch work, save long results to files, and start a fresh chat each week with a short summary (@Simonpuebla_).</li>\n<li>Use one bot per topic until the work is truly different (@AndresRuggiero3).</li>\n<li>Use Test sparingly: it spends usage (docs).</li>\n<li>Leave Auto Top-up off, or set a monthly cap, until you know your weekly usage (docs FAQ).</li>\n<li>Record your usage percentage after every change so you can tell what worked.</li>\n</ol>"
+  },
+  {
+   "id": "s-est",
+   "h": "Estimate before you schedule",
+   "html": "<p>This site has a <a href=\"../calculator.html\">quota-risk calculator</a>. Its rules are directional estimates, not vendor figures: 3 to 5 bots add 1 point and 6 or more add 2; the browser being on adds 1; a daily routine adds 1 and an hourly one adds 2. A total of 0 to 1 points reads low, 2 to 3 medium and 4 or more high.</p>"
+  }
+ ],
+ "related": [
+  {
+   "href": "../cases/x-zhouruijin-2116501095254290554.html",
+   "kind": "Quota report",
+   "title": "Where 74% of a weekly Grok Bot limit went",
+   "meta": "@zhouruijin"
+  },
+  {
+   "href": "../cases/x-gippp69-2115778291755782151.html",
+   "kind": "Guide",
+   "title": "Empty runs found while wiring 7 Grok Bot bots, and 5 fixes",
+   "meta": "@gippp69"
+  },
+  {
+   "href": "../cases/x-simonpuebla-2117034290332487727.html",
+   "kind": "Quota report",
+   "title": "A bot that audits the other bots cut his usage about 5x in a week",
+   "meta": "@Simonpuebla_"
+  },
+  {
+   "href": "../cases/x-martinbarna333-2115417754723336371.html",
+   "kind": "Guide",
+   "title": "Keep recurring routines off your main bot",
+   "meta": "@MartinBarna333"
+  },
+  {
+   "href": "../cases/x-z80srl-2116145921520238674.html",
+   "kind": "Quota report",
+   "title": "Saving quota: local scripts that wake the bot only when needed",
+   "meta": "@z80srl"
+  },
+  {
+   "href": "../cases/x-andresruggiero3-2112671200291811680.html",
+   "kind": "Guide",
+   "title": "Don’t build a bot team on day one: one topic, one bot",
+   "meta": "@AndresRuggiero3"
+  }
+ ],
+ "sources": [
+  {
+   "label": "Usage limits (official docs)",
+   "url": "https://docs.x.ai/x-subscription/usage-limits"
+  },
+  {
+   "label": "Grok Bot on The X Subscription (official docs)",
+   "url": "https://docs.x.ai/x-subscription/grok-bot"
+  },
+  {
+   "label": "Skills and routines (official docs)",
+   "url": "https://docs.x.ai/grok-bot/skills-routines-and-automations"
+  },
+  {
+   "label": "Frequently asked questions (official docs)",
+   "url": "https://docs.x.ai/grok-bot/faq"
+  },
+  {
+   "label": "Routines (Cursor help)",
+   "url": "https://cursor.com/help/grok-bot/routines"
+  },
+  {
+   "label": "@zhouruijin on X",
+   "url": "https://x.com/zhouruijin/status/2116501095254290554"
+  },
+  {
+   "label": "@m4lkxx on X",
+   "url": "https://x.com/m4lkxx/status/2115775972536434946"
+  },
+  {
+   "label": "@BenENewton on X",
+   "url": "https://x.com/BenENewton/status/2112668191700795603"
+  },
+  {
+   "label": "@sorcererxw on X",
+   "url": "https://x.com/sorcererxw/status/2113240769951834170"
+  },
+  {
+   "label": "@gippp69 on X",
+   "url": "https://x.com/gippp69/status/2112878801633861648"
+  },
+  {
+   "label": "@gippp69 on X",
+   "url": "https://x.com/gippp69/status/2114689520964677797"
+  },
+  {
+   "label": "@gippp69 on X",
+   "url": "https://x.com/gippp69/status/2115778291755782151"
+  },
+  {
+   "label": "@z80srl on X",
+   "url": "https://x.com/z80srl/status/2116145921520238674"
+  },
+  {
+   "label": "@MartinBarna333 on X",
+   "url": "https://x.com/MartinBarna333/status/2115417754723336371"
+  },
+  {
+   "label": "@Simonpuebla_ on X",
+   "url": "https://x.com/Simonpuebla_/status/2117034290332487727"
+  },
+  {
+   "label": "@AndresRuggiero3 on X",
+   "url": "https://x.com/AndresRuggiero3/status/2112671200291811680"
+  },
+  {
+   "label": "@distortgeekin on X",
+   "url": "https://x.com/distortgeekin/status/2116885715292192867"
+  },
+  {
+   "label": "@DissipativeS on X",
+   "url": "https://x.com/DissipativeS/status/2116885597004439994"
+  },
+  {
+   "label": "@gitpulled on X",
+   "url": "https://x.com/gitpulled/status/2111062785308205306"
+  },
+  {
+   "label": "@Vikramaditya_V1 on X",
+   "url": "https://x.com/Vikramaditya_V1/status/2114622301077733643"
+  },
+  {
+   "label": "@Av1dlive on X",
+   "url": "https://x.com/Av1dlive/status/2115929453859881169"
+  },
+  {
+   "label": "@nnaatt00xx on X",
+   "url": "https://x.com/nnaatt00xx/status/2116883629871899112"
+  },
+  {
+   "label": "@matthewsligh on X",
+   "url": "https://x.com/matthewsligh/status/2116885595188326723"
+  },
+  {
+   "label": "@matnguvix on X",
+   "url": "https://x.com/matnguvix/status/2116883146151178333"
+  }
+ ]
+}

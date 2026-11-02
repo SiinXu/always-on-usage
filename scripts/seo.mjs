@@ -12,10 +12,11 @@ const ORG={"@type":"Organization","@id":"https://incidental.site/#org","name":"I
 const SITE={"@type":"WebSite","@id":BASE+"/#site","name":BRAND,"url":BASE+"/","inLanguage":LC,"publisher":{"@id":"https://incidental.site/#org"},
   "potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":BASE+"/cases/?q={search_term_string}"},"query-input":"required name=search_term_string"}};
 const crumbs=list=>({"@type":"BreadcrumbList","itemListElement":list.map(([n,u],i)=>({"@type":"ListItem","position":i+1,"name":n,"item":u}))});
-const SEC={"cases/":"Builds to copy","stories/":"X stories","topics/":"Topics","digest/":"Weekly digest"};
+const SEC={"cases/":"Builds to copy","stories/":"X stories","topics/":"Topics","digest/":"Weekly digest","guides/":"Guides"};
 /** meta: {kind:"article"|"app"|"faq"|..., graph:[extra JSON-LD nodes], date, lastmod} */
 export function seo(f,html,meta={}){
   const url=urlOf(f);
+  if(meta.enOnly)html=html.replace('<html lang="zh-CN">','<html lang="en">').replace(/ \| 常驻用量<\/title>/," | Always-on Usage</title>");
   const title=strip((html.match(/<title[^>]*>([\s\S]*?)<\/title>/)||[])[1]||BRAND);
   const desc=strip((html.match(/<meta name="description" content="([^"]*)"/)||[])[1]||"");
   const isHome=f==="index.html";
@@ -28,18 +29,18 @@ export function seo(f,html,meta={}){
   if(meta.graph)g.push(...meta.graph.map(n=>typeof n==="function"?n({url,title,desc,h1}):n));
   const ld=JSON.stringify({"@context":"https://schema.org","@graph":g}).replace(/</g,"\\u003c");
   const og=meta.kind==="article"?"article":"website";
-  const alt=LC.map(l=>`<link rel="alternate" hreflang="${l}" href="${url}?lang=${l}">`).join("")+`<link rel="alternate" hreflang="x-default" href="${url}">`;
+  const alt=(meta.enOnly?["en"]:LC).map(l=>`<link rel="alternate" hreflang="${l}" href="${url}${l==="en"&&meta.enOnly?"":"?lang="+l}">`).join("")+`<link rel="alternate" hreflang="x-default" href="${url}">`;
   const head=`<link rel="canonical" href="${url}">${alt}`+
-   `<meta property="og:type" content="${og}"><meta property="og:site_name" content="${esc(BRAND)}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${BASE}/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="${esc(BRAND)}"><meta property="og:locale" content="zh_CN">${["zh_TW","en_US","ja_JP","ko_KR","ms_MY","vi_VN","fr_FR","es_ES","de_DE"].map(l=>`<meta property="og:locale:alternate" content="${l}">`).join("")}`+
+   `<meta property="og:type" content="${og}"><meta property="og:site_name" content="${esc(BRAND)}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(desc)}"><meta property="og:url" content="${url}"><meta property="og:image" content="${BASE}/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="${esc(BRAND)}">${meta.enOnly?'<meta property="og:locale" content="en_US">':`<meta property="og:locale" content="zh_CN">${["zh_TW","en_US","ja_JP","ko_KR","ms_MY","vi_VN","fr_FR","es_ES","de_DE"].map(l=>`<meta property="og:locale:alternate" content="${l}">`).join("")}`}`+
    `<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(title)}"><meta name="twitter:description" content="${esc(desc)}"><meta name="twitter:image" content="${BASE}/og.png">`+
    `<script type="application/ld+json">${ld}</script>`+
    `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${CF_TOKEN}"}'></script><script defer src="https://stats.incidental.site/events.js" data-site="usage"${/^(cases|stories)\/(?!index\.html).+\.html$/.test(f)?' data-goal="case_detail"':''}></script><script defer src="https://stats.incidental.site/subscribe.js"></script>`;
-  PAGES.push([url,meta.lastmod||""]);
+  PAGES.push([url,meta.lastmod||"",!!meta.enOnly]);
   return html.replace(/<link rel="alternate" hreflang="x-default" href="[^"]*">/,"").replace("</head>",head+"</head>");
 }
 export function sitemaps(today){
   const files={};
-  for(const l of LC){files[`sitemap-${l}.xml`]=`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${PAGES.map(([u,m])=>`<url><loc>${u}?lang=${l}</loc><lastmod>${(m||today).slice(0,10)}</lastmod></url>`).join("\n")}\n</urlset>\n`}
+  for(const l of LC){files[`sitemap-${l}.xml`]=`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${PAGES.filter(([,,eo])=>!eo||l==="en").map(([u,m,eo])=>`<url><loc>${eo?u:u+"?lang="+l}</loc><lastmod>${(m||today).slice(0,10)}</lastmod></url>`).join("\n")}\n</urlset>\n`}
   files["sitemap-default.xml"]=`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${PAGES.map(([u,m])=>`<url><loc>${u}</loc><lastmod>${(m||today).slice(0,10)}</lastmod></url>`).join("\n")}\n</urlset>\n`;
   files["sitemap.xml"]=`<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${Object.keys(files).filter(k=>k!=="sitemap.xml").map(k=>`<sitemap><loc>${BASE}/${k}</loc><lastmod>${today}</lastmod></sitemap>`).join("\n")}\n</sitemapindex>\n`;
   return files;
