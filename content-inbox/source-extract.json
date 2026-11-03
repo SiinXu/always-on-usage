@@ -9385,5 +9385,122 @@
   "outline": [],
   "kind": "youtube",
   "fetched_at": "2026-11-01"
+ },
+ "https://github.com/emiiii09/SIGHTLINE": {
+  "text": "Solo entry by **Emilia Tagliaferro** for the Meta Global AI Developer Hackathon. Everything in this repo was built during the event (Oct 27 – Nov 4).",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/emiiii09/SIGHTLINE/HEAD/docs/01-welcome.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/emiiii09/SIGHTLINE/HEAD/docs/02-setup.png"
+   }
+  ],
+  "outline": [
+   "Deterministic on-device WCAG audit (no AI needed to scan): missing alt",
+   "Muse Spark verdict: 2-sentence assessment + top 3 things to fix first.",
+   "Per-issue AI fixes with corrected HTML and one-tap copy; requested",
+   "Marked-up page preview: pink numbered badges match the finding cards.",
+   "Shareable report, copyable fix plan, before/after delta per site.",
+   "Audit history: recent scores with date and findings count.",
+   "Spanish/English UI, light/dark/system theme, help + FAQ, about screen.",
+   "Per-user Meta API key, validated before use and stored encrypted on the"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-03"
+ },
+ "https://github.com/danielmedinac22/saldado-oss": {
+  "text": "Customers write to your business on WhatsApp → your Grok Bot answers. Official WhatsApp Business API, no webhooks to babysit.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/danielmedinac22/saldado-oss/HEAD/docs/assets/landing-desktop.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/danielmedinac22/saldado-oss/HEAD/docs/assets/demo.gif"
+   }
+  ],
+  "outline": [
+   "🧩 Bursts become one message. Three texts in a row reach your agent as one.",
+   "🔁 Nothing gets lost. If your agent is slow or down, Saldado retries.",
+   "🚨 You hear about failures. If Meta rejects a message, the owner gets told why, in plain words.",
+   "📲 Signup over WhatsApp. Bring your own number, or get a new one.",
+   "🔐 Secrets encrypted at rest. Kapso keys, webhook secrets and agent tokens are all encrypted in the database.",
+   "Node.js 20+ and pnpm.",
+   "A Postgres database. The app uses @neondatabase/serverless, so Neon is the easiest option (the free tier is fine).",
+   "A Kapso account and project, with its API key."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-03"
+ },
+ "https://github.com/MarcusYuan/gbdev": {
+  "text": "[](https://github.com/MarcusYuan/gbdev/actions/workflows/ci.yml) [](LICENSE)",
+  "media": [],
+  "outline": [
+   "Isolated worktrees — every worker gets its own Git worktree and branch; your checkout and target branch are untouched.",
+   "Parallel lanes — a planner splits a goal into a task graph; independent tasks run in parallel lanes and merge into an integration branch.",
+   "Bounded review/fix loops — reviewers and fixers iterate under explicit round, job, and time budgets; when the budget is used up, gbdev asks instead of looping.",
+   "Evidence, not vibes — checks you trust run at every merge; worker output is untrusted data; a missing review verdict is never treated as approval; read-only …",
+   "Explicit decisions — plans, failures, and conflicts become attention items that the controller answers with the current decision ID and an allowed action.",
+   "No unreviewed merges, no pushes — finished work waits on an integration branch. Updating your local branch needs run land --confirm-user-approved, which the …",
+   "Node.js >= 24 and npm; Git >= 2.38; a Git repository with at least one commit.",
+   "Codex CLI (codex) and/or Cursor agent (cursor-agent), installed and logged in by you. Provider access, models, and usage charges are your responsibility."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-03"
+ },
+ "https://github.com/ngetichkipkirui/nyukilens": {
+  "text": "Photograph a hive frame, get an AI diagnosis in English or Swahili.",
+  "media": [],
+  "outline": [
+   "Python 3.10+",
+   "FastAPI + Uvicorn",
+   "OpenAI Python SDK pointed at the Meta Model API (https://api.meta.ai/v1)",
+   "Text: muse-spark-1.1",
+   "Vision/segmentation: sam-3.1",
+   "SQLite via sqlite3 (no ORM)",
+   "Jinja2 templates, plain CSS — no React, no Node, no build step",
+   "The advisor sees the photo itself plus segmentation notes, and is"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-03"
+ },
+ "https://github.com/Moses-Githinji/meta-cv-hktn-edu-agent": {
+  "text": "A teaching agent for the Kenyan Competency-Based Curriculum — all levels (Pre-Primary, Primary, Junior School, Senior School) and all learning areas — forked from the legal-agent workshop. It plans term coverage from hand-built curriculum packs, quotes learning outcomes exactly as printed in the official KICD designs, and files documents (schemes of work, lesson plans, exams) for teacher sign-off.",
+  "media": [],
+  "outline": [
+   "teaching_agent/ — the agent: the agentic loop (loop.py) and",
+   "edu_kit/ — pre-built plumbing (do not edit): tools, run progress, record",
+   "verification/ — the verification layer: teaching checks",
+   "pipeline/ — the curriculum data pipeline (fetch, extract, gates,",
+   "lessons/, exams/, diagrams/, export/ — follow-up documents:",
+   "evals/, routing/ — golden tasks and model routing (see OPERATE.md).",
+   "curriculum/ — schema, loader, and the current curriculum packs.",
+   "teacher_context/ — term calendar and timetable for one real term."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-03"
+ },
+ "https://github.com/PearlLeeStudio/TheArtist-Meta-Hackathon": {
+  "text": "**From a score or a chord sketch to editable DAW parts: Meta Muse Spark searches the harmony, my own chord model scores it, the musician chooses.** Indie track · *Build for Your World* · built October 27 – November 4, 2026 on top of my pre-existing score editor and Music Transformer.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/wC-dkLfot-c/hqdefault.jpg"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/PearlLeeStudio/TheArtist-Meta-Hackathon/HEAD/screenshot/13-reharmonize-alternatives.png"
+   }
+  ],
+  "outline": [
+   "Reharmonize.* Muse Spark chooses which substitution families to search, calls",
+   "Complete the form.* Muse Spark plans the song form as strict JSON; code checks"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-03"
  }
 }
