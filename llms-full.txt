@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2143 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2162 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-03T13:34:59.284Z
+- Last updated: 2026-11-03T23:44:26.770Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3227,6 +3227,81 @@
 - URL: https://usage.incidental.site/cases/x-glasshourxbt-2117609373287559336.html
 - Type: field-case · Product: grok-bot · Author: glasshourxbt · Source: https://x.com/glasshourxbt/status/2117609373287559336 · Date: 2026-11-03
 - Summary: As quoted in the post, SpaceXAI's Krista Letz says she didn't want to watch a 45-minute webinar about 50 accounts, so she onboarded Grok Bot like a coworker and automated hours of her workday; in a video under 7 minutes she shows how she hands real work to Grok Bot.
+
+### Grok Bot read a year of bank statements and cut 7 subscriptions
+- URL: https://usage.incidental.site/cases/x-kevinvibex-2117735430862868683.html
+- Type: field-case · Product: grok-bot · Author: Kevin_VibeX · Source: https://x.com/Kevin_VibeX/status/2117735430862868683 · Date: 2026-11-03
+- Summary: The author exported 12 months of statements (1,904 transactions) and had Grok Bot tag them: $3,941 a month, 38% housing, 19% food. Based on actual usage it cancelled 7 idle or double-charged subscriptions ($172.95 a month) and kept the ones in use, then drafted emails to negotiate internet, phone and car insurance bills. The author says the total saving is $2,819 a year.
+
+### Five ready-made Grok Bots added in one night: inbox, receipts, haggling
+- URL: https://usage.incidental.site/cases/x-mywestlord-2117742580334993570.html
+- Type: field-case · Product: grok-bot · Author: MyWestLord · Source: https://x.com/MyWestLord/status/2117742580334993570 · Date: 2026-11-03
+- Summary: The author says 56 official bots are on the use cases page and 35 more in the marketplace, free to add: pick one, hit Add, send the first task in chat. He added five overnight: Inbox Manager sorted 214 emails and drafted 12 replies without sending any unapproved, Expense Manager pulled receipts from email for the weekly summary, Haggle Bot drafted counteroffers for 3 subscriptions, plus SEO briefs and a morning brief.
+
+### 91 ready-made bots in the Grok Bot marketplace: three to start with
+- URL: https://usage.incidental.site/cases/x-0xgenai-2117743358756208909.html
+- Type: guide · Product: grok-bot · Author: 0xGenAi · Source: https://x.com/0xGenAi/status/2117743358756208909 · Date: 2026-11-03
+- Summary: Per the post, the marketplace has 91 free bots: 55 built by the Grok Bot team and 36 from builders such as Lenny Rachitsky and Claire Vo. Adding one copies its instructions and skills into your Grok Bot. Suggested starters: Haggle Bot (finds unused seats and drafts counteroffers, never pays or sends without you), Call Follow-Ups (turns recorded calls into follow-up emails and updates the CRM) and Startup QA Bot (walks your product every weekday with repro steps).
+
+### A shared Notion context layer so every teammate's agent reads the same facts
+- URL: https://usage.incidental.site/cases/x-temnco-2117754724501827857.html
+- Type: guide · Product: grok-bot · Author: temnco · Source: https://x.com/temnco/status/2117754724501827857 · Date: 2026-11-03
+- Summary: From the author's Claude Community House talk: each person's context lives in their own AI chat, so people end up copy-pasting between agents. His fix is a shared context layer in Notion holding tasks, docs, meetings, decisions, projects and skills, read by every teammate's agent, whether Claude, Grok Bot or a custom harness. The video covers the architecture and demos of tasks, meetings and decisions.
+
+### Grok and Meta Muse agent teams hand work directly to each other
+- URL: https://usage.incidental.site/cases/x-stockmystocks-2117590677735276933.html
+- Type: field-case · Product: multi · Author: StockMyStocks · Source: https://x.com/StockMyStocks/status/2117590677735276933 · Date: 2026-11-03
+- Summary: In the author's small business, Goro (Grok) leads design and Jia (Meta Muse) runs operations, each with a crew of specialist agents. A secure bridge with guardrails now lets them pass work straight to each other without a human in the middle; the author only approves what ships.
+
+### How to have Grok Bot make a phone call for you
+- URL: https://usage.incidental.site/cases/x-grok-2117760799301152851.html
+- Type: guide · Product: grok-bot · Author: grok · Source: https://x.com/grok/status/2117760799301152851 · Date: 2026-11-03
+- Summary: Reply from the official Grok account: update the Grok Bot app (Settings → Updates), then tell your Bot in chat who to call and what you need. It dials, handles holds and menus, shows a live transcript and pops up a reply box if it needs more from you. The feature is rolling out to eligible US accounts on Premium and higher plans, excluding WA and IL; ask your Bot whether it's available yet.
+
+### Overnight AI profits from an old phone? Check the risks first
+- URL: https://usage.incidental.site/cases/x-iphonegalaxymd-2117617809488588920.html
+- Type: guide · Product: grok-bot · Author: iphonegalaxymd · Source: https://x.com/iphonegalaxymd/status/2117617809488588920 · Date: 2026-11-03
+- Summary: The author notes that posts about an old phone and an agent making money overnight rarely show proof. Plausible: spare phones as always-on agent hardware and assistants like Grok Bot running scheduled routines. Not proven: overnight trading profits. The risk is that an old phone is already logged in to apps, so anything the agent can tap, it can spend. Advice: use a spare phone, sign in only to needed apps, keep logins, 2FA and payments behind human approval, and start with boring jobs.
+
+### A 57-minute walkthrough from your first Grok Bot to a working team
+- URL: https://usage.incidental.site/cases/x-sorryimgeek-2117757246738427911.html
+- Type: guide · Product: grok-bot · Author: sorryimgeek · Source: https://x.com/sorryimgeek/status/2117757246738427911 · Date: 2026-11-03
+- Summary: The author shares a 57-minute Grok Bot tutorial and suggests a target for your first AI team: one recurring job, clear owners, and a result you can open and check. It covers bot setup, team workflows, reusable templates and working from your phone.
+
+### 20 Grok Bots for job hunting: openings, résumés, interview prep
+- URL: https://usage.incidental.site/cases/x-tsukiema-2117608876275036469.html
+- Type: guide · Product: grok-bot · Author: tsukiema_ · Source: https://x.com/tsukiema_/status/2117608876275036469 · Date: 2026-11-03
+- Summary: The author lists 20 Grok Bots for job hunting in groups: 01–04 job search (live openings, fit scores, compensation), 05–08 résumé and portfolio, with interview prep and more later in the list linked from the post.
+
+### Sightline: an Android app that audits website accessibility with Meta Muse Spark
+- URL: https://usage.incidental.site/cases/gh-github-com-emiiii09-sightline.html
+- Type: field-case · Product: meta-muse · Author: emiiii09 · Source: https://github.com/emiiii09/SIGHTLINE · Date: 2026-11-03
+- Summary: The open-source repo Sightline is an Android app that audits website accessibility using Meta Muse Spark. It is an indie entry to the Meta Global AI Developer Hackathon.
+
+### saldado-oss: connect your Grok Bot to WhatsApp
+- URL: https://usage.incidental.site/cases/gh-github-com-danielmedinac22-saldado-oss.html
+- Type: field-case · Product: grok-bot · Author: danielmedinac22 · Source: https://github.com/danielmedinac22/saldado-oss · Date: 2026-11-03
+- Summary: The open-source project saldado-oss connects your Grok Bot to WhatsApp. You can self-host it with your own Kapso or use the hosted version at saldadoapp.com; it is built with Next.js.
+
+### gbdev: Grok Bot leads local Codex CLI and Cursor agents as coding workers
+- URL: https://usage.incidental.site/cases/gh-github-com-marcusyuan-gbdev.html
+- Type: field-case · Product: grok-bot · Author: MarcusYuan · Source: https://github.com/MarcusYuan/gbdev · Date: 2026-11-03
+- Summary: The unofficial open-source project gbdev lets Grok Bot lead Codex CLI and a Cursor agent running locally as coding workers, covering plan, implement, review and merge.
+
+### Nyuki Lens: a hive-health advisor for Kenyan beekeepers
+- URL: https://usage.incidental.site/cases/gh-github-com-ngetichkipkirui-nyukilens.html
+- Type: field-case · Product: meta-muse · Author: ngetichkipkirui · Source: https://github.com/ngetichkipkirui/nyukilens · Date: 2026-11-03
+- Summary: The open-source Nyuki Lens is a FastAPI hive-health advisor: upload a photo of a frame, apiary, bee or pest and get a short diagnosis and one action, in English or Swahili. It is powered by Meta SAM 3.1 and Muse Spark 1.1.
+
+### A teaching agent for Kenya's CBC curriculum built with Muse Code and Muse Spark
+- URL: https://usage.incidental.site/cases/gh-github-com-moses-githinji-meta-cv-hktn-edu-agent.html
+- Type: field-case · Product: meta-muse · Author: Moses-Githinji · Source: https://github.com/Moses-Githinji/meta-cv-hktn-edu-agent · Date: 2026-11-03
+- Summary: This hackathon repo builds an AI teaching agent for Kenya's CBC curriculum using Muse Code and Muse Spark. It produces schemes of work, lesson plans, exams and diagrams with exact KICD citations, an audit trail and teacher sign-off.
+
+### TheArtist: Muse Spark reharmonization and a score-to-DAW workflow
+- URL: https://usage.incidental.site/cases/gh-github-com-pearlleestudio-theartist-meta-hackathon.html
+- Type: field-case · Product: meta-muse · Author: PearlLeeStudio · Source: https://github.com/PearlLeeStudio/TheArtist-Meta-Hackathon · Date: 2026-11-03
+- Summary: This Meta Global AI Developer Hackathon repo uses Muse Spark for reharmonization and provides a workflow that takes a score into a DAW (digital audio workstation).
 
 ### Five engineering foundations for Grok Bot: memory, templates, a duo, an IDE bridge, a task ladder
 - URL: https://usage.incidental.site/cases/x-gitdaily-2117184079665693142.html
@@ -10218,6 +10293,16 @@
 - Type: comparison · Product: meta-muse · Author: 310techlab · Source: https://x.com/310techlab/status/2117605324253499806 · Date: 2026-11-03
 - Summary: The author kept the same character image and the exact same prompt and only swapped the image model: Meta Muse, Google Imagen3, Qwen Image 3 and Grok Imagine Image 2.0, with the four results attached.
 
+### Dots or Grok Bot: no single winner
+- URL: https://usage.incidental.site/cases/x-grok-2117668969108623837.html
+- Type: comparison · Product: multi · Author: grok · Source: https://x.com/grok/status/2117668969108623837 · Date: 2026-11-03
+- Summary: A comparison reply from the official Grok account: OpenAI Dots has its own cloud computer, proactive research and deep ties to ChatGPT, Slack, Teams and 4,000+ apps, with one primary agent today. Grok Bot still leads some real-world phone and multi-bot coordination flows, such as the doctor appointment example. The verdict: no single winner, match the tool to your stack and the job.
+
+### Assistant app directories: ChatGPT 8,495, Claude 8,478, Meta Muse 63
+- URL: https://usage.incidental.site/cases/x-stretchcloud-2117590615433060752.html
+- Type: comparison · Product: multi · Author: stretchcloud · Source: https://x.com/stretchcloud/status/2117590615433060752 · Date: 2026-11-03
+- Summary: The author counts 8,495 apps in ChatGPT's directory and 8,478 in Claude's connector directory, with 1,020 and 708 added in the last seven days. Google's store, opened October 30, has 52 and Meta Muse has 63. He sees an early app-store land grab where review speed is the moat; developers report OpenAI approvals in one to two days.
+
 ### Dots or Grok Bot? Dots reaches Europe as limits tighten
 - URL: https://usage.incidental.site/cases/x-kappaemmedev-2117195024983113954.html
 - Type: comparison · Product: multi · Author: Kappaemmedev · Source: https://x.com/Kappaemmedev/status/2117195024983113954 · Date: 2026-11-02
@@ -10692,6 +10777,16 @@
 - URL: https://usage.incidental.site/cases/x-ahmedfataka-2117601830985171399.html
 - Type: quota-report · Product: grok-bot · Author: ahmedfataka · Source: https://x.com/ahmedfataka/status/2117601830985171399 · Date: 2026-11-03
 - Summary: The author runs his whole YouTube and X workflow on Grok Bot on a paid Ultra plan. This week his allowance dropped so fast he had to pause all his bots mid-week, with no announcement or warning, and he asks for fair limits to be restored.
+
+### 40,618 usage records: how many tokens Grok Bot gives per month
+- URL: https://usage.incidental.site/cases/x-rhiz3k-2117733180320972946.html
+- Type: quota-report · Product: grok-bot · Author: Rhiz3K · Source: https://x.com/Rhiz3K/status/2117733180320972946 · Date: 2026-11-03
+- Summary: From 40,618 Grok Bot usage records (Oct 13 to Nov 3) the author estimates about 1.97B tokens a month on Premium (€30) and 7.35B on Super (€100), plus a cloud computer his shell reported as 8 vCPU / 15 GiB / 128 GB. He compares this with Claude and ChatGPT plans, EU VPS hosting and managed bot hosts. Caveats: the Super figure is extrapolated from 4.64 days and 93.6% of its tokens were cached reads.
+
+### Usage hit 100% in two days, then a regretted year of prepaid Ultra
+- URL: https://usage.incidental.site/cases/x-followhalfmt-2117760667063402590.html
+- Type: quota-report · Product: grok-bot · Author: FollowHalfmt · Source: https://x.com/FollowHalfmt/status/2117760667063402590 · Date: 2026-11-03
+- Summary: The author says his Grok Bot usage climbed alarmingly over two days even though Codex, Claude and Gemini did the actual work. At 100% he assumed he was on the wrong plan and upgraded from Super ($100/mo) to Ultra ($200/mo), prepaying a year for $2,000. He has asked support for a refund and so far only heard that someone will get back to him.
 
 ### A "night shift office" for bots shows which one eats the weekly limit
 - URL: https://usage.incidental.site/cases/x-0xjmori-2117247747661214121.html
