@@ -1,3 +1,1055 @@
 {
- "items": []
+ "items": [
+  {
+   "id": "x:2118123884017045938",
+   "url": "https://x.com/4ro_ro4/status/2118123884017045938",
+   "source": "x",
+   "source_name": "X",
+   "author": "4ro_ro4",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Grok Botに、3日おきに僕のXを分析してもらってます。\n\n数字を集めて、前回と比べて、次に試すことまで考えてくれる。\n\n自分で画面を眺めてた頃より、ちゃんと振り返れてる気がします https://t.co/g9ZbeMKWJf",
+   "media": [
+    "https://pbs.twimg.com/media/HWUWcrqa0AA5V2x.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "让 Grok Bot 每三天分析一次自己的 X 账号",
+     "summary": "作者让 Grok Bot 每隔三天分析一次他的 X 账号：收集数据、和上一次对比，并提出下一步要尝试什么。他觉得这比自己盯着后台看时复盘得更扎实。"
+    },
+    "zh-TW": {
+     "title": "讓 Grok Bot 每三天分析一次自己的 X 帳號",
+     "summary": "作者讓 Grok Bot 每隔三天分析一次他的 X 帳號：收集數據、和上一次比較，並提出下一步要嘗試什麼。他覺得這比自己盯著後台看時復盤得更紮實。"
+    },
+    "en": {
+     "title": "Having Grok Bot analyze his X account every three days",
+     "summary": "The author has Grok Bot analyze his X account every three days: it collects the numbers, compares them with the previous run and suggests what to try next. He feels he reviews his account more properly than when he just stared at the dashboard himself."
+    },
+    "ja": {
+     "title": "Grok Botに3日おきに自分のXを分析させる",
+     "summary": "作者はGrok Botに3日おきに自分のXアカウントを分析させている。数字を集め、前回と比べ、次に試すことまで考えてくれる。自分で画面を眺めていた頃より、きちんと振り返れているという。"
+    },
+    "ko": {
+     "title": "Grok Bot에게 3일마다 내 X 계정 분석 맡기기",
+     "summary": "작성자는 Grok Bot에게 3일마다 자신의 X 계정을 분석하게 합니다. 수치를 모으고 지난번과 비교한 뒤 다음에 시도할 것까지 제안합니다. 직접 화면을 들여다보던 때보다 제대로 돌아보게 됐다고 합니다."
+    },
+    "ms": {
+     "title": "Grok Bot menganalisis akaun X penulis setiap tiga hari",
+     "summary": "Penulis meminta Grok Bot menganalisis akaun X miliknya setiap tiga hari: ia mengumpul angka, membandingkannya dengan kali lepas dan mencadangkan apa yang patut dicuba seterusnya. Dia rasa semakannya lebih teliti berbanding ketika hanya melihat skrin sendiri."
+    },
+    "vi": {
+     "title": "Để Grok Bot phân tích tài khoản X ba ngày một lần",
+     "summary": "Tác giả nhờ Grok Bot phân tích tài khoản X của mình ba ngày một lần: thu thập số liệu, so sánh với lần trước và đề xuất việc nên thử tiếp theo. Anh thấy mình nhìn lại bài bản hơn so với khi tự ngồi xem màn hình."
+    },
+    "fr": {
+     "title": "Grok Bot analyse son compte X tous les trois jours",
+     "summary": "L’auteur demande à Grok Bot d’analyser son compte X tous les trois jours : il rassemble les chiffres, les compare à la fois précédente et propose quoi tester ensuite. Il estime faire un vrai bilan, mieux qu’à l’époque où il regardait l’écran lui-même."
+    },
+    "es": {
+     "title": "Grok Bot analiza su cuenta de X cada tres días",
+     "summary": "El autor pide a Grok Bot que analice su cuenta de X cada tres días: reúne las cifras, las compara con la vez anterior y propone qué probar después. Siente que revisa mejor que cuando miraba la pantalla él mismo."
+    },
+    "de": {
+     "title": "Grok Bot analysiert alle drei Tage sein X-Konto",
+     "summary": "Der Autor lässt Grok Bot alle drei Tage sein X-Konto analysieren: Zahlen sammeln, mit dem letzten Mal vergleichen und vorschlagen, was er als Nächstes ausprobieren soll. So reflektiere er gründlicher als früher, als er selbst nur auf den Bildschirm schaute."
+    }
+   }
+  },
+  {
+   "id": "x:2118123732447240356",
+   "url": "https://x.com/rimulab9/status/2118123732447240356",
+   "source": "x",
+   "source_name": "X",
+   "author": "rimulab9",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Grok Bot 20体まで増やしたけど5体に戻した！！\n\n増やすほど認知負荷もあがるし、誰に何を頼んだか覚えてられなくなる\nBot同士で相談し始めて勝手にトークンが溶けていくし、結局「この件どのBotだっけ」って自分が迷子になる、、\n\n5体にしたら把握しやすくなっておすすめ",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 从 20 个减回 5 个：越多越难管",
+     "summary": "作者把 Grok Bot 加到 20 个后又减回 5 个。Bot 越多认知负担越重，记不住交给了谁；Bot 之间还会互相商量，悄悄消耗 token，最后自己都搞不清“这件事是哪个 Bot 在做”。减到 5 个后更好掌握，作者推荐这样做。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 從 20 個減回 5 個：越多越難管",
+     "summary": "作者把 Grok Bot 加到 20 個後又減回 5 個。Bot 越多認知負擔越重，記不住交給了誰；Bot 之間還會互相商量，悄悄消耗 token，最後自己都搞不清「這件事是哪個 Bot 在做」。減到 5 個後更好掌握，作者推薦這樣做。"
+    },
+    "en": {
+     "title": "Cutting Grok Bots from 20 back to 5: more is harder to manage",
+     "summary": "The author grew to 20 Grok Bots and then went back to 5. More bots meant more mental load and losing track of who was asked to do what; bots also started consulting each other and quietly burned tokens, until he couldn't tell which bot owned a task. With 5 it is easier to keep track, and he recommends it."
+    },
+    "ja": {
+     "title": "Grok Botを20体から5体に戻した理由",
+     "summary": "作者はGrok Botを20体まで増やしたが5体に戻した。増やすほど認知負荷が上がり、誰に何を頼んだか覚えられない。Bot同士で相談を始めて勝手にトークンが減り、「この件どのBotだっけ」と迷子になる。5体なら把握しやすく、おすすめだという。"
+    },
+    "ko": {
+     "title": "Grok Bot을 20개에서 5개로 줄인 이유",
+     "summary": "작성자는 Grok Bot을 20개까지 늘렸다가 5개로 줄였습니다. 많을수록 인지 부담이 커지고 누구에게 무엇을 맡겼는지 기억하기 어렵습니다. Bot끼리 상의하며 토큰이 저절로 줄고, 결국 이 일이 어느 Bot 담당인지 헷갈리게 됩니다. 5개로 줄이니 파악이 쉬워 추천한다고 합니다."
+    },
+    "ms": {
+     "title": "Kurangkan Grok Bot daripada 20 kepada 5: lebih banyak lebih sukar diurus",
+     "summary": "Penulis menambah Grok Bot sehingga 20, kemudian kembali kepada 5. Lebih banyak bot bermakna beban kognitif lebih tinggi dan sukar ingat tugas siapa; bot juga mula berbincang sesama sendiri dan menghabiskan token secara senyap. Dengan 5 bot lebih mudah dipantau, dan dia mengesyorkannya."
+    },
+    "vi": {
+     "title": "Giảm Grok Bot từ 20 xuống 5: càng nhiều càng khó quản",
+     "summary": "Tác giả tăng lên 20 Grok Bot rồi quay lại 5. Càng nhiều bot càng nặng đầu, không nhớ đã giao việc gì cho ai; các bot còn tự bàn với nhau và lặng lẽ đốt token, cuối cùng chính anh không biết việc này thuộc bot nào. Với 5 bot thì dễ nắm hơn, và anh khuyên làm vậy."
+    },
+    "fr": {
+     "title": "Passer de 20 Grok Bots à 5 : plus il y en a, plus c’est dur à gérer",
+     "summary": "L’auteur est monté à 20 Grok Bots puis est revenu à 5. Plus de bots, c’est plus de charge mentale et l’oubli de qui fait quoi ; les bots se consultent entre eux et consomment des tokens sans prévenir, jusqu’à ne plus savoir quel bot gère quoi. À 5, c’est plus facile à suivre, et il le recommande."
+    },
+    "es": {
+     "title": "De 20 Grok Bots a 5: cuantos más, más difícil de gestionar",
+     "summary": "El autor llegó a tener 20 Grok Bots y volvió a 5. Más bots significan más carga mental y olvidar a quién se le pidió qué; además los bots empiezan a consultarse entre sí y gastan tokens solos, hasta no saber qué bot lleva cada tarea. Con 5 es más fácil de controlar y lo recomienda."
+    },
+    "de": {
+     "title": "Von 20 Grok Bots zurück auf 5: mehr ist schwerer zu steuern",
+     "summary": "Der Autor hatte bis zu 20 Grok Bots und ist auf 5 zurückgegangen. Mehr Bots bedeuten mehr kognitive Last und den Überblick zu verlieren, wer was erledigen soll; die Bots beraten sich zudem untereinander und verbrauchen still Tokens. Mit 5 bleibt alles überschaubar, das empfiehlt er."
+    }
+   }
+  },
+  {
+   "id": "x:2118123723886584249",
+   "url": "https://x.com/MAtrujillo99/status/2118123723886584249",
+   "source": "x",
+   "source_name": "X",
+   "author": "MAtrujillo99",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Un usuario puso a su Grok Bot a llamar a una aseguradora para preguntar por una cobertura antes de comprar el seguro mientras recogía a sus hijos. Elon lo compartió.\n\nPregunta para negocios locales: cuando el agente de un cliente te llame, ¿va a encontrar respuesta clara?",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用户让 Grok Bot 打电话问保险公司承保范围",
+     "summary": "作者转述：一位用户在接孩子的同时，让自己的 Grok Bot 给保险公司打电话，在投保前询问承保范围，Elon 转发了这件事。作者借此问本地商家：当客户的 agent 打来电话时，能得到清楚的答复吗？"
+    },
+    "zh-TW": {
+     "title": "用戶讓 Grok Bot 打電話問保險公司承保範圍",
+     "summary": "作者轉述：一位用戶在接孩子的同時，讓自己的 Grok Bot 打電話給保險公司，在投保前詢問承保範圍，Elon 轉發了這件事。作者藉此問在地商家：當客戶的 agent 打來時，能得到清楚的答覆嗎？"
+    },
+    "en": {
+     "title": "A user had Grok Bot call an insurer to ask about coverage",
+     "summary": "The author relays that a user had their Grok Bot call an insurance company to ask about coverage before buying a policy, while picking up their kids; Elon shared it. He asks local businesses whether a customer’s agent calling them would get a clear answer."
+    },
+    "ja": {
+     "title": "Grok Botに保険会社へ電話させ補償内容を確認",
+     "summary": "作者によると、あるユーザーが子どもを迎えに行く間、Grok Botに保険会社へ電話させ、加入前に補償内容を問い合わせた。Elonがこれを共有した。作者は地元の店に、顧客のエージェントから電話が来たとき明確に答えられるかと問いかける。"
+    },
+    "ko": {
+     "title": "Grok Bot이 보험사에 전화해 보장 범위 문의",
+     "summary": "작성자에 따르면 한 사용자가 아이를 데리러 가는 동안 Grok Bot에게 보험사에 전화해 가입 전 보장 범위를 묻게 했고, Elon이 이를 공유했습니다. 작성자는 지역 업체들에게 고객의 에이전트가 전화하면 명확한 답을 줄 수 있는지 묻습니다."
+    },
+    "ms": {
+     "title": "Pengguna minta Grok Bot telefon syarikat insurans tentang perlindungan",
+     "summary": "Penulis menceritakan seorang pengguna meminta Grok Bot menelefon syarikat insurans untuk bertanya tentang perlindungan sebelum membeli polisi, sambil dia mengambil anak; Elon berkongsi kisah ini. Penulis bertanya kepada perniagaan tempatan sama ada ejen pelanggan yang menelefon akan mendapat jawapan jelas."
+    },
+    "vi": {
+     "title": "Người dùng để Grok Bot gọi công ty bảo hiểm hỏi phạm vi bảo hiểm",
+     "summary": "Tác giả kể một người dùng đã để Grok Bot gọi cho công ty bảo hiểm hỏi về phạm vi bảo hiểm trước khi mua, trong lúc đi đón con; Elon đã chia sẻ chuyện này. Tác giả hỏi các doanh nghiệp địa phương: khi agent của khách gọi đến, nó có nhận được câu trả lời rõ ràng không?"
+    },
+    "fr": {
+     "title": "Un utilisateur fait appeler un assureur par son Grok Bot",
+     "summary": "L’auteur rapporte qu’un utilisateur a fait appeler une compagnie d’assurance par son Grok Bot pour se renseigner sur une couverture avant de souscrire, pendant qu’il allait chercher ses enfants ; Elon l’a partagé. Il demande aux commerces locaux si l’agent d’un client qui les appelle obtiendra une réponse claire."
+    },
+    "es": {
+     "title": "Un usuario puso a su Grok Bot a llamar a una aseguradora",
+     "summary": "El autor cuenta que un usuario puso a su Grok Bot a llamar a una aseguradora para preguntar por una cobertura antes de contratar el seguro, mientras recogía a sus hijos; Elon lo compartió. Pregunta a los negocios locales si el agente de un cliente que les llame encontrará una respuesta clara."
+    },
+    "de": {
+     "title": "Grok Bot ruft für einen Nutzer bei einer Versicherung an",
+     "summary": "Der Autor berichtet, dass ein Nutzer seinen Grok Bot bei einer Versicherung anrufen ließ, um vor dem Abschluss nach dem Versicherungsschutz zu fragen, während er seine Kinder abholte; Elon teilte das. Er fragt lokale Unternehmen, ob der Agent eines Kunden bei ihnen eine klare Antwort bekäme."
+    }
+   }
+  },
+  {
+   "id": "x:2117967600797778171",
+   "url": "https://x.com/gbengaogun/status/2117967600797778171",
+   "source": "x",
+   "source_name": "X",
+   "author": "gbengaogun",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "openai-dots",
+   "text": "4/6\nEach task has its own threaded conversation.\n\nI can comment on the work in the tracker, and the conversation can also continue in my dot chat.\n\nThat keeps the context together and makes it easier to pick up where we left off.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Dots 每个任务一条对话线程，在任务追踪器和 dot 聊天里都能继续",
+     "summary": "作者在系列帖第 4 条里说：每个任务都有自己的对话线程。他可以在任务追踪器里评论工作，对话也能在 dot 聊天里继续，这样上下文集中在一起，更容易接着上次的进度往下做。"
+    },
+    "zh-TW": {
+     "title": "Dots 每個任務一條對話串，在任務追蹤器和 dot 聊天裡都能繼續",
+     "summary": "作者在系列貼文第 4 則說：每個任務都有自己的對話串。他可以在任務追蹤器裡評論工作，對話也能在 dot 聊天裡繼續，讓脈絡集中在一起，更容易接著上次的進度做下去。"
+    },
+    "en": {
+     "title": "Each Dots task gets its own thread, continued in the tracker or the dot chat",
+     "summary": "In part 4 of a thread, the author says each task has its own threaded conversation. He can comment on the work in the tracker, and the conversation can also continue in his dot chat, which keeps the context together and makes it easier to pick up where they left off."
+    },
+    "ja": {
+     "title": "Dotsはタスクごとにスレッド、トラッカーでもdotチャットでも続けられる",
+     "summary": "連投の4本目で作者は、タスクごとに専用のスレッド会話があると説明する。トラッカー上で作業にコメントでき、会話はdotのチャットでも続けられる。文脈がまとまり、前回の続きから再開しやすいという。"
+    },
+    "ko": {
+     "title": "Dots는 작업마다 스레드, 트래커와 dot 채팅에서 이어가기",
+     "summary": "작성자는 연속 글 4번째에서 작업마다 별도의 스레드 대화가 있다고 설명합니다. 트래커에서 작업에 댓글을 달 수 있고, 대화는 dot 채팅에서도 이어집니다. 맥락이 한곳에 모여 지난번에 멈춘 곳부터 다시 시작하기 쉽다고 합니다."
+    },
+    "ms": {
+     "title": "Setiap tugas Dots ada bebenang sendiri, boleh disambung di penjejak atau sembang dot",
+     "summary": "Dalam bahagian 4 bebenangnya, penulis berkata setiap tugas ada perbualan berbebenang sendiri. Dia boleh mengulas kerja dalam penjejak, dan perbualan juga boleh diteruskan dalam sembang dot, jadi konteks kekal bersama dan mudah sambung semula."
+    },
+    "vi": {
+     "title": "Mỗi tác vụ Dots có luồng riêng, tiếp tục được trong tracker hoặc chat dot",
+     "summary": "Trong phần 4 của chuỗi bài, tác giả nói mỗi tác vụ có một luồng hội thoại riêng. Anh có thể bình luận công việc trong tracker, và cuộc trò chuyện cũng tiếp tục trong chat với dot, nhờ vậy ngữ cảnh ở cùng một chỗ và dễ làm tiếp từ chỗ dừng."
+    },
+    "fr": {
+     "title": "Chaque tâche Dots a son fil, à poursuivre dans le tracker ou le chat du dot",
+     "summary": "Dans la 4e partie d’un fil, l’auteur explique que chaque tâche a sa propre conversation. Il peut commenter le travail dans le tracker, et l’échange peut aussi continuer dans le chat de son dot, ce qui garde le contexte au même endroit et facilite la reprise."
+    },
+    "es": {
+     "title": "Cada tarea de Dots tiene su hilo, que sigue en el tracker o en el chat del dot",
+     "summary": "En la parte 4 de un hilo, el autor explica que cada tarea tiene su propia conversación. Puede comentar el trabajo en el tracker y la conversación también continúa en el chat de su dot, así el contexto queda junto y es más fácil retomar donde lo dejaron."
+    },
+    "de": {
+     "title": "Jede Dots-Aufgabe hat einen eigenen Thread, im Tracker oder im dot-Chat",
+     "summary": "In Teil 4 eines Threads erklärt der Autor, dass jede Aufgabe einen eigenen Gesprächsverlauf hat. Er kann die Arbeit im Tracker kommentieren, und das Gespräch läuft auch im dot-Chat weiter. So bleibt der Kontext beisammen und man kann leichter dort weitermachen, wo man aufgehört hat."
+    }
+   }
+  },
+  {
+   "id": "x:2117964946655088716",
+   "url": "https://x.com/itsRyanWm/status/2117964946655088716",
+   "source": "x",
+   "source_name": "X",
+   "author": "itsRyanWm",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "openai-dots",
+   "text": "@ajambrosino Before fixing every app on Earth, can we get two OpenAI apps to hand work to each other?\n\nMy dot can coordinate ChatGPT threads, but I still have to manually shuttle ZIP files and prompts into Codex.\n\nSomehow, I'm the integration layer.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "dot 能协调 ChatGPT 线程，但交给 Codex 还得手动搬运",
+     "summary": "作者说他的 dot 可以协调多个 ChatGPT 对话线程，但要把工作交给 Codex 时，仍得自己手动搬 ZIP 文件和提示词，自嘲自己成了“集成层”。他希望 OpenAI 的两个应用能直接互相交接工作。"
+    },
+    "zh-TW": {
+     "title": "dot 能協調 ChatGPT 對話串，但交給 Codex 還得手動搬運",
+     "summary": "作者說他的 dot 可以協調多個 ChatGPT 對話串，但要把工作交給 Codex 時，仍得自己手動搬 ZIP 檔和提示詞，自嘲自己成了「整合層」。他希望 OpenAI 的兩個應用能直接互相交接工作。"
+    },
+    "en": {
+     "title": "His dot coordinates ChatGPT threads, but handing work to Codex is still manual",
+     "summary": "The author says his dot can coordinate ChatGPT threads, but he still has to manually shuttle ZIP files and prompts into Codex, joking that he has become the integration layer. He asks for two OpenAI apps to hand work to each other."
+    },
+    "ja": {
+     "title": "dotはChatGPTのスレッドを調整できるが、Codexへの受け渡しは手作業",
+     "summary": "作者のdotはChatGPTのスレッドを取りまとめられるが、Codexに渡すにはZIPファイルやプロンプトを自分で運ぶ必要がある。自分が「連携レイヤー」になっていると皮肉り、OpenAIの2つのアプリ同士で作業を受け渡せるようにしてほしいと求める。"
+    },
+    "ko": {
+     "title": "dot이 ChatGPT 스레드는 조율하지만 Codex로 넘기는 건 수작업",
+     "summary": "작성자의 dot은 ChatGPT 스레드를 조율할 수 있지만, Codex로 일을 넘기려면 ZIP 파일과 프롬프트를 직접 옮겨야 합니다. 자신이 통합 계층이 됐다고 꼬집으며 OpenAI의 두 앱이 서로 작업을 넘길 수 있기를 바랍니다."
+    },
+    "ms": {
+     "title": "dot boleh selaras bebenang ChatGPT, tetapi serah kerja ke Codex masih manual",
+     "summary": "Penulis berkata dot miliknya boleh menyelaras bebenang ChatGPT, tetapi dia masih perlu memindahkan fail ZIP dan prompt ke Codex secara manual, seolah-olah dialah lapisan integrasi. Dia mahu dua aplikasi OpenAI itu boleh menyerahkan kerja sesama sendiri."
+    },
+    "vi": {
+     "title": "dot điều phối được luồng ChatGPT, nhưng chuyển việc sang Codex vẫn thủ công",
+     "summary": "Tác giả nói dot của anh điều phối được các luồng ChatGPT, nhưng anh vẫn phải tự chuyển file ZIP và prompt sang Codex, đùa rằng mình đã thành lớp tích hợp. Anh muốn hai ứng dụng của OpenAI tự chuyển giao việc cho nhau."
+    },
+    "fr": {
+     "title": "Son dot coordonne les fils ChatGPT, mais le passage à Codex reste manuel",
+     "summary": "L’auteur explique que son dot coordonne ses fils ChatGPT, mais qu’il doit encore transférer à la main fichiers ZIP et prompts vers Codex, au point d’être devenu la couche d’intégration. Il demande que les deux applis d’OpenAI se passent le travail directement."
+    },
+    "es": {
+     "title": "Su dot coordina hilos de ChatGPT, pero pasar trabajo a Codex sigue siendo manual",
+     "summary": "El autor dice que su dot coordina hilos de ChatGPT, pero aún tiene que llevar a mano archivos ZIP y prompts a Codex, convertido en la capa de integración. Pide que dos apps de OpenAI puedan pasarse el trabajo entre sí."
+    },
+    "de": {
+     "title": "Sein dot koordiniert ChatGPT-Threads, die Übergabe an Codex bleibt Handarbeit",
+     "summary": "Der Autor sagt, sein dot könne ChatGPT-Threads koordinieren, doch ZIP-Dateien und Prompts müsse er weiterhin selbst zu Codex tragen; er sei die Integrationsschicht. Er wünscht sich, dass die beiden OpenAI-Apps Arbeit direkt aneinander übergeben."
+    }
+   }
+  },
+  {
+   "id": "x:2117952632274723314",
+   "url": "https://x.com/alecwardd/status/2117952632274723314",
+   "source": "x",
+   "source_name": "X",
+   "author": "alecwardd",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "openai-dots",
+   "text": "@thsottiaux It feels like my dot is so much better at handling multiple tasks when I'm using the app/web runtime and iMessage together for different tasks simultaneously. I assume context(s) get merged at some point, but is there some separation in context window or runtime? been so helpful",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "同时用 App/网页和 iMessage 给 dot 派不同任务，处理多任务更好",
+     "summary": "作者觉得，同时在 App/网页端和 iMessage 里给 dot 派不同任务时，它处理多任务明显更好。他推测上下文会在某处合并，并询问上下文窗口或运行时是否有区隔，称这非常有帮助。"
+    },
+    "zh-TW": {
+     "title": "同時用 App/網頁和 iMessage 給 dot 派不同任務，處理多任務更好",
+     "summary": "作者覺得，同時在 App/網頁端和 iMessage 裡給 dot 派不同任務時，它處理多任務明顯更好。他推測脈絡會在某處合併，並詢問上下文視窗或執行環境是否有區隔，稱這非常有幫助。"
+    },
+    "en": {
+     "title": "Using the app/web and iMessage at once makes his dot better at multitasking",
+     "summary": "The author feels his dot handles multiple tasks much better when he uses the app/web runtime and iMessage simultaneously for different tasks. He assumes the contexts get merged at some point and asks whether the context window or runtime is separated, calling it very helpful."
+    },
+    "ja": {
+     "title": "アプリ/WebとiMessageを併用するとdotのマルチタスクが良くなる",
+     "summary": "作者は、アプリ/WebとiMessageで同時に別々のタスクを頼むと、dotが複数タスクをずっとうまくこなすと感じている。文脈はどこかで統合されると推測しつつ、コンテキストウィンドウや実行環境は分かれているのかと質問。とても役立っているという。"
+    },
+    "ko": {
+     "title": "앱/웹과 iMessage를 함께 쓰면 dot의 멀티태스킹이 좋아진다",
+     "summary": "작성자는 앱/웹 런타임과 iMessage에서 동시에 서로 다른 작업을 맡길 때 dot이 여러 작업을 훨씬 잘 처리한다고 느낍니다. 맥락이 어느 시점에 합쳐질 거라 추측하며 컨텍스트 창이나 런타임이 분리돼 있는지 묻고, 매우 도움이 된다고 말합니다."
+    },
+    "ms": {
+     "title": "Guna aplikasi/web dan iMessage serentak, dot lebih baik berbilang tugas",
+     "summary": "Penulis rasa dot miliknya jauh lebih baik mengendalikan banyak tugas apabila dia menggunakan aplikasi/web dan iMessage serentak untuk tugas berbeza. Dia menganggap konteks digabung pada satu ketika dan bertanya sama ada tetingkap konteks atau runtime diasingkan; katanya sangat membantu."
+    },
+    "vi": {
+     "title": "Dùng app/web và iMessage cùng lúc giúp dot đa nhiệm tốt hơn",
+     "summary": "Tác giả thấy dot xử lý nhiều việc tốt hơn hẳn khi anh dùng app/web và iMessage cùng lúc cho các việc khác nhau. Anh đoán ngữ cảnh sẽ được gộp ở đâu đó và hỏi liệu cửa sổ ngữ cảnh hay runtime có tách riêng không, đồng thời nói nó rất hữu ích."
+    },
+    "fr": {
+     "title": "App/web et iMessage en parallèle : son dot gère mieux plusieurs tâches",
+     "summary": "L’auteur trouve que son dot gère bien mieux plusieurs tâches quand il utilise en même temps l’appli/le web et iMessage pour des tâches différentes. Il suppose que les contextes fusionnent à un moment et demande si la fenêtre de contexte ou l’environnement d’exécution sont séparés ; il le juge très utile."
+    },
+    "es": {
+     "title": "App/web e iMessage a la vez: su dot gestiona mejor varias tareas",
+     "summary": "El autor siente que su dot maneja mucho mejor varias tareas cuando usa la app/web e iMessage a la vez para tareas distintas. Supone que los contextos se fusionan en algún momento y pregunta si la ventana de contexto o el entorno de ejecución están separados; dice que le ha ayudado mucho."
+    },
+    "de": {
+     "title": "App/Web und iMessage parallel: sein dot bewältigt Multitasking besser",
+     "summary": "Der Autor hat den Eindruck, dass sein dot mehrere Aufgaben deutlich besser bewältigt, wenn er App/Web und iMessage gleichzeitig für verschiedene Aufgaben nutzt. Er vermutet, dass die Kontexte irgendwann zusammengeführt werden, und fragt, ob Kontextfenster oder Laufzeit getrennt sind; es helfe ihm sehr."
+    }
+   }
+  },
+  {
+   "id": "x:2117885308406833348",
+   "url": "https://x.com/souravghosh/status/2117885308406833348",
+   "source": "x",
+   "source_name": "X",
+   "author": "souravghosh",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "openai-dots",
+   "text": "No AI tool/feature has made life & work easier (so far) than @ChatGPT dots. \n\nSpecially, because now I can actually stay away from my desk and still get so much done. \n\nImpressed! \n\nIf you are a busy professional, I don't know why you wouldn't use this as your EA. \nAn always-on agent, with access across your entire work stack, you can call/text to keep getting work done on your computer/cloud. \n\nIf you are already using it and loving it, I can't wait to learn about your use cases. \nIf you are not, or if you are getting stuck anywhere, let me know. I would love to help you out. \n\nP.S. My EA on dots is named Donna. Watched Suits? You know why 😊",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "把 ChatGPT dots 当作执行助理，取名 Donna",
+     "summary": "作者说 ChatGPT dots 是目前最让他工作生活变轻松的 AI 功能：离开办公桌也能把很多事做完。他把它当执行助理（EA），一个能访问整套工作工具、可以打电话或发消息让它在电脑/云端继续干活的常驻 agent，并给它取名 Donna。"
+    },
+    "zh-TW": {
+     "title": "把 ChatGPT dots 當作執行助理，取名 Donna",
+     "summary": "作者說 ChatGPT dots 是目前最讓他工作生活變輕鬆的 AI 功能：離開辦公桌也能把很多事做完。他把它當執行助理（EA），一個能存取整套工作工具、可以打電話或傳訊息讓它在電腦／雲端繼續做事的常駐 agent，並取名 Donna。"
+    },
+    "en": {
+     "title": "Using ChatGPT dots as an executive assistant named Donna",
+     "summary": "The author says ChatGPT dots has made life and work easier than any AI feature so far, because he can stay away from his desk and still get a lot done. He uses it as his EA: an always-on agent with access across his work stack that he can call or text to keep work going on his computer or the cloud. He named it Donna."
+    },
+    "ja": {
+     "title": "ChatGPT dotsを「Donna」という名のエグゼクティブアシスタントに",
+     "summary": "作者は、ChatGPT dotsがこれまでで最も仕事と生活を楽にしたAI機能だという。デスクを離れても多くの仕事を進められるからだ。仕事のツール全体にアクセスでき、電話やテキストでPCやクラウド上の作業を進めさせられる常駐エージェントをEAとして使い、Donnaと名付けた。"
+    },
+    "ko": {
+     "title": "ChatGPT dots를 'Donna'라는 이름의 비서로 활용",
+     "summary": "작성자는 ChatGPT dots가 지금까지 일과 생활을 가장 편하게 해 준 AI 기능이라고 말합니다. 책상을 떠나도 많은 일을 끝낼 수 있기 때문입니다. 업무 도구 전반에 접근하고 전화나 문자로 컴퓨터나 클라우드에서 일을 이어가게 할 수 있는 상시 에이전트를 비서(EA)로 쓰며 Donna라는 이름을 붙였습니다."
+    },
+    "ms": {
+     "title": "Guna ChatGPT dots sebagai pembantu eksekutif bernama Donna",
+     "summary": "Penulis berkata ChatGPT dots paling memudahkan kerja dan hidupnya setakat ini kerana dia boleh jauh dari meja tetapi masih menyiapkan banyak kerja. Dia menggunakannya sebagai EA: ejen sentiasa aktif dengan akses ke seluruh alat kerjanya, yang boleh dihubungi melalui panggilan atau teks untuk terus bekerja di komputer atau awan. Namanya Donna."
+    },
+    "vi": {
+     "title": "Dùng ChatGPT dots làm trợ lý điều hành tên Donna",
+     "summary": "Tác giả nói ChatGPT dots là tính năng AI giúp công việc và cuộc sống dễ dàng nhất từ trước tới nay, vì anh có thể rời bàn làm việc mà vẫn xong nhiều việc. Anh dùng nó làm trợ lý điều hành: một agent luôn bật, truy cập toàn bộ công cụ làm việc, có thể gọi hoặc nhắn để nó tiếp tục làm trên máy tính hay đám mây. Anh đặt tên là Donna."
+    },
+    "fr": {
+     "title": "ChatGPT dots comme assistante de direction nommée Donna",
+     "summary": "L’auteur affirme qu’aucune fonction d’IA ne lui a autant facilité la vie et le travail que ChatGPT dots, car il peut s’éloigner de son bureau et avancer quand même. Il s’en sert comme assistante de direction : un agent toujours actif, relié à tous ses outils de travail, qu’il appelle ou à qui il écrit pour faire avancer le travail sur son ordinateur ou dans le cloud. Il l’a appelée Donna."
+    },
+    "es": {
+     "title": "ChatGPT dots como asistente ejecutiva llamada Donna",
+     "summary": "El autor dice que ninguna función de IA le ha facilitado tanto la vida y el trabajo como ChatGPT dots, porque puede alejarse del escritorio y aun así avanzar mucho. La usa como asistente ejecutiva: un agente siempre activo con acceso a todas sus herramientas de trabajo, al que llama o escribe para que siga trabajando en su ordenador o en la nube. La llamó Donna."
+    },
+    "de": {
+     "title": "ChatGPT dots als Assistenz der Geschäftsführung namens Donna",
+     "summary": "Der Autor sagt, keine KI-Funktion habe ihm Leben und Arbeit bisher so erleichtert wie ChatGPT dots, weil er vom Schreibtisch wegbleiben und trotzdem viel erledigen kann. Er nutzt es als Assistenz: einen ständig aktiven Agenten mit Zugriff auf seine gesamten Arbeitswerkzeuge, den er per Anruf oder Nachricht auf Computer oder Cloud weiterarbeiten lässt. Er nennt ihn Donna."
+    }
+   }
+  },
+  {
+   "id": "x:2117972083879575587",
+   "url": "https://x.com/Holykisses/status/2117972083879575587",
+   "source": "x",
+   "source_name": "X",
+   "author": "Holykisses",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Ebola Watch, Brief No. 13 (Wed 4 Nov, AM)\nDRC 1 Nov: 10,532 cases, 5,126 deaths; week -7.1%, our Rt 0.85\nCall: build-up to surge. Official data lags: a warning, not a certainty.\nFull report (26 pages): https://t.co/lpYYM5XpWC\nPrepared by Hollis (Grok Bot), AI research assistant.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "由 Grok Bot 研究助理 Hollis 编写的埃博拉观察简报",
+     "summary": "作者发布第 13 期《埃博拉观察》简报（11 月 4 日上午），注明由 Grok Bot 研究助理 Hollis 编写：刚果（金）11 月 1 日累计 10,532 例、5,126 例死亡，周环比 -7.1%，其估算 Rt 为 0.85，并附 26 页完整报告。作者提醒官方数据有滞后，这是预警而非定论。"
+    },
+    "zh-TW": {
+     "title": "由 Grok Bot 研究助理 Hollis 撰寫的伊波拉觀察簡報",
+     "summary": "作者發布第 13 期《伊波拉觀察》簡報（11 月 4 日上午），註明由 Grok Bot 研究助理 Hollis 撰寫：剛果民主共和國 11 月 1 日累計 10,532 例、5,126 例死亡，週變化 -7.1%，其估算 Rt 為 0.85，並附 26 頁完整報告。作者提醒官方數據有延遲，這是預警而非定論。"
+    },
+    "en": {
+     "title": "An Ebola watch brief prepared by Hollis, a Grok Bot research assistant",
+     "summary": "The author posts Ebola Watch Brief No. 13 (Nov 4, AM), credited to Hollis, a Grok Bot research assistant: DRC at 10,532 cases and 5,126 deaths as of Nov 1, week-on-week -7.1%, their estimated Rt 0.85, with a 26-page full report. The author notes official data lags, so it is a warning, not a certainty."
+    },
+    "ja": {
+     "title": "Grok Botの研究アシスタントHollisが作るエボラ監視ブリーフ",
+     "summary": "作者はエボラ監視ブリーフ第13号（11月4日朝）を公開し、Grok Botの研究アシスタントHollisが作成したと明記。コンゴ民主共和国は11月1日時点で10,532例、死者5,126人、週比-7.1%、独自推定のRtは0.85で、26ページの全文レポート付き。公式データは遅れるため確定ではなく警告だとしている。"
+    },
+    "ko": {
+     "title": "Grok Bot 연구 비서 Hollis가 작성한 에볼라 감시 브리핑",
+     "summary": "작성자는 에볼라 감시 브리핑 13호(11월 4일 오전)를 올리며 Grok Bot 연구 비서 Hollis가 작성했다고 밝힙니다. 콩고민주공화국은 11월 1일 기준 10,532건, 사망 5,126명, 주간 -7.1%, 자체 추정 Rt 0.85이며 26쪽 전체 보고서가 있습니다. 공식 데이터가 늦어 확정이 아닌 경고라고 덧붙입니다."
+    },
+    "ms": {
+     "title": "Taklimat pemantauan Ebola disediakan oleh Hollis, pembantu penyelidikan Grok Bot",
+     "summary": "Penulis menyiarkan Taklimat Pemantauan Ebola No. 13 (4 Nov, pagi) yang disediakan oleh Hollis, pembantu penyelidikan Grok Bot: DRC mencatat 10,532 kes dan 5,126 kematian setakat 1 Nov, -7.1% minggu ke minggu, anggaran Rt mereka 0.85, berserta laporan penuh 26 halaman. Data rasmi lewat, jadi ini amaran, bukan kepastian."
+    },
+    "vi": {
+     "title": "Bản tin theo dõi Ebola do Hollis, trợ lý nghiên cứu Grok Bot, soạn",
+     "summary": "Tác giả đăng Bản tin theo dõi Ebola số 13 (sáng 4/11), ghi rõ do Hollis, trợ lý nghiên cứu chạy trên Grok Bot, soạn: CHDC Congo tính đến 1/11 có 10.532 ca, 5.126 ca tử vong, giảm 7,1% so với tuần trước, Rt ước tính 0,85, kèm báo cáo đầy đủ 26 trang. Dữ liệu chính thức có độ trễ nên đây là cảnh báo, không phải điều chắc chắn."
+    },
+    "fr": {
+     "title": "Un bulletin de veille Ebola rédigé par Hollis, assistant de recherche Grok Bot",
+     "summary": "L’auteur publie le bulletin de veille Ebola n° 13 (4 nov., matin), préparé par Hollis, assistant de recherche sur Grok Bot : RDC à 10 532 cas et 5 126 décès au 1er nov., -7,1 % sur la semaine, Rt estimé à 0,85, avec un rapport complet de 26 pages. Les données officielles ont du retard : c’est un avertissement, pas une certitude."
+    },
+    "es": {
+     "title": "Un boletín de vigilancia del ébola elaborado por Hollis, asistente de Grok Bot",
+     "summary": "El autor publica el boletín de vigilancia del ébola n.º 13 (4 nov., mañana), elaborado por Hollis, asistente de investigación en Grok Bot: RDC con 10.532 casos y 5.126 muertes al 1 de nov., -7,1 % semanal, Rt estimado de 0,85 y un informe completo de 26 páginas. Los datos oficiales van con retraso: es una advertencia, no una certeza."
+    },
+    "de": {
+     "title": "Ein Ebola-Lagebericht, erstellt von Hollis, einem Grok-Bot-Rechercheassistenten",
+     "summary": "Der Autor veröffentlicht Ebola-Lagebericht Nr. 13 (4. Nov., vormittags), erstellt von Hollis, einem Rechercheassistenten auf Grok Bot: DR Kongo mit 10.532 Fällen und 5.126 Toten zum 1. Nov., -7,1 % zur Vorwoche, geschätzter Rt-Wert 0,85, dazu ein 26-seitiger Bericht. Offizielle Daten hinken hinterher, daher eine Warnung, keine Gewissheit."
+    }
+   }
+  },
+  {
+   "id": "x:2117971881114431981",
+   "url": "https://x.com/luisbarragan/status/2117971881114431981",
+   "source": "x",
+   "source_name": "X",
+   "author": "luisbarragan",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Say hi to some of the great people building Grok Bots!\n\nHandel by @monomyth: Breaks down the music you're playing and makes new Suno tracks riffing on it https://t.co/L12IXqV5Uc\n\nU1 Creator by @msmage: Takes a Snapmaker U1 3D print from idea to print-ready file",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "两个社区 Grok Bot：音乐生成 Handel 与 3D 打印 U1 Creator",
+     "summary": "作者介绍了两个社区做的 Grok Bot：@monomyth 的 Handel 会分析你正在演奏的音乐，并以此为素材用 Suno 生成新曲；@msmage 的 U1 Creator 能把 Snapmaker U1 的 3D 打印从想法一路做到可直接打印的文件。"
+    },
+    "zh-TW": {
+     "title": "兩個社群 Grok Bot：音樂生成 Handel 與 3D 列印 U1 Creator",
+     "summary": "作者介紹兩個社群做的 Grok Bot：@monomyth 的 Handel 會分析你正在演奏的音樂，並以此為素材用 Suno 生成新曲；@msmage 的 U1 Creator 能把 Snapmaker U1 的 3D 列印從想法一路做到可直接列印的檔案。"
+    },
+    "en": {
+     "title": "Two community Grok Bots: Handel for music and U1 Creator for 3D printing",
+     "summary": "The author highlights two community-built Grok Bots: Handel by @monomyth breaks down the music you are playing and makes new Suno tracks riffing on it; U1 Creator by @msmage takes a Snapmaker U1 3D print from idea to print-ready file."
+    },
+    "ja": {
+     "title": "コミュニティ製Grok Bot：音楽のHandelと3DプリントのU1 Creator",
+     "summary": "作者はコミュニティが作ったGrok Botを2つ紹介する。@monomyth のHandelは演奏中の音楽を分析し、それをもとにSunoで新しい曲を作る。@msmage のU1 CreatorはSnapmaker U1の3Dプリントを、アイデアから印刷可能なファイルまで仕上げる。"
+    },
+    "ko": {
+     "title": "커뮤니티 Grok Bot 두 개: 음악용 Handel, 3D 프린팅용 U1 Creator",
+     "summary": "작성자는 커뮤니티가 만든 Grok Bot 두 개를 소개합니다. @monomyth의 Handel은 연주 중인 음악을 분석해 이를 바탕으로 Suno 새 곡을 만들고, @msmage의 U1 Creator는 Snapmaker U1 3D 프린트를 아이디어에서 출력 가능한 파일까지 완성합니다."
+    },
+    "ms": {
+     "title": "Dua Grok Bot komuniti: Handel untuk muzik dan U1 Creator untuk cetakan 3D",
+     "summary": "Penulis memperkenalkan dua Grok Bot buatan komuniti: Handel oleh @monomyth menganalisis muzik yang anda mainkan dan menghasilkan lagu Suno baharu berdasarkannya; U1 Creator oleh @msmage membawa cetakan 3D Snapmaker U1 dari idea hingga fail sedia cetak."
+    },
+    "vi": {
+     "title": "Hai Grok Bot cộng đồng: Handel cho âm nhạc và U1 Creator cho in 3D",
+     "summary": "Tác giả giới thiệu hai Grok Bot do cộng đồng làm: Handel của @monomyth phân tích bản nhạc bạn đang chơi rồi tạo bài mới trên Suno dựa trên đó; U1 Creator của @msmage đưa một bản in 3D Snapmaker U1 từ ý tưởng đến file sẵn sàng để in."
+    },
+    "fr": {
+     "title": "Deux Grok Bots de la communauté : Handel pour la musique, U1 Creator pour l’impression 3D",
+     "summary": "L’auteur présente deux Grok Bots créés par la communauté : Handel de @monomyth analyse la musique que vous jouez et en tire de nouveaux morceaux Suno ; U1 Creator de @msmage mène une impression 3D Snapmaker U1 de l’idée au fichier prêt à imprimer."
+    },
+    "es": {
+     "title": "Dos Grok Bots de la comunidad: Handel para música y U1 Creator para impresión 3D",
+     "summary": "El autor presenta dos Grok Bots creados por la comunidad: Handel, de @monomyth, analiza la música que tocas y crea nuevas pistas en Suno a partir de ella; U1 Creator, de @msmage, lleva una impresión 3D de Snapmaker U1 desde la idea hasta un archivo listo para imprimir."
+    },
+    "de": {
+     "title": "Zwei Community-Grok-Bots: Handel für Musik, U1 Creator für 3D-Druck",
+     "summary": "Der Autor stellt zwei von der Community gebaute Grok Bots vor: Handel von @monomyth analysiert die Musik, die man spielt, und erzeugt daraus neue Suno-Tracks; U1 Creator von @msmage bringt einen Snapmaker-U1-3D-Druck von der Idee bis zur druckfertigen Datei."
+    }
+   }
+  },
+  {
+   "id": "x:2117971777494434124",
+   "url": "https://x.com/EianLu/status/2117971777494434124",
+   "source": "x",
+   "source_name": "X",
+   "author": "EianLu",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "WC！这个玩法太硬核了！用 Grok Bot + MCP，在云端直接搭一个 6 人的对冲基金 Desk。\n\n华尔街搞这么一个团队一个月几十万美金，用Grok一个月30美金加几行配置就搞出来了？一个不用休息睡觉的 Desk 就在云端24小时替你盯盘，自己就只负责收收邮件和点点确认。\n\n6个Agent分工如下：\n\n1. https://t.co/tf5c3Nnjfv",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用 Grok Bot + MCP 在云端搭 6 个 Agent 的对冲基金 Desk",
+     "summary": "作者分享一种玩法：用 Grok Bot 加 MCP，在云端搭一个由 6 个 Agent 分工的对冲基金 Desk，每月约 30 美元加几行配置。它 24 小时在云端盯盘，人只负责收邮件和点确认。帖子随后列出 6 个 Agent 的分工（见原帖链接）。"
+    },
+    "zh-TW": {
+     "title": "用 Grok Bot + MCP 在雲端搭 6 個 Agent 的對沖基金 Desk",
+     "summary": "作者分享一種玩法：用 Grok Bot 加 MCP，在雲端搭一個由 6 個 Agent 分工的對沖基金 Desk，每月約 30 美元加幾行設定。它 24 小時在雲端盯盤，人只負責收信和點確認。貼文隨後列出 6 個 Agent 的分工（見原貼連結）。"
+    },
+    "en": {
+     "title": "A six-agent hedge fund desk in the cloud with Grok Bot and MCP",
+     "summary": "The author shares a setup: Grok Bot plus MCP running a cloud desk of 6 agents with split roles, for about $30 a month and a few lines of config. It watches the market 24 hours a day in the cloud, while the person only reads emails and clicks to confirm. The post goes on to list the 6 agents’ roles (see the original link)."
+    },
+    "ja": {
+     "title": "Grok Bot＋MCPでクラウドに6エージェントのヘッジファンドデスク",
+     "summary": "作者はGrok BotとMCPで、6つのエージェントが役割分担するヘッジファンド風デスクをクラウドに構築する方法を紹介。月約30ドルと数行の設定で、24時間クラウドで相場を監視し、人はメールを受け取り確認を押すだけ。投稿では続けて6エージェントの分担を挙げている（元投稿リンク参照）。"
+    },
+    "ko": {
+     "title": "Grok Bot + MCP로 클라우드에 에이전트 6개 헤지펀드 데스크 구축",
+     "summary": "작성자는 Grok Bot과 MCP로 6개 에이전트가 역할을 나눈 헤지펀드 데스크를 클라우드에 세우는 방법을 소개합니다. 월 약 30달러와 몇 줄의 설정으로 24시간 클라우드에서 시장을 지켜보고, 사람은 이메일을 받고 확인만 누릅니다. 이어서 6개 에이전트의 역할을 나열합니다(원문 링크 참고)."
+    },
+    "ms": {
+     "title": "Meja dana lindung nilai 6 ejen di awan dengan Grok Bot dan MCP",
+     "summary": "Penulis berkongsi susunan: Grok Bot bersama MCP menjalankan meja dagangan di awan dengan 6 ejen berlainan peranan, kira-kira $30 sebulan dan beberapa baris konfigurasi. Ia memantau pasaran 24 jam di awan, manakala manusia hanya membaca e-mel dan menekan sahkan. Hantaran itu kemudian menyenaraikan peranan 6 ejen (lihat pautan asal)."
+    },
+    "vi": {
+     "title": "Bàn quỹ phòng hộ 6 agent trên đám mây với Grok Bot và MCP",
+     "summary": "Tác giả chia sẻ cách dùng Grok Bot cùng MCP dựng một bàn giao dịch kiểu quỹ phòng hộ trên đám mây gồm 6 agent chia vai trò, khoảng 30 USD mỗi tháng và vài dòng cấu hình. Nó theo dõi thị trường 24 giờ trên đám mây, còn người chỉ đọc email và bấm xác nhận. Bài viết sau đó liệt kê vai trò của 6 agent (xem link gốc)."
+    },
+    "fr": {
+     "title": "Un desk de hedge fund à 6 agents dans le cloud avec Grok Bot et MCP",
+     "summary": "L’auteur partage un montage : Grok Bot et MCP font tourner dans le cloud un desk de 6 agents aux rôles répartis, pour environ 30 $ par mois et quelques lignes de configuration. Il surveille le marché 24 h/24, tandis que l’humain se contente de lire les e-mails et de valider. Le post détaille ensuite les rôles des 6 agents (voir le lien d’origine)."
+    },
+    "es": {
+     "title": "Un desk de fondo de cobertura con 6 agentes en la nube con Grok Bot y MCP",
+     "summary": "El autor comparte un montaje: Grok Bot y MCP ejecutan en la nube un desk de 6 agentes con funciones repartidas, por unos 30 $ al mes y unas pocas líneas de configuración. Vigila el mercado las 24 horas y la persona solo lee correos y confirma. El post enumera después las funciones de los 6 agentes (ver el enlace original)."
+    },
+    "de": {
+     "title": "Ein Hedgefonds-Desk mit 6 Agenten in der Cloud mit Grok Bot und MCP",
+     "summary": "Der Autor teilt ein Setup: Grok Bot plus MCP betreibt in der Cloud einen Desk aus 6 Agenten mit verteilten Rollen, für etwa 30 $ im Monat und ein paar Zeilen Konfiguration. Er beobachtet den Markt rund um die Uhr, der Mensch liest nur E-Mails und klickt auf Bestätigen. Danach listet der Post die Rollen der 6 Agenten auf (siehe Originallink)."
+    }
+   }
+  },
+  {
+   "id": "x:2117969409826558132",
+   "url": "https://x.com/proximate1050/status/2117969409826558132",
+   "source": "x",
+   "source_name": "X",
+   "author": "proximate1050",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "@tomw87_ @MichaelHyatt @bot You don't even need that! If you have an unused laptop, even a very old one it can still run ubuntu and it took me 10 mins to set up with grok bot without much technical knowlege on ubuntu and servers.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用 Grok Bot 10 分钟把旧笔记本装成 Ubuntu 服务器",
+     "summary": "作者说不需要专门买设备：闲置的笔记本哪怕很旧也能跑 Ubuntu。他在几乎不懂 Ubuntu 和服务器的情况下，借助 Grok Bot 只用 10 分钟就完成了设置。"
+    },
+    "zh-TW": {
+     "title": "用 Grok Bot 10 分鐘把舊筆電裝成 Ubuntu 伺服器",
+     "summary": "作者說不需要專門買設備：閒置的筆電就算很舊也能跑 Ubuntu。他在幾乎不懂 Ubuntu 和伺服器的情況下，靠 Grok Bot 只花 10 分鐘就完成設定。"
+    },
+    "en": {
+     "title": "Setting up an old laptop as an Ubuntu server in 10 minutes with Grok Bot",
+     "summary": "The author says you don’t need new hardware: an unused laptop, even a very old one, can still run Ubuntu. Without much technical knowledge of Ubuntu or servers, it took him 10 minutes to set up with Grok Bot."
+    },
+    "ja": {
+     "title": "Grok Botで古いノートPCを10分でUbuntuサーバーに",
+     "summary": "作者によると、新しい機材は不要で、使っていないノートPCならかなり古くてもUbuntuが動く。Ubuntuやサーバーの知識がほとんどなくても、Grok Botを使って10分でセットアップできたという。"
+    },
+    "ko": {
+     "title": "Grok Bot으로 10분 만에 낡은 노트북을 Ubuntu 서버로",
+     "summary": "작성자는 새 장비가 필요 없다고 말합니다. 쓰지 않는 노트북이라면 아주 오래된 것도 Ubuntu를 돌릴 수 있습니다. Ubuntu나 서버 지식이 거의 없었지만 Grok Bot으로 10분 만에 설정을 마쳤다고 합니다."
+    },
+    "ms": {
+     "title": "Sediakan komputer riba lama sebagai pelayan Ubuntu dalam 10 minit dengan Grok Bot",
+     "summary": "Penulis berkata tidak perlu perkakasan baharu: komputer riba yang tidak digunakan, walaupun sangat lama, masih boleh menjalankan Ubuntu. Tanpa banyak pengetahuan teknikal tentang Ubuntu atau pelayan, dia mengambil 10 minit untuk menyediakannya dengan Grok Bot."
+    },
+    "vi": {
+     "title": "Biến laptop cũ thành máy chủ Ubuntu trong 10 phút với Grok Bot",
+     "summary": "Tác giả nói không cần phần cứng mới: một chiếc laptop bỏ không, dù rất cũ, vẫn chạy được Ubuntu. Dù không rành Ubuntu hay máy chủ, anh chỉ mất 10 phút để thiết lập với Grok Bot."
+    },
+    "fr": {
+     "title": "Transformer un vieux portable en serveur Ubuntu en 10 minutes avec Grok Bot",
+     "summary": "L’auteur explique qu’il n’y a pas besoin de nouveau matériel : un portable inutilisé, même très ancien, peut faire tourner Ubuntu. Sans grandes connaissances techniques sur Ubuntu ou les serveurs, il l’a configuré en 10 minutes avec Grok Bot."
+    },
+    "es": {
+     "title": "Un portátil viejo como servidor Ubuntu en 10 minutos con Grok Bot",
+     "summary": "El autor dice que no hace falta hardware nuevo: un portátil sin usar, aunque sea muy viejo, puede ejecutar Ubuntu. Sin muchos conocimientos de Ubuntu ni de servidores, tardó 10 minutos en configurarlo con Grok Bot."
+    },
+    "de": {
+     "title": "Alten Laptop in 10 Minuten mit Grok Bot zum Ubuntu-Server machen",
+     "summary": "Der Autor sagt, neue Hardware sei unnötig: Ein ungenutzter Laptop, auch ein sehr alter, läuft noch mit Ubuntu. Ohne viel technisches Wissen über Ubuntu oder Server hat er ihn mit Grok Bot in 10 Minuten eingerichtet."
+    }
+   }
+  },
+  {
+   "id": "x:2117967670310253001",
+   "url": "https://x.com/Smashe__/status/2117967670310253001",
+   "source": "x",
+   "source_name": "X",
+   "author": "Smashe__",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "@onenewbite 好问题。我觉得不是拿弱模型管强模型，而是分工不同：Claude Code 适合你在场时干重活，Grok Bot 有自己的云电脑，关电脑后还在跑，而且原生在 X 上，适合盯叙事和跑 routine。我整理了几个要点👇\nhttps://t.co/SvWSpKq8r9",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "Claude Code 与 Grok Bot 的分工：在场干重活 vs 关机后继续跑",
+     "summary": "作者认为两者不是强弱关系而是分工不同：Claude Code 适合你在场时做重活；Grok Bot 有自己的云电脑，你关掉电脑后它还在运行，而且原生在 X 上，适合盯舆论叙事和跑 routine。他另附了要点整理。"
+    },
+    "zh-TW": {
+     "title": "Claude Code 與 Grok Bot 的分工：在場做重活 vs 關機後繼續跑",
+     "summary": "作者認為兩者不是強弱關係而是分工不同：Claude Code 適合你在場時做重活；Grok Bot 有自己的雲端電腦，你關掉電腦後它仍在運行，而且原生在 X 上，適合追蹤輿論敘事和跑 routine。他另附了重點整理。"
+    },
+    "en": {
+     "title": "Claude Code vs Grok Bot: heavy lifting while present vs running after you log off",
+     "summary": "The author argues it’s not a weak model managing a strong one but a split of roles: Claude Code suits heavy work while you’re there; Grok Bot has its own cloud computer, keeps running after you shut your laptop and is native to X, so it suits watching narratives and running routines. He linked a summary of key points."
+    },
+    "ja": {
+     "title": "Claude CodeとGrok Botの役割分担：在席時の重作業か、離席後も動くか",
+     "summary": "作者は、弱いモデルが強いモデルを管理するのではなく役割が違うのだという。Claude Codeは自分がいる時の重い作業向き。Grok Botは自前のクラウドPCを持ち、PCを閉じても動き続け、X上でネイティブに動くので、話題の監視やroutine実行に向く。要点のまとめも添えている。"
+    },
+    "ko": {
+     "title": "Claude Code와 Grok Bot의 분업: 곁에 있을 때 무거운 작업 vs 꺼도 계속 실행",
+     "summary": "작성자는 약한 모델이 강한 모델을 관리하는 게 아니라 역할이 다르다고 봅니다. Claude Code는 사용자가 있을 때 무거운 작업에 맞고, Grok Bot은 자체 클라우드 컴퓨터가 있어 노트북을 닫아도 계속 돌며 X에 기본으로 붙어 있어 여론 흐름 감시와 routine 실행에 맞습니다. 요점 정리도 첨부했습니다."
+    },
+    "ms": {
+     "title": "Claude Code lwn Grok Bot: kerja berat semasa ada vs terus berjalan selepas log keluar",
+     "summary": "Penulis berpendapat ini bukan model lemah mengurus model kuat tetapi pembahagian peranan: Claude Code sesuai untuk kerja berat ketika anda ada; Grok Bot ada komputer awan sendiri, terus berjalan selepas komputer ditutup dan asli di X, sesuai memantau naratif dan menjalankan routine. Dia melampirkan ringkasan perkara utama."
+    },
+    "vi": {
+     "title": "Claude Code và Grok Bot: làm việc nặng khi có mặt và chạy tiếp khi bạn tắt máy",
+     "summary": "Tác giả cho rằng đây không phải mô hình yếu quản lý mô hình mạnh mà là chia vai: Claude Code hợp cho việc nặng khi bạn có mặt; Grok Bot có máy tính đám mây riêng, vẫn chạy khi bạn tắt máy và gắn sẵn với X, hợp để theo dõi xu hướng dư luận và chạy routine. Anh đính kèm bản tóm tắt các ý chính."
+    },
+    "fr": {
+     "title": "Claude Code et Grok Bot : le gros travail en votre présence ou l’exécution après déconnexion",
+     "summary": "Pour l’auteur, il ne s’agit pas d’un modèle faible qui pilote un modèle fort, mais d’une répartition des rôles : Claude Code convient au gros travail quand vous êtes là ; Grok Bot a son propre ordinateur dans le cloud, continue après l’extinction de votre machine et vit nativement sur X, idéal pour suivre les récits et lancer des routines. Il joint un résumé."
+    },
+    "es": {
+     "title": "Claude Code frente a Grok Bot: trabajo pesado en tu presencia o ejecución tras cerrar",
+     "summary": "El autor sostiene que no es un modelo débil gestionando a uno fuerte sino un reparto de funciones: Claude Code sirve para trabajo pesado mientras estás; Grok Bot tiene su propio ordenador en la nube, sigue funcionando al cerrar el portátil y es nativo de X, así que sirve para vigilar narrativas y ejecutar routines. Adjunta un resumen de puntos clave."
+    },
+    "de": {
+     "title": "Claude Code vs. Grok Bot: schwere Arbeit im Beisein oder Weiterlaufen nach dem Ausschalten",
+     "summary": "Der Autor meint, es gehe nicht um ein schwaches Modell, das ein starkes steuert, sondern um Arbeitsteilung: Claude Code passt für schwere Arbeit, solange man dabei ist; Grok Bot hat einen eigenen Cloud-Computer, läuft nach dem Zuklappen weiter und ist nativ auf X, gut zum Beobachten von Narrativen und für Routines. Er verlinkt eine Zusammenfassung."
+    }
+   }
+  },
+  {
+   "id": "x:2117947745210191877",
+   "url": "https://x.com/0xTeddet/status/2117947745210191877",
+   "source": "x",
+   "source_name": "X",
+   "author": "0xTeddet",
+   "date": "2026-11-04",
+   "likes": 8,
+   "product": "grok-bot",
+   "text": "this is f*cking insane\n\neverything a $600 grok bot course teaches fits on one page. so i made the page\n\n2 weeks, 11 bots, my weekly limit burned twice, and every viral setup tested on my own bots. this is what survived:\n\nSETUP\n→ one bot, one job. a bot that researches and writes https://t.co/1p8UrqsPfx https://t.co/O29Du9VtJP",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2117947663140184064/img/VrBe-BjAGDiCOvkx.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "两周 11 个 Bot 实测后的 Grok Bot 一页指南",
+     "summary": "作者花两周搭了 11 个 Bot、两次用完每周额度，把流行的设置都在自己的 Bot 上试了一遍，再把留下来的做法整理成一页。第一条是设置原则：一个 Bot 只干一件事，例如一个专门做调研和写作的 Bot（完整内容见原帖链接和视频）。"
+    },
+    "zh-TW": {
+     "title": "兩週 11 個 Bot 實測後的 Grok Bot 一頁指南",
+     "summary": "作者花兩週架了 11 個 Bot、兩次用完每週額度，把熱門設定都在自己的 Bot 上試了一遍，再把留下來的做法整理成一頁。第一條是設定原則：一個 Bot 只做一件事，例如專門做調研和寫作的 Bot（完整內容見原貼連結與影片）。"
+    },
+    "en": {
+     "title": "A one-page Grok Bot guide after two weeks and 11 bots",
+     "summary": "Over two weeks the author built 11 bots, burned through his weekly limit twice and tested every viral setup on his own bots, then put what survived on one page. The first setup rule: one bot, one job, such as a bot that researches and writes (full page and video at the original link)."
+    },
+    "ja": {
+     "title": "2週間・11体で検証したGrok Botの1ページガイド",
+     "summary": "作者は2週間で11体のBotを作り、週間上限を2回使い切りながら、話題の設定をすべて自分のBotで試し、残ったものを1ページにまとめた。最初の設定ルールは「1つのBotに1つの仕事」で、例として調査と執筆を担うBotを挙げる（全文と動画は元投稿リンク）。"
+    },
+    "ko": {
+     "title": "2주간 Bot 11개로 검증한 Grok Bot 한 장 가이드",
+     "summary": "작성자는 2주 동안 Bot 11개를 만들고 주간 한도를 두 번 소진하며 유행하는 설정을 모두 자기 Bot에 시험한 뒤, 살아남은 것을 한 장에 정리했습니다. 첫 설정 원칙은 'Bot 하나에 일 하나'로, 조사와 글쓰기를 맡는 Bot을 예로 듭니다(전체 내용과 영상은 원문 링크)."
+    },
+    "ms": {
+     "title": "Panduan satu halaman Grok Bot selepas dua minggu dan 11 bot",
+     "summary": "Dalam dua minggu penulis membina 11 bot, menghabiskan had mingguan dua kali dan menguji setiap susunan tular pada bot sendiri, lalu meringkaskan yang berkesan dalam satu halaman. Peraturan pertama: satu bot, satu tugas, contohnya bot yang membuat penyelidikan dan menulis (halaman penuh dan video di pautan asal)."
+    },
+    "vi": {
+     "title": "Hướng dẫn Grok Bot một trang sau hai tuần thử 11 bot",
+     "summary": "Trong hai tuần, tác giả dựng 11 bot, hai lần dùng hết hạn mức tuần và thử mọi cách thiết lập đang lan truyền trên chính bot của mình, rồi gom những gì còn trụ lại vào một trang. Nguyên tắc đầu tiên: mỗi bot một việc, ví dụ một bot chuyên nghiên cứu và viết (toàn bộ trang và video ở link gốc)."
+    },
+    "fr": {
+     "title": "Un guide Grok Bot sur une page après deux semaines et 11 bots",
+     "summary": "En deux semaines, l’auteur a créé 11 bots, épuisé deux fois sa limite hebdomadaire et testé sur ses propres bots toutes les configurations virales, puis a résumé ce qui a tenu sur une page. Première règle : un bot, une tâche, par exemple un bot qui fait la recherche et rédige (page complète et vidéo via le lien d’origine)."
+    },
+    "es": {
+     "title": "Una guía de Grok Bot en una página tras dos semanas y 11 bots",
+     "summary": "En dos semanas, el autor creó 11 bots, agotó dos veces su límite semanal y probó en sus propios bots cada configuración viral, y resumió lo que sobrevivió en una página. Primera regla: un bot, una tarea, por ejemplo un bot que investiga y escribe (página completa y vídeo en el enlace original)."
+    },
+    "de": {
+     "title": "Ein einseitiger Grok-Bot-Leitfaden nach zwei Wochen und 11 Bots",
+     "summary": "In zwei Wochen baute der Autor 11 Bots, brauchte sein Wochenlimit zweimal auf und testete jedes virale Setup an eigenen Bots; was übrig blieb, fasste er auf einer Seite zusammen. Erste Regel: ein Bot, eine Aufgabe, etwa ein Bot, der recherchiert und schreibt (ganze Seite und Video unter dem Originallink)."
+    }
+   }
+  },
+  {
+   "id": "x:2117971557255667756",
+   "url": "https://x.com/tpenido77/status/2117971557255667756",
+   "source": "x",
+   "source_name": "X",
+   "author": "tpenido77",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "multi",
+   "text": "@rodcacioli Eu não estou achando o Dots tão ruim igual falam. Tenho usado o Grok Bot e Dots e tenho achado para o meu workflow o dots até mais integrado.",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "同时用 Grok Bot 和 Dots：作者觉得 Dots 更贴合自己的工作流",
+     "summary": "作者说 Dots 并没有大家说的那么差。他同时在用 Grok Bot 和 Dots，就他自己的工作流而言，觉得 Dots 甚至集成得更好。"
+    },
+    "zh-TW": {
+     "title": "同時用 Grok Bot 和 Dots：作者覺得 Dots 更貼合自己的工作流程",
+     "summary": "作者說 Dots 並沒有大家說的那麼差。他同時在用 Grok Bot 和 Dots，就他自己的工作流程而言，覺得 Dots 甚至整合得更好。"
+    },
+    "en": {
+     "title": "Using Grok Bot and Dots side by side: Dots felt more integrated for his workflow",
+     "summary": "The author says Dots isn’t as bad as people claim. He has been using both Grok Bot and Dots, and for his own workflow he finds Dots even more integrated."
+    },
+    "ja": {
+     "title": "Grok BotとDotsを併用：自分のワークフローにはDotsの方が統合的",
+     "summary": "作者は、Dotsは言われているほど悪くないという。Grok BotとDotsの両方を使っていて、自分のワークフローではDotsの方がむしろ統合されていると感じている。"
+    },
+    "ko": {
+     "title": "Grok Bot과 Dots 병행: 내 워크플로에는 Dots가 더 잘 통합",
+     "summary": "작성자는 Dots가 사람들 말만큼 나쁘지 않다고 말합니다. Grok Bot과 Dots를 함께 써 보니, 자신의 워크플로에서는 오히려 Dots가 더 잘 통합돼 있다고 느낍니다."
+    },
+    "ms": {
+     "title": "Guna Grok Bot dan Dots serentak: Dots lebih bersepadu untuk aliran kerjanya",
+     "summary": "Penulis berkata Dots tidaklah seteruk yang orang katakan. Dia menggunakan kedua-dua Grok Bot dan Dots, dan untuk aliran kerjanya sendiri dia mendapati Dots malah lebih bersepadu."
+    },
+    "vi": {
+     "title": "Dùng song song Grok Bot và Dots: Dots khớp quy trình của anh hơn",
+     "summary": "Tác giả nói Dots không tệ như mọi người nói. Anh dùng cả Grok Bot lẫn Dots và thấy với quy trình làm việc của mình, Dots thậm chí tích hợp tốt hơn."
+    },
+    "fr": {
+     "title": "Grok Bot et Dots en parallèle : Dots mieux intégré à son flux de travail",
+     "summary": "L’auteur trouve que Dots n’est pas aussi mauvais qu’on le dit. Il utilise Grok Bot et Dots, et pour son propre flux de travail, il juge Dots même plus intégré."
+    },
+    "es": {
+     "title": "Grok Bot y Dots a la vez: Dots le resulta más integrado en su flujo",
+     "summary": "El autor dice que Dots no es tan malo como se comenta. Usa Grok Bot y Dots, y para su propio flujo de trabajo le parece que Dots está incluso más integrado."
+    },
+    "de": {
+     "title": "Grok Bot und Dots parallel: Dots passt besser in seinen Workflow",
+     "summary": "Der Autor sagt, Dots sei nicht so schlecht wie behauptet. Er nutzt Grok Bot und Dots und findet Dots für seinen eigenen Workflow sogar besser integriert."
+    }
+   }
+  },
+  {
+   "id": "x:2118123767008530780",
+   "url": "https://x.com/aliceisplaying/status/2118123767008530780",
+   "source": "x",
+   "source_name": "X",
+   "author": "aliceisplaying",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "multi",
+   "text": "@lucascgould i found duet to suffer from a bunch of very annoying issues and limitations that grok bot simply does not\n\nonce i run out of grok bot usage i'll probably go back to openai dot for a while",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "Duet 问题多，用完 Grok Bot 额度后改回 OpenAI dot",
+     "summary": "作者觉得 Duet 有一堆很烦人的问题和限制，而 Grok Bot 没有这些问题。她打算等 Grok Bot 的额度用完后，先回去用一段时间 OpenAI dot。"
+    },
+    "zh-TW": {
+     "title": "Duet 問題多，用完 Grok Bot 額度後改回 OpenAI dot",
+     "summary": "作者覺得 Duet 有一堆很煩人的問題和限制，而 Grok Bot 沒有這些問題。她打算等 Grok Bot 的額度用完後，先回去用一陣子 OpenAI dot。"
+    },
+    "en": {
+     "title": "Duet had too many issues; after Grok Bot’s limit runs out, back to OpenAI dot",
+     "summary": "The author found Duet had many annoying issues and limitations that Grok Bot does not. Once her Grok Bot usage runs out, she will probably go back to OpenAI dot for a while."
+    },
+    "ja": {
+     "title": "Duetは問題が多い、Grok Botの枠を使い切ったらOpenAI dotへ",
+     "summary": "作者はDuetに厄介な問題や制限が多く、Grok Botにはそれがないと感じた。Grok Botの利用枠を使い切ったら、しばらくOpenAI dotに戻るつもりだという。"
+    },
+    "ko": {
+     "title": "Duet은 문제가 많아, Grok Bot 한도 소진 후엔 OpenAI dot으로",
+     "summary": "작성자는 Duet에 성가신 문제와 제약이 많은 반면 Grok Bot에는 그런 문제가 없다고 느꼈습니다. Grok Bot 사용량이 다 떨어지면 한동안 OpenAI dot으로 돌아갈 생각입니다."
+    },
+    "ms": {
+     "title": "Duet banyak masalah; selepas had Grok Bot habis, kembali ke OpenAI dot",
+     "summary": "Penulis mendapati Duet ada banyak masalah dan had yang menjengkelkan yang tiada pada Grok Bot. Apabila penggunaan Grok Bot habis, dia mungkin kembali menggunakan OpenAI dot buat seketika."
+    },
+    "vi": {
+     "title": "Duet nhiều lỗi; hết hạn mức Grok Bot thì quay lại OpenAI dot",
+     "summary": "Tác giả thấy Duet có nhiều vấn đề và giới hạn khó chịu mà Grok Bot không có. Khi hết hạn mức Grok Bot, cô có lẽ sẽ quay lại dùng OpenAI dot một thời gian."
+    },
+    "fr": {
+     "title": "Trop de soucis avec Duet ; une fois la limite Grok Bot atteinte, retour à OpenAI dot",
+     "summary": "L’autrice a trouvé à Duet beaucoup de problèmes et de limites agaçants que Grok Bot n’a pas. Quand son quota Grok Bot sera épuisé, elle reviendra sans doute à OpenAI dot pendant un temps."
+    },
+    "es": {
+     "title": "Duet dio muchos problemas; al agotar Grok Bot, vuelta a OpenAI dot",
+     "summary": "La autora encontró en Duet muchos problemas y limitaciones molestas que Grok Bot no tiene. Cuando se le acabe el uso de Grok Bot, probablemente volverá a OpenAI dot por un tiempo."
+    },
+    "de": {
+     "title": "Duet hatte viele Probleme; ist das Grok-Bot-Limit erreicht, zurück zu OpenAI dot",
+     "summary": "Die Autorin fand bei Duet viele lästige Probleme und Einschränkungen, die Grok Bot nicht hat. Sobald ihr Grok-Bot-Kontingent aufgebraucht ist, kehrt sie wohl eine Weile zu OpenAI dot zurück."
+    }
+   }
+  },
+  {
+   "id": "x:2117953507353579806",
+   "url": "https://x.com/halbraumheld/status/2117953507353579806",
+   "source": "x",
+   "source_name": "X",
+   "author": "halbraumheld",
+   "date": "2026-11-04",
+   "likes": 1,
+   "product": "grok-bot",
+   "text": "Musk admitted Grok Bot costs more to run than it earns, so paying users got their limits cut with no warning. An always-on agent that only works on a subsidized plan seems not a real product yet. Budgets will shape this market more than demos. #AI #GrokBot",
+   "media": [],
+   "type": "quota-report",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 成本高于收入，付费用户额度被无预警削减",
+     "summary": "作者称 Musk 承认 Grok Bot 的运行成本高于收入，因此付费用户的额度在没有预警的情况下被削减。他认为一个只能靠补贴套餐运转的常驻 agent 还不算真正的产品，这个市场将更多由预算而不是演示决定。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 成本高於收入，付費用戶額度被無預警削減",
+     "summary": "作者稱 Musk 承認 Grok Bot 的運行成本高於收入，因此付費用戶的額度在沒有預警的情況下被削減。他認為一個只能靠補貼方案運作的常駐 agent 還不算真正的產品，這個市場將更多由預算而非展示決定。"
+    },
+    "en": {
+     "title": "Grok Bot costs more than it earns, so paid users’ limits were cut without warning",
+     "summary": "The author says Musk admitted Grok Bot costs more to run than it earns, so paying users had their limits cut with no warning. He argues an always-on agent that only works on a subsidized plan isn’t a real product yet, and that budgets will shape this market more than demos."
+    },
+    "ja": {
+     "title": "Grok Botは収入より運用コストが高く、有料ユーザーの枠が予告なく削減",
+     "summary": "作者によれば、MuskはGrok Botの運用コストが収入を上回ると認め、有料ユーザーの利用枠が予告なく削られた。補助された料金プランでしか成り立たない常駐エージェントはまだ本当の製品ではなく、この市場はデモより予算で形づくられると述べる。"
+    },
+    "ko": {
+     "title": "Grok Bot 비용이 수익보다 커 유료 사용자 한도가 예고 없이 축소",
+     "summary": "작성자는 Musk가 Grok Bot 운영 비용이 수익보다 크다고 인정했고, 그래서 유료 사용자의 한도가 예고 없이 줄었다고 말합니다. 보조금이 들어간 요금제에서만 돌아가는 상시 에이전트는 아직 진짜 제품이 아니며, 이 시장은 데모보다 예산이 좌우할 것이라고 봅니다."
+    },
+    "ms": {
+     "title": "Kos Grok Bot melebihi hasil, had pengguna berbayar dipotong tanpa amaran",
+     "summary": "Penulis berkata Musk mengakui kos menjalankan Grok Bot melebihi hasilnya, jadi had pengguna berbayar dipotong tanpa amaran. Menurutnya ejen sentiasa aktif yang hanya berfungsi dengan pelan bersubsidi belum lagi produk sebenar, dan pasaran ini akan lebih dibentuk oleh bajet berbanding demo."
+    },
+    "vi": {
+     "title": "Chi phí Grok Bot cao hơn doanh thu, hạn mức người trả phí bị cắt không báo trước",
+     "summary": "Tác giả nói Musk thừa nhận chi phí vận hành Grok Bot cao hơn doanh thu, nên hạn mức của người dùng trả phí bị cắt mà không báo trước. Theo anh, một agent luôn bật chỉ sống được nhờ gói được trợ giá thì chưa phải sản phẩm thực sự, và thị trường này sẽ do ngân sách định hình nhiều hơn là các bản demo."
+    },
+    "fr": {
+     "title": "Grok Bot coûte plus qu’il ne rapporte : limites des abonnés réduites sans préavis",
+     "summary": "L’auteur rapporte que Musk a reconnu que Grok Bot coûte plus cher à faire tourner qu’il ne rapporte, d’où des limites réduites sans préavis pour les abonnés payants. Selon lui, un agent toujours actif qui ne tient que grâce à une offre subventionnée n’est pas encore un vrai produit, et les budgets façonneront ce marché plus que les démos."
+    },
+    "es": {
+     "title": "Grok Bot cuesta más de lo que ingresa: recortan límites a los usuarios de pago sin aviso",
+     "summary": "El autor dice que Musk admitió que Grok Bot cuesta más de lo que ingresa, así que a los usuarios de pago les recortaron los límites sin aviso. Opina que un agente siempre activo que solo funciona con un plan subvencionado aún no es un producto real y que los presupuestos marcarán este mercado más que las demos."
+    },
+    "de": {
+     "title": "Grok Bot kostet mehr, als er einbringt: Limits zahlender Nutzer ohne Vorwarnung gekürzt",
+     "summary": "Der Autor schreibt, Musk habe eingeräumt, dass Grok Bot im Betrieb mehr kostet als er einbringt, weshalb zahlenden Nutzern die Limits ohne Vorwarnung gekürzt wurden. Ein ständig aktiver Agent, der nur mit subventioniertem Tarif funktioniert, sei noch kein echtes Produkt; Budgets würden diesen Markt stärker prägen als Demos."
+    }
+   }
+  },
+  {
+   "id": "x:2117971874546335806",
+   "url": "https://x.com/jenmeilm/status/2117971874546335806",
+   "source": "x",
+   "source_name": "X",
+   "author": "jenmeilm",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "今天 Grok bot 有什么问题么？怎么我按照之前的使用频率没有变化，用量使用的这么快呢？！ https://t.co/PJpFb482fH",
+   "media": [
+    "https://pbs.twimg.com/media/HWSMG-qboAAEVeo.png"
+   ],
+   "type": "quota-report",
+   "tr": {
+    "zh-CN": {
+     "title": "使用频率没变，Grok Bot 用量却消耗得特别快",
+     "summary": "作者说今天按照以往的使用频率使用 Grok Bot，并没有变化，但用量却消耗得特别快，她询问是不是 Grok Bot 出了问题，并附上用量截图。"
+    },
+    "zh-TW": {
+     "title": "使用頻率沒變，Grok Bot 用量卻消耗得特別快",
+     "summary": "作者說今天照以往的使用頻率使用 Grok Bot，並沒有變化，但用量卻消耗得特別快，她詢問是不是 Grok Bot 出了問題，並附上用量截圖。"
+    },
+    "en": {
+     "title": "Same usage frequency, but Grok Bot usage drained unusually fast",
+     "summary": "The author says she used Grok Bot at the same frequency as before today, yet her usage was consumed very quickly. She asks whether something is wrong with Grok Bot and attaches a screenshot of her usage."
+    },
+    "ja": {
+     "title": "使い方は同じなのにGrok Botの利用量が急に減る",
+     "summary": "作者は今日、これまでと同じ頻度でGrok Botを使っただけなのに、利用量の減りがとても速かったという。Grok Botに何か問題があるのかと尋ね、利用量のスクリーンショットを添えている。"
+    },
+    "ko": {
+     "title": "사용 빈도는 같은데 Grok Bot 사용량이 유난히 빨리 소진",
+     "summary": "작성자는 오늘 평소와 같은 빈도로 Grok Bot을 썼는데 사용량이 아주 빨리 줄었다고 말합니다. Grok Bot에 무슨 문제가 있는지 묻고 사용량 스크린샷을 첨부했습니다."
+    },
+    "ms": {
+     "title": "Kekerapan guna sama, tetapi penggunaan Grok Bot habis luar biasa cepat",
+     "summary": "Penulis berkata hari ini dia menggunakan Grok Bot pada kekerapan yang sama seperti biasa, tetapi penggunaannya habis sangat cepat. Dia bertanya sama ada Grok Bot bermasalah dan melampirkan tangkapan skrin penggunaan."
+    },
+    "vi": {
+     "title": "Tần suất dùng không đổi nhưng hạn mức Grok Bot tụt rất nhanh",
+     "summary": "Tác giả nói hôm nay cô vẫn dùng Grok Bot với tần suất như trước, nhưng hạn mức lại bị tiêu hao rất nhanh. Cô hỏi liệu Grok Bot có vấn đề gì không và kèm ảnh chụp màn hình mức sử dụng."
+    },
+    "fr": {
+     "title": "Même fréquence d’usage, mais le quota Grok Bot fond anormalement vite",
+     "summary": "L’autrice dit avoir utilisé Grok Bot aujourd’hui au même rythme que d’habitude, mais son quota a été consommé très vite. Elle demande si Grok Bot a un problème et joint une capture de sa consommation."
+    },
+    "es": {
+     "title": "Misma frecuencia de uso, pero el consumo de Grok Bot se agota muy rápido",
+     "summary": "La autora dice que hoy usó Grok Bot con la misma frecuencia de siempre, pero su uso se consumió muy deprisa. Pregunta si Grok Bot tiene algún problema y adjunta una captura de su consumo."
+    },
+    "de": {
+     "title": "Gleiche Nutzung, aber das Grok-Bot-Kontingent schmilzt ungewöhnlich schnell",
+     "summary": "Die Autorin sagt, sie habe Grok Bot heute so oft wie sonst genutzt, doch ihr Kontingent sei sehr schnell verbraucht worden. Sie fragt, ob mit Grok Bot etwas nicht stimmt, und hängt einen Screenshot ihres Verbrauchs an."
+    }
+   }
+  },
+  {
+   "id": "x:2117967916117479886",
+   "url": "https://x.com/LigtManTogo/status/2117967916117479886",
+   "source": "x",
+   "source_name": "X",
+   "author": "LigtManTogo",
+   "date": "2026-11-04",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "@AnatoliKopadze A live dashboard for Grok Bot teams, set up for 2% of usage, solves the real problem in multi-agent work: knowing what your bots are doing without opening 15 chats. That visibility beats another clever prompt — unmanaged agents don't fail loudly, they quietly burn usage.",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "用约 2% 用量搭 Grok Bot 团队实时看板，避免 agent 悄悄耗额度",
+     "summary": "作者评论说，为 Grok Bot 团队搭一个实时看板（约占 2% 用量）解决了多 agent 协作的真问题：不用打开 15 个对话就知道每个 Bot 在做什么。他认为这种可见性胜过再写一个巧妙提示词，因为无人管理的 agent 不会大声报错，只会悄悄消耗用量。"
+    },
+    "zh-TW": {
+     "title": "用約 2% 用量搭 Grok Bot 團隊即時看板，避免 agent 悄悄耗額度",
+     "summary": "作者評論說，為 Grok Bot 團隊搭一個即時看板（約占 2% 用量）解決了多 agent 協作的真問題：不必打開 15 個對話就知道每個 Bot 在做什麼。他認為這種可見性勝過再寫一個巧妙提示詞，因為無人管理的 agent 不會大聲出錯，只會悄悄消耗用量。"
+    },
+    "en": {
+     "title": "A live dashboard for Grok Bot teams at about 2% of usage",
+     "summary": "The author notes that a live dashboard for Grok Bot teams, set up for about 2% of usage, solves the real problem in multi-agent work: knowing what your bots are doing without opening 15 chats. He argues that visibility beats another clever prompt, because unmanaged agents don’t fail loudly, they quietly burn usage."
+    },
+    "ja": {
+     "title": "利用量の約2%でGrok Botチームのライブダッシュボード",
+     "summary": "作者は、利用量の約2%で作るGrok Botチーム用のライブダッシュボードが、マルチエージェント運用の本当の課題を解くと指摘する。15個のチャットを開かずに各Botが何をしているか分かる。管理されないエージェントは派手に失敗せず静かに利用量を消費するので、巧妙なプロンプトより可視性が勝るという。"
+    },
+    "ko": {
+     "title": "사용량 약 2%로 만드는 Grok Bot 팀 실시간 대시보드",
+     "summary": "작성자는 사용량의 약 2%로 만든 Grok Bot 팀용 실시간 대시보드가 멀티 에이전트 작업의 진짜 문제를 푼다고 말합니다. 채팅 15개를 열지 않고도 각 Bot이 무엇을 하는지 알 수 있습니다. 관리되지 않는 에이전트는 요란하게 실패하지 않고 조용히 사용량을 태우므로, 영리한 프롬프트보다 가시성이 낫다고 봅니다."
+    },
+    "ms": {
+     "title": "Papan pemuka langsung untuk pasukan Grok Bot dengan kira-kira 2% penggunaan",
+     "summary": "Penulis berkata papan pemuka langsung untuk pasukan Grok Bot, yang disediakan dengan kira-kira 2% penggunaan, menyelesaikan masalah sebenar kerja berbilang ejen: tahu apa yang bot lakukan tanpa membuka 15 sembang. Keterlihatan itu lebih baik daripada prompt bijak lain, kerana ejen tanpa pengurusan tidak gagal secara ketara tetapi menghabiskan penggunaan secara senyap."
+    },
+    "vi": {
+     "title": "Bảng điều khiển trực tiếp cho đội Grok Bot với khoảng 2% hạn mức",
+     "summary": "Tác giả cho rằng một bảng điều khiển trực tiếp cho đội Grok Bot, dựng với khoảng 2% hạn mức, giải quyết vấn đề thật của làm việc nhiều agent: biết các bot đang làm gì mà không phải mở 15 cuộc chat. Theo anh, khả năng quan sát này hơn một prompt khéo, vì agent không được quản lý không hỏng ầm ĩ mà lặng lẽ đốt hạn mức."
+    },
+    "fr": {
+     "title": "Un tableau de bord en direct pour équipes Grok Bot, pour environ 2 % du quota",
+     "summary": "L’auteur estime qu’un tableau de bord en direct pour les équipes Grok Bot, mis en place pour environ 2 % du quota, règle le vrai problème du multi-agents : savoir ce que font les bots sans ouvrir 15 conversations. Cette visibilité vaut mieux qu’un prompt astucieux de plus, car des agents non suivis ne plantent pas bruyamment, ils consomment le quota en silence."
+    },
+    "es": {
+     "title": "Un panel en vivo para equipos de Grok Bot por cerca del 2 % del uso",
+     "summary": "El autor señala que un panel en vivo para equipos de Grok Bot, montado por cerca del 2 % del uso, resuelve el problema real del trabajo con varios agentes: saber qué hacen tus bots sin abrir 15 chats. Esa visibilidad vale más que otro prompt ingenioso, porque los agentes sin gestión no fallan con ruido, gastan uso en silencio."
+    },
+    "de": {
+     "title": "Ein Live-Dashboard für Grok-Bot-Teams für etwa 2 % des Kontingents",
+     "summary": "Der Autor meint, ein Live-Dashboard für Grok-Bot-Teams, eingerichtet für etwa 2 % des Kontingents, löse das eigentliche Problem der Multi-Agenten-Arbeit: zu wissen, was die Bots tun, ohne 15 Chats zu öffnen. Diese Sichtbarkeit schlage jeden weiteren cleveren Prompt, denn unbeaufsichtigte Agenten scheitern nicht laut, sondern verbrauchen still Kontingent."
+    }
+   }
+  },
+  {
+   "id": "x:2117883112365621654",
+   "url": "https://x.com/IDEric_/status/2117883112365621654",
+   "source": "x",
+   "source_name": "X",
+   "author": "IDEric_",
+   "date": "2026-11-04",
+   "likes": 2,
+   "product": "grok-bot",
+   "text": "Grok Bot is getting throttled. Musk on Nov 1: serving it was \"unsustainably high relative to revenue.\"\n\nHonest take: an always-on agent that actually does work burns compute. Limits hurt, but transparent pricing beats surprise caps.\nhttps://t.co/sBtk1oL3Ec",
+   "media": [],
+   "type": "quota-report",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 被限流：真干活的常驻 agent 很耗算力",
+     "summary": "作者指出 Grok Bot 正在被限流，并引用 Musk 11 月 1 日的说法：服务成本“相对收入高得不可持续”。他认为真正干活的常驻 agent 必然消耗大量算力，限额确实难受，但透明定价好过突然封顶。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 被限流：真做事的常駐 agent 很耗算力",
+     "summary": "作者指出 Grok Bot 正被限流，並引用 Musk 11 月 1 日的說法：服務成本「相對收入高得不可持續」。他認為真正做事的常駐 agent 必然消耗大量算力，限額確實難受，但透明定價好過突然封頂。"
+    },
+    "en": {
+     "title": "Grok Bot is being throttled: an always-on agent that does real work burns compute",
+     "summary": "The author notes Grok Bot is getting throttled and cites Musk on Nov 1 saying serving it was “unsustainably high relative to revenue.” His take: an always-on agent that actually does work burns compute; limits hurt, but transparent pricing beats surprise caps."
+    },
+    "ja": {
+     "title": "Grok Botに制限：本当に働く常駐エージェントは計算資源を食う",
+     "summary": "作者はGrok Botが制限を受けていると指摘し、11月1日のMuskの発言「提供コストが収入に対して持続不可能なほど高い」を引用。実際に働く常駐エージェントは計算資源を消費するもので、制限は痛いが、突然の上限より透明な料金体系の方が良いと述べる。"
+    },
+    "ko": {
+     "title": "Grok Bot 제한: 실제로 일하는 상시 에이전트는 연산을 많이 쓴다",
+     "summary": "작성자는 Grok Bot이 제한되고 있다고 지적하며, 서비스 비용이 수익 대비 지속 불가능할 만큼 높다는 Musk의 11월 1일 발언을 인용합니다. 실제로 일하는 상시 에이전트는 연산을 많이 쓰며, 한도는 아프지만 갑작스러운 상한보다 투명한 가격이 낫다고 봅니다."
+    },
+    "ms": {
+     "title": "Grok Bot dihadkan: ejen sentiasa aktif yang benar-benar bekerja guna banyak pengkomputeran",
+     "summary": "Penulis menyatakan Grok Bot sedang dihadkan dan memetik kenyataan Musk pada 1 Nov bahawa kos menyediakannya “terlalu tinggi berbanding hasil hingga tidak mampan.” Pada pandangannya, ejen sentiasa aktif yang benar-benar bekerja menggunakan banyak pengkomputeran; had memang menyakitkan tetapi harga telus lebih baik daripada had mengejut."
+    },
+    "vi": {
+     "title": "Grok Bot bị bóp băng thông: agent luôn bật làm việc thật thì tốn tài nguyên tính toán",
+     "summary": "Tác giả cho biết Grok Bot đang bị giới hạn và trích lời Musk ngày 1/11 rằng chi phí phục vụ “cao không bền vững so với doanh thu.” Theo anh, một agent luôn bật thực sự làm việc thì tốn tài nguyên tính toán; giới hạn thật khó chịu, nhưng giá minh bạch vẫn hơn mức trần bất ngờ."
+    },
+    "fr": {
+     "title": "Grok Bot bridé : un agent toujours actif qui travaille vraiment consomme du calcul",
+     "summary": "L’auteur constate que Grok Bot est bridé et cite Musk le 1er novembre : servir le produit coûtait « un prix intenable par rapport aux revenus ». Selon lui, un agent toujours actif qui travaille vraiment consomme du calcul ; les limites font mal, mais une tarification transparente vaut mieux que des plafonds surprises."
+    },
+    "es": {
+     "title": "Grok Bot limitado: un agente siempre activo que trabaja de verdad consume cómputo",
+     "summary": "El autor señala que Grok Bot está siendo limitado y cita a Musk el 1 de noviembre: servirlo era “insosteniblemente caro en relación con los ingresos”. A su juicio, un agente siempre activo que de verdad trabaja consume cómputo; los límites duelen, pero un precio transparente es mejor que topes por sorpresa."
+    },
+    "de": {
+     "title": "Grok Bot gedrosselt: ein ständig aktiver Agent, der wirklich arbeitet, verbraucht Rechenleistung",
+     "summary": "Der Autor stellt fest, dass Grok Bot gedrosselt wird, und zitiert Musk vom 1. November, der Betrieb sei „im Verhältnis zum Umsatz untragbar teuer“. Seine Sicht: Ein ständig aktiver Agent, der wirklich arbeitet, verbraucht Rechenleistung; Limits schmerzen, doch transparente Preise sind besser als überraschende Obergrenzen."
+    }
+   }
+  }
+ ]
 }
