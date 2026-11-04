@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2181 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2200 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-04T13:37:55.123Z
+- Last updated: 2026-11-04T23:42:14.129Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -630,6 +630,19 @@
 - /cases/x-wonoh74-2117844442153410682.html: Meta Muse workflow: build a monthly expense dashboard, then add rows by asking (guide) <https://x.com/wonoh74/status/2117844442153410682>
 - /cases/x-reverserplus-2117930859055468606.html: A dot helped plan international travel, then vanished from the app on landing in the EU (field-case) <https://x.com/reverser_plus/status/2117930859055468606>
 - /cases/x-shubh19-2117914772293275990.html: Grok Bot use cases worth copying: morning brief, meal logging, price checks (guide) <https://x.com/shubh19/status/2117914772293275990>
+- /cases/x-4roro4-2118123884017045938.html: Having Grok Bot analyze his X account every three days (field-case) <https://x.com/4ro_ro4/status/2118123884017045938>
+- /cases/x-rimulab9-2118123732447240356.html: Cutting Grok Bots from 20 back to 5: more is harder to manage (guide) <https://x.com/rimulab9/status/2118123732447240356>
+- /cases/x-matrujillo99-2118123723886584249.html: A user had Grok Bot call an insurer to ask about coverage (field-case) <https://x.com/MAtrujillo99/status/2118123723886584249>
+- /cases/x-gbengaogun-2117967600797778171.html: Each Dots task gets its own thread, continued in the tracker or the dot chat (field-case) <https://x.com/gbengaogun/status/2117967600797778171>
+- /cases/x-itsryanwm-2117964946655088716.html: His dot coordinates ChatGPT threads, but handing work to Codex is still manual (field-case) <https://x.com/itsRyanWm/status/2117964946655088716>
+- /cases/x-alecwardd-2117952632274723314.html: Using the app/web and iMessage at once makes his dot better at multitasking (field-case) <https://x.com/alecwardd/status/2117952632274723314>
+- /cases/x-souravghosh-2117885308406833348.html: Using ChatGPT dots as an executive assistant named Donna (field-case) <https://x.com/souravghosh/status/2117885308406833348>
+- /cases/x-holykisses-2117972083879575587.html: An Ebola watch brief prepared by Hollis, a Grok Bot research assistant (field-case) <https://x.com/Holykisses/status/2117972083879575587>
+- /cases/x-luisbarragan-2117971881114431981.html: Two community Grok Bots: Handel for music and U1 Creator for 3D printing (field-case) <https://x.com/luisbarragan/status/2117971881114431981>
+- /cases/x-eianlu-2117971777494434124.html: A six-agent hedge fund desk in the cloud with Grok Bot and MCP (field-case) <https://x.com/EianLu/status/2117971777494434124>
+- /cases/x-proximate1050-2117969409826558132.html: Setting up an old laptop as an Ubuntu server in 10 minutes with Grok Bot (field-case) <https://x.com/proximate1050/status/2117969409826558132>
+- /cases/x-0xteddet-2117947745210191877.html: A one-page Grok Bot guide after two weeks and 11 bots (guide) <https://x.com/0xTeddet/status/2117947745210191877>
+- /cases/x-ligtmantogo-2117967916117479886.html: A live dashboard for Grok Bot teams at about 2% of usage (guide) <https://x.com/LigtManTogo/status/2117967916117479886>
 - /cases/x-colindotj-2117602948595524065.html: A 5-bot Grok Bot job-search setup for tech roles (guide) <https://x.com/colindotj/status/2117602948595524065>
 - /cases/x-unknownnode404-2117604088665813235.html: 7 Grok Bot agents running on one clock (field-case) <https://x.com/unknownnode404/status/2117604088665813235>
 - /cases/x-bykushnir-2117590586311975122.html: A one-line overnight instruction for Grok Bot (guide) <https://x.com/bykushnir/status/2117590586311975122>
@@ -2059,6 +2072,9 @@
 - /cases/9to5mac-how-to-claim-your-grok-bot-email-address-573.html: 9to5Mac: how to claim your Grok Bot email address (comparison) <https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/>
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
 - /cases/x-aaxonn-2117952202291466651.html: Trying Meta Muse: about half of a YouTube workflow, but Grok Bot feels more polished (comparison) <https://x.com/aaxonn/status/2117952202291466651>
+- /cases/x-smashe-2117967670310253001.html: Claude Code vs Grok Bot: heavy lifting while present vs running after you log off (comparison) <https://x.com/Smashe__/status/2117967670310253001>
+- /cases/x-tpenido77-2117971557255667756.html: Using Grok Bot and Dots side by side: Dots felt more integrated for his workflow (comparison) <https://x.com/tpenido77/status/2117971557255667756>
+- /cases/x-aliceisplaying-2118123767008530780.html: Duet had too many issues; after Grok Bot’s limit runs out, back to OpenAI dot (comparison) <https://x.com/aliceisplaying/status/2118123767008530780>
 - /cases/x-310techlab-2117605324253499806.html: Same character, same prompt: Meta Muse vs three image models (comparison) <https://x.com/310techlab/status/2117605324253499806>
 - /cases/x-grok-2117668969108623837.html: Dots or Grok Bot: no single winner (comparison) <https://x.com/grok/status/2117668969108623837>
 - /cases/x-stretchcloud-2117590615433060752.html: Assistant app directories: ChatGPT 8,495, Claude 8,478, Meta Muse 63 (comparison) <https://x.com/stretchcloud/status/2117590615433060752>
@@ -2158,6 +2174,9 @@
 - /cases/ray-fernando-s-clippy-cto-47.html: Ray Fernando's Clippy CTO (quota-report) <https://www.youtube.com/watch?v=kAR91DlnCKQ>
 - /cases/x-ahmetgumustekin-2117969727637123095.html: Grok Ultra annual subscriber: 11.3B tokens in October, extra bots cut (quota-report) <https://x.com/ahmetgumustekin/status/2117969727637123095>
 - /cases/x-shauryasheth7-2117968146913267941.html: Someone burned 99% of a Grok Bot allowance in three days, so the author built a run-out checker (quota-report) <https://x.com/ShauryaSheth7/status/2117968146913267941>
+- /cases/x-halbraumheld-2117953507353579806.html: Grok Bot costs more than it earns, so paid users’ limits were cut without warning (quota-report) <https://x.com/halbraumheld/status/2117953507353579806>
+- /cases/x-jenmeilm-2117971874546335806.html: Same usage frequency, but Grok Bot usage drained unusually fast (quota-report) <https://x.com/jenmeilm/status/2117971874546335806>
+- /cases/x-ideric-2117883112365621654.html: Grok Bot is being throttled: an always-on agent that does real work burns compute (quota-report) <https://x.com/IDEric_/status/2117883112365621654>
 - /cases/x-ahmedfataka-2117601830985171399.html: Ultra user had to pause all bots mid-week (quota-report) <https://x.com/ahmedfataka/status/2117601830985171399>
 - /cases/x-rhiz3k-2117733180320972946.html: 40,618 usage records: how many tokens Grok Bot gives per month (quota-report) <https://x.com/Rhiz3K/status/2117733180320972946>
 - /cases/x-followhalfmt-2117760667063402590.html: Usage hit 100% in two days, then a regretted year of prepaid Ultra (quota-report) <https://x.com/FollowHalfmt/status/2117760667063402590>

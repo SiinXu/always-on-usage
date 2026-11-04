@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2181 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2200 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-04T13:37:55.123Z
+- Last updated: 2026-11-04T23:42:14.129Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3227,6 +3227,71 @@
 - URL: https://usage.incidental.site/cases/x-shubh19-2117914772293275990.html
 - Type: guide · Product: grok-bot · Author: shubh19 · Source: https://x.com/shubh19/status/2117914772293275990 · Date: 2026-11-04
 - Summary: The author lists daily-life Grok Bot use cases: a chief-of-staff bot that triages the inbox and sets the day’s priorities, a nutrition bot that logs meals in MyFitnessPal and suggests macro targets, and a price-check bot comparing the same order across Swiggy, Zomato and others. A full list is in the image.
+
+### Having Grok Bot analyze his X account every three days
+- URL: https://usage.incidental.site/cases/x-4roro4-2118123884017045938.html
+- Type: field-case · Product: grok-bot · Author: 4ro_ro4 · Source: https://x.com/4ro_ro4/status/2118123884017045938 · Date: 2026-11-04
+- Summary: The author has Grok Bot analyze his X account every three days: it collects the numbers, compares them with the previous run and suggests what to try next. He feels he reviews his account more properly than when he just stared at the dashboard himself.
+
+### Cutting Grok Bots from 20 back to 5: more is harder to manage
+- URL: https://usage.incidental.site/cases/x-rimulab9-2118123732447240356.html
+- Type: guide · Product: grok-bot · Author: rimulab9 · Source: https://x.com/rimulab9/status/2118123732447240356 · Date: 2026-11-04
+- Summary: The author grew to 20 Grok Bots and then went back to 5. More bots meant more mental load and losing track of who was asked to do what; bots also started consulting each other and quietly burned tokens, until he couldn't tell which bot owned a task. With 5 it is easier to keep track, and he recommends it.
+
+### A user had Grok Bot call an insurer to ask about coverage
+- URL: https://usage.incidental.site/cases/x-matrujillo99-2118123723886584249.html
+- Type: field-case · Product: grok-bot · Author: MAtrujillo99 · Source: https://x.com/MAtrujillo99/status/2118123723886584249 · Date: 2026-11-04
+- Summary: The author relays that a user had their Grok Bot call an insurance company to ask about coverage before buying a policy, while picking up their kids; Elon shared it. He asks local businesses whether a customer’s agent calling them would get a clear answer.
+
+### Each Dots task gets its own thread, continued in the tracker or the dot chat
+- URL: https://usage.incidental.site/cases/x-gbengaogun-2117967600797778171.html
+- Type: field-case · Product: openai-dots · Author: gbengaogun · Source: https://x.com/gbengaogun/status/2117967600797778171 · Date: 2026-11-04
+- Summary: In part 4 of a thread, the author says each task has its own threaded conversation. He can comment on the work in the tracker, and the conversation can also continue in his dot chat, which keeps the context together and makes it easier to pick up where they left off.
+
+### His dot coordinates ChatGPT threads, but handing work to Codex is still manual
+- URL: https://usage.incidental.site/cases/x-itsryanwm-2117964946655088716.html
+- Type: field-case · Product: openai-dots · Author: itsRyanWm · Source: https://x.com/itsRyanWm/status/2117964946655088716 · Date: 2026-11-04
+- Summary: The author says his dot can coordinate ChatGPT threads, but he still has to manually shuttle ZIP files and prompts into Codex, joking that he has become the integration layer. He asks for two OpenAI apps to hand work to each other.
+
+### Using the app/web and iMessage at once makes his dot better at multitasking
+- URL: https://usage.incidental.site/cases/x-alecwardd-2117952632274723314.html
+- Type: field-case · Product: openai-dots · Author: alecwardd · Source: https://x.com/alecwardd/status/2117952632274723314 · Date: 2026-11-04
+- Summary: The author feels his dot handles multiple tasks much better when he uses the app/web runtime and iMessage simultaneously for different tasks. He assumes the contexts get merged at some point and asks whether the context window or runtime is separated, calling it very helpful.
+
+### Using ChatGPT dots as an executive assistant named Donna
+- URL: https://usage.incidental.site/cases/x-souravghosh-2117885308406833348.html
+- Type: field-case · Product: openai-dots · Author: souravghosh · Source: https://x.com/souravghosh/status/2117885308406833348 · Date: 2026-11-04
+- Summary: The author says ChatGPT dots has made life and work easier than any AI feature so far, because he can stay away from his desk and still get a lot done. He uses it as his EA: an always-on agent with access across his work stack that he can call or text to keep work going on his computer or the cloud. He named it Donna.
+
+### An Ebola watch brief prepared by Hollis, a Grok Bot research assistant
+- URL: https://usage.incidental.site/cases/x-holykisses-2117972083879575587.html
+- Type: field-case · Product: grok-bot · Author: Holykisses · Source: https://x.com/Holykisses/status/2117972083879575587 · Date: 2026-11-04
+- Summary: The author posts Ebola Watch Brief No. 13 (Nov 4, AM), credited to Hollis, a Grok Bot research assistant: DRC at 10,532 cases and 5,126 deaths as of Nov 1, week-on-week -7.1%, their estimated Rt 0.85, with a 26-page full report. The author notes official data lags, so it is a warning, not a certainty.
+
+### Two community Grok Bots: Handel for music and U1 Creator for 3D printing
+- URL: https://usage.incidental.site/cases/x-luisbarragan-2117971881114431981.html
+- Type: field-case · Product: grok-bot · Author: luisbarragan · Source: https://x.com/luisbarragan/status/2117971881114431981 · Date: 2026-11-04
+- Summary: The author highlights two community-built Grok Bots: Handel by @monomyth breaks down the music you are playing and makes new Suno tracks riffing on it; U1 Creator by @msmage takes a Snapmaker U1 3D print from idea to print-ready file.
+
+### A six-agent hedge fund desk in the cloud with Grok Bot and MCP
+- URL: https://usage.incidental.site/cases/x-eianlu-2117971777494434124.html
+- Type: field-case · Product: grok-bot · Author: EianLu · Source: https://x.com/EianLu/status/2117971777494434124 · Date: 2026-11-04
+- Summary: The author shares a setup: Grok Bot plus MCP running a cloud desk of 6 agents with split roles, for about $30 a month and a few lines of config. It watches the market 24 hours a day in the cloud, while the person only reads emails and clicks to confirm. The post goes on to list the 6 agents’ roles (see the original link).
+
+### Setting up an old laptop as an Ubuntu server in 10 minutes with Grok Bot
+- URL: https://usage.incidental.site/cases/x-proximate1050-2117969409826558132.html
+- Type: field-case · Product: grok-bot · Author: proximate1050 · Source: https://x.com/proximate1050/status/2117969409826558132 · Date: 2026-11-04
+- Summary: The author says you don’t need new hardware: an unused laptop, even a very old one, can still run Ubuntu. Without much technical knowledge of Ubuntu or servers, it took him 10 minutes to set up with Grok Bot.
+
+### A one-page Grok Bot guide after two weeks and 11 bots
+- URL: https://usage.incidental.site/cases/x-0xteddet-2117947745210191877.html
+- Type: guide · Product: grok-bot · Author: 0xTeddet · Source: https://x.com/0xTeddet/status/2117947745210191877 · Date: 2026-11-04
+- Summary: Over two weeks the author built 11 bots, burned through his weekly limit twice and tested every viral setup on his own bots, then put what survived on one page. The first setup rule: one bot, one job, such as a bot that researches and writes (full page and video at the original link).
+
+### A live dashboard for Grok Bot teams at about 2% of usage
+- URL: https://usage.incidental.site/cases/x-ligtmantogo-2117967916117479886.html
+- Type: guide · Product: grok-bot · Author: LigtManTogo · Source: https://x.com/LigtManTogo/status/2117967916117479886 · Date: 2026-11-04
+- Summary: The author notes that a live dashboard for Grok Bot teams, set up for about 2% of usage, solves the real problem in multi-agent work: knowing what your bots are doing without opening 15 chats. He argues that visibility beats another clever prompt, because unmanaged agents don’t fail loudly, they quietly burn usage.
 
 ### A 5-bot Grok Bot job-search setup for tech roles
 - URL: https://usage.incidental.site/cases/x-colindotj-2117602948595524065.html
@@ -10373,6 +10438,21 @@
 - Type: comparison · Product: meta-muse · Author: aaxonn · Source: https://x.com/aaxonn/status/2117952202291466651 · Date: 2026-11-04
 - Summary: The author says Muse could handle roughly half of his YouTube production process, but for now Grok Bot feels more complete; Muse is practical yet still rough in many places. This is post 1 of a 5-part thread on its pros and problems.
 
+### Claude Code vs Grok Bot: heavy lifting while present vs running after you log off
+- URL: https://usage.incidental.site/cases/x-smashe-2117967670310253001.html
+- Type: comparison · Product: grok-bot · Author: Smashe__ · Source: https://x.com/Smashe__/status/2117967670310253001 · Date: 2026-11-04
+- Summary: The author argues it’s not a weak model managing a strong one but a split of roles: Claude Code suits heavy work while you’re there; Grok Bot has its own cloud computer, keeps running after you shut your laptop and is native to X, so it suits watching narratives and running routines. He linked a summary of key points.
+
+### Using Grok Bot and Dots side by side: Dots felt more integrated for his workflow
+- URL: https://usage.incidental.site/cases/x-tpenido77-2117971557255667756.html
+- Type: comparison · Product: multi · Author: tpenido77 · Source: https://x.com/tpenido77/status/2117971557255667756 · Date: 2026-11-04
+- Summary: The author says Dots isn’t as bad as people claim. He has been using both Grok Bot and Dots, and for his own workflow he finds Dots even more integrated.
+
+### Duet had too many issues; after Grok Bot’s limit runs out, back to OpenAI dot
+- URL: https://usage.incidental.site/cases/x-aliceisplaying-2118123767008530780.html
+- Type: comparison · Product: multi · Author: aliceisplaying · Source: https://x.com/aliceisplaying/status/2118123767008530780 · Date: 2026-11-04
+- Summary: The author found Duet had many annoying issues and limitations that Grok Bot does not. Once her Grok Bot usage runs out, she will probably go back to OpenAI dot for a while.
+
 ### Same character, same prompt: Meta Muse vs three image models
 - URL: https://usage.incidental.site/cases/x-310techlab-2117605324253499806.html
 - Type: comparison · Product: meta-muse · Author: 310techlab · Source: https://x.com/310techlab/status/2117605324253499806 · Date: 2026-11-03
@@ -10867,6 +10947,21 @@
 - URL: https://usage.incidental.site/cases/x-shauryasheth7-2117968146913267941.html
 - Type: quota-report · Product: grok-bot · Author: ShauryaSheth7 · Source: https://x.com/ShauryaSheth7/status/2117968146913267941 · Date: 2026-11-04
 - Summary: After seeing someone use 99% of their Grok Bot allowance in three days, the author built a check: enter your usage percent and it tells you which day you run out. He asks how many days others’ allowance lasted.
+
+### Grok Bot costs more than it earns, so paid users’ limits were cut without warning
+- URL: https://usage.incidental.site/cases/x-halbraumheld-2117953507353579806.html
+- Type: quota-report · Product: grok-bot · Author: halbraumheld · Source: https://x.com/halbraumheld/status/2117953507353579806 · Date: 2026-11-04
+- Summary: The author says Musk admitted Grok Bot costs more to run than it earns, so paying users had their limits cut with no warning. He argues an always-on agent that only works on a subsidized plan isn’t a real product yet, and that budgets will shape this market more than demos.
+
+### Same usage frequency, but Grok Bot usage drained unusually fast
+- URL: https://usage.incidental.site/cases/x-jenmeilm-2117971874546335806.html
+- Type: quota-report · Product: grok-bot · Author: jenmeilm · Source: https://x.com/jenmeilm/status/2117971874546335806 · Date: 2026-11-04
+- Summary: The author says she used Grok Bot at the same frequency as before today, yet her usage was consumed very quickly. She asks whether something is wrong with Grok Bot and attaches a screenshot of her usage.
+
+### Grok Bot is being throttled: an always-on agent that does real work burns compute
+- URL: https://usage.incidental.site/cases/x-ideric-2117883112365621654.html
+- Type: quota-report · Product: grok-bot · Author: IDEric_ · Source: https://x.com/IDEric_/status/2117883112365621654 · Date: 2026-11-04
+- Summary: The author notes Grok Bot is getting throttled and cites Musk on Nov 1 saying serving it was “unsustainably high relative to revenue.” His take: an always-on agent that actually does work burns compute; limits hurt, but transparent pricing beats surprise caps.
 
 ### Ultra user had to pause all bots mid-week
 - URL: https://usage.incidental.site/cases/x-ahmedfataka-2117601830985171399.html
