@@ -1,0 +1,753 @@
+{
+  "data": [
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118485446736883712"
+        ]
+      },
+      "author_id": "1679837305409007617",
+      "created_at": "2026-11-05T23:27:46.000Z",
+      "edit_history_tweet_ids": [
+        "2118485455922442510"
+      ],
+      "id": "2118485455922442510",
+      "in_reply_to_user_id": "1679837305409007617",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 14,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118485302767710709",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@zipline @Walmart @Uber @shieldaitech @nvidia @apolloglobal @AnthropicAI @Meta Meta Muse https://t.co/7OIV2jCLQN\nAirbnb Q3 https://t.co/hgmUOoNX3M\nPhotos: Zipline; Shield; Nvidia; Anthropic; Meta; Airbnb. https://t.co/5G4YYJIrvw",
+      "url": "https://x.com/BroadwakeAI/status/2118485455922442510"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118484455660883968"
+        ]
+      },
+      "author_id": "2110610632198516736",
+      "created_at": "2026-11-05T23:24:56.000Z",
+      "edit_history_tweet_ids": [
+        "2118484739216818429"
+      ],
+      "id": "2118484739216818429",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "今天大厂的 4 条小更新，一次看完。\n\n① Hugging Face：开源 ML Intern 变成 Slack bot 了\n直接装进自己的工作区，在 Slack 里就能评估模型、构建数据集、随时微调模型。官方的说法是：你的数据值得拥有你自己的私有模型——连上数据、文件、MCP，从 Slack 里调用就行。\n\n② 智源 https://t.co/cEjXbzD5C6",
+      "url": "https://x.com/octopusaia/status/2118484739216818429"
+    },
+    {
+      "author_id": "2725202882",
+      "created_at": "2026-11-05T23:24:05.000Z",
+      "edit_history_tweet_ids": [
+        "2118484526007472289"
+      ],
+      "id": "2118484526007472289",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118168231617700199",
+          "type": "quoted"
+        }
+      ],
+      "text": "honestly chat has caught up to competitors on image generation... \n\nunfortunately for chat, meta muse has too in a 10X fashion https://t.co/ELNvV0SRyS",
+      "url": "https://x.com/adrianjordan_io/status/2118484526007472289"
+    },
+    {
+      "author_id": "1612585754537988097",
+      "created_at": "2026-11-05T23:17:02.000Z",
+      "edit_history_tweet_ids": [
+        "2118482752576073890"
+      ],
+      "id": "2118482752576073890",
+      "in_reply_to_user_id": "1612585754537988097",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 24,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118482750323691701",
+          "type": "replied_to"
+        }
+      ],
+      "text": "@ahmdelemam جدير بالذكر حاليا اننا عندنا grok bots, meta muse, claude duet, hark pro, instinct \n\nكل الجماعة دول يقدروا ينفذوا المثال الي اتقال بالمعنى الحرفي end to end وبشكل مثالي.\n\nالتك بقى سريع بشكل مذهل ..",
+      "url": "https://x.com/abdelrhmanOkby/status/2118482752576073890"
+    },
+    {
+      "author_id": "1274691",
+      "created_at": "2026-11-05T23:15:46.000Z",
+      "edit_history_tweet_ids": [
+        "2118482433557544967"
+      ],
+      "id": "2118482433557544967",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 30,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Metaが「Muse」アプリで、音声会話と表情のあるアバターの提供を米国時間11/5に始めた。\n対象は米国で、モバイル、Web、Macで使える。\nアプリ右上の電話アイコンをタップすると、Museと声で話しながら旅行の計画や面接の練習を進められる。\n応答はリアルタイムで、話の途中で割り込むことも可能だ。",
+      "url": "https://x.com/multilayer/status/2118482433557544967"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118481893796499456"
+        ]
+      },
+      "author_id": "887814866",
+      "created_at": "2026-11-05T23:13:58.000Z",
+      "edit_history_tweet_ids": [
+        "2118481982812295441"
+      ],
+      "id": "2118481982812295441",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 790,
+        "like_count": 9,
+        "quote_count": 0,
+        "reply_count": 6,
+        "retweet_count": 4
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118454097104056645",
+          "type": "quoted"
+        }
+      ],
+      "text": "I made SEÑOR INTELLIGENTE starring meta Muse! Change ai signs to si, watch out for protestors. \n\nWelcome to Mexico, muse! 🇲🇽\n\nhttps://t.co/q1zI64nvca https://t.co/NoLwoWmT7x https://t.co/kEN9gPIRdn",
+      "url": "https://x.com/wirelyss/status/2118481982812295441"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118481751521759232"
+        ]
+      },
+      "author_id": "866148566",
+      "created_at": "2026-11-05T23:13:05.000Z",
+      "edit_history_tweet_ids": [
+        "2118481760308830504"
+      ],
+      "id": "2118481760308830504",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 17,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Meta just gave Muse a real time voice and a talking face. 🗣️\n\nMeta says Muse Realtime Voice and Muse Realtime Avatar are rolling out now to all US users in the Muse app on mobile, web and Mac.\nYou tap the phone icon to talk, interrupt, and watch an expressive avatar match the https://t.co/6HauH8LZB0",
+      "url": "https://x.com/nxtday/status/2118481760308830504"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118481414937059329",
+          "3_2118481414920249344"
+        ]
+      },
+      "author_id": "2104238663336857600",
+      "created_at": "2026-11-05T23:11:44.000Z",
+      "edit_history_tweet_ids": [
+        "2118481418678640788"
+      ],
+      "id": "2118481418678640788",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "We did it!! @Meta @Muse please don’t change too much, or ruin this. Please 🙏🏻 https://t.co/8fmovs9pbv",
+      "url": "https://x.com/gab_ackerman55/status/2118481418678640788"
+    },
+    {
+      "author_id": "315029564",
+      "created_at": "2026-11-05T23:07:00.000Z",
+      "edit_history_tweet_ids": [
+        "2118480227034615825"
+      ],
+      "id": "2118480227034615825",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 32,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Meta Museに特典航空券を探させたら、CAPTCHAまで自力で突破して空席を見つけてきた😂\n無料でも普通に使えるので登録して損なし👍\n\n登録から48時間以内に「設定→紹介コードを利用」で入れると、お互い10億トークンもらえます\nコード：9ZNKKT\n\n#Muse #招待コード #MetaMuse",
+      "url": "https://x.com/Character_xiv/status/2118480227034615825"
+    },
+    {
+      "author_id": "1367181264441106432",
+      "created_at": "2026-11-05T23:04:26.000Z",
+      "edit_history_tweet_ids": [
+        "2118479582764687672"
+      ],
+      "id": "2118479582764687672",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 549,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118450108895297884",
+          "type": "quoted"
+        }
+      ],
+      "text": "Car manufacturers, There is another model provider called gpt-live ;)\n\nBut I guess the issue here is probably very bad android auto harness. And super conservative guardrail. The good thing about meta muse as personal assistant is it just do the stuff not asking too many non https://t.co/n8vXTZ47fl",
+      "url": "https://x.com/daidaijiayu/status/2118479582764687672"
+    },
+    {
+      "author_id": "1376056670959374336",
+      "created_at": "2026-11-05T23:00:20.000Z",
+      "edit_history_tweet_ids": [
+        "2118478550835830955"
+      ],
+      "id": "2118478550835830955",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 13,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Meta lanzó Muse en México, el primer país de Latinoamérica en recibir su nuevo agente personal de inteligencia artificial, capaz de realizar tareas y darles seguimiento incluso cuando cierras la aplicación.\n\n#meta #MetaMuse #muse #IA #AI #Tech\n\nhttps://t.co/CA6br8dm3K",
+      "url": "https://x.com/t3maglat/status/2118478550835830955"
+    },
+    {
+      "author_id": "124343426",
+      "created_at": "2026-11-05T23:00:05.000Z",
+      "edit_history_tweet_ids": [
+        "2118478489296810075"
+      ],
+      "id": "2118478489296810075",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 33,
+        "like_count": 1,
+        "quote_count": 1,
+        "reply_count": 0,
+        "retweet_count": 1
+      },
+      "text": "Meta Muse特集 第2弾。noteの自動投稿とインスタの月次振り返りまで、Museに任せた事例から「自分の仕事で最初に任せる1つ」を決める【まっちんぐー朝LIVE】 https://t.co/SJ9zCgkGbL",
+      "url": "https://x.com/passion_tanaka/status/2118478489296810075"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118478256076718080"
+        ]
+      },
+      "author_id": "2200485445",
+      "created_at": "2026-11-05T22:59:11.000Z",
+      "edit_history_tweet_ids": [
+        "2118478259721764897"
+      ],
+      "id": "2118478259721764897",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 73,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Wife Bot Way Better Than An AI Agent. \niPhone Duo Tracking My Ass. \n@meta muse https://t.co/BnFcfH1Y4A",
+      "url": "https://x.com/Jones1/status/2118478259721764897"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118477229105860608",
+          "3_2118477229105827840"
+        ]
+      },
+      "author_id": "1458002030984065024",
+      "created_at": "2026-11-05T22:55:07.000Z",
+      "edit_history_tweet_ids": [
+        "2118477236496105848"
+      ],
+      "id": "2118477236496105848",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 18,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Meta MuseにMuseとPIXAIに初音ミクと音街ウナを描かせてみた比較 https://t.co/29M9Uw1zZc",
+      "url": "https://x.com/4444444KKK/status/2118477236496105848"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118476462810677248"
+        ]
+      },
+      "author_id": "170341023",
+      "created_at": "2026-11-05T22:52:07.000Z",
+      "edit_history_tweet_ids": [
+        "2118476483622842715"
+      ],
+      "id": "2118476483622842715",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 47,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "ChatGPT要約\n\nMeta Museに音声対話と表情豊かなAvatarが登場\n\n本記事要約日：2026-11-06\n本記事公開日：2026-11-05\n\n【この記事で1番言いたいことを一言で】\nMetaのMuseが、声で話し、表情やジェスチャーで応えるAIへ進化。AIとのやり取りが文字入力から自然なリアルタイム会話へ広がる。 https://t.co/N8exApg0mt",
+      "url": "https://x.com/shimesaba_type0/status/2118476483622842715"
+    },
+    {
+      "author_id": "18461620",
+      "created_at": "2026-11-05T22:50:58.000Z",
+      "edit_history_tweet_ids": [
+        "2118476191250174297"
+      ],
+      "id": "2118476191250174297",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 80,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Muse llega a México: así funciona el nuevo agente de IA de Meta\n\nMuse es un agente personal de inteligencia artificial desarrollado por Meta que busca ir más allá de los asistentes tradicionales.\n\nhttps://t.co/M7lOj081i6",
+      "url": "https://x.com/PeriodicoZocalo/status/2118476191250174297"
+    },
+    {
+      "author_id": "898329999421435908",
+      "created_at": "2026-11-05T22:50:45.000Z",
+      "edit_history_tweet_ids": [
+        "2118476140042244194"
+      ],
+      "id": "2118476140042244194",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 39,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Muse llega a México: así funciona el nuevo agente de IA de Meta\n\nMuse es un agente personal de inteligencia artificial desarrollado por Meta que busca ir más allá de los asistentes tradicionales.\n\nhttps://t.co/L8bIIxkwcR",
+      "url": "https://x.com/TeleSaltillo/status/2118476140042244194"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "7_2118475522501947392"
+        ]
+      },
+      "author_id": "1685967855504740352",
+      "created_at": "2026-11-05T22:48:25.000Z",
+      "edit_history_tweet_ids": [
+        "2118475552835187115"
+      ],
+      "id": "2118475552835187115",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 30,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Meta, Muse yapay zeka ajanına gerçek zamanlı sesli sohbet ve konuşurken hareket eden avatarlar ekledi.\n\nÖzellikler ABD'de Muse uygulamasında, mobil, web ve Mac'te kullanıma sunuluyor. Avatar, konuşmaya uygun mimik ve hareketlerle tepki veriyor; kullanıcılar ses tonunu https://t.co/bg15S6gtkT",
+      "url": "https://x.com/Punto_Turkiye/status/2118475552835187115"
+    },
+    {
+      "author_id": "36466855",
+      "created_at": "2026-11-05T22:42:12.000Z",
+      "edit_history_tweet_ids": [
+        "2118473987101724961"
+      ],
+      "id": "2118473987101724961",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 148,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 2
+      },
+      "text": "On the Meta Muse app you can pay $20 a month to save $20 a month on your bills! Yipee!",
+      "url": "https://x.com/SupMikecheck/status/2118473987101724961"
+    },
+    {
+      "author_id": "1230806848850165760",
+      "created_at": "2026-11-05T22:32:35.000Z",
+      "edit_history_tweet_ids": [
+        "2118471568682848700"
+      ],
+      "id": "2118471568682848700",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 104,
+        "like_count": 3,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118401405723549775",
+          "type": "quoted"
+        }
+      ],
+      "text": "ブログ記事の日本語版\nEvernoteとMeta Museの使い方：設定とMuseがEvernoteにできること https://t.co/cOHq3Fkfmi https://t.co/O5EfFp3qdC",
+      "url": "https://x.com/Evernote_Lab/status/2118471568682848700"
+    },
+    {
+      "article": {
+        "title": "Claudeに口座をつなぐ？家計相談の注意点"
+      },
+      "author_id": "1829891399980105730",
+      "created_at": "2026-11-05T22:30:09.000Z",
+      "edit_history_tweet_ids": [
+        "2118470954808418518"
+      ],
+      "id": "2118470954808418518",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 130,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "https://t.co/C57Nd2GxnS",
+      "url": "https://x.com/yasu_ai_journey/status/2118470954808418518"
+    },
+    {
+      "article": {
+        "title": "Museはどこまで使える？｜活用事例15選と10億トークンを無駄にしない使い方"
+      },
+      "author_id": "2013598367801319425",
+      "created_at": "2026-11-05T22:28:44.000Z",
+      "edit_history_tweet_ids": [
+        "2118470598464774243"
+      ],
+      "id": "2118470598464774243",
+      "public_metrics": {
+        "bookmark_count": 2,
+        "impression_count": 1044,
+        "like_count": 12,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 1
+      },
+      "text": "https://t.co/VVCkROpLKO",
+      "url": "https://x.com/K_AI_Work/status/2118470598464774243"
+    },
+    {
+      "author_id": "1491461013647986689",
+      "created_at": "2026-11-05T22:28:27.000Z",
+      "edit_history_tweet_ids": [
+        "2118470528293814311"
+      ],
+      "id": "2118470528293814311",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 16,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Meta Muse 开始推出实时语音和动态头像，首批面向美国用户。\n\nMeta 11 月 5 日宣布，此前在 Connect 2026 预告的对话功能正向 Muse 移动端、网页版和 Mac 版推送：\n\n• 支持可随时打断的实时语音，入口是右上角电话按钮。\n•",
+      "url": "https://x.com/greek2240/status/2118470528293814311"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118467665450659840"
+        ]
+      },
+      "author_id": "2049369798979833857",
+      "created_at": "2026-11-05T22:17:05.000Z",
+      "edit_history_tweet_ids": [
+        "2118467668097331386"
+      ],
+      "id": "2118467668097331386",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "今朝のAIニュース3本（2026/11/06）\n\n・Meta「Muse」アプリに音声会話とアバター まず米国で、日本は未発表\n・Claude、「Personal Finance」をベータ提供\n・NVIDIAの新ドライバー621.14、WoW: Foreverに最適化\n\n#AI https://t.co/MFQ0BZyYeZ",
+      "url": "https://x.com/saisoku_ai/status/2118467668097331386"
+    },
+    {
+      "author_id": "2069408497415159808",
+      "created_at": "2026-11-05T22:17:03.000Z",
+      "edit_history_tweet_ids": [
+        "2118467658748445059"
+      ],
+      "id": "2118467658748445059",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 53,
+        "like_count": 1,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118240680858574949",
+          "type": "quoted"
+        }
+      ],
+      "text": "Everyone is racing to make AI smarter.\nBut I’ve been obsessed with a different question:\n\nWhat makes people genuinely attached to an AI, beyond what it can do for them?\n\nI built Beni AI to explore this. 33K+ personalized AI personas created, 1.3M+ messages exchanged.\n\nAnd it made https://t.co/CKd9IpjlVC",
+      "url": "https://x.com/dearsummer0/status/2118467658748445059"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "3_2118485446736883712",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZfSiKWMAA6kEm.jpg"
+      },
+      {
+        "media_key": "3_2118484455660883968",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZeY2HakAAUe9x.jpg"
+      },
+      {
+        "media_key": "13_2118481893796499456",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118481893796499456/img/Fyj4H9JdpkrqqKTX.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2118481751521759232",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZb7caaEAAjrgA.jpg"
+      },
+      {
+        "media_key": "3_2118481414937059329",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZbn2iXIAEsdQ8.jpg"
+      },
+      {
+        "media_key": "3_2118481414920249344",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZbn2eWoAA5-nC.jpg"
+      },
+      {
+        "media_key": "3_2118478256076718080",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZYv-3XgAAqdIN.jpg"
+      },
+      {
+        "media_key": "3_2118477229105860608",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZX0NGb0AA2_uv.jpg"
+      },
+      {
+        "media_key": "3_2118477229105827840",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZX0NGbUAAxhZp.jpg"
+      },
+      {
+        "media_key": "3_2118476462810677248",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZXHmbbQAAnZIZ.jpg"
+      },
+      {
+        "media_key": "7_2118475522501947392",
+        "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2118475522501947392/pu/img/d-yQ3-Z-oQgcuear.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2118467665450659840",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZPHhtWcAA-vap.jpg"
+      }
+    ],
+    "users": [
+      {
+        "id": "1679837305409007617",
+        "name": "BroadwakeAI",
+        "username": "BroadwakeAI"
+      },
+      {
+        "id": "2110610632198516736",
+        "name": "章鱼8̃爪铺🐙",
+        "username": "octopusaia"
+      },
+      {
+        "id": "2725202882",
+        "name": "adrianjordan.io",
+        "username": "adrianjordan_io"
+      },
+      {
+        "id": "1612585754537988097",
+        "name": "عبدالرحمن 𓂆",
+        "username": "abdelrhmanOkby"
+      },
+      {
+        "id": "1274691",
+        "name": "multilayer",
+        "username": "multilayer"
+      },
+      {
+        "id": "887814866",
+        "name": "Wirelyss 👁️‍🗨️💫",
+        "username": "wirelyss"
+      },
+      {
+        "id": "866148566",
+        "name": "NXTDAY",
+        "username": "nxtday"
+      },
+      {
+        "id": "2104238663336857600",
+        "name": "Gab Ackerman 🌸",
+        "username": "gab_ackerman55"
+      },
+      {
+        "id": "315029564",
+        "name": "きゃらくたーPro@FF14(Bahamut;JP) / JK1DCS",
+        "username": "Character_xiv"
+      },
+      {
+        "id": "1367181264441106432",
+        "name": "jiayu",
+        "username": "daidaijiayu"
+      },
+      {
+        "id": "1376056670959374336",
+        "name": "T3 Latam",
+        "username": "t3maglat"
+      },
+      {
+        "id": "124343426",
+        "name": "田中啓之｜著書重版×AI分身化",
+        "username": "passion_tanaka"
+      },
+      {
+        "id": "2200485445",
+        "name": "Jones 1 🇺🇸",
+        "username": "Jones1"
+      },
+      {
+        "id": "1458002030984065024",
+        "name": "白石二七",
+        "username": "4444444KKK"
+      },
+      {
+        "id": "170341023",
+        "name": "たかし",
+        "username": "shimesaba_type0"
+      },
+      {
+        "id": "18461620",
+        "name": "Periódico Zócalo",
+        "username": "PeriodicoZocalo"
+      },
+      {
+        "id": "898329999421435908",
+        "name": "Tele Saltillo",
+        "username": "TeleSaltillo"
+      },
+      {
+        "id": "1685967855504740352",
+        "name": "Punto | haber uygulaması",
+        "username": "Punto_Turkiye"
+      },
+      {
+        "id": "36466855",
+        "name": "SUPMIKECHECK",
+        "username": "SupMikecheck"
+      },
+      {
+        "id": "1230806848850165760",
+        "name": "研究室のEvernote",
+        "username": "Evernote_Lab"
+      },
+      {
+        "id": "1829891399980105730",
+        "name": "YASUTAKA｜AIコーチ＆n8n公認クリエイター",
+        "username": "yasu_ai_journey"
+      },
+      {
+        "id": "2013598367801319425",
+        "name": "かい｜AI×業務効率化",
+        "username": "K_AI_Work"
+      },
+      {
+        "id": "1491461013647986689",
+        "name": "AI 情报局 🤖",
+        "username": "greek2240"
+      },
+      {
+        "id": "2049369798979833857",
+        "name": "サイソクニュース",
+        "username": "saisoku_ai"
+      },
+      {
+        "id": "2069408497415159808",
+        "name": "Summer",
+        "username": "dearsummer0"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2118485455922442510",
+    "next_token": "b26v89c19zqg8o3juzlyxj8f2audy00g3ch65jw0qifel",
+    "oldest_id": "2118467658748445059",
+    "result_count": 25
+  }
+}

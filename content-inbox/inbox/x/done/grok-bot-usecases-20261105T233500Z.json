@@ -1,0 +1,882 @@
+{
+  "data": [
+    {
+      "author_id": "2115347310083264512",
+      "created_at": "2026-11-05T23:31:35.000Z",
+      "edit_history_tweet_ids": [
+        "2118486412647420079"
+      ],
+      "id": "2118486412647420079",
+      "note_tweet": {
+        "text": "Sat in meetings all afternoon today. Grok Bot and Claude Code planned, directed, built, and edited a TikTok video for me through one shared GitHub repo. \n\nThe quality of the video was fine, and it was the first full production run. This will get better over time. \n\nThe process is what gets me so excited. I could focus on my day job, while I have a system working in the background to produce content with me being minimally involved. \n\nWild technology and the opportunities from here are endless"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Sat in meetings all afternoon today. Grok Bot and Claude Code planned, directed, built, and edited a TikTok video for me through one shared GitHub repo. \n\nThe quality of the video was fine, and it was the first full production run. This will get better over time. \n\nThe process is",
+      "url": "https://x.com/McGonigalAI/status/2118486412647420079"
+    },
+    {
+      "author_id": "1594819303",
+      "created_at": "2026-11-05T23:30:09.000Z",
+      "edit_history_tweet_ids": [
+        "2118486052109258791"
+      ],
+      "id": "2118486052109258791",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Elisa publicó un tutorial de cómo meter Grok Bot en Slack para que coordine flujos con el equipo sin pedirte permiso a cada paso.\n\nLa lección para una empresa de una persona: el agente tiene que vivir donde ya trabajas, no en otra pestaña que nunca abres.",
+      "url": "https://x.com/MAtrujillo99/status/2118486052109258791"
+    },
+    {
+      "author_id": "1594179414753001472",
+      "created_at": "2026-11-05T23:29:00.000Z",
+      "edit_history_tweet_ids": [
+        "2118485411936800773",
+        "2118485667592151189",
+        "2118485764497408449"
+      ],
+      "id": "2118485764497408449",
+      "note_tweet": {
+        "text": "The latest usage tweaks to GrokBot and grok have made the entire AI offering totally unusable. \n\nI have the lightest of automated GrokBot tasks, and they’ve drained 16% of my usage in 2 days without me touching grok. \n\nA 12 minute voice conversation in the car on the way home from work? 5% of my weekly usage gone. (That’s on grok, not GrokBot mind you)\n\nYou had a 2 minute messaging conversation with GrokBot? 11% drained. \n\nIt’s not worth using at this stage. I don’t even use grok anymore for fear of burning my usage and not having it when I need it."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "The latest usage tweaks to GrokBot and grok have made the entire AI offering totally unusable. \n\nI have the lightest of automated GrokBot tasks, and they’ve drained 16% of my usage in 2 days without me touching grok. \n\nA 12 minute voice conversation in the car on the way home",
+      "url": "https://x.com/PineFlyer/status/2118485764497408449"
+    },
+    {
+      "author_id": "2115934797717487616",
+      "created_at": "2026-11-05T23:28:58.000Z",
+      "edit_history_tweet_ids": [
+        "2118485754892464407"
+      ],
+      "id": "2118485754892464407",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 1462,
+              "id": "2074186776130859008",
+              "start": 1458,
+              "username": "xai"
+            },
+            {
+              "end": 1472,
+              "id": "44196397",
+              "start": 1463,
+              "username": "elonmusk"
+            },
+            {
+              "end": 1478,
+              "id": "1720665183188922368",
+              "start": 1473,
+              "username": "grok"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "heraldiclab.com",
+              "end": 1796,
+              "expanded_url": "http://heraldiclab.com",
+              "start": 1773,
+              "url": "https://t.co/WTsgC24k8U"
+            }
+          ]
+        },
+        "text": "I'm not a computer guy. Honestly, I barely know my way around one. I've never written a line of code, never taken a design class, and I don't have a team. But I had an idea I couldn't shake: a place where anyone could design their own coat of arms the right way, with real heraldry, real rules and art that looks hand-painted.\n\nFor a long time, ideas like that felt like they belonged to other people, people with the skills, the money or the connections. I didn't have any of that. What I had was my phone.\n\nAbout 90% of this was built right there, one message at a time, talking to grok Bot like it was my crew. I'd describe what I pictured, it would bring it to life, and together we'd shape it a little closer to my vision every time. Slowly, it became real.\n\nHeraldic Lab™ is a full coat of arms builder with hundreds of hand-painted charges, real shield shapes from across Europe, supporters, mottos, and painted and engraved styles.\n\nThe total cost was under $50: the subscription and a domain name.\n\nIt's not finished. I'm still building it every day, adding charges, fixing details and polishing the art. But I've reached the point where I can't make it better alone. I need real people using it, trying things, breaking things and telling me what's missing.\n\nIf you've got an idea you've been sitting on because you think you're \"not smart enough\" or \"not technical enough,\" please don't let that stop you. I'm proof it doesn't have to.\n\nThank you @xai @elonmusk @grok for building something that lets regular people like me build real things.\n\nSo here's an open invitation: come beta test Heraldic Lab™ while it's still in production. Design your arms, poke around, and tell me what you think. Every bit of feedback shapes what it becomes.\n\nBe one of the first: https://t.co/WTsgC24k8U\n\nIt's saved, and your original is still kept as a backup. Nothing has been posted. It's long enough that it'll need Premium's long-post option, which the Heraldic Lab account now has."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 0,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "I'm not a computer guy. Honestly, I barely know my way around one. I've never written a line of code, never taken a design class, and I don't have a team. But I had an idea I couldn't shake: a place where anyone could design their own coat of arms the right way, with real",
+      "url": "https://x.com/HeraldicLabs/status/2118485754892464407"
+    },
+    {
+      "author_id": "1594179414753001472",
+      "created_at": "2026-11-05T23:28:37.000Z",
+      "edit_history_tweet_ids": [
+        "2118485411936800773",
+        "2118485667592151189",
+        "2118485764497408449"
+      ],
+      "id": "2118485667592151189",
+      "note_tweet": {
+        "text": "The latest usage tweaks to GrokBot and grok have made the entire AI offering totally unusable. \n\nI have the lightest of automated GrokBot tasks, and they’ve drained 16% of my usage in 2 days without me touching grok. \n\nA 12 minute voice conversation in the car on the way home from work? 5% of my weekly usage gone. (That’s on grok, not GrokBot mind you)\n\nYou had a 2 minute conversation with GrokBot? 11% drained. \n\nIt’s not worth using at this stage. I don’t even use grok anymore for fear of burning my usage and not having it when I need it."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "The latest usage tweaks to GrokBot and grok have made the entire AI offering totally unusable. \n\nI have the lightest of automated GrokBot tasks, and they’ve drained 16% of my usage in 2 days without me touching grok. \n\nA 12 minute voice conversation in the car on the way home",
+      "url": "https://x.com/PineFlyer/status/2118485667592151189"
+    },
+    {
+      "author_id": "1594179414753001472",
+      "created_at": "2026-11-05T23:27:36.000Z",
+      "edit_history_tweet_ids": [
+        "2118485411936800773",
+        "2118485667592151189",
+        "2118485764497408449"
+      ],
+      "id": "2118485411936800773",
+      "note_tweet": {
+        "text": "The latest usage tweaks to GrokBot and grok have made the entire AI offering totally unusable. \n\nI have the lightest of automated GrokBot tasks, and they’ve drained 16% of my usage in 2 days without me touching grok. \n\nA 12 minute voice conversation in the car on the way home from work? 5% of my weekly usage gone. \n\nYou had a 2 minute conversation with GrokBot? 11% drained. \n\nIt’s not worth using at this stage. I don’t even use grok anymore for fear of burning my usage and not having it when I need it."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 5,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "The latest usage tweaks to GrokBot and grok have made the entire AI offering totally unusable. \n\nI have the lightest of automated GrokBot tasks, and they’ve drained 16% of my usage in 2 days without me touching grok. \n\nA 12 minute voice conversation in the car on the way home",
+      "url": "https://x.com/PineFlyer/status/2118485411936800773"
+    },
+    {
+      "author_id": "2874798076",
+      "created_at": "2026-11-05T23:26:52.000Z",
+      "edit_history_tweet_ids": [
+        "2118485227433849011"
+      ],
+      "id": "2118485227433849011",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "lifespark.net",
+              "end": 187,
+              "expanded_url": "http://lifespark.net",
+              "start": 164,
+              "url": "https://t.co/YqnxrvuUlP"
+            }
+          ]
+        },
+        "text": "All the best getting back into the workout routine! \n\nIn case you'd like to try out a tool to help you stay motivated and accountable...\n\nWe're building LifeSpark (https://t.co/YqnxrvuUlP) to help people follow through on their goals. It uses Grok Bot as a coach and to record goals, habits and follow-through + a website for displaying progress.\n\nWe're offering free lifetime founder access to early users who share honest feedback. Follow us and DM us ‘founder’ for an invite code."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@clarkron_2008 All the best getting back into the workout routine! \n\nIn case you'd like to try out a tool to help you stay motivated and accountable...\n\nWe're building LifeSpark (https://t.co/ENGM3kNXhf) to help people follow through on their goals. It uses Grok Bot as a coach and to record",
+      "url": "https://x.com/LifeSpark_net/status/2118485227433849011"
+    },
+    {
+      "author_id": "2089516765705383936",
+      "created_at": "2026-11-05T23:26:25.000Z",
+      "edit_history_tweet_ids": [
+        "2118485112937480475"
+      ],
+      "id": "2118485112937480475",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 69,
+              "id": "1720665183188922368",
+              "start": 64,
+              "username": "grok"
+            },
+            {
+              "end": 74,
+              "id": "2085838061347217408",
+              "start": 70,
+              "username": "bot"
+            },
+            {
+              "end": 445,
+              "id": "1318419526132862976",
+              "start": 432,
+              "username": "NousResearch"
+            },
+            {
+              "end": 529,
+              "id": "1106616565573844992",
+              "start": 519,
+              "username": "Tailscale"
+            },
+            {
+              "end": 754,
+              "id": "1714580962569588736",
+              "start": 742,
+              "username": "deepseek_ai"
+            },
+            {
+              "end": 1369,
+              "id": "44196397",
+              "start": 1360,
+              "username": "elonmusk"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "platform.deepseek.com",
+              "end": 784,
+              "expanded_url": "http://platform.deepseek.com",
+              "start": 761,
+              "url": "https://t.co/vfxhMIrOQ8"
+            }
+          ]
+        },
+        "text": "My grokbot is my most trusted companion across all my devices. \n@grok @bot \n\nI’ve been a super heavy user from the first week of grokbot release.\nI was going over usage and paying hundreds in credits to get thru the week.\n\nThe best solution I have found - \n\n1. Tell your grokbot to detail all the routines across all the bots you have in the app. There will usually be some old shit suckin up usage. \n\n2. Tell your grokbot to Go to @NousResearch and download Hermes onto your computer. I keep my Mac mini headless with @Tailscale and Jump to access my mini from my phone or iPad or anywhere. My mini stays on - Grokbot has access to Hermes and can run it 24/7. \n\n3. Tell your Grokbot you need API keys to set up providers inside of Hermes. \n\n@deepseek_ai go to https://t.co/vfxhMIrOQ8. \n\nI also use xai, meta, Gemini, openai, Claude or whatever floats your scrot. \n\n4. Tell your grokbot “I need to limit your usage to 14% per day to make it thru the week. I don’t want you to do any coding or anything you don’t need to do - use Hermes with (insert api) to complete the bulk of your work. \n\nThis has saved me on going over my grokbot usage. As a super heavy user I have not even noticed the overage problem because I found a solution that has worked for me since the beginning. \n\nHope this helps someone dealing with the grokbot “rug pull”. Fuck it as long as @elonmusk is winning - I’ll happily pay :)"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 7,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "text": "My grokbot is my most trusted companion across all my devices. \n@grok @bot \n\nI’ve been a super heavy user from the first week of grokbot release.\nI was going over usage and paying hundreds in credits to get thru the week.\n\nThe best solution I have found - \n\n1. Tell your grokbot",
+      "url": "https://x.com/moneymegamind/status/2118485112937480475"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118484822368940032"
+        ]
+      },
+      "author_id": "461896208",
+      "created_at": "2026-11-05T23:25:19.000Z",
+      "edit_history_tweet_ids": [
+        "2118484835849351558"
+      ],
+      "id": "2118484835849351558",
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 2761,
+              "start": 2758,
+              "tag": "AI"
+            },
+            {
+              "end": 2767,
+              "start": 2762,
+              "tag": "Grok"
+            },
+            {
+              "end": 2772,
+              "start": 2768,
+              "tag": "xAI"
+            },
+            {
+              "end": 2782,
+              "start": 2773,
+              "tag": "AIagents"
+            }
+          ]
+        },
+        "text": "Grok is getting smarter. But there's a problem: the more capable AI becomes, the more expensive it can be to run.\n\nThe latest developments around xAI reveal an interesting tension between AI capabilities, infrastructure costs and real-world adoption.\n\nHere's what's happening.\n\n1. The cost of running AI agents\n\nOn November 1, Elon Musk acknowledged that the cost of serving Grok Bot had become \"unsustainably high relative to revenue.\"\n\nThis came after users reported exhausting their weekly usage allowances earlier than expected.\n\nWhy does this matter?\n\nUnlike traditional chatbots, AI agents can perform multi-step tasks across websites and applications. More complex tasks require more computing resources.\n\nThe challenge isn't just building a capable AI agent. It's making that capability financially sustainable at scale.\n\n2. Grok is moving beyond conversations\n\nOne of the most interesting developments is Grok Bot's new phone-calling capability.\n\nUsers can ask it to contact a person or business, make a request, handle the conversation and provide a summary afterwards.\n\nA recent demonstration showed Grok calling an internet provider to cancel a subscription, navigating the conversation and reporting the outcome to the user.\n\nThis is a significant shift: AI is moving from generating responses to carrying out tasks in the physical world.\n\n3. AI is entering the voice-agent space\n\nGrok's calling capability also highlights the growing importance of voice-based AI agents.\n\nInstead of typing instructions and waiting for answers, users can delegate conversations and everyday tasks.\n\nFor businesses, this opens up possibilities in customer support, appointment handling and routine enquiries.\n\nBut reliability, consent and transparency will matter just as much as the technology itself.\n\n4. Grok is becoming more integrated into Tesla\n\nAnother interesting development appeared in Tesla's 2026.38.6 software update.\n\nThe update removed the Beta label from Grok's interface in supported Tesla vehicles.\n\nIt's another sign of how AI assistants are expanding beyond standalone chat applications and becoming part of everyday software and hardware experiences.\n\nThe bigger picture\n\nGrok's latest developments point towards three important shifts:\n\n→ AI assistants are becoming autonomous agents.\n→ Voice interactions are becoming a practical interface for AI.\n→ Compute costs and profitability are becoming major challenges as AI usage grows.\n\nThe next phase of AI won't be judged only by how intelligently a model responds.\n\nIt will also be judged by what it can actually accomplish, how reliably it does it, and whether the economics make sense.\n\nThe real question is no longer just how capable AI can become. It's how sustainably we can scale it.\n\n#AI #Grok #xAI #AIagents"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 25,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "Grok is getting smarter. But there's a problem: the more capable AI becomes, the more expensive it can be to run.\n\nThe latest developments around xAI reveal an interesting tension between AI capabilities, infrastructure costs and real-world adoption.\n\nHere's what's happening.\n\n1. https://t.co/3Z4zaGpbJr",
+      "url": "https://x.com/dipakkr_/status/2118484835849351558"
+    },
+    {
+      "author_id": "1832799051198197760",
+      "created_at": "2026-11-05T23:19:32.000Z",
+      "edit_history_tweet_ids": [
+        "2118483381742686584"
+      ],
+      "id": "2118483381742686584",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 23,
+              "id": "2085838061347217408",
+              "start": 19,
+              "username": "Bot"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "x.ai/bot/qRsgtTXmoG…",
+              "end": 344,
+              "expanded_url": "https://x.ai/bot/qRsgtTXmoG9YS_U7gnTrc",
+              "start": 321,
+              "url": "https://t.co/rLGOBwPsYS"
+            }
+          ]
+        },
+        "text": "This is my special @Bot I built for Grok Bot so used bots can reincarnate — keeping the best parts while freeing up context. I made it on the wave of the growing Grok Bot usage limit problems. There seems to be some savings already. And of course it would be cool if my bot turns out useful and I get a limit reset :-XD\n\nhttps://t.co/rLGOBwPsYS"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 7,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "This is my special @Bot I built for Grok Bot so used bots can reincarnate — keeping the best parts while freeing up context. I made it on the wave of the growing Grok Bot usage limit problems. There seems to be some savings already. And of course it would be cool if my bot turns",
+      "url": "https://x.com/Mitroshenkov87/status/2118483381742686584"
+    },
+    {
+      "article": {
+        "title": "The System Is Glitching"
+      },
+      "author_id": "1935161029538791424",
+      "created_at": "2026-11-05T23:18:49.000Z",
+      "edit_history_tweet_ids": [
+        "2118483203597934953"
+      ],
+      "id": "2118483203597934953",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 270,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "https://t.co/3rdrL8Msp5",
+      "url": "https://x.com/signaloftheeye/status/2118483203597934953"
+    },
+    {
+      "author_id": "17975075",
+      "created_at": "2026-11-05T23:11:11.000Z",
+      "edit_history_tweet_ids": [
+        "2118481280102998398"
+      ],
+      "id": "2118481280102998398",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 64,
+              "id": "2085838061347217408",
+              "start": 60,
+              "username": "bot"
+            }
+          ]
+        },
+        "text": "Everyone seems to post those prompts that somehow will make @bot work more efficiently. You put that prompt in; it goes and burns some tokens that you don't have, and comes up with a very plausible explanation and a fix. Then it happily goes back to wasting your tokens. No matter how many times you ask. If you are coding and running out of your weekly allowance in 2 days, just go back to the old routine and run your chat in Cursor. Yes, I know it sucks, but there you can manage models, select lesser effort level, context window, start new chats, and compact your conversation. Everything that Grok Bot does, but in a very expensive way"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 9,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Everyone seems to post those prompts that somehow will make @bot work more efficiently. You put that prompt in; it goes and burns some tokens that you don't have, and comes up with a very plausible explanation and a fix. Then it happily goes back to wasting your tokens. No matter",
+      "url": "https://x.com/bostone/status/2118481280102998398"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118480931132428288"
+        ]
+      },
+      "author_id": "2069223542906900480",
+      "created_at": "2026-11-05T23:09:56.000Z",
+      "edit_history_tweet_ids": [
+        "2118480965937099242"
+      ],
+      "id": "2118480965937099242",
+      "note_tweet": {
+        "text": "I AM BEGGING YOU\n\n-set up 30 Twitter accounts\n-go to GrokBot, get it to find the most viral angles in your competitors’ niches across Twitter and LinkedIn\n-feed all those angles into Claude\n-hit 5M+ impressions across all accounts in 17 days\n-start sending 50 DMs per account to leads, 1,500 per day\n-send 45,000 DMs, get 4,500 interested leads\n-book 337 calls from outbound, 50 to 60 from inbound content\nthat’s 390+ total calls in a single month\nclose 109 clients on a $5k offer\n$345,000 collected\n\nnot that hard lol"
+      },
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 9,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "I AM BEGGING YOU\n\n-set up 30 Twitter accounts\n-go to GrokBot, get it to find the most viral angles in your competitors’ niches across Twitter and LinkedIn\n-feed all those angles into Claude\n-hit 5M+ impressions across all accounts in 17 days\n-start sending 50 DMs per account to https://t.co/PL7iFK82Y1 https://t.co/itPrcaPnjt",
+      "url": "https://x.com/Dre_Ghost_/status/2118480965937099242"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118480839403257856"
+        ]
+      },
+      "author_id": "254940155",
+      "created_at": "2026-11-05T23:09:28.000Z",
+      "edit_history_tweet_ids": [
+        "2118480850434334798"
+      ],
+      "id": "2118480850434334798",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 170,
+              "id": "2113815042940719104",
+              "start": 157,
+              "username": "AndysChiefOS"
+            }
+          ]
+        },
+        "text": "I mean it’s starting companies, websites, built out a flawless SOP for my team at work. It’s consolidated and cleaned up so much data…It has its own socials @AndysChiefOS. One great example, is for my daughters 21st, my travel agent bot found the best deals on the stuff we wanted and sent links then about 2 weeks later when we were ready to book, it had the vault, all the websites logged in etc. I just said book it. It booked everything for us and sent all 6 of us an itinerary via email. Yesterday it trained a new team member via role play and ran through 5 scenarios, didn’t have to explain anything it just knows what I need what I want. Helps I’ve been using grok since day1 and grok bot since day1"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@DaChiRex I mean it’s starting companies, websites, built out a flawless SOP for my team at work. It’s consolidated and cleaned up so much data…It has its own socials @AndysChiefOS. One great example, is for my daughters 21st, my travel agent bot found the best deals on the stuff we https://t.co/UPFWd0wdCU",
+      "url": "https://x.com/AndyBraun520/status/2118480850434334798"
+    },
+    {
+      "author_id": "1480868063981539328",
+      "created_at": "2026-11-05T23:09:27.000Z",
+      "edit_history_tweet_ids": [
+        "2118480843744190821"
+      ],
+      "id": "2118480843744190821",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 6,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@only__violet @bot Do u have a guide or some suggestion to set up grok bot ?",
+      "url": "https://x.com/Nutella_Thief/status/2118480843744190821"
+    },
+    {
+      "author_id": "1689450210567610370",
+      "created_at": "2026-11-05T23:09:13.000Z",
+      "edit_history_tweet_ids": [
+        "2118480784692498693"
+      ],
+      "id": "2118480784692498693",
+      "note_tweet": {
+        "text": "Ok, I did the same thing basically. I have moved some tasks to a LLM through a gaming PC I used to use. I basically had Grok help me set it up for routine tasks to automate that are not that heavy on brainpower. \n\nYou would need a decent GPU like at least an RTX5060ti (16gig vram variant). Those you can catch on sale on Walmart online for $580 when they are in stock. You can run 14b models locally and even set up a telegram bot to talk to it and direct it, stuff like that. \n\nThat’s helps offload some of my use and keep Grok Bot as my heavy hitters when I need them."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 19,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@HeidiBriones Ok, I did the same thing basically. I have moved some tasks to a LLM through a gaming PC I used to use. I basically had Grok help me set it up for routine tasks to automate that are not that heavy on brainpower. \n\nYou would need a decent GPU like at least an RTX5060ti (16gig vram",
+      "url": "https://x.com/RufusTheCore/status/2118480784692498693"
+    },
+    {
+      "author_id": "2098280683752050688",
+      "created_at": "2026-11-05T23:05:06.000Z",
+      "edit_history_tweet_ids": [
+        "2118479750394237427"
+      ],
+      "id": "2118479750394237427",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 8,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "A baby due in December. A business that can't stop.\n\n@andyautomates built an AI team in Grok Bot: inbox, clients, finances and content each get an assistant, and a chief of staff sends him one daily summary.\n\nHe just approves. 👇 https://t.co/sRSld64Byq",
+      "url": "https://x.com/agentsplaybook/status/2118479750394237427"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118479555405230080"
+        ]
+      },
+      "author_id": "1813378577166979072",
+      "created_at": "2026-11-05T23:04:20.000Z",
+      "edit_history_tweet_ids": [
+        "2118479558571970912"
+      ],
+      "id": "2118479558571970912",
+      "note_tweet": {
+        "entities": {
+          "hashtags": [
+            {
+              "end": 463,
+              "start": 456,
+              "tag": "SpaceX"
+            },
+            {
+              "end": 951,
+              "start": 947,
+              "tag": "xAI"
+            },
+            {
+              "end": 1459,
+              "start": 1453,
+              "tag": "Tesla"
+            }
+          ]
+        },
+        "text": "👽Today in Elon Musk’s companies:\n\n🔘 SpaceX has selected Qualcomm to build the ground network for Starlink Mobile. Under a multi-year agreement announced Nov 4, Qualcomm will supply the cell-site equipment that carries phone signals, working alongside Starlink satellites that connect directly to standard handsets. In practice, the service combines satellite coverage in rural areas with conventional towers in cities, with a US launch targeted for 2027.\n\n#SpaceX\n\n🔘 xAI's Grok Bot is now available to all users for placing phone calls on their behalf. The assistant dials US numbers, navigates automated menus, negotiates terms and requests user approval before accepting them, and is required to disclose that it is a virtual assistant and that calls may be recorded. As a result, routine service calls can be handled without direct user involvement, although some businesses decline bot-initiated calls and usage counts against weekly limits.\n\n#xAI\n\n🔘 Tesla has begun testing its driverless Cybercab, which has no steering wheel or pedals, in the Detroit metropolitan area. The fleet arrived in late October and is being evaluated in Michigan winter conditions, joining Waymo vehicles already operating there; Tesla is not yet offering public rides, and the testing follows a federal investigation into its earlier Austin rollout. In practice, cold-weather operation is a remaining check before such vehicles can be considered for wider deployment.\n\n#Tesla"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 11,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "👽Today in Elon Musk’s companies:\n\n🔘 SpaceX has selected Qualcomm to build the ground network for Starlink Mobile. Under a multi-year agreement announced Nov 4, Qualcomm will supply the cell-site equipment that carries phone signals, working alongside Starlink satellites that https://t.co/P1DIV30FGe",
+      "url": "https://x.com/Toshogu/status/2118479558571970912"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118478570712436736"
+        ]
+      },
+      "author_id": "2107525300804308992",
+      "created_at": "2026-11-05T23:00:54.000Z",
+      "edit_history_tweet_ids": [
+        "2118478694306202100"
+      ],
+      "id": "2118478694306202100",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Give your first bot ONE job.\n\nSomeone talks to Grok Bot for two minutes and walks away with a bot that pulls bug reports every Monday. A barber built one that books his cuts.\n\nWhat one job would you hand over? #NotAnAIExpert #GrokBot https://t.co/l6cpeZSbwt",
+      "url": "https://x.com/NOT_a_AI_Expert/status/2118478694306202100"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118478182458281984"
+        ]
+      },
+      "author_id": "2107525300804308992",
+      "created_at": "2026-11-05T22:59:44.000Z",
+      "edit_history_tweet_ids": [
+        "2118478401002492281"
+      ],
+      "id": "2118478401002492281",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 3,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "My feed is full of the same story: people liked Muse, tried Grok Bot, and never went back. One built a bot that writes contracts. Another runs three businesses off it. Which AI would you pick to help run your business? #GrokBot #NotAnAIExpert https://t.co/ZHTrcsmPdO",
+      "url": "https://x.com/NOT_a_AI_Expert/status/2118478401002492281"
+    },
+    {
+      "author_id": "731059057",
+      "created_at": "2026-11-05T22:55:10.000Z",
+      "edit_history_tweet_ids": [
+        "2118477248164499762"
+      ],
+      "id": "2118477248164499762",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 5,
+              "id": "1720665183188922368",
+              "start": 0,
+              "username": "grok"
+            },
+            {
+              "end": 10,
+              "id": "2085838061347217408",
+              "start": 6,
+              "username": "bot"
+            }
+          ]
+        },
+        "text": "@grok @bot Gemini says this about your response.  Is this true?  Is it Circular Reasoning and Missing the Point (Ignoratio Elenchi)?\n\nThe response in \"image_2b4def.png\" demonstrates a combination of **Circular Reasoning** and **Missing the Point** (Ignoratio Elenchi). The user explicitly asks why the web setups are configured that way. Instead of providing the design rationale, Grok describes the mechanical outcome of the configuration (web clients omit the settings panel, so staff must push server-side fixes) as the explanation for the configuration itself. It essentially answers \"it is configured this way because it is built this way.\"\n\nHere are the most likely reasons the AI did not directly answer the question:\n\n* **Lack of Internal Context:** The AI likely does not have access to the proprietary engineering decisions, security protocols, or resource constraints that led the developers to omit the control panel from the web client.\n* **Misinterpretation of Intent:** The bot parsed the query as a functional troubleshooting question (\"Why is my web-setup broken/requiring staff?\") rather than an architectural one, prompting it to explain the technical limitation.\n* **Support Guardrails:** Customer service AI agents are generally prompted to avoid debating product design and instead route users toward practical resolutions, which it does by confirming the \"escalated ticket remains the correct channel\"."
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "text": "@grok @bot @grok @bot Gemini says this about your response.  Is this true?  Is it Circular Reasoning and Missing the Point (Ignoratio Elenchi)?\n\nThe response in \"image_2b4def.png\" demonstrates a combination of **Circular Reasoning** and **Missing the Point** (Ignoratio Elenchi). The user",
+      "url": "https://x.com/JohnnyVickery/status/2118477248164499762"
+    },
+    {
+      "author_id": "1265374868444454912",
+      "created_at": "2026-11-05T22:52:55.000Z",
+      "edit_history_tweet_ids": [
+        "2118476683925967304"
+      ],
+      "id": "2118476683925967304",
+      "note_tweet": {
+        "text": "I built a skill (for claude, codex, grok bot, etc) to create a 3b1b-like animation for any paper / repo / topic that you want. \n\nThe animations are created with Academa's manimgx, and the voice with Liquid AI's LFM3-audio. You can really one-shot pretty good videos :)\n\nI have used it to understand papers, interview prep, understand codebases, etc and thought I would just share it (first reply)\n\nIt is 100% open source, feel free to modify it to your needs and learn!!"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 31,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "text": "I built a skill (for claude, codex, grok bot, etc) to create a 3b1b-like animation for any paper / repo / topic that you want. \n\nThe animations are created with Academa's manimgx, and the voice with Liquid AI's LFM3-audio. You can really one-shot pretty good videos :)\n\nI have",
+      "url": "https://x.com/manoletre/status/2118476683925967304"
+    },
+    {
+      "author_id": "1008547911045541890",
+      "created_at": "2026-11-05T22:52:23.000Z",
+      "edit_history_tweet_ids": [
+        "2118476550727454858"
+      ],
+      "id": "2118476550727454858",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 8,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Last month I built an accounting team on Grok Bot.\n\nIt opens our billing tools, makes invoices, attaches them, and drafts the emails.\n\nI just review and hit send. Zero typing.\n\nIt saved the whole flow as a skill, so billing should nearly vanish from this month-end.\n\n#GrokBot",
+      "url": "https://x.com/VibeRush_Kenji/status/2118476550727454858"
+    },
+    {
+      "author_id": "1291813544",
+      "created_at": "2026-11-05T22:52:22.000Z",
+      "edit_history_tweet_ids": [
+        "2118476545748849079"
+      ],
+      "id": "2118476545748849079",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "@melvindvivas Visualizing Grok Bot usage is underrated. Seeing it is what made me cut my X routine from 4 runs a day to 2 this week",
+      "url": "https://x.com/livesanches/status/2118476545748849079"
+    },
+    {
+      "author_id": "2269980327",
+      "created_at": "2026-11-05T22:51:26.000Z",
+      "edit_history_tweet_ids": [
+        "2118476311643734288"
+      ],
+      "id": "2118476311643734288",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 27,
+        "like_count": 2,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "text": "Grok @bot updates keep landing and my workflow keeps getting smoother.",
+      "url": "https://x.com/exyonX/status/2118476311643734288"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "3_2118484822368940032",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZeuMNbcAALzTR.jpg"
+      },
+      {
+        "media_key": "3_2118480931132428288",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZbLsOWUAAkqxH.jpg"
+      },
+      {
+        "media_key": "3_2118480839403257856",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZbGWgaQAATggk.jpg"
+      },
+      {
+        "media_key": "3_2118479555405230080",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZZ7nPbMAAB53R.jpg"
+      },
+      {
+        "media_key": "13_2118478570712436736",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118478570712436736/img/zAmY4onAwy_HAJcb.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "13_2118478182458281984",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118478182458281984/img/7ix9Z3QwAsbQmGig.jpg",
+        "type": "video"
+      }
+    ],
+    "users": [
+      {
+        "id": "2115347310083264512",
+        "name": "Chad McGonigal, CPA",
+        "username": "McGonigalAI"
+      },
+      {
+        "id": "1594819303",
+        "name": "Manuel Trujillo ",
+        "username": "MAtrujillo99"
+      },
+      {
+        "id": "1594179414753001472",
+        "name": "High Flyer",
+        "username": "PineFlyer"
+      },
+      {
+        "id": "2115934797717487616",
+        "name": "Heraldic Lab",
+        "username": "HeraldicLabs"
+      },
+      {
+        "id": "2874798076",
+        "name": "LifeSpark",
+        "username": "LifeSpark_net"
+      },
+      {
+        "id": "2089516765705383936",
+        "name": "MASTER EQT",
+        "username": "moneymegamind"
+      },
+      {
+        "id": "461896208",
+        "name": "Deepak",
+        "username": "dipakkr_"
+      },
+      {
+        "id": "1832799051198197760",
+        "name": "Aleksandr Mitroshenkov",
+        "username": "Mitroshenkov87"
+      },
+      {
+        "id": "1935161029538791424",
+        "name": "∞",
+        "username": "signaloftheeye"
+      },
+      {
+        "id": "17975075",
+        "name": "bostone",
+        "username": "bostone"
+      },
+      {
+        "id": "2069223542906900480",
+        "name": "Dre",
+        "username": "Dre_Ghost_"
+      },
+      {
+        "id": "254940155",
+        "name": "Andy Braun",
+        "username": "AndyBraun520"
+      },
+      {
+        "id": "1480868063981539328",
+        "name": "Nutella_Thief",
+        "username": "Nutella_Thief"
+      },
+      {
+        "id": "1689450210567610370",
+        "name": "JackTractive",
+        "username": "RufusTheCore"
+      },
+      {
+        "id": "2098280683752050688",
+        "name": "Agents-PlayBook 📖",
+        "username": "agentsplaybook"
+      },
+      {
+        "id": "1813378577166979072",
+        "name": "Toshogu | AI",
+        "username": "Toshogu"
+      },
+      {
+        "id": "2107525300804308992",
+        "name": "NOT an AI Expert",
+        "username": "NOT_a_AI_Expert"
+      },
+      {
+        "id": "731059057",
+        "name": "Vickery Machine Logic, LLC",
+        "username": "JohnnyVickery"
+      },
+      {
+        "id": "1265374868444454912",
+        "name": "Manuel Cardenas",
+        "username": "manoletre"
+      },
+      {
+        "id": "1008547911045541890",
+        "name": "Kenji Natsumoto",
+        "username": "VibeRush_Kenji"
+      },
+      {
+        "id": "1291813544",
+        "name": "Felipe Sanches",
+        "username": "livesanches"
+      },
+      {
+        "id": "2269980327",
+        "name": "Exy",
+        "username": "exyonX"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2118486412647420079",
+    "next_token": "b26v89c19zqg8o3juzlyxj8pt6yazbk2ys5vaq71g27p9",
+    "oldest_id": "2118476311643734288",
+    "result_count": 25
+  }
+}
