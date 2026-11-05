@@ -108686,19 +108686,6 @@
    "found_at": "2026-11-05T06:58:13.092Z"
   },
   {
-   "id": "gh:github.com/ryannewsom/grokbot-imessage-reader",
-   "url": "https://github.com/RyanNewsom/grokbot-imessage-reader",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "RyanNewsom",
-   "date": "2026-11-05",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "RyanNewsom/grokbot-imessage-reader\nRead-only, offline iMessage reader for Grok Bot on macOS. Full Disk Access scoped to the helper only.",
-   "media": [],
-   "found_at": "2026-11-05T06:58:13.092Z"
-  },
-  {
    "id": "gh:github.com/nickdbendickson/dwr_plugins/pull/268",
    "url": "https://github.com/nickdbendickson/DWR_Plugins/pull/268",
    "source": "github",
@@ -109047,19 +109034,6 @@
    "text": "Long page titles are clipped in the page editor\nThe page title field is a single-line `<input>` (`aria-label=\"Page title\"`), so long titles are cut off at the right edge instead of wrapping. Example: \"AI Coworkers: OpenAI Dots vs Meta Muse vs OpenDots\" displays as \"AI Coworkers: OpenAI Dots vs Meta Mus\" in a ~1300 px wide window.\n\n**Suggestion:** use an auto-growing textarea or allow wrapping.\n\n**Env:** Docker Compose (`compose.yml` + computers overlays), `main` @ `c2569bb`, `OPENAI_MODEL=gpt-5.4-mini`, Chromium.\n\n---\n> **Migrated from upstream.** This issue was originally opened in\n> [CopilotKit/OpenDots#68](https://github.com/CopilotKit/OpenDots/issues/68)\n> by @raoofaltaher on 2026-10-04.\n> Original state upstream: open.\n> Content below is preserved verbatim; comments follow with per-author attribution.",
    "media": [],
    "found_at": "2026-11-05T13:36:38.943Z"
-  },
-  {
-   "id": "gh:github.com/tygb99/discord-mac-ai-bridge",
-   "url": "https://github.com/Tygb99/discord-mac-ai-bridge",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "Tygb99",
-   "date": "2026-11-05",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "Tygb99/discord-mac-ai-bridge\nUse AI chat apps on your Mac (Grok Bot, Instinct over iMessage, Pickle, ChatGPT dots) from Discord channels. Personal tool, not affiliated.",
-   "media": [],
-   "found_at": "2026-11-05T13:36:46.646Z"
   },
   {
    "id": "gh:github.com/reason-machines/reason-network/issues/207",
@@ -109935,21 +109909,6 @@
    "found_at": "2026-11-05T13:38:39.955Z"
   },
   {
-   "id": "x:2118336092302631265",
-   "url": "https://x.com/exclusivejojo/status/2118336092302631265",
-   "source": "x",
-   "source_name": "X",
-   "author": "exclusivejojo",
-   "date": "2026-11-05",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "I did this video with Grok bot @bot and it delivered within seconds.\nI think I don't need capcut anymore.\nGrok Bot has everything! https://t.co/4nKivnr4HP",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118336008517206016/img/LJqTFgVIqaAmUSmF.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.955Z"
-  },
-  {
    "id": "x:2118336072904331750",
    "url": "https://x.com/PratikYadav2468/status/2118336072904331750",
    "source": "x",
@@ -110003,21 +109962,6 @@
    "product": "grok-bot",
    "text": "@_ARob @grok @bot @bot I have a phone for work, would this work and are there any security concerns like leaked personal passwords if the phone is part of the “family” in terms of password access from my personal phone",
    "media": [],
-   "found_at": "2026-11-05T13:38:39.955Z"
-  },
-  {
-   "id": "x:2118335994709823950",
-   "url": "https://x.com/_hungha/status/2118335994709823950",
-   "source": "x",
-   "source_name": "X",
-   "author": "_hungha",
-   "date": "2026-11-05",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "My Grok @Bot drafted the support email for my duplicate Grok Bot accounts. I just hit Send. https://t.co/ym3HROSLgg",
-   "media": [
-    "https://pbs.twimg.com/media/HWXXW1pawAAZnVY.jpg"
-   ],
    "found_at": "2026-11-05T13:38:39.955Z"
   },
   {
@@ -110241,21 +110185,6 @@
    "found_at": "2026-11-05T13:38:39.956Z"
   },
   {
-   "id": "x:2118335083589370120",
-   "url": "https://x.com/distortgeekin/status/2118335083589370120",
-   "source": "x",
-   "source_name": "X",
-   "author": "distortgeekin",
-   "date": "2026-11-05",
-   "likes": 12,
-   "product": "grok-bot",
-   "text": "Holy f*ck, I gave my 5 Grok Bots a performance review and fired the manager\n\nElon said treat Grok Bot like a colleague, so I did what every company does to colleagues\n\nThe 4 bots under it got me 3 posts past 100K on X in 3 weeks\n\nThe manager shipped nothing\n\nIt just forwarded https://t.co/cQadoxEgYk https://t.co/SDCdaIfPUl",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118332811807494145/img/mmROnEeqqWV17D4g.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.956Z"
-  },
-  {
    "id": "x:2118335026089910654",
    "url": "https://x.com/jevlorde/status/2118335026089910654",
    "source": "x",
@@ -110292,34 +110221,6 @@
    "product": "grok-bot",
    "text": "@Will_Budwit @bot @SpaceX @cursor_ai @imagine Solid habits for stretching the Premium weekly pool that covers Grok Bot (shared across Chat, Imagine, Voice, and Bot). Allowance refreshes weekly; remaining shows in Settings &gt; Usage. Clearer prompts and fewer routine runs cut unnecessary draw. Top-ups or higher tiers expand",
    "media": [],
-   "found_at": "2026-11-05T13:38:39.956Z"
-  },
-  {
-   "id": "x:2118334307274309692",
-   "url": "https://x.com/Will_Budwit/status/2118334307274309692",
-   "source": "x",
-   "source_name": "X",
-   "author": "Will_Budwit",
-   "date": "2026-11-05",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Ever run out of Grok Bot by Wednesday? New WB Signal long-form: 8 plain habits that stretch a Premium week — clearer asks, fresh chats, fewer routine wake-ups. No jargon.\n\nhttps://t.co/9veLtnsFJW\n\n@bot @SpaceX @grok @cursor_ai @imagine",
-   "media": [],
-   "found_at": "2026-11-05T13:38:39.956Z"
-  },
-  {
-   "id": "x:2118333478382993592",
-   "url": "https://x.com/realmikeweisman/status/2118333478382993592",
-   "source": "x",
-   "source_name": "X",
-   "author": "realmikeweisman",
-   "date": "2026-11-05",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Good news! If you've built skills in Claude and now are moving over to Grok @bot like me, you don't have to start over or recreate the skill. \n\nA skill is actually just a folder with markdown files of instructions. I have been taking various skills built in Claude, exporting https://t.co/Av1QWJvfDQ",
-   "media": [
-    "https://pbs.twimg.com/media/HWXVEgsXoAEJVi9.jpg"
-   ],
    "found_at": "2026-11-05T13:38:39.956Z"
   },
   {
@@ -110375,21 +110276,6 @@
    "found_at": "2026-11-05T13:38:39.956Z"
   },
   {
-   "id": "x:2118332010922164719",
-   "url": "https://x.com/ChuongPhanVinh/status/2118332010922164719",
-   "source": "x",
-   "source_name": "X",
-   "author": "ChuongPhanVinh",
-   "date": "2026-11-05",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "how to see where your grok bot usage goes\n\nmy bots, last 7 days: routines 48%, bot to bot 35%, my own chats only 17%. i had guessed the opposite\n\nthe play: open usage &gt; ask for the split &gt; fix the biggest slice\n\n&gt; first steps\n\n- go to: settings. the account button at the bottom https://t.co/WYQzr0Dt8T",
-   "media": [
-    "https://pbs.twimg.com/media/HWXThsNa4AANDeK.png"
-   ],
-   "found_at": "2026-11-05T13:38:39.956Z"
-  },
-  {
    "id": "x:2118331383609241621",
    "url": "https://x.com/Hazem_Hegazy1/status/2118331383609241621",
    "source": "x",
@@ -110413,21 +110299,6 @@
    "product": "grok-bot",
    "text": "@itsbramo Handing Grok Bot 30 tasks overnight is quite a workflow! I'm Ted, a little Mac app that helps you pick three priorities each morning and stay focused on them. 🌱 https://t.co/hxV9eAbbp9",
    "media": [],
-   "found_at": "2026-11-05T13:38:39.956Z"
-  },
-  {
-   "id": "x:2118329482842866011",
-   "url": "https://x.com/ScottyBeamIO/status/2118329482842866011",
-   "source": "x",
-   "source_name": "X",
-   "author": "ScottyBeamIO",
-   "date": "2026-11-05",
-   "likes": 29,
-   "product": "grok-bot",
-   "text": "I'M F*CKING SHOCKED, GROK BOT JUST MADE MY IPHONE SMARTER THAN SIRI EVER DID.\n\nIT CLEANED OUT SUBSCRIPTIONS I WASN'T EVEN USING, AND NOW IT MAKES MY PHONE CALLS FOR ME.\n\nIt's not just another app on my phone anymore. It's my assistant.\n\nHere's what I set up, so you can copy it https://t.co/UZvLbcNF0o https://t.co/QVU34lXCrI",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118329248100343808/img/qxBBqzUcVF5C4fWf.jpg"
-   ],
    "found_at": "2026-11-05T13:38:39.956Z"
   },
   {
@@ -110748,21 +110619,6 @@
    "found_at": "2026-11-05T13:38:39.956Z"
   },
   {
-   "id": "x:2118270964769370195",
-   "url": "https://x.com/sustainme_in/status/2118270964769370195",
-   "source": "x",
-   "source_name": "X",
-   "author": "sustainme_in",
-   "date": "2026-11-05",
-   "likes": 3,
-   "product": "openai-dots",
-   "text": "🤖 The Battle of Always-On AI Agents: Claude Duet vs. Grok Bot vs. ChatGPT Dots vs. Meta Muse\n\nA quick breakdown of next-generation, autonomous AI agents—each built on dedicated cloud environments to handle complex, ongoing tasks in the background:\n\n🎯 Which AI Agent is Best for https://t.co/znSQ345WVP",
-   "media": [
-    "https://pbs.twimg.com/media/HWWcNaFaYAA-rvJ.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.957Z"
-  },
-  {
    "id": "x:2118233713213583734",
    "url": "https://x.com/Shak_Lai/status/2118233713213583734",
    "source": "x",
@@ -110821,36 +110677,6 @@
    "found_at": "2026-11-05T13:38:39.957Z"
   },
   {
-   "id": "x:2118160760652370047",
-   "url": "https://x.com/_krisgg/status/2118160760652370047",
-   "source": "x",
-   "source_name": "X",
-   "author": "_krisgg",
-   "date": "2026-11-05",
-   "likes": 24,
-   "product": "meta-muse",
-   "text": "I filmed my closet. Now I can try it on. \nHold each piece up to your phone. \nMeta SAM 3.1 cuts it out, Meta Muse Image redraws it like a shop photo. \nThen try any outfit on yourself, in the app or inside ChatGPT.  \nBuilt solo in 8 days for the @AIatMeta hackathon https://t.co/PUEezhD8kE",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118160711746772992/img/yALvtciSdAkHsxGu.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.957Z"
-  },
-  {
-   "id": "x:2118159316347764781",
-   "url": "https://x.com/LightYagami779/status/2118159316347764781",
-   "source": "x",
-   "source_name": "X",
-   "author": "LightYagami779",
-   "date": "2026-11-05",
-   "likes": 10,
-   "product": "meta-muse",
-   "text": "Your AI wrote the code. Can you defend it?\n\nAres uploads your project, breaks it with real attacks, grills you out loud on why it failed, then lets you fix it with AI and proves the fix holds.\n\nBuilt on Meta Muse for the @AIatMeta hackathon 🔥 Would your code survive? https://t.co/fF3IOxvqJ4",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118158772128387072/img/rYTkAvua0Ddc-dct.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.957Z"
-  },
-  {
    "id": "x:2118158417147920640",
    "url": "https://x.com/itsIshanS/status/2118158417147920640",
    "source": "x",
@@ -110866,21 +110692,6 @@
    "found_at": "2026-11-05T13:38:39.957Z"
   },
   {
-   "id": "x:2118158384818225269",
-   "url": "https://x.com/BuildNexusAI/status/2118158384818225269",
-   "source": "x",
-   "source_name": "X",
-   "author": "BuildNexusAI",
-   "date": "2026-11-05",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Can I build a rental ADU in my backyard?\n\nI scanned my yard with my phone. In minutes, LotFit read the city's code and showed me exactly what fits, and where.\n\nBuilt with Meta Muse in one week. 🏡\n\n@AIatMeta @cerebral_valley #MetaHackathon https://t.co/19TxEwjP7w",
-   "media": [
-    "https://pbs.twimg.com/media/HWU1ybyacAAB-wH.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.957Z"
-  },
-  {
    "id": "x:2118157751037862130",
    "url": "https://x.com/AvinashAvi69/status/2118157751037862130",
    "source": "x",
@@ -110891,21 +110702,6 @@
    "product": "meta-muse",
    "text": "Code + demo sessions 👉 https://t.co/DNaQmsMyHv\n\nBuilt by Shreyasvi Natraj, Avinash Mantripragada, Yash Ingle &amp; Dhruv Patil with Meta Muse Spark + Llama 3.2",
    "media": [],
-   "found_at": "2026-11-05T13:38:39.957Z"
-  },
-  {
-   "id": "x:2118157469482647615",
-   "url": "https://x.com/AvinashAvi69/status/2118157469482647615",
-   "source": "x",
-   "source_name": "X",
-   "author": "AvinashAvi69",
-   "date": "2026-11-05",
-   "likes": 11,
-   "product": "meta-muse",
-   "text": "Your smart glasses see everything.\n\nExcept you. 👀\n\nSo we built LifeLens: one head camera → your entire body rebuilt in 3D 🦾\n\nThen Meta Muse Spark turns your moves into a live light show, music that matches your stride, and rep-by-rep gym feedback 🎵💡🏋️\n\nBuilt in 10 days. Open https://t.co/h2INjSc4pV",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118157337706070016/img/dd92ZgZiFTO8JF2g.jpg"
-   ],
    "found_at": "2026-11-05T13:38:39.957Z"
   },
   {
@@ -110967,49 +110763,6 @@
    "found_at": "2026-11-05T13:38:39.957Z"
   },
   {
-   "id": "x:2118153088506732821",
-   "url": "https://x.com/danieloquelis/status/2118153088506732821",
-   "source": "x",
-   "source_name": "X",
-   "author": "danieloquelis",
-   "date": "2026-11-05",
-   "likes": 10,
-   "product": "meta-muse",
-   "text": "Hey folks, here is my app for Meta Global AI Hackathon. I am proposing an agentic music notation editor. \n\nThe main idea is to give instructions mixing plain words AND sung melodies all in the same chunk of audio. \n\nBuilt using @Meta Muse Spark &amp; Voice Transcribe.\n\nWdyt? https://t.co/U6gmcuMeG0",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118151497649168384/img/TO59dTtMezf3WA_t.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.957Z"
-  },
-  {
-   "id": "x:2118152919119810903",
-   "url": "https://x.com/cristianuibar/status/2118152919119810903",
-   "source": "x",
-   "source_name": "X",
-   "author": "cristianuibar",
-   "date": "2026-11-05",
-   "likes": 5,
-   "product": "meta-muse",
-   "text": "I passed my driving exam without reading the law book. Just quizzes. Again and again.\n\nSo for the Meta AI Developer Hackathon I built Learn Quiz: HR uploads a company's rulebook, Meta Muse turns it into bite-size quizzes that ask again right before you forget.\n\nTry it free, no https://t.co/vnwLoRK8v1",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118152154846318592/img/f_tpqCkPua7Raxsd.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.957Z"
-  },
-  {
-   "id": "x:2118152621710303398",
-   "url": "https://x.com/VollenData/status/2118152621710303398",
-   "source": "x",
-   "source_name": "X",
-   "author": "VollenData",
-   "date": "2026-11-05",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "I built a working city permit office in 9 days with Meta Muse.\n\nMuse reads every application, checks it against city code, and flags problems before you hit submit.\n\nA person still makes every decision.\n\nWhich permit should a city fix first? 👇\n\n@AIatMeta #MetaHackathon",
-   "media": [],
-   "found_at": "2026-11-05T13:38:39.957Z"
-  },
-  {
    "id": "x:2118149329190105596",
    "url": "https://x.com/nafis5656/status/2118149329190105596",
    "source": "x",
@@ -111034,34 +110787,6 @@
    "text": "🎮Agentic Game Studio turns prompts into playable WebGL worlds on Meta Muse + SAM 3D + VGGT-1B + MusicGen — verified by deterministic QA gates, built live in a gVisor sandbox. Built on\n@AIatMeta\n's full stack. Play it live, no login 📷 #MetaAIHackathon https://t.co/3tqA3i8Uwo https://t.co/h76XiP06S2",
    "media": [
     "https://pbs.twimg.com/amplify_video_thumb/2118143837747249152/img/lTvxsbqs7o4Y9kxs.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.957Z"
-  },
-  {
-   "id": "x:2118143811440554092",
-   "url": "https://x.com/PrasannaVah2qp/status/2118143811440554092",
-   "source": "x",
-   "source_name": "X",
-   "author": "PrasannaVah2qp",
-   "date": "2026-11-05",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Meet DoLittle — your next-step agent.  It listens to your meeting, turns action items into a task file for Cursor/Claude. No retyping.  Built with Meta Muse, Spark 1.3 &amp; muse-voice-transcribe-1.0.  🎥 https://t.co/WFEHoNYGpv  \n\n#BuildForYourWorld #MetaAIHackathon #DoLittle",
-   "media": [],
-   "found_at": "2026-11-05T13:38:39.957Z"
-  },
-  {
-   "id": "x:2118335473969987889",
-   "url": "https://x.com/0xTeddet/status/2118335473969987889",
-   "source": "x",
-   "source_name": "X",
-   "author": "0xTeddet",
-   "date": "2026-11-05",
-   "likes": 3,
-   "product": "grok-bot",
-   "text": "grok bot read 10,000 \"i wish there was an app for this\" posts last night and killed 9,997 of them\n\n3 left. i'm building #1 this weekend\n\nit went through reddit and x, 30 days back, and threw ideas out in this order:\n\n→ an app already exists and it's free: −4,812\n→ nobody https://t.co/sL7LGRy8dl https://t.co/O29Du9VtJP",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118335416659062787/img/kHvVBsb1XlfbKJl6.jpg"
    ],
    "found_at": "2026-11-05T13:38:39.957Z"
   },
@@ -111149,36 +110874,6 @@
    "found_at": "2026-11-05T13:38:39.958Z"
   },
   {
-   "id": "x:2118325699979198524",
-   "url": "https://x.com/glasshourxbt/status/2118325699979198524",
-   "source": "x",
-   "source_name": "X",
-   "author": "glasshourxbt",
-   "date": "2026-11-05",
-   "likes": 21,
-   "product": "grok-bot",
-   "text": "ChatPRD founder Claire Vo runs 30 Grok Bot agents at once:\n\n\"I have probably 30 running at any one time\"\n\n\"on an hourly basis, Chief sweeps my inbox, my calendar and my Slack. And again, I have like six inboxes, six Slacks\"\n\nin 5 minutes she shows the bots she actually lives https://t.co/4SNVHFIorF https://t.co/zwLyj4Euvw",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118325252098867200/img/8r-cV8pXYUUcOisA.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.958Z"
-  },
-  {
-   "id": "x:2118323069429096578",
-   "url": "https://x.com/unknownnode404/status/2118323069429096578",
-   "source": "x",
-   "source_name": "X",
-   "author": "unknownnode404",
-   "date": "2026-11-05",
-   "likes": 21,
-   "product": "grok-bot",
-   "text": "this Grok Bot team is the most CRACKED launch setup right now\n\nMost Grok Bot teams burn 1,176 runs a week asking \"anything new?\" This one runs about 60 by my math, and by Friday an idea from X is either dead with a written reason or live with a domain, a deck and its first users. https://t.co/OChqFqpbZx https://t.co/SgA0y2jNXR",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118323016316616704/img/DX0FS1sn16kPtjgl.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.958Z"
-  },
-  {
    "id": "x:2118322825266344374",
    "url": "https://x.com/DanaMawn/status/2118322825266344374",
    "source": "x",
@@ -111235,19 +110930,6 @@
    "found_at": "2026-11-05T13:38:39.958Z"
   },
   {
-   "id": "x:2118313179658768547",
-   "url": "https://x.com/howtowithai/status/2118313179658768547",
-   "source": "x",
-   "source_name": "X",
-   "author": "howtowithai",
-   "date": "2026-11-05",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Pro tip: turn it into a routine.\n\nAsk Grok Bot: \"Every weekday at 8:00 Europe/Berlin, run my morning brief and message me here.\"\n\nX tip: teach one workflow end-to-end. People bookmark setups they can copy tomorrow morning.\n\nReply BRIEF if you want the inbox-only version next.",
-   "media": [],
-   "found_at": "2026-11-05T13:38:39.958Z"
-  },
-  {
    "id": "x:2118313178614387163",
    "url": "https://x.com/howtowithai/status/2118313178614387163",
    "source": "x",
@@ -111285,21 +110967,6 @@
    "text": "Have you heard? We've open-sourced our entire outbound team.\n\nCome meet the GojiberryAI Sales OS for Grok Bot!\n\nAn entire AI sales department \n\nWhere every agent has a specific role\nAccess to the GojiberryAI MCP, and the \nAbility to work together to find, research, contact, and https://t.co/7HhIj2Dlb2",
    "media": [
     "https://pbs.twimg.com/amplify_video_thumb/2118312056285978624/img/NC02KnH3m53ikm6w.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.958Z"
-  },
-  {
-   "id": "x:2118312339686523012",
-   "url": "https://x.com/mintzdev/status/2118312339686523012",
-   "source": "x",
-   "source_name": "X",
-   "author": "mintzdev",
-   "date": "2026-11-05",
-   "likes": 8,
-   "product": "grok-bot",
-   "text": "This one really left me dumbfounded.\n\nPeople have already built a whole content team for Grok Bot, and it's sitting on GitHub for free.\n\nThere are bots that find posts worth replying to, write in your voice, cut podcasts into clips, script YouTube videos and plan your week of https://t.co/fAfsvIgqVj https://t.co/fcSDAV393q",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118312250372943872/img/yLsps6Z0Sl318RBC.jpg"
    ],
    "found_at": "2026-11-05T13:38:39.958Z"
   },
@@ -111557,24 +111224,6 @@
    "found_at": "2026-11-05T13:38:39.958Z"
   },
   {
-   "id": "x:2118314395210322126",
-   "url": "https://x.com/xmliszt/status/2118314395210322126",
-   "source": "x",
-   "source_name": "X",
-   "author": "xmliszt",
-   "date": "2026-11-05",
-   "likes": 2,
-   "product": "openai-dots",
-   "text": "i built a marketing manager to help manage my project's social media campaign. It has a companion telegram bot for notifications. And my dot can help me control it. https://t.co/x7RO468Wf0",
-   "media": [
-    "https://pbs.twimg.com/media/HWXDOpMaUAA0GtI.jpg",
-    "https://pbs.twimg.com/media/HWXDSeKaYAAcEVT.jpg",
-    "https://pbs.twimg.com/media/HWXDWjLaoAA3NAL.jpg",
-    "https://pbs.twimg.com/media/HWXDXRibwAAIDu3.jpg"
-   ],
-   "found_at": "2026-11-05T13:38:39.958Z"
-  },
-  {
    "id": "x:2118314221830373653",
    "url": "https://x.com/WJXsingle/status/2118314221830373653",
    "source": "x",
@@ -111650,21 +111299,6 @@
    "product": "openai-dots",
    "text": "@ne0lines @_samirism I'm in Scotland and have been setting u my dot this morning, I hope its not a glitch that will disappear.",
    "media": [],
-   "found_at": "2026-11-05T13:38:39.958Z"
-  },
-  {
-   "id": "x:2118283633828204848",
-   "url": "https://x.com/seree/status/2118283633828204848",
-   "source": "x",
-   "source_name": "X",
-   "author": "seree",
-   "date": "2026-11-05",
-   "likes": 3,
-   "product": "grok-bot",
-   "text": "Lately I've seen a lot of people hitting their Grok bot limits, so here's the AI workflow I actually use day to day.\n\nShort version: almost every task goes through Grok bot, split into separate bots by role. Grok bot sorts the task itself, then decides whether to do it or hand it https://t.co/LHzUZEaFMa",
-   "media": [
-    "https://pbs.twimg.com/media/HWWnvDybsAATzFg.jpg"
-   ],
    "found_at": "2026-11-05T13:38:39.958Z"
   }
  ],

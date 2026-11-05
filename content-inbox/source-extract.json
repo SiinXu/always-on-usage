@@ -9502,5 +9502,36 @@
   ],
   "kind": "github",
   "fetched_at": "2026-11-03"
+ },
+ "https://github.com/Tygb99/discord-mac-ai-bridge": {
+  "text": "한국어",
+  "media": [],
+  "outline": [
+   "gateway.ts keeps a Discord gateway connection and appends your messages from the bridge channels (and their threads) to inbox.jsonl.",
+   "bridge.ts reads the inbox every 3 seconds, sends each message to the right app, and polls the apps for replies.",
+   "bridge.ts --keeper runs every minute from a LaunchAgent. If the bridge heartbeat is older than 90 seconds it reopens the bridge in a herdr tab.",
+   "helpers/pickle-bg.ts (optional) sends to Pickle and fetches attachments fully in the background, through the OmO desktop engine that OmO's computer-use tool …",
+   "helpers/pickle-send types into Pickle. Pickle ignores background key events and AX value setting, so the helper waits until you have not touched the keyboard…",
+   "helpers/pickle-fetch gets an attachment that arrived from another device. It clicks the attachment bubble so the Pickle app downloads it itself. The bridge n…",
+   "macOS on Apple silicon (Pickle is an iOS app running on the Mac). Developed and used on a recent macOS release."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-05"
+ },
+ "https://github.com/RyanNewsom/grokbot-imessage-reader": {
+  "text": "A small, read-only tool that lets Grok Bot (or you) read your Mac’s iMessage history without granting Full Disk Access to Terminal.",
+  "media": [],
+  "outline": [
+   "Read recent conversations, search message text, or dump one thread",
+   "Cover all contacts, except chats you put on your blocklist",
+   "Show contact names next to phone numbers and emails (from your Mac's Contacts, read-only)",
+   "Print JSON to stdout",
+   "Send, delete, or edit messages (this helper only reads)",
+   "Edit your contacts or your blocklist",
+   "Talk to the network",
+   "Run in the background (it only runs when you or Grok Bot call imsg-read)"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-05"
  }
 }
