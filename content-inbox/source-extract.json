@@ -9533,5 +9533,67 @@
   ],
   "kind": "github",
   "fetched_at": "2026-11-05"
+ },
+ "https://github.com/Richb2021/mosaic": {
+  "text": "Mosaic turns a teacher's reviewed learning material into games, stories, cartoons, podcasts and practice. Each one is personalised to the learner's interests and age, and every fact can be traced back to a reviewed source.",
+  "media": [],
+  "outline": [
+   "Live app: https://mosaic.richardbatt.com",
+   "Game library (no sign-in needed): https://mosaic.richardbatt.com/modes.html",
+   "3D RPG, Lanternbound: https://mosaic.richardbatt.com/rpg.html",
+   "Add your own material (notes, a PDF, Word, slides or a web page) and review it. Mosaic generates only from passages you've reviewed, and every activity cites…",
+   "Turn a course goal into a route of objectives, then prepare an activity for each one in any format below.",
+   "Nothing reaches learners until a person approves it.",
+   "Create classes, invite pupils, and assign courses or chapters.",
+   "See scores on the games you assigned (right first time, help used, retries), plus an inbox of work and help requests and a CSV export."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-05"
+ },
+ "https://github.com/belliedmonkey/grok-bot-usage-optimizer": {
+  "kind": "github",
+  "missing": "readme",
+  "fetched_at": "2026-11-05"
+ },
+ "https://github.com/hongkongkiwi/grokbot-control": {
+  "text": "**Let any AI manage your GrokBot.**",
+  "media": [],
+  "outline": [
+   "JSON-RPC 2.0. Stdio is newline-delimited. Streamable HTTP accepts a",
+   "Negotiates 2024-11-05, 2025-03-26, and 2025-06-18; unknown client",
+   "Methods: initialize, ping, tools/list, tools/call,",
+   "Errors: -32700 parse, -32601 unknown method, -32602 bad",
+   "Stdout carries protocol only — all logs go to stderr.",
+   "Blocked topics: bot_safety_update with blocked_topics makes chat",
+   "HTTP auth: set --auth-token before binding beyond localhost. Stdio",
+   "Destructive tools are explicit: state_import replaces everything,"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-05"
+ },
+ "https://github.com/aritosi/grokbot-meme": {
+  "text": "grokbot-meme",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/aritosi/grokbot-meme/HEAD/docs/demo.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/aritosi/grokbot-meme/HEAD/docs/gallery.png"
+   }
+  ],
+  "outline": [
+   "省 token：选图、限频、去重、情绪状态全在脚本里，模型不参与决策，也不调用任何模型 API。",
+   "零运行依赖：标准库 Python 3.9+，不需要 pip install、不需要常驻服务、不需要数据库。",
+   "开箱可用：仓库自带 30 张原创 CC0 演示表情（28 静态 + 2 动图），装完立刻能发；自己的图包一条命令导入。",
+   "可移植：索引存相对路径，仓库放哪都能跑；install.sh 安装到 ~/.grokbot-meme，移动或重新 clone 不会失效。",
+   "可解释：每次返回 reason（keyword:哭、semantic:…、event:fail、fsm:happy、rate_limited），出问题能直接定位。",
+   "关键词：中英词表 + emoji，命中即定情绪（data/config.json 的 keywords 可覆盖）。",
+   "语义：无模型。归一化文本后做字符 bigram Dice，与素材的 description + keywords 比较，超过 semantic_threshold（默认 0.12）才采用；否则不猜。",
+   "事件映射：start/working → work|cpu，success/done → celebrate|happy|like，fail/error → sad|angry|confused，wait/idle → daily|sleep，poke → shy|meow|surprised|happy（轮换）…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-05"
  }
 }
