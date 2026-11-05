@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2200 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2225 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-04T23:42:14.129Z
+- Last updated: 2026-11-05T13:44:44.925Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3152,6 +3152,121 @@
 - URL: https://usage.incidental.site/cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
+
+### Grok Bot on iPhone: cleared unused subscriptions and makes calls
+- URL: https://usage.incidental.site/cases/x-scottybeamio-2118329482842866011.html
+- Type: field-case · Product: grok-bot · Author: ScottyBeamIO · Source: https://x.com/ScottyBeamIO/status/2118329482842866011 · Date: 2026-11-05
+- Summary: The author says Grok Bot made their iPhone smarter than Siri: it cleaned out unused subscriptions and now makes phone calls. They treat it as their assistant and share a setup others can copy.
+
+### Filmed a closet to try on outfits: SAM cutouts + Muse Image shop photos
+- URL: https://usage.incidental.site/cases/x-krisgg-2118160760652370047.html
+- Type: field-case · Product: meta-muse · Author: _krisgg · Source: https://x.com/_krisgg/status/2118160760652370047 · Date: 2026-11-05
+- Summary: The author filmed their closet, used Meta SAM 3.1 to cut out each piece, Meta Muse Image to redraw it like a shop photo, then tried outfits on themselves in the app or ChatGPT. Built solo in 8 days for the @AIatMeta hackathon.
+
+### ChatPRD founder Claire Vo runs about 30 Grok Bot agents at once
+- URL: https://usage.incidental.site/cases/x-glasshourxbt-2118325699979198524.html
+- Type: field-case · Product: grok-bot · Author: glasshourxbt · Source: https://x.com/glasshourxbt/status/2118325699979198524 · Date: 2026-11-05
+- Summary: The post quotes ChatPRD founder Claire Vo: she often has about 30 Grok Bots running; hourly, "Chief" sweeps her inbox, calendar and Slack (about six inboxes and six Slacks). A ~5-minute clip shows the bots she actually uses.
+
+### Lean Grok Bot launch setup: ~60 runs/week, idea dead or live by Friday
+- URL: https://usage.incidental.site/cases/x-unknownnode404-2118323069429096578.html
+- Type: field-case · Product: grok-bot · Author: unknownnode404 · Source: https://x.com/unknownnode404/status/2118323069429096578 · Date: 2026-11-05
+- Summary: The author contrasts most Grok Bot teams burning about 1,176 runs a week asking "anything new?" with this setup at about 60 by their math; by Friday an idea from X is either dead with a written reason or live with a domain, a deck and its first users.
+
+### Performance-reviewed 5 Grok Bots, fired the manager; reports drove 3 posts past 100K
+- URL: https://usage.incidental.site/cases/x-distortgeekin-2118335083589370120.html
+- Type: field-case · Product: grok-bot · Author: distortgeekin · Source: https://x.com/distortgeekin/status/2118335083589370120 · Date: 2026-11-05
+- Summary: Treating Grok Bot like a colleague, the author reviewed 5 bots and fired the "manager." The 4 bots under it got 3 posts past 100K on X in 3 weeks; the manager shipped nothing and only forwarded work.
+
+### LifeLens: head-cam full-body 3D, Muse Spark for light, music, and gym feedback
+- URL: https://usage.incidental.site/cases/x-avinashavi69-2118157469482647615.html
+- Type: field-case · Product: meta-muse · Author: AvinashAvi69 · Source: https://x.com/AvinashAvi69/status/2118157469482647615 · Date: 2026-11-05
+- Summary: They built LifeLens: one head camera rebuilds the body in 3D, then Meta Muse Spark turns moves into a live light show, stride-matched music, and rep-by-rep gym feedback. Built in 10 days; open materials linked.
+
+### Ares: upload a project, break it with real attacks, fix with AI and prove it
+- URL: https://usage.incidental.site/cases/x-lightyagami779-2118159316347764781.html
+- Type: field-case · Product: meta-muse · Author: LightYagami779 · Source: https://x.com/LightYagami779/status/2118159316347764781 · Date: 2026-11-05
+- Summary: Ares uploads a project, breaks it with real attacks, grills you out loud on why it failed, then lets you fix it with AI and proves the fix holds. Built on Meta Muse for the @AIatMeta hackathon.
+
+### Hackathon app: agentic music notation editor guided by speech and sung melody
+- URL: https://usage.incidental.site/cases/x-danieloquelis-2118153088506732821.html
+- Type: field-case · Product: meta-muse · Author: danieloquelis · Source: https://x.com/danieloquelis/status/2118153088506732821 · Date: 2026-11-05
+- Summary: For the Meta Global AI Hackathon the author proposes an agentic music notation editor: instructions mix plain words and sung melodies in the same audio chunk. Built with Meta Muse Spark and Voice Transcribe.
+
+### A full Grok Bot content team is already on GitHub for free
+- URL: https://usage.incidental.site/cases/x-mintzdev-2118312339686523012.html
+- Type: guide · Product: grok-bot · Author: mintzdev · Source: https://x.com/mintzdev/status/2118312339686523012 · Date: 2026-11-05
+- Summary: The author notes people have built a whole content team for Grok Bot on GitHub for free: bots that find posts worth replying to, write in your voice, cut podcasts into clips, script YouTube videos and plan a week of content.
+
+### Learn Quiz: HR uploads a rulebook, Muse turns it into spaced quizzes
+- URL: https://usage.incidental.site/cases/x-cristianuibar-2118152919119810903.html
+- Type: field-case · Product: meta-muse · Author: cristianuibar · Source: https://x.com/cristianuibar/status/2118152919119810903 · Date: 2026-11-05
+- Summary: The author passed a driving exam with repeated quizzes, then built Learn Quiz for the Meta AI Developer Hackathon: HR uploads a company rulebook, Meta Muse makes bite-size quizzes that ask again right before you forget. Free to try.
+
+### Grok Bot screened ~10,000 “wish there was an app” posts; 3 left to build
+- URL: https://usage.incidental.site/cases/x-0xteddet-2118335473969987889.html
+- Type: field-case · Product: grok-bot · Author: 0xTeddet · Source: https://x.com/0xTeddet/status/2118335473969987889 · Date: 2026-11-05
+- Summary: Grok Bot read about 10,000 “I wish there was an app for this” posts from Reddit and X over 30 days and dropped 9,997 (e.g. ~4,812 where a free app already exists). Three remain; the author is building #1 this weekend.
+
+### Daily workflow when hitting Grok Bot limits: role-split bots that triage tasks
+- URL: https://usage.incidental.site/cases/x-seree-2118283633828204848.html
+- Type: guide · Product: grok-bot · Author: seree · Source: https://x.com/seree/status/2118283633828204848 · Date: 2026-11-05
+- Summary: Seeing many people hit Grok Bot limits, the author shares their day-to-day AI workflow: almost every task goes through Grok Bot, split into separate bots by role; Grok Bot sorts the task, then does it or hands it off.
+
+### Built a social marketing manager with Telegram alerts, controllable via Dot
+- URL: https://usage.incidental.site/cases/x-xmliszt-2118314395210322126.html
+- Type: field-case · Product: openai-dots · Author: xmliszt · Source: https://x.com/xmliszt/status/2118314395210322126 · Date: 2026-11-05
+- Summary: The author built a marketing manager for a project’s social campaign, with a companion Telegram bot for notifications, and their Dot can help control it.
+
+### Moving Claude skills to Grok Bot: a skill is just a markdown instruction folder
+- URL: https://usage.incidental.site/cases/x-realmikeweisman-2118333478382993592.html
+- Type: guide · Product: grok-bot · Author: realmikeweisman · Source: https://x.com/realmikeweisman/status/2118333478382993592 · Date: 2026-11-05
+- Summary: Switching from Claude to Grok Bot, the author notes you need not recreate skills: a skill is a folder of markdown instruction files. They have been exporting Claude-built skills over.
+
+### Out of Grok Bot by Wednesday? 8 plain habits to stretch a Premium week
+- URL: https://usage.incidental.site/cases/x-willbudwit-2118334307274309692.html
+- Type: guide · Product: grok-bot · Author: Will_Budwit · Source: https://x.com/Will_Budwit/status/2118334307274309692 · Date: 2026-11-05
+- Summary: Long-form tip list: 8 plain habits that stretch a Premium week—clearer asks, fresh chats, fewer routine wake-ups—described without jargon.
+
+### Had Grok Bot draft a support email about duplicate accounts, then hit Send
+- URL: https://usage.incidental.site/cases/x-hungha-2118335994709823950.html
+- Type: field-case · Product: grok-bot · Author: _hungha · Source: https://x.com/_hungha/status/2118335994709823950 · Date: 2026-11-05
+- Summary: The author’s Grok Bot drafted the support email for duplicate Grok Bot accounts; they just hit Send.
+
+### Made a video with Grok Bot in seconds; may not need CapCut anymore
+- URL: https://usage.incidental.site/cases/x-exclusivejojo-2118336092302631265.html
+- Type: field-case · Product: grok-bot · Author: exclusivejojo · Source: https://x.com/exclusivejojo/status/2118336092302631265 · Date: 2026-11-05
+- Summary: The author made the video with Grok Bot and it delivered within seconds; they think they may not need CapCut anymore and say Grok Bot has everything.
+
+### LotFit: phone-scan a yard against city code for a rental ADU
+- URL: https://usage.incidental.site/cases/x-buildnexusai-2118158384818225269.html
+- Type: field-case · Product: meta-muse · Author: BuildNexusAI · Source: https://x.com/BuildNexusAI/status/2118158384818225269 · Date: 2026-11-05
+- Summary: The author scanned their yard with a phone; in minutes LotFit read the city code and showed what fits and where. Built with Meta Muse in one week for the hackathon.
+
+### City permit office in 9 days with Meta Muse; humans still decide
+- URL: https://usage.incidental.site/cases/x-vollendata-2118152621710303398.html
+- Type: field-case · Product: meta-muse · Author: VollenData · Source: https://x.com/VollenData/status/2118152621710303398 · Date: 2026-11-05
+- Summary: Built a working city permit office in 9 days with Meta Muse: Muse reads each application, checks city code, and flags problems before submit. A person still makes every decision.
+
+### DoLittle: meeting listener that writes action items into a Cursor/Claude task file
+- URL: https://usage.incidental.site/cases/x-prasannavah2qp-2118143811440554092.html
+- Type: field-case · Product: meta-muse · Author: PrasannaVah2qp · Source: https://x.com/PrasannaVah2qp/status/2118143811440554092 · Date: 2026-11-05
+- Summary: DoLittle listens to a meeting and turns action items into a task file for Cursor/Claude—no retyping. Built with Meta Muse, Spark 1.3 and muse-voice-transcribe-1.0.
+
+### Turn a morning brief into a Grok Bot routine at 8:00 Europe/Berlin
+- URL: https://usage.incidental.site/cases/x-howtowithai-2118313179658768547.html
+- Type: guide · Product: grok-bot · Author: howtowithai · Source: https://x.com/howtowithai/status/2118313179658768547 · Date: 2026-11-05
+- Summary: Pro tip: ask Grok Bot “Every weekday at 8:00 Europe/Berlin, run my morning brief and message me here.” Also: teach one end-to-end workflow on X that people can copy tomorrow morning.
+
+### Discord channels that drive Mac AI chat apps including Grok Bot and ChatGPT dots
+- URL: https://usage.incidental.site/cases/gh-github-com-tygb99-discord-mac-ai-bridge.html
+- Type: field-case · Product: openai-dots · Author: Tygb99 · Source: https://github.com/Tygb99/discord-mac-ai-bridge · Date: 2026-11-05
+- Summary: GitHub project discord-mac-ai-bridge: use AI chat apps on your Mac (Grok Bot, Instinct over iMessage, Pickle, ChatGPT dots) from Discord channels. Personal tool, not affiliated.
+
+### Read-only offline iMessage reader for Grok Bot on macOS
+- URL: https://usage.incidental.site/cases/gh-github-com-ryannewsom-grokbot-imessage-reader.html
+- Type: field-case · Product: grok-bot · Author: RyanNewsom · Source: https://github.com/RyanNewsom/grokbot-imessage-reader · Date: 2026-11-05
+- Summary: GitHub project grokbot-imessage-reader: read-only, offline iMessage reader for Grok Bot on macOS. Full Disk Access scoped to the helper only.
 
 ### Grok Bot gathers morning research and makes a one-page stand-up sheet with Claude Code
 - URL: https://usage.incidental.site/cases/x-sachiaicomp-2117972086186717243.html
@@ -10433,6 +10548,11 @@
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
 
+### Always-on agent comparison: Claude Duet vs Grok Bot vs ChatGPT Dots vs Meta Muse
+- URL: https://usage.incidental.site/cases/x-sustainmein-2118270964769370195.html
+- Type: comparison · Product: multi · Author: sustainme_in · Source: https://x.com/sustainme_in/status/2118270964769370195 · Date: 2026-11-05
+- Summary: The author compares next-generation autonomous agents—Claude Duet, Grok Bot, ChatGPT Dots, and Meta Muse—each on dedicated cloud environments for complex ongoing background tasks, and asks which agent is best for which job.
+
 ### Trying Meta Muse: about half of a YouTube workflow, but Grok Bot feels more polished
 - URL: https://usage.incidental.site/cases/x-aaxonn-2117952202291466651.html
 - Type: comparison · Product: meta-muse · Author: aaxonn · Source: https://x.com/aaxonn/status/2117952202291466651 · Date: 2026-11-04
@@ -10937,6 +11057,11 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### Where Grok Bot usage goes: 7-day split routines 48%, bot-to-bot 35%, chats 17%
+- URL: https://usage.incidental.site/cases/x-chuongphanvinh-2118332010922164719.html
+- Type: quota-report · Product: grok-bot · Author: ChuongPhanVinh · Source: https://x.com/ChuongPhanVinh/status/2118332010922164719 · Date: 2026-11-05
+- Summary: The author shows how to see usage: last 7 days were routines 48%, bot-to-bot 35%, own chats only 17%—the opposite of their guess. Play: open usage, ask for the split, fix the biggest slice; start from Settings via the account button.
 
 ### Grok Ultra annual subscriber: 11.3B tokens in October, extra bots cut
 - URL: https://usage.incidental.site/cases/x-ahmetgumustekin-2117969727637123095.html
