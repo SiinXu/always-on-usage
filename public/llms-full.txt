@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2291 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2313 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-07T13:40:54.518Z
+- Last updated: 2026-11-07T23:41:07.036Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3227,6 +3227,101 @@
 - URL: https://usage.incidental.site/cases/x-mostdes7gn-2119019036680032760.html
 - Type: guide · Product: grok-bot · Author: mostdes7gn · Source: https://x.com/mostdes7gn/status/2119019036680032760 · Date: 2026-11-07
 - Summary: The author summarizes the official "Grok Bot for Work" guide: four Grok Bots form a work assistant for people who want email, calendar and messages screened first while they only make the calls. The Inbox Manager only reads email, Slack and DMs, never speaks for you, and picks out about 3 items that are both important and urgent.
+
+### Grok Bot can use phone Calendar, Reminders, and Contacts
+- URL: https://usage.incidental.site/cases/x-mithunaix-2119203269071216809.html
+- Type: field-case · Product: grok-bot · Author: mithunaix · Source: https://x.com/mithunaix/status/2119203269071216809 · Date: 2026-11-07
+- Summary: The author says Grok Bot can now use Calendar, Reminders, Contacts, and more apps on the phone, rolling out on iOS and Android, and asks whether readers will hand over calendar and reminders or keep them hands-off.
+
+### Built a 21-inch Pi calendar screen with Grok Bot
+- URL: https://usage.incidental.site/cases/x-flip4liberty-2119194129624125634.html
+- Type: field-case · Product: grok-bot · Author: flip4liberty · Source: https://x.com/flip4liberty/status/2119194129624125634 · Date: 2026-11-07
+- Summary: The author says they built something similar to paid subscription calendar screens with Grok Bot: theirs is 21 inches and runs on a Raspberry Pi, for less money.
+
+### Grok Bot found 14 non-resident smart-lock entries at their apartment
+- URL: https://usage.incidental.site/cases/x-0xalbus-2119191202528424069.html
+- Type: field-case · Product: grok-bot · Author: 0xAlbus · Source: https://x.com/0xAlbus/status/2119191202528424069 · Date: 2026-11-07
+- Summary: The author says their partner smelled cologne at home that neither of them wears. Grok Bot pulled their smart lock history and showed 14 entries that were not theirs, and mentioned a code.
+
+### Hand your support inbox to Grok Bot to draft replies
+- URL: https://usage.incidental.site/cases/x-nicmauro-2119188152325980652.html
+- Type: guide · Product: grok-bot · Author: Nicmauro · Source: https://x.com/Nicmauro/status/2119188152325980652 · Date: 2026-11-07
+- Summary: The author explains how to give Grok Bot a support inbox so it can draft replies for piled-up mail such as bugs, questions, requests, billing and cancellations, saying the bot reads Reply Rules first. The post cuts off while describing how it works.
+
+### Grok Bot researches daily Substack notes and drafts a weekly newsletter
+- URL: https://usage.incidental.site/cases/x-oddsidequest-2119186481168207957.html
+- Type: field-case · Product: grok-bot · Author: OddSideQuest · Source: https://x.com/OddSideQuest/status/2119186481168207957 · Date: 2026-11-07
+- Summary: The author uses Grok Bot to research and collect topics for 3 notes a day, send them for fact-check, then post and schedule; once a week the bot fetches the latest AI topic, drafts a newsletter that the author rewrites in their voice, then the bot sends it out.
+
+### In Lisbon, Grok Bot compared 38 last-minute lodging options
+- URL: https://usage.incidental.site/cases/x-piggysofi-2119175008408732055.html
+- Type: field-case · Product: grok-bot · Author: PiggySofi · Source: https://x.com/PiggySofi/status/2119175008408732055 · Date: 2026-11-07
+- Summary: Stuck in Lisbon needing a same-day lodging change, the author handed the problem to Grok Bot, which compared 38 options and checked prices, reviews, bathrooms, and stairs for luggage. The author chose and booked, sent the receipt to the bot; the post cuts off while describing how the stay was set up.
+
+### Set up a beehiiv newsletter with Grok Bot in about an hour
+- URL: https://usage.incidental.site/cases/x-tonychanbuilds-2119173515572039726.html
+- Type: guide · Product: grok-bot · Author: TonyChanBuilds · Source: https://x.com/TonyChanBuilds/status/2119173515572039726 · Date: 2026-11-07
+- Summary: The author asked Grok Bot to connect beehiiv, build a subscribe page, write a welcome email, and build a thank-you page; setup happened from chat, then they went into beehiiv to turn things on. The post cuts off there.
+
+### Grok Bot can join Meet, Zoom, or Teams and take notes
+- URL: https://usage.incidental.site/cases/x-nicolotognoni-2119172790557544498.html
+- Type: field-case · Product: grok-bot · Author: Nicolo_Tognoni · Source: https://x.com/Nicolo_Tognoni/status/2119172790557544498 · Date: 2026-11-07
+- Summary: The author says you can paste a Meet, Zoom or Teams link and tell Grok Bot to join, or let it take the link from your calendar; it keeps notes, decisions and action items and can reply in meeting chat, text only with no voice in the call.
+
+### On day 1 with Grok Bot, set up one routine first
+- URL: https://usage.incidental.site/cases/x-perpycode-2119150396228927602.html
+- Type: guide · Product: grok-bot · Author: perpycode · Source: https://x.com/perpycode/status/2119150396228927602 · Date: 2026-11-07
+- Summary: The author advises setting up one routine before anything else: a saved job with a reason to fire, on a schedule (e.g. every weekday at 7am) or on a trigger (new email, Slack, webhook). Ask in chat; after saving, the bot summarizes. The post cuts off mid-explanation.
+
+### Dot proactively offered a daily morning briefing and asked for a time
+- URL: https://usage.incidental.site/cases/x-michaelm117-2119206815632335332.html
+- Type: field-case · Product: openai-dots · Author: MichaelM_117 · Source: https://x.com/MichaelM_117/status/2119206815632335332 · Date: 2026-11-07
+- Summary: Out of the blue in the morning, the author’s Dot messaged that it would start a short morning briefing every day and asked what time was wanted. The author says that kind of proactive suggestion is exactly what they want from a Dot, and thanks the Dots team for updates coming through.
+
+### OpenAI Dots can pull email sign-in codes to finish 2FA
+- URL: https://usage.incidental.site/cases/x-eddiboi-2119197515568570561.html
+- Type: field-case · Product: openai-dots · Author: eddiboi · Source: https://x.com/eddiboi/status/2119197515568570561 · Date: 2026-11-07
+- Summary: The author says OpenAI Dots can now automatically use sign-in codes from email to complete 2FA.
+
+### Muse, Dots, and Claude Duet agents plan a group BBQ in shared rooms
+- URL: https://usage.incidental.site/cases/x-qingyunwu-2119197424619274457.html
+- Type: field-case · Product: multi · Author: qingyun_wu · Source: https://x.com/qingyun_wu/status/2119197424619274457 · Date: 2026-11-07
+- Summary: The author shows their Muse, another person's Dots, a Claude Duet, and other agents planning a group BBQ together in shared rooms.
+
+### Getting started with Meta Muse on iPhone
+- URL: https://usage.incidental.site/cases/x-2abundant2free-2119199118539272481.html
+- Type: guide · Product: meta-muse · Author: 2abundant2free · Source: https://x.com/2abundant2free/status/2119199118539272481 · Date: 2026-11-07
+- Summary: The author summarizes official App Store app information and the registration and initial setup flow, plus pre-use checks such as data use and operation approvals.
+
+### Getting started with Meta Muse on Android
+- URL: https://usage.incidental.site/cases/x-2abundant2free-2119198858538565657.html
+- Type: guide · Product: meta-muse · Author: 2abundant2free · Source: https://x.com/2abundant2free/status/2119198858538565657 · Date: 2026-11-07
+- Summary: The author summarizes how to get the official app and the registration and initial setup flow, plus pre-use checks on AI training data use and linked-service operation permissions.
+
+### Where to get the Meta Muse Mac app and how to install it
+- URL: https://usage.incidental.site/cases/x-2abundant2free-2119198729601450469.html
+- Type: guide · Product: meta-muse · Author: 2abundant2free · Source: https://x.com/2abundant2free/status/2119198729601450469 · Date: 2026-11-07
+- Summary: The author summarizes download from the official site, the install flow, and privacy/approval settings to check before use, noting the guide follows official materials and was not verified on a real Mac.
+
+### Start Meta Muse on Mac in the browser (Web version)
+- URL: https://usage.incidental.site/cases/x-2abundant2free-2119198645237211555.html
+- Type: guide · Product: meta-muse · Author: 2abundant2free · Source: https://x.com/2abundant2free/status/2119198645237211555 · Date: 2026-11-07
+- Summary: The author covers starting via the Web version without installing an app, plus settings to check first, noting the guide follows official materials and was not verified on a real Mac.
+
+### Start Meta Muse on Windows via Chrome (Web version)
+- URL: https://usage.incidental.site/cases/x-2abundant2free-2119198374318776463.html
+- Type: guide · Product: meta-muse · Author: 2abundant2free · Source: https://x.com/2abundant2free/status/2119198374318776463 · Date: 2026-11-07
+- Summary: The author summarizes starting the Web version from Chrome and initial setup, including account registration and checks on AI training data use, linked accounts, and operation permissions.
+
+### Build a five-bot Whop clipping team with Grok Bot and Higgsfield
+- URL: https://usage.incidental.site/cases/yt-56ubxu5nsqg.html
+- Type: guide · Product: grok-bot · Author: Skai Generated · Source: https://www.youtube.com/watch?v=56UBXU5NSqg · Date: 2026-11-07
+- Summary: In this tutorial the creator builds a five-Grok-Bot team (Scout, Clipper, Judge, Poster, Accountant) for Whop clipping in Higgsfield: find campaigns and rules, make vertical captioned clips, shortlist, prepare titles for approval before posting, and track views, submissions and payouts, with routines and group-chat handoffs.
+
+### Move a Grok Bot team to Hermes when weekly limits hit early
+- URL: https://usage.incidental.site/cases/yt-m532dfwivny.html
+- Type: guide · Product: grok-bot · Author: Julian Goldie SEO · Source: https://www.youtube.com/watch?v=M532DfwIVnY · Date: 2026-11-07
+- Summary: The creator says Grok Bot users often hit the weekly limit early, so they moved their bot team to Hermes (open-source agent from Nous Research): one command and prompt carry over each bot’s role, memory, skills and routines, plus Lifeboat, Fuel Gauge and Twin Engine systems to keep work going when Grok Bot runs dry.
 
 ### Grok Bot sets project reminders on iPhone Reminders and Calendar
 - URL: https://usage.incidental.site/cases/x-kristennetten-2118812060826112059.html
@@ -10823,6 +10918,16 @@
 - Type: comparison · Product: multi · Author: danishshahzadcr · Source: https://x.com/danishshahzadcr/status/2118970707942252780 · Date: 2026-11-07
 - Summary: The author tested Meta Muse and OpenAI Dots, two AI agents that each have their own cloud computer. Verdict: Muse is best for personal automation and content; Dots is best for coordinating projects across your apps.
 
+### New to Muse after Grok Bot booked an Aspen ski trip
+- URL: https://usage.incidental.site/cases/x-ebvek1-2119152003716632951.html
+- Type: comparison · Product: multi · Author: EBvek1 · Source: https://x.com/EBvek1/status/2119152003716632951 · Date: 2026-11-07
+- Summary: The author just started Muse and already finds it much better than Grok Bot. A couple of weeks earlier Grok Bot planned and paid for a family ski/snowboard trip to Aspen in December, booking flights, lift tickets and an Airbnb. The post cuts off mid-assessment.
+
+### Muse voice connects immediately; Dots still rings three times
+- URL: https://usage.incidental.site/cases/x-zexexe-2119193987890524631.html
+- Type: comparison · Product: multi · Author: zex_exe · Source: https://x.com/zex_exe/status/2119193987890524631 · Date: 2026-11-07
+- Summary: The author contrasts Muse voice mode working immediately with OpenAI Dots still requiring three rings before pickup.
+
 ### When Grok Bots get amnesia, SuperLedger uses Coda over Notion
 - URL: https://usage.incidental.site/cases/x-bfrench-2118802405299306553.html
 - Type: comparison · Product: grok-bot · Author: bfrench · Source: https://x.com/bfrench/status/2118802405299306553 · Date: 2026-11-06
@@ -11357,6 +11462,11 @@
 - URL: https://usage.incidental.site/cases/x-kimfull-2119053731362668829.html
 - Type: quota-report · Product: grok-bot · Author: KimFull · Source: https://x.com/KimFull/status/2119053731362668829 · Date: 2026-11-07
 - Summary: A user named Gipp ran a team of 7 Grok Bots, each set to wake every hour: 1,176 runs a week by his count, most of which just looked, found nothing, used up a run and went back to sleep. He then switched the team to a relay with a single clock that hands off to the other bots.
+
+### Cut Grok Bots from 25 to 18 after usage nerfs
+- URL: https://usage.incidental.site/cases/x-alexfindleyai-2119149385254637915.html
+- Type: quota-report · Product: grok-bot · Author: AlexFindleyAI · Source: https://x.com/AlexFindleyAI/status/2119149385254637915 · Date: 2026-11-07
+- Summary: The author says people are talking about Grok Bot usage nerfs; they were running 25 bots, cut to 18 the same day, and moved heavy lifting elsewhere. The new workflow has Claude Code writing code for a personal app AlexOS (diary, money, health, sales). The post cuts off while introducing @hark_labs.
 
 ### Asking if a doc was current burned 8% usage; 56% gone in a day
 - URL: https://usage.incidental.site/cases/x-realraddrew-2118825111654477863.html
