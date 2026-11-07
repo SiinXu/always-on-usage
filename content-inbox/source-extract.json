@@ -9595,5 +9595,24 @@
   ],
   "kind": "github",
   "fetched_at": "2026-11-05"
+ },
+ "https://github.com/openai/codex/issues/59834": {
+  "text": "Codex CLI is a coding agent from OpenAI that runs locally on your computer.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/openai/codex/main/.github/codex-cli-splash.png"
+   }
+  ],
+  "outline": [
+   "Apple Silicon/arm64: codex-aarch64-apple-darwin.tar.gz",
+   "x86_64 (older Mac hardware): codex-x86_64-apple-darwin.tar.gz",
+   "x86_64: codex-x86_64-unknown-linux-musl.tar.gz",
+   "arm64: codex-aarch64-unknown-linux-musl.tar.gz",
+   "Codex Documentation",
+   "Contributing"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-07"
  }
 }

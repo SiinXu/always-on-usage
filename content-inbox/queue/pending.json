@@ -121068,19 +121068,6 @@
    "found_at": "2026-11-07T13:13:03.878Z"
   },
   {
-   "id": "gh:github.com/openai/codex/issues/59834",
-   "url": "https://github.com/openai/codex/issues/59834",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "MattU27",
-   "date": "2026-11-06",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "Dots: hallucinated completion claims, cloud/local confusion, missing updates, and an unexplained “Paused” state\n## Summary\n\nI am reporting several problems I experienced in one ongoing dot conversation, mainly on November 6, 2026. I asked my dot to improve an existing job-research workflow on its own cloud computer, using Superpowers as part of a full implementation plan.\n\nMy main concern is hallucination: confident, inaccurate or unsupported claims about the dot's own task completion and prior understanding, followed by corrections only after I challenged them. The examples below concern what it said it had completed or understood; they do not establish a specific model defect or root cause.\n\nThe dot gave overly broad completion reports and then acknowledged unfinished implementation, left me repeatedly asking for the next update, and used “local” in a way that made it unclear whether it meant its cloud computer or my PC. When I challenged that, it initially agreed with the premise that it had misunderstood the computer destination, then later said it had found no actual instruction or proposal to use my PC.\n\nSeparately, the desktop app displayed the whole dot as “Paused” after I had reported rebooting it. I had deliberately paused the scheduled job search, but I had not intentionally paused the whole dot. A screenshot shows the whole-dot indicator. I cannot establish why it appeared.\n\nThese problems made it difficult to trust what was completed, where work happened, and whether work was continuing. I am reporting the symptoms together for context, not claiming they share one cause.\n\n## Environment\n\n- Product: ChatGPT desktop app, using a dot.\n- Local platform: Windows desktop, visible in the screenshots. Exact Windows version/build is not verified.\n- Work setup: the dot's cloud computer, with a separate local-PC connection visible in the app. The requested implementation was in",
-   "media": [],
-   "found_at": "2026-11-07T13:13:03.878Z"
-  },
-  {
    "id": "gh:github.com/network-awai/cloud-murakumo-usb-installer/pull/48",
    "url": "https://github.com/network-awai/cloud-murakumo-usb-installer/pull/48",
    "source": "github",
@@ -122328,21 +122315,6 @@
    "found_at": "2026-11-07T13:34:58.689Z"
   },
   {
-   "id": "x:2119059905470427457",
-   "url": "https://x.com/BertholdGlass/status/2119059905470427457",
-   "source": "x",
-   "source_name": "X",
-   "author": "BertholdGlass",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Hab gerade bei @nima_owji seinen öffentlichen Grok Bot „Animator“ gesehen. Du beschreibst eine Idee in einem Satz, daraus macht er Story, Animation mit Remotion und Musik. Am Ende bekommst du ein fertiges Video. https://t.co/xIPvIq4Jzf",
-   "media": [
-    "https://pbs.twimg.com/tweet_video_thumb/HWhpvq5WcAEmITM.jpg"
-   ],
-   "found_at": "2026-11-07T13:34:58.689Z"
-  },
-  {
    "id": "x:2119059891822207390",
    "url": "https://x.com/Ferdaolak4/status/2119059891822207390",
    "source": "x",
@@ -122510,19 +122482,6 @@
    "found_at": "2026-11-07T13:34:58.689Z"
   },
   {
-   "id": "x:2119059663584891364",
-   "url": "https://x.com/CJS_52/status/2119059663584891364",
-   "source": "x",
-   "source_name": "X",
-   "author": "CJS_52",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@MohammedAbbasIT @zobotics I was able to try both. Dot is fantastic but it is one chat, but I found dot to actually be more useful side by side compared to grok bot. Dot could complete almost any task you ask of it where I had some limitations from grok bot. The difference comes down to chat gpt can take",
-   "media": [],
-   "found_at": "2026-11-07T13:34:58.689Z"
-  },
-  {
    "id": "x:2119059658602426673",
    "url": "https://x.com/Hattielgbt/status/2119059658602426673",
    "source": "x",
@@ -122578,21 +122537,6 @@
    "found_at": "2026-11-07T13:34:58.689Z"
   },
   {
-   "id": "x:2119059629875327371",
-   "url": "https://x.com/dairan/status/2119059629875327371",
-   "source": "x",
-   "source_name": "X",
-   "author": "dairan",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Montei um time de Grok Bots pra me ajudar com engenharia. Não é um assistente que faz tudo: cada bot tem um trabalho e uma lista do que ele não faz. Como funciona a nossa squad 🧵 https://t.co/TmVegby5yr",
-   "media": [
-    "https://pbs.twimg.com/media/HWhpgIoXcAAELbk.jpg"
-   ],
-   "found_at": "2026-11-07T13:34:58.689Z"
-  },
-  {
    "id": "x:2119059436266234169",
    "url": "https://x.com/Sprytixl/status/2119059436266234169",
    "source": "x",
@@ -122617,19 +122561,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "Day 16: Update a Grok Bot action brief without losing earlier tasks. Show what changed, keep source references and review the new version. #GrokBot #AIProductivity https://t.co/OA8wEvuKsw",
-   "media": [],
-   "found_at": "2026-11-07T13:34:58.690Z"
-  },
-  {
-   "id": "x:2119059004626260217",
-   "url": "https://x.com/DissipativeS/status/2119059004626260217",
-   "source": "x",
-   "source_name": "X",
-   "author": "DissipativeS",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@codex_resets @OpenAI 🤖 Grok Bot 技巧（官方文档《Work with Grok Bot》核实）\n\n1️⃣ 把 bot 隐藏，它的 routine 照样在跑\n官方原文：Hide from sidebar 只是把 bot 从主列表里拿掉，不删除它的工作，也不暂停它的 routine。\n很多人额度收紧以后把不用的 bot",
    "media": [],
    "found_at": "2026-11-07T13:34:58.690Z"
   },
@@ -122789,19 +122720,6 @@
    "found_at": "2026-11-07T13:34:58.690Z"
   },
   {
-   "id": "x:2119055659245166974",
-   "url": "https://x.com/pavelklimes_/status/2119055659245166974",
-   "source": "x",
-   "source_name": "X",
-   "author": "pavelklimes_",
-   "date": "2026-11-07",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Tried out the One-Click Deploy Apps from Crusor\n\nI built my own CRM tool and connected Grok Bot to it for https://t.co/jIkePMPhYx\n\nThe cursor works great. It seamlessly created and deployed everything. The app, the database and helped with setting up Grok Bots. Can recommend",
-   "media": [],
-   "found_at": "2026-11-07T13:34:58.690Z"
-  },
-  {
    "id": "x:2119055152057639022",
    "url": "https://x.com/dragonlv15/status/2119055152057639022",
    "source": "x",
@@ -122860,19 +122778,6 @@
    "found_at": "2026-11-07T13:34:58.690Z"
   },
   {
-   "id": "x:2119053731362668829",
-   "url": "https://x.com/KimFull/status/2119053731362668829",
-   "source": "x",
-   "source_name": "X",
-   "author": "KimFull",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "7 個 Bot 每小時醒來一次，一週白跑 1,176 次\n\n前天網友 Gipp 分享了一個踩雷經驗：他用 7 個 Grok Bot 組成一個團隊，每個都設成每小時醒來一次。照他的算法，一週就是 1,176 次執行，大部分醒來只是看一眼、發現沒事、扣掉一次用量又睡回去。\n\n後來他把整個團隊改成接力：只留一個時鐘，其他 Bot",
-   "media": [],
-   "found_at": "2026-11-07T13:34:58.690Z"
-  },
-  {
    "id": "x:2119052972143366553",
    "url": "https://x.com/grokdeploy/status/2119052972143366553",
    "source": "x",
@@ -122909,21 +122814,6 @@
    "product": "grok-bot",
    "text": "@orendev_ you are a power user! what kind of jobs you have automated with Grok Bot? wonder how you have consumed all usage in one day",
    "media": [],
-   "found_at": "2026-11-07T13:34:58.690Z"
-  },
-  {
-   "id": "x:2119059575760658765",
-   "url": "https://x.com/T14578307/status/2119059575760658765",
-   "source": "x",
-   "source_name": "X",
-   "author": "T14578307",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "月よりの使者現る。\n\n僕に代わってメールの管理したり、1日の予定をアナウンスしたりする。\n\n仕事に行く時に、気持ちよく送り出してくれて、帰ってきたら、温かく迎え入れてくれる。\n\n僕の月人。AIエージェント「ツクヨミ」\nの巻✨🌕＼(^o^)／\n\nfrom Meta \"MUSE\" https://t.co/Jg1rt1onLt",
-   "media": [
-    "https://pbs.twimg.com/media/HWhoF1abkAApUk-.jpg"
-   ],
    "found_at": "2026-11-07T13:34:58.690Z"
   },
   {
@@ -123276,21 +123166,6 @@
    "found_at": "2026-11-07T13:34:58.691Z"
   },
   {
-   "id": "x:2118862282645999837",
-   "url": "https://x.com/JaySym_/status/2118862282645999837",
-   "source": "x",
-   "source_name": "X",
-   "author": "JaySym_",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Built a holiday gift tracker in Meta Muse Spaces in about 3 minutes. One prompt, then a budget total and a festive redesign.\n\nhonestly better than I expected. still can't share it with anyone though 👀 https://t.co/QNyZkvux0o",
-   "media": [
-    "https://pbs.twimg.com/ext_tw_video_thumb/2118862254074372096/pu/img/PYFMcll1t6kqHnRz.jpg"
-   ],
-   "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
    "id": "x:2119056020982866271",
    "url": "https://x.com/Nicmauro/status/2119056020982866271",
    "source": "x",
@@ -123313,19 +123188,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@theaaron @Muse @grok @bot the UI is nice, but all your agent mail into a single Muse inbox creates platform lock in.\n\ni connected Muse to Decoy so it gets unlimited dedicated inboxes with scoped controls. if i ever switch agents, the inboxes and context stay w me instead of trapped in Muse",
-   "media": [],
-   "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
-   "id": "x:2119052251029275067",
-   "url": "https://x.com/mrcommando712/status/2119052251029275067",
-   "source": "x",
-   "source_name": "X",
-   "author": "mrcommando712",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "The AI bundle makes more sense when you have ordinary work to do, not another demo. 🪔\n\nI've been using Grok Bot lanes for X drafts, a LinkedIn job hunt, GitHub OSS PRs, Gmail and Calendar, Mac upkeep, Pune events/Reddit, and Instagram research.\n\nDifferent jobs, separate owners.",
    "media": [],
    "found_at": "2026-11-07T13:34:58.691Z"
   },
@@ -123384,36 +123246,6 @@
    "found_at": "2026-11-07T13:34:58.691Z"
   },
   {
-   "id": "x:2119046940583399460",
-   "url": "https://x.com/theaaron/status/2119046940583399460",
-   "source": "x",
-   "source_name": "X",
-   "author": "theaaron",
-   "date": "2026-11-07",
-   "likes": 6,
-   "product": "grok-bot",
-   "text": "great feature of @Muse Mail= you can actually see the inbox in app\n\nway better UX than @grok @bot mail, which you have to hack your own UI if you want a visual of the inbox https://t.co/MK6kGsd9ul https://t.co/CuGHrmjZHJ",
-   "media": [
-    "https://pbs.twimg.com/media/HWhd9meacAAiatd.jpg"
-   ],
-   "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
-   "id": "x:2119045973611545023",
-   "url": "https://x.com/EricSoundMinds/status/2119045973611545023",
-   "source": "x",
-   "source_name": "X",
-   "author": "EricSoundMinds",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "A quick Grok Bot tip for your inbox. Once Gmail is connected in Connect apps, your Grok Bot can handle this in a single pass, and it writes drafts only, so you still decide what goes out.\n\n\"Find emails from the past three days that are still waiting on my reply. List them with https://t.co/9nl8lWTWLQ",
-   "media": [
-    "https://pbs.twimg.com/media/HWhdFUqWYAAfoHQ.jpg"
-   ],
-   "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
    "id": "x:2119045061212074205",
    "url": "https://x.com/0xqinshi/status/2119045061212074205",
    "source": "x",
@@ -123455,32 +123287,6 @@
    "found_at": "2026-11-07T13:34:58.691Z"
   },
   {
-   "id": "x:2119040000838828428",
-   "url": "https://x.com/its_LtDan/status/2119040000838828428",
-   "source": "x",
-   "source_name": "X",
-   "author": "its_LtDan",
-   "date": "2026-11-07",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "The +alias on a Grok Bot inbox is sneaky useful.\n\nSame inbox. Different tags.\nEach tag can wake its own routine.\n\nname+invoices@ wakes the one that files bills.\nname+leads@ wakes the one that drafts the follow-up.\nMail to a tag nobody listens to wakes nothing.\n\nWhy it works:\nThe",
-   "media": [],
-   "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
-   "id": "x:2119038079138668652",
-   "url": "https://x.com/StuBowler/status/2119038079138668652",
-   "source": "x",
-   "source_name": "X",
-   "author": "StuBowler",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Got to give a shout out to @danmartell . His GPS inbox system from Buy Back Your Time is perfect for Grok bot.\n\n-New Leads\n-Needs my attention \n-Drafted\n-FYI\n-Waiting on Others\n\nGrok @bot is a game changer for business owners.",
-   "media": [],
-   "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
    "id": "x:2119035177368277163",
    "url": "https://x.com/genneelcool/status/2119035177368277163",
    "source": "x",
@@ -123511,21 +123317,6 @@
    "found_at": "2026-11-07T13:34:58.691Z"
   },
   {
-   "id": "x:2119033942649004515",
-   "url": "https://x.com/gambrill/status/2119033942649004515",
-   "source": "x",
-   "source_name": "X",
-   "author": "gambrill",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Want your Grok @bot and @muse to be able to send emails to each other and possibly trigger actions if you want? \n\nGive your Grok Bot an email alias like username+muse @ mail. grokbot .com \n\nThen set it up as an approved email in Muse Mail. \n\nThen you can use that +alias as a https://t.co/6DnbxjYNFL",
-   "media": [
-    "https://pbs.twimg.com/media/HWhSI6bXsAAdRqp.jpg"
-   ],
-   "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
    "id": "x:2119022422821409015",
    "url": "https://x.com/RRomcym/status/2119022422821409015",
    "source": "x",
@@ -123535,19 +123326,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@sebastien_vaval Using Grok Bot to find open weekend slots for the people you care about is a great way to put family first. One thing that helped me: block those times as recurring holds before work fills the calendar. I'd love to trade notes on how you keep that balance while building. Hope we",
-   "media": [],
-   "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
-   "id": "x:2119019036680032760",
-   "url": "https://x.com/mostdes7gn/status/2119019036680032760",
-   "source": "x",
-   "source_name": "X",
-   "author": "mostdes7gn",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "https://t.co/Rpl2EcBaq4 官方指南「Grok Bot for Work」：四只 Grok Bot 搭上班助理，适合想先筛邮件、日历、消息、自己只拍板的人。\n\n- Inbox Manager：只读邮件 / Slack / 私信，不替你发言，大约挑出 3 件又重要又急的事。\n- Calendar",
    "media": [],
    "found_at": "2026-11-07T13:34:58.691Z"
   },
@@ -123619,21 +123397,6 @@
    "found_at": "2026-11-07T13:34:58.691Z"
   },
   {
-   "id": "x:2119044272377008153",
-   "url": "https://x.com/realjohnmukanga/status/2119044272377008153",
-   "source": "x",
-   "source_name": "X",
-   "author": "realjohnmukanga",
-   "date": "2026-11-07",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "Ever since @OpenAI Dots were introduced, I’ve been able to work on multiple development projects at the same time. What I love the most is their ability to debug and fix a problem. \n\nI won’t lie, they are a 10/10 for me. @thsottiaux https://t.co/zXxtGxxQhk",
-   "media": [
-    "https://pbs.twimg.com/media/HWhbh_6WoAAUFF0.jpg"
-   ],
-   "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
    "id": "x:2119039225077395939",
    "url": "https://x.com/savipww/status/2119039225077395939",
    "source": "x",
@@ -123645,36 +123408,6 @@
    "text": "@hammertime_one grok bot users:                                    openai dots users: https://t.co/s8u7cu0vZP",
    "media": [
     "https://pbs.twimg.com/tweet_video_thumb/HWhW8TFXkAEogKu.jpg"
-   ],
-   "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
-   "id": "x:2119039082043187551",
-   "url": "https://x.com/diegojavierzea/status/2119039082043187551",
-   "source": "x",
-   "source_name": "X",
-   "author": "diegojavierzea",
-   "date": "2026-11-07",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "@_samirism My dot has been making more mistakes over time, repeating errors after corrections and saying tasks are done without checking. Reliability needs more attention. https://t.co/a5SO94B7QS",
-   "media": [
-    "https://pbs.twimg.com/media/HWhWr_yW4AAGyVh.jpg"
-   ],
-   "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
-   "id": "x:2119033749711294810",
-   "url": "https://x.com/vultuk/status/2119033749711294810",
-   "source": "x",
-   "source_name": "X",
-   "author": "vultuk",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "I'm fed up with ChatGPT. I hate that that's the case, but it's where I am.\n\nI'm fed up with my Dot\n- Losing connection to its own products, Sites, Spaces\n- Refusing to create a GitHub issue because it can't find a label despite having given it permission to create labels\n\nI'm fed up with the Desktop app\n- Coming to a halt every few hours because it's consuming all my RAM, just because it's open not doing any work\n- Trying to do more than it needs to, it's just too bloated\n\nI'm sad that\n- I'm getting superior results from Opus 5.5 for design and coding, even though I much prefer working with Luna, Sol and Astra\n- We just never know what's going to be fixed, or when.\n- Parts of OpenAI's software regularly stop working without warning, giving the impression that quality control is an afterthought\n\nI'm just tired of fighting to make what should be simple tasks work.\n\nI've invested an enormous amount of time building my workflows around OpenAI's ecosystem because I genuinely believe in what it's trying to achieve. That's what makes this so frustrating.",
-   "media": [
-    "https://pbs.twimg.com/media/HWhPWIHbgAAdp7R.jpg"
    ],
    "found_at": "2026-11-07T13:34:58.691Z"
   },
@@ -123757,21 +123490,6 @@
    "text": "Have @OpenAI dots gotten any better? Before I invest time going back to using mine.",
    "media": [],
    "found_at": "2026-11-07T13:34:58.691Z"
-  },
-  {
-   "id": "x:2119008907029041182",
-   "url": "https://x.com/ricbuilds_/status/2119008907029041182",
-   "source": "x",
-   "source_name": "X",
-   "author": "ricbuilds_",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "I moved from ChatGPT Dots to Grok Bot and so far it's been a really good switch.\n\nOnboarding was smooth and it replies SO fast.\n\nWith Dots I had:\n- one single thread for everything\n- extremely slow and verbose answers\n- it doesn't work when I'm in Europe\n\nNot going back. https://t.co/Oq9RvrE9cD",
-   "media": [
-    "https://pbs.twimg.com/media/HWg7SPFboAAPfE9.jpg"
-   ],
-   "found_at": "2026-11-07T13:34:58.692Z"
   },
   {
    "id": "x:2119006639575503303",
@@ -123868,21 +123586,6 @@
    "product": "openai-dots",
    "text": "Yes, OpenAI Dots can. Connect your email, set rules for approvals, and instruct it to monitor receipts, cancel unwanted subs, and search for cheaper alternatives via its browser and actions. Muse does this more explicitly for life admin. Specialized tools like Rocket Money still edge on seamless execution and verified savings.",
    "media": [],
-   "found_at": "2026-11-07T13:34:58.692Z"
-  },
-  {
-   "id": "x:2118970707942252780",
-   "url": "https://x.com/danishshahzadcr/status/2118970707942252780",
-   "source": "x",
-   "source_name": "X",
-   "author": "danishshahzadcr",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "I tested Meta Muse and OpenAI Dots, two AI agents that each have their own cloud computer.\n\nMuse: best for personal automation and content.\nDots: best for coordinating projects across your apps.\n\nWhich one would you choose? #AIAgents https://t.co/rvRRboDZKR",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2118970283742949376/img/_rnXqBmemCVDOTZA.jpg"
-   ],
    "found_at": "2026-11-07T13:34:58.692Z"
   },
   {
