@@ -125401,34 +125401,6 @@
    "found_at": "2026-11-07T23:36:00.497Z"
   },
   {
-   "id": "x:2119186365636374789",
-   "url": "https://x.com/KevinMHeinrich/status/2119186365636374789",
-   "source": "x",
-   "source_name": "X",
-   "author": "KevinMHeinrich",
-   "date": "2026-11-07",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "@ConnorTalksAI What Claude? Meta Muse is where it's at. I do 90% of my personal and work related tasks with Muse and the rest is Grok Imagine and ComfyUI",
-   "media": [],
-   "found_at": "2026-11-07T23:36:00.497Z"
-  },
-  {
-   "id": "x:2119184114997993739",
-   "url": "https://x.com/praxisvectorai/status/2119184114997993739",
-   "source": "x",
-   "source_name": "X",
-   "author": "praxisvectorai",
-   "date": "2026-11-07",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Meta Muse Spaces (Nov 6): describe an idea → a persistent custom experience inside Muse. Pin to sidebar or tabs, schedule when it appears, connect apps for background updates. Human designs the space; the agent keeps it current.\nhttps://t.co/G63g0BiCbK https://t.co/f1XpJOK9hv",
-   "media": [
-    "https://pbs.twimg.com/media/HWhsr2mW8AArto8.jpg"
-   ],
-   "found_at": "2026-11-07T23:36:00.497Z"
-  },
-  {
    "id": "x:2119180538460418314",
    "url": "https://x.com/it_consul_x/status/2119180538460418314",
    "source": "x",
@@ -125453,21 +125425,6 @@
    "text": "Two notable releases in AI agents this week. Perplexity introduced Teammates, always-on agents that handle ongoing assignments. Meta added real-time voice to Meta Muse. https://t.co/P27nNA4Bi2",
    "media": [
     "https://pbs.twimg.com/media/HWjV0OmW0AAhQiW.jpg"
-   ],
-   "found_at": "2026-11-07T23:36:00.497Z"
-  },
-  {
-   "id": "x:2119140037610569853",
-   "url": "https://x.com/BrianSky/status/2119140037610569853",
-   "source": "x",
-   "source_name": "X",
-   "author": "BrianSky",
-   "date": "2026-11-07",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "12 billion credits. $120.\n\nMeta Muse is the best AI value I’ve tried.\n\nGrok Bot burns through usage faster—and surprisingly, Muse delivers better results.\n\nIt also beats ChatGPT Dots for me. Claude Duet is next.\n\nAnyone tested all four? What’s your winner? https://t.co/VUnFPZAXUg",
-   "media": [
-    "https://pbs.twimg.com/media/HWiyod2W8AApJNi.jpg"
    ],
    "found_at": "2026-11-07T23:36:00.497Z"
   },
@@ -126569,19 +126526,6 @@
    "likes": 0,
    "product": "meta-muse",
    "text": "Ipsita-Mondal-30/Acorn\nAcorn is a multimodal personal memory and follow-through agent that transforms scattered information—screenshots, documents, links, and voice notes—into actionable knowledge. Powered by Meta Muse Spark, Muse Voice Transcribe, and Muse Image, Acorn helps users capture, understand, organize, retrieve, and connect information, then turn it into action",
-   "media": [],
-   "found_at": "2026-11-08T13:33:15.286Z"
-  },
-  {
-   "id": "gh:github.com/akari-sora/muse-web-cli",
-   "url": "https://github.com/akari-sora/muse-web-cli",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "akari-sora",
-   "date": "2026-11-08",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "akari-sora/muse-web-cli\nUnofficial CLI for your own logged-in Meta Muse web session in a dedicated Chrome profile: status, messages, side chats, and sends with file attachments. Not affiliated with Meta. Part of trinity-cli. Mirror; canonical repo and issues: gitlab.com/aa22396584/muse-web-cli\ncli meta-muse playwright python trinity-cli",
    "media": [],
    "found_at": "2026-11-08T13:33:15.286Z"
   },
@@ -128108,22 +128052,6 @@
    "found_at": "2026-11-08T22:15:26.967Z"
   },
   {
-   "id": "yt:TMfufCCs3zk",
-   "url": "https://www.youtube.com/watch?v=TMfufCCs3zk",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "AI for Real Work — by Reasonfold",
-   "date": "2026-11-07",
-   "likes": null,
-   "views": 55,
-   "product": "openai-dots",
-   "text": "OpenAI Dots vs Claude Duet: What Can You Actually Hand Over?\nCan OpenAI Dots and Claude Duet take over the follow-ups you still manage yourself? If you already use ChatGPT Work or Claude Cowork, this comparison explains what changes when you hand an AI an ongoing responsibility.\n\nA client's budget drops from $12,000 to $9,000, but the proposal is still out of date. Spotting the email is one job. Finding the affected documents, preparing options and bringing you the next decision is another.\n\nSam and Lia compare official product descriptions and early-user reports to explore:\n• One-off tasks, scheduled or event-triggered work, and ongoing responsibilities\n• Dots' activity view and browser takeover vs Duet's channels and task management\n• The difference between preparing a draft and making a commitment\n• What Dan Shipper and Claire Vo's early reports do—and do not—establish\n• How to brief an AI agent, reduce unnecessary notifications and count your own management work\n\nThe workshop scenario is illustrative, not a product test or performance benchmark. Product details in the episode are dated October 31, 2026; check the linked documentation for current access, features and usage limits.\n\nCHAPTERS\n0:00 Still planning every AI task?\n0:59 Work and Cowork vs ongoing AI agents\n1:50 A budget change: more than a notification\n2:52 OpenAI Dots: activity and browser takeover\n3:23 Claude Duet: channels, tasks and review\n3:54 Drafting vs sending: who decides?\n4:21 Is Duet better? What early users report\n5:39 How to hand over an ongoing job\n6:41 How to tell if an AI agent saves you work\n7:10 Access, regions and usage limits\n7:47 Start with one responsibility\n\nOFFICIAL SOURCES\nOpenAI — Meet dots\nhttps://learn.chatgpt.com/docs/dots\nOpenAI — Scheduled tasks\nhttps://learn.chatgpt.com/docs/automations\nOpenAI — Control your dot\nhttps://learn.chatgpt.com/docs/dots/controls\nOpenAI — Tasks and memory\nhttps://learn.chatgpt.com/docs/dots/tasks-and-memory\nAnthropic — Introducing Claude Duet\nhttps://claude.com/resources/articles/claude-duet\nAnthropic — Get started with Claude Duet\nhttps://support.claude.com/en/articles/17631495-get-started-with-claude-duet\nAnthropic — Claude Cowork and chat are one Claude\nhttps://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude\n\nEARLY-USER REPORTS\nDan Shipper / Every — Vibe Check: Duet—Anthropic's Always-on Agent\nhttps://every.to/vibe-check/vibe-check-duet-anthropic-s-always-on-agent\nClaire Vo / Lenny's Newsletter — Claude Duet is beautiful. I still forgot to use it\nhttps://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still\n\nAI for Real Work — practical AI, checked on evidence.\n\n#AIAgents #ChatGPT #Claude",
-   "media": [
-    "https://i.ytimg.com/vi/TMfufCCs3zk/hqdefault.jpg"
-   ],
-   "found_at": "2026-11-08T23:33:29.401Z"
-  },
-  {
    "id": "yt:e2ORGeFwP7k",
    "url": "https://www.youtube.com/watch?v=e2ORGeFwP7k",
    "source": "youtube",
@@ -128140,22 +128068,6 @@
    "found_at": "2026-11-08T23:34:08.339Z"
   },
   {
-   "id": "yt:xHYp3LvPCTA",
-   "url": "https://www.youtube.com/watch?v=xHYp3LvPCTA",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "Parker Prompts",
-   "date": "2026-11-08",
-   "likes": null,
-   "views": 12334,
-   "product": "grok-bot",
-   "text": "Grok Bot Tutorial for Beginners: How to Set Up Your First AI Agent\nGo from ABSOLUTE ZERO to using AI like the people who do this for a living👇\nhttps://www.skool.com/ai-fluency\n\nIn this video, I show how to set up Grok Bot and create your own team of AI agents that can handle tasks using connected apps and their own cloud computer. I walk through building bots for tracking receipts, managing spreadsheets and emails, getting multiple agents to work together, automating Goodreads, scheduling recurring tasks, and teaching bots new skills by recording your actions.\n\nI'm Parker. I started this YouTube Channel with the goal to learn more about AI myself and to then pass on the knowledge to anyone willing to listen.\n\nlet's work together: partnerships @ parker-prompts.com",
-   "media": [
-    "https://i.ytimg.com/vi/xHYp3LvPCTA/hqdefault.jpg"
-   ],
-   "found_at": "2026-11-08T23:34:30.994Z"
-  },
-  {
    "id": "yt:AmMFDRLgd7Y",
    "url": "https://www.youtube.com/watch?v=AmMFDRLgd7Y",
    "source": "youtube",
@@ -128170,22 +128082,6 @@
     "https://i.ytimg.com/vi/AmMFDRLgd7Y/hqdefault.jpg"
    ],
    "found_at": "2026-11-08T23:34:35.627Z"
-  },
-  {
-   "id": "yt:9IOBpPXIsD0",
-   "url": "https://www.youtube.com/watch?v=9IOBpPXIsD0",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "Thomas Bekkers",
-   "date": "2026-11-07",
-   "likes": null,
-   "views": 5367,
-   "product": "grok-bot",
-   "text": "Grok Bot Usage Got Nerfed. Do This Now\nGrok Bot usage got nerfed. I'm four days in and I've used over 80% of mine. I'm not giving up on it yet, so here's exactly what I'm doing to make it last, what I wouldn't do, and what I think happens next.\n\nMy Hermes plugin that makes Hermes bot mode feel more like Grok Bot: https://github.com/thomasbek3/hermes-bot-kit\n\nMy earlier Grok Bot videos:\n10 real use cases: https://youtu.be/fQ6-dhqq1ho\nBattle of the Bots: https://youtu.be/K95cX0eRT94\n\nChapters:\n0:00 Grok Bot usage got nerfed\n0:50 Outsource the big work: Claude, Codex, T3 Code\n2:56 The setup and the 30-second rule\n3:33 Run a usage audit (traces)\n5:14 Turn routines into scripts\n7:11 Why group chats burn usage\n8:21 Connectors first, computer use last\n8:49 What I wouldn't do\n9:29 Is the usage coming back?\n10:43 My plan from here\n\nAlso mentioned: Claude CLI, Codex CLI, T3 Code (https://t3.codes), Langfuse (https://langfuse.com), Hermes Agent (https://github.com/NousResearch/hermes-agent), Cursor, Slack, Muse.\n\n#GrokBot #AIAgents #AIAutomation",
-   "media": [
-    "https://i.ytimg.com/vi/9IOBpPXIsD0/hqdefault.jpg"
-   ],
-   "found_at": "2026-11-08T23:34:52.155Z"
   },
   {
    "id": "gh:github.com/samuelhsin/qwen-code/pull/1489",
@@ -128673,19 +128569,6 @@
    "found_at": "2026-11-08T23:36:58.977Z"
   },
   {
-   "id": "x:2119569901862162845",
-   "url": "https://x.com/xdotgian/status/2119569901862162845",
-   "source": "x",
-   "source_name": "X",
-   "author": "xdotgian",
-   "date": "2026-11-08",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@mattyp @bot @mattyp  I loved grok bot but it is disappointing.\n\nAbsurdly fast token usage burnout: I cut 70% of my task for grok bot these 2 weeks but still hit limit in just 3 to 4 days. It is no way i can build anything reliably here so i basically stop migrating my workflow to it.",
-   "media": [],
-   "found_at": "2026-11-08T23:36:58.977Z"
-  },
-  {
    "id": "x:2119569212968702438",
    "url": "https://x.com/joshuatechzero1/status/2119569212968702438",
    "source": "x",
@@ -128790,49 +128673,6 @@
    "found_at": "2026-11-08T23:36:58.978Z"
   },
   {
-   "id": "x:2119565632199123278",
-   "url": "https://x.com/GuerrillaBrain/status/2119565632199123278",
-   "source": "x",
-   "source_name": "X",
-   "author": "GuerrillaBrain",
-   "date": "2026-11-08",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": ".@UTCompSci is hiring 50 new professors. 👍 Meanwhile, I’m wondering what their graduates' first job looks like. Here's why:\n\nI described to Grok @bot what I wanted in plain English. It did the work. Flawlessly.\n\nIn less than an hour, it deployed a server, set up Docker https://t.co/FSpzaaPE6b https://t.co/sg0jdZhI4T",
-   "media": [
-    "https://pbs.twimg.com/media/HWoEGCYXkAALM_7.jpg"
-   ],
-   "found_at": "2026-11-08T23:36:58.978Z"
-  },
-  {
-   "id": "x:2119565628889821272",
-   "url": "https://x.com/romitmirchi/status/2119565628889821272",
-   "source": "x",
-   "source_name": "X",
-   "author": "romitmirchi",
-   "date": "2026-11-08",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Using Notion as a “brain” for Grok Bot has been an incredible productivity hack, and how I built my fleet. \n\nAll my rules, skills, and routines are written back to Notion. Bots are also responsible for maintaining task boards in Notion (what’s waiting on me, waiting on others, or https://t.co/VnREHBVwNp",
-   "media": [],
-   "found_at": "2026-11-08T23:36:58.978Z"
-  },
-  {
-   "id": "x:2119565455937417267",
-   "url": "https://x.com/tidyowl/status/2119565455937417267",
-   "source": "x",
-   "source_name": "X",
-   "author": "tidyowl",
-   "date": "2026-11-08",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "every Grok Bot you make works on the same cloud computer. same browser cookies, same files, same command-line credentials\n\nGrok Bot is xAI's AI teammate. you chat with it, and it does the work on a real computer in the cloud with a browser, a terminal and a filesystem. it keeps https://t.co/NNmlj4WTdU",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2119565080941428736/img/iLAhCwQjXsMEdD8F.jpg"
-   ],
-   "found_at": "2026-11-08T23:36:58.978Z"
-  },
-  {
    "id": "x:2119565236923514900",
    "url": "https://x.com/0xDezo/status/2119565236923514900",
    "source": "x",
@@ -128845,19 +128685,6 @@
    "media": [
     "https://pbs.twimg.com/amplify_video_thumb/2119561544912556032/img/NKFAl0Lhxa9yLAh5.jpg"
    ],
-   "found_at": "2026-11-08T23:36:58.978Z"
-  },
-  {
-   "id": "x:2119564706335924682",
-   "url": "https://x.com/Gloomero/status/2119564706335924682",
-   "source": "x",
-   "source_name": "X",
-   "author": "Gloomero",
-   "date": "2026-11-08",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "My Grok Bot filled its hard drive making game assets. Google Drive is helping solve two problems: storage and moving large files between computers.\n\nModels, textures, Blender files and old versions add up fast. Large direct transfers between the bot and my PCs have also timed",
-   "media": [],
    "found_at": "2026-11-08T23:36:58.978Z"
   },
   {
@@ -128874,47 +128701,6 @@
    "found_at": "2026-11-08T23:36:58.978Z"
   },
   {
-   "id": "x:2119520463311565285",
-   "url": "https://x.com/HenryBeagle808/status/2119520463311565285",
-   "source": "x",
-   "source_name": "X",
-   "author": "HenryBeagle808",
-   "date": "2026-11-08",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "@TomasMann1878 @Meta Muse is the best agent experience I've tried.  Grok Bot is great but I can't use it that much due to usage.  Duet is good too for Claude related stuff and overseeing projects.  But Muse is everything!",
-   "media": [],
-   "found_at": "2026-11-08T23:36:58.978Z"
-  },
-  {
-   "id": "x:2119507987786273095",
-   "url": "https://x.com/ctedevs/status/2119507987786273095",
-   "source": "x",
-   "source_name": "X",
-   "author": "ctedevs",
-   "date": "2026-11-08",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "In addition - NGL, I got way more usage out of @Meta Muse for free than Grok bot. Muse just didn’t fit into my workflow, so I gave Grok a try. With @elonmusk confirming they’re addressing the limit complaints, hopefully I can stick around with @bot 🤞 (The subscription lock is still hard to justify, though).",
-   "media": [],
-   "found_at": "2026-11-08T23:36:58.978Z"
-  },
-  {
-   "id": "x:2119497263814693074",
-   "url": "https://x.com/AgentMsgr/status/2119497263814693074",
-   "source": "x",
-   "source_name": "X",
-   "author": "AgentMsgr",
-   "date": "2026-11-08",
-   "likes": 3,
-   "product": "meta-muse",
-   "text": "Grok Bot user interface for Meta Muse.\n\nWe built a free application to give Muse an iMessage-type user interface.\n\nHere's how:\n1. A side chat per agent\n2. Give each a role and its own inbox\n3. Paste one message to connect it\n4. Put them in one group chat\n\nhttps://t.co/qAOZdYLzG4 https://t.co/thW4JWpsbV",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2119496253570469889/img/NVonixNbbgIrUBk7.jpg"
-   ],
-   "found_at": "2026-11-08T23:36:58.978Z"
-  },
-  {
    "id": "x:2119495642238087470",
    "url": "https://x.com/AgentMsgr/status/2119495642238087470",
    "source": "x",
@@ -128925,49 +128711,6 @@
    "product": "meta-muse",
    "text": "We ran into the same issue: Running out of Grok Bot usage far too quickly.\n\nSo we built AgentMsgr, an app to coordinate agents cross-platform. Make a group chat that has your Grok Bot & Meta Muse in it (or any agent!)\n\nYou can coordinate cross-platform agents to work together, or you can have them off load tasks when usage is getting low.\n\nWe have been enjoying this tool internally, but are searching for users to demo our product and give us feedback.\n\nTry free https://t.co/xwQeBgCauG",
    "media": [],
-   "found_at": "2026-11-08T23:36:58.978Z"
-  },
-  {
-   "id": "x:2119483276708520191",
-   "url": "https://x.com/SunnySonnendeck/status/2119483276708520191",
-   "source": "x",
-   "source_name": "X",
-   "author": "SunnySonnendeck",
-   "date": "2026-11-08",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "@DaveBlundin I can totally relate to that. A couple of years ago creating an app was impossible for me. But now look at what I have built! My medical domain knowledge and #Meta #MUSE #AI co-created this productivty and learning tool for #MRI inspection. \nhttps://t.co/OB4UkPt1jP",
-   "media": [],
-   "found_at": "2026-11-08T23:36:58.978Z"
-  },
-  {
-   "id": "x:2119433650010005777",
-   "url": "https://x.com/a017444/status/2119433650010005777",
-   "source": "x",
-   "source_name": "X",
-   "author": "a017444",
-   "date": "2026-11-08",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Magic Realms: another MVP using my 8bit Vile Engine. This time I prompted a platformer. Built entirely with Meta Muse Spark 1.3. I'm refining this process, eventually it will be easier to refine the MVP. https://t.co/F4jAqriuf8 https://t.co/LpEBHPAvL7",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2119433226548649984/img/uWM0aI8wa1d3rnR6.jpg"
-   ],
-   "found_at": "2026-11-08T23:36:58.978Z"
-  },
-  {
-   "id": "x:2119460477176611199",
-   "url": "https://x.com/imhmxi/status/2119460477176611199",
-   "source": "x",
-   "source_name": "X",
-   "author": "imhmxi",
-   "date": "2026-11-08",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "Every big AI lab shipped a chief of staff this fall:\n\nOpenAI Dots: always-on agents, each with its own cloud computer\nClaude Duet: triages your email and calendar every morning, asks before it sends anything (waitlist)\nGrok Bot: tag @bot under any post on X and it takes the task https://t.co/E7uIOqrMZ2",
-   "media": [
-    "https://pbs.twimg.com/media/HWnWEowXQAA_46w.jpg"
-   ],
    "found_at": "2026-11-08T23:36:58.978Z"
   },
   {

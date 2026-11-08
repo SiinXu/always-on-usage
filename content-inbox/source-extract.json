@@ -9685,5 +9685,57 @@
   ],
   "kind": "github",
   "fetched_at": "2026-11-08"
+ },
+ "https://www.youtube.com/watch?v=xHYp3LvPCTA": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/xHYp3LvPCTA/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-08"
+ },
+ "https://www.youtube.com/watch?v=9IOBpPXIsD0": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/9IOBpPXIsD0/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-08"
+ },
+ "https://www.youtube.com/watch?v=TMfufCCs3zk": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/TMfufCCs3zk/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-08"
+ },
+ "https://github.com/akari-sora/muse-web-cli": {
+  "text": "English | 繁體中文",
+  "media": [],
+  "outline": [
+   "Drives the Muse web app you are already logged into. It is not a second Muse.",
+   "The default browser backend drives the page through a dedicated Chrome profile and does not read cookies; Chrome reads the profile.",
+   "The optional api backend (--backend api) calls the Muse gateway. Only credential stores a token: it gets the gateway token from the logged-in page and writes…",
+   "JSON shapes and exit codes are the same on both backends.",
+   "The command is muse-web-cli. The name muse belongs to Meta's Muse Code (~/.local/bin/muse).",
+   "Memory is read-only. The tool never clicks settings, connectors, invites, the attach button (send --attach puts files straight into the composer's file input…",
+   "It does not read cookies, enable the CDP Network or Storage domains, or print a token. Printed error and hint text is scrubbed of auth_token=, Bearer, and JW…",
+   "The browser backend drives the dedicated Chrome profile ~/.trinity-cli/muse-profile on your machine only; the login stays in that profile. The api backend ta…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-08"
  }
 }
