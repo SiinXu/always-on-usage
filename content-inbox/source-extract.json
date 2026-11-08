@@ -9638,5 +9638,52 @@
   "outline": [],
   "kind": "youtube",
   "fetched_at": "2026-11-07"
+ },
+ "https://github.com/akari-sora/trinity-cli": {
+  "text": "> 正本和 issue 在 https://gitlab.com/aa22396584/trinity-cli。",
+  "media": [],
+  "outline": [
+   "Your dot：chatgpt-dot-cli --json",
+   "Grok Bot：gbot --json（這個 fork）",
+   "Muse：muse-web-cli --json --autostart",
+   "trinity-cli（這個 repo）— 一個指令包三個一直開著的 agent（Your dot、Grok Bot、Muse）：https://gitlab.com/aa22396584/trinity-cli",
+   "chatgpt-dot-cli — ChatGPT Your dot：https://gitlab.com/aa22396584/chatgpt-dot-cli",
+   "grok-bot-cli（fork，gbot）— Grok Bot：https://gitlab.com/aa22396584/grok-bot-cli",
+   "muse-web-cli — 用網頁操作 Meta Muse：https://gitlab.com/aa22396584/muse-web-cli",
+   "Your dot：codex login。401 時再跑一次。也可以 trinity-cli login dot。多個 dot 時設 TRINITY_DOT_ID。細節見 chatgpt-dot-cli 疑難排解。"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-08"
+ },
+ "https://github.com/pku-zhb/grokbot-weixin-bridge": {
+  "text": "A self-hosted, single-owner transport bridge to an existing cloud Grok Bot. Grok owns the conversation, memory and tools; this process relays messages and attachments, streams replies and proactive updates, and tracks delivery in SQLite. It accepts messages from one configured Weixin owner. This is an unofficial integration, not an official Grok or Tencent product.",
+  "media": [],
+  "outline": [
+   "Python 3.11+, macOS or Linux, and uv.",
+   "grokbot CLI, independently logged in",
+   "Compatibility caveat: the bridge needs rpc --stream support. Verify your",
+   "Weixin: direct HTTPS JSON calls using Python urllib to the iLink bot protocol",
+   "Install a compatible CLI from the project linked above. Follow its build/login",
+   "In this directory, run uv sync --locked.",
+   "Copy config.example.toml to config.toml. Set the CLI path, profile, exact cloud bot name,",
+   "Supply secrets through environment variables, not tracked config files."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-08"
+ },
+ "https://github.com/akari-sora/chatgpt-dot-cli": {
+  "text": "> 正本和 issue 在 https://gitlab.com/aa22396584/chatgpt-dot-cli。",
+  "media": [],
+  "outline": [
+   "安裝 Codex CLI，用 ChatGPT 帳號執行 codex login。",
+   "Linux：$HOME/.codex/auth.json",
+   "macOS：$HOME/.codex/auth.json",
+   "Windows：%USERPROFILE%\\.codex\\auth.json",
+   "設了 CODEX_HOME 時，Codex 和這個 CLI 都改用 $CODEX_HOME/auth.json。",
+   "檔案在別處時，CLI 用 --auth 路徑（可以用 ~）。MCP 沒有 --auth，只讀上面那個預設路徑。",
+   "確認可用（唯讀，約數秒）："
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-08"
  }
 }

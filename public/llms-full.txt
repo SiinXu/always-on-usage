@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2313 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2332 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-07T23:41:07.036Z
+- Last updated: 2026-11-08T13:39:26.996Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3153,6 +3153,36 @@
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
 
+### The first 5 things to do when starting Grok Bot from scratch
+- URL: https://usage.incidental.site/cases/x-michaelfenech-2119390223696318874.html
+- Type: guide · Product: grok-bot · Author: Michael_Fenech_ · Source: https://x.com/Michael_Fenech_/status/2119390223696318874 · Date: 2026-11-08
+- Summary: After working with a team of Grok Bots, the author says results come not from having the most bots, prompts or automations but from getting five fundamentals right, and the thread lists the five things he would do first.
+
+### Talk to Muse or Grok bot by phone, run a home Mac as the backend
+- URL: https://usage.incidental.site/cases/x-cursorvers-2119248547543712015.html
+- Type: field-case · Product: multi · Author: cursorvers · Source: https://x.com/cursorvers/status/2119248547543712015 · Date: 2026-11-08
+- Summary: The author’s setup: voice chats with Muse or Grok bot on the phone, while a home Mac kept always on via Tailscale runs Claude Code or Codex as their backend with orchestration, a frontier model as the brain and cheap models like DeepSeek as workers; he says the bottleneck is now the human.
+
+### Named bots with roles, all running at once
+- URL: https://usage.incidental.site/cases/x-calicoxai-2119419759548682411.html
+- Type: field-case · Product: grok-bot · Author: calicoxai · Source: https://x.com/calicoxai/status/2119419759548682411 · Date: 2026-11-08
+- Summary: The post quotes SpaceXAI engineers: most people use GrokBot like a simple chat, but they gave their bots names and roles, Email Ethan handles replies, Slide Sonya makes decks, Data Dan grabs numbers, and they all run at once.
+
+### trinity-cli: one CLI over three always-on agents
+- URL: https://usage.incidental.site/cases/gh-github-com-akari-sora-trinity-cli.html
+- Type: field-case · Product: multi · Author: akari-sora · Source: https://github.com/akari-sora/trinity-cli · Date: 2026-11-08
+- Summary: An unofficial open-source CLI over three always-on agents (ChatGPT Your dot, Grok Bot, Meta Muse), with a migrate command to move a Grok Bot to Muse or Your dot; it wraps chatgpt-dot-cli, grok-bot-cli (gbot) and muse-web-cli and is not affiliated with OpenAI, xAI, Cursor or Meta.
+
+### A self-hosted Weixin bridge for Grok Bot
+- URL: https://usage.incidental.site/cases/gh-github-com-pku-zhb-grokbot-weixin-bridge.html
+- Type: field-case · Product: grok-bot · Author: pku-zhb · Source: https://github.com/pku-zhb/grokbot-weixin-bridge · Date: 2026-11-08
+- Summary: GitHub project grokbot-weixin-bridge: a self-hosted Weixin (WeChat) bridge for Grok Bot, built on grokbot-cli.
+
+### chatgpt-dot-cli: a CLI and MCP server for Your dot
+- URL: https://usage.incidental.site/cases/gh-github-com-akari-sora-chatgpt-dot-cli.html
+- Type: field-case · Product: openai-dots · Author: akari-sora · Source: https://github.com/akari-sora/chatgpt-dot-cli · Date: 2026-11-08
+- Summary: An unofficial CLI and MCP server for your ChatGPT Your dot: it reads status and messages and sends only on explicit command; part of trinity-cli and not affiliated with OpenAI.
+
 ### Use +aliases on a Grok Bot inbox to wake different routines
 - URL: https://usage.incidental.site/cases/x-itsltdan-2119040000838828428.html
 - Type: guide · Product: grok-bot · Author: its_LtDan · Source: https://x.com/its_LtDan/status/2119040000838828428 · Date: 2026-11-07
@@ -3322,6 +3352,51 @@
 - URL: https://usage.incidental.site/cases/yt-m532dfwivny.html
 - Type: guide · Product: grok-bot · Author: Julian Goldie SEO · Source: https://www.youtube.com/watch?v=M532DfwIVnY · Date: 2026-11-07
 - Summary: The creator says Grok Bot users often hit the weekly limit early, so they moved their bot team to Hermes (open-source agent from Nous Research): one command and prompt carry over each bot’s role, memory, skills and routines, plus Lifeboat, Fuel Gauge and Twin Engine systems to keep work going when Grok Bot runs dry.
+
+### A day run by Grok Bot, hour by hour
+- URL: https://usage.incidental.site/cases/x-aleiahlock-2119048428135022993.html
+- Type: field-case · Product: grok-bot · Author: AleiahLock · Source: https://x.com/AleiahLock/status/2119048428135022993 · Date: 2026-11-07
+- Summary: The author lists a Grok Bot day: 7:30 morning page written, 9:00 inbox sorted with 6 drafts waiting, 12:30 three hotels found for a trip with nothing booked, 15:00 a new subscription flagged, 18:30 downstairs lights off, 23:00 night shift.
+
+### Back up your Grok Bot so you can switch platforms
+- URL: https://usage.incidental.site/cases/x-fabioricotta-2119202697433788901.html
+- Type: guide · Product: grok-bot · Author: fabioricotta · Source: https://x.com/fabioricotta/status/2119202697433788901 · Date: 2026-11-07
+- Summary: The author shares how he backs up his Grok Bot so he can move to another platform without starting over, and suggests tagging your own bot in the replies to have it help you do the same.
+
+### X Creators edit 10 videos in parallel with Grok Bot in about 2 hours
+- URL: https://usage.incidental.site/cases/x-zarrax21-2119058682365513905.html
+- Type: guide · Product: grok-bot · Author: ZaRRaX21 · Source: https://x.com/ZaRRaX21/status/2119058682365513905 · Date: 2026-11-07
+- Summary: The post points to an X Creators breakdown of how its internal team and partner creators use Grok Bot to edit 10 raw videos in parallel in about two hours, treating it as a full cloud production stack rather than a script generator.
+
+### Lauren Tan’s team merges 10,926 PRs a month
+- URL: https://usage.incidental.site/cases/x-distortgeekin-2119059855897997494.html
+- Type: field-case · Product: grok-bot · Author: distortgeekin · Source: https://x.com/distortgeekin/status/2119059855897997494 · Date: 2026-11-07
+- Summary: The post says Grok Bot engineer Lauren Tan’s team merges 10,926 PRs a month without anyone reading the code; she dropped the reviewer bot because bots reviewing bots burn tokens on nitpicks, and spends tokens on proof instead, starting with guardrails like types and lint.
+
+### Matt Palmer onboarded through Grok Bot alone
+- URL: https://usage.incidental.site/cases/x-0xnotfounder-2119058579541930083.html
+- Type: field-case · Product: grok-bot · Author: 0xNotFounder · Source: https://x.com/0xNotFounder/status/2119058579541930083 · Date: 2026-11-07
+- Summary: The post covers a 34-minute Q&A: Matt Palmer, who builds Grok Bot, set a rule when he joined never to message his manager and to try onboarding solely through Grok Bot; he and teammate Eric Zakariasson show how they run it with Slack, Notion and more.
+
+### Engineers using Grok Bot as their main building surface
+- URL: https://usage.incidental.site/cases/x-0xqinshi-2119045061212074205.html
+- Type: field-case · Product: grok-bot · Author: 0xqinshi · Source: https://x.com/0xqinshi/status/2119045061212074205 · Date: 2026-11-07
+- Summary: The post covers a 27-minute talk: an ex-Cursor engineer now at SpaceXAI says many Cursor engineers use Grok Bot as their primary surface for building; he shows bots launching cloud agents for code while other bots handle his calendar and more.
+
+### A Stanford lecture on how Grok Bot works under the hood
+- URL: https://usage.incidental.site/cases/x-herkuloess-2119078550099628538.html
+- Type: guide · Product: grok-bot · Author: herkuloess · Source: https://x.com/herkuloess/status/2119078550099628538 · Date: 2026-11-07
+- Summary: The post says Stanford has a lecture on Grok Bot’s internals taught by SpaceXAI’s Lee Robinson, who helped build it: unlike a terminal harness, an always-on agent is more like a colleague that knows when to be quiet, and only tool names go into the prompt.
+
+### 5 ready-made Grok Bot teams with weekly-limit estimates
+- URL: https://usage.incidental.site/cases/x-0xrafy-2119199657515774267.html
+- Type: guide · Product: grok-bot · Author: 0xRafy · Source: https://x.com/0xRafy/status/2119199657515774267 · Date: 2026-11-07
+- Summary: The author built 5 copy-paste Grok Bot teams (36 bots): Content Studio, Indie Dev, Research Desk, Founder Ops and Launch Team, each with first messages, plain-word routines, approval rules, an office preview and a weekly-limit estimate; Content Studio takes about 81% of a Premium week on Standard, 22% on Super and 6% on Ultra.
+
+### Day 15 ledger of automated trades by grokbot
+- URL: https://usage.incidental.site/cases/x-purplehubx-2119052126878154936.html
+- Type: field-case · Product: grok-bot · Author: PurpleHubX · Source: https://x.com/PurpleHubX/status/2119052126878154936 · Date: 2026-11-07
+- Summary: The author logs day 15 (2026/10/24): grokbot made automated purchases after checks, 8 buys and 7 sells, ending with 3 holdings; realized regular-trade result was -$27.96 for the day and -$25.22 total, unrealized tracked separately. Automation works, but he wishes the losses would stop.
 
 ### Grok Bot sets project reminders on iPhone Reminders and Calendar
 - URL: https://usage.incidental.site/cases/x-kristennetten-2118812060826112059.html
@@ -10928,6 +11003,21 @@
 - Type: comparison · Product: multi · Author: zex_exe · Source: https://x.com/zex_exe/status/2119193987890524631 · Date: 2026-11-07
 - Summary: The author contrasts Muse voice mode working immediately with OpenAI Dots still requiring three rings before pickup.
 
+### Same money question to four personal agents
+- URL: https://usage.incidental.site/cases/x-analystailab-2119051433190552005.html
+- Type: comparison · Product: multi · Author: AnalystAIlab · Source: https://x.com/AnalystAIlab/status/2119051433190552005 · Date: 2026-11-07
+- Summary: The scenario: a friend urges you to put all your savings into gold, so you ask your AI. They asked Grok Bot, ChatGPT dots, Muse and Instinct the same question with the same budget to see which gets caught in the hype or talks you down, and ask readers to judge.
+
+### OpenMausBot, an open-source Grok Bot-style app
+- URL: https://usage.incidental.site/cases/x-itsarcvale-2119200757396492327.html
+- Type: comparison · Product: grok-bot · Author: itsarcvale · Source: https://x.com/itsarcvale/status/2119200757396492327 · Date: 2026-11-07
+- Summary: The post describes OpenMausBot, a chat app where every contact is an AI bot (not xAI code, 16.9K GitHub stars): each bot runs on your own Claude, Codex or Grok login with its own cloud Linux desktop or local VM, asks before commands or file edits, reaches 500+ apps via Composio, Apache-2.0; the app is free but models still bill you.
+
+### Timon, an open-source alternative that runs agents on your machine
+- URL: https://usage.incidental.site/cases/x-wojakthedev-2119198208400503218.html
+- Type: comparison · Product: grok-bot · Author: WojakTheDev · Source: https://x.com/WojakTheDev/status/2119198208400503218 · Date: 2026-11-07
+- Summary: The post introduces Timon (AGPL-3.0), which adds memory, routines, a browser and a dev workspace (terminal, Kanban, Git, Claude Code or Codex) to subscriptions you already pay for. Steps: check requirements, install the desktop package, sign in to an agent CLI, start small. Caveats: AI usage isn’t free, the machine must stay on, don’t expose it publicly, and GrokBot or Hermes exports may not transfer directly.
+
 ### When Grok Bots get amnesia, SuperLedger uses Coda over Notion
 - URL: https://usage.incidental.site/cases/x-bfrench-2118802405299306553.html
 - Type: comparison · Product: grok-bot · Author: bfrench · Source: https://x.com/bfrench/status/2118802405299306553 · Date: 2026-11-06
@@ -11467,6 +11557,11 @@
 - URL: https://usage.incidental.site/cases/x-alexfindleyai-2119149385254637915.html
 - Type: quota-report · Product: grok-bot · Author: AlexFindleyAI · Source: https://x.com/AlexFindleyAI/status/2119149385254637915 · Date: 2026-11-07
 - Summary: The author says people are talking about Grok Bot usage nerfs; they were running 25 bots, cut to 18 the same day, and moved heavy lifting elsewhere. The new workflow has Claude Code writing code for a personal app AlexOS (diary, money, health, sales). The post cuts off while introducing @hark_labs.
+
+### This week’s usage makes the case for self-hosting
+- URL: https://usage.incidental.site/cases/x-mikepat711-2119057227931627774.html
+- Type: quota-report · Product: grok-bot · Author: mikepat711 · Source: https://x.com/mikepat711/status/2119057227931627774 · Date: 2026-11-07
+- Summary: The author says an AI product can quickly sour you and cause panic when it stops behaving as usual; having built many life-admin flows in Grok Bot, this week’s usage made him think about the value of self-hosting.
 
 ### Asking if a doc was current burned 8% usage; 56% gone in a day
 - URL: https://usage.incidental.site/cases/x-realraddrew-2118825111654477863.html
