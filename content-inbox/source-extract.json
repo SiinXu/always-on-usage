@@ -9737,5 +9737,42 @@
   ],
   "kind": "github",
   "fetched_at": "2026-11-08"
+ },
+ "https://github.com/PoetCoderJun/hk-auto-apply": {
+  "text": "简体中文 | English",
+  "media": [],
+  "outline": [
+   "存量海投：在计划搜索范围内的香港岗位尽量投完；若遇平台限流会如实标出未覆盖分区，并写出分析报告和投递记录（不承诺搜齐全站）。",
+   "跨平台去重：两个平台都投时，同一公司、实质相同的岗位只投一次。",
+   "每日新岗：按你约定的时间做增量检查；有合适的就投，没有也会回一句。",
+   "简历（PDF 或 Word）",
+   "岗位范围：打字或上传选岗说明，要能读出优先、可考虑、硬性排除、软性提示",
+   "香港工作身份或签证、期望月薪、预计可入职时间",
+   "做 JobsDB、LinkedIn，还是两个都投",
+   "符合要求是直接投，还是先确认名单"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-09"
+ },
+ "https://github.com/brett-technical/grokbot-local-forms": {
+  "text": "> [!TIP] > **Automate with your agent.** > >",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/brett-technical/grokbot-local-forms/HEAD/assets/banner.png"
+   }
+  ],
+  "outline": [
+   "Copy example-form/ to a sibling folder named for the form id (kebab-case).",
+   "Edit only form.json. Leave index.html, server.py, and start.ps1 alone.",
+   "Start the server. Open the printed URL in the browser.",
+   "Dry-run safely: set FORMS_DIR to a temp folder and FORM_DISABLE_WEBHOOK=1. Never test-submit against a real webhook.",
+   "No options (or []): open-ended textarea.",
+   "With options: radios (checkboxes if multi: true) plus a write-in unless write_in: false.",
+   "presentation: \"rating\" (or numeric 1–N options): compact rating row.",
+   "Optional group clusters sections under a shared heading."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-09"
  }
 }
