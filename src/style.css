@@ -439,6 +439,9 @@ ul.steps{gap:10px}
 .related{margin:48px 0 0}
 .related h2{font-size:24px;margin:0 0 16px}
 .cases.rel{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+/* one next-related case after the subscribe band; the 6-card .related grid is unchanged */
+#next-rel{max-width:1200px;margin-inline:auto}
+#next-rel .cases{grid-template-columns:minmax(0,1fr)}
 .story>section{max-width:68ch}
 .story>section p{font-size:18px;line-height:1.75}
 .story .xcard blockquote{font-size:17px}
