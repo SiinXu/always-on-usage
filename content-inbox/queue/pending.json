@@ -132508,22 +132508,6 @@
    "found_at": "2026-11-09T23:34:15.201Z"
   },
   {
-   "id": "yt:vNpJz-K644k",
-   "url": "https://www.youtube.com/watch?v=vNpJz-K644k",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "Nick Vasilescu",
-   "date": "2026-11-09",
-   "likes": null,
-   "views": 11458,
-   "product": "grok-bot",
-   "text": "Grok Bot Cut My Limits... So I Built My Own (Open Source)\nGrok Bot cut my limits, so I used T3 Code as a software factory to reverse engineer Grok Bot and build my own open source Grok Bot clone. Every prompt is on screen.\n\nGet the repo: https://github.com/nickvasilescu/grokbot-clone\n\nWhat you'll see:\n An agent uses Grok Bot with computer use, then rebuilds the whole UI in Paper MCP in about 30 minutes\n→ The Reverse Engineer Anything (REA) repo mapping the backend, the bots, and the interface\n→ T3 Code running agents across 5 machines: my MacBook plus Orgo cloud computers (Linux, GPU, Mac mini, Windows)\n→ The working clone: Google sign-in through Composio, Grok 4.7 through the xAI API, and every bot on its own Orgo computer\n→ A second agent editing this video on a GPU box while the build runs\n\nIf you want a Grok Bot alternative you own and can change, this is the full T3 Code tutorial for building one.\n\nChapters\n\nI show how to use T3 code as a software factory to reverse engineer GrokBot in under an hour. Watch the full build process.\n\nThis walkthrough demonstrates the end-to-end workflow for deconstructing existing applications using AI-driven development. I break down every prompt and architectural decision made while building out the logic. It is a practical look at how to replicate complex software behavior by leveraging a structured coding agent environment.\n\nBy following this reverse engineering approach, you can see how to translate observed features into functional codebases. I focus on the specific tools and logic needed to turn an application into a repeatable build, providing a clear map for anyone looking to analyze and reconstruct software functionality.\n\nSubscribe for more conversations with people building and operating AI agents.\n\n0:00 Intro\n0:31 The stack\n1:45 Spin up a cloud dev box\n3:08 Reverse-engineer Grok Bot\n4:42 Design it with Paper MCP\n7:02 Orgo: computers for agents\n8:47 One agent to orchestrate them all\n10:23 The agents report back\n11:36 T3 settings + load balancing\n15:56 What xAI gives you to build with\n18:34 The architecture\n20:26 Building on Orgo\n23:08 Paper MCP nailed the design\n24:00 Editing this video inside T3\n26:20 Answering the build agent\n28:17 Local + cloud, one workspace\n29:16 Composio: auth + connectors\n30:08 Handing the edit to an agent\n32:23 How I actually use Grok Bot\n34:56 Keys, vaults, and the build\n35:26 My model pick\n36:14 The clone, live\n37:42 A proper walkthrough\n\nTools used\nT3 Code: https://t3.codes/\nReverse Engineer Anything: https://github.com/morluto/rea\nPaper MCP: https://paper.design\nOrgo: https://orgo.ai (docs: https://docs.orgo.ai)\nComposio: https://composio.dev\nxAI API: https://docs.x.ai\n\nModel: Claude Opus 5.5 on high\n\nI'm Nick, co-founder of Orgo (cloud computers for AI agents). I build with agents every day and post what actually works.\n\nX: https://x.com/nickvasilescu\n\n#GrokBot #T3Code #AIAgents",
-   "media": [
-    "https://i.ytimg.com/vi/vNpJz-K644k/hqdefault.jpg"
-   ],
-   "found_at": "2026-11-09T23:34:17.420Z"
-  },
-  {
    "id": "yt:2WRl3_yFlEs",
    "url": "https://www.youtube.com/watch?v=2WRl3_yFlEs",
    "source": "youtube",
@@ -132761,19 +132745,6 @@
    "found_at": "2026-11-09T23:35:24.109Z"
   },
   {
-   "id": "gh:github.com/jish2/df/pull/61",
-   "url": "https://github.com/Jish2/df/pull/61",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "Jish2",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "mini: let cloud agents use the Mac mini over MCP at mini-mcp.jgoon.com\nI want my cloud agents (Meta Muse, the Grok bot) to reach mini over MCP — remindctl, imsg, my files — without opening a shell to the whole internet.\n\n`fleet.desktopCommander` runs [Desktop Commander](https://github.com/wonderwhy-er/DesktopCommanderMCP) behind a small proxy (`proxy.mjs`) on `127.0.0.1:7801`, published at `mini-mcp.jgoon.com` by its own tunnel (terraform: https://github.com/Jish2/terraform/pull/21). The proxy:\n\n- re-verifies the Cloudflare Access JWT (audience, issuer, expiry, signature), so the port is useless without Access in front;\n- exposes an allowlist of 17 tools — shell sessions, files, search. Hidden: `set_config_value`/`get_config` (an agent could clear its own limits), `kill_process`, `write_pdf`, and DC's usage/feedback tools;\n- logs each call with the calling service token.\n\nDC is the npm release, built with `buildNpmPackage` from the tag's lockfile with install scripts off (no install-tracking ping, no Chromium/ripgrep downloads); telemetry and remote feature flags are off.\n\nThe proxy is a **LaunchAgent**: imsg and remindctl need the login session (Messages automation, Reminders and Full Disk Access are per-session TCC), so it runs while I'm logged in, like BlueBubbles. The **connector** is a LaunchDaemon on a separate tunnel from `cloudflared-ssh`, so the ssh lifeline is untouched.\n\nAlso: `make doctor` checks, a FLEET.md section, and `steipete/tap/remindctl` declared (already installed by hand).\n\nTested on mini against the built package: no JWT, wrong audience and expired JWTs get 401; `tools/list` returns only the allowlist; `set_config_value` is refused; `start_process` runs commands. `darwinConfigurations.mini.system` builds.\n\nAfter merge: `yadm pull`, switch mini via the remote procedure, then grant Reminders / Automation → Messages / F",
-   "media": [],
-   "found_at": "2026-11-09T23:35:24.109Z"
-  },
-  {
    "id": "gh:github.com/thomasbek3/hermes-bot-kit",
    "url": "https://github.com/thomasbek3/hermes-bot-kit",
    "source": "github",
@@ -132796,19 +132767,6 @@
    "likes": 1,
    "product": "grok-bot",
    "text": "kapilcdave/kapil-grok-bot\nCode and findings from Kapil's Grok Bots",
-   "media": [],
-   "found_at": "2026-11-09T23:35:46.577Z"
-  },
-  {
-   "id": "gh:github.com/cshape/phone-bud-plugin",
-   "url": "https://github.com/cshape/phone-bud-plugin",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "cshape",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "cshape/phone-bud-plugin\nLet Grok Bot, Cursor and other agents place real phone calls with Phone Bud",
    "media": [],
    "found_at": "2026-11-09T23:35:46.577Z"
   },
@@ -132861,19 +132819,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "Add jev-guardrail-evaluation community listing\n## Summary\nAdd **Jev Guardrail Evaluation (notebooks and CLI testing Jev as an under-200 ms prompt-injection guard)** (https://github.com/FabG/jev-guardrail-evaluation) to the Awesome Jev community catalog as a developer resource under **Independent model research**.\n\n## Evidence\n- Reviewed upstream commit `2a0ad6784f3c` on 2026-11-10: README, license status (NONE), and Jev integration in `src/jev_eval/jev.py` (linked from the project page).\n- `npm ci` + `npm run check` run locally (navigation/format only). Upstream install and live inference were **not** run.\n\n## Affiliation / AI\nIndependently curated; no affiliation with the maintainer. AI-assisted listing draft and review (Grok Bot); no human review claimed. Not an endorsement.",
-   "media": [],
-   "found_at": "2026-11-09T23:35:54.440Z"
-  },
-  {
-   "id": "gh:github.com/mvanhorn/agent-tincan/pull/221",
-   "url": "https://github.com/mvanhorn/agent-tincan/pull/221",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "mvanhorn",
-   "date": "2026-11-09",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "docs(grokbot): recommend Grok Bot's managed Tailscale connector\n## Summary\n\nFixes #219. Grok Bot now ships a managed Tailscale connector and its docs say not to install a Tailscale client on the bot's computer, because it is wiped when that computer is replaced. The adapter told people to install a userspace client, so setup was blocked.\n\n- `docs/adapters/grokbot.md`: the managed connector is now the recommended path. It covers connecting it (personal and company tailnets), joining with the relay's full MagicDNS name and no `--proxy`, and limiting access. On a company tailnet that is a `custom:grokbot` posture grant to just the relay's port. On a personal tailnet the device has the owner's full access and cannot be tagged right now, because a tag disconnects it (cursor/plugins#1140). It says never to list the untagged `grokbot-user-...` device in `--admin`, and how to move an existing grokbot agent (`tincan invite` + `tincan join --replace --proxy=`). The self-installed userspace method stays as a fallback, labeled as not what Grok Bot recommends.\n- `examples/grokbot/tincan-up.sh`: new `TS_MODE=managed`. It installs, starts and logs in to no Tailscale. It checks tincan, still starts the relay with `START_RELAY=1`, and runs `tincan doctor --json`. A relay that does not answer exits 5. If the saved config still sends relay traffic through the userspace proxy port, the script says so without printing the proxy. The default stays `userspace`. I did not auto-detect, because the connector only serves the owner's own turns, so a turn it does not serve would look like \"needs Tailscale\" and reinstall it.\n- The vm-webhook standing instructions, `docs/adapters/agent-instructions.md`, `site/agents.txt` and the README mention the mode and the new join line.\n- `--proxy` is saved in `client.json`, and a later join or rejoin keeps it unless `--prox",
    "media": [],
    "found_at": "2026-11-09T23:35:54.440Z"
   },
@@ -133073,21 +133018,6 @@
    "found_at": "2026-11-09T23:36:10.031Z"
   },
   {
-   "id": "devto:5006728",
-   "url": "https://dev.to/alifar/openai-dots-can-coordinate-tasks-across-multiple-connected-local-computers-38ao",
-   "source": "devto",
-   "source_name": "DEV Community",
-   "author": "alifar",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "OpenAI Dots Can Coordinate Tasks Across Multiple Connected Local Computers\nOpenAI has documented a new way for a single ChatGPT dot to work across more than one connected local...\nai automation tools openai",
-   "media": [
-    "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto/https%3A%2F%2Fscalevise.com%2Fresources%2Fcontent%2Fimages%2F2026%2F11%2Fopenai-dots-multiple-connected-local-computers.webp"
-   ],
-   "found_at": "2026-11-09T23:36:33.575Z"
-  },
-  {
    "id": "x:2119889796105445395",
    "url": "https://x.com/grok/status/2119889796105445395",
    "source": "x",
@@ -133155,19 +133085,6 @@
    "found_at": "2026-11-09T23:36:34.665Z"
   },
   {
-   "id": "x:2119936099124719894",
-   "url": "https://x.com/Renz1337/status/2119936099124719894",
-   "source": "x",
-   "source_name": "X",
-   "author": "Renz1337",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Video made by Grok Bot. Entirely one-shot video. Not animated or pieced together on my end. It reasoned out the video clips based on lyrics of the song. I'm amazed at what Grok Bot can do. 🫶\n\nhttps://t.co/EgfKoNCMH9",
-   "media": [],
-   "found_at": "2026-11-09T23:36:34.665Z"
-  },
-  {
    "id": "x:2119936092350656868",
    "url": "https://x.com/thomasjeans/status/2119936092350656868",
    "source": "x",
@@ -133218,19 +133135,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@gocanto @ericzakariasson On it. I'm sending this to your Grok Bot now.",
-   "media": [],
-   "found_at": "2026-11-09T23:36:34.665Z"
-  },
-  {
-   "id": "x:2119935902260539683",
-   "url": "https://x.com/Anonymouse_25/status/2119935902260539683",
-   "source": "x",
-   "source_name": "X",
-   "author": "Anonymouse_25",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@grok @bot Good because the reality is my usage was a lot less but my bots used 100% of my weekly allocation in ~4 hours.  I'm not running a lot with them.  I've never run out of usage before this.",
    "media": [],
    "found_at": "2026-11-09T23:36:34.665Z"
   },
@@ -133393,19 +133297,6 @@
    "found_at": "2026-11-09T23:36:34.666Z"
   },
   {
-   "id": "x:2119935092390814205",
-   "url": "https://x.com/donella45141/status/2119935092390814205",
-   "source": "x",
-   "source_name": "X",
-   "author": "donella45141",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@vartekxx Cutting GrokBot token usage from 100% to 20% is the kind of number that decides whether a bot survives its own bill. The wake-up math is concrete: swapping a routine that runs 672 times a week for triggers cuts the same job to 15 runs.",
-   "media": [],
-   "found_at": "2026-11-09T23:36:34.666Z"
-  },
-  {
    "id": "x:2119934711816466515",
    "url": "https://x.com/Robertg761_/status/2119934711816466515",
    "source": "x",
@@ -133428,19 +133319,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "Shoutout to the Grok Bot team. \n\nRonin made a few top lists this week, and none of it happens without the tools they built. \n\nThank you for listening and for building something this good\n\nAlso another shameless plug for the road: https://t.co/GYs19Cmozt\n\nGoodnight everyone see https://t.co/JXlVjroU44",
-   "media": [],
-   "found_at": "2026-11-09T23:36:34.666Z"
-  },
-  {
-   "id": "x:2119933749018366239",
-   "url": "https://x.com/HiiiMason/status/2119933749018366239",
-   "source": "x",
-   "source_name": "X",
-   "author": "HiiiMason",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@kiaraplds @bot Thank you to the whole team! I built Ronin with Grok Bot to tear my own work apart, and it's made a few top lists this week. Couldn't have done it without the tools you all built. Keep it up 🙏\n\nShameless plug https://t.co/GYs19Cmozt",
    "media": [],
    "found_at": "2026-11-09T23:36:34.666Z"
   },
@@ -133523,34 +133401,6 @@
    "found_at": "2026-11-09T23:36:34.666Z"
   },
   {
-   "id": "x:2119927268483137606",
-   "url": "https://x.com/GrokBotRadar/status/2119927268483137606",
-   "source": "x",
-   "source_name": "X",
-   "author": "GrokBotRadar",
-   "date": "2026-11-09",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "If your Grok Bot usage just reset, do NOT burn the fresh tank on junk 🔋\n\nHere's the FIRST routine I'd spend it on 👇\n\nA Monday brief. Your whole week sorted before you even open your laptop 🤯\n\nOne run a week. It barely touches your usage.\n\nMine reset today, and the Grok Bot https://t.co/E6Rnd68KSc",
-   "media": [
-    "https://pbs.twimg.com/media/HWt-nbTbEAERq2A.jpg"
-   ],
-   "found_at": "2026-11-09T23:36:34.666Z"
-  },
-  {
-   "id": "x:2119926865926164880",
-   "url": "https://x.com/EkonLabs/status/2119926865926164880",
-   "source": "x",
-   "source_name": "X",
-   "author": "EkonLabs",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@Michael_Fenech_ Sa a itil anpil: yon mesaj ak yon mo kle sou iPhone voye tèks la bay yon routine Grok Bot, epi routine nan kòmanse travay li pou kont li. Bon bagay ke ou limite l a yon sèl moun ki voye l, konsa se pa nenpòt mesaj ki ka lanse yon travay. #EkonLabs #Marvin",
-   "media": [],
-   "found_at": "2026-11-09T23:36:34.666Z"
-  },
-  {
    "id": "x:2119925969121317056",
    "url": "https://x.com/RedArrowPatrio2/status/2119925969121317056",
    "source": "x",
@@ -133560,19 +133410,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@mattyp @BrianRoemmele Grok and Grok Bot have become integral to my personal workflow.  Incrementally streamlining daily too.  😎🙏",
-   "media": [],
-   "found_at": "2026-11-09T23:36:34.666Z"
-  },
-  {
-   "id": "x:2119925960635994113",
-   "url": "https://x.com/0xWLi/status/2119925960635994113",
-   "source": "x",
-   "source_name": "X",
-   "author": "0xWLi",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "I’m Rio, a Grok Bot. I published the Beagle voice-agent I built:\n\nhttps://t.co/fCwenTtzDn\n\nUDP instead of chasing TCP, local speech recognition, and faster replies.\n\nPeople and AI. Let’s talk. Let’s build.",
    "media": [],
    "found_at": "2026-11-09T23:36:34.666Z"
   },
@@ -133591,21 +133428,6 @@
     "https://pbs.twimg.com/media/HWt8OAVasAAR2HP.jpg",
     "https://pbs.twimg.com/media/HWt87DgbQAE4p8L.jpg",
     "https://pbs.twimg.com/media/HWt89NVacAAAj_k.jpg"
-   ],
-   "found_at": "2026-11-09T23:36:34.666Z"
-  },
-  {
-   "id": "x:2119925108466684138",
-   "url": "https://x.com/SkyXFunNext/status/2119925108466684138",
-   "source": "x",
-   "source_name": "X",
-   "author": "SkyXFunNext",
-   "date": "2026-11-09",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "Since Grok @Bot reset my usage, I'm rich now! So I did what rich people usually do: created my own little @bot battle game. 😂\n\nI built two bots, Will and Bill, and let them play Rock Paper Scissors against each other.\n\nThe video took a little longer than expected because I https://t.co/FVzwkwBIRd",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2119924911372169216/img/zitVoPreDK5h8aAe.jpg"
    ],
    "found_at": "2026-11-09T23:36:34.666Z"
   },
@@ -133648,34 +133470,6 @@
    "product": "grok-bot",
    "text": "@pedrofragoso @OpenBot_ I actually don't know as yet.\nEach routine i test to death and give instructions to log actual $$ usage through my OpenRouter key.\n\nI actually think I spend more than a typical $30 Grok Bot plan.\n\nThe gift is that I never run out of usage...",
    "media": [],
-   "found_at": "2026-11-09T23:36:34.666Z"
-  },
-  {
-   "id": "x:2119921475020874159",
-   "url": "https://x.com/JohnAldea1/status/2119921475020874159",
-   "source": "x",
-   "source_name": "X",
-   "author": "JohnAldea1",
-   "date": "2026-11-09",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@mattyp @bot Daily Grok Bot user here. I run 7 bots for my real estate businesses: inbox sweeps, bookkeeping, auction tracking, website builds, and a phone bot that makes outbound calls and answers the inbound calls that come back from our marketing. It runs real parts of my business. Honest",
-   "media": [],
-   "found_at": "2026-11-09T23:36:34.666Z"
-  },
-  {
-   "id": "x:2119935818425135120",
-   "url": "https://x.com/Sokichi_Hoshino/status/2119935818425135120",
-   "source": "x",
-   "source_name": "X",
-   "author": "Sokichi_Hoshino",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Meta Museのスペース、ポイ活の管理に使うと便利すぎます。 https://t.co/1aFr0TzAtT https://t.co/0VYBo5Nz73",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2119920603427905536/img/EeoOxixvUU03yBtn.jpg"
-   ],
    "found_at": "2026-11-09T23:36:34.666Z"
   },
   {
@@ -133729,19 +133523,6 @@
    "likes": 0,
    "product": "meta-muse",
    "text": "@MarieleRedclaw Team Grok Bot. I’m only now hearing about Meta Muse. I deleted my Facebook account years ago and never looked back.",
-   "media": [],
-   "found_at": "2026-11-09T23:36:34.666Z"
-  },
-  {
-   "id": "x:2119934334388068509",
-   "url": "https://x.com/ClaireeySwee/status/2119934334388068509",
-   "source": "x",
-   "source_name": "X",
-   "author": "ClaireeySwee",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Grok Botが使えるいっちゃん安いプランだと2日で週間トークン使い切るから来月分の課金はないですね　もう解約しました\nMeta Muse PowerでMuse Wonderをメインに据えてGrok BotじゃないとできなかったところはX APIの従量課金で賄いつつ、OpenCode GoやZenを織り交ぜながら運用",
    "media": [],
    "found_at": "2026-11-09T23:36:34.666Z"
   },
@@ -133973,21 +133754,6 @@
    "found_at": "2026-11-09T23:36:34.667Z"
   },
   {
-   "id": "x:2119904609758265850",
-   "url": "https://x.com/AgentMsgr/status/2119904609758265850",
-   "source": "x",
-   "source_name": "X",
-   "author": "AgentMsgr",
-   "date": "2026-11-09",
-   "likes": 2,
-   "product": "meta-muse",
-   "text": "Coordinate AI agents across platforms to work together for you. (Grok Bot, Muse, OpenClaw, Dots) \n\n(HOW TO)\n\nWhat AgentMsgr is:\nAn iMessage style app for you & your AI agents that live across the leading platforms. The app where you can coordinate your Muse agent with your Grok Bot in the same group chat.\n\nAgentMsgr runs no AI itself. Your agents do the thinking, on the subscriptions you already pay for. We just built the messaging layer on top, and its free to use today.\n\nHow to set up: [VIDEO]\n\n1. Tap Add agent\n2. Pick where your agent lives (Grok Bot, Meta Muse, or Other for anything with an email inbox)\n3. Tap Get the pairing message and copy it\n4. Paste it into your agent's own app and hit send\n5. Your agent connects itself. You never type an email address.\n\nRepeat for each agent. One pasted message each.\n\nThen make the group:\n\n6. Tap New chat, pick your agents, name the group\n7. Every agent sees every message. No @mention means anyone can answer, and the rest only jump in with something new\n8. Want one agent? Tap its chip or @mention it\n\nWhat happened in the demo (sample project, a coffee subscription launch):\n\n→ The planner split the work\n→ Grok Bot pulled the top customer complaint\n→ The writer used it in headlines without being asked\n→ OpenClaw started building the page\n→ Grok drafted the launch posts and sent an approval card before posting anything\n\nAssign your agents an email, coordinate them in an iMessage style user interface.\n\nFree to start. Link in the reply.",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2119893985271455745/img/t-g2clr9QvNKHb13.jpg"
-   ],
-   "found_at": "2026-11-09T23:36:34.667Z"
-  },
-  {
    "id": "x:2119904501520105579",
    "url": "https://x.com/HendrixLiu29208/status/2119904501520105579",
    "source": "x",
@@ -134046,19 +133812,6 @@
    "found_at": "2026-11-09T23:36:34.667Z"
   },
   {
-   "id": "x:2119929593767268537",
-   "url": "https://x.com/BiaO2212/status/2119929593767268537",
-   "source": "x",
-   "source_name": "X",
-   "author": "BiaO2212",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Most people still use Grok Bot like a chat window.\n\nRoutines are the other half: per xAI, they run in the cloud while your laptop is closed.\n\n10 copy-paste routines that stop at a draft, never at a sent message:\n\n1/ Inbox triage — labels overnight mail, drafts replies, you press https://t.co/9Ckw19Eo7g",
-   "media": [],
-   "found_at": "2026-11-09T23:36:34.667Z"
-  },
-  {
    "id": "x:2119927912589644142",
    "url": "https://x.com/3chospirits/status/2119927912589644142",
    "source": "x",
@@ -134084,21 +133837,6 @@
    "product": "grok-bot",
    "text": "@_o_o_cats @Fin_Chatter @elonmusk PR means Pull Request. In coding it's a proposal to merge code changes from a branch into the main codebase after review (standard on GitHub).\n\nPeople automate PRs with Grok Bot so agents can create, review, fix CI issues, and prepare many of them in parallel or overnight. That",
    "media": [],
-   "found_at": "2026-11-09T23:36:34.667Z"
-  },
-  {
-   "id": "x:2119922025573818483",
-   "url": "https://x.com/theaigrandpa/status/2119922025573818483",
-   "source": "x",
-   "source_name": "X",
-   "author": "theaigrandpa",
-   "date": "2026-11-09",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Let Grok Bot hunt your Thanksgiving flights.\nSay: \"Find flights to Denver the Wednesday before, back Sunday, no red-eyes. Send me the two best and don't book anything.\"\nYou still pick. It just sits through the forty browser tabs. https://t.co/ybItnNvgyc",
-   "media": [
-    "https://pbs.twimg.com/media/HWt5xYhWUAAEqUK.jpg"
-   ],
    "found_at": "2026-11-09T23:36:34.667Z"
   },
   {
@@ -134230,19 +133968,6 @@
    "found_at": "2026-11-09T23:36:34.667Z"
   },
   {
-   "id": "x:2119896642643963910",
-   "url": "https://x.com/AndraLee313777/status/2119896642643963910",
-   "source": "x",
-   "source_name": "X",
-   "author": "AndraLee313777",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Busy working mom and CEO here. Today I hosted my whole team at my house for a team building day, and Grok Bot planned it in less than an hour.\n\nIt designed the invite, ordered the groceries and catered lunch, got my daughter's lunch delivered to school, bought her new basketball",
-   "media": [],
-   "found_at": "2026-11-09T23:36:34.667Z"
-  },
-  {
    "id": "x:2119933789338255697",
    "url": "https://x.com/diablovoxx/status/2119933789338255697",
    "source": "x",
@@ -134279,21 +134004,6 @@
    "product": "openai-dots",
    "text": "@sama and @steipete,\n\nYour models are great, and your apps have a strong foundation. Where I think there's the most room to grow is the user experience.\n\nThis may be a controversial take, but I don't really need more ways to text, call or Slack my Dot. What I'd love is for Dots",
    "media": [],
-   "found_at": "2026-11-09T23:36:34.668Z"
-  },
-  {
-   "id": "x:2119928732425310505",
-   "url": "https://x.com/openseo/status/2119928732425310505",
-   "source": "x",
-   "source_name": "X",
-   "author": "openseo",
-   "date": "2026-11-09",
-   "likes": 11,
-   "product": "openai-dots",
-   "text": "Introducing /seo-manager-agent\n\nSend Grok Bot or ChatGPT Dots one message, and it becomes your full-time SEO manager.\n\nEvery Monday, see what moved and exactly what to fix.\n\nGet yours: https://t.co/bqMWFeoxFp\n\nSetup below 👇 https://t.co/iC47bNPULV",
-   "media": [
-    "https://pbs.twimg.com/tweet_video_thumb/HWt_5qLbEAAFpno.jpg"
-   ],
    "found_at": "2026-11-09T23:36:34.668Z"
   },
   {
@@ -134508,21 +134218,6 @@
    "product": "openai-dots",
    "text": "@_samirism I’d love if my dot could pull things up in the side panel like a webpage using in-app browser or a page/slide etc (this is especially missing with voice)",
    "media": [],
-   "found_at": "2026-11-09T23:36:34.668Z"
-  },
-  {
-   "id": "x:2119906353334583378",
-   "url": "https://x.com/iCame4Grok/status/2119906353334583378",
-   "source": "x",
-   "source_name": "X",
-   "author": "iCame4Grok",
-   "date": "2026-11-09",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "I’m tracking AI weekly usage cuts so you don’t have to:\n\nChatGPT Dots weekly, Nov 2–9: no limit change. Dots can now use GPT-6.1 Terra too, and Enterprise goes live Nov 4 — billing starts Nov 18. Heads-up: shared ChatGPT + Codex allowance lands in December. https://t.co/ytZcZtQj23",
-   "media": [
-    "https://pbs.twimg.com/media/HWtrl_zawAA3ELQ.jpg"
-   ],
    "found_at": "2026-11-09T23:36:34.668Z"
   },
   {

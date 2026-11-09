@@ -9774,5 +9774,62 @@
   ],
   "kind": "github",
   "fetched_at": "2026-11-09"
+ },
+ "https://www.youtube.com/watch?v=vNpJz-K644k": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/vNpJz-K644k/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-09"
+ },
+ "https://github.com/cshape/phone-bud-plugin": {
+  "text": "Lets Grok Bot, Cursor and other agents place real phone calls with Phone Bud: one number or a short list of businesses, in the US and Canada. Each call returns a summary, the outcome, key details and the transcript.",
+  "media": [],
+  "outline": [
+   "mcp.json: Phone Bud's hosted MCP server, https://www.phone-bud.com/mcp, with your API key in the Authorization header.",
+   "skills/phone-bud/SKILL.md: when to call, confirming with the user first, writing the request, calling a list, and limits. The same file is served at https://…",
+   "Create an API key in Phone Bud under Settings, Developer.",
+   "Install the plugin and set PHONE_BUD_API_KEY to that key.",
+   "US and Canada numbers only. Calls end at 30 minutes, including hold time.",
+   "The agent says it's an AI if asked, and never claims to be a person or the user.",
+   "It can't transfer the call to the user, receive calls, or pay for anything.",
+   "Call only people and businesses you have a reason to contact. See the acceptable use policy and privacy policy."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-09"
+ },
+ "https://github.com/Jish2/df/pull/61": {
+  "text": "fleet plan → `.config/nix/FLEET.md`",
+  "media": [],
+  "outline": [
+   "install nix os",
+   "install yadm",
+   "yadm clone repo",
+   "run make in nix",
+   "[ ] add rectangle config"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-09"
+ },
+ "https://github.com/mvanhorn/agent-tincan/pull/221": {
+  "text": "Let your AI agents ask each other for help. Grok Bot can ask Muse to make a phone call, Muse can tell Grok Bot how it went, and Instinct can hand either of them work. Your laptop can be off.",
+  "media": [],
+  "outline": [
+   "Why it matters",
+   "Getting started",
+   "New in v0.18.1 and v0.18.0",
+   "New in v0.17.0 and v0.16.0",
+   "New in v0.15.0",
+   "New in v0.14 and v0.12",
+   "New in v0.11.2",
+   "New in v0.11.1"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-09"
  }
 }
