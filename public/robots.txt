@@ -3,9 +3,15 @@ Allow: /
 
 # 2026-10-26: heavy non-citing crawlers - skip ?lang= / query duplicates (each page x10 locales)
 User-agent: Amazonbot
-User-agent: meta-externalagent
 Disallow: /*?
 Crawl-delay: 10
+
+# 2026-11-08: observe 48h. Do not add Cloudflare blocks for Meta.
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Reflectionbot
+Disallow: /
 
 # 2026-11-01: SemrushBot is an SEO-tool crawler, not a search or AI engine: disallow everything
 User-agent: SemrushBot
