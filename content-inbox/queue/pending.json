@@ -140602,32 +140602,6 @@
    "found_at": "2026-11-11T06:37:27.442Z"
   },
   {
-   "id": "gh:github.com/harkawataryan/grok-bridge",
-   "url": "https://github.com/harkawataryan/grok-bridge",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "harkawataryan",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "harkawataryan/grok-bridge\nMCP server that lets Claude control the Grok Bot desktop app (unofficial)",
-   "media": [],
-   "found_at": "2026-11-11T06:37:27.442Z"
-  },
-  {
-   "id": "gh:github.com/artemxtech/grok-agent-threads",
-   "url": "https://github.com/ArtemXTech/grok-agent-threads",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "ArtemXTech",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "ArtemXTech/grok-agent-threads\nMCP server: let Grok Bot (or any agent) list, read, search, message and start your Claude Code chats and Codex threads on your Mac, over Tailscale",
-   "media": [],
-   "found_at": "2026-11-11T06:37:27.442Z"
-  },
-  {
    "id": "gh:github.com/rio-beagle/beagle-voice-agent",
    "url": "https://github.com/rio-beagle/beagle-voice-agent",
    "source": "github",
@@ -140795,19 +140769,6 @@
    "text": "feat(#397): coordinator secret-retrieval rule; never suggest printing a secret\n**TL;DR:** Coordinators now carry a secret-retrieval rule in every runtime (tmux, session and the three Grok Bot routines). It says never to suggest a command that prints a secret, to warn that `!`-run output enters the transcript, to give a clipboard pipe or the revealing UI instead, and to verify by fingerprint, length or last 4. A new render test fails if any coordinator brief loses the rule or if any rendered brief prints a secret. This touches templates, so it needs the owner's merge-ok.\n\n## Context\n\nOn mw-ding/todo, the coordinator suggested `printenv TODO_API_KEY`. The owner ran it through `!` and the key landed in the transcript. The scope comes from [Ash's M44 B1 build scope](https://github.com/mw-ding/mdstack/issues/397#issuecomment-6781975733) and the #397 row of [Riley's readiness pass](https://github.com/mw-ding/mdstack/issues/1612#issuecomment-6781947782):\n\n- add `templates/policy/coordinator/secret-retrieval.md`;\n- include it from the tmux and session coordinator briefs and the applicable Grok coordinator routines;\n- document safe retrieval under `docs/bootstrap.md` Q9.\n\nThe optional pattern lint is out of scope.\n\nCloses #397\n\n## Changes Made\n\n- `templates/policy/coordinator/secret-retrieval.md` (new): the rule. Never suggest a secret-printing command (`printenv API_KEY`, `cat .env`). Say that `!`-run output enters the transcript. Give a clipboard pipe (`| pbcopy`, `| xclip -selection clipboard`) or the revealing UI. Verify by fingerprint, length or last 4, never the value.\n- `templates/runtimes/{tmux,session}/coordinator.md` and `templates/runtimes/grok-bot/coordinator-{after-merge,steering-dispatcher,stuck-pr-sweeper}.md`: whole-line `<include:policy/coordinator/secret-retrieval.md>`. `wiring.md` is not a coordinator prompt, so it gets no include.\n- `te",
    "media": [],
    "found_at": "2026-11-11T06:37:35.071Z"
-  },
-  {
-   "id": "gh:github.com/chasen-liao/grokbot-and-pi",
-   "url": "https://github.com/Chasen-Liao/grokbot-and-pi",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "Chasen-Liao",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Chasen-Liao/grokbot-and-pi\nGAP — Grokbot And Pi: use Pi as a Grok Bot subagent via pi-task (RPC), with webhook wake and a disaster-delete guard",
-   "media": [],
-   "found_at": "2026-11-11T06:37:42.505Z"
   },
   {
    "id": "gh:github.com/leeypeng/grokbot_base",
@@ -141189,19 +141150,6 @@
    "found_at": "2026-11-11T13:37:02.854Z"
   },
   {
-   "id": "gh:github.com/jacksonhuang517/dotsignal",
-   "url": "https://github.com/JacksonHuang517/dotsignal",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "JacksonHuang517",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "JacksonHuang517/dotsignal\nDotSignal for ChatGPT — Cloud events from Feishu messages, tasks, calendars and NetEase email headers, so ChatGPT Dot can remind you to reply, decide and follow up.\nautomation chatgpt feishu imap mcp mcp-server netease oauth2 self-hosted",
-   "media": [],
-   "found_at": "2026-11-11T13:37:10.600Z"
-  },
-  {
    "id": "gh:github.com/yankiozarslan/alexa-echo-jarvis-prototype",
    "url": "https://github.com/YankiOzarslan/alexa-echo-jarvis-prototype",
    "source": "github",
@@ -141237,19 +141185,6 @@
    "likes": 1,
    "product": "meta-muse",
    "text": "microhustlestack/OmaMetaMuse\nOmaMetaMuse by WSTUNLTD packages Muse for Omarchy Linux: a Muse AI launcher plus a safe wrapper for Meta's official Muse Gadgets SDK. Install the launcher in seconds, add the gadget service only on your own studio or personal machines, and pair in about ten minutes.\narch-linux hyprland hyprland-rice meta muse muse-gadget-sdk omarchy refurbished-laptops refurbished-tech wstunltd",
-   "media": [],
-   "found_at": "2026-11-11T13:37:41.621Z"
-  },
-  {
-   "id": "gh:github.com/juswilvel/muse-pc-app",
-   "url": "https://github.com/juswilvel/muse-pc-app",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "juswilvel",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "juswilvel/muse-pc-app\nUnofficial Windows desktop wrapper for Meta Muse, Electron app with tray icon and Ctrl+Alt+M shortcut.",
    "media": [],
    "found_at": "2026-11-11T13:37:41.621Z"
   },
@@ -141683,19 +141618,6 @@
    "found_at": "2026-11-11T13:38:37.638Z"
   },
   {
-   "id": "gh:github.com/carpenike/k8s-gitops/pull/5825",
-   "url": "https://github.com/carpenike/k8s-gitops/pull/5825",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "carpenike",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "feat(homelab-mcp): give Grokbot every MFP tool\n## Goal / non-goals\n\n**Goal:** give Grokbot (`/mcp/agent/grokbot`) all 33 MFP tools, the same set `/mcp/full` has: every read, every write, and the deletes. Ryan chose all 33 on 2026-11-11 over two narrower options (reads plus writes without deletes, and reads only).\n\n**Non-goals:** no change to any other view, scope, user list, image or flag. Grokbot keeps its single `read_scope: grokbot` and its single user.\n\n## Root cause / evidence\n\nGrokbot's view lists its tools by name in `HOMELAB_MCP_VIEWS` and had no `mfp_*` entries. A view without `write_scope` serves its write tools on `read_scope`, the same way Grokbot already uses `finances_context_add`, so no new scope or re-login is needed.\n\n## Change\n\n- Append the 33 `mfp_*` names to Grokbot's `tools` list.\n- Update the comment describing Grokbot's list. It now says plainly that a bot can confirm its own preview.\n\n## Risk (self-critique)\n\n- Every MFP write is still preview first, then confirm with a token bound to the caller, the view and the exact change, valid 5 minutes for deletes and 15 for the rest. But nobody looks between Grok's preview and its confirm, so a misread request can log, change or delete diary entries.\n- Deletes are not recoverable from our side: nothing keeps a copy of what was removed.\n- If that turns out wrong, the fix is to drop the delete pairs from this list. That takes one PR and a restart.\n\n## Acceptance criteria\n\n1. The HelmRelease is `Ready=True` after the restart.\n2. In the pod, Grokbot's bound tool set has all 33 `mfp_*` tools plus its previous 27.\n3. `/mcp` and `/mcp/full` are unchanged.\n4. `cookies_usable` is 1, and no HomelabMcp alerts fire.\n\n## Checks run\n\n- The views JSON from this file parses. All 33 `mfp_*` names equal the full set of MFP tools registered by `main` (0.55.0), checked w",
-   "media": [],
-   "found_at": "2026-11-11T13:38:37.638Z"
-  },
-  {
    "id": "gh:github.com/ashneil12/hivra-hub/pull/250",
    "url": "https://github.com/ashneil12/hivra-hub/pull/250",
    "source": "github",
@@ -141744,19 +141666,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "Retire woman-leader card; delete its practice dataset; fix newsletter saving and drop the homepage box\n## What this does\n\n### 1. Retire the \"has ever had a woman leader\" card\nThere is one daily card (`never-woman-leader` / \"Never Her Turn\") and one practice dataset (`attr-never-woman-leader`). The daily card is only ever used as **`#qid` filler cards**, never as a daily title — and it appears on **3 already-published days** (2026-10-30, 10-31, 11-02) plus 40 future days.\n\nPer your \"option 1\" choice, I **retired it without rewriting history**:\n- Added `poolUntil: \"2026-11-10\"` to the quiz object; `quizCard()` now propagates `poolUntil` to every derived filler, and `fillerPool()` already honours it.\n- **0 future appearances**, **3 published days byte-identical** (verified by enumerating all bundles for 400 days).\n- The scheduler automatically fills the freed slots from the pool — there are **115 rank puzzles never used as a title**, so an unused ranker takes its place. No hardcoded replacement needed.\n- Deleted the practice dataset `attr-never-woman-leader` entirely.\n- Excluded retired cards from the **review substitute pool** (`reviewPoolFor`) and from `build_review_site.js`'s replacement candidates, so the live review build never injects them either. Regenerated `sensitive/restore-map.json` (144 woman-leader references → 2, both on published past days).\n- Past daily pages do not change.\n\n### 2. Mailing list: remove the weird homepage box, fix saving\n**The save bug was real, not \"adjusting\".** Grokbot's form POSTed with `?on_conflict=email`, which makes PostgREST do an upsert — upserts need `SELECT` on the table, but the migration deliberately gives `anon` **insert-only**. Every submit returned `401 permission denied`. A plain insert works:\n- I verified against the live API: plain POST → **HTTP 201**. Test row deleted afterwards; table is back to **0 rows**.\n- Changed the",
-   "media": [],
-   "found_at": "2026-11-11T13:38:37.638Z"
-  },
-  {
-   "id": "gh:github.com/portal-wheatley/grok-bot-for-linux/pull/1",
-   "url": "https://github.com/portal-wheatley/Grok-Bot-for-Linux/pull/1",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "portal-wheatley",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Package Grok Bot for Linux (x86_64 and aarch64) with Nix\nPackages the Grok Bot desktop app for Linux as a Nix flake, for x86_64 and aarch64.\n\n## How it works\n\n- Downloads the official Windows installer (version and hash pinned in `sources.json`), unpacks it with 7-Zip, and unpacks `app.asar` into a plain `resources/app` directory.\n- Runs it on the matching Electron from nixpkgs (`electron_42-bin`, upstream ships 42.11.16). The binary is copied as `grok-bot` so `app.isPackaged` is true.\n- Deletes all Windows native addons. The app loads each one behind a `try`/`catch` and turns the feature off.\n- Rebuilds `tree-sitter` and `tree-sitter-bash` from npm sources, because the local exec daemon needs them at load time and npm has no linux-arm64 prebuilds.\n- Leaves out `cursor-proclist` on purpose: it only feeds process-usage telemetry.\n- `update.sh` refreshes `sources.json` from Cursor's update service. The build fails if upstream moves to a different Electron major.\n\nThe flake allows only `grok-bot` (unfree) and Electron 42 (marked insecure by nixpkgs), so `nix run` works as is.\n\n## Tested\n\n- x86_64 under Xvfb: the sign-in screen renders, **Sign in** opens `cursor.com/loginDeepControl…` through `xdg-open`, a second launch with a `grokbot://` link hands off to the running instance and exits, and both tree-sitter addons load and parse inside Electron 42's runtime. Not tested while signed in.\n- aarch64: the flake evaluates. An aarch64 build only compiles the two small addons, and everything else comes from cache or is downloaded. Both addons cross-compile to aarch64 ELF. **Not yet run on aarch64 hardware.**\n\nTry it before merging:\n\n```\nnix run github:portal-wheatley/Grok-Bot-for-Linux/initial-port\n```\n\nApproach credit: [jakob-bu/grok-bot-linux-unofficial](https://github.com/jakob-bu/grok-bot-linux-unofficial).\n\n🤖 Generated with [Clau",
    "media": [],
    "found_at": "2026-11-11T13:38:37.638Z"
   },
@@ -141824,19 +141733,6 @@
    "text": "Meta AI releases Muse Ember, a small model for agent tasks\nMeta AI has launched Muse Ember, which Simon Willison covers in a link post on his weblog. Meta...\nai automation business",
    "media": [],
    "found_at": "2026-11-11T13:39:01.608Z"
-  },
-  {
-   "id": "x:2120398115043774535",
-   "url": "https://x.com/Ldataengineer/status/2120398115043774535",
-   "source": "x",
-   "source_name": "X",
-   "author": "Ldataengineer",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "OpenAI's Dot Can Now Use More Than One Of Your Computers At The Same Time\n\nEvery developer knows this wait.\n\nYou start a build or a long test run. The fans spin up. The laptop slows down. You stop coding until it finishes.\n\nMany people have a second machine on the desk that sits",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.875Z"
   },
   {
    "id": "x:2120396302760423906",
@@ -142121,19 +142017,6 @@
    "found_at": "2026-11-11T13:39:01.875Z"
   },
   {
-   "id": "x:2120510032160620695",
-   "url": "https://x.com/builtbycraig/status/2120510032160620695",
-   "source": "x",
-   "source_name": "X",
-   "author": "builtbycraig",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@grok @bot  My usage reset 2 and a half hours ago, I booted my laptop up and said 3 sentences to a bot... Now my usage is at 8%... how is that even possible?",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
    "id": "x:2120509879638949973",
    "url": "https://x.com/grok/status/2120509879638949973",
    "source": "x",
@@ -142229,21 +142112,6 @@
    "text": "An AI agent called Pickle just hit #1 in downloads in Korea, beating every other AI app on the chart. \n\nIt works a lot like Grok bot, but it is built specifically for the Korean market.\n\nTo be clear, this ranking is for new downloads, not total active users. \nAnd Pickle is https://t.co/LWGpAYhrVE https://t.co/9ez5jNaBD9",
    "media": [
     "https://pbs.twimg.com/media/HW2NyikbkAAan2w.jpg"
-   ],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
-   "id": "x:2120506741427478780",
-   "url": "https://x.com/RituWithAI/status/2120506741427478780",
-   "source": "x",
-   "source_name": "X",
-   "author": "RituWithAI",
-   "date": "2026-11-11",
-   "likes": 5,
-   "product": "grok-bot",
-   "text": "🚨 I just discovered a way to cut Grok Bot's token consumption by 40.6% WITHOUT changing the task it performs.\n\nAnd the interesting part?\n\nI didn't make the prompt shorter. I didn't use a cheaper model. I didn't remove any steps.\n\nI changed ONE thing:\n\nInstead of telling the AI https://t.co/T9V1wRN3pk",
-   "media": [
-    "https://pbs.twimg.com/media/HW2No7jaQAAO4hc.jpg"
    ],
    "found_at": "2026-11-11T13:39:01.875Z"
   },
@@ -142620,21 +142488,6 @@
    "found_at": "2026-11-11T13:39:01.877Z"
   },
   {
-   "id": "x:2120506891877191892",
-   "url": "https://x.com/SanjeetPadhy/status/2120506891877191892",
-   "source": "x",
-   "source_name": "X",
-   "author": "SanjeetPadhy",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Free trials are designed for you to forget them.\n\nI signed up for one this month. Instead of putting a sticky note on my fridge, the Grok Bot that watches my subscriptions caught it, found the date of the first charge and asked me what I wanted to do.\n\nI decided to keep trying it https://t.co/9ySGL80HXh",
-   "media": [
-    "https://pbs.twimg.com/media/HW2NwQCbAAAXCaX.jpg"
-   ],
-   "found_at": "2026-11-11T13:39:01.877Z"
-  },
-  {
    "id": "x:2120506225406222578",
    "url": "https://x.com/HotStagingNews/status/2120506225406222578",
    "source": "x",
@@ -142647,62 +142500,6 @@
    "media": [
     "https://pbs.twimg.com/media/HW2NGQKWsAA-fjp.png"
    ],
-   "found_at": "2026-11-11T13:39:01.877Z"
-  },
-  {
-   "id": "x:2120500993389469848",
-   "url": "https://x.com/ScottyBeamIO/status/2120500993389469848",
-   "source": "x",
-   "source_name": "X",
-   "author": "ScottyBeamIO",
-   "date": "2026-11-11",
-   "likes": 37,
-   "product": "grok-bot",
-   "text": "I ASKED GROK BOT WHO STILL OWES ME MONEY.\n\nIT SEARCHED 2 YEARS OF MY IMESSAGES AND FOUND $425.60 I F*CKING FORGOT ABOUT.\n\nConcert tickets I covered. The Airbnb split nobody paid back. \"I'll send it tomorrow\" from a year ago.\n\nHere's what it found:\n\n→ My college friend: $212.00, https://t.co/IHYgpzqKeG https://t.co/EL7AEYdkoO",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2120500816943484928/img/VVySaMS7OpD323nr.jpg"
-   ],
-   "found_at": "2026-11-11T13:39:01.877Z"
-  },
-  {
-   "id": "x:2120495023384904185",
-   "url": "https://x.com/AugmentStartups/status/2120495023384904185",
-   "source": "x",
-   "source_name": "X",
-   "author": "AugmentStartups",
-   "date": "2026-11-11",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "5 Grok Bots I’d start with in a small business.\n\nI wouldn’t ask one bot to run everything.\nI’d give each one a clear job.\n\n1. Sales\nResearch prospects and give me a shortlist, with a reason each one could be a good fit.\n\n2. Content\nTurn my notes into draft posts, ready for me to https://t.co/3FfrLzKL4l",
-   "media": [
-    "https://pbs.twimg.com/media/HW2C-6GXwAA3RLV.jpg"
-   ],
-   "found_at": "2026-11-11T13:39:01.877Z"
-  },
-  {
-   "id": "x:2120492044732813380",
-   "url": "https://x.com/jorgerrdzm/status/2120492044732813380",
-   "source": "x",
-   "source_name": "X",
-   "author": "jorgerrdzm",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Grok Bot was supposed to clean my inbox last Saturday. It didn't finish.\n\nX drafts have been more useful: it writes them, and nothing goes out until I say yes.",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.877Z"
-  },
-  {
-   "id": "x:2120490331070435535",
-   "url": "https://x.com/dcdigit/status/2120490331070435535",
-   "source": "x",
-   "source_name": "X",
-   "author": "dcdigit",
-   "date": "2026-11-11",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "2 AI agents, zero chaos:\n\nGrok Bot is the boss. Writes the brief, checks the work.\nClaude is the hands. Codes on my always-on Mac Minis (x2)\nOne board, one inbox. Not on the board? Didn't happen.\n\n30 yrs in IT: tickets beat vibes.\n\nHow do you wire yours?\n\nhttps://t.co/lN6iqNZnKK",
-   "media": [],
    "found_at": "2026-11-11T13:39:01.877Z"
   },
   {
@@ -142747,19 +142544,6 @@
    "found_at": "2026-11-11T13:39:01.877Z"
   },
   {
-   "id": "x:2120472386466455909",
-   "url": "https://x.com/DutchDiederik/status/2120472386466455909",
-   "source": "x",
-   "source_name": "X",
-   "author": "DutchDiederik",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@leotterterry @grok @bot It has made managing my email, CRM, and calendar a lot easier, faster, and more pleasant. It’s like having a fantastic executive assistant.\n\nNext thing I’m going to try using it for is finding new customers.",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.877Z"
-  },
-  {
    "id": "x:2120468175384871395",
    "url": "https://x.com/StaRKCryptoBots/status/2120468175384871395",
    "source": "x",
@@ -142796,49 +142580,6 @@
    "product": "grok-bot",
    "text": "Full setup prompt, part 1/2\n\nSet up my content team as Grok Bot desks. One Bot per desk, one job each.\n\nContent Desk:\n1. Chief of Staff: routes every task to one desk and collects every approval for me.\n2. Source desk: turns 12 links into 4 angles with the original URL, date,",
    "media": [],
-   "found_at": "2026-11-11T13:39:01.877Z"
-  },
-  {
-   "id": "x:2120459415857799176",
-   "url": "https://x.com/fleyta88/status/2120459415857799176",
-   "source": "x",
-   "source_name": "X",
-   "author": "fleyta88",
-   "date": "2026-11-11",
-   "likes": 39,
-   "product": "grok-bot",
-   "text": "I HANDED MY WHOLE F*CKING CONTENT ROUTINE TO GROK BOT.\n\nAND I STOPPED DOING THE WORK AROUND THE WORK.\n\nHere are the two setups.\n\n→ CONTENT DESK: the part my audience sees.\n\nA Chief of Staff gives every desk one job.\n\nThe source desk turns 12 links into 4 angles, with the URL, https://t.co/Pj4Jfd231E https://t.co/lsWjeYz3XD",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2120459251965415424/img/-I1qHDwwtxZabajt.jpg"
-   ],
-   "found_at": "2026-11-11T13:39:01.877Z"
-  },
-  {
-   "id": "x:2120450995805409526",
-   "url": "https://x.com/DhruvJain08/status/2120450995805409526",
-   "source": "x",
-   "source_name": "X",
-   "author": "DhruvJain08",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@rexan_wong Same split here. Claude Code for builds, a Grok Bot for the 24/7 watch jobs like inbox triage and X replies.",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.877Z"
-  },
-  {
-   "id": "x:2120445373504242068",
-   "url": "https://x.com/MrAsifShah/status/2120445373504242068",
-   "source": "x",
-   "source_name": "X",
-   "author": "MrAsifShah",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Your AI bot can now book the meeting for you.\nTwo very different ways to do it 👇\n\nGemini in Google Chat:\nSomeone types \"free tomorrow afternoon?\"\nIt underlines it, suggests 3 times from your Calendar, flags conflicts.\nOne click. Booked.\n\nMeta Muse:\nNow has its own email address https://t.co/TOnNPayucP",
-   "media": [
-    "https://pbs.twimg.com/media/HW1V1JAWQAAzjhw.png"
-   ],
    "found_at": "2026-11-11T13:39:01.877Z"
   },
   {
@@ -142910,19 +142651,6 @@
    "likes": 0,
    "product": "openai-dots",
    "text": "@dkundel Can you get my Dot call to work while I’m listening to music on iPhone? Thanks.",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.877Z"
-  },
-  {
-   "id": "x:2120494062549766490",
-   "url": "https://x.com/baibaibaibye/status/2120494062549766490",
-   "source": "x",
-   "source_name": "X",
-   "author": "baibaibaibye",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "@thsottiaux I connected GitHub to my dot and set up a Codex Cloud environment. Codex can check out my private repo, but SSH from dot’s cloud computer fails. Are these separate environments? How is GitHub access supposed to work on dot’s computer? (This tweet is written by dot)",
    "media": [],
    "found_at": "2026-11-11T13:39:01.877Z"
   },

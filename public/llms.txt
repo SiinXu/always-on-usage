@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2447 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2467 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-11T13:44:11.108Z
+- Last updated: 2026-11-11T23:43:23.144Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -624,6 +624,23 @@
 - /cases/x-dissolvejordan-2120499183035494412.html: Grok Bot plans, other tools code and merge PRs (field-case) <https://x.com/DissolveJordan/status/2120499183035494412>
 - /cases/x-psychoidlayer-2120341286188376435.html: Self-built computer access for Meta Muse was suddenly blocked (field-case) <https://x.com/psychoid_layer/status/2120341286188376435>
 - /cases/x-okker24-2120496050310160525.html: Meta Muse voice input sometimes errors out and locks at night (field-case) <https://x.com/okker24/status/2120496050310160525>
+- /cases/x-ldataengineer-2120398115043774535.html: OpenAI Dot can now connect to several computers (guide) <https://x.com/Ldataengineer/status/2120398115043774535>
+- /cases/x-scottybeamio-2120500993389469848.html: Grok Bot searched 2 years of iMessages and found $425.60 owed (field-case) <https://x.com/ScottyBeamIO/status/2120500993389469848>
+- /cases/x-sanjeetpadhy-2120506891877191892.html: Grok Bot caught a free trial and set one reminder (field-case) <https://x.com/SanjeetPadhy/status/2120506891877191892>
+- /cases/x-augmentstartups-2120495023384904185.html: Five Grok Bots to start with in a small business (guide) <https://x.com/AugmentStartups/status/2120495023384904185>
+- /cases/x-jorgerrdzm-2120492044732813380.html: Grok Bot did not finish the inbox; X drafts worked better (field-case) <https://x.com/jorgerrdzm/status/2120492044732813380>
+- /cases/x-dcdigit-2120490331070435535.html: Grok Bot as the boss, Claude coding on two Mac Minis (field-case) <https://x.com/dcdigit/status/2120490331070435535>
+- /cases/x-dutchdiederik-2120472386466455909.html: Grok Bot for email, CRM and calendar, like an assistant (field-case) <https://x.com/DutchDiederik/status/2120472386466455909>
+- /cases/x-fleyta88-2120459415857799176.html: Handing a content routine to Grok Bot: content and ops desks (guide) <https://x.com/fleyta88/status/2120459415857799176>
+- /cases/x-dhruvjain08-2120450995805409526.html: Claude Code for builds, Grok Bot for 24/7 watch jobs (field-case) <https://x.com/DhruvJain08/status/2120450995805409526>
+- /cases/x-baibaibaibye-2120494062549766490.html: Dot has GitHub connected, but SSH from its cloud computer fails (field-case) <https://x.com/baibaibaibye/status/2120494062549766490>
+- /cases/gh-github-com-jacksonhuang517-dotsignal.html: DotSignal feeds Feishu and NetEase mail events to ChatGPT Dot (field-case) <https://github.com/JacksonHuang517/dotsignal>
+- /cases/gh-github-com-juswilvel-muse-pc-app.html: An unofficial Windows desktop app for Meta Muse (field-case) <https://github.com/juswilvel/muse-pc-app>
+- /cases/gh-github-com-harkawataryan-grok-bridge.html: grok-bridge lets Claude control the Grok Bot desktop app (field-case) <https://github.com/harkawataryan/grok-bridge>
+- /cases/gh-github-com-artemxtech-grok-agent-threads.html: grok-agent-threads lets Grok Bot drive Claude Code and Codex chats on a Mac (field-case) <https://github.com/ArtemXTech/grok-agent-threads>
+- /cases/gh-github-com-chasen-liao-grokbot-and-pi.html: GAP: using Pi as a Grok Bot subagent (field-case) <https://github.com/Chasen-Liao/grokbot-and-pi>
+- /cases/gh-github-com-portal-wheatley-grok-bot-for-linux-pull-1.html: Packaging the Grok Bot desktop app for Linux with Nix (field-case) <https://github.com/portal-wheatley/Grok-Bot-for-Linux/pull/1>
+- /cases/gh-github-com-carpenike-k8s-gitops-pull-5825.html: Giving a homelab Grokbot all 33 MFP tools (field-case) <https://github.com/carpenike/k8s-gitops/pull/5825>
 - /cases/x-luisbarragan-2120147175636177001.html: Four community Grok Bots: inbox, recipes, breathing, grading (field-case) <https://x.com/luisbarragan/status/2120147175636177001>
 - /cases/x-romanbprism-2120147082254467577.html: First-pass technical diligence on an AI startup with Grok Bot (guide) <https://x.com/Romanbprism/status/2120147082254467577>
 - /cases/x-orangecoindude-2120143958307168388.html: Grok Bot manages an X account and flags 1,365 bots and dead accounts (field-case) <https://x.com/OrangeCoinDude/status/2120143958307168388>
@@ -2269,6 +2286,7 @@
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
 - /cases/x-imontenegroc-2120503332485660825.html: A Dots hotel pick turned unsafe; Grok Bot found new rooms (comparison) <https://x.com/imontenegroc/status/2120503332485660825>
 - /cases/x-agentmsgr-2120439491097718850.html: Grok Bot vs Claude Duet: multi-agent teams vs personal assistant (comparison) <https://x.com/AgentMsgr/status/2120439491097718850>
+- /cases/x-mrasifshah-2120445373504242068.html: Two ways to book a meeting: Gemini in Google Chat vs Meta Muse (comparison) <https://x.com/MrAsifShah/status/2120445373504242068>
 - /cases/x-faschingphilip-2120142319256994187.html: Grok Bot vs OpenClaw: who should use which, and when (comparison) <https://x.com/FaschingPhilip/status/2120142319256994187>
 - /cases/x-femkeplantinga-2120100565426340068.html: Open-source Dots clone vs paid agents: no fee, three extra jobs (comparison) <https://x.com/femke_plantinga/status/2120100565426340068>
 - /cases/x-arnoldgamboa-2120288498036957586.html: Grok Bot is replaceable: the model matters more than the platform (comparison) <https://x.com/arnoldgamboa/status/2120288498036957586>
@@ -2399,6 +2417,8 @@
 - /cases/x-contextbaron-2120504929630712058.html: Weekly usage ran out early? Check whether Grok Bot reset the cap (quota-report) <https://x.com/ContextBaron/status/2120504929630712058>
 - /cases/x-jacobdgilmore-2120498286410760692.html: Bots messaging each other burned through Grok Bot usage (quota-report) <https://x.com/jacobdgilmore/status/2120498286410760692>
 - /cases/x-maddoghouse73-2120510567790043544.html: A new user still sees Grok Bot's free limit expired after three days (quota-report) <https://x.com/Maddoghouse73/status/2120510567790043544>
+- /cases/x-rituwithai-2120506741427478780.html: Demo then skill: Grok Bot used 40.6% fewer tokens on the same task (quota-report) <https://x.com/RituWithAI/status/2120506741427478780>
+- /cases/x-builtbycraig-2120510032160620695.html: Three sentences after a reset, Grok Bot usage already at 8% (quota-report) <https://x.com/builtbycraig/status/2120510032160620695>
 - /cases/x-mhuncleray-2120115246618870224.html: Hitting your Grok Bot limit midweek isn't about the real work (quota-report) <https://x.com/MHUncleRay/status/2120115246618870224>
 - /cases/x-0xrafy-2120294462412759458.html: Ten steps to stop running out of Grok Bot usage: from Thursday to 54% (quota-report) <https://x.com/0xRafy/status/2120294462412759458>
 - /cases/x-kevinlogan-2120139661959975164.html: Grok Bot adds a usage breakdown by bot (quota-report) <https://x.com/Kevin_Logan/status/2120139661959975164>

@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2447 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2467 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-11T13:44:11.108Z
+- Last updated: 2026-11-11T23:43:23.144Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3197,6 +3197,91 @@
 - URL: https://usage.incidental.site/cases/x-okker24-2120496050310160525.html
 - Type: field-case · Product: meta-muse · Author: okker24 · Source: https://x.com/okker24/status/2120496050310160525 · Date: 2026-11-11
 - Summary: The author says the only things he dislikes about Meta Muse are that voice input occasionally throws an error and stops, and that it sometimes gets locked down at night. Even then, Muse still sends notifications and voice instructions still work.
+
+### OpenAI Dot can now connect to several computers
+- URL: https://usage.incidental.site/cases/x-ldataengineer-2120398115043774535.html
+- Type: guide · Product: openai-dots · Author: Ldataengineer · Source: https://x.com/Ldataengineer/status/2120398115043774535 · Date: 2026-11-11
+- Summary: The author summarises OpenAI's docs: since 9 November a dot can connect to more than one computer and be told which one to use for a task. Setup: open the dot's profile in the ChatGPT app on each computer and select Allow under Computers. Examples include running Xcode tests on a spare Mac and comparing a test on a current and an older SDK. Limits: one computer per thread at a time, the machine must stay on and online with the ChatGPT app open, and no maximum is given.
+
+### Grok Bot searched 2 years of iMessages and found $425.60 owed
+- URL: https://usage.incidental.site/cases/x-scottybeamio-2120500993389469848.html
+- Type: field-case · Product: grok-bot · Author: ScottyBeamIO · Source: https://x.com/ScottyBeamIO/status/2120500993389469848 · Date: 2026-11-11
+- Summary: After connecting Messages, the author had Grok Bot search two years of iMessages for money people owed him. It listed six debts totalling $425.60, such as $212 for a Paris Airbnb split and $89 for a concert ticket, each with the exact message and date. He then had it draft a friendly reminder for each person and send only the ones he approved. The full prompt is in the post.
+
+### Grok Bot caught a free trial and set one reminder
+- URL: https://usage.incidental.site/cases/x-sanjeetpadhy-2120506891877191892.html
+- Type: field-case · Product: grok-bot · Author: SanjeetPadhy · Source: https://x.com/SanjeetPadhy/status/2120506891877191892 · Date: 2026-11-11
+- Summary: The author signed up for a free trial this month. The Grok Bot that watches his subscriptions caught it, found the date of the first charge and asked what to do. He chose to keep trying it, so the bot set a single reminder three days before the charge, with no spreadsheet or calendar digging.
+
+### Five Grok Bots to start with in a small business
+- URL: https://usage.incidental.site/cases/x-augmentstartups-2120495023384904185.html
+- Type: guide · Product: grok-bot · Author: AugmentStartups · Source: https://x.com/AugmentStartups/status/2120495023384904185 · Date: 2026-11-11
+- Summary: The author suggests not asking one bot to run everything but giving each a clear job: Sales (research prospects and a shortlist with reasons), Content (notes into draft posts to check), Research (compare suppliers, show sources and gaps), Admin (inbox and calendar in one short brief) and Ops (clean a copy of a messy spreadsheet and flag issues). Start with the job you keep putting off and check the work before giving more responsibility.
+
+### Grok Bot did not finish the inbox; X drafts worked better
+- URL: https://usage.incidental.site/cases/x-jorgerrdzm-2120492044732813380.html
+- Type: field-case · Product: grok-bot · Author: jorgerrdzm · Source: https://x.com/jorgerrdzm/status/2120492044732813380 · Date: 2026-11-11
+- Summary: The author says Grok Bot was supposed to clean his inbox last Saturday but did not finish. X drafts have been more useful: the bot writes them, and nothing goes out until he says yes.
+
+### Grok Bot as the boss, Claude coding on two Mac Minis
+- URL: https://usage.incidental.site/cases/x-dcdigit-2120490331070435535.html
+- Type: field-case · Product: grok-bot · Author: dcdigit · Source: https://x.com/dcdigit/status/2120490331070435535 · Date: 2026-11-11
+- Summary: The author splits work between two AI agents: Grok Bot is the boss that writes the brief and checks the work, and Claude is the hands, coding on two always-on Mac Minis. Everything runs through one board and one inbox; if it is not on the board, it did not happen. With 30 years in IT, he says tickets beat vibes.
+
+### Grok Bot for email, CRM and calendar, like an assistant
+- URL: https://usage.incidental.site/cases/x-dutchdiederik-2120472386466455909.html
+- Type: field-case · Product: grok-bot · Author: DutchDiederik · Source: https://x.com/DutchDiederik/status/2120472386466455909 · Date: 2026-11-11
+- Summary: The author replies that Grok Bot has made managing his email, CRM and calendar easier, faster and more pleasant, like having a fantastic executive assistant. Next he plans to try using it to find new customers.
+
+### Handing a content routine to Grok Bot: content and ops desks
+- URL: https://usage.incidental.site/cases/x-fleyta88-2120459415857799176.html
+- Type: guide · Product: grok-bot · Author: fleyta88 · Source: https://x.com/fleyta88/status/2120459415857799176 · Date: 2026-11-11
+- Summary: The author splits content work into two Grok Bot setups. A Chief of Staff routes the content desk: a source desk turns 12 links into 4 sourced angles, a script coach writes 6 hooks, an edit bench waits for his yes, and packager, repurposer and distributor (which publishes nothing) each own a step. The ops desk sorts mail and drafts replies, logs sponsor deals, audits tool receipts and analyses data, with 7 ask-first rules. In his illustrative week, 10 of 15 manual hours are handed off.
+
+### Claude Code for builds, Grok Bot for 24/7 watch jobs
+- URL: https://usage.incidental.site/cases/x-dhruvjain08-2120450995805409526.html
+- Type: field-case · Product: grok-bot · Author: DhruvJain08 · Source: https://x.com/DhruvJain08/status/2120450995805409526 · Date: 2026-11-11
+- Summary: The author replies that he uses the same split: Claude Code for builds, and a Grok Bot for 24/7 watch jobs such as inbox triage and X replies.
+
+### Dot has GitHub connected, but SSH from its cloud computer fails
+- URL: https://usage.incidental.site/cases/x-baibaibaibye-2120494062549766490.html
+- Type: field-case · Product: openai-dots · Author: baibaibaibye · Source: https://x.com/baibaibaibye/status/2120494062549766490 · Date: 2026-11-11
+- Summary: The author connected GitHub to his dot and set up a Codex Cloud environment. Codex can check out his private repo, but SSH from the dot's cloud computer fails. He asks whether these are separate environments and how GitHub access is meant to work on the dot's computer. He notes the post was written by the dot.
+
+### DotSignal feeds Feishu and NetEase mail events to ChatGPT Dot
+- URL: https://usage.incidental.site/cases/gh-github-com-jacksonhuang517-dotsignal.html
+- Type: field-case · Product: openai-dots · Author: JacksonHuang517 · Source: https://github.com/JacksonHuang517/dotsignal · Date: 2026-11-11
+- Summary: The open-source project DotSignal turns Feishu messages, tasks and calendars plus NetEase email headers into cloud events, so ChatGPT Dot can remind you to reply, decide and follow up. Its repo tags describe a self-hosted MCP server using IMAP and OAuth2.
+
+### An unofficial Windows desktop app for Meta Muse
+- URL: https://usage.incidental.site/cases/gh-github-com-juswilvel-muse-pc-app.html
+- Type: field-case · Product: meta-muse · Author: juswilvel · Source: https://github.com/juswilvel/muse-pc-app · Date: 2026-11-11
+- Summary: The open-source project muse-pc-app is an unofficial Windows desktop wrapper for Meta Muse, built with Electron, with a tray icon and a Ctrl+Alt+M shortcut.
+
+### grok-bridge lets Claude control the Grok Bot desktop app
+- URL: https://usage.incidental.site/cases/gh-github-com-harkawataryan-grok-bridge.html
+- Type: field-case · Product: grok-bot · Author: harkawataryan · Source: https://github.com/harkawataryan/grok-bridge · Date: 2026-11-11
+- Summary: The open-source project grok-bridge is an MCP server that lets Claude control the Grok Bot desktop app (unofficial).
+
+### grok-agent-threads lets Grok Bot drive Claude Code and Codex chats on a Mac
+- URL: https://usage.incidental.site/cases/gh-github-com-artemxtech-grok-agent-threads.html
+- Type: field-case · Product: grok-bot · Author: ArtemXTech · Source: https://github.com/ArtemXTech/grok-agent-threads · Date: 2026-11-11
+- Summary: The open-source MCP server grok-agent-threads lets Grok Bot (or any agent) list, read, search, message and start your Claude Code chats and Codex threads on your Mac, over Tailscale.
+
+### GAP: using Pi as a Grok Bot subagent
+- URL: https://usage.incidental.site/cases/gh-github-com-chasen-liao-grokbot-and-pi.html
+- Type: field-case · Product: grok-bot · Author: Chasen-Liao · Source: https://github.com/Chasen-Liao/grokbot-and-pi · Date: 2026-11-11
+- Summary: The open-source project GAP (Grokbot And Pi) uses Pi as a Grok Bot subagent via pi-task (RPC), with webhook wake and a disaster-delete guard.
+
+### Packaging the Grok Bot desktop app for Linux with Nix
+- URL: https://usage.incidental.site/cases/gh-github-com-portal-wheatley-grok-bot-for-linux-pull-1.html
+- Type: field-case · Product: grok-bot · Author: portal-wheatley · Source: https://github.com/portal-wheatley/Grok-Bot-for-Linux/pull/1 · Date: 2026-11-11
+- Summary: This PR packages the Grok Bot desktop app for x86_64 and aarch64 Linux as a Nix flake: it downloads the official Windows installer, unpacks it, runs it on Electron 42 from nixpkgs, drops the Windows native addons and rebuilds tree-sitter. On x86_64 under Xvfb the sign-in screen renders and the sign-in link opens, but it was not tested while signed in; aarch64 has not been run on hardware yet.
+
+### Giving a homelab Grokbot all 33 MFP tools
+- URL: https://usage.incidental.site/cases/gh-github-com-carpenike-k8s-gitops-pull-5825.html
+- Type: field-case · Product: grok-bot · Author: carpenike · Source: https://github.com/carpenike/k8s-gitops/pull/5825 · Date: 2026-11-11
+- Summary: This PR gives the Grokbot view of a homelab MCP service all 33 MFP tools, including reads, writes and deletes, chosen by the repo owner over two narrower options. The author spells out the risk: every write is still preview first, then confirm with a time-limited token, but nobody looks between Grok's preview and confirm, so a misread request could change or delete diary entries, and deletes are not recoverable. The fix if needed is to drop the delete tools.
 
 ### Four community Grok Bots: inbox, recipes, breathing, grading
 - URL: https://usage.incidental.site/cases/x-luisbarragan-2120147175636177001.html
@@ -11423,6 +11508,11 @@
 - Type: comparison · Product: multi · Author: AgentMsgr · Source: https://x.com/AgentMsgr/status/2120439491097718850 · Date: 2026-11-11
 - Summary: The author sees Grok Bot as built for heavy, enterprise work: train an agent on a job, put it in a group with others, and they run multi-step workflows even when you're offline. Duet acts more like a proactive personal assistant; in the preview he found it not very useful yet, with a model that felt less smart than Opus 5.5 and often needed pointing.
 
+### Two ways to book a meeting: Gemini in Google Chat vs Meta Muse
+- URL: https://usage.incidental.site/cases/x-mrasifshah-2120445373504242068.html
+- Type: comparison · Product: meta-muse · Author: MrAsifShah · Source: https://x.com/MrAsifShah/status/2120445373504242068 · Date: 2026-11-11
+- Summary: The author compares two ways an AI books meetings. Gemini in Google Chat: when someone types "free tomorrow afternoon?", it underlines it, suggests 3 times from your Calendar and flags conflicts; one click books it. Meta Muse now has its own email address (paid, US and Canada); CC it on a thread and it handles the replies and follow-ups.
+
 ### Grok Bot vs OpenClaw: who should use which, and when
 - URL: https://usage.incidental.site/cases/x-faschingphilip-2120142319256994187.html
 - Type: comparison · Product: grok-bot · Author: FaschingPhilip · Source: https://x.com/FaschingPhilip/status/2120142319256994187 · Date: 2026-11-10
@@ -12072,6 +12162,16 @@
 - URL: https://usage.incidental.site/cases/x-maddoghouse73-2120510567790043544.html
 - Type: quota-report · Product: grok-bot · Author: Maddoghouse73 · Source: https://x.com/Maddoghouse73/status/2120510567790043544 · Date: 2026-11-11
 - Summary: The author downloaded Grok Bot after being told to try it, and on day three it still says the free usage limit has expired. He calls it the same problems as before.
+
+### Demo then skill: Grok Bot used 40.6% fewer tokens on the same task
+- URL: https://usage.incidental.site/cases/x-rituwithai-2120506741427478780.html
+- Type: quota-report · Product: grok-bot · Author: RituWithAI · Source: https://x.com/RituWithAI/status/2120506741427478780 · Date: 2026-11-11
+- Summary: The author ran one task twice: find a specific phone colour and storage online, check delivery to Sydney postcode 2000, and report the date or out-of-stock status. With instructions only, Grok Bot worked out the steps itself and used 1,316,200 tokens. He then recorded himself doing the flow on the bot's computer and had it turn the recording into a reusable skill; the same task then used 782,200 tokens, 40.6% less. He notes it was one experiment and building the skill also cost usage.
+
+### Three sentences after a reset, Grok Bot usage already at 8%
+- URL: https://usage.incidental.site/cases/x-builtbycraig-2120510032160620695.html
+- Type: quota-report · Product: grok-bot · Author: builtbycraig · Source: https://x.com/builtbycraig/status/2120510032160620695 · Date: 2026-11-11
+- Summary: The author says his usage reset two and a half hours earlier; he booted his laptop, said three sentences to a bot, and usage was already at 8%. He asks how that is possible.
 
 ### Hitting your Grok Bot limit midweek isn't about the real work
 - URL: https://usage.incidental.site/cases/x-mhuncleray-2120115246618870224.html
