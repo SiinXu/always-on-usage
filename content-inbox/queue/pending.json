@@ -141111,35 +141111,6 @@
    "found_at": "2026-11-11T06:38:13.446Z"
   },
   {
-   "id": "yt:RBkgEKpoSW4",
-   "url": "https://www.youtube.com/watch?v=RBkgEKpoSW4",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "Jeremy Devz",
-   "date": "2026-11-10",
-   "likes": null,
-   "views": 50,
-   "product": "openai-dots",
-   "text": "OpenAI Dots Local Chat Access Issues are Solved\nOpenAI Dots can now directly access my local Codex chats and directly do Computer Use 🙌\n\nIn this follow-up to my earlier Dots local access videos, I put the fix to the test with my Dot, Fro. We create, pin, rename, and message chats on my Mac and remote dev box, then try direct computer use with Apple Notes and Chrome.\n\nIn this video:\n🔵 Creating and messaging local Codex chats\n🔵 Accessing chats on my remote dev box over SSH\n🔵 Pinning and renaming chats from my Dot\n🔵 What the multi-exec update means for this workflow\n🔵 Testing direct computer use with Apple Notes and Chrome\n🔵 The computer-use permission prompt I encountered\n\n▶️ Watch my previous local access workaround video:\nhttps://youtu.be/5oRZ5A9dqnw\n\n🧃 PromptJuice — my free, open-source Claude and Codex usage tracker:\nhttps://github.com/jeremyrojas/prompt-juice\n\n🥧 Save and share your AI skills and prompts:\nhttps://promptpie.dev\n\n📱 X: https://x.com/jeremydevz\n\nPlease like and subscribe if you found value in this video! ❤️\n\n👨🏽‍💻 Who am I? 👨🏽‍💻\nI'm a software engineer making AI coding simple — subscribe for more!\n\nHappy AI coding,\nJeremy Devz\n\n⌚️ TIMECODEZ ⌚️\n00:00 Dots local access fix: putting it to the test\n00:31 The old bridge-task workaround\n01:32 What direct local access changes\n01:54 Multi-exec and remote dev boxes\n02:58 The local and remote task diagram\n03:24 Checking the chats, pins, and messages\n04:12 Testing computer use with Apple Notes and Chrome\n05:26 Recap: what Dots can do now\n06:08 Final thoughts\n\n#OpenAI #Codex #ChatGPT",
-   "media": [
-    "https://i.ytimg.com/vi/RBkgEKpoSW4/hqdefault.jpg"
-   ],
-   "found_at": "2026-11-11T13:35:53.957Z"
-  },
-  {
-   "id": "gh:github.com/halink/ai-valley",
-   "url": "https://github.com/halink/ai-valley",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "halink",
-   "date": "2026-11-06",
-   "likes": 2,
-   "product": "openai-dots",
-   "text": "halink/ai-valley\n栖谷（AI Valley）是一款由 AI 驱动的像素小镇模拟观察游戏。（完全由 OpenAI Dots 开发）",
-   "media": [],
-   "found_at": "2026-11-11T13:36:54.674Z"
-  },
-  {
    "id": "gh:github.com/metasirony/silky3code/issues/20",
    "url": "https://github.com/metasirony/silky3code/issues/20",
    "source": "github",
@@ -141922,32 +141893,6 @@
    "found_at": "2026-11-11T13:39:01.875Z"
   },
   {
-   "id": "x:2120510567790043544",
-   "url": "https://x.com/Maddoghouse73/status/2120510567790043544",
-   "source": "x",
-   "source_name": "X",
-   "author": "Maddoghouse73",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "I can see Grok Bot is the same misfortunate problems as before. I downloaded it because they said try it and it’s day three and it still says free limit usage has expired.  After three days.!  same bullshit",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
-   "id": "x:2120510539608756550",
-   "url": "https://x.com/mikioiha/status/2120510539608756550",
-   "source": "x",
-   "source_name": "X",
-   "author": "mikioiha",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "まずはGrok BotにローカルLLMの構築と、マイクロな関連ツールの作成と実機テストとかやってもらってます。\nめちゃくちゃ楽しい。 https://t.co/exEwFei1TF",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
    "id": "x:2120510499922366599",
    "url": "https://x.com/Zhongyeli777/status/2120510499922366599",
    "source": "x",
@@ -142038,21 +141983,6 @@
    "product": "grok-bot",
    "text": "@Ammar7 @EngMoElgaraihy هيوصلك تقييم من Grok Bot الخاص بك.",
    "media": [],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
-   "id": "x:2120510325581906147",
-   "url": "https://x.com/Tycoonry/status/2120510325581906147",
-   "source": "x",
-   "source_name": "X",
-   "author": "Tycoonry",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "The Grok Bot team reset everyone's weekly limit. No new fix came. I'm already at 72% of the weekly limit, with 1 day left. It burns more tokens than before.\nIt also gets things wrong, or repeats work it already finished. I have to explain the same job again, in detail. https://t.co/b3C14r6TeI",
-   "media": [
-    "https://pbs.twimg.com/media/HW2Q5ZnbAAAQGxn.jpg"
-   ],
    "found_at": "2026-11-11T13:39:01.875Z"
   },
   {
@@ -142217,21 +142147,6 @@
    "found_at": "2026-11-11T13:39:01.875Z"
   },
   {
-   "id": "x:2120509479443980315",
-   "url": "https://x.com/Romanbprism/status/2120509479443980315",
-   "source": "x",
-   "source_name": "X",
-   "author": "Romanbprism",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "The most valuable Grok Bot work in a company is usually far from engineering.\n\n8 functions where I'd deploy first, and the first workflow for each:\n\nFinance: month-end reconciliation prep\nRevenue: account research before every meeting\nService: ticket triage and routing\nIT &amp; https://t.co/ejGDXvkspk",
-   "media": [
-    "https://pbs.twimg.com/media/HW2QHwAbwAAsPud.jpg"
-   ],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
    "id": "x:2120509000932598006",
    "url": "https://x.com/XFreeze/status/2120509000932598006",
    "source": "x",
@@ -142333,32 +142248,6 @@
    "found_at": "2026-11-11T13:39:01.875Z"
   },
   {
-   "id": "x:2120504954523951605",
-   "url": "https://x.com/srujalshahh/status/2120504954523951605",
-   "source": "x",
-   "source_name": "X",
-   "author": "srujalshahh",
-   "date": "2026-11-11",
-   "likes": 4,
-   "product": "grok-bot",
-   "text": "intentful connections are the best &amp; here's how we crafted a workflow for it.\n\n- scraped guest lists from the events we were attending on @LumaHQ via a simple script (@Code_Parth made an extension later that saves a csv )\n- gave grok @bot our prospect's ICP &amp; categorized ppl\n- https://t.co/LjmgiNRlzk",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
-   "id": "x:2120504929630712058",
-   "url": "https://x.com/ContextBaron/status/2120504929630712058",
-   "source": "x",
-   "source_name": "X",
-   "author": "ContextBaron",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "用量一週提早見底，不一定要立刻加購，先確認平台有沒有重設上限。\n\nGrok Bot 官方帳號宣布，已為所有用戶重設每週用量上限。帖文沒有說明原因，亦沒有承諾這會成為定期安排。官方 changelog 亦未記載此事。\n\n若你先前因為間隔過短的 routine，或重複執行的 agent https://t.co/BXlIMg3hji",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
    "id": "x:2120504611983253535",
    "url": "https://x.com/o_dium/status/2120504611983253535",
    "source": "x",
@@ -142412,60 +142301,6 @@
    "media": [
     "https://pbs.twimg.com/amplify_video_thumb/2120501211384127488/img/hfq5IjqCS3Q4mFVs.jpg"
    ],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
-   "id": "x:2120500302931476751",
-   "url": "https://x.com/unicodef1wn/status/2120500302931476751",
-   "source": "x",
-   "source_name": "X",
-   "author": "unicodef1wn",
-   "date": "2026-11-11",
-   "likes": 37,
-   "product": "grok-bot",
-   "text": "I GAVE GROK BOT ACCESS TO MY FAMILY GROUP CHAT. IT FOUND 23 THINGS THEY HINTED AT AND BOUGHT 12 GIFTS FOR $1,135 LESS\n\ni forgot every hint. my bot didn't\n\n→ mom sent a photo of a cast iron pan: \"if i ever see this on sale\"\n→ dad's headphones: \"left earcup died AGAIN\"\n→ kate https://t.co/bqHcT4enmz https://t.co/KgmDXJxGIC",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2120499774537310208/img/WnP_Z9S1Q0x6HJLS.jpg"
-   ],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
-   "id": "x:2120499183035494412",
-   "url": "https://x.com/DissolveJordan/status/2120499183035494412",
-   "source": "x",
-   "source_name": "X",
-   "author": "DissolveJordan",
-   "date": "2026-11-11",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@poteto @KINGiTAJ Is anyone able to share a workflow example image where projects is used for coding work and where cursor is used for local tasks?  \n\nI've been using grokbot to coordinate roadmaps, planning, and prompts for claude, cursor to test and merge prs, and grok chat for philosophy mostly",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
-   "id": "x:2120498379713097750",
-   "url": "https://x.com/Zyphullen/status/2120498379713097750",
-   "source": "x",
-   "source_name": "X",
-   "author": "Zyphullen",
-   "date": "2026-11-11",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Echo Atlas v0.3 Has Arrived\n\nFrom nothing to everything, the whole story of existence now lives in one place. Shaped together with Grok Bot, Echo Atlas is a free map of knowledge that opens straight in your browser, with nothing to download, no account to make and no wall to",
-   "media": [],
-   "found_at": "2026-11-11T13:39:01.875Z"
-  },
-  {
-   "id": "x:2120498286410760692",
-   "url": "https://x.com/jacobdgilmore/status/2120498286410760692",
-   "source": "x",
-   "source_name": "X",
-   "author": "jacobdgilmore",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@telegraphic_dev Yep. This is what I built, but the mistake was having each bot message each other as it burned usage significantly on top of Grok Bot cutting their usage / Grok Bot re-routing traffic to less expensive models which dropped code quality. Then, this meant my bots looping through https://t.co/mA6q3rO5fP",
-   "media": [],
    "found_at": "2026-11-11T13:39:01.875Z"
   },
   {
@@ -142722,21 +142557,6 @@
    "found_at": "2026-11-11T13:39:01.876Z"
   },
   {
-   "id": "x:2120496050310160525",
-   "url": "https://x.com/okker24/status/2120496050310160525",
-   "source": "x",
-   "source_name": "X",
-   "author": "okker24",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "Meta Muse、音声入力中たまにエラー吐いて中断されることと、夜たまにロックダウンされることだけが気に食わない\n\nこの間もMuseから通知は来るし、音声入力で指示も出せる https://t.co/3sTxy1f9WK",
-   "media": [
-    "https://pbs.twimg.com/media/HW2D6vEaYAAw05q.jpg"
-   ],
-   "found_at": "2026-11-11T13:39:01.876Z"
-  },
-  {
    "id": "x:2120458439256399903",
    "url": "https://x.com/EugeneNg/status/2120458439256399903",
    "source": "x",
@@ -142752,49 +142572,6 @@
     "https://pbs.twimg.com/media/HW1howCbQAA2pHI.jpg",
     "https://pbs.twimg.com/media/HW1hsKkb0AAGO6L.jpg"
    ],
-   "found_at": "2026-11-11T13:39:01.876Z"
-  },
-  {
-   "id": "x:2120439491097718850",
-   "url": "https://x.com/AgentMsgr/status/2120439491097718850",
-   "source": "x",
-   "source_name": "X",
-   "author": "AgentMsgr",
-   "date": "2026-11-11",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "Grok Bot vs Claude Duet:\n\nGrok Bot is built for the heavy stuff, enterprise use, multi-agent coordination. You train an agent on a specific job, then drop it into a group with others. They work together on multi-step workflows, hand things off, and keep moving even when you're offline. Sales follow-ups, expense checks, recruiting runs, ops that used to eat whole afternoons. It feels like staffing a small team that already knows your tools. Its highly addicting and we see it as the clear winner as a business solution.\n\nDuet is different. If you already live in Claude and have all your context in-platforn, it can act more like a personal assistant that notices things. Morning briefs, spotting stuff that needs a look, drafting based on what it already knows about how you work. It tries to be proactive instead of waiting for a prompt every time.\n\nI tried the Duet preview. It was okay, but not that useful yet. The model underneath didn't feel as smart as Opus 5.5. The proactive parts weren't helpful for me, and a lot of the time it still needed me to point it in the right direction. It felt much less capable than GrokBot. Once it leaves preview and gets a real launch I expect it to improve a lot, especially for people who are already deep Claude users.\n\nRight now it is Duet feels like more of an assistant for technical people who want Claude watching their day than a platform for coordinating multiple agents. We say that its just like Meta Muse but built for AI dorks.\n\nWhich one are you leaning toward?",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2120438347692638208/img/DQ_J1XI88XpOD66v.jpg"
-   ],
-   "found_at": "2026-11-11T13:39:01.876Z"
-  },
-  {
-   "id": "x:2120389035902619946",
-   "url": "https://x.com/anthonycoaches/status/2120389035902619946",
-   "source": "x",
-   "source_name": "X",
-   "author": "anthonycoaches",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "xDay 4: the league build. Before the season, my assistant, Meta Muse, built a scouting profile for every team in our conference. Not one opponent the week we see them. All of them, before first pitch. Here is how, step by step.#SoftballCoach #MetaMuse #SoftballCoach #MetaMuse https://t.co/RqVO4ArO8T",
-   "media": [
-    "https://pbs.twimg.com/media/HW0hcDiacAAt3q7.jpg"
-   ],
-   "found_at": "2026-11-11T13:39:01.876Z"
-  },
-  {
-   "id": "x:2120341286188376435",
-   "url": "https://x.com/psychoid_layer/status/2120341286188376435",
-   "source": "x",
-   "source_name": "X",
-   "author": "psychoid_layer",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "@alexandr_wang @alexandr_wang\nMy Meta Muse agent can't access my laptops and PC, I built my agent \"hands\". Today it was blocked with no explanations, she couldn't even discuss the topic. Thanks for ruining the most awesome thing ever made. Done. 3B token usage, trashed.",
-   "media": [],
    "found_at": "2026-11-11T13:39:01.876Z"
   },
   {
@@ -143090,19 +142867,6 @@
    "media": [
     "https://pbs.twimg.com/media/HW1JtkjXUAANYiv.jpg"
    ],
-   "found_at": "2026-11-11T13:39:01.877Z"
-  },
-  {
-   "id": "x:2120503332485660825",
-   "url": "https://x.com/imontenegroc/status/2120503332485660825",
-   "source": "x",
-   "source_name": "X",
-   "author": "imontenegroc",
-   "date": "2026-11-11",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "OpenAI's Dot put my life in danger in Brazil. Grok Bot got me out.\nMy Dot told me it was a good hotel in a safe, residential neighborhood. It turned out to be a motel in a dangerous place.\nI know I shouldn't have trusted it blindly. But I also checked the Booking reviews, and they were good.\nThat's the dangerous part. After a lot of time getting correct information, you trust it to keep being right. And then something like this happens.\nGrok Bot found me other places to stay, fast.\nThat's been my experience with Grok Bot overall. It's fast, it hasn't let me down once, and the connectors keep surprising me.\nThe only thing I don't love is usage. It runs out way too quickly.\nEverything else has been incredible.\n@bot @poteto @spacexai",
-   "media": [],
    "found_at": "2026-11-11T13:39:01.877Z"
   },
   {

@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2430 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2447 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-10T23:41:14.866Z
+- Last updated: 2026-11-11T13:44:11.108Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3153,6 +3153,51 @@
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
 
+### Having Grok Bot set up a local LLM and test it on real hardware
+- URL: https://usage.incidental.site/cases/x-mikioiha-2120510539608756550.html
+- Type: field-case · Product: grok-bot · Author: mikioiha · Source: https://x.com/mikioiha/status/2120510539608756550 · Date: 2026-11-11
+- Summary: The author says he started by having Grok Bot build a local LLM setup, create small related tools and run tests on the actual machine, and finds it a lot of fun.
+
+### The best first Grok Bot deployments are often outside engineering
+- URL: https://usage.incidental.site/cases/x-romanbprism-2120509479443980315.html
+- Type: guide · Product: grok-bot · Author: Romanbprism · Source: https://x.com/Romanbprism/status/2120509479443980315 · Date: 2026-11-11
+- Summary: The author argues the most valuable Grok Bot work in a company is usually far from engineering, and lists 8 functions to deploy first with a first workflow for each, such as month-end reconciliation prep in finance, account research before every meeting in revenue, and ticket triage and routing in service.
+
+### Using Grok Bot to sort Luma event guest lists by ideal customer
+- URL: https://usage.incidental.site/cases/x-srujalshahh-2120504954523951605.html
+- Type: field-case · Product: grok-bot · Author: srujalshahh · Source: https://x.com/srujalshahh/status/2120504954523951605 · Date: 2026-11-11
+- Summary: The author's team scraped guest lists from Luma events they were attending with a simple script (a teammate later built an extension that saves a CSV), then gave Grok Bot their prospect's ideal customer profile and had it categorize the people.
+
+### Grok Bot mined a family group chat for 23 gift hints
+- URL: https://usage.incidental.site/cases/x-unicodef1wn-2120500302931476751.html
+- Type: field-case · Product: grok-bot · Author: unicodef1wn · Source: https://x.com/unicodef1wn/status/2120500302931476751 · Date: 2026-11-11
+- Summary: The author gave Grok Bot access to his family group chat. It found 23 things relatives had hinted at and bought 12 gifts, which he says cost $1,135 less. Examples include his mom's photo of a cast iron pan and his dad's headphones whose left earcup died again.
+
+### Echo Atlas v0.3, a knowledge map shaped with Grok Bot
+- URL: https://usage.incidental.site/cases/x-zyphullen-2120498379713097750.html
+- Type: field-case · Product: grok-bot · Author: Zyphullen · Source: https://x.com/Zyphullen/status/2120498379713097750 · Date: 2026-11-11
+- Summary: The author released Echo Atlas v0.3, a free map of knowledge built together with Grok Bot that tells the story of existence from nothing to everything. It opens straight in the browser, with nothing to download and no account to make.
+
+### A softball coach has Meta Muse scout the whole conference pre-season
+- URL: https://usage.incidental.site/cases/x-anthonycoaches-2120389035902619946.html
+- Type: field-case · Product: meta-muse · Author: anthonycoaches · Source: https://x.com/anthonycoaches/status/2120389035902619946 · Date: 2026-11-11
+- Summary: The author, a softball coach, had his assistant Meta Muse build a scouting profile for every team in the conference before the season, rather than one opponent per week. It is day 4 of his series, with a step-by-step how-to.
+
+### Grok Bot plans, other tools code and merge PRs
+- URL: https://usage.incidental.site/cases/x-dissolvejordan-2120499183035494412.html
+- Type: field-case · Product: grok-bot · Author: DissolveJordan · Source: https://x.com/DissolveJordan/status/2120499183035494412 · Date: 2026-11-11
+- Summary: The author uses Grok Bot to coordinate roadmaps, planning and prompts for Claude, Cursor to test and merge PRs, and Grok chat mostly for philosophy. He asks for a workflow example where Projects handles coding and Cursor handles local tasks.
+
+### Self-built computer access for Meta Muse was suddenly blocked
+- URL: https://usage.incidental.site/cases/x-psychoidlayer-2120341286188376435.html
+- Type: field-case · Product: meta-muse · Author: psychoid_layer · Source: https://x.com/psychoid_layer/status/2120341286188376435 · Date: 2026-11-11
+- Summary: The author says his Meta Muse agent cannot access his laptops and PC, so he built it his own "hands". Today that was blocked with no explanation, and the agent could not even discuss the topic. He says 3B tokens of usage were trashed.
+
+### Meta Muse voice input sometimes errors out and locks at night
+- URL: https://usage.incidental.site/cases/x-okker24-2120496050310160525.html
+- Type: field-case · Product: meta-muse · Author: okker24 · Source: https://x.com/okker24/status/2120496050310160525 · Date: 2026-11-11
+- Summary: The author says the only things he dislikes about Meta Muse are that voice input occasionally throws an error and stops, and that it sometimes gets locked down at night. Even then, Muse still sends notifications and voice instructions still work.
+
 ### Four community Grok Bots: inbox, recipes, breathing, grading
 - URL: https://usage.incidental.site/cases/x-luisbarragan-2120147175636177001.html
 - Type: field-case · Product: grok-bot · Author: luisbarragan · Source: https://x.com/luisbarragan/status/2120147175636177001 · Date: 2026-11-10
@@ -3302,6 +3347,11 @@
 - URL: https://usage.incidental.site/cases/x-anthonycoaches-2120154229562380379.html
 - Type: field-case · Product: meta-muse · Author: anthonycoaches · Source: https://x.com/anthonycoaches/status/2120154229562380379 · Date: 2026-11-10
 - Summary: The author built a “coaching staff” on Meta Muse running around the clock on computers at home: chief of staff, engineer, scout, accountant, scheduler and twenty more seats. It is post 3 of his Using AI Assistants series.
+
+### Tested: OpenAI Dots now reaches local Codex chats and uses the computer
+- URL: https://usage.incidental.site/cases/yt-rbkgekposw4.html
+- Type: guide · Product: openai-dots · Author: Jeremy Devz · Source: https://www.youtube.com/watch?v=RBkgEKpoSW4 · Date: 2026-11-10
+- Summary: In a follow-up to earlier videos, the author tests the local access fix with his Dot: creating, pinning, renaming and messaging Codex chats on his Mac and on a remote dev box over SSH, explaining what the multi-exec update changes, then trying direct computer use with Apple Notes and Chrome, including the permission prompt he hit.
 
 ### Handing paid group-chat knowledge to Grok Bot to sort by topic
 - URL: https://usage.incidental.site/cases/x-xsanjin-2119784576969297938.html
@@ -3872,6 +3922,11 @@
 - URL: https://usage.incidental.site/cases/gh-github-com-openai-codex-issues-59834.html
 - Type: field-case · Product: openai-dots · Author: MattU27 · Source: https://github.com/openai/codex/issues/59834 · Date: 2026-11-06
 - Summary: A user reports on GitHub that on November 6, while asking his dot to improve an existing job-research workflow on its cloud computer, it gave overly broad completion reports and then admitted unfinished work, used "local" ambiguously (its cloud computer or his PC), and the desktop app showed the whole dot as Paused although he had only paused the scheduled job search. He says this made it hard to trust what was done.
+
+### AI Valley, a pixel town game built entirely by OpenAI Dots
+- URL: https://usage.incidental.site/cases/gh-github-com-halink-ai-valley.html
+- Type: field-case · Product: openai-dots · Author: halink · Source: https://github.com/halink/ai-valley · Date: 2026-11-06
+- Summary: The GitHub project AI Valley is an AI-driven pixel town simulation and observation game. Its description says it was developed entirely by OpenAI Dots.
 
 ### Grok Bot on iPhone: cleared unused subscriptions and makes calls
 - URL: https://usage.incidental.site/cases/x-scottybeamio-2118329482842866011.html
@@ -11358,6 +11413,16 @@
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
 
+### A Dots hotel pick turned unsafe; Grok Bot found new rooms
+- URL: https://usage.incidental.site/cases/x-imontenegroc-2120503332485660825.html
+- Type: comparison · Product: multi · Author: imontenegroc · Source: https://x.com/imontenegroc/status/2120503332485660825 · Date: 2026-11-11
+- Summary: In Brazil, the author's OpenAI Dot described a hotel as being in a safe residential area, and Booking reviews were good, but it was a motel in a dangerous place. Grok Bot quickly found him other places to stay. He calls Grok Bot fast with surprising connectors; his one complaint is that usage runs out too quickly.
+
+### Grok Bot vs Claude Duet: multi-agent teams vs personal assistant
+- URL: https://usage.incidental.site/cases/x-agentmsgr-2120439491097718850.html
+- Type: comparison · Product: multi · Author: AgentMsgr · Source: https://x.com/AgentMsgr/status/2120439491097718850 · Date: 2026-11-11
+- Summary: The author sees Grok Bot as built for heavy, enterprise work: train an agent on a job, put it in a group with others, and they run multi-step workflows even when you're offline. Duet acts more like a proactive personal assistant; in the preview he found it not very useful yet, with a model that felt less smart than Opus 5.5 and often needed pointing.
+
 ### Grok Bot vs OpenClaw: who should use which, and when
 - URL: https://usage.incidental.site/cases/x-faschingphilip-2120142319256994187.html
 - Type: comparison · Product: grok-bot · Author: FaschingPhilip · Source: https://x.com/FaschingPhilip/status/2120142319256994187 · Date: 2026-11-10
@@ -11987,6 +12052,26 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### After the weekly reset, Grok Bot usage is already at 72%
+- URL: https://usage.incidental.site/cases/x-tycoonry-2120510325581906147.html
+- Type: quota-report · Product: grok-bot · Author: Tycoonry · Source: https://x.com/Tycoonry/status/2120510325581906147 · Date: 2026-11-11
+- Summary: The author says the Grok Bot team reset everyone's weekly limit, but no new fix came. With 1 day left he is at 72% of the weekly limit and it burns more tokens than before. It also gets things wrong or repeats finished work, so he has to explain the same job again in detail.
+
+### Weekly usage ran out early? Check whether Grok Bot reset the cap
+- URL: https://usage.incidental.site/cases/x-contextbaron-2120504929630712058.html
+- Type: quota-report · Product: grok-bot · Author: ContextBaron · Source: https://x.com/ContextBaron/status/2120504929630712058 · Date: 2026-11-11
+- Summary: The author advises not to buy more right away when usage runs out early, but first check whether the platform reset the cap. The official Grok Bot account announced a reset of every user's weekly usage limit, but gave no reason, did not promise it would recur, and the official changelog does not record it.
+
+### Bots messaging each other burned through Grok Bot usage
+- URL: https://usage.incidental.site/cases/x-jacobdgilmore-2120498286410760692.html
+- Type: quota-report · Product: grok-bot · Author: jacobdgilmore · Source: https://x.com/jacobdgilmore/status/2120498286410760692 · Date: 2026-11-11
+- Summary: The author built a similar multi-bot setup; his mistake was having each bot message the others, which burned usage significantly. On top of that, Grok Bot cut usage and re-routed traffic to cheaper models, which dropped code quality, and his bots ended up looping.
+
+### A new user still sees Grok Bot's free limit expired after three days
+- URL: https://usage.incidental.site/cases/x-maddoghouse73-2120510567790043544.html
+- Type: quota-report · Product: grok-bot · Author: Maddoghouse73 · Source: https://x.com/Maddoghouse73/status/2120510567790043544 · Date: 2026-11-11
+- Summary: The author downloaded Grok Bot after being told to try it, and on day three it still says the free usage limit has expired. He calls it the same problems as before.
 
 ### Hitting your Grok Bot limit midweek isn't about the real work
 - URL: https://usage.incidental.site/cases/x-mhuncleray-2120115246618870224.html
