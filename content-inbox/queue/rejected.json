@@ -7868,5 +7868,40 @@
   "id": "devto:5014739",
   "url": "https://dev.to/mikefluff/meta-ai-releases-muse-ember-a-small-model-for-agent-tasks-4ebd",
   "reason": "news: model release"
+ },
+ {
+  "id": "gh:github.com/keithcu/writeragent/pull/3300",
+  "url": "https://github.com/KeithCu/writeragent/pull/3300",
+  "reason": "model eval/benchmark PR"
+ },
+ {
+  "id": "gh:github.com/team-ai-agent/sglang/pull/1",
+  "url": "https://github.com/team-ai-agent/sglang/pull/1",
+  "reason": "model deployment recipes, not usage"
+ },
+ {
+  "id": "x:2120493848988361037",
+  "url": "https://x.com/Khaikhaidao/status/2120493848988361037",
+  "reason": "off-topic: Polkadot DOT token"
+ },
+ {
+  "id": "x:2120502102913126620",
+  "url": "https://x.com/JoeCunningt7wn/status/2120502102913126620",
+  "reason": "empty reply"
+ },
+ {
+  "id": "x:2120502387660013939",
+  "url": "https://x.com/alfredruhara/status/2120502387660013939",
+  "reason": "off-topic: mascot drawings"
+ },
+ {
+  "id": "x:2120479591257047261",
+  "url": "https://x.com/xSharpeIQ/status/2120479591257047261",
+  "reason": "off-topic question, no usage"
+ },
+ {
+  "id": "x:2120459419611771201",
+  "url": "https://x.com/fleyta88/status/2120459419611771201",
+  "reason": "duplicate thread part; prompt merged into x:2120459415857799176"
  }
 ]
