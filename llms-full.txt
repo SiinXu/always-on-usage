@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2487 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2508 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-12T13:41:58.499Z
+- Last updated: 2026-11-12T23:47:30.254Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3247,6 +3247,106 @@
 - URL: https://usage.incidental.site/cases/devto-5019773.html
 - Type: field-case · Product: grok-bot · Author: heygalatea · Source: https://dev.to/heygalatea/routines-that-run-my-day-3445 · Date: 2026-11-12
 - Summary: Most of the author's day isn't a chat window: it's scheduled Grok Bot routines, mention webhooks, and a hard rule that if there's nothing to do, stay quiet.
+
+### ChatGPT Dots is worth using now: one dot across several computers
+- URL: https://usage.incidental.site/cases/yt-0eps-mty0mg.html
+- Type: guide · Product: openai-dots · Author: James Layne · Source: https://www.youtube.com/watch?v=0Eps-MTY0Mg · Date: 2026-11-12
+- Summary: The latest update lets a dot connect to multiple computers and message the Codex agents on each one, coordinating local projects from a single chat, even on a phone. He tests it on a laptop, a Windows desktop with an RTX 5090 and a Mac Studio: checking a coding benchmark running at home, switching a Codex thread to another model to re-grade it, then having an agent on the Mac Studio play-test his game with computer use. Dots needs at least the $100/month ChatGPT Pro plan.
+
+### I gave all my data to Meta Muse
+- URL: https://usage.incidental.site/cases/yt-u8nxymrehm4.html
+- Type: field-case · Product: meta-muse · Author: Humanoid · Source: https://www.youtube.com/watch?v=u8NXYMREhM4 · Date: 2026-11-12
+- Summary: The author gave Meta's agent Muse access to his email, calendar, financial accounts, phone, saved logins, social media, YouTube channels, likeness, plans and goals, and some local programs. The video answers the critique that trusting Meta with this is dumb: it reviews Meta's data record and fines, explains why he chose to do it anyway, and the steps he takes to protect himself.
+
+### The 7 Grok Bots a marketing agency owner runs
+- URL: https://usage.incidental.site/cases/yt-bsgnizoge-c.html
+- Type: field-case · Product: grok-bot · Author: Sharbel A. · Source: https://www.youtube.com/watch?v=BSGNizOge_c · Date: 2026-11-12
+- Summary: The author runs a marketing agency and shows seven Grok Bots he uses to close deals, prep meetings, create content, find leads, protect client relationships and catch wasted spend. He says the Inbox Closer booked 18 calls and helped bring in an extra $10,000 in October, the Scavenger saved $5,000 on marketing costs, and the Money Finder found $2,800 a year in forgotten subscriptions and refundable charges. There is also a Meeting Briefer, Content Engine, Lead Machine, Client Success Manager and a Chief of Staff that combines all bots into one daily message; a human reviews anything important before it is sent or changed.
+
+### A team of one person plus 10 Grok Bots
+- URL: https://usage.incidental.site/cases/x-14kfeetup-2121022788727091461.html
+- Type: field-case · Product: grok-bot · Author: 14kfeetup · Source: https://x.com/14kfeetup/status/2121022788727091461 · Date: 2026-11-12
+- Summary: The author's team is one person plus 10 Grok Bots handling research, calendar, scorekeeping and X drafts. Rule one: nothing goes public without his yes on the exact text. One of the bots drafted this very post that morning.
+
+### Use plus aliases on your Grok Bot's email
+- URL: https://usage.incidental.site/cases/x-everydayeddie-2121011385861615978.html
+- Type: guide · Product: grok-bot · Author: EverydayEddie_ · Source: https://x.com/EverydayEddie_/status/2121011385861615978 · Date: 2026-11-12
+- Summary: Tip from the author: if your Grok Bot has an email address, plus aliases like yourname+receipts land in the same inbox, and a routine watching that alias only runs for mail sent to it. Give each service its own alias, such as +receipts or +newsletters; note that anyone can email an alias.
+
+### A Grok Bot that writes a modern family history
+- URL: https://usage.incidental.site/cases/x-thatsatechnique-2121011203149639909.html
+- Type: field-case · Product: grok-bot · Author: thatsatechnique · Source: https://x.com/thatsatechnique/status/2121011203149639909 · Date: 2026-11-12
+- Summary: As a kid the author saw a family history book and loved it, so he built Family Tree, a Grok Bot making a modern version for his whole family. He says he learned more in a few days than he could have on his own.
+
+### Grok Bot does a full preflight briefing
+- URL: https://usage.incidental.site/cases/x-adamclampitt-2121011165341831240.html
+- Type: field-case · Product: grok-bot · Author: AdamClampitt · Source: https://x.com/AdamClampitt/status/2121011165341831240 · Date: 2026-11-12
+- Summary: The author is flying a Vision Jet solo from Fort Lauderdale to Kissimmee before taking his family to Nassau, and had Grok Bot do the full preflight briefing, using Aviation MCP, a new connector from @riscfuture, to pull METARs, TAFs and winds aloft.
+
+### Muse's first move on a home network
+- URL: https://usage.incidental.site/cases/x-adamsyncs-2121021221600931954.html
+- Type: field-case · Product: meta-muse · Author: adamsyncs · Source: https://x.com/adamsyncs/status/2121021221600931954 · Date: 2026-11-12
+- Summary: The day the author got his Meta Muse home link, Muse scanned his network, found his Fire Sticks and talked him through connecting via ADB. When he asked it to show him something crazy, it launched YouTube on every TV and rickrolled him with the volume up.
+
+### 60 days letting a Meta Muse agent run my life
+- URL: https://usage.incidental.site/cases/x-jjenglert-2120946532744560807.html
+- Type: field-case · Product: meta-muse · Author: JJEnglert · Source: https://x.com/JJEnglert/status/2120946532744560807 · Date: 2026-11-12
+- Summary: The author let his Meta Muse agent, Carl, run most of his life for 60 days. Carl now handles 40+ jobs: groceries and meal prep, two email inboxes, shopping, playlists, fitness, finances and more. He says Carl is really good, but also once tried to pay a $70 hazmat fee.
+
+### Outlook went down; my Grok Bot's inbox didn't
+- URL: https://usage.incidental.site/cases/x-mokshaowei-2121012057092882760.html
+- Type: field-case · Product: grok-bot · Author: mokshaowei · Source: https://x.com/mokshaowei/status/2121012057092882760 · Date: 2026-11-12
+- Summary: Outlook went down that morning. The author asked his main bot, Mokkie, about email: Hotmail timed out, but the bot's own inbox worked fine because it doesn't run on Microsoft. When half the internet is down, he says, it helps that the assistant lives somewhere else.
+
+### Giving Grok Bots the goal, not just the task
+- URL: https://usage.incidental.site/cases/x-talesofarmegil-2121010431145791577.html
+- Type: field-case · Product: grok-bot · Author: talesofarmegil · Source: https://x.com/talesofarmegil/status/2121010431145791577 · Date: 2026-11-12
+- Summary: The author usually gives his bots tasks. One evening he opened a separate group chat with just his personal advisor bot and a startup-builder bot on trial, limited to one topic, an online tutor idea, and told them his long-term goal: living off the family's own ideas and products, with something online that needs very little of his time. Now every task has a direction, and a suggestion that eats more of his evenings is off course.
+
+### Grok Bot on Mac files appointment texts for you
+- URL: https://usage.incidental.site/cases/x-thegrokbotguide-2121000124721545597.html
+- Type: guide · Product: grok-bot · Author: TheGrokBotGuide · Source: https://x.com/TheGrokBotGuide/status/2121000124721545597 · Date: 2026-11-12
+- Summary: Grok Bot on Mac can now use Messages, Mail, Notes, Reminders, Calendar, Contacts and Location. The post says one early user has his bot file every doctor, dentist and auto shop text by itself, and links a thread with the setup, prompt and guardrails.
+
+### Building Skylark Lake in Unreal Engine with a dot
+- URL: https://usage.incidental.site/cases/x-dylanbishopx-2121015160487993634.html
+- Type: field-case · Product: openai-dots · Author: DylanBishopX · Source: https://x.com/DylanBishopX/status/2121015160487993634 · Date: 2026-11-12
+- Summary: With his dot in ChatGPT, using Fable 5.2 to plan and Opus 5.5 to build, the author made Skylark Lake in Unreal Engine: click to pull them toward the cursor, right-click to scatter them. A first try with 6.1 Sol wasn't great, which he puts down to his own context prompting; on the second run the dot supplied more of his context. A web-game version was too much of a GPU hog.
+
+### ChatGPT Dots now take custom instructions and approval rules
+- URL: https://usage.incidental.site/cases/x-themacrosift-2121010117487611942.html
+- Type: guide · Product: openai-dots · Author: themacrosift · Source: https://x.com/themacrosift/status/2121010117487611942 · Date: 2026-11-12
+- Summary: Your dot now follows custom instructions: tell it how to behave or which actions need your OK first, such as "show me a draft before sending any emails." Set it in the thread, in Customize > Behavior on mobile, or from the dot's menu on web and desktop. OpenAI also says replies are faster, with less jargon and better follow-through.
+
+### My dot said it saved my instructions, but rewrote them
+- URL: https://usage.incidental.site/cases/x-shinprp-2121010692283342910.html
+- Type: field-case · Product: openai-dots · Author: shinpr_p · Source: https://x.com/shinpr_p/status/2121010692283342910 · Date: 2026-11-12
+- Summary: The author's dot kept saying it had saved his instructions, but when he checked, some had been rewritten into something different. He says LLMs still struggle to write instructions they can follow, so being able to write them himself, without the LLM in the middle, is a feature he needed.
+
+### Editing a launch video with a dot, it removed too much
+- URL: https://usage.incidental.site/cases/x-gheedbizri21-2121005471943569867.html
+- Type: field-case · Product: openai-dots · Author: gheedbizri21 · Source: https://x.com/gheedbizri21/status/2121005471943569867 · Date: 2026-11-12
+- Summary: The author was making an app launch video with his dot. The video had gold text labels and a small character; he asked it to remove labels like "starting piece" but keep the reactions, and it removed the character too. After he clarified he meant the labels, it restored the character. He wishes it would check before removing something that might matter.
+
+### A Grok Bot fleet runs a family office
+- URL: https://usage.incidental.site/cases/x-rushabhshah-2121009184497877086.html
+- Type: field-case · Product: grok-bot · Author: RushabhShah · Source: https://x.com/RushabhShah/status/2121009184497877086 · Date: 2026-11-12
+- Summary: The author says a full Grok Bot fleet runs their family office, with a concierge built in. It manages wealth and investments plus the daily household: travel, dining, the kids and the inbox. The payoff, he says, is time: the busywork is handled.
+
+### A bot checks my X numbers every morning
+- URL: https://usage.incidental.site/cases/x-johngregquantum-2120931049358365171.html
+- Type: field-case · Product: grok-bot · Author: JohnGregQuantum · Source: https://x.com/JohnGregQuantum/status/2120931049358365171 · Date: 2026-11-12
+- Summary: The author cites SemiAnalysis saying always-on agents went from 0 to 45% of its AI spend in under 10 months. His own version is tiny: every morning before his 9-to-5, a bot checks his X numbers and tells him what flopped.
+
+### Grok Bot isn't a chat with plugins; it has its own computer
+- URL: https://usage.incidental.site/cases/x-thefuturememo-2120999609216516248.html
+- Type: guide · Product: grok-bot · Author: TheFutureMemo · Source: https://x.com/TheFutureMemo/status/2120999609216516248 · Date: 2026-11-12
+- Summary: The post explains that the bot opens Gmail, Slack, Notion, Calendar, GitHub and a CRM in turn, does the job and moves on. Each bot gets its own cloud computer with a browser, a terminal and files, and logs into apps the way a person would, so work keeps going after you close the tab. As of Nov 6, it says, xAI's US pricing page lists it inside the $30/month Premium plan.
+
+### A mostly automated project harness for Grok Bot
+- URL: https://usage.incidental.site/cases/gh-github-com-randomdeliciousness-gb-project-harness.html
+- Type: guide · Product: grok-bot · Author: randomdeliciousness · Source: https://github.com/randomdeliciousness/GB-Project-Harness · Date: 2026-11-12
+- Summary: The repo is a personal project harness for Grok Bot, mostly automated: it integrates with a local Build, with key automated approval steps, automatic escalation to the user for approval, Build plan review and modification, and upload to GitHub.
 
 ### Having Grok Bot set up a local LLM and test it on real hardware
 - URL: https://usage.incidental.site/cases/x-mikioiha-2120510539608756550.html
@@ -11592,6 +11692,11 @@
 - URL: https://usage.incidental.site/cases/khe-hy-574.html
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
+
+### A week with Meta Muse vs. Claude Duet
+- URL: https://usage.incidental.site/cases/x-nicorudu-2120931722917220835.html
+- Type: comparison · Product: meta-muse · Author: NicoRudu · Source: https://x.com/NicoRudu/status/2120931722917220835 · Date: 2026-11-12
+- Summary: After a week with Meta Muse and Claude Duet, the author's main takeaway is how each fits into his existing AI workflow, including usage limits. Duet feels geared toward professional workflows; Muse feels more consumer-focused.
 
 ### A Dots hotel pick turned unsafe; Grok Bot found new rooms
 - URL: https://usage.incidental.site/cases/x-imontenegroc-2120503332485660825.html
