@@ -9959,5 +9959,57 @@
   "outline": [],
   "kind": "github",
   "fetched_at": "2026-11-11"
+ },
+ "https://www.youtube.com/watch?v=0Eps-MTY0Mg": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/0Eps-MTY0Mg/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-12"
+ },
+ "https://www.youtube.com/watch?v=u8NXYMREhM4": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/u8NXYMREhM4/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-12"
+ },
+ "https://www.youtube.com/watch?v=BSGNizOge_c": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/BSGNizOge_c/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-12"
+ },
+ "https://github.com/randomdeliciousness/GB-Project-Harness": {
+  "text": "A reusable multi-agent setup for turning ideas into portfolio-ready projects with built-in oversight, production, and approval gates.",
+  "media": [],
+  "outline": [
+   "Project Group — discussion and quality control (Critic, Expert, Advocate)",
+   "Forge — production (Coordinator, Engineer, Advocate, optional Policy and Demo)",
+   "Clear hand-offs, plan-review gates, and escalation paths",
+   "Local Grok Build integration (headless plan → review → approved implementation)",
+   "GitHub push under your author name after clearance",
+   "Optional progress routines that stay silent when nothing is active",
+   "Copy harness-template.md and fill in the fields.",
+   "Paste the completed template (the whole file) into a Grok conversation."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-12"
  }
 }
