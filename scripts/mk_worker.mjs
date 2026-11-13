@@ -1,10 +1,10 @@
 // Pack dist/ (text as utf8, binaries as base64, whole map gzipped) into a single Cloudflare Worker and write a deploy snippet.
 // Output: /workspace/cf_deploy_v6.js (async fn for the Cloudflare MCP `execute` tool) and /tmp/w.mjs (raw worker).
-import fs from "fs";import path from "path";import zlib from "zlib";
+import fs from "fs";import path from "path";import zlib from "zlib";import crypto from "crypto";
 const T={html:"text/html; charset=utf-8",css:"text/css",js:"application/javascript",json:"application/json",txt:"text/plain; charset=utf-8",png:"image/png",xml:"application/xml; charset=utf-8",svg:"image/svg+xml",webp:"image/webp",jpg:"image/jpeg"};
 // v12: brotli (window 2^24) over one concatenated buffer. Shared page chrome across ~1,700 pages compresses ~4x better than gzip's 32 KB window,
 // which keeps the deploy snippet well under the 4 MB budget. The worker inflates once per isolate with node:zlib and serves byte ranges (no JSON.parse of the whole site).
-const IDX={},parts=[];let off=0;const walk=d=>{for(const f of fs.readdirSync(d).sort()){const p=path.join(d,f);if(fs.statSync(p).isDirectory())walk(p);else{const ty=T[f.split(".").pop()]||"application/octet-stream",b=fs.readFileSync(p);IDX["/"+path.relative("dist",p)]=[ty,off,b.length];parts.push(b);off+=b.length}}};walk("dist");
+const IDX={},parts=[];let off=0;const walk=d=>{for(const f of fs.readdirSync(d).sort()){const p=path.join(d,f);if(fs.statSync(p).isDirectory())walk(p);else{const ty=T[f.split(".").pop()]||"application/octet-stream",b=fs.readFileSync(p);IDX["/"+path.relative("dist",p)]=[ty,off,b.length,crypto.createHash("sha256").update(b).digest("hex").slice(0,12)];parts.push(b);off+=b.length}}};walk("dist");
 const raw=Buffer.concat(parts);
 const Z=zlib.brotliCompressSync(raw,{params:{[zlib.constants.BROTLI_PARAM_QUALITY]:11,[zlib.constants.BROTLI_PARAM_LGWIN]:24,[zlib.constants.BROTLI_PARAM_SIZE_HINT]:raw.length}}).toString("base64");
 export const worker=`import zlib from "node:zlib";import {Buffer} from "node:buffer";const I=${JSON.stringify(IDX)};const Z=${JSON.stringify(Z)};let R;const LC=["zh-CN","zh-TW","en","ja","ko","ms","vi","fr","es","de"];
@@ -13,12 +13,18 @@ const H={async fetch(r){const B=load();let u;try{u=decodeURIComponent(new URL(r.
 // 2026-10-28 perf: the Worker output is a pure function of (BUILD, path, ?lang), so the edge copy is keyed by BUILD (a new deploy = new keys, no purge needed)
 // and kept 24 h (was 5 min: nearly every 5-minute uptime probe and most crawler hits were a cold miss = per-isolate brotli inflate of the whole site bundle).
 // Query strings other than ?lang= (utm_*, cache busters) no longer fragment the cache. Browser TTL unchanged (300 s); content-hashed /assets/ are immutable.
-const BUILD="${Date.now().toString(36)}";
-function ck(r){const u=new URL(r.url),L=u.searchParams.get("lang");return new Request(u.origin+u.pathname+"?__c="+BUILD+(L&&LC.includes(L)?"&lang="+L:""),{method:"GET"})}
+// 2026-11-10 (daily-fix 11-09): the key is now the served file's own content hash (I[k][3], sha256/12) instead of a per-deploy BUILD stamp.
+// update.yml redeploys every 6 h (6 uploads on 11-09 UTC) and each upload used to orphan every cached page, so the next visit in each colo paid the
+// ~1 s CPU inflate of the ~97 MB bundle again. Unchanged pages now keep their edge copy across deploys; a changed file gets a new key at once.
+// KV bumps only when the Worker's own transform logic changes. Response bytes and headers are unchanged.
+const KV="k1";
+function ent(r){let u;try{u=decodeURIComponent(new URL(r.url).pathname)}catch{u="/"}for(const k of [u,u+".html",u.replace(/\\/?$/,"/")+"index.html"]){const e=I[k];if(e)return e}return null}
+function ck(r,e){const u=new URL(r.url),L=u.searchParams.get("lang");return new Request(u.origin+u.pathname+"?__c="+KV+"."+e[3]+(L&&LC.includes(L)?"&lang="+L:""),{method:"GET"})}
 function out(res,tag,path){const h=new Headers(res.headers);if(res.status===200)h.set("cache-control",path.startsWith("/assets/")?"public, max-age=31536000, immutable":"public, max-age=300");h.set("x-uh-cache",tag);return new Response(res.body,{status:res.status,headers:h})}
 export default{async fetch(r,env,ctx){
 if(r.method!=="GET")return H.fetch(r);
-const path=new URL(r.url).pathname,c=caches.default,k=ck(r),hit=await c.match(k);
+const e=ent(r);if(!e)return out(await H.fetch(r),"MISS",new URL(r.url).pathname);
+const path=new URL(r.url).pathname,c=caches.default,k=ck(r,e),hit=await c.match(k);
 if(hit)return out(hit,"HIT",path);
 const res=await H.fetch(r);
 if(res.status===200&&ctx){const sh=new Headers(res.headers);sh.set("cache-control","public, max-age=86400");ctx.waitUntil(c.put(k,new Response(res.clone().body,{status:200,headers:sh})))}
