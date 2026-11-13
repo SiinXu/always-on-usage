@@ -10011,5 +10011,57 @@
   ],
   "kind": "github",
   "fetched_at": "2026-11-12"
+ },
+ "https://github.com/p-sun/personalized-event-curation-for-meta-muse": {
+  "text": "**Want your own personal events app? You don't build or install anything yourself — your Muse agent does it for you.**",
+  "media": [],
+  "outline": [
+   "app/ — the fullstack web app: a TypeScript/React client on the Muse web-artifact runtime, server actions backed by SQLite, Leaflet maps on OpenStreetMap tiles.",
+   "data/ — sample data in the production schema: five invented events and three venues in a fictional city (Riverton), re-anchored to the install date by a scri…",
+   "scripts/ — the curation engine: the publish filter, the duplicate and recurrence validators, the materializers, checkpointing, the retention prune, a sample-…",
+   "INSTALL.md — the install steps, including restoring seven library asset files from the app's npm dependencies (this repo stores text only; those files ship i…",
+   "Open your Muse and give it this link: https://p-sun.github.io/personalized-event-curation-for-meta-muse/",
+   "Tell it: \"Build me an event curation app like this one.\" It will ask you a few questions, install the app from this repo, and set up your morning routine.",
+   "Start saving event posts on Instagram, or sending Muse links to websites you like — your app fills from there."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-13"
+ },
+ "https://github.com/ohld/whatsapp-mcp-chatgpt-dot": {
+  "text": "**Connect your ChatGPT Dot to WhatsApp.** A self-hosted WhatsApp MCP server that lets a ChatGPT Dot (and any ChatGPT app or MCP connector) read your personal WhatsApp chats, get pushed new messages in real time via **MCP Events** webhooks, and send replies, with server-enforced allowlists and a daily send cap.",
+  "media": [],
+  "outline": [
+   "One file, zero dependencies. app.py is ~1,100 lines of Python standard library. Nothing to pip install, easy to audit.",
+   "Push, not poll. Incoming messages are delivered to ChatGPT as MCP Events (Standard Webhooks HMAC, durable SQLite outbox, retries, replay cursor).",
+   "Works with ChatGPT out of the box. OAuth 2.1 with Dynamic Client Registration and PKCE S256, Streamable HTTP transport.",
+   "Privacy boundary on the server. Groups, status and channels never match. Read and send scopes, new-chat sending and the daily cap are set in env, never by th…",
+   "Built on WAHA (GOWS engine). You link WhatsApp as a companion device; no Business API account needed.",
+   "WAHA keeps a linked-device session and posts each incoming message to the bridge (HMAC-signed).",
+   "The bridge stores messages from allowed chats, commits, then enqueues one event per matching subscription.",
+   "A delivery worker POSTs events to ChatGPT's callback, in order per subscription, with exponential backoff."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-13"
+ },
+ "https://github.com/Jay23R0/open-safari-in-others": {
+  "kind": "github",
+  "missing": "readme",
+  "fetched_at": "2026-11-13"
+ },
+ "https://github.com/MLAI-AUS-Inc/mlai-backend/pull/1332": {
+  "text": "The Django API and background-work service for the MLAI platform. It owns shared identity, persistent product data, integrations, scheduled work, and API contracts consumed by the MLAI website and Roo.",
+  "media": [],
+  "outline": [
+   "Authentication, users, organisations, and browser session contracts",
+   "Founder Tools, startup updates, content workflows, and integrations",
+   "Hackathon APIs for eSafety, Watt The Hack, HealthHack, and MedHack",
+   "Roo points and internal service endpoints",
+   "Account, membership, and Slack bridge APIs used by MLAI Chat",
+   "Organisational memory ingestion, retrieval, review, and publication services",
+   "Scheduled jobs and background workers",
+   "Python 3.11"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-13"
  }
 }
