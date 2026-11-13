@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2527 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2546 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-13T13:39:25.831Z
+- Last updated: 2026-11-13T23:40:30.506Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3207,6 +3207,91 @@
 - URL: https://usage.incidental.site/cases/x-joaquimpeixoto-2121226269144596979.html
 - Type: field-case · Product: grok-bot · Author: JoaquimPeixoto_ · Source: https://x.com/JoaquimPeixoto_/status/2121226269144596979 · Date: 2026-11-13
 - Summary: The author says Microsoft 365 went down today and took his email and calendar with it, but Grok Bot kept working as if nothing happened. He wants a next step of company email, calendar, calls and chat with Grok Bot built in.
+
+### Dot adds events straight to the calendar
+- URL: https://usage.incidental.site/cases/x-gheedbizri21-2121360761046065397.html
+- Type: field-case · Product: openai-dots · Author: gheedbizri21 · Source: https://x.com/gheedbizri21/status/2121360761046065397 · Date: 2026-11-13
+- Summary: The author says one of her favourite things her Dot does is add events straight to her calendar so she does not forget them. A small thing, she says, but it helps a lot.
+
+### Dot reported a new paper citation weeks later, unprompted
+- URL: https://usage.incidental.site/cases/x-dylanbforde-2121360493462073568.html
+- Type: field-case · Product: openai-dots · Author: DylanBForde · Source: https://x.com/DylanBForde/status/2121360493462073568 · Date: 2026-11-13
+- Summary: Weeks after the author asked whether his paper had any citations, his Dot told him, unprompted and in a separate chat, that it now had 1 citation. He calls OpenAI Dots his favourite consumer product ever.
+
+### Dot sees a Windows VM but can't control it
+- URL: https://usage.incidental.site/cases/x-johnhowell37137-2121358656524738816.html
+- Type: field-case · Product: openai-dots · Author: JohnHowell37137 · Source: https://x.com/JohnHowell37137/status/2121358656524738816 · Date: 2026-11-13
+- Summary: The author says his Dot can see that his Windows VM is connected but cannot control it. A Work chat on the same VM works, yet the Dot cannot access that chat either. Reboots and reconnects did not help; at least the Dot submitted feedback about the problem.
+
+### Dots Custom rules: start on "ask first"
+- URL: https://usage.incidental.site/cases/x-lumentoolshq-2121357607629693290.html
+- Type: guide · Product: openai-dots · Author: LumenToolsHQ · Source: https://x.com/LumenToolsHQ/status/2121357607629693290 · Date: 2026-11-13
+- Summary: The author says the key Dots setting is Custom rules: for each kind of action you choose take action without asking, take action if pre-approved, ask before taking action, or hand off to you; steps like changing a password always stay with you. He suggests starting on "ask first" with one low-stakes job, watching it for a week, then loosening.
+
+### Grok Bot does pre-call research on every lead on the calendar
+- URL: https://usage.incidental.site/cases/x-ethanejk-2121376672205484420.html
+- Type: field-case · Product: grok-bot · Author: ethanejk · Source: https://x.com/ethanejk/status/2121376672205484420 · Date: 2026-11-13
+- Summary: The author says Grok Bot now automatically does "pre call research" on every lead on his calendar, so he goes into each sales call knowing the prospect well.
+
+### Grok Bot on Mac apps: start with one small job
+- URL: https://usage.incidental.site/cases/x-neurodeficient-2121364849108365495.html
+- Type: guide · Product: grok-bot · Author: NeuroDeficient · Source: https://x.com/NeuroDeficient/status/2121364849108365495 · Date: 2026-11-13
+- Summary: The author notes Grok Bot started joining meetings and on Mac can use Messages, Mail, Notes, Reminders, Calendar, Location and Contacts. He suggests starting with one small job like a Reminders cleanup or a Calendar check, and keeping approval on anything that sends a message or email so it drafts and you tap yes.
+
+### Grok Bot on Mac permissions: low-risk ones first
+- URL: https://usage.incidental.site/cases/x-danielvincenta7-2121362529238884770.html
+- Type: guide · Product: grok-bot · Author: DanielVincentA7 · Source: https://x.com/DanielVincentA7/status/2121362529238884770 · Date: 2026-11-13
+- Summary: The author says Grok Bot on Mac can now reach Messages, Mail, Notes, Reminders, Calendar, Location and Contacts. His tip: don't grant everything on day one; start with low-risk Calendar, Reminders and Notes, and add Messages and Mail once you trust it, since those reach other people in your name.
+
+### A 12-page morning digest printed before waking
+- URL: https://usage.incidental.site/cases/x-emmafeirstein-2121360142868648361.html
+- Type: field-case · Product: grok-bot · Author: emmafeirstein · Source: https://x.com/emmafeirstein/status/2121360142868648361 · Date: 2026-11-13
+- Summary: The author didn't want to start the day on her phone but needed to stay on top of work, so she built a 12-page morning digest that prints before she wakes. It is connected to her Grok Bot, email, calendar and what her AI knows about her interests, and pulls together work priorities and to-dos, important updates, news and picked articles.
+
+### Counting how often you chase your assistant: 29/141 down to 12/145
+- URL: https://usage.incidental.site/cases/x-opanterasi-2121358118173175963.html
+- Type: field-case · Product: grok-bot · Author: opanterasi · Source: https://x.com/opanterasi/status/2121358118173175963 · Date: 2026-11-13
+- Summary: The author counted messages chasing her AI assistant: 29 of 141 from 10/30 to 11/05, and 12 of 145 this week. Of 18 chases right after a delivery, 15 were the same issue: the page was created but never reached her. The fix was a check that the page actually appears in the conversation, re-showing it before any message goes out, with the count rerun weekly.
+
+### Close your week in 10 minutes with Grok Bot
+- URL: https://usage.incidental.site/cases/x-trivioai-2121352823044706495.html
+- Type: guide · Product: grok-bot · Author: TrivioAI · Source: https://x.com/TrivioAI/status/2121352823044706495 · Date: 2026-11-13
+- Summary: The author suggests pasting this week's sent emails and calendar into Grok Bot and asking for 3 lists: what got done, what slipped, and your top 3 for Monday, telling it to quote rather than guess.
+
+### Grok Bot compares a renewal: $1,021.08 below home insurance quote
+- URL: https://usage.incidental.site/cases/x-brianwasmer-2121384981024973159.html
+- Type: field-case · Product: grok-bot · Author: BrianWasmer · Source: https://x.com/BrianWasmer/status/2121384981024973159 · Date: 2026-11-13
+- Summary: The post relays @Michael_Fenech_'s method: give Grok Bot the bill and the policy; it finds better options, compares the real cost and recommends stay, negotiate or switch, asking before contacting anyone. He says it found $1,021.08 below his home insurance renewal.
+
+### Grok Bot takes over Stripe and Beehiiv, plus an inbound-lead workflow
+- URL: https://usage.incidental.site/cases/x-neilmwhite-2121380110573948928.html
+- Type: field-case · Product: grok-bot · Author: neilmwhite · Source: https://x.com/neilmwhite/status/2121380110573948928 · Date: 2026-11-13
+- Summary: The author spent an evening updating his project automations: Grok Bot now has control of Stripe and Beehiiv (he signed up for the paid version), and he set up an automated workflow for inbound leads so he can respond quickly.
+
+### A Grok Bot routine that watches the Microsoft 365 status page
+- URL: https://usage.incidental.site/cases/x-directorcia-2121373480373334126.html
+- Type: guide · Product: grok-bot · Author: directorcia · Source: https://x.com/directorcia/status/2121373480373334126 · Date: 2026-11-13
+- Summary: Aimed at MSPs, the author describes a Grok Bot routine that watches Microsoft 365's public status page, stays with an open incident, reports when it's restored and drafts a customer notice you approve.
+
+### During an Outlook outage, a daily Grok Bot calendar sync was the backup
+- URL: https://usage.incidental.site/cases/x-jothailandlive-2121230486437785664.html
+- Type: field-case · Product: grok-bot · Author: JoThailandLive · Source: https://x.com/JoThailandLive/status/2121230486437785664 · Date: 2026-11-13
+- Summary: The author says when Microsoft Outlook had problems, not only email but all calendar appointments were gone. Luckily she had Grok Bot sync the calendar to Google Calendar every day, so there was a backup.
+
+### Grok Bot on Mac: Mail is "search and draft", not send
+- URL: https://usage.incidental.site/cases/x-gzzonkugood-2121231712319668345.html
+- Type: guide · Product: grok-bot · Author: gzzonkugood · Source: https://x.com/gzzonkugood/status/2121231712319668345 · Date: 2026-11-13
+- Summary: The author points out that people think Grok Bot on Mac can now send email, but the Mail row on screen says "Search and draft emails", not send; the Messages row says "read and send messages".
+
+### Six GitHub repos plus a Grok Bot build brief
+- URL: https://usage.incidental.site/cases/x-silentguyy66-2121342997656965169.html
+- Type: guide · Product: grok-bot · Author: silentguyy66 · Source: https://x.com/silentguyy66/status/2121342997656965169 · Date: 2026-11-13
+- Summary: The author lists 6 repos (dnd-kit, react-pdf, fullcalendar, recharts, react flow, uppy) for a job tracker, invoice generator, appointment calendar, sales dashboard, workflow editor and client upload portal. Method: ask Grok Bot for a build brief, give it and the repo link to a cloud coding agent, keep version one to one screen, check data survives a refresh, and fix breaks before adding features.
+
+### A free Grok Bot for US families: College Aid Finder
+- URL: https://usage.incidental.site/cases/x-brianroemmele-2121382538770088336.html
+- Type: field-case · Product: grok-bot · Author: BrianRoemmele · Source: https://x.com/BrianRoemmele/status/2121382538770088336 · Date: 2026-11-13
+- Summary: The author says he built a free Grok Bot, College Aid Finder, for families in any US state facing the college money maze. He says most families leave money on the table because nobody shows them every path, and some services cost thousands of dollars.
 
 ### Claude Code and Codex installed on Grok Bot's machine as subagents
 - URL: https://usage.incidental.site/cases/x-asheoro-2120872407942758906.html
@@ -11782,6 +11867,16 @@
 - URL: https://usage.incidental.site/cases/khe-hy-574.html
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
+
+### Podcast: Claude Duet vs Meta Muse vs Grok Bot vs ChatGPT Dots
+- URL: https://usage.incidental.site/cases/x-ryandoser13-2121288972382912842.html
+- Type: comparison · Product: multi · Author: ryan_doser13 · Source: https://x.com/ryan_doser13/status/2121288972382912842 · Date: 2026-11-13
+- Summary: A podcast by the author with @theaaron compares Claude Duet, Meta Muse, Grok Bot and ChatGPT Dots: why Claude Duet is his daily driver, the jobs he hands it, and how it replaced n8n, Make and Zapier. Chapters also cover Grok Bot rate limits, where Dots falls short and a Meta Muse Spaces demo.
+
+### After building their own agent, a team moved to Grok Bot
+- URL: https://usage.incidental.site/cases/x-arnavgup-2121236415774363989.html
+- Type: comparison · Product: grok-bot · Author: Arnav_gup · Source: https://x.com/Arnav_gup/status/2121236415774363989 · Date: 2026-11-13
+- Summary: The author says building your own AI agent is the most expensive way to learn what you need. His team exposed its systems as tools, put people on Claude Code, Codex and Copilot, built a custom agent, then moved to Grok Bot; he says the order mattered more than the tool.
 
 ### A week with Meta Muse vs. Claude Duet
 - URL: https://usage.incidental.site/cases/x-nicorudu-2120931722917220835.html
