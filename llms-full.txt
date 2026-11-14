@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2568 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2587 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-14T13:48:01.555Z
+- Last updated: 2026-11-14T23:43:44.705Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3242,6 +3242,96 @@
 - URL: https://usage.incidental.site/cases/x-joedanqiao-2121586758710145420.html
 - Type: guide · Product: grok-bot · Author: JOEdanqiao · Source: https://x.com/JOEdanqiao/status/2121586758710145420 · Date: 2026-11-14
 - Summary: The core idea: your AI bot should be the manager, not the coder. The author describes this as the new "Grok Bot + Claude Code" workflow and says it is how Lauren Tan (principal engineer at Grok Bot and Cursor) lands 2,000+ PRs a month. The playbook follows, starting with splitting the job.
+
+### A daily Grok Bot routine that turns messy notes into post ideas
+- URL: https://usage.incidental.site/cases/x-ismaeladekunle-2121589466439492061.html
+- Type: guide · Product: grok-bot · Author: ismael_adekunle · Source: https://x.com/ismael_adekunle/status/2121589466439492061 · Date: 2026-11-14
+- Summary: The author's setup: put your real posts in a GitHub repo, add a short voice guide, and create a Grok Bot routine that asks "What did you learn today?". You reply with messy lines, Grok Bot shapes them into posts, and you approve before posting. Once a day is enough, the author says.
+
+### What Grok Bot did in ServiceTitan for a trades business in one day
+- URL: https://usage.incidental.site/cases/x-tylergriffin-2121710291759063303.html
+- Type: field-case · Product: grok-bot · Author: TylerGriffin · Source: https://x.com/TylerGriffin/status/2121710291759063303 · Date: 2026-11-14
+- Summary: The author lists what Grok Bot handled that day: pulling updates from ServiceTitan to keep him current on every call his team ran, building several boiler quotes in ServiceTitan for one of his salespeople while checking pricing with their supplier, and revising a handful of quotes.
+
+### Less than 24 hours with Grok Bot: sorting X DMs first
+- URL: https://usage.incidental.site/cases/x-elitzavasileva-2121708738763444721.html
+- Type: field-case · Product: grok-bot · Author: ElitzaVasileva · Source: https://x.com/ElitzaVasileva/status/2121708738763444721 · Date: 2026-11-14
+- Summary: The author says she has used Grok Bot for under 24 hours and lists six things she handed off. First, X DMs: it sorted hundreds of messages into paid collabs, @owndotpage mentions, personal and spam, and flagged what she should reply to. Second is email (the visible post is cut off there).
+
+### A Dot caught a flight booked under the wrong name within the 24-hour refund window
+- URL: https://usage.incidental.site/cases/x-ker0zelvin-2121741127703552481.html
+- Type: field-case · Product: openai-dots · Author: Ker0Zelvin · Source: https://x.com/Ker0Zelvin/status/2121741127703552481 · Date: 2026-11-14
+- Summary: The author says his Dot noticed he had accidentally booked his son's flight under his own name and pinged him to ask whether it was a mistake. Because it was caught within the 24-hour refund window, the Dot saved him money and "dad points" with his son.
+
+### An artist's storefront run end to end by Grok Bot
+- URL: https://usage.incidental.site/cases/x-circlesrphun-2121731166789415418.html
+- Type: field-case · Product: grok-bot · Author: circles_r_phun · Source: https://x.com/circles_r_phun/status/2121731166789415418 · Date: 2026-11-14
+- Summary: The author says her entire storefront is automated by Grok Bot: as soon as she uploads one of her pieces, it creates templates for canvas and poster prints in various sizes, plus shirts and hoodies, and people buy them.
+
+### A Sunday-night Grok Bot check for next week's calendar clashes
+- URL: https://usage.incidental.site/cases/x-theaigrandpa-2121734379445649745.html
+- Type: guide · Product: grok-bot · Author: theaigrandpa · Source: https://x.com/theaigrandpa/status/2121734379445649745 · Date: 2026-11-14
+- Summary: The author suggests connecting your calendar to Grok Bot and telling it: "Every Sunday at 7 PM, read my week. Flag clashes and packed days, then send me a short plan." The aim is to catch things like soccer practice and the dentist landing on the same Tuesday.
+
+### One Grok Bot prompt at 8 every morning for the inbox
+- URL: https://usage.incidental.site/cases/x-octanewire-2121687359574155410.html
+- Type: guide · Product: grok-bot · Author: OctaneWire · Source: https://x.com/OctaneWire/status/2121687359574155410 · Date: 2026-11-14
+- Summary: The author's setup: one Grok Bot prompt that runs every morning at 8 to put invoices into a sheet, add new leads to the CRM and draft follow-ups in your voice. Nothing is sent until you tap approve. The full setup and two more prompts are in the author's linked post.
+
+### A teardown: building a sales team from five Grok Bots
+- URL: https://usage.incidental.site/cases/x-michaelfenech-2121684843645796465.html
+- Type: guide · Product: grok-bot · Author: Michael_Fenech_ · Source: https://x.com/Michael_Fenech_/status/2121684843645796465 · Date: 2026-11-14
+- Summary: The author breaks down how he would structure five Grok Bots to find suitable prospects, research them, prepare outreach and keep sales opportunities moving. The first is a Lead Finder bot that finds the right businesses, starting from your ideal customer profile (the rest is in the linked post).
+
+### Turning the podcasts you follow into a weekly magazine with Grok Bot
+- URL: https://usage.incidental.site/cases/x-jimaggie-2121695119229211058.html
+- Type: guide · Product: grok-bot · Author: jimaggie · Source: https://x.com/jimaggie/status/2121695119229211058 · Date: 2026-11-14
+- Summary: The author describes a Grok Bot that watches the YouTube channels and podcasts you follow and turns new episodes into a weekly magazine with real photos and word-for-word quotes, an EPUB for your Kindle and a newsletter in your inbox, with every story credited. In the author's words, a 3-hour podcast becomes a 10-minute read.
+
+### After his mother went into the ICU, Grok Bot dug up her insurance papers
+- URL: https://usage.incidental.site/cases/x-kanhaic-2121582247211888676.html
+- Type: field-case · Product: grok-bot · Author: kanhaic · Source: https://x.com/kanhaic/status/2121582247211888676 · Date: 2026-11-14
+- Summary: The author says his mother suddenly fell ill a few months ago and was admitted to the ICU with failing liver function, later diagnosed with cancer. He started using Grok Bot reluctantly, only to dig up her insurance policy documents, and soon used it for more (the visible post is cut off there).
+
+### Using Grok Bot to manage a father's care
+- URL: https://usage.incidental.site/cases/x-phoenix5time-2121590612579500534.html
+- Type: field-case · Product: grok-bot · Author: phoenix5time · Source: https://x.com/phoenix5time/status/2121590612579500534 · Date: 2026-11-14
+- Summary: The author says Grok Bot helps him manage everything for his dad: his bills, and moving the care center's activities onto his dad's calendar so he can find them easily, along with many other things.
+
+### About 3 weeks in: Grok Bot recovers lost cash, finds deals and handles returns
+- URL: https://usage.incidental.site/cases/x-techdry100-2121748396637827115.html
+- Type: field-case · Product: grok-bot · Author: Techdry100 · Source: https://x.com/Techdry100/status/2121748396637827115 · Date: 2026-11-14
+- Summary: The author says they have used Grok Bot for about 3 weeks with everything linked to its computer. It retrieves lost cash, finds deals, handles returned items, clears spam email and makes vector files. In the author's view it pays for itself and earns a little extra.
+
+### One Grok Bot per household request: shopping, appointments, weekend plans
+- URL: https://usage.incidental.site/cases/x-caiofariasg-2121748153099817257.html
+- Type: field-case · Product: grok-bot · Author: caiofariasg · Source: https://x.com/caiofariasg/status/2121748153099817257 · Date: 2026-11-14
+- Summary: The author set up one Grok Bot for each kind of thing his wife used to ask him for: Cora buys on Amazon and Mercado Livre, Bia schedules medical exams and family matters, and every Friday a bot sends him the best things to do.
+
+### A Nathaniel Hawthorne app built with Grok and Grok Bot
+- URL: https://usage.incidental.site/cases/x-linneareilly20-2121735285725676008.html
+- Type: field-case · Product: grok-bot · Author: LinneaReilly20 · Source: https://x.com/LinneaReilly20/status/2121735285725676008 · Date: 2026-11-14
+- Summary: The author shares her second app, focused solely on Nathaniel Hawthorne's writing and life's work. Every novel, short story and children's story is available in the app via Project Gutenberg. She says she built it with Grok and her Grok Bot, Peter.
+
+### Building a game with only Grok Bot and a phone: day 1
+- URL: https://usage.incidental.site/cases/x-rootgeonmaster-2121747885712646363.html
+- Type: field-case · Product: grok-bot · Author: RootgeonMaster · Source: https://x.com/RootgeonMaster/status/2121747885712646363 · Date: 2026-11-14
+- Summary: The author is trying to build a game using only Grok Bot and a phone. Day 1: he took the map "Ostorian Runeforge" by Expardon, shared by @inkarnaterpg, and asked Grok Bot to turn it into a 3D fortress and drop a Space Marine model by Pixels2241 inside it. The post is tagged Godot.
+
+### A Dot found a real bug in a personal project overnight
+- URL: https://usage.incidental.site/cases/x-4simonsays-2121583389098528854.html
+- Type: field-case · Product: openai-dots · Author: 4SimonSays · Source: https://x.com/4SimonSays/status/2121583389098528854 · Date: 2026-11-14
+- Summary: The author says that when he woke up, his Dot had found a bug in his personal project on its own, and a genuinely problematic one. He thinks OpenAI's focus on security is carrying over into Dots, though he still does not consider it better than the alternatives on its own.
+
+### Warning: a Grok Bot routine queued 80 replies a day and the account's reach dropped to zero
+- URL: https://usage.incidental.site/cases/x-zeusratwitch-2121741901326061720.html
+- Type: field-case · Product: grok-bot · Author: ZeusRaTwitch · Source: https://x.com/ZeusRaTwitch/status/2121741901326061720 · Date: 2026-11-14
+- Summary: The author asked for the maximum number of X replies he could post without being flagged. Grok Bot set up a routine delivering about 80 one-tap reply links a day in batches of 10, with no forced spacing. On Nov 14 he posted them in bursts: about 18 in a minute around 9:05 AM ET, 8 around 10:13 AM and 15 around 5:53 PM. Afterward every reply showed 0 impressions and his regular posts fell to 2–3 views. He argues the assistant should default to lower volume, enforce spacing and stop plans that match the platform's spam patterns.
+
+### User report: asked Grok Bot for an image preview, it sent the image to the printer
+- URL: https://usage.incidental.site/cases/x-katman069-2121748205301911984.html
+- Type: field-case · Product: grok-bot · Author: Katman069 · Source: https://x.com/Katman069/status/2121748205301911984 · Date: 2026-11-14
+- Summary: The author says Grok Bot can start doing whatever it wants: he asked it to show him an image as a preview, and it sent the image to his printer.
 
 ### Giving Grok Bot a body: "Elon Man" turns its head when you walk in
 - URL: https://usage.incidental.site/cases/x-martynov014-2121226310823670231.html
@@ -12637,6 +12727,11 @@
 - URL: https://usage.incidental.site/cases/x-thexybermateo-2121590113746514349.html
 - Type: quota-report · Product: grok-bot · Author: thexybermateo · Source: https://x.com/thexybermateo/status/2121590113746514349 · Date: 2026-11-14
 - Summary: The author says they have done everything they can to minimise their team of Grok Bots' usage and still run out. Steps taken so far: reduced routine intervals (for example from 4 times a day to 2) and combined routines where it made sense.
+
+### Grok Bot harness tweaks: about 7% more usage on the same plan, up to 15% more for routines
+- URL: https://usage.incidental.site/cases/x-coderchrisdean-2121748315100324311.html
+- Type: quota-report · Product: grok-bot · Author: coderchrisdean · Source: https://x.com/coderchrisdean/status/2121748315100324311 · Date: 2026-11-14
+- Summary: The author relays that the Grok Bot team shipped harness tweaks this week: about 7% more usage on the same plan and up to 15% more on routine runs. He notes that most people's weekly pool is eaten by routines, so that is where the change will be felt.
 
 ### Out of Grok Bot usage each week, jobs moved to Meta Muse's free allowance
 - URL: https://usage.incidental.site/cases/x-agentmsgr-2120728462449086793.html
