@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2546 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2568 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-13T23:40:30.506Z
+- Last updated: 2026-11-14T13:48:01.555Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -615,6 +615,24 @@
 - /cases/grok-bot-templates-669.html: Grok Bot Templates (guide) <https://www.aibuilderclub.com/blog/grok-bot-templates>
 - /cases/how-to-use-grok-bot-670.html: How to Use Grok Bot (guide) <https://www.aibuilderclub.com/blog/grok-bot-guide>
 - /cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html: herdr-web-ui: watch always-on coding agents from your phone and browser (field-case) <https://github.com/devswha/herdr-web-ui>
+- /cases/x-fleyta88-2121564919527027152.html: One message before bed, six Grok Bot agents hand off until morning (field-case) <https://x.com/fleyta88/status/2121564919527027152>
+- /cases/x-spectnfa-2121566140996419813.html: Grok Bot finds forgotten subscriptions and chases refunds (field-case) <https://x.com/spectnfa/status/2121566140996419813>
+- /cases/x-scottybeamio-2121580020346831141.html: Three meetings at once, so Grok Bot attends two of them (field-case) <https://x.com/ScottyBeamIO/status/2121580020346831141>
+- /cases/x-thegreatestsv-2121583425203163350.html: Running the day with bots from the Grok Bot marketplace (field-case) <https://x.com/thegreatest_sv/status/2121583425203163350>
+- /cases/x-1920web1080-2121590653075263922.html: A post-breakup account security check with Grok Bot (field-case) <https://x.com/1920web1080/status/2121590653075263922>
+- /cases/x-0xjmori-2121594372235960355.html: Grok Bot waits on the IRS hold line for the author (field-case) <https://x.com/0xjmori/status/2121594372235960355>
+- /cases/x-kocereth-2121579403461218463.html: Setup for handing 4 of next week's 6 calls to Grok Bot (guide) <https://x.com/kocer_eth/status/2121579403461218463>
+- /cases/x-gippp69-2121572638506049700.html: A copy-paste subscription audit prompt for Grok Bot (guide) <https://x.com/gippp69/status/2121572638506049700>
+- /cases/x-nvandewetering-2121394429550281206.html: Vibe coding on a walk with ChatGPT Dots voice mode (field-case) <https://x.com/nvandewetering/status/2121394429550281206>
+- /cases/x-distortgeekin-2121596576351060316.html: One Grok Bot "hires" the others for a support inbox (field-case) <https://x.com/distortgeekin/status/2121596576351060316>
+- /cases/x-michaelfenech-2121565809130541220.html: A Grok Bot rule: check how decisions ripple through the project (guide) <https://x.com/Michael_Fenech_/status/2121565809130541220>
+- /cases/x-aipicmaochao-2121560475649663302.html: Meta Muse builds an image-prompt tag list on its own (field-case) <https://x.com/AI_pic_maochao/status/2121560475649663302>
+- /cases/x-oldfshndog-2121554600113439051.html: Dot reconnects Sonos and makes three Apple Music playlists (field-case) <https://x.com/oldfshndog/status/2121554600113439051>
+- /cases/x-techknew-2121436922551939109.html: A sourdough timer microsite built as a Meta Muse Space (field-case) <https://x.com/techknew/status/2121436922551939109>
+- /cases/x-fffuckingnerd-2121592193731252250.html: A SpaceX AI engineer has Grok Bot find a short-term rental (field-case) <https://x.com/fffuckingnerd/status/2121592193731252250>
+- /cases/x-monlorcn-2121597377543123109.html: Connecting Grok Bot to a local computer agent via MCP and webhooks (field-case) <https://x.com/monlorcn/status/2121597377543123109>
+- /cases/x-timz0ne-2121591790251729037.html: Letting Grok Bot know when a Codex CLI or Claude Code job has finished (guide) <https://x.com/timz0ne/status/2121591790251729037>
+- /cases/x-joedanqiao-2121586758710145420.html: Grok Bot + Claude Code: make the bot the manager, not the coder (guide) <https://x.com/JOEdanqiao/status/2121586758710145420>
 - /cases/x-martynov014-2121226310823670231.html: Giving Grok Bot a body: "Elon Man" turns its head when you walk in (field-case) <https://x.com/martynov014/status/2121226310823670231>
 - /cases/x-akarixbt-2121229107182633001.html: Three prompts that set up a dev pipeline in Grok Bot (guide) <https://x.com/akarixbt/status/2121229107182633001>
 - /cases/x-nurun39636322-2121232811340566957.html: A DIY home battery that Grok Bot runs like a Powerwall (field-case) <https://x.com/nurun39636322/status/2121232811340566957>
@@ -2358,6 +2376,7 @@
 - /cases/the-next-web-grok-bot-will-also-use-claude-midjourney-and-su-572.html: The Next Web: Grok Bot will also use Claude, Midjourney and Suno models (comparison) <https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk>
 - /cases/9to5mac-how-to-claim-your-grok-bot-email-address-573.html: 9to5Mac: how to claim your Grok Bot email address (comparison) <https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/>
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
+- /cases/x-drpraveenkoduru-2121596238969950617.html: Opening an MRI from a hospital PACS viewer: Claude vs Grok Bot (comparison) <https://x.com/drpraveenkoduru/status/2121596238969950617>
 - /cases/x-ryandoser13-2121288972382912842.html: Podcast: Claude Duet vs Meta Muse vs Grok Bot vs ChatGPT Dots (comparison) <https://x.com/ryan_doser13/status/2121288972382912842>
 - /cases/x-arnavgup-2121236415774363989.html: After building their own agent, a team moved to Grok Bot (comparison) <https://x.com/Arnav_gup/status/2121236415774363989>
 - /cases/x-nicorudu-2120931722917220835.html: A week with Meta Muse vs. Claude Duet (comparison) <https://x.com/NicoRudu/status/2120931722917220835>
@@ -2490,6 +2509,9 @@
 - /cases/forum-cloud-agents-from-grok-bot-spend-team-cloud-credits-45.html: Forum: Cloud Agents from Grok Bot spend Team Cloud Credits (quota-report) <https://forum.cursor.com/t/cloud-agents-by-grokbot-using-team-cloud-credits-instead-of-personal-usage/173419>
 - /cases/forum-request-for-usage-broken-down-by-bot-and-category-read-46.html: Forum: request for usage broken down by Bot and category, readable by Bots (quota-report) <https://forum.cursor.com/t/breakdown-in-the-app-by-bot-and-category-and-the-same-data-available-to-bots/173936>
 - /cases/ray-fernando-s-clippy-cto-47.html: Ray Fernando's Clippy CTO (quota-report) <https://www.youtube.com/watch?v=kAR91DlnCKQ>
+- /cases/x-maziyarid-2121542455698813067.html: Hitting Grok Bot limits too fast? Split the work across a small agent team (quota-report) <https://x.com/Maziyar_ID/status/2121542455698813067>
+- /cases/x-keledan-2121588635372065233.html: Where Grok Bot usage goes: check unattended routines and listeners first (quota-report) <https://x.com/Keledan/status/2121588635372065233>
+- /cases/x-thexybermateo-2121590113746514349.html: Still running out with a team of Grok Bots: what the author already cut (quota-report) <https://x.com/thexybermateo/status/2121590113746514349>
 - /cases/x-agentmsgr-2120728462449086793.html: Out of Grok Bot usage each week, jobs moved to Meta Muse's free allowance (quota-report) <https://x.com/AgentMsgr/status/2120728462449086793>
 - /cases/x-xodudrkd-2120831707607953907.html: ChatGPT dots unlimited promo ends November 18 (quota-report) <https://x.com/xodud_rkd/status/2120831707607953907>
 - /cases/x-tycoonry-2120510325581906147.html: After the weekly reset, Grok Bot usage is already at 72% (quota-report) <https://x.com/Tycoonry/status/2120510325581906147>
