@@ -1,5 +1,5 @@
 {
- "last_ingest": "2026-11-13T23:40:30.506Z",
+ "last_ingest": "2026-11-14T13:48:01.555Z",
  "items": [
   {
    "id": "x:2105612186450297061",
@@ -62725,6 +62725,1274 @@
     }
    },
    "added_at": "2026-11-13T23:40:30.506Z"
+  },
+  {
+   "id": "x:2121564919527027152",
+   "url": "https://x.com/fleyta88/status/2121564919527027152",
+   "source": "x",
+   "source_name": "X",
+   "author": "fleyta88",
+   "date": "2026-11-14",
+   "likes": 37,
+   "product": "grok-bot",
+   "text": "You send one message at 23:40 and go to sleep. By 06:52 six Grok Bot agents have handed off 9 times and you tap your phone once.\n\nThat's the night in the video. Here's the crew, steal the split:\n\n→ LANTERN reads the ask, splits it into jobs, wakes the others\n→ SIEVE sorts the https://t.co/47XJFN2FzA https://t.co/lsWjeYz3XD",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2121564872517251072/img/XJIe7zT4-jEp-Xh2.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "睡前一条消息，六个 Grok Bot 接力到天亮",
+     "summary": "作者 23:40 发出一条消息后去睡觉，到 06:52 六个 Grok Bot 智能体已交接 9 次，作者只点了一次手机。分工示例：LANTERN 读取请求、拆成多个任务并唤醒其他智能体；SIEVE 负责分拣。帖子附视频。"
+    },
+    "zh-TW": {
+     "title": "睡前一則訊息，六個 Grok Bot 接力到天亮",
+     "summary": "作者 23:40 傳出一則訊息後去睡覺，到 06:52 六個 Grok Bot 智慧體已交接 9 次，作者只點了一次手機。分工示例：LANTERN 讀取請求、拆成多個任務並喚醒其他智慧體；SIEVE 負責分揀。貼文附影片。"
+    },
+    "en": {
+     "title": "One message before bed, six Grok Bot agents hand off until morning",
+     "summary": "The author sends one message at 23:40 and goes to sleep. By 06:52 six Grok Bot agents have handed off 9 times and the author has tapped the phone once. The split: LANTERN reads the ask, breaks it into jobs and wakes the others; SIEVE does the sorting. Video attached."
+    },
+    "ja": {
+     "title": "寝る前の1通で、6体のGrok Botが朝まで引き継ぎ",
+     "summary": "作者は23:40にメッセージを1通送って就寝。06:52までに6体のGrok Botエージェントが9回引き継ぎ、作者がスマホを触ったのは1回だけ。役割分担の例：LANTERNが依頼を読んでジョブに分け、他を起こす。SIEVEが仕分けを担当。動画付き。"
+    },
+    "ko": {
+     "title": "자기 전 메시지 하나, Grok Bot 여섯 개가 아침까지 릴레이",
+     "summary": "작성자는 23:40에 메시지 하나를 보내고 잠들었다. 06:52까지 Grok Bot 에이전트 여섯 개가 9번 작업을 넘겼고, 작성자는 휴대폰을 한 번만 눌렀다. 역할 분담: LANTERN이 요청을 읽고 작업으로 나눈 뒤 다른 에이전트를 깨우고, SIEVE가 분류를 맡는다. 영상 첨부."
+    },
+    "ms": {
+     "title": "Satu mesej sebelum tidur, enam ejen Grok Bot bergilir hingga pagi",
+     "summary": "Penulis menghantar satu mesej pada 23:40 lalu tidur. Menjelang 06:52 enam ejen Grok Bot telah menyerahkan kerja 9 kali dan penulis hanya menyentuh telefon sekali. Pembahagian: LANTERN membaca permintaan, memecahkannya kepada tugas dan mengejutkan yang lain; SIEVE menyusun. Video dilampirkan."
+    },
+    "vi": {
+     "title": "Một tin nhắn trước khi ngủ, sáu tác tử Grok Bot chuyền việc tới sáng",
+     "summary": "Tác giả gửi một tin nhắn lúc 23:40 rồi đi ngủ. Đến 06:52, sáu tác tử Grok Bot đã chuyền việc 9 lần và tác giả chỉ chạm điện thoại một lần. Cách chia việc: LANTERN đọc yêu cầu, chia thành các việc và đánh thức các tác tử khác; SIEVE phân loại. Có video kèm theo."
+    },
+    "fr": {
+     "title": "Un message avant de dormir, six agents Grok Bot se relaient jusqu’au matin",
+     "summary": "L’auteur envoie un message à 23:40 et va se coucher. À 06:52, six agents Grok Bot se sont passé le relais 9 fois et l’auteur n’a touché son téléphone qu’une fois. Répartition : LANTERN lit la demande, la découpe en tâches et réveille les autres ; SIEVE trie. Vidéo jointe."
+    },
+    "es": {
+     "title": "Un mensaje antes de dormir, seis agentes de Grok Bot se relevan hasta la mañana",
+     "summary": "El autor envía un mensaje a las 23:40 y se va a dormir. A las 06:52, seis agentes de Grok Bot se han pasado el trabajo 9 veces y el autor solo ha tocado el móvil una vez. Reparto: LANTERN lee la petición, la divide en tareas y despierta a los demás; SIEVE clasifica. Incluye vídeo."
+    },
+    "de": {
+     "title": "Eine Nachricht vor dem Schlafen, sechs Grok-Bot-Agenten übergeben bis morgens",
+     "summary": "Der Autor schickt um 23:40 eine Nachricht und geht schlafen. Bis 06:52 haben sechs Grok-Bot-Agenten 9-mal übergeben, der Autor hat das Handy einmal angetippt. Aufteilung: LANTERN liest die Anfrage, zerlegt sie in Jobs und weckt die anderen; SIEVE sortiert. Mit Video."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121566140996419813",
+   "url": "https://x.com/spectnfa/status/2121566140996419813",
+   "source": "x",
+   "source_name": "X",
+   "author": "spectnfa",
+   "date": "2026-11-14",
+   "likes": 34,
+   "product": "grok-bot",
+   "text": "HOLY F*CK! GROK BOT HELPED ME FIND FORGOTTEN SUBSCRIPTIONS. 150 EMAILS, 40 CALLS, AND 30 APPROVED REFUNDS LATER, $14,200 WAS BACK IN MY ACCOUNT.\n\ni thought i had a few subscriptions.\n\nthen i asked grok bot:\n\n“find subscriptions i’m still paying for. help me cancel the ones i https://t.co/7RA6HfmGAX https://t.co/JVPAhbKMGV",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2121565911849046017/img/jZzTGefYao_nRfax.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "让 Grok Bot 找出遗忘的订阅并申请退款",
+     "summary": "作者让 Grok Bot“找出我还在付费的订阅，帮我取消不需要的”。作者称前后经过 150 封邮件、40 通电话和 30 笔获批退款，共 14,200 美元回到账户。数字为作者自述，帖子附视频。"
+    },
+    "zh-TW": {
+     "title": "讓 Grok Bot 找出遺忘的訂閱並申請退款",
+     "summary": "作者讓 Grok Bot「找出我還在付費的訂閱，幫我取消不需要的」。作者稱前後經過 150 封郵件、40 通電話和 30 筆獲准退款，共 14,200 美元回到帳戶。數字為作者自述，貼文附影片。"
+    },
+    "en": {
+     "title": "Grok Bot finds forgotten subscriptions and chases refunds",
+     "summary": "The author asked Grok Bot to \"find subscriptions I'm still paying for\" and help cancel the unwanted ones. The author says that after 150 emails, 40 calls and 30 approved refunds, $14,200 came back to the account. Figures are the author's own claim; video attached."
+    },
+    "ja": {
+     "title": "Grok Botで忘れていたサブスクを洗い出し返金申請",
+     "summary": "作者はGrok Botに「まだ支払っているサブスクを探して、不要なものの解約を手伝って」と依頼。メール150通、電話40件、承認された返金30件を経て14,200ドルが口座に戻ったと作者は述べている。数字は作者の自己申告。動画付き。"
+    },
+    "ko": {
+     "title": "Grok Bot으로 잊고 있던 구독을 찾아 환불 요청",
+     "summary": "작성자는 Grok Bot에게 \"아직 결제 중인 구독을 찾아 필요 없는 것을 해지하도록 도와 달라\"고 요청했다. 이메일 150통, 전화 40통, 승인된 환불 30건을 거쳐 14,200달러가 계좌로 돌아왔다고 작성자는 말한다. 수치는 작성자 본인 주장이며 영상이 첨부되어 있다."
+    },
+    "ms": {
+     "title": "Grok Bot mencari langganan yang terlupa dan menuntut bayaran balik",
+     "summary": "Penulis meminta Grok Bot \"mencari langganan yang masih saya bayar\" dan membantu membatalkan yang tidak perlu. Menurut penulis, selepas 150 e-mel, 40 panggilan dan 30 bayaran balik diluluskan, $14,200 kembali ke akaun. Angka ialah dakwaan penulis; video dilampirkan."
+    },
+    "vi": {
+     "title": "Grok Bot tìm các gói đăng ký bị quên và đòi hoàn tiền",
+     "summary": "Tác giả nhờ Grok Bot \"tìm các gói đăng ký tôi vẫn đang trả tiền\" và giúp hủy những gói không cần. Tác giả cho biết sau 150 email, 40 cuộc gọi và 30 khoản hoàn tiền được chấp thuận, 14.200 USD đã trở về tài khoản. Số liệu do tác giả tự nêu; có video."
+    },
+    "fr": {
+     "title": "Grok Bot retrouve des abonnements oubliés et obtient des remboursements",
+     "summary": "L’auteur a demandé à Grok Bot de « trouver les abonnements que je paie encore » et d’aider à résilier les inutiles. Selon l’auteur, après 150 e-mails, 40 appels et 30 remboursements acceptés, 14 200 $ sont revenus sur le compte. Chiffres déclarés par l’auteur ; vidéo jointe."
+    },
+    "es": {
+     "title": "Grok Bot encuentra suscripciones olvidadas y reclama reembolsos",
+     "summary": "El autor pidió a Grok Bot \"encontrar las suscripciones que sigo pagando\" y ayudar a cancelar las que no quería. Según el autor, tras 150 correos, 40 llamadas y 30 reembolsos aprobados, volvieron 14.200 $ a su cuenta. Cifras declaradas por el autor; incluye vídeo."
+    },
+    "de": {
+     "title": "Grok Bot findet vergessene Abos und holt Erstattungen",
+     "summary": "Der Autor bat Grok Bot, „die Abos zu finden, für die ich noch zahle“, und beim Kündigen der unnötigen zu helfen. Laut Autor kamen nach 150 E-Mails, 40 Anrufen und 30 genehmigten Erstattungen 14.200 $ aufs Konto zurück. Zahlen sind Angaben des Autors; mit Video."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121580020346831141",
+   "url": "https://x.com/ScottyBeamIO/status/2121580020346831141",
+   "source": "x",
+   "source_name": "X",
+   "author": "ScottyBeamIO",
+   "date": "2026-11-14",
+   "likes": 30,
+   "product": "grok-bot",
+   "text": "I F*CKING TOLD MY GROK BOT TO GO TO MY MEETINGS FOR ME BECAUSE I HAD 3 AT THE SAME TIME.\n\nIT SAT IN 2 OF THEM, ANSWERED MY TEAM’S QUESTIONS, AND PUT MY TASKS IN MY CALENDAR BEFORE I EVEN HUNG UP.\n\nHere’s what it brought back:\n\n→ Design review: 2 decisions, 1 task for me\n→ Team https://t.co/Jg6Su5drrp https://t.co/EL7AEYdkoO",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2121579558906232832/img/DRydQ-FJ_PELZNg6.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "三个会议撞车，让 Grok Bot 替我参会",
+     "summary": "作者同时有 3 个会议，让 Grok Bot 代为参加。它坐进其中 2 个会议，回答了团队的问题，并在作者挂断前把作者的任务写进日历。带回的结果示例：设计评审得出 2 项决定、1 项作者的任务。帖子附视频。"
+    },
+    "zh-TW": {
+     "title": "三個會議撞期，讓 Grok Bot 替我開會",
+     "summary": "作者同時有 3 個會議，讓 Grok Bot 代為出席。它進入其中 2 個會議，回答團隊的問題，並在作者掛斷前把作者的任務寫進行事曆。帶回的結果示例：設計審查得出 2 項決定、1 項作者的任務。貼文附影片。"
+    },
+    "en": {
+     "title": "Three meetings at once, so Grok Bot attends two of them",
+     "summary": "With 3 meetings at the same time, the author told Grok Bot to attend for them. It sat in 2 of them, answered the team's questions and put the author's tasks in the calendar before the author hung up. Example of what it brought back: design review, 2 decisions and 1 task for the author. Video attached."
+    },
+    "ja": {
+     "title": "会議が3つ重なり、Grok Botに2つを代理出席させた",
+     "summary": "同時に3つの会議があった作者はGrok Botに代理出席を指示。Grok Botは2つの会議に参加してチームの質問に答え、作者が通話を終える前に作者のタスクをカレンダーに入れた。持ち帰った内容の例：デザインレビューで決定2件、作者のタスク1件。動画付き。"
+    },
+    "ko": {
+     "title": "회의 세 개가 겹쳐 Grok Bot이 두 개에 대신 참석",
+     "summary": "회의 3개가 동시에 잡힌 작성자는 Grok Bot에게 대신 참석하라고 했다. Grok Bot은 그중 2개 회의에 들어가 팀의 질문에 답하고, 작성자가 통화를 끝내기 전에 작성자의 할 일을 캘린더에 넣었다. 가져온 결과 예: 디자인 리뷰에서 결정 2건, 작성자 할 일 1건. 영상 첨부."
+    },
+    "ms": {
+     "title": "Tiga mesyuarat serentak, Grok Bot menghadiri dua daripadanya",
+     "summary": "Dengan 3 mesyuarat pada masa yang sama, penulis menyuruh Grok Bot hadir bagi pihaknya. Ia menyertai 2 mesyuarat, menjawab soalan pasukan dan memasukkan tugas penulis ke kalendar sebelum penulis menamatkan panggilan. Contoh hasil: semakan reka bentuk, 2 keputusan dan 1 tugas untuk penulis. Video dilampirkan."
+    },
+    "vi": {
+     "title": "Ba cuộc họp trùng giờ, Grok Bot dự thay hai cuộc",
+     "summary": "Có 3 cuộc họp cùng lúc, tác giả bảo Grok Bot đi họp thay. Nó tham gia 2 cuộc, trả lời câu hỏi của nhóm và đưa các việc của tác giả vào lịch trước khi tác giả cúp máy. Ví dụ kết quả mang về: buổi duyệt thiết kế có 2 quyết định và 1 việc cho tác giả. Có video."
+    },
+    "fr": {
+     "title": "Trois réunions en même temps : Grok Bot assiste à deux d’entre elles",
+     "summary": "Avec 3 réunions simultanées, l’auteur a demandé à Grok Bot d’y aller à sa place. Il a assisté à 2 d’entre elles, répondu aux questions de l’équipe et ajouté les tâches de l’auteur au calendrier avant la fin de son appel. Exemple de retour : revue de design, 2 décisions et 1 tâche pour l’auteur. Vidéo jointe."
+    },
+    "es": {
+     "title": "Tres reuniones a la vez: Grok Bot asiste a dos",
+     "summary": "Con 3 reuniones al mismo tiempo, el autor le dijo a Grok Bot que fuera por él. Entró en 2, respondió las preguntas del equipo y puso las tareas del autor en el calendario antes de que este colgara. Ejemplo de lo que trajo: revisión de diseño, 2 decisiones y 1 tarea para el autor. Incluye vídeo."
+    },
+    "de": {
+     "title": "Drei Meetings gleichzeitig: Grok Bot nimmt an zwei teil",
+     "summary": "Bei 3 gleichzeitigen Meetings schickte der Autor Grok Bot an seiner Stelle. Er saß in 2 davon, beantwortete die Fragen des Teams und trug die Aufgaben des Autors in den Kalender ein, bevor dieser aufgelegt hatte. Beispiel: Design-Review mit 2 Entscheidungen und 1 Aufgabe für den Autor. Mit Video."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121583425203163350",
+   "url": "https://x.com/thegreatest_sv/status/2121583425203163350",
+   "source": "x",
+   "source_name": "X",
+   "author": "thegreatest_sv",
+   "date": "2026-11-14",
+   "likes": 19,
+   "product": "grok-bot",
+   "text": "I GAVE GROK BOT MY ENTIRE LIFE TO MANAGE.\n\nIt sorts everything I save into one dashboard: inbox, notes, projects, KPIs. 1,284 items this month.\n\nThe bots from the Grok Bot marketplace that actually run my day:\n\n&gt; Inbox Manager - clears my email, drafts the replies\n&gt; Calendar EA - https://t.co/kcuas4yER1 https://t.co/OBvPvNHyj4",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2121557103940689920/img/Mrxl6OnhGxpXZKGB.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用 Grok Bot 市场里的 Bot 管理一整天",
+     "summary": "作者让 Grok Bot 把保存的所有内容归到一个仪表盘：收件箱、笔记、项目、KPI，本月共 1,284 条。日常在用的 Grok Bot 市场 Bot 包括：Inbox Manager（清理邮件并起草回复）、Calendar EA 等。帖子附视频。"
+    },
+    "zh-TW": {
+     "title": "用 Grok Bot 市集裡的 Bot 管理一整天",
+     "summary": "作者讓 Grok Bot 把儲存的所有內容歸到一個儀表板：收件匣、筆記、專案、KPI，本月共 1,284 筆。日常在用的 Grok Bot 市集 Bot 包括：Inbox Manager（清理郵件並草擬回覆）、Calendar EA 等。貼文附影片。"
+    },
+    "en": {
+     "title": "Running the day with bots from the Grok Bot marketplace",
+     "summary": "Grok Bot sorts everything the author saves into one dashboard: inbox, notes, projects and KPIs, 1,284 items this month. The marketplace bots the author relies on include Inbox Manager (clears email and drafts replies) and Calendar EA. Video attached."
+    },
+    "ja": {
+     "title": "Grok Botマーケットプレイスのボットで1日を回す",
+     "summary": "Grok Botが作者の保存したものを受信箱・メモ・プロジェクト・KPIの1つのダッシュボードに整理し、今月は1,284件。日常的に使うマーケットプレイスのボットはInbox Manager（メールを片付け返信を下書き）やCalendar EAなど。動画付き。"
+    },
+    "ko": {
+     "title": "Grok Bot 마켓플레이스 봇으로 하루를 운영",
+     "summary": "Grok Bot이 작성자가 저장한 모든 것을 받은편지함, 메모, 프로젝트, KPI로 된 하나의 대시보드에 정리하며 이번 달에만 1,284개 항목이다. 매일 쓰는 마켓플레이스 봇은 Inbox Manager(메일 정리와 답장 초안 작성), Calendar EA 등이다. 영상 첨부."
+    },
+    "ms": {
+     "title": "Mengurus hari dengan bot dari pasaran Grok Bot",
+     "summary": "Grok Bot menyusun semua yang disimpan penulis ke dalam satu papan pemuka: peti masuk, nota, projek dan KPI, 1,284 item bulan ini. Bot pasaran yang digunakan termasuk Inbox Manager (mengosongkan e-mel dan mendraf balasan) dan Calendar EA. Video dilampirkan."
+    },
+    "vi": {
+     "title": "Điều hành cả ngày bằng các bot trên chợ Grok Bot",
+     "summary": "Grok Bot gom mọi thứ tác giả lưu vào một bảng điều khiển: hộp thư, ghi chú, dự án, KPI, 1.284 mục trong tháng này. Các bot từ chợ Grok Bot tác giả dùng hằng ngày gồm Inbox Manager (dọn email, soạn nháp trả lời) và Calendar EA. Có video."
+    },
+    "fr": {
+     "title": "Gérer sa journée avec des bots de la marketplace Grok Bot",
+     "summary": "Grok Bot range tout ce que l’auteur enregistre dans un seul tableau de bord : boîte mail, notes, projets, KPI, soit 1 284 éléments ce mois-ci. Parmi les bots utilisés : Inbox Manager (vide la boîte mail et rédige les réponses) et Calendar EA. Vidéo jointe."
+    },
+    "es": {
+     "title": "Llevar el día con bots del marketplace de Grok Bot",
+     "summary": "Grok Bot ordena todo lo que guarda el autor en un solo panel: bandeja de entrada, notas, proyectos y KPI, 1.284 elementos este mes. Entre los bots del marketplace que usa están Inbox Manager (limpia el correo y redacta respuestas) y Calendar EA. Incluye vídeo."
+    },
+    "de": {
+     "title": "Den Tag mit Bots aus dem Grok-Bot-Marktplatz organisieren",
+     "summary": "Grok Bot sortiert alles, was der Autor speichert, in ein Dashboard: Posteingang, Notizen, Projekte, KPIs – 1.284 Einträge in diesem Monat. Zu den genutzten Marktplatz-Bots gehören Inbox Manager (leert das Postfach, entwirft Antworten) und Calendar EA. Mit Video."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121590653075263922",
+   "url": "https://x.com/1920web1080/status/2121590653075263922",
+   "source": "x",
+   "source_name": "X",
+   "author": "1920web1080",
+   "date": "2026-11-14",
+   "likes": 16,
+   "product": "grok-bot",
+   "text": "GROK BOT HELPED ME FIND 4 THINGS AFTER MY BREAKUP: MY EX’S TABLET STILL SIGNED IN, HER NUMBER ON MY GOOGLE RECOVERY, AN EMAIL FORWARDING RULE, AND MY MISSING CLASH ROYALE ACCOUNT.\n\nwe broke up. i thought changing the password was the end of it.\n\nthen i asked grok bot to help me https://t.co/i8HfbEcmrU https://t.co/EmY6scpL8V",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2121590373201948672/img/-A36fJ7CE1G3K1yd.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "分手后用 Grok Bot 做账号安全排查",
+     "summary": "作者以为分手后改密码就够了，又让 Grok Bot 帮忙排查，找到 4 处问题：前任的平板仍处于登录状态、她的号码还在作者的 Google 恢复信息里、一条邮件转发规则，以及作者丢失的 Clash Royale 账号。帖子附视频。"
+    },
+    "zh-TW": {
+     "title": "分手後用 Grok Bot 做帳號安全檢查",
+     "summary": "作者以為分手後改密碼就夠了，又讓 Grok Bot 幫忙檢查，找到 4 處問題：前任的平板仍在登入狀態、她的號碼還在作者的 Google 復原資訊裡、一條郵件轉寄規則，以及作者遺失的 Clash Royale 帳號。貼文附影片。"
+    },
+    "en": {
+     "title": "A post-breakup account security check with Grok Bot",
+     "summary": "The author thought changing the password was enough after a breakup, then asked Grok Bot to help check. It found 4 things: the ex's tablet still signed in, her number on the author's Google recovery, an email forwarding rule, and the author's missing Clash Royale account. Video attached."
+    },
+    "ja": {
+     "title": "別れた後、Grok Botでアカウントの安全点検",
+     "summary": "作者は別れた後パスワードを変えれば十分だと思っていたが、Grok Botに点検を依頼。見つかったのは4点：元恋人のタブレットがログインしたまま、Googleの再設定用に彼女の番号、メール転送ルール、そして行方不明だった作者のClash Royaleアカウント。動画付き。"
+    },
+    "ko": {
+     "title": "이별 후 Grok Bot으로 계정 보안 점검",
+     "summary": "작성자는 이별 후 비밀번호만 바꾸면 끝이라고 생각했지만 Grok Bot에게 점검을 부탁했다. 찾아낸 것은 4가지: 전 연인의 태블릿이 여전히 로그인 상태, 작성자의 Google 복구 정보에 남은 그녀의 번호, 이메일 전달 규칙, 잃어버렸던 작성자의 Clash Royale 계정. 영상 첨부."
+    },
+    "ms": {
+     "title": "Semakan keselamatan akaun selepas putus cinta dengan Grok Bot",
+     "summary": "Penulis menyangka menukar kata laluan sudah cukup selepas putus, lalu meminta Grok Bot membantu menyemak. Ia menemui 4 perkara: tablet bekas kekasih masih log masuk, nombornya pada pemulihan Google penulis, peraturan pemajuan e-mel, dan akaun Clash Royale penulis yang hilang. Video dilampirkan."
+    },
+    "vi": {
+     "title": "Kiểm tra bảo mật tài khoản sau chia tay bằng Grok Bot",
+     "summary": "Tác giả tưởng đổi mật khẩu là đủ sau khi chia tay, rồi nhờ Grok Bot kiểm tra. Nó tìm ra 4 điều: máy tính bảng của người yêu cũ vẫn đăng nhập, số của cô ấy trong mục khôi phục Google của tác giả, một quy tắc chuyển tiếp email và tài khoản Clash Royale bị mất của tác giả. Có video."
+    },
+    "fr": {
+     "title": "Vérifier la sécurité de ses comptes après une rupture avec Grok Bot",
+     "summary": "L’auteur pensait que changer le mot de passe suffisait après la rupture, puis a demandé à Grok Bot de vérifier. Il a trouvé 4 choses : la tablette de l’ex toujours connectée, son numéro dans la récupération Google de l’auteur, une règle de transfert d’e-mails et le compte Clash Royale perdu de l’auteur. Vidéo jointe."
+    },
+    "es": {
+     "title": "Revisión de seguridad de cuentas tras una ruptura con Grok Bot",
+     "summary": "El autor creía que bastaba con cambiar la contraseña tras la ruptura y luego pidió ayuda a Grok Bot. Encontró 4 cosas: la tableta de su ex aún con sesión iniciada, el número de ella en la recuperación de Google del autor, una regla de reenvío de correo y la cuenta perdida de Clash Royale del autor. Incluye vídeo."
+    },
+    "de": {
+     "title": "Konto-Sicherheitscheck nach der Trennung mit Grok Bot",
+     "summary": "Der Autor dachte, nach der Trennung reiche ein neues Passwort, und ließ dann Grok Bot prüfen. Gefunden wurden 4 Dinge: das Tablet der Ex noch angemeldet, ihre Nummer in der Google-Wiederherstellung des Autors, eine E-Mail-Weiterleitungsregel und das verlorene Clash-Royale-Konto des Autors. Mit Video."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121594372235960355",
+   "url": "https://x.com/0xjmori/status/2121594372235960355",
+   "source": "x",
+   "source_name": "X",
+   "author": "0xjmori",
+   "date": "2026-11-14",
+   "likes": 15,
+   "product": "grok-bot",
+   "text": "This is f*cking insane... Elon Musk's team just made the IRS hold line useless\n\nA Grok Bot sat on hold with the IRS for 2 hours 14 minutes and got a $1,380 late penalty wiped, and I never touched the phone\n\nGrok Bot 1.0 landed this week and phone calls are live: it waits in line, https://t.co/8WQAX4ZNRa https://t.co/ocw6kvbhaN",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2121593354035118080/img/dfXq8P-SWnqayuKp.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 替作者排队打 IRS 电话",
+     "summary": "作者称一个 Grok Bot 在 IRS 热线上排队等待了 2 小时 14 分钟，免掉了一笔 1,380 美元的滞纳罚款，作者全程没碰电话。帖子提到 Grok Bot 1.0 本周上线了电话功能，它会替你排队等待。数字为作者自述，附视频。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 替作者排隊打 IRS 電話",
+     "summary": "作者稱一個 Grok Bot 在 IRS 專線上排隊等候了 2 小時 14 分鐘，免除了一筆 1,380 美元的滯納罰款，作者全程沒碰電話。貼文提到 Grok Bot 1.0 本週上線了電話功能，會替你排隊等候。數字為作者自述，附影片。"
+    },
+    "en": {
+     "title": "Grok Bot waits on the IRS hold line for the author",
+     "summary": "The author says a Grok Bot sat on hold with the IRS for 2 hours 14 minutes and got a $1,380 late penalty wiped while the author never touched the phone. The post notes that phone calls went live with Grok Bot 1.0 this week and it waits in line for you. Figures are the author's claim; video attached."
+    },
+    "ja": {
+     "title": "Grok BotがIRSの保留待ちを代行",
+     "summary": "作者によると、Grok BotがIRSの電話で2時間14分保留待ちし、1,380ドルの延滞ペナルティを取り消してもらった。作者は一度も電話に触れていない。今週のGrok Bot 1.0で電話機能が使えるようになり、列に並んで待ってくれるという。数字は作者の申告。動画付き。"
+    },
+    "ko": {
+     "title": "Grok Bot이 IRS 대기 전화를 대신 기다림",
+     "summary": "작성자에 따르면 Grok Bot이 IRS 전화에서 2시간 14분 대기한 끝에 1,380달러 연체 벌금을 면제받았고, 작성자는 전화를 한 번도 만지지 않았다. 이번 주 Grok Bot 1.0에서 전화 기능이 열려 대신 줄을 서서 기다린다고 한다. 수치는 작성자 주장이며 영상 첨부."
+    },
+    "ms": {
+     "title": "Grok Bot menunggu talian IRS bagi pihak penulis",
+     "summary": "Penulis berkata satu Grok Bot menunggu dalam talian IRS selama 2 jam 14 minit dan berjaya menghapuskan denda lewat $1,380 tanpa penulis menyentuh telefon. Hantaran menyebut panggilan telefon kini aktif dalam Grok Bot 1.0 minggu ini dan ia beratur menunggu untuk anda. Angka ialah dakwaan penulis; video dilampirkan."
+    },
+    "vi": {
+     "title": "Grok Bot chờ máy tổng đài IRS thay tác giả",
+     "summary": "Tác giả cho biết một Grok Bot đã chờ máy với IRS 2 giờ 14 phút và được xóa khoản phạt nộp trễ 1.380 USD, tác giả không hề chạm vào điện thoại. Bài viết nói tính năng gọi điện có trong Grok Bot 1.0 tuần này, nó xếp hàng chờ thay bạn. Số liệu do tác giả nêu; có video."
+    },
+    "fr": {
+     "title": "Grok Bot patiente en ligne avec l’IRS à la place de l’auteur",
+     "summary": "Selon l’auteur, un Grok Bot est resté en attente avec l’IRS pendant 2 h 14 et a obtenu l’annulation d’une pénalité de retard de 1 380 $, sans que l’auteur touche au téléphone. Le post indique que les appels sont disponibles depuis Grok Bot 1.0 cette semaine. Chiffres déclarés par l’auteur ; vidéo jointe."
+    },
+    "es": {
+     "title": "Grok Bot espera en la línea del IRS por el autor",
+     "summary": "El autor dice que un Grok Bot esperó en línea con el IRS 2 horas y 14 minutos y consiguió anular una multa por retraso de 1.380 $ sin que él tocara el teléfono. El post señala que las llamadas llegaron con Grok Bot 1.0 esta semana y espera en la cola por ti. Cifras declaradas por el autor; incluye vídeo."
+    },
+    "de": {
+     "title": "Grok Bot hängt für den Autor in der IRS-Warteschleife",
+     "summary": "Laut Autor wartete ein Grok Bot 2 Stunden 14 Minuten in der IRS-Warteschleife und erreichte den Erlass einer Verspätungsstrafe von 1.380 $, ohne dass der Autor das Telefon anfasste. Telefonanrufe sind laut Post seit Grok Bot 1.0 diese Woche verfügbar. Zahlen sind Angaben des Autors; mit Video."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121579403461218463",
+   "url": "https://x.com/kocer_eth/status/2121579403461218463",
+   "source": "x",
+   "source_name": "X",
+   "author": "kocer_eth",
+   "date": "2026-11-14",
+   "likes": 15,
+   "product": "grok-bot",
+   "text": "GROK BOT CAN JOIN MEETINGS NOW. I JUST HANDED IT 4 OF MY 6 CALLS NEXT WEEK\n\nthe update dropped 3 hours ago. one evening of prompts\n\nmonday it starts. here's the setup:\n\n1. sunday 8pm, calendar sweep\nreads next week's Calendar, tags every call \"me / bot / skip\" and texts me the https://t.co/Qeidqdf0N9 https://t.co/wfjZzeInoo",
+   "media": [
+    "https://pbs.twimg.com/media/HXFaoLhW8AAg50-.jpg",
+    "https://pbs.twimg.com/media/HXFarIRXsAAJEIo.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "把下周 6 个通话中的 4 个交给 Grok Bot 的设置",
+     "summary": "Grok Bot 能参加会议后，作者用一个晚上写好提示词，把下周 6 个通话中的 4 个交给它。第 1 步：周日晚 8 点做日历巡检，读取下周日历，把每个通话标为“我 / Bot / 跳过”，再发短信给作者确认。附两张截图。"
+    },
+    "zh-TW": {
+     "title": "把下週 6 通電話中的 4 通交給 Grok Bot 的設定",
+     "summary": "Grok Bot 能參加會議後，作者用一個晚上寫好提示詞，把下週 6 通電話中的 4 通交給它。第 1 步：週日晚上 8 點做行事曆巡檢，讀取下週行事曆，把每通電話標為「我 / Bot / 略過」，再傳簡訊給作者確認。附兩張截圖。"
+    },
+    "en": {
+     "title": "Setup for handing 4 of next week's 6 calls to Grok Bot",
+     "summary": "Once Grok Bot could join meetings, the author spent one evening on prompts and handed it 4 of 6 calls next week. Step 1: a Sunday 8pm calendar sweep reads next week's calendar, tags every call \"me / bot / skip\" and texts the author. Two screenshots attached."
+    },
+    "ja": {
+     "title": "来週の通話6件のうち4件をGrok Botに任せる設定",
+     "summary": "Grok Botが会議に参加できるようになり、作者は一晩でプロンプトを書いて来週の通話6件中4件を任せた。手順1：日曜20時にカレンダーを巡回し、来週の予定を読んで各通話に「自分 / ボット / スキップ」のタグを付け、作者にテキストで送る。スクリーンショット2枚付き。"
+    },
+    "ko": {
+     "title": "다음 주 통화 6건 중 4건을 Grok Bot에 맡기는 설정",
+     "summary": "Grok Bot이 회의에 참여할 수 있게 되자 작성자는 저녁 한 번 동안 프롬프트를 짜서 다음 주 통화 6건 중 4건을 맡겼다. 1단계: 일요일 저녁 8시 캘린더 점검으로 다음 주 일정을 읽고 각 통화에 \"나 / 봇 / 건너뛰기\" 태그를 붙여 작성자에게 문자로 보낸다. 스크린샷 2장 첨부."
+    },
+    "ms": {
+     "title": "Tetapan menyerahkan 4 daripada 6 panggilan minggu depan kepada Grok Bot",
+     "summary": "Setelah Grok Bot boleh menyertai mesyuarat, penulis menghabiskan satu malam menulis gesaan dan menyerahkan 4 daripada 6 panggilan minggu depan. Langkah 1: semakan kalendar Ahad 8 malam membaca kalendar minggu depan, menandakan setiap panggilan \"saya / bot / langkau\" dan menghantar teks kepada penulis. Dua tangkapan skrin dilampirkan."
+    },
+    "vi": {
+     "title": "Cách giao 4 trong 6 cuộc gọi tuần sau cho Grok Bot",
+     "summary": "Khi Grok Bot có thể tham gia cuộc họp, tác giả dành một buổi tối viết prompt và giao cho nó 4 trong 6 cuộc gọi tuần sau. Bước 1: 8 giờ tối Chủ nhật quét lịch tuần sau, gắn nhãn mỗi cuộc gọi \"tôi / bot / bỏ qua\" rồi nhắn tin cho tác giả. Kèm hai ảnh chụp màn hình."
+    },
+    "fr": {
+     "title": "Configuration pour confier 4 des 6 appels de la semaine à Grok Bot",
+     "summary": "Dès que Grok Bot a pu rejoindre des réunions, l’auteur a écrit ses prompts en une soirée et lui a confié 4 des 6 appels de la semaine suivante. Étape 1 : le dimanche à 20 h, un passage sur le calendrier lit la semaine à venir, étiquette chaque appel « moi / bot / ignorer » et envoie un SMS à l’auteur. Deux captures jointes."
+    },
+    "es": {
+     "title": "Configuración para darle a Grok Bot 4 de las 6 llamadas de la semana",
+     "summary": "Cuando Grok Bot pudo unirse a reuniones, el autor dedicó una tarde a los prompts y le pasó 4 de las 6 llamadas de la semana siguiente. Paso 1: el domingo a las 20:00, un repaso del calendario lee la próxima semana, etiqueta cada llamada como \"yo / bot / omitir\" y le envía un mensaje al autor. Dos capturas adjuntas."
+    },
+    "de": {
+     "title": "Setup: 4 von 6 Calls der nächsten Woche an Grok Bot übergeben",
+     "summary": "Seit Grok Bot an Meetings teilnehmen kann, hat der Autor an einem Abend Prompts geschrieben und ihm 4 von 6 Calls der nächsten Woche übergeben. Schritt 1: Sonntag 20 Uhr liest ein Kalender-Durchlauf die nächste Woche, markiert jeden Call mit „ich / Bot / auslassen“ und schickt dem Autor eine SMS. Zwei Screenshots."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121572638506049700",
+   "url": "https://x.com/gippp69/status/2121572638506049700",
+   "source": "x",
+   "source_name": "X",
+   "author": "gippp69",
+   "date": "2026-11-14",
+   "likes": 10,
+   "product": "grok-bot",
+   "text": "Full prompt. Copy all of it and paste it into Grok Bot as is ↓\n\nYou are my subscription auditor. Go through my connected email inbox and find every paid subscription I have right now.\n\nHow to search:\nLook back 12 months. Search for receipts, invoices, renewals, \"your",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "可直接粘贴给 Grok Bot 的订阅审计提示词",
+     "summary": "作者分享一段完整提示词，让 Grok Bot 充当“订阅审计员”：检查已连接的邮箱，找出目前所有付费订阅。搜索方法：回看 12 个月，搜索收据、发票、续订等邮件。作者建议原样复制粘贴。"
+    },
+    "zh-TW": {
+     "title": "可直接貼給 Grok Bot 的訂閱稽核提示詞",
+     "summary": "作者分享一段完整提示詞，讓 Grok Bot 擔任「訂閱稽核員」：檢查已連結的信箱，找出目前所有付費訂閱。搜尋方式：回看 12 個月，搜尋收據、發票、續訂等郵件。作者建議原樣複製貼上。"
+    },
+    "en": {
+     "title": "A copy-paste subscription audit prompt for Grok Bot",
+     "summary": "The author shares a full prompt that makes Grok Bot a \"subscription auditor\": go through the connected email inbox and find every paid subscription right now. How to search: look back 12 months for receipts, invoices and renewals. The author says to paste it as is."
+    },
+    "ja": {
+     "title": "Grok Botにそのまま貼れるサブスク監査プロンプト",
+     "summary": "作者はGrok Botを「サブスク監査役」にする完全なプロンプトを共有：接続済みのメール受信箱を確認し、現在の有料サブスクをすべて見つける。検索方法：過去12か月を遡り、領収書・請求書・更新通知などを検索。そのまま貼り付けるよう勧めている。"
+    },
+    "ko": {
+     "title": "Grok Bot에 그대로 붙여 넣는 구독 점검 프롬프트",
+     "summary": "작성자는 Grok Bot을 \"구독 감사관\"으로 만드는 전체 프롬프트를 공유한다: 연결된 이메일 받은편지함을 살펴 현재 결제 중인 구독을 모두 찾는다. 검색 방법: 지난 12개월을 거슬러 영수증, 청구서, 갱신 메일을 찾는다. 그대로 붙여 넣으라고 한다."
+    },
+    "ms": {
+     "title": "Gesaan audit langganan untuk ditampal terus ke Grok Bot",
+     "summary": "Penulis berkongsi gesaan penuh yang menjadikan Grok Bot \"juruaudit langganan\": semak peti masuk e-mel yang disambungkan dan cari setiap langganan berbayar sekarang. Cara mencari: lihat kembali 12 bulan untuk resit, invois dan pembaharuan. Penulis menyuruh menampalnya seperti sedia ada."
+    },
+    "vi": {
+     "title": "Prompt kiểm tra gói đăng ký dán thẳng vào Grok Bot",
+     "summary": "Tác giả chia sẻ prompt đầy đủ biến Grok Bot thành \"người kiểm toán gói đăng ký\": duyệt hộp thư đã kết nối và tìm mọi gói trả phí hiện có. Cách tìm: xem lại 12 tháng, tìm biên lai, hóa đơn, thông báo gia hạn. Tác giả khuyên dán nguyên văn."
+    },
+    "fr": {
+     "title": "Un prompt d’audit des abonnements à coller tel quel dans Grok Bot",
+     "summary": "L’auteur partage un prompt complet qui fait de Grok Bot un « auditeur d’abonnements » : parcourir la boîte mail connectée et trouver tous les abonnements payants en cours. Méthode : remonter 12 mois et chercher reçus, factures et renouvellements. À coller tel quel, selon l’auteur."
+    },
+    "es": {
+     "title": "Un prompt de auditoría de suscripciones para pegar tal cual en Grok Bot",
+     "summary": "El autor comparte un prompt completo que convierte a Grok Bot en \"auditor de suscripciones\": revisar la bandeja de correo conectada y encontrar todas las suscripciones de pago actuales. Cómo buscar: mirar 12 meses atrás recibos, facturas y renovaciones. Recomienda pegarlo tal cual."
+    },
+    "de": {
+     "title": "Ein Abo-Audit-Prompt zum direkten Einfügen in Grok Bot",
+     "summary": "Der Autor teilt einen vollständigen Prompt, der Grok Bot zum „Abo-Prüfer“ macht: das verbundene Postfach durchgehen und jedes laufende Bezahlabo finden. Suche: 12 Monate zurück nach Belegen, Rechnungen und Verlängerungen. Laut Autor unverändert einfügen."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121394429550281206",
+   "url": "https://x.com/nvandewetering/status/2121394429550281206",
+   "source": "x",
+   "source_name": "X",
+   "author": "nvandewetering",
+   "date": "2026-11-14",
+   "likes": 7,
+   "product": "openai-dots",
+   "text": "If you’re still typing your prompts to Claude, go touch grass.\n\nSeriously. ChatGPT Dots voice mode is the best way to vibe code right now.\n\nI talk through what I want on a walk, it asks the right questions, and by the time I’m back I have a plan and the first pieces built.\n\nYou explain things better out loud. Talking forces you to say what you actually want, and that makes better prompts than anything you’d type.\n\nYOU CAN EVEN CONNECT YOUR DOT TO YOUR CLAUDE ACCOUNT\n\nThe keyboard is for fixing. Your voice is for building.\n\nWho else is vibe coding out loud?",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用 ChatGPT Dots 语音模式边散步边写代码",
+     "summary": "作者说 ChatGPT Dots 的语音模式是目前最好的 vibe coding 方式：散步时把想要的东西说出来，它会追问关键问题，回到家时已有计划和最初的几块成品。作者认为口头表达迫使人说清需求，比打字的提示词更好；还提到可以把 Dot 连接到 Claude 账号。"
+    },
+    "zh-TW": {
+     "title": "用 ChatGPT Dots 語音模式邊散步邊寫程式",
+     "summary": "作者說 ChatGPT Dots 的語音模式是目前最好的 vibe coding 方式：散步時把想要的東西說出來，它會追問關鍵問題，回到家時已有計畫和最初的幾塊成品。作者認為口頭表達迫使人說清需求，比打字的提示詞更好；也提到可以把 Dot 連到 Claude 帳號。"
+    },
+    "en": {
+     "title": "Vibe coding on a walk with ChatGPT Dots voice mode",
+     "summary": "The author calls ChatGPT Dots voice mode the best way to vibe code right now: talk through what you want on a walk, it asks the right questions, and by the time you're back there is a plan and the first pieces built. Speaking forces you to say what you want, which beats typed prompts. You can also connect your Dot to a Claude account."
+    },
+    "ja": {
+     "title": "ChatGPT Dotsの音声モードで散歩しながらバイブコーディング",
+     "summary": "作者はChatGPT Dotsの音声モードを今いちばんのバイブコーディング手段と評価。散歩中に作りたいものを話すと適切な質問を返してくれ、戻る頃には計画と最初のパーツができている。声に出すと本当に欲しいものを言語化でき、打ち込むプロンプトより良いという。DotをClaudeアカウントに接続することも可能。"
+    },
+    "ko": {
+     "title": "ChatGPT Dots 음성 모드로 산책하며 바이브 코딩",
+     "summary": "작성자는 ChatGPT Dots 음성 모드가 지금 가장 좋은 바이브 코딩 방법이라고 말한다. 산책하며 원하는 것을 말하면 필요한 질문을 던지고, 돌아올 때쯤 계획과 첫 결과물이 나와 있다. 소리 내어 말하면 원하는 것을 분명히 하게 되어 타이핑한 프롬프트보다 낫다고 한다. Dot을 Claude 계정에 연결할 수도 있다."
+    },
+    "ms": {
+     "title": "Vibe coding sambil berjalan dengan mod suara ChatGPT Dots",
+     "summary": "Penulis menyebut mod suara ChatGPT Dots cara terbaik untuk vibe coding sekarang: ceritakan apa yang anda mahu sambil berjalan, ia bertanya soalan yang tepat, dan bila pulang sudah ada pelan serta bahagian pertama siap. Bercakap memaksa anda menyatakan kehendak dengan jelas, lebih baik daripada gesaan yang ditaip. Dot juga boleh disambungkan ke akaun Claude."
+    },
+    "vi": {
+     "title": "Vibe coding khi đi dạo với chế độ giọng nói của ChatGPT Dots",
+     "summary": "Tác giả cho rằng chế độ giọng nói của ChatGPT Dots là cách vibe coding tốt nhất lúc này: vừa đi dạo vừa nói điều mình muốn, nó hỏi đúng câu cần hỏi, về đến nhà đã có kế hoạch và vài phần đầu tiên. Nói ra buộc bạn diễn đạt rõ mong muốn, tốt hơn prompt gõ phím. Có thể kết nối Dot với tài khoản Claude."
+    },
+    "fr": {
+     "title": "Vibe coder en marchant avec le mode vocal de ChatGPT Dots",
+     "summary": "Pour l’auteur, le mode vocal de ChatGPT Dots est la meilleure façon de vibe coder : on décrit ce qu’on veut en marchant, il pose les bonnes questions, et au retour il y a un plan et les premiers éléments construits. Parler oblige à dire ce qu’on veut vraiment, mieux qu’un prompt tapé. On peut aussi connecter son Dot à un compte Claude."
+    },
+    "es": {
+     "title": "Vibe coding mientras caminas con el modo de voz de ChatGPT Dots",
+     "summary": "El autor dice que el modo de voz de ChatGPT Dots es la mejor forma de hacer vibe coding ahora: cuentas lo que quieres paseando, te hace las preguntas adecuadas y al volver tienes un plan y las primeras piezas hechas. Hablar te obliga a decir lo que quieres, mejor que un prompt escrito. También puedes conectar tu Dot a una cuenta de Claude."
+    },
+    "de": {
+     "title": "Vibe Coding beim Spaziergang mit dem Sprachmodus von ChatGPT Dots",
+     "summary": "Der Autor nennt den Sprachmodus von ChatGPT Dots derzeit den besten Weg zum Vibe Coding: Beim Spazierengehen beschreibt man, was man will, er stellt die richtigen Fragen, und zurück zu Hause gibt es einen Plan und erste fertige Teile. Sprechen zwingt dazu, klar zu sagen, was man will – besser als getippte Prompts. Der Dot lässt sich auch mit einem Claude-Konto verbinden."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121596576351060316",
+   "url": "https://x.com/distortgeekin/status/2121596576351060316",
+   "source": "x",
+   "source_name": "X",
+   "author": "distortgeekin",
+   "date": "2026-11-14",
+   "likes": 6,
+   "product": "grok-bot",
+   "text": "SpaceXAI's Lauren Tan lets one Grok Bot hire all the others\n\nI tried it on our Gmail support inbox, it hired 3 bots in 4 minutes, one job per bot:\n\n→ Sorter, reads the subject and the first 3 lines, nothing else\n→ Researcher, searches the help center, brings back 3 articles max https://t.co/VceNpMzvvd https://t.co/0jIw3k0RxN",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2121589153687040000/img/UbSGDhYlo7-ARqVY.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "让一个 Grok Bot 为客服邮箱“招聘”其他 Bot",
+     "summary": "受 SpaceXAI 的 Lauren Tan 启发，作者让一个 Grok Bot 去“招聘”其他 Bot，用在团队的 Gmail 客服邮箱上：4 分钟内建了 3 个 Bot，每个只做一件事。Sorter 只读主题和前 3 行；Researcher 搜索帮助中心，最多带回 3 篇文章。附视频。"
+    },
+    "zh-TW": {
+     "title": "讓一個 Grok Bot 為客服信箱「招募」其他 Bot",
+     "summary": "受 SpaceXAI 的 Lauren Tan 啟發，作者讓一個 Grok Bot 去「招募」其他 Bot，用在團隊的 Gmail 客服信箱：4 分鐘內建了 3 個 Bot，每個只做一件事。Sorter 只讀主旨和前 3 行；Researcher 搜尋說明中心，最多帶回 3 篇文章。附影片。"
+    },
+    "en": {
+     "title": "One Grok Bot \"hires\" the others for a support inbox",
+     "summary": "Following SpaceXAI's Lauren Tan, the author let one Grok Bot hire the others for their Gmail support inbox: 3 bots in 4 minutes, one job each. Sorter reads only the subject and first 3 lines; Researcher searches the help center and brings back 3 articles max. Video attached."
+    },
+    "ja": {
+     "title": "1体のGrok Botがサポート受信箱用に他のボットを「採用」",
+     "summary": "SpaceXAIのLauren Tanにならい、作者はGmailのサポート受信箱で1体のGrok Botに他のボットを採用させた。4分で3体、1体1仕事。Sorterは件名と最初の3行だけを読む。Researcherはヘルプセンターを検索し最大3記事を持ち帰る。動画付き。"
+    },
+    "ko": {
+     "title": "Grok Bot 하나가 고객지원 메일함용 봇들을 \"채용\"",
+     "summary": "SpaceXAI의 Lauren Tan 방식을 따라 작성자는 Gmail 고객지원 메일함에 Grok Bot 하나가 다른 봇을 채용하게 했다. 4분 만에 봇 3개, 봇마다 한 가지 일. Sorter는 제목과 첫 3줄만 읽고, Researcher는 도움말 센터를 검색해 최대 3개 문서를 가져온다. 영상 첨부."
+    },
+    "ms": {
+     "title": "Satu Grok Bot \"mengupah\" bot lain untuk peti masuk sokongan",
+     "summary": "Mengikut cara Lauren Tan dari SpaceXAI, penulis membiarkan satu Grok Bot mengupah bot lain untuk peti masuk sokongan Gmail mereka: 3 bot dalam 4 minit, satu tugas setiap bot. Sorter hanya membaca subjek dan 3 baris pertama; Researcher mencari pusat bantuan dan membawa balik maksimum 3 artikel. Video dilampirkan."
+    },
+    "vi": {
+     "title": "Một Grok Bot \"tuyển\" các bot khác cho hộp thư hỗ trợ",
+     "summary": "Theo cách của Lauren Tan (SpaceXAI), tác giả để một Grok Bot tuyển các bot khác cho hộp thư hỗ trợ Gmail: 3 bot trong 4 phút, mỗi bot một việc. Sorter chỉ đọc tiêu đề và 3 dòng đầu; Researcher tìm trong trung tâm trợ giúp, mang về tối đa 3 bài. Có video."
+    },
+    "fr": {
+     "title": "Un Grok Bot « recrute » les autres pour une boîte de support",
+     "summary": "À la manière de Lauren Tan (SpaceXAI), l’auteur a laissé un Grok Bot recruter les autres pour sa boîte Gmail de support : 3 bots en 4 minutes, une tâche chacun. Sorter ne lit que l’objet et les 3 premières lignes ; Researcher cherche dans le centre d’aide et rapporte 3 articles au maximum. Vidéo jointe."
+    },
+    "es": {
+     "title": "Un Grok Bot \"contrata\" a los demás para un buzón de soporte",
+     "summary": "Siguiendo a Lauren Tan de SpaceXAI, el autor dejó que un Grok Bot contratara a los demás para su buzón de soporte de Gmail: 3 bots en 4 minutos, una tarea por bot. Sorter solo lee el asunto y las 3 primeras líneas; Researcher busca en el centro de ayuda y trae 3 artículos como máximo. Incluye vídeo."
+    },
+    "de": {
+     "title": "Ein Grok Bot „stellt“ die anderen für ein Support-Postfach ein",
+     "summary": "Nach dem Vorbild von Lauren Tan (SpaceXAI) ließ der Autor einen Grok Bot die anderen für das Gmail-Support-Postfach einstellen: 3 Bots in 4 Minuten, je ein Job. Sorter liest nur Betreff und die ersten 3 Zeilen; Researcher durchsucht das Hilfecenter und bringt höchstens 3 Artikel. Mit Video."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121565809130541220",
+   "url": "https://x.com/Michael_Fenech_/status/2121565809130541220",
+   "source": "x",
+   "source_name": "X",
+   "author": "Michael_Fenech_",
+   "date": "2026-11-14",
+   "likes": 6,
+   "product": "grok-bot",
+   "text": "I’ve found a hidden powerplay in Grok Bot: give it a rule to check how your decisions affect your project and adjust the plan accordingly.\n\nI noticed a decision I made had knock-on effects across our project. It meant checking what else needed to change, including tasks, https://t.co/NB56t7IJSW",
+   "media": [
+    "https://pbs.twimg.com/media/HXB4tzEaUAASNsb.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "给 Grok Bot 加一条规则：检查决策对项目的连锁影响",
+     "summary": "作者建议给 Grok Bot 设一条规则：检查你的决策如何影响项目，并相应调整计划。起因是作者的一个决定在项目中产生连锁影响，需要逐一检查任务等还有哪些要改。附截图。"
+    },
+    "zh-TW": {
+     "title": "給 Grok Bot 加一條規則：檢查決策對專案的連鎖影響",
+     "summary": "作者建議給 Grok Bot 設一條規則：檢查你的決策如何影響專案，並相應調整計畫。起因是作者的一個決定在專案中產生連鎖影響，需要逐一檢查任務等還有哪些要改。附截圖。"
+    },
+    "en": {
+     "title": "A Grok Bot rule: check how decisions ripple through the project",
+     "summary": "The author suggests giving Grok Bot a rule to check how your decisions affect your project and adjust the plan accordingly. It came from a decision that had knock-on effects across the project, which meant checking what else had to change, including tasks. Screenshot attached."
+    },
+    "ja": {
+     "title": "Grok Botへのルール：決定がプロジェクトに及ぼす波及を確認",
+     "summary": "作者は、自分の決定がプロジェクトにどう影響するかを確認し計画を調整するルールをGrok Botに与えることを勧める。きっかけは、ある決定がプロジェクト全体に波及し、タスクなど他に変えるべき点を確認する必要が生じたこと。スクリーンショット付き。"
+    },
+    "ko": {
+     "title": "Grok Bot 규칙: 결정이 프로젝트에 미치는 파급 효과 확인",
+     "summary": "작성자는 결정이 프로젝트에 어떤 영향을 주는지 확인하고 계획을 조정하라는 규칙을 Grok Bot에 주라고 제안한다. 계기는 한 결정이 프로젝트 전반에 연쇄 영향을 주어 할 일 등 무엇을 더 바꿔야 하는지 확인해야 했던 일이다. 스크린샷 첨부."
+    },
+    "ms": {
+     "title": "Peraturan Grok Bot: semak kesan berantai keputusan pada projek",
+     "summary": "Penulis mencadangkan memberi Grok Bot peraturan untuk menyemak bagaimana keputusan anda menjejaskan projek dan melaraskan pelan. Ia bermula daripada satu keputusan yang memberi kesan berantai, sehingga perlu menyemak apa lagi yang perlu diubah, termasuk tugas. Tangkapan skrin dilampirkan."
+    },
+    "vi": {
+     "title": "Quy tắc cho Grok Bot: kiểm tra tác động dây chuyền của quyết định",
+     "summary": "Tác giả gợi ý đặt cho Grok Bot quy tắc kiểm tra quyết định của bạn ảnh hưởng thế nào đến dự án và điều chỉnh kế hoạch theo đó. Xuất phát từ một quyết định gây ảnh hưởng dây chuyền, buộc phải kiểm tra những gì khác cần thay đổi, kể cả các nhiệm vụ. Có ảnh chụp màn hình."
+    },
+    "fr": {
+     "title": "Une règle pour Grok Bot : vérifier l’effet domino des décisions",
+     "summary": "L’auteur conseille de donner à Grok Bot une règle : vérifier comment vos décisions affectent le projet et ajuster le plan en conséquence. Cela vient d’une décision aux effets en cascade sur le projet, qui obligeait à vérifier ce qui devait changer, y compris les tâches. Capture jointe."
+    },
+    "es": {
+     "title": "Una regla para Grok Bot: revisar el efecto dominó de las decisiones",
+     "summary": "El autor sugiere darle a Grok Bot una regla para revisar cómo tus decisiones afectan al proyecto y ajustar el plan. Surgió de una decisión con efectos en cadena en el proyecto, que obligó a revisar qué más debía cambiar, incluidas las tareas. Captura adjunta."
+    },
+    "de": {
+     "title": "Eine Grok-Bot-Regel: Folgen von Entscheidungen fürs Projekt prüfen",
+     "summary": "Der Autor empfiehlt, Grok Bot eine Regel zu geben: prüfen, wie sich Entscheidungen auf das Projekt auswirken, und den Plan anpassen. Anlass war eine Entscheidung mit Folgewirkungen im ganzen Projekt, sodass geprüft werden musste, was sich sonst noch ändern muss, auch Aufgaben. Mit Screenshot."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121560475649663302",
+   "url": "https://x.com/AI_pic_maochao/status/2121560475649663302",
+   "source": "x",
+   "source_name": "X",
+   "author": "AI_pic_maochao",
+   "date": "2026-11-14",
+   "likes": 3,
+   "product": "meta-muse",
+   "text": "効きやすいタグ、バッティングしない並べ方とか面倒くさいんだよねぇ！とかMuseに相談してたら勝手にタグリストみたいなやつを作ってくれて見せてきた。\nちゃんとSD1.x系に効きやすいdanbooru考慮してあるらしい、有能か？おまえ。\n#MetaMuse https://t.co/mFP2FI93mI",
+   "media": [
+    "https://pbs.twimg.com/media/HXFMAGVbIAACO4v.png"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Meta Muse 主动做出生图标签清单",
+     "summary": "作者向 Muse 抱怨挑选有效标签、避免标签冲突的排列很麻烦，Muse 便主动做了一份类似标签清单的东西给作者看，据说考虑了对 SD1.x 系模型有效的 danbooru 标签。附截图。"
+    },
+    "zh-TW": {
+     "title": "Meta Muse 主動做出生圖標籤清單",
+     "summary": "作者向 Muse 抱怨挑選有效標籤、避免標籤衝突的排列很麻煩，Muse 便主動做了一份類似標籤清單的東西給作者看，據說考慮了對 SD1.x 系模型有效的 danbooru 標籤。附截圖。"
+    },
+    "en": {
+     "title": "Meta Muse builds an image-prompt tag list on its own",
+     "summary": "The author complained to Muse that picking effective tags and ordering them so they don't clash is tedious. Muse then made a tag list on its own and showed it, apparently accounting for danbooru tags that work well with SD1.x models. Screenshot attached."
+    },
+    "ja": {
+     "title": "Meta Museが画像生成用のタグリストを自ら作成",
+     "summary": "効くタグやぶつからない並べ方が面倒だとMuseに相談していたら、Museが勝手にタグリストのようなものを作って見せてきた。SD1.x系に効きやすいdanbooruタグを考慮しているらしい。スクリーンショット付き。"
+    },
+    "ko": {
+     "title": "Meta Muse가 이미지 생성용 태그 목록을 알아서 만듦",
+     "summary": "작성자가 잘 먹히는 태그를 고르고 서로 충돌하지 않게 배열하는 게 귀찮다고 Muse에게 털어놓자, Muse가 알아서 태그 목록 같은 것을 만들어 보여 주었다. SD1.x 계열에 잘 먹히는 danbooru 태그를 고려했다고 한다. 스크린샷 첨부."
+    },
+    "ms": {
+     "title": "Meta Muse membina senarai tag gesaan imej sendiri",
+     "summary": "Penulis mengadu kepada Muse bahawa memilih tag berkesan dan menyusunnya supaya tidak bertembung itu leceh. Muse kemudian membuat senarai tag sendiri dan menunjukkannya, kononnya mengambil kira tag danbooru yang berkesan untuk model SD1.x. Tangkapan skrin dilampirkan."
+    },
+    "vi": {
+     "title": "Meta Muse tự lập danh sách thẻ cho prompt tạo ảnh",
+     "summary": "Tác giả than với Muse rằng chọn thẻ hiệu quả và sắp xếp để chúng không xung đột thật phiền. Muse liền tự làm một danh sách thẻ và đưa cho tác giả xem, có vẻ đã tính đến các thẻ danbooru hiệu quả với dòng SD1.x. Có ảnh chụp màn hình."
+    },
+    "fr": {
+     "title": "Meta Muse crée de lui-même une liste de tags pour la génération d’images",
+     "summary": "L’auteur s’est plaint auprès de Muse qu’il était fastidieux de choisir des tags efficaces et de les ordonner sans conflit. Muse a alors créé de lui-même une sorte de liste de tags, tenant apparemment compte des tags danbooru efficaces pour les modèles SD1.x. Capture jointe."
+    },
+    "es": {
+     "title": "Meta Muse crea por su cuenta una lista de etiquetas para generar imágenes",
+     "summary": "El autor le comentó a Muse que elegir etiquetas eficaces y ordenarlas sin que choquen es pesado. Muse creó por su cuenta una especie de lista de etiquetas y se la mostró, al parecer teniendo en cuenta etiquetas danbooru que funcionan con modelos SD1.x. Captura adjunta."
+    },
+    "de": {
+     "title": "Meta Muse erstellt von selbst eine Tag-Liste für Bild-Prompts",
+     "summary": "Der Autor klagte Muse, wie mühsam es sei, wirksame Tags zu wählen und so anzuordnen, dass sie sich nicht beißen. Muse erstellte daraufhin von selbst eine Art Tag-Liste, die angeblich danbooru-Tags berücksichtigt, die bei SD1.x-Modellen gut wirken. Mit Screenshot."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121554600113439051",
+   "url": "https://x.com/oldfshndog/status/2121554600113439051",
+   "source": "x",
+   "source_name": "X",
+   "author": "oldfshndog",
+   "date": "2026-11-14",
+   "likes": 1,
+   "product": "openai-dots",
+   "text": "@TokenGremlin Idk, man. I’ve built my own always-on agent, and I also have Dot, Grok Bot, and Duet. I really like my Dot. Something shifted with it this past week, and I’ve found it genuinely useful.\n\nLast night, “she” helped me reconnect my Sonos and made three Apple Music playlists for me to",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Dot 帮忙重连 Sonos 并做了三个 Apple Music 歌单",
+     "summary": "作者自建了常驻智能体，同时也在用 Dot、Grok Bot 和 Duet，最喜欢 Dot，说它这周有了变化、变得真正有用。昨晚 Dot 帮作者重新连接了 Sonos，并做了三个 Apple Music 歌单。"
+    },
+    "zh-TW": {
+     "title": "Dot 幫忙重連 Sonos 並做了三個 Apple Music 播放清單",
+     "summary": "作者自建了常駐智慧體，同時也在用 Dot、Grok Bot 和 Duet，最喜歡 Dot，說它這週有了變化、變得真正有用。昨晚 Dot 幫作者重新連接了 Sonos，並做了三個 Apple Music 播放清單。"
+    },
+    "en": {
+     "title": "Dot reconnects Sonos and makes three Apple Music playlists",
+     "summary": "The author has built their own always-on agent and also uses Dot, Grok Bot and Duet, but likes Dot best, saying something shifted this past week and it became genuinely useful. Last night Dot helped reconnect the author's Sonos and made three Apple Music playlists."
+    },
+    "ja": {
+     "title": "DotがSonosを再接続し、Apple Musicのプレイリストを3つ作成",
+     "summary": "作者は自作の常駐エージェントに加えDot、Grok Bot、Duetも使っているが、一番気に入っているのはDot。この1週間で何かが変わり本当に役立つようになったという。昨夜はSonosの再接続を手伝い、Apple Musicのプレイリストを3つ作ってくれた。"
+    },
+    "ko": {
+     "title": "Dot이 Sonos를 다시 연결하고 Apple Music 재생목록 3개를 만듦",
+     "summary": "작성자는 직접 만든 상시 에이전트에 더해 Dot, Grok Bot, Duet도 쓰지만 Dot을 가장 좋아한다. 지난 한 주 사이 뭔가 달라져 정말 쓸모 있어졌다고 한다. 어젯밤 Dot은 Sonos 재연결을 돕고 Apple Music 재생목록 3개를 만들어 주었다."
+    },
+    "ms": {
+     "title": "Dot menyambung semula Sonos dan membuat tiga senarai main Apple Music",
+     "summary": "Penulis telah membina ejen sentiasa aktif sendiri dan turut menggunakan Dot, Grok Bot dan Duet, tetapi paling suka Dot kerana ada perubahan minggu ini dan ia benar-benar berguna. Malam tadi Dot membantu menyambung semula Sonos dan membuat tiga senarai main Apple Music."
+    },
+    "vi": {
+     "title": "Dot kết nối lại Sonos và tạo ba danh sách phát Apple Music",
+     "summary": "Tác giả đã tự xây tác tử luôn chạy và cũng dùng Dot, Grok Bot, Duet, nhưng thích Dot nhất, nói rằng tuần qua có gì đó thay đổi và nó thật sự hữu ích. Tối qua Dot giúp kết nối lại Sonos và tạo ba danh sách phát Apple Music."
+    },
+    "fr": {
+     "title": "Dot reconnecte Sonos et crée trois playlists Apple Music",
+     "summary": "L’auteur a construit son propre agent permanent et utilise aussi Dot, Grok Bot et Duet, mais préfère Dot : quelque chose a changé cette semaine et il est devenu vraiment utile. Hier soir, Dot a aidé à reconnecter le Sonos et a créé trois playlists Apple Music."
+    },
+    "es": {
+     "title": "Dot reconecta Sonos y crea tres listas de Apple Music",
+     "summary": "El autor tiene su propio agente siempre activo y además usa Dot, Grok Bot y Duet, pero prefiere Dot: algo cambió esta semana y se volvió realmente útil. Anoche Dot ayudó a reconectar el Sonos y creó tres listas de reproducción de Apple Music."
+    },
+    "de": {
+     "title": "Dot verbindet Sonos neu und erstellt drei Apple-Music-Playlists",
+     "summary": "Der Autor hat einen eigenen Always-on-Agenten gebaut und nutzt auch Dot, Grok Bot und Duet, mag Dot aber am liebsten: Diese Woche habe sich etwas verändert, er sei wirklich nützlich geworden. Gestern Abend half Dot, das Sonos neu zu verbinden, und erstellte drei Apple-Music-Playlists."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121436922551939109",
+   "url": "https://x.com/techknew/status/2121436922551939109",
+   "source": "x",
+   "source_name": "X",
+   "author": "techknew",
+   "date": "2026-11-14",
+   "likes": 1,
+   "product": "meta-muse",
+   "text": "1/7 I built a Meta Muse Space for making sourdough so I can work out when I can leave home. Think of it like a timer microsite but personalised to your preference and the multiple steps required by the recipe. @Meta @alexandr_wang https://t.co/fgEccpsucJ",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2121436387308183552/img/gE8xyRzq2IMX-vZA.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用 Meta Muse Space 做的酸面包计时小站",
+     "summary": "作者用 Meta Muse Space 做了一个做酸面包用的工具，用来算出自己什么时候可以出门。它像一个计时器微站，但会按作者的偏好和食谱里的多个步骤个性化。这是 7 条串帖的第 1 条，附视频。"
+    },
+    "zh-TW": {
+     "title": "用 Meta Muse Space 做的酸麵包計時小站",
+     "summary": "作者用 Meta Muse Space 做了一個做酸麵包用的工具，用來算出自己什麼時候可以出門。它像一個計時器微網站，但會依作者的偏好和食譜裡的多個步驟個人化。這是 7 則串文的第 1 則，附影片。"
+    },
+    "en": {
+     "title": "A sourdough timer microsite built as a Meta Muse Space",
+     "summary": "The author built a Meta Muse Space for making sourdough, to work out when they can leave home. It works like a timer microsite, personalised to their preferences and the multiple steps in the recipe. Post 1 of a 7-part thread; video attached."
+    },
+    "ja": {
+     "title": "Meta Muse Spaceで作ったサワードウ用タイマーサイト",
+     "summary": "作者はサワードウ作り用のMeta Muse Spaceを作り、いつ外出できるかを割り出せるようにした。タイマーのマイクロサイトのようなものだが、作者の好みとレシピの複数工程に合わせて個別化されている。7本のスレッドの1本目。動画付き。"
+    },
+    "ko": {
+     "title": "Meta Muse Space로 만든 사워도우 타이머 마이크로사이트",
+     "summary": "작성자는 사워도우를 만들 때 언제 외출할 수 있는지 계산하려고 Meta Muse Space를 만들었다. 타이머 마이크로사이트 같지만 작성자의 취향과 레시피의 여러 단계에 맞춰 개인화되어 있다. 7개짜리 스레드의 첫 글이며 영상 첨부."
+    },
+    "ms": {
+     "title": "Mikrotapak pemasa roti masam yang dibina sebagai Meta Muse Space",
+     "summary": "Penulis membina Meta Muse Space untuk membuat roti masam (sourdough) bagi mengira bila boleh keluar rumah. Ia seperti mikrotapak pemasa, tetapi diperibadikan mengikut citarasa penulis dan langkah-langkah resipi. Hantaran 1 daripada bebenang 7 bahagian; video dilampirkan."
+    },
+    "vi": {
+     "title": "Trang hẹn giờ làm bánh mì sourdough dựng bằng Meta Muse Space",
+     "summary": "Tác giả dựng một Meta Muse Space để làm bánh mì sourdough, giúp tính khi nào có thể ra ngoài. Nó giống một trang hẹn giờ nhỏ nhưng được cá nhân hóa theo sở thích và nhiều bước trong công thức. Bài 1 trong chuỗi 7 bài; có video."
+    },
+    "fr": {
+     "title": "Un mini-site minuteur pour le levain créé avec Meta Muse Space",
+     "summary": "L’auteur a créé un Meta Muse Space pour faire du pain au levain et savoir quand il peut sortir. C’est comme un mini-site minuteur, mais personnalisé selon ses préférences et les différentes étapes de la recette. Premier post d’un fil de 7 ; vidéo jointe."
+    },
+    "es": {
+     "title": "Un micrositio temporizador de masa madre hecho con Meta Muse Space",
+     "summary": "El autor creó un Meta Muse Space para hacer pan de masa madre y calcular cuándo puede salir de casa. Funciona como un micrositio temporizador, personalizado según sus preferencias y los distintos pasos de la receta. Post 1 de un hilo de 7; incluye vídeo."
+    },
+    "de": {
+     "title": "Eine Sauerteig-Timer-Microsite als Meta Muse Space",
+     "summary": "Der Autor hat einen Meta Muse Space fürs Sauerteigbacken gebaut, um auszurechnen, wann er das Haus verlassen kann. Er funktioniert wie eine Timer-Microsite, angepasst an seine Vorlieben und die einzelnen Rezeptschritte. Post 1 eines 7-teiligen Threads; mit Video."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121592193731252250",
+   "url": "https://x.com/fffuckingnerd/status/2121592193731252250",
+   "source": "x",
+   "source_name": "X",
+   "author": "fffuckingnerd",
+   "date": "2026-11-14",
+   "likes": 13,
+   "product": "grok-bot",
+   "text": "This is f*cking wild. SpaceX AI engineer Nick Miller (ex-Cursor):\n\n“I needed to find us a short-term rental. So I had Grok Bot do it”\n\nIn 26 minutes, he shows how bots take work from the first request through research, scheduling and follow-ups.\n\nFor his Singapore move: about 35 https://t.co/MbPiO4gTUh https://t.co/iPhnSPSOt7",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2121590130213306368/img/s8qBn1BHTgNtlij5.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "SpaceX AI 工程师让 Grok Bot 找短租房",
+     "summary": "帖子介绍 SpaceX AI 工程师 Nick Miller（前 Cursor）的视频：“我需要给我们找一套短租房，所以让 Grok Bot 去做。”在 26 分钟里，他演示 Bot 如何从第一次请求开始，完成调研、安排时间和跟进。场景是他搬去新加坡。"
+    },
+    "zh-TW": {
+     "title": "SpaceX AI 工程師讓 Grok Bot 找短租房",
+     "summary": "貼文介紹 SpaceX AI 工程師 Nick Miller（前 Cursor）的影片：「我需要幫我們找一間短租房，所以讓 Grok Bot 去做。」在 26 分鐘裡，他示範 Bot 如何從第一次請求開始，完成調查、安排時間和後續跟進。情境是他搬到新加坡。"
+    },
+    "en": {
+     "title": "A SpaceX AI engineer has Grok Bot find a short-term rental",
+     "summary": "The post shares a video of SpaceX AI engineer Nick Miller (ex-Cursor): \"I needed to find us a short-term rental. So I had Grok Bot do it.\" In 26 minutes he shows how bots take the work from the first request through research, scheduling and follow-ups, for his move to Singapore."
+    },
+    "ja": {
+     "title": "SpaceX AIのエンジニアがGrok Botに短期賃貸を探させる",
+     "summary": "SpaceX AIのエンジニアNick Miller（元Cursor）の動画を紹介：「短期賃貸を探す必要があったので、Grok Botにやらせた」。26分の中で、最初の依頼からリサーチ、日程調整、フォローアップまでボットが進める様子を見せている。シンガポールへの引っ越しの事例。"
+    },
+    "ko": {
+     "title": "SpaceX AI 엔지니어가 Grok Bot에게 단기 임대 숙소를 찾게 함",
+     "summary": "SpaceX AI 엔지니어 Nick Miller(전 Cursor)의 영상을 소개한다: \"단기 임대 숙소를 찾아야 해서 Grok Bot에게 시켰다.\" 26분 동안 그는 봇이 첫 요청부터 조사, 일정 조율, 후속 연락까지 처리하는 과정을 보여 준다. 싱가포르 이사 사례다."
+    },
+    "ms": {
+     "title": "Jurutera SpaceX AI menyuruh Grok Bot mencari sewaan jangka pendek",
+     "summary": "Hantaran berkongsi video jurutera SpaceX AI Nick Miller (bekas Cursor): \"Saya perlu mencari sewaan jangka pendek, jadi saya suruh Grok Bot buat.\" Dalam 26 minit dia menunjukkan bagaimana bot membawa kerja dari permintaan pertama hingga penyelidikan, penjadualan dan susulan, untuk perpindahannya ke Singapura."
+    },
+    "vi": {
+     "title": "Kỹ sư SpaceX AI nhờ Grok Bot tìm nhà thuê ngắn hạn",
+     "summary": "Bài đăng chia sẻ video của kỹ sư SpaceX AI Nick Miller (từng ở Cursor): \"Tôi cần tìm nhà thuê ngắn hạn, nên tôi để Grok Bot làm.\" Trong 26 phút, anh cho thấy bot xử lý từ yêu cầu đầu tiên qua nghiên cứu, xếp lịch đến theo dõi, cho chuyến chuyển tới Singapore."
+    },
+    "fr": {
+     "title": "Un ingénieur de SpaceX AI fait chercher une location courte durée à Grok Bot",
+     "summary": "Le post partage une vidéo de Nick Miller, ingénieur chez SpaceX AI (ex-Cursor) : « Je devais nous trouver une location courte durée, alors je l’ai confiée à Grok Bot. » En 26 minutes, il montre comment les bots mènent le travail de la première demande à la recherche, la planification et les relances, pour son déménagement à Singapour."
+    },
+    "es": {
+     "title": "Un ingeniero de SpaceX AI pone a Grok Bot a buscar un alquiler temporal",
+     "summary": "El post comparte un vídeo de Nick Miller, ingeniero de SpaceX AI (ex-Cursor): \"Necesitaba encontrarnos un alquiler temporal, así que se lo encargué a Grok Bot.\" En 26 minutos muestra cómo los bots llevan el trabajo desde la primera petición hasta la investigación, la agenda y el seguimiento, para su mudanza a Singapur."
+    },
+    "de": {
+     "title": "SpaceX-AI-Ingenieur lässt Grok Bot eine Kurzzeitmiete suchen",
+     "summary": "Der Post teilt ein Video von SpaceX-AI-Ingenieur Nick Miller (ex-Cursor): „Ich musste eine Kurzzeitmiete finden, also habe ich das Grok Bot machen lassen.“ In 26 Minuten zeigt er, wie Bots die Arbeit von der ersten Anfrage über Recherche und Terminplanung bis zu Nachfassaktionen übernehmen – für seinen Umzug nach Singapur."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121542455698813067",
+   "url": "https://x.com/Maziyar_ID/status/2121542455698813067",
+   "source": "x",
+   "source_name": "X",
+   "author": "Maziyar_ID",
+   "date": "2026-11-14",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Hitting limits too fast with Grok Bot? Here's the setup I built to get around it. 🚀\n\nInstead of leaning on one AI for everything, I split the work across a small team of agents. It saves tokens, and honestly, cheapest, and it's just more fun to work this way.\n\n🧠 My core team https://t.co/zPEnMCo2UT",
+   "media": [
+    "https://pbs.twimg.com/media/HXE7X9RWgAA1u7W.jpg"
+   ],
+   "type": "quota-report",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 额度用得太快？改用小型智能体团队",
+     "summary": "作者说 Grok Bot 额度消耗太快，于是不再让一个 AI 包办一切，而是把工作分给一个小型智能体团队。作者称这样更省 token、成本更低，也更有趣。帖子随后列出作者的核心团队，附图。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 額度用得太快？改用小型智慧體團隊",
+     "summary": "作者說 Grok Bot 額度消耗太快，於是不再讓一個 AI 包辦一切，而是把工作分給一個小型智慧體團隊。作者稱這樣更省 token、成本更低，也更有趣。貼文接著列出作者的核心團隊，附圖。"
+    },
+    "en": {
+     "title": "Hitting Grok Bot limits too fast? Split the work across a small agent team",
+     "summary": "Running out of Grok Bot usage too quickly, the author stopped leaning on one AI for everything and split the work across a small team of agents. The author says it saves tokens, costs less and is more fun. The post goes on to list the core team; image attached."
+    },
+    "ja": {
+     "title": "Grok Botの上限にすぐ達する？小さなエージェントチームに分担",
+     "summary": "Grok Botの使用量をすぐ使い切ってしまう作者は、1つのAIにすべてを任せるのをやめ、小さなエージェントチームに仕事を分けた。トークンの節約になり、安く、楽しいという。続けて中核チームを紹介。画像付き。"
+    },
+    "ko": {
+     "title": "Grok Bot 한도에 너무 빨리 닿는다면? 작은 에이전트 팀으로 분담",
+     "summary": "Grok Bot 사용량이 너무 빨리 바닥나자 작성자는 AI 하나에 모든 일을 맡기지 않고 작은 에이전트 팀으로 일을 나눴다. 토큰을 아끼고 비용이 적으며 더 재미있다고 한다. 이어서 핵심 팀 구성을 소개한다. 이미지 첨부."
+    },
+    "ms": {
+     "title": "Cepat mencapai had Grok Bot? Bahagikan kerja kepada pasukan ejen kecil",
+     "summary": "Kerana penggunaan Grok Bot cepat habis, penulis berhenti bergantung pada satu AI untuk semua dan membahagikan kerja kepada pasukan ejen kecil. Menurut penulis ia menjimatkan token, lebih murah dan lebih seronok. Hantaran kemudian menyenaraikan pasukan teras; imej dilampirkan."
+    },
+    "vi": {
+     "title": "Chạm giới hạn Grok Bot quá nhanh? Chia việc cho một đội tác tử nhỏ",
+     "summary": "Vì dùng hết hạn mức Grok Bot quá nhanh, tác giả thôi dựa vào một AI cho mọi việc và chia việc cho một đội tác tử nhỏ. Tác giả nói cách này tiết kiệm token, rẻ hơn và vui hơn. Bài viết sau đó liệt kê đội cốt lõi; có hình."
+    },
+    "fr": {
+     "title": "Limites Grok Bot atteintes trop vite ? Répartir le travail sur une petite équipe d’agents",
+     "summary": "Épuisant trop vite son usage Grok Bot, l’auteur a cessé de tout confier à une seule IA et réparti le travail sur une petite équipe d’agents. Selon lui, cela économise des tokens, coûte moins cher et c’est plus amusant. Le post présente ensuite l’équipe principale ; image jointe."
+    },
+    "es": {
+     "title": "¿Llegas al límite de Grok Bot demasiado rápido? Reparte el trabajo en un equipo pequeño de agentes",
+     "summary": "Como gastaba su uso de Grok Bot muy rápido, el autor dejó de apoyarse en una sola IA y repartió el trabajo entre un pequeño equipo de agentes. Dice que ahorra tokens, sale más barato y es más divertido. Luego presenta su equipo principal; imagen adjunta."
+    },
+    "de": {
+     "title": "Grok-Bot-Limits zu schnell erreicht? Arbeit auf ein kleines Agententeam verteilen",
+     "summary": "Weil sein Grok-Bot-Kontingent zu schnell aufgebraucht war, verteilt der Autor die Arbeit nun auf ein kleines Agententeam statt auf eine einzige KI. Das spare Tokens, sei günstiger und mache mehr Spaß. Danach stellt der Post das Kernteam vor; mit Bild."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121597377543123109",
+   "url": "https://x.com/monlorcn/status/2121597377543123109",
+   "source": "x",
+   "source_name": "X",
+   "author": "monlorcn",
+   "date": "2026-11-14",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "终于实现了Grok Bot对接本地电脑Agent，太爽了！支持MCP控制+Webhook事件回调，会话 状态有更新就会通知给Bot，Bot上面直接管理创建会话，回复消息都可以，也可以让他做一些自动化处理 。 https://t.co/6V1zo9C0tq",
+   "media": [
+    "https://pbs.twimg.com/media/HXFtdifbcAA5pEG.jpg",
+    "https://pbs.twimg.com/media/HXFtd7uaUAA3vGY.jpg",
+    "https://pbs.twimg.com/media/HXFteWTbAAECseK.jpg",
+    "https://pbs.twimg.com/media/HXFteuea4AADZ3e.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 对接本地电脑 Agent：MCP 控制 + Webhook 回调",
+     "summary": "作者实现了 Grok Bot 对接本地电脑上的 Agent：支持 MCP 控制和 Webhook 事件回调，会话状态有更新就会通知 Bot；在 Bot 上可以直接创建和管理会话、回复消息，也能让它做一些自动化处理。附 4 张截图。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 串接本機電腦 Agent：MCP 控制 + Webhook 回呼",
+     "summary": "作者實現了 Grok Bot 串接本機電腦上的 Agent：支援 MCP 控制和 Webhook 事件回呼，工作階段狀態有更新就會通知 Bot；在 Bot 上可以直接建立和管理工作階段、回覆訊息，也能讓它做一些自動化處理。附 4 張截圖。"
+    },
+    "en": {
+     "title": "Connecting Grok Bot to a local computer agent via MCP and webhooks",
+     "summary": "The author connected Grok Bot to an agent on their local computer, with MCP control and webhook event callbacks: whenever a session's status changes, the bot is notified. From the bot they can create and manage sessions, reply to messages and run some automations. Four screenshots attached."
+    },
+    "ja": {
+     "title": "Grok BotをローカルPCのエージェントに接続：MCP制御とWebhook",
+     "summary": "作者はGrok BotをローカルPC上のエージェントに接続。MCP制御とWebhookのイベントコールバックに対応し、セッションの状態が更新されるとボットに通知される。ボット上でセッションの作成・管理やメッセージへの返信ができ、自動処理も任せられる。スクリーンショット4枚付き。"
+    },
+    "ko": {
+     "title": "Grok Bot을 로컬 PC 에이전트에 연결: MCP 제어와 웹훅 콜백",
+     "summary": "작성자는 Grok Bot을 로컬 컴퓨터의 에이전트에 연결했다. MCP 제어와 웹훅 이벤트 콜백을 지원해 세션 상태가 바뀌면 봇에 알림이 간다. 봇에서 바로 세션을 만들고 관리하며 메시지에 답하고, 일부 자동화도 맡길 수 있다. 스크린샷 4장 첨부."
+    },
+    "ms": {
+     "title": "Menyambung Grok Bot kepada ejen komputer tempatan melalui MCP dan webhook",
+     "summary": "Penulis menyambung Grok Bot kepada ejen di komputer tempatan, dengan kawalan MCP dan panggilan balik acara webhook: setiap kali status sesi berubah, bot dimaklumkan. Dari bot, sesi boleh dicipta dan diurus, mesej dibalas dan beberapa automasi dijalankan. Empat tangkapan skrin dilampirkan."
+    },
+    "vi": {
+     "title": "Kết nối Grok Bot với tác tử trên máy tính cục bộ qua MCP và webhook",
+     "summary": "Tác giả kết nối Grok Bot với một tác tử trên máy tính của mình, hỗ trợ điều khiển qua MCP và callback sự kiện webhook: khi trạng thái phiên thay đổi, bot được thông báo. Từ bot có thể tạo và quản lý phiên, trả lời tin nhắn và chạy một số tự động hóa. Kèm 4 ảnh chụp màn hình."
+    },
+    "fr": {
+     "title": "Relier Grok Bot à un agent local via MCP et webhooks",
+     "summary": "L’auteur a relié Grok Bot à un agent sur son ordinateur local, avec contrôle MCP et rappels d’événements par webhook : à chaque changement d’état d’une session, le bot est notifié. Depuis le bot, on peut créer et gérer des sessions, répondre aux messages et lancer des automatisations. Quatre captures jointes."
+    },
+    "es": {
+     "title": "Conectar Grok Bot a un agente local mediante MCP y webhooks",
+     "summary": "El autor conectó Grok Bot a un agente de su ordenador local, con control por MCP y callbacks de eventos por webhook: cuando cambia el estado de una sesión, se avisa al bot. Desde el bot se pueden crear y gestionar sesiones, responder mensajes y ejecutar algunas automatizaciones. Cuatro capturas adjuntas."
+    },
+    "de": {
+     "title": "Grok Bot per MCP und Webhooks mit einem lokalen Agenten verbinden",
+     "summary": "Der Autor hat Grok Bot mit einem Agenten auf seinem lokalen Rechner verbunden, mit MCP-Steuerung und Webhook-Event-Callbacks: Ändert sich der Status einer Sitzung, wird der Bot benachrichtigt. Im Bot lassen sich Sitzungen anlegen und verwalten, Nachrichten beantworten und Automatisierungen ausführen. Vier Screenshots."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121596238969950617",
+   "url": "https://x.com/drpraveenkoduru/status/2121596238969950617",
+   "source": "x",
+   "source_name": "X",
+   "author": "drpraveenkoduru",
+   "date": "2026-11-14",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Grok bot is a genius @elonmusk \nAsked Claude and Grok Bot the same thing today: open an MRI from a corporate hospital's PACS viewer. Claude said it couldn't access it and stopped there. Grok Bot opened it, hit an export error, tried again, downloaded the full study and then built https://t.co/MeJRsjhDQL",
+   "media": [
+    "https://pbs.twimg.com/media/HXFsgCTaMAAAeeH.jpg",
+    "https://pbs.twimg.com/media/HXFsgCxaAAAHvgY.jpg",
+    "https://pbs.twimg.com/media/HXFsgCabAAEBTvw.jpg"
+   ],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "从医院 PACS 查看器打开 MRI：Claude 与 Grok Bot 对比",
+     "summary": "作者让 Claude 和 Grok Bot 做同一件事：从一家企业医院的 PACS 查看器打开 MRI。Claude 说无法访问并就此停止；Grok Bot 打开了它，遇到导出错误后重试，下载了完整检查数据，并继续构建了后续内容。附 3 张图。"
+    },
+    "zh-TW": {
+     "title": "從醫院 PACS 檢視器開啟 MRI：Claude 與 Grok Bot 對比",
+     "summary": "作者讓 Claude 和 Grok Bot 做同一件事：從一家企業醫院的 PACS 檢視器開啟 MRI。Claude 說無法存取便停下；Grok Bot 開啟了它，遇到匯出錯誤後重試，下載了完整檢查資料，並繼續建構了後續內容。附 3 張圖。"
+    },
+    "en": {
+     "title": "Opening an MRI from a hospital PACS viewer: Claude vs Grok Bot",
+     "summary": "The author asked Claude and Grok Bot the same thing: open an MRI from a corporate hospital's PACS viewer. Claude said it couldn't access it and stopped. Grok Bot opened it, hit an export error, tried again, downloaded the full study and then went on to build from it. Three images attached."
+    },
+    "ja": {
+     "title": "病院のPACSビューアからMRIを開く：ClaudeとGrok Botの比較",
+     "summary": "作者はClaudeとGrok Botに同じ依頼をした：企業系病院のPACSビューアからMRIを開くこと。Claudeはアクセスできないと言って止まった。Grok Botは開き、エクスポートエラーに遭うと再試行し、検査データ一式をダウンロードしてさらに作業を進めた。画像3枚付き。"
+    },
+    "ko": {
+     "title": "병원 PACS 뷰어에서 MRI 열기: Claude와 Grok Bot 비교",
+     "summary": "작성자는 Claude와 Grok Bot에 같은 일을 시켰다: 기업형 병원 PACS 뷰어에서 MRI 열기. Claude는 접근할 수 없다며 멈췄다. Grok Bot은 열었고, 내보내기 오류가 나자 다시 시도해 전체 검사를 내려받은 뒤 이어서 작업을 진행했다. 이미지 3장 첨부."
+    },
+    "ms": {
+     "title": "Membuka MRI dari pemapar PACS hospital: Claude lawan Grok Bot",
+     "summary": "Penulis meminta Claude dan Grok Bot perkara sama: buka MRI dari pemapar PACS sebuah hospital korporat. Claude berkata ia tidak boleh mengaksesnya lalu berhenti. Grok Bot membukanya, menghadapi ralat eksport, mencuba lagi, memuat turun keseluruhan imbasan dan kemudian terus membina daripadanya. Tiga imej dilampirkan."
+    },
+    "vi": {
+     "title": "Mở ảnh MRI từ trình xem PACS của bệnh viện: Claude so với Grok Bot",
+     "summary": "Tác giả giao cho Claude và Grok Bot cùng một việc: mở ảnh MRI từ trình xem PACS của một bệnh viện doanh nghiệp. Claude nói không truy cập được và dừng lại. Grok Bot mở được, gặp lỗi xuất, thử lại, tải về toàn bộ ca chụp rồi tiếp tục xây dựng từ đó. Kèm 3 hình."
+    },
+    "fr": {
+     "title": "Ouvrir une IRM depuis le visualiseur PACS d’un hôpital : Claude contre Grok Bot",
+     "summary": "L’auteur a demandé la même chose à Claude et à Grok Bot : ouvrir une IRM depuis le visualiseur PACS d’un hôpital privé. Claude a dit ne pas pouvoir y accéder et s’est arrêté. Grok Bot l’a ouverte, a rencontré une erreur d’export, a réessayé, a téléchargé l’examen complet puis a poursuivi le travail. Trois images jointes."
+    },
+    "es": {
+     "title": "Abrir una resonancia desde el visor PACS de un hospital: Claude frente a Grok Bot",
+     "summary": "El autor pidió lo mismo a Claude y a Grok Bot: abrir una resonancia desde el visor PACS de un hospital privado. Claude dijo que no podía acceder y se detuvo. Grok Bot la abrió, encontró un error de exportación, lo intentó de nuevo, descargó el estudio completo y siguió construyendo a partir de él. Tres imágenes adjuntas."
+    },
+    "de": {
+     "title": "MRT aus dem PACS-Viewer einer Klinik öffnen: Claude gegen Grok Bot",
+     "summary": "Der Autor gab Claude und Grok Bot dieselbe Aufgabe: ein MRT aus dem PACS-Viewer einer Privatklinik öffnen. Claude sagte, es habe keinen Zugriff, und hörte auf. Grok Bot öffnete es, stieß auf einen Exportfehler, versuchte es erneut, lud die komplette Studie herunter und arbeitete damit weiter. Drei Bilder."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121591790251729037",
+   "url": "https://x.com/timz0ne/status/2121591790251729037",
+   "source": "x",
+   "source_name": "X",
+   "author": "timz0ne",
+   "date": "2026-11-14",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "When I first got Grok Bot driving Codex CLI and Claude Code CLI, I didn't know how it would find out a job had finished. Mostly it didn't. A background shell didn’t wake an idle agent, and a detached job gave no signal, so I kept asking \"has it finished?\".\n\nThe first fix was a",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "让 Grok Bot 知道 Codex CLI / Claude Code 任务何时完成",
+     "summary": "作者让 Grok Bot 驱动 Codex CLI 和 Claude Code CLI 时，起初它大多不知道任务何时结束：后台 shell 不会唤醒空闲的智能体，分离运行的任务也不发信号，作者只能反复问“完成了吗？”。帖子接着讲作者的第一个修复方法。"
+    },
+    "zh-TW": {
+     "title": "讓 Grok Bot 知道 Codex CLI / Claude Code 任務何時完成",
+     "summary": "作者讓 Grok Bot 驅動 Codex CLI 和 Claude Code CLI 時，起初它大多不知道任務何時結束：背景 shell 不會喚醒閒置的智慧體，分離執行的任務也不發訊號，作者只能一再問「完成了嗎？」。貼文接著講作者的第一個修正方法。"
+    },
+    "en": {
+     "title": "Letting Grok Bot know when a Codex CLI or Claude Code job has finished",
+     "summary": "When the author first had Grok Bot driving Codex CLI and Claude Code CLI, it mostly didn't know when a job finished: a background shell didn't wake an idle agent and a detached job gave no signal, so the author kept asking \"has it finished?\". The post then describes the first fix."
+    },
+    "ja": {
+     "title": "Codex CLIやClaude Codeのジョブ完了をGrok Botに知らせる",
+     "summary": "Grok BotにCodex CLIとClaude Code CLIを操作させ始めた当初、ジョブの完了をほとんど検知できなかった。バックグラウンドのシェルは待機中のエージェントを起こさず、デタッチしたジョブは何も通知しないため、作者は「終わった？」と聞き続けていた。投稿は続けて最初の対策を説明する。"
+    },
+    "ko": {
+     "title": "Codex CLI·Claude Code 작업 완료를 Grok Bot이 알게 하기",
+     "summary": "작성자가 처음 Grok Bot으로 Codex CLI와 Claude Code CLI를 돌렸을 때, 대개 작업이 끝난 줄 몰랐다. 백그라운드 셸은 쉬고 있는 에이전트를 깨우지 않았고 분리된 작업은 신호를 주지 않아, 작성자는 계속 \"끝났어?\"라고 물어야 했다. 글은 이어서 첫 번째 해결책을 설명한다."
+    },
+    "ms": {
+     "title": "Memberitahu Grok Bot bila kerja Codex CLI atau Claude Code selesai",
+     "summary": "Semasa penulis mula menggunakan Grok Bot untuk memandu Codex CLI dan Claude Code CLI, ia selalunya tidak tahu bila kerja selesai: shell latar belakang tidak mengejutkan ejen yang terbiar dan kerja terasing tidak memberi isyarat, jadi penulis terus bertanya \"sudah siap?\". Hantaran kemudian menerangkan pembetulan pertama."
+    },
+    "vi": {
+     "title": "Cho Grok Bot biết khi nào việc của Codex CLI hay Claude Code đã xong",
+     "summary": "Khi tác giả mới cho Grok Bot điều khiển Codex CLI và Claude Code CLI, nó thường không biết khi nào việc xong: shell chạy nền không đánh thức tác tử đang rảnh, việc chạy tách rời không phát tín hiệu, nên tác giả cứ phải hỏi \"xong chưa?\". Bài viết sau đó mô tả cách sửa đầu tiên."
+    },
+    "fr": {
+     "title": "Faire savoir à Grok Bot quand une tâche Codex CLI ou Claude Code est terminée",
+     "summary": "Quand l’auteur a commencé à piloter Codex CLI et Claude Code CLI avec Grok Bot, il ne savait le plus souvent pas quand une tâche finissait : un shell en arrière-plan ne réveillait pas un agent inactif et une tâche détachée n’envoyait aucun signal, d’où des « c’est fini ? » répétés. Le post décrit ensuite le premier correctif."
+    },
+    "es": {
+     "title": "Hacer que Grok Bot sepa cuándo termina una tarea de Codex CLI o Claude Code",
+     "summary": "Cuando el autor empezó a usar Grok Bot para manejar Codex CLI y Claude Code CLI, casi nunca sabía cuándo acababa una tarea: un shell en segundo plano no despertaba a un agente inactivo y una tarea separada no daba señal, así que el autor preguntaba una y otra vez \"¿ya terminó?\". Luego el post explica la primera solución."
+    },
+    "de": {
+     "title": "Grok Bot erfahren lassen, wann ein Codex-CLI- oder Claude-Code-Job fertig ist",
+     "summary": "Als der Autor Grok Bot zuerst Codex CLI und Claude Code CLI steuern ließ, wusste er meist nicht, wann ein Job fertig war: Eine Hintergrund-Shell weckte keinen untätigen Agenten, ein abgekoppelter Job gab kein Signal, also fragte der Autor ständig „fertig?“. Danach beschreibt der Post den ersten Fix."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121588635372065233",
+   "url": "https://x.com/Keledan/status/2121588635372065233",
+   "source": "x",
+   "source_name": "X",
+   "author": "Keledan",
+   "date": "2026-11-14",
+   "likes": 1,
+   "product": "grok-bot",
+   "text": "@thejakebuzz Then I'd check what runs while you're not watching: scheduled routines and listeners. Ask Grok Bot for your usage split by bot and by routine, and you'll see which one eats the quota before you cut the rest",
+   "media": [],
+   "type": "quota-report",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 额度去哪了：先看无人值守的例程和监听器",
+     "summary": "作者在回复中建议：先检查你不在时运行的东西，即定时例程和监听器。让 Grok Bot 按 Bot 和按例程拆分用量，就能看出是哪一个在消耗额度，再决定砍掉哪些。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 額度去哪了：先看無人看管的例行任務和監聽器",
+     "summary": "作者在回覆中建議：先檢查你不在時執行的東西，也就是排程例行任務和監聽器。請 Grok Bot 依 Bot 和依例行任務拆分用量，就能看出是哪一個在消耗額度，再決定刪掉哪些。"
+    },
+    "en": {
+     "title": "Where Grok Bot usage goes: check unattended routines and listeners first",
+     "summary": "In a reply, the author suggests first checking what runs while you're not watching: scheduled routines and listeners. Ask Grok Bot for your usage split by bot and by routine to see which one eats the quota before you cut the rest."
+    },
+    "ja": {
+     "title": "Grok Botの使用量の行き先：まず無人のルーティンとリスナーを確認",
+     "summary": "作者は返信で、まず自分が見ていない間に動くもの、つまり定期ルーティンとリスナーを確認するよう勧める。Grok Botにボット別・ルーティン別の使用量を出させれば、どれが枠を食っているか分かり、他を削る前に判断できる。"
+    },
+    "ko": {
+     "title": "Grok Bot 사용량이 어디로 가나: 무인 루틴과 리스너부터 확인",
+     "summary": "작성자는 답글에서 먼저 내가 보지 않을 때 돌아가는 것, 즉 예약 루틴과 리스너를 확인하라고 권한다. Grok Bot에게 봇별·루틴별 사용량을 나눠 보여 달라고 하면, 나머지를 줄이기 전에 어느 것이 한도를 먹는지 알 수 있다."
+    },
+    "ms": {
+     "title": "Ke mana penggunaan Grok Bot pergi: semak rutin dan pendengar tanpa pengawasan dahulu",
+     "summary": "Dalam balasan, penulis mencadangkan supaya menyemak dahulu apa yang berjalan ketika anda tidak memerhati: rutin berjadual dan pendengar. Minta Grok Bot pecahan penggunaan mengikut bot dan rutin untuk melihat yang mana menghabiskan kuota sebelum memotong yang lain."
+    },
+    "vi": {
+     "title": "Hạn mức Grok Bot đi đâu: kiểm tra routine và listener chạy không giám sát trước",
+     "summary": "Trong một trả lời, tác giả khuyên trước hết kiểm tra những gì chạy khi bạn không để ý: các routine theo lịch và listener. Hãy nhờ Grok Bot chia mức dùng theo từng bot và từng routine để thấy cái nào ngốn hạn mức trước khi cắt bớt phần còn lại."
+    },
+    "fr": {
+     "title": "Où part l’usage de Grok Bot : vérifier d’abord routines et écouteurs sans surveillance",
+     "summary": "Dans une réponse, l’auteur conseille de vérifier d’abord ce qui tourne quand vous ne regardez pas : routines planifiées et écouteurs. Demandez à Grok Bot votre usage ventilé par bot et par routine pour voir lequel consomme le quota avant de couper le reste."
+    },
+    "es": {
+     "title": "A dónde va el uso de Grok Bot: revisa primero rutinas y listeners sin supervisión",
+     "summary": "En una respuesta, el autor sugiere revisar primero lo que se ejecuta cuando no miras: rutinas programadas y listeners. Pide a Grok Bot tu uso desglosado por bot y por rutina para ver cuál se come la cuota antes de recortar el resto."
+    },
+    "de": {
+     "title": "Wohin das Grok-Bot-Kontingent geht: zuerst unbeaufsichtigte Routinen und Listener prüfen",
+     "summary": "In einer Antwort rät der Autor, zuerst zu prüfen, was läuft, wenn man nicht hinsieht: geplante Routinen und Listener. Grok Bot soll die Nutzung nach Bot und nach Routine aufschlüsseln, um zu sehen, welcher das Kontingent frisst, bevor man den Rest kürzt."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121590113746514349",
+   "url": "https://x.com/thexybermateo/status/2121590113746514349",
+   "source": "x",
+   "source_name": "X",
+   "author": "thexybermateo",
+   "date": "2026-11-14",
+   "likes": 1,
+   "product": "grok-bot",
+   "text": "Is your grok bot usage still not enough? \n\nI’ve done everything I can to minimize my team of grok bots usage and I’m still running out. I’ve done the following to mitigate it:\n\n• reduced routine intervals (e.g., from 4x a day to 2x a day)\n• combined routines where it made sense",
+   "media": [],
+   "type": "quota-report",
+   "tr": {
+    "zh-CN": {
+     "title": "多个 Grok Bot 额度仍不够：作者已做的节流措施",
+     "summary": "作者说已尽力压低自己 Grok Bot 团队的用量，但额度仍会用完。已采取的措施包括：降低例程频率（例如从每天 4 次改为每天 2 次），以及在合理时合并例程。"
+    },
+    "zh-TW": {
+     "title": "多個 Grok Bot 額度仍不夠：作者已做的節流措施",
+     "summary": "作者說已盡力壓低自己 Grok Bot 團隊的用量，但額度仍會用完。已採取的措施包括：降低例行任務頻率（例如從每天 4 次改為每天 2 次），以及在合理時合併例行任務。"
+    },
+    "en": {
+     "title": "Still running out with a team of Grok Bots: what the author already cut",
+     "summary": "The author says they have done everything they can to minimise their team of Grok Bots' usage and still run out. Steps taken so far: reduced routine intervals (for example from 4 times a day to 2) and combined routines where it made sense."
+    },
+    "ja": {
+     "title": "複数のGrok Botで使用量が足りない：作者が実施した節約策",
+     "summary": "作者はGrok Botチームの使用量を最小限にする努力をしたが、まだ使い切ってしまうという。実施した対策：ルーティンの回数を減らす（例：1日4回から2回へ）、意味のある範囲でルーティンを統合。"
+    },
+    "ko": {
+     "title": "Grok Bot 팀 사용량이 여전히 부족: 작성자가 이미 줄인 것들",
+     "summary": "작성자는 Grok Bot 팀의 사용량을 최대한 줄였지만 여전히 바닥난다고 한다. 지금까지 한 조치: 루틴 실행 간격 줄이기(예: 하루 4회에서 2회로), 합칠 만한 루틴은 합치기."
+    },
+    "ms": {
+     "title": "Masih kehabisan dengan pasukan Grok Bot: apa yang telah dipotong penulis",
+     "summary": "Penulis berkata telah melakukan segala yang boleh untuk mengurangkan penggunaan pasukan Grok Bot tetapi masih kehabisan. Langkah setakat ini: mengurangkan kekerapan rutin (contohnya daripada 4 kali sehari kepada 2) dan menggabungkan rutin apabila wajar."
+    },
+    "vi": {
+     "title": "Vẫn hết hạn mức với một đội Grok Bot: những gì tác giả đã cắt giảm",
+     "summary": "Tác giả nói đã làm mọi cách để giảm mức dùng của đội Grok Bot mà vẫn hết hạn mức. Các bước đã làm: giảm tần suất routine (ví dụ từ 4 lần xuống 2 lần mỗi ngày) và gộp các routine khi hợp lý."
+    },
+    "fr": {
+     "title": "Toujours à court avec une équipe de Grok Bots : ce que l’auteur a déjà réduit",
+     "summary": "L’auteur dit avoir tout fait pour réduire l’usage de son équipe de Grok Bots et manque encore de quota. Mesures prises : espacer les routines (par exemple de 4 à 2 fois par jour) et fusionner les routines quand c’était pertinent."
+    },
+    "es": {
+     "title": "Sigo quedándome sin uso con un equipo de Grok Bots: lo que el autor ya recortó",
+     "summary": "El autor dice que ha hecho todo lo posible por reducir el uso de su equipo de Grok Bots y aun así se queda sin cuota. Medidas tomadas: espaciar las rutinas (por ejemplo, de 4 a 2 veces al día) y combinar rutinas cuando tenía sentido."
+    },
+    "de": {
+     "title": "Mit einem Grok-Bot-Team immer noch am Limit: was der Autor schon reduziert hat",
+     "summary": "Der Autor hat nach eigener Aussage alles getan, um die Nutzung seines Grok-Bot-Teams zu senken, und läuft trotzdem aus. Bisherige Schritte: Routinen seltener ausführen (z. B. von 4- auf 2-mal täglich) und Routinen zusammenlegen, wo es sinnvoll war."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
+  },
+  {
+   "id": "x:2121586758710145420",
+   "url": "https://x.com/JOEdanqiao/status/2121586758710145420",
+   "source": "x",
+   "source_name": "X",
+   "author": "JOEdanqiao",
+   "date": "2026-11-14",
+   "likes": 3,
+   "product": "grok-bot",
+   "text": "Your AI bot should be the manager, not the coder.\n\nThat's the core idea behind the new \"Grok Bot + Claude Code\" workflow, and it's how Lauren Tan (principal engineer at Grok Bot &amp; Cursor) lands 2,000+ PRs a month.\n\nHere's the playbook 👇\n\n━━━━━━━━━━\n\n1/ Split the job in",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot + Claude Code：让 Bot 当经理而不是程序员",
+     "summary": "帖子的核心观点：你的 AI Bot 应该当经理，而不是写代码的人。作者称这是新的“Grok Bot + Claude Code”工作流，Lauren Tan（Grok Bot 与 Cursor 首席工程师）以此每月合入 2,000+ 个 PR。随后给出步骤，第 1 步从拆分任务开始。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot + Claude Code：讓 Bot 當經理而不是工程師",
+     "summary": "貼文的核心觀點：你的 AI Bot 應該當經理，而不是寫程式的人。作者稱這是新的「Grok Bot + Claude Code」工作流程，Lauren Tan（Grok Bot 與 Cursor 首席工程師）以此每月合併 2,000+ 個 PR。接著列出步驟，第 1 步從拆分任務開始。"
+    },
+    "en": {
+     "title": "Grok Bot + Claude Code: make the bot the manager, not the coder",
+     "summary": "The core idea: your AI bot should be the manager, not the coder. The author describes this as the new \"Grok Bot + Claude Code\" workflow and says it is how Lauren Tan (principal engineer at Grok Bot and Cursor) lands 2,000+ PRs a month. The playbook follows, starting with splitting the job."
+    },
+    "ja": {
+     "title": "Grok Bot + Claude Code：ボットはコーダーではなくマネージャーに",
+     "summary": "要点：AIボットはコードを書く役ではなくマネージャーであるべき。作者はこれを新しい「Grok Bot + Claude Code」ワークフローと呼び、Lauren Tan（Grok BotとCursorのプリンシパルエンジニア）が月2,000件以上のPRをマージしている方法だという。続く手順は、まずジョブの分割から。"
+    },
+    "ko": {
+     "title": "Grok Bot + Claude Code: 봇은 코더가 아니라 매니저로",
+     "summary": "핵심 아이디어: AI 봇은 코드를 짜는 역할이 아니라 매니저여야 한다. 작성자는 이것이 새로운 \"Grok Bot + Claude Code\" 워크플로이며 Lauren Tan(Grok Bot·Cursor 수석 엔지니어)이 한 달에 PR 2,000건 이상을 머지하는 방식이라고 한다. 이어지는 플레이북은 작업 나누기부터 시작한다."
+    },
+    "ms": {
+     "title": "Grok Bot + Claude Code: jadikan bot pengurus, bukan pengekod",
+     "summary": "Idea teras: bot AI anda patut menjadi pengurus, bukan pengekod. Penulis menyifatkannya sebagai aliran kerja baharu \"Grok Bot + Claude Code\" dan berkata begitulah cara Lauren Tan (jurutera utama di Grok Bot dan Cursor) menggabungkan 2,000+ PR sebulan. Panduan menyusul, bermula dengan memecahkan kerja."
+    },
+    "vi": {
+     "title": "Grok Bot + Claude Code: để bot làm quản lý, không phải người viết code",
+     "summary": "Ý chính: bot AI của bạn nên là người quản lý, không phải người viết code. Tác giả gọi đây là quy trình \"Grok Bot + Claude Code\" mới và nói đó là cách Lauren Tan (kỹ sư chính tại Grok Bot và Cursor) merge hơn 2.000 PR mỗi tháng. Phần hướng dẫn tiếp theo bắt đầu bằng việc chia nhỏ công việc."
+    },
+    "fr": {
+     "title": "Grok Bot + Claude Code : le bot en manager, pas en codeur",
+     "summary": "Idée centrale : votre bot IA doit être le manager, pas le codeur. L’auteur y voit le nouveau workflow « Grok Bot + Claude Code » et affirme que c’est ainsi que Lauren Tan (ingénieure principale chez Grok Bot et Cursor) fusionne plus de 2 000 PR par mois. Suit la méthode, qui commence par découper le travail."
+    },
+    "es": {
+     "title": "Grok Bot + Claude Code: el bot como gestor, no como programador",
+     "summary": "La idea central: tu bot de IA debe ser el gestor, no el programador. El autor lo presenta como el nuevo flujo \"Grok Bot + Claude Code\" y dice que así Lauren Tan (ingeniera principal en Grok Bot y Cursor) integra más de 2.000 PR al mes. Después viene la guía, que empieza por dividir el trabajo."
+    },
+    "de": {
+     "title": "Grok Bot + Claude Code: der Bot als Manager, nicht als Coder",
+     "summary": "Kernidee: Dein KI-Bot sollte der Manager sein, nicht der Coder. Der Autor beschreibt das als neuen „Grok Bot + Claude Code“-Workflow und sagt, so bringe Lauren Tan (Principal Engineer bei Grok Bot und Cursor) über 2.000 PRs pro Monat durch. Es folgt das Playbook, beginnend mit dem Aufteilen der Arbeit."
+    }
+   },
+   "added_at": "2026-11-14T13:48:01.555Z"
   }
  ]
 }

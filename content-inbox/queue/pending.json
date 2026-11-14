@@ -158206,34 +158206,6 @@
    "found_at": "2026-11-14T13:37:43.549Z"
   },
   {
-   "id": "x:2121554600113439051",
-   "url": "https://x.com/oldfshndog/status/2121554600113439051",
-   "source": "x",
-   "source_name": "X",
-   "author": "oldfshndog",
-   "date": "2026-11-14",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "@TokenGremlin Idk, man. I’ve built my own always-on agent, and I also have Dot, Grok Bot, and Duet. I really like my Dot. Something shifted with it this past week, and I’ve found it genuinely useful.\n\nLast night, “she” helped me reconnect my Sonos and made three Apple Music playlists for me to",
-   "media": [],
-   "found_at": "2026-11-14T13:37:44.391Z"
-  },
-  {
-   "id": "x:2121542455698813067",
-   "url": "https://x.com/Maziyar_ID/status/2121542455698813067",
-   "source": "x",
-   "source_name": "X",
-   "author": "Maziyar_ID",
-   "date": "2026-11-14",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Hitting limits too fast with Grok Bot? Here's the setup I built to get around it. 🚀\n\nInstead of leaning on one AI for everything, I split the work across a small team of agents. It saves tokens, and honestly, cheapest, and it's just more fun to work this way.\n\n🧠 My core team https://t.co/zPEnMCo2UT",
-   "media": [
-    "https://pbs.twimg.com/media/HXE7X9RWgAA1u7W.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.392Z"
-  },
-  {
    "id": "x:2121479238297723353",
    "url": "https://x.com/rizzu26/status/2121479238297723353",
    "source": "x",
@@ -158285,24 +158257,6 @@
    "product": "grok-bot",
    "text": "@Bober_smart Click bait, asked my Grok bot said it's fake.  Too bad.",
    "media": [],
-   "found_at": "2026-11-14T13:37:44.392Z"
-  },
-  {
-   "id": "x:2121597377543123109",
-   "url": "https://x.com/monlorcn/status/2121597377543123109",
-   "source": "x",
-   "source_name": "X",
-   "author": "monlorcn",
-   "date": "2026-11-14",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "终于实现了Grok Bot对接本地电脑Agent，太爽了！支持MCP控制+Webhook事件回调，会话 状态有更新就会通知给Bot，Bot上面直接管理创建会话，回复消息都可以，也可以让他做一些自动化处理 。 https://t.co/6V1zo9C0tq",
-   "media": [
-    "https://pbs.twimg.com/media/HXFtdifbcAA5pEG.jpg",
-    "https://pbs.twimg.com/media/HXFtd7uaUAA3vGY.jpg",
-    "https://pbs.twimg.com/media/HXFteWTbAAECseK.jpg",
-    "https://pbs.twimg.com/media/HXFteuea4AADZ3e.jpg"
-   ],
    "found_at": "2026-11-14T13:37:44.392Z"
   },
   {
@@ -158583,23 +158537,6 @@
    "found_at": "2026-11-14T13:37:44.392Z"
   },
   {
-   "id": "x:2121596238969950617",
-   "url": "https://x.com/drpraveenkoduru/status/2121596238969950617",
-   "source": "x",
-   "source_name": "X",
-   "author": "drpraveenkoduru",
-   "date": "2026-11-14",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Grok bot is a genius @elonmusk \nAsked Claude and Grok Bot the same thing today: open an MRI from a corporate hospital's PACS viewer. Claude said it couldn't access it and stopped there. Grok Bot opened it, hit an export error, tried again, downloaded the full study and then built https://t.co/MeJRsjhDQL",
-   "media": [
-    "https://pbs.twimg.com/media/HXFsgCTaMAAAeeH.jpg",
-    "https://pbs.twimg.com/media/HXFsgCxaAAAHvgY.jpg",
-    "https://pbs.twimg.com/media/HXFsgCabAAEBTvw.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.393Z"
-  },
-  {
    "id": "x:2121595224765976806",
    "url": "https://x.com/frankterpo/status/2121595224765976806",
    "source": "x",
@@ -158699,19 +158636,6 @@
    "found_at": "2026-11-14T13:37:44.393Z"
   },
   {
-   "id": "x:2121591790251729037",
-   "url": "https://x.com/timz0ne/status/2121591790251729037",
-   "source": "x",
-   "source_name": "X",
-   "author": "timz0ne",
-   "date": "2026-11-14",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "When I first got Grok Bot driving Codex CLI and Claude Code CLI, I didn't know how it would find out a job had finished. Mostly it didn't. A background shell didn’t wake an idle agent, and a detached job gave no signal, so I kept asking \"has it finished?\".\n\nThe first fix was a",
-   "media": [],
-   "found_at": "2026-11-14T13:37:44.393Z"
-  },
-  {
    "id": "x:2121590235364524382",
    "url": "https://x.com/ThatAIStuff/status/2121590235364524382",
    "source": "x",
@@ -158721,19 +158645,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "Hermes too hard to set up? Use your free  trial of Grok Bot to do it for you.\n\nGenuinely the quickest and best way to get Hermes to work.",
-   "media": [],
-   "found_at": "2026-11-14T13:37:44.393Z"
-  },
-  {
-   "id": "x:2121590113746514349",
-   "url": "https://x.com/thexybermateo/status/2121590113746514349",
-   "source": "x",
-   "source_name": "X",
-   "author": "thexybermateo",
-   "date": "2026-11-14",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Is your grok bot usage still not enough? \n\nI’ve done everything I can to minimize my team of grok bots usage and I’m still running out. I’ve done the following to mitigate it:\n\n• reduced routine intervals (e.g., from 4x a day to 2x a day)\n• combined routines where it made sense",
    "media": [],
    "found_at": "2026-11-14T13:37:44.393Z"
   },
@@ -158763,32 +158674,6 @@
    "media": [
     "https://pbs.twimg.com/amplify_video_thumb/2121587966703230976/img/5nMN0ncLxXgdaViv.jpg"
    ],
-   "found_at": "2026-11-14T13:37:44.393Z"
-  },
-  {
-   "id": "x:2121588635372065233",
-   "url": "https://x.com/Keledan/status/2121588635372065233",
-   "source": "x",
-   "source_name": "X",
-   "author": "Keledan",
-   "date": "2026-11-14",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@thejakebuzz Then I'd check what runs while you're not watching: scheduled routines and listeners. Ask Grok Bot for your usage split by bot and by routine, and you'll see which one eats the quota before you cut the rest",
-   "media": [],
-   "found_at": "2026-11-14T13:37:44.393Z"
-  },
-  {
-   "id": "x:2121586758710145420",
-   "url": "https://x.com/JOEdanqiao/status/2121586758710145420",
-   "source": "x",
-   "source_name": "X",
-   "author": "JOEdanqiao",
-   "date": "2026-11-14",
-   "likes": 3,
-   "product": "grok-bot",
-   "text": "Your AI bot should be the manager, not the coder.\n\nThat's the core idea behind the new \"Grok Bot + Claude Code\" workflow, and it's how Lauren Tan (principal engineer at Grok Bot &amp; Cursor) lands 2,000+ PRs a month.\n\nHere's the playbook 👇\n\n━━━━━━━━━━\n\n1/ Split the job in",
-   "media": [],
    "found_at": "2026-11-14T13:37:44.393Z"
   },
   {
@@ -159062,21 +158947,6 @@
    "found_at": "2026-11-14T13:37:44.393Z"
   },
   {
-   "id": "x:2121560475649663302",
-   "url": "https://x.com/AI_pic_maochao/status/2121560475649663302",
-   "source": "x",
-   "source_name": "X",
-   "author": "AI_pic_maochao",
-   "date": "2026-11-14",
-   "likes": 3,
-   "product": "meta-muse",
-   "text": "効きやすいタグ、バッティングしない並べ方とか面倒くさいんだよねぇ！とかMuseに相談してたら勝手にタグリストみたいなやつを作ってくれて見せてきた。\nちゃんとSD1.x系に効きやすいdanbooru考慮してあるらしい、有能か？おまえ。\n#MetaMuse https://t.co/mFP2FI93mI",
-   "media": [
-    "https://pbs.twimg.com/media/HXFMAGVbIAACO4v.png"
-   ],
-   "found_at": "2026-11-14T13:37:44.393Z"
-  },
-  {
    "id": "x:2121557298661265876",
    "url": "https://x.com/bitwidthlabs/status/2121557298661265876",
    "source": "x",
@@ -159103,21 +158973,6 @@
    "found_at": "2026-11-14T13:37:44.394Z"
   },
   {
-   "id": "x:2121436922551939109",
-   "url": "https://x.com/techknew/status/2121436922551939109",
-   "source": "x",
-   "source_name": "X",
-   "author": "techknew",
-   "date": "2026-11-14",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "1/7 I built a Meta Muse Space for making sourdough so I can work out when I can leave home. Think of it like a timer microsite but personalised to your preference and the multiple steps required by the recipe. @Meta @alexandr_wang https://t.co/fgEccpsucJ",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2121436387308183552/img/gE8xyRzq2IMX-vZA.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
    "id": "x:2121432607346807098",
    "url": "https://x.com/blueslesson/status/2121432607346807098",
    "source": "x",
@@ -159128,66 +158983,6 @@
    "product": "meta-muse",
    "text": "I’m just one guy with a phone and meta muse.\n\nI’ve built:\n\nhttps://t.co/WcyXYJMaq9\nhttps://t.co/vPqBR9Qgdh\nhttps://t.co/wFw4rtnRKW\nhttps://t.co/fUqWIF4DC0\n\nAnd more to come. One person can build a nice income resource with very little.",
    "media": [],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
-   "id": "x:2121596576351060316",
-   "url": "https://x.com/distortgeekin/status/2121596576351060316",
-   "source": "x",
-   "source_name": "X",
-   "author": "distortgeekin",
-   "date": "2026-11-14",
-   "likes": 6,
-   "product": "grok-bot",
-   "text": "SpaceXAI's Lauren Tan lets one Grok Bot hire all the others\n\nI tried it on our Gmail support inbox, it hired 3 bots in 4 minutes, one job per bot:\n\n→ Sorter, reads the subject and the first 3 lines, nothing else\n→ Researcher, searches the help center, brings back 3 articles max https://t.co/VceNpMzvvd https://t.co/0jIw3k0RxN",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2121589153687040000/img/UbSGDhYlo7-ARqVY.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
-   "id": "x:2121594372235960355",
-   "url": "https://x.com/0xjmori/status/2121594372235960355",
-   "source": "x",
-   "source_name": "X",
-   "author": "0xjmori",
-   "date": "2026-11-14",
-   "likes": 15,
-   "product": "grok-bot",
-   "text": "This is f*cking insane... Elon Musk's team just made the IRS hold line useless\n\nA Grok Bot sat on hold with the IRS for 2 hours 14 minutes and got a $1,380 late penalty wiped, and I never touched the phone\n\nGrok Bot 1.0 landed this week and phone calls are live: it waits in line, https://t.co/8WQAX4ZNRa https://t.co/ocw6kvbhaN",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2121593354035118080/img/dfXq8P-SWnqayuKp.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
-   "id": "x:2121592193731252250",
-   "url": "https://x.com/fffuckingnerd/status/2121592193731252250",
-   "source": "x",
-   "source_name": "X",
-   "author": "fffuckingnerd",
-   "date": "2026-11-14",
-   "likes": 13,
-   "product": "grok-bot",
-   "text": "This is f*cking wild. SpaceX AI engineer Nick Miller (ex-Cursor):\n\n“I needed to find us a short-term rental. So I had Grok Bot do it”\n\nIn 26 minutes, he shows how bots take work from the first request through research, scheduling and follow-ups.\n\nFor his Singapore move: about 35 https://t.co/MbPiO4gTUh https://t.co/iPhnSPSOt7",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2121590130213306368/img/s8qBn1BHTgNtlij5.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
-   "id": "x:2121590653075263922",
-   "url": "https://x.com/1920web1080/status/2121590653075263922",
-   "source": "x",
-   "source_name": "X",
-   "author": "1920web1080",
-   "date": "2026-11-14",
-   "likes": 16,
-   "product": "grok-bot",
-   "text": "GROK BOT HELPED ME FIND 4 THINGS AFTER MY BREAKUP: MY EX’S TABLET STILL SIGNED IN, HER NUMBER ON MY GOOGLE RECOVERY, AN EMAIL FORWARDING RULE, AND MY MISSING CLASH ROYALE ACCOUNT.\n\nwe broke up. i thought changing the password was the end of it.\n\nthen i asked grok bot to help me https://t.co/i8HfbEcmrU https://t.co/EmY6scpL8V",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2121590373201948672/img/-A36fJ7CE1G3K1yd.jpg"
-   ],
    "found_at": "2026-11-14T13:37:44.394Z"
   },
   {
@@ -159260,21 +159055,6 @@
    "found_at": "2026-11-14T13:37:44.394Z"
   },
   {
-   "id": "x:2121583425203163350",
-   "url": "https://x.com/thegreatest_sv/status/2121583425203163350",
-   "source": "x",
-   "source_name": "X",
-   "author": "thegreatest_sv",
-   "date": "2026-11-14",
-   "likes": 19,
-   "product": "grok-bot",
-   "text": "I GAVE GROK BOT MY ENTIRE LIFE TO MANAGE.\n\nIt sorts everything I save into one dashboard: inbox, notes, projects, KPIs. 1,284 items this month.\n\nThe bots from the Grok Bot marketplace that actually run my day:\n\n&gt; Inbox Manager - clears my email, drafts the replies\n&gt; Calendar EA - https://t.co/kcuas4yER1 https://t.co/OBvPvNHyj4",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2121557103940689920/img/Mrxl6OnhGxpXZKGB.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
    "id": "x:2121583125998260575",
    "url": "https://x.com/guajardo_acm/status/2121583125998260575",
    "source": "x",
@@ -159301,37 +159081,6 @@
    "found_at": "2026-11-14T13:37:44.394Z"
   },
   {
-   "id": "x:2121580020346831141",
-   "url": "https://x.com/ScottyBeamIO/status/2121580020346831141",
-   "source": "x",
-   "source_name": "X",
-   "author": "ScottyBeamIO",
-   "date": "2026-11-14",
-   "likes": 30,
-   "product": "grok-bot",
-   "text": "I F*CKING TOLD MY GROK BOT TO GO TO MY MEETINGS FOR ME BECAUSE I HAD 3 AT THE SAME TIME.\n\nIT SAT IN 2 OF THEM, ANSWERED MY TEAM’S QUESTIONS, AND PUT MY TASKS IN MY CALENDAR BEFORE I EVEN HUNG UP.\n\nHere’s what it brought back:\n\n→ Design review: 2 decisions, 1 task for me\n→ Team https://t.co/Jg6Su5drrp https://t.co/EL7AEYdkoO",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2121579558906232832/img/DRydQ-FJ_PELZNg6.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
-   "id": "x:2121579403461218463",
-   "url": "https://x.com/kocer_eth/status/2121579403461218463",
-   "source": "x",
-   "source_name": "X",
-   "author": "kocer_eth",
-   "date": "2026-11-14",
-   "likes": 15,
-   "product": "grok-bot",
-   "text": "GROK BOT CAN JOIN MEETINGS NOW. I JUST HANDED IT 4 OF MY 6 CALLS NEXT WEEK\n\nthe update dropped 3 hours ago. one evening of prompts\n\nmonday it starts. here's the setup:\n\n1. sunday 8pm, calendar sweep\nreads next week's Calendar, tags every call \"me / bot / skip\" and texts me the https://t.co/Qeidqdf0N9 https://t.co/wfjZzeInoo",
-   "media": [
-    "https://pbs.twimg.com/media/HXFaoLhW8AAg50-.jpg",
-    "https://pbs.twimg.com/media/HXFarIRXsAAJEIo.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
    "id": "x:2121576117060387100",
    "url": "https://x.com/unicodef1wn/status/2121576117060387100",
    "source": "x",
@@ -159347,19 +159096,6 @@
    "found_at": "2026-11-14T13:37:44.394Z"
   },
   {
-   "id": "x:2121572638506049700",
-   "url": "https://x.com/gippp69/status/2121572638506049700",
-   "source": "x",
-   "source_name": "X",
-   "author": "gippp69",
-   "date": "2026-11-14",
-   "likes": 10,
-   "product": "grok-bot",
-   "text": "Full prompt. Copy all of it and paste it into Grok Bot as is ↓\n\nYou are my subscription auditor. Go through my connected email inbox and find every paid subscription I have right now.\n\nHow to search:\nLook back 12 months. Search for receipts, invoices, renewals, \"your",
-   "media": [],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
    "id": "x:2121568391576404379",
    "url": "https://x.com/robinebers/status/2121568391576404379",
    "source": "x",
@@ -159371,51 +159107,6 @@
    "text": "don't skip your christmas calendar\n\ngrok @bot just ordered mine 😬\n\nthanks elon i guess https://t.co/rKpWzH5MVp",
    "media": [
     "https://pbs.twimg.com/media/HXFTIh7bcAAyLeC.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
-   "id": "x:2121566140996419813",
-   "url": "https://x.com/spectnfa/status/2121566140996419813",
-   "source": "x",
-   "source_name": "X",
-   "author": "spectnfa",
-   "date": "2026-11-14",
-   "likes": 34,
-   "product": "grok-bot",
-   "text": "HOLY F*CK! GROK BOT HELPED ME FIND FORGOTTEN SUBSCRIPTIONS. 150 EMAILS, 40 CALLS, AND 30 APPROVED REFUNDS LATER, $14,200 WAS BACK IN MY ACCOUNT.\n\ni thought i had a few subscriptions.\n\nthen i asked grok bot:\n\n“find subscriptions i’m still paying for. help me cancel the ones i https://t.co/7RA6HfmGAX https://t.co/JVPAhbKMGV",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2121565911849046017/img/jZzTGefYao_nRfax.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
-   "id": "x:2121565809130541220",
-   "url": "https://x.com/Michael_Fenech_/status/2121565809130541220",
-   "source": "x",
-   "source_name": "X",
-   "author": "Michael_Fenech_",
-   "date": "2026-11-14",
-   "likes": 6,
-   "product": "grok-bot",
-   "text": "I’ve found a hidden powerplay in Grok Bot: give it a rule to check how your decisions affect your project and adjust the plan accordingly.\n\nI noticed a decision I made had knock-on effects across our project. It meant checking what else needed to change, including tasks, https://t.co/NB56t7IJSW",
-   "media": [
-    "https://pbs.twimg.com/media/HXB4tzEaUAASNsb.jpg"
-   ],
-   "found_at": "2026-11-14T13:37:44.394Z"
-  },
-  {
-   "id": "x:2121564919527027152",
-   "url": "https://x.com/fleyta88/status/2121564919527027152",
-   "source": "x",
-   "source_name": "X",
-   "author": "fleyta88",
-   "date": "2026-11-14",
-   "likes": 37,
-   "product": "grok-bot",
-   "text": "You send one message at 23:40 and go to sleep. By 06:52 six Grok Bot agents have handed off 9 times and you tap your phone once.\n\nThat's the night in the video. Here's the crew, steal the split:\n\n→ LANTERN reads the ask, splits it into jobs, wakes the others\n→ SIEVE sorts the https://t.co/47XJFN2FzA https://t.co/lsWjeYz3XD",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2121564872517251072/img/XJIe7zT4-jEp-Xh2.jpg"
    ],
    "found_at": "2026-11-14T13:37:44.394Z"
   },
@@ -159727,19 +159418,6 @@
    "likes": 2,
    "product": "openai-dots",
    "text": "@feedthejim @Angaisb_ I'm on Windows, and switching back and forth between local Codex threads and my dot takes way too long. I wish the transition were much smoother.",
-   "media": [],
-   "found_at": "2026-11-14T13:37:44.395Z"
-  },
-  {
-   "id": "x:2121394429550281206",
-   "url": "https://x.com/nvandewetering/status/2121394429550281206",
-   "source": "x",
-   "source_name": "X",
-   "author": "nvandewetering",
-   "date": "2026-11-14",
-   "likes": 7,
-   "product": "openai-dots",
-   "text": "If you’re still typing your prompts to Claude, go touch grass.\n\nSeriously. ChatGPT Dots voice mode is the best way to vibe code right now.\n\nI talk through what I want on a walk, it asks the right questions, and by the time I’m back I have a plan and the first pieces built.\n\nYou explain things better out loud. Talking forces you to say what you actually want, and that makes better prompts than anything you’d type.\n\nYOU CAN EVEN CONNECT YOUR DOT TO YOUR CLAUDE ACCOUNT\n\nThe keyboard is for fixing. Your voice is for building.\n\nWho else is vibe coding out loud?",
    "media": [],
    "found_at": "2026-11-14T13:37:44.395Z"
   }
