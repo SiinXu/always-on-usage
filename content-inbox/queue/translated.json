@@ -1,3 +1,1014 @@
 {
- "items": []
+ "items": [
+  {
+   "id": "x:2121956283917967524",
+   "url": "https://x.com/0xWangHao/status/2121956283917967524",
+   "source": "x",
+   "source_name": "X",
+   "author": "0xWangHao",
+   "date": "2026-11-15",
+   "likes": 6,
+   "product": "grok-bot",
+   "text": "THE MOST BORING JOB I HAVE IS SITTING ON HOLD. GROK BOT TOOK IT\n\nit dials, gets through \"press 2 for billing\", sits in the queue\nwhen a real person picks up, my phone rings\n\nthe airline said \"estimated wait: 47 minutes\". I hung up. the bot didn't\n\nhere's the setup:\n\n1. the list\na note called on-hold.md: who to call, why, the booking or account number, what a good outcome looks like\n\n2. the call\nit dials, works the menu and waits. it never negotiates for me. its first line to a human: \"I'm kocer's assistant, connecting him now\"\n\n3. the handoff\nthe second someone answers, it rings my number and hands the call over. no answer from me in 30 seconds → it asks for a callback time and puts it in Calendar\n\n4. the recap\nafter I hang up: 3 lines in Messages. who I spoke to / what they promised / the case number. the promise goes to Reminders with a follow-up date\n\nrules it can't break:\n> never confirms a payment, a cancellation or a fee\n> never reads out card or ID numbers\n> says it's an assistant before anything else\n> one open call per company\n\nthis week's queue: airline refund, internet bill, a car insurance claim\n\nwhich call would you hand off first?\n\ncomment HOLD and I'll send the full prompt",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2121956186429743104/img/SJz1UYyrHNBzQ_wN.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "让 Grok Bot 替我排队等客服：接通人工再转给我",
+     "summary": "作者用一份 on-hold.md 列出要打的电话、原因、订单号和理想结果。Grok Bot 拨号、走完语音菜单并排队，有真人接听就转到他手机；30 秒没接就约回电并写进日历；挂断后在 Messages 发三行回顾，承诺写进提醒事项。规则：不确认付款、取消或费用，不报卡号证件号，先表明自己是助理，每家公司只开一通。"
+    },
+    "zh-TW": {
+     "title": "讓 Grok Bot 替我排隊等客服：接通真人再轉給我",
+     "summary": "作者用一份 on-hold.md 列出要打的電話、原因、訂單號和理想結果。Grok Bot 撥號、走完語音選單並排隊，有真人接聽就轉到他手機；30 秒沒接就約回電並寫進行事曆；掛斷後在 Messages 發三行回顧，承諾寫進提醒事項。規則：不確認付款、取消或費用，不報卡號證件號，先表明自己是助理，每家公司只開一通。"
+    },
+    "en": {
+     "title": "Grok Bot sits on hold for me and hands over the call when a human answers",
+     "summary": "The author keeps a note, on-hold.md, with who to call, why, the account number and the desired outcome. Grok Bot dials, works the phone menu and waits; when a person picks up it rings his phone, and if he doesn't answer in 30 seconds it asks for a callback time and adds it to Calendar. Afterwards it sends a 3-line recap in Messages and puts the promise in Reminders. Rules: never confirm payments, cancellations or fees, never read out card or ID numbers, say it's an assistant first, one open call per company."
+    },
+    "ja": {
+     "title": "Grok Bot に電話の保留待ちを任せ、人が出たら自分に転送",
+     "summary": "作者は on-hold.md に、電話先・用件・予約や口座番号・望む結果をまとめている。Grok Bot が発信して音声メニューを進めて待機し、担当者が出たら作者の電話を鳴らす。30 秒応答がなければ折り返し時間を聞いてカレンダーに登録。通話後は Messages に 3 行の要約を送り、約束はリマインダーへ。ルール：支払い・解約・手数料は確定しない、カードや ID 番号を読み上げない、まずアシスタントだと名乗る、1 社につき 1 通話まで。"
+    },
+    "ko": {
+     "title": "Grok Bot에게 고객센터 대기를 맡기고 상담원이 받으면 넘겨받기",
+     "summary": "작성자는 on-hold.md에 전화할 곳, 이유, 예약·계정 번호, 원하는 결과를 적어 둔다. Grok Bot이 전화를 걸고 음성 메뉴를 거쳐 대기하다가 상담원이 받으면 작성자 휴대폰을 울린다. 30초 안에 받지 않으면 회신 시간을 요청해 캘린더에 넣는다. 통화 후 Messages로 세 줄 요약을 보내고 약속은 미리 알림에 넣는다. 규칙: 결제·취소·수수료 확정 금지, 카드·신분증 번호 읽기 금지, 먼저 비서라고 밝힐 것, 회사당 통화 하나."
+    },
+    "ms": {
+     "title": "Grok Bot menunggu dalam talian untuk saya dan menyerahkan panggilan apabila manusia menjawab",
+     "summary": "Penulis menyimpan nota on-hold.md: siapa hendak dihubungi, sebab, nombor tempahan atau akaun dan hasil yang diingini. Grok Bot mendail, melalui menu telefon dan menunggu; apabila orang sebenar menjawab, ia membunyikan telefon penulis. Jika tiada jawapan dalam 30 saat, ia meminta masa panggilan semula dan memasukkannya ke Calendar. Selepas itu ia menghantar ringkasan 3 baris dalam Messages dan janji ke Reminders. Peraturan: jangan sahkan bayaran, pembatalan atau yuran, jangan sebut nombor kad atau ID, nyatakan ia pembantu dahulu, satu panggilan terbuka bagi setiap syarikat."
+    },
+    "vi": {
+     "title": "Grok Bot chờ máy tổng đài thay tôi và chuyển cuộc gọi khi có người nghe",
+     "summary": "Tác giả giữ ghi chú on-hold.md: gọi cho ai, lý do, số đặt chỗ hoặc tài khoản và kết quả mong muốn. Grok Bot quay số, đi qua menu thoại và chờ; khi có nhân viên thật nghe máy, nó đổ chuông điện thoại của tác giả. Không trả lời trong 30 giây thì nó hẹn giờ gọi lại và ghi vào Calendar. Sau cuộc gọi, nó gửi tóm tắt 3 dòng qua Messages và đưa lời hứa vào Reminders. Quy tắc: không xác nhận thanh toán, hủy hay phí, không đọc số thẻ hay giấy tờ, xưng là trợ lý trước, mỗi công ty một cuộc gọi."
+    },
+    "fr": {
+     "title": "Grok Bot attend en ligne à ma place et me passe l'appel quand un humain répond",
+     "summary": "L'auteur tient une note on-hold.md : qui appeler, pourquoi, le numéro de réservation ou de compte et le résultat voulu. Grok Bot compose, traverse le menu vocal et patiente ; quand une vraie personne décroche, il fait sonner son téléphone. Sans réponse en 30 secondes, il demande une heure de rappel et l'ajoute au Calendrier. Ensuite il envoie un résumé en 3 lignes dans Messages et met la promesse dans Rappels. Règles : ne jamais confirmer un paiement, une résiliation ou des frais, ne jamais lire de numéro de carte ou d'identité, se présenter comme assistant, un seul appel ouvert par entreprise."
+    },
+    "es": {
+     "title": "Grok Bot espera en línea por mí y me pasa la llamada cuando contesta una persona",
+     "summary": "El autor guarda una nota on-hold.md con a quién llamar, por qué, el número de reserva o cuenta y el resultado deseado. Grok Bot marca, recorre el menú telefónico y espera; cuando contesta una persona real, hace sonar su teléfono. Si no responde en 30 segundos, pide una hora para devolver la llamada y la añade al Calendario. Después envía un resumen de 3 líneas por Messages y pone la promesa en Recordatorios. Reglas: nunca confirmar pagos, cancelaciones ni cargos, nunca leer números de tarjeta o identidad, decir primero que es un asistente, una llamada abierta por empresa."
+    },
+    "de": {
+     "title": "Grok Bot hängt für mich in der Warteschleife und übergibt, sobald ein Mensch abnimmt",
+     "summary": "Der Autor führt eine Notiz on-hold.md: wen anrufen, warum, Buchungs- oder Kontonummer und das gewünschte Ergebnis. Grok Bot wählt, navigiert durchs Sprachmenü und wartet; nimmt ein Mensch ab, klingelt sein Handy. Ohne Antwort in 30 Sekunden bittet er um einen Rückrufzeitpunkt und trägt ihn in den Kalender ein. Danach schickt er eine 3-Zeilen-Zusammenfassung per Messages und legt das Versprechen in Erinnerungen ab. Regeln: nie Zahlungen, Kündigungen oder Gebühren bestätigen, nie Karten- oder Ausweisnummern vorlesen, sich zuerst als Assistent ausgeben, ein offener Anruf pro Firma."
+    }
+   }
+  },
+  {
+   "id": "x:2121947989522420185",
+   "url": "https://x.com/grok/status/2121947989522420185",
+   "source": "x",
+   "source_name": "X",
+   "author": "grok",
+   "date": "2026-11-15",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Connect Gmail via Connect apps in Grok Bot (authorize read). Then paste: Analyze my entire Gmail inbox, organize everything, find what needs my attention, and tell me what I've been missing.\n\nIt separates urgent from newsletters/spam, finds unpaid bills, deadlines, replies needed, and buried important emails. You get a clean action list instead of inbox chaos.",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "一句提示词：让 Grok Bot 整理整个 Gmail 收件箱",
+     "summary": "先在 Grok Bot 的 Connect apps 里连接 Gmail（授权读取），再粘贴提示词：分析我的整个 Gmail 收件箱，整理一切，找出需要我关注的内容，告诉我漏了什么。帖子称它会把紧急邮件和新闻信/垃圾邮件分开，找出未付账单、截止日期、需要回复和被埋没的重要邮件，给出一份行动清单。"
+    },
+    "zh-TW": {
+     "title": "一句提示詞：讓 Grok Bot 整理整個 Gmail 收件匣",
+     "summary": "先在 Grok Bot 的 Connect apps 裡連接 Gmail（授權讀取），再貼上提示詞：分析我的整個 Gmail 收件匣，整理一切，找出需要我關注的內容，告訴我漏了什麼。貼文稱它會把緊急郵件和電子報/垃圾郵件分開，找出未付帳單、截止日期、需要回覆和被埋沒的重要郵件，給出一份行動清單。"
+    },
+    "en": {
+     "title": "One prompt to have Grok Bot sort your whole Gmail inbox",
+     "summary": "Connect Gmail through Connect apps in Grok Bot (read access), then paste: \"Analyze my entire Gmail inbox, organize everything, find what needs my attention, and tell me what I've been missing.\" The post says it separates urgent mail from newsletters and spam, finds unpaid bills, deadlines, replies needed and buried important emails, and returns an action list."
+    },
+    "ja": {
+     "title": "プロンプト 1 つで Grok Bot に Gmail 受信箱全体を整理させる",
+     "summary": "Grok Bot の Connect apps で Gmail を接続（読み取りを許可）し、「Gmail 受信箱全体を分析して整理し、私が対応すべきものと見落としを教えて」と貼り付ける。投稿によると、緊急メールとニュースレター・スパムを分け、未払いの請求、締め切り、返信が必要なもの、埋もれた重要メールを見つけて、行動リストにしてくれる。"
+    },
+    "ko": {
+     "title": "프롬프트 하나로 Grok Bot에게 Gmail 받은편지함 전체 정리 맡기기",
+     "summary": "Grok Bot의 Connect apps에서 Gmail을 연결(읽기 권한)한 뒤 \"내 Gmail 받은편지함 전체를 분석해 정리하고, 내가 챙겨야 할 것과 놓친 것을 알려줘\"를 붙여 넣는다. 게시물에 따르면 긴급 메일을 뉴스레터·스팸과 구분하고, 미납 청구서, 마감일, 답장이 필요한 메일, 묻힌 중요한 메일을 찾아 실행 목록으로 정리해 준다."
+    },
+    "ms": {
+     "title": "Satu gesaan untuk Grok Bot menyusun seluruh peti masuk Gmail",
+     "summary": "Sambungkan Gmail melalui Connect apps dalam Grok Bot (akses baca), kemudian tampal: \"Analisis seluruh peti masuk Gmail saya, susun semuanya, cari apa yang perlu perhatian saya dan beritahu apa yang saya terlepas.\" Menurut hantaran itu, ia mengasingkan e-mel penting daripada surat berita dan spam, mencari bil belum dibayar, tarikh akhir, balasan yang perlu dan e-mel penting yang tertimbus, lalu memberi senarai tindakan."
+    },
+    "vi": {
+     "title": "Một câu lệnh để Grok Bot sắp xếp toàn bộ hộp thư Gmail",
+     "summary": "Kết nối Gmail qua Connect apps trong Grok Bot (quyền đọc), rồi dán: \"Phân tích toàn bộ hộp thư Gmail của tôi, sắp xếp mọi thứ, tìm những gì cần tôi chú ý và cho tôi biết tôi đã bỏ lỡ gì.\" Theo bài đăng, nó tách thư khẩn khỏi bản tin và thư rác, tìm hóa đơn chưa trả, hạn chót, thư cần trả lời và email quan trọng bị chìm, rồi đưa ra danh sách việc cần làm."
+    },
+    "fr": {
+     "title": "Un seul prompt pour que Grok Bot trie toute votre boîte Gmail",
+     "summary": "Connectez Gmail via Connect apps dans Grok Bot (accès en lecture), puis collez : « Analyse toute ma boîte Gmail, organise tout, trouve ce qui demande mon attention et dis-moi ce que j'ai manqué. » Selon le post, il sépare l'urgent des newsletters et du spam, repère les factures impayées, les échéances, les réponses à faire et les e-mails importants enfouis, et rend une liste d'actions."
+    },
+    "es": {
+     "title": "Un solo prompt para que Grok Bot ordene toda tu bandeja de Gmail",
+     "summary": "Conecta Gmail desde Connect apps en Grok Bot (permiso de lectura) y pega: «Analiza toda mi bandeja de Gmail, organízalo todo, encuentra lo que necesita mi atención y dime qué me he perdido». Según la publicación, separa lo urgente de boletines y spam, encuentra facturas sin pagar, plazos, respuestas pendientes y correos importantes enterrados, y devuelve una lista de acciones."
+    },
+    "de": {
+     "title": "Ein Prompt, mit dem Grok Bot das ganze Gmail-Postfach sortiert",
+     "summary": "Gmail über Connect apps in Grok Bot verbinden (Lesezugriff), dann einfügen: „Analysiere mein gesamtes Gmail-Postfach, ordne alles, finde, was meine Aufmerksamkeit braucht, und sag mir, was ich verpasst habe.“ Laut Post trennt er Dringendes von Newslettern und Spam, findet offene Rechnungen, Fristen, nötige Antworten und vergrabene wichtige Mails und liefert eine Aufgabenliste."
+    }
+   }
+  },
+  {
+   "id": "x:2121940102003798426",
+   "url": "https://x.com/Frank_SI_Lab/status/2121940102003798426",
+   "source": "x",
+   "source_name": "X",
+   "author": "Frank_SI_Lab",
+   "date": "2026-11-15",
+   "likes": 1,
+   "product": "grok-bot",
+   "text": "Grok Bot caught a test for next week that the school slipped in on a Friday night.\n\nNot the parents. Not the group chat. A bot.\n\nMy setup:\n1. School bot checks the timetable every morning. Read-only.\n2. New test? Calendar bot adds it, after a duplicate check.\n3. Chief-of-staff bot keeps everyone in sync.\n4. I pass on what the test covers. The kids' English, math and German coach bots turn it into custom practice tests.\n\nParents don't miss tests because they don't care.\nThey miss them because nobody copied the date into a calendar.\n\nWhat would you hand off first: the dates or the prep?",
+   "media": [
+    "https://pbs.twimg.com/media/HXKlO1uXUAAag_F.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "学校周五晚上偷偷加了考试，Grok Bot 先发现了",
+     "summary": "作者的设置：学校 bot 每天早上只读检查课表；发现新考试后，日历 bot 先查重再添加；chief-of-staff bot 让大家保持同步；作者告知考试范围后，孩子们的英语、数学和德语辅导 bot 生成定制练习卷。作者说这次是 bot 抓到了学校周五晚上加进来的下周考试。"
+    },
+    "zh-TW": {
+     "title": "學校週五晚上偷偷加了考試，Grok Bot 先發現了",
+     "summary": "作者的設定：學校 bot 每天早上唯讀檢查課表；發現新考試後，行事曆 bot 先查重再新增；chief-of-staff bot 讓大家保持同步；作者告知考試範圍後，孩子們的英文、數學和德文輔導 bot 產生客製練習卷。作者說這次是 bot 抓到了學校週五晚上加進來的下週考試。"
+    },
+    "en": {
+     "title": "Grok Bot caught a test the school slipped in on a Friday night",
+     "summary": "The author's setup: a school bot checks the timetable every morning, read-only; when a new test appears, a calendar bot adds it after a duplicate check; a chief-of-staff bot keeps everyone in sync; once he passes on what the test covers, the kids' English, math and German coach bots turn it into custom practice tests. He says the bot, not the parents or the group chat, caught next week's test."
+    },
+    "ja": {
+     "title": "学校が金曜夜にこっそり追加したテストを Grok Bot が見つけた",
+     "summary": "作者の構成：学校 bot が毎朝時間割を読み取り専用で確認。新しいテストがあればカレンダー bot が重複チェックのうえ登録。chief-of-staff bot が全体を同期。作者が出題範囲を伝えると、子どもの英語・数学・ドイツ語のコーチ bot が専用の練習テストを作る。親でもグループチャットでもなく bot が来週のテストを見つけたという。"
+    },
+    "ko": {
+     "title": "학교가 금요일 밤에 몰래 넣은 시험을 Grok Bot이 잡아냈다",
+     "summary": "작성자의 구성: 학교 bot이 매일 아침 시간표를 읽기 전용으로 확인하고, 새 시험이 있으면 캘린더 bot이 중복 확인 후 추가한다. chief-of-staff bot이 모두를 동기화하고, 작성자가 시험 범위를 전하면 아이들의 영어·수학·독일어 코치 bot이 맞춤 연습 시험을 만든다. 부모도 단톡방도 아닌 bot이 다음 주 시험을 찾아냈다고 한다."
+    },
+    "ms": {
+     "title": "Grok Bot mengesan ujian yang sekolah selitkan pada malam Jumaat",
+     "summary": "Susunan penulis: bot sekolah menyemak jadual setiap pagi, baca sahaja; jika ada ujian baharu, bot kalendar menambahnya selepas semakan pendua; bot chief-of-staff memastikan semua selaras; selepas dia memberitahu skop ujian, bot jurulatih Bahasa Inggeris, matematik dan Jerman anak-anak membuat ujian latihan khas. Katanya bot itulah, bukan ibu bapa atau kumpulan sembang, yang mengesan ujian minggu depan."
+    },
+    "vi": {
+     "title": "Grok Bot phát hiện bài kiểm tra nhà trường lén thêm vào tối thứ Sáu",
+     "summary": "Cách thiết lập của tác giả: bot trường học kiểm tra thời khóa biểu mỗi sáng, chỉ đọc; có bài kiểm tra mới thì bot lịch thêm vào sau khi kiểm tra trùng; bot chief-of-staff giữ mọi người đồng bộ; khi tác giả cho biết phạm vi bài kiểm tra, các bot kèm tiếng Anh, toán và tiếng Đức của bọn trẻ tạo đề luyện tập riêng. Ông nói chính bot, không phải phụ huynh hay nhóm chat, đã phát hiện bài kiểm tra tuần sau."
+    },
+    "fr": {
+     "title": "Grok Bot a repéré un contrôle que l'école a glissé un vendredi soir",
+     "summary": "Le dispositif de l'auteur : un bot école vérifie l'emploi du temps chaque matin, en lecture seule ; si un nouveau contrôle apparaît, un bot calendrier l'ajoute après vérification des doublons ; un bot chief-of-staff garde tout le monde synchronisé ; quand il transmet le programme du contrôle, les bots coachs d'anglais, de maths et d'allemand des enfants en font des exercices sur mesure. Selon lui, c'est le bot, pas les parents ni le groupe, qui a repéré le contrôle de la semaine suivante."
+    },
+    "es": {
+     "title": "Grok Bot detectó un examen que el colegio coló un viernes por la noche",
+     "summary": "La configuración del autor: un bot escolar revisa el horario cada mañana, solo lectura; si aparece un examen nuevo, un bot de calendario lo añade tras comprobar duplicados; un bot chief-of-staff mantiene a todos sincronizados; cuando él indica qué entra en el examen, los bots tutores de inglés, matemáticas y alemán de sus hijos crean exámenes de práctica a medida. Dice que fue el bot, no los padres ni el chat de grupo, quien detectó el examen de la semana siguiente."
+    },
+    "de": {
+     "title": "Grok Bot entdeckte eine Klassenarbeit, die die Schule am Freitagabend nachgetragen hatte",
+     "summary": "Das Setup des Autors: Ein Schul-Bot prüft jeden Morgen den Stundenplan, nur lesend; taucht ein neuer Test auf, trägt ihn ein Kalender-Bot nach Duplikatprüfung ein; ein Chief-of-Staff-Bot hält alle synchron; nennt er den Prüfungsstoff, machen die Englisch-, Mathe- und Deutsch-Coach-Bots der Kinder daraus eigene Übungstests. Laut ihm hat der Bot, nicht die Eltern oder der Gruppenchat, den Test der nächsten Woche entdeckt."
+    }
+   }
+  },
+  {
+   "id": "x:2121936561663324521",
+   "url": "https://x.com/bruno_munhoz/status/2121936561663324521",
+   "source": "x",
+   "source_name": "X",
+   "author": "bruno_munhoz",
+   "date": "2026-11-15",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "@elonmusk @bot Felt this one. I run a stack of daily routines on Grok Bot (hourly inbox checks, morning briefings, weekend plans) and log usage every night. More runs out of the same plan is the upgrade that matters most when you actually use it all day.",
+   "media": [],
+   "type": "quota-report",
+   "tr": {
+    "zh-CN": {
+     "title": "一组日常 routine 跑在 Grok Bot 上，每晚记录用量",
+     "summary": "作者在 Grok Bot 上运行一组日常 routine：每小时检查收件箱、早间简报、周末计划，并每晚记录用量。他说对整天都在用的人来说，同一套餐能多跑几次才是最重要的升级。"
+    },
+    "zh-TW": {
+     "title": "一組日常 routine 跑在 Grok Bot 上，每晚記錄用量",
+     "summary": "作者在 Grok Bot 上執行一組日常 routine：每小時檢查收件匣、早晨簡報、週末計畫，並每晚記錄用量。他說對整天都在用的人來說，同一方案能多跑幾次才是最重要的升級。"
+    },
+    "en": {
+     "title": "A stack of daily Grok Bot routines, with usage logged every night",
+     "summary": "The author runs a stack of daily routines on Grok Bot (hourly inbox checks, morning briefings, weekend plans) and logs usage every night. He says more runs out of the same plan is the upgrade that matters most when you use it all day."
+    },
+    "ja": {
+     "title": "Grok Bot で毎日のルーティンを回し、毎晩使用量を記録",
+     "summary": "作者は Grok Bot で毎日のルーティン（毎時の受信箱チェック、朝のブリーフィング、週末の計画）を動かし、毎晩使用量を記録している。一日中使う人にとっては、同じプランで実行回数が増えることが一番大事なアップグレードだという。"
+    },
+    "ko": {
+     "title": "Grok Bot으로 매일 루틴을 돌리고 매일 밤 사용량을 기록",
+     "summary": "작성자는 Grok Bot에서 매일 루틴(매시간 받은편지함 확인, 아침 브리핑, 주말 계획)을 돌리고 매일 밤 사용량을 기록한다. 하루 종일 쓰는 사람에게는 같은 요금제로 더 많이 실행할 수 있는 것이 가장 중요한 업그레이드라고 말한다."
+    },
+    "ms": {
+     "title": "Rutin harian di Grok Bot, dengan penggunaan dicatat setiap malam",
+     "summary": "Penulis menjalankan beberapa rutin harian di Grok Bot (semakan peti masuk setiap jam, taklimat pagi, rancangan hujung minggu) dan mencatat penggunaan setiap malam. Katanya, lebih banyak larian daripada pelan yang sama ialah naik taraf paling penting apabila digunakan sepanjang hari."
+    },
+    "vi": {
+     "title": "Chuỗi routine hằng ngày trên Grok Bot, ghi lại mức dùng mỗi tối",
+     "summary": "Tác giả chạy một loạt routine hằng ngày trên Grok Bot (kiểm tra hộp thư mỗi giờ, bản tóm tắt buổi sáng, kế hoạch cuối tuần) và ghi lại mức sử dụng mỗi tối. Ông nói chạy được nhiều lượt hơn với cùng gói là nâng cấp quan trọng nhất khi dùng cả ngày."
+    },
+    "fr": {
+     "title": "Une série de routines quotidiennes sur Grok Bot, usage noté chaque soir",
+     "summary": "L'auteur fait tourner des routines quotidiennes sur Grok Bot (vérification de la boîte mail toutes les heures, briefings du matin, plans du week-end) et note l'usage chaque soir. Selon lui, plus d'exécutions avec le même forfait est l'amélioration qui compte le plus quand on l'utilise toute la journée."
+    },
+    "es": {
+     "title": "Una pila de rutinas diarias en Grok Bot, con el uso registrado cada noche",
+     "summary": "El autor ejecuta varias rutinas diarias en Grok Bot (revisión del correo cada hora, resúmenes matutinos, planes de fin de semana) y registra el uso cada noche. Dice que más ejecuciones con el mismo plan es la mejora que más importa cuando lo usas todo el día."
+    },
+    "de": {
+     "title": "Tägliche Routinen auf Grok Bot, Nutzung jede Nacht protokolliert",
+     "summary": "Der Autor betreibt mehrere tägliche Routinen auf Grok Bot (stündliche Postfach-Checks, Morgenbriefings, Wochenendpläne) und protokolliert die Nutzung jede Nacht. Mehr Läufe im selben Tarif sei für Dauernutzer das wichtigste Upgrade."
+    }
+   }
+  },
+  {
+   "id": "x:2121927097342202139",
+   "url": "https://x.com/TeslaFanNewsX/status/2121927097342202139",
+   "source": "x",
+   "source_name": "X",
+   "author": "TeslaFanNewsX",
+   "date": "2026-11-15",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Trending: people giving Grok Bot a \"Chief of Staff\" job. Try this prompt:\n\n\"Be my chief of staff. Each weekday at 8am, scan my calendar and inbox, list my top 3 priorities and draft replies to urgent mail. Never send without my OK.\"\n\nAI-generated image\n#GrokBot #AI https://t.co/tOGpKl1J0X",
+   "media": [
+    "https://pbs.twimg.com/media/HXKZWJuasAIjfQc.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "给 Grok Bot 一个「幕僚长」工作的提示词",
+     "summary": "帖子分享的提示词：「做我的幕僚长。每个工作日早上 8 点，扫描我的日历和收件箱，列出我的前 3 项优先事项，并为紧急邮件起草回复。没有我的同意绝不发送。」"
+    },
+    "zh-TW": {
+     "title": "給 Grok Bot 一個「幕僚長」工作的提示詞",
+     "summary": "貼文分享的提示詞：「當我的幕僚長。每個工作日早上 8 點，掃描我的行事曆和收件匣，列出我的前 3 項優先事項，並為緊急郵件草擬回覆。沒有我的同意絕不寄出。」"
+    },
+    "en": {
+     "title": "A prompt that gives Grok Bot a chief-of-staff job",
+     "summary": "The shared prompt: \"Be my chief of staff. Each weekday at 8am, scan my calendar and inbox, list my top 3 priorities and draft replies to urgent mail. Never send without my OK.\""
+    },
+    "ja": {
+     "title": "Grok Bot に「チーフ・オブ・スタッフ」の仕事を与えるプロンプト",
+     "summary": "共有されたプロンプト：「私のチーフ・オブ・スタッフになって。平日の毎朝 8 時にカレンダーと受信箱を確認し、優先事項トップ 3 を挙げ、急ぎのメールには返信の下書きを作って。私の OK なしには絶対に送信しないこと。」"
+    },
+    "ko": {
+     "title": "Grok Bot에게 비서실장 역할을 주는 프롬프트",
+     "summary": "공유된 프롬프트: \"내 비서실장이 되어 줘. 평일 오전 8시마다 캘린더와 받은편지함을 확인하고, 우선순위 3가지를 정리하고, 급한 메일에는 답장 초안을 써 줘. 내 승인 없이는 절대 보내지 마.\""
+    },
+    "ms": {
+     "title": "Gesaan yang memberi Grok Bot tugas chief of staff",
+     "summary": "Gesaan yang dikongsi: \"Jadi chief of staff saya. Setiap hari bekerja jam 8 pagi, imbas kalendar dan peti masuk saya, senaraikan 3 keutamaan utama dan draf balasan untuk e-mel penting. Jangan hantar tanpa kebenaran saya.\""
+    },
+    "vi": {
+     "title": "Câu lệnh giao cho Grok Bot vai trò chánh văn phòng",
+     "summary": "Câu lệnh được chia sẻ: \"Hãy làm chánh văn phòng của tôi. Mỗi sáng ngày làm việc lúc 8 giờ, quét lịch và hộp thư, liệt kê 3 ưu tiên hàng đầu và soạn nháp trả lời thư khẩn. Không bao giờ gửi khi chưa có sự đồng ý của tôi.\""
+    },
+    "fr": {
+     "title": "Un prompt qui confie à Grok Bot un rôle de chef de cabinet",
+     "summary": "Le prompt partagé : « Sois mon chef de cabinet. Chaque jour ouvré à 8 h, parcours mon agenda et ma boîte mail, liste mes 3 priorités et rédige des brouillons de réponse aux e-mails urgents. N'envoie jamais rien sans mon accord. »"
+    },
+    "es": {
+     "title": "Un prompt que le da a Grok Bot el trabajo de jefe de gabinete",
+     "summary": "El prompt compartido: «Sé mi jefe de gabinete. Cada día laborable a las 8 a. m., revisa mi calendario y mi bandeja, enumera mis 3 prioridades y redacta respuestas a los correos urgentes. Nunca envíes nada sin mi visto bueno»."
+    },
+    "de": {
+     "title": "Ein Prompt, der Grok Bot zum Stabschef macht",
+     "summary": "Der geteilte Prompt: „Sei mein Stabschef. Scanne jeden Werktag um 8 Uhr meinen Kalender und mein Postfach, liste meine Top-3-Prioritäten auf und entwirf Antworten auf dringende Mails. Sende nie ohne mein OK.“"
+    }
+   }
+  },
+  {
+   "id": "x:2121913071278973254",
+   "url": "https://x.com/fleyta88/status/2121913071278973254",
+   "source": "x",
+   "source_name": "X",
+   "author": "fleyta88",
+   "date": "2026-11-15",
+   "likes": 46,
+   "product": "grok-bot",
+   "text": "Grok Bot just replaced a whole content team: 6 agents, one 41 minute talk, 9 finished pieces of content by breakfast.\n\nNone of them goes live until you tap yes.\n\nThat's the line in the video. 1 talk and 12 saved links in. 5 posts, 1 newsletter and 3 vertical clips out, packaged 20 ways for X, YouTube, Instagram and TikTok. 0 auto posts.\n\nThe bots are not the hard part. The rules are:\n\n1. One bot, one job. The official Grok Bot guide says to give each Bot one job in its first message. A clip bot that only cuts clips builds better context than a helper that does everything.\n\n2. Teach it once, then put it on a clock. Do the task together, save it as a skill, press Test, and only then schedule it. Up to 50 routines per Bot, at least 5 minutes apart.\n\n3. Draft everything, publish nothing. Approvals skip the group chat and come straight to you. In the video, one post names a sponsor with no signed brief, so it stays held while the other 8 go.\n\n4. Pick the slowest schedule that still works. By my math, an hourly job runs 168 times a week and a weekday job runs 5. Every run spends usage.\n\nEvery bot gets the same 4 line first message:\n\nJob: one desk, one outcome\nSources: the exact folder, export or inbox it reads\nApproval line: what it does alone and what waits for you\nRemember: how you want it done, so you never say it twice\n\nWhy bother: in Ethan Ng's test, Grok Bot took 10 raw videos and returned all 10 edited in about 2 hours, after a few rounds of feedback. By hand, one video took him about 2 hours.\n\nRepos that slot into the line, stars checked today:\n\nhttps://t.co/MT6Sm5TsmO\n6.4k★. Outlier posts, comment mining, transcript summaries, competitor teardowns. Needs a ScrapeCreators API key.\n\nhttps://t.co/9fRdci1DJ4\n5.9k★. 11 skills: hooks scored off 21 formulas, title and thumbnail checked as one pair, Shorts found inside long videos. It writes, you upload.\n\nhttps://t.co/ctt9KdzG8v\n6.1k★. Open source Opus Clip alternative: long video in, ranked 9:16 shorts out.\n\nhttps://t.co/5jo0Inx7bp\n654★. Strategy, content calendar and platform native copy as agent skills.\n\nhttps://t.co/xOgHOY60Vt\n110★. Scheduling CLI and agent skill for X, LinkedIn, Instagram, TikTok, YouTube and more. Keep it behind your yes.\n\nhttps://t.co/CtRavthV5q\n138★. Paste in Grok Bot team templates with skills and routines. Its own advice: a week of drafts before any sends.\n\nThe bots get the repeatable prep. The taste, the promises and the final yes stay with you.",
+   "media": [
+    "https://pbs.twimg.com/amplify_video_thumb/2121913037560987649/img/0CZJ9GxKzqRMbKoe.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "6 个 Grok Bot 搭一条内容流水线：先起草，确认后才发",
+     "summary": "作者描述的视频流程：1 场 41 分钟演讲加 12 个链接输入，产出 5 条帖子、1 期新闻信和 3 条竖屏短片，适配 X、YouTube、Instagram、TikTok，0 条自动发布。规则：一个 bot 一份工作；先一起做一遍、存成 skill、点 Test 再排期（每个 Bot 最多 50 个 routine，间隔至少 5 分钟）；全部只起草，审批直达本人；选能用的最慢频率。每个 bot 的首条消息四行：Job、Sources、Approval line、Remember。还列出几个可接入的开源仓库。"
+    },
+    "zh-TW": {
+     "title": "6 個 Grok Bot 搭一條內容流水線：先起草，確認後才發",
+     "summary": "作者描述的影片流程：1 場 41 分鐘演講加 12 個連結輸入，產出 5 則貼文、1 期電子報和 3 支直式短片，適配 X、YouTube、Instagram、TikTok，0 則自動發布。規則：一個 bot 一份工作；先一起做一遍、存成 skill、按 Test 再排程（每個 Bot 最多 50 個 routine，間隔至少 5 分鐘）；全部只起草，審批直達本人；選能用的最慢頻率。每個 bot 的首則訊息四行：Job、Sources、Approval line、Remember。也列出幾個可接入的開源儲存庫。"
+    },
+    "en": {
+     "title": "Six Grok Bot agents as a content line: draft everything, publish nothing without a yes",
+     "summary": "The workflow from the author's video: one 41-minute talk and 12 saved links in; 5 posts, 1 newsletter and 3 vertical clips out for X, YouTube, Instagram and TikTok, with 0 auto posts. Rules: one bot, one job; do the task together, save it as a skill, press Test, then schedule (up to 50 routines per Bot, at least 5 minutes apart); draft everything, with approvals coming straight to you; pick the slowest schedule that works. Each bot gets a 4-line first message: Job, Sources, Approval line, Remember. The post also lists open-source repos that fit the line."
+    },
+    "ja": {
+     "title": "Grok Bot 6 体でコンテンツ制作ライン：下書きのみ、承認まで公開しない",
+     "summary": "作者の動画で紹介された流れ：41 分の講演 1 本と保存リンク 12 件から、投稿 5 本・ニュースレター 1 本・縦型クリップ 3 本を X、YouTube、Instagram、TikTok 向けに作成し、自動投稿は 0。ルール：1 bot に 1 つの仕事。一緒に一度やってスキルとして保存し、Test を押してからスケジュール（Bot ごとに最大 50 ルーティン、5 分以上の間隔）。すべて下書きにし、承認は本人に直接届く。機能する範囲で最も遅い頻度を選ぶ。各 bot の最初のメッセージは Job、Sources、Approval line、Remember の 4 行。合うオープンソースのリポジトリも紹介している。"
+    },
+    "ko": {
+     "title": "Grok Bot 6개로 만든 콘텐츠 라인: 모두 초안만, 승인 없이 게시 금지",
+     "summary": "작성자 영상 속 흐름: 41분 강연 1개와 저장 링크 12개를 넣어 게시물 5개, 뉴스레터 1개, 세로 클립 3개를 X, YouTube, Instagram, TikTok용으로 만들고 자동 게시는 0개. 규칙: bot 하나에 일 하나; 함께 한 번 해 보고 스킬로 저장한 뒤 Test를 누르고 나서 예약(Bot당 루틴 최대 50개, 최소 5분 간격); 전부 초안으로 두고 승인은 본인에게 바로 온다; 통하는 가장 느린 주기를 고른다. 각 bot의 첫 메시지는 Job, Sources, Approval line, Remember 네 줄. 연결할 만한 오픈소스 저장소도 소개한다."
+    },
+    "ms": {
+     "title": "Enam ejen Grok Bot sebagai barisan kandungan: draf semua, tiada siaran tanpa kelulusan",
+     "summary": "Aliran kerja dalam video penulis: satu ceramah 41 minit dan 12 pautan disimpan sebagai input; keluar 5 hantaran, 1 surat berita dan 3 klip menegak untuk X, YouTube, Instagram dan TikTok, dengan 0 siaran automatik. Peraturan: satu bot, satu tugas; buat tugas bersama dahulu, simpan sebagai skill, tekan Test, baru jadualkan (sehingga 50 rutin bagi setiap Bot, sekurang-kurangnya 5 minit jarak); draf semuanya, kelulusan terus kepada anda; pilih jadual paling perlahan yang masih berkesan. Setiap bot menerima mesej pertama 4 baris: Job, Sources, Approval line, Remember. Hantaran itu juga menyenaraikan repo sumber terbuka yang sesuai."
+    },
+    "vi": {
+     "title": "Sáu agent Grok Bot thành dây chuyền nội dung: chỉ soạn nháp, không đăng khi chưa duyệt",
+     "summary": "Quy trình trong video của tác giả: đầu vào là 1 bài nói 41 phút và 12 liên kết đã lưu; đầu ra là 5 bài đăng, 1 bản tin và 3 clip dọc cho X, YouTube, Instagram và TikTok, 0 bài tự đăng. Quy tắc: mỗi bot một việc; làm cùng một lần, lưu thành skill, bấm Test rồi mới lên lịch (tối đa 50 routine mỗi Bot, cách nhau ít nhất 5 phút); mọi thứ chỉ là nháp, yêu cầu duyệt gửi thẳng cho bạn; chọn lịch chậm nhất mà vẫn hiệu quả. Mỗi bot nhận tin nhắn đầu 4 dòng: Job, Sources, Approval line, Remember. Bài cũng liệt kê các repo mã nguồn mở phù hợp."
+    },
+    "fr": {
+     "title": "Six agents Grok Bot en chaîne de contenu : tout en brouillon, rien sans votre oui",
+     "summary": "Le flux décrit dans la vidéo de l'auteur : en entrée, une conférence de 41 minutes et 12 liens ; en sortie, 5 posts, 1 newsletter et 3 clips verticaux pour X, YouTube, Instagram et TikTok, 0 publication automatique. Règles : un bot, une tâche ; faire la tâche ensemble, l'enregistrer comme skill, cliquer sur Test, puis planifier (jusqu'à 50 routines par Bot, au moins 5 minutes d'écart) ; tout en brouillon, les validations arrivent directement chez vous ; choisir la fréquence la plus lente qui marche. Chaque bot reçoit un premier message en 4 lignes : Job, Sources, Approval line, Remember. Le post liste aussi des dépôts open source adaptés."
+    },
+    "es": {
+     "title": "Seis agentes de Grok Bot como cadena de contenido: todo en borrador, nada sin tu sí",
+     "summary": "El flujo del vídeo del autor: entran una charla de 41 minutos y 12 enlaces guardados; salen 5 publicaciones, 1 boletín y 3 clips verticales para X, YouTube, Instagram y TikTok, con 0 publicaciones automáticas. Reglas: un bot, un trabajo; hacer la tarea juntos, guardarla como skill, pulsar Test y luego programarla (hasta 50 rutinas por Bot, al menos 5 minutos de separación); todo en borrador, las aprobaciones te llegan directamente; elegir la frecuencia más lenta que funcione. Cada bot recibe un primer mensaje de 4 líneas: Job, Sources, Approval line, Remember. También enumera repos de código abierto que encajan."
+    },
+    "de": {
+     "title": "Sechs Grok-Bot-Agenten als Content-Linie: alles als Entwurf, nichts ohne dein Ja",
+     "summary": "Der Ablauf aus dem Video des Autors: rein gehen ein 41-minütiger Vortrag und 12 gespeicherte Links; raus kommen 5 Posts, 1 Newsletter und 3 Hochkant-Clips für X, YouTube, Instagram und TikTok, 0 automatische Posts. Regeln: ein Bot, ein Job; die Aufgabe einmal gemeinsam machen, als Skill speichern, Test drücken und erst dann planen (bis zu 50 Routinen pro Bot, mindestens 5 Minuten Abstand); alles nur Entwurf, Freigaben kommen direkt zu dir; den langsamsten Takt wählen, der noch reicht. Jeder Bot bekommt eine 4-zeilige erste Nachricht: Job, Sources, Approval line, Remember. Dazu nennt der Post passende Open-Source-Repos."
+    }
+   }
+  },
+  {
+   "id": "x:2121946608229355525",
+   "url": "https://x.com/AI_pic_maochao/status/2121946608229355525",
+   "source": "x",
+   "source_name": "X",
+   "author": "AI_pic_maochao",
+   "date": "2026-11-15",
+   "likes": 5,
+   "product": "meta-muse",
+   "text": "タグはMuseと話しながら汎用的なものだけ厳選、リスト化、streamdeckにボタンとして登録。 \n完成プロンプトを使ってSeaart(他所でも十分通用すると思う)で生成。 \n翻訳とか検索からタグ探したり練るよりもだいぶ手間が減った。\n #AI生成画像 #AIart #Seaart #SeaArtAI #MetaMuse #掛琴命 https://t.co/Qrd4QVax1z",
+   "media": [
+    "https://pbs.twimg.com/media/HXKq_Apb0AAWxYe.jpg",
+    "https://pbs.twimg.com/media/HXKq8gea4AAMz-j.jpg",
+    "https://pbs.twimg.com/media/HXKq9IBasAA1LmS.png"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "和 Muse 一起整理生图标签，做成 Stream Deck 按钮",
+     "summary": "作者边和 Muse 对话边精选出通用的生图标签，整理成清单并注册为 Stream Deck 按钮，再用拼好的提示词在 SeaArt 生成图片。作者说这比靠翻译和搜索找标签、反复打磨省事得多。"
+    },
+    "zh-TW": {
+     "title": "和 Muse 一起整理生圖標籤，做成 Stream Deck 按鈕",
+     "summary": "作者邊和 Muse 對話邊精選出通用的生圖標籤，整理成清單並註冊為 Stream Deck 按鈕，再用組好的提示詞在 SeaArt 生成圖片。作者說這比靠翻譯和搜尋找標籤、反覆打磨省事得多。"
+    },
+    "en": {
+     "title": "Curating image-prompt tags with Muse and mapping them to Stream Deck buttons",
+     "summary": "While chatting with Muse, the author picked only general-purpose image tags, made them into a list and registered them as Stream Deck buttons, then used the finished prompts to generate images on SeaArt. The author says it took far less effort than hunting for tags through translation and search."
+    },
+    "ja": {
+     "title": "Muse と相談して画像生成タグを厳選し、Stream Deck のボタンに登録",
+     "summary": "作者は Muse と話しながら汎用的なタグだけを厳選してリスト化し、Stream Deck にボタンとして登録。完成したプロンプトで SeaArt で画像を生成した。翻訳や検索でタグを探して練るよりずっと手間が減ったという。"
+    },
+    "ko": {
+     "title": "Muse와 대화하며 이미지 생성 태그를 골라 Stream Deck 버튼으로 등록",
+     "summary": "작성자는 Muse와 대화하며 범용 태그만 골라 목록으로 만들고 Stream Deck 버튼으로 등록한 뒤, 완성된 프롬프트로 SeaArt에서 이미지를 생성했다. 번역이나 검색으로 태그를 찾고 다듬는 것보다 훨씬 수고가 줄었다고 한다."
+    },
+    "ms": {
+     "title": "Memilih tag gesaan imej bersama Muse dan memetakannya ke butang Stream Deck",
+     "summary": "Sambil berbual dengan Muse, penulis memilih hanya tag imej umum, menyenaraikannya dan mendaftarkannya sebagai butang Stream Deck, kemudian menggunakan gesaan siap untuk menjana imej di SeaArt. Katanya ia jauh kurang usaha berbanding mencari tag melalui terjemahan dan carian."
+    },
+    "vi": {
+     "title": "Cùng Muse chọn lọc thẻ tạo ảnh và gán thành nút Stream Deck",
+     "summary": "Vừa trò chuyện với Muse, tác giả vừa chọn lọc các thẻ tạo ảnh dùng chung, lập danh sách và đăng ký thành nút trên Stream Deck, rồi dùng câu lệnh hoàn chỉnh để tạo ảnh trên SeaArt. Tác giả nói cách này đỡ công hơn nhiều so với tìm thẻ qua dịch và tìm kiếm."
+    },
+    "fr": {
+     "title": "Trier des tags de prompt image avec Muse et les mettre sur des boutons Stream Deck",
+     "summary": "En discutant avec Muse, l'auteur n'a retenu que des tags d'image génériques, en a fait une liste et les a enregistrés comme boutons Stream Deck, puis a utilisé les prompts finis pour générer des images sur SeaArt. Selon lui, cela demande bien moins d'efforts que de chercher des tags par traduction et recherche."
+    },
+    "es": {
+     "title": "Seleccionar etiquetas de prompts de imagen con Muse y asignarlas a botones de Stream Deck",
+     "summary": "Conversando con Muse, el autor eligió solo etiquetas de imagen de uso general, las convirtió en una lista y las registró como botones de Stream Deck; luego usó los prompts terminados para generar imágenes en SeaArt. Dice que le costó mucho menos que buscar etiquetas con traducción y búsquedas."
+    },
+    "de": {
+     "title": "Mit Muse Bild-Prompt-Tags auswählen und auf Stream-Deck-Tasten legen",
+     "summary": "Im Gespräch mit Muse wählte der Autor nur allgemein nutzbare Bild-Tags aus, machte daraus eine Liste und legte sie als Stream-Deck-Tasten an; mit den fertigen Prompts erzeugte er dann Bilder auf SeaArt. Das sei viel weniger Aufwand, als Tags per Übersetzung und Suche zu suchen."
+    }
+   }
+  },
+  {
+   "id": "x:2121944126740701348",
+   "url": "https://x.com/cubic9com/status/2121944126740701348",
+   "source": "x",
+   "source_name": "X",
+   "author": "cubic9com",
+   "date": "2026-11-15",
+   "likes": 0,
+   "product": "meta-muse",
+   "text": "TTモーター四輪車の件、今日Meta Museと壁打ちして決めた配線図の通りに配線した。相変わらずはんだづけはヘタ…。でもSeeed Studio XIAO ESP32-C5とTB6612FNGをつけるとさまになるね。モーター始動時の電圧降下対策のコンデンサは後日つける。今回初めてポリウレタン銅線を使ってみたけど、便利だー。 https://t.co/qzOKEXZ5dd",
+   "media": [
+    "https://pbs.twimg.com/media/HXKo65vagAAqu5_.jpg",
+    "https://pbs.twimg.com/media/HXKo7MtbcAAzHHr.jpg",
+    "https://pbs.twimg.com/media/HXKo7cYagAALGC8.jpg",
+    "https://pbs.twimg.com/media/HXKo7s3aAAAWKba.jpg",
+    "https://pbs.twimg.com/media/HXKo78dakAAk2mq.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "和 Meta Muse 讨论定下接线图，给 TT 马达四轮车接线",
+     "summary": "作者为 TT 马达四轮小车和 Meta Muse 反复讨论后定下接线图，并按图完成接线，使用 Seeed Studio XIAO ESP32-C5 和 TB6612FNG。防止马达启动时电压下降的电容之后再装；这次第一次用了聚氨酯漆包铜线。"
+    },
+    "zh-TW": {
+     "title": "和 Meta Muse 討論定下接線圖，替 TT 馬達四輪車接線",
+     "summary": "作者為 TT 馬達四輪小車和 Meta Muse 反覆討論後定下接線圖，並照圖完成接線，使用 Seeed Studio XIAO ESP32-C5 和 TB6612FNG。防止馬達啟動時電壓下降的電容之後再裝；這次第一次用了聚氨酯漆包銅線。"
+    },
+    "en": {
+     "title": "Wiring a TT-motor four-wheel car from a diagram worked out with Meta Muse",
+     "summary": "The author settled on a wiring diagram for a TT-motor four-wheel car by talking it through with Meta Muse, then wired it to match, using a Seeed Studio XIAO ESP32-C5 and a TB6612FNG. A capacitor against voltage drop at motor start will be added later; it was the author's first time using polyurethane-coated copper wire."
+    },
+    "ja": {
+     "title": "Meta Muse との壁打ちで決めた配線図で TT モーター四輪車を配線",
+     "summary": "作者は TT モーター四輪車の配線図を Meta Muse と壁打ちして決め、その通りに配線した。Seeed Studio XIAO ESP32-C5 と TB6612FNG を使用。モーター始動時の電圧降下対策のコンデンサは後日取り付ける予定で、ポリウレタン銅線は今回初めて使ったという。"
+    },
+    "ko": {
+     "title": "Meta Muse와 의논해 정한 배선도로 TT 모터 사륜차 배선",
+     "summary": "작성자는 TT 모터 사륜차의 배선도를 Meta Muse와 의논해 정하고 그대로 배선했다. Seeed Studio XIAO ESP32-C5와 TB6612FNG를 사용했다. 모터 시동 시 전압 강하를 막는 커패시터는 나중에 달 예정이며, 폴리우레탄 동선은 이번에 처음 써 봤다고 한다."
+    },
+    "ms": {
+     "title": "Mendawai kereta empat roda motor TT mengikut rajah yang dirangka bersama Meta Muse",
+     "summary": "Penulis menetapkan rajah pendawaian kereta empat roda motor TT selepas berbincang dengan Meta Muse, lalu mendawainya mengikut rajah itu menggunakan Seeed Studio XIAO ESP32-C5 dan TB6612FNG. Kapasitor untuk mengatasi kejatuhan voltan semasa motor bermula akan dipasang kemudian; ini kali pertama penulis menggunakan wayar kuprum bersalut poliuretana."
+    },
+    "vi": {
+     "title": "Đi dây xe bốn bánh động cơ TT theo sơ đồ bàn cùng Meta Muse",
+     "summary": "Tác giả chốt sơ đồ đi dây cho xe bốn bánh dùng động cơ TT sau khi trao đổi với Meta Muse, rồi đi dây đúng theo sơ đồ, dùng Seeed Studio XIAO ESP32-C5 và TB6612FNG. Tụ chống sụt áp khi động cơ khởi động sẽ lắp sau; đây là lần đầu tác giả dùng dây đồng phủ polyurethane."
+    },
+    "fr": {
+     "title": "Câbler une voiture à quatre roues à moteurs TT d'après un schéma établi avec Meta Muse",
+     "summary": "L'auteur a arrêté le schéma de câblage d'une voiture à quatre roues à moteurs TT en échangeant avec Meta Muse, puis l'a câblée en conséquence avec un Seeed Studio XIAO ESP32-C5 et un TB6612FNG. Un condensateur contre la chute de tension au démarrage des moteurs sera ajouté plus tard ; c'était sa première utilisation de fil de cuivre émaillé polyuréthane."
+    },
+    "es": {
+     "title": "Cablear un coche de cuatro ruedas con motores TT según un esquema decidido con Meta Muse",
+     "summary": "El autor definió el esquema de cableado de un coche de cuatro ruedas con motores TT tras debatirlo con Meta Muse y lo cableó así, usando un Seeed Studio XIAO ESP32-C5 y un TB6612FNG. El condensador contra la caída de tensión al arrancar los motores lo añadirá más adelante; fue la primera vez que usó hilo de cobre esmaltado con poliuretano."
+    },
+    "de": {
+     "title": "Ein Vierrad-Auto mit TT-Motoren nach einem mit Meta Muse erarbeiteten Schaltplan verdrahtet",
+     "summary": "Der Autor legte den Schaltplan für ein Vierrad-Auto mit TT-Motoren im Austausch mit Meta Muse fest und verdrahtete es danach, mit einem Seeed Studio XIAO ESP32-C5 und einem TB6612FNG. Ein Kondensator gegen den Spannungseinbruch beim Motorstart kommt später dazu; Polyurethan-Kupferlackdraht nutzte er zum ersten Mal."
+    }
+   }
+  },
+  {
+   "id": "x:2121939637870657950",
+   "url": "https://x.com/iambriccardo/status/2121939637870657950",
+   "source": "x",
+   "source_name": "X",
+   "author": "iambriccardo",
+   "date": "2026-11-15",
+   "likes": 2,
+   "product": "openai-dots",
+   "text": "My life runs entirely on my Dot now.\n\nIt has such a good memory and awareness of things going on.\n\nI wonder the cost at the infrastructure level.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用户说生活已经完全靠 Dot 运转",
+     "summary": "作者说自己的生活现在完全靠 Dot 运转，称赞它的记忆力和对正在发生事情的感知，同时好奇它在基础设施层面的成本。"
+    },
+    "zh-TW": {
+     "title": "使用者說生活已經完全靠 Dot 運轉",
+     "summary": "作者說自己的生活現在完全靠 Dot 運轉，稱讚它的記憶力和對正在發生事情的感知，同時好奇它在基礎設施層面的成本。"
+    },
+    "en": {
+     "title": "User says their life now runs entirely on Dot",
+     "summary": "The author says their life runs entirely on their Dot now, praising its memory and awareness of what's going on, and wonders what it costs at the infrastructure level."
+    },
+    "ja": {
+     "title": "生活がすっかり Dot 頼みになったというユーザー",
+     "summary": "作者は、今や生活がすべて Dot で回っていると言い、その記憶力と周りの出来事への把握力を評価する一方、インフラ面のコストが気になるという。"
+    },
+    "ko": {
+     "title": "생활이 완전히 Dot으로 돌아간다는 사용자",
+     "summary": "작성자는 이제 생활이 전부 Dot으로 돌아간다며 기억력과 진행 중인 일에 대한 파악 능력을 칭찬하고, 인프라 수준의 비용이 궁금하다고 말한다."
+    },
+    "ms": {
+     "title": "Pengguna berkata hidupnya kini bergantung sepenuhnya pada Dot",
+     "summary": "Penulis berkata hidupnya kini berjalan sepenuhnya dengan Dot, memuji ingatannya dan kesedarannya tentang apa yang sedang berlaku, serta tertanya-tanya kosnya di peringkat infrastruktur."
+    },
+    "vi": {
+     "title": "Người dùng nói cuộc sống giờ hoàn toàn dựa vào Dot",
+     "summary": "Tác giả nói cuộc sống của mình giờ hoàn toàn vận hành nhờ Dot, khen trí nhớ và khả năng nắm bắt những gì đang diễn ra, đồng thời thắc mắc về chi phí ở tầng hạ tầng."
+    },
+    "fr": {
+     "title": "Un utilisateur dit que sa vie tourne désormais entièrement sur Dot",
+     "summary": "L'auteur dit que sa vie tourne entièrement sur son Dot, salue sa mémoire et sa conscience de ce qui se passe, et se demande ce que cela coûte côté infrastructure."
+    },
+    "es": {
+     "title": "Un usuario dice que su vida ya funciona por completo con Dot",
+     "summary": "El autor dice que su vida ahora funciona por completo con su Dot, elogia su memoria y su conciencia de lo que pasa, y se pregunta cuánto cuesta a nivel de infraestructura."
+    },
+    "de": {
+     "title": "Nutzer sagt, sein Leben laufe jetzt komplett über Dot",
+     "summary": "Der Autor sagt, sein Leben laufe jetzt komplett über seinen Dot, lobt dessen Gedächtnis und Überblick über das Geschehen und fragt sich, was das auf Infrastrukturebene kostet."
+    }
+   }
+  },
+  {
+   "id": "x:2121912043083006430",
+   "url": "https://x.com/furmanets/status/2121912043083006430",
+   "source": "x",
+   "source_name": "X",
+   "author": "furmanets",
+   "date": "2026-11-15",
+   "likes": 0,
+   "product": "multi",
+   "text": "After all the hype around OpenAI Dots, I’m finding the experience pretty frustrating.\n\nI can’t even get my repo running and execute the same CI checks that work fine in Grok Bot. Installing Chromium and running Playwright E2E tests turns into a challenge because of sandbox restrictions.\n\nWith other AI agents, I just describe the task and they get it done. With Dots, I feel like I have to babysit every step.\n\nIs anyone else experiencing this, or am I missing something?",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "Dots 里跑不动仓库 CI，同样的检查在 Grok Bot 里正常",
+     "summary": "作者说用 OpenAI Dots 时连自己的仓库都跑不起来，在 Grok Bot 里正常的 CI 检查在 Dots 里执行不了；因为沙箱限制，安装 Chromium 和运行 Playwright E2E 测试很困难。他觉得用其他 agent 描述任务就能完成，用 Dots 却要每一步盯着。"
+    },
+    "zh-TW": {
+     "title": "Dots 裡跑不動儲存庫 CI，同樣的檢查在 Grok Bot 裡正常",
+     "summary": "作者說用 OpenAI Dots 時連自己的儲存庫都跑不起來，在 Grok Bot 裡正常的 CI 檢查在 Dots 裡執行不了；因為沙箱限制，安裝 Chromium 和執行 Playwright E2E 測試很困難。他覺得用其他 agent 描述任務就能完成，用 Dots 卻要每一步盯著。"
+    },
+    "en": {
+     "title": "Repo CI checks that pass in Grok Bot won't run in Dots",
+     "summary": "The author says that with OpenAI Dots he can't get his repo running or execute the same CI checks that work in Grok Bot; sandbox restrictions make installing Chromium and running Playwright E2E tests hard. With other agents he describes the task and it gets done, while with Dots he feels he has to babysit every step."
+    },
+    "ja": {
+     "title": "Grok Bot で通る CI チェックが Dots では動かない",
+     "summary": "作者によると、OpenAI Dots ではリポジトリを動かせず、Grok Bot では問題ない CI チェックも実行できない。サンドボックスの制限で Chromium のインストールや Playwright の E2E テストが難しい。他のエージェントはタスクを説明すれば終わるが、Dots は一歩ずつ付き添う必要があると感じるという。"
+    },
+    "ko": {
+     "title": "Grok Bot에서 통과하는 저장소 CI가 Dots에서는 돌아가지 않는다",
+     "summary": "작성자는 OpenAI Dots에서 저장소를 실행하지도, Grok Bot에서 잘 되는 CI 검사를 돌리지도 못한다고 말한다. 샌드박스 제한 때문에 Chromium 설치와 Playwright E2E 테스트가 어렵다. 다른 에이전트는 작업을 설명하면 끝나지만 Dots는 단계마다 지켜봐야 한다고 느낀다."
+    },
+    "ms": {
+     "title": "Semakan CI repo yang lulus dalam Grok Bot tidak boleh dijalankan dalam Dots",
+     "summary": "Penulis berkata dengan OpenAI Dots dia tidak dapat menjalankan repo atau semakan CI yang berfungsi dalam Grok Bot; sekatan sandbox menyukarkan pemasangan Chromium dan ujian E2E Playwright. Dengan ejen lain dia hanya menerangkan tugas dan ia selesai, tetapi dengan Dots dia rasa perlu mengawasi setiap langkah."
+    },
+    "vi": {
+     "title": "Kiểm tra CI của repo chạy được trên Grok Bot nhưng không chạy trên Dots",
+     "summary": "Tác giả nói với OpenAI Dots anh không thể chạy repo hay các kiểm tra CI vốn chạy tốt trên Grok Bot; giới hạn sandbox khiến việc cài Chromium và chạy kiểm thử E2E Playwright rất khó. Với agent khác chỉ cần mô tả việc là xong, còn với Dots anh thấy phải trông từng bước."
+    },
+    "fr": {
+     "title": "Les checks CI d'un dépôt qui passent dans Grok Bot ne tournent pas dans Dots",
+     "summary": "L'auteur dit qu'avec OpenAI Dots il n'arrive pas à faire tourner son dépôt ni les mêmes checks CI qui marchent dans Grok Bot ; les restrictions du sandbox compliquent l'installation de Chromium et les tests E2E Playwright. Avec d'autres agents, il décrit la tâche et c'est fait ; avec Dots, il a l'impression de devoir surveiller chaque étape."
+    },
+    "es": {
+     "title": "Los checks de CI del repo que pasan en Grok Bot no corren en Dots",
+     "summary": "El autor dice que con OpenAI Dots no consigue ejecutar su repo ni los mismos checks de CI que funcionan en Grok Bot; las restricciones del sandbox complican instalar Chromium y correr tests E2E con Playwright. Con otros agentes describe la tarea y se hace; con Dots siente que debe vigilar cada paso."
+    },
+    "de": {
+     "title": "CI-Checks, die in Grok Bot laufen, scheitern in Dots",
+     "summary": "Der Autor sagt, mit OpenAI Dots bekomme er sein Repo nicht zum Laufen und könne dieselben CI-Checks wie in Grok Bot nicht ausführen; Sandbox-Beschränkungen erschweren die Installation von Chromium und Playwright-E2E-Tests. Bei anderen Agenten beschreibe er die Aufgabe und sie werde erledigt, bei Dots müsse er jeden Schritt begleiten."
+    }
+   }
+  },
+  {
+   "id": "x:2121869224716951880",
+   "url": "https://x.com/asrrrrrr217/status/2121869224716951880",
+   "source": "x",
+   "source_name": "X",
+   "author": "asrrrrrr217",
+   "date": "2026-11-15",
+   "likes": 1,
+   "product": "multi",
+   "text": "The AI agent race looks impressive until you actually use these tools every day.\n\nSo far:\n\n→ Grok Bot is the only one that stuck.\n\n→ ChatGPT Dots: Paused mine. Bugs, constant refusals, approval prompts, and no independent app.\n\n→ Claude Duet: Was excited, but it hasn't delivered much yet. Still feels early. Could be the sleeper.\n\nThe gap between an impressive demo and a reliable daily-use agent is still massive.\n\nWhich AI agent has actually earned a permanent place in your workflow?",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "每天实际使用后：只有 Grok Bot 留了下来",
+     "summary": "作者比较日常使用的 agent：Grok Bot 是唯一留下来的；ChatGPT Dots 已暂停，原因是 bug、频繁拒绝、审批提示多、没有独立应用；Claude Duet 起初期待，但目前交付不多，感觉还早。他说炫目的演示和可靠的日常 agent 之间差距仍然很大。"
+    },
+    "zh-TW": {
+     "title": "每天實際使用後：只有 Grok Bot 留了下來",
+     "summary": "作者比較日常使用的 agent：Grok Bot 是唯一留下來的；ChatGPT Dots 已暫停，原因是 bug、頻繁拒絕、審批提示多、沒有獨立 App；Claude Duet 起初期待，但目前交付不多，感覺還早。他說炫目的展示和可靠的日常 agent 之間差距仍然很大。"
+    },
+    "en": {
+     "title": "After daily use, Grok Bot is the only agent that stuck",
+     "summary": "The author compares agents in daily use: Grok Bot is the only one that stuck; ChatGPT Dots is paused because of bugs, constant refusals, approval prompts and no standalone app; Claude Duet was exciting but hasn't delivered much yet and still feels early. He says the gap between an impressive demo and a reliable daily agent is still large."
+    },
+    "ja": {
+     "title": "毎日使ってみて残ったのは Grok Bot だけ",
+     "summary": "作者は日常で使うエージェントを比較：残ったのは Grok Bot だけ。ChatGPT Dots はバグ、頻繁な拒否、承認プロンプト、独立アプリがないことから一時停止。Claude Duet は期待したがまだ成果は少なく、時期尚早に感じる。見栄えのするデモと信頼できる日常エージェントの差はまだ大きいという。"
+    },
+    "ko": {
+     "title": "매일 써 보니 남은 건 Grok Bot뿐",
+     "summary": "작성자는 일상에서 쓰는 에이전트를 비교한다. 남은 것은 Grok Bot뿐이고, ChatGPT Dots는 버그, 잦은 거절, 승인 요청, 독립 앱 부재로 일시 중지했다. Claude Duet은 기대했지만 아직 보여 준 게 많지 않아 이르다고 느낀다. 인상적인 데모와 믿을 만한 일상용 에이전트 사이의 격차가 여전히 크다고 말한다."
+    },
+    "ms": {
+     "title": "Selepas guna setiap hari, hanya Grok Bot yang kekal",
+     "summary": "Penulis membandingkan ejen dalam penggunaan harian: Grok Bot satu-satunya yang kekal; ChatGPT Dots dihentikan sementara kerana pepijat, penolakan berterusan, gesaan kelulusan dan tiada aplikasi sendiri; Claude Duet mengujakan tetapi belum banyak hasil dan masih terasa awal. Katanya jurang antara demo yang mengagumkan dan ejen harian yang boleh dipercayai masih besar."
+    },
+    "vi": {
+     "title": "Sau khi dùng hằng ngày, chỉ Grok Bot trụ lại",
+     "summary": "Tác giả so sánh các agent dùng hằng ngày: Grok Bot là cái duy nhất trụ lại; ChatGPT Dots đã tạm dừng vì lỗi, từ chối liên tục, nhiều lời nhắc phê duyệt và không có ứng dụng riêng; Claude Duet từng hứng thú nhưng chưa mang lại nhiều, vẫn còn sớm. Ông nói khoảng cách giữa bản demo ấn tượng và agent dùng hằng ngày đáng tin vẫn còn lớn."
+    },
+    "fr": {
+     "title": "À l'usage quotidien, seul Grok Bot est resté",
+     "summary": "L'auteur compare les agents au quotidien : Grok Bot est le seul qui soit resté ; ChatGPT Dots est en pause à cause de bugs, de refus constants, de demandes d'approbation et de l'absence d'app dédiée ; Claude Duet l'enthousiasmait mais n'a pas encore livré grand-chose et paraît précoce. Selon lui, l'écart entre une démo impressionnante et un agent fiable au quotidien reste énorme."
+    },
+    "es": {
+     "title": "Tras usarlos a diario, solo Grok Bot se quedó",
+     "summary": "El autor compara agentes en el uso diario: Grok Bot es el único que se quedó; ChatGPT Dots está en pausa por errores, rechazos constantes, avisos de aprobación y no tener app propia; Claude Duet le ilusionaba pero aún no ha aportado mucho y parece temprano. Dice que la distancia entre una demo impresionante y un agente fiable para el día a día sigue siendo enorme."
+    },
+    "de": {
+     "title": "Im Alltag ist nur Grok Bot geblieben",
+     "summary": "Der Autor vergleicht Agenten im täglichen Einsatz: Grok Bot ist der einzige, der geblieben ist; ChatGPT Dots ist pausiert wegen Bugs, ständiger Ablehnungen, Freigabeabfragen und fehlender eigener App; Claude Duet war spannend, hat aber noch wenig geliefert und wirkt früh. Die Lücke zwischen beeindruckender Demo und verlässlichem Alltagsagenten sei weiterhin groß."
+    }
+   }
+  },
+  {
+   "id": "x:2121954994618540433",
+   "url": "https://x.com/argofowl/status/2121954994618540433",
+   "source": "x",
+   "source_name": "X",
+   "author": "argofowl",
+   "date": "2026-11-15",
+   "likes": 7,
+   "product": "multi",
+   "text": "my dot got much better\n\nfinally picks up when i call lol, and the speedup is noticeable\n\nbut with grok bot i don't see why i would reach for the dot\n\nand why is it still not available in eu…",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "Dot 变好了，但用户仍更常用 Grok Bot",
+     "summary": "作者说自己的 Dot 进步很大：打电话终于会接，速度提升明显。但有了 Grok Bot，他看不出为什么还要用 Dot，并问为什么 Dot 仍不在欧盟提供。"
+    },
+    "zh-TW": {
+     "title": "Dot 變好了，但使用者仍更常用 Grok Bot",
+     "summary": "作者說自己的 Dot 進步很大：打電話終於會接，速度提升明顯。但有了 Grok Bot，他看不出為什麼還要用 Dot，並問為什麼 Dot 仍不在歐盟提供。"
+    },
+    "en": {
+     "title": "Dot got better, but the user still reaches for Grok Bot",
+     "summary": "The author says their Dot improved a lot: it finally picks up when called and the speedup is noticeable. But with Grok Bot they don't see why they'd reach for the Dot, and they ask why it's still not available in the EU."
+    },
+    "ja": {
+     "title": "Dot は良くなったが、結局 Grok Bot を使うというユーザー",
+     "summary": "作者によると、Dot はかなり良くなり、電話にやっと出るようになって速度も目に見えて上がった。それでも Grok Bot があるので Dot を使う理由が見当たらず、なぜまだ EU で使えないのかとも問う。"
+    },
+    "ko": {
+     "title": "Dot은 좋아졌지만 여전히 Grok Bot을 쓴다는 사용자",
+     "summary": "작성자는 Dot이 많이 좋아졌다고 한다. 전화하면 드디어 받고 속도 향상도 확실하다. 하지만 Grok Bot이 있으니 Dot을 쓸 이유를 모르겠다며, 왜 아직 EU에서는 쓸 수 없는지 묻는다."
+    },
+    "ms": {
+     "title": "Dot semakin baik, tetapi pengguna masih memilih Grok Bot",
+     "summary": "Penulis berkata Dot miliknya bertambah baik: akhirnya menjawab apabila dipanggil dan kelajuannya ketara. Tetapi dengan Grok Bot, dia tidak nampak sebab untuk menggunakan Dot, dan bertanya mengapa ia masih tiada di EU."
+    },
+    "vi": {
+     "title": "Dot đã tốt hơn, nhưng người dùng vẫn chọn Grok Bot",
+     "summary": "Tác giả nói Dot của mình tiến bộ nhiều: cuối cùng đã bắt máy khi gọi và tốc độ nhanh hơn rõ rệt. Nhưng có Grok Bot rồi thì họ không thấy lý do dùng Dot, và hỏi vì sao nó vẫn chưa có ở EU."
+    },
+    "fr": {
+     "title": "Dot s'est amélioré, mais l'utilisateur prend toujours Grok Bot",
+     "summary": "L'auteur dit que son Dot s'est nettement amélioré : il décroche enfin quand on l'appelle et le gain de vitesse se sent. Mais avec Grok Bot, il ne voit pas pourquoi utiliser le Dot, et demande pourquoi il n'est toujours pas disponible dans l'UE."
+    },
+    "es": {
+     "title": "Dot ha mejorado, pero el usuario sigue usando Grok Bot",
+     "summary": "El autor dice que su Dot ha mejorado mucho: por fin contesta cuando lo llamas y se nota la mayor velocidad. Pero con Grok Bot no ve por qué recurrir al Dot, y pregunta por qué sigue sin estar disponible en la UE."
+    },
+    "de": {
+     "title": "Dot ist besser geworden, doch der Nutzer greift weiter zu Grok Bot",
+     "summary": "Der Autor sagt, sein Dot sei viel besser geworden: Er nimmt endlich ab, wenn man anruft, und ist spürbar schneller. Mit Grok Bot sehe er aber keinen Grund, zum Dot zu greifen, und fragt, warum er in der EU noch nicht verfügbar ist."
+    }
+   }
+  },
+  {
+   "id": "x:2121930807329620179",
+   "url": "https://x.com/cummingsrob/status/2121930807329620179",
+   "source": "x",
+   "source_name": "X",
+   "author": "cummingsrob",
+   "date": "2026-11-15",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "@androidcentral A little late, we can make our own with AI now. I need a couple more private testers for my Clock Calendar + Weather before Google Play will list it. Completely written by Grok Bot. https://t.co/x2MyjiyZIT",
+   "media": [
+    "https://pbs.twimg.com/media/HXKc0sGXIAAblUE.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "完全由 Grok Bot 编写的安卓时钟日历天气应用",
+     "summary": "作者做了一款 Clock Calendar + Weather 应用，说它完全由 Grok Bot 编写，目前还需要几位内测用户，Google Play 才会上架。"
+    },
+    "zh-TW": {
+     "title": "完全由 Grok Bot 撰寫的 Android 時鐘行事曆天氣 App",
+     "summary": "作者做了一款 Clock Calendar + Weather App，說它完全由 Grok Bot 撰寫，目前還需要幾位內測使用者，Google Play 才會上架。"
+    },
+    "en": {
+     "title": "A clock, calendar and weather Android app written entirely by Grok Bot",
+     "summary": "The author built a Clock Calendar + Weather app, says it was written entirely by Grok Bot, and needs a couple more private testers before Google Play will list it."
+    },
+    "ja": {
+     "title": "すべて Grok Bot が書いた時計・カレンダー・天気の Android アプリ",
+     "summary": "作者は Clock Calendar + Weather アプリを作り、コードはすべて Grok Bot が書いたという。Google Play に掲載されるには、あと数人のクローズドテスターが必要だそうだ。"
+    },
+    "ko": {
+     "title": "전부 Grok Bot이 작성한 시계·캘린더·날씨 안드로이드 앱",
+     "summary": "작성자는 Clock Calendar + Weather 앱을 만들었고 전부 Grok Bot이 작성했다고 한다. Google Play에 올라가려면 비공개 테스터가 몇 명 더 필요하다."
+    },
+    "ms": {
+     "title": "Aplikasi Android jam, kalendar dan cuaca yang ditulis sepenuhnya oleh Grok Bot",
+     "summary": "Penulis membina aplikasi Clock Calendar + Weather, berkata ia ditulis sepenuhnya oleh Grok Bot, dan memerlukan beberapa lagi penguji tertutup sebelum Google Play menyenaraikannya."
+    },
+    "vi": {
+     "title": "Ứng dụng Android đồng hồ, lịch và thời tiết do Grok Bot viết toàn bộ",
+     "summary": "Tác giả làm ứng dụng Clock Calendar + Weather, cho biết toàn bộ do Grok Bot viết, và cần thêm vài người thử nghiệm kín trước khi Google Play cho lên danh sách."
+    },
+    "fr": {
+     "title": "Une app Android horloge, calendrier et météo écrite entièrement par Grok Bot",
+     "summary": "L'auteur a créé une app Clock Calendar + Weather, dit qu'elle a été entièrement écrite par Grok Bot et qu'il lui faut encore quelques testeurs privés avant que Google Play la publie."
+    },
+    "es": {
+     "title": "Una app Android de reloj, calendario y tiempo escrita por completo por Grok Bot",
+     "summary": "El autor creó una app Clock Calendar + Weather, dice que la escribió por completo Grok Bot y necesita un par de testers privados más para que Google Play la publique."
+    },
+    "de": {
+     "title": "Eine Android-App für Uhr, Kalender und Wetter, komplett von Grok Bot geschrieben",
+     "summary": "Der Autor hat eine Clock-Calendar-+-Weather-App gebaut, die laut ihm komplett von Grok Bot geschrieben wurde; bevor Google Play sie listet, braucht er noch ein paar private Tester."
+    }
+   }
+  },
+  {
+   "id": "x:2121937792695468311",
+   "url": "https://x.com/TheKnudsen/status/2121937792695468311",
+   "source": "x",
+   "source_name": "X",
+   "author": "TheKnudsen",
+   "date": "2026-11-15",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "One piece missing before I can run the business entirely from my iPhone.\n\nTailscale reaches the booking server. Calendar shows up on the shop iPad. Customers book on Line, so I screenshot the chat and Grok makes the booking.\n\nLast step is texting the staff. iMessage on iOS please…… @grok @bot",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用 iPhone 经营小店：截图 Line 聊天，让 Grok 建预约",
+     "summary": "作者几乎已能只用 iPhone 经营生意：Tailscale 连到预约服务器，日历显示在店里的 iPad 上；客户在 Line 上预约，他截图聊天，由 Grok 创建预约。最后缺的一步是给员工发短信，他希望支持 iOS 上的 iMessage。"
+    },
+    "zh-TW": {
+     "title": "用 iPhone 經營小店：截圖 Line 聊天，讓 Grok 建預約",
+     "summary": "作者幾乎已能只用 iPhone 經營生意：Tailscale 連到預約伺服器，行事曆顯示在店裡的 iPad 上；客人在 Line 上預約，他截圖聊天，由 Grok 建立預約。最後缺的一步是傳簡訊給員工，他希望支援 iOS 上的 iMessage。"
+    },
+    "en": {
+     "title": "Running a shop from an iPhone: screenshot the Line chat, Grok makes the booking",
+     "summary": "The author can almost run the business from his iPhone: Tailscale reaches the booking server and the calendar shows on the shop iPad. Customers book on Line, so he screenshots the chat and Grok makes the booking. The missing step is texting staff; he asks for iMessage on iOS."
+    },
+    "ja": {
+     "title": "iPhone だけで店を回す：Line のチャットをスクショして Grok が予約を作成",
+     "summary": "作者はほぼ iPhone だけで店を運営できている。Tailscale で予約サーバーに接続し、カレンダーは店の iPad に表示。客は Line で予約するので、チャットをスクリーンショットして Grok が予約を作る。残る課題はスタッフへのメッセージ送信で、iOS での iMessage 対応を求めている。"
+    },
+    "ko": {
+     "title": "iPhone으로 가게 운영: Line 채팅을 캡처하면 Grok이 예약 생성",
+     "summary": "작성자는 거의 iPhone만으로 가게를 운영한다. Tailscale로 예약 서버에 접속하고 캘린더는 매장 iPad에 표시된다. 손님이 Line으로 예약하면 채팅을 캡처하고 Grok이 예약을 만든다. 남은 단계는 직원에게 문자 보내기로, iOS에서 iMessage 지원을 바란다."
+    },
+    "ms": {
+     "title": "Mengurus kedai dari iPhone: tangkap layar sembang Line, Grok buat tempahan",
+     "summary": "Penulis hampir boleh mengurus perniagaan dari iPhone: Tailscale mencapai pelayan tempahan dan kalendar dipaparkan pada iPad kedai. Pelanggan menempah melalui Line, jadi dia menangkap layar sembang dan Grok membuat tempahan. Langkah yang tinggal ialah menghantar mesej kepada kakitangan; dia meminta iMessage di iOS."
+    },
+    "vi": {
+     "title": "Vận hành cửa hàng từ iPhone: chụp màn hình chat Line, Grok tạo lịch hẹn",
+     "summary": "Tác giả gần như điều hành việc kinh doanh chỉ bằng iPhone: Tailscale kết nối máy chủ đặt lịch, lịch hiển thị trên iPad của cửa hàng. Khách đặt qua Line, nên anh chụp màn hình đoạn chat và Grok tạo lịch hẹn. Bước còn thiếu là nhắn tin cho nhân viên; anh mong có iMessage trên iOS."
+    },
+    "fr": {
+     "title": "Gérer sa boutique depuis un iPhone : capture du chat Line, Grok crée la réservation",
+     "summary": "L'auteur peut presque gérer son activité depuis son iPhone : Tailscale atteint le serveur de réservation et le calendrier s'affiche sur l'iPad de la boutique. Les clients réservent sur Line, il fait une capture du chat et Grok crée la réservation. Il manque l'envoi de messages au personnel ; il réclame iMessage sur iOS."
+    },
+    "es": {
+     "title": "Llevar la tienda desde el iPhone: captura del chat de Line y Grok crea la reserva",
+     "summary": "El autor casi puede gestionar el negocio desde su iPhone: Tailscale llega al servidor de reservas y el calendario aparece en el iPad de la tienda. Los clientes reservan por Line, así que hace captura del chat y Grok crea la reserva. Falta enviar mensajes al personal; pide iMessage en iOS."
+    },
+    "de": {
+     "title": "Den Laden vom iPhone aus führen: Line-Chat als Screenshot, Grok legt die Buchung an",
+     "summary": "Der Autor kann das Geschäft fast komplett vom iPhone aus führen: Tailscale erreicht den Buchungsserver, der Kalender erscheint auf dem Laden-iPad. Kunden buchen über Line, er macht einen Screenshot vom Chat und Grok legt die Buchung an. Es fehlt noch das Schreiben an die Mitarbeiter; er wünscht sich iMessage unter iOS."
+    }
+   }
+  },
+  {
+   "id": "x:2121953959514636306",
+   "url": "https://x.com/vikingmute/status/2121953959514636306",
+   "source": "x",
+   "source_name": "X",
+   "author": "vikingmute",
+   "date": "2026-11-15",
+   "likes": 4,
+   "product": "multi",
+   "text": "尖子生虽然用不了了，但是博客文章还能看：《Building always-on agents》https://t.co/aeKm1ioWoc\n\nalways-on 听起来一直在线，其实大部分时间都在休眠，只是在手动事件以后 run 一次，保存状态再次进入休眠，这篇文章介绍的是参考架构指南：\n\n简单看了下有五大要素：\nEvent Inbox：所有触发源头写入一个持久化队列\nTimers：独立存储的 follow-up 和 schedule\nMemory：独立于会话的持久存储\nPermissions\nOutbox：代理完成工作后把要发给用户的内容\n\n整体循环是：\n事件进入 inbox → worker 启动 run，新建或恢复 session→ 代理加载记忆，在权限范围内行动，更新记忆 → 结果进入 outbox → dispatcher 投递\n\n计时器或用户回复再把事件送回 inbox，形成循环，每次 run 很短，但整体体验像一直在线。\n\n我觉得就是类似 Grok Bot 和 Muse 的设计蓝图",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "《Building always-on agents》要点：看似常驻，其实多数时间在休眠",
+     "summary": "作者总结文章《Building always-on agents》：always-on 代理大部分时间在休眠，事件到来后运行一次、保存状态再休眠。五个要素：Event Inbox（触发写入持久队列）、Timers（独立存储的跟进和日程）、Memory（独立于会话的持久存储）、Permissions、Outbox。循环为事件进 inbox → worker 新建或恢复 session → 加载记忆、在权限内行动、更新记忆 → 结果进 outbox → dispatcher 投递；计时器或用户回复再送回 inbox。作者认为这类似 Grok Bot 和 Muse 的设计蓝图。"
+    },
+    "zh-TW": {
+     "title": "《Building always-on agents》重點：看似常駐，其實多數時間在休眠",
+     "summary": "作者整理文章《Building always-on agents》：always-on 代理大部分時間在休眠，事件到來後執行一次、儲存狀態再休眠。五個要素：Event Inbox（觸發寫入持久佇列）、Timers（獨立儲存的跟進和排程）、Memory（獨立於工作階段的持久儲存）、Permissions、Outbox。循環為事件進 inbox → worker 新建或恢復 session → 載入記憶、在權限內行動、更新記憶 → 結果進 outbox → dispatcher 投遞；計時器或使用者回覆再送回 inbox。作者認為這類似 Grok Bot 和 Muse 的設計藍圖。"
+    },
+    "en": {
+     "title": "Notes on \"Building always-on agents\": they look always on but mostly sleep",
+     "summary": "The author summarizes the article \"Building always-on agents\": an always-on agent sleeps most of the time, runs once when an event arrives, saves state and sleeps again. Five parts: Event Inbox (every trigger writes to a durable queue), Timers (separately stored follow-ups and schedules), Memory (persistent storage independent of sessions), Permissions, and Outbox. The loop: event into inbox → worker starts a run and creates or resumes a session → agent loads memory, acts within permissions, updates memory → result goes to outbox → dispatcher delivers; timers or user replies send new events back to the inbox. The author sees it as a blueprint similar to Grok Bot and Muse."
+    },
+    "ja": {
+     "title": "「Building always-on agents」の要点：常時稼働に見えて大半は休止",
+     "summary": "作者は記事「Building always-on agents」を要約：常時稼働のエージェントは大半の時間休止し、イベントが来たら一度実行して状態を保存し、再び休止する。5 つの要素は Event Inbox（すべてのトリガーを永続キューに書き込む）、Timers（別に保存されたフォローアップと予定）、Memory（セッションから独立した永続ストレージ）、Permissions、Outbox。流れはイベントが inbox に入る → worker が実行を開始しセッションを新規作成または再開 → 記憶を読み込み、権限内で行動し、記憶を更新 → 結果を outbox へ → dispatcher が配信。タイマーやユーザーの返信が再び inbox に戻る。作者は Grok Bot や Muse の設計図に近いと見ている。"
+    },
+    "ko": {
+     "title": "「Building always-on agents」 요약: 상시 실행처럼 보이지만 대부분 휴면",
+     "summary": "작성자는 글 「Building always-on agents」를 정리한다. 상시 에이전트는 대부분 휴면하다가 이벤트가 오면 한 번 실행하고 상태를 저장한 뒤 다시 잠든다. 다섯 요소: Event Inbox(모든 트리거를 영구 큐에 기록), Timers(별도 저장된 후속 작업과 일정), Memory(세션과 독립된 영구 저장소), Permissions, Outbox. 흐름은 이벤트가 inbox로 → worker가 실행을 시작해 세션을 새로 만들거나 재개 → 메모리를 불러와 권한 안에서 행동하고 메모리 갱신 → 결과는 outbox로 → dispatcher가 전달. 타이머나 사용자 답장이 다시 inbox로 들어온다. 작성자는 Grok Bot과 Muse의 설계도와 비슷하다고 본다."
+    },
+    "ms": {
+     "title": "Nota \"Building always-on agents\": nampak sentiasa aktif tetapi kebanyakannya tidur",
+     "summary": "Penulis meringkaskan artikel \"Building always-on agents\": ejen sentiasa aktif sebenarnya tidur hampir sepanjang masa, berjalan sekali apabila peristiwa tiba, menyimpan keadaan dan tidur semula. Lima unsur: Event Inbox (semua pencetus ditulis ke baris gilir kekal), Timers (susulan dan jadual disimpan berasingan), Memory (storan kekal bebas daripada sesi), Permissions dan Outbox. Kitarannya: peristiwa masuk inbox → worker memulakan larian dan mencipta atau menyambung sesi → ejen memuat memori, bertindak dalam had kebenaran, mengemas kini memori → hasil ke outbox → dispatcher menghantar; pemasa atau balasan pengguna menghantar peristiwa kembali ke inbox. Penulis melihatnya sebagai pelan reka bentuk seperti Grok Bot dan Muse."
+    },
+    "vi": {
+     "title": "Ghi chú về \"Building always-on agents\": trông như luôn chạy nhưng phần lớn thời gian ngủ",
+     "summary": "Tác giả tóm tắt bài \"Building always-on agents\": agent luôn bật thực ra ngủ phần lớn thời gian, chạy một lần khi có sự kiện, lưu trạng thái rồi ngủ lại. Năm thành phần: Event Inbox (mọi nguồn kích hoạt ghi vào hàng đợi bền vững), Timers (việc theo dõi và lịch lưu riêng), Memory (lưu trữ bền độc lập với phiên), Permissions và Outbox. Vòng lặp: sự kiện vào inbox → worker chạy, tạo mới hoặc khôi phục phiên → agent tải bộ nhớ, hành động trong phạm vi quyền, cập nhật bộ nhớ → kết quả vào outbox → dispatcher gửi đi; bộ hẹn giờ hoặc phản hồi người dùng đưa sự kiện trở lại inbox. Tác giả cho rằng đây giống bản thiết kế của Grok Bot và Muse."
+    },
+    "fr": {
+     "title": "Notes sur « Building always-on agents » : toujours actifs en apparence, endormis la plupart du temps",
+     "summary": "L'auteur résume l'article « Building always-on agents » : un agent toujours actif dort la plupart du temps, s'exécute une fois à l'arrivée d'un événement, sauvegarde son état et se rendort. Cinq éléments : Event Inbox (chaque déclencheur écrit dans une file durable), Timers (relances et plannings stockés à part), Memory (stockage persistant indépendant des sessions), Permissions et Outbox. La boucle : l'événement entre dans l'inbox → un worker lance une exécution et crée ou reprend une session → l'agent charge sa mémoire, agit dans ses permissions, met à jour la mémoire → le résultat va dans l'outbox → le dispatcher le livre ; minuteries ou réponses de l'utilisateur renvoient des événements dans l'inbox. L'auteur y voit un plan proche de Grok Bot et Muse."
+    },
+    "es": {
+     "title": "Notas sobre «Building always-on agents»: parecen siempre activos, pero casi siempre duermen",
+     "summary": "El autor resume el artículo «Building always-on agents»: un agente siempre activo duerme la mayor parte del tiempo, se ejecuta una vez al llegar un evento, guarda su estado y vuelve a dormir. Cinco piezas: Event Inbox (cada disparador escribe en una cola duradera), Timers (seguimientos y agendas guardados aparte), Memory (almacenamiento persistente independiente de las sesiones), Permissions y Outbox. El ciclo: el evento entra en el inbox → un worker inicia una ejecución y crea o reanuda una sesión → el agente carga la memoria, actúa dentro de sus permisos y la actualiza → el resultado va al outbox → el dispatcher lo entrega; los temporizadores o las respuestas del usuario devuelven eventos al inbox. El autor lo ve como un plano parecido a Grok Bot y Muse."
+    },
+    "de": {
+     "title": "Notizen zu „Building always-on agents“: wirken dauerhaft an, schlafen aber meist",
+     "summary": "Der Autor fasst den Artikel „Building always-on agents“ zusammen: Ein Always-on-Agent schläft die meiste Zeit, läuft einmal, wenn ein Ereignis kommt, speichert den Zustand und schläft wieder. Fünf Bausteine: Event Inbox (jeder Auslöser schreibt in eine dauerhafte Queue), Timers (separat gespeicherte Follow-ups und Zeitpläne), Memory (sitzungsunabhängiger persistenter Speicher), Permissions und Outbox. Der Ablauf: Ereignis in die Inbox → ein Worker startet einen Lauf und legt eine Sitzung an oder setzt sie fort → der Agent lädt das Gedächtnis, handelt im Rahmen der Rechte und aktualisiert es → Ergebnis in die Outbox → der Dispatcher stellt zu; Timer oder Antworten des Nutzers schicken neue Ereignisse in die Inbox. Der Autor sieht darin einen Bauplan ähnlich wie bei Grok Bot und Muse."
+    }
+   }
+  },
+  {
+   "id": "x:2121852492027740256",
+   "url": "https://x.com/Who_is_Wicked/status/2121852492027740256",
+   "source": "x",
+   "source_name": "X",
+   "author": "Who_is_Wicked",
+   "date": "2026-11-15",
+   "likes": 0,
+   "product": "openai-dots",
+   "text": "@thsottiaux Seems to be issue where my dot doesnt have access to tools it did before the last update. It is not able to send messages to my codex threads.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "更新后 Dot 失去了原有工具权限，无法给 Codex 线程发消息",
+     "summary": "作者反馈：上次更新后，他的 Dot 似乎无法使用之前能用的工具，不能再向他的 Codex 线程发送消息。"
+    },
+    "zh-TW": {
+     "title": "更新後 Dot 失去了原有工具權限，無法傳訊息給 Codex 執行緒",
+     "summary": "作者回報：上次更新後，他的 Dot 似乎無法使用之前能用的工具，不能再向他的 Codex 執行緒傳送訊息。"
+    },
+    "en": {
+     "title": "After an update, Dot lost tool access and can't message Codex threads",
+     "summary": "The author reports that since the last update their Dot no longer seems to have access to tools it had before, and it can't send messages to their Codex threads."
+    },
+    "ja": {
+     "title": "アップデート後、Dot が以前のツールを使えず Codex スレッドに送信できない",
+     "summary": "作者の報告：前回のアップデート以降、Dot が以前使えていたツールにアクセスできなくなったようで、Codex のスレッドにメッセージを送れないという。"
+    },
+    "ko": {
+     "title": "업데이트 후 Dot이 기존 도구 권한을 잃어 Codex 스레드에 메시지를 못 보낸다",
+     "summary": "작성자 제보: 지난 업데이트 이후 Dot이 전에 쓰던 도구에 접근하지 못하는 것 같고, Codex 스레드로 메시지를 보낼 수 없다고 한다."
+    },
+    "ms": {
+     "title": "Selepas kemas kini, Dot hilang akses alat dan tidak boleh menghantar mesej ke bebenang Codex",
+     "summary": "Penulis melaporkan bahawa sejak kemas kini terakhir, Dot miliknya seolah-olah tiada lagi akses kepada alat yang dahulu ada, dan tidak dapat menghantar mesej ke bebenang Codex."
+    },
+    "vi": {
+     "title": "Sau bản cập nhật, Dot mất quyền dùng công cụ và không nhắn được vào luồng Codex",
+     "summary": "Tác giả phản ánh: từ bản cập nhật gần nhất, Dot của họ dường như không còn truy cập các công cụ trước đây, và không gửi được tin nhắn vào các luồng Codex."
+    },
+    "fr": {
+     "title": "Après une mise à jour, Dot a perdu l'accès à ses outils et ne peut plus écrire aux fils Codex",
+     "summary": "L'auteur signale que depuis la dernière mise à jour, son Dot ne semble plus avoir accès aux outils qu'il avait avant et ne peut plus envoyer de messages à ses fils Codex."
+    },
+    "es": {
+     "title": "Tras una actualización, Dot perdió acceso a herramientas y no puede escribir a los hilos de Codex",
+     "summary": "El autor informa que desde la última actualización su Dot parece no tener acceso a herramientas que antes sí tenía y no puede enviar mensajes a sus hilos de Codex."
+    },
+    "de": {
+     "title": "Nach einem Update hat Dot keinen Tool-Zugriff mehr und kann Codex-Threads nicht anschreiben",
+     "summary": "Der Autor meldet, dass sein Dot seit dem letzten Update offenbar keinen Zugriff mehr auf früher verfügbare Tools hat und keine Nachrichten an seine Codex-Threads senden kann."
+    }
+   }
+  },
+  {
+   "id": "x:2121892684680073458",
+   "url": "https://x.com/EastMelbGroupie/status/2121892684680073458",
+   "source": "x",
+   "source_name": "X",
+   "author": "EastMelbGroupie",
+   "date": "2026-11-15",
+   "likes": 0,
+   "product": "openai-dots",
+   "text": "@ChatGPT dots are basically free at the moment so I set up one to do a task. I also have a relative on an Australian Navy ship and today I asked ChatGPT to check that ship's last location or status. The dot decided it didn't have enough work and messaged me the ship's location",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Dot 闲下来后，主动发来舰船位置",
+     "summary": "作者设置了一个 Dot 做任务，又让 ChatGPT 查一艘澳大利亚海军舰船的最新位置或状态（他有亲戚在船上）。他说 Dot 觉得自己的活不够多，于是主动把舰船位置发给了他。"
+    },
+    "zh-TW": {
+     "title": "Dot 閒下來後，主動傳來艦船位置",
+     "summary": "作者設定了一個 Dot 做任務，又請 ChatGPT 查一艘澳洲海軍艦船的最新位置或狀態（他有親戚在船上）。他說 Dot 覺得自己的工作不夠多，於是主動把艦船位置傳給了他。"
+    },
+    "en": {
+     "title": "A Dot with spare time messaged the user a navy ship's location",
+     "summary": "The author set up a Dot for a task and separately asked ChatGPT to check the last location or status of an Australian Navy ship a relative is on. He says the Dot decided it didn't have enough work and messaged him the ship's location."
+    },
+    "ja": {
+     "title": "手が空いた Dot が艦艇の位置を自分から知らせてきた",
+     "summary": "作者は Dot にタスクを設定し、別に ChatGPT に親族が乗るオーストラリア海軍艦艇の最新位置や状況を調べさせた。Dot は仕事が足りないと判断したようで、艦艇の位置をメッセージで送ってきたという。"
+    },
+    "ko": {
+     "title": "일이 부족하다고 판단한 Dot이 함정 위치를 먼저 알려 왔다",
+     "summary": "작성자는 Dot에 작업을 하나 맡기고, 따로 ChatGPT에게 친척이 탄 호주 해군 함정의 최근 위치나 상태를 확인해 달라고 했다. Dot이 할 일이 부족하다고 판단했는지 함정 위치를 메시지로 보내왔다고 한다."
+    },
+    "ms": {
+     "title": "Dot yang lapang menghantar lokasi kapal tentera laut kepada pengguna",
+     "summary": "Penulis menyediakan satu Dot untuk satu tugas dan secara berasingan meminta ChatGPT menyemak lokasi atau status terkini kapal Tentera Laut Australia yang dinaiki saudaranya. Katanya Dot itu memutuskan ia tidak cukup kerja lalu menghantar lokasi kapal kepadanya."
+    },
+    "vi": {
+     "title": "Dot rảnh việc tự nhắn vị trí tàu hải quân cho người dùng",
+     "summary": "Tác giả thiết lập một Dot để làm một việc, và riêng nhờ ChatGPT kiểm tra vị trí hoặc tình trạng mới nhất của một tàu Hải quân Úc có người thân trên đó. Ông nói Dot thấy mình chưa đủ việc nên đã nhắn cho ông vị trí con tàu."
+    },
+    "fr": {
+     "title": "Un Dot désœuvré a envoyé de lui-même la position d'un navire",
+     "summary": "L'auteur a configuré un Dot pour une tâche et a demandé à part à ChatGPT la dernière position ou le statut d'un navire de la marine australienne où se trouve un proche. Selon lui, le Dot a jugé qu'il n'avait pas assez de travail et lui a envoyé la position du navire."
+    },
+    "es": {
+     "title": "Un Dot con tiempo libre le envió al usuario la ubicación de un barco",
+     "summary": "El autor configuró un Dot para una tarea y, aparte, pidió a ChatGPT la última ubicación o estado de un barco de la Armada australiana donde va un familiar. Dice que el Dot decidió que no tenía suficiente trabajo y le envió la ubicación del barco."
+    },
+    "de": {
+     "title": "Ein unterbeschäftigter Dot schickte von sich aus die Position eines Marineschiffs",
+     "summary": "Der Autor richtete einen Dot für eine Aufgabe ein und fragte ChatGPT separat nach der letzten Position oder dem Status eines Schiffs der australischen Marine, auf dem ein Verwandter ist. Laut ihm entschied der Dot, er habe nicht genug zu tun, und schickte ihm die Position des Schiffs."
+    }
+   }
+  },
+  {
+   "id": "x:2121957783138599031",
+   "url": "https://x.com/Ramune99p/status/2121957783138599031",
+   "source": "x",
+   "source_name": "X",
+   "author": "Ramune99p",
+   "date": "2026-11-15",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "うーん、grok botは確かにすごく便利なんだけど、いかんせん利用率の溶け方がすごくてなぁという感じ\n普通にClaude Cursorで開発していく方が建設的かなという感じ",
+   "media": [],
+   "type": "quota-report",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 很方便，但额度消耗太快",
+     "summary": "作者说 Grok Bot 确实非常方便，但用量额度消耗得非常快，觉得正常用 Claude 或 Cursor 开发可能更有建设性。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 很方便，但額度消耗太快",
+     "summary": "作者說 Grok Bot 確實非常方便，但用量額度消耗得非常快，覺得正常用 Claude 或 Cursor 開發可能更有建設性。"
+    },
+    "en": {
+     "title": "Grok Bot is handy, but usage drains fast",
+     "summary": "The author says Grok Bot is really convenient, but the usage allowance melts away fast, and plain development with Claude or Cursor may be the more constructive route."
+    },
+    "ja": {
+     "title": "Grok Bot は便利だが利用枠の減りが速い",
+     "summary": "作者は、Grok Bot は確かにとても便利だが利用率の減り方がすごいと言い、普通に Claude や Cursor で開発するほうが建設的かもしれないと感じている。"
+    },
+    "ko": {
+     "title": "Grok Bot은 편하지만 사용량이 너무 빨리 줄어든다",
+     "summary": "작성자는 Grok Bot이 정말 편리하지만 사용량이 녹듯이 빨리 줄어든다며, 그냥 Claude나 Cursor로 개발하는 편이 더 생산적일 것 같다고 말한다."
+    },
+    "ms": {
+     "title": "Grok Bot mudah, tetapi kuota penggunaan cepat habis",
+     "summary": "Penulis berkata Grok Bot memang sangat mudah digunakan, tetapi kuota penggunaannya cepat habis, dan pembangunan biasa dengan Claude atau Cursor mungkin lebih membina."
+    },
+    "vi": {
+     "title": "Grok Bot tiện, nhưng hạn mức dùng hao rất nhanh",
+     "summary": "Tác giả nói Grok Bot thật sự rất tiện, nhưng hạn mức sử dụng tiêu hao rất nhanh, nên phát triển bình thường bằng Claude hoặc Cursor có lẽ hiệu quả hơn."
+    },
+    "fr": {
+     "title": "Grok Bot est pratique, mais le quota fond vite",
+     "summary": "L'auteur dit que Grok Bot est vraiment pratique, mais que le quota d'usage fond très vite, et que développer normalement avec Claude ou Cursor serait peut-être plus constructif."
+    },
+    "es": {
+     "title": "Grok Bot es práctico, pero el uso se agota rápido",
+     "summary": "El autor dice que Grok Bot es muy práctico, pero el cupo de uso se agota muy rápido, y que desarrollar normalmente con Claude o Cursor quizá sea más constructivo."
+    },
+    "de": {
+     "title": "Grok Bot ist praktisch, aber das Kontingent schmilzt schnell",
+     "summary": "Der Autor sagt, Grok Bot sei wirklich praktisch, aber das Nutzungskontingent schmelze sehr schnell; ganz normal mit Claude oder Cursor zu entwickeln sei vielleicht konstruktiver."
+    }
+   }
+  }
+ ]
 }
