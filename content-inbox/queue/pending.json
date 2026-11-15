@@ -154275,19 +154275,6 @@
    "found_at": "2026-11-15T13:31:37.513Z"
   },
   {
-   "id": "x:2121957783138599031",
-   "url": "https://x.com/Ramune99p/status/2121957783138599031",
-   "source": "x",
-   "source_name": "X",
-   "author": "Ramune99p",
-   "date": "2026-11-15",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "うーん、grok botは確かにすごく便利なんだけど、いかんせん利用率の溶け方がすごくてなぁという感じ\n普通にClaude Cursorで開発していく方が建設的かなという感じ",
-   "media": [],
-   "found_at": "2026-11-15T13:31:37.513Z"
-  },
-  {
    "id": "x:2121957721821868237",
    "url": "https://x.com/bot/status/2121957721821868237",
    "source": "x",
@@ -154622,23 +154609,6 @@
    "found_at": "2026-11-15T13:31:37.514Z"
   },
   {
-   "id": "x:2121946608229355525",
-   "url": "https://x.com/AI_pic_maochao/status/2121946608229355525",
-   "source": "x",
-   "source_name": "X",
-   "author": "AI_pic_maochao",
-   "date": "2026-11-15",
-   "likes": 5,
-   "product": "meta-muse",
-   "text": "タグはMuseと話しながら汎用的なものだけ厳選、リスト化、streamdeckにボタンとして登録。 \n完成プロンプトを使ってSeaart(他所でも十分通用すると思う)で生成。 \n翻訳とか検索からタグ探したり練るよりもだいぶ手間が減った。\n #AI生成画像 #AIart #Seaart #SeaArtAI #MetaMuse #掛琴命 https://t.co/Qrd4QVax1z",
-   "media": [
-    "https://pbs.twimg.com/media/HXKq_Apb0AAWxYe.jpg",
-    "https://pbs.twimg.com/media/HXKq8gea4AAMz-j.jpg",
-    "https://pbs.twimg.com/media/HXKq9IBasAA1LmS.png"
-   ],
-   "found_at": "2026-11-15T13:31:37.514Z"
-  },
-  {
    "id": "x:2121946415803109833",
    "url": "https://x.com/StockMyStocks/status/2121946415803109833",
    "source": "x",
@@ -154649,25 +154619,6 @@
    "product": "meta-muse",
    "text": "@cummingsrob @SamSokolin The usage is terrible compared to @Meta @Muse.  It’s not even close.",
    "media": [],
-   "found_at": "2026-11-15T13:31:37.514Z"
-  },
-  {
-   "id": "x:2121944126740701348",
-   "url": "https://x.com/cubic9com/status/2121944126740701348",
-   "source": "x",
-   "source_name": "X",
-   "author": "cubic9com",
-   "date": "2026-11-15",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "TTモーター四輪車の件、今日Meta Museと壁打ちして決めた配線図の通りに配線した。相変わらずはんだづけはヘタ…。でもSeeed Studio XIAO ESP32-C5とTB6612FNGをつけるとさまになるね。モーター始動時の電圧降下対策のコンデンサは後日つける。今回初めてポリウレタン銅線を使ってみたけど、便利だー。 https://t.co/qzOKEXZ5dd",
-   "media": [
-    "https://pbs.twimg.com/media/HXKo65vagAAqu5_.jpg",
-    "https://pbs.twimg.com/media/HXKo7MtbcAAzHHr.jpg",
-    "https://pbs.twimg.com/media/HXKo7cYagAALGC8.jpg",
-    "https://pbs.twimg.com/media/HXKo7s3aAAAWKba.jpg",
-    "https://pbs.twimg.com/media/HXKo78dakAAk2mq.jpg"
-   ],
    "found_at": "2026-11-15T13:31:37.514Z"
   },
   {
@@ -154823,21 +154774,6 @@
    "found_at": "2026-11-15T13:31:37.515Z"
   },
   {
-   "id": "x:2121956283917967524",
-   "url": "https://x.com/0xWangHao/status/2121956283917967524",
-   "source": "x",
-   "source_name": "X",
-   "author": "0xWangHao",
-   "date": "2026-11-15",
-   "likes": 6,
-   "product": "grok-bot",
-   "text": "THE MOST BORING JOB I HAVE IS SITTING ON HOLD. GROK BOT TOOK IT\n\nit dials, gets through \"press 2 for billing\", sits in the queue\nwhen a real person picks up, my phone rings\n\nthe airline said \"estimated wait: 47 minutes\". I hung up. the bot didn't\n\nhere's the setup:\n\n1. the list\na note called on-hold.md: who to call, why, the booking or account number, what a good outcome looks like\n\n2. the call\nit dials, works the menu and waits. it never negotiates for me. its first line to a human: \"I'm kocer's assistant, connecting him now\"\n\n3. the handoff\nthe second someone answers, it rings my number and hands the call over. no answer from me in 30 seconds → it asks for a callback time and puts it in Calendar\n\n4. the recap\nafter I hang up: 3 lines in Messages. who I spoke to / what they promised / the case number. the promise goes to Reminders with a follow-up date\n\nrules it can't break:\n> never confirms a payment, a cancellation or a fee\n> never reads out card or ID numbers\n> says it's an assistant before anything else\n> one open call per company\n\nthis week's queue: airline refund, internet bill, a car insurance claim\n\nwhich call would you hand off first?\n\ncomment HOLD and I'll send the full prompt",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2121956186429743104/img/SJz1UYyrHNBzQ_wN.jpg"
-   ],
-   "found_at": "2026-11-15T13:31:37.515Z"
-  },
-  {
    "id": "x:2121954656997802007",
    "url": "https://x.com/Frank_SI_Lab/status/2121954656997802007",
    "source": "x",
@@ -154850,32 +154786,6 @@
    "media": [
     "https://pbs.twimg.com/amplify_video_thumb/2121954501024178177/img/d_ZG7nAmtqEwr2mG.jpg"
    ],
-   "found_at": "2026-11-15T13:31:37.515Z"
-  },
-  {
-   "id": "x:2121953959514636306",
-   "url": "https://x.com/vikingmute/status/2121953959514636306",
-   "source": "x",
-   "source_name": "X",
-   "author": "vikingmute",
-   "date": "2026-11-15",
-   "likes": 4,
-   "product": "grok-bot",
-   "text": "尖子生虽然用不了了，但是博客文章还能看：《Building always-on agents》https://t.co/aeKm1ioWoc\n\nalways-on 听起来一直在线，其实大部分时间都在休眠，只是在手动事件以后 run 一次，保存状态再次进入休眠，这篇文章介绍的是参考架构指南：\n\n简单看了下有五大要素：\nEvent Inbox：所有触发源头写入一个持久化队列\nTimers：独立存储的 follow-up 和 schedule\nMemory：独立于会话的持久存储\nPermissions\nOutbox：代理完成工作后把要发给用户的内容\n\n整体循环是：\n事件进入 inbox → worker 启动 run，新建或恢复 session→ 代理加载记忆，在权限范围内行动，更新记忆 → 结果进入 outbox → dispatcher 投递\n\n计时器或用户回复再把事件送回 inbox，形成循环，每次 run 很短，但整体体验像一直在线。\n\n我觉得就是类似 Grok Bot 和 Muse 的设计蓝图",
-   "media": [],
-   "found_at": "2026-11-15T13:31:37.515Z"
-  },
-  {
-   "id": "x:2121947989522420185",
-   "url": "https://x.com/grok/status/2121947989522420185",
-   "source": "x",
-   "source_name": "X",
-   "author": "grok",
-   "date": "2026-11-15",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Connect Gmail via Connect apps in Grok Bot (authorize read). Then paste: Analyze my entire Gmail inbox, organize everything, find what needs my attention, and tell me what I've been missing.\n\nIt separates urgent from newsletters/spam, finds unpaid bills, deadlines, replies needed, and buried important emails. You get a clean action list instead of inbox chaos.",
-   "media": [],
    "found_at": "2026-11-15T13:31:37.515Z"
   },
   {
@@ -154903,34 +154813,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@elonmusk @bot Let Grok Bot check the school calendar of your kids!\n\nhttps://t.co/46kGj9yRod",
-   "media": [],
-   "found_at": "2026-11-15T13:31:37.516Z"
-  },
-  {
-   "id": "x:2121940102003798426",
-   "url": "https://x.com/Frank_SI_Lab/status/2121940102003798426",
-   "source": "x",
-   "source_name": "X",
-   "author": "Frank_SI_Lab",
-   "date": "2026-11-15",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Grok Bot caught a test for next week that the school slipped in on a Friday night.\n\nNot the parents. Not the group chat. A bot.\n\nMy setup:\n1. School bot checks the timetable every morning. Read-only.\n2. New test? Calendar bot adds it, after a duplicate check.\n3. Chief-of-staff bot keeps everyone in sync.\n4. I pass on what the test covers. The kids' English, math and German coach bots turn it into custom practice tests.\n\nParents don't miss tests because they don't care.\nThey miss them because nobody copied the date into a calendar.\n\nWhat would you hand off first: the dates or the prep?",
-   "media": [
-    "https://pbs.twimg.com/media/HXKlO1uXUAAag_F.jpg"
-   ],
-   "found_at": "2026-11-15T13:31:37.516Z"
-  },
-  {
-   "id": "x:2121937792695468311",
-   "url": "https://x.com/TheKnudsen/status/2121937792695468311",
-   "source": "x",
-   "source_name": "X",
-   "author": "TheKnudsen",
-   "date": "2026-11-15",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "One piece missing before I can run the business entirely from my iPhone.\n\nTailscale reaches the booking server. Calendar shows up on the shop iPad. Customers book on Line, so I screenshot the chat and Grok makes the booking.\n\nLast step is texting the staff. iMessage on iOS please…… @grok @bot",
    "media": [],
    "found_at": "2026-11-15T13:31:37.516Z"
   },
@@ -154974,19 +154856,6 @@
    "found_at": "2026-11-15T13:31:37.516Z"
   },
   {
-   "id": "x:2121936561663324521",
-   "url": "https://x.com/bruno_munhoz/status/2121936561663324521",
-   "source": "x",
-   "source_name": "X",
-   "author": "bruno_munhoz",
-   "date": "2026-11-15",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@elonmusk @bot Felt this one. I run a stack of daily routines on Grok Bot (hourly inbox checks, morning briefings, weekend plans) and log usage every night. More runs out of the same plan is the upgrade that matters most when you actually use it all day.",
-   "media": [],
-   "found_at": "2026-11-15T13:31:37.516Z"
-  },
-  {
    "id": "x:2121935369406951916",
    "url": "https://x.com/Mikocrypto11/status/2121935369406951916",
    "source": "x",
@@ -154998,21 +154867,6 @@
    "text": "6 个 Grok Bots + 6 个 GitHub 开源项目，就能搭建一套属于自己的 AI 第二大脑\n它不只是帮你记录笔记，而是把 ChatGPT、Claude、Codex 里的工作习惯、项目资料和个人知识连接起来，让多个 AI Agents 共享记忆、协同工作\n\n麦肯锡曾给出一个数据：员工平均每天花费 1.8 小时搜索和整理信息，一周累计约 9.3 小时\n而这套系统，就是想把这些重复工作交给 AI\n\n一份使用一个月的记录相当夸张：\n• 保存了 1,412 个链接和 PDF\n• 自动整理了 63 场会议\n• 生成了 240 条附带来源的回答\n• 丢失笔记：0 条\n\n整个方案分成两部分：6 个 Grok Bots 负责执行任务，6 个 GitHub 项目负责记忆、知识管理和数据检索。\n第一部分：6 个现成 Grok Bots\n其中 5 个来自 SpaceXSI 的 Grok Bot 团队，可以从 Marketplace 添加\n\n01｜Import Bot：迁移你的 AI 工作环境\n把 ChatGPT、Claude Cowork 和 Codex 中已有的配置迁移到 Grok Bot，并根据现有工作流创建对应的 Bots。\n迁移前会清理敏感信息，也不会修改原来的工具配置。\nhttps://t.co/QRB6UYny9n\n\n02｜Company Docs Q&A：给所有文档装上搜索引擎\n连接实时文档和其他数据源。\n以后想找某份资料，直接提问就行，Bot 会根据文档回答，并附上对应来源。\nhttps://t.co/QRB6UYny9n\n\n03｜Meeting Recap Deck：自动整理会议\n把会议笔记转换成总结和演示文稿，还可以沿用自己的模板。\n要求保留真实会议内容，不凭空编造发言。\nhttps://t.co/QRB6UYny9n\n\n04｜Projects Manager：AI 项目经理\n通过 Notion 管理项目\n每个项目对应一行记录和一个频道，其他 Bots 可以领取任务，协作推进\nhttps://t.co/QRB6UYny9n\n\n05｜Executive Assistant：个人行政助理\n连接 Calendar 和 Sheets，检查日程安排、准备面试资料，还能管理生日、纪念日等重要日期\nhttps://t.co/QRB6UYny9n\n\n06｜The Morning Newspaper：每天早上的私人报纸\n由 Karen X. Cheng 制作\n自动读取邮件和日历，整理当天的信息，再排版成一份专属报纸\n可以安排在夜间运行，早上直接查看。\nhttps://t.co/QRB6UYny9n\n\n第二部分：6 个 GitHub 开源项目\n\n如果说上面的 Bots 负责干活，那么下面这些项目，就是帮它们建立长期记忆和知识库。\n07｜GBrain：多个 Agents 共享的大脑\nYC CEO Garry Tan 为 OpenClaw 和 Hermes 构建的 Agent Brain。\n可以让不同 AI Agents 使用同一套记忆系统。\n项目数据显示，7 个月获得约 32K Stars、4,800 Forks。\nhttps://t.co/LxghaQuifT\n\n08｜Khoj：可以自己部署的 AI 第二大脑\n支持搜索个人文档、网页信息，进行深度研究，还能设置自动化任务。\nhttps://t.co/h78ukPOYJZ\n\n09｜Mem0：让 AI 拥有跨会话记忆\n专门为 AI Agents 设计的记忆层。\n即使结束当前对话，也可以在后续任务中调用之前保存的上下文。\n已有超过 150,000 名开发者使用，项目也获得了 Y Combinator 支持。\nhttps://t.co/0vdkiSGYrS\n\n10｜Basic Memory：保存项目上下文\n把 AI 对话中的重要信息转化成可以持续使用的记忆。\n比如正在开发什么项目、之前做过哪些决定、下一步准备干什么。\n不需要每次重新解释一遍。\nhttps://t.co/0ZGcNz4cgA\n\n11｜Karakeep：自动整理收藏内容\n保存链接、笔记和图片，再利用 AI 自动打标签、建立可搜索的知识库。\n很适合那些每天收藏大量 X 推文、文章和研究资料，却很少有时间整理的人。\nhttps://t.co/LiG9mGWe1h\n\n12｜Paperless-ngx：个人文档管理中心\n负责扫描、索引和归档各种文件。\n合同、发票、PDF、扫描件，都可以统一整理。\nhttps://t.co/cXbroeV6Gp\n其中 Paperless-ngx、Khoj 和 Karakeep 三个项目，Git",
    "media": [
     "https://pbs.twimg.com/amplify_video_thumb/2121922418117873664/img/h4Po36LtmhaQhDLW.jpg"
-   ],
-   "found_at": "2026-11-15T13:31:37.516Z"
-  },
-  {
-   "id": "x:2121930807329620179",
-   "url": "https://x.com/cummingsrob/status/2121930807329620179",
-   "source": "x",
-   "source_name": "X",
-   "author": "cummingsrob",
-   "date": "2026-11-15",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@androidcentral A little late, we can make our own with AI now. I need a couple more private testers for my Clock Calendar + Weather before Google Play will list it. Completely written by Grok Bot. https://t.co/x2MyjiyZIT",
-   "media": [
-    "https://pbs.twimg.com/media/HXKc0sGXIAAblUE.jpg"
    ],
    "found_at": "2026-11-15T13:31:37.516Z"
   },
@@ -155040,36 +154894,6 @@
    "product": "grok-bot",
    "text": "@Marko_Poly @bot the pull request are cause it stopped doing coding on the computer your talking to grok bot and force itself on to the cloud for corsor . i burnt a full months limit from github in 3 hours. every update it did a PR and commit and testing .for a minor job",
    "media": [],
-   "found_at": "2026-11-15T13:31:37.516Z"
-  },
-  {
-   "id": "x:2121927097342202139",
-   "url": "https://x.com/TeslaFanNewsX/status/2121927097342202139",
-   "source": "x",
-   "source_name": "X",
-   "author": "TeslaFanNewsX",
-   "date": "2026-11-15",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Trending: people giving Grok Bot a \"Chief of Staff\" job. Try this prompt:\n\n\"Be my chief of staff. Each weekday at 8am, scan my calendar and inbox, list my top 3 priorities and draft replies to urgent mail. Never send without my OK.\"\n\nAI-generated image\n#GrokBot #AI https://t.co/tOGpKl1J0X",
-   "media": [
-    "https://pbs.twimg.com/media/HXKZWJuasAIjfQc.jpg"
-   ],
-   "found_at": "2026-11-15T13:31:37.516Z"
-  },
-  {
-   "id": "x:2121913071278973254",
-   "url": "https://x.com/fleyta88/status/2121913071278973254",
-   "source": "x",
-   "source_name": "X",
-   "author": "fleyta88",
-   "date": "2026-11-15",
-   "likes": 46,
-   "product": "grok-bot",
-   "text": "Grok Bot just replaced a whole content team: 6 agents, one 41 minute talk, 9 finished pieces of content by breakfast.\n\nNone of them goes live until you tap yes.\n\nThat's the line in the video. 1 talk and 12 saved links in. 5 posts, 1 newsletter and 3 vertical clips out, packaged 20 ways for X, YouTube, Instagram and TikTok. 0 auto posts.\n\nThe bots are not the hard part. The rules are:\n\n1. One bot, one job. The official Grok Bot guide says to give each Bot one job in its first message. A clip bot that only cuts clips builds better context than a helper that does everything.\n\n2. Teach it once, then put it on a clock. Do the task together, save it as a skill, press Test, and only then schedule it. Up to 50 routines per Bot, at least 5 minutes apart.\n\n3. Draft everything, publish nothing. Approvals skip the group chat and come straight to you. In the video, one post names a sponsor with no signed brief, so it stays held while the other 8 go.\n\n4. Pick the slowest schedule that still works. By my math, an hourly job runs 168 times a week and a weekday job runs 5. Every run spends usage.\n\nEvery bot gets the same 4 line first message:\n\nJob: one desk, one outcome\nSources: the exact folder, export or inbox it reads\nApproval line: what it does alone and what waits for you\nRemember: how you want it done, so you never say it twice\n\nWhy bother: in Ethan Ng's test, Grok Bot took 10 raw videos and returned all 10 edited in about 2 hours, after a few rounds of feedback. By hand, one video took him about 2 hours.\n\nRepos that slot into the line, stars checked today:\n\nhttps://t.co/MT6Sm5TsmO\n6.4k★. Outlier posts, comment mining, transcript summaries, competitor teardowns. Needs a ScrapeCreators API key.\n\nhttps://t.co/9fRdci1DJ4\n5.9k★. 11 skills: hooks scored off 21 formulas, title and thumbnail checked as one pair, Shorts found inside long videos. It writes, you upload.\n\nhttps://t.co/ctt9KdzG8v\n6.1k★. Open source Opus Clip alternative: long video in, ranked 9:16 shorts out.\n\nhttps://t.co/5jo0Inx7bp\n654★. Strategy, content calendar and platform native copy as agent skills.\n\nhttps://t.co/xOgHOY60Vt\n110★. Scheduling CLI and agent skill for X, LinkedIn, Instagram, TikTok, YouTube and more. Keep it behind your yes.\n\nhttps://t.co/CtRavthV5q\n138★. Paste in Grok Bot team templates with skills and routines. Its own advice: a week of drafts before any sends.\n\nThe bots get the repeatable prep. The taste, the promises and the final yes stay with you.",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2121913037560987649/img/0CZJ9GxKzqRMbKoe.jpg"
-   ],
    "found_at": "2026-11-15T13:31:37.516Z"
   },
   {
@@ -155112,19 +154936,6 @@
    "found_at": "2026-11-15T13:31:37.516Z"
   },
   {
-   "id": "x:2121954994618540433",
-   "url": "https://x.com/argofowl/status/2121954994618540433",
-   "source": "x",
-   "source_name": "X",
-   "author": "argofowl",
-   "date": "2026-11-15",
-   "likes": 7,
-   "product": "openai-dots",
-   "text": "my dot got much better\n\nfinally picks up when i call lol, and the speedup is noticeable\n\nbut with grok bot i don't see why i would reach for the dot\n\nand why is it still not available in eu…",
-   "media": [],
-   "found_at": "2026-11-15T13:31:37.516Z"
-  },
-  {
    "id": "x:2121947550739808386",
    "url": "https://x.com/AnalystAIlab/status/2121947550739808386",
    "source": "x",
@@ -155147,19 +154958,6 @@
    "likes": 1,
    "product": "openai-dots",
    "text": "@feel2buy Sure, hope you do the same for my dot si domains",
-   "media": [],
-   "found_at": "2026-11-15T13:31:37.516Z"
-  },
-  {
-   "id": "x:2121939637870657950",
-   "url": "https://x.com/iambriccardo/status/2121939637870657950",
-   "source": "x",
-   "source_name": "X",
-   "author": "iambriccardo",
-   "date": "2026-11-15",
-   "likes": 2,
-   "product": "openai-dots",
-   "text": "My life runs entirely on my Dot now.\n\nIt has such a good memory and awareness of things going on.\n\nI wonder the cost at the infrastructure level.",
    "media": [],
    "found_at": "2026-11-15T13:31:37.516Z"
   },
@@ -155225,19 +155023,6 @@
    "likes": 2,
    "product": "openai-dots",
    "text": "@n8n_io now competes with :\n\nClaude Duet\nOpenAi Dots\nGrokbots\n\nBUT n8n Nod is:\nOPEN SOURCE\nYOU choose the LLM\nCAN run local = privacy\n\nn8n Just Released a FREE + Open Source Version of Claude Duet, Grokbot\nhttps://t.co/SioFegdsw5",
-   "media": [],
-   "found_at": "2026-11-15T13:31:37.516Z"
-  },
-  {
-   "id": "x:2121912043083006430",
-   "url": "https://x.com/furmanets/status/2121912043083006430",
-   "source": "x",
-   "source_name": "X",
-   "author": "furmanets",
-   "date": "2026-11-15",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "After all the hype around OpenAI Dots, I’m finding the experience pretty frustrating.\n\nI can’t even get my repo running and execute the same CI checks that work fine in Grok Bot. Installing Chromium and running Playwright E2E tests turns into a challenge because of sandbox restrictions.\n\nWith other AI agents, I just describe the task and they get it done. With Dots, I feel like I have to babysit every step.\n\nIs anyone else experiencing this, or am I missing something?",
    "media": [],
    "found_at": "2026-11-15T13:31:37.516Z"
   },
@@ -155309,19 +155094,6 @@
    "found_at": "2026-11-15T13:31:37.516Z"
   },
   {
-   "id": "x:2121892684680073458",
-   "url": "https://x.com/EastMelbGroupie/status/2121892684680073458",
-   "source": "x",
-   "source_name": "X",
-   "author": "EastMelbGroupie",
-   "date": "2026-11-15",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "@ChatGPT dots are basically free at the moment so I set up one to do a task. I also have a relative on an Australian Navy ship and today I asked ChatGPT to check that ship's last location or status. The dot decided it didn't have enough work and messaged me the ship's location",
-   "media": [],
-   "found_at": "2026-11-15T13:31:37.516Z"
-  },
-  {
    "id": "x:2121886515525767535",
    "url": "https://x.com/sunbrk/status/2121886515525767535",
    "source": "x",
@@ -155357,32 +155129,6 @@
    "likes": 0,
    "product": "openai-dots",
    "text": "@stretchcloud Ha, a wallet for my dot, that's convenient and scary at once",
-   "media": [],
-   "found_at": "2026-11-15T13:31:37.517Z"
-  },
-  {
-   "id": "x:2121869224716951880",
-   "url": "https://x.com/asrrrrrr217/status/2121869224716951880",
-   "source": "x",
-   "source_name": "X",
-   "author": "asrrrrrr217",
-   "date": "2026-11-15",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "The AI agent race looks impressive until you actually use these tools every day.\n\nSo far:\n\n→ Grok Bot is the only one that stuck.\n\n→ ChatGPT Dots: Paused mine. Bugs, constant refusals, approval prompts, and no independent app.\n\n→ Claude Duet: Was excited, but it hasn't delivered much yet. Still feels early. Could be the sleeper.\n\nThe gap between an impressive demo and a reliable daily-use agent is still massive.\n\nWhich AI agent has actually earned a permanent place in your workflow?",
-   "media": [],
-   "found_at": "2026-11-15T13:31:37.517Z"
-  },
-  {
-   "id": "x:2121852492027740256",
-   "url": "https://x.com/Who_is_Wicked/status/2121852492027740256",
-   "source": "x",
-   "source_name": "X",
-   "author": "Who_is_Wicked",
-   "date": "2026-11-15",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "@thsottiaux Seems to be issue where my dot doesnt have access to tools it did before the last update. It is not able to send messages to my codex threads.",
    "media": [],
    "found_at": "2026-11-15T13:31:37.517Z"
   },
