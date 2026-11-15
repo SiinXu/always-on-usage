@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2605 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2622 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-15T13:38:04.852Z
+- Last updated: 2026-11-15T23:46:32.650Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3217,6 +3217,81 @@
 - URL: https://usage.incidental.site/cases/x-eastmelbgroupie-2121892684680073458.html
 - Type: field-case · Product: openai-dots · Author: EastMelbGroupie · Source: https://x.com/EastMelbGroupie/status/2121892684680073458 · Date: 2026-11-15
 - Summary: The author set up a Dot for a task and separately asked ChatGPT to check the last location or status of an Australian Navy ship a relative is on. He says the Dot decided it didn't have enough work and messaged him the ship's location.
+
+### Observation: at small startups, ops, sales and support are turning into managing agents
+- URL: https://usage.incidental.site/cases/x-immad-2122061360960086336.html
+- Type: field-case · Product: multi · Author: immad · Source: https://x.com/immad/status/2122061360960086336 · Date: 2026-11-15
+- Summary: The author says that at small startups he sees people no longer doing ops, sales and support by hand but mostly managing agents such as Grok Bot and ChatGPT Dots to do it. His takeaways: everyone should learn these tools, these roles will see productivity booms, token demand will rise further over the next 12 months, and jobs will shift from doing the work to training and managing the agents that do it.
+
+### 4 standing instructions to give a Grok Bot team on day one
+- URL: https://usage.incidental.site/cases/x-michaelfenech-2122057297891574249.html
+- Type: guide · Product: grok-bot · Author: Michael_Fenech_ · Source: https://x.com/Michael_Fenech_/status/2122057297891574249 · Date: 2026-11-15
+- Summary: The author shares a prompt to paste into your Chief of Staff that rolls out 4 standing instructions across the bot team: 1) check the connected app that owns any changeable date, price, number or status, and say so if it can't be verified; 2) show the result with a link to the file, record or confirmation, and name any part still open; 3) say whether the check worked, such as which inbox was searched and how far back, or that the inbox didn't load; 4) do reversible work inside the brief, but confirm authorisation before sending, spending, deleting or committing. It ends by asking which bots were updated and which still need attention.
+
+### Building an open-source Grok Bot clone in Rust, self-hosted on a VPS
+- URL: https://usage.incidental.site/cases/x-davidondrej1-2122107570538082502.html
+- Type: field-case · Product: grok-bot · Author: DavidOndrej1 · Source: https://x.com/DavidOndrej1/status/2122107570538082502 · Date: 2026-11-15
+- Summary: The author says he reverse engineered Grok Bot, built his own open-source version in Rust with Opus 5.5, self-hosted it on a VPS, and shows exactly how in a video.
+
+### A weekly 'screen time report' for 7 Grok Bot agents: inbox, support, trends, threads, leads, bugs
+- URL: https://usage.incidental.site/cases/x-endelmass-2122058822496006490.html
+- Type: field-case · Product: grok-bot · Author: endelmass · Source: https://x.com/endelmass/status/2122058822496006490 · Date: 2026-11-15
+- Summary: The author's own iPhone report showed 3h 41m a day, mostly scrolling. He opened the same kind of report for his 7 Grok Bot agents: Sorter sorts his inbox and flags only what needs him; Support Desk answers tickets from his docs and holds refunds for his ok; Scout watches trends and drafts post angles; Threadwriter turns them into thread drafts for review; Booker follows up leads and books calls only after he accepts; Bug Hunter opens fixes as PRs but never merges; Verifier tests every fix before a merge. The last card shows his own time, including every approval, since nothing is sent without his ok.
+
+### A Dot surfaces photos the author had forgotten taking
+- URL: https://usage.incidental.site/cases/x-yungcontent-2122036642945130751.html
+- Type: field-case · Product: openai-dots · Author: yungcontent · Source: https://x.com/yungcontent/status/2122036642945130751 · Date: 2026-11-15
+- Summary: The author says his Dot just reminded him of photos he had taken and forgotten about, with a screenshot attached.
+
+### On each Grok Bot release, Grok Bot fuzzes the app like a real user and auto-merges fix PRs
+- URL: https://usage.incidental.site/cases/x-kaiz294-2122073236728926549.html
+- Type: field-case · Product: grok-bot · Author: Kaiz_294 · Source: https://x.com/Kaiz_294/status/2122073236728926549 · Date: 2026-11-15
+- Summary: The post quotes Lauren: whenever the Grok Bot team cuts a new release, Grok Bot spins up a Cursor project that fuzzes the whole app and build by running it like a real user, opens a fix PR for each bug it finds and auto-merges them. She says solid foundations and good architecture let you ship at high velocity without compromising quality.
+
+### After Grok Bot did the meal plan, calendar and groceries, his wife started her own bot team
+- URL: https://usage.incidental.site/cases/x-garrisonjames-2122078162700169293.html
+- Type: field-case · Product: grok-bot · Author: garrison_james · Source: https://x.com/garrison_james/status/2122078162700169293 · Date: 2026-11-15
+- Summary: The author says his wife rolled her eyes for weeks until he had Grok Bot make their meal plan, populate the calendar and order the groceries. She had her own Grok Bot team the next day.
+
+### Letting a Dot manage Home Assistant makes upkeep and self-healing easy
+- URL: https://usage.incidental.site/cases/x-andrewginns-2122042538182008906.html
+- Type: field-case · Product: openai-dots · Author: AndrewGinns · Source: https://x.com/AndrewGinns/status/2122042538182008906 · Date: 2026-11-15
+- Summary: The author says that now his Dot manages Home Assistant for him, it has been a breeze to manage and self heal.
+
+### $30 of inference: Grok Bot turns a floor plan and inspiration board into a renovation preview
+- URL: https://usage.incidental.site/cases/x-gkhalin-2122073153098719379.html
+- Type: field-case · Product: grok-bot · Author: gkhalin · Source: https://x.com/gkhalin/status/2122073153098719379 · Date: 2026-11-15
+- Summary: The author wanted to see his apartment after renovation. Through Grok Bot he fed xAI Grok 4.7 his floor plan, first reconstructed a 3D model, then gave it the model plus a link to the home design inspiration board he had collected on Savee for months. After 5 iterations using voice input he was happy with the result. He says it took about $30 of inference; a professional would still have plenty to figure out, but he can now say what he wants with much less ambiguity.
+
+### Turn the iPhone Action Button into a Grok Bot button for one-press voice chat
+- URL: https://usage.incidental.site/cases/x-theaigrandpa-2122110969744879622.html
+- Type: guide · Product: grok-bot · Author: theaigrandpa · Source: https://x.com/theaigrandpa/status/2122110969744879622 · Date: 2026-11-15
+- Summary: The author suggests making the iPhone Action Button a Grok Bot button: per @bot, on a 15 Pro or newer one press starts a voice chat. With arms full of groceries, press it and say "Remind me at 6 to take the chicken out."
+
+### A cheap Grok Bot habit: cap the length of a routine's report
+- URL: https://usage.incidental.site/cases/x-staceyroestel-2122110933791133832.html
+- Type: guide · Product: grok-bot · Author: _staceyroestel · Source: https://x.com/_staceyroestel/status/2122110933791133832 · Date: 2026-11-15
+- Summary: The author suggests capping a routine's report, for example "Five lines max": every run stays short to write and quick to read, and you can still ask for detail on the one item that needs it.
+
+### A standing instruction for a Dot: look for and test coupon codes on every cart
+- URL: https://usage.incidental.site/cases/x-kolencherry-2122054191376208013.html
+- Type: guide · Product: openai-dots · Author: kolencherry · Source: https://x.com/kolencherry/status/2122054191376208013 · Date: 2026-11-15
+- Summary: The author shares a persistent instruction he gave his Dot: whenever it assembles a cart for him, look for discounts or coupon codes and try applying them to see if they work.
+
+### Using a Dot to watch a list of items for sales, with Costco receipt refunds next
+- URL: https://usage.incidental.site/cases/x-kolencherry-2122055165473665109.html
+- Type: field-case · Product: openai-dots · Author: kolencherry · Source: https://x.com/kolencherry/status/2122055165473665109 · Date: 2026-11-15
+- Summary: The author says some stores rarely have discount codes, and he also keeps a list of items his Dot monitors for sales. Next he wants to figure out phone-use so the Dot can monitor his Costco receipts for in-store markdowns and get a partial refund.
+
+### User complaint: a Dot didn't flag a ground stop before he left for the airport
+- URL: https://usage.incidental.site/cases/x-wyattcupp-2122098739317968992.html
+- Type: field-case · Product: openai-dots · Author: wyattcupp · Source: https://x.com/wyattcupp/status/2122098739317968992 · Date: 2026-11-15
+- Summary: The author says his Dot didn't let him know about the ground stop before he headed to the airport, and he questions why he is paying for it.
+
+### Giving Siri Tessie's basic car functions, faster than asking Grok Bot when away from the car
+- URL: https://usage.incidental.site/cases/x-mweinbach-2122110159245737997.html
+- Type: field-case · Product: grok-bot · Author: mweinbach · Source: https://x.com/mweinbach/status/2122110159245737997 · Date: 2026-11-15
+- Summary: The author says he simply gave Siri access to the basic functions and drives data that Tessie collects, and shares the app. In the car Grok is way better, he says, but when he's not in the car it takes much longer to tell Grok or Grok Bot to do things like this.
 
 ### One message before bed, six Grok Bot agents hand off until morning
 - URL: https://usage.incidental.site/cases/x-fleyta88-2121564919527027152.html
@@ -12128,6 +12203,11 @@
 - Type: comparison · Product: multi · Author: argofowl · Source: https://x.com/argofowl/status/2121954994618540433 · Date: 2026-11-15
 - Summary: The author says their Dot improved a lot: it finally picks up when called and the speedup is noticeable. But with Grok Bot they don't see why they'd reach for the Dot, and they ask why it's still not available in the EU.
 
+### User comparison: Grok Bot runs more and more tasks, rated above Muse and Claude Duet
+- URL: https://usage.incidental.site/cases/x-chrisricharde-2122081948772515844.html
+- Type: comparison · Product: multi · Author: chris_richarde · Source: https://x.com/chris_richarde/status/2122081948772515844 · Date: 2026-11-15
+- Summary: The author says he uses Grok Bot to manage more and more tasks, including managing his Opus builds as a design director, rating it 10/10 and well ahead of Muse. He also has Claude Duet but says it needs more features and can't read files on his own computer when he's away. For scheduling and calendars he built his own agent with an AI persona that can reach out and accept calendar requests, running on its own version of Slack.
+
 ### Opening an MRI from a hospital PACS viewer: Claude vs Grok Bot
 - URL: https://usage.incidental.site/cases/x-drpraveenkoduru-2121596238969950617.html
 - Type: comparison · Product: grok-bot · Author: drpraveenkoduru · Source: https://x.com/drpraveenkoduru/status/2121596238969950617 · Date: 2026-11-14
@@ -12802,6 +12882,11 @@
 - URL: https://usage.incidental.site/cases/x-ramune99p-2121957783138599031.html
 - Type: quota-report · Product: grok-bot · Author: Ramune99p · Source: https://x.com/Ramune99p/status/2121957783138599031 · Date: 2026-11-15
 - Summary: The author says Grok Bot is really convenient, but the usage allowance melts away fast, and plain development with Claude or Cursor may be the more constructive route.
+
+### Hitting Grok Bot's usage wall two mornings in a row, the author moved the routine to a self-hosted team
+- URL: https://usage.incidental.site/cases/devto-5043642.html
+- Type: quota-report · Product: grok-bot · Author: ale_ukr · Source: https://dev.to/ale_ukr/i-hit-grok-bots-usage-wall-two-mornings-in-a-row-so-i-moved-the-routine-onto-a-self-hosted-team-52jg · Date: 2026-11-15
+- Summary: On DEV the author writes that on Thursday 13 November, around ten in the morning in Munich, he sat down expecting his daily routine's output, but after hitting Grok Bot's usage wall two mornings in a row he moved the routine onto a self-hosted, open-source team.
 
 ### Hitting Grok Bot limits too fast? Split the work across a small agent team
 - URL: https://usage.incidental.site/cases/x-maziyarid-2121542455698813067.html

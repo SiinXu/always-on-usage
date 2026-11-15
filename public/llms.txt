@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2605 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2622 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-15T13:38:04.852Z
+- Last updated: 2026-11-15T23:46:32.650Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -628,6 +628,21 @@
 - /cases/x-vikingmute-2121953959514636306.html: Notes on "Building always-on agents": they look always on but mostly sleep (guide) <https://x.com/vikingmute/status/2121953959514636306>
 - /cases/x-whoiswicked-2121852492027740256.html: After an update, Dot lost tool access and can't message Codex threads (field-case) <https://x.com/Who_is_Wicked/status/2121852492027740256>
 - /cases/x-eastmelbgroupie-2121892684680073458.html: A Dot with spare time messaged the user a navy ship's location (field-case) <https://x.com/EastMelbGroupie/status/2121892684680073458>
+- /cases/x-immad-2122061360960086336.html: Observation: at small startups, ops, sales and support are turning into managing agents (field-case) <https://x.com/immad/status/2122061360960086336>
+- /cases/x-michaelfenech-2122057297891574249.html: 4 standing instructions to give a Grok Bot team on day one (guide) <https://x.com/Michael_Fenech_/status/2122057297891574249>
+- /cases/x-davidondrej1-2122107570538082502.html: Building an open-source Grok Bot clone in Rust, self-hosted on a VPS (field-case) <https://x.com/DavidOndrej1/status/2122107570538082502>
+- /cases/x-endelmass-2122058822496006490.html: A weekly 'screen time report' for 7 Grok Bot agents: inbox, support, trends, threads, leads, bugs (field-case) <https://x.com/endelmass/status/2122058822496006490>
+- /cases/x-yungcontent-2122036642945130751.html: A Dot surfaces photos the author had forgotten taking (field-case) <https://x.com/yungcontent/status/2122036642945130751>
+- /cases/x-kaiz294-2122073236728926549.html: On each Grok Bot release, Grok Bot fuzzes the app like a real user and auto-merges fix PRs (field-case) <https://x.com/Kaiz_294/status/2122073236728926549>
+- /cases/x-garrisonjames-2122078162700169293.html: After Grok Bot did the meal plan, calendar and groceries, his wife started her own bot team (field-case) <https://x.com/garrison_james/status/2122078162700169293>
+- /cases/x-andrewginns-2122042538182008906.html: Letting a Dot manage Home Assistant makes upkeep and self-healing easy (field-case) <https://x.com/AndrewGinns/status/2122042538182008906>
+- /cases/x-gkhalin-2122073153098719379.html: $30 of inference: Grok Bot turns a floor plan and inspiration board into a renovation preview (field-case) <https://x.com/gkhalin/status/2122073153098719379>
+- /cases/x-theaigrandpa-2122110969744879622.html: Turn the iPhone Action Button into a Grok Bot button for one-press voice chat (guide) <https://x.com/theaigrandpa/status/2122110969744879622>
+- /cases/x-staceyroestel-2122110933791133832.html: A cheap Grok Bot habit: cap the length of a routine's report (guide) <https://x.com/_staceyroestel/status/2122110933791133832>
+- /cases/x-kolencherry-2122054191376208013.html: A standing instruction for a Dot: look for and test coupon codes on every cart (guide) <https://x.com/kolencherry/status/2122054191376208013>
+- /cases/x-kolencherry-2122055165473665109.html: Using a Dot to watch a list of items for sales, with Costco receipt refunds next (field-case) <https://x.com/kolencherry/status/2122055165473665109>
+- /cases/x-wyattcupp-2122098739317968992.html: User complaint: a Dot didn't flag a ground stop before he left for the airport (field-case) <https://x.com/wyattcupp/status/2122098739317968992>
+- /cases/x-mweinbach-2122110159245737997.html: Giving Siri Tessie's basic car functions, faster than asking Grok Bot when away from the car (field-case) <https://x.com/mweinbach/status/2122110159245737997>
 - /cases/x-fleyta88-2121564919527027152.html: One message before bed, six Grok Bot agents hand off until morning (field-case) <https://x.com/fleyta88/status/2121564919527027152>
 - /cases/x-spectnfa-2121566140996419813.html: Grok Bot finds forgotten subscriptions and chases refunds (field-case) <https://x.com/spectnfa/status/2121566140996419813>
 - /cases/x-scottybeamio-2121580020346831141.html: Three meetings at once, so Grok Bot attends two of them (field-case) <https://x.com/ScottyBeamIO/status/2121580020346831141>
@@ -2410,6 +2425,7 @@
 - /cases/x-furmanets-2121912043083006430.html: Repo CI checks that pass in Grok Bot won't run in Dots (comparison) <https://x.com/furmanets/status/2121912043083006430>
 - /cases/x-asrrrrrr217-2121869224716951880.html: After daily use, Grok Bot is the only agent that stuck (comparison) <https://x.com/asrrrrrr217/status/2121869224716951880>
 - /cases/x-argofowl-2121954994618540433.html: Dot got better, but the user still reaches for Grok Bot (comparison) <https://x.com/argofowl/status/2121954994618540433>
+- /cases/x-chrisricharde-2122081948772515844.html: User comparison: Grok Bot runs more and more tasks, rated above Muse and Claude Duet (comparison) <https://x.com/chris_richarde/status/2122081948772515844>
 - /cases/x-drpraveenkoduru-2121596238969950617.html: Opening an MRI from a hospital PACS viewer: Claude vs Grok Bot (comparison) <https://x.com/drpraveenkoduru/status/2121596238969950617>
 - /cases/x-ryandoser13-2121288972382912842.html: Podcast: Claude Duet vs Meta Muse vs Grok Bot vs ChatGPT Dots (comparison) <https://x.com/ryan_doser13/status/2121288972382912842>
 - /cases/x-arnavgup-2121236415774363989.html: After building their own agent, a team moved to Grok Bot (comparison) <https://x.com/Arnav_gup/status/2121236415774363989>
@@ -2545,6 +2561,7 @@
 - /cases/ray-fernando-s-clippy-cto-47.html: Ray Fernando's Clippy CTO (quota-report) <https://www.youtube.com/watch?v=kAR91DlnCKQ>
 - /cases/x-brunomunhoz-2121936561663324521.html: A stack of daily Grok Bot routines, with usage logged every night (quota-report) <https://x.com/bruno_munhoz/status/2121936561663324521>
 - /cases/x-ramune99p-2121957783138599031.html: Grok Bot is handy, but usage drains fast (quota-report) <https://x.com/Ramune99p/status/2121957783138599031>
+- /cases/devto-5043642.html: Hitting Grok Bot's usage wall two mornings in a row, the author moved the routine to a self-hosted team (quota-report) <https://dev.to/ale_ukr/i-hit-grok-bots-usage-wall-two-mornings-in-a-row-so-i-moved-the-routine-onto-a-self-hosted-team-52jg>
 - /cases/x-maziyarid-2121542455698813067.html: Hitting Grok Bot limits too fast? Split the work across a small agent team (quota-report) <https://x.com/Maziyar_ID/status/2121542455698813067>
 - /cases/x-keledan-2121588635372065233.html: Where Grok Bot usage goes: check unattended routines and listeners first (quota-report) <https://x.com/Keledan/status/2121588635372065233>
 - /cases/x-thexybermateo-2121590113746514349.html: Still running out with a team of Grok Bots: what the author already cut (quota-report) <https://x.com/thexybermateo/status/2121590113746514349>
