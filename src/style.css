@@ -440,7 +440,11 @@ ul.steps{gap:10px}
 .related h2{font-size:24px;margin:0 0 16px}
 .cases.rel{grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
 /* one next-related case after the subscribe band; the 6-card .related grid is unchanged */
-#next-rel{max-width:1200px;margin-inline:auto}
+/* 2026-11-14: make the block easier to see, using the same surface/line/radius tokens as case cards (UI Hub resource-library card chrome). */
+#next-rel{max-width:1200px;margin:32px auto 0;padding:28px 24px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-card);box-shadow:var(--hi)}
+#next-rel .rel-kicker{margin:0 0 6px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:600}
+#next-rel h2{font-size:24px;margin:0 0 8px}
+#next-rel .rel-lead{margin:0 0 16px;font-size:14px;line-height:1.5;color:var(--muted, color-mix(in srgb, currentColor 65%, transparent))}
 #next-rel .cases{grid-template-columns:minmax(0,1fr)}
 .story>section{max-width:68ch}
 .story>section p{font-size:18px;line-height:1.75}
