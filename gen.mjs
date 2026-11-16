@@ -160,15 +160,22 @@ ${rel.length?`<section id="s-rel" class="related"><h2>${T("相关案例与模板
 // ---- guides (2026-11-01): English long-form pages from content-inbox/guides/*.json. Original synthesis of official docs + public posts; every claim is attributed and linked. Existing page components only. ----
 fs.rmSync("guides",{recursive:true,force:true});
 const GUIDES=fs.existsSync("content-inbox/guides")?fs.readdirSync("content-inbox/guides").filter(f=>f.endsWith(".json")).sort().map(f=>JSON.parse(fs.readFileSync("content-inbox/guides/"+f,"utf8"))):[];
+// 2026-11-16: 10 locales. Translations live in content-inbox/guides/i18n/<slug>.json (same facts, links and sources as the English file); the English text stays the default HTML and the other 9 locales go to the per-page #tl map (main.js swaps them in), like stories.
+const GI=g=>{try{return JSON.parse(fs.readFileSync(`content-inbox/guides/i18n/${g.slug}.json`,"utf8"))}catch(e){return null}};
 for(const g of GUIDES){
-const gbody=`<div class="story-wrap"><article class="case story art"><p class="crumb"><a href="../">Always-on Usage</a></p><header class="story-head"><h1>${esc(g.title)}</h1><p class="story-meta"><span>Always-on Usage</span><span>${tm(g.date)}</span></p></header>
-<section><p>${esc(g.lede)}</p></section>
-${g.sections.map(x=>`<section id="${x.id}"><h2>${esc(x.h)}</h2>${x.html}</section>`).join("\n")}
-${g.related&&g.related.length?`<section id="s-rel" class="related"><h2>Related cases on this site</h2><ul class="cases rel">${g.related.map(r=>relCard(esc(r.href),esc(r.kind),esc(r.title),esc(r.meta))).join("")}</ul></section>`:""}
-<section id="s-src"><h2>Sources</h2><ul class="steps">${g.sources.map(x=>`<li><a href="${esc(x.url)}" rel="noopener nofollow" target="_blank">${esc(x.label)}</a></li>`).join("")}</ul></section>
-<p class="note foot-note">This page is an original summary of the official docs and of public posts on X. Quotes and figures belong to their authors and are not vendor numbers.</p></article>
-<nav class="toc" aria-label="On this page"><p class="toc-k">On this page</p><ol>${g.sections.map(x=>`<li><a href="#${x.id}">${esc(x.h)}</a></li>`).join("")}<li><a href="#s-src">Sources</a></li></ol></nav></div>`;
-w(`guides/${g.slug}.html`,page("../","guides/",g.title,g.desc,gbody,"",true),{kind:"article",lastmod:g.date,enOnly:true,graph:[({url,desc})=>({"@type":"Article","headline":g.title,"description":desc,"url":url,"mainEntityOfPage":url,"image":SB+"/og.png","inLanguage":"en","datePublished":g.date,"dateModified":g.date,"author":{"@id":"https://incidental.site/#org"},"publisher":{"@id":"https://incidental.site/#org"}})]});
+const I=GI(g);
+const GT=(en,get,tag="span")=>{if(!I)return en;const m={};for(const l of LC){const v=l==="en"||!I[l]?null:get(I[l]);m[l]=v==null?en:v}const id="t"+(TLN++);TLB[id]=m;return `<${tag} data-tl="${id}">${en}</${tag}>`};
+const S_=(t,x)=>t.sections&&t.sections[x.id]||{};
+let TID=null;if(I){TID="t"+(TLN++);TLB[TID]=Object.fromEntries(LC.map(l=>[l,esc(l!=="en"&&I[l]?I[l].title+" | "+I[l].ui.brand:g.title+" | Always-on Usage")]))}
+const gbody=`<div class="story-wrap"><article class="case story art"><p class="crumb"><a href="../">${GT("Always-on Usage",t=>esc(t.ui.crumb))}</a></p><header class="story-head"><h1>${GT(esc(g.title),t=>esc(t.title))}</h1><p class="story-meta"><span>${GT("Always-on Usage",t=>esc(t.ui.brand))}</span><span>${tm(g.date)}</span></p></header>
+<section><p>${GT(esc(g.lede),t=>esc(t.lede))}</p></section>
+${g.sections.map(x=>`<section id="${x.id}"><h2>${GT(esc(x.h),t=>S_(t,x).h&&esc(S_(t,x).h))}</h2>${I?GT(x.html,t=>S_(t,x).html,"div"):x.html}</section>`).join("\n")}
+${g.related&&g.related.length?`<section id="s-rel" class="related"><h2>${GT("Related cases on this site",t=>esc(t.ui.rel))}</h2><ul class="cases rel">${g.related.map((r,i)=>relCard(esc(r.href),GT(esc(r.kind),t=>t.related[i]&&esc(t.related[i].kind)),GT(esc(r.title),t=>t.related[i]&&esc(t.related[i].title)),esc(r.meta))).join("")}</ul></section>`:""}
+<section id="s-src"><h2>${GT("Sources",t=>esc(t.ui.src))}</h2><ul class="steps">${g.sources.map((x,i)=>`<li><a href="${esc(x.url)}" rel="noopener nofollow" target="_blank">${GT(esc(x.label),t=>t.sources[i]&&esc(t.sources[i]))}</a></li>`).join("")}</ul></section>
+<p class="note foot-note">${GT("This page is an original summary of the official docs and of public posts on X. Quotes and figures belong to their authors and are not vendor numbers.",t=>esc(t.ui.note))}</p></article>
+<nav class="toc" aria-label="On this page"><p class="toc-k">${GT("On this page",t=>esc(t.ui.toc))}</p><ol>${g.sections.map(x=>`<li><a href="#${x.id}">${GT(esc(x.h),t=>S_(t,x).h&&esc(S_(t,x).h))}</a></li>`).join("")}<li><a href="#s-src">${GT("Sources",t=>esc(t.ui.src))}</a></li></ol></nav></div>`;
+let gh=page("../","guides/",g.title,g.desc,gbody,"",true);if(TID)gh=gh.replace(/<title >([^<]*?) \| 常驻用量<\/title>/,(m,t)=>`<title data-tl="${TID}">${t} | Always-on Usage</title>`);
+w(`guides/${g.slug}.html`,gh,{kind:"article",lastmod:g.updated||g.date,enOnly:!I,graph:[({url,desc})=>({"@type":"Article","headline":g.title,"description":desc,"url":url,"mainEntityOfPage":url,"image":SB+"/og.png","inLanguage":I?LC:"en","datePublished":g.date,"dateModified":g.updated||g.date,"author":{"@id":"https://incidental.site/#org"},"publisher":{"@id":"https://incidental.site/#org"}})]});
 }
 // ---- aggregate pages (v12): per-scenario topics, comparison by use case, weekly digests. Built only from items already on the site. ----
 const PRODS=["grok-bot","openai-dots","meta-muse","multi"];
