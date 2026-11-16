@@ -1,0 +1,965 @@
+{
+ "zh-CN": {
+  "title": "如何让 Grok Bot 的用量撑得更久",
+  "desc": "从官方文档和成功降低用量的用户公开帖子中整理的省用量方法：减少空跑的例行任务、缩短对话、少开 Bot。",
+  "lede": "Grok Bot 从每周用量池里扣用量，不少用户反映不到一周就用完了。本指南汇总了官方文档的规定，以及用户公开分享的省用量做法。官方说法会注明来源；用户给出的数字是作者本人的，不是厂商数据。官方文档最后核对于 2026 年 11 月 16 日。",
+  "sections": {
+   "s-docs": {
+    "h": "官方文档怎么说",
+    "html": "<p>先看文档里的规则，因为下面大多数技巧都是在规则内想办法。</p>\n<ul class=\"steps\">\n<li>在 The X Subscription 上，每个付费席位每周有一个用量池，用于符合条件的官方产品用量，由 Grok 和 Cursor 各端共用，而不是按产品分开。Grok Bot 从这个池子里扣用量。更高档位的池子更大（<a href=\"https://docs.x.ai/x-subscription/usage-limits\" rel=\"noopener\" target=\"_blank\">用量限制</a>、<a href=\"https://docs.x.ai/x-subscription/grok-bot\" rel=\"noopener\" target=\"_blank\">The X Subscription 上的 Grok Bot</a>）。</li>\n<li>文档说，用量消耗得多快「取决于你交给 Grok Bot 的工作类型，以及每个任务要花多少力气」（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">常见问题</a>）。</li>\n<li>每次例行任务运行都会消耗用量。每小时一次的计划、很短的间隔，或在繁忙 Slack 频道上的触发器，「可能一天就用掉一周的用量」（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能与例行任务</a>）。</li>\n<li>文档给出的第一步：先暂停不需要的例行任务，再让 Bot 拉长计划间隔、收窄 Slack 触发条件，然后再考虑升级套餐或提高按需上限。从不运行的例行任务不消耗用量；「测试」会消耗，因为它执行的是真实工作（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能与例行任务</a>、<a href=\"https://cursor.com/help/grok-bot/routines\" rel=\"noopener\" target=\"_blank\">Cursor 帮助</a>）。</li>\n<li>例行任务的计划间隔至少 5 分钟。所有例行任务合计每小时最多运行 300 次，单个例行任务最多 200 次；超过任一上限的运行会以「Automation run rate limit exceeded」失败，且不会自动重试。文档还提到，由于所有例行任务共享的一个上限，部分运行也可能报这个错误，这是已知问题，正在修复（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能与例行任务</a>）。</li>\n<li>想避免 The X Subscription 上的付费超额，可以关闭 Auto Top-up，或设置每月额外用量上限。常见问题还提到，上限不会在运行中途叫停 Bot，所以正在跑的任务可能略微超出（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">常见问题</a>）。</li>\n<li>对于试用，常见问题说额度按智能体的步骤数和 token 扣减，而不是按消息条数，一个大任务就可能用光全部额度（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">常见问题</a>）。</li>\n</ul>"
+   },
+   "s-find": {
+    "h": "1. 先弄清用量花在哪里",
+    "html": "<p>改动之前，先拿到明细。下面是两个公开例子。</p>\n<ul class=\"steps\">\n<li><strong>一位用户的明细。</strong> 在每周重置前用量到了 74% 时，@zhouruijin 问 Bot 用量去了哪里。Bot 的回答：64% 来自和 Bot 聊天，16% 来自一个每 30 分钟扫描一次 X 趋势的例行任务（每周约 238 次运行），20% 来自简报、一个股票侦察任务和一个夜间审计（<a href=\"../cases/x-zhouruijin-2116501095254290554.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>旧对话是隐藏成本。</strong> @m4lkxx 说，自己 75% 的 token 花在重读旧对话上，只有约 1% 用在真正的工作上，结论是贵的是使用方式，而不是 Grok Bot 本身（<a href=\"../cases/x-m4lkxx-2115775972536434946.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>让 Bot 汇报。</strong> @BenENewton 建议让主 Bot 要求每个 Bot 汇报哪些例行任务在消耗 token；你会发现一些搭建时觉得很酷、后来却忘了的任务（<a href=\"../cases/x-benenewton-2112668191700795603.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>计量很粗。</strong> @sorcererxw 有十几个带例行任务的 Bot，却看不出是哪一个在吃额度，于是希望能按 Bot、按例行任务查看 token 用量（<a href=\"../cases/x-sorcererxw-2113240769951834170.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。在有这个功能之前，可以让每个 Bot 列出自己的例行任务和计划，并在每次改动前后记下用量百分比。</li>\n</ul>"
+   },
+   "s-routines": {
+    "h": "2. 停掉空跑的例行任务",
+    "html": "<p>公开帖子里最常见的建议，是针对那些按定时器运行、什么也没找到却照样消耗一次运行的例行任务。</p>\n<div class=\"res-box\"><span class=\"res-k\">算一笔账</span><p class=\"res-v\">@gippp69 算过：一个每 5 分钟运行一次的例行任务每月运行 8,640 次，每小时一次则是 720 次，相差 12 倍。按其用 Grok 4.6 API 价格的估算，同样的工作约 397 美元对 33 美元。你的套餐计量方式不同，但运行次数相差 12 倍是简单的算术（<a href=\"../cases/x-gippp69-2112878801633861648.html\" rel=\"noopener\" target=\"_blank\">案例</a>、<a href=\"../cases/x-gippp69-2114689520964677797.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</p></div>\n<ul class=\"steps\">\n<li><strong>只留一个时钟，其余用触发。</strong> @gippp69 把 7 个 Bot 接成一个发布团队时，数出按小时定时每周有 1,176 次运行，大多数空手而归。其做法：只保留一个时钟（周一 09:00），其他 Bot 都等上一个 Bot 写下 DONE 再启动；通过共享的台账文件交接，而不是邮件；给每个 Bot 单独设定 X 读取上限；只让一个 Bot 碰钱，上限 40 美元，每笔购买都要批准。据其说法，同样的工作之后只需约 60 次运行（<a href=\"../cases/x-gippp69-2115778291755782151.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>唤醒 Bot 之前先检查。</strong> @z80srl 把大部分耗额度的例行任务改成 Grok Bot 机器上的小型本地脚本。这些脚本不消耗额度，只在结果符合预设情况时才唤醒 Bot；例如一个脚本盯着银行流水，如果没有变动，Bot 就继续休眠（<a href=\"../cases/x-z80srl-2116145921520238674.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>给例行任务单独一个 Bot。</strong> @MartinBarna333 专门用一个 Bot 跑例行任务，放在简短干净的对话里，避免主对话烧 token；每天最多运行 1 到 2 次，并且尽量由事件（比如收到邮件）触发，而不是定时器。经验都写在文件里，换一个 Bot 也能马上接手（<a href=\"../cases/x-martinbarna333-2115417754723336371.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>文档的说法一致。</strong> 文档建议使用窄触发条件，并提醒不要用「每条新消息」这类宽泛监听，它们「制造噪音、消耗用量」（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能与例行任务</a>）。</li>\n</ul>"
+   },
+   "s-context": {
+    "h": "3. 让每段对话保持简短",
+    "html": "<p>长对话每一轮都会被重新读取，@m4lkxx 那 75% 就是这样花掉的。一位用户把这一点变成了具体的做法：</p>\n<ul class=\"steps\">\n<li>@Simonpuebla_ 说他的额度 3 天就用完。他做了一个名叫 Lean 的 Bot 来审计其他 Bot。效果最大的改变是不再拖着庞大的上下文：让 Bot 一次处理五件事，把长结果存进文件而不是贴进对话；连续纠正三处时一起改，而不是一处一处改；每周开一个新对话，附上一段简短的待办摘要。</li>\n<li>一周后他说用量降到约五分之一，一个原本约占他用量 20% 的销售 Bot 降到约 3%，效果不变甚至更好。这条用西班牙语写的帖子附上了他用来搭建审计智能体的提示词（<a href=\"../cases/x-simonpuebla-2117034290332487727.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n</ul>\n<p>这只是一个人的结果，不是保证，但它和文档的说法一致：用量取决于每个任务要做多少工作。</p>"
+   },
+   "s-bots": {
+    "h": "4. 少用几个 Bot",
+    "html": "<ul class=\"steps\">\n<li><strong>一个主题，一个 Bot。</strong> @AndresRuggiero3 认为，把家庭财务拆成账单、订阅、预算和提醒四个 Bot，是最常见的过度设计：四个 Bot 意味着四套指令、更多交接和更高的 token 账单。一个管钱的 Bot 能掌握全部上下文，交接更少，要修的指令只有一套。只有当工作真的变成另一种工作时再拆分（<a href=\"../cases/x-andresruggiero3-2112671200291811680.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>三个好用的就够。</strong> @distortgeekin 的一条帖子转述了 Grok Bot 工程师 Lauren Tan 的话：「三个好用的，胜过一支你管不过来的团队」。她像带第一天上班的实习生一样带每个 Bot，并把每个讲解过的任务存成技能（<a href=\"../cases/x-distortgeekin-2116885715292192867.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>先有技能，再有例行任务。</strong> 文档建议先从一次性任务开始，把它做稳定，把方法存成技能，然后再自动化；并且在把技能变成例行任务之前，先用一个真实的一次性任务测试它（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能与例行任务</a>、<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">常见问题</a>）。</li>\n</ul>"
+   },
+   "s-limits": {
+    "h": "5. 设定计划前先了解限制",
+    "html": "<ul class=\"steps\">\n<li><strong>测试就是真实工作。</strong> @DissipativeS 列出了例行任务的坑：新计划要等到下一个时段才会运行，而「测试」会执行真实工作并消耗用量（<a href=\"../cases/x-dissipatives-2116885597004439994.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。文档也这么说：「测试运行会执行真实工作」（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能与例行任务</a>）。</li>\n<li><strong>别让超额吓你一跳。</strong> @gitpulled 建议从一个不涉及钱的任务开始，盯着第一次运行，在摸清每周用量之前不要开按需计费，否则会在没有提醒的情况下转为付费（<a href=\"../cases/x-gitpulled-2111062785308205306.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。The X Subscription 上对应的官方做法是关闭 Auto Top-up，或设置每月额外用量上限（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">常见问题</a>）。</li>\n<li><strong>用量池是共用的。</strong> @Vikramaditya_V1 指出，Bot 任务、Grok 聊天和 Cursor 里的 Grok 共用同一个每周用量池，一个常驻智能体自己就可能把池子耗光（<a href=\"../cases/x-vikramadityav1-2114622301077733643.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。这与文档中各端共用一个池子的描述一致。</li>\n</ul>"
+   },
+   "s-elsewhere": {
+    "h": "6. 把重活交给别处",
+    "html": "<ul class=\"steps\">\n<li>@Av1dlive 经常撞上 Grok Bot 的用量上限，于是搭了一个工作台，把重活交给用自己订阅的 Claude Code，并说现在额度能撑满一整周（<a href=\"../cases/x-av1dlive-2115929453859881169.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li>@nnaatt00xx 说，在一个研究代码库上来回折腾五个小时用掉了半周的预算，已开始把工作交给 Cursor 云端智能体，并问这样做是不是最佳实践。这条帖子是一个提问，不是结果（<a href=\"../cases/x-nnaatt00xx-2116883629871899112.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n</ul>\n<p>把工作交给另一个工具，就要遵守那个工具自己的订阅、限制和条款，请先确认这些。</p>"
+   },
+   "s-odd": {
+    "h": "7. 如果用量无故跳涨",
+    "html": "<p>有几位用户报告 11 月 1 日用量突然跳涨。这些都是用户报告；我们读到的来源里没有厂商对原因的确认。</p>\n<ul class=\"steps\">\n<li>@matthewsligh 说，在几乎没有活动的情况下，用量两小时内从不到 45% 涨到 87%。他导出的数据显示一夜之间约 200 万 token，而平常一天是 1.5 亿到 2.5 亿；凌晨 12:20 应用显示 87%，Bot 自己的用量检查却是 43.6%（<a href=\"../cases/x-matthewsligh-2116885595188326723.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li>@matnguvix 看到每周用量从 50% 跳到 100%，期间只有几次轻量的例行任务运行（<a href=\"../cases/x-matnguvix-2116883146151178333.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n</ul>\n<p>两人都做了、你也可以照做的事：记下前后的时间和百分比，并和用量导出数据对比，这样需要申请更正时就有证据。</p>"
+   },
+   "s-list": {
+    "h": "简短清单",
+    "html": "<ol class=\"steps\">\n<li>暂停不需要的例行任务（官方文档）。</li>\n<li>让每个 Bot 列出自己的例行任务和运行频率（@BenENewton）。</li>\n<li>用窄的事件触发代替定时器；如果必须定时，就拉长间隔（文档、@MartinBarna333、@gippp69）。</li>\n<li>先跑一个便宜的检查，只有情况变了才唤醒 Bot（@z80srl、@gippp69）。</li>\n<li>把重复的例行任务集中在一个专用 Bot 上，放在简短的对话里（@MartinBarna333）。</li>\n<li>批量处理工作，把长结果存进文件，每周用一段简短摘要开新对话（@Simonpuebla_）。</li>\n<li>一个主题一个 Bot，直到工作真的不同（@AndresRuggiero3）。</li>\n<li>少用「测试」：它会消耗用量（文档）。</li>\n<li>在摸清每周用量之前，关闭 Auto Top-up 或设置每月上限（文档常见问题）。</li>\n<li>每次改动后记下用量百分比，这样才知道哪招有效。</li>\n</ol>"
+   },
+   "s-est": {
+    "h": "设定计划前先估算",
+    "html": "<p>本站有一个<a href=\"../calculator.html\">额度风险计算器</a>。它的规则是方向性估算，不是厂商数据：3 到 5 个 Bot 加 1 分，6 个及以上加 2 分；开着浏览器加 1 分；每天一次的例行任务加 1 分，每小时一次加 2 分。总分 0 到 1 分为低，2 到 3 分为中，4 分及以上为高。</p>"
+   }
+  },
+  "related": [
+   {
+    "kind": "额度报告",
+    "title": "每周 Grok Bot 额度的 74% 花在了哪里"
+   },
+   {
+    "kind": "指南",
+    "title": "接 7 个 Grok Bot 时发现的空跑，以及 5 个修法"
+   },
+   {
+    "kind": "额度报告",
+    "title": "一个审计其他 Bot 的 Bot，一周把他的用量降到约五分之一"
+   },
+   {
+    "kind": "指南",
+    "title": "别让例行任务占着主 Bot"
+   },
+   {
+    "kind": "额度报告",
+    "title": "省额度：只在需要时唤醒 Bot 的本地脚本"
+   },
+   {
+    "kind": "指南",
+    "title": "第一天别搭 Bot 团队：一个主题一个 Bot"
+   }
+  ],
+  "sources": [
+   "用量限制（官方文档）",
+   "The X Subscription 上的 Grok Bot（官方文档）",
+   "技能与例行任务（官方文档）",
+   "常见问题（官方文档）",
+   "例行任务（Cursor 帮助）",
+   "@zhouruijin 在 X 上",
+   "@m4lkxx 在 X 上",
+   "@BenENewton 在 X 上",
+   "@sorcererxw 在 X 上",
+   "@gippp69 在 X 上",
+   "@gippp69 在 X 上",
+   "@gippp69 在 X 上",
+   "@z80srl 在 X 上",
+   "@MartinBarna333 在 X 上",
+   "@Simonpuebla_ 在 X 上",
+   "@AndresRuggiero3 在 X 上",
+   "@distortgeekin 在 X 上",
+   "@DissipativeS 在 X 上",
+   "@gitpulled 在 X 上",
+   "@Vikramaditya_V1 在 X 上",
+   "@Av1dlive 在 X 上",
+   "@nnaatt00xx 在 X 上",
+   "@matthewsligh 在 X 上",
+   "@matnguvix 在 X 上"
+  ],
+  "ui": {
+   "crumb": "常驻用量",
+   "brand": "常驻用量",
+   "rel": "本站相关案例",
+   "src": "来源",
+   "toc": "本页目录",
+   "note": "本页是对官方文档和 X 上公开帖子的原创整理。引语和数字归原作者所有，不是厂商数据。引语译自英文原文。"
+  }
+ },
+ "ja": {
+  "title": "Grok Bot の使用量を長持ちさせる方法",
+  "desc": "公式ドキュメントと、使用量を減らせたユーザーの公開投稿から、Grok Bot の週ごとの使用量を長持ちさせる方法をまとめました。空振りするルーティンを減らす、会話を短くする、Bot を減らす。",
+  "lede": "Grok Bot は週ごとの使用量プールから消費され、早めに使い切ってしまうという声が多くあります。このガイドでは、公式ドキュメントの記述と、ユーザーが使用量の削減について公開した内容をまとめました。公式の説明はそう明記し、ユーザーの数字は投稿者本人のもので、ベンダーの数値ではありません。公式ドキュメントの最終確認は 2026 年 11 月 16 日です。",
+  "sections": {
+   "s-docs": {
+    "h": "公式ドキュメントの記述",
+    "html": "<p>まずドキュメントのルールを確認しましょう。以下のコツの多くは、そのルールの中での工夫です。</p>\n<ul class=\"steps\">\n<li>The X Subscription では、有料シートごとに対象となるファーストパーティ利用のための週ごとのプールがあり、製品ごとに分かれず Grok と Cursor の各サーフェスで共有されます。Grok Bot はこのプールから消費します。上位プランほどプールが大きくなります（<a href=\"https://docs.x.ai/x-subscription/usage-limits\" rel=\"noopener\" target=\"_blank\">使用量の上限</a>、<a href=\"https://docs.x.ai/x-subscription/grok-bot\" rel=\"noopener\" target=\"_blank\">The X Subscription の Grok Bot</a>）。</li>\n<li>ドキュメントによると、消費の速さは「Grok Bot に任せる作業の種類と、各タスクにかかる労力による」とのことです（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">よくある質問</a>）。</li>\n<li>ルーティンは実行のたびに使用量を消費します。1 時間ごとのスケジュール、短い間隔、忙しい Slack チャンネルのトリガーは「1 日で 1 週間分の使用量を使うことがある」とされています（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">スキルとルーティン</a>）。</li>\n<li>ドキュメントが示す最初の対策は、不要なルーティンを一時停止し、Bot にスケジュールの間隔を広げ Slack トリガーを絞るよう頼むことで、プランやオンデマンド上限を上げるのはその後です。一度も実行されないルーティンは使用量を消費しませんが、Test は実際の作業を行うため消費します（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">スキルとルーティン</a>、<a href=\"https://cursor.com/help/grok-bot/routines\" rel=\"noopener\" target=\"_blank\">Cursor ヘルプ</a>）。</li>\n<li>ルーティンのスケジュールは 5 分以上空ける必要があります。すべてのルーティン合計で 1 時間に最大 300 回、各ルーティンは最大 200 回まで実行でき、どちらかを超えた実行は「Automation run rate limit exceeded」で失敗し、自動では再試行されません。全ルーティン共通の上限が原因でこのエラーになる実行もあり、修正中の既知の問題だとドキュメントは補足しています（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">スキルとルーティン</a>）。</li>\n<li>The X Subscription で有料の超過を避けるには、Auto Top-up をオフのままにするか、月ごとの追加使用量の上限を設定します。よくある質問によると、上限は実行中の Bot を途中で止めないため、実行中のタスクは少し超えることがあります（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">よくある質問</a>）。</li>\n<li>トライアルについては、クレジットはメッセージ数ではなくエージェントのステップ数とトークンで消費され、大きなタスク 1 つで使い切ることもあるとよくある質問に書かれています（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">よくある質問</a>）。</li>\n</ul>"
+   },
+   "s-find": {
+    "h": "1. 使用量の行き先を突き止める",
+    "html": "<p>何かを変える前に、内訳を把握しましょう。公開されている例を 2 つ紹介します。</p>\n<ul class=\"steps\">\n<li><strong>あるユーザーの内訳。</strong> 週のリセット前に 74% に達したとき、@zhouruijin は Bot に使用量の行き先を尋ねました。Bot の答えは、64% が Bot とのチャット、16% が 30 分ごとに X のトレンドを調べる 1 つのルーティン（週に約 238 回の実行）、20% がブリーフ、株式の調査、夜間の監査でした（<a href=\"../cases/x-zhouruijin-2116501095254290554.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n<li><strong>古いチャットが隠れたコスト。</strong> @m4lkxx によると、トークンの 75% は古いチャットの読み直しに使われ、実際の作業は約 1% だったそうです。高くつくのは Grok Bot ではなく使い方の組み立てだ、と結論づけています（<a href=\"../cases/x-m4lkxx-2115775972536434946.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n<li><strong>Bot に報告させる。</strong> @BenENewton は、メインの Bot から各 Bot に、トークンを消費しているルーティンを報告させることを勧めています。作ったときは面白そうでも、そのまま忘れていたものが見つかるはずです（<a href=\"../cases/x-benenewton-2112668191700795603.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n<li><strong>メーターは大まか。</strong> @sorcererxw はルーティン付きの Bot を十数個動かしていますが、どれが枠を食っているのか分からず、Bot ごと・ルーティンごとのトークン使用量を見られるよう求めました（<a href=\"../cases/x-sorcererxw-2113240769951834170.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。それができるまでは、各 Bot に自分のルーティンとスケジュールを一覧にさせ、変更の前後で使用量のパーセンテージを書き留めましょう。</li>\n</ul>"
+   },
+   "s-routines": {
+    "h": "2. 空振りで起きるルーティンを止める",
+    "html": "<p>公開投稿で最も多いアドバイスは、タイマーで動き、何も見つけなくても 1 回分を消費するルーティンについてです。</p>\n<div class=\"res-box\"><span class=\"res-k\">計算してみる</span><p class=\"res-v\">@gippp69 の計算では、5 分ごとのルーティンは月 8,640 回、1 時間ごとなら 720 回で、12 倍の差です。Grok 4.6 の API 料金での本人の試算では、同じ作業で約 397 ドル対 33 ドルになります。プランの計量方法は異なりますが、実行回数の 12 倍という差は単純な算数です（<a href=\"../cases/x-gippp69-2112878801633861648.html\" rel=\"noopener\" target=\"_blank\">事例</a>、<a href=\"../cases/x-gippp69-2114689520964677797.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</p></div>\n<ul class=\"steps\">\n<li><strong>時計は 1 つ、残りはトリガー。</strong> 7 つの Bot をローンチチームとしてつないだ @gippp69 は、1 時間ごとのタイマーで週 1,176 回の実行があり、そのほとんどが空振りだったと数えました。対策は、時計を 1 つ（月曜 09:00）だけ残し、他の Bot は前の Bot が DONE と書いてから起動させること。受け渡しはメールではなく共有の台帳ファイルで行い、各 Bot に X の読み取り上限を個別に設け、お金を扱うのは 1 つの Bot だけにして、上限 40 ドル・購入ごとに承認制にしました。同じ作業が約 60 回の実行で済むようになったそうです（<a href=\"../cases/x-gippp69-2115778291755782151.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n<li><strong>Bot を起こす前にチェックする。</strong> @z80srl は、使用量を食うルーティンの多くを Grok Bot マシン上の小さなローカルスクリプトに移しました。スクリプトは使用量を消費せず、結果が想定したケースに当てはまるときだけ Bot を起こします。たとえば、銀行の入出金を見張るスクリプトは、動きがなければ Bot を眠らせたままにします（<a href=\"../cases/x-z80srl-2116145921520238674.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n<li><strong>ルーティン専用の Bot を用意する。</strong> @MartinBarna333 はルーティン専用の Bot を 1 つ、短くきれいなチャットで動かしており、メインのチャットでトークンを燃やしません。実行は多くても 1 日 1〜2 回で、タイマーよりもメールの受信のようなイベントで起動するのが望ましいとしています。ノウハウはファイルに残しているので、代わりの Bot もすぐに引き継げます（<a href=\"../cases/x-martinbarna333-2115417754723336371.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n<li><strong>ドキュメントも同じ意見。</strong> 狭いトリガーを推奨し、「新しいメッセージすべて」のような広いリスナーは「ノイズを生み、使用量を消費する」と注意しています（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">スキルとルーティン</a>）。</li>\n</ul>"
+   },
+   "s-context": {
+    "h": "3. 会話を短く保つ",
+    "html": "<p>長いチャットはターンごとに読み直されます。@m4lkxx の 75% はここに消えました。あるユーザーはこれを具体的な手順にしました。</p>\n<ul class=\"steps\">\n<li>@Simonpuebla_ は、使用量が 3 日で尽きていたと言います。彼は他の Bot を監査する Lean という Bot を作りました。最も効いた変更は、巨大なコンテキストを引きずらないことでした。Bot には一度に 5 件ずつ処理させ、長い結果はチャットに貼らずファイルに保存する。3 つ続けて修正するときは 1 つずつではなくまとめて直す。毎週、保留中の事項の短い要約を付けて新しいチャットを始める。</li>\n<li>1 週間後、使用量は約 5 分の 1 になり、消費の約 20% を占めていた営業用 Bot は約 3% まで下がり、働きは同等以上だったと報告しています。スペイン語で書かれた投稿には、監査エージェントを作るのに使ったプロンプトも載っています（<a href=\"../cases/x-simonpuebla-2117034290332487727.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n</ul>\n<p>これは 1 人の結果であり保証ではありませんが、使用量は各タスクの作業量に比例するというドキュメントの説明と一致します。</p>"
+   },
+   "s-bots": {
+    "h": "4. Bot の数を減らす",
+    "html": "<ul class=\"steps\">\n<li><strong>1 つのテーマに 1 つの Bot。</strong> @AndresRuggiero3 は、家計を請求書、サブスクリプション、予算、リマインダーの Bot に分けるのが最もよくある作り込みすぎだと言います。Bot が 4 つあれば指示も 4 セット、受け渡しも増え、トークンの請求も大きくなります。お金の Bot が 1 つなら文脈をすべて持ち、受け渡しが少なく、直す指示も 1 セットで済みます。分けるのは、本当に別の仕事になったときだけです（<a href=\"../cases/x-andresruggiero3-2112671200291811680.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n<li><strong>良いものを 3 つ。</strong> @distortgeekin の投稿は、Grok Bot のエンジニア Lauren Tan の言葉を伝えています。「管理しきれないチームより、良いものを 3 つ」。彼女は各 Bot を初日のインターンのように教え、説明したタスクはそれぞれスキルとして保存しています（<a href=\"../cases/x-distortgeekin-2116885715292192867.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n<li><strong>ルーティンの前にスキル。</strong> ドキュメントは、まず 1 回限りのタスクから始めて安定させ、その手順をスキルとして保存し、それから自動化するよう勧めています。スキルをルーティンにする前に、実際の 1 回限りのタスクで試すことも求めています（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">スキルとルーティン</a>、<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">よくある質問</a>）。</li>\n</ul>"
+   },
+   "s-limits": {
+    "h": "5. スケジュールの前に上限を知る",
+    "html": "<ul class=\"steps\">\n<li><strong>Test は実際の作業。</strong> @DissipativeS はルーティンの落とし穴を挙げています。新しいスケジュールは次の枠まで実行されず、Test は実際の作業を行って使用量を消費します（<a href=\"../cases/x-dissipatives-2116885597004439994.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。ドキュメントにも「テスト実行は実際の作業を行う」とあります（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">スキルとルーティン</a>）。</li>\n<li><strong>超過に驚かないように。</strong> @gitpulled は、お金が絡まないタスク 1 つから始め、最初の実行を見守り、週の使用量が分かるまではオンデマンドをオフにしておくよう勧めています。そうしないと警告なしに有料へ移るからです（<a href=\"../cases/x-gitpulled-2111062785308205306.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。The X Subscription での公式な対策は、Auto Top-up をオフのままにするか、月ごとの追加使用量の上限を設定することです（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">よくある質問</a>）。</li>\n<li><strong>プールは共有。</strong> @Vikramaditya_V1 は、Bot のタスク、Grok のチャット、Cursor の Grok が 1 つの週ごとのプールを共有し、常時稼働のエージェントだけでプールを使い切ることもあると指摘しています（<a href=\"../cases/x-vikramadityav1-2114622301077733643.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。これはサーフェス間で共有されるプールというドキュメントの説明と一致します。</li>\n</ul>"
+   },
+   "s-elsewhere": {
+    "h": "6. 重い作業はよそに回す",
+    "html": "<ul class=\"steps\">\n<li>@Av1dlive は Grok Bot の使用量上限に何度も達したため、重い作業を自分のサブスクリプションの Claude Code に渡す仕組みを作り、今では上限が 1 週間もつようになったと言います（<a href=\"../cases/x-av1dlive-2115929453859881169.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n<li>@nnaatt00xx は、研究用リポジトリでの 5 時間のやり取りで週の予算の半分を使ったと言い、作業を Cursor のクラウドエージェントに任せ始め、それがベストプラクティスかどうかを尋ねています。この投稿は質問であって、結果ではありません（<a href=\"../cases/x-nnaatt00xx-2116883629871899112.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n</ul>\n<p>作業を別のツールに渡すと、そのツール自体のサブスクリプション、上限、規約が適用されるので、先に確認してください。</p>"
+   },
+   "s-odd": {
+    "h": "7. メーターが理由もなく跳ね上がったら",
+    "html": "<p>11 月 1 日に使用量が急に跳ね上がったという報告が複数ありました。これはユーザーの報告であり、私たちが読んだ情報源にはベンダーによる原因の確認はありません。</p>\n<ul class=\"steps\">\n<li>@matthewsligh によると、ほとんど何もしていないのに 2 時間で 45% 未満から 87% に上がりました。エクスポートでは一晩で約 200 万トークン、普段の 1 日は 1.5 億〜2.5 億トークンで、午前 0 時 20 分にアプリは 87% を表示し、Bot 自身の使用量チェックは 43.6% でした（<a href=\"../cases/x-matthewsligh-2116885595188326723.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n<li>@matnguvix は、軽いルーティンが数回動いただけで週の使用量が 50% から 100% になったのを見ました（<a href=\"../cases/x-matnguvix-2116883146151178333.html\" rel=\"noopener\" target=\"_blank\">事例</a>）。</li>\n</ul>\n<p>2 人がしたことで真似できるのは、前後の時刻とパーセンテージを記録し、使用量のエクスポートと比べることです。訂正を求めるときの証拠になります。</p>"
+   },
+   "s-list": {
+    "h": "短いチェックリスト",
+    "html": "<ol class=\"steps\">\n<li>不要なルーティンを一時停止する（公式ドキュメント）。</li>\n<li>各 Bot に、担当するルーティンと実行頻度を一覧にさせる（@BenENewton）。</li>\n<li>タイマーを狭いイベントトリガーに置き換える。タイマーが必要なら間隔を広げる（ドキュメント、@MartinBarna333、@gippp69）。</li>\n<li>まず安いチェックを走らせ、変化があったときだけ Bot を起こす（@z80srl、@gippp69）。</li>\n<li>繰り返しのルーティンは専用の Bot 1 つに、短いチャットでまとめる（@MartinBarna333）。</li>\n<li>作業をまとめて処理し、長い結果はファイルに保存し、毎週短い要約で新しいチャットを始める（@Simonpuebla_）。</li>\n<li>本当に別の仕事になるまで、1 つのテーマに 1 つの Bot（@AndresRuggiero3）。</li>\n<li>Test は控えめに。使用量を消費します（ドキュメント）。</li>\n<li>週の使用量が分かるまで、Auto Top-up をオフにするか月の上限を設定する（ドキュメントのよくある質問）。</li>\n<li>変更のたびに使用量のパーセンテージを記録し、何が効いたか分かるようにする。</li>\n</ol>"
+   },
+   "s-est": {
+    "h": "スケジュールの前に見積もる",
+    "html": "<p>このサイトには<a href=\"../calculator.html\">使用量リスク計算機</a>があります。ルールは方向性を示す目安で、ベンダーの数値ではありません。Bot が 3〜5 個なら 1 点、6 個以上なら 2 点。ブラウザがオンなら 1 点。毎日のルーティンは 1 点、1 時間ごとなら 2 点。合計 0〜1 点は低、2〜3 点は中、4 点以上は高です。</p>"
+   }
+  },
+  "related": [
+   {
+    "kind": "使用量レポート",
+    "title": "週の Grok Bot 上限の 74% はどこへ消えたか"
+   },
+   {
+    "kind": "ガイド",
+    "title": "7 つの Grok Bot をつないで見つけた空振りと 5 つの対策"
+   },
+   {
+    "kind": "使用量レポート",
+    "title": "他の Bot を監査する Bot で 1 週間に使用量が約 5 分の 1 に"
+   },
+   {
+    "kind": "ガイド",
+    "title": "繰り返しのルーティンはメインの Bot から外す"
+   },
+   {
+    "kind": "使用量レポート",
+    "title": "使用量の節約：必要なときだけ Bot を起こすローカルスクリプト"
+   },
+   {
+    "kind": "ガイド",
+    "title": "初日から Bot チームを作らない：1 つのテーマに 1 つの Bot"
+   }
+  ],
+  "sources": [
+   "使用量の上限（公式ドキュメント）",
+   "The X Subscription の Grok Bot（公式ドキュメント）",
+   "スキルとルーティン（公式ドキュメント）",
+   "よくある質問（公式ドキュメント）",
+   "ルーティン（Cursor ヘルプ）",
+   "X の @zhouruijin",
+   "X の @m4lkxx",
+   "X の @BenENewton",
+   "X の @sorcererxw",
+   "X の @gippp69",
+   "X の @gippp69",
+   "X の @gippp69",
+   "X の @z80srl",
+   "X の @MartinBarna333",
+   "X の @Simonpuebla_",
+   "X の @AndresRuggiero3",
+   "X の @distortgeekin",
+   "X の @DissipativeS",
+   "X の @gitpulled",
+   "X の @Vikramaditya_V1",
+   "X の @Av1dlive",
+   "X の @nnaatt00xx",
+   "X の @matthewsligh",
+   "X の @matnguvix"
+  ],
+  "ui": {
+   "crumb": "Always-on Usage",
+   "brand": "Always-on Usage",
+   "rel": "このサイトの関連事例",
+   "src": "出典",
+   "toc": "このページの目次",
+   "note": "このページは公式ドキュメントと X の公開投稿をもとにした独自のまとめです。引用と数値は投稿者に帰属し、ベンダーの数値ではありません。引用は英語の原文から翻訳しています。"
+  }
+ },
+ "ko": {
+  "title": "Grok Bot 사용량을 더 오래 쓰는 방법",
+  "desc": "공식 문서와 사용량을 줄인 사용자들의 공개 게시물에서 모은, Grok Bot 주간 사용량을 오래 쓰는 방법: 빈 루틴 실행 줄이기, 대화 짧게 하기, 봇 수 줄이기.",
+  "lede": "Grok Bot은 주간 사용량 풀에서 차감되며, 많은 사용자가 일찍 소진된다고 말합니다. 이 가이드는 공식 문서의 내용과 사용자들이 사용량 절감에 대해 공개적으로 올린 내용을 모았습니다. 공식 설명은 그렇다고 표시했고, 사용자 수치는 작성자 본인의 것이며 공급사 수치가 아닙니다. 공식 문서는 2026년 11월 16일에 마지막으로 확인했습니다.",
+  "sections": {
+   "s-docs": {
+    "h": "공식 문서의 내용",
+    "html": "<p>먼저 문서의 규칙부터 보세요. 아래 팁 대부분은 그 규칙 안에서 찾은 우회법입니다.</p>\n<ul class=\"steps\">\n<li>The X Subscription에서는 유료 좌석마다 대상이 되는 퍼스트파티 사용을 위한 주간 풀이 있으며, 제품별로 나뉘지 않고 Grok과 Cursor의 여러 화면이 함께 씁니다. Grok Bot은 이 풀에서 차감됩니다. 상위 요금제일수록 풀이 큽니다(<a href=\"https://docs.x.ai/x-subscription/usage-limits\" rel=\"noopener\" target=\"_blank\">사용량 한도</a>, <a href=\"https://docs.x.ai/x-subscription/grok-bot\" rel=\"noopener\" target=\"_blank\">The X Subscription의 Grok Bot</a>).</li>\n<li>문서에 따르면 소진 속도는 \"Grok Bot에 맡기는 작업의 종류와 각 작업에 드는 노력에 따라 달라진다\"고 합니다(<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">자주 묻는 질문</a>).</li>\n<li>루틴은 실행될 때마다 사용량을 씁니다. 매시간 일정, 짧은 간격, 바쁜 Slack 채널의 트리거는 \"하루 만에 일주일치 사용량을 쓸 수 있다\"고 합니다(<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">스킬과 루틴</a>).</li>\n<li>문서가 제시하는 첫 번째 해결책은 필요 없는 루틴을 일시 중지하고, 봇에게 일정 간격을 넓히고 Slack 트리거를 좁혀 달라고 한 뒤에 요금제나 온디맨드 한도를 올리는 것입니다. 한 번도 실행되지 않는 루틴은 사용량을 쓰지 않지만, Test는 실제 작업을 하므로 사용량을 씁니다(<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">스킬과 루틴</a>, <a href=\"https://cursor.com/help/grok-bot/routines\" rel=\"noopener\" target=\"_blank\">Cursor 도움말</a>).</li>\n<li>루틴 일정은 최소 5분 간격이어야 합니다. 모든 루틴을 합쳐 시간당 최대 300번, 루틴 하나당 최대 200번 실행할 수 있으며, 둘 중 하나라도 넘으면 \"Automation run rate limit exceeded\"로 실패하고 자동으로 재시도되지 않습니다. 모든 루틴이 공유하는 한도 때문에 이 오류로 실패하는 실행도 있으며, 수정 중인 알려진 문제라고 문서는 덧붙입니다(<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">스킬과 루틴</a>).</li>\n<li>The X Subscription에서 유료 초과 사용을 피하려면 Auto Top-up을 꺼 두거나 월별 추가 사용량 한도를 설정하세요. 자주 묻는 질문에 따르면 한도는 실행 중인 봇을 중간에 멈추지 않으므로, 실행 중인 작업은 한도를 조금 넘을 수 있습니다(<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">자주 묻는 질문</a>).</li>\n<li>체험판의 경우, 크레딧은 메시지 수가 아니라 에이전트 단계와 토큰으로 차감되며, 큰 작업 하나로 전부 쓸 수도 있다고 자주 묻는 질문에 나와 있습니다(<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">자주 묻는 질문</a>).</li>\n</ul>"
+   },
+   "s-find": {
+    "h": "1. 사용량이 어디로 가는지 파악하기",
+    "html": "<p>무엇이든 바꾸기 전에 내역부터 확인하세요. 공개된 예시 두 가지입니다.</p>\n<ul class=\"steps\">\n<li><strong>한 사용자의 내역.</strong> 주간 초기화 전에 74%에 이르자 @zhouruijin은 봇에게 사용량이 어디로 갔는지 물었습니다. 봇의 답: 64%는 봇과의 채팅, 16%는 30분마다 X 트렌드를 훑는 루틴 하나(주당 약 238회 실행), 20%는 브리핑, 주식 탐색, 야간 감사였습니다(<a href=\"../cases/x-zhouruijin-2116501095254290554.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n<li><strong>오래된 채팅이 숨은 비용.</strong> @m4lkxx는 토큰의 75%가 오래된 채팅을 다시 읽는 데 쓰였고 실제 작업에는 약 1%만 쓰였다며, 비싼 것은 Grok Bot이 아니라 구성 방식이라고 결론짓습니다(<a href=\"../cases/x-m4lkxx-2115775972536434946.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n<li><strong>봇에게 보고하게 하기.</strong> @BenENewton은 메인 봇에게 모든 봇이 토큰을 쓰는 루틴을 보고하도록 하라고 제안합니다. 만들 때는 멋져 보였지만 잊고 있던 루틴을 찾게 될 것입니다(<a href=\"../cases/x-benenewton-2112668191700795603.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n<li><strong>계측이 거칩니다.</strong> @sorcererxw는 루틴이 있는 봇을 십여 개 돌리지만 어느 봇이 한도를 먹는지 알 수 없어서, 봇별·루틴별 토큰 사용량을 볼 수 있게 해 달라고 요청했습니다(<a href=\"../cases/x-sorcererxw-2113240769951834170.html\" rel=\"noopener\" target=\"_blank\">사례</a>). 그 기능이 생기기 전까지는 각 봇에게 자신의 루틴과 일정을 나열하게 하고, 변경 전후의 사용량 비율을 적어 두세요.</li>\n</ul>"
+   },
+   "s-routines": {
+    "h": "2. 할 일 없이 깨어나는 루틴 멈추기",
+    "html": "<p>공개 게시물에서 가장 많이 반복되는 조언은 타이머로 실행되어 아무것도 찾지 못해도 실행 1회를 쓰는 루틴에 관한 것입니다.</p>\n<div class=\"res-box\"><span class=\"res-k\">계산해 보면</span><p class=\"res-v\">@gippp69는 5분마다 도는 루틴이 한 달에 8,640회, 매시간이면 720회로 12배라고 계산합니다. Grok 4.6 API 요금으로 본인이 추정하면 같은 작업에 약 397달러 대 33달러입니다. 요금제는 사용량을 다르게 계측하지만, 실행 횟수 12배라는 비율은 단순한 산수입니다(<a href=\"../cases/x-gippp69-2112878801633861648.html\" rel=\"noopener\" target=\"_blank\">사례</a>, <a href=\"../cases/x-gippp69-2114689520964677797.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</p></div>\n<ul class=\"steps\">\n<li><strong>시계는 하나, 나머지는 트리거.</strong> 봇 7개를 출시 팀으로 연결한 @gippp69는 매시간 타이머로 주당 1,176회 실행이 있었고 대부분 빈손이었다고 셌습니다. 해결책: 시계는 하나(월요일 09:00)만 두고, 다른 봇은 앞의 봇이 DONE을 쓴 뒤에만 시작하게 합니다. 이메일 대신 공유 장부 파일로 인계하고, 봇마다 X 읽기 한도를 따로 두며, 돈을 다루는 봇은 하나만 두고 한도 40달러, 구매마다 승인을 받게 했습니다. 그러자 같은 작업이 약 60회 실행으로 끝났다고 합니다(<a href=\"../cases/x-gippp69-2115778291755782151.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n<li><strong>봇을 깨우기 전에 확인하기.</strong> @z80srl은 한도를 많이 먹는 루틴 대부분을 Grok Bot 머신의 작은 로컬 스크립트로 옮겼습니다. 스크립트는 한도를 쓰지 않고 결과가 미리 정한 경우에 맞을 때만 봇을 깨웁니다. 예를 들어 은행 거래를 지켜보는 스크립트는 변동이 없으면 봇을 계속 재웁니다(<a href=\"../cases/x-z80srl-2116145921520238674.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n<li><strong>루틴 전용 봇 두기.</strong> @MartinBarna333는 루틴만 돌리는 봇을 하나 두고 짧고 깨끗한 채팅에서 실행해 메인 채팅이 토큰을 태우지 않게 합니다. 실행은 하루 최대 1~2회이며, 타이머보다는 이메일 수신 같은 이벤트로 시작하는 편이 좋다고 합니다. 노하우는 파일에 있어서 대체 봇도 바로 이어받을 수 있습니다(<a href=\"../cases/x-martinbarna333-2115417754723336371.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n<li><strong>문서도 같은 입장.</strong> 좁은 트리거를 권하고, \"모든 새 메시지\" 같은 넓은 리스너는 \"노이즈를 만들고 사용량을 소모한다\"고 경고합니다(<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">스킬과 루틴</a>).</li>\n</ul>"
+   },
+   "s-context": {
+    "h": "3. 대화를 짧게 유지하기",
+    "html": "<p>긴 채팅은 매 턴마다 다시 읽히며, @m4lkxx의 75%가 바로 여기로 갔습니다. 한 사용자는 이를 구체적인 방법으로 만들었습니다.</p>\n<ul class=\"steps\">\n<li>@Simonpuebla_는 한도가 3일 만에 바닥났다고 말합니다. 그는 다른 봇을 감사하는 Lean이라는 봇을 만들었습니다. 가장 효과가 컸던 변화는 거대한 컨텍스트를 끌고 다니지 않는 것이었습니다. 봇이 한 번에 다섯 가지씩 처리하게 하고, 긴 결과는 채팅에 붙여 넣지 말고 파일로 저장합니다. 세 가지를 연달아 고칠 때는 하나씩이 아니라 한꺼번에 고칩니다. 매주 남은 일의 짧은 요약과 함께 새 채팅을 시작합니다.</li>\n<li>일주일 뒤 그는 사용량이 약 5분의 1로 줄었고, 사용량의 약 20%를 차지하던 영업 봇이 약 3%로 떨어지면서도 똑같이 또는 더 잘 일했다고 전합니다. 스페인어로 쓴 이 게시물에는 감사 에이전트를 만들 때 쓴 프롬프트도 있습니다(<a href=\"../cases/x-simonpuebla-2117034290332487727.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n</ul>\n<p>한 사람의 결과일 뿐 보장은 아니지만, 사용량은 각 작업에 드는 일의 양을 따른다는 문서의 설명과 맞습니다.</p>"
+   },
+   "s-bots": {
+    "h": "4. 봇 수 줄이기",
+    "html": "<ul class=\"steps\">\n<li><strong>주제 하나에 봇 하나.</strong> @AndresRuggiero3는 가계 재정을 청구서, 구독, 예산, 알림 봇으로 나누는 것을 가장 흔한 과잉 설계라고 합니다. 봇 4개는 지시 4세트, 더 많은 인계, 더 큰 토큰 청구서를 뜻합니다. 돈 관리 봇 하나는 모든 맥락을 갖고, 인계가 적고, 고칠 지시도 한 세트뿐입니다. 정말로 다른 일이 될 때만 나누세요(<a href=\"../cases/x-andresruggiero3-2112671200291811680.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n<li><strong>좋은 봇 세 개.</strong> @distortgeekin의 게시물은 Grok Bot 엔지니어 Lauren Tan의 말을 전합니다. \"관리하지 못하는 팀보다 좋은 세 개가 낫다\". 그녀는 각 봇을 첫날 인턴처럼 가르치고, 설명한 작업은 모두 스킬로 저장합니다(<a href=\"../cases/x-distortgeekin-2116885715292192867.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n<li><strong>루틴보다 스킬이 먼저.</strong> 문서는 일회성 작업으로 시작해 안정적으로 만들고, 그 방법을 스킬로 저장한 다음에야 자동화하라고 하며, 스킬을 루틴으로 바꾸기 전에 실제 일회성 작업으로 시험해 보라고 합니다(<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">스킬과 루틴</a>, <a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">자주 묻는 질문</a>).</li>\n</ul>"
+   },
+   "s-limits": {
+    "h": "5. 일정을 잡기 전에 한도 알기",
+    "html": "<ul class=\"steps\">\n<li><strong>Test는 실제 작업.</strong> @DissipativeS는 루틴의 함정을 나열합니다. 새 일정은 다음 시간대가 돼야 실행되고, Test는 실제 작업을 하며 사용량을 씁니다(<a href=\"../cases/x-dissipatives-2116885597004439994.html\" rel=\"noopener\" target=\"_blank\">사례</a>). 문서도 \"테스트 실행은 실제 작업을 수행한다\"고 말합니다(<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">스킬과 루틴</a>).</li>\n<li><strong>초과 사용에 놀라지 않기.</strong> @gitpulled는 돈이 오가지 않는 작업 하나로 시작해 첫 실행을 지켜보고, 주간 사용량을 알 때까지 온디맨드를 꺼 두라고 조언합니다. 그렇지 않으면 경고 없이 유료로 넘어가기 때문입니다(<a href=\"../cases/x-gitpulled-2111062785308205306.html\" rel=\"noopener\" target=\"_blank\">사례</a>). The X Subscription의 공식 방법은 Auto Top-up을 꺼 두거나 월별 추가 사용량 한도를 설정하는 것입니다(<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">자주 묻는 질문</a>).</li>\n<li><strong>풀은 공유됩니다.</strong> @Vikramaditya_V1은 봇 작업, Grok 채팅, Cursor의 Grok이 하나의 주간 풀을 함께 쓰며, 상시 실행 에이전트 하나만으로도 풀이 바닥날 수 있다고 지적합니다(<a href=\"../cases/x-vikramadityav1-2114622301077733643.html\" rel=\"noopener\" target=\"_blank\">사례</a>). 이는 여러 화면이 하나의 풀을 공유한다는 문서 설명과 일치합니다.</li>\n</ul>"
+   },
+   "s-elsewhere": {
+    "h": "6. 무거운 작업은 다른 곳으로",
+    "html": "<ul class=\"steps\">\n<li>@Av1dlive는 Grok Bot 사용량 한도에 계속 걸리자 무거운 작업을 자신이 구독한 Claude Code로 넘기는 작업대를 만들었고, 이제 한도가 일주일 내내 버틴다고 말합니다(<a href=\"../cases/x-av1dlive-2115929453859881169.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n<li>@nnaatt00xx는 연구용 저장소에서 다섯 시간 동안 주고받은 대화로 주간 예산의 절반을 썼다며, 작업을 Cursor 클라우드 에이전트에 맡기기 시작했고 이것이 모범 사례인지 묻습니다. 이 게시물은 질문이지 결과가 아닙니다(<a href=\"../cases/x-nnaatt00xx-2116883629871899112.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n</ul>\n<p>작업을 다른 도구에 넘기면 그 도구의 구독, 한도, 약관이 적용되니 먼저 확인하세요.</p>"
+   },
+   "s-odd": {
+    "h": "7. 계측이 이유 없이 뛸 때",
+    "html": "<p>여러 사용자가 11월 1일에 사용량이 갑자기 뛰었다고 보고했습니다. 이는 사용자 보고이며, 우리가 읽은 출처에는 원인에 대한 공급사의 확인이 없습니다.</p>\n<ul class=\"steps\">\n<li>@matthewsligh는 거의 활동이 없었는데 두 시간 만에 사용량이 45% 미만에서 87%로 올랐다고 합니다. 내보내기 자료에는 하룻밤에 약 200만 토큰이 찍혔고, 평소 하루는 1억 5천만~2억 5천만 토큰이며, 오전 12시 20분에 앱은 87%를 보였지만 봇 자체의 사용량 확인은 43.6%였습니다(<a href=\"../cases/x-matthewsligh-2116885595188326723.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n<li>@matnguvix는 가벼운 루틴 실행 몇 번 사이에 주간 사용량이 50%에서 100%로 오른 것을 봤습니다(<a href=\"../cases/x-matnguvix-2116883146151178333.html\" rel=\"noopener\" target=\"_blank\">사례</a>).</li>\n</ul>\n<p>두 사람이 한 일 중 따라 할 수 있는 것: 변경 전후의 시각과 비율을 적고 사용량 내보내기 자료와 비교해 두면, 정정을 요청할 때 근거가 됩니다.</p>"
+   },
+   "s-list": {
+    "h": "짧은 체크리스트",
+    "html": "<ol class=\"steps\">\n<li>필요 없는 루틴은 일시 중지합니다(공식 문서).</li>\n<li>각 봇에게 맡은 루틴과 실행 빈도를 나열하게 합니다(@BenENewton).</li>\n<li>타이머를 좁은 이벤트 트리거로 바꾸고, 타이머가 꼭 필요하면 간격을 넓힙니다(문서, @MartinBarna333, @gippp69).</li>\n<li>먼저 저렴한 확인을 돌리고, 무언가 바뀌었을 때만 봇을 깨웁니다(@z80srl, @gippp69).</li>\n<li>반복 루틴은 짧은 채팅의 전용 봇 하나에 모읍니다(@MartinBarna333).</li>\n<li>작업을 묶어서 처리하고, 긴 결과는 파일로 저장하며, 매주 짧은 요약으로 새 채팅을 시작합니다(@Simonpuebla_).</li>\n<li>일이 정말 달라지기 전까지는 주제 하나에 봇 하나(@AndresRuggiero3).</li>\n<li>Test는 아껴 쓰세요. 사용량을 씁니다(문서).</li>\n<li>주간 사용량을 알 때까지 Auto Top-up을 끄거나 월 한도를 설정합니다(문서 자주 묻는 질문).</li>\n<li>변경할 때마다 사용량 비율을 기록해 무엇이 효과가 있었는지 알 수 있게 합니다.</li>\n</ol>"
+   },
+   "s-est": {
+    "h": "일정을 잡기 전에 추정하기",
+    "html": "<p>이 사이트에는 <a href=\"../calculator.html\">할당량 위험 계산기</a>가 있습니다. 규칙은 방향을 보여 주는 추정치이며 공급사 수치가 아닙니다. 봇 3~5개는 1점, 6개 이상은 2점, 브라우저 사용은 1점, 매일 루틴은 1점, 매시간 루틴은 2점입니다. 합계 0~1점은 낮음, 2~3점은 보통, 4점 이상은 높음입니다.</p>"
+   }
+  },
+  "related": [
+   {
+    "kind": "할당량 보고",
+    "title": "주간 Grok Bot 한도의 74%는 어디로 갔나"
+   },
+   {
+    "kind": "가이드",
+    "title": "Grok Bot 봇 7개를 연결하며 찾은 빈 실행과 해결책 5가지"
+   },
+   {
+    "kind": "할당량 보고",
+    "title": "다른 봇을 감사하는 봇으로 일주일 만에 사용량을 약 5분의 1로"
+   },
+   {
+    "kind": "가이드",
+    "title": "반복 루틴은 메인 봇에서 떼어 두기"
+   },
+   {
+    "kind": "할당량 보고",
+    "title": "한도 절약: 필요할 때만 봇을 깨우는 로컬 스크립트"
+   },
+   {
+    "kind": "가이드",
+    "title": "첫날부터 봇 팀을 만들지 마세요: 주제 하나에 봇 하나"
+   }
+  ],
+  "sources": [
+   "사용량 한도(공식 문서)",
+   "The X Subscription의 Grok Bot(공식 문서)",
+   "스킬과 루틴(공식 문서)",
+   "자주 묻는 질문(공식 문서)",
+   "루틴(Cursor 도움말)",
+   "X의 @zhouruijin",
+   "X의 @m4lkxx",
+   "X의 @BenENewton",
+   "X의 @sorcererxw",
+   "X의 @gippp69",
+   "X의 @gippp69",
+   "X의 @gippp69",
+   "X의 @z80srl",
+   "X의 @MartinBarna333",
+   "X의 @Simonpuebla_",
+   "X의 @AndresRuggiero3",
+   "X의 @distortgeekin",
+   "X의 @DissipativeS",
+   "X의 @gitpulled",
+   "X의 @Vikramaditya_V1",
+   "X의 @Av1dlive",
+   "X의 @nnaatt00xx",
+   "X의 @matthewsligh",
+   "X의 @matnguvix"
+  ],
+  "ui": {
+   "crumb": "Always-on Usage",
+   "brand": "Always-on Usage",
+   "rel": "이 사이트의 관련 사례",
+   "src": "출처",
+   "toc": "이 페이지 목차",
+   "note": "이 페이지는 공식 문서와 X의 공개 게시물을 바탕으로 한 독자적인 정리입니다. 인용과 수치는 작성자에게 있으며 공급사 수치가 아닙니다. 인용은 영어 원문에서 번역했습니다."
+  }
+ },
+ "ms": {
+  "title": "Cara menjadikan penggunaan Grok Bot tahan lebih lama",
+  "desc": "Cara memanjangkan penggunaan mingguan Grok Bot, daripada dokumen rasmi dan hantaran awam pengguna yang berjaya mengurangkannya: kurangkan larian rutin yang kosong, perbualan lebih pendek, bot lebih sedikit.",
+  "lede": "Grok Bot menggunakan kumpulan penggunaan mingguan, dan ramai pengguna melaporkan ia habis lebih awal. Panduan ini mengumpulkan apa yang dinyatakan oleh dokumen rasmi dan apa yang dikongsi secara terbuka oleh pengguna tentang cara mengurangkan penggunaan. Kenyataan rasmi dilabel sebagai rasmi; angka pengguna ialah angka penulis sendiri, bukan angka vendor. Dokumen rasmi kali terakhir disemak pada 16 November 2026.",
+  "sections": {
+   "s-docs": {
+    "h": "Apa kata dokumen rasmi",
+    "html": "<p>Mulakan dengan peraturan yang didokumenkan, kerana kebanyakan petua di bawah ialah cara bekerja dalam peraturan itu.</p>\n<ul class=\"steps\">\n<li>Di The X Subscription, setiap tempat duduk berbayar mendapat kumpulan mingguan untuk penggunaan pihak pertama yang layak, dikongsi merentas permukaan Grok dan Cursor dan bukan dibahagikan mengikut produk. Grok Bot menggunakan kumpulan itu. Peringkat lebih tinggi termasuk kumpulan yang lebih besar (<a href=\"https://docs.x.ai/x-subscription/usage-limits\" rel=\"noopener\" target=\"_blank\">had penggunaan</a>, <a href=\"https://docs.x.ai/x-subscription/grok-bot\" rel=\"noopener\" target=\"_blank\">Grok Bot di The X Subscription</a>).</li>\n<li>Dokumen menyatakan kelajuan penggunaan anda “bergantung pada jenis kerja yang anda berikan kepada Grok Bot dan berapa banyak usaha yang diperlukan setiap tugas” (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">Soalan Lazim</a>).</li>\n<li>Setiap larian rutin menggunakan kuota. Jadual setiap jam, selang yang pendek atau pencetus Slack pada saluran yang sibuk “boleh menggunakan penggunaan seminggu dalam sehari” (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill dan rutin</a>).</li>\n<li>Langkah pertama yang didokumenkan: jeda rutin yang tidak diperlukan, kemudian minta Bot meluaskan jadual dan menyempitkan pencetus Slack sebelum anda menaikkan pelan atau had atas permintaan. Rutin yang tidak pernah berjalan tidak menggunakan kuota; Test menggunakannya kerana ia melakukan kerja sebenar (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill dan rutin</a>, <a href=\"https://cursor.com/help/grok-bot/routines\" rel=\"noopener\" target=\"_blank\">bantuan Cursor</a>).</li>\n<li>Jadual rutin mesti sekurang-kurangnya lima minit jaraknya. Semua rutin bersama boleh berjalan sehingga 300 kali sejam dan setiap rutin sehingga 200; larian yang melepasi mana-mana had gagal dengan “Automation run rate limit exceeded” dan tidak dicuba semula secara automatik. Dokumen menambah bahawa sesetengah larian boleh gagal dengan ralat ini kerana had yang dikongsi oleh semua rutin, iaitu isu yang diketahui dan sedang dibaiki (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill dan rutin</a>).</li>\n<li>Untuk mengelakkan caj lebihan berbayar di The X Subscription, biarkan Auto Top-up dimatikan atau tetapkan had penggunaan tambahan bulanan. Soalan Lazim menambah bahawa had tidak menghentikan Bot di tengah larian, jadi tugas yang sedang berjalan boleh melepasinya sedikit (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">Soalan Lazim</a>).</li>\n<li>Untuk percubaan, Soalan Lazim menyatakan kredit ditolak mengikut langkah ejen dan token, bukan bilangan mesej, dan satu tugas besar boleh menghabiskan semuanya (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">Soalan Lazim</a>).</li>\n</ul>"
+   },
+   "s-find": {
+    "h": "1. Ketahui ke mana penggunaan pergi",
+    "html": "<p>Sebelum mengubah apa-apa, dapatkan pecahannya. Berikut dua contoh awam.</p>\n<ul class=\"steps\">\n<li><strong>Pecahan seorang pengguna.</strong> Sebelum set semula mingguan pada 74%, @zhouruijin bertanya kepada bot ke mana penggunaannya pergi. Jawapan bot: 64% daripada berbual dengan bot, 16% daripada satu rutin yang mengimbas trend X setiap 30 minit (kira-kira 238 larian seminggu), dan 20% daripada taklimat, peninjau saham dan audit malam (<a href=\"../cases/x-zhouruijin-2116501095254290554.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n<li><strong>Sembang lama ialah kos tersembunyi.</strong> @m4lkxx berkata 75% token mereka digunakan untuk membaca semula sembang lama dan kira-kira 1% untuk kerja sebenar, lalu menyimpulkan bahawa susunan kerja itulah yang mahal, bukan Grok Bot (<a href=\"../cases/x-m4lkxx-2115775972536434946.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n<li><strong>Suruh bot melapor.</strong> @BenENewton mencadangkan agar bot utama anda meminta setiap bot melaporkan rutin yang menghabiskan token; anda akan menemui rutin yang nampak menarik semasa dibina tetapi kemudian dilupakan (<a href=\"../cases/x-benenewton-2112668191700795603.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n<li><strong>Meter itu kasar.</strong> @sorcererxw menjalankan sedozen bot dengan rutin dan tidak dapat melihat bot mana yang menghabiskan kuota, lalu meminta penggunaan token bagi setiap bot dan setiap rutin (<a href=\"../cases/x-sorcererxw-2113240769951834170.html\" rel=\"noopener\" target=\"_blank\">kes</a>). Sehingga ciri itu ada, minta setiap bot menyenaraikan rutin dan jadualnya, dan catat peratusan penggunaan anda sebelum dan selepas setiap perubahan.</li>\n</ul>"
+   },
+   "s-routines": {
+    "h": "2. Hentikan rutin yang bangun tanpa sebab",
+    "html": "<p>Nasihat yang paling kerap diulang dalam hantaran awam ialah tentang rutin yang berjalan mengikut pemasa, tidak menemui apa-apa tetapi tetap menggunakan satu larian.</p>\n<div class=\"res-box\"><span class=\"res-k\">Kiraannya</span><p class=\"res-v\">@gippp69 mengira satu rutin setiap 5 minit sebagai 8,640 larian sebulan berbanding 720 untuk setiap jam, iaitu 12 kali ganda. Mengikut anggaran mereka pada kadar API Grok 4.6, itu kira-kira $397 berbanding $33 untuk kerja yang sama. Pelan anda mengukur penggunaan secara berbeza, tetapi nisbah larian 12 kali ganda itu aritmetik mudah (<a href=\"../cases/x-gippp69-2112878801633861648.html\" rel=\"noopener\" target=\"_blank\">kes</a>, <a href=\"../cases/x-gippp69-2114689520964677797.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</p></div>\n<ul class=\"steps\">\n<li><strong>Satu jam, selebihnya pencetus.</strong> Semasa menyambungkan 7 bot menjadi pasukan pelancaran, @gippp69 mengira 1,176 larian seminggu pada pemasa setiap jam, kebanyakannya kosong. Penyelesaian mereka: kekalkan satu jam (Isnin 09:00) dan biar setiap bot lain bermula hanya apabila bot sebelumnya menulis DONE; serah kerja melalui fail lejar bersama dan bukan e-mel; beri setiap bot had bacaan X sendiri; benarkan hanya satu bot menyentuh wang, dengan had $40 dan kelulusan untuk setiap pembelian. Mereka berkata kerja yang sama kemudian mengambil kira-kira 60 larian (<a href=\"../cases/x-gippp69-2115778291755782151.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n<li><strong>Semak sebelum membangunkan bot.</strong> @z80srl memindahkan kebanyakan rutin yang kuat makan kuota ke skrip tempatan kecil pada mesin Grok Bot. Skrip itu tidak menggunakan kuota dan hanya membangunkan bot apabila hasilnya sepadan dengan kes yang dirancang; contohnya, skrip memantau pergerakan bank dan jika tiada pergerakan, bot terus tidur (<a href=\"../cases/x-z80srl-2116145921520238674.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n<li><strong>Beri rutin bot sendiri.</strong> @MartinBarna333 menjalankan satu bot khas untuk rutin, dalam sembang yang pendek dan bersih supaya sembang utama tidak membakar token, paling banyak 1 hingga 2 larian sehari dan lebih baik dicetuskan oleh peristiwa seperti e-mel masuk berbanding pemasa. Pengetahuan disimpan dalam fail, jadi bot pengganti boleh terus menyambung (<a href=\"../cases/x-martinbarna333-2115417754723336371.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n<li><strong>Dokumen bersetuju.</strong> Dokumen mengesyorkan pencetus yang sempit dan memberi amaran tentang pendengar luas seperti “setiap mesej baharu”, yang “mencipta hingar, menggunakan kuota” (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill dan rutin</a>).</li>\n</ul>"
+   },
+   "s-context": {
+    "h": "3. Pastikan setiap perbualan pendek",
+    "html": "<p>Sembang panjang dibaca semula pada setiap giliran, dan di situlah 75% milik @m4lkxx pergi. Seorang pengguna menjadikannya rutin yang konkrit:</p>\n<ul class=\"steps\">\n<li>@Simonpuebla_ berkata kuotanya habis dalam 3 hari. Dia membina bot bernama Lean yang mengaudit bot-botnya yang lain. Perubahan paling berkesan ialah tidak mengheret konteks yang besar: suruh bot mengerjakan lima perkara sekali gus dan simpan hasil panjang ke dalam fail dan bukan menampalnya ke sembang; apabila dia membetulkan tiga perkara berturut-turut, betulkan semuanya sekali dan bukan satu demi satu; mulakan sembang baharu setiap minggu dengan ringkasan pendek tentang perkara yang belum selesai.</li>\n<li>Seminggu kemudian dia melaporkan penggunaan kira-kira 5 kali lebih rendah, dan bot jualan yang sebelum ini kira-kira 20% daripada penggunaannya turun ke kira-kira 3% sambil berfungsi sama baik atau lebih baik. Hantaran dalam bahasa Sepanyol itu termasuk prompt yang digunakannya untuk membina ejen audit (<a href=\"../cases/x-simonpuebla-2117034290332487727.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n</ul>\n<p>Ini hasil seorang individu, bukan jaminan, tetapi ia selari dengan dokumen bahawa penggunaan mengikut jumlah kerja setiap tugas.</p>"
+   },
+   "s-bots": {
+    "h": "4. Gunakan lebih sedikit bot",
+    "html": "<ul class=\"steps\">\n<li><strong>Satu topik, satu bot.</strong> @AndresRuggiero3 menyifatkan pemisahan kewangan rumah kepada bot bil, langganan, bajet dan peringatan sebagai kerumitan berlebihan yang paling biasa: empat bot bermaksud empat set arahan, lebih banyak serahan dan bil token yang lebih besar. Satu bot wang menyimpan semua konteks, memerlukan lebih sedikit serahan dan hanya satu set arahan untuk dibaiki. Pisahkan hanya apabila kerja itu benar-benar menjadi tugas yang berbeza (<a href=\"../cases/x-andresruggiero3-2112671200291811680.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n<li><strong>Tiga yang bagus.</strong> Satu hantaran oleh @distortgeekin memetik jurutera Grok Bot Lauren Tan: “tiga yang bagus lebih baik daripada pasukan yang tidak dapat anda urus”. Dia melatih setiap bot seperti pelatih pada hari pertama dan menyimpan setiap tugas yang diterangkan sebagai skill (<a href=\"../cases/x-distortgeekin-2116885715292192867.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n<li><strong>Skill sebelum rutin.</strong> Dokumen menyarankan bermula dengan tugas sekali sahaja, menjadikannya boleh dipercayai, menyimpan kaedah itu sebagai skill dan barulah mengautomasikannya, serta menguji skill pada tugas sekali sahaja yang sebenar sebelum menjadikannya rutin (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill dan rutin</a>, <a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">Soalan Lazim</a>).</li>\n</ul>"
+   },
+   "s-limits": {
+    "h": "5. Ketahui had sebelum membuat jadual",
+    "html": "<ul class=\"steps\">\n<li><strong>Test ialah kerja sebenar.</strong> @DissipativeS menyenaraikan perangkap rutin: jadual baharu tidak berjalan sehingga slot seterusnya, dan Test melakukan kerja sebenar serta menggunakan kuota (<a href=\"../cases/x-dissipatives-2116885597004439994.html\" rel=\"noopener\" target=\"_blank\">kes</a>). Dokumen menyatakan perkara yang sama: “Larian ujian melakukan kerja sebenar” (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill dan rutin</a>).</li>\n<li><strong>Jangan biar caj lebihan mengejutkan anda.</strong> @gitpulled menasihatkan bermula dengan satu tugas yang tidak melibatkan wang, memerhati larian pertama, dan mematikan atas permintaan sehingga anda tahu penggunaan mingguan anda, kerana jika tidak ia beralih ke berbayar tanpa amaran (<a href=\"../cases/x-gitpulled-2111062785308205306.html\" rel=\"noopener\" target=\"_blank\">kes</a>). Padanan rasmi di The X Subscription ialah membiarkan Auto Top-up dimatikan atau menetapkan had penggunaan tambahan bulanan (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">Soalan Lazim</a>).</li>\n<li><strong>Kumpulan itu dikongsi.</strong> @Vikramaditya_V1 menyatakan bahawa tugas Bot, sembang Grok dan Grok dalam Cursor berkongsi satu kumpulan mingguan, dan ejen yang sentiasa aktif boleh menghabiskan kumpulan itu sendirian (<a href=\"../cases/x-vikramadityav1-2114622301077733643.html\" rel=\"noopener\" target=\"_blank\">kes</a>). Ini sepadan dengan penerangan dokumen tentang kumpulan yang dikongsi merentas permukaan.</li>\n</ul>"
+   },
+   "s-elsewhere": {
+    "h": "6. Hantar kerja berat ke tempat lain",
+    "html": "<ul class=\"steps\">\n<li>@Av1dlive sering mencapai had penggunaan Grok Bot, lalu membina meja kerja yang menyerahkan kerja berat kepada Claude Code dengan langganan sendiri, dan berkata hadnya kini tahan sepanjang minggu (<a href=\"../cases/x-av1dlive-2115929453859881169.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n<li>@nnaatt00xx berkata lima jam berulang-alik pada repo penyelidikan menggunakan separuh bajet mingguan, telah mula mewakilkan kerja kepada ejen awan Cursor, dan bertanya sama ada itu amalan terbaik. Hantaran itu ialah soalan, bukan hasil (<a href=\"../cases/x-nnaatt00xx-2116883629871899112.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n</ul>\n<p>Menyerahkan kerja kepada alat lain bermakna langganan, had dan terma alat itu sendiri terpakai, jadi semak dahulu.</p>"
+   },
+   "s-odd": {
+    "h": "7. Jika meter melonjak tanpa sebab",
+    "html": "<p>Beberapa pengguna melaporkan lonjakan mendadak pada 1 November. Ini laporan pengguna; sumber yang kami baca tidak mengandungi pengesahan punca daripada vendor.</p>\n<ul class=\"steps\">\n<li>@matthewsligh berkata penggunaan naik daripada bawah 45% kepada 87% dalam dua jam dengan hampir tiada aktiviti. Eksportnya menunjukkan kira-kira 2 juta token semalaman berbanding 150 hingga 250 juta pada hari biasa, dan pada 12:20 pagi aplikasi menunjukkan 87% manakala semakan penggunaan bot itu sendiri menunjukkan 43.6% (<a href=\"../cases/x-matthewsligh-2116885595188326723.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n<li>@matnguvix melihat penggunaan mingguan naik daripada 50% kepada 100% dengan hanya beberapa larian rutin ringan di antaranya (<a href=\"../cases/x-matnguvix-2116883146151178333.html\" rel=\"noopener\" target=\"_blank\">kes</a>).</li>\n</ul>\n<p>Apa yang kedua-duanya lakukan dan boleh anda tiru: catat masa dan peratusan sebelum dan selepas, dan bandingkan dengan eksport penggunaan anda supaya anda ada bukti jika perlu meminta pembetulan.</p>"
+   },
+   "s-list": {
+    "h": "Senarai semak ringkas",
+    "html": "<ol class=\"steps\">\n<li>Jeda rutin yang tidak diperlukan (dokumen rasmi).</li>\n<li>Minta setiap bot menyenaraikan rutin miliknya dan kekerapan larian (@BenENewton).</li>\n<li>Gantikan pemasa dengan pencetus peristiwa yang sempit; jika perlu pemasa, luaskan selangnya (dokumen, @MartinBarna333, @gippp69).</li>\n<li>Jalankan semakan murah dahulu dan bangunkan bot hanya apabila sesuatu berubah (@z80srl, @gippp69).</li>\n<li>Letakkan rutin berulang pada satu bot khas dalam sembang pendek (@MartinBarna333).</li>\n<li>Kumpulkan kerja, simpan hasil panjang dalam fail, dan mulakan sembang baharu setiap minggu dengan ringkasan pendek (@Simonpuebla_).</li>\n<li>Gunakan satu bot bagi setiap topik sehingga kerja benar-benar berbeza (@AndresRuggiero3).</li>\n<li>Gunakan Test dengan berjimat: ia menggunakan kuota (dokumen).</li>\n<li>Biarkan Auto Top-up dimatikan, atau tetapkan had bulanan, sehingga anda tahu penggunaan mingguan anda (Soalan Lazim dokumen).</li>\n<li>Catat peratusan penggunaan selepas setiap perubahan supaya anda tahu apa yang berkesan.</li>\n</ol>"
+   },
+   "s-est": {
+    "h": "Anggarkan sebelum membuat jadual",
+    "html": "<p>Laman ini mempunyai <a href=\"../calculator.html\">Kalkulator risiko kuota</a>. Peraturannya ialah anggaran arah, bukan angka vendor: 3 hingga 5 bot menambah 1 mata dan 6 atau lebih menambah 2; pelayar yang dihidupkan menambah 1; rutin harian menambah 1 dan rutin setiap jam menambah 2. Jumlah 0 hingga 1 mata dikira rendah, 2 hingga 3 sederhana dan 4 atau lebih tinggi.</p>"
+   }
+  },
+  "related": [
+   {
+    "kind": "Laporan kuota",
+    "title": "Ke mana 74% had mingguan Grok Bot pergi"
+   },
+   {
+    "kind": "Panduan",
+    "title": "Larian kosong yang ditemui semasa menyambungkan 7 bot Grok Bot, dan 5 penyelesaian"
+   },
+   {
+    "kind": "Laporan kuota",
+    "title": "Bot yang mengaudit bot lain mengurangkan penggunaannya kira-kira 5 kali dalam seminggu"
+   },
+   {
+    "kind": "Panduan",
+    "title": "Jauhkan rutin berulang daripada bot utama anda"
+   },
+   {
+    "kind": "Laporan kuota",
+    "title": "Menjimatkan kuota: skrip tempatan yang membangunkan bot hanya apabila perlu"
+   },
+   {
+    "kind": "Panduan",
+    "title": "Jangan bina pasukan bot pada hari pertama: satu topik, satu bot"
+   }
+  ],
+  "sources": [
+   "Had penggunaan (dokumen rasmi)",
+   "Grok Bot di The X Subscription (dokumen rasmi)",
+   "Skill dan rutin (dokumen rasmi)",
+   "Soalan Lazim (dokumen rasmi)",
+   "Rutin (bantuan Cursor)",
+   "@zhouruijin di X",
+   "@m4lkxx di X",
+   "@BenENewton di X",
+   "@sorcererxw di X",
+   "@gippp69 di X",
+   "@gippp69 di X",
+   "@gippp69 di X",
+   "@z80srl di X",
+   "@MartinBarna333 di X",
+   "@Simonpuebla_ di X",
+   "@AndresRuggiero3 di X",
+   "@distortgeekin di X",
+   "@DissipativeS di X",
+   "@gitpulled di X",
+   "@Vikramaditya_V1 di X",
+   "@Av1dlive di X",
+   "@nnaatt00xx di X",
+   "@matthewsligh di X",
+   "@matnguvix di X"
+  ],
+  "ui": {
+   "crumb": "Always-on Usage",
+   "brand": "Always-on Usage",
+   "rel": "Kes berkaitan di laman ini",
+   "src": "Sumber",
+   "toc": "Dalam halaman ini",
+   "note": "Halaman ini ialah ringkasan asli daripada dokumen rasmi dan hantaran awam di X. Petikan dan angka adalah milik penulisnya dan bukan angka vendor. Petikan diterjemahkan daripada bahasa Inggeris."
+  }
+ },
+ "vi": {
+  "title": "Cách để mức sử dụng Grok Bot dùng được lâu hơn",
+  "desc": "Những cách kéo dài mức sử dụng hằng tuần của Grok Bot, từ tài liệu chính thức và bài đăng công khai của người dùng đã giảm được mức dùng: bớt các lần chạy routine rỗng, trò chuyện ngắn hơn, ít bot hơn.",
+  "lede": "Grok Bot trừ vào một quỹ sử dụng hằng tuần, và nhiều người dùng cho biết họ hết sớm. Hướng dẫn này tổng hợp những gì tài liệu chính thức nói và những gì người dùng đã chia sẻ công khai về cách giảm mức sử dụng. Thông tin chính thức được ghi rõ; số liệu của người dùng là của chính tác giả, không phải số liệu của nhà cung cấp. Tài liệu chính thức được kiểm tra lần cuối ngày 16 tháng 11 năm 2026.",
+  "sections": {
+   "s-docs": {
+    "h": "Tài liệu chính thức nói gì",
+    "html": "<p>Hãy bắt đầu với các quy tắc đã được ghi trong tài liệu, vì phần lớn mẹo bên dưới là cách xoay xở trong các quy tắc đó.</p>\n<ul class=\"steps\">\n<li>Trên The X Subscription, mỗi chỗ ngồi trả phí có một quỹ hằng tuần cho mức sử dụng bên thứ nhất đủ điều kiện, dùng chung giữa các bề mặt Grok và Cursor thay vì chia theo sản phẩm. Grok Bot trừ vào quỹ đó. Gói cao hơn có quỹ lớn hơn (<a href=\"https://docs.x.ai/x-subscription/usage-limits\" rel=\"noopener\" target=\"_blank\">giới hạn sử dụng</a>, <a href=\"https://docs.x.ai/x-subscription/grok-bot\" rel=\"noopener\" target=\"_blank\">Grok Bot trên The X Subscription</a>).</li>\n<li>Tài liệu cho biết tốc độ bạn dùng hết “phụ thuộc vào loại công việc bạn giao cho Grok Bot và mỗi tác vụ tốn bao nhiêu công sức” (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">Câu hỏi thường gặp</a>).</li>\n<li>Mỗi lần routine chạy đều tốn mức sử dụng. Lịch chạy hằng giờ, khoảng cách ngắn hoặc trigger Slack trên một kênh đông người “có thể dùng hết mức sử dụng của một tuần trong một ngày” (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill và routine</a>).</li>\n<li>Cách xử lý đầu tiên trong tài liệu: tạm dừng các routine không cần, rồi nhờ Bot giãn lịch và thu hẹp trigger Slack trước khi nâng gói hoặc tăng giới hạn theo nhu cầu. Routine không bao giờ chạy thì không tốn mức sử dụng; Test thì có, vì nó làm việc thật (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill và routine</a>, <a href=\"https://cursor.com/help/grok-bot/routines\" rel=\"noopener\" target=\"_blank\">trợ giúp Cursor</a>).</li>\n<li>Lịch routine phải cách nhau ít nhất năm phút. Tất cả routine cộng lại được chạy tối đa 300 lần mỗi giờ và mỗi routine tối đa 200 lần; lần chạy vượt một trong hai giới hạn sẽ thất bại với “Automation run rate limit exceeded” và không tự động chạy lại. Tài liệu nói thêm rằng một số lần chạy có thể gặp lỗi này do giới hạn dùng chung của mọi routine, đây là lỗi đã biết đang được sửa (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill và routine</a>).</li>\n<li>Để tránh phí vượt mức trên The X Subscription, hãy để Auto Top-up tắt hoặc đặt giới hạn sử dụng bổ sung hằng tháng. Câu hỏi thường gặp nói thêm rằng giới hạn không dừng Bot giữa chừng một lần chạy, nên tác vụ đang chạy có thể vượt một chút (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">Câu hỏi thường gặp</a>).</li>\n<li>Với bản dùng thử, Câu hỏi thường gặp cho biết tín dụng được trừ theo số bước của agent và token chứ không theo số tin nhắn, và một tác vụ lớn có thể dùng hết (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">Câu hỏi thường gặp</a>).</li>\n</ul>"
+   },
+   "s-find": {
+    "h": "1. Tìm xem mức sử dụng đi đâu",
+    "html": "<p>Trước khi thay đổi gì, hãy xem bảng phân tích. Dưới đây là hai ví dụ công khai.</p>\n<ul class=\"steps\">\n<li><strong>Bảng phân tích của một người dùng.</strong> Trước lần đặt lại hằng tuần khi đã ở mức 74%, @zhouruijin hỏi bot mức sử dụng đã đi đâu. Bot trả lời: 64% từ việc trò chuyện với bot, 16% từ một routine quét xu hướng X mỗi 30 phút (khoảng 238 lần chạy mỗi tuần), và 20% từ các bản tóm tắt, một trình dò cổ phiếu và một lượt kiểm tra ban đêm (<a href=\"../cases/x-zhouruijin-2116501095254290554.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n<li><strong>Cuộc trò chuyện cũ là chi phí ẩn.</strong> @m4lkxx cho biết 75% token của họ dùng để đọc lại cuộc trò chuyện cũ và chỉ khoảng 1% cho công việc thực, rồi kết luận rằng cách thiết lập mới là thứ tốn kém, không phải Grok Bot (<a href=\"../cases/x-m4lkxx-2115775972536434946.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n<li><strong>Bắt bot báo cáo.</strong> @BenENewton gợi ý nhờ bot chính yêu cầu mọi bot báo cáo các routine đang ngốn token; bạn sẽ thấy những routine nghe rất hay lúc tạo rồi bị quên (<a href=\"../cases/x-benenewton-2112668191700795603.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n<li><strong>Đồng hồ đo còn thô.</strong> @sorcererxw chạy cả chục bot có routine và không thấy được bot nào đang ăn hạn mức, nên đã đề nghị có số token theo từng bot và từng routine (<a href=\"../cases/x-sorcererxw-2113240769951834170.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>). Trong lúc chưa có, hãy nhờ mỗi bot liệt kê routine và lịch của nó, rồi ghi lại phần trăm mức sử dụng trước và sau mỗi thay đổi.</li>\n</ul>"
+   },
+   "s-routines": {
+    "h": "2. Dừng các routine thức dậy mà không làm gì",
+    "html": "<p>Lời khuyên được nhắc nhiều nhất trong các bài đăng công khai là về những routine chạy theo hẹn giờ, không tìm thấy gì mà vẫn tốn một lần chạy.</p>\n<div class=\"res-box\"><span class=\"res-k\">Phép tính</span><p class=\"res-v\">@gippp69 tính rằng một routine chạy mỗi 5 phút là 8.640 lần chạy mỗi tháng so với 720 lần nếu chạy hằng giờ, gấp 12 lần. Theo ước tính của họ với giá API Grok 4.6, đó là khoảng 397 USD so với 33 USD cho cùng một việc. Gói của bạn đo mức sử dụng theo cách khác, nhưng tỷ lệ số lần chạy gấp 12 lần là phép tính đơn giản (<a href=\"../cases/x-gippp69-2112878801633861648.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>, <a href=\"../cases/x-gippp69-2114689520964677797.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</p></div>\n<ul class=\"steps\">\n<li><strong>Một đồng hồ, còn lại là trigger.</strong> Khi nối 7 bot thành một đội ra mắt sản phẩm, @gippp69 đếm được 1.176 lần chạy mỗi tuần theo hẹn giờ hằng giờ, phần lớn trở về tay không. Cách sửa của họ: giữ một đồng hồ (thứ Hai 09:00) và để mọi bot khác chỉ bắt đầu khi bot trước ghi DONE; bàn giao qua một tệp sổ cái dùng chung thay vì email; cho mỗi bot một giới hạn đọc X riêng; chỉ một bot được đụng đến tiền, với mức trần 40 USD và phải duyệt mọi lần mua. Họ nói sau đó cùng công việc chỉ mất khoảng 60 lần chạy (<a href=\"../cases/x-gippp69-2115778291755782151.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n<li><strong>Kiểm tra trước khi đánh thức bot.</strong> @z80srl chuyển phần lớn routine tốn hạn mức sang các script cục bộ nhỏ trên máy Grok Bot. Các script này không tốn hạn mức và chỉ đánh thức bot khi kết quả khớp với một trường hợp đã định; ví dụ, một script theo dõi biến động ngân hàng và nếu không có gì thay đổi thì bot vẫn ngủ (<a href=\"../cases/x-z80srl-2116145921520238674.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n<li><strong>Cho routine một bot riêng.</strong> @MartinBarna333 dùng một bot chỉ để chạy routine, trong một cuộc trò chuyện ngắn và sạch để cuộc trò chuyện chính không đốt token, tối đa 1 đến 2 lần chạy mỗi ngày và ưu tiên kích hoạt bằng sự kiện như email đến hơn là hẹn giờ. Kinh nghiệm nằm trong tệp, nên một bot thay thế có thể tiếp quản ngay (<a href=\"../cases/x-martinbarna333-2115417754723336371.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n<li><strong>Tài liệu cũng đồng ý.</strong> Tài liệu khuyên dùng trigger hẹp và cảnh báo các bộ lắng nghe rộng như “mọi tin nhắn mới”, vốn “tạo nhiễu, tốn mức sử dụng” (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill và routine</a>).</li>\n</ul>"
+   },
+   "s-context": {
+    "h": "3. Giữ mỗi cuộc trò chuyện thật ngắn",
+    "html": "<p>Cuộc trò chuyện dài được đọc lại ở mỗi lượt, và đó là nơi 75% của @m4lkxx đã đi. Một người dùng biến điều này thành một quy trình cụ thể:</p>\n<ul class=\"steps\">\n<li>@Simonpuebla_ nói hạn mức của anh hết trong 3 ngày. Anh tạo một bot tên Lean để kiểm tra các bot khác. Thay đổi hiệu quả nhất là không kéo theo ngữ cảnh khổng lồ: cho bot làm năm việc một lúc và lưu kết quả dài vào tệp thay vì dán vào cuộc trò chuyện; khi anh sửa ba điều liên tiếp, hãy sửa tất cả cùng lúc thay vì từng cái một; mỗi tuần bắt đầu cuộc trò chuyện mới với một bản tóm tắt ngắn về những việc còn dở.</li>\n<li>Một tuần sau, anh cho biết mức sử dụng giảm khoảng 5 lần, và một bot bán hàng từng chiếm khoảng 20% mức dùng của anh giảm còn khoảng 3% mà vẫn làm việc tốt như cũ hoặc tốt hơn. Bài đăng viết bằng tiếng Tây Ban Nha có kèm prompt anh dùng để tạo agent kiểm tra (<a href=\"../cases/x-simonpuebla-2117034290332487727.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n</ul>\n<p>Đây là kết quả của một người, không phải cam kết, nhưng nó khớp với ý của tài liệu rằng mức sử dụng đi theo lượng công việc của mỗi tác vụ.</p>"
+   },
+   "s-bots": {
+    "h": "4. Dùng ít bot hơn",
+    "html": "<ul class=\"steps\">\n<li><strong>Một chủ đề, một bot.</strong> @AndresRuggiero3 cho rằng việc tách tài chính gia đình thành các bot hóa đơn, đăng ký, ngân sách và nhắc nhở là kiểu phức tạp hóa phổ biến nhất: bốn bot nghĩa là bốn bộ chỉ dẫn, nhiều lần bàn giao hơn và hóa đơn token lớn hơn. Một bot lo tiền giữ toàn bộ ngữ cảnh, ít bàn giao hơn và chỉ có một bộ chỉ dẫn để sửa. Chỉ tách khi công việc thật sự trở thành một việc khác (<a href=\"../cases/x-andresruggiero3-2112671200291811680.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n<li><strong>Ba con tốt.</strong> Một bài đăng của @distortgeekin dẫn lời kỹ sư Grok Bot Lauren Tan: “ba con tốt hơn một đội bạn không quản nổi”. Cô hướng dẫn mỗi bot như một thực tập sinh ngày đầu và lưu mỗi tác vụ đã giải thích thành một skill (<a href=\"../cases/x-distortgeekin-2116885715292192867.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n<li><strong>Skill trước routine.</strong> Tài liệu khuyên bắt đầu với một tác vụ chạy một lần, làm cho nó ổn định, lưu cách làm thành skill rồi mới tự động hóa, và thử skill trên một tác vụ một lần thật trước khi biến nó thành routine (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill và routine</a>, <a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">Câu hỏi thường gặp</a>).</li>\n</ul>"
+   },
+   "s-limits": {
+    "h": "5. Biết giới hạn trước khi đặt lịch",
+    "html": "<ul class=\"steps\">\n<li><strong>Test là việc thật.</strong> @DissipativeS liệt kê các cái bẫy của routine: lịch mới chỉ chạy từ khung giờ kế tiếp, và Test làm việc thật nên tốn mức sử dụng (<a href=\"../cases/x-dissipatives-2116885597004439994.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>). Tài liệu cũng nói vậy: “Một lần chạy thử thực hiện công việc thật” (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skill và routine</a>).</li>\n<li><strong>Đừng để phí vượt mức làm bạn bất ngờ.</strong> @gitpulled khuyên bắt đầu với một tác vụ không liên quan đến tiền, theo dõi lần chạy đầu tiên và tắt chế độ theo nhu cầu cho đến khi biết mức dùng hằng tuần của mình, vì nếu không nó sẽ chuyển sang trả phí mà không cảnh báo (<a href=\"../cases/x-gitpulled-2111062785308205306.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>). Cách chính thức tương ứng trên The X Subscription là để Auto Top-up tắt hoặc đặt giới hạn sử dụng bổ sung hằng tháng (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">Câu hỏi thường gặp</a>).</li>\n<li><strong>Quỹ được dùng chung.</strong> @Vikramaditya_V1 chỉ ra rằng tác vụ Bot, trò chuyện Grok và Grok trong Cursor dùng chung một quỹ hằng tuần, và một agent luôn bật có thể tự mình rút cạn quỹ đó (<a href=\"../cases/x-vikramadityav1-2114622301077733643.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>). Điều này khớp với mô tả của tài liệu về một quỹ dùng chung giữa các bề mặt.</li>\n</ul>"
+   },
+   "s-elsewhere": {
+    "h": "6. Chuyển việc nặng sang nơi khác",
+    "html": "<ul class=\"steps\">\n<li>@Av1dlive liên tục chạm giới hạn sử dụng của Grok Bot, nên đã dựng một bàn làm việc chuyển việc nặng cho Claude Code bằng gói đăng ký riêng, và nói giờ hạn mức đủ dùng cả tuần (<a href=\"../cases/x-av1dlive-2115929453859881169.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n<li>@nnaatt00xx cho biết năm giờ trao đổi qua lại trên một repo nghiên cứu đã dùng hết nửa ngân sách tuần, đã bắt đầu giao việc cho agent đám mây của Cursor, và hỏi liệu đó có phải cách làm tốt nhất. Bài đăng là một câu hỏi, không phải kết quả (<a href=\"../cases/x-nnaatt00xx-2116883629871899112.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n</ul>\n<p>Giao việc cho công cụ khác nghĩa là gói đăng ký, giới hạn và điều khoản của chính công cụ đó sẽ áp dụng, nên hãy kiểm tra trước.</p>"
+   },
+   "s-odd": {
+    "h": "7. Nếu đồng hồ đo nhảy vọt vô cớ",
+    "html": "<p>Một số người dùng báo cáo mức sử dụng tăng vọt vào ngày 1 tháng 11. Đây là báo cáo của người dùng; các nguồn chúng tôi đọc không có xác nhận nguyên nhân từ nhà cung cấp.</p>\n<ul class=\"steps\">\n<li>@matthewsligh nói mức sử dụng tăng từ dưới 45% lên 87% trong hai giờ dù gần như không có hoạt động. Bản xuất dữ liệu của anh cho thấy khoảng 2 triệu token qua đêm so với 150 đến 250 triệu vào một ngày bình thường, và lúc 12:20 sáng ứng dụng hiển thị 87% trong khi lần kiểm tra mức dùng của chính bot cho thấy 43,6% (<a href=\"../cases/x-matthewsligh-2116885595188326723.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n<li>@matnguvix thấy mức dùng hằng tuần đi từ 50% lên 100% chỉ sau vài lần chạy routine nhẹ (<a href=\"../cases/x-matnguvix-2116883146151178333.html\" rel=\"noopener\" target=\"_blank\">trường hợp</a>).</li>\n</ul>\n<p>Điều cả hai đã làm mà bạn có thể làm theo: ghi lại thời điểm và phần trăm trước và sau, rồi so với bản xuất mức sử dụng để có bằng chứng nếu cần yêu cầu điều chỉnh.</p>"
+   },
+   "s-list": {
+    "h": "Danh sách kiểm tra ngắn",
+    "html": "<ol class=\"steps\">\n<li>Tạm dừng các routine không cần (tài liệu chính thức).</li>\n<li>Nhờ mỗi bot liệt kê các routine của nó và tần suất chạy (@BenENewton).</li>\n<li>Thay hẹn giờ bằng trigger sự kiện hẹp; nếu cần hẹn giờ thì giãn khoảng cách (tài liệu, @MartinBarna333, @gippp69).</li>\n<li>Chạy một bước kiểm tra rẻ trước và chỉ đánh thức bot khi có thay đổi (@z80srl, @gippp69).</li>\n<li>Gom các routine lặp lại vào một bot riêng trong một cuộc trò chuyện ngắn (@MartinBarna333).</li>\n<li>Gộp việc, lưu kết quả dài vào tệp và mỗi tuần bắt đầu cuộc trò chuyện mới với một bản tóm tắt ngắn (@Simonpuebla_).</li>\n<li>Mỗi chủ đề một bot cho đến khi công việc thật sự khác (@AndresRuggiero3).</li>\n<li>Dùng Test một cách tiết kiệm: nó tốn mức sử dụng (tài liệu).</li>\n<li>Để Auto Top-up tắt, hoặc đặt giới hạn hằng tháng, cho đến khi biết mức dùng hằng tuần (Câu hỏi thường gặp của tài liệu).</li>\n<li>Ghi lại phần trăm mức sử dụng sau mỗi thay đổi để biết cách nào hiệu quả.</li>\n</ol>"
+   },
+   "s-est": {
+    "h": "Ước tính trước khi đặt lịch",
+    "html": "<p>Trang này có một <a href=\"../calculator.html\">Máy tính rủi ro hạn mức</a>. Các quy tắc của nó là ước tính mang tính định hướng, không phải số liệu của nhà cung cấp: 3 đến 5 bot cộng 1 điểm và từ 6 trở lên cộng 2; bật trình duyệt cộng 1; routine hằng ngày cộng 1 và hằng giờ cộng 2. Tổng 0 đến 1 điểm là thấp, 2 đến 3 là trung bình và từ 4 trở lên là cao.</p>"
+   }
+  },
+  "related": [
+   {
+    "kind": "Báo cáo hạn mức",
+    "title": "74% giới hạn hằng tuần của Grok Bot đã đi đâu"
+   },
+   {
+    "kind": "Hướng dẫn",
+    "title": "Những lần chạy rỗng phát hiện khi nối 7 bot Grok Bot, và 5 cách sửa"
+   },
+   {
+    "kind": "Báo cáo hạn mức",
+    "title": "Một bot kiểm tra các bot khác giúp giảm mức dùng khoảng 5 lần trong một tuần"
+   },
+   {
+    "kind": "Hướng dẫn",
+    "title": "Tách các routine định kỳ khỏi bot chính"
+   },
+   {
+    "kind": "Báo cáo hạn mức",
+    "title": "Tiết kiệm hạn mức: script cục bộ chỉ đánh thức bot khi cần"
+   },
+   {
+    "kind": "Hướng dẫn",
+    "title": "Đừng lập đội bot từ ngày đầu: một chủ đề, một bot"
+   }
+  ],
+  "sources": [
+   "Giới hạn sử dụng (tài liệu chính thức)",
+   "Grok Bot trên The X Subscription (tài liệu chính thức)",
+   "Skill và routine (tài liệu chính thức)",
+   "Câu hỏi thường gặp (tài liệu chính thức)",
+   "Routine (trợ giúp Cursor)",
+   "@zhouruijin trên X",
+   "@m4lkxx trên X",
+   "@BenENewton trên X",
+   "@sorcererxw trên X",
+   "@gippp69 trên X",
+   "@gippp69 trên X",
+   "@gippp69 trên X",
+   "@z80srl trên X",
+   "@MartinBarna333 trên X",
+   "@Simonpuebla_ trên X",
+   "@AndresRuggiero3 trên X",
+   "@distortgeekin trên X",
+   "@DissipativeS trên X",
+   "@gitpulled trên X",
+   "@Vikramaditya_V1 trên X",
+   "@Av1dlive trên X",
+   "@nnaatt00xx trên X",
+   "@matthewsligh trên X",
+   "@matnguvix trên X"
+  ],
+  "ui": {
+   "crumb": "Always-on Usage",
+   "brand": "Always-on Usage",
+   "rel": "Các trường hợp liên quan trên trang này",
+   "src": "Nguồn",
+   "toc": "Mục lục trang",
+   "note": "Trang này là bản tổng hợp gốc từ tài liệu chính thức và các bài đăng công khai trên X. Trích dẫn và số liệu thuộc về tác giả, không phải số liệu của nhà cung cấp. Trích dẫn được dịch từ bản gốc tiếng Anh."
+  }
+ },
+ "fr": {
+  "title": "Comment faire durer plus longtemps votre usage de Grok Bot",
+  "desc": "Comment étirer l’usage hebdomadaire de Grok Bot, d’après la documentation officielle et les posts publics d’utilisateurs qui ont réduit le leur : moins de routines qui tournent à vide, des conversations plus courtes, moins de bots.",
+  "lede": "Grok Bot puise dans une réserve d’usage hebdomadaire, et beaucoup d’utilisateurs disent l’épuiser trop tôt. Ce guide rassemble ce que dit la documentation officielle et ce que des utilisateurs ont publié sur la réduction de leur usage. Les affirmations officielles sont signalées comme telles ; les chiffres des utilisateurs sont les leurs et ne viennent pas de l’éditeur. Documentation officielle vérifiée pour la dernière fois le 16 novembre 2026.",
+  "sections": {
+   "s-docs": {
+    "h": "Ce que dit la documentation officielle",
+    "html": "<p>Commencez par les règles documentées, car la plupart des astuces ci-dessous sont des façons de faire avec.</p>\n<ul class=\"steps\">\n<li>Sur The X Subscription, chaque siège payant dispose d’une réserve hebdomadaire pour l’usage first-party éligible, partagée entre les surfaces Grok et Cursor plutôt que répartie par produit. Grok Bot puise dans cette réserve. Les formules supérieures incluent des réserves plus grandes (<a href=\"https://docs.x.ai/x-subscription/usage-limits\" rel=\"noopener\" target=\"_blank\">limites d’usage</a>, <a href=\"https://docs.x.ai/x-subscription/grok-bot\" rel=\"noopener\" target=\"_blank\">Grok Bot sur The X Subscription</a>).</li>\n<li>La documentation indique que la vitesse à laquelle vous la consommez « dépend du type de travail que vous confiez à Grok Bot et de l’effort que demande chaque tâche » (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n<li>Chaque exécution de routine consomme de l’usage. Une planification horaire, un intervalle court ou un déclencheur Slack sur un canal très actif « peut consommer une semaine d’usage en un jour » (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills et routines</a>).</li>\n<li>Le premier remède documenté : mettre en pause les routines inutiles, puis demander au Bot d’espacer les planifications et de restreindre les déclencheurs Slack avant de passer à une formule supérieure ou de relever une limite à la demande. Une routine qui ne s’exécute jamais ne consomme rien ; Test consomme, car il effectue le vrai travail (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills et routines</a>, <a href=\"https://cursor.com/help/grok-bot/routines\" rel=\"noopener\" target=\"_blank\">aide Cursor</a>).</li>\n<li>Les planifications de routines doivent être espacées d’au moins cinq minutes. L’ensemble des routines peut s’exécuter jusqu’à 300 fois par heure et chaque routine jusqu’à 200 ; une exécution au-delà de l’une de ces limites échoue avec « Automation run rate limit exceeded » et n’est pas relancée automatiquement. La documentation ajoute que certaines exécutions peuvent échouer avec cette erreur à cause d’une limite partagée par toutes les routines, un problème connu en cours de correction (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills et routines</a>).</li>\n<li>Pour éviter un dépassement payant sur The X Subscription, laissez Auto Top-up désactivé ou fixez une limite mensuelle d’usage supplémentaire. La FAQ précise qu’un plafond n’arrête pas un Bot en pleine exécution : une tâche en cours peut donc le dépasser légèrement (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n<li>Pour les essais, la FAQ indique que le crédit est décompté en étapes d’agent et en tokens, et non en nombre de messages, et qu’une seule grosse tâche peut tout consommer (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n</ul>"
+   },
+   "s-find": {
+    "h": "1. Découvrir où part l’usage",
+    "html": "<p>Avant de changer quoi que ce soit, obtenez une ventilation. Voici deux exemples publics.</p>\n<ul class=\"steps\">\n<li><strong>La ventilation d’un utilisateur.</strong> Arrivé à 74 % avant la réinitialisation hebdomadaire, @zhouruijin a demandé au bot où était passé son usage. Réponse du bot : 64 % pour les conversations avec les bots, 16 % pour une routine qui scrute les tendances X toutes les 30 minutes (environ 238 exécutions par semaine) et 20 % pour des briefs, un repérage boursier et un audit nocturne (<a href=\"../cases/x-zhouruijin-2116501095254290554.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n<li><strong>Les vieilles conversations, coût caché.</strong> @m4lkxx dit que 75 % de ses tokens servaient à relire d’anciennes conversations et environ 1 % au vrai travail, et en conclut que c’est l’organisation qui coûte cher, pas Grok Bot (<a href=\"../cases/x-m4lkxx-2115775972536434946.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n<li><strong>Faites parler les bots.</strong> @BenENewton suggère de demander à votre bot principal de faire rapporter par chaque bot les routines qui consomment des tokens ; vous en trouverez qui semblaient géniales à leur création et que vous aviez oubliées (<a href=\"../cases/x-benenewton-2112668191700795603.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n<li><strong>Le compteur est grossier.</strong> @sorcererxw fait tourner une douzaine de bots avec des routines sans pouvoir voir lequel mange son allocation, et a demandé un suivi des tokens par bot et par routine (<a href=\"../cases/x-sorcererxw-2113240769951834170.html\" rel=\"noopener\" target=\"_blank\">cas</a>). En attendant, demandez à chaque bot de lister ses routines et leurs planifications, et notez votre pourcentage d’usage avant et après chaque changement.</li>\n</ul>"
+   },
+   "s-routines": {
+    "h": "2. Arrêter les routines qui se réveillent pour rien",
+    "html": "<p>Le conseil le plus répété dans les posts publics concerne les routines qui tournent sur minuterie, ne trouvent rien et consomment quand même une exécution.</p>\n<div class=\"res-box\"><span class=\"res-k\">Le calcul</span><p class=\"res-v\">@gippp69 compte qu’une routine toutes les 5 minutes représente 8 640 exécutions par mois contre 720 en horaire, soit 12 fois plus. Selon son estimation aux tarifs de l’API Grok 4.6, cela fait environ 397 $ contre 33 $ pour le même travail. Votre formule mesure l’usage autrement, mais le rapport de 12 en nombre d’exécutions est de l’arithmétique simple (<a href=\"../cases/x-gippp69-2112878801633861648.html\" rel=\"noopener\" target=\"_blank\">cas</a>, <a href=\"../cases/x-gippp69-2114689520964677797.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</p></div>\n<ul class=\"steps\">\n<li><strong>Une seule horloge, le reste en déclencheurs.</strong> En reliant 7 bots en équipe de lancement, @gippp69 a compté 1 176 exécutions par semaine sur des horloges horaires, la plupart revenant bredouilles. Sa solution : garder une seule horloge (lundi 09:00) et ne lancer chaque autre bot que lorsque le précédent écrit DONE ; passer le relais via un fichier registre partagé plutôt que par e-mail ; donner à chaque bot son propre plafond de lectures X ; ne laisser qu’un seul bot toucher à l’argent, avec un plafond de 40 $ et une approbation pour chaque achat. Le même travail prendrait alors environ 60 exécutions (<a href=\"../cases/x-gippp69-2115778291755782151.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n<li><strong>Vérifier avant de réveiller le bot.</strong> @z80srl a déplacé la plupart des routines gourmandes en quota vers de petits scripts locaux sur la machine Grok Bot. Ces scripts ne consomment pas de quota et ne réveillent le bot que si le résultat correspond à un cas prévu ; par exemple, un script surveille les mouvements bancaires et, si rien n’a bougé, le bot reste endormi (<a href=\"../cases/x-z80srl-2116145921520238674.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n<li><strong>Un bot dédié aux routines.</strong> @MartinBarna333 fait tourner un bot uniquement pour les routines, dans une conversation courte et propre pour que la conversation principale ne brûle pas de tokens, avec au plus 1 à 2 exécutions par jour, de préférence sur un événement comme un e-mail entrant plutôt que sur une minuterie. Le savoir-faire est dans des fichiers, si bien qu’un bot de remplacement peut reprendre aussitôt (<a href=\"../cases/x-martinbarna333-2115417754723336371.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n<li><strong>La documentation va dans le même sens.</strong> Elle recommande des déclencheurs étroits et met en garde contre les écouteurs larges comme « chaque nouveau message », qui « créent du bruit, consomment de l’usage » (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills et routines</a>).</li>\n</ul>"
+   },
+   "s-context": {
+    "h": "3. Garder chaque conversation courte",
+    "html": "<p>Les longues conversations sont relues à chaque tour : c’est là que sont partis les 75 % de @m4lkxx. Un utilisateur en a tiré une méthode concrète :</p>\n<ul class=\"steps\">\n<li>@Simonpuebla_ dit que son quota s’épuisait en 3 jours. Il a créé un bot nommé Lean qui audite ses autres bots. Le changement le plus efficace a été de ne plus traîner un contexte énorme : faire traiter cinq choses à la fois par le bot et enregistrer les longs résultats dans un fichier au lieu de les coller dans la conversation ; quand il corrige trois choses d’affilée, tout corriger d’un coup plutôt qu’une par une ; démarrer chaque semaine une nouvelle conversation avec un court résumé de ce qui reste à faire.</li>\n<li>Une semaine plus tard, il fait état d’un usage environ 5 fois plus faible, et un bot commercial qui représentait environ 20 % de sa consommation est descendu à environ 3 % tout en travaillant aussi bien ou mieux. Le post, rédigé en espagnol, inclut le prompt qu’il a utilisé pour créer l’agent d’audit (<a href=\"../cases/x-simonpuebla-2117034290332487727.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n</ul>\n<p>C’est le résultat d’une seule personne, pas une garantie, mais il rejoint l’idée de la documentation selon laquelle l’usage suit la quantité de travail de chaque tâche.</p>"
+   },
+   "s-bots": {
+    "h": "4. Utiliser moins de bots",
+    "html": "<ul class=\"steps\">\n<li><strong>Un sujet, un bot.</strong> @AndresRuggiero3 qualifie la séparation des finances du foyer en bots factures, abonnements, budget et rappels de complication excessive la plus courante : quatre bots, ce sont quatre jeux d’instructions, plus de passages de relais et une facture de tokens plus lourde. Un seul bot pour l’argent garde tout le contexte, demande moins de relais et n’a qu’un jeu d’instructions à corriger. Ne séparez que lorsque le travail devient réellement un autre métier (<a href=\"../cases/x-andresruggiero3-2112671200291811680.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n<li><strong>Trois bons bots.</strong> Un post de @distortgeekin rapporte les mots de Lauren Tan, ingénieure Grok Bot : « trois bons valent mieux qu’une équipe que vous ne pouvez pas gérer ». Elle forme chaque bot comme un stagiaire à son premier jour et enregistre chaque tâche expliquée sous forme de skill (<a href=\"../cases/x-distortgeekin-2116885715292192867.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n<li><strong>Les skills avant les routines.</strong> La documentation conseille de commencer par une tâche ponctuelle, de la rendre fiable, d’enregistrer la méthode comme skill et seulement ensuite de l’automatiser, et de tester le skill sur une vraie tâche ponctuelle avant d’en faire une routine (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills et routines</a>, <a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n</ul>"
+   },
+   "s-limits": {
+    "h": "5. Connaître les limites avant de planifier",
+    "html": "<ul class=\"steps\">\n<li><strong>Test, c’est du vrai travail.</strong> @DissipativeS liste les pièges des routines : une nouvelle planification ne s’exécute qu’au créneau suivant, et Test effectue le vrai travail et consomme de l’usage (<a href=\"../cases/x-dissipatives-2116885597004439994.html\" rel=\"noopener\" target=\"_blank\">cas</a>). La documentation dit la même chose : « Une exécution de test effectue un vrai travail » (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills et routines</a>).</li>\n<li><strong>Ne vous laissez pas surprendre par le dépassement.</strong> @gitpulled conseille de commencer par une tâche qui n’implique pas d’argent, d’observer la première exécution et de laisser l’usage à la demande désactivé tant que vous ne connaissez pas votre usage hebdomadaire, sinon il bascule en payant sans avertissement (<a href=\"../cases/x-gitpulled-2111062785308205306.html\" rel=\"noopener\" target=\"_blank\">cas</a>). L’équivalent officiel sur The X Subscription consiste à laisser Auto Top-up désactivé ou à fixer une limite mensuelle d’usage supplémentaire (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n<li><strong>La réserve est partagée.</strong> @Vikramaditya_V1 souligne que les tâches du Bot, les conversations Grok et Grok dans Cursor partagent une même réserve hebdomadaire, et qu’un agent toujours actif peut la vider à lui seul (<a href=\"../cases/x-vikramadityav1-2114622301077733643.html\" rel=\"noopener\" target=\"_blank\">cas</a>). Cela correspond à la description d’une réserve partagée entre surfaces dans la documentation.</li>\n</ul>"
+   },
+   "s-elsewhere": {
+    "h": "6. Envoyer le travail lourd ailleurs",
+    "html": "<ul class=\"steps\">\n<li>@Av1dlive atteignait sans cesse les limites d’usage de Grok Bot ; il a donc construit un poste qui confie le travail lourd à Claude Code avec son propre abonnement, et dit que ses limites tiennent désormais toute la semaine (<a href=\"../cases/x-av1dlive-2115929453859881169.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n<li>@nnaatt00xx dit que cinq heures d’allers-retours sur un dépôt de recherche ont consommé la moitié du budget hebdomadaire, a commencé à déléguer à un agent cloud Cursor et demande si c’est une bonne pratique. Le post est une question, pas un résultat (<a href=\"../cases/x-nnaatt00xx-2116883629871899112.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n</ul>\n<p>Confier du travail à un autre outil signifie que l’abonnement, les limites et les conditions de cet outil s’appliquent : vérifiez-les d’abord.</p>"
+   },
+   "s-odd": {
+    "h": "7. Si le compteur s’emballe sans raison",
+    "html": "<p>Plusieurs utilisateurs ont signalé des sauts soudains le 1er novembre. Ce sont des signalements d’utilisateurs ; les sources que nous avons lues ne contiennent aucune confirmation de cause de la part de l’éditeur.</p>\n<ul class=\"steps\">\n<li>@matthewsligh dit que son usage est passé de moins de 45 % à 87 % en deux heures, presque sans activité. Son export montre environ 2 millions de tokens pendant la nuit, contre 150 à 250 millions un jour normal, et à 0 h 20 l’application affichait 87 % alors que la vérification d’usage du bot lui-même indiquait 43,6 % (<a href=\"../cases/x-matthewsligh-2116885595188326723.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n<li>@matnguvix a vu son usage hebdomadaire passer de 50 % à 100 % avec seulement quelques exécutions légères de routines entre les deux (<a href=\"../cases/x-matnguvix-2116883146151178333.html\" rel=\"noopener\" target=\"_blank\">cas</a>).</li>\n</ul>\n<p>Ce que les deux ont fait et que vous pouvez reproduire : notez l’heure et le pourcentage avant et après, et comparez-les avec votre export d’usage pour avoir des preuves si vous devez demander une correction.</p>"
+   },
+   "s-list": {
+    "h": "Une courte checklist",
+    "html": "<ol class=\"steps\">\n<li>Mettez en pause les routines inutiles (documentation officielle).</li>\n<li>Demandez à chaque bot de lister ses routines et leur fréquence (@BenENewton).</li>\n<li>Remplacez les minuteries par des déclencheurs d’événement étroits ; si une minuterie est nécessaire, espacez-la (documentation, @MartinBarna333, @gippp69).</li>\n<li>Lancez d’abord une vérification peu coûteuse et ne réveillez le bot que si quelque chose a changé (@z80srl, @gippp69).</li>\n<li>Regroupez les routines récurrentes sur un bot dédié, dans une conversation courte (@MartinBarna333).</li>\n<li>Regroupez le travail, enregistrez les longs résultats dans des fichiers et démarrez une nouvelle conversation chaque semaine avec un court résumé (@Simonpuebla_).</li>\n<li>Un bot par sujet tant que le travail n’est pas vraiment différent (@AndresRuggiero3).</li>\n<li>Utilisez Test avec parcimonie : il consomme de l’usage (documentation).</li>\n<li>Laissez Auto Top-up désactivé, ou fixez un plafond mensuel, tant que vous ne connaissez pas votre usage hebdomadaire (FAQ de la documentation).</li>\n<li>Notez votre pourcentage d’usage après chaque changement pour savoir ce qui a marché.</li>\n</ol>"
+   },
+   "s-est": {
+    "h": "Estimer avant de planifier",
+    "html": "<p>Ce site propose un <a href=\"../calculator.html\">Calculateur de risque de quota</a>. Ses règles sont des estimations indicatives, pas des chiffres de l’éditeur : 3 à 5 bots ajoutent 1 point et 6 ou plus en ajoutent 2 ; le navigateur activé ajoute 1 ; une routine quotidienne ajoute 1 et une routine horaire 2. Un total de 0 à 1 point est faible, de 2 à 3 moyen et de 4 ou plus élevé.</p>"
+   }
+  },
+  "related": [
+   {
+    "kind": "Rapport de quota",
+    "title": "Où sont passés 74 % d’une limite hebdomadaire de Grok Bot"
+   },
+   {
+    "kind": "Guide",
+    "title": "Les exécutions à vide repérées en reliant 7 bots Grok Bot, et 5 correctifs"
+   },
+   {
+    "kind": "Rapport de quota",
+    "title": "Un bot qui audite les autres a divisé son usage par environ 5 en une semaine"
+   },
+   {
+    "kind": "Guide",
+    "title": "Sortez les routines récurrentes de votre bot principal"
+   },
+   {
+    "kind": "Rapport de quota",
+    "title": "Économiser du quota : des scripts locaux qui ne réveillent le bot que si nécessaire"
+   },
+   {
+    "kind": "Guide",
+    "title": "Pas d’équipe de bots dès le premier jour : un sujet, un bot"
+   }
+  ],
+  "sources": [
+   "Limites d’usage (documentation officielle)",
+   "Grok Bot sur The X Subscription (documentation officielle)",
+   "Skills et routines (documentation officielle)",
+   "Questions fréquentes (documentation officielle)",
+   "Routines (aide Cursor)",
+   "@zhouruijin sur X",
+   "@m4lkxx sur X",
+   "@BenENewton sur X",
+   "@sorcererxw sur X",
+   "@gippp69 sur X",
+   "@gippp69 sur X",
+   "@gippp69 sur X",
+   "@z80srl sur X",
+   "@MartinBarna333 sur X",
+   "@Simonpuebla_ sur X",
+   "@AndresRuggiero3 sur X",
+   "@distortgeekin sur X",
+   "@DissipativeS sur X",
+   "@gitpulled sur X",
+   "@Vikramaditya_V1 sur X",
+   "@Av1dlive sur X",
+   "@nnaatt00xx sur X",
+   "@matthewsligh sur X",
+   "@matnguvix sur X"
+  ],
+  "ui": {
+   "crumb": "Always-on Usage",
+   "brand": "Always-on Usage",
+   "rel": "Cas liés sur ce site",
+   "src": "Sources",
+   "toc": "Sur cette page",
+   "note": "Cette page est une synthèse originale de la documentation officielle et de posts publics sur X. Les citations et les chiffres appartiennent à leurs auteurs et ne viennent pas de l’éditeur. Les citations sont traduites de l’anglais."
+  }
+ },
+ "es": {
+  "title": "Cómo hacer que el uso de Grok Bot dure más",
+  "desc": "Formas de estirar el uso semanal de Grok Bot, según la documentación oficial y publicaciones públicas de usuarios que redujeron el suyo: menos rutinas que se ejecutan en vacío, chats más cortos, menos bots.",
+  "lede": "Grok Bot consume de una bolsa de uso semanal, y muchos usuarios dicen que se les acaba pronto. Esta guía recoge lo que dice la documentación oficial y lo que los usuarios han publicado sobre cómo reducir su uso. Lo oficial se indica como tal; las cifras de los usuarios son de sus autores y no del proveedor. Documentación oficial revisada por última vez el 16 de noviembre de 2026.",
+  "sections": {
+   "s-docs": {
+    "h": "Qué dice la documentación oficial",
+    "html": "<p>Empieza por las reglas documentadas, porque la mayoría de los consejos de abajo son formas de trabajar dentro de ellas.</p>\n<ul class=\"steps\">\n<li>En The X Subscription, cada puesto de pago recibe una bolsa semanal para el uso propio elegible, compartida entre las superficies de Grok y Cursor en lugar de dividirse por producto. Grok Bot consume de esa bolsa. Los planes superiores incluyen bolsas más grandes (<a href=\"https://docs.x.ai/x-subscription/usage-limits\" rel=\"noopener\" target=\"_blank\">límites de uso</a>, <a href=\"https://docs.x.ai/x-subscription/grok-bot\" rel=\"noopener\" target=\"_blank\">Grok Bot en The X Subscription</a>).</li>\n<li>La documentación dice que la velocidad a la que la gastas «depende del tipo de trabajo que le das a Grok Bot y de cuánto esfuerzo requiere cada tarea» (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">preguntas frecuentes</a>).</li>\n<li>Cada ejecución de una rutina gasta uso. Una programación cada hora, un intervalo corto o un disparador de Slack en un canal con mucho movimiento «puede gastar una semana de uso en un día» (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills y rutinas</a>).</li>\n<li>La primera solución documentada: pausar las rutinas que no necesitas y luego pedirle al Bot que espacie las programaciones y acote los disparadores de Slack antes de subir de plan o aumentar un límite bajo demanda. Una rutina que nunca se ejecuta no gasta uso; Test sí, porque hace el trabajo real (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills y rutinas</a>, <a href=\"https://cursor.com/help/grok-bot/routines\" rel=\"noopener\" target=\"_blank\">ayuda de Cursor</a>).</li>\n<li>Las programaciones de rutinas deben estar separadas al menos cinco minutos. Todas las rutinas juntas pueden ejecutarse hasta 300 veces por hora y cada rutina hasta 200; una ejecución que supere cualquiera de los dos límites falla con «Automation run rate limit exceeded» y no se reintenta automáticamente. La documentación añade que algunas ejecuciones pueden fallar con este error por un límite que comparten todas las rutinas, un problema conocido que se está corrigiendo (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills y rutinas</a>).</li>\n<li>Para evitar cargos por exceso en The X Subscription, deja Auto Top-up desactivado o fija un límite mensual de uso adicional. Las preguntas frecuentes añaden que un tope no detiene a un Bot a mitad de una ejecución, así que una tarea en curso puede pasarse un poco (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">preguntas frecuentes</a>).</li>\n<li>En las pruebas, las preguntas frecuentes dicen que el crédito se descuenta por pasos del agente y tokens, no por número de mensajes, y que una sola tarea grande puede gastarlo todo (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">preguntas frecuentes</a>).</li>\n</ul>"
+   },
+   "s-find": {
+    "h": "1. Averigua adónde va el uso",
+    "html": "<p>Antes de cambiar nada, consigue un desglose. Abajo hay dos ejemplos públicos.</p>\n<ul class=\"steps\">\n<li><strong>El desglose de un usuario.</strong> Antes de un reinicio semanal, al 74 %, @zhouruijin le preguntó al bot adónde había ido su uso. La respuesta del bot: 64 % por chatear con los bots, 16 % por una rutina que revisaba las tendencias de X cada 30 minutos (unas 238 ejecuciones a la semana) y 20 % por resúmenes, un rastreador de acciones y una auditoría nocturna (<a href=\"../cases/x-zhouruijin-2116501095254290554.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n<li><strong>El chat antiguo es el coste oculto.</strong> @m4lkxx dice que el 75 % de sus tokens se iba en releer chats antiguos y alrededor del 1 % en trabajo real, y concluye que lo caro es la forma de organizarlo, no Grok Bot (<a href=\"../cases/x-m4lkxx-2115775972536434946.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n<li><strong>Haz que los bots informen.</strong> @BenENewton sugiere pedirle a tu bot principal que cada bot informe de las rutinas que consumen tokens; encontrarás algunas que parecían geniales cuando las creaste y que olvidaste (<a href=\"../cases/x-benenewton-2112668191700795603.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n<li><strong>El medidor es poco preciso.</strong> @sorcererxw tiene una docena de bots con rutinas y no podía ver cuál se comía la asignación, así que pidió ver el uso de tokens por bot y por rutina (<a href=\"../cases/x-sorcererxw-2113240769951834170.html\" rel=\"noopener\" target=\"_blank\">caso</a>). Mientras no exista, pide a cada bot que liste sus rutinas y programaciones, y anota tu porcentaje de uso antes y después de cada cambio.</li>\n</ul>"
+   },
+   "s-routines": {
+    "h": "2. Detén las rutinas que se despiertan para nada",
+    "html": "<p>El consejo más repetido en las publicaciones públicas es sobre rutinas que se ejecutan con temporizador, no encuentran nada y aun así gastan una ejecución.</p>\n<div class=\"res-box\"><span class=\"res-k\">Las cuentas</span><p class=\"res-v\">@gippp69 calcula que una rutina cada 5 minutos son 8.640 ejecuciones al mes frente a 720 si es cada hora, 12 veces más. Según su estimación con las tarifas de la API de Grok 4.6, eso son unos 397 $ frente a 33 $ por el mismo trabajo. Tu plan mide el uso de otra forma, pero la proporción de 12 veces en ejecuciones es aritmética simple (<a href=\"../cases/x-gippp69-2112878801633861648.html\" rel=\"noopener\" target=\"_blank\">caso</a>, <a href=\"../cases/x-gippp69-2114689520964677797.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</p></div>\n<ul class=\"steps\">\n<li><strong>Un solo reloj, el resto disparadores.</strong> Al conectar 7 bots en un equipo de lanzamiento, @gippp69 contó 1.176 ejecuciones a la semana con relojes cada hora, la mayoría sin resultado. Su solución: mantener un solo reloj (lunes 09:00) y que cada uno de los demás bots arranque solo cuando el anterior escriba DONE; pasarse el trabajo mediante un archivo de registro compartido en vez de por correo; dar a cada bot su propio tope de lecturas en X; dejar que solo un bot toque dinero, con un tope de 40 $ y aprobación en cada compra. Dice que entonces el mismo trabajo requiere unas 60 ejecuciones (<a href=\"../cases/x-gippp69-2115778291755782151.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n<li><strong>Comprueba antes de despertar al bot.</strong> @z80srl pasó la mayoría de las rutinas que más cuota consumían a pequeños scripts locales en la máquina de Grok Bot. Los scripts no gastan cuota y solo despiertan al bot cuando el resultado coincide con un caso previsto; por ejemplo, un script vigila los movimientos bancarios y, si no hay nada nuevo, el bot sigue dormido (<a href=\"../cases/x-z80srl-2116145921520238674.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n<li><strong>Dale a las rutinas su propio bot.</strong> @MartinBarna333 tiene un bot solo para rutinas, en un chat corto y limpio para que el chat principal no queme tokens, con 1 o 2 ejecuciones al día como mucho y, preferiblemente, disparadas por un evento como un correo entrante en vez de un temporizador. El conocimiento vive en archivos, así que un bot de reemplazo puede retomarlo enseguida (<a href=\"../cases/x-martinbarna333-2115417754723336371.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n<li><strong>La documentación coincide.</strong> Recomienda disparadores acotados y advierte contra los oyentes amplios como «cada mensaje nuevo», que «generan ruido, consumen uso» (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills y rutinas</a>).</li>\n</ul>"
+   },
+   "s-context": {
+    "h": "3. Mantén cada conversación corta",
+    "html": "<p>Los chats largos se releen en cada turno, y ahí es donde se fue el 75 % de @m4lkxx. Un usuario lo convirtió en una rutina concreta:</p>\n<ul class=\"steps\">\n<li>@Simonpuebla_ cuenta que su cuota se le acababa en 3 días. Creó un bot llamado Lean que audita a sus otros bots. El cambio que más influyó fue no arrastrar un contexto enorme: que el bot trabaje cinco cosas a la vez y guarde los resultados largos en un archivo en lugar de pegarlos en el chat; cuando corrige tres cosas seguidas, arreglarlas todas juntas en vez de una por una; empezar un chat nuevo cada semana con un resumen corto de lo pendiente.</li>\n<li>Una semana después informa de un uso unas 5 veces menor, y un bot de ventas que suponía alrededor del 20 % de su consumo bajó a cerca del 3 % trabajando igual o mejor. La publicación, escrita en español, incluye el prompt que usó para crear el agente auditor (<a href=\"../cases/x-simonpuebla-2117034290332487727.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n</ul>\n<p>Es el resultado de una sola persona, no una garantía, pero coincide con lo que dice la documentación: el uso depende de cuánto trabajo exige cada tarea.</p>"
+   },
+   "s-bots": {
+    "h": "4. Usa menos bots",
+    "html": "<ul class=\"steps\">\n<li><strong>Un tema, un bot.</strong> @AndresRuggiero3 dice que dividir las finanzas del hogar en bots de facturas, suscripciones, presupuesto y recordatorios es la complicación excesiva más común: cuatro bots son cuatro juegos de instrucciones, más traspasos y una factura de tokens mayor. Un solo bot de dinero conserva todo el contexto, necesita menos traspasos y tiene un solo juego de instrucciones que arreglar. Divide solo cuando el trabajo se convierta de verdad en otra tarea (<a href=\"../cases/x-andresruggiero3-2112671200291811680.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n<li><strong>Tres buenos.</strong> Una publicación de @distortgeekin recoge las palabras de Lauren Tan, ingeniera de Grok Bot: «tres buenos valen más que un equipo que no puedes gestionar». Ella forma a cada bot como a un becario en su primer día y guarda cada tarea explicada como un skill (<a href=\"../cases/x-distortgeekin-2116885715292192867.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n<li><strong>Skills antes que rutinas.</strong> La documentación aconseja empezar con una tarea puntual, hacerla fiable, guardar el método como skill y solo entonces automatizarla, y probar el skill en una tarea puntual real antes de convertirlo en rutina (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills y rutinas</a>, <a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">preguntas frecuentes</a>).</li>\n</ul>"
+   },
+   "s-limits": {
+    "h": "5. Conoce los límites antes de programar",
+    "html": "<ul class=\"steps\">\n<li><strong>Test es trabajo real.</strong> @DissipativeS enumera las trampas de las rutinas: una programación nueva no se ejecuta hasta la siguiente franja, y Test hace el trabajo real y gasta uso (<a href=\"../cases/x-dissipatives-2116885597004439994.html\" rel=\"noopener\" target=\"_blank\">caso</a>). La documentación dice lo mismo: «Una ejecución de prueba realiza trabajo real» (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">skills y rutinas</a>).</li>\n<li><strong>Que el exceso no te pille por sorpresa.</strong> @gitpulled aconseja empezar con una tarea que no implique dinero, vigilar la primera ejecución y mantener el uso bajo demanda desactivado hasta que conozcas tu uso semanal, porque si no pasa a pago sin aviso (<a href=\"../cases/x-gitpulled-2111062785308205306.html\" rel=\"noopener\" target=\"_blank\">caso</a>). El equivalente oficial en The X Subscription es dejar Auto Top-up desactivado o fijar un límite mensual de uso adicional (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">preguntas frecuentes</a>).</li>\n<li><strong>La bolsa es compartida.</strong> @Vikramaditya_V1 señala que las tareas del Bot, el chat de Grok y Grok en Cursor comparten una misma bolsa semanal, y que un agente siempre activo puede vaciarla por sí solo (<a href=\"../cases/x-vikramadityav1-2114622301077733643.html\" rel=\"noopener\" target=\"_blank\">caso</a>). Eso coincide con la descripción de la documentación de una bolsa compartida entre superficies.</li>\n</ul>"
+   },
+   "s-elsewhere": {
+    "h": "6. Manda el trabajo pesado a otra parte",
+    "html": "<ul class=\"steps\">\n<li>@Av1dlive chocaba una y otra vez con los límites de uso de Grok Bot, así que montó un puesto que pasa el trabajo pesado a Claude Code con su propia suscripción, y dice que ahora sus límites duran toda la semana (<a href=\"../cases/x-av1dlive-2115929453859881169.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n<li>@nnaatt00xx cuenta que cinco horas de idas y vueltas en un repositorio de investigación consumieron la mitad del presupuesto semanal, ha empezado a delegar trabajo en un agente en la nube de Cursor y pregunta si es una buena práctica. La publicación es una pregunta, no un resultado (<a href=\"../cases/x-nnaatt00xx-2116883629871899112.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n</ul>\n<p>Pasar trabajo a otra herramienta significa que se aplican la suscripción, los límites y las condiciones de esa herramienta, así que revísalos primero.</p>"
+   },
+   "s-odd": {
+    "h": "7. Si el medidor salta sin motivo",
+    "html": "<p>Varios usuarios informaron de saltos repentinos el 1 de noviembre. Son informes de usuarios; las fuentes que leímos no contienen ninguna confirmación de la causa por parte del proveedor.</p>\n<ul class=\"steps\">\n<li>@matthewsligh dice que el uso pasó de menos del 45 % al 87 % en dos horas casi sin actividad. Su exportación muestra unos 2 millones de tokens durante la noche frente a 150-250 millones en un día normal, y a las 12:20 a. m. la app mostraba 87 % mientras la comprobación de uso del propio bot decía 43,6 % (<a href=\"../cases/x-matthewsligh-2116885595188326723.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n<li>@matnguvix vio cómo el uso semanal pasaba del 50 % al 100 % con solo unas pocas ejecuciones ligeras de rutinas entre medias (<a href=\"../cases/x-matnguvix-2116883146151178333.html\" rel=\"noopener\" target=\"_blank\">caso</a>).</li>\n</ul>\n<p>Lo que hicieron ambos y puedes copiar: anota la hora y el porcentaje antes y después, y compáralos con tu exportación de uso para tener pruebas si necesitas pedir una corrección.</p>"
+   },
+   "s-list": {
+    "h": "Una lista breve",
+    "html": "<ol class=\"steps\">\n<li>Pausa las rutinas que no necesites (documentación oficial).</li>\n<li>Pide a cada bot que liste sus rutinas y con qué frecuencia se ejecutan (@BenENewton).</li>\n<li>Sustituye los temporizadores por disparadores de eventos acotados; si necesitas un temporizador, espácialo (documentación, @MartinBarna333, @gippp69).</li>\n<li>Ejecuta primero una comprobación barata y despierta al bot solo si algo cambió (@z80srl, @gippp69).</li>\n<li>Concentra las rutinas recurrentes en un bot dedicado con un chat corto (@MartinBarna333).</li>\n<li>Agrupa el trabajo, guarda los resultados largos en archivos y empieza un chat nuevo cada semana con un resumen corto (@Simonpuebla_).</li>\n<li>Usa un bot por tema hasta que el trabajo sea realmente distinto (@AndresRuggiero3).</li>\n<li>Usa Test con moderación: gasta uso (documentación).</li>\n<li>Deja Auto Top-up desactivado, o fija un tope mensual, hasta que conozcas tu uso semanal (preguntas frecuentes de la documentación).</li>\n<li>Anota tu porcentaje de uso tras cada cambio para saber qué funcionó.</li>\n</ol>"
+   },
+   "s-est": {
+    "h": "Estima antes de programar",
+    "html": "<p>Este sitio tiene una <a href=\"../calculator.html\">Calculadora de riesgo de cuota</a>. Sus reglas son estimaciones orientativas, no cifras del proveedor: de 3 a 5 bots suman 1 punto y 6 o más suman 2; el navegador activado suma 1; una rutina diaria suma 1 y una por hora suma 2. Un total de 0 a 1 puntos es bajo, de 2 a 3 medio y de 4 o más alto.</p>"
+   }
+  },
+  "related": [
+   {
+    "kind": "Informe de cuota",
+    "title": "Adónde fue el 74 % de un límite semanal de Grok Bot"
+   },
+   {
+    "kind": "Guía",
+    "title": "Ejecuciones en vacío detectadas al conectar 7 bots de Grok Bot, y 5 soluciones"
+   },
+   {
+    "kind": "Informe de cuota",
+    "title": "Un bot que audita a los demás redujo su uso unas 5 veces en una semana"
+   },
+   {
+    "kind": "Guía",
+    "title": "Saca las rutinas recurrentes de tu bot principal"
+   },
+   {
+    "kind": "Informe de cuota",
+    "title": "Ahorrar cuota: scripts locales que solo despiertan al bot cuando hace falta"
+   },
+   {
+    "kind": "Guía",
+    "title": "No montes un equipo de bots el primer día: un tema, un bot"
+   }
+  ],
+  "sources": [
+   "Límites de uso (documentación oficial)",
+   "Grok Bot en The X Subscription (documentación oficial)",
+   "Skills y rutinas (documentación oficial)",
+   "Preguntas frecuentes (documentación oficial)",
+   "Rutinas (ayuda de Cursor)",
+   "@zhouruijin en X",
+   "@m4lkxx en X",
+   "@BenENewton en X",
+   "@sorcererxw en X",
+   "@gippp69 en X",
+   "@gippp69 en X",
+   "@gippp69 en X",
+   "@z80srl en X",
+   "@MartinBarna333 en X",
+   "@Simonpuebla_ en X",
+   "@AndresRuggiero3 en X",
+   "@distortgeekin en X",
+   "@DissipativeS en X",
+   "@gitpulled en X",
+   "@Vikramaditya_V1 en X",
+   "@Av1dlive en X",
+   "@nnaatt00xx en X",
+   "@matthewsligh en X",
+   "@matnguvix en X"
+  ],
+  "ui": {
+   "crumb": "Always-on Usage",
+   "brand": "Always-on Usage",
+   "rel": "Casos relacionados en este sitio",
+   "src": "Fuentes",
+   "toc": "En esta página",
+   "note": "Esta página es un resumen original de la documentación oficial y de publicaciones públicas en X. Las citas y las cifras pertenecen a sus autores y no son datos del proveedor. Las citas están traducidas del inglés."
+  }
+ },
+ "de": {
+  "title": "So hält Ihr Grok-Bot-Kontingent länger",
+  "desc": "Wege, das wöchentliche Grok-Bot-Kontingent zu strecken, aus der offiziellen Dokumentation und öffentlichen Posts von Nutzern, die ihren Verbrauch gesenkt haben: weniger leere Routine-Läufe, kürzere Chats, weniger Bots.",
+  "lede": "Grok Bot verbraucht aus einem wöchentlichen Nutzungskontingent, und viele Nutzer berichten, dass es früh aufgebraucht ist. Dieser Leitfaden sammelt, was die offizielle Dokumentation sagt und was Nutzer öffentlich über das Senken ihres Verbrauchs gepostet haben. Offizielle Aussagen sind als solche gekennzeichnet; Zahlen von Nutzern stammen von den Autoren selbst und nicht vom Anbieter. Offizielle Dokumentation zuletzt geprüft am 16. November 2026.",
+  "sections": {
+   "s-docs": {
+    "h": "Was die offizielle Dokumentation sagt",
+    "html": "<p>Beginnen Sie mit den dokumentierten Regeln, denn die meisten Tipps unten sind Wege, innerhalb dieser Regeln zu arbeiten.</p>\n<ul class=\"steps\">\n<li>In The X Subscription erhält jeder bezahlte Platz ein wöchentliches Kontingent für berechtigte First-Party-Nutzung, das sich die Grok- und Cursor-Oberflächen teilen, statt nach Produkt aufgeteilt zu sein. Grok Bot verbraucht aus diesem Kontingent. Höhere Stufen enthalten größere Kontingente (<a href=\"https://docs.x.ai/x-subscription/usage-limits\" rel=\"noopener\" target=\"_blank\">Nutzungslimits</a>, <a href=\"https://docs.x.ai/x-subscription/grok-bot\" rel=\"noopener\" target=\"_blank\">Grok Bot in The X Subscription</a>).</li>\n<li>Laut Dokumentation hängt das Tempo des Verbrauchs „von der Art der Arbeit ab, die Sie Grok Bot geben, und davon, wie viel Aufwand jede Aufgabe erfordert“ (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n<li>Jeder Routine-Lauf verbraucht Kontingent. Ein stündlicher Zeitplan, ein kurzes Intervall oder ein Slack-Trigger in einem stark genutzten Kanal „kann das Kontingent einer Woche an einem Tag verbrauchen“ (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">Skills und Routinen</a>).</li>\n<li>Die erste dokumentierte Maßnahme: Pausieren Sie Routinen, die Sie nicht brauchen, und bitten Sie den Bot dann, Zeitpläne zu strecken und Slack-Trigger einzugrenzen, bevor Sie einen Tarif oder ein On-Demand-Limit erhöhen. Eine Routine, die nie läuft, verbraucht nichts; Test schon, weil er die echte Arbeit ausführt (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">Skills und Routinen</a>, <a href=\"https://cursor.com/help/grok-bot/routines\" rel=\"noopener\" target=\"_blank\">Cursor-Hilfe</a>).</li>\n<li>Routine-Zeitpläne müssen mindestens fünf Minuten auseinanderliegen. Alle Routinen zusammen dürfen bis zu 300-mal pro Stunde laufen, jede einzelne bis zu 200-mal; ein Lauf über einem der beiden Limits schlägt mit „Automation run rate limit exceeded“ fehl und wird nicht automatisch wiederholt. Die Dokumentation ergänzt, dass manche Läufe wegen eines Limits, das alle Routinen teilen, mit diesem Fehler scheitern können; das ist ein bekanntes Problem, an dessen Behebung gearbeitet wird (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">Skills und Routinen</a>).</li>\n<li>Um kostenpflichtige Mehrnutzung in The X Subscription zu vermeiden, lassen Sie Auto Top-up ausgeschaltet oder legen ein monatliches Limit für zusätzliche Nutzung fest. Laut FAQ stoppt eine Obergrenze einen Bot nicht mitten im Lauf, eine laufende Aufgabe kann sie also leicht überschreiten (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n<li>Bei Testzugängen wird das Guthaben laut FAQ nach Agentenschritten und Tokens abgerechnet, nicht nach Anzahl der Nachrichten, und eine einzige große Aufgabe kann alles aufbrauchen (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n</ul>"
+   },
+   "s-find": {
+    "h": "1. Herausfinden, wohin das Kontingent geht",
+    "html": "<p>Bevor Sie etwas ändern, verschaffen Sie sich eine Aufschlüsselung. Hier zwei öffentliche Beispiele.</p>\n<ul class=\"steps\">\n<li><strong>Die Aufschlüsselung eines Nutzers.</strong> Vor einem wöchentlichen Reset bei 74 % fragte @zhouruijin den Bot, wohin das Kontingent gegangen war. Die Antwort des Bots: 64 % durch Chats mit Bots, 16 % durch eine Routine, die alle 30 Minuten X-Trends durchsucht (etwa 238 Läufe pro Woche), und 20 % durch Briefings, einen Aktien-Scout und ein nächtliches Audit (<a href=\"../cases/x-zhouruijin-2116501095254290554.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n<li><strong>Alte Chats sind die versteckten Kosten.</strong> @m4lkxx sagt, 75 % der eigenen Tokens seien ins erneute Lesen alter Chats geflossen und nur etwa 1 % in echte Arbeit, und folgert, dass der Aufbau teuer ist, nicht Grok Bot (<a href=\"../cases/x-m4lkxx-2115775972536434946.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n<li><strong>Lassen Sie die Bots berichten.</strong> @BenENewton schlägt vor, den Haupt-Bot jeden Bot melden zu lassen, welche Routinen Tokens verbrauchen; Sie werden welche finden, die beim Einrichten toll klangen und die Sie vergessen haben (<a href=\"../cases/x-benenewton-2112668191700795603.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n<li><strong>Die Anzeige ist grob.</strong> @sorcererxw betreibt ein Dutzend Bots mit Routinen, konnte aber nicht sehen, welcher das Kontingent auffrisst, und wünschte sich Token-Verbrauch pro Bot und pro Routine (<a href=\"../cases/x-sorcererxw-2113240769951834170.html\" rel=\"noopener\" target=\"_blank\">Fall</a>). Bis es das gibt, lassen Sie jeden Bot seine Routinen und Zeitpläne auflisten und notieren Sie Ihren Verbrauch in Prozent vor und nach jeder Änderung.</li>\n</ul>"
+   },
+   "s-routines": {
+    "h": "2. Routinen stoppen, die umsonst aufwachen",
+    "html": "<p>Der am häufigsten wiederholte Rat in öffentlichen Posts betrifft Routinen, die nach Timer laufen, nichts finden und trotzdem einen Lauf verbrauchen.</p>\n<div class=\"res-box\"><span class=\"res-k\">Die Rechnung</span><p class=\"res-v\">@gippp69 rechnet vor: Eine Routine alle 5 Minuten sind 8.640 Läufe im Monat gegenüber 720 bei stündlichem Takt, also das 12-Fache. Nach eigener Schätzung zu den API-Preisen von Grok 4.6 sind das etwa 397 $ gegenüber 33 $ für dieselbe Aufgabe. Ihr Tarif misst die Nutzung anders, aber das Verhältnis von 12 zu 1 bei den Läufen ist schlichte Arithmetik (<a href=\"../cases/x-gippp69-2112878801633861648.html\" rel=\"noopener\" target=\"_blank\">Fall</a>, <a href=\"../cases/x-gippp69-2114689520964677797.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</p></div>\n<ul class=\"steps\">\n<li><strong>Eine Uhr, der Rest Trigger.</strong> Beim Verschalten von 7 Bots zu einem Launch-Team zählte @gippp69 1.176 Läufe pro Woche mit stündlichen Timern, die meisten ohne Ergebnis. Die Lösung: eine einzige Uhr behalten (Montag 09:00) und jeden anderen Bot erst starten lassen, wenn der vorherige DONE schreibt; Übergaben über eine gemeinsame Ledger-Datei statt per E-Mail; jedem Bot ein eigenes Limit für X-Abrufe geben; nur einen Bot an Geld lassen, mit 40 $ Obergrenze und Freigabe für jeden Kauf. Danach brauche dieselbe Arbeit etwa 60 Läufe (<a href=\"../cases/x-gippp69-2115778291755782151.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n<li><strong>Prüfen, bevor der Bot geweckt wird.</strong> @z80srl hat die meisten kontingentintensiven Routinen in kleine lokale Skripte auf dem Grok-Bot-Rechner verlegt. Die Skripte verbrauchen kein Kontingent und wecken den Bot nur, wenn das Ergebnis einem geplanten Fall entspricht; ein Skript beobachtet zum Beispiel Kontobewegungen, und wenn sich nichts bewegt hat, schläft der Bot weiter (<a href=\"../cases/x-z80srl-2116145921520238674.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n<li><strong>Routinen einen eigenen Bot geben.</strong> @MartinBarna333 betreibt einen Bot nur für Routinen, in einem kurzen, sauberen Chat, damit der Haupt-Chat keine Tokens verbrennt, mit höchstens 1 bis 2 Läufen am Tag und möglichst ausgelöst durch ein Ereignis wie eine eingehende E-Mail statt durch einen Timer. Das Wissen liegt in Dateien, sodass ein Ersatz-Bot sofort übernehmen kann (<a href=\"../cases/x-martinbarna333-2115417754723336371.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n<li><strong>Die Dokumentation sieht es genauso.</strong> Sie empfiehlt enge Trigger und warnt vor breiten Listenern wie „jede neue Nachricht“, die „Rauschen erzeugen, Kontingent verbrauchen“ (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">Skills und Routinen</a>).</li>\n</ul>"
+   },
+   "s-context": {
+    "h": "3. Jedes Gespräch kurz halten",
+    "html": "<p>Lange Chats werden in jeder Runde neu gelesen, und genau dorthin gingen die 75 % von @m4lkxx. Ein Nutzer hat daraus ein konkretes Vorgehen gemacht:</p>\n<ul class=\"steps\">\n<li>@Simonpuebla_ sagt, sein Kontingent sei nach 3 Tagen aufgebraucht gewesen. Er baute einen Bot namens Lean, der seine anderen Bots prüft. Am meisten brachte es, keinen riesigen Kontext mehr mitzuschleppen: den Bot fünf Dinge auf einmal bearbeiten lassen und lange Ergebnisse in einer Datei speichern statt sie in den Chat zu kopieren; wenn er drei Dinge hintereinander korrigiert, alle zusammen beheben statt einzeln; jede Woche einen neuen Chat mit einer kurzen Zusammenfassung der offenen Punkte beginnen.</li>\n<li>Eine Woche später berichtet er von etwa 5-mal geringerem Verbrauch, und ein Vertriebs-Bot, der rund 20 % seines Verbrauchs ausgemacht hatte, sank auf etwa 3 % und arbeitete genauso gut oder besser. Der auf Spanisch verfasste Post enthält den Prompt, mit dem er den Prüf-Agenten gebaut hat (<a href=\"../cases/x-simonpuebla-2117034290332487727.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n</ul>\n<p>Das ist das Ergebnis einer einzelnen Person, keine Garantie, aber es passt zur Aussage der Dokumentation, dass der Verbrauch dem Arbeitsaufwand jeder Aufgabe folgt.</p>"
+   },
+   "s-bots": {
+    "h": "4. Weniger Bots verwenden",
+    "html": "<ul class=\"steps\">\n<li><strong>Ein Thema, ein Bot.</strong> @AndresRuggiero3 nennt das Aufteilen der Haushaltsfinanzen in Bots für Rechnungen, Abos, Budget und Erinnerungen die häufigste Überkomplizierung: Vier Bots bedeuten vier Anweisungssätze, mehr Übergaben und eine höhere Token-Rechnung. Ein einziger Geld-Bot behält den gesamten Kontext, braucht weniger Übergaben und hat nur einen Anweisungssatz, der gepflegt werden muss. Teilen Sie erst, wenn die Arbeit wirklich zu einer anderen Aufgabe wird (<a href=\"../cases/x-andresruggiero3-2112671200291811680.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n<li><strong>Drei gute.</strong> Ein Post von @distortgeekin gibt die Grok-Bot-Ingenieurin Lauren Tan wieder: „Drei gute schlagen ein Team, das man nicht managen kann“. Sie arbeitet jeden Bot ein wie einen Praktikanten am ersten Tag und speichert jede erklärte Aufgabe als Skill (<a href=\"../cases/x-distortgeekin-2116885715292192867.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n<li><strong>Skills vor Routinen.</strong> Die Dokumentation rät, mit einer einmaligen Aufgabe zu beginnen, sie zuverlässig zu machen, die Methode als Skill zu speichern und erst dann zu automatisieren, und den Skill an einer echten einmaligen Aufgabe zu testen, bevor daraus eine Routine wird (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">Skills und Routinen</a>, <a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n</ul>"
+   },
+   "s-limits": {
+    "h": "5. Die Limits kennen, bevor Sie planen",
+    "html": "<ul class=\"steps\">\n<li><strong>Test ist echte Arbeit.</strong> @DissipativeS listet die Fallstricke von Routinen auf: Ein neuer Zeitplan läuft erst im nächsten Zeitfenster, und Test erledigt die echte Arbeit und verbraucht Kontingent (<a href=\"../cases/x-dissipatives-2116885597004439994.html\" rel=\"noopener\" target=\"_blank\">Fall</a>). Die Dokumentation sagt dasselbe: „Ein Testlauf führt echte Arbeit aus“ (<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">Skills und Routinen</a>).</li>\n<li><strong>Lassen Sie sich nicht von Mehrkosten überraschen.</strong> @gitpulled rät, mit einer Aufgabe ohne Geldbezug zu beginnen, den ersten Lauf zu beobachten und On-Demand ausgeschaltet zu lassen, bis Sie Ihren Wochenverbrauch kennen, sonst geht es ohne Warnung in die Bezahlung über (<a href=\"../cases/x-gitpulled-2111062785308205306.html\" rel=\"noopener\" target=\"_blank\">Fall</a>). Das offizielle Gegenstück in The X Subscription ist, Auto Top-up ausgeschaltet zu lassen oder ein monatliches Limit für zusätzliche Nutzung festzulegen (<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">FAQ</a>).</li>\n<li><strong>Das Kontingent wird geteilt.</strong> @Vikramaditya_V1 weist darauf hin, dass Bot-Aufgaben, Grok-Chat und Grok in Cursor ein gemeinsames Wochenkontingent teilen und ein ständig laufender Agent es allein leeren kann (<a href=\"../cases/x-vikramadityav1-2114622301077733643.html\" rel=\"noopener\" target=\"_blank\">Fall</a>). Das passt zur Beschreibung der Dokumentation eines über Oberflächen geteilten Kontingents.</li>\n</ul>"
+   },
+   "s-elsewhere": {
+    "h": "6. Schwere Arbeit woanders erledigen lassen",
+    "html": "<ul class=\"steps\">\n<li>@Av1dlive stieß immer wieder an die Nutzungslimits von Grok Bot und baute deshalb einen Arbeitsplatz, der schwere Arbeit an Claude Code im eigenen Abo übergibt; die Limits reichen jetzt nach eigener Aussage die ganze Woche (<a href=\"../cases/x-av1dlive-2115929453859881169.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n<li>@nnaatt00xx sagt, fünf Stunden Hin und Her an einem Forschungs-Repository hätten das halbe Wochenbudget verbraucht, hat begonnen, Arbeit an einen Cursor-Cloud-Agenten zu delegieren, und fragt, ob das Best Practice ist. Der Post ist eine Frage, kein Ergebnis (<a href=\"../cases/x-nnaatt00xx-2116883629871899112.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n</ul>\n<p>Wer Arbeit an ein anderes Werkzeug übergibt, unterliegt dessen eigenem Abo, Limits und Bedingungen; prüfen Sie diese zuerst.</p>"
+   },
+   "s-odd": {
+    "h": "7. Wenn die Anzeige grundlos springt",
+    "html": "<p>Mehrere Nutzer meldeten am 1. November plötzliche Sprünge. Das sind Nutzerberichte; die von uns gelesenen Quellen enthalten keine Bestätigung einer Ursache durch den Anbieter.</p>\n<ul class=\"steps\">\n<li>@matthewsligh sagt, die Nutzung sei bei fast keiner Aktivität in zwei Stunden von unter 45 % auf 87 % gestiegen. Sein Export zeigt etwa 2 Mio. Tokens über Nacht gegenüber 150 bis 250 Mio. an einem normalen Tag, und um 0:20 Uhr zeigte die App 87 %, während die eigene Verbrauchsabfrage des Bots 43,6 % meldete (<a href=\"../cases/x-matthewsligh-2116885595188326723.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n<li>@matnguvix sah die Wochennutzung von 50 % auf 100 % steigen, mit nur wenigen leichten Routine-Läufen dazwischen (<a href=\"../cases/x-matnguvix-2116883146151178333.html\" rel=\"noopener\" target=\"_blank\">Fall</a>).</li>\n</ul>\n<p>Was beide getan haben und Sie nachmachen können: Notieren Sie Uhrzeit und Prozentwert vorher und nachher und vergleichen Sie sie mit Ihrem Nutzungsexport, damit Sie Belege haben, falls Sie eine Korrektur beantragen müssen.</p>"
+   },
+   "s-list": {
+    "h": "Eine kurze Checkliste",
+    "html": "<ol class=\"steps\">\n<li>Pausieren Sie Routinen, die Sie nicht brauchen (offizielle Dokumentation).</li>\n<li>Lassen Sie jeden Bot seine Routinen und deren Häufigkeit auflisten (@BenENewton).</li>\n<li>Ersetzen Sie Timer durch enge Ereignis-Trigger; wenn ein Timer nötig ist, strecken Sie ihn (Dokumentation, @MartinBarna333, @gippp69).</li>\n<li>Führen Sie zuerst eine günstige Prüfung aus und wecken Sie den Bot nur, wenn sich etwas geändert hat (@z80srl, @gippp69).</li>\n<li>Bündeln Sie wiederkehrende Routinen auf einem eigenen Bot in einem kurzen Chat (@MartinBarna333).</li>\n<li>Bündeln Sie Arbeit, speichern Sie lange Ergebnisse in Dateien und beginnen Sie jede Woche einen neuen Chat mit einer kurzen Zusammenfassung (@Simonpuebla_).</li>\n<li>Ein Bot pro Thema, bis die Arbeit wirklich eine andere ist (@AndresRuggiero3).</li>\n<li>Setzen Sie Test sparsam ein: Er verbraucht Kontingent (Dokumentation).</li>\n<li>Lassen Sie Auto Top-up ausgeschaltet oder setzen Sie ein Monatslimit, bis Sie Ihren Wochenverbrauch kennen (FAQ der Dokumentation).</li>\n<li>Notieren Sie nach jeder Änderung Ihren Verbrauch in Prozent, damit Sie wissen, was gewirkt hat.</li>\n</ol>"
+   },
+   "s-est": {
+    "h": "Vor dem Planen schätzen",
+    "html": "<p>Diese Website hat einen <a href=\"../calculator.html\">Kontingent-Risikorechner</a>. Seine Regeln sind grobe Richtwerte, keine Anbieterzahlen: 3 bis 5 Bots bringen 1 Punkt, 6 oder mehr 2; ein eingeschalteter Browser bringt 1; eine tägliche Routine bringt 1 und eine stündliche 2. Insgesamt 0 bis 1 Punkt gilt als niedrig, 2 bis 3 als mittel und 4 oder mehr als hoch.</p>"
+   }
+  },
+  "related": [
+   {
+    "kind": "Kontingentbericht",
+    "title": "Wohin 74 % eines wöchentlichen Grok-Bot-Limits gingen"
+   },
+   {
+    "kind": "Leitfaden",
+    "title": "Leere Läufe beim Verschalten von 7 Grok-Bot-Bots und 5 Lösungen"
+   },
+   {
+    "kind": "Kontingentbericht",
+    "title": "Ein Bot, der die anderen prüft, senkte seinen Verbrauch in einer Woche etwa um das 5-Fache"
+   },
+   {
+    "kind": "Leitfaden",
+    "title": "Wiederkehrende Routinen gehören nicht auf den Haupt-Bot"
+   },
+   {
+    "kind": "Kontingentbericht",
+    "title": "Kontingent sparen: lokale Skripte, die den Bot nur bei Bedarf wecken"
+   },
+   {
+    "kind": "Leitfaden",
+    "title": "Kein Bot-Team am ersten Tag: ein Thema, ein Bot"
+   }
+  ],
+  "sources": [
+   "Nutzungslimits (offizielle Dokumentation)",
+   "Grok Bot in The X Subscription (offizielle Dokumentation)",
+   "Skills und Routinen (offizielle Dokumentation)",
+   "Häufige Fragen (offizielle Dokumentation)",
+   "Routinen (Cursor-Hilfe)",
+   "@zhouruijin auf X",
+   "@m4lkxx auf X",
+   "@BenENewton auf X",
+   "@sorcererxw auf X",
+   "@gippp69 auf X",
+   "@gippp69 auf X",
+   "@gippp69 auf X",
+   "@z80srl auf X",
+   "@MartinBarna333 auf X",
+   "@Simonpuebla_ auf X",
+   "@AndresRuggiero3 auf X",
+   "@distortgeekin auf X",
+   "@DissipativeS auf X",
+   "@gitpulled auf X",
+   "@Vikramaditya_V1 auf X",
+   "@Av1dlive auf X",
+   "@nnaatt00xx auf X",
+   "@matthewsligh auf X",
+   "@matnguvix auf X"
+  ],
+  "ui": {
+   "crumb": "Always-on Usage",
+   "brand": "Always-on Usage",
+   "rel": "Verwandte Fälle auf dieser Website",
+   "src": "Quellen",
+   "toc": "Auf dieser Seite",
+   "note": "Diese Seite ist eine eigene Zusammenfassung der offiziellen Dokumentation und öffentlicher Posts auf X. Zitate und Zahlen gehören ihren Autoren und sind keine Anbieterzahlen. Zitate sind aus dem Englischen übersetzt."
+  }
+ },
+ "zh-TW": {
+  "title": "如何讓 Grok Bot 的用量撐得更久",
+  "desc": "從官方文件和成功降低用量的使用者公開貼文中整理的省用量方法：減少空跑的例行任務、縮短對話、少開 Bot。",
+  "lede": "Grok Bot 從每週用量池裡扣用量，不少使用者反映不到一週就用完了。本指南匯總了官方文件的規定，以及使用者公開分享的省用量做法。官方說法會註明來源；使用者給出的數字是作者本人的，不是廠商資料。官方文件最後核對於 2026 年 11 月 16 日。",
+  "sections": {
+   "s-docs": {
+    "h": "官方文件怎麼說",
+    "html": "<p>先看文件裡的規則，因為下面大多數技巧都是在規則內想辦法。</p>\n<ul class=\"steps\">\n<li>在 The X Subscription 上，每個付費席位每週有一個用量池，用於符合條件的官方產品用量，由 Grok 和 Cursor 各端共用，而不是按產品分開。Grok Bot 從這個池子裡扣用量。更高檔位的池子更大（<a href=\"https://docs.x.ai/x-subscription/usage-limits\" rel=\"noopener\" target=\"_blank\">用量限制</a>、<a href=\"https://docs.x.ai/x-subscription/grok-bot\" rel=\"noopener\" target=\"_blank\">The X Subscription 上的 Grok Bot</a>）。</li>\n<li>文件說，用量消耗得多快「取決於你交給 Grok Bot 的工作類型，以及每個任務要花多少力氣」（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">常見問題</a>）。</li>\n<li>每次例行任務執行都會消耗用量。每小時一次的計劃、很短的間隔，或在繁忙 Slack 頻道上的觸發器，「可能一天就用掉一週的用量」（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能與例行任務</a>）。</li>\n<li>文件給出的第一步：先暫停不需要的例行任務，再讓 Bot 拉長計劃間隔、收窄 Slack 觸發條件，然後再考慮升級方案或提高按需上限。從不執行的例行任務不消耗用量；「測試」會消耗，因為它執行的是真實工作（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能與例行任務</a>、<a href=\"https://cursor.com/help/grok-bot/routines\" rel=\"noopener\" target=\"_blank\">Cursor 說明</a>）。</li>\n<li>例行任務的計劃間隔至少 5 分鐘。所有例行任務合計每小時最多執行 300 次，單個例行任務最多 200 次；超過任一上限的執行會以「Automation run rate limit exceeded」失敗，且不會自動重試。文件還提到，由於所有例行任務共享的一個上限，部分執行也可能報這個錯誤，這是已知問題，正在修復（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能與例行任務</a>）。</li>\n<li>想避免 The X Subscription 上的付費超額，可以關閉 Auto Top-up，或設定每月額外用量上限。常見問題還提到，上限不會在執行中途叫停 Bot，所以正在跑的任務可能略微超出（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">常見問題</a>）。</li>\n<li>對於試用，常見問題說額度按代理的步驟數和 token 扣減，而不是按訊息條數，一個大任務就可能用光全部額度（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">常見問題</a>）。</li>\n</ul>"
+   },
+   "s-find": {
+    "h": "1. 先弄清用量花在哪裡",
+    "html": "<p>改動之前，先拿到明細。下面是兩個公開例子。</p>\n<ul class=\"steps\">\n<li><strong>一位使用者的明細。</strong> 在每週重置前用量到了 74% 時，@zhouruijin 問 Bot 用量去了哪裡。Bot 的回答：64% 來自和 Bot 聊天，16% 來自一個每 30 分鐘掃描一次 X 趨勢的例行任務（每週約 238 次執行），20% 來自簡報、一個股票偵察任務和一個夜間審計（<a href=\"../cases/x-zhouruijin-2116501095254290554.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>舊對話是隱藏成本。</strong> @m4lkxx 說，自己 75% 的 token 花在重讀舊對話上，只有約 1% 用在真正的工作上，結論是貴的是使用方式，而不是 Grok Bot 本身（<a href=\"../cases/x-m4lkxx-2115775972536434946.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>讓 Bot 彙報。</strong> @BenENewton 建議讓主 Bot 要求每個 Bot 彙報哪些例行任務在消耗 token；你會發現一些搭建時覺得很酷、後來卻忘了的任務（<a href=\"../cases/x-benenewton-2112668191700795603.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>計量很粗。</strong> @sorcererxw 有十幾個帶例行任務的 Bot，卻看不出是哪一個在吃額度，於是希望能按 Bot、按例行任務檢視 token 用量（<a href=\"../cases/x-sorcererxw-2113240769951834170.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。在有這個功能之前，可以讓每個 Bot 列出自己的例行任務和計劃，並在每次改動前後記下用量百分比。</li>\n</ul>"
+   },
+   "s-routines": {
+    "h": "2. 停掉空跑的例行任務",
+    "html": "<p>公開貼文裡最常見的建議，是針對那些按定時器執行、什麼也沒找到卻照樣消耗一次執行的例行任務。</p>\n<div class=\"res-box\"><span class=\"res-k\">算一筆帳</span><p class=\"res-v\">@gippp69 算過：一個每 5 分鐘執行一次的例行任務每月執行 8,640 次，每小時一次則是 720 次，相差 12 倍。按其用 Grok 4.6 API 價格的估算，同樣的工作約 397 美元對 33 美元。你的方案計量方式不同，但執行次數相差 12 倍是簡單的算術（<a href=\"../cases/x-gippp69-2112878801633861648.html\" rel=\"noopener\" target=\"_blank\">案例</a>、<a href=\"../cases/x-gippp69-2114689520964677797.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</p></div>\n<ul class=\"steps\">\n<li><strong>只留一個時鐘，其餘用觸發。</strong> @gippp69 把 7 個 Bot 接成一個發布團隊時，數出按小時定時每週有 1,176 次執行，大多數空手而歸。其做法：只保留一個時鐘（週一 09:00），其他 Bot 都等上一個 Bot 寫下 DONE 再啟動；透過共享的帳本檔案交接，而不是郵件；給每個 Bot 單獨設定 X 讀取上限；只讓一個 Bot 碰錢，上限 40 美元，每筆購買都要批准。據其說法，同樣的工作之後只需約 60 次執行（<a href=\"../cases/x-gippp69-2115778291755782151.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>喚醒 Bot 之前先檢查。</strong> @z80srl 把大部分耗額度的例行任務改成 Grok Bot 機器上的小型本地指令碼。這些指令碼不消耗額度，只在結果符合預設情況時才喚醒 Bot；例如一個指令碼盯著銀行流水，如果沒有變動，Bot 就繼續休眠（<a href=\"../cases/x-z80srl-2116145921520238674.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>給例行任務單獨一個 Bot。</strong> @MartinBarna333 專門用一個 Bot 跑例行任務，放在簡短乾淨的對話裡，避免主對話燒 token；每天最多執行 1 到 2 次，並且儘量由事件（比如收到郵件）觸發，而不是定時器。經驗都寫在檔案裡，換一個 Bot 也能馬上接手（<a href=\"../cases/x-martinbarna333-2115417754723336371.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>文件的說法一致。</strong> 文件建議使用窄觸發條件，並提醒不要用「每條新訊息」這類寬泛監聽，它們「製造噪音、消耗用量」（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能與例行任務</a>）。</li>\n</ul>"
+   },
+   "s-context": {
+    "h": "3. 讓每段對話保持簡短",
+    "html": "<p>長對話每一輪都會被重新讀取，@m4lkxx 那 75% 就是這樣花掉的。一位使用者把這一點變成了具體的做法：</p>\n<ul class=\"steps\">\n<li>@Simonpuebla_ 說他的額度 3 天就用完。他做了一個名叫 Lean 的 Bot 來審計其他 Bot。效果最大的改變是不再拖著龐大的上下文：讓 Bot 一次處理五件事，把長結果存進檔案而不是貼進對話；連續糾正三處時一起改，而不是一處一處改；每週開一個新對話，附上一段簡短的待辦摘要。</li>\n<li>一週後他說用量降到約五分之一，一個原本約佔他用量 20% 的銷售 Bot 降到約 3%，效果不變甚至更好。這條用西班牙語寫的貼文附上了他用來搭建審計代理的提示詞（<a href=\"../cases/x-simonpuebla-2117034290332487727.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n</ul>\n<p>這只是一個人的結果，不是保證，但它和文件的說法一致：用量取決於每個任務要做多少工作。</p>"
+   },
+   "s-bots": {
+    "h": "4. 少用幾個 Bot",
+    "html": "<ul class=\"steps\">\n<li><strong>一個主題，一個 Bot。</strong> @AndresRuggiero3 認為，把家庭財務拆成帳單、訂閱、預算和提醒四個 Bot，是最常見的過度設計：四個 Bot 意味著四套指令、更多交接和更高的 token 帳單。一個管錢的 Bot 能掌握全部上下文，交接更少，要修的指令只有一套。只有當工作真的變成另一種工作時再拆分（<a href=\"../cases/x-andresruggiero3-2112671200291811680.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>三個好用的就夠。</strong> @distortgeekin 的一條貼文轉述了 Grok Bot 工程師 Lauren Tan 的話：「三個好用的，勝過一支你管不過來的團隊」。她像帶第一天上班的實習生一樣帶每個 Bot，並把每個講解過的任務存成技能（<a href=\"../cases/x-distortgeekin-2116885715292192867.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li><strong>先有技能，再有例行任務。</strong> 文件建議先從一次性任務開始，把它做穩定，把方法存成技能，然後再自動化；並且在把技能變成例行任務之前，先用一個真實的一次性任務測試它（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能與例行任務</a>、<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">常見問題</a>）。</li>\n</ul>"
+   },
+   "s-limits": {
+    "h": "5. 設定計劃前先了解限制",
+    "html": "<ul class=\"steps\">\n<li><strong>測試就是真實工作。</strong> @DissipativeS 列出了例行任務的坑：新計劃要等到下一個時段才會執行，而「測試」會執行真實工作並消耗用量（<a href=\"../cases/x-dissipatives-2116885597004439994.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。文件也這麼說：「測試執行會執行真實工作」（<a href=\"https://docs.x.ai/grok-bot/skills-routines-and-automations\" rel=\"noopener\" target=\"_blank\">技能與例行任務</a>）。</li>\n<li><strong>別讓超額嚇你一跳。</strong> @gitpulled 建議從一個不涉及錢的任務開始，盯著第一次執行，在摸清每週用量之前不要開按需計費，否則會在沒有提醒的情況下轉為付費（<a href=\"../cases/x-gitpulled-2111062785308205306.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。The X Subscription 上對應的官方做法是關閉 Auto Top-up，或設定每月額外用量上限（<a href=\"https://docs.x.ai/grok-bot/faq\" rel=\"noopener\" target=\"_blank\">常見問題</a>）。</li>\n<li><strong>用量池是共用的。</strong> @Vikramaditya_V1 指出，Bot 任務、Grok 聊天和 Cursor 裡的 Grok 共用同一個每週用量池，一個常駐代理自己就可能把池子耗光（<a href=\"../cases/x-vikramadityav1-2114622301077733643.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。這與文件中各端共用一個池子的描述一致。</li>\n</ul>"
+   },
+   "s-elsewhere": {
+    "h": "6. 把重活交給別處",
+    "html": "<ul class=\"steps\">\n<li>@Av1dlive 經常撞上 Grok Bot 的用量上限，於是搭了一個工作臺，把重活交給用自己訂閱的 Claude Code，並說現在額度能撐滿一整週（<a href=\"../cases/x-av1dlive-2115929453859881169.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li>@nnaatt00xx 說，在一個研究程式碼庫上來回折騰五個小時用掉了半周的預算，已開始把工作交給 Cursor 雲端代理，並問這樣做是不是最佳實踐。這條貼文是一個提問，不是結果（<a href=\"../cases/x-nnaatt00xx-2116883629871899112.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n</ul>\n<p>把工作交給另一個工具，就要遵守那個工具自己的訂閱、限制和條款，請先確認這些。</p>"
+   },
+   "s-odd": {
+    "h": "7. 如果用量無故跳漲",
+    "html": "<p>有幾位使用者報告 11 月 1 日用量突然跳漲。這些都是使用者報告；我們讀到的來源裡沒有廠商對原因的確認。</p>\n<ul class=\"steps\">\n<li>@matthewsligh 說，在幾乎沒有活動的情況下，用量兩小時內從不到 45% 漲到 87%。他匯出的資料顯示一夜之間約 200 萬 token，而平常一天是 1.5 億到 2.5 億；凌晨 12:20 應用顯示 87%，Bot 自己的用量檢查卻是 43.6%（<a href=\"../cases/x-matthewsligh-2116885595188326723.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n<li>@matnguvix 看到每週用量從 50% 跳到 100%，期間只有幾次輕量的例行任務執行（<a href=\"../cases/x-matnguvix-2116883146151178333.html\" rel=\"noopener\" target=\"_blank\">案例</a>）。</li>\n</ul>\n<p>兩人都做了、你也可以照做的事：記下前後的時間和百分比，並和用量匯出資料對比，這樣需要申請更正時就有證據。</p>"
+   },
+   "s-list": {
+    "h": "簡短清單",
+    "html": "<ol class=\"steps\">\n<li>暫停不需要的例行任務（官方文件）。</li>\n<li>讓每個 Bot 列出自己的例行任務和執行頻率（@BenENewton）。</li>\n<li>用窄的事件觸發代替定時器；如果必須定時，就拉長間隔（文件、@MartinBarna333、@gippp69）。</li>\n<li>先跑一個便宜的檢查，只有情況變了才喚醒 Bot（@z80srl、@gippp69）。</li>\n<li>把重複的例行任務集中在一個專用 Bot 上，放在簡短的對話裡（@MartinBarna333）。</li>\n<li>批次處理工作，把長結果存進檔案，每週用一段簡短摘要開新對話（@Simonpuebla_）。</li>\n<li>一個主題一個 Bot，直到工作真的不同（@AndresRuggiero3）。</li>\n<li>少用「測試」：它會消耗用量（文件）。</li>\n<li>在摸清每週用量之前，關閉 Auto Top-up 或設定每月上限（文件常見問題）。</li>\n<li>每次改動後記下用量百分比，這樣才知道哪招有效。</li>\n</ol>"
+   },
+   "s-est": {
+    "h": "設定計劃前先估算",
+    "html": "<p>本站有一個<a href=\"../calculator.html\">額度風險計算器</a>。它的規則是方向性估算，不是廠商資料：3 到 5 個 Bot 加 1 分，6 個及以上加 2 分；開著瀏覽器加 1 分；每天一次的例行任務加 1 分，每小時一次加 2 分。總分 0 到 1 分為低，2 到 3 分為中，4 分及以上為高。</p>"
+   }
+  },
+  "related": [
+   {
+    "kind": "額度報告",
+    "title": "每週 Grok Bot 額度的 74% 花在了哪裡"
+   },
+   {
+    "kind": "指南",
+    "title": "接 7 個 Grok Bot 時發現的空跑，以及 5 個修法"
+   },
+   {
+    "kind": "額度報告",
+    "title": "一個審計其他 Bot 的 Bot，一週把他的用量降到約五分之一"
+   },
+   {
+    "kind": "指南",
+    "title": "別讓例行任務佔著主 Bot"
+   },
+   {
+    "kind": "額度報告",
+    "title": "省額度：只在需要時喚醒 Bot 的本地指令碼"
+   },
+   {
+    "kind": "指南",
+    "title": "第一天別搭 Bot 團隊：一個主題一個 Bot"
+   }
+  ],
+  "sources": [
+   "用量限制（官方文件）",
+   "The X Subscription 上的 Grok Bot（官方文件）",
+   "技能與例行任務（官方文件）",
+   "常見問題（官方文件）",
+   "例行任務（Cursor 說明）",
+   "@zhouruijin 在 X 上",
+   "@m4lkxx 在 X 上",
+   "@BenENewton 在 X 上",
+   "@sorcererxw 在 X 上",
+   "@gippp69 在 X 上",
+   "@gippp69 在 X 上",
+   "@gippp69 在 X 上",
+   "@z80srl 在 X 上",
+   "@MartinBarna333 在 X 上",
+   "@Simonpuebla_ 在 X 上",
+   "@AndresRuggiero3 在 X 上",
+   "@distortgeekin 在 X 上",
+   "@DissipativeS 在 X 上",
+   "@gitpulled 在 X 上",
+   "@Vikramaditya_V1 在 X 上",
+   "@Av1dlive 在 X 上",
+   "@nnaatt00xx 在 X 上",
+   "@matthewsligh 在 X 上",
+   "@matnguvix 在 X 上"
+  ],
+  "ui": {
+   "crumb": "常駐用量",
+   "brand": "常駐用量",
+   "rel": "本站相關案例",
+   "src": "來源",
+   "toc": "本頁目錄",
+   "note": "本頁是對官方文件和 X 上公開貼文的原創整理。引語和數字歸原作者所有，不是廠商資料。引語譯自英文原文。"
+  }
+ }
+}
