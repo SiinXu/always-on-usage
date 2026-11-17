@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2658 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2673 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-16T23:52:06.929Z
+- Last updated: 2026-11-17T13:48:06.308Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3153,6 +3153,41 @@
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
 
+### EscapeProof: Meta Muse builds escape rooms, Kane CLI play-tests them
+- URL: https://usage.incidental.site/cases/x-bluesense-2122612343716929803.html
+- Type: field-case · Product: meta-muse · Author: blu_esense · Source: https://x.com/blu_esense/status/2122612343716929803 · Date: 2026-11-17
+- Summary: The author built EscapeProof: Meta Muse creates escape rooms, Kane CLI plays them, catches broken clues and sends failures back for repair. A room is published only after both checks pass. A demo link is in the post.
+
+### A dream todo app built with Meta Muse
+- URL: https://usage.incidental.site/cases/x-awcecom-2122487361787351355.html
+- Type: field-case · Product: meta-muse · Author: awce_com · Source: https://x.com/awce_com/status/2122487361787351355 · Date: 2026-11-17
+- Summary: The author says they built their dream todo application with Meta Muse and shares the exact prompt at the link so readers can recreate or customize it.
+
+### Trying Meta Muse video generation
+- URL: https://usage.incidental.site/cases/x-skrs8xi1-2122611293320527898.html
+- Type: field-case · Product: meta-muse · Author: Skrs8xi1 · Source: https://x.com/Skrs8xi1/status/2122611293320527898 · Date: 2026-11-17
+- Summary: The author shares a YouTube video about trying Meta Muse for AI video generation and what happened. The post itself only has the title and link.
+
+### Grok Bot writes the next-tasks brief for VS Code agents
+- URL: https://usage.incidental.site/cases/gh-github-com-tatassembly-sys-papertrail-pull-11.html
+- Type: field-case · Product: grok-bot · Author: tatassembly-sys · Source: https://github.com/tatassembly-sys/papertrail/pull/11 · Date: 2026-11-17
+- Summary: A docs-only PR from Grok Bot adds agents/vscode/NEXT_TASKS.md, a self-contained brief for VS Code CLI agents: kickoff prompt, current state, rules, full gate, numbered milestones with steps, acceptance and test commands, and a handover. HANDOVER.md now marks VS1–VS5 complete, and the change is logged in the grokbot log.
+
+### Full Grok Bot account backups must include a work handover
+- URL: https://usage.incidental.site/cases/gh-github-com-bibuat1-stack-qa-agent-team-pull-20.html
+- Type: guide · Product: grok-bot · Author: bibuat1-stack · Source: https://github.com/bibuat1-stack/qa-agent-team/pull/20 · Date: 2026-11-17
+- Summary: A QA agent team wrote its backup rule into the repo: every weekly or account-switch full backup must include a handover with six fixed items: what is done and next and where to look, decisions waiting for the user, connectors and account labels (names and status only), open PRs versus live skill versions, role names and old ids, and an index of work in progress. Multi-account syncs list differences and wait for the user instead of overwriting.
+
+### Connecting Muse to your own MCP server: add its callback URL
+- URL: https://usage.incidental.site/cases/gh-github-com-kan-wema-kake-pull-103.html
+- Type: guide · Product: meta-muse · Author: kan · Source: https://github.com/kan/wema-kake/pull/103 · Date: 2026-11-17
+- Summary: Registering a custom /mcp connector in Muse failed: Cloudflare Access Managed OAuth rejected dynamic client registration with 400 invalid_client_metadata because Muse’s callback was not an allowed redirect URI. The fix adds https://agent.meta.ai/api/hatch/oauth/callback to the allowed list and agent.meta.ai to the MCP clients allowed to write.
+
+### Installing a skill into Grok Bot straight from GitHub
+- URL: https://usage.incidental.site/cases/gh-github-com-yzdame-geogebra-studio-pull-27.html
+- Type: guide · Product: grok-bot · Author: YZDame · Source: https://github.com/YZDame/GeoGebra-Studio/pull/27 · Date: 2026-11-17
+- Summary: GeoGebra Studio’s README adds install steps: in Grok Bot you can just say "install the geogebra-studio skill from https://github.com/YZDame/GeoGebra-Studio" so it copies the whole skills/geogebra-studio folder (with scripts, runtime, references, examples) into its skill library; the machine needs Node.js 22.12 or later. For Cursor, copy it into the local plugins or skills folder and reload the window.
+
 ### Using a Dot to run a DevDay community event in Jakarta
 - URL: https://usage.incidental.site/cases/x-naufaldi-2122268529663889551.html
 - Type: field-case · Product: openai-dots · Author: naufaldi · Source: https://x.com/naufaldi/status/2122268529663889551 · Date: 2026-11-16
@@ -3277,6 +3312,16 @@
 - URL: https://usage.incidental.site/cases/x-stoneyboi97-2122320400185209224.html
 - Type: field-case · Product: grok-bot · Author: StoneyBoi97 · Source: https://x.com/StoneyBoi97/status/2122320400185209224 · Date: 2026-11-16
 - Summary: The author shows a batch of images from a "model machine" built with Grok Bot, including older shots, their best results and some of the best rejects.
+
+### GrokBot for people with disabilities: 8 real use cases
+- URL: https://usage.incidental.site/cases/yt-lk2p5piyp4y.html
+- Type: field-case · Product: grok-bot · Author: Kacper Rutkiewicz | AI Made Simple · Source: https://www.youtube.com/watch?v=LK2p5PIyp4Y · Date: 2026-11-16
+- Summary: The author describes Jim, who has severe neuropathy and runs most of his life by voice through a team of GrokBot bots: one tracks his medication, one looks after his car, and one calls the hotel before travel to check the room is accessible. The video covers 8 ways people with disabilities use GrokBot and links templates such as a Deaf Assistant, Dad Bot and an ADHD bot.
+
+### 7 Meta Muse settings to change before you start
+- URL: https://usage.incidental.site/cases/yt-bwwqoa9bduo.html
+- Type: guide · Product: meta-muse · Author: ニュースのミカタ · Source: https://www.youtube.com/watch?v=bwWQoa9Bduo · Date: 2026-11-16
+- Summary: A Japanese walkthrough on real iPhone and Windows screens: stop conversations being used for AI development, confirm before every action (don’t pick "always allow"), review Facebook, Instagram and Messenger connection permissions, Android contacts permission, check Muse’s memory (MEMORY.md) versus "reset", look for recurring tasks you never asked for, and set up a passkey and two-step verification on the Meta account.
 
 ### Grok Bot sits on hold for me and hands over the call when a human answers
 - URL: https://usage.incidental.site/cases/x-0xwanghao-2121956283917967524.html
@@ -3417,6 +3462,11 @@
 - URL: https://usage.incidental.site/cases/x-mweinbach-2122110159245737997.html
 - Type: field-case · Product: grok-bot · Author: mweinbach · Source: https://x.com/mweinbach/status/2122110159245737997 · Date: 2026-11-15
 - Summary: The author says he simply gave Siri access to the basic functions and drives data that Tessie collects, and shares the app. In the car Grok is way better, he says, but when he's not in the car it takes much longer to tell Grok or Grok Bot to do things like this.
+
+### How the Grok Bot team avoids AI code slop
+- URL: https://usage.incidental.site/cases/yt-uea116ho-ho.html
+- Type: guide · Product: grok-bot · Author: AgentOS · Source: https://www.youtube.com/watch?v=ueA116hO_ho · Date: 2026-11-15
+- Summary: A Korean breakdown of Lauren Tan’s SpaceXSI talk "All Code Is Slop (Except Mine)". Chapters cover about 11,000 PRs a month with 0.5% reverts, a five-level "potato pyramid", banning 99% of comments, runtime verification, formal verification and property-based tests, 70% of tokens going to verification, and fuzzing on every release. Links the pstack repo.
 
 ### One message before bed, six Grok Bot agents hand off until morning
 - URL: https://usage.incidental.site/cases/x-fleyta88-2121564919527027152.html
@@ -6248,6 +6298,11 @@
 - Type: field-case · Product: meta-muse · Author: 0xPasswd · Source: https://x.com/0xPasswd/status/2115403611434090845 · Date: 2026-10-28
 - Summary: The author found that a Gate card can't be used to complete Meta Muse verification. Customer support confirmed it isn't supported, so the author advises others not to bother trying.
 
+### A Chrome extension for X built by Grok Bot
+- URL: https://usage.incidental.site/cases/gh-github-com-s1nned1-x-region-highlighter.html
+- Type: field-case · Product: grok-bot · Author: S1nned1 · Source: https://github.com/S1nned1/x-region-highlighter · Date: 2026-10-28
+- Summary: The repo says it was built by Grok Bot: a zero-telemetry Manifest V3 Chrome extension for X (x.com) that highlights non-US posts and replies and adds a high-visibility South Asia indicator.
+
 ### Grok Bot as his hardest-working employee: payments and shopping
 - URL: https://usage.incidental.site/cases/x-teslaconomics-2115043610916016451.html
 - Type: field-case · Product: grok-bot · Author: Teslaconomics · Source: https://x.com/Teslaconomics/status/2115043610916016451 · Date: 2026-10-27
@@ -8207,6 +8262,11 @@
 - URL: https://usage.incidental.site/cases/yt-lrupu2-ktgq.html
 - Type: field-case · Product: grok-bot · Author: Brock Mesarich | AI for Non Techies · Source: https://www.youtube.com/watch?v=lRUpu2-KtGQ · Date: 2026-08-13
 - Summary: For non-technical viewers, Brock Mesarich explains that Grok Bots talk and trigger each other in group chats, and demos an inbox agent turning email into ClickUp tasks and setting up the Higgsfield plugin. The description has many promotional links.
+
+### A Nix flake for the Grok Bot desktop app
+- URL: https://usage.incidental.site/cases/gh-github-com-jordangarrison-grok-bot-flake.html
+- Type: guide · Product: grok-bot · Author: jordangarrison · Source: https://github.com/jordangarrison/grok-bot-flake · Date: 2026-08-11
+- Summary: This repo packages Grok Bot, xAI’s desktop agent (a repackaged .deb Electron app), as a Nix flake so it can be installed on Nix systems.
 
 ### Marketing Analyst
 - URL: https://usage.incidental.site/cases/t-marketing-analyst.html
@@ -12328,6 +12388,16 @@
 - Type: comparison · Product: multi · Author: uglyrobot · Source: https://x.com/uglyrobot/status/2122318756693032964 · Date: 2026-11-16
 - Summary: The author lists DocsBot Agent's marketplace status: ChatGPT/Codex approved after 3 rounds of MCP server rearchitecting; Claude/Code a fairly easy approval, though connectors and plugins being separate is confusing; Meta Muse submitted almost on day 1 but has a huge backlog and a new automated process required resubmitting; Grok/Grok Bot/Cursor give no progress indicator and approve manually; Gemini and Microsoft Copilot submitted.
 
+### Meta Muse vs Hermes Agent, plus ChatGPT dots and Claude Code
+- URL: https://usage.incidental.site/cases/yt-fmgnejqp8bq.html
+- Type: comparison · Product: multi · Author: AI by aniuma · Source: https://www.youtube.com/watch?v=FMGnEJqp8bQ · Date: 2026-11-16
+- Summary: A Japanese video compares AI assistants on four measures: cost, where it runs, where you talk to it, and whether you can see inside. Notes: for individuals ChatGPT dots is Pro-only (business plans such as Business Premium and Enterprise also qualify); Muse’s paid plans per Meta’s help page are Power at $20/month and Maximum at $100/month (checked 2026-11-15).
+
+### Hermes Agent vs Grok Bot, Dots and Muse
+- URL: https://usage.incidental.site/cases/yt-icczzwwgaws.html
+- Type: comparison · Product: multi · Author: Eric Michaud · Source: https://www.youtube.com/watch?v=IcCzzwWgaws · Date: 2026-11-16
+- Summary: The author reviews managed personal agents: Grok Bot has a great desktop app but usage-limit drama; OpenAI Dots has slow replies and dropped calls; Meta Muse has a free tier but Meta’s privacy record; Claude Duet is a slow waitlist preview that asks permission a lot; n8n Nod is open source, runs on your computer and is still a preview. The agent he runs daily is Hermes Agent on his own server for about $8 a month.
+
 ### Repo CI checks that pass in Grok Bot won't run in Dots
 - URL: https://usage.incidental.site/cases/x-furmanets-2121912043083006430.html
 - Type: comparison · Product: multi · Author: furmanets · Source: https://x.com/furmanets/status/2121912043083006430 · Date: 2026-11-15
@@ -12352,6 +12422,11 @@
 - URL: https://usage.incidental.site/cases/x-drpraveenkoduru-2121596238969950617.html
 - Type: comparison · Product: grok-bot · Author: drpraveenkoduru · Source: https://x.com/drpraveenkoduru/status/2121596238969950617 · Date: 2026-11-14
 - Summary: The author asked Claude and Grok Bot the same thing: open an MRI from a corporate hospital's PACS viewer. Claude said it couldn't access it and stopped. Grok Bot opened it, hit an export error, tried again, downloaded the full study and then went on to build from it. Three images attached.
+
+### ChatGPT vs Work vs Codex vs Dots: which to use
+- URL: https://usage.incidental.site/cases/yt-tymmtfcbcus.html
+- Type: comparison · Product: openai-dots · Author: The Tech Girl · Source: https://www.youtube.com/watch?v=tYMmtfCBcUs · Date: 2026-11-14
+- Summary: Using one example, planning a weekend trip to Goa, the video explains when to use ChatGPT for quick answers, ChatGPT Work for finished tasks, Codex for building apps and websites, and OpenAI Dots for ongoing responsibilities, plus connectors, plugins, MCP, app permissions and plan differences.
 
 ### Podcast: Claude Duet vs Meta Muse vs Grok Bot vs ChatGPT Dots
 - URL: https://usage.incidental.site/cases/x-ryandoser13-2121288972382912842.html
