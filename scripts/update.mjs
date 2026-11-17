@@ -139,7 +139,31 @@ function apply(){
 }
 
 const sh=(c,o={})=>{log("$",c);return execSync(c,{cwd:ROOT,stdio:"inherit",...o})};
+// 2026-11-17: git sync. The deploy must never ship a tree that is behind origin (11-17 a routine run built from ebeb071 and
+// overwrote a robots.txt deploy made from the newer 2496395). So: data is committed + pushed (fetch, rebase, retry) BEFORE the build,
+// and deploy() re-checks origin right before uploading; if origin moved it rebases, rebuilds and checks again.
+const ID="-c user.name=SiinXu -c user.email=sinxu.xsy@gmail.com";
+const q=c=>execSync(c,{cwd:ROOT}).toString().trim();
+const BR=(()=>{try{const b=q("git rev-parse --abbrev-ref HEAD");return b&&b!=="HEAD"?b:"master"}catch{return "master"}})();
+const nap=ms=>execSync("sleep "+Math.ceil(ms/1000));
+function fetchOrigin(){sh("git fetch -q origin "+BR)}
+function behind(){fetchOrigin();return +q(`git rev-list --count HEAD..origin/${BR}`)}
+function rebaseOnto(){fetchOrigin();try{sh(`git ${ID} rebase -q --autostash origin/${BR}`)}catch(e){try{sh("git rebase --abort")}catch{};throw new Error(`rebase onto origin/${BR} failed (conflict?): ${e.message}`)}}
+function build(){sh("node gen.mjs && npx vite build",{env:{...process.env,BASE:"/"}})}
+function sync(){const ing=J("content-inbox/ingest.json",{items:[]});
+  sh("git add -A");let changed=true;try{execSync("git diff --cached --quiet",{cwd:ROOT});changed=false}catch{}
+  if(changed)sh(`git ${ID} commit -q -m "ingest: ${ing.items.length} items, last_ingest ${ing.last_ingest}"`);else log("sync: nothing to commit");
+  if(flag("no-push"))return;
+  for(let i=1;i<=5;i++){rebaseOnto();
+    if(+q(`git rev-list --count origin/${BR}..HEAD`)===0){log("sync: up to date with origin/"+BR,q("git rev-parse --short HEAD"));return}
+    try{sh(`git push -q origin HEAD:refs/heads/${BR}`);log("sync: pushed",q("git rev-parse --short HEAD"),"to",BR);return}catch(e){log(`sync: push rejected (attempt ${i}/5), refetching`);nap(2000*i)}}
+  throw new Error("sync: push still rejected after 5 attempts")}
 async function deploy(){
+  if(!flag("no-push")){for(let i=0;;i++){const n=behind();if(!n)break;
+    if(i>=3)throw new Error(`deploy aborted: origin/${BR} keeps moving (${n} new commits); not uploading a stale build`);
+    log(`deploy: origin/${BR} is ${n} commit(s) ahead of the build; rebasing and rebuilding`);rebaseOnto();build()}
+    if(+q(`git rev-list --count origin/${BR}..HEAD`))log("deploy: WARNING local commits not pushed yet; run `sync` first");
+    log("deploy: building from",q("git rev-parse --short HEAD"),"= origin/"+BR)}
   sh("node scripts/mk_worker.mjs");
   const {CLOUDFLARE_API_TOKEN:tok,CLOUDFLARE_ACCOUNT_ID:acc}=process.env;
   if(!tok||!acc){log("AGENT STEP: no CLOUDFLARE_API_TOKEN/CLOUDFLARE_ACCOUNT_ID in env. Call the Cloudflare MCP tool `execute` with {\"code\":\"$file:/workspace/cf_deploy_v6.js\"}, then re-run with `-- verify commit`.");return false}
@@ -151,15 +175,13 @@ async function deploy(){
 }
 async function verify(){const ing=J("content-inbox/ingest.json",{});for(let i=0;i<6;i++){try{const h=await get("https://usage.incidental.site/?v="+Date.now(),"text");
   if(!ing.last_ingest||h.includes(ing.last_ingest)){log("verify: live page shows last_ingest",ing.last_ingest);return true}}catch(e){}await new Promise(r=>setTimeout(r,10000))}log("verify: live page does not show",ing.last_ingest,"yet");return false}
-function commit(){const ing=J("content-inbox/ingest.json",{items:[]});
-  sh("git add -A");try{execSync("git diff --cached --quiet",{cwd:ROOT});log("nothing to commit");return}catch{}
-  sh(`git -c user.name=SiinXu -c user.email=sinxu.xsy@gmail.com commit -q -m "ingest: ${ing.items.length} items, last_ingest ${ing.last_ingest}"`);
-  if(!flag("no-push")){try{sh("git pull -q --rebase origin HEAD")}catch(e){log("pull --rebase failed:",e.message)}sh("git push -q origin HEAD")}}
+function commit(){sync()}
 
 if(run("collect"))await collect();
 if(run("apply"))apply();
 if(run("extract"))try{sh("python3 scripts/extract_sources.py")}catch(e){log("extract skip:",e.message)}
-if(run("build"))sh("node gen.mjs && npx vite build",{env:{...process.env,BASE:"/"}});
+if(run("sync"))sync();
+if(run("build"))build();
 let deployed=false;if(run("deploy")&&!flag("no-deploy"))deployed=await deploy();
 if(run("verify")&&(deployed||stages.includes("verify")))await verify();
 if(run("commit"))commit();

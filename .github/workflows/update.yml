@@ -40,8 +40,14 @@ jobs:
       - name: Collect (headless, no LLM)
         if: github.event_name != 'push'
         run: node scripts/update.mjs collect
-      - name: Apply translated items, extract sources, build
-        run: node scripts/update.mjs apply extract build
+      - name: Apply translated items, extract sources
+        run: node scripts/update.mjs apply extract
+      # 2026-11-17: push data first (fetch + rebase + retry), then build and deploy from that HEAD, so a deploy can never
+      # ship a tree older than origin/master (e.g. drop a newer robots.txt commit). deploy re-checks origin before uploading.
+      - name: Commit + push data (fetch, rebase, retry)
+        run: node scripts/update.mjs sync
+      - name: Build
+        run: node scripts/update.mjs build
       - name: Deploy Worker + verify
         if: env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
         run: node scripts/update.mjs deploy verify
@@ -50,8 +56,8 @@ jobs:
         run: |
           msg="Deploy skipped: repo secrets CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID are not set. Live site unchanged; an agent must deploy via Cloudflare MCP (UPDATE.md step 5)."
           echo "::warning::$msg"; echo "$msg" >> "$GITHUB_STEP_SUMMARY"
-      - name: Commit + push data
-        run: node scripts/update.mjs commit
+      - name: Commit + push build changes, if any (fetch, rebase, retry)
+        run: node scripts/update.mjs sync
       - name: Republish GitHub Pages mirror (siinxu.github.io/always-on-usage)
         run: node scripts/mk_mirror.mjs && bash scripts/push_mirror.sh
       - name: Summary
