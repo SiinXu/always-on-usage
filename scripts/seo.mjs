@@ -82,5 +82,17 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
+# 2026-11-17: ElevenlabsCrawler — sitewide disallow
+User-agent: ElevenlabsCrawler
+Disallow: /
+
+# 2026-11-17: KeenableBot — slow down and skip heavy usage paths; do not ban the whole site
+User-agent: KeenableBot
+Crawl-delay: 10
+Disallow: /cases/
+Disallow: /stories/
+Disallow: /topics/
+Disallow: /digest/
+
 Sitemap: ${BASE}/sitemap.xml
 `;
