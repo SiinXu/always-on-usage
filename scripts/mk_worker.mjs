@@ -24,7 +24,9 @@ const KV="k1";
 function slashRedirect(r){const url=new URL(r.url);let u;try{u=decodeURIComponent(url.pathname)}catch{u="/"}if(u.length>1&&!u.endsWith("/")&&!/\\.[A-Za-z0-9]+$/.test(u)&&I[u.replace(/\\/?$/,"/")+"index.html"]&&!I[u]&&!I[u+".html"])return Response.redirect(url.origin+u+"/"+url.search,301);return null}
 function ent(r){let u;try{u=decodeURIComponent(new URL(r.url).pathname)}catch{u="/"}for(const k of [u,u+".html",u.replace(/\\/?$/,"/")+"index.html"]){const e=I[k];if(e)return e}return null}
 function ck(r,e){const u=new URL(r.url),L=u.searchParams.get("lang");return new Request(u.origin+u.pathname+"?__c="+KV+"."+e[3]+(L&&LC.includes(L)?"&lang="+L:""),{method:"GET"})}
-function out(res,tag,path){const h=new Headers(res.headers);if(res.status===200)h.set("cache-control",path.startsWith("/assets/")?"public, max-age=31536000, immutable":"public, max-age=300");h.set("x-uh-cache",tag);return new Response(res.body,{status:res.status,headers:h})}
+// 2026-11-17 (daily-fix 11-07/11-16 proposal, approved by Siin): HTML gets max-age=3600 + stale-while-revalidate=86400 (was 300).
+// The edge copy stays keyed by each file's content hash, so a publish that changes a page gets a new key at once ("purge on publish").
+function out(res,tag,path){const h=new Headers(res.headers);if(res.status===200)h.set("cache-control",path.startsWith("/assets/")?"public, max-age=31536000, immutable":(h.get("content-type")||"").startsWith("text/html")?"public, max-age=3600, stale-while-revalidate=86400":"public, max-age=300");h.set("x-uh-cache",tag);return new Response(res.body,{status:res.status,headers:h})}
 export default{async fetch(r,env,ctx){
 const redir=slashRedirect(r);if(redir)return redir;
 if(r.method!=="GET"&&r.method!=="HEAD")return H.fetch(r);
