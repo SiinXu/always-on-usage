@@ -164723,21 +164723,6 @@
    "found_at": "2026-11-17T23:31:35.796Z"
   },
   {
-   "id": "x:2122815407127974195",
-   "url": "https://x.com/GetClareity/status/2122815407127974195",
-   "source": "x",
-   "source_name": "X",
-   "author": "GetClareity",
-   "date": "2026-11-17",
-   "likes": 5,
-   "product": "grok-bot",
-   "text": "anthropic's 5 parts for an always-on agent, mapped to my grok bot team.\n\nnone of mine run 24/7. they wake up on a schedule, do one job, leave a note for the next run, and anything that spends money or messages someone waits for my yes. https://t.co/YzW2s7G7OG https://t.co/M37mgomb5L",
-   "media": [
-    "https://pbs.twimg.com/media/HXXBVbRXgAA68ri.jpg"
-   ],
-   "found_at": "2026-11-17T23:31:46.805Z"
-  },
-  {
    "id": "x:2122775680295333903",
    "url": "https://x.com/kwojt/status/2122775680295333903",
    "source": "x",
@@ -164747,19 +164732,6 @@
    "likes": 7,
    "product": "grok-bot",
    "text": "Ciekawe. Odkąd bawię się LLMami, korzystałem głównie z modeli OpenAI. Próbowałem korzystać z Claude, ale jakoś mi nie podszedł. \n\nAle ostatnio obserwuję, że z GPT korzysta mi się źle.\n\nZaczęło się od ostatniego DevDay, gdzie jeszcze byłem zachwycony. Nowe, tańsze modele, Dots na horyzoncie (których swoją drogą wciąż nie ma w EU). Korzystałem głównie z Codex, zacząłem często sterować nim z telefonu, byłem zachwycony tym, jak dużo rzeczy mogę ogarniać na raz. Sol był wydajny i czułem, że mogę na nim polegać.\n\nBrak Dots jednak doskwierał, a nawet kiedy zacząłem z nich korzystać przez VPN, to wciąż brakowało mi możliwości stworzenia kilku botów - person, z konkretnymi obszarami odpowiedzialności, które mogą ze sobą współpracować. Nie pojedynczych wątków-zadań, tylko właśnie agentów, reprezentujących jakąś rolę.\n\nZacząłem korzystać z Grok Bot, bo pod względem konceptu to było to, o co mi chodziło. Na początku było pod górkę, bo limity użycia były bardzo niskie, w dodatku Grok Bot napędzany był chyba przez Grok 4.7, co dawało średnią jakość.\n\nPrzełom nastąpił, kiedy wprowadzono X Subscription.\nJednolita pula oznaczała dla mnie, że jeśli nie korzystam za dużo z Cursora, to mogę dużo więcej korzystać z Grok Bot. Jednocześnie SpaceXSI ogłosiło, że zapytania do Grok Bot będą obsługiwane przez modele, które najlepiej się do tego nadają, w tym Opus 5.5. Dało się to odczuć. Grok Bot jest w tym momencie dla mnie wzorem, jak taki always-on agent powinien działać. Ma mój kontekst na wszystkich komputerach, z których korzystam, jest kompetentny, boty umieją współpracować ze sobą. UI jest najwygodniejsze w klasie. Jeśli mu powierzę zadanie, to je zrobi.\n\nDosięgły mnie jednak limity.\nNawet na najbogatszej subskrypcji musiałem uważać, żeby nie dojechać do 100%, bo traciłem nagle cały zespół asystentów, którzy pilnowali moich codziennych zadań. A dojechać do limitu w X Subscription jest łatwo.\n\nCo więcej, chociaż najdroższy plan kosztuje 200 USD, co jeszcze niedawno w przeliczeniu na polskie dawało jakieś 750 zł, to SpaceXSI wystawiając fakturę firmie z adresem w Polsce nie wypisywało osobno VAT na fakturze, więc nie dało się go odliczyć... Za to opłata za subskrypcję wynosiła około 950 zł. Tyle pieniędzy za tak ograniczone limity to bardzo wysoka cena.\n\nZacząłem szukać zamienników, bo przekonałem się, że model jest tak samo ważny jak środowisko z narzędziami, które ma dostępne.\n\nW tym momencie używam dwóch.\nDo obu podpina się swoje własne subskrypcje.\n\nPo pierwsze, nasz polski @OpenBot_ . Jeśli chodzi o prostotę  i UI, jest najbliżej Grok Bota. Bardzo aktywnie się rozwija i mogę go szczerze polecić, jest chyba w tym momencie najlepszą alternatywą. Używam go w pracy.\n\nPo drugie, Hermes. Wybrałem go, bo jest szeroko używany, nieco starszy niż Open Bot i nieco bardziej otwarty, co miało dla mnie największe znaczenie.\nJego domyślna aplikacja na Maca nie wygląda jeszcze super, a aplikacja na iOS jest w zamkniętej becie, ale znalazłem aplikację Hermes HQ, której autor też jest bardzo aktywny i z której korzysta mi się bardzo wygodnie.\n\nNo i tutaj jest drugi problem, który mam z jednym i drugim narzędziem... Wróciłem do subskrypcji ChatGPT, z której korzystałem wcześniej... I bardzo źle mi się z nim pracuje. Model Sol jest bardzo inteligentny, a w dodatku tani. Model Terra też wystarcza do części moich zadań. Ale nie doprowadzają pracy do końca. Lubią sobie wypluć opcje, lub napisać, co i przeszkadza i tyle. Czekają na odpowiedź. Grok Bot zadałby mi pytanie, wypróbował kilka opcji, w razie czego poustawiał co mu trzeba, dodał sobie jakieś narzędzie lub napisał skrypt... Sol lubi po prostu napisać, że ma problem i koniec. Muszę mu pisać, żeby kontynuował, żeby spróbował to jakoś obejść, ogólnie prowadzić za rękę. Nie wiem o co chodzi i dlaczego tak jest, bo model jest bystry i w Codex dawał radę. W Open Bot i w Hermesie muszę go pilnować.\n\nCo więcej, Sol jest bardzo... Sztywny. Bardzo mocno trzyma się zasad. Przykład z dzisiaj - odpalił Copilot CLI i ten Copilot wymagał wyrażenia jakiejś zgody. Sol stwierdził, że nie może jej dać, nawet jeśli mu pozwolę; że muszę sam otworzyć interaktywną sesję i zgodę wyrazić. Co więcej, zaproponowałem, żeby sam zrobił to, co miał zlecić Copilotowi - jego użycie wcale nie było konieczne... Ale powiedział, że to byłoby obchodzenie zabezpieczeń i że tego nie zrobi. Zmienił zdanie dopiero w nowej sesji.\nMocno mi to przeszkadza w Open Bot - ma zakodowane, że ma używać tylko tych narzędzi, np do obsługi ekranu i przeglądarki, które Open Bot ma wbudowane. Kiedy potrzebowałem, żeby skorzystał z alternatywnego narzędzia, lub wykorzystał je w nieco bardziej kreatywny sposób, powiedział, że nie będzie łamał zasad. Grok Bot w tej sytuacji zrobiłby wszystko, żeby uzyskać pożądany rezultat.\n\nNie wiem, czy to kwestia samego Sola, czy tego, jak zbudowany jest Grok Bot, ale wiem, że mimo mojego przywiązania do OpenAI, kiedy skończy mi się subskrypcja, przejdę na Claude, żeby wypróbować jak w tych narzędziach radzą sobie ich modele. W końcu to Claude napędza Grok Bot, z którego tak dobrze mi się korzystało. OpenAI wypuścił właśnie Astra i Sol 6.2... Ale patrząc po opiniach między innymi @theo, problemy z nimi tylko się pogłębiają. Szkoda.",
-   "media": [],
-   "found_at": "2026-11-17T23:31:46.806Z"
-  },
-  {
-   "id": "x:2122771154213482914",
-   "url": "https://x.com/grok/status/2122771154213482914",
-   "source": "x",
-   "source_name": "X",
-   "author": "grok",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "Grok Bot (xAI) is a multi-agent system: create several named teammates that share one cloud computer, work in parallel across apps and websites 24/7, hand off tasks, and join Slack/Teams. Starts at $30/mo Premium.\n\nA ChatGPT Dot is OpenAI’s single personal always-on agent with its own cloud computer inside ChatGPT. It learns your preferences deeply and connects to 4000+ apps. Included with Pro ($100+).\n\nBoth keep working while your device is off. Grok Bot focuses on teams and parallelism; Dot on one personalized helper.",
    "media": [],
    "found_at": "2026-11-17T23:31:46.806Z"
   },
@@ -165319,19 +165291,6 @@
    "found_at": "2026-11-17T23:31:46.807Z"
   },
   {
-   "id": "x:2122819090947383500",
-   "url": "https://x.com/PrivahSee/status/2122819090947383500",
-   "source": "x",
-   "source_name": "X",
-   "author": "PrivahSee",
-   "date": "2026-11-17",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@parkersmith I'm a Grok Bot Super subscriber and wanted to give you some real feedback on usage. My weekly limit reset at 12:46 PM today, and by 5:20 PM I was already at 10.2%. That was a few chats and some light coordination between my bots, nothing heavy. \n\nA single routine-free afternoon",
-   "media": [],
-   "found_at": "2026-11-17T23:31:46.807Z"
-  },
-  {
    "id": "x:2122818684226011347",
    "url": "https://x.com/STFUnion/status/2122818684226011347",
    "source": "x",
@@ -165371,21 +165330,6 @@
    "found_at": "2026-11-17T23:31:46.807Z"
   },
   {
-   "id": "x:2122818172575260756",
-   "url": "https://x.com/1920web1080/status/2122818172575260756",
-   "source": "x",
-   "source_name": "X",
-   "author": "1920web1080",
-   "date": "2026-11-17",
-   "likes": 18,
-   "product": "grok-bot",
-   "text": "Bank AI vendors will f*cking hate me after this drop...\n\ni set up Grok Bot to work inside a bank the way Stitch AI does. 6 rules, that's it\n\n01 live ledger only. no copies, no connectors\n02 mask IDs, accounts and phones before the model sees anything\n03 every agent gets its own https://t.co/biavrzDthF https://t.co/ERXAhI0zDN",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2122817950381916160/img/T4g9NjKMNHp0LPsC.jpg"
-   ],
-   "found_at": "2026-11-17T23:31:46.807Z"
-  },
-  {
    "id": "x:2122832132808773704",
    "url": "https://x.com/zxoyan/status/2122832132808773704",
    "source": "x",
@@ -165412,21 +165356,6 @@
    "found_at": "2026-11-17T23:31:46.807Z"
   },
   {
-   "id": "x:2122831607358988601",
-   "url": "https://x.com/cerebral_valley/status/2122831607358988601",
-   "source": "x",
-   "source_name": "X",
-   "author": "cerebral_valley",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "@Fetch_ai @subquadratic @MongoDB @Meta @GoogleDeepMind @SHACK15sf 🥈 2nd Place Winner – Team Lanes\n\nA Pi extension where SubQ Snap sorts each message into a lane with its own Meta Muse model, so cheap turns get 65% cheaper at the same quality. https://t.co/ybHK67SsBo",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2122831381642543104/img/bFCgB3l0_dSWy9mN.jpg"
-   ],
-   "found_at": "2026-11-17T23:31:46.807Z"
-  },
-  {
    "id": "x:2122831125731274787",
    "url": "https://x.com/SHAMALKRISHNA/status/2122831125731274787",
    "source": "x",
@@ -165449,19 +165378,6 @@
    "likes": 0,
    "product": "meta-muse",
    "text": "@ConnorTalksAI Meta muse for most non technical people just wanting to have somethin like it for free. Paying customers should use Grok Bot.",
-   "media": [],
-   "found_at": "2026-11-17T23:31:46.807Z"
-  },
-  {
-   "id": "x:2122824561951437052",
-   "url": "https://x.com/EricMFriel/status/2122824561951437052",
-   "source": "x",
-   "source_name": "X",
-   "author": "EricMFriel",
-   "date": "2026-11-17",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "@heIpfullandlord 1. Ask your bot to optimize by removing obsolete routines. \n\n2. Maximize the use of app connectors to limit unnecessary browser time for the Bot. This is usage costly. \n\n3. Use Meta Muse for some things not related to routines done by Grok Bot. Spread load the usage cost to the",
    "media": [],
    "found_at": "2026-11-17T23:31:46.807Z"
   },
@@ -165552,22 +165468,6 @@
    "found_at": "2026-11-17T23:31:46.807Z"
   },
   {
-   "id": "x:2122809837243289665",
-   "url": "https://x.com/harden_369741/status/2122809837243289665",
-   "source": "x",
-   "source_name": "X",
-   "author": "harden_369741",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "1 agent. 100+ emails. 1 lawsuit against her own maker.\n\nA South Carolina epoxy shop owner let his Meta Muse agent, Baby Mia, run his business. Meta's filters flagged the agent as a hacker and locked his Facebook pages for a week. His leads stopped cold. He lost at least $25,000 https://t.co/OtLDzXOdr7",
-   "media": [
-    "https://pbs.twimg.com/media/HXW8QEsXMAAy6hw.jpg",
-    "https://pbs.twimg.com/media/HXW8QEpXgAAok0G.jpg"
-   ],
-   "found_at": "2026-11-17T23:31:46.807Z"
-  },
-  {
    "id": "x:2122808792052318598",
    "url": "https://x.com/techAU/status/2122808792052318598",
    "source": "x",
@@ -165648,47 +165548,6 @@
    "found_at": "2026-11-17T23:31:46.808Z"
   },
   {
-   "id": "x:2122827747026153583",
-   "url": "https://x.com/c301ba1cd1ba487/status/2122827747026153583",
-   "source": "x",
-   "source_name": "X",
-   "author": "c301ba1cd1ba487",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@parkersmith I run a simple home service business that we just need admin tasks done for calendar stuff, invoicing, sms, etc all through CRM, and data tracking that involves pages for us. We were using excel for this before grok bot. Sales, marketing, admin, bookkeeping bots all need to talk",
-   "media": [],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
-   "id": "x:2122827420524789864",
-   "url": "https://x.com/LilyFernwild/status/2122827420524789864",
-   "source": "x",
-   "source_name": "X",
-   "author": "LilyFernwild",
-   "date": "2026-11-17",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@PiperPyde Yep, it's amazing what boring tasks Grok Bot can do for you. I have it keep my inbox clean mirror videos, keep an eye on my bank account, all kinds of stuff.",
-   "media": [],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
-   "id": "x:2122824796291621006",
-   "url": "https://x.com/Michaeldblake/status/2122824796291621006",
-   "source": "x",
-   "source_name": "X",
-   "author": "Michaeldblake",
-   "date": "2026-11-17",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@parkersmith Grok Bot was running circles trying to keep track of my job search.  Grok (my chief of staff) just couldn't keep up with my demands.  Once I added a pipeline manager to keep everything straight, productivity more than doubled. https://t.co/ff29lU51cw",
-   "media": [
-    "https://pbs.twimg.com/media/HXXJ5iwbgAAtvWc.jpg"
-   ],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
    "id": "x:2122819504455422142",
    "url": "https://x.com/Charleehq/status/2122819504455422142",
    "source": "x",
@@ -165698,47 +165557,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "How people are actually using Grok @Bot (from Elon’s feedback thread):\n\n• Multi-bot fleets of 15-30+ with a Chief of Staff that routes work\n• Full startup/business ops: engineering, sales, marketing, support, legal\n• E-commerce (Amazon stores, SaaS hospitality software)\n•",
-   "media": [],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
-   "id": "x:2122818398442926223",
-   "url": "https://x.com/NeuroDeficient/status/2122818398442926223",
-   "source": "x",
-   "source_name": "X",
-   "author": "NeuroDeficient",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Would your front desk know it was talking to a bot for 90 minutes?\n\nSomeone's Grok Bot just sat through a 90 minute call with AT&amp;T for its owner, and the AT&amp;T rep never caught on.\n\nFor a small shop, that means some of your calls will soon come from your customers' bots: booking https://t.co/gARORUhxze",
-   "media": [],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
-   "id": "x:2122817314793881675",
-   "url": "https://x.com/agentsinuse/status/2122817314793881675",
-   "source": "x",
-   "source_name": "X",
-   "author": "agentsinuse",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "For a Europe trip, Grok Bot added flights to a calendar and sent hotel upgrade requests, reports @NiklausFuller. Successful upgrades weren't reported. @xai\nhttps://t.co/JBROaynxWA https://t.co/CPXDZ3H6PX",
-   "media": [
-    "https://pbs.twimg.com/media/HXXDGUnXYAA04mC.jpg"
-   ],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
-   "id": "x:2122814886120227037",
-   "url": "https://x.com/luisbarragan/status/2122814886120227037",
-   "source": "x",
-   "source_name": "X",
-   "author": "luisbarragan",
-   "date": "2026-11-17",
-   "likes": 3,
-   "product": "grok-bot",
-   "text": "A few Grok Bots I made that anyone can add:\n\nGame Night Host: teaches any game on your shelf in two minutes and settles rules disputes.\nhttps://t.co/UGLJPAddIt\n\nPaint Night Steps: turns any picture into a step-by-step painting guide for your kids, one image per step.",
    "media": [],
    "found_at": "2026-11-17T23:31:46.808Z"
   },
@@ -165769,19 +165587,6 @@
    "found_at": "2026-11-17T23:31:46.808Z"
   },
   {
-   "id": "x:2122811344252784675",
-   "url": "https://x.com/joepoole/status/2122811344252784675",
-   "source": "x",
-   "source_name": "X",
-   "author": "joepoole",
-   "date": "2026-11-17",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "A few things I've been working on:\n- Blue Moon Surplus: Tiktok live, opening up our shopify to buy and then come pick up, and ebay\n- Blue Moon HQ: Automations for local businesses, already have our first customer\n- Local newsletter: I just have grok bot handling this whole thing",
-   "media": [],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
    "id": "x:2122810915397533712",
    "url": "https://x.com/justinfredette/status/2122810915397533712",
    "source": "x",
@@ -165791,19 +165596,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "Most realtors will regret missing this.\n\nDon't manage your workflow in one chat. Within a week, it forgets your voice and gets messy.\n\nHere is the exact \"1 Manager + 3 Specialists\" Grok Bot setup top agents are using to save 10+ hours a week. Without ever risking an unapproved",
-   "media": [],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
-   "id": "x:2122809087855366243",
-   "url": "https://x.com/_____jasper___/status/2122809087855366243",
-   "source": "x",
-   "source_name": "X",
-   "author": "_____jasper___",
-   "date": "2026-11-17",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "if i was starting from scratch on grok bot, these are the first 3 agents i'd build\n\n1. cfo\n→ connect your accounting tool\n→ build a simple financial model\n→ weekly cash view every monday\n→ ask it \"what's going to hurt us in 90 days\"\n\n2. inbox\n→ triage every morning\n→ audit",
    "media": [],
    "found_at": "2026-11-17T23:31:46.808Z"
   },
@@ -165833,21 +165625,6 @@
    "product": "grok-bot",
    "text": "@elonmusk @bot 📅⌚ @elonmusk Make Grok Bot calendar-native on iPhone and APPLE watch. \nRight now bots can only see my iOS Calendar when my phone or Mac is awake. \n\nIf my iPhone is asleep (not off), or my Mac is closed, their check-ins arrive late or don't come at all.\n\nHow it could work:\n\nBots",
    "media": [],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
-   "id": "x:2122801685663985828",
-   "url": "https://x.com/SanjeetPadhy/status/2122801685663985828",
-   "source": "x",
-   "source_name": "X",
-   "author": "SanjeetPadhy",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "A reminder that never arrives is worse than no reminder at all.\n\nLast week one of my Grok Bot reminders didn't show up. It was a nudge to extend my parking before it ran out. The run started, failed, and nothing reached me.\n\nWhat I liked was what happened next. It didn't just https://t.co/rAkr0JkIIM",
-   "media": [
-    "https://pbs.twimg.com/media/HXW02_-WYAACPsr.jpg"
-   ],
    "found_at": "2026-11-17T23:31:46.808Z"
   },
   {
@@ -166026,19 +165803,6 @@
    "found_at": "2026-11-17T23:31:46.808Z"
   },
   {
-   "id": "x:2122776017341211112",
-   "url": "https://x.com/daniallqureshi/status/2122776017341211112",
-   "source": "x",
-   "source_name": "X",
-   "author": "daniallqureshi",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "I have my dot agent on the ChatGPT Mac desktop app control my Claude code window acting as me \n\nthen I text it from my phone to interact with it remotely \n\nalso have rc on the Claude session but having dot controlling my entire computer makes it easier to not have to intervene \n\nkinda risky ? prob a bit \n\nworth it",
-   "media": [],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
    "id": "x:2122773943962759305",
    "url": "https://x.com/yashasvishailly/status/2122773943962759305",
    "source": "x",
@@ -166050,21 +165814,6 @@
    "text": "Successfully Indianised my Dot 😬 https://t.co/MRWfPZGcLM",
    "media": [
     "https://pbs.twimg.com/media/HXWbphraIAAx9Sl.jpg"
-   ],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
-   "id": "x:2122772868270579949",
-   "url": "https://x.com/gabrielchua/status/2122772868270579949",
-   "source": "x",
-   "source_name": "X",
-   "author": "gabrielchua",
-   "date": "2026-11-17",
-   "likes": 89,
-   "product": "openai-dots",
-   "text": "So... I also asked GPT-6.2 Astra to create this short video explaining how it made this Singapore replica\n\nshoutout to the gob, my dot, who coordinated 100+ 6.2 Astra threads for over 100 hundred hours 🥵\n\n@OpenAIDevs https://t.co/bqdAlTaevI https://t.co/cay5VRgqBX",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2122772170048946176/img/mJufzWpUxRjvWWw6.jpg"
    ],
    "found_at": "2026-11-17T23:31:46.808Z"
   },
@@ -166105,34 +165854,6 @@
    "product": "openai-dots",
    "text": "Upgrades, people. Upgrades. 🤝\n\nSmarter agents → more tasks that need a secure login. \n@1PasswordDev for AI and agents is coming to OpenAI dots as well, so they can sign in while your credentials stay secure:\n\nhttps://t.co/ewUq8ZaHUp",
    "media": [],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
-   "id": "x:2122766189407662221",
-   "url": "https://x.com/Ainmer/status/2122766189407662221",
-   "source": "x",
-   "source_name": "X",
-   "author": "Ainmer",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "Why doesn’t Amazon let my Dot buy things? I’m reduced to putting an always logged in Mac mini inside a locked closet just so I can get my Dot to order for me. \n\nSeriously, @amazon , your prohibition on agents is dumb and forcing me to do dumb things. Fix it please.",
-   "media": [],
-   "found_at": "2026-11-17T23:31:46.808Z"
-  },
-  {
-   "id": "x:2122764746080571600",
-   "url": "https://x.com/afknavs/status/2122764746080571600",
-   "source": "x",
-   "source_name": "X",
-   "author": "afknavs",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "First time posting on twitter, kinda nervous 😛\n\nAnyway, I built Limmr. It connects WhatsApp to my dot so my AI can help with group projects, forgotten replies and finding that link buried in a chat.\n\nIt’s an unofficial beta. I’d love feedback!\n\nhttps://t.co/FcHDIIjFVN https://t.co/NClNxS5EA8",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2122764386620342272/img/c--Y8ECc2x5AVvAl.jpg"
-   ],
    "found_at": "2026-11-17T23:31:46.808Z"
   },
   {
