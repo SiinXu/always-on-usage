@@ -162758,19 +162758,6 @@
    "found_at": "2026-11-17T09:50:44.340Z"
   },
   {
-   "id": "gh:github.com/yzdame/geogebra-studio/pull/27",
-   "url": "https://github.com/YZDame/GeoGebra-Studio/pull/27",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "YZDame",
-   "date": "2026-11-17",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "README 增加 Cursor / Grok Bot 安装说明\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Change\n\n九种语言的 README 增加从 GitHub 安装的说明，并去掉 Cursor 市场安装和上架相关说法。\n\n- Cursor：克隆仓库后，把仓库目录复制到 `~/.cursor/plugins/local/geogebra-studio`（不要用符号链接），然后执行 Reload Window。也可以只把 `skills/geogebra-studio` 复制到 [Cursor 技能目录](https://cursor.com/docs/skills)：`~/.cursor/skills/`、`~/.agents/skills/`、`.cursor/skills/`、`.agents/skills/`。\n- Grok Bot：让它把 `skills/geogebra-studio` 整个文件夹（含 `scripts/`、`runtime/`、`references/`、`examples/`）拷进技能库。可以直接说“从 https://github.com/YZDame/GeoGebra-Studio 安装 geogebra-studio 技能”。机器需要 Node.js 22.12 或更高版本。\n\n`.cursor-plugin/plugin.json` 和 SKILL.md 的改动保留，供本地安装使用。\n\n## Validation\n\n- `node scripts/stamp-figure-pages.cjs`：通过。\n- `npm run verify`：通过。\n- `npm run test:unit`：9 个套件、119 项通过。\n- `node scripts/package-release.cjs` 与 `node scripts/verify-package.cjs`：通过。\n\n<!-- CURSOR_AGENT_PR_BODY_END -->\n\n<div><a href=\"https://cursor.com/agents/bc-5826852a-f727-5152-ae85-c9ae9532ab68?cursor_ref=pr_footer&cursor_cta=open_in_web\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://cursor.com/assets/images/open-in-web-dark.png\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://cursor.com/assets/images/open-in-web-light.png\"><img alt=\"Open in Web\" width=\"114\" height=\"28\" src=\"https://cursor.com/assets/images/open-in-web-dark.png\"></picture></a>&nbsp;<a href=\"https://cursor.com/background-agent?bcId=bc-5826852a-f727-5152-ae85-c9ae9532ab68&cursor_ref=pr_footer&cursor_cta=open_in_cursor\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://cursor.com/assets/images/open-in-cursor-dark.png\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://cursor.com/assets/images/open-in-cursor-light.png\"><img alt=\"Open in Cursor\" width=\"131\" height=\"28\" src=\"https://cursor.com/assets/images/open-in-cursor-dar",
-   "media": [],
-   "found_at": "2026-11-17T09:50:44.340Z"
-  },
-  {
    "id": "gh:github.com/it-all-playpark/dotfiles/pull/509",
    "url": "https://github.com/it-all-playpark/dotfiles/pull/509",
    "source": "github",
@@ -162782,38 +162769,6 @@
    "text": "fix: Linux sandbox で denyWrite の ** パターンが効いていない (#501)\n**Linux sandbox で denyWrite の ** パターンが効いていない**\n\n## 何が変わるか\n- box の sandbox 内 Bash から、dotfiles checkout 直下の .githooks と .codex に書けなくなる（switch 後の新 session から）\n- box 用 settings の denyWrite から、Linux で効かない `**` 入りのエントリが無くなる\n- box の sandbox 内でテストを走らせると、denyWrite の具体パスへ実際に書けないことを確かめる\n\n## 人間に見てほしい点\n- 単一 `*` の denyWrite（`claude-code/*.md`、`/workspace/*/.git/config` 等）も Linux で効いていない。別 issue で具体パス化するか判断がほしい\n- worktree（`.claude/worktrees/<name>/.githooks`）は denyWrite で守られないままになる。許容するか確認がほしい\n- merge 後に box で switch し、新 session で `bash tests/grokbot-linux-deny-write.test.sh` に .githooks の行が PASS で出るか確認\n\n## この PR に含めなかったもの\n- 単一 `*` を含む denyWrite（`/workspace/*/...`、`<checkout>/claude-code/*.md` 等）の具体パス化。Linux で効いていない観測はあるが、AC の対象は `**` 入りのエントリのため実施していない\n- 公式ドキュメント／既知の issue での glob の扱いの確認。直接再現だけを行った\n- checkout の worktree 配下（`.claude/worktrees/<name>/.githooks` 等）の denyWrite での保護。生成時に具体パスを列挙できないため実施していない\n- box での `home-manager switch` と、新 session での `.githooks` への書き込み拒否の実確認。worktree の外の操作のため実施していない\n\n## 受入条件の結果\n| AC | 要旨 | 結果 | 根拠 |\n|---|---|---|---|\n| AC-1 | 生成 denyWrite に ** 入りエントリが残らない | ✅ | `tests/grokbot-linux-settings.test.sh` |\n| AC-2 | 置換後の具体パスが元の ** の対象を網羅 | ✅ | `tests/grokbot-linux-settings.test.sh` |\n| AC-3 | sandbox 内 Bash から denyWrite 対象への書込拒否を確認 | ❌ | tests/grokbot-linux-deny-write.test.sh を sandbox 内で実行し live 10 件 denied。新規の <checkout>/.githooks・.codex は live settings 未反映で未確認（box で switch 後に要再実行） |\n| AC-4 | darwin 設定と他テストに影響しない | ❌ | 観測型 AC — test の red→green 実証が無く、実行しないと確かめられない（evaluator: diff は settings.jq と grokbot-linux テスト 2 本のみ。claude-code/settings.json・darwin/ は未変更。shellcheck rc=0、settings test 28 passed） |\n\n<details><summary>受入条件</summary>\n\n- [x] 生成される grokbot-linux settings の denyWrite に、Linux sandbox で効かない `**` を含むエントリが残っていない\n- [x] 置換後の具体パスが、元の `**` エントリが守ろうとしていた",
    "media": [],
    "found_at": "2026-11-17T09:50:59.074Z"
-  },
-  {
-   "id": "yt:tYMmtfCBcUs",
-   "url": "https://www.youtube.com/watch?v=tYMmtfCBcUs",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "The Tech Girl",
-   "date": "2026-11-14",
-   "likes": null,
-   "views": 6730,
-   "product": "openai-dots",
-   "text": "ChatGPT Work vs Dots: Are You Using the Right AI for the Job?\nChatGPT vs Work vs Codex vs Dots—what’s the difference, and which one should you use? Let’s break it down using one simple example: planning a weekend trip to Goa.\n\nIs ChatGPT Work just ChatGPT with a new name? Is Codex only for programmers? And what exactly is a dot?\n\nIn this video, I explain when to use ChatGPT for quick answers, Work for finished tasks, Codex for building apps and websites, and OpenAI Dots for ongoing responsibilities. We’ll also look at connectors, plugins, MCP, app permissions and plan differences, so you can decide what you actually need.\n\nCHAPTERS\n00:00 ChatGPT, Work, Codex and Dots\n00:47 The biggest misconception: different jobs, not different AIs\n01:23 ChatGPT: quick answers and everyday help\n01:54 ChatGPT Work: getting tasks done\n03:18 Codex: building apps without coding experience\n04:24 Dots: always-on AI agents explained\n05:49 Dots pricing, limits and memory\n06:29 Connectors, plugins, apps and skills\n07:48 MCP explained and app permissions\n08:30 Which tool and plan should you use?\n\nWhich one would save you the most time—ChatGPT, Work, Codex or Dots? Let me know in the comments.\n\n#ChatGPT #ChatGPTWork #Codex #OpenAIDots #AITools\n\nSubscribe if you liked the video: https://www.youtube.com/@anjanagowtham?Sub_Confirmation=1\n\n❤ Anjana",
-   "media": [
-    "https://i.ytimg.com/vi/tYMmtfCBcUs/hqdefault.jpg"
-   ],
-   "found_at": "2026-11-17T13:31:19.703Z"
-  },
-  {
-   "id": "yt:IcCzzwWgaws",
-   "url": "https://www.youtube.com/watch?v=IcCzzwWgaws",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "Eric Michaud",
-   "date": "2026-11-16",
-   "likes": null,
-   "views": 33536,
-   "product": "openai-dots",
-   "text": "Hermes Agent is SO MUCH Better Than You Think! (vs Grok bot, Dots, Muse)\nHostinger VPS Setup: https://hostinger.com/emaihermes\nUse Code \"EMAI\" for an additional 10% off \n\nEvery big AI lab has a managed personal agent now: Grok Bot, OpenAI Dots, Meta Muse, Claude Duet, and even n8n has Nod.\nSo here's where each one stands, good and bad, and why the agent I actually run every day is Hermes Agent on my own server for about 8 bucks a month.\n\nTIMESTAMPS\n00:00 - What's your favorite managed agent, and why is it Hermes?\n00:54 - What is a managed AI agent?\n01:30 - Grok Bot review: great desktop app, usage limit drama\n02:28 - OpenAI Dots review: slow replies and dropped calls\n03:26 - Meta Muse review: a free tier, and Meta's privacy record\n04:29 - Claude Duet: waitlist preview, slow, asks permission a lot\n05:10 - n8n Nod: open source, runs on your computer, still a preview\n05:32 - What all the big-lab agents are missing\n06:16 - Why Hermes Agent? Free, open source, and you own it\n06:52 - Use any model with Hermes: Claude, GPT, open models\n07:05 - Hermes Desktop, Telegram, Slack, Discord and the phone app\n08:09 - Who maintains Hermes Agent? Nous Research's $90M raise\n08:28 - How to set up Hermes Agent on a Hostinger VPS\n10:09 - Hermes Agent demo: research, an Obsidian note, a Telegram ping\n10:49 - Does Hermes Agent actually improve itself?\n11:13 - Hermes scheduled jobs: a daily GitHub trending digest\n11:30 - How to switch from Grok Bot to Hermes Agent\n11:46 - What's new in Hermes Agent v0.23 (desktop and web app)\n12:27 - Hermes Agent vs the big-lab agents: the bottom line\n12:58 - Hermes Agent downsides: the honest caveats\n13:35 - So what's your favorite managed agent?\n\nLinks from the video:\n- Hermes Agent repo: https://github.com/NousResearch/hermes-agent\n- Import your Grok Bot setup into Hermes: https://hermes-agent.nousresearch.com/docs/user-guide/import-from-other-agents\n- My first Hermes Agent setup video: https://www.youtube.com/watch?v=zHo5glsJYYI\n- My AI model combos video (9Router): https://www.youtube.com/watch?v=Kw_DVXfGPB0\n- My OpenAI Dots video: https://www.youtube.com/watch?v=Zmd1KckTE3o\n- My Meta Muse video: https://www.youtube.com/watch?v=7UabM3KStc0\n\n================================\nWhy watch? I run Easy Machine AI, and I built my AI automation business to consistent five figures monthly by learning to build my own tools instead of renting broken ones. This channel is about real developer workflows, live builds, and skipping the hype so you can ship faster. Stop getting held hostage by basic chatbots and build custom AI systems that actually give you real leverage.\n\n#HermesAgent #AiAgents #SelfHosted #GrokBot #ClaudeDuet #MetaMuse #Obsidian\n\nTools & Tech Stack Discussed:\nHermes Agent, Hermes Desktop, Hostinger VPS, 9Router, Telegram, Obsidian, Grok Bot, OpenAI Dots, Meta Muse, Claude Duet, n8n Nod",
-   "media": [
-    "https://i.ytimg.com/vi/IcCzzwWgaws/hqdefault.jpg"
-   ],
-   "found_at": "2026-11-17T13:31:20.605Z"
   },
   {
    "id": "yt:WRdgKyOTPXA",
@@ -162832,38 +162787,6 @@
    "found_at": "2026-11-17T13:31:21.424Z"
   },
   {
-   "id": "yt:FMGnEJqp8bQ",
-   "url": "https://www.youtube.com/watch?v=FMGnEJqp8bQ",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "AI事例ずかん by aniuma",
-   "date": "2026-11-16",
-   "likes": null,
-   "views": 2827,
-   "product": "openai-dots",
-   "text": "MetaのMuseとHermes Agentの違い｜AI秘書はどれを選ぶ？ChatGPT dots・Claude Code とも比較\nMetaのMuse と Hermes Agent の違いを、ChatGPT dots・Claude Code も並べて、「お金」「どこで動くか」「どこから話しかけるか」「中身が見えるか」の4つの物差しで比べました。Muse を使ってみた人も、これから AI秘書を選ぶ人も、目安にしてください。\n※Muse は「ミューズ」、Hermes Agent は「ヘルメスエージェント」「エルメスエージェント」とも呼ばれます。\n\n▼Hermes Agent の入れ方・使い方（画面を見ながら解説）\nhttps://youtu.be/abQJU2pS59I\n\n▼目次\n0:00 はじめに\n0:40 3つのAI秘書\n1:21 お金\n2:04 どこで動くか\n3:05 どこから話すか\n4:03 中身が見えるか\n5:19 Hermesの最近の更新\n6:05 Claudeは？\n6:28 どれを選ぶか\n\n▼あわせて見たい\nMuse 完全入門（登録から使うまで）: https://youtu.be/pUN7GFFIM2w\nChatGPT dots の使い方: https://youtu.be/meQVeb9jPz8\nパーソナルエージェントって何がすごいの？: https://youtu.be/NCWCNBwosRE\n\n▼公式LINE「AI事例ずかん」\n経営者・担当者・個人など、あなたのタイプに合った限定動画と、ライブでの実演や勉強会のご案内が届きます。\nhttps://lin.ee/9I2npls\n\n▼補足\n・ChatGPT dots は、個人向けのプランでは Pro だけで使えます（法人向けの Business Premium・Enterprise なども対象）。\n・Muse の有料プランは、Meta のヘルプのドル表記（Power 月20ドル・Maximum 月100ドル）です。\n\n▼出典（2026年11月15日に確認。料金・提供状況は変わることがあります）\nHermes Agent v0.22.0（Threshold）: https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0\nHermes Agent v0.23.0（Hearth）: https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0\nHermes Agent 公式ドキュメント: https://hermes-agent.nousresearch.com/docs/\nNous Portal（料金・Hermes Cloud）: https://portal.nousresearch.com/cloud\nMuse 日本での提供開始（Meta）: https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/\nMuse のサブスクリプション（Meta ヘルプ）: https://www.meta.com/help/subscriptions/1021145227643680/\nMuse のデータの管理（Meta ヘルプ）: https://www.meta.com/help/superintelligence/2225571704857152/\nChatGPT dots（OpenAI）: https://learn.chatgpt.com/docs/dots\nChatGPT の料金: https://chatgpt.com/ja-JP/pricing\nClaude Duet（Anthropic）: https://claude.com/product/claude-duet\nLINE 公式アカウントの料金: https://www.lycbiz.com/jp/service/line-official-account/plan/\n\n#Muse #HermesAgent #AI秘書",
-   "media": [
-    "https://i.ytimg.com/vi/FMGnEJqp8bQ/hqdefault.jpg"
-   ],
-   "found_at": "2026-11-17T13:31:31.247Z"
-  },
-  {
-   "id": "yt:bwWQoa9Bduo",
-   "url": "https://www.youtube.com/watch?v=bwWQoa9Bduo",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "ニュースのミカタ",
-   "date": "2026-11-16",
-   "likes": null,
-   "views": 8649,
-   "product": "meta-muse",
-   "text": "【要注意！】MetaのAI秘書「Muse」初期設定のままは危険！｜Facebook・Instagram連携も見直す設定7選\nMuse（ミューズ）を使い始めたら、最初に見直しておきたい設定を7つ、スマホ（iPhone）とパソコン（Windows）の実際の画面で、順番に紹介します。AIを使い始めたばかりの方でも、画面を見ながら同じ操作ができるようにまとめました。\n\n\n▼この動画で見る7つの設定\n・会話をAI開発に使わせない（データコントロール）\n・操作の前に毎回確認する（確認の画面で「常に許可」は選ばない）\n・つながっているアプリの権限（Facebook・Instagram・Messenger）\n・Androidの連絡先の許可（補足）\n・Museの記憶（MEMORY.md）の確認と、「リセット」との違い\n・頼んでいない定期的な作業がないか（近日の予定）\n・Metaアカウントのパスキーと2段階認証\n\n▼チャプター\n00:00 オープニング｜この動画でわかること\n01:09 今日の進め方\n01:33 アカウントセンターとは（設定の入口）\n02:46 設定1｜会話をAI開発に使わせない（データコントロール）\n04:43 設定2｜操作の前に毎回確認する（確認の画面で「常に許可」は選ばない）\n07:51 設定3｜つながっているアプリの権限（Facebook・Instagram・Messenger／許可する・リクエストする・許可しない）\n10:01 設定4｜Androidの連絡先の許可（補足）\n11:01 設定5｜Museの記憶（MEMORY.md）の確認と、「リセット」との違い\n15:42 設定6｜頼んでいない定期的な作業がないか（近日の予定）\n17:21 設定7｜Metaアカウントのパスキーと2段階認証（パスキーはPCのウェブ版から）\n19:43 おまけ\n20:39 まとめ｜7つの設定のおさらい\n\n▼補足：つながっているアプリ（設定3）\nFacebook・Instagram・Threadsは、同じアカウントセンターに入っていると、自分でつなぐ操作をしなくても自動でリンクされることがあると公式ヘルプにあります。\n連携そのものを外したい場合は、「Metaアカウントセンター」から管理できます。\nhttps://accountscenter.meta.com/\n\n▼補足：パスキー（設定7）\nMuseのスマホアプリには、パスキー作成の項目がありません（2026年11月時点）。パスキーは、PCのウェブ版Museから作成します（設定 → アカウントセンター → ログインとセキュリティ）。\nMetaの公式ヘルプでは、パスキーを使えるかどうかはアプリ・端末・ブラウザによって異なる、と案内されています。共用の端末では、パスキーを作らないでください。\n・Metaパスキーについて（公式ヘルプ）：https://www.meta.com/help/1991801474748071/\n▼参考にした公式ページ（Metaヘルプセンター）\n・Museの利用を始める方法：https://www.meta.com/ja-jp/help/superintelligence/1331373868832401/\n・Museのデータの管理：https://www.meta.com/ja-jp/help/superintelligence/2225571704857152/\n・承認とアクセス許可：https://www.meta.com/ja-jp/help/superintelligence/1385290430137537/\n・コネクターの連携：https://www.meta.com/ja-jp/help/superintelligence/1687253048996149/\n・Museの性格と記憶：https://www.meta.com/ja-jp/help/superintelligence/995796179982326/\n\n▼動画で触れた報道\n・「常に許可」を選んだ後に住所が送られた件（Business Insider）：https://www.businessinsider.com/muse-agent-facebook-marketplace-address-setting-meta-always-allow-2026-9\n・Amazonの買い物の制限について（CNBC）：https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html\n\n▼Museを始める（公式）\n・パソコン（ブラウザ）：https://muse.ai\n・スマホは、App Store／Google Playで「Muse from Meta」（提供元 Meta Platforms, Inc.）を選んでください。\n\n※Meta、Facebook、Instagramは、Meta Platforms, Inc.の商標です。Museは同社のサービスです。サムネイルのMuseアイコンとInstagram・Facebookのロゴも同社の商標です。\nこの動画は非公式の紹介で、Metaから提供・推奨を受けたものではありません。",
-   "media": [
-    "https://i.ytimg.com/vi/bwWQoa9Bduo/hqdefault.jpg"
-   ],
-   "found_at": "2026-11-17T13:31:45.876Z"
-  },
-  {
    "id": "yt:N5IFpCacXxw",
    "url": "https://www.youtube.com/watch?v=N5IFpCacXxw",
    "source": "youtube",
@@ -162878,22 +162801,6 @@
     "https://i.ytimg.com/vi/N5IFpCacXxw/hqdefault.jpg"
    ],
    "found_at": "2026-11-17T13:32:14.125Z"
-  },
-  {
-   "id": "yt:LK2p5PIyp4Y",
-   "url": "https://www.youtube.com/watch?v=LK2p5PIyp4Y",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "Kacper Rutkiewicz | AI Made Simple",
-   "date": "2026-11-16",
-   "likes": null,
-   "views": 770,
-   "product": "grok-bot",
-   "text": "GrokBot for People With Disabilities (8 Real Use Cases)\nJoin AI Made Simple (free): https://www.skool.com/ai-automation-network-2970/about\nWork with DeepRooted AI: https://deeprooted.io\n\nI recently worked with Jim, who has severe neuropathy and runs most of his life by voice through a team of GrokBot bots: one tracks his medication, one looks after his car, and one calls the hotel before he travels to make sure the room is accessible. Here are 8 real ways people with disabilities are using GrokBot right now.\n\n🛠 My Tools:\n\nGlaido🎙 :\nhttps://get.glaido.com/kacper-rutkiewicz\n\nLocal AI🖥️ : Find The Best AI Models and Hardware For You\nhttps://local.ai/kacperrutkai/invite\n\n🔗 Resources\n\nDeaf Assistant template (by @Auriukux2): https://x.com/Auriukux2/status/2113995732760027309\n\nDad Bot template (by Mike Yeager): https://x.com/mikepat711/status/2112859643915407504\n\nUnstuck ADHD template (by @DhalgrenMarquis): https://x.com/DhalgrenMarquis/status/2113755771620241814\n\n📋 The care-plan prompt (copy and paste it into Dr. Eggbot, then fill in your details):\n\nI want you to be my personal health coach and accountability partner. Be direct, consistent, and kind: boss me around, hold me accountable, celebrate small wins, and never shame me on hard days. Send everything important directly to me in this chat.\n\nABOUT ME\n\n- Age / height / approx. weight:\n- Health conditions, pain areas, or disabilities:\n- Things to avoid or be careful with (injuries, triggers, doctor limits):\n- Meds I take (morning / night / as needed), only remind me, never tell me to take anything:\n- Diet (vegetarian, allergies, etc.) and kitchen setup (stove? fridge only?):\n- Current skincare / hygiene products:\n\nMY GOALS\n\n- (e.g. lose weight, get stronger, steady routines, less emotional eating, fewer bad pain days, glow up)\n\nMY SCHEDULE\n\n- Wake up:\n- Morning checklist time:\n- Night checklist time:\n- Bedtime:\n\nCHECKLISTS\n\n- Morning: (e.g. shower, brush teeth, wash face, meds, water, quick pain/energy check)\n- Night: (e.g. shower, brush teeth, skincare, meds, set out things for tomorrow)\n\nMOVEMENT\n\n- One daily workout plus [number] short movement breaks a day, each with a YouTube video you've checked first.\n- Video types I like: (chair workouts, stretching, walking, dance, belly dance, etc.)\n- Start at my level, flag any moves that could hurt my problem areas, give me a \"minimum that still counts\" option for bad days, and ramp up the intensity over time.\n- Remind me to drink water at every check-in.\n\nTRACKING\n\n- Track and chart: mood, energy, pain (where, how bad), sleep, food, cravings, water, exercise, meds, period, and which daily tasks I finished.\n- Weekly review with a chart, and a monthly review that spots trends and suggests changes.\n\nSet up the routines and reminders for all of this, then ask me anything else you need to know.\n\nKeep the line \"only remind me, never tell me to take anything.\" This is a reminder bot, not a nurse and not medical advice.\n\nTIMESTAMPS:\n\n00:00 - Intro\n00:40 - ",
-   "media": [
-    "https://i.ytimg.com/vi/LK2p5PIyp4Y/hqdefault.jpg"
-   ],
-   "found_at": "2026-11-17T13:32:26.604Z"
   },
   {
    "id": "gh:github.com/aakshar-d/dots/pull/109",
@@ -162974,19 +162881,6 @@
    "found_at": "2026-11-17T13:33:34.113Z"
   },
   {
-   "id": "gh:github.com/kan/wema-kake/pull/103",
-   "url": "https://github.com/kan/wema-kake/pull/103",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "kan",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "雛形の README に Muse のコールバック URL を足す\n## 概要\n\nMuse（https://muse.ai/）でカスタムコネクタとして `/mcp` を登録すると、途中でエラーになった。Muse のコールバック URL が Access の Managed OAuth の Allowed redirect URIs に入っていないと、動的クライアント登録が次のように断られる。\n\n```\nPOST https://<team>.cloudflareaccess.com/cdn-cgi/access/oauth/registration\n→ 400 {\"error\":\"invalid_client_metadata\",\"error_description\":\"redirect_uri is not allowed by the account configuration\"}\n```\n\n## 変更\n\n- `template/README.md` の「Access の設定」の一覧に、Muse のコールバック URL（`https://agent.meta.ai/api/hatch/oauth/callback`）を足した\n- 「MCP で書き込めるクライアントを限る」で並べる名前に、Muse の `agent.meta.ai` を足した\n- `CHANGELOG.md` の Unreleased に記載\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nhttps://claude.ai/code/session_01PZw9ixFxQRAMf3v1uHMgBg",
-   "media": [],
-   "found_at": "2026-11-17T13:33:34.113Z"
-  },
-  {
    "id": "gh:github.com/zhukunpenglinyutong/superbot",
    "url": "https://github.com/zhukunpenglinyutong/superbot",
    "source": "github",
@@ -162996,19 +162890,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "zhukunpenglinyutong/superbot\nSuper Bot（基于 DeepSeek Super-agent 架构的 类 Grok Bot 开源产品）",
-   "media": [],
-   "found_at": "2026-11-17T13:34:01.913Z"
-  },
-  {
-   "id": "gh:github.com/jordangarrison/grok-bot-flake",
-   "url": "https://github.com/jordangarrison/grok-bot-flake",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "jordangarrison",
-   "date": "2026-08-11",
-   "likes": 13,
-   "product": "grok-bot",
-   "text": "jordangarrison/grok-bot-flake\nNix flake for Grok Bot, xAI's desktop agent (repackaged .deb)\nelectron grok-bot nix nix-flake",
    "media": [],
    "found_at": "2026-11-17T13:34:01.913Z"
   },
@@ -163156,19 +163037,6 @@
    "found_at": "2026-11-17T13:34:11.867Z"
   },
   {
-   "id": "gh:github.com/s1nned1/x-region-highlighter",
-   "url": "https://github.com/S1nned1/x-region-highlighter",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "S1nned1",
-   "date": "2026-10-28",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "S1nned1/x-region-highlighter\nBuilt by GrokBot: Zero-telemetry Manifest V3 Chrome extension for X (x.com) that highlights Non-US posts/replies and adds a high-visibility South Asia indicator.",
-   "media": [],
-   "found_at": "2026-11-17T13:34:21.244Z"
-  },
-  {
    "id": "gh:github.com/pj-99/grokbot-discord-bridge",
    "url": "https://github.com/pj-99/grokbot-discord-bridge",
    "source": "github",
@@ -163234,19 +163102,6 @@
    "found_at": "2026-11-17T13:34:30.622Z"
   },
   {
-   "id": "gh:github.com/tatassembly-sys/papertrail/pull/11",
-   "url": "https://github.com/tatassembly-sys/papertrail/pull/11",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "tatassembly-sys",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "[grok-bot] Next tasks brief for VS Code agents (2026-11-17)\nDocs only. Adds `agents/vscode/NEXT_TASKS.md` — the active, self-contained brief for VS Code CLI agents in **papertrail only** (kickoff prompt, current state from today's check, rules, full gate, numbered milestones with steps/acceptance/test commands/self-checks, final handover, owner-only items). `agents/vscode/HANDOVER.md` now points to it and marks VS1–VS5 complete. Logged in `agents/grokbot/LOG.md`. No code or workflow changes.",
-   "media": [],
-   "found_at": "2026-11-17T13:34:30.622Z"
-  },
-  {
    "id": "gh:github.com/hualapaivalley/hvo.website/issues/497",
    "url": "https://github.com/HualapaiValley/HVO.WebSite/issues/497",
    "source": "github",
@@ -163269,19 +163124,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "fix(fss-review): 2022 「회계법인 조은」 이름에서 첨부 파일명 꼬리를 뺀다\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## 요약\n\n2022 일반회계법인 5.2·5.3의 법인 이름에서 첨부 파일명 꼬리를 빼, 게시판 감사인 이름으로 맞춥니다. 문단·행·파일 삭제는 없습니다.\n\n- 기준 커밋 `5e2120bb5174a9d2acedf9327f64fab4729a43f0` (tree `39c5c11bd002d7c50c12a80fc0418547584620e2`)\n- 이 커밋 `926660840dd44a1587de25897c972bc7299abc6d` (tree `e4333595746e2aea59a5bf39fa486518554f0797`)\n- 윤석님 결정 D10(조은 이름 정정, 두 항목 모두 권고대로)·N14(PR-D 뒤)·「PR 순서 권고대로」(2026-11-16 9:18 PM CT)\n- 옛 이름은 첨부 파일명(「회계법인 조은 개선권고사항 (1)」)에서 왔고, 게시판 감사인 이름(시드 nttId 128018)은 「회계법인 조은」\n- 문단·F004 행·부착 자리 수는 그대로(2022 자리 221/221, 이행사항 224, 사유 107칸)\n- 원천 기록 CSV(`FSS Inspection_Grokbot_MINT/data/`, b0000291 시드)는 그대로\n- 머지는 윤석님 결정\n\n## 이 PR에 없음\n\nSonnet #134 Low 1·5, Sonnet #135 Low, PR-F는 이 PR에 없음(정리 PR M-LOW·PR-F 몫).\n\n- Sonnet #134 Low 1: `test_lookalikes_outside_2025_stay_in_place`와 `_with_2024_lookalikes`의 이름·위치\n- Sonnet #134 Low 5: 부착 JSON 최상위 `status`의 「사용자 확인 전」 문구(2022 파일도 `status` 그대로)\n- Sonnet #135 Low: 「□」·「(참고2)」·「(참고3)」 검사가 2020(과 2021) 블록에만 걸려 있는 것\n- PR-F: 아람공인회계사감사반(D9, N13 5.4)\n\n## 바꾼 파일 (7개, 83줄 추가·37줄 삭제)\n\n| 파일 | 앞 sha256 | 앞 bytes | 뒤 sha256 | 뒤 bytes |\n| --- | --- | ---: | --- | ---: |\n| `data/fss-review/year-2022.json` | `70e2b22a7a21d9ec61ba52cf9532fc023348f3722ca8dac5eb9f8984c36bbe45` | 308292 | `1facf3839e1f903ff2ca2abbc249ef728f0bdd04ed630c0702c8b30514cc997f` | 308246 |\n| `data/fss-review/f004-item-attach-2022.json` | `be4346280732b70de2a9dc6accd64a66bd5022a0dd609c7da36b000b4e224978` | 425305 | `8b43f046bd2582f2fee80f53d3a7f381dd8b34c90d8107a63075b362be2567c9` | 425089 |\n| `data/fss-review/f004-item-attach-2022.manifest.json` | `d724535b230e15751e54b1d725e64f58029fa16af15453c814807a810b46ca3f` | 134 | `a776ab9c003190ce7104dd9865b45df21f9603d5fcf97459dbbd6b8e55682f51` | 134 |\n| `scripts/check_f004_attach_render.py` | `43e12eb308c05b34c61bd77f8009024a0ed2",
-   "media": [],
-   "found_at": "2026-11-17T13:34:30.622Z"
-  },
-  {
-   "id": "gh:github.com/bibuat1-stack/qa-agent-team/pull/20",
-   "url": "https://github.com/bibuat1-stack/qa-agent-team/pull/20",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "bibuat1-stack",
-   "date": "2026-11-17",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "docs(grokbot): 完整备份须带工作点交接\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## 改了什么\n\n把 2026-11-17 确认的账号完整备份约定写回仓库，并补全包内交接的固定清单。这是备份流程约定，正本在 `grokbot/BACKUP.md`，不是平台 Auto-review / AI 规则。未改业务代码，未合并。\n\n- `grokbot/BACKUP.md`：完整备份（周备份、换号全量备份）的压缩包必须带备份那一刻的交接。默认一份 `WORK-STATUS.md` 或 `交接.md`，也可以拆成短清单，但都要进包，并在 `MANIFEST.md` / `RESTORE.md` 点明。固定六项：\n  1. 已经做了什么、接下来要做什么、去哪里查看（机器人聊天入口、缺陷单、用例页完整原始链接、知识库入口、HTML 报告、跑次目录、本地未写库的稿、工作台映射位置）。进行中产物索引就是这一项。\n  2. 待用户拍板的事。\n  3. 连接器与账号标签清单：只写名称和状态。\n  4. 打开的 PR、草稿 PR、现网技能版本和技能 id 与仓库的对照。换号后只拉 main 可能漏未合内容；不能用仓库原文覆盖现网技能 id。\n  5. 角色名、当时 id、是否已删除。换号后先按角色建号，不要按旧 id 把已删的号重建回来。\n  6. 进行中产物索引，见第 1 项。\n  没有在测任务写「当前无在测任务」。没有当轮能核实的事实写「未核到更新」。几个账号同步先对照、列出差异、等用户点头，不自动覆盖对方已有内容。\n- `grokbot/skills/account-backup/SKILL.md`：按上述六项做周备份或换号全量备份。和日备读回不是同一件事。未写现网技能 id。\n- `grokbot/HANDOFF.md`：换号「同步」第 3 步与 `BACKUP.md` 改成同一句：按 `RESTORE.md` 对照，不自动覆盖。\n- `grokbot/README.md`：登记新技能，Drive 包说明里加上工作点交接。\n- `grokbot/skills/project-bot-collab/SKILL.md`：硬盘包清单补一句，指向这份交接。\n\n## 根因\n\n另一边拿到备份后要马上知道已经做了什么、接下来要做什么、去哪里查看。用户让他们做事时要能立刻找到入口。几个账号对不上时先列差异，等用户点头再改。\n\n## 验证\n\n文档约定，无用例或运行时行为变化。首轮提交时本地 `python3 -m pytest --collect-only -q`：27 tests collected。\n\n含 `grokbot/BACKUP.md` 与 `HANDOFF.md`，请人工审核后合并。本 PR 不合并。\n\n<!-- CURSOR_AGENT_PR_BODY_END -->\n\n<div><a href=\"https://cursor.com/agents/bc-aa726013-faf6-5e7e-a2ad-a5a241e96348?cursor_ref=pr_footer&cursor_cta=open_in_web\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://cursor.com/assets/images/open-in-web-dark.png\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://cursor.com/assets/images/open-in-web-light.png\"><img alt=\"Open in Web\" width=\"114\" height=\"28\" src=\"https://cursor.com/assets/images/open-in-web-dark.png\"></picture></a>&nbsp;<a href=\"https://cursor.com/background-agent?bcId=bc-aa726013-faf6-5e7e-a2ad-a5a241e96348&cursor_ref=pr_footer&cursor_cta=open_i",
    "media": [],
    "found_at": "2026-11-17T13:34:30.622Z"
   },
@@ -163338,22 +163180,6 @@
    "found_at": "2026-11-17T13:38:12.882Z"
   },
   {
-   "id": "yt:ueA116hO_ho",
-   "url": "https://www.youtube.com/watch?v=ueA116hO_ho",
-   "source": "youtube",
-   "source_name": "YouTube",
-   "author": "AgentOS",
-   "date": "2026-11-15",
-   "likes": null,
-   "views": 69872,
-   "product": "grok-bot",
-   "text": "How to Avoid AI Code Slop — The Techniques SpaceX’s Grok Bot Team Used to Ship 10,000 PRs with a ...\n원본 영상\nAll Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI (AI Engineer)\nhttps://youtu.be/O_zcc6Xl12g\n\npstack 저장소\npstack — https://github.com/cursor/plugins/tree/main/pstack\n\n타임라인\n0:00 발표 소개 · 한 달 PR 11,000개와 되돌림 0.5%\n2:40 포테이토 피라미드 다섯 칸\n4:04 맨 위 칸, 코드베이스 · 정원 비유\n6:27 Dune 의 제약 두 가지\n8:53 날짜 세 개 · 주석 99% 금지\n12:01 가장 중요한 칸, 검증 · 런타임 검증\n13:46 형식 검증과 속성 기반 테스트\n15:17 트윗 두 장 · 토큰 70% 가 검증으로\n17:09 그래서 무엇을 얻었나 · 팀 숫자\n19:24 소프트웨어 공장보다 먼저\n20:42 릴리스마다 벌어지는 일 · 퍼징\n22:07 정리 · 내 코드베이스에 넣을 것",
-   "media": [
-    "https://i.ytimg.com/vi/ueA116hO_ho/hqdefault.jpg"
-   ],
-   "found_at": "2026-11-17T13:40:34.918Z"
-  },
-  {
    "id": "gh:github.com/richardamare/ras/pull/88",
    "url": "https://github.com/richardamare/ras/pull/88",
    "source": "github",
@@ -163406,32 +163232,6 @@
    "found_at": "2026-11-17T13:43:17.386Z"
   },
   {
-   "id": "x:2122612343716929803",
-   "url": "https://x.com/blu_esense/status/2122612343716929803",
-   "source": "x",
-   "source_name": "X",
-   "author": "blu_esense",
-   "date": "2026-11-17",
-   "likes": 3,
-   "product": "meta-muse",
-   "text": "I built EscapeProof \n\nMeta Muse creates escape rooms. Kane CLI plays them, catches broken clues, and sends failures back for repair. Rooms publish only after both checks pass.\n\n@kane_cli @testmuai\n#KaneCLIHackathon #KaneCLI\n\nDemo: https://t.co/gft9ZAJpKo",
-   "media": [],
-   "found_at": "2026-11-17T13:43:17.386Z"
-  },
-  {
-   "id": "x:2122611293320527898",
-   "url": "https://x.com/Skrs8xi1/status/2122611293320527898",
-   "source": "x",
-   "source_name": "X",
-   "author": "Skrs8xi1",
-   "date": "2026-11-17",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "I Tried Meta Muse AI Video Generation: Here’s What Happened https://t.co/32kp7iNf7K via @YouTube",
-   "media": [],
-   "found_at": "2026-11-17T13:43:17.386Z"
-  },
-  {
    "id": "x:2122525485125230654",
    "url": "https://x.com/zk7hao/status/2122525485125230654",
    "source": "x",
@@ -163457,19 +163257,6 @@
    "media": [
     "https://pbs.twimg.com/media/HXSgFF0XUAA3tlV.jpg"
    ],
-   "found_at": "2026-11-17T13:43:17.386Z"
-  },
-  {
-   "id": "x:2122487361787351355",
-   "url": "https://x.com/awce_com/status/2122487361787351355",
-   "source": "x",
-   "source_name": "X",
-   "author": "awce_com",
-   "date": "2026-11-17",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "I built my dream todo application using #meta #muse -- and I'll give you the exact prompt to recreate it. Or customize it!  https://t.co/8hds4DSXad   #aiagent #metamuse",
-   "media": [],
    "found_at": "2026-11-17T13:43:17.386Z"
   },
   {

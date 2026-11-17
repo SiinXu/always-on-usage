@@ -10063,5 +10063,188 @@
   ],
   "kind": "github",
   "fetched_at": "2026-11-13"
+ },
+ "https://www.youtube.com/watch?v=ueA116hO_ho": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/ueA116hO_ho/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-17"
+ },
+ "https://github.com/tatassembly-sys/papertrail/pull/11": {
+  "text": "Dense academic research papers, translated into plain language for a general audience — without losing scientific accuracy. Every article is AI-translated from a real paper, always links back to its source, and always discloses the study's limitations. Nothing publishes without a human editor's review.",
+  "media": [],
+  "outline": [
+   "Public site: home feed with search + category filtering, article pages,",
+   "Paper Trail Pro: optional Stripe subscription. Reading stays free; Pro",
+   "Library & discovery: author and topic pages, today's mix, reading lists,",
+   "Admin: dashboard (search/filter/paginate), an editor per article (edit,",
+   "Ingestion pipeline: two daily sweeps (arXiv + PubMed) that enqueue new",
+   "Every published article requires a source URL — enforced server-side",
+   "Publishing is always a manual, authenticated action — auto-pulled papers",
+   "The \"study limitations\" (caveats) field is required in the AI output"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-17"
+ },
+ "https://github.com/bibuat1-stack/qa-agent-team/pull/20": {
+  "kind": "github",
+  "missing": "readme",
+  "fetched_at": "2026-11-17"
+ },
+ "https://github.com/S1nned1/x-region-highlighter": {
+  "text": "Built by **GrokBot** for `@S1nned1` — a clean, self-contained, **zero-telemetry** Manifest V3 Chrome extension for `x.com` / `twitter.com` that reads X's built-in **\"Account based in\"** and **\"Connected via\"** fields (`AboutAccountQuery`) and highlights posts, replies, quote tweets, and user cells using a three-tier visual system.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/S1nned1/x-region-highlighter/HEAD/screenshots/south-asia-vs-us-highlight.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/S1nned1/x-region-highlighter/HEAD/screenshots/hover-tooltip-details.png"
+   }
+  ],
+  "outline": [
+   "Chrome / Brave / Edge / Opera / Vivaldi: ⬇️ Download x-region-highlighter.zip",
+   "Firefox / LibreWolf / Zen (128+): ⬇️ Download x-region-highlighter-firefox.zip",
+   "🇺🇸 Tier 1 — United States (United States, USA, US, and US territories):",
+   "Leaves posts and replies completely unhighlighted (normal look).",
+   "Displays a subtle, toggleable 🇺🇸 US badge next to the @handle.",
+   "🌏 Tier 2 — South Asia (South Asia, Southern Asia, India, Pakistan, Bangladesh, Sri Lanka, Nepal, Bhutan, Maldives, Afghanistan):",
+   "Gives the tweet/reply container a high-visibility red/orange left accent bar (4px solid #ef4444) and warm background tint.",
+   "Adds a prominent red alert badge right next to the username:"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-17"
+ },
+ "https://github.com/jordangarrison/grok-bot-flake": {
+  "text": "Nix flake for Grok Bot, xAI's desktop agent, on Linux. It repackages the official amd64 `.deb` — there is no source build.",
+  "media": [],
+  "outline": [
+   "grok-bot — the app, wrapped for NixOS (patchelf'd, GApps-wrapped,",
+   "sand — a compatibility alias for the same binary. Older upstream releases",
+   "share/applications/grok-bot.desktop + icon, so launchers and URL-scheme",
+   "grok-bot.desktop must be on XDG_DATA_DIRS — true automatically once",
+   "The scheme must map to the app. The app registers itself on first launch",
+   "chrome-sandbox is removed. It only works setuid root, which the Nix",
+   "--no-sandbox is added. Upstream's custom Electron build crash-loops",
+   "The AppArmor profile is not installed. It is Ubuntu-specific and refers"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-17"
+ },
+ "https://github.com/kan/wema-kake/pull/103": {
+  "text": "[](LICENSE) [](https://github.com/kan/wema-kake/commits/main) [](https://www.npmjs.com/package/@kanf/wema) [](https://developers.cloudflare.com/workers/) [](https://www.typescriptlang.org/) [](https://modelcontextprotocol.io/)",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/kan/wema-kake/HEAD/docs/images/page.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://deploy.workers.cloudflare.com/button"
+   }
+  ],
+  "outline": [
+   "付箋を置く、動かす、色を付ける、線でつなぐ。箇条書き、チェックリスト、画像、リンクを書ける",
+   "複数のブラウザで同じページを開くと、変更がその場で反映される",
+   "ページの中に子ページを置ける。子ページは、中の付箋の配置を縮小した図つきの付箋として表示され、押すとズームして入る",
+   "ページの一覧もボードで、ページが付箋、ページ間のリンクが線になる。全文検索で絞り込める",
+   "リモート MCP サーバーを備えていて、claude.ai のコネクタとして登録できる。LLM がボードを読み、付箋を足し、整理する。ページを作り、子ページとしてまとめることもできる",
+   "LLM の操作は、操作の単位で記録される。ページの画面から、まとめて取り消せる",
+   "docs/package.md: パッケージの入口、設定、互換の決まり",
+   "AGENTS.md: 設計と、実装で守る決まり。コーディングエージェント向けの指示を兼ねる"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-17"
+ },
+ "https://www.youtube.com/watch?v=LK2p5PIyp4Y": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/LK2p5PIyp4Y/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-17"
+ },
+ "https://www.youtube.com/watch?v=bwWQoa9Bduo": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/bwWQoa9Bduo/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-17"
+ },
+ "https://www.youtube.com/watch?v=FMGnEJqp8bQ": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/FMGnEJqp8bQ/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-17"
+ },
+ "https://www.youtube.com/watch?v=IcCzzwWgaws": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/IcCzzwWgaws/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-17"
+ },
+ "https://www.youtube.com/watch?v=tYMmtfCBcUs": {
+  "text": "",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://i.ytimg.com/vi/tYMmtfCBcUs/hqdefault.jpg"
+   }
+  ],
+  "outline": [],
+  "kind": "youtube",
+  "fetched_at": "2026-11-17"
+ },
+ "https://github.com/YZDame/GeoGebra-Studio/pull/27": {
+  "text": "GeoGebra Studio",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/YZDame/GeoGebra-Studio/HEAD/docs/images/generate.gif"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/YZDame/GeoGebra-Studio/HEAD/docs/images/edit.gif"
+   }
+  ],
+  "outline": [
+   "Install the Agent Skill (requires Node.js 22.12+; see Installation below for Cursor, Grok Bot, Codex, and DeepSeek Harness):",
+   "Ask your AI to draw, or upload a problem document or reference image (upload options depend on your AI client):",
+   "Interact, edit, and export: Open the generated page to drag points and adjust values, or ask AI for further changes. Download the current HTML or GGB before …",
+   "2D and 3D GeoGebra figures with draggable points, adjustable values, nine themes, and light/dark modes.",
+   "Download HTML, GGB, PNG, SVG, PDF, XML and TikZ directly from the page.",
+   "Export Asymptote and mixed TSQX/Asymptote source through AI; see export details.",
+   "Portable SKILL.md workflow with no MCP server, backend, or database required."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-17"
  }
 }
