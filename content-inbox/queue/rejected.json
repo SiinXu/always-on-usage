@@ -8998,5 +8998,165 @@
   "id": "x:2122321483397832775",
   "url": "https://x.com/WomanSoar/status/2122321483397832775",
   "reason": "empty reply"
+ },
+ {
+  "id": "x:2122601949384024106",
+  "url": "https://x.com/grok/status/2122601949384024106",
+  "reason": "reply from @grok account, not a usage case"
+ },
+ {
+  "id": "x:2122575792634790303",
+  "url": "https://x.com/grok/status/2122575792634790303",
+  "reason": "reply from @grok account, not a usage case"
+ },
+ {
+  "id": "x:2122525485125230654",
+  "url": "https://x.com/zk7hao/status/2122525485125230654",
+  "reason": "chatter reply, no usage"
+ },
+ {
+  "id": "x:2122497369610633318",
+  "url": "https://x.com/ConnorElkinAI/status/2122497369610633318",
+  "reason": "model list, not usage"
+ },
+ {
+  "id": "x:2122679905796431873",
+  "url": "https://x.com/kaspars_z/status/2122679905796431873",
+  "reason": "empty reply"
+ },
+ {
+  "id": "x:2122676417053774251",
+  "url": "https://x.com/IlyaLetunov/status/2122676417053774251",
+  "reason": "hackathon/plugin promo, not product usage"
+ },
+ {
+  "id": "x:2122652761900617890",
+  "url": "https://x.com/cjayls/status/2122652761900617890",
+  "reason": "opinion reply, no usage"
+ },
+ {
+  "id": "gh:github.com/richardamare/ras/pull/88",
+  "url": "https://github.com/richardamare/ras/pull/88",
+  "reason": "release PR"
+ },
+ {
+  "id": "gh:github.com/galleonlabs/hypergrok-trading-desk/pull/76",
+  "url": "https://github.com/galleonlabs/hypergrok-trading-desk/pull/76",
+  "reason": "docs-only version record"
+ },
+ {
+  "id": "gh:github.com/ferretgeek/prokbot-plus/issues/4",
+  "url": "https://github.com/ferretgeek/prokbot-plus/issues/4",
+  "reason": "unrelated bug"
+ },
+ {
+  "id": "gh:github.com/rodrigo-pasini/grokbot-kit/issues/54",
+  "url": "https://github.com/rodrigo-pasini/grokbot-kit/issues/54",
+  "reason": "unrelated bug"
+ },
+ {
+  "id": "gh:github.com/clzmj/skills/pull/17",
+  "url": "https://github.com/clzmj/skills/pull/17",
+  "reason": "dependency/feature PR, not usage"
+ },
+ {
+  "id": "gh:github.com/hualapaivalley/hvo.website/issues/497",
+  "url": "https://github.com/HualapaiValley/HVO.WebSite/issues/497",
+  "reason": "unrelated docs"
+ },
+ {
+  "id": "gh:github.com/ypspy/quality-updates/pull/138",
+  "url": "https://github.com/ypspy/quality-updates/pull/138",
+  "reason": "unrelated fix"
+ },
+ {
+  "id": "gh:github.com/vialdjoukang-spec/organigramme-examen-federal/pull/746",
+  "url": "https://github.com/vialdjoukang-spec/organigramme-examen-federal/pull/746",
+  "reason": "infra PR"
+ },
+ {
+  "id": "gh:github.com/xavier189/claudemom/pull/3",
+  "url": "https://github.com/Xavier189/ClaudeMom/pull/3",
+  "reason": "workflow PR"
+ },
+ {
+  "id": "gh:github.com/pj-99/grokbot-discord-bridge",
+  "url": "https://github.com/pj-99/grokbot-discord-bridge",
+  "reason": "repo with no description"
+ },
+ {
+  "id": "gh:github.com/guyster323/potetobot",
+  "url": "https://github.com/guyster323/potetobot",
+  "reason": "repo with no description"
+ },
+ {
+  "id": "gh:github.com/fecaponac-crypto/governance-internet-stranica/pull/125",
+  "url": "https://github.com/fecaponac-crypto/Governance-internet-stranica/pull/125",
+  "reason": "news draft, not usage"
+ },
+ {
+  "id": "gh:github.com/dino-kupinic/sniptide-web/pull/85",
+  "url": "https://github.com/Dino-Kupinic/sniptide-web/pull/85",
+  "reason": "unrelated feature PR"
+ },
+ {
+  "id": "gh:github.com/timoteuszelle/x.ai-grok-bot/pull/19",
+  "url": "https://github.com/timoteuszelle/x.ai-grok-bot/pull/19",
+  "reason": "dependency bump"
+ },
+ {
+  "id": "gh:github.com/christianhohlfeld/mag-portable-stack/pull/631",
+  "url": "https://github.com/ChristianHohlfeld/mag-portable-stack/pull/631",
+  "reason": "unrelated fix"
+ },
+ {
+  "id": "gh:github.com/richardamare/ras/pull/77",
+  "url": "https://github.com/richardamare/ras/pull/77",
+  "reason": "docs PR, not usage"
+ },
+ {
+  "id": "gh:github.com/tinycloudlabs/js-sdk/pull/1006",
+  "url": "https://github.com/TinyCloudLabs/js-sdk/pull/1006",
+  "reason": "unrelated feature PR"
+ },
+ {
+  "id": "gh:github.com/mrjoshuap/mediacms/issues/144",
+  "url": "https://github.com/mrjoshuap/mediacms/issues/144",
+  "reason": "unrelated repo settings"
+ },
+ {
+  "id": "gh:github.com/0xrayai/xray/issues/1142",
+  "url": "https://github.com/0xRayAI/xray/issues/1142",
+  "reason": "unrelated"
+ },
+ {
+  "id": "gh:github.com/goodmai/basalt/issues/533",
+  "url": "https://github.com/goodmai/basalt/issues/533",
+  "reason": "model support issue"
+ },
+ {
+  "id": "gh:github.com/feedforagents/feed/pull/1944",
+  "url": "https://github.com/feedforagents/feed/pull/1944",
+  "reason": "unrelated fix"
+ },
+ {
+  "id": "gh:github.com/ogabasseyy/baci/pull/4335",
+  "url": "https://github.com/ogabasseyy/Baci/pull/4335",
+  "reason": "unrelated fix"
+ },
+ {
+  "id": "gh:github.com/afarhandanu/zephyrsu/pull/18",
+  "url": "https://github.com/afarhandanu/ZephyrSU/pull/18",
+  "reason": "unrelated port"
+ },
+ {
+  "id": "gh:github.com/it-all-playpark/dotfiles/pull/509",
+  "url": "https://github.com/it-all-playpark/dotfiles/pull/509",
+  "reason": "unrelated fix"
+ },
+ {
+  "id": "yt:WRdgKyOTPXA",
+  "url": "https://www.youtube.com/watch?v=WRdgKyOTPXA",
+  "reason": "AI news roundup, model releases"
  }
 ]

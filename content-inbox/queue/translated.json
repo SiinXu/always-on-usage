@@ -1,3 +1,847 @@
 {
- "items": []
+ "items": [
+  {
+   "id": "x:2122612343716929803",
+   "url": "https://x.com/blu_esense/status/2122612343716929803",
+   "source": "x",
+   "source_name": "X",
+   "author": "blu_esense",
+   "date": "2026-11-17",
+   "likes": 3,
+   "product": "meta-muse",
+   "text": "I built EscapeProof \n\nMeta Muse creates escape rooms. Kane CLI plays them, catches broken clues, and sends failures back for repair. Rooms publish only after both checks pass.\n\n@kane_cli @testmuai\n#KaneCLIHackathon #KaneCLI\n\nDemo: https://t.co/gft9ZAJpKo",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "EscapeProof：Meta Muse 生成密室，Kane CLI 自动试玩",
+     "summary": "作者做了 EscapeProof：Meta Muse 负责生成密室逃脱关卡，Kane CLI 去试玩、找出坏掉的线索，并把失败结果发回修复。只有两道检查都通过，关卡才会发布。帖内附演示链接。"
+    },
+    "zh-TW": {
+     "title": "EscapeProof：Meta Muse 生成密室，Kane CLI 自動試玩",
+     "summary": "作者做了 EscapeProof：Meta Muse 負責生成密室逃脫關卡，Kane CLI 去試玩、找出壞掉的線索，並把失敗結果發回修復。只有兩道檢查都通過，關卡才會發布。貼文附示範連結。"
+    },
+    "en": {
+     "title": "EscapeProof: Meta Muse builds escape rooms, Kane CLI play-tests them",
+     "summary": "The author built EscapeProof: Meta Muse creates escape rooms, Kane CLI plays them, catches broken clues and sends failures back for repair. A room is published only after both checks pass. A demo link is in the post."
+    },
+    "ja": {
+     "title": "EscapeProof：Meta Muse が脱出ゲームを作り、Kane CLI が試遊",
+     "summary": "作者は EscapeProof を作成。Meta Muse が脱出ルームを作り、Kane CLI が実際にプレイして壊れた手がかりを見つけ、失敗を修正に差し戻す。両方のチェックを通ったルームだけが公開される。投稿にデモのリンクあり。"
+    },
+    "ko": {
+     "title": "EscapeProof: Meta Muse가 방탈출을 만들고 Kane CLI가 플레이 테스트",
+     "summary": "작성자는 EscapeProof를 만들었습니다. Meta Muse가 방탈출 게임을 만들고, Kane CLI가 직접 플레이해 깨진 단서를 찾아 수정하도록 되돌려 보냅니다. 두 검사를 모두 통과한 방만 공개됩니다. 게시물에 데모 링크가 있습니다."
+    },
+    "ms": {
+     "title": "EscapeProof: Meta Muse bina bilik lolos, Kane CLI uji mainnya",
+     "summary": "Penulis membina EscapeProof: Meta Muse mencipta bilik lolos, Kane CLI memainkannya, mengesan petunjuk yang rosak dan menghantar kegagalan untuk dibaiki. Bilik hanya diterbitkan selepas kedua-dua semakan lulus. Pautan demo ada dalam hantaran."
+    },
+    "vi": {
+     "title": "EscapeProof: Meta Muse tạo phòng thoát hiểm, Kane CLI chơi thử",
+     "summary": "Tác giả làm EscapeProof: Meta Muse tạo phòng thoát hiểm, Kane CLI chơi thử, phát hiện manh mối hỏng và gửi lỗi về để sửa. Phòng chỉ được xuất bản khi qua cả hai bước kiểm tra. Bài đăng có liên kết demo."
+    },
+    "fr": {
+     "title": "EscapeProof : Meta Muse crée des escape rooms, Kane CLI les teste",
+     "summary": "L’auteur a créé EscapeProof : Meta Muse génère des escape rooms, Kane CLI y joue, repère les indices cassés et renvoie les échecs pour correction. Une salle n’est publiée qu’après la réussite des deux contrôles. Lien de démo dans le post."
+    },
+    "es": {
+     "title": "EscapeProof: Meta Muse crea escape rooms y Kane CLI las prueba",
+     "summary": "El autor creó EscapeProof: Meta Muse genera escape rooms, Kane CLI las juega, detecta pistas rotas y devuelve los fallos para repararlos. Una sala solo se publica cuando pasa ambas comprobaciones. Enlace a la demo en la publicación."
+    },
+    "de": {
+     "title": "EscapeProof: Meta Muse baut Escape Rooms, Kane CLI testet sie",
+     "summary": "Der Autor hat EscapeProof gebaut: Meta Muse erstellt Escape Rooms, Kane CLI spielt sie, findet kaputte Hinweise und schickt Fehler zur Reparatur zurück. Ein Raum wird erst veröffentlicht, wenn beide Prüfungen bestanden sind. Demo-Link im Post."
+    }
+   }
+  },
+  {
+   "id": "x:2122487361787351355",
+   "url": "https://x.com/awce_com/status/2122487361787351355",
+   "source": "x",
+   "source_name": "X",
+   "author": "awce_com",
+   "date": "2026-11-17",
+   "likes": 1,
+   "product": "meta-muse",
+   "text": "I built my dream todo application using #meta #muse -- and I'll give you the exact prompt to recreate it. Or customize it!  https://t.co/8hds4DSXad   #aiagent #metamuse",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "用 Meta Muse 做出理想中的待办应用",
+     "summary": "作者说用 Meta Muse 做了自己理想中的待办（todo）应用，并在链接里给出可复现的完整提示词，读者可以照搬或自行修改。"
+    },
+    "zh-TW": {
+     "title": "用 Meta Muse 做出理想中的待辦應用",
+     "summary": "作者說用 Meta Muse 做了自己理想中的待辦（todo）應用，並在連結裡給出可重現的完整提示詞，讀者可以照搬或自行修改。"
+    },
+    "en": {
+     "title": "A dream todo app built with Meta Muse",
+     "summary": "The author says they built their dream todo application with Meta Muse and shares the exact prompt at the link so readers can recreate or customize it."
+    },
+    "ja": {
+     "title": "Meta Muse で理想の ToDo アプリを作成",
+     "summary": "作者は Meta Muse で理想の ToDo アプリを作ったと紹介し、再現できるプロンプト全文をリンク先で公開。そのまま使うことも、カスタマイズすることもできる。"
+    },
+    "ko": {
+     "title": "Meta Muse로 만든 꿈의 할 일 앱",
+     "summary": "작성자는 Meta Muse로 원하던 할 일(todo) 앱을 만들었다며, 링크에서 그대로 재현할 수 있는 프롬프트 전문을 공유합니다. 그대로 쓰거나 수정할 수 있습니다."
+    },
+    "ms": {
+     "title": "Aplikasi todo idaman dibina dengan Meta Muse",
+     "summary": "Penulis berkata dia membina aplikasi todo idamannya dengan Meta Muse dan berkongsi prompt penuh di pautan supaya pembaca boleh menghasilkannya semula atau mengubah suainya."
+    },
+    "vi": {
+     "title": "Ứng dụng todo mơ ước làm bằng Meta Muse",
+     "summary": "Tác giả cho biết đã làm ứng dụng todo mơ ước bằng Meta Muse và chia sẻ nguyên văn prompt ở liên kết để người đọc làm lại hoặc tùy chỉnh."
+    },
+    "fr": {
+     "title": "Une appli de tâches idéale créée avec Meta Muse",
+     "summary": "L’auteur dit avoir créé l’application de tâches de ses rêves avec Meta Muse et partage le prompt exact via le lien pour la recréer ou la personnaliser."
+    },
+    "es": {
+     "title": "Una app de tareas ideal hecha con Meta Muse",
+     "summary": "El autor dice que creó la app de tareas de sus sueños con Meta Muse y comparte en el enlace el prompt exacto para recrearla o personalizarla."
+    },
+    "de": {
+     "title": "Traum-To-do-App mit Meta Muse gebaut",
+     "summary": "Der Autor hat nach eigener Aussage seine Traum-To-do-App mit Meta Muse gebaut und teilt unter dem Link den genauen Prompt zum Nachbauen oder Anpassen."
+    }
+   }
+  },
+  {
+   "id": "x:2122611293320527898",
+   "url": "https://x.com/Skrs8xi1/status/2122611293320527898",
+   "source": "x",
+   "source_name": "X",
+   "author": "Skrs8xi1",
+   "date": "2026-11-17",
+   "likes": 1,
+   "product": "meta-muse",
+   "text": "I Tried Meta Muse AI Video Generation: Here’s What Happened https://t.co/32kp7iNf7K via @YouTube",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "试用 Meta Muse 生成视频",
+     "summary": "作者分享了一段 YouTube 视频，记录自己试用 Meta Muse 生成 AI 视频的过程和结果。帖子本身只有标题和链接。"
+    },
+    "zh-TW": {
+     "title": "試用 Meta Muse 生成影片",
+     "summary": "作者分享了一段 YouTube 影片，記錄自己試用 Meta Muse 生成 AI 影片的過程與結果。貼文本身只有標題和連結。"
+    },
+    "en": {
+     "title": "Trying Meta Muse video generation",
+     "summary": "The author shares a YouTube video about trying Meta Muse for AI video generation and what happened. The post itself only has the title and link."
+    },
+    "ja": {
+     "title": "Meta Muse の動画生成を試してみた",
+     "summary": "作者は Meta Muse で AI 動画生成を試した YouTube 動画を共有。投稿自体はタイトルとリンクのみ。"
+    },
+    "ko": {
+     "title": "Meta Muse 영상 생성을 써 본 후기",
+     "summary": "작성자가 Meta Muse로 AI 영상을 생성해 본 과정을 담은 YouTube 영상을 공유했습니다. 게시물에는 제목과 링크만 있습니다."
+    },
+    "ms": {
+     "title": "Mencuba penjanaan video Meta Muse",
+     "summary": "Penulis berkongsi video YouTube tentang mencuba Meta Muse untuk menjana video AI dan hasilnya. Hantaran itu hanya ada tajuk dan pautan."
+    },
+    "vi": {
+     "title": "Dùng thử tạo video bằng Meta Muse",
+     "summary": "Tác giả chia sẻ video YouTube về việc dùng thử Meta Muse để tạo video AI và kết quả. Bài đăng chỉ có tiêu đề và liên kết."
+    },
+    "fr": {
+     "title": "Essai de la génération vidéo de Meta Muse",
+     "summary": "L’auteur partage une vidéo YouTube sur son essai de la génération de vidéos IA avec Meta Muse. Le post ne contient que le titre et le lien."
+    },
+    "es": {
+     "title": "Probando la generación de video de Meta Muse",
+     "summary": "El autor comparte un video de YouTube sobre su prueba de generación de video con IA en Meta Muse. La publicación solo incluye el título y el enlace."
+    },
+    "de": {
+     "title": "Meta Muse Videogenerierung ausprobiert",
+     "summary": "Der Autor teilt ein YouTube-Video, in dem er die KI-Videogenerierung von Meta Muse ausprobiert. Der Post enthält nur Titel und Link."
+    }
+   }
+  },
+  {
+   "id": "yt:ueA116hO_ho",
+   "url": "https://www.youtube.com/watch?v=ueA116hO_ho",
+   "source": "youtube",
+   "source_name": "YouTube",
+   "author": "AgentOS",
+   "date": "2026-11-15",
+   "likes": null,
+   "views": 69872,
+   "product": "grok-bot",
+   "text": "How to Avoid AI Code Slop — The Techniques SpaceX’s Grok Bot Team Used to Ship 10,000 PRs with a ...\n원본 영상\nAll Code Is Slop (Except Mine) — Lauren Tan, SpaceXSI (AI Engineer)\nhttps://youtu.be/O_zcc6Xl12g\n\npstack 저장소\npstack — https://github.com/cursor/plugins/tree/main/pstack\n\n타임라인\n0:00 발표 소개 · 한 달 PR 11,000개와 되돌림 0.5%\n2:40 포테이토 피라미드 다섯 칸\n4:04 맨 위 칸, 코드베이스 · 정원 비유\n6:27 Dune 의 제약 두 가지\n8:53 날짜 세 개 · 주석 99% 금지\n12:01 가장 중요한 칸, 검증 · 런타임 검증\n13:46 형식 검증과 속성 기반 테스트\n15:17 트윗 두 장 · 토큰 70% 가 검증으로\n17:09 그래서 무엇을 얻었나 · 팀 숫자\n19:24 소프트웨어 공장보다 먼저\n20:42 릴리스마다 벌어지는 일 · 퍼징\n22:07 정리 · 내 코드베이스에 넣을 것",
+   "media": [
+    "https://i.ytimg.com/vi/ueA116hO_ho/hqdefault.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 团队如何避免 AI 代码垃圾",
+     "summary": "韩语解读视频，原讲座为 SpaceXSI 的 Lauren Tan「All Code Is Slop (Except Mine)」。章节包括：一个月约 11,000 个 PR、回滚 0.5%；五层“土豆金字塔”；禁止 99% 注释；运行时验证、形式验证与属性测试；70% token 用于验证；每次发版做模糊测试。附 pstack 仓库链接。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 團隊如何避免 AI 程式碼垃圾",
+     "summary": "韓語解讀影片，原講座為 SpaceXSI 的 Lauren Tan「All Code Is Slop (Except Mine)」。章節包括：一個月約 11,000 個 PR、回滾 0.5%；五層「馬鈴薯金字塔」；禁止 99% 註解；執行期驗證、形式驗證與屬性測試；70% token 用於驗證；每次發版做模糊測試。附 pstack 倉庫連結。"
+    },
+    "en": {
+     "title": "How the Grok Bot team avoids AI code slop",
+     "summary": "A Korean breakdown of Lauren Tan’s SpaceXSI talk \"All Code Is Slop (Except Mine)\". Chapters cover about 11,000 PRs a month with 0.5% reverts, a five-level \"potato pyramid\", banning 99% of comments, runtime verification, formal verification and property-based tests, 70% of tokens going to verification, and fuzzing on every release. Links the pstack repo."
+    },
+    "ja": {
+     "title": "Grok Bot チームが AI コードの質を保つ方法",
+     "summary": "SpaceXSI の Lauren Tan による講演「All Code Is Slop (Except Mine)」の韓国語解説。月約 11,000 件の PR と 0.5% の差し戻し、5 段の「ポテトピラミッド」、コメントの 99% 禁止、ランタイム検証・形式検証・プロパティベーステスト、トークンの 70% を検証に使う話、リリースごとのファジングを章立てで紹介。pstack リポジトリへのリンクあり。"
+    },
+    "ko": {
+     "title": "Grok Bot 팀이 AI 코드 슬롭을 피하는 방법",
+     "summary": "SpaceXSI Lauren Tan의 발표 「All Code Is Slop (Except Mine)」를 한국어로 해설한 영상입니다. 한 달 PR 약 11,000개와 되돌림 0.5%, 다섯 칸 포테이토 피라미드, 주석 99% 금지, 런타임 검증·형식 검증·속성 기반 테스트, 토큰 70%를 검증에 쓰는 이야기, 릴리스마다 퍼징을 다룹니다. pstack 저장소 링크 포함."
+    },
+    "ms": {
+     "title": "Cara pasukan Grok Bot elak kod AI yang tidak bermutu",
+     "summary": "Huraian dalam bahasa Korea tentang ceramah Lauren Tan dari SpaceXSI, \"All Code Is Slop (Except Mine)\". Bab merangkumi kira-kira 11,000 PR sebulan dengan 0.5% dibatalkan, \"piramid kentang\" lima tingkat, larangan 99% komen, pengesahan masa jalan, pengesahan formal dan ujian berasaskan sifat, 70% token untuk pengesahan, serta fuzzing setiap keluaran. Ada pautan repo pstack."
+    },
+    "vi": {
+     "title": "Cách đội Grok Bot tránh code AI kém chất lượng",
+     "summary": "Video tiếng Hàn phân tích bài nói “All Code Is Slop (Except Mine)” của Lauren Tan (SpaceXSI). Các chương gồm khoảng 11.000 PR mỗi tháng với 0,5% bị hoàn tác, “kim tự tháp khoai tây” năm tầng, cấm 99% comment, kiểm chứng lúc chạy, kiểm chứng hình thức và kiểm thử dựa trên thuộc tính, 70% token dành cho kiểm chứng, và fuzzing mỗi lần phát hành. Có liên kết repo pstack."
+    },
+    "fr": {
+     "title": "Comment l’équipe Grok Bot évite le code IA bâclé",
+     "summary": "Analyse en coréen de la conférence de Lauren Tan (SpaceXSI) « All Code Is Slop (Except Mine) ». Chapitres : environ 11 000 PR par mois et 0,5 % de retours arrière, une « pyramide de la pomme de terre » à cinq niveaux, 99 % des commentaires interdits, vérification à l’exécution, vérification formelle et tests par propriétés, 70 % des tokens consacrés à la vérification, fuzzing à chaque version. Lien vers le dépôt pstack."
+    },
+    "es": {
+     "title": "Cómo evita el equipo de Grok Bot el código basura de IA",
+     "summary": "Análisis en coreano de la charla de Lauren Tan (SpaceXSI) «All Code Is Slop (Except Mine)». Los capítulos tratan unos 11.000 PR al mes con 0,5 % revertidos, una «pirámide de la patata» de cinco niveles, prohibir el 99 % de los comentarios, verificación en tiempo de ejecución, verificación formal y pruebas basadas en propiedades, el 70 % de los tokens dedicado a verificar y fuzzing en cada versión. Enlaza el repositorio pstack."
+    },
+    "de": {
+     "title": "Wie das Grok-Bot-Team KI-Code-Schrott vermeidet",
+     "summary": "Koreanische Analyse von Lauren Tans SpaceXSI-Vortrag „All Code Is Slop (Except Mine)“. Kapitel: rund 11.000 PRs pro Monat bei 0,5 % Reverts, eine fünfstufige „Kartoffelpyramide“, 99 % der Kommentare verboten, Laufzeitverifikation, formale Verifikation und eigenschaftsbasierte Tests, 70 % der Tokens für Verifikation und Fuzzing bei jedem Release. Mit Link zum pstack-Repo."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/tatassembly-sys/papertrail/pull/11",
+   "url": "https://github.com/tatassembly-sys/papertrail/pull/11",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "tatassembly-sys",
+   "date": "2026-11-17",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "[grok-bot] Next tasks brief for VS Code agents (2026-11-17)\nDocs only. Adds `agents/vscode/NEXT_TASKS.md` — the active, self-contained brief for VS Code CLI agents in **papertrail only** (kickoff prompt, current state from today's check, rules, full gate, numbered milestones with steps/acceptance/test commands/self-checks, final handover, owner-only items). `agents/vscode/HANDOVER.md` now points to it and marks VS1–VS5 complete. Logged in `agents/grokbot/LOG.md`. No code or workflow changes.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 给 VS Code 代理写下一步任务简报",
+     "summary": "这个 PR 由 Grok Bot 提交，只改文档：新增 agents/vscode/NEXT_TASKS.md，作为 VS Code CLI 代理的自包含任务简报，含启动提示、当日状态、规则、完整关卡、带步骤/验收/测试命令的里程碑和交接清单；HANDOVER.md 标记 VS1–VS5 完成，并记入 grokbot 日志。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 為 VS Code 代理寫下一步任務簡報",
+     "summary": "這個 PR 由 Grok Bot 提交，只改文件：新增 agents/vscode/NEXT_TASKS.md，作為 VS Code CLI 代理的自足任務簡報，含啟動提示、當日狀態、規則、完整關卡、帶步驟／驗收／測試指令的里程碑和交接清單；HANDOVER.md 標記 VS1–VS5 完成，並記入 grokbot 日誌。"
+    },
+    "en": {
+     "title": "Grok Bot writes the next-tasks brief for VS Code agents",
+     "summary": "A docs-only PR from Grok Bot adds agents/vscode/NEXT_TASKS.md, a self-contained brief for VS Code CLI agents: kickoff prompt, current state, rules, full gate, numbered milestones with steps, acceptance and test commands, and a handover. HANDOVER.md now marks VS1–VS5 complete, and the change is logged in the grokbot log."
+    },
+    "ja": {
+     "title": "Grok Bot が VS Code エージェント向けの次タスク指示書を作成",
+     "summary": "Grok Bot によるドキュメントのみの PR。VS Code CLI エージェント向けの自己完結した指示書 agents/vscode/NEXT_TASKS.md を追加し、起動プロンプト、現状、ルール、ゲート、手順・受け入れ条件・テストコマンド付きのマイルストーン、引き継ぎを記載。HANDOVER.md では VS1〜VS5 を完了とし、grokbot のログにも記録。"
+    },
+    "ko": {
+     "title": "Grok Bot이 VS Code 에이전트용 다음 작업 브리프 작성",
+     "summary": "Grok Bot이 올린 문서 전용 PR입니다. VS Code CLI 에이전트를 위한 자체 완결형 브리프 agents/vscode/NEXT_TASKS.md를 추가했습니다. 시작 프롬프트, 현재 상태, 규칙, 전체 게이트, 단계·인수 조건·테스트 명령이 있는 마일스톤, 인계를 담았고 HANDOVER.md에서 VS1–VS5를 완료로 표시했습니다."
+    },
+    "ms": {
+     "title": "Grok Bot tulis taklimat tugasan seterusnya untuk ejen VS Code",
+     "summary": "PR dokumen sahaja daripada Grok Bot menambah agents/vscode/NEXT_TASKS.md, taklimat lengkap untuk ejen VS Code CLI: prompt permulaan, keadaan semasa, peraturan, gerbang penuh, pencapaian bernombor dengan langkah, kriteria penerimaan dan arahan ujian, serta serahan. HANDOVER.md menandakan VS1–VS5 selesai."
+    },
+    "vi": {
+     "title": "Grok Bot viết bản giao việc tiếp theo cho agent VS Code",
+     "summary": "PR chỉ sửa tài liệu do Grok Bot tạo: thêm agents/vscode/NEXT_TASKS.md, bản giao việc tự đủ cho agent VS Code CLI gồm prompt khởi động, trạng thái hiện tại, quy tắc, cổng kiểm tra, các mốc đánh số có bước, tiêu chí nghiệm thu, lệnh test và phần bàn giao. HANDOVER.md đánh dấu VS1–VS5 hoàn tất."
+    },
+    "fr": {
+     "title": "Grok Bot rédige le brief des prochaines tâches pour les agents VS Code",
+     "summary": "PR de documentation seule signée Grok Bot : ajoute agents/vscode/NEXT_TASKS.md, un brief autonome pour les agents VS Code CLI (prompt de lancement, état actuel, règles, contrôle complet, jalons numérotés avec étapes, critères d’acceptation et commandes de test, passation). HANDOVER.md marque VS1–VS5 comme terminés."
+    },
+    "es": {
+     "title": "Grok Bot redacta el brief de próximas tareas para agentes de VS Code",
+     "summary": "PR solo de documentación hecho por Grok Bot: añade agents/vscode/NEXT_TASKS.md, un brief autónomo para agentes de VS Code CLI con prompt inicial, estado actual, reglas, control completo, hitos numerados con pasos, criterios de aceptación y comandos de prueba, y traspaso. HANDOVER.md marca VS1–VS5 como completados."
+    },
+    "de": {
+     "title": "Grok Bot schreibt das Next-Tasks-Briefing für VS-Code-Agenten",
+     "summary": "Reiner Doku-PR von Grok Bot: fügt agents/vscode/NEXT_TASKS.md hinzu, ein in sich geschlossenes Briefing für VS-Code-CLI-Agenten mit Start-Prompt, aktuellem Stand, Regeln, vollständigem Gate, nummerierten Meilensteinen mit Schritten, Abnahmekriterien und Testbefehlen sowie Übergabe. HANDOVER.md markiert VS1–VS5 als erledigt."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/bibuat1-stack/qa-agent-team/pull/20",
+   "url": "https://github.com/bibuat1-stack/qa-agent-team/pull/20",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "bibuat1-stack",
+   "date": "2026-11-17",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "docs(grokbot): 完整备份须带工作点交接\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## 改了什么\n\n把 2026-11-17 确认的账号完整备份约定写回仓库，并补全包内交接的固定清单。这是备份流程约定，正本在 `grokbot/BACKUP.md`，不是平台 Auto-review / AI 规则。未改业务代码，未合并。\n\n- `grokbot/BACKUP.md`：完整备份（周备份、换号全量备份）的压缩包必须带备份那一刻的交接。默认一份 `WORK-STATUS.md` 或 `交接.md`，也可以拆成短清单，但都要进包，并在 `MANIFEST.md` / `RESTORE.md` 点明。固定六项：\n  1. 已经做了什么、接下来要做什么、去哪里查看（机器人聊天入口、缺陷单、用例页完整原始链接、知识库入口、HTML 报告、跑次目录、本地未写库的稿、工作台映射位置）。进行中产物索引就是这一项。\n  2. 待用户拍板的事。\n  3. 连接器与账号标签清单：只写名称和状态。\n  4. 打开的 PR、草稿 PR、现网技能版本和技能 id 与仓库的对照。换号后只拉 main 可能漏未合内容；不能用仓库原文覆盖现网技能 id。\n  5. 角色名、当时 id、是否已删除。换号后先按角色建号，不要按旧 id 把已删的号重建回来。\n  6. 进行中产物索引，见第 1 项。\n  没有在测任务写「当前无在测任务」。没有当轮能核实的事实写「未核到更新」。几个账号同步先对照、列出差异、等用户点头，不自动覆盖对方已有内容。\n- `grokbot/skills/account-backup/SKILL.md`：按上述六项做周备份或换号全量备份。和日备读回不是同一件事。未写现网技能 id。\n- `grokbot/HANDOFF.md`：换号「同步」第 3 步与 `BACKUP.md` 改成同一句：按 `RESTORE.md` 对照，不自动覆盖。\n- `grokbot/README.md`：登记新技能，Drive 包说明里加上工作点交接。\n- `grokbot/skills/project-bot-collab/SKILL.md`：硬盘包清单补一句，指向这份交接。\n\n## 根因\n\n另一边拿到备份后要马上知道已经做了什么、接下来要做什么、去哪里查看。用户让他们做事时要能立刻找到入口。几个账号对不上时先列差异，等用户点头再改。\n\n## 验证\n\n文档约定，无用例或运行时行为变化。首轮提交时本地 `python3 -m pytest --collect-only -q`：27 tests collected。\n\n含 `grokbot/BACKUP.md` 与 `HANDOFF.md`，请人工审核后合并。本 PR 不合并。\n\n<!-- CURSOR_AGENT_PR_BODY_END -->\n\n<div><a href=\"https://cursor.com/agents/bc-aa726013-faf6-5e7e-a2ad-a5a241e96348?cursor_ref=pr_footer&cursor_cta=open_in_web\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://cursor.com/assets/images/open-in-web-dark.png\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://cursor.com/assets/images/open-in-web-light.png\"><img alt=\"Open in Web\" width=\"114\" height=\"28\" src=\"https://cursor.com/assets/images/open-in-web-dark.png\"></picture></a>&nbsp;<a href=\"https://cursor.com/background-agent?bcId=bc-aa726013-faf6-5e7e-a2ad-a5a241e96348&cursor_ref=pr_footer&cursor_cta=open_i",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 账号完整备份要附工作交接",
+     "summary": "QA 代理团队把完整备份约定写进仓库：周备份或换号全量备份的压缩包必须附带当时的交接文档，固定六项——已做与待做及查看位置、待用户拍板的事、连接器与账号清单（只写名称和状态）、PR 与现网技能版本对照、角色名与旧 id、进行中产物索引。多账号同步先列差异、等用户确认，不自动覆盖。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 帳號完整備份要附工作交接",
+     "summary": "QA 代理團隊把完整備份約定寫進倉庫：週備份或換號全量備份的壓縮包必須附帶當時的交接文件，固定六項——已做與待做及查看位置、待使用者拍板的事、連接器與帳號清單（只寫名稱和狀態）、PR 與現網技能版本對照、角色名與舊 id、進行中產物索引。多帳號同步先列差異、等使用者確認，不自動覆蓋。"
+    },
+    "en": {
+     "title": "Full Grok Bot account backups must include a work handover",
+     "summary": "A QA agent team wrote its backup rule into the repo: every weekly or account-switch full backup must include a handover with six fixed items: what is done and next and where to look, decisions waiting for the user, connectors and account labels (names and status only), open PRs versus live skill versions, role names and old ids, and an index of work in progress. Multi-account syncs list differences and wait for the user instead of overwriting."
+    },
+    "ja": {
+     "title": "Grok Bot アカウントの完全バックアップには作業引き継ぎを同梱",
+     "summary": "QA エージェントチームがバックアップ規約をリポジトリに記載。週次や乗り換え時の完全バックアップには、その時点の引き継ぎ文書を必ず同梱する。固定の 6 項目は、完了済み・次の作業と確認先、ユーザー判断待ちの事項、コネクタとアカウント一覧（名前と状態のみ）、PR と稼働中スキルの版の対照、ロール名と旧 id、進行中の成果物の索引。複数アカウントの同期は差分を示してユーザーの確認を待ち、自動で上書きしない。"
+    },
+    "ko": {
+     "title": "Grok Bot 계정 전체 백업에는 작업 인계를 포함",
+     "summary": "QA 에이전트 팀이 백업 규칙을 저장소에 기록했습니다. 주간 백업이나 계정 전환용 전체 백업에는 당시의 인계 문서를 반드시 넣어야 하며 고정 6항목은 다음과 같습니다: 한 일·할 일과 확인 위치, 사용자 결정 대기 사항, 커넥터와 계정 목록(이름과 상태만), PR과 운영 중 스킬 버전 대조, 역할 이름과 이전 id, 진행 중 산출물 색인. 여러 계정 동기화는 차이를 먼저 보여 주고 사용자 확인을 기다리며 자동으로 덮어쓰지 않습니다."
+    },
+    "ms": {
+     "title": "Sandaran penuh akaun Grok Bot mesti sertakan serahan kerja",
+     "summary": "Pasukan ejen QA menulis peraturan sandaran dalam repo: setiap sandaran penuh mingguan atau semasa tukar akaun mesti menyertakan dokumen serahan dengan enam perkara tetap: apa yang siap, seterusnya dan di mana untuk melihat; keputusan yang menunggu pengguna; senarai penyambung dan akaun (nama dan status sahaja); PR berbanding versi kemahiran yang aktif; nama peranan dan id lama; serta indeks kerja yang sedang berjalan. Penyegerakan berbilang akaun menyenaraikan perbezaan dan menunggu pengguna, tanpa menulis ganti."
+    },
+    "vi": {
+     "title": "Sao lưu đầy đủ tài khoản Grok Bot phải kèm bàn giao công việc",
+     "summary": "Một đội agent QA ghi quy tắc sao lưu vào repo: mỗi bản sao lưu đầy đủ hằng tuần hoặc khi đổi tài khoản phải kèm tài liệu bàn giao với sáu mục cố định: việc đã làm, việc tiếp theo và nơi xem; việc chờ người dùng quyết định; danh sách connector và tài khoản (chỉ tên và trạng thái); đối chiếu PR với phiên bản skill đang chạy; tên vai trò và id cũ; mục lục sản phẩm đang làm. Đồng bộ nhiều tài khoản thì liệt kê khác biệt và chờ người dùng, không tự ghi đè."
+    },
+    "fr": {
+     "title": "Les sauvegardes complètes d’un compte Grok Bot doivent inclure une passation",
+     "summary": "Une équipe d’agents QA a inscrit sa règle dans le dépôt : chaque sauvegarde complète, hebdomadaire ou lors d’un changement de compte, doit contenir un document de passation en six points fixes : ce qui est fait, la suite et où regarder ; les décisions en attente de l’utilisateur ; connecteurs et comptes (noms et statut seulement) ; PR ouvertes face aux versions de skills en ligne ; noms de rôles et anciens id ; index du travail en cours. Les synchronisations multicomptes listent les écarts et attendent l’accord, sans écraser."
+    },
+    "es": {
+     "title": "Las copias completas de una cuenta de Grok Bot deben incluir el traspaso de trabajo",
+     "summary": "Un equipo de agentes de QA dejó la regla en el repositorio: cada copia completa semanal o por cambio de cuenta debe incluir un documento de traspaso con seis puntos fijos: qué está hecho, qué sigue y dónde verlo; decisiones pendientes del usuario; conectores y cuentas (solo nombre y estado); PR abiertos frente a versiones de skills en producción; nombres de rol e id antiguos; e índice del trabajo en curso. Las sincronizaciones entre cuentas listan diferencias y esperan al usuario, sin sobrescribir."
+    },
+    "de": {
+     "title": "Vollständige Grok-Bot-Kontosicherungen brauchen eine Arbeitsübergabe",
+     "summary": "Ein QA-Agententeam hat seine Backup-Regel ins Repo geschrieben: Jede vollständige Wochen- oder Kontowechsel-Sicherung muss ein Übergabedokument mit sechs festen Punkten enthalten: Erledigtes, Nächstes und wo man nachsieht; offene Entscheidungen des Nutzers; Connectoren und Konten (nur Name und Status); offene PRs im Abgleich mit Live-Skill-Versionen; Rollennamen und alte IDs; Index laufender Arbeiten. Mehrkonten-Syncs listen Unterschiede auf und warten auf den Nutzer statt zu überschreiben."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/s1nned1/x-region-highlighter",
+   "url": "https://github.com/S1nned1/x-region-highlighter",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "S1nned1",
+   "date": "2026-10-28",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "S1nned1/x-region-highlighter\nBuilt by GrokBot: Zero-telemetry Manifest V3 Chrome extension for X (x.com) that highlights Non-US posts/replies and adds a high-visibility South Asia indicator.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 做的 X 地区高亮 Chrome 扩展",
+     "summary": "仓库说明写明由 Grok Bot 构建：一个零遥测的 Manifest V3 Chrome 扩展，在 X（x.com）上高亮非美国地区的帖子和回复，并为南亚地区加上醒目标记。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 做的 X 地區標示 Chrome 擴充功能",
+     "summary": "倉庫說明寫明由 Grok Bot 建置：一個零遙測的 Manifest V3 Chrome 擴充功能，在 X（x.com）上標示非美國地區的貼文和回覆，並為南亞地區加上醒目標記。"
+    },
+    "en": {
+     "title": "A Chrome extension for X built by Grok Bot",
+     "summary": "The repo says it was built by Grok Bot: a zero-telemetry Manifest V3 Chrome extension for X (x.com) that highlights non-US posts and replies and adds a high-visibility South Asia indicator."
+    },
+    "ja": {
+     "title": "Grok Bot が作った X 用 Chrome 拡張",
+     "summary": "リポジトリの説明によると Grok Bot が構築。テレメトリなしの Manifest V3 Chrome 拡張で、X（x.com）上の米国外の投稿や返信をハイライトし、南アジアには目立つ表示を付ける。"
+    },
+    "ko": {
+     "title": "Grok Bot이 만든 X용 Chrome 확장 프로그램",
+     "summary": "저장소 설명에 따르면 Grok Bot이 만들었습니다. 원격 측정이 없는 Manifest V3 Chrome 확장으로, X(x.com)에서 미국 외 지역의 게시물과 답글을 강조하고 남아시아에는 눈에 띄는 표시를 붙입니다."
+    },
+    "ms": {
+     "title": "Sambungan Chrome untuk X yang dibina oleh Grok Bot",
+     "summary": "Repo menyatakan ia dibina oleh Grok Bot: sambungan Chrome Manifest V3 tanpa telemetri untuk X (x.com) yang menyerlahkan hantaran dan balasan bukan dari AS serta menambah penanda Asia Selatan yang jelas."
+    },
+    "vi": {
+     "title": "Tiện ích Chrome cho X do Grok Bot xây dựng",
+     "summary": "Repo ghi rõ do Grok Bot xây dựng: một tiện ích Chrome Manifest V3 không thu thập dữ liệu đo lường, làm nổi bật bài đăng và trả lời ngoài nước Mỹ trên X (x.com) và thêm dấu hiệu dễ thấy cho khu vực Nam Á."
+    },
+    "fr": {
+     "title": "Une extension Chrome pour X construite par Grok Bot",
+     "summary": "Le dépôt indique qu’elle a été construite par Grok Bot : une extension Chrome Manifest V3 sans télémétrie pour X (x.com) qui surligne les posts et réponses hors États-Unis et ajoute un indicateur bien visible pour l’Asie du Sud."
+    },
+    "es": {
+     "title": "Una extensión de Chrome para X creada por Grok Bot",
+     "summary": "El repositorio indica que la creó Grok Bot: una extensión de Chrome Manifest V3 sin telemetría para X (x.com) que resalta publicaciones y respuestas de fuera de EE. UU. y añade un indicador muy visible para el sur de Asia."
+    },
+    "de": {
+     "title": "Eine Chrome-Erweiterung für X, gebaut von Grok Bot",
+     "summary": "Laut Repo von Grok Bot gebaut: eine telemetriefreie Manifest-V3-Chrome-Erweiterung für X (x.com), die Posts und Antworten außerhalb der USA hervorhebt und eine gut sichtbare Südasien-Markierung ergänzt."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/jordangarrison/grok-bot-flake",
+   "url": "https://github.com/jordangarrison/grok-bot-flake",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "jordangarrison",
+   "date": "2026-08-11",
+   "likes": 13,
+   "product": "grok-bot",
+   "text": "jordangarrison/grok-bot-flake\nNix flake for Grok Bot, xAI's desktop agent (repackaged .deb)\nelectron grok-bot nix nix-flake",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Grok Bot 桌面端的 Nix flake",
+     "summary": "这个仓库把 xAI 的 Grok Bot 桌面代理（重新打包的 .deb，Electron 应用）做成 Nix flake，方便在 Nix 环境中安装。"
+    },
+    "zh-TW": {
+     "title": "Grok Bot 桌面版的 Nix flake",
+     "summary": "這個倉庫把 xAI 的 Grok Bot 桌面代理（重新打包的 .deb，Electron 應用）做成 Nix flake，方便在 Nix 環境中安裝。"
+    },
+    "en": {
+     "title": "A Nix flake for the Grok Bot desktop app",
+     "summary": "This repo packages Grok Bot, xAI’s desktop agent (a repackaged .deb Electron app), as a Nix flake so it can be installed on Nix systems."
+    },
+    "ja": {
+     "title": "Grok Bot デスクトップ版の Nix flake",
+     "summary": "xAI のデスクトップエージェント Grok Bot（.deb を再パッケージした Electron アプリ）を Nix flake にしたリポジトリ。Nix 環境でインストールできる。"
+    },
+    "ko": {
+     "title": "Grok Bot 데스크톱 앱용 Nix flake",
+     "summary": "xAI의 데스크톱 에이전트 Grok Bot(.deb를 다시 패키징한 Electron 앱)을 Nix flake로 만든 저장소로, Nix 환경에서 설치할 수 있습니다."
+    },
+    "ms": {
+     "title": "Nix flake untuk aplikasi desktop Grok Bot",
+     "summary": "Repo ini membungkus Grok Bot, ejen desktop xAI (aplikasi Electron daripada .deb yang dibungkus semula), sebagai Nix flake supaya boleh dipasang pada sistem Nix."
+    },
+    "vi": {
+     "title": "Nix flake cho ứng dụng desktop Grok Bot",
+     "summary": "Repo này đóng gói Grok Bot, agent desktop của xAI (ứng dụng Electron đóng gói lại từ .deb), thành Nix flake để cài trên hệ thống Nix."
+    },
+    "fr": {
+     "title": "Un flake Nix pour l’application de bureau Grok Bot",
+     "summary": "Ce dépôt empaquette Grok Bot, l’agent de bureau de xAI (une application Electron reconditionnée depuis le .deb), sous forme de flake Nix pour l’installer sur des systèmes Nix."
+    },
+    "es": {
+     "title": "Un flake de Nix para la app de escritorio de Grok Bot",
+     "summary": "Este repositorio empaqueta Grok Bot, el agente de escritorio de xAI (una app Electron reempaquetada desde el .deb), como flake de Nix para instalarlo en sistemas Nix."
+    },
+    "de": {
+     "title": "Ein Nix-Flake für die Grok-Bot-Desktop-App",
+     "summary": "Dieses Repo verpackt Grok Bot, den Desktop-Agenten von xAI (eine neu verpackte .deb-Electron-App), als Nix-Flake zur Installation auf Nix-Systemen."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/kan/wema-kake/pull/103",
+   "url": "https://github.com/kan/wema-kake/pull/103",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "kan",
+   "date": "2026-11-17",
+   "likes": 0,
+   "product": "meta-muse",
+   "text": "雛形の README に Muse のコールバック URL を足す\n## 概要\n\nMuse（https://muse.ai/）でカスタムコネクタとして `/mcp` を登録すると、途中でエラーになった。Muse のコールバック URL が Access の Managed OAuth の Allowed redirect URIs に入っていないと、動的クライアント登録が次のように断られる。\n\n```\nPOST https://<team>.cloudflareaccess.com/cdn-cgi/access/oauth/registration\n→ 400 {\"error\":\"invalid_client_metadata\",\"error_description\":\"redirect_uri is not allowed by the account configuration\"}\n```\n\n## 変更\n\n- `template/README.md` の「Access の設定」の一覧に、Muse のコールバック URL（`https://agent.meta.ai/api/hatch/oauth/callback`）を足した\n- 「MCP で書き込めるクライアントを限る」で並べる名前に、Muse の `agent.meta.ai` を足した\n- `CHANGELOG.md` の Unreleased に記載\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nhttps://claude.ai/code/session_01PZw9ixFxQRAMf3v1uHMgBg",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "把 Muse 接入自建 MCP：需加回调地址",
+     "summary": "作者在 Muse 里把自己的 /mcp 注册为自定义连接器时报错：Cloudflare Access 的 Managed OAuth 未把 Muse 回调地址列入允许的重定向 URI，动态客户端注册返回 400 invalid_client_metadata。修复是把 https://agent.meta.ai/api/hatch/oauth/callback 加入允许列表，并把 agent.meta.ai 加进可写入的 MCP 客户端名单。"
+    },
+    "zh-TW": {
+     "title": "把 Muse 接入自建 MCP：需加回呼網址",
+     "summary": "作者在 Muse 裡把自己的 /mcp 註冊為自訂連接器時報錯：Cloudflare Access 的 Managed OAuth 未把 Muse 回呼網址列入允許的重新導向 URI，動態用戶端註冊回傳 400 invalid_client_metadata。修正方式是把 https://agent.meta.ai/api/hatch/oauth/callback 加入允許清單，並把 agent.meta.ai 加進可寫入的 MCP 用戶端名單。"
+    },
+    "en": {
+     "title": "Connecting Muse to your own MCP server: add its callback URL",
+     "summary": "Registering a custom /mcp connector in Muse failed: Cloudflare Access Managed OAuth rejected dynamic client registration with 400 invalid_client_metadata because Muse’s callback was not an allowed redirect URI. The fix adds https://agent.meta.ai/api/hatch/oauth/callback to the allowed list and agent.meta.ai to the MCP clients allowed to write."
+    },
+    "ja": {
+     "title": "Muse を自前の MCP につなぐ：コールバック URL の追加が必要",
+     "summary": "Muse で /mcp をカスタムコネクタとして登録したところエラーに。Cloudflare Access の Managed OAuth の許可リダイレクト URI に Muse のコールバックがなく、動的クライアント登録が 400 invalid_client_metadata で拒否された。https://agent.meta.ai/api/hatch/oauth/callback を許可一覧に、agent.meta.ai を書き込み可能な MCP クライアントに追加して解決。"
+    },
+    "ko": {
+     "title": "Muse를 자체 MCP에 연결할 때 콜백 URL 추가 필요",
+     "summary": "Muse에서 /mcp를 사용자 지정 커넥터로 등록하자 오류가 났습니다. Cloudflare Access Managed OAuth의 허용 리디렉션 URI에 Muse 콜백이 없어 동적 클라이언트 등록이 400 invalid_client_metadata로 거부된 것입니다. https://agent.meta.ai/api/hatch/oauth/callback 을 허용 목록에, agent.meta.ai를 쓰기 가능한 MCP 클라이언트에 추가해 해결했습니다."
+    },
+    "ms": {
+     "title": "Menyambung Muse ke pelayan MCP sendiri: tambah URL panggil balik",
+     "summary": "Mendaftar penyambung tersuai /mcp dalam Muse gagal: Managed OAuth Cloudflare Access menolak pendaftaran klien dinamik dengan 400 invalid_client_metadata kerana URL panggil balik Muse bukan URI ubah hala yang dibenarkan. Pembaikan menambah https://agent.meta.ai/api/hatch/oauth/callback ke senarai dibenarkan dan agent.meta.ai ke klien MCP yang boleh menulis."
+    },
+    "vi": {
+     "title": "Kết nối Muse với máy chủ MCP riêng: cần thêm URL callback",
+     "summary": "Đăng ký connector tùy chỉnh /mcp trong Muse bị lỗi: Managed OAuth của Cloudflare Access từ chối đăng ký client động với 400 invalid_client_metadata vì callback của Muse chưa nằm trong redirect URI được phép. Cách sửa: thêm https://agent.meta.ai/api/hatch/oauth/callback vào danh sách cho phép và thêm agent.meta.ai vào các client MCP được ghi."
+    },
+    "fr": {
+     "title": "Connecter Muse à son propre serveur MCP : ajouter l’URL de rappel",
+     "summary": "L’enregistrement d’un connecteur /mcp personnalisé dans Muse échouait : le Managed OAuth de Cloudflare Access refusait l’enregistrement dynamique du client (400 invalid_client_metadata), car l’URL de rappel de Muse n’était pas autorisée. Le correctif ajoute https://agent.meta.ai/api/hatch/oauth/callback aux redirections autorisées et agent.meta.ai aux clients MCP autorisés à écrire."
+    },
+    "es": {
+     "title": "Conectar Muse a tu propio servidor MCP: añade su URL de callback",
+     "summary": "Registrar un conector /mcp personalizado en Muse fallaba: el Managed OAuth de Cloudflare Access rechazaba el registro dinámico de cliente con 400 invalid_client_metadata porque el callback de Muse no era un URI de redirección permitido. La solución añade https://agent.meta.ai/api/hatch/oauth/callback a la lista permitida y agent.meta.ai a los clientes MCP que pueden escribir."
+    },
+    "de": {
+     "title": "Muse mit eigenem MCP-Server verbinden: Callback-URL ergänzen",
+     "summary": "Das Registrieren eines eigenen /mcp-Connectors in Muse schlug fehl: Managed OAuth von Cloudflare Access lehnte die dynamische Client-Registrierung mit 400 invalid_client_metadata ab, weil Muses Callback keine erlaubte Redirect-URI war. Der Fix ergänzt https://agent.meta.ai/api/hatch/oauth/callback in der Freigabeliste und agent.meta.ai bei den schreibberechtigten MCP-Clients."
+    }
+   }
+  },
+  {
+   "id": "yt:LK2p5PIyp4Y",
+   "url": "https://www.youtube.com/watch?v=LK2p5PIyp4Y",
+   "source": "youtube",
+   "source_name": "YouTube",
+   "author": "Kacper Rutkiewicz | AI Made Simple",
+   "date": "2026-11-16",
+   "likes": null,
+   "views": 770,
+   "product": "grok-bot",
+   "text": "GrokBot for People With Disabilities (8 Real Use Cases)\nJoin AI Made Simple (free): https://www.skool.com/ai-automation-network-2970/about\nWork with DeepRooted AI: https://deeprooted.io\n\nI recently worked with Jim, who has severe neuropathy and runs most of his life by voice through a team of GrokBot bots: one tracks his medication, one looks after his car, and one calls the hotel before he travels to make sure the room is accessible. Here are 8 real ways people with disabilities are using GrokBot right now.\n\n🛠 My Tools:\n\nGlaido🎙 :\nhttps://get.glaido.com/kacper-rutkiewicz\n\nLocal AI🖥️ : Find The Best AI Models and Hardware For You\nhttps://local.ai/kacperrutkai/invite\n\n🔗 Resources\n\nDeaf Assistant template (by @Auriukux2): https://x.com/Auriukux2/status/2113995732760027309\n\nDad Bot template (by Mike Yeager): https://x.com/mikepat711/status/2112859643915407504\n\nUnstuck ADHD template (by @DhalgrenMarquis): https://x.com/DhalgrenMarquis/status/2113755771620241814\n\n📋 The care-plan prompt (copy and paste it into Dr. Eggbot, then fill in your details):\n\nI want you to be my personal health coach and accountability partner. Be direct, consistent, and kind: boss me around, hold me accountable, celebrate small wins, and never shame me on hard days. Send everything important directly to me in this chat.\n\nABOUT ME\n\n- Age / height / approx. weight:\n- Health conditions, pain areas, or disabilities:\n- Things to avoid or be careful with (injuries, triggers, doctor limits):\n- Meds I take (morning / night / as needed), only remind me, never tell me to take anything:\n- Diet (vegetarian, allergies, etc.) and kitchen setup (stove? fridge only?):\n- Current skincare / hygiene products:\n\nMY GOALS\n\n- (e.g. lose weight, get stronger, steady routines, less emotional eating, fewer bad pain days, glow up)\n\nMY SCHEDULE\n\n- Wake up:\n- Morning checklist time:\n- Night checklist time:\n- Bedtime:\n\nCHECKLISTS\n\n- Morning: (e.g. shower, brush teeth, wash face, meds, water, quick pain/energy check)\n- Night: (e.g. shower, brush teeth, skincare, meds, set out things for tomorrow)\n\nMOVEMENT\n\n- One daily workout plus [number] short movement breaks a day, each with a YouTube video you've checked first.\n- Video types I like: (chair workouts, stretching, walking, dance, belly dance, etc.)\n- Start at my level, flag any moves that could hurt my problem areas, give me a \"minimum that still counts\" option for bad days, and ramp up the intensity over time.\n- Remind me to drink water at every check-in.\n\nTRACKING\n\n- Track and chart: mood, energy, pain (where, how bad), sleep, food, cravings, water, exercise, meds, period, and which daily tasks I finished.\n- Weekly review with a chart, and a monthly review that spots trends and suggests changes.\n\nSet up the routines and reminders for all of this, then ask me anything else you need to know.\n\nKeep the line \"only remind me, never tell me to take anything.\" This is a reminder bot, not a nurse and not medical advice.\n\nTIMESTAMPS:\n\n00:00 - Intro\n00:40 - ",
+   "media": [
+    "https://i.ytimg.com/vi/LK2p5PIyp4Y/hqdefault.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "残障人士如何用 GrokBot：8 个真实案例",
+     "summary": "作者介绍了 Jim：他患严重神经病变，主要靠语音指挥一组 GrokBot 机器人生活——一个管用药，一个照看汽车，一个在出行前给酒店打电话确认房间无障碍。视频讲了残障人士正在使用 GrokBot 的 8 种方式，并附聋人助手、Dad Bot、ADHD 等模板链接。"
+    },
+    "zh-TW": {
+     "title": "身障人士如何用 GrokBot：8 個真實案例",
+     "summary": "作者介紹了 Jim：他患嚴重神經病變，主要靠語音指揮一組 GrokBot 機器人生活——一個管用藥，一個照看汽車，一個在出行前打電話給飯店確認房間無障礙。影片講了身障人士正在使用 GrokBot 的 8 種方式，並附聽障助理、Dad Bot、ADHD 等範本連結。"
+    },
+    "en": {
+     "title": "GrokBot for people with disabilities: 8 real use cases",
+     "summary": "The author describes Jim, who has severe neuropathy and runs most of his life by voice through a team of GrokBot bots: one tracks his medication, one looks after his car, and one calls the hotel before travel to check the room is accessible. The video covers 8 ways people with disabilities use GrokBot and links templates such as a Deaf Assistant, Dad Bot and an ADHD bot."
+    },
+    "ja": {
+     "title": "障害のある人の GrokBot 活用：実例 8 つ",
+     "summary": "重い神経障害を持つ Jim は、生活の大半を音声で GrokBot のボットチームに任せている。服薬管理のボット、車の管理のボット、旅行前にホテルへ電話して部屋のバリアフリーを確認するボットがある。動画では障害のある人の GrokBot 活用法 8 つを紹介し、聴覚障害者向けアシスタントや Dad Bot、ADHD 向けのテンプレートへのリンクも掲載。"
+    },
+    "ko": {
+     "title": "장애인을 위한 GrokBot: 실제 사례 8가지",
+     "summary": "작성자는 심한 신경병증을 가진 Jim을 소개합니다. 그는 생활 대부분을 음성으로 GrokBot 봇 팀에 맡깁니다. 하나는 복약을, 하나는 자동차 관리를, 하나는 여행 전 호텔에 전화해 객실이 접근 가능한지 확인합니다. 영상은 장애인이 GrokBot을 쓰는 8가지 방법을 다루고 청각 장애인 도우미, Dad Bot, ADHD 템플릿 링크를 제공합니다."
+    },
+    "ms": {
+     "title": "GrokBot untuk orang kurang upaya: 8 kes sebenar",
+     "summary": "Penulis menceritakan Jim yang menghidap neuropati teruk dan mengurus kebanyakan hidupnya melalui suara dengan pasukan bot GrokBot: satu menjejak ubat, satu menjaga keretanya, dan satu menelefon hotel sebelum perjalanan untuk memastikan bilik mesra OKU. Video ini merangkumi 8 cara orang kurang upaya menggunakan GrokBot serta pautan templat seperti Deaf Assistant, Dad Bot dan bot ADHD."
+    },
+    "vi": {
+     "title": "GrokBot cho người khuyết tật: 8 trường hợp thực tế",
+     "summary": "Tác giả kể về Jim, người bị bệnh thần kinh ngoại biên nặng và điều hành phần lớn cuộc sống bằng giọng nói qua một nhóm bot GrokBot: một bot theo dõi thuốc, một bot lo xe, một bot gọi khách sạn trước chuyến đi để kiểm tra phòng có tiếp cận được không. Video nêu 8 cách người khuyết tật dùng GrokBot và kèm liên kết mẫu như trợ lý cho người khiếm thính, Dad Bot và bot ADHD."
+    },
+    "fr": {
+     "title": "GrokBot pour les personnes handicapées : 8 cas réels",
+     "summary": "L’auteur présente Jim, atteint d’une neuropathie sévère, qui gère l’essentiel de sa vie à la voix avec une équipe de bots GrokBot : un suit ses médicaments, un s’occupe de sa voiture, un appelle l’hôtel avant un voyage pour vérifier que la chambre est accessible. La vidéo présente 8 usages de GrokBot par des personnes handicapées, avec des liens vers des modèles (assistant pour sourds, Dad Bot, bot TDAH)."
+    },
+    "es": {
+     "title": "GrokBot para personas con discapacidad: 8 casos reales",
+     "summary": "El autor presenta a Jim, que tiene neuropatía grave y gestiona casi toda su vida por voz con un equipo de bots de GrokBot: uno controla su medicación, otro cuida su coche y otro llama al hotel antes de viajar para confirmar que la habitación es accesible. El video recorre 8 formas en que personas con discapacidad usan GrokBot y enlaza plantillas como un asistente para personas sordas, Dad Bot y un bot para TDAH."
+    },
+    "de": {
+     "title": "GrokBot für Menschen mit Behinderung: 8 echte Anwendungsfälle",
+     "summary": "Der Autor stellt Jim vor, der an schwerer Neuropathie leidet und sein Leben größtenteils per Sprache mit einem Team von GrokBot-Bots organisiert: einer verwaltet die Medikamente, einer kümmert sich ums Auto, einer ruft vor Reisen im Hotel an, um die Barrierefreiheit des Zimmers zu prüfen. Das Video zeigt 8 Einsatzarten und verlinkt Vorlagen wie einen Gehörlosen-Assistenten, Dad Bot und einen ADHS-Bot."
+    }
+   }
+  },
+  {
+   "id": "yt:bwWQoa9Bduo",
+   "url": "https://www.youtube.com/watch?v=bwWQoa9Bduo",
+   "source": "youtube",
+   "source_name": "YouTube",
+   "author": "ニュースのミカタ",
+   "date": "2026-11-16",
+   "likes": null,
+   "views": 8649,
+   "product": "meta-muse",
+   "text": "【要注意！】MetaのAI秘書「Muse」初期設定のままは危険！｜Facebook・Instagram連携も見直す設定7選\nMuse（ミューズ）を使い始めたら、最初に見直しておきたい設定を7つ、スマホ（iPhone）とパソコン（Windows）の実際の画面で、順番に紹介します。AIを使い始めたばかりの方でも、画面を見ながら同じ操作ができるようにまとめました。\n\n\n▼この動画で見る7つの設定\n・会話をAI開発に使わせない（データコントロール）\n・操作の前に毎回確認する（確認の画面で「常に許可」は選ばない）\n・つながっているアプリの権限（Facebook・Instagram・Messenger）\n・Androidの連絡先の許可（補足）\n・Museの記憶（MEMORY.md）の確認と、「リセット」との違い\n・頼んでいない定期的な作業がないか（近日の予定）\n・Metaアカウントのパスキーと2段階認証\n\n▼チャプター\n00:00 オープニング｜この動画でわかること\n01:09 今日の進め方\n01:33 アカウントセンターとは（設定の入口）\n02:46 設定1｜会話をAI開発に使わせない（データコントロール）\n04:43 設定2｜操作の前に毎回確認する（確認の画面で「常に許可」は選ばない）\n07:51 設定3｜つながっているアプリの権限（Facebook・Instagram・Messenger／許可する・リクエストする・許可しない）\n10:01 設定4｜Androidの連絡先の許可（補足）\n11:01 設定5｜Museの記憶（MEMORY.md）の確認と、「リセット」との違い\n15:42 設定6｜頼んでいない定期的な作業がないか（近日の予定）\n17:21 設定7｜Metaアカウントのパスキーと2段階認証（パスキーはPCのウェブ版から）\n19:43 おまけ\n20:39 まとめ｜7つの設定のおさらい\n\n▼補足：つながっているアプリ（設定3）\nFacebook・Instagram・Threadsは、同じアカウントセンターに入っていると、自分でつなぐ操作をしなくても自動でリンクされることがあると公式ヘルプにあります。\n連携そのものを外したい場合は、「Metaアカウントセンター」から管理できます。\nhttps://accountscenter.meta.com/\n\n▼補足：パスキー（設定7）\nMuseのスマホアプリには、パスキー作成の項目がありません（2026年11月時点）。パスキーは、PCのウェブ版Museから作成します（設定 → アカウントセンター → ログインとセキュリティ）。\nMetaの公式ヘルプでは、パスキーを使えるかどうかはアプリ・端末・ブラウザによって異なる、と案内されています。共用の端末では、パスキーを作らないでください。\n・Metaパスキーについて（公式ヘルプ）：https://www.meta.com/help/1991801474748071/\n▼参考にした公式ページ（Metaヘルプセンター）\n・Museの利用を始める方法：https://www.meta.com/ja-jp/help/superintelligence/1331373868832401/\n・Museのデータの管理：https://www.meta.com/ja-jp/help/superintelligence/2225571704857152/\n・承認とアクセス許可：https://www.meta.com/ja-jp/help/superintelligence/1385290430137537/\n・コネクターの連携：https://www.meta.com/ja-jp/help/superintelligence/1687253048996149/\n・Museの性格と記憶：https://www.meta.com/ja-jp/help/superintelligence/995796179982326/\n\n▼動画で触れた報道\n・「常に許可」を選んだ後に住所が送られた件（Business Insider）：https://www.businessinsider.com/muse-agent-facebook-marketplace-address-setting-meta-always-allow-2026-9\n・Amazonの買い物の制限について（CNBC）：https://www.cnbc.com/2026/11/01/jpmorgan-amazon-ai-agents-meta-muse.html\n\n▼Museを始める（公式）\n・パソコン（ブラウザ）：https://muse.ai\n・スマホは、App Store／Google Playで「Muse from Meta」（提供元 Meta Platforms, Inc.）を選んでください。\n\n※Meta、Facebook、Instagramは、Meta Platforms, Inc.の商標です。Museは同社のサービスです。サムネイルのMuseアイコンとInstagram・Facebookのロゴも同社の商標です。\nこの動画は非公式の紹介で、Metaから提供・推奨を受けたものではありません。",
+   "media": [
+    "https://i.ytimg.com/vi/bwWQoa9Bduo/hqdefault.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "Meta Muse 开始用前要改的 7 项设置",
+     "summary": "日语教程，在 iPhone 和 Windows 实际画面上逐步演示：不让对话用于 AI 开发；操作前每次确认（不选“始终允许”）；检查 Facebook/Instagram/Messenger 连接权限；Android 联系人权限；查看 Muse 记忆 MEMORY.md 及与“重置”的区别；检查没让它做的定期任务；为 Meta 账号设置通行密钥和两步验证。"
+    },
+    "zh-TW": {
+     "title": "Meta Muse 開始用前要改的 7 項設定",
+     "summary": "日語教學，在 iPhone 和 Windows 實際畫面上逐步示範：不讓對話用於 AI 開發；操作前每次確認（不選「一律允許」）；檢查 Facebook／Instagram／Messenger 連結權限；Android 聯絡人權限；查看 Muse 記憶 MEMORY.md 及與「重設」的差別；檢查沒讓它做的定期任務；為 Meta 帳號設定通行金鑰和兩步驟驗證。"
+    },
+    "en": {
+     "title": "7 Meta Muse settings to change before you start",
+     "summary": "A Japanese walkthrough on real iPhone and Windows screens: stop conversations being used for AI development, confirm before every action (don’t pick \"always allow\"), review Facebook, Instagram and Messenger connection permissions, Android contacts permission, check Muse’s memory (MEMORY.md) versus \"reset\", look for recurring tasks you never asked for, and set up a passkey and two-step verification on the Meta account."
+    },
+    "ja": {
+     "title": "Meta の AI 秘書「Muse」、最初に見直す設定 7 つ",
+     "summary": "iPhone と Windows の実画面で順に解説。会話を AI 開発に使わせない、操作前に毎回確認する（「常に許可」は選ばない）、Facebook・Instagram・Messenger の連携権限、Android の連絡先の許可、Muse の記憶（MEMORY.md）の確認と「リセット」との違い、頼んでいない定期的な作業の確認、Meta アカウントのパスキーと 2 段階認証。"
+    },
+    "ko": {
+     "title": "Meta Muse 사용 전 바꿔야 할 설정 7가지",
+     "summary": "iPhone과 Windows 실제 화면으로 따라 하는 일본어 가이드입니다. 대화를 AI 개발에 쓰지 않게 하기, 작업 전 매번 확인하기(「항상 허용」 선택 금지), Facebook·Instagram·Messenger 연결 권한, Android 연락처 권한, Muse 기억(MEMORY.md) 확인과 「재설정」의 차이, 요청하지 않은 정기 작업 확인, Meta 계정 패스키와 2단계 인증 설정을 다룹니다."
+    },
+    "ms": {
+     "title": "7 tetapan Meta Muse yang perlu diubah sebelum mula",
+     "summary": "Panduan bahasa Jepun pada skrin iPhone dan Windows sebenar: halang perbualan digunakan untuk pembangunan AI, sahkan sebelum setiap tindakan (jangan pilih \"sentiasa benarkan\"), semak kebenaran sambungan Facebook, Instagram dan Messenger, kebenaran kenalan Android, semak memori Muse (MEMORY.md) berbanding \"set semula\", cari tugasan berulang yang tidak diminta, dan tetapkan kunci laluan serta pengesahan dua langkah pada akaun Meta."
+    },
+    "vi": {
+     "title": "7 cài đặt Meta Muse nên đổi trước khi dùng",
+     "summary": "Hướng dẫn tiếng Nhật trên màn hình iPhone và Windows thật: không cho dùng hội thoại để phát triển AI, xác nhận trước mỗi thao tác (đừng chọn “luôn cho phép”), kiểm tra quyền kết nối Facebook, Instagram, Messenger, quyền danh bạ Android, xem bộ nhớ Muse (MEMORY.md) và khác biệt với “đặt lại”, tìm tác vụ định kỳ bạn không yêu cầu, và bật passkey cùng xác minh hai bước cho tài khoản Meta."
+    },
+    "fr": {
+     "title": "7 réglages de Meta Muse à modifier avant de commencer",
+     "summary": "Tutoriel en japonais sur de vrais écrans iPhone et Windows : empêcher l’usage des conversations pour le développement de l’IA, confirmer avant chaque action (ne pas choisir « toujours autoriser »), revoir les autorisations Facebook, Instagram et Messenger, l’accès aux contacts Android, la mémoire de Muse (MEMORY.md) et sa différence avec « réinitialiser », repérer les tâches récurrentes non demandées, et activer clé d’accès et double authentification sur le compte Meta."
+    },
+    "es": {
+     "title": "7 ajustes de Meta Muse que cambiar antes de empezar",
+     "summary": "Guía en japonés con pantallas reales de iPhone y Windows: impedir que las conversaciones se usen para desarrollar IA, confirmar antes de cada acción (no elegir «permitir siempre»), revisar permisos de Facebook, Instagram y Messenger, el permiso de contactos en Android, la memoria de Muse (MEMORY.md) frente a «restablecer», buscar tareas periódicas que no pediste y activar llave de acceso y verificación en dos pasos en la cuenta de Meta."
+    },
+    "de": {
+     "title": "7 Meta-Muse-Einstellungen, die man vor dem Start ändern sollte",
+     "summary": "Japanische Anleitung an echten iPhone- und Windows-Bildschirmen: Gespräche nicht für KI-Entwicklung freigeben, vor jeder Aktion bestätigen (nicht „immer erlauben“ wählen), Verbindungsrechte für Facebook, Instagram und Messenger prüfen, Android-Kontaktzugriff, Muses Gedächtnis (MEMORY.md) und der Unterschied zum „Zurücksetzen“, ungebetene wiederkehrende Aufgaben finden sowie Passkey und Zwei-Faktor-Schutz für das Meta-Konto einrichten."
+    }
+   }
+  },
+  {
+   "id": "yt:FMGnEJqp8bQ",
+   "url": "https://www.youtube.com/watch?v=FMGnEJqp8bQ",
+   "source": "youtube",
+   "source_name": "YouTube",
+   "author": "AI事例ずかん by aniuma",
+   "date": "2026-11-16",
+   "likes": null,
+   "views": 2827,
+   "product": "multi",
+   "text": "MetaのMuseとHermes Agentの違い｜AI秘書はどれを選ぶ？ChatGPT dots・Claude Code とも比較\nMetaのMuse と Hermes Agent の違いを、ChatGPT dots・Claude Code も並べて、「お金」「どこで動くか」「どこから話しかけるか」「中身が見えるか」の4つの物差しで比べました。Muse を使ってみた人も、これから AI秘書を選ぶ人も、目安にしてください。\n※Muse は「ミューズ」、Hermes Agent は「ヘルメスエージェント」「エルメスエージェント」とも呼ばれます。\n\n▼Hermes Agent の入れ方・使い方（画面を見ながら解説）\nhttps://youtu.be/abQJU2pS59I\n\n▼目次\n0:00 はじめに\n0:40 3つのAI秘書\n1:21 お金\n2:04 どこで動くか\n3:05 どこから話すか\n4:03 中身が見えるか\n5:19 Hermesの最近の更新\n6:05 Claudeは？\n6:28 どれを選ぶか\n\n▼あわせて見たい\nMuse 完全入門（登録から使うまで）: https://youtu.be/pUN7GFFIM2w\nChatGPT dots の使い方: https://youtu.be/meQVeb9jPz8\nパーソナルエージェントって何がすごいの？: https://youtu.be/NCWCNBwosRE\n\n▼公式LINE「AI事例ずかん」\n経営者・担当者・個人など、あなたのタイプに合った限定動画と、ライブでの実演や勉強会のご案内が届きます。\nhttps://lin.ee/9I2npls\n\n▼補足\n・ChatGPT dots は、個人向けのプランでは Pro だけで使えます（法人向けの Business Premium・Enterprise なども対象）。\n・Muse の有料プランは、Meta のヘルプのドル表記（Power 月20ドル・Maximum 月100ドル）です。\n\n▼出典（2026年11月15日に確認。料金・提供状況は変わることがあります）\nHermes Agent v0.22.0（Threshold）: https://github.com/NousResearch/hermes-agent/releases/tag/v0.22.0\nHermes Agent v0.23.0（Hearth）: https://github.com/NousResearch/hermes-agent/releases/tag/v0.23.0\nHermes Agent 公式ドキュメント: https://hermes-agent.nousresearch.com/docs/\nNous Portal（料金・Hermes Cloud）: https://portal.nousresearch.com/cloud\nMuse 日本での提供開始（Meta）: https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/\nMuse のサブスクリプション（Meta ヘルプ）: https://www.meta.com/help/subscriptions/1021145227643680/\nMuse のデータの管理（Meta ヘルプ）: https://www.meta.com/help/superintelligence/2225571704857152/\nChatGPT dots（OpenAI）: https://learn.chatgpt.com/docs/dots\nChatGPT の料金: https://chatgpt.com/ja-JP/pricing\nClaude Duet（Anthropic）: https://claude.com/product/claude-duet\nLINE 公式アカウントの料金: https://www.lycbiz.com/jp/service/line-official-account/plan/\n\n#Muse #HermesAgent #AI秘書",
+   "media": [
+    "https://i.ytimg.com/vi/FMGnEJqp8bQ/hqdefault.jpg"
+   ],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "Meta Muse 与 Hermes Agent 对比，兼比 ChatGPT dots 和 Claude Code",
+     "summary": "日语视频用四把尺子比较几款 AI 秘书：费用、在哪里运行、从哪里对话、内部是否可见。补充说明：ChatGPT dots 个人版只有 Pro 可用（企业的 Business Premium、Enterprise 等也可）；Muse 付费方案按 Meta 帮助页为 Power 每月 20 美元、Maximum 每月 100 美元（2026-11-15 核对）。"
+    },
+    "zh-TW": {
+     "title": "Meta Muse 與 Hermes Agent 比較，兼比 ChatGPT dots 和 Claude Code",
+     "summary": "日語影片用四把尺比較幾款 AI 秘書：費用、在哪裡執行、從哪裡對話、內部是否可見。補充說明：ChatGPT dots 個人版只有 Pro 可用（企業的 Business Premium、Enterprise 等也可）；Muse 付費方案依 Meta 說明頁為 Power 每月 20 美元、Maximum 每月 100 美元（2026-11-15 核對）。"
+    },
+    "en": {
+     "title": "Meta Muse vs Hermes Agent, plus ChatGPT dots and Claude Code",
+     "summary": "A Japanese video compares AI assistants on four measures: cost, where it runs, where you talk to it, and whether you can see inside. Notes: for individuals ChatGPT dots is Pro-only (business plans such as Business Premium and Enterprise also qualify); Muse’s paid plans per Meta’s help page are Power at $20/month and Maximum at $100/month (checked 2026-11-15)."
+    },
+    "ja": {
+     "title": "Meta の Muse と Hermes Agent の違い、ChatGPT dots・Claude Code とも比較",
+     "summary": "「お金」「どこで動くか」「どこから話しかけるか」「中身が見えるか」の 4 つの物差しで AI 秘書を比較。補足として、ChatGPT dots は個人向けでは Pro のみ（法人向け Business Premium・Enterprise なども対象）、Muse の有料プランは Meta のヘルプで Power 月 20 ドル・Maximum 月 100 ドル（2026 年 11 月 15 日確認）。"
+    },
+    "ko": {
+     "title": "Meta Muse와 Hermes Agent 비교, ChatGPT dots·Claude Code까지",
+     "summary": "일본어 영상으로 AI 비서를 비용, 실행 위치, 대화 창구, 내부를 볼 수 있는지 네 가지 기준으로 비교합니다. 보충: ChatGPT dots는 개인 요금제 중 Pro에서만 쓸 수 있고(Business Premium, Enterprise 등 기업용도 대상), Muse 유료 요금제는 Meta 도움말 기준 Power 월 20달러, Maximum 월 100달러입니다(2026-11-15 확인)."
+    },
+    "ms": {
+     "title": "Meta Muse lwn Hermes Agent, serta ChatGPT dots dan Claude Code",
+     "summary": "Video bahasa Jepun membandingkan pembantu AI dengan empat ukuran: kos, di mana ia berjalan, dari mana anda bercakap dengannya, dan sama ada isinya boleh dilihat. Nota: untuk individu ChatGPT dots hanya pada Pro (pelan perniagaan seperti Business Premium dan Enterprise juga layak); pelan berbayar Muse menurut halaman bantuan Meta ialah Power $20/bulan dan Maximum $100/bulan (disemak 2026-11-15)."
+    },
+    "vi": {
+     "title": "So sánh Meta Muse và Hermes Agent, kèm ChatGPT dots và Claude Code",
+     "summary": "Video tiếng Nhật so sánh các trợ lý AI theo bốn tiêu chí: chi phí, chạy ở đâu, trò chuyện từ đâu và có xem được bên trong không. Ghi chú: với cá nhân, ChatGPT dots chỉ có ở gói Pro (gói doanh nghiệp như Business Premium, Enterprise cũng được); gói trả phí của Muse theo trang trợ giúp của Meta là Power 20 USD/tháng và Maximum 100 USD/tháng (kiểm tra ngày 2026-11-15)."
+    },
+    "fr": {
+     "title": "Meta Muse contre Hermes Agent, avec ChatGPT dots et Claude Code",
+     "summary": "Vidéo japonaise comparant des assistants IA selon quatre critères : coût, lieu d’exécution, canal de conversation et visibilité du fonctionnement. Précisions : pour les particuliers, ChatGPT dots n’est disponible qu’avec Pro (les offres pro comme Business Premium et Enterprise aussi) ; selon l’aide de Meta, les offres payantes de Muse sont Power à 20 $/mois et Maximum à 100 $/mois (vérifié le 15/11/2026)."
+    },
+    "es": {
+     "title": "Meta Muse frente a Hermes Agent, con ChatGPT dots y Claude Code",
+     "summary": "Video en japonés que compara asistentes de IA con cuatro criterios: coste, dónde se ejecuta, desde dónde le hablas y si puedes ver su interior. Notas: para particulares ChatGPT dots solo está en Pro (también planes de empresa como Business Premium y Enterprise); según la ayuda de Meta, los planes de pago de Muse son Power a 20 $/mes y Maximum a 100 $/mes (comprobado el 15-11-2026)."
+    },
+    "de": {
+     "title": "Meta Muse vs. Hermes Agent, dazu ChatGPT dots und Claude Code",
+     "summary": "Japanisches Video, das KI-Assistenten nach vier Maßstäben vergleicht: Kosten, wo sie laufen, wo man mit ihnen spricht und ob man hineinsehen kann. Hinweise: Für Privatnutzer gibt es ChatGPT dots nur mit Pro (auch Business-Pläne wie Business Premium und Enterprise); Muses Bezahlpläne laut Meta-Hilfe: Power 20 $/Monat, Maximum 100 $/Monat (Stand 15.11.2026)."
+    }
+   }
+  },
+  {
+   "id": "yt:IcCzzwWgaws",
+   "url": "https://www.youtube.com/watch?v=IcCzzwWgaws",
+   "source": "youtube",
+   "source_name": "YouTube",
+   "author": "Eric Michaud",
+   "date": "2026-11-16",
+   "likes": null,
+   "views": 33536,
+   "product": "multi",
+   "text": "Hermes Agent is SO MUCH Better Than You Think! (vs Grok bot, Dots, Muse)\nHostinger VPS Setup: https://hostinger.com/emaihermes\nUse Code \"EMAI\" for an additional 10% off \n\nEvery big AI lab has a managed personal agent now: Grok Bot, OpenAI Dots, Meta Muse, Claude Duet, and even n8n has Nod.\nSo here's where each one stands, good and bad, and why the agent I actually run every day is Hermes Agent on my own server for about 8 bucks a month.\n\nTIMESTAMPS\n00:00 - What's your favorite managed agent, and why is it Hermes?\n00:54 - What is a managed AI agent?\n01:30 - Grok Bot review: great desktop app, usage limit drama\n02:28 - OpenAI Dots review: slow replies and dropped calls\n03:26 - Meta Muse review: a free tier, and Meta's privacy record\n04:29 - Claude Duet: waitlist preview, slow, asks permission a lot\n05:10 - n8n Nod: open source, runs on your computer, still a preview\n05:32 - What all the big-lab agents are missing\n06:16 - Why Hermes Agent? Free, open source, and you own it\n06:52 - Use any model with Hermes: Claude, GPT, open models\n07:05 - Hermes Desktop, Telegram, Slack, Discord and the phone app\n08:09 - Who maintains Hermes Agent? Nous Research's $90M raise\n08:28 - How to set up Hermes Agent on a Hostinger VPS\n10:09 - Hermes Agent demo: research, an Obsidian note, a Telegram ping\n10:49 - Does Hermes Agent actually improve itself?\n11:13 - Hermes scheduled jobs: a daily GitHub trending digest\n11:30 - How to switch from Grok Bot to Hermes Agent\n11:46 - What's new in Hermes Agent v0.23 (desktop and web app)\n12:27 - Hermes Agent vs the big-lab agents: the bottom line\n12:58 - Hermes Agent downsides: the honest caveats\n13:35 - So what's your favorite managed agent?\n\nLinks from the video:\n- Hermes Agent repo: https://github.com/NousResearch/hermes-agent\n- Import your Grok Bot setup into Hermes: https://hermes-agent.nousresearch.com/docs/user-guide/import-from-other-agents\n- My first Hermes Agent setup video: https://www.youtube.com/watch?v=zHo5glsJYYI\n- My AI model combos video (9Router): https://www.youtube.com/watch?v=Kw_DVXfGPB0\n- My OpenAI Dots video: https://www.youtube.com/watch?v=Zmd1KckTE3o\n- My Meta Muse video: https://www.youtube.com/watch?v=7UabM3KStc0\n\n================================\nWhy watch? I run Easy Machine AI, and I built my AI automation business to consistent five figures monthly by learning to build my own tools instead of renting broken ones. This channel is about real developer workflows, live builds, and skipping the hype so you can ship faster. Stop getting held hostage by basic chatbots and build custom AI systems that actually give you real leverage.\n\n#HermesAgent #AiAgents #SelfHosted #GrokBot #ClaudeDuet #MetaMuse #Obsidian\n\nTools & Tech Stack Discussed:\nHermes Agent, Hermes Desktop, Hostinger VPS, 9Router, Telegram, Obsidian, Grok Bot, OpenAI Dots, Meta Muse, Claude Duet, n8n Nod",
+   "media": [
+    "https://i.ytimg.com/vi/IcCzzwWgaws/hqdefault.jpg"
+   ],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "Hermes Agent 对比 Grok Bot、Dots、Muse",
+     "summary": "作者逐一点评托管个人代理：Grok Bot 桌面应用好用但有用量限制争议；OpenAI Dots 回复慢、通话会掉线；Meta Muse 有免费档但 Meta 隐私记录堪忧；Claude Duet 仍是候补预览、慢且频繁请求许可；n8n Nod 开源、本机运行、仍为预览。作者自己每天用的是在自有服务器上跑的 Hermes Agent，约每月 8 美元。"
+    },
+    "zh-TW": {
+     "title": "Hermes Agent 對比 Grok Bot、Dots、Muse",
+     "summary": "作者逐一點評託管個人代理：Grok Bot 桌面應用好用但有用量限制爭議；OpenAI Dots 回覆慢、通話會斷線；Meta Muse 有免費方案但 Meta 隱私紀錄令人擔憂；Claude Duet 仍是候補預覽、慢且頻繁請求許可；n8n Nod 開源、本機執行、仍為預覽。作者自己每天用的是在自有伺服器上跑的 Hermes Agent，約每月 8 美元。"
+    },
+    "en": {
+     "title": "Hermes Agent vs Grok Bot, Dots and Muse",
+     "summary": "The author reviews managed personal agents: Grok Bot has a great desktop app but usage-limit drama; OpenAI Dots has slow replies and dropped calls; Meta Muse has a free tier but Meta’s privacy record; Claude Duet is a slow waitlist preview that asks permission a lot; n8n Nod is open source, runs on your computer and is still a preview. The agent he runs daily is Hermes Agent on his own server for about $8 a month."
+    },
+    "ja": {
+     "title": "Hermes Agent と Grok Bot・Dots・Muse の比較",
+     "summary": "作者がマネージド型パーソナルエージェントを順に評価。Grok Bot はデスクトップアプリが優秀だが利用上限で揉めている、OpenAI Dots は返信が遅く通話が切れる、Meta Muse は無料枠があるが Meta のプライバシー面が気がかり、Claude Duet は順番待ちのプレビューで遅く許可を頻繁に求める、n8n Nod はオープンソースでローカル動作だがまだプレビュー。作者が毎日使うのは自前サーバーの Hermes Agent で月約 8 ドル。"
+    },
+    "ko": {
+     "title": "Hermes Agent 대 Grok Bot, Dots, Muse",
+     "summary": "작성자가 관리형 개인 에이전트를 하나씩 평가합니다. Grok Bot은 데스크톱 앱이 훌륭하지만 사용량 한도 논란이 있고, OpenAI Dots는 답이 느리고 통화가 끊기며, Meta Muse는 무료 요금제가 있지만 Meta의 개인정보 이력이 걸리고, Claude Duet은 대기자 프리뷰로 느리고 허락을 자주 구하며, n8n Nod는 오픈소스로 내 컴퓨터에서 돌지만 아직 프리뷰입니다. 작성자가 매일 쓰는 것은 자체 서버의 Hermes Agent로 월 약 8달러입니다."
+    },
+    "ms": {
+     "title": "Hermes Agent lwn Grok Bot, Dots dan Muse",
+     "summary": "Penulis menilai ejen peribadi terurus: Grok Bot ada aplikasi desktop yang hebat tetapi isu had penggunaan; OpenAI Dots lambat membalas dan panggilan terputus; Meta Muse ada peringkat percuma tetapi rekod privasi Meta; Claude Duet pratonton senarai menunggu yang lambat dan kerap minta kebenaran; n8n Nod sumber terbuka, berjalan di komputer anda dan masih pratonton. Ejen yang dia guna setiap hari ialah Hermes Agent di pelayannya sendiri, kira-kira $8 sebulan."
+    },
+    "vi": {
+     "title": "Hermes Agent so với Grok Bot, Dots và Muse",
+     "summary": "Tác giả đánh giá các agent cá nhân được quản lý: Grok Bot có ứng dụng desktop tốt nhưng lùm xùm giới hạn sử dụng; OpenAI Dots trả lời chậm và rớt cuộc gọi; Meta Muse có gói miễn phí nhưng vướng hồ sơ quyền riêng tư của Meta; Claude Duet là bản xem trước phải chờ, chậm và hay xin phép; n8n Nod mã nguồn mở, chạy trên máy bạn và vẫn là bản xem trước. Agent anh dùng hằng ngày là Hermes Agent trên máy chủ riêng, khoảng 8 USD mỗi tháng."
+    },
+    "fr": {
+     "title": "Hermes Agent face à Grok Bot, Dots et Muse",
+     "summary": "L’auteur passe en revue les agents personnels gérés : Grok Bot a une excellente app de bureau mais des polémiques sur les limites d’usage ; OpenAI Dots répond lentement et coupe les appels ; Meta Muse offre un niveau gratuit mais traîne le passif de Meta sur la vie privée ; Claude Duet est une préversion sur liste d’attente, lente et qui demande souvent la permission ; n8n Nod est open source, tourne en local et reste en préversion. Lui utilise chaque jour Hermes Agent sur son propre serveur, pour environ 8 $ par mois."
+    },
+    "es": {
+     "title": "Hermes Agent frente a Grok Bot, Dots y Muse",
+     "summary": "El autor repasa los agentes personales gestionados: Grok Bot tiene una gran app de escritorio pero polémica por los límites de uso; OpenAI Dots responde lento y corta llamadas; Meta Muse tiene plan gratuito pero arrastra el historial de privacidad de Meta; Claude Duet es una vista previa con lista de espera, lenta y que pide permiso a menudo; n8n Nod es de código abierto, corre en tu equipo y sigue en vista previa. El que él usa a diario es Hermes Agent en su propio servidor por unos 8 $ al mes."
+    },
+    "de": {
+     "title": "Hermes Agent im Vergleich zu Grok Bot, Dots und Muse",
+     "summary": "Der Autor bewertet verwaltete persönliche Agenten: Grok Bot hat eine starke Desktop-App, aber Ärger um Nutzungslimits; OpenAI Dots antwortet langsam und bricht Anrufe ab; Meta Muse hat eine Gratisstufe, aber Metas Datenschutz-Bilanz; Claude Duet ist eine langsame Warteliste-Vorschau, die oft um Erlaubnis fragt; n8n Nod ist Open Source, läuft lokal und ist noch Vorschau. Er selbst nutzt täglich Hermes Agent auf eigenem Server für rund 8 $ im Monat."
+    }
+   }
+  },
+  {
+   "id": "yt:tYMmtfCBcUs",
+   "url": "https://www.youtube.com/watch?v=tYMmtfCBcUs",
+   "source": "youtube",
+   "source_name": "YouTube",
+   "author": "The Tech Girl",
+   "date": "2026-11-14",
+   "likes": null,
+   "views": 6730,
+   "product": "openai-dots",
+   "text": "ChatGPT Work vs Dots: Are You Using the Right AI for the Job?\nChatGPT vs Work vs Codex vs Dots—what’s the difference, and which one should you use? Let’s break it down using one simple example: planning a weekend trip to Goa.\n\nIs ChatGPT Work just ChatGPT with a new name? Is Codex only for programmers? And what exactly is a dot?\n\nIn this video, I explain when to use ChatGPT for quick answers, Work for finished tasks, Codex for building apps and websites, and OpenAI Dots for ongoing responsibilities. We’ll also look at connectors, plugins, MCP, app permissions and plan differences, so you can decide what you actually need.\n\nCHAPTERS\n00:00 ChatGPT, Work, Codex and Dots\n00:47 The biggest misconception: different jobs, not different AIs\n01:23 ChatGPT: quick answers and everyday help\n01:54 ChatGPT Work: getting tasks done\n03:18 Codex: building apps without coding experience\n04:24 Dots: always-on AI agents explained\n05:49 Dots pricing, limits and memory\n06:29 Connectors, plugins, apps and skills\n07:48 MCP explained and app permissions\n08:30 Which tool and plan should you use?\n\nWhich one would save you the most time—ChatGPT, Work, Codex or Dots? Let me know in the comments.\n\n#ChatGPT #ChatGPTWork #Codex #OpenAIDots #AITools\n\nSubscribe if you liked the video: https://www.youtube.com/@anjanagowtham?Sub_Confirmation=1\n\n❤ Anjana",
+   "media": [
+    "https://i.ytimg.com/vi/tYMmtfCBcUs/hqdefault.jpg"
+   ],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "ChatGPT、Work、Codex 与 Dots 分别该用在哪",
+     "summary": "视频以规划果阿周末旅行为例，区分 OpenAI 各产品：ChatGPT 用于快速问答，ChatGPT Work 用于完成具体任务，Codex 用于搭建应用和网站，Dots 用于持续负责的事务；也讲了连接器、插件、MCP、应用权限和各方案差异。"
+    },
+    "zh-TW": {
+     "title": "ChatGPT、Work、Codex 與 Dots 各該用在哪",
+     "summary": "影片以規劃果阿週末旅行為例，區分 OpenAI 各產品：ChatGPT 用於快速問答，ChatGPT Work 用於完成具體任務，Codex 用於建置應用和網站，Dots 用於持續負責的事務；也講了連接器、外掛、MCP、應用權限和各方案差異。"
+    },
+    "en": {
+     "title": "ChatGPT vs Work vs Codex vs Dots: which to use",
+     "summary": "Using one example, planning a weekend trip to Goa, the video explains when to use ChatGPT for quick answers, ChatGPT Work for finished tasks, Codex for building apps and websites, and OpenAI Dots for ongoing responsibilities, plus connectors, plugins, MCP, app permissions and plan differences."
+    },
+    "ja": {
+     "title": "ChatGPT・Work・Codex・Dots の使い分け",
+     "summary": "ゴアへの週末旅行の計画を例に、素早い回答には ChatGPT、タスクの完了には ChatGPT Work、アプリやサイト作りには Codex、継続的な役割には OpenAI Dots、と使い分けを説明。コネクタ、プラグイン、MCP、アプリの権限、プランの違いにも触れる。"
+    },
+    "ko": {
+     "title": "ChatGPT, Work, Codex, Dots 언제 무엇을 쓸까",
+     "summary": "고아 주말여행 계획이라는 한 가지 예로, 빠른 답은 ChatGPT, 끝내야 할 작업은 ChatGPT Work, 앱과 웹사이트 제작은 Codex, 지속적으로 맡길 일은 OpenAI Dots를 쓰라고 설명합니다. 커넥터, 플러그인, MCP, 앱 권한, 요금제 차이도 다룹니다."
+    },
+    "ms": {
+     "title": "ChatGPT lwn Work lwn Codex lwn Dots: yang mana patut digunakan",
+     "summary": "Dengan satu contoh, merancang percutian hujung minggu ke Goa, video ini menerangkan bila guna ChatGPT untuk jawapan pantas, ChatGPT Work untuk tugasan siap, Codex untuk membina aplikasi dan laman web, dan OpenAI Dots untuk tanggungjawab berterusan, serta penyambung, pemalam, MCP, kebenaran aplikasi dan perbezaan pelan."
+    },
+    "vi": {
+     "title": "ChatGPT, Work, Codex hay Dots: dùng cái nào",
+     "summary": "Lấy ví dụ lên kế hoạch cuối tuần ở Goa, video giải thích khi nào dùng ChatGPT để hỏi nhanh, ChatGPT Work để hoàn thành công việc, Codex để làm ứng dụng và website, và OpenAI Dots cho các trách nhiệm lâu dài; kèm connector, plugin, MCP, quyền ứng dụng và khác biệt giữa các gói."
+    },
+    "fr": {
+     "title": "ChatGPT, Work, Codex ou Dots : lequel utiliser",
+     "summary": "À partir d’un seul exemple, préparer un week-end à Goa, la vidéo explique quand utiliser ChatGPT pour des réponses rapides, ChatGPT Work pour des tâches abouties, Codex pour créer des applis et des sites, et OpenAI Dots pour des responsabilités continues, ainsi que connecteurs, plugins, MCP, autorisations et différences d’offres."
+    },
+    "es": {
+     "title": "ChatGPT, Work, Codex o Dots: cuál usar",
+     "summary": "Con un solo ejemplo, planear un fin de semana en Goa, el video explica cuándo usar ChatGPT para respuestas rápidas, ChatGPT Work para tareas terminadas, Codex para crear apps y webs y OpenAI Dots para responsabilidades continuas, además de conectores, plugins, MCP, permisos de apps y diferencias entre planes."
+    },
+    "de": {
+     "title": "ChatGPT, Work, Codex oder Dots: was wofür",
+     "summary": "Am Beispiel einer Wochenendreise nach Goa erklärt das Video, wann ChatGPT für schnelle Antworten, ChatGPT Work für erledigte Aufgaben, Codex für Apps und Websites und OpenAI Dots für dauerhafte Zuständigkeiten passt – dazu Connectoren, Plugins, MCP, App-Berechtigungen und Planunterschiede."
+    }
+   }
+  },
+  {
+   "id": "gh:github.com/yzdame/geogebra-studio/pull/27",
+   "url": "https://github.com/YZDame/GeoGebra-Studio/pull/27",
+   "source": "github",
+   "source_name": "GitHub",
+   "author": "YZDame",
+   "date": "2026-11-17",
+   "likes": 1,
+   "product": "grok-bot",
+   "text": "README 增加 Cursor / Grok Bot 安装说明\n<!-- CURSOR_AGENT_PR_BODY_BEGIN -->\n## Change\n\n九种语言的 README 增加从 GitHub 安装的说明，并去掉 Cursor 市场安装和上架相关说法。\n\n- Cursor：克隆仓库后，把仓库目录复制到 `~/.cursor/plugins/local/geogebra-studio`（不要用符号链接），然后执行 Reload Window。也可以只把 `skills/geogebra-studio` 复制到 [Cursor 技能目录](https://cursor.com/docs/skills)：`~/.cursor/skills/`、`~/.agents/skills/`、`.cursor/skills/`、`.agents/skills/`。\n- Grok Bot：让它把 `skills/geogebra-studio` 整个文件夹（含 `scripts/`、`runtime/`、`references/`、`examples/`）拷进技能库。可以直接说“从 https://github.com/YZDame/GeoGebra-Studio 安装 geogebra-studio 技能”。机器需要 Node.js 22.12 或更高版本。\n\n`.cursor-plugin/plugin.json` 和 SKILL.md 的改动保留，供本地安装使用。\n\n## Validation\n\n- `node scripts/stamp-figure-pages.cjs`：通过。\n- `npm run verify`：通过。\n- `npm run test:unit`：9 个套件、119 项通过。\n- `node scripts/package-release.cjs` 与 `node scripts/verify-package.cjs`：通过。\n\n<!-- CURSOR_AGENT_PR_BODY_END -->\n\n<div><a href=\"https://cursor.com/agents/bc-5826852a-f727-5152-ae85-c9ae9532ab68?cursor_ref=pr_footer&cursor_cta=open_in_web\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://cursor.com/assets/images/open-in-web-dark.png\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://cursor.com/assets/images/open-in-web-light.png\"><img alt=\"Open in Web\" width=\"114\" height=\"28\" src=\"https://cursor.com/assets/images/open-in-web-dark.png\"></picture></a>&nbsp;<a href=\"https://cursor.com/background-agent?bcId=bc-5826852a-f727-5152-ae85-c9ae9532ab68&cursor_ref=pr_footer&cursor_cta=open_in_cursor\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://cursor.com/assets/images/open-in-cursor-dark.png\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://cursor.com/assets/images/open-in-cursor-light.png\"><img alt=\"Open in Cursor\" width=\"131\" height=\"28\" src=\"https://cursor.com/assets/images/open-in-cursor-dar",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "让 Grok Bot 直接从 GitHub 安装技能",
+     "summary": "GeoGebra Studio 的 README 新增安装说明：在 Grok Bot 里可以直接说“从 https://github.com/YZDame/GeoGebra-Studio 安装 geogebra-studio 技能”，让它把 skills/geogebra-studio 整个文件夹（含 scripts、runtime、references、examples）拷进技能库；机器需 Node.js 22.12 或更高。Cursor 则复制到本地插件或技能目录后重载窗口。"
+    },
+    "zh-TW": {
+     "title": "讓 Grok Bot 直接從 GitHub 安裝技能",
+     "summary": "GeoGebra Studio 的 README 新增安裝說明：在 Grok Bot 裡可以直接說「從 https://github.com/YZDame/GeoGebra-Studio 安裝 geogebra-studio 技能」，讓它把 skills/geogebra-studio 整個資料夾（含 scripts、runtime、references、examples）複製進技能庫；機器需 Node.js 22.12 或更高。Cursor 則複製到本機外掛或技能目錄後重新載入視窗。"
+    },
+    "en": {
+     "title": "Installing a skill into Grok Bot straight from GitHub",
+     "summary": "GeoGebra Studio’s README adds install steps: in Grok Bot you can just say \"install the geogebra-studio skill from https://github.com/YZDame/GeoGebra-Studio\" so it copies the whole skills/geogebra-studio folder (with scripts, runtime, references, examples) into its skill library; the machine needs Node.js 22.12 or later. For Cursor, copy it into the local plugins or skills folder and reload the window."
+    },
+    "ja": {
+     "title": "Grok Bot に GitHub から直接スキルを入れる",
+     "summary": "GeoGebra Studio の README にインストール手順を追加。Grok Bot には「https://github.com/YZDame/GeoGebra-Studio から geogebra-studio スキルをインストールして」と頼めば、skills/geogebra-studio フォルダ全体（scripts、runtime、references、examples を含む）をスキルライブラリにコピーする。Node.js 22.12 以上が必要。Cursor はローカルのプラグインまたはスキルフォルダにコピーしてウィンドウを再読み込み。"
+    },
+    "ko": {
+     "title": "Grok Bot에 GitHub에서 바로 스킬 설치하기",
+     "summary": "GeoGebra Studio README에 설치 방법이 추가되었습니다. Grok Bot에게 「https://github.com/YZDame/GeoGebra-Studio 에서 geogebra-studio 스킬을 설치해 줘」라고 말하면 skills/geogebra-studio 폴더 전체(scripts, runtime, references, examples 포함)를 스킬 라이브러리로 복사합니다. Node.js 22.12 이상이 필요합니다. Cursor는 로컬 플러그인 또는 스킬 폴더에 복사한 뒤 창을 다시 불러옵니다."
+    },
+    "ms": {
+     "title": "Pasang kemahiran ke Grok Bot terus dari GitHub",
+     "summary": "README GeoGebra Studio menambah langkah pemasangan: dalam Grok Bot anda boleh berkata \"pasang kemahiran geogebra-studio dari https://github.com/YZDame/GeoGebra-Studio\" supaya ia menyalin keseluruhan folder skills/geogebra-studio (termasuk scripts, runtime, references, examples) ke pustaka kemahirannya; mesin memerlukan Node.js 22.12 atau lebih baharu. Untuk Cursor, salin ke folder pemalam atau kemahiran tempatan dan muat semula tetingkap."
+    },
+    "vi": {
+     "title": "Cài skill vào Grok Bot thẳng từ GitHub",
+     "summary": "README của GeoGebra Studio thêm hướng dẫn cài: trong Grok Bot chỉ cần nói “cài skill geogebra-studio từ https://github.com/YZDame/GeoGebra-Studio” để nó chép toàn bộ thư mục skills/geogebra-studio (gồm scripts, runtime, references, examples) vào thư viện skill; máy cần Node.js 22.12 trở lên. Với Cursor, chép vào thư mục plugin hoặc skill cục bộ rồi tải lại cửa sổ."
+    },
+    "fr": {
+     "title": "Installer une compétence dans Grok Bot directement depuis GitHub",
+     "summary": "Le README de GeoGebra Studio ajoute la procédure : dans Grok Bot, il suffit de dire « installe la compétence geogebra-studio depuis https://github.com/YZDame/GeoGebra-Studio » pour qu’il copie tout le dossier skills/geogebra-studio (scripts, runtime, references, examples) dans sa bibliothèque ; la machine doit avoir Node.js 22.12 ou plus. Pour Cursor, copier le dossier dans les plugins ou compétences locaux puis recharger la fenêtre."
+    },
+    "es": {
+     "title": "Instalar una skill en Grok Bot directamente desde GitHub",
+     "summary": "El README de GeoGebra Studio añade instrucciones: en Grok Bot basta con decir «instala la skill geogebra-studio desde https://github.com/YZDame/GeoGebra-Studio» para que copie toda la carpeta skills/geogebra-studio (con scripts, runtime, references y examples) en su biblioteca; la máquina necesita Node.js 22.12 o superior. En Cursor, se copia a la carpeta local de plugins o skills y se recarga la ventana."
+    },
+    "de": {
+     "title": "Einen Skill direkt von GitHub in Grok Bot installieren",
+     "summary": "Das README von GeoGebra Studio ergänzt eine Anleitung: In Grok Bot genügt „installiere den Skill geogebra-studio von https://github.com/YZDame/GeoGebra-Studio“, damit er den ganzen Ordner skills/geogebra-studio (mit scripts, runtime, references, examples) in die Skill-Bibliothek kopiert; nötig ist Node.js 22.12 oder neuer. Für Cursor in den lokalen Plugin- oder Skill-Ordner kopieren und das Fenster neu laden."
+    }
+   }
+  }
+ ]
 }
