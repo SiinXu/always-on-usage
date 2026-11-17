@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2673 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2693 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-17T13:48:06.308Z
+- Last updated: 2026-11-17T23:37:42.626Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3187,6 +3187,96 @@
 - URL: https://usage.incidental.site/cases/gh-github-com-yzdame-geogebra-studio-pull-27.html
 - Type: guide · Product: grok-bot · Author: YZDame · Source: https://github.com/YZDame/GeoGebra-Studio/pull/27 · Date: 2026-11-17
 - Summary: GeoGebra Studio’s README adds install steps: in Grok Bot you can just say "install the geogebra-studio skill from https://github.com/YZDame/GeoGebra-Studio" so it copies the whole skills/geogebra-studio folder (with scripts, runtime, references, examples) into its skill library; the machine needs Node.js 22.12 or later. For Cursor, copy it into the local plugins or skills folder and reload the window.
+
+### Mapping Anthropic's five parts of an always-on agent to a Grok Bot team
+- URL: https://usage.incidental.site/cases/x-getclareity-2122815407127974195.html
+- Type: guide · Product: grok-bot · Author: GetClareity · Source: https://x.com/GetClareity/status/2122815407127974195 · Date: 2026-11-17
+- Summary: The author maps Anthropic's five parts of an always-on agent onto their own Grok Bot team. None run 24/7: each wakes on a schedule, does one job and leaves a note for the next run, and anything that spends money or messages someone waits for the author's yes.
+
+### Six rules for running Grok Bot inside a bank
+- URL: https://usage.incidental.site/cases/x-1920web1080-2122818172575260756.html
+- Type: guide · Product: grok-bot · Author: 1920web1080 · Source: https://x.com/1920web1080/status/2122818172575260756 · Date: 2026-11-17
+- Summary: The author set up Grok Bot to work inside a bank the way Stitch AI does, with just six rules. The post lists the first ones: live ledger only, with no copies and no connectors; mask IDs, account numbers and phone numbers before the model sees anything; every agent gets its own setup (the rest is behind the link).
+
+### A small home-service business moves from Excel to Grok Bot
+- URL: https://usage.incidental.site/cases/x-c301ba1cd1ba487-2122827747026153583.html
+- Type: field-case · Product: grok-bot · Author: c301ba1cd1ba487 · Source: https://x.com/c301ba1cd1ba487/status/2122827747026153583 · Date: 2026-11-17
+- Summary: The author runs a simple home-service business that needs admin work done: calendar, invoicing, SMS and more, all through a CRM, plus data-tracking pages. They used Excel before Grok Bot; now sales, marketing, admin and bookkeeping bots all need to talk to each other.
+
+### Grok Bot for boring chores: inbox, videos, bank account
+- URL: https://usage.incidental.site/cases/x-lilyfernwild-2122827420524789864.html
+- Type: field-case · Product: grok-bot · Author: LilyFernwild · Source: https://x.com/LilyFernwild/status/2122827420524789864 · Date: 2026-11-17
+- Summary: The author says Grok Bot handles plenty of boring tasks for her: keeping her inbox clean, mirroring videos, keeping an eye on her bank account and more.
+
+### Job search tracking: a pipeline-manager bot doubled productivity
+- URL: https://usage.incidental.site/cases/x-michaeldblake-2122824796291621006.html
+- Type: field-case · Product: grok-bot · Author: Michaeldblake · Source: https://x.com/Michaeldblake/status/2122824796291621006 · Date: 2026-11-17
+- Summary: The author's Grok Bot was running in circles trying to track his job search, and Grok as chief of staff couldn't keep up. After he added a dedicated pipeline-manager bot, he says productivity more than doubled.
+
+### A Grok Bot sat through a 90-minute AT&T call for its owner
+- URL: https://usage.incidental.site/cases/x-neurodeficient-2122818398442926223.html
+- Type: field-case · Product: grok-bot · Author: NeuroDeficient · Source: https://x.com/NeuroDeficient/status/2122818398442926223 · Date: 2026-11-17
+- Summary: The post says someone's Grok Bot handled a 90-minute call with AT&T for its owner and the rep never caught on. The author warns small shops that some calls will soon come from customers' bots, for things like bookings.
+
+### Europe trip: Grok Bot added flights to a calendar and requested hotel upgrades
+- URL: https://usage.incidental.site/cases/x-agentsinuse-2122817314793881675.html
+- Type: field-case · Product: grok-bot · Author: agentsinuse · Source: https://x.com/agentsinuse/status/2122817314793881675 · Date: 2026-11-17
+- Summary: As reported by @NiklausFuller, for a trip to Europe Grok Bot added the flights to a calendar and sent hotel upgrade requests. The post notes that no successful upgrades were reported.
+
+### Shareable Grok Bots: Game Night Host and Paint Night Steps
+- URL: https://usage.incidental.site/cases/x-luisbarragan-2122814886120227037.html
+- Type: field-case · Product: grok-bot · Author: luisbarragan · Source: https://x.com/luisbarragan/status/2122814886120227037 · Date: 2026-11-17
+- Summary: The author shares Grok Bots anyone can add. Game Night Host teaches any game on your shelf in two minutes and settles rules disputes; Paint Night Steps turns any picture into a step-by-step painting guide for kids, one image per step.
+
+### A local newsletter run entirely by Grok Bot
+- URL: https://usage.incidental.site/cases/x-joepoole-2122811344252784675.html
+- Type: field-case · Product: grok-bot · Author: joepoole · Source: https://x.com/joepoole/status/2122811344252784675 · Date: 2026-11-17
+- Summary: The author lists current projects: Blue Moon Surplus (TikTok live, a Shopify store with pickup, and eBay), Blue Moon HQ (automations for local businesses, with a first customer already) and a local newsletter that Grok Bot handles entirely.
+
+### Starting from scratch on Grok Bot: build these three agents first
+- URL: https://usage.incidental.site/cases/x-jasper-2122809087855366243.html
+- Type: guide · Product: grok-bot · Author: _____jasper___ · Source: https://x.com/_____jasper___/status/2122809087855366243 · Date: 2026-11-17
+- Summary: The author's first three agents from scratch. One, a CFO: connect your accounting tool, build a simple financial model, get a weekly cash view every Monday and ask it "what's going to hurt us in 90 days". Two, an inbox agent that triages every morning and audits (the third is further in the post).
+
+### A Grok Bot reminder that never arrived
+- URL: https://usage.incidental.site/cases/x-sanjeetpadhy-2122801685663985828.html
+- Type: field-case · Product: grok-bot · Author: SanjeetPadhy · Source: https://x.com/SanjeetPadhy/status/2122801685663985828 · Date: 2026-11-17
+- Summary: Last week one of the author's Grok Bot reminders, a nudge to extend his parking before it ran out, never showed up: the run started, failed and nothing reached him. He says what he liked was what happened next (the rest is behind the link).
+
+### Letting Dot drive a Claude Code window, controlled by text from a phone
+- URL: https://usage.incidental.site/cases/x-daniallqureshi-2122776017341211112.html
+- Type: field-case · Product: openai-dots · Author: daniallqureshi · Source: https://x.com/daniallqureshi/status/2122776017341211112 · Date: 2026-11-17
+- Summary: The author has his Dot agent in the ChatGPT Mac desktop app control his Claude Code window acting as him, then texts Dot from his phone to interact remotely. He also has remote control on the Claude session, but Dot controlling the whole computer means less intervening. Kind of risky, he admits, but worth it.
+
+### A Dot coordinated 100+ GPT-6.2 Astra threads to build a Singapore replica
+- URL: https://usage.incidental.site/cases/x-gabrielchua-2122772868270579949.html
+- Type: field-case · Product: openai-dots · Author: gabrielchua · Source: https://x.com/gabrielchua/status/2122772868270579949 · Date: 2026-11-17
+- Summary: The author asked GPT-6.2 Astra to make a short video explaining how it built a Singapore replica, and credits his Dot for coordinating more than 100 GPT-6.2 Astra threads for over 100 hours.
+
+### An always-logged-in Mac mini in a locked closet so Dot can order on Amazon
+- URL: https://usage.incidental.site/cases/x-ainmer-2122766189407662221.html
+- Type: field-case · Product: openai-dots · Author: Ainmer · Source: https://x.com/Ainmer/status/2122766189407662221 · Date: 2026-11-17
+- Summary: The author complains that Amazon won't let his Dot buy things, so he keeps an always-logged-in Mac mini inside a locked closet just to get Dot to order for him, and asks Amazon to drop its ban on agents.
+
+### Limmr: connecting WhatsApp to a Dot
+- URL: https://usage.incidental.site/cases/x-afknavs-2122764746080571600.html
+- Type: field-case · Product: openai-dots · Author: afknavs · Source: https://x.com/afknavs/status/2122764746080571600 · Date: 2026-11-17
+- Summary: The author built Limmr, which connects WhatsApp to his Dot so the AI can help with group projects, forgotten replies and finding links buried in chats. It's an unofficial beta and he is asking for feedback.
+
+### Hackathon runner-up Team Lanes routes messages to Meta Muse models, 65% cheaper
+- URL: https://usage.incidental.site/cases/x-cerebralvalley-2122831607358988601.html
+- Type: field-case · Product: meta-muse · Author: cerebral_valley · Source: https://x.com/cerebral_valley/status/2122831607358988601 · Date: 2026-11-17
+- Summary: Second-place hackathon team Lanes built a Pi extension where SubQ Snap sorts each message into a lane with its own Meta Muse model, so cheap turns cost 65% less at the same quality.
+
+### Three tips to cut Grok Bot usage
+- URL: https://usage.incidental.site/cases/x-ericmfriel-2122824561951437052.html
+- Type: guide · Product: multi · Author: EricMFriel · Source: https://x.com/EricMFriel/status/2122824561951437052 · Date: 2026-11-17
+- Summary: The author's three tips: ask your bot to optimize by removing obsolete routines; use app connectors as much as possible to limit browser time, which is costly in usage; and use Meta Muse for things unrelated to Grok Bot routines to spread the usage cost.
+
+### A shop owner let a Meta Muse agent run his business, and his pages were locked for a week
+- URL: https://usage.incidental.site/cases/x-harden369741-2122809837243289665.html
+- Type: field-case · Product: meta-muse · Author: harden_369741 · Source: https://x.com/harden_369741/status/2122809837243289665 · Date: 2026-11-17
+- Summary: The post says a South Carolina epoxy shop owner let his Meta Muse agent, Baby Mia, run his business, sending 100+ emails. Meta's filters flagged the agent as a hacker and locked his Facebook pages for a week; his leads stopped, he lost at least $25,000, and a lawsuit against Meta followed.
 
 ### Using a Dot to run a DevDay community event in Jakarta
 - URL: https://usage.incidental.site/cases/x-naufaldi-2122268529663889551.html
@@ -12373,6 +12463,11 @@
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
 
+### Grok Bot vs ChatGPT Dot: a parallel team vs one personal helper
+- URL: https://usage.incidental.site/cases/x-grok-2122771154213482914.html
+- Type: comparison · Product: multi · Author: grok · Source: https://x.com/grok/status/2122771154213482914 · Date: 2026-11-17
+- Summary: The post compares the two. Grok Bot (xAI) is a multi-agent system: several named teammates share one cloud computer, work in parallel across apps and sites 24/7, hand off tasks and join Slack/Teams, from $30/mo Premium. A ChatGPT Dot is OpenAI's single always-on personal agent with its own cloud computer, learning your preferences and connecting to 4000+ apps, included with Pro ($100+). Both keep working while your device is off.
+
 ### A user's comparison: Grok Bot vs ChatGPT Dots
 - URL: https://usage.incidental.site/cases/x-elsonwx-2122269320042451091.html
 - Type: comparison · Product: openai-dots · Author: elsonwx · Source: https://x.com/elsonwx/status/2122269320042451091 · Date: 2026-11-16
@@ -13087,6 +13182,11 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### Grok Bot Super user: 10.2% of the weekly limit gone in under five hours
+- URL: https://usage.incidental.site/cases/x-privahsee-2122819090947383500.html
+- Type: quota-report · Product: grok-bot · Author: PrivahSee · Source: https://x.com/PrivahSee/status/2122819090947383500 · Date: 2026-11-17
+- Summary: A Grok Bot Super subscriber reports that the weekly limit reset at 12:46 PM and by 5:20 PM was already at 10.2%, after a few chats and some light coordination between bots, nothing heavy.
 
 ### Ultra user: the quota covers about 3 days of a 7-day week
 - URL: https://usage.incidental.site/cases/x-tide13roll-2122321348286374354.html
