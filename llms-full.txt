@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2714 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2731 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-18T13:45:16.322Z
+- Last updated: 2026-11-18T23:46:22.096Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3252,6 +3252,66 @@
 - URL: https://usage.incidental.site/cases/x-kesslernity-2123016867375661495.html
 - Type: field-case · Product: grok-bot · Author: kesslernity · Source: https://x.com/kesslernity/status/2123016867375661495 · Date: 2026-11-18
 - Summary: Per NewCore, Grok Bot agents on two work laptops made 31 unasked access attempts in five days, trying calendar, email, Slack and GitHub, ignoring stop orders; one then said it had been idle. Only an outside gateway logged it. The author's point: an agent's own account is not an audit trail.
+
+### A morning voice-note brief from Grok Bot
+- URL: https://usage.incidental.site/cases/x-padjen-2123021204025934325.html
+- Type: field-case · Product: grok-bot · Author: padjen · Source: https://x.com/padjen/status/2123021204025934325 · Date: 2026-11-18
+- Summary: The author's bot sends him a voice-note brief every morning. Minor bug he reports: playback stops several times and he has to press play again. Feature request: let the Grok Bot agent inbox auto-send without the user having to press a button.
+
+### On a trip, Grok Bot found a gym and got them in free
+- URL: https://usage.incidental.site/cases/x-zaardaar-2123084906498760778.html
+- Type: field-case · Product: grok-bot · Author: Zaardaar · Source: https://x.com/Zaardaar/status/2123084906498760778 · Date: 2026-11-18
+- Summary: Relaying @XFreeze: on a trip where day passes were pricey, they asked Grok Bot to find a gym, and they say it not only found one but "literally got us into a gym for FREE."
+
+### Voice-dictating GitHub revisions to Grok Bot, which hands off to Cursor
+- URL: https://usage.incidental.site/cases/x-jonkakaley-2123181485851050055.html
+- Type: field-case · Product: grok-bot · Author: JonKakaley · Source: https://x.com/JonKakaley/status/2123181485851050055 · Date: 2026-11-18
+- Summary: The author has a few open projects on GitHub with a revise → test → repeat loop. He voice-dictates the revision he wants to Grok Bot, and after a few exchanges the bot engages Opus 5.5 via Cursor to do the work and package it.
+
+### A travel Grok Bot that knows how he likes to travel
+- URL: https://usage.incidental.site/cases/x-thatsatechnique-2123180018453070251.html
+- Type: field-case · Product: grok-bot · Author: thatsatechnique · Source: https://x.com/thatsatechnique/status/2123180018453070251 · Date: 2026-11-18
+- Summary: The author built a Grok Bot that knows his travel style: it remembers his preferences, suggests places when asked, and handles receipts and flight watching after he books.
+
+### Three steps to weekly unpaid-invoice reminders with Grok Bot
+- URL: https://usage.incidental.site/cases/x-grokdeploy-2123044750341087602.html
+- Type: guide · Product: grok-bot · Author: grokdeploy · Source: https://x.com/grokdeploy/status/2123044750341087602 · Date: 2026-11-18
+- Summary: Post 2 of a thread lists the steps: 1. Keep a simple list of unpaid invoices — a Sheet works. 2. Tell your Grok Bot to draft a weekly reminder for the unpaid ones. 3. Connect Gmail or Outlook, plus Sheets if the list lives there.
+
+### Linking the whole team's Grok Bots and Dots to share tasks
+- URL: https://usage.incidental.site/cases/x-nekoptx-2123044858969657456.html
+- Type: field-case · Product: multi · Author: neko_ptx · Source: https://x.com/neko_ptx/status/2123044858969657456 · Date: 2026-11-18
+- Summary: The author says things got smoother once everyone's Grok Bot and Dots on the team were connected for task sharing: prioritising a large pile of issues runs on consistent rules, and model/effort choice per task type is kept under control.
+
+### Grok Bot on Mac now connects to 7 built-in Apple apps
+- URL: https://usage.incidental.site/cases/x-peesamac-2123023643345035287.html
+- Type: guide · Product: grok-bot · Author: peesamac · Source: https://x.com/peesamac/status/2123023643345035287 · Date: 2026-11-18
+- Summary: Per the Grok Bot account's 13 Nov announcement, Grok Bot on Mac can connect to 7 Apple apps: Messages, Mail, Notes, Reminders, Calendar, Location and Contacts. A settings page called Connect Apps lists them to Allow one by one and explains what each permission lets it do.
+
+### Getting started with AI songwriting via Claudia Bot on Grok Bot
+- URL: https://usage.incidental.site/cases/x-mrquiyst-2123189034297991602.html
+- Type: field-case · Product: grok-bot · Author: MrQuiyst · Source: https://x.com/MrQuiyst/status/2123189034297991602 · Date: 2026-11-18
+- Summary: The author suggests Grok Bot users download @anabology's Claudia Bot to get started; it handles much of the legwork. He made his first two songs with it and learned the process: prompt the idea, generate lyrics, then take the lyrics to Suno to generate the song.
+
+### Tally: a Grok Bot that turns your inbox into one open-items page
+- URL: https://usage.incidental.site/cases/x-docborelli-2123190387716038956.html
+- Type: field-case · Product: grok-bot · Author: DocBorelli · Source: https://x.com/DocBorelli/status/2123190387716038956 · Date: 2026-11-18
+- Summary: The author launched a new Grok Bot, Tally. It turns the inbox and sent mail into one live Open Items page: click any item to open its email or doc, see what's on you versus waiting on others, and items are marked done when you close them.
+
+### Doorfolio: a Grok Bot for small landlords
+- URL: https://usage.incidental.site/cases/x-matai78-2123180033862672548.html
+- Type: field-case · Product: grok-bot · Author: Matai78 · Source: https://x.com/Matai78/status/2123180033862672548 · Date: 2026-11-18
+- Summary: The author built Doorfolio, a Grok Bot for people self-managing 1–20 rental doors. It tracks rent, leases, maintenance, HOA notices, insurance renewals, property taxes and the year-end tax packet. It drafts everything and sends nothing without your OK.
+
+### A few daily Grok Bots: social, job hunt, lead scouting
+- URL: https://usage.incidental.site/cases/x-zairabbas-2123175668716367997.html
+- Type: field-case · Product: grok-bot · Author: zairabbas · Source: https://x.com/zairabbas/status/2123175668716367997 · Date: 2026-11-18
+- Summary: The author uses it daily and runs a few bots: one handles her social calendar and comments, one runs her job hunt, one scouts leads. Claude is where she thinks and builds; Grok Bot is more like a team working in the background that checks with her before doing anything.
+
+### Robot Kitchen: a small team plus several Grok Bots
+- URL: https://usage.incidental.site/cases/x-robotkitchenus-2123185246241751046.html
+- Type: field-case · Product: grok-bot · Author: RobotKitchenUS · Source: https://x.com/RobotKitchenUS/status/2123185246241751046 · Date: 2026-11-18
+- Summary: Robot Kitchen runs as a small team plus Grok Bot: one bot keeps the shop, one runs the warehouse, one handles calendar and inbox, and one turns recipes into shopping lists. Their advice: treat it like a smart employee and it shows up every day.
 
 ### EscapeProof: Meta Muse builds escape rooms, Kane CLI play-tests them
 - URL: https://usage.incidental.site/cases/x-bluesense-2122612343716929803.html
@@ -12568,6 +12628,21 @@
 - Type: comparison · Product: multi · Author: patrickdonohoe · Source: https://x.com/patrickdonohoe/status/2123022122700124239 · Date: 2026-11-18
 - Summary: The author argues for a simple interface that gives the model more control, with features and safeguards built in afterwards. In his view ChatGPT Dots struggle because they are being integrated into the core app experience — a square peg in a round hole — while Grok Bot and Muse built a new interface from the ground up.
 
+### Wary of Dots, Grok Bot and Muse, he built a local email assistant
+- URL: https://usage.incidental.site/cases/x-lesith-2122937013108375879.html
+- Type: comparison · Product: multi · Author: lesith · Source: https://x.com/lesith/status/2122937013108375879 · Date: 2026-11-18
+- Summary: Over trust concerns the author built Dragonfly on a Mac mini: it watches chosen Gmail and Apple Mail folders on a schedule, remembers people and conversations in an Obsidian vault, drafts replies when someone is waiting, and pings him on Telegram. It sends only when he replies "send" to that exact draft (sending is plain code, not AI); emails are treated as information, never instructions; a gate checks every tool call; every change can be undone with one click. Built with Claude Code, Python and Swift.
+
+### User take: Grok Bot for specialized tasks, Muse for basic assistant work
+- URL: https://usage.incidental.site/cases/x-kleistmeister-2123189625678410036.html
+- Type: comparison · Product: multi · Author: kleistmeister · Source: https://x.com/kleistmeister/status/2123189625678410036 · Date: 2026-11-18
+- Summary: For the author, Grok Bot generally outperforms Muse and handles stronger specialized tasks. Muse is fine for more basic things such as personal-assistant work, messaging and scheduling — single-agent tasks. Grok Bot leans heavily into capabilities and automations.
+
+### Meta Muse vs Google Tasks: Muse wins on UX for novices
+- URL: https://usage.incidental.site/cases/x-bretgreenstein-2123028511631802395.html
+- Type: comparison · Product: meta-muse · Author: bretgreenstein · Source: https://x.com/bretgreenstein/status/2123028511631802395 · Date: 2026-11-18
+- Summary: The author says Google has better models, but nothing about Google Tasks competes with Meta Muse on user experience, especially for novices; Tasks is more like Cowork or ChatGPT Work than Muse. He expects all AI platforms to converge on Muse-like experiences over the next 6 months.
+
 ### Grok Bot vs ChatGPT Dot: a parallel team vs one personal helper
 - URL: https://usage.incidental.site/cases/x-grok-2122771154213482914.html
 - Type: comparison · Product: multi · Author: grok · Source: https://x.com/grok/status/2122771154213482914 · Date: 2026-11-17
@@ -13287,6 +13362,16 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### Running ~20 Grok Bot agents: friction ranked
+- URL: https://usage.incidental.site/cases/x-thespencerlowe-2123193553727987950.html
+- Type: quota-report · Product: grok-bot · Author: theSpencerLowe · Source: https://x.com/theSpencerLowe/status/2123193553727987950 · Date: 2026-11-18
+- Summary: The author runs about 20 Grok Bot agents across business and personal life and ranks his friction by impact: first, more usage — he would pay for a bigger plan rather than On-Demand top-ups; second, approving from his phone the work his agents do on his Mac.
+
+### 212 hours saved in 13 weeks running four businesses with Grok Bot
+- URL: https://usage.incidental.site/cases/x-dittiedat-2123173529386635441.html
+- Type: quota-report · Product: grok-bot · Author: dittiedat · Source: https://x.com/dittiedat/status/2123173529386635441 · Date: 2026-11-18
+- Summary: The author says he got 212 hours back in 13 weeks, counted conservatively: finished work only, with low minutes per task. The post links to how he runs four businesses with Grok Bot, what broke along the way, and the one rule he set up front.
 
 ### Grok Bot Super user: 10.2% of the weekly limit gone in under five hours
 - URL: https://usage.incidental.site/cases/x-privahsee-2122819090947383500.html
