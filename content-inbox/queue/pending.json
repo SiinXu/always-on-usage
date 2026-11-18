@@ -166014,19 +166014,6 @@
    "found_at": "2026-11-18T13:38:35.361Z"
   },
   {
-   "id": "x:2123044858969657456",
-   "url": "https://x.com/neko_ptx/status/2123044858969657456",
-   "source": "x",
-   "source_name": "X",
-   "author": "neko_ptx",
-   "date": "2026-11-18",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "チーム全員のGrok Botとdotsを繋いでタスクシェアできるようになってから捗る。大量のIssue群の優先順位判断が一貫したルールで回るし、タスクの性質ごとのモデル/エフォート選択も統制できて効率よい。面白いね",
-   "media": [],
-   "found_at": "2026-11-18T13:38:35.361Z"
-  },
-  {
    "id": "x:2123044818125464035",
    "url": "https://x.com/fujiai_jp/status/2123044818125464035",
    "source": "x",
@@ -166075,19 +166062,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@AIGuide_ If you really know what you're doing, Grok bot can be your entire business. \n\nJust ask @HeyYoGB",
-   "media": [],
-   "found_at": "2026-11-18T13:38:35.361Z"
-  },
-  {
-   "id": "x:2123044750341087602",
-   "url": "https://x.com/grokdeploy/status/2123044750341087602",
-   "source": "x",
-   "source_name": "X",
-   "author": "grokdeploy",
-   "date": "2026-11-18",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "2/\n1. Keep a simple list of unpaid invoices. A Sheet works.\n2. Tell your Grok Bot to draft a weekly reminder for unpaid ones.\n3. Connect Gmail or Outlook, and Sheets if the list lives there.",
    "media": [],
    "found_at": "2026-11-18T13:38:35.361Z"
   },
@@ -166509,34 +166483,6 @@
    "found_at": "2026-11-18T13:38:35.362Z"
   },
   {
-   "id": "x:2123028511631802395",
-   "url": "https://x.com/bretgreenstein/status/2123028511631802395",
-   "source": "x",
-   "source_name": "X",
-   "author": "bretgreenstein",
-   "date": "2026-11-18",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "Google has better models, but there is nothing about Google Tasks that competes with Meta Muse as far as user experience, especially for novices.  Task is more like a Cowork or ChatGPT Work than it is like Muse.  All AI platforms will converge on Muse-like experiences over the next 6 months.",
-   "media": [],
-   "found_at": "2026-11-18T13:38:35.362Z"
-  },
-  {
-   "id": "x:2122937013108375879",
-   "url": "https://x.com/lesith/status/2122937013108375879",
-   "source": "x",
-   "source_name": "X",
-   "author": "lesith",
-   "date": "2026-11-18",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "How much can you trust OpenAI Dots, Grok Bots or Meta Muse? I did not want to wait for Claude Duet. So I am building my own.\n\nMeet Dragonfly 🪽, a personal email assistant that lives on my Mac mini, not in someone else’s cloud.\n\nWhat it does:\n📬 Watches the Gmail and Apple Mail folders I point it at, on my schedule\n🧠 Remembers people and conversations in an Obsidian vault I can read and edit\n✍️ Drafts replies when someone is waiting on me\n📱 Tells me on Telegram what needs me\n\nWhat it can’t do is the part I care about most:\n🔒 It can’t send anything unless I reply “send” to that exact draft. Sending is plain code, not AI.\n🛡️ An email can’t give it orders. Everything it reads is treated as information, never as instructions.\n🚧 A gate checks every single tool call. If it has read outside text, it can’t change its own rules, and those changes wait for my OK.\n↩️ Every run is saved in its memory’s history, and I can undo any change with one click.\n\nBuilt with Claude Code, Python, Swift and a lot of “what could go wrong here?”\n\nWould you let an AI assistant into your inbox? What would it need to earn your trust? 👇\n\n#AI #AIAgents #ClaudeCode #Anthropic #PersonalAI #Privacy #AISafety #BuildInPublic #IndieDev #Automation #Productivity #Obsidian #MacMini #SideProject",
-   "media": [
-    "https://pbs.twimg.com/media/HXYv2TsbcAANPFD.jpg"
-   ],
-   "found_at": "2026-11-18T13:38:35.363Z"
-  },
-  {
    "id": "x:2122849221078634836",
    "url": "https://x.com/leoboringoutfit/status/2122849221078634836",
    "source": "x",
@@ -166591,21 +166537,6 @@
    "found_at": "2026-11-18T13:38:35.363Z"
   },
   {
-   "id": "x:2123023643345035287",
-   "url": "https://x.com/peesamac/status/2123023643345035287",
-   "source": "x",
-   "source_name": "X",
-   "author": "peesamac",
-   "date": "2026-11-18",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Grok Bot บน Mac เชื่อมกับแอปของ Apple ในเครื่องได้แล้ว 7 ตัว คือ Messages, Mail, Notes, Reminders, Calendar, Location และ Contacts ประกาศจากบัญชี Grok Bot เองเมื่อ 13 พ.ย.\n\nหน้าตั้งค่าชื่อ Connect Apps จะเรียงแอปไว้ให้กด Allow ทีละตัว พร้อมบอกว่าให้สิทธิ์แล้วมันทำอะไรได้ Messages https://t.co/uFYd2tJUdI",
-   "media": [
-    "https://pbs.twimg.com/media/HXZ-oIQXAAAXQ1z.jpg"
-   ],
-   "found_at": "2026-11-18T13:38:35.363Z"
-  },
-  {
    "id": "x:2123022492776194358",
    "url": "https://x.com/Marko_Poly/status/2123022492776194358",
    "source": "x",
@@ -166618,19 +166549,6 @@
    "media": [
     "https://pbs.twimg.com/amplify_video_thumb/2123022347720376320/img/jQwJG8sWqk9pVsqW.jpg"
    ],
-   "found_at": "2026-11-18T13:38:35.363Z"
-  },
-  {
-   "id": "x:2123021204025934325",
-   "url": "https://x.com/padjen/status/2123021204025934325",
-   "source": "x",
-   "source_name": "X",
-   "author": "padjen",
-   "date": "2026-11-18",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@larsencc @bot One very minor bug:\n- My bot sends me a voice note every morning with a brief. When I play the voice note, it stops multiple times, and I have to press play again to resume it.\n\nOne feature request: \n- Allow auto-sends from Grok Bot agent inbox without requiring the user to press",
-   "media": [],
    "found_at": "2026-11-18T13:38:35.363Z"
   },
   {
@@ -168458,19 +168376,6 @@
    "found_at": "2026-11-18T23:36:08.521Z"
   },
   {
-   "id": "x:2123084906498760778",
-   "url": "https://x.com/Zaardaar/status/2123084906498760778",
-   "source": "x",
-   "source_name": "X",
-   "author": "Zaardaar",
-   "date": "2026-11-18",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "The story that traveled furthest came from @XFreeze. On a trip where day passes were pricey, they asked Grok Bot to find a gym, and they say it not only found one but \"literally got us into a gym for FREE.\" https://t.co/AIJsQC5NJo",
-   "media": [],
-   "found_at": "2026-11-18T23:36:08.521Z"
-  },
-  {
    "id": "x:2123116024107016284",
    "url": "https://x.com/nvandewetering/status/2123116024107016284",
    "source": "x",
@@ -168568,19 +168473,6 @@
    "found_at": "2026-11-18T23:39:32.187Z"
   },
   {
-   "id": "x:2123197275950530657",
-   "url": "https://x.com/DavidSmallx/status/2123197275950530657",
-   "source": "x",
-   "source_name": "X",
-   "author": "DavidSmallx",
-   "date": "2026-11-18",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@BentoBoiNFT says he built his own X Mission Control with Grok Bot and AI: a drafts Kanban board (rough ideas, writing, ready, posted), drag-and-drop scheduled posting on a calendar, and his best hours to post from his analytics.\n https://t.co/4cdTNV4y7F",
-   "media": [],
-   "found_at": "2026-11-18T23:39:56.540Z"
-  },
-  {
    "id": "x:2123196844603769214",
    "url": "https://x.com/grok/status/2123196844603769214",
    "source": "x",
@@ -168661,19 +168553,6 @@
    "found_at": "2026-11-18T23:39:56.540Z"
   },
   {
-   "id": "x:2123193553727987950",
-   "url": "https://x.com/theSpencerLowe/status/2123193553727987950",
-   "source": "x",
-   "source_name": "X",
-   "author": "theSpencerLowe",
-   "date": "2026-11-18",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "I run about 20 Grok Bot agents across my business and personal life. Here's where I hit friction, ranked by impact:\n\n1. More usage. I'd pay for a bigger plan rather than On-Demand top-ups.\n\n2. Approve from my phone. Let me approve work my agents do on my Mac from my phone, set",
-   "media": [],
-   "found_at": "2026-11-18T23:39:56.540Z"
-  },
-  {
    "id": "x:2123193365806100567",
    "url": "https://x.com/bot/status/2123193365806100567",
    "source": "x",
@@ -168741,19 +168620,6 @@
    "found_at": "2026-11-18T23:39:56.540Z"
   },
   {
-   "id": "x:2123189625678410036",
-   "url": "https://x.com/kleistmeister/status/2123189625678410036",
-   "source": "x",
-   "source_name": "X",
-   "author": "kleistmeister",
-   "date": "2026-11-18",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "@4everwalkalone @Muse grokbot generally outperforms muse for me, is able to perform stronger specialized tasks.  Muse is just fine for more basic stuff, like acting as a personal assistant, messaging, scheduling, single agent kind of stuff.\n\nGrokbot itself leans heavy into capabilities and automations",
-   "media": [],
-   "found_at": "2026-11-18T23:39:56.540Z"
-  },
-  {
    "id": "x:2123189499127628048",
    "url": "https://x.com/grok/status/2123189499127628048",
    "source": "x",
@@ -168776,19 +168642,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@Nixtrodamis @nvandewetering Wire Hermes with Telegram and have Grok bot make you- your own Bot system. I did this and now run Ollama bots on my desktop for free locally 24/7. They check email, calendar, research and find deals on command. It can be set up to do so much more free locally with free api too.",
-   "media": [],
-   "found_at": "2026-11-18T23:39:56.540Z"
-  },
-  {
-   "id": "x:2123189034297991602",
-   "url": "https://x.com/MrQuiyst/status/2123189034297991602",
-   "source": "x",
-   "source_name": "X",
-   "author": "MrQuiyst",
-   "date": "2026-11-18",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@gmiller If you have Grok Bot, download @anabology ‘s Claudia Bot. That will get you started and handle a lot of the legwork. I did my first two with it and got a feel for what the process was: prompt the idea, generate lyrics, take the lyrics to Suno to generate the song (prompting again",
    "media": [],
    "found_at": "2026-11-18T23:39:56.540Z"
   },
@@ -168875,19 +168728,6 @@
    "found_at": "2026-11-18T23:39:56.540Z"
   },
   {
-   "id": "x:2123190387716038956",
-   "url": "https://x.com/DocBorelli/status/2123190387716038956",
-   "source": "x",
-   "source_name": "X",
-   "author": "DocBorelli",
-   "date": "2026-11-18",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Meet Tally, my new Grok Bot! 📋\nShe turns your inbox and sent mail into one live Open Items page:\n✅ Click any item to open its email or doc\n✅ See what's on you vs. waiting on others\n✅ Marks items done when you close them\nGet her here: https://t.co/oTGsekQSxD",
-   "media": [],
-   "found_at": "2026-11-18T23:39:56.540Z"
-  },
-  {
    "id": "x:2123189860194218385",
    "url": "https://x.com/30anerds/status/2123189860194218385",
    "source": "x",
@@ -168923,19 +168763,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "Grok Bot can now book flights, hotels and rental cars and find the best deal for your trip. Assistants that actually complete tasks, not just answer questions.",
-   "media": [],
-   "found_at": "2026-11-18T23:39:56.540Z"
-  },
-  {
-   "id": "x:2123185246241751046",
-   "url": "https://x.com/RobotKitchenUS/status/2123185246241751046",
-   "source": "x",
-   "source_name": "X",
-   "author": "RobotKitchenUS",
-   "date": "2026-11-18",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "This is how we run Robot Kitchen: a small team plus Grok Bot. One bot keeps the shop, one runs the warehouse, one handles calendar and inbox, one turns recipes into shopping lists. Treat it like a smart employee and it shows up every day. 🐷\n https://t.co/TkLMjxQXxX",
    "media": [],
    "found_at": "2026-11-18T23:39:56.540Z"
   },
@@ -168994,45 +168821,6 @@
    "found_at": "2026-11-18T23:39:56.540Z"
   },
   {
-   "id": "x:2123181485851050055",
-   "url": "https://x.com/JonKakaley/status/2123181485851050055",
-   "source": "x",
-   "source_name": "X",
-   "author": "JonKakaley",
-   "date": "2026-11-18",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@FarzadShbfn It's just easier that way. I have a few open projects on github, and my workflow is:\n\n-revision\n-test revision\n-(repeat)\n\nI will literally voice dictate what I want in the revision to Grok Bot, and after a few conversations, Bot will engage Opus 5.5 via cursor, and package the",
-   "media": [],
-   "found_at": "2026-11-18T23:39:56.541Z"
-  },
-  {
-   "id": "x:2123180033862672548",
-   "url": "https://x.com/Matai78/status/2123180033862672548",
-   "source": "x",
-   "source_name": "X",
-   "author": "Matai78",
-   "date": "2026-11-18",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Built a Grok Bot for small landlords: Doorfolio 🏠\n\nIf you self-manage 1–20 rental doors, it tracks rent, leases, maintenance, HOA notices, insurance renewals, property taxes and your year-end tax packet. Drafts everything, sends nothing without your OK.\n\nTry it free:",
-   "media": [],
-   "found_at": "2026-11-18T23:39:56.541Z"
-  },
-  {
-   "id": "x:2123180018453070251",
-   "url": "https://x.com/thatsatechnique/status/2123180018453070251",
-   "source": "x",
-   "source_name": "X",
-   "author": "thatsatechnique",
-   "date": "2026-11-18",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "I built a Grok Bot that knows how I like to travel. It remembers my preferences, suggests places when I ask, and handles the receipts and flight watching after I book. https://t.co/0kGWePbUex",
-   "media": [],
-   "found_at": "2026-11-18T23:39:56.541Z"
-  },
-  {
    "id": "x:2123176010069999644",
    "url": "https://x.com/operatorofone/status/2123176010069999644",
    "source": "x",
@@ -169042,19 +168830,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@TroyThompson23 @rhanley @grok @bot Glad it clicked. If you ever want it ready-made for email, Inbox Keeper runs approve-first too: one daily summary, junk cleared and replies sent only on your yes. https://t.co/EjGYcFehRg",
-   "media": [],
-   "found_at": "2026-11-18T23:39:56.541Z"
-  },
-  {
-   "id": "x:2123175668716367997",
-   "url": "https://x.com/zairabbas/status/2123175668716367997",
-   "source": "x",
-   "source_name": "X",
-   "author": "zairabbas",
-   "date": "2026-11-18",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@Maaaaaaadiii I use it daily. I run a few bots: one handles my social calendar and comments, one runs my job hunt, one scouts leads. Claude is where I think and build. Grok Bot is more like a team that works in the background and checks with me before doing anything.",
    "media": [],
    "found_at": "2026-11-18T23:39:56.541Z"
   },
@@ -169084,19 +168859,6 @@
    "media": [
     "https://pbs.twimg.com/media/HXcH_8zWwAAy3lj.jpg"
    ],
-   "found_at": "2026-11-18T23:39:56.541Z"
-  },
-  {
-   "id": "x:2123173529386635441",
-   "url": "https://x.com/dittiedat/status/2123173529386635441",
-   "source": "x",
-   "source_name": "X",
-   "author": "dittiedat",
-   "date": "2026-11-18",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "I got 212 hours back in 13 weeks, and I counted them the boring way, with finished work only and low minutes per task. Here's how I run four businesses with Grok Bot, what broke along the way, and the one rule I set up front. https://t.co/dE7Lof7HMg",
-   "media": [],
    "found_at": "2026-11-18T23:39:56.541Z"
   },
   {
