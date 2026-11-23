@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2746 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2765 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-23T13:39:26.086Z
+- Last updated: 2026-11-23T23:43:56.875Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3202,6 +3202,86 @@
 - URL: https://usage.incidental.site/cases/x-theaigrandpa-2124798946098782574.html
 - Type: guide · Product: grok-bot · Author: theaigrandpa · Source: https://x.com/theaigrandpa/status/2124798946098782574 · Date: 2026-11-23
 - Summary: The author's prompt: find flights to Chicago for Dec 20, back the 27th, no red-eyes, plus a hotel near downtown; send the two best options and don't book anything. Grok Bot opens all the tabs itself.
+
+### A new Dot proves itself on one Slack error alert
+- URL: https://usage.incidental.site/cases/x-karalynnbyrne-2124987514192879850.html
+- Type: field-case · Product: openai-dots · Author: karalynnbyrne · Source: https://x.com/karalynnbyrne/status/2124987514192879850 · Date: 2026-11-23
+- Summary: The author's Dot became available today. She built Hello You Gifts, a web app for making personalized children's books, and set it to send errors to Slack; she says it took a single Slack notification for her to see what the Dot can do.
+
+### A Grok Bot chief of staff reads the overnight output first
+- URL: https://usage.incidental.site/cases/x-cooksbayouboy-2124936557887107423.html
+- Type: field-case · Product: grok-bot · Author: cooksbayouboy · Source: https://x.com/cooksbayouboy/status/2124936557887107423 · Date: 2026-11-23
+- Summary: The author's Grok Bot chief of staff, named Hand, goes through the overnight output before he wakes up. A fleet digest lands at 7:35, and inbox checks only ping him when something actually needs him.
+
+### Grok Bot digs through old Amazon orders for money back: four cases
+- URL: https://usage.incidental.site/cases/x-pkuperman-2124959349353099273.html
+- Type: field-case · Product: grok-bot · Author: p_kuperman · Source: https://x.com/p_kuperman/status/2124959349353099273 · Date: 2026-11-23
+- Summary: A roundup: @cstanley had Grok Bot check all his Amazon orders and it found $590.62 in missing refunds, then got support to agree to issue them; @trevin uploaded his order-history export and it found $892 owed since 2017 under a class action (the email was in spam); @leerob had it dig through email and file a form over a $100 wrong charge; @Michael_Fenech_ splits money access into see, prepare and approve, with every payment needing his yes.
+
+### Grok Bot gets a £360 vacuum for £160
+- URL: https://usage.incidental.site/cases/x-moonlituk-2124911788257144892.html
+- Type: field-case · Product: grok-bot · Author: MoonlitUK · Source: https://x.com/MoonlitUK/status/2124911788257144892 · Date: 2026-11-23
+- Summary: The author says his Grok Bot got him a £360 vacuum for £160: it found a big Black Friday deal, signed up for the store's newsletter, applied the 10% discount code and then unsubscribed.
+
+### A slow Thanksgiving check-in to warm leads with Grok Bot
+- URL: https://usage.incidental.site/cases/x-tonychanbuilds-2124941925350301836.html
+- Type: field-case · Product: grok-bot · Author: TonyChanBuilds · Source: https://x.com/TonyChanBuilds/status/2124941925350301836 · Date: 2026-11-23
+- Summary: The author has Grok Bot pull a small batch of warm leads from HubSpot, set them up in a slow drip campaign and write a short Thanksgiving message with no hard pitch. He only reviews the list and copy, hits Start, and replies to whoever writes back.
+
+### An open-source YNAB plugin for budgeting with Grok Bot
+- URL: https://usage.incidental.site/cases/x-thatdooddillon-2124983900627771722.html
+- Type: field-case · Product: grok-bot · Author: thatdooddillon · Source: https://x.com/thatdooddillon/status/2124983900627771722 · Date: 2026-11-23
+- Summary: The author made an open-source YNAB agent plugin and uses it with his Grok Bot to check his budget and log transactions; it also works in Cursor. He built it with tinkabot.
+
+### City Exhibition Scout: a weekly exhibitions digest template for Grok Bot
+- URL: https://usage.incidental.site/cases/x-cultureexplorex-2124982353579929882.html
+- Type: field-case · Product: grok-bot · Author: CultureExploreX · Source: https://x.com/CultureExploreX/status/2124982353579929882 · Date: 2026-11-23
+- Summary: The author built City Exhibition Scout, a Grok Bot template that checks museums, galleries and cultural centers in your city or travel destination every week and sends a short, verified digest that includes new openings and cultural events.
+
+### Grok Bot phones a real Pizza Hut and places an order
+- URL: https://usage.incidental.site/cases/x-ivannab-2124921500763365824.html
+- Type: field-case · Product: grok-bot · Author: Ivan_Nab · Source: https://x.com/Ivan_Nab/status/2124921500763365824 · Date: 2026-11-23
+- Summary: The author shows Grok Bot calling a real Pizza Hut and talking a live employee through the menu. The order: one medium stuffed crust and one Dr Pepper for 6 PM pickup under a real name, $18.76 total, confirmed on a read-back.
+
+### Grok Bot makes a custom newspaper every morning
+- URL: https://usage.incidental.site/cases/x-budjohnson-2124996045126152565.html
+- Type: field-case · Product: grok-bot · Author: BudJohnson · Source: https://x.com/BudJohnson/status/2124996045126152565 · Date: 2026-11-23
+- Summary: The author's Grok Bot makes him a customized newspaper every morning with the weather, his calendar and even a fishing report. The video chapters also cover turning it into a podcast, what he asked Grok Bot to do, and the prompt to copy.
+
+### Grok Bot and Muse have been shopping for him for months
+- URL: https://usage.incidental.site/cases/x-andrewverdi-2124906805277110378.html
+- Type: field-case · Product: multi · Author: AndrewVerdi · Source: https://x.com/AndrewVerdi/status/2124906805277110378 · Date: 2026-11-23
+- Summary: The author says his Grok Bot and Muse agents have been buying for him for months: groceries, clothes and tech accessories from Best Buy. Finding the deal is the easy part, he says; this week's real test is which retailers let bots check out on their human's behalf.
+
+### Dots in Europe: not official yet, but there is a travel mode
+- URL: https://usage.incidental.site/cases/x-markk-2124989981470908559.html
+- Type: guide · Product: openai-dots · Author: mark_k · Source: https://x.com/mark_k/status/2124989981470908559 · Date: 2026-11-23
+- Summary: The author explains that Dots is officially still not available in Europe, but OpenAI added a travel mode so Americans abroad can keep using Dots. According to him, this means you need to use a US VPN once to create the Dots.
+
+### Meta Muse's single main chat degrades and needs context upkeep
+- URL: https://usage.incidental.site/cases/x-pichikyo-2124929148133179885.html
+- Type: field-case · Product: meta-muse · Author: pichikyo · Source: https://x.com/pichikyo/status/2124929148133179885 · Date: 2026-11-23
+- Summary: The author says Meta Muse's appeal is doing everything in one main chat, but like Dots it degrades over time: sessions and context are not tidied automatically, so it needs frequent maintenance. He hopes Claude Duet, not yet available to him, handles this better.
+
+### Grok Bot tutorial: virtual try-on inside the app
+- URL: https://usage.incidental.site/cases/x-jennymarquis-2124997079298871478.html
+- Type: guide · Product: grok-bot · Author: JennyMarquis · Source: https://x.com/JennyMarquis/status/2124997079298871478 · Date: 2026-11-23
+- Summary: A walkthrough of this week's new shopping feature: your bot makes a clickable Product Card, you open it, hover over a product photo and click Try On. The bot uses your selfie to make a 1024 × 1024 preview of you in the outfit, which you can edit, save or delete in the app; the selfie can be changed.
+
+### A video built entirely in code with Grok Bot and brand skills
+- URL: https://usage.incidental.site/cases/x-kylejeong-2124988372326498565.html
+- Type: field-case · Product: grok-bot · Author: kylejeong · Source: https://x.com/kylejeong/status/2124988372326498565 · Date: 2026-11-23
+- Summary: The author says this video was made entirely in code using internal brand skills and assets: Grok Bot storyboarded it, found the music, built the scenes in code and ran real Browserbase sessions to compare page-load times, with some human touch along the way.
+
+### A 17-year-old with no coding background builds a GTA 6 site on his phone with Grok Bot
+- URL: https://usage.incidental.site/cases/x-boydmyers-2125005805690749318.html
+- Type: field-case · Product: grok-bot · Author: boydmyers · Source: https://x.com/boydmyers/status/2125005805690749318 · Date: 2026-11-23
+- Summary: The author says a 17-year-old from his gym, with no coding background, built a GTA 6 companion site sitting beside him, starting at Pizza Hut, on his phone using Grok Bot. In an afternoon it had Vice City map tools, heist planning and crew guides.
+
+### Per-tool permissions in Grok Bot: let reads run, gate what can't be undone
+- URL: https://usage.incidental.site/cases/x-copenhagen0x-2124943076829343952.html
+- Type: guide · Product: grok-bot · Author: Copenhagen0x · Source: https://x.com/Copenhagen0x/status/2124943076829343952 · Date: 2026-11-23
+- Summary: Citing Walmart's new agent checkout with spending caps, the author explains Grok Bot's four per-tool settings for connected apps: Always allow, Auto-review, Needs approval and Blocked. His sorting: reading on Always allow, drafts on Auto-review, emailing customers, deleting and paying on Needs approval, unneeded tools Blocked. He also writes limits into the ask ("Don't buy. Show me the total first") and shares a Black Friday gift prompt.
 
 ### A free MCP server giving Grok Bot and Muse live Amazon prices
 - URL: https://usage.incidental.site/cases/x-damirbilalov-2124595160797601937.html
@@ -12698,6 +12778,16 @@
 - Type: comparison · Product: grok-bot · Author: amiorin · Source: https://x.com/amiorin/status/2124802935465136264 · Date: 2026-11-23
 - Summary: The author tried Gemini Tasks, Claude, OpenAI and OpenAI Dots (not yet Duet or Muse) and rates Grok Bot best. It burns tokens heavily and the base plan is not enough; they use Crew for portability, pairing Grok Bot with Claude.
 
+### A week with Dot, Duet, Grok Bot and a still-waitlisted Muse
+- URL: https://usage.incidental.site/cases/x-vr000m-2124950266168607068.html
+- Type: comparison · Product: multi · Author: vr000m · Source: https://x.com/vr000m/status/2124950266168607068 · Date: 2026-11-23
+- Summary: After a week of personal bots: Muse is still on the waitlist; Dot is fastest on notifications and good at triage but lacks topics and threads; Claude Duet has channels and threads and handled Thanksgiving lunch (Whole Foods groceries, place cards, a cooking timer); Grok Bot has the best onboarding and bots callable from other chats, but heavy X research has him near his usage limit, waiting for Sunday's 2am reset.
+
+### Hands-on verdict: Grok Bot first, one Dot per account is a dealbreaker
+- URL: https://usage.incidental.site/cases/x-fatherphi-2124955377838256489.html
+- Type: comparison · Product: multi · Author: FatherPhi · Source: https://x.com/FatherPhi/status/2124955377838256489 · Date: 2026-11-23
+- Summary: The author rates Grok Bot as the best assistant. Claude Duet and Muse come close but feel less intuitive. ChatGPT Dots has iMessage integration but disappoints him, and his main complaint is that it allows only one Dot per account.
+
 ### Why ChatGPT Dots struggle: bolted onto the old app vs a new interface
 - URL: https://usage.incidental.site/cases/x-patrickdonohoe-2123022122700124239.html
 - Type: comparison · Product: multi · Author: patrickdonohoe · Source: https://x.com/patrickdonohoe/status/2123022122700124239 · Date: 2026-11-18
@@ -13437,6 +13527,11 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### After moving from Pro to Plus, an old Dot reappears but paused
+- URL: https://usage.incidental.site/cases/x-raulodbz-2124981717140214271.html
+- Type: quota-report · Product: openai-dots · Author: Raulodbz · Source: https://x.com/Raulodbz/status/2124981717140214271 · Date: 2026-11-23
+- Summary: The author had a Dot on the Pro plan that disappeared after switching to Plus. Still on Plus, the old Dot has now reappeared, but it is paused.
 
 ### Running ~20 Grok Bot agents: friction ranked
 - URL: https://usage.incidental.site/cases/x-thespencerlowe-2123193553727987950.html
