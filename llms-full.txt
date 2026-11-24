@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2781 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2800 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-24T13:35:46.837Z
+- Last updated: 2026-11-24T23:35:48.727Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3222,6 +3222,91 @@
 - URL: https://usage.incidental.site/cases/x-nrett11-2125217586291880389.html
 - Type: field-case · Product: grok-bot · Author: nrett11 · Source: https://x.com/nrett11/status/2125217586291880389 · Date: 2026-11-24
 - Summary: The author says Grok Bot already ties his email, calendar, files and smart home together through connected apps and does real work across them; he argues companies need the same: one agent connected to CRM, ticketing, docs and chat, with admin controls.
+
+### Twitter Tony: a bot that finds posts worth replying to
+- URL: https://usage.incidental.site/cases/x-jimaggie-2125213061413744805.html
+- Type: field-case · Product: grok-bot · Author: jimaggie · Source: https://x.com/jimaggie/status/2125213061413744805 · Date: 2026-11-24
+- Summary: The author runs a small computer shop in Texas and sat at 15K followers for years. He built Twitter Tony, a Grok Bot that finds fresh posts worth replying to and helps plan posts so he is not guessing.
+
+### Save Grok Bot usage with MCP
+- URL: https://usage.incidental.site/cases/x-fabiofilrescor-2125216092251439590.html
+- Type: guide · Product: grok-bot · Author: FabioFilResCor · Source: https://x.com/FabioFilResCor/status/2125216092251439590 · Date: 2026-11-24
+- Summary: The author replies that this setup saves a lot of Grok Bot usage, and with MCP set up correctly you no longer need to interact with the app. The latest version added MCP events, so it can report back when it finishes.
+
+### A Grok Bot that chases client documents
+- URL: https://usage.incidental.site/cases/x-aiwahlabs-2125168857656787347.html
+- Type: guide · Product: grok-bot · Author: aiwahlabs · Source: https://x.com/aiwahlabs/status/2125168857656787347 · Date: 2026-11-24
+- Summary: The author says chasing clients for documents takes longer than the actual work. A new article shows a Grok Bot that tracks what each client owes, sends reminders naming exactly what is missing, and files everything in the right folder.
+
+### Meta Muse primer: connecting Gmail
+- URL: https://usage.incidental.site/cases/x-aikagakuri-2125217267785052276.html
+- Type: guide · Product: meta-muse · Author: AI_kagakuri · Source: https://x.com/AI_kagakuri/status/2125217267785052276 · Date: 2026-11-24
+- Summary: A section from part 2 of a Japanese Meta Muse beginner series: how to connect Muse with Gmail. The part covers 10 handy features and linking Gmail, Google Calendar and Instagram for work efficiency; details are in the linked article.
+
+### Meta Muse primer: connecting Google Calendar
+- URL: https://usage.incidental.site/cases/x-aikagakuri-2125217492167725550.html
+- Type: guide · Product: meta-muse · Author: AI_kagakuri · Source: https://x.com/AI_kagakuri/status/2125217492167725550 · Date: 2026-11-24
+- Summary: A section from part 2 of a Japanese Meta Muse beginner series: how to connect Muse with Google Calendar. The part covers 10 handy features and Gmail, Google Calendar and Instagram integrations; details are in the linked article.
+
+### Meta Muse primer: connecting Instagram
+- URL: https://usage.incidental.site/cases/x-aikagakuri-2125217722254696487.html
+- Type: guide · Product: meta-muse · Author: AI_kagakuri · Source: https://x.com/AI_kagakuri/status/2125217722254696487 · Date: 2026-11-24
+- Summary: A section from part 2 of a Japanese Meta Muse beginner series: how to connect Muse with Instagram. The part covers 10 handy features and links with outside services; details are in the linked article.
+
+### Pinterest + Meta Muse + Amazon workflow
+- URL: https://usage.incidental.site/cases/x-n3xtbillionair3-2125062182094426470.html
+- Type: guide · Product: meta-muse · Author: N3xtBillionair3 · Source: https://x.com/N3xtBillionair3/status/2125062182094426470 · Date: 2026-11-24
+- Summary: The author pitches combining Pinterest, Meta Muse AI and Amazon to earn online and shares a step-by-step workflow in the thread. The post text itself is only the intro; the steps are in the original thread.
+
+### Running a business on a Dot: forgets tasks, needs babysitting
+- URL: https://usage.incidental.site/cases/x-jfennell55us-2125207319512506822.html
+- Type: field-case · Product: openai-dots · Author: jfennell55us · Source: https://x.com/jfennell55us/status/2125207319512506822 · Date: 2026-11-24
+- Summary: The author uses a Dot for real business operations, but it keeps forgetting tasks, repeating mistakes and not following instructions. He asks OpenAI to focus on reliability over UI: agents that execute, not ones you babysit.
+
+### Dot resets and security halts on the user's own server
+- URL: https://usage.incidental.site/cases/x-gergincorapci-2125185653440659495.html
+- Type: field-case · Product: openai-dots · Author: GerginCorapci · Source: https://x.com/GerginCorapci/status/2125185653440659495 · Date: 2026-11-24
+- Summary: The author tolerated frequent Dot resets for two months because it was free. Now his Dot halts for security reasons on his own ERP/server, then works the next day, and he says Sol/Astra 6.2 coding has been awful for two days.
+
+### ChatGPT Dots is not actually live in the EU
+- URL: https://usage.incidental.site/cases/x-mikelecheve-2125167544902291676.html
+- Type: guide · Product: openai-dots · Author: MikelEcheve · Source: https://x.com/MikelEcheve/status/2125167544902291676 · Date: 2026-11-24
+- Summary: The author clarifies that what shipped is travel mode: a Dot set up outside the EU now works there without a VPN. Plus and Pro users in Europe are still blocked, per the help page and confirmation from someone on the ChatGPT team.
+
+### Two hours trying to run Tailscale on a Dot, no luck
+- URL: https://usage.incidental.site/cases/x-imhaoyi-2125169434566230464.html
+- Type: field-case · Product: openai-dots · Author: imhaoyi · Source: https://x.com/imhaoyi/status/2125169434566230464 · Date: 2026-11-24
+- Summary: The author spent two hours trying to get Tailscale working on ChatGPT Dots with zero luck, and it also kept going silent mid-chat. His verdict: wrong tool.
+
+### A Grok Bot that cleans the Mac disk on a routine
+- URL: https://usage.incidental.site/cases/x-abidalista-2125370514336276532.html
+- Type: field-case · Product: grok-bot · Author: abidalista · Source: https://x.com/abidalista/status/2125370514336276532 · Date: 2026-11-24
+- Summary: The author's Mac kept running out of space for local models, so he set up a Grok Bot that runs DaisyDisk (or a similar disk tool) on a routine, finds the gigabytes he doesn't need and clears them. He published it as a skill for others.
+
+### Grok Bot builds a controllable 3D thumbnail model
+- URL: https://usage.incidental.site/cases/x-photojoseph-2125370246408069355.html
+- Type: field-case · Product: grok-bot · Author: photojoseph · Source: https://x.com/photojoseph/status/2125370246408069355 · Date: 2026-11-24
+- Summary: The author had a Grok Bot work on thumbnail concepts for a Neewer video, then asked if it could build a 3D model to manipulate in the Grok app. It did: it toggles orbit and thumbnail camera views, changes lens focal lengths, has presets and a top-down view, works with pinch, drag and sliders, and toggles the thumbnail text. He shared the v1 link.
+
+### Three Grok Bots split the work to avoid AI slop
+- URL: https://usage.incidental.site/cases/x-goodjobman-2125369928157122877.html
+- Type: guide · Product: grok-bot · Author: goodjobman · Source: https://x.com/goodjobman/status/2125369928157122877 · Date: 2026-11-24
+- Summary: The author suggests a team of Grok Bots: one implements against a plan, a QA bot verifies the implementation, and a gardener weeds. The key is to set goals and test against them.
+
+### Rebuilding a job-application script in Grok Bot
+- URL: https://usage.incidental.site/cases/x-jakegosskuehn-2125369169113653673.html
+- Type: field-case · Product: grok-bot · Author: jakegosskuehn · Source: https://x.com/jakegosskuehn/status/2125369169113653673 · Date: 2026-11-24
+- Summary: A decade ago the author built a script that sent 1,000 resumes a day on ZipRecruiter and got friends hired within two weeks. He rebuilt it in Grok Bot: in a month it generated over 30 replies for $20/mo and led to $6k of consulting project work.
+
+### From four OpenClaw files to one-click Grok Bot onboarding
+- URL: https://usage.incidental.site/cases/x-coreyganim-2125369010984280303.html
+- Type: guide · Product: grok-bot · Author: coreyganim · Source: https://x.com/coreyganim/status/2125369010984280303 · Date: 2026-11-24
+- Summary: The author once onboarded OpenClaw agents with four files; now he spins up a Grok Bot in four seconds. His process: 1) profile with name, title, description and one key job; 2) shared memory with his name, time zone, offers and ICP; 3) a voice skill and behavior rules such as no em-dashes and draft only; 4) skills and routines, e.g. a Sunday 8am weekly plan in Todoist; 5) teammates that hand off work, like Concept, Craft and Analytics bots. When he edits a draft, Craft Bot records the lesson as a rule.
+
+### Recurring complaints about ChatGPT Dots
+- URL: https://usage.incidental.site/cases/x-jayyy1813k-2125152123667317107.html
+- Type: field-case · Product: openai-dots · Author: _jayyy18_13k · Source: https://x.com/_jayyy18_13k/status/2125152123667317107 · Date: 2026-11-24
+- Summary: The author rounds up recurring complaints: Dots stops midway through tasks, forgets earlier instructions and context, needs constant supervision, keeps asking for permissions even after approval, and struggles to keep progress on long-running projects. He asks actual users for their experience.
 
 ### A voice call with my Dot
 - URL: https://usage.incidental.site/cases/x-patrice-2124838944764522925.html
@@ -12847,6 +12932,16 @@
 - URL: https://usage.incidental.site/cases/x-augustkrupo-2125174374957203522.html
 - Type: comparison · Product: openai-dots · Author: AugustKrupo · Source: https://x.com/AugustKrupo/status/2125174374957203522 · Date: 2026-11-24
 - Summary: The author notes OpenAI Dots is still not properly available in the EU and suggests building your own always-on agent with the Claude or OpenAI API, a cron job and a Telegram bot: it checks your inbox, orders or ads each morning, drafts what needs doing and waits for your OK.
+
+### ChatGPT Dots vs Claude Duet
+- URL: https://usage.incidental.site/cases/x-gouravk-2125194741360853491.html
+- Type: comparison · Product: openai-dots · Author: Goura_vk · Source: https://x.com/Goura_vk/status/2125194741360853491 · Date: 2026-11-24
+- Summary: The author lists the two visions: Dots are always-on personal agents that work on their own cloud computer, connect apps, handle coding, research and complex projects, and remember preferences. Claude Duet works proactively in the background, connects apps, email and calendars, creates reports, spreadsheets and decks, delivers briefings and handles multi-step tasks with user approval.
+
+### Grok Bot vs ChatGPT Dots, from the docs
+- URL: https://usage.incidental.site/cases/x-aiagentideas-2125259333394976846.html
+- Type: comparison · Product: multi · Author: aiagentideas · Source: https://x.com/aiagentideas/status/2125259333394976846 · Date: 2026-11-24
+- Summary: The author notes this is from the docs and he hasn't tried Dots yet: Dots is one always-on agent inside ChatGPT, best if you live there; Grok Bot is a team of bots with routines and your apps. He runs his site with five.
 
 ### Grok Bot wins after trying several agents, but burns tokens
 - URL: https://usage.incidental.site/cases/x-amiorin-2124802935465136264.html
