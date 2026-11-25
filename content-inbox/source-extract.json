@@ -10246,5 +10246,95 @@
   ],
   "kind": "github",
   "fetched_at": "2026-11-17"
+ },
+ "https://github.com/EstKe/dot-to-t3": {
+  "text": "This guide shows how to start a task on your T3 Code host from a ChatGPT Dot. When the task finishes, T3 sends a completion event to ChatGPT so the Dot can verify the result without polling, even after its original reply has ended.",
+  "media": [],
+  "outline": [
+   "Install an appropriate T3 Code desktop build, start it, and sign in to a local coding provider in T3. T3 is the orchestrator; Codex or another provider can s…",
+   "For the completion event, use a T3 build with outgoing MCP Events webhook delivery. The verified setup used 0.1.12-nightly.20261124.5209 on an Intel Mac. The…",
+   "In T3 Code open Settings → Sharing & access, or use the command palette and select Use T3 Code in another app (MCP). Set up T3 Connect for this environment. …",
+   "In your ChatGPT workspace, open Plugins and add a custom MCP server/app. Availability depends on workspace settings. Give the private app a recognizable name…",
+   "Paste the MCP URL copied from your T3 environment. Select OAuth. Use the official T3 authorization screen to approve the connection and only the permissions …",
+   "Make sure your Dot can access that private plugin. Open its details and, if needed, use Refresh tools (called *Rescan* in OpenAI's MCP Events docs). Confirm …",
+   "Give your Dot the copyable behavior instructions. Keep the reusable tool catalog in your own GitHub repo, or a location the Dot can read. Update the placehol…",
+   "Read works, event missing: confirm the connected host version, refresh the plugin, and check workspace support for MCP Events for Dots. Do not mistake workin…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-25"
+ },
+ "https://github.com/ihorkatkov/G2-OpenAI-Dots": {
+  "text": "Talk to your personal ChatGPT Dot from Even Realities G2 glasses. Ask a question through the built-in Even AI assistant and read Dot’s reply on the lenses. You host a small Python service for one wearer. Once paired, your Mac can be off.",
+  "media": [],
+  "outline": [
+   "Even AI transcribes your speech and sends the text to your service.",
+   "The service saves the question in SQLite and sends a signed MCP event to your subscribed Dot.",
+   "Dot calls the plugin’s reply tool with the question ID and a short answer. If it arrives within 90 seconds, the service returns it on the original Even AI re…",
+   "If Even AI displays “Question saved,” ask “What did Dot say?” to collect a late reply. If several questions timed out, repeat the phrase to collect ready rep…",
+   "Open ChatGPT → Plugins → Add → Add custom MCP server. Name it Glasses inbox and use https://glasses.example.com/mcp as the server URL.",
+   "Choose OAuth → Advanced OAuth settings → User-Defined OAuth Client. Set the client ID to g2-dot-link, the client secret to the value of DOT_CLIENT_SECRET in …",
+   "Create and connect the plugin. Enter DOT_PAIR on your own service’s pairing page.",
+   "Open your personal Dot conversation and send the instruction below. Wait for Dot to confirm monitoring is active. ChatGPT plugin setup"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-25"
+ },
+ "https://github.com/sunwen1983/pileup": {
+  "text": "Dump the pile in; get a plan out.",
+  "media": [],
+  "outline": [
+   "Nov 24: spec written (PLAN.md), repo created. E1 (Ember wiring) next."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-25"
+ },
+ "https://github.com/oahuminister-collab/grokbot-switch": {
+  "text": "Want your AI agents to use your spare computer power without getting in your way? GrokBot Switch sits on your desktop as a small red and green toggle. Before an agent starts a job on your PC, it checks the switch. If you're busy, it moves on. If you're free, it can ask first with a popup, and if you don't answer in 5 minutes, it goes ahead.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/oahuminister-collab/grokbot-switch/HEAD/screens/pill-available.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/oahuminister-collab/grokbot-switch/HEAD/screens/pill-dnd.png"
+   }
+  ],
+  "outline": [
+   "An always-on-top pill shows the current state. Click the pill to flip it by hand. Click – to shrink it to a 28px status dot; click the dot to bring the pill …",
+   "A settings window lets you add or remove schedule rules (days, start, end, Available or Do Not Disturb), turn on auto Do Not Disturb while you are using the …",
+   "If a bot is using the PC and you start typing or moving the mouse, the switch turns red, the bot’s lease is revoked, and the bot should stop and move the job…",
+   "Right-click the pill (or the minimized dot) and choose Exit to close the switch. There is no system tray icon in this version.",
+   "Copy this folder to a place on the Windows PC you want to share, for example %USERPROFILE%\\GrokBotSwitch\\.",
+   "Run the app with pythonw so no extra console window stays open:",
+   "Leave Start with Windows off unless you turn it on in settings. That option only adds a small file in your Startup folder. It does not use Task Scheduler.",
+   "Exit 0 means go ahead. The JSON line includes lease_id."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-25"
+ },
+ "https://github.com/ejcheramie/bot-board": {
+  "text": "A visual command board for a multi-bot staff, built around what needs you.",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/ejcheramie/bot-board/HEAD/preview.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/ejcheramie/bot-board/HEAD/preview-light.png"
+   }
+  ],
+  "outline": [
+   "Reminders",
+   "Waiting on me",
+   "In progress",
+   "Done this week",
+   "A Grok Bot Page first. Easy to open in the app. A Page is often capped at a fixed centered width and may not fill or shrink with the browser window. That is …",
+   "A standalone HTML file (optional). This is the version that fills the window and can be bookmarked.",
+   "Use the gear in the top bar for visual options (theme, accent, density, fields, title, and more). Those stick in the browser when preference saving is on. Re…"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-25"
  }
 }
