@@ -10336,5 +10336,63 @@
   ],
   "kind": "github",
   "fetched_at": "2026-11-25"
+ },
+ "https://github.com/noam99moyal/shorts-clips-pipeline": {
+  "text": "Shorts Clips Pipeline is a Grok Bot that turns one long video into captioned, scheduled YouTube Shorts. It stops for your OK at every step, and nothing posts until you say \"schedule\". You choose the Drive folder, voice, captions, and YouTube account.",
+  "media": [],
+  "outline": [
+   "Open the Grok Bot template: Shorts Clips Pipeline",
+   "Open the new agent chat and finish first-run setup. The bot asks these once and saves your answers.",
+   "A Google Drive folder for cut lists, copy docs, clips, and the schedule log (confirmed with a path and link)",
+   "A voice or style file for titles and descriptions, or the default voice",
+   "Caption rules (defaults shown; change anything you want)",
+   "YouTube Studio sign-in in the bot's own browser, through a screen handoff. Never send a password in chat.",
+   "You share a transcript (or the bot makes one with ffmpeg audio extract and faster-whisper) and the source video, plus what you want: topic, speaker, how many…",
+   "It picks self-contained 40-60s clips (70s hard max) that open on a full, no-context sentence, make one point, and end on a strong line."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-25"
+ },
+ "https://github.com/hcmango/macos-quota-menubar": {
+  "text": "在 macOS 顶部菜单栏实时查看 **Codex**、**Grok Bot** 和 **Antigravity CLI (`agy`)** 的今日可用预算、周剩余额度与重置倒计时。",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/hcmango/macos-quota-menubar/HEAD/Assets/preview.png"
+   }
+  ],
+  "outline": [
+   "一眼看清还能用多少：按周额度折算「今日可用预算 D」（支持前几天结转、超用标红为负数），配合周剩余 W 进度条，每天心里有数。",
+   "按需自动发现：自动检测本机安装了 Codex、Grok Bot 还是 Antigravity CLI，只展示已安装的应用；单个工具超时或失败不影响其他工具。",
+   "两种顶栏样式 + 原生卡片面板：左键展开 320pt 原生 NSPopover 面板看各模型池详情、倒计时与 Codex 重置卡；右键切换顶栏显示样式或立即刷新。",
+   "本地只读、不碰凭据：Codex 走官方本地 app-server，Antigravity 走官方无头命令 agy -p /usage，Grok Bot 只读本地缓存文件，绝不触碰账号密码或浏览器 Session。",
+   "macOS 13 或更新版本",
+   "Swift 5.9 或更新工具链（安装 Xcode 或 Xcode Command Line Tools 即可：xcode-select --install）",
+   "本机安装并登录 Codex、Grok Bot 或 Antigravity CLI (agy) 中的任意一个或多个",
+   "查看 Grok Bot 额度前，需至少在 Grok Bot 中打开过一次用量菜单以生成本地缓存"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-25"
+ },
+ "https://github.com/ceragon/matt-loop/issues/52": {
+  "text": "**Loop engineering: one ticket, one loop.** A minimal dispatch loop that drives terminal-based coding agents ticket by ticket — the end goal is an empty issue tracker.",
+  "media": [],
+  "outline": [
+   "send an explicitly released prompt into a running executor-agent terminal",
+   "wait for the turn to settle,",
+   "trim and extract the reply into structured JSON (direct OpenAI-compatible",
+   "optionally POST a notification projection (notify.json, byte-identical to the",
+   "A prompt is sent only with a unique, explicit release id; one release",
+   "Session-start skills (wayfinder, grilling, implement, …) require a fresh",
+   "Named sessions are always visible in the herdr-app workspace (adoption is a",
+   "blocked states stop the round and surface to the caller — never swallowed."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-25"
+ },
+ "https://github.com/GPTWorks/GPTWorks.github.io/pull/18": {
+  "kind": "github",
+  "missing": "readme",
+  "fetched_at": "2026-11-25"
  }
 }
