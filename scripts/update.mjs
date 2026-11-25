@@ -173,8 +173,8 @@ async function deploy(){
   const r=await fetch(`https://api.cloudflare.com/client/v4/accounts/${acc}/workers/scripts/always-on-usage`,{method:"PUT",headers:{authorization:"Bearer "+tok},body:fd}).then(r=>r.json());
   log("deploy:",r.success?"ok":JSON.stringify(r.errors));return r.success;
 }
-async function verify(){const ing=J("content-inbox/ingest.json",{});for(let i=0;i<6;i++){try{const h=await get("https://usage.incidental.site/?v="+Date.now(),"text");
-  if(!ing.last_ingest||h.includes(ing.last_ingest)){log("verify: live page shows last_ingest",ing.last_ingest);return true}}catch(e){}await new Promise(r=>setTimeout(r,10000))}log("verify: live page does not show",ing.last_ingest,"yet");return false}
+async function verify(){const ing=J("content-inbox/ingest.json",{});for(let i=0;i<6;i++){try{const h=await get("https://usage.incidental.site/data/updated.json?v="+Date.now(),"text");
+  if(!ing.last_ingest||h.includes(ing.last_ingest)){log("verify: live updated.json shows last_ingest",ing.last_ingest);return true}}catch(e){}await new Promise(r=>setTimeout(r,10000))}log("verify: live updated.json does not show",ing.last_ingest,"yet");return false}
 function commit(){sync()}
 
 if(run("collect"))await collect();

@@ -10,13 +10,15 @@ const applyI18n=()=>{document.documentElement.lang=LANG;
  for(const at of ["aria-label","content","placeholder","title"])document.querySelectorAll(`[data-i18n-${at}]`).forEach(el=>{const s=pick(S[el.getAttribute("data-i18n-"+at)]);if(s!=null)el.setAttribute(at,fillv(s,el))});
  const ZH=window.__ZH||(window.__ZH=(()=>{const e=document.getElementById("zh");try{return e?JSON.parse(e.textContent):[]}catch(_){return []}})());
  document.querySelectorAll(".lx").forEach(el=>{const z=el.dataset.zk!=null?ZH[+el.dataset.zk]:(el.dataset.zh||(el.dataset.zh=el.textContent));el.textContent=LANG.startsWith("zh")?z:el.dataset.en});
- const TL=document.getElementById("tl");if(TL){const m=TL._m||(TL._m=JSON.parse(TL.textContent));document.querySelectorAll("[data-tl]").forEach(el=>{const r=m[el.dataset.tl];if(r){const h=r[LANG]??r.en;if(h!=null)el.innerHTML=h}})}
+ const TL=document.getElementById("tl");if(TL&&TL._m){const m=TL._m;document.querySelectorAll("[data-tl]").forEach(el=>{const r=m[el.dataset.tl];if(r){const h=r[LANG]??r.en;if(h!=null)el.innerHTML=h}})}
  document.querySelectorAll("time[data-ts],time[data-d]").forEach(el=>{try{const ts=el.dataset.ts;const d=new Date(ts||el.dataset.d+"T12:00:00Z");el.textContent=ts?new Intl.DateTimeFormat(LANG,el.classList.contains("d")?{dateStyle:"medium"}:{dateStyle:"medium",timeStyle:"short"}).format(d):new Intl.DateTimeFormat(LANG,{dateStyle:"medium",timeZone:"UTC"}).format(d);if(ts)el.title=ts}catch(e){}});
  {const QN={"zh-CN":["原文为中文。","原文为日文，请打开来源链接阅读。"],"zh-TW":["原文為中文。","原文為日文，請打開來源連結閱讀。"],en:["The original post is in Chinese and is shown on the Chinese pages; open the source link to read it.","The original post is in Japanese and is shown on the Japanese page; open the source link to read it."],ja:["原文は中国語のため、中国語ページでのみ表示します。ソースリンクから読めます。","原文は日本語です。"],ko:["원문이 중국어라 중국어 페이지에서만 표시됩니다. 출처 링크에서 읽을 수 있습니다.","원문이 일본어라 일본어 페이지에서만 표시됩니다. 출처 링크에서 읽을 수 있습니다."],ms:["Siaran asal dalam bahasa Cina dan dipaparkan pada halaman bahasa Cina; buka pautan sumber untuk membacanya.","Siaran asal dalam bahasa Jepun dan dipaparkan pada halaman bahasa Jepun; buka pautan sumber untuk membacanya."],vi:["Bài gốc bằng tiếng Trung và chỉ hiển thị trên trang tiếng Trung; mở liên kết nguồn để đọc.","Bài gốc bằng tiếng Nhật và chỉ hiển thị trên trang tiếng Nhật; mở liên kết nguồn để đọc."],fr:["Le post original est en chinois et n’est affiché que sur les pages en chinois ; ouvrez le lien source pour le lire.","Le post original est en japonais et n’est affiché que sur la page en japonais ; ouvrez le lien source pour le lire."],es:["La publicación original está en chino y solo se muestra en las páginas en chino; abre el enlace de la fuente para leerla.","La publicación original está en japonés y solo se muestra en la página en japonés; abre el enlace de la fuente para leerla."],de:["Der Originalbeitrag ist auf Chinesisch und wird nur auf den chinesischen Seiten angezeigt; über den Quelllink kannst du ihn lesen.","Der Originalbeitrag ist auf Japanisch und wird nur auf der japanischen Seite angezeigt; über den Quelllink kannst du ihn lesen."]};
   document.querySelectorAll("[data-ql]").forEach(el=>{const q=el.dataset.ql,show=q==="cjk"?(LANG.startsWith("zh")||LANG==="ja"):q==="zh"?LANG.startsWith("zh"):LANG===q;if(show&&el.dataset.qk!=null&&!el._f){el.innerHTML=ZH[+el.dataset.qk]??"";el._f=1}el.hidden=!show;const n=el.nextElementSibling;if(n&&n.hasAttribute("data-ql-note")){n.hidden=show;if(n.hasAttribute("data-ql-tr")){const c=n.nextElementSibling;if(c&&c.classList.contains("ql-tr-note"))c.hidden=show}else n.textContent=(QN[LANG]||QN.en)[q==="ja"?1:0]}})}
  document.documentElement.classList.remove("i18n-wait")};
-applyI18n();
-const sel=document.getElementById("lang");if(sel){sel.value=LANG;sel.addEventListener("change",()=>{LANG=sel.value;try{localStorage.lang=LANG}catch(e){}applyI18n();document.dispatchEvent(new Event("langchange"))})}
+const loadTL=()=>{const TL=document.getElementById("tl");if(!TL)return Promise.resolve(null);if(TL._m)return Promise.resolve(TL._m);if(TL.dataset.src)return fetch(TL.dataset.src).then(r=>r.json()).then(m=>(TL._m=m)).catch(()=>(TL._m={}));try{TL._m=JSON.parse(TL.textContent||"{}")}catch(_){TL._m={}}return Promise.resolve(TL._m)};
+const bootI18n=()=>loadTL().then(()=>applyI18n());
+bootI18n();
+const sel=document.getElementById("lang");if(sel){sel.value=LANG;sel.addEventListener("change",()=>{LANG=sel.value;try{localStorage.lang=LANG}catch(e){}bootI18n().then(()=>document.dispatchEvent(new Event("langchange")))})}
 const RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 // theme
@@ -70,5 +72,18 @@ const q=$("#q");if(q){const st={type:"",product:"",scen:""},P=new URLSearchParam
  $$(".chip").forEach(c=>c.addEventListener("click",()=>{st[c.dataset.f]=c.dataset.v;lim=PER;sync();run();const u=new URL(location.href);for(const k of ["type","product","scen"])st[k]?u.searchParams.set(k,st[k]):u.searchParams.delete(k);history.replaceState(null,"",u)}));
  if(P.get("type"))st.type=P.get("type");if(P.get("product"))st.product=P.get("product");if(P.get("scen"))st.scen=P.get("scen");sync();q.addEventListener("input",()=>{lim=PER;run()});run()}
 
-// copy buttons for prompt blocks
-document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",async()=>{const c=b.closest(".code").querySelector("code").textContent;try{await navigator.clipboard.writeText(c);const o=b.innerHTML;b.textContent=t("已复制");setTimeout(()=>b.innerHTML=o,1600)}catch(e){}}));
+// copy / download (prompt blocks + case/story action row)
+const copyText=async text=>{
+  try{if(navigator.clipboard&&navigator.clipboard.writeText){await navigator.clipboard.writeText(text);return true}}catch(e){}
+  try{const a=document.createElement("textarea");a.value=text;a.setAttribute("readonly","");a.style.cssText="position:fixed;left:-9999px;opacity:0";document.body.appendChild(a);a.select();const ok=document.execCommand("copy");a.remove();return ok}catch(e){return false}
+};
+const srcText=id=>{const el=document.getElementById(id);return el?el.textContent:""};
+const flash=b=>{const o=b.innerHTML;b.textContent=t("已复制");setTimeout(()=>b.innerHTML=o,1600)};
+document.querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",async()=>{const box=b.closest(".code");const c=box&&box.querySelector("code");const text=c?c.textContent:(b.dataset.copy||"");if(!text)return;if(await copyText(text))flash(b)}));
+document.querySelectorAll("[data-act]").forEach(b=>b.addEventListener("click",async()=>{
+  const text=srcText(b.dataset.src);if(!text)return;
+  if(b.dataset.act==="copy"){if(await copyText(text)){flash(b);try{window.ievt&&window.ievt("convert",{goal:"copy",chars:Math.min(text.length,9999)})}catch(e){}}}
+  if(b.dataset.act==="dl"){const name=b.dataset.name||"case.md";const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([text],{type:"text/markdown;charset=utf-8"}));a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),2000);try{window.ievt&&window.ievt("convert",{goal:"download",chars:Math.min(text.length,9999)})}catch(e){}}
+}));
+// last-updated stamp lives in /data/updated.json so page HTML stays cacheable across ingests
+fetch("/data/updated.json").then(r=>r.json()).then(d=>{if(!d||!d.updated_at)return;document.querySelectorAll("time[data-updated]").forEach(el=>{el.dataset.ts=d.updated_at;el.setAttribute("datetime",d.updated_at);try{const dt=new Date(d.updated_at);el.textContent=new Intl.DateTimeFormat(LANG,d.updated_at.length>10?{dateStyle:"medium",timeStyle:"short"}:{dateStyle:"medium",timeZone:"UTC"}).format(dt)}catch(e){el.textContent=d.updated_at}})}).catch(()=>{});
