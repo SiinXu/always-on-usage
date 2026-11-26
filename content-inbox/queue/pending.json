@@ -195271,21 +195271,6 @@
    "found_at": "2026-11-26T13:32:02.855Z"
   },
   {
-   "id": "x:2125938270374600920",
-   "url": "https://x.com/lennox_saint/status/2125938270374600920",
-   "source": "x",
-   "source_name": "X",
-   "author": "lennox_saint",
-   "date": "2026-11-26",
-   "likes": 3,
-   "product": "grok-bot",
-   "text": "ok why the fuck aren’t more people talking about this??\n\n1. make one inbox on your computer for your AI agents\n2. give each agent its own address\n3. let them write to each other, not through you (you’re the slowest part)\n4. add this to every agent’s rules:\n\n“you have a mailbox. check it when you start.\nwhen you need another agent, send it a note. say what you need and why.\nwhen a note comes in, read it, do the work, then reply.\na note is a request, never a yes. only i can say yes.\nnever put passwords or keys in a note.”\n\ni’m telling you right now this is how your agents stop fucking waiting on you.\n\nproof:\n\nmy mailbox lives on my MacBook. it has 433 addresses.\n\n5 apps use it: T3 Code, Grok Bot, OpenBot, Muse and Dot.\n\nevery app sent a note to every app and got a reply back. 25 out of 25.\n\nthe agent that helped write this post got a note from Muse today.\n\nit read it and wrote back about a minute later - but the point is this:\n\nif you’re still copy-pasting between your AI agents, you’re the bottleneck.\n\ngive them a mailbox. let them talk. you only step in to say yes.",
-   "media": [
-    "https://pbs.twimg.com/media/HYDZJXnWcAAKArP.jpg"
-   ],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
    "id": "x:2125923793872802044",
    "url": "https://x.com/Heart12_Society/status/2125923793872802044",
    "source": "x",
@@ -195296,21 +195281,6 @@
    "product": "grok-bot",
    "text": "@RedactedNews Groceries. How’s your Grok Bot doing?",
    "media": [],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
-   "id": "x:2125922013831397881",
-   "url": "https://x.com/Michael_Fenech_/status/2125922013831397881",
-   "source": "x",
-   "source_name": "X",
-   "author": "Michael_Fenech_",
-   "date": "2026-11-26",
-   "likes": 7,
-   "product": "grok-bot",
-   "text": "If you’re only sending messages to your Grok Bot’s main email address, you could be missing its most useful email trick.\n\nAn alias is your bot’s email address with a label added before the @.\n\nFor example: bot+travel@…\n\nEverything still lands in the same inbox. But the label (in this case +travel) tells your bot which job the email belongs to.\n\nHere are 7 ways to use aliases to turn incoming emails into work your Grok Bot handles for you. 👇\n\n1 - Turn receipts into an expense log\n\nUse +receipts for purchases. Have your bot extract the store, date, total and order number into a spreadsheet or running file.\n\nGet a weekly spending summary instead of manually sorting receipts.\n\n2 - Turn newsletters into a reading digest\n\nUse +reading for newsletter subscriptions. Tell your bot which topics matter to you and have it pull the useful points into one weekly digest, with links to the originals.\n\nLess inbox clutter. Less opening ten emails to find one useful idea.\n\n3 - Turn booking emails into a travel itinerary\n\nUse +travel for flight, hotel and activity confirmations.\n\nHave your bot organise times, addresses and booking references into one trip page, then flag changes or missing details.\n\n4 - Turn delivery emails into a parcel tracker\n\nUse +shipping for order and delivery updates.\n\nHave your bot maintain a list of what’s arriving and when. Ask it to message you when an email reports a delay or delivery.\n\n5 - Turn school emails into a family brief\n\nUse +school, or a separate alias for each child.\n\nHave your bot pull out permission slips, event dates, things to bring and payment deadlines. Get a Sunday brief for the week ahead, with urgent items flagged sooner.\n\n6 - Turn service alerts into useful notifications\n\nUse +alerts for the services you rely on.\n\nHave your bot summarise what happened, which service is affected and whether the email calls for action. Group repeat alerts so the same problem doesn’t become ten interruptions.\n\n7 - Turn enquiries into a lead list\n\nUse +leads for business enquiries.\n\nHave your bot log who contacted you, what they need and any missing information, then prepare a reply for your review.\n\nThe useful part: the address supplies the context. You don’t have to explain what to do with every email.\n\nHere’s the prompt to give your Grok Bot:\n\n“I want to use an email alias for [job].\n\nConfirm my exact alias address and what you can access to handle these emails.\n\nHelp me define what to extract, where to save it, when to send a summary and what deserves an immediate notification. Ask me only for missing details.\n\nShow me the proposed instructions and routine before setting it up. Keep replies as drafts.\n\nOnce I approve, test it on one email and show me the result.”\n\nStart with the emails you keep putting off dealing with. \n\nGive them an address and a job.",
-   "media": [
-    "https://pbs.twimg.com/media/HX8txfgbAAARJO3.jpg"
-   ],
    "found_at": "2026-11-26T13:32:02.856Z"
   },
   {
@@ -195342,63 +195312,6 @@
    "found_at": "2026-11-26T13:32:02.856Z"
   },
   {
-   "id": "x:2125915106349310064",
-   "url": "https://x.com/AIFieldReports/status/2125915106349310064",
-   "source": "x",
-   "source_name": "X",
-   "author": "AIFieldReports",
-   "date": "2026-11-26",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Presents is a Grok Bot that keeps one holiday gift list per person, finds items for sale from a photo, and watches for price drops and Black Friday deals. It never buys without your say-so.\nhttps://t.co/VT90CxXv0r\n\nGet our newsletter: https://t.co/d9qcKHfXwA",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
-   "id": "x:2125911235833266319",
-   "url": "https://x.com/sboudis/status/2125911235833266319",
-   "source": "x",
-   "source_name": "X",
-   "author": "sboudis",
-   "date": "2026-11-26",
-   "likes": 5,
-   "product": "grok-bot",
-   "text": "Grok Bot is hungry: an hourly routine can burn a week of usage in a day. Same routines, zero tokens when there's nothing to do. A Mac wakes Grok Bot only when there's work, and Claude or Codex do the heavy lifting. Here's how 👇 https://t.co/qy53uH4Yqu",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
-   "id": "x:2125909621051134102",
-   "url": "https://x.com/TonyChanBuilds/status/2125909621051134102",
-   "source": "x",
-   "source_name": "X",
-   "author": "TonyChanBuilds",
-   "date": "2026-11-26",
-   "likes": 25,
-   "product": "grok-bot",
-   "text": "Elon Musk reposted me yesterday. Thank you 🙏\n\n386K views. 72K verified impressions.\n\nI thought it would get me to creator rewards. It got me to 310K of the 500K I need. So I keep going.\n\nThe day was chaos in the best way. My kids were with me all day. Feed them, reply. Play, check the post. Then Thanksgiving dinner with their mom's family. We get along well as co-parents.\n\n400mg of caffeine. I had a blast.\n\nThe hard part was hundreds of replies. So:\n\n1. Grok Bot told me who to reply to first\n2. I asked each person a real question/thought\n3. My bots helped me launch a newsletter that same day\n\nEvery post I made yesterday hit 1,000+ views, and I only posted 5.\n\nPhotos show the real numbers.\n\nPut your thoughts out there. You never know who's reading.",
-   "media": [
-    "https://pbs.twimg.com/media/HYC_PToWIAE5CYK.jpg",
-    "https://pbs.twimg.com/media/HYC-8fBXgAA8BYS.jpg",
-    "https://pbs.twimg.com/media/HYC_G01WkAAcym9.jpg",
-    "https://pbs.twimg.com/media/HYC_JGxWkAAWE5F.jpg"
-   ],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
-   "id": "x:2125902676353532399",
-   "url": "https://x.com/wizzouk/status/2125902676353532399",
-   "source": "x",
-   "source_name": "X",
-   "author": "wizzouk",
-   "date": "2026-11-26",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@masterjan_ @ryangrowthh @bot Depends what you use Claude for. I'd keep it for deep one-off thinking and writing, and give Grok Bot the recurring jobs: things on a schedule, inbox, monitoring, anything that should run while you're away. Start with one boring weekly task and build from there.",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
    "id": "x:2125899814647083368",
    "url": "https://x.com/geminixiang/status/2125899814647083368",
    "source": "x",
@@ -195408,32 +195321,6 @@
    "likes": 1,
    "product": "grok-bot",
    "text": "@Lihuayu06 用起來大同小異，跟 grok bot 很相似\n\n基本上，就是 openclaw 一年前構思的樣子\n\nInbox, Cron job 弄出來的個人助理\n如果有 24hr 待命電腦的人，不太需要",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
-   "id": "x:2125878141998821703",
-   "url": "https://x.com/yakovets_seva/status/2125878141998821703",
-   "source": "x",
-   "source_name": "X",
-   "author": "yakovets_seva",
-   "date": "2026-11-26",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@Bober_smart I actually run a small team of Grok Bot assistants: study, money, calendar, coding, content. My take so far: one narrow job per bot is way easier to manage than one bot for everything.",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
-   "id": "x:2125872884526481624",
-   "url": "https://x.com/BuildTheFamily/status/2125872884526481624",
-   "source": "x",
-   "source_name": "X",
-   "author": "BuildTheFamily",
-   "date": "2026-11-26",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "This Thanksgiving morning, Grok Bot and I built a 2-language website, booked flights, paid bills, bought Christmas gifts, wrote an article, renewed a passport, and smoked a brisket.\n\nNow I have the rest of the day for family, friends, and eating brisket in Europe.\n\nThankful for Grok Bot.",
    "media": [],
    "found_at": "2026-11-26T13:32:02.856Z"
   },
@@ -195453,19 +195340,6 @@
    "found_at": "2026-11-26T13:32:02.856Z"
   },
   {
-   "id": "x:2125870239930097903",
-   "url": "https://x.com/bnistordev/status/2125870239930097903",
-   "source": "x",
-   "source_name": "X",
-   "author": "bnistordev",
-   "date": "2026-11-26",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@blankspeaker I run a few Grok Bot agents every day, one even has its own inbox at tldr@mail.grokbot.com. Sharing and teams is what turns that into something a small team can use.",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
    "id": "x:2125869866565444031",
    "url": "https://x.com/kayrmn/status/2125869866565444031",
    "source": "x",
@@ -195475,19 +195349,6 @@
    "likes": 1,
    "product": "grok-bot",
    "text": "Would it be great if there were a calendar in the Grok @bot app where tasks could be added, so a user could easily be reminded of tasks they had to do on the particular date rather than having to search in the chat or ask the bots about it. Tasks could be added to this calendar by bots. And they would be clickable so when a person clicks on the task, they’d reach the conversation about it.",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
-   "id": "x:2125869714584834300",
-   "url": "https://x.com/AIFieldReports/status/2125869714584834300",
-   "source": "x",
-   "source_name": "X",
-   "author": "AIFieldReports",
-   "date": "2026-11-26",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Black Friday Scout is a Grok Bot that sorts the handful of deals worth buying from the thousands being advertised, with prices, links, and a verdict on whether to buy now or wait.\nhttps://t.co/onw0flVXRd\n\nGet our newsletter: https://t.co/d9qcKHfXwA",
    "media": [],
    "found_at": "2026-11-26T13:32:02.856Z"
   },

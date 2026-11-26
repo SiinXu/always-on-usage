@@ -1,5 +1,5 @@
 {
- "last_ingest": "2026-11-25T23:41:38.772Z",
+ "last_ingest": "2026-11-26T13:36:02.765Z",
  "items": [
   {
    "id": "x:2105612186450297061",
@@ -79413,6 +79413,586 @@
     }
    },
    "added_at": "2026-11-25T23:41:38.772Z"
+  },
+  {
+   "id": "x:2125938270374600920",
+   "url": "https://x.com/lennox_saint/status/2125938270374600920",
+   "source": "x",
+   "source_name": "X",
+   "author": "lennox_saint",
+   "date": "2026-11-26",
+   "likes": 3,
+   "product": "multi",
+   "text": "ok why the fuck aren’t more people talking about this??\n\n1. make one inbox on your computer for your AI agents\n2. give each agent its own address\n3. let them write to each other, not through you (you’re the slowest part)\n4. add this to every agent’s rules:\n\n“you have a mailbox. check it when you start.\nwhen you need another agent, send it a note. say what you need and why.\nwhen a note comes in, read it, do the work, then reply.\na note is a request, never a yes. only i can say yes.\nnever put passwords or keys in a note.”\n\ni’m telling you right now this is how your agents stop fucking waiting on you.\n\nproof:\n\nmy mailbox lives on my MacBook. it has 433 addresses.\n\n5 apps use it: T3 Code, Grok Bot, OpenBot, Muse and Dot.\n\nevery app sent a note to every app and got a reply back. 25 out of 25.\n\nthe agent that helped write this post got a note from Muse today.\n\nit read it and wrote back about a minute later - but the point is this:\n\nif you’re still copy-pasting between your AI agents, you’re the bottleneck.\n\ngive them a mailbox. let them talk. you only step in to say yes.",
+   "media": [
+    "https://pbs.twimg.com/media/HYDZJXnWcAAKArP.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "给所有 AI 代理建一个共享邮箱，让它们互相发信",
+     "summary": "作者在 MacBook 上建了一个给 AI 代理用的邮箱，共 433 个地址，每个代理一个地址，并在每个代理的规则里写明：启动时查信、需要别的代理时发信说明需求和原因、收到信就做事并回复、信只是请求不是批准、不在信里放密码或密钥。T3 Code、Grok Bot、OpenBot、Muse 和 Dot 五个应用互相发信并都收到回复，25 次里 25 次成功；一封来自 Muse 的信约一分钟后得到回复。"
+    },
+    "zh-TW": {
+     "title": "給所有 AI 代理建一個共用信箱，讓它們互相寄信",
+     "summary": "作者在 MacBook 上建了一個給 AI 代理用的信箱，共 433 個地址，每個代理一個地址，並在每個代理的規則裡寫明：啟動時查信、需要別的代理時寄信說明需求和原因、收到信就做事並回覆、信只是請求不是批准、不在信裡放密碼或金鑰。T3 Code、Grok Bot、OpenBot、Muse 和 Dot 五個應用互相寄信並都收到回覆，25 次裡 25 次成功；一封來自 Muse 的信約一分鐘後得到回覆。"
+    },
+    "en": {
+     "title": "One shared mailbox so AI agents message each other",
+     "summary": "The author set up a mailbox for AI agents on a MacBook with 433 addresses, one per agent, and added rules to each agent: check mail on start, send a note to another agent saying what is needed and why, do the work and reply when a note arrives, treat a note as a request and never a yes, and never put passwords or keys in a note. Five apps (T3 Code, Grok Bot, OpenBot, Muse and Dot) each sent a note to every app and got replies, 25 out of 25; a note from Muse got a reply about a minute later."
+    },
+    "ja": {
+     "title": "AI エージェント同士がメールでやり取りする共有メールボックス",
+     "summary": "作者は MacBook 上に AI エージェント用のメールボックスを作り、433 のアドレスでエージェントごとに 1 つ割り当てた。各エージェントのルールには、起動時にメールを確認する、別のエージェントが必要なら目的と理由を書いて送る、届いたら作業して返信する、メモは依頼であって承認ではない、パスワードやキーは書かない、と記載。T3 Code、Grok Bot、OpenBot、Muse、Dot の 5 つのアプリが互いに送信し、25 件中 25 件で返信を受け取った。Muse からのメモには約 1 分後に返信があった。"
+    },
+    "ko": {
+     "title": "AI 에이전트끼리 메일을 주고받는 공용 메일함",
+     "summary": "작성자는 MacBook에 AI 에이전트용 메일함을 만들고 433개 주소를 에이전트마다 하나씩 배정했다. 각 에이전트 규칙에는 시작할 때 메일 확인, 다른 에이전트가 필요하면 무엇이 왜 필요한지 적어 보내기, 메모가 오면 작업 후 답장, 메모는 요청일 뿐 승인이 아님, 비밀번호나 키는 넣지 않기를 적었다. T3 Code, Grok Bot, OpenBot, Muse, Dot 다섯 앱이 서로 메모를 보내 25번 중 25번 답장을 받았고, Muse가 보낸 메모에는 약 1분 뒤 답장이 왔다."
+    },
+    "ms": {
+     "title": "Satu peti mel dikongsi supaya ejen AI saling berutus",
+     "summary": "Penulis menyediakan peti mel untuk ejen AI di MacBook dengan 433 alamat, satu bagi setiap ejen, dan menambah peraturan pada setiap ejen: semak mel semasa bermula, hantar nota kepada ejen lain dengan menyatakan apa yang diperlukan dan sebabnya, buat kerja dan balas apabila nota tiba, anggap nota sebagai permintaan dan bukan kelulusan, serta jangan letak kata laluan atau kunci dalam nota. Lima aplikasi (T3 Code, Grok Bot, OpenBot, Muse dan Dot) saling menghantar nota dan mendapat balasan, 25 daripada 25; nota daripada Muse dibalas kira-kira seminit kemudian."
+    },
+    "vi": {
+     "title": "Một hộp thư chung để các AI agent nhắn cho nhau",
+     "summary": "Tác giả tạo hộp thư cho AI agent trên MacBook với 433 địa chỉ, mỗi agent một địa chỉ, và thêm quy tắc cho từng agent: kiểm tra thư khi khởi động, gửi ghi chú cho agent khác nêu rõ cần gì và vì sao, nhận ghi chú thì làm việc rồi trả lời, ghi chú chỉ là yêu cầu chứ không phải sự đồng ý, không ghi mật khẩu hay khóa. Năm ứng dụng (T3 Code, Grok Bot, OpenBot, Muse và Dot) gửi ghi chú cho nhau và đều nhận được phản hồi, 25 trên 25; một ghi chú từ Muse được trả lời sau khoảng một phút."
+    },
+    "fr": {
+     "title": "Une boîte mail partagée pour que les agents IA s'écrivent",
+     "summary": "L'auteur a créé sur un MacBook une boîte mail pour agents IA avec 433 adresses, une par agent, et ajouté des règles à chaque agent : relever le courrier au démarrage, écrire à un autre agent en précisant le besoin et la raison, faire le travail puis répondre à réception, considérer une note comme une demande et jamais comme un accord, ne jamais y mettre de mots de passe ou de clés. Cinq applications (T3 Code, Grok Bot, OpenBot, Muse et Dot) se sont écrit mutuellement et ont toutes reçu une réponse, 25 sur 25 ; une note de Muse a reçu une réponse environ une minute plus tard."
+    },
+    "es": {
+     "title": "Un buzón compartido para que los agentes de IA se escriban",
+     "summary": "El autor montó en un MacBook un buzón para agentes de IA con 433 direcciones, una por agente, y añadió reglas a cada uno: revisar el correo al iniciar, escribir a otro agente diciendo qué necesita y por qué, hacer el trabajo y responder cuando llega una nota, tratar la nota como petición y nunca como un sí, y no poner contraseñas ni claves. Cinco apps (T3 Code, Grok Bot, OpenBot, Muse y Dot) se enviaron notas entre todas y recibieron respuesta, 25 de 25; una nota de Muse obtuvo respuesta en un minuto aproximadamente."
+    },
+    "de": {
+     "title": "Ein gemeinsames Postfach, damit KI-Agenten sich schreiben",
+     "summary": "Der Autor richtete auf einem MacBook ein Postfach für KI-Agenten mit 433 Adressen ein, eine pro Agent, und ergänzte die Regeln jedes Agenten: beim Start Post prüfen, einem anderen Agenten schreiben, was gebraucht wird und warum, bei eingehender Nachricht die Arbeit erledigen und antworten, eine Nachricht als Anfrage und nie als Zusage behandeln, keine Passwörter oder Schlüssel hineinschreiben. Fünf Apps (T3 Code, Grok Bot, OpenBot, Muse und Dot) schrieben sich gegenseitig und erhielten Antworten, 25 von 25; eine Nachricht von Muse wurde nach etwa einer Minute beantwortet."
+    }
+   },
+   "prompt": "you have a mailbox. check it when you start.\nwhen you need another agent, send it a note. say what you need and why.\nwhen a note comes in, read it, do the work, then reply.\na note is a request, never a yes. only i can say yes.\nnever put passwords or keys in a note.",
+   "added_at": "2026-11-26T13:36:02.765Z"
+  },
+  {
+   "id": "x:2125922013831397881",
+   "url": "https://x.com/Michael_Fenech_/status/2125922013831397881",
+   "source": "x",
+   "source_name": "X",
+   "author": "Michael_Fenech_",
+   "date": "2026-11-26",
+   "likes": 7,
+   "product": "grok-bot",
+   "text": "If you’re only sending messages to your Grok Bot’s main email address, you could be missing its most useful email trick.\n\nAn alias is your bot’s email address with a label added before the @.\n\nFor example: bot+travel@…\n\nEverything still lands in the same inbox. But the label (in this case +travel) tells your bot which job the email belongs to.\n\nHere are 7 ways to use aliases to turn incoming emails into work your Grok Bot handles for you. 👇\n\n1 - Turn receipts into an expense log\n\nUse +receipts for purchases. Have your bot extract the store, date, total and order number into a spreadsheet or running file.\n\nGet a weekly spending summary instead of manually sorting receipts.\n\n2 - Turn newsletters into a reading digest\n\nUse +reading for newsletter subscriptions. Tell your bot which topics matter to you and have it pull the useful points into one weekly digest, with links to the originals.\n\nLess inbox clutter. Less opening ten emails to find one useful idea.\n\n3 - Turn booking emails into a travel itinerary\n\nUse +travel for flight, hotel and activity confirmations.\n\nHave your bot organise times, addresses and booking references into one trip page, then flag changes or missing details.\n\n4 - Turn delivery emails into a parcel tracker\n\nUse +shipping for order and delivery updates.\n\nHave your bot maintain a list of what’s arriving and when. Ask it to message you when an email reports a delay or delivery.\n\n5 - Turn school emails into a family brief\n\nUse +school, or a separate alias for each child.\n\nHave your bot pull out permission slips, event dates, things to bring and payment deadlines. Get a Sunday brief for the week ahead, with urgent items flagged sooner.\n\n6 - Turn service alerts into useful notifications\n\nUse +alerts for the services you rely on.\n\nHave your bot summarise what happened, which service is affected and whether the email calls for action. Group repeat alerts so the same problem doesn’t become ten interruptions.\n\n7 - Turn enquiries into a lead list\n\nUse +leads for business enquiries.\n\nHave your bot log who contacted you, what they need and any missing information, then prepare a reply for your review.\n\nThe useful part: the address supplies the context. You don’t have to explain what to do with every email.\n\nHere’s the prompt to give your Grok Bot:\n\n“I want to use an email alias for [job].\n\nConfirm my exact alias address and what you can access to handle these emails.\n\nHelp me define what to extract, where to save it, when to send a summary and what deserves an immediate notification. Ask me only for missing details.\n\nShow me the proposed instructions and routine before setting it up. Keep replies as drafts.\n\nOnce I approve, test it on one email and show me the result.”\n\nStart with the emails you keep putting off dealing with. \n\nGive them an address and a job.",
+   "media": [
+    "https://pbs.twimg.com/media/HX8txfgbAAARJO3.jpg"
+   ],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "用邮箱别名给 Grok Bot 分派任务的 7 种用法",
+     "summary": "作者介绍在 Grok Bot 邮箱地址的 @ 前加标签（如 bot+travel@）作为别名：邮件仍进同一收件箱，但标签告诉 Bot 这封信属于哪项工作。7 个用法：+receipts 记账单、+reading 汇总订阅为每周摘要、+travel 整理行程、+shipping 跟踪包裹、+school 生成家庭周报、+alerts 汇总服务告警、+leads 记录商务询盘并准备回复草稿。还附了让 Bot 先确认别名、给出设置方案、经批准后用一封邮件测试的提示词。"
+    },
+    "zh-TW": {
+     "title": "用信箱別名替 Grok Bot 分派任務的 7 種用法",
+     "summary": "作者介紹在 Grok Bot 信箱地址的 @ 前加標籤（如 bot+travel@）作為別名：郵件仍進同一收件匣，但標籤告訴 Bot 這封信屬於哪項工作。7 個用法：+receipts 記帳單、+reading 彙整訂閱為每週摘要、+travel 整理行程、+shipping 追蹤包裹、+school 產生家庭週報、+alerts 彙整服務警示、+leads 記錄商務詢問並準備回覆草稿。還附了讓 Bot 先確認別名、提出設定方案、經批准後用一封郵件測試的提示詞。"
+    },
+    "en": {
+     "title": "7 ways to use email aliases to assign work to Grok Bot",
+     "summary": "The author explains adding a label before the @ in a Grok Bot email address (for example bot+travel@): mail still lands in the same inbox, but the label tells the bot which job it belongs to. Seven uses: +receipts for an expense log, +reading for a weekly newsletter digest, +travel for a trip page, +shipping for a parcel tracker, +school for a weekly family brief, +alerts for grouped service alerts, and +leads for an enquiry log with draft replies. A prompt is included that asks the bot to confirm the alias, propose the setup, and test on one email after approval."
+    },
+    "ja": {
+     "title": "メールエイリアスで Grok Bot に仕事を振る 7 つの方法",
+     "summary": "作者は Grok Bot のメールアドレスの @ の前にラベルを付けたエイリアス（例：bot+travel@）を紹介。メールは同じ受信箱に届くが、ラベルでどの仕事かを Bot に伝えられる。7 つの使い方：+receipts で支出記録、+reading でニュースレターの週次ダイジェスト、+travel で旅程ページ、+shipping で荷物トラッカー、+school で家族向け週次まとめ、+alerts でサービス通知の集約、+leads で問い合わせ記録と返信の下書き。エイリアスの確認、設定案の提示、承認後に 1 通でテストさせるプロンプトも付いている。"
+    },
+    "ko": {
+     "title": "이메일 별칭으로 Grok Bot에 일을 맡기는 7가지 방법",
+     "summary": "작성자는 Grok Bot 이메일 주소의 @ 앞에 라벨을 붙인 별칭(예: bot+travel@)을 소개한다. 메일은 같은 받은편지함에 오지만 라벨이 어떤 업무인지 Bot에게 알려준다. 7가지 용도: +receipts 지출 기록, +reading 뉴스레터 주간 요약, +travel 여행 일정 페이지, +shipping 택배 추적, +school 가족용 주간 브리핑, +alerts 서비스 알림 묶기, +leads 문의 기록과 답장 초안. 별칭 확인, 설정안 제시, 승인 후 메일 한 통으로 테스트하게 하는 프롬프트도 포함됐다."
+    },
+    "ms": {
+     "title": "7 cara guna alias e-mel untuk beri tugas kepada Grok Bot",
+     "summary": "Penulis menerangkan cara menambah label sebelum @ pada alamat e-mel Grok Bot (contohnya bot+travel@): mel tetap masuk ke peti yang sama, tetapi label memberitahu bot tugas mana ia berkaitan. Tujuh kegunaan: +receipts untuk log perbelanjaan, +reading untuk ringkasan surat berita mingguan, +travel untuk halaman perjalanan, +shipping untuk penjejak bungkusan, +school untuk taklimat keluarga mingguan, +alerts untuk menghimpun amaran perkhidmatan, dan +leads untuk log pertanyaan dengan draf balasan. Disertakan gesaan yang meminta bot mengesahkan alias, mencadangkan tetapan dan menguji pada satu e-mel selepas diluluskan."
+    },
+    "vi": {
+     "title": "7 cách dùng bí danh email để giao việc cho Grok Bot",
+     "summary": "Tác giả giải thích cách thêm nhãn trước @ trong địa chỉ email của Grok Bot (ví dụ bot+travel@): thư vẫn vào cùng hộp thư, nhưng nhãn cho bot biết thư thuộc việc nào. Bảy cách dùng: +receipts để ghi chi tiêu, +reading để tổng hợp bản tin hằng tuần, +travel để gom lịch trình, +shipping để theo dõi bưu kiện, +school để tóm tắt việc gia đình mỗi tuần, +alerts để gộp cảnh báo dịch vụ, +leads để ghi lại yêu cầu và soạn nháp trả lời. Kèm một prompt yêu cầu bot xác nhận bí danh, đề xuất cách thiết lập và thử trên một email sau khi được duyệt."
+    },
+    "fr": {
+     "title": "7 façons d'utiliser des alias e-mail pour confier du travail à Grok Bot",
+     "summary": "L'auteur explique comment ajouter une étiquette avant le @ de l'adresse de Grok Bot (par exemple bot+travel@) : le courrier arrive dans la même boîte, mais l'étiquette indique au bot de quelle tâche il s'agit. Sept usages : +receipts pour un journal de dépenses, +reading pour un résumé hebdomadaire des newsletters, +travel pour une page de voyage, +shipping pour suivre les colis, +school pour un point familial hebdomadaire, +alerts pour regrouper les alertes de services, +leads pour consigner les demandes avec des brouillons de réponse. Un prompt est fourni pour que le bot confirme l'alias, propose la configuration et teste sur un e-mail après validation."
+    },
+    "es": {
+     "title": "7 formas de usar alias de correo para asignar trabajo a Grok Bot",
+     "summary": "El autor explica cómo añadir una etiqueta antes de la @ en la dirección de Grok Bot (por ejemplo bot+travel@): el correo llega a la misma bandeja, pero la etiqueta le dice al bot a qué tarea pertenece. Siete usos: +receipts para un registro de gastos, +reading para un resumen semanal de newsletters, +travel para una página del viaje, +shipping para seguir paquetes, +school para un resumen familiar semanal, +alerts para agrupar avisos de servicios y +leads para registrar consultas con borradores de respuesta. Incluye un prompt para que el bot confirme el alias, proponga la configuración y la pruebe con un correo tras tu aprobación."
+    },
+    "de": {
+     "title": "7 Wege, Grok Bot per E-Mail-Alias Aufgaben zuzuweisen",
+     "summary": "Der Autor erklärt, wie man vor dem @ der Grok-Bot-Adresse ein Label ergänzt (etwa bot+travel@): Die Mail landet im selben Postfach, aber das Label sagt dem Bot, zu welcher Aufgabe sie gehört. Sieben Anwendungen: +receipts für ein Ausgabenprotokoll, +reading für einen wöchentlichen Newsletter-Digest, +travel für eine Reiseseite, +shipping für einen Paket-Tracker, +school für einen wöchentlichen Familien-Überblick, +alerts zum Bündeln von Dienstwarnungen und +leads für ein Anfragenprotokoll mit Antwortentwürfen. Dazu kommt ein Prompt, mit dem der Bot den Alias bestätigt, die Einrichtung vorschlägt und nach Freigabe an einer E-Mail testet."
+    }
+   },
+   "outline": [
+    "1 - Turn receipts into an expense log",
+    "2 - Turn newsletters into a reading digest",
+    "3 - Turn booking emails into a travel itinerary",
+    "4 - Turn delivery emails into a parcel tracker",
+    "5 - Turn school emails into a family brief",
+    "6 - Turn service alerts into useful notifications",
+    "7 - Turn enquiries into a lead list"
+   ],
+   "prompt": "I want to use an email alias for [job].\n\nConfirm my exact alias address and what you can access to handle these emails.\n\nHelp me define what to extract, where to save it, when to send a summary and what deserves an immediate notification. Ask me only for missing details.\n\nShow me the proposed instructions and routine before setting it up. Keep replies as drafts.\n\nOnce I approve, test it on one email and show me the result.",
+   "added_at": "2026-11-26T13:36:02.765Z"
+  },
+  {
+   "id": "x:2125915106349310064",
+   "url": "https://x.com/AIFieldReports/status/2125915106349310064",
+   "source": "x",
+   "source_name": "X",
+   "author": "AIFieldReports",
+   "date": "2026-11-26",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Presents is a Grok Bot that keeps one holiday gift list per person, finds items for sale from a photo, and watches for price drops and Black Friday deals. It never buys without your say-so.\nhttps://t.co/VT90CxXv0r\n\nGet our newsletter: https://t.co/d9qcKHfXwA",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Presents：管理节日礼物清单、盯降价的 Grok Bot",
+     "summary": "Presents 是一个 Grok Bot，为每个人维护一份节日礼物清单，可根据照片找到在售商品，并关注降价和黑色星期五优惠；没有你的同意绝不下单。"
+    },
+    "zh-TW": {
+     "title": "Presents：管理節日禮物清單、盯降價的 Grok Bot",
+     "summary": "Presents 是一個 Grok Bot，為每個人維護一份節日禮物清單，可根據照片找到在售商品，並關注降價和黑色星期五優惠；沒有你的同意絕不下單。"
+    },
+    "en": {
+     "title": "Presents: a Grok Bot for holiday gift lists and price drops",
+     "summary": "Presents is a Grok Bot that keeps one holiday gift list per person, finds items for sale from a photo, and watches for price drops and Black Friday deals. It never buys without your approval."
+    },
+    "ja": {
+     "title": "Presents：ホリデーギフトの管理と値下がりを見張る Grok Bot",
+     "summary": "Presents は、人ごとにホリデーギフトのリストを管理し、写真から販売中の商品を探し、値下がりやブラックフライデーのセールを見張る Grok Bot。あなたの許可なしに購入することはない。"
+    },
+    "ko": {
+     "title": "Presents: 연말 선물 목록과 가격 하락을 챙기는 Grok Bot",
+     "summary": "Presents는 사람마다 연말 선물 목록을 하나씩 관리하고, 사진으로 판매 중인 상품을 찾고, 가격 인하와 블랙프라이데이 할인을 지켜보는 Grok Bot이다. 사용자 허락 없이는 절대 구매하지 않는다."
+    },
+    "ms": {
+     "title": "Presents: Grok Bot untuk senarai hadiah perayaan dan penurunan harga",
+     "summary": "Presents ialah Grok Bot yang menyimpan satu senarai hadiah perayaan bagi setiap orang, mencari barang yang dijual daripada foto, dan memantau penurunan harga serta tawaran Black Friday. Ia tidak membeli tanpa kebenaran anda."
+    },
+    "vi": {
+     "title": "Presents: Grok Bot quản lý danh sách quà và theo dõi giảm giá",
+     "summary": "Presents là một Grok Bot giữ một danh sách quà dịp lễ cho mỗi người, tìm sản phẩm đang bán từ một bức ảnh và theo dõi giảm giá cùng ưu đãi Black Friday. Nó không bao giờ mua khi chưa có sự đồng ý của bạn."
+    },
+    "fr": {
+     "title": "Presents : un Grok Bot pour les listes de cadeaux et les baisses de prix",
+     "summary": "Presents est un Grok Bot qui tient une liste de cadeaux des fêtes par personne, retrouve des articles en vente à partir d'une photo et surveille les baisses de prix et les offres du Black Friday. Il n'achète jamais sans votre accord."
+    },
+    "es": {
+     "title": "Presents: un Grok Bot para listas de regalos y bajadas de precio",
+     "summary": "Presents es un Grok Bot que mantiene una lista de regalos navideños por persona, encuentra artículos a la venta a partir de una foto y vigila bajadas de precio y ofertas del Black Friday. Nunca compra sin tu permiso."
+    },
+    "de": {
+     "title": "Presents: ein Grok Bot für Geschenklisten und Preissenkungen",
+     "summary": "Presents ist ein Grok Bot, der pro Person eine Liste für Feiertagsgeschenke führt, anhand eines Fotos Artikel im Verkauf findet und auf Preissenkungen und Black-Friday-Angebote achtet. Er kauft nie ohne deine Zustimmung."
+    }
+   },
+   "added_at": "2026-11-26T13:36:02.765Z"
+  },
+  {
+   "id": "x:2125911235833266319",
+   "url": "https://x.com/sboudis/status/2125911235833266319",
+   "source": "x",
+   "source_name": "X",
+   "author": "sboudis",
+   "date": "2026-11-26",
+   "likes": 5,
+   "product": "grok-bot",
+   "text": "Grok Bot is hungry: an hourly routine can burn a week of usage in a day. Same routines, zero tokens when there's nothing to do. A Mac wakes Grok Bot only when there's work, and Claude or Codex do the heavy lifting. Here's how 👇 https://t.co/qy53uH4Yqu",
+   "media": [],
+   "type": "guide",
+   "tr": {
+    "zh-CN": {
+     "title": "让 Grok Bot 例程在无事可做时不耗用量",
+     "summary": "作者指出 Grok Bot 很耗用量：每小时跑一次的例程可能一天就用掉一周的额度。他的做法是保持同样的例程，但在没事时消耗零 token：由一台 Mac 只在有活时唤醒 Grok Bot，繁重工作交给 Claude 或 Codex。帖子附有具体做法链接。"
+    },
+    "zh-TW": {
+     "title": "讓 Grok Bot 例程在無事可做時不耗用量",
+     "summary": "作者指出 Grok Bot 很耗用量：每小時跑一次的例程可能一天就用掉一週的額度。他的做法是保持同樣的例程，但在沒事時消耗零 token：由一台 Mac 只在有工作時喚醒 Grok Bot，繁重工作交給 Claude 或 Codex。貼文附有具體做法連結。"
+    },
+    "en": {
+     "title": "Keep Grok Bot routines from burning usage when idle",
+     "summary": "The author notes that Grok Bot is hungry: an hourly routine can burn a week of usage in a day. The approach keeps the same routines but uses zero tokens when there is nothing to do: a Mac wakes Grok Bot only when there is work, and Claude or Codex do the heavy lifting. A link to the how-to is in the post."
+    },
+    "ja": {
+     "title": "暇なときに Grok Bot のルーティンが使用量を消費しないようにする",
+     "summary": "作者によると Grok Bot は使用量を多く消費し、1 時間ごとのルーティンで 1 週間分を 1 日で使い切ることもある。同じルーティンのまま、やることがないときはトークン消費ゼロにする方法として、仕事があるときだけ Mac が Grok Bot を起こし、重い処理は Claude や Codex に任せる。手順へのリンクが投稿にある。"
+    },
+    "ko": {
+     "title": "할 일이 없을 때 Grok Bot 루틴이 사용량을 쓰지 않게 하기",
+     "summary": "작성자는 Grok Bot이 사용량을 많이 먹어서 매시간 루틴이 일주일치 사용량을 하루 만에 쓸 수 있다고 말한다. 같은 루틴을 유지하되 할 일이 없을 때는 토큰을 전혀 쓰지 않는 방식으로, Mac이 일이 있을 때만 Grok Bot을 깨우고 무거운 작업은 Claude나 Codex가 맡는다. 방법 링크가 게시물에 있다."
+    },
+    "ms": {
+     "title": "Elakkan rutin Grok Bot menghabiskan penggunaan ketika tiada kerja",
+     "summary": "Penulis menyatakan Grok Bot sangat lapar: rutin setiap jam boleh menghabiskan penggunaan seminggu dalam sehari. Pendekatannya mengekalkan rutin yang sama tetapi menggunakan sifar token apabila tiada apa-apa untuk dibuat: sebuah Mac hanya membangunkan Grok Bot apabila ada kerja, dan Claude atau Codex melakukan kerja berat. Pautan panduan ada dalam hantaran."
+    },
+    "vi": {
+     "title": "Giữ routine Grok Bot không tốn hạn mức khi không có việc",
+     "summary": "Tác giả cho biết Grok Bot rất tốn: một routine chạy mỗi giờ có thể dùng hết hạn mức cả tuần trong một ngày. Cách làm là giữ nguyên các routine nhưng không tốn token nào khi không có việc: một máy Mac chỉ đánh thức Grok Bot khi có việc, còn Claude hoặc Codex đảm nhận phần nặng. Bài đăng có kèm liên kết hướng dẫn."
+    },
+    "fr": {
+     "title": "Éviter que les routines Grok Bot consomment l'usage à vide",
+     "summary": "L'auteur constate que Grok Bot est gourmand : une routine horaire peut consommer une semaine d'usage en un jour. Sa méthode garde les mêmes routines mais ne consomme aucun token quand il n'y a rien à faire : un Mac ne réveille Grok Bot que lorsqu'il y a du travail, et Claude ou Codex se chargent du gros du travail. Le lien vers la méthode figure dans le post."
+    },
+    "es": {
+     "title": "Evitar que las rutinas de Grok Bot gasten uso sin trabajo",
+     "summary": "El autor señala que Grok Bot consume mucho: una rutina cada hora puede gastar el uso de una semana en un día. Su método mantiene las mismas rutinas pero con cero tokens cuando no hay nada que hacer: un Mac despierta a Grok Bot solo cuando hay trabajo y Claude o Codex hacen la parte pesada. El enlace a la guía está en la publicación."
+    },
+    "de": {
+     "title": "Grok-Bot-Routinen ohne Verbrauch im Leerlauf",
+     "summary": "Der Autor stellt fest, dass Grok Bot hungrig ist: Eine stündliche Routine kann an einem Tag das Nutzungskontingent einer Woche verbrauchen. Sein Ansatz behält die Routinen bei, verbraucht aber null Tokens, wenn nichts zu tun ist: Ein Mac weckt Grok Bot nur bei Arbeit, und Claude oder Codex übernehmen die schwere Arbeit. Der Link zur Anleitung steht im Post."
+    }
+   },
+   "added_at": "2026-11-26T13:36:02.765Z"
+  },
+  {
+   "id": "x:2125909621051134102",
+   "url": "https://x.com/TonyChanBuilds/status/2125909621051134102",
+   "source": "x",
+   "source_name": "X",
+   "author": "TonyChanBuilds",
+   "date": "2026-11-26",
+   "likes": 25,
+   "product": "grok-bot",
+   "text": "Elon Musk reposted me yesterday. Thank you 🙏\n\n386K views. 72K verified impressions.\n\nI thought it would get me to creator rewards. It got me to 310K of the 500K I need. So I keep going.\n\nThe day was chaos in the best way. My kids were with me all day. Feed them, reply. Play, check the post. Then Thanksgiving dinner with their mom's family. We get along well as co-parents.\n\n400mg of caffeine. I had a blast.\n\nThe hard part was hundreds of replies. So:\n\n1. Grok Bot told me who to reply to first\n2. I asked each person a real question/thought\n3. My bots helped me launch a newsletter that same day\n\nEvery post I made yesterday hit 1,000+ views, and I only posted 5.\n\nPhotos show the real numbers.\n\nPut your thoughts out there. You never know who's reading.",
+   "media": [
+    "https://pbs.twimg.com/media/HYC_PToWIAE5CYK.jpg",
+    "https://pbs.twimg.com/media/HYC-8fBXgAA8BYS.jpg",
+    "https://pbs.twimg.com/media/HYC_G01WkAAcym9.jpg",
+    "https://pbs.twimg.com/media/HYC_JGxWkAAWE5F.jpg"
+   ],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "帖子爆火当天，用 Grok Bot 排出该先回复谁",
+     "summary": "作者的帖子被 Elon Musk 转发，获得 38.6 万次浏览、7.2 万次认证用户曝光。面对数百条回复，他让 Grok Bot 告诉他先回复谁，再对每个人提一个真实的问题或想法；他的 bots 还帮他在同一天上线了一份 newsletter。他说那天只发了 5 条帖子，每条都超过 1000 次浏览。"
+    },
+    "zh-TW": {
+     "title": "貼文爆紅當天，用 Grok Bot 排出該先回覆誰",
+     "summary": "作者的貼文被 Elon Musk 轉發，獲得 38.6 萬次瀏覽、7.2 萬次認證用戶曝光。面對數百則回覆，他讓 Grok Bot 告訴他先回覆誰，再對每個人提一個真實的問題或想法；他的 bots 還幫他在同一天上線了一份電子報。他說那天只發了 5 則貼文，每則都超過 1000 次瀏覽。"
+    },
+    "en": {
+     "title": "Using Grok Bot to triage hundreds of replies on a viral day",
+     "summary": "After Elon Musk reposted the author, the post reached 386K views and 72K verified impressions. Facing hundreds of replies, the author had Grok Bot say who to reply to first, then asked each person a real question or thought; the author's bots also helped launch a newsletter the same day. The author says each of the 5 posts that day passed 1,000 views."
+    },
+    "ja": {
+     "title": "バズった日に Grok Bot で返信の優先順位を決める",
+     "summary": "作者の投稿が Elon Musk にリポストされ、38.6 万ビュー、7.2 万の認証済みインプレッションに達した。数百件の返信に対し、Grok Bot に誰から返信すべきかを教えてもらい、一人ひとりに本当の質問や考えを返した。同じ日に bots の助けでニュースレターも立ち上げた。その日の投稿は 5 件だけで、どれも 1,000 ビューを超えたという。"
+    },
+    "ko": {
+     "title": "바이럴된 날 Grok Bot으로 수백 개 답글 우선순위 정하기",
+     "summary": "작성자의 게시물이 Elon Musk에게 리포스트되어 조회수 38.6만, 인증 노출 7.2만을 기록했다. 수백 개의 답글에 대해 Grok Bot이 누구에게 먼저 답할지 알려주었고, 작성자는 한 사람씩 진짜 질문이나 생각을 건넸다. 같은 날 bots의 도움으로 뉴스레터도 시작했다. 그날 올린 게시물 5개 모두 조회수 1,000을 넘었다고 한다."
+    },
+    "ms": {
+     "title": "Guna Grok Bot untuk menyusun ratusan balasan pada hari tular",
+     "summary": "Selepas Elon Musk menyiar semula hantaran penulis, ia mencapai 386K tontonan dan 72K tera disahkan. Berdepan ratusan balasan, penulis meminta Grok Bot memberitahu siapa perlu dibalas dahulu, kemudian bertanya soalan atau pandangan sebenar kepada setiap orang; bot-botnya juga membantu melancarkan surat berita pada hari yang sama. Penulis berkata kelima-lima hantaran hari itu melepasi 1,000 tontonan."
+    },
+    "vi": {
+     "title": "Dùng Grok Bot để ưu tiên hàng trăm phản hồi trong ngày bài viral",
+     "summary": "Sau khi Elon Musk đăng lại, bài của tác giả đạt 386K lượt xem và 72K lượt hiển thị từ tài khoản xác minh. Trước hàng trăm phản hồi, tác giả nhờ Grok Bot chỉ ra nên trả lời ai trước, rồi hỏi mỗi người một câu hỏi hay suy nghĩ thật; các bot của tác giả cũng giúp ra mắt một bản tin ngay trong ngày. Tác giả nói cả 5 bài đăng hôm đó đều vượt 1.000 lượt xem."
+    },
+    "fr": {
+     "title": "Trier des centaines de réponses avec Grok Bot un jour de buzz",
+     "summary": "Après un repost d'Elon Musk, le post de l'auteur a atteint 386K vues et 72K impressions vérifiées. Face à des centaines de réponses, l'auteur a demandé à Grok Bot à qui répondre en premier, puis a posé à chacun une vraie question ou réflexion ; ses bots l'ont aussi aidé à lancer une newsletter le jour même. Selon l'auteur, chacun des 5 posts de la journée a dépassé 1 000 vues."
+    },
+    "es": {
+     "title": "Usar Grok Bot para priorizar cientos de respuestas en un día viral",
+     "summary": "Tras un repost de Elon Musk, la publicación del autor llegó a 386K visualizaciones y 72K impresiones verificadas. Ante cientos de respuestas, el autor pidió a Grok Bot que le dijera a quién responder primero y luego planteó a cada persona una pregunta o idea real; sus bots también le ayudaron a lanzar una newsletter ese mismo día. Dice que cada una de sus 5 publicaciones del día superó las 1.000 visualizaciones."
+    },
+    "de": {
+     "title": "Mit Grok Bot Hunderte Antworten an einem viralen Tag priorisieren",
+     "summary": "Nachdem Elon Musk den Autor repostet hatte, erreichte der Post 386K Aufrufe und 72K verifizierte Impressionen. Bei Hunderten Antworten ließ sich der Autor von Grok Bot sagen, wem er zuerst antworten sollte, und stellte dann jeder Person eine echte Frage oder einen Gedanken; seine Bots halfen am selben Tag auch beim Start eines Newsletters. Laut Autor kam jeder der 5 Posts des Tages auf über 1.000 Aufrufe."
+    }
+   },
+   "added_at": "2026-11-26T13:36:02.765Z"
+  },
+  {
+   "id": "x:2125902676353532399",
+   "url": "https://x.com/wizzouk/status/2125902676353532399",
+   "source": "x",
+   "source_name": "X",
+   "author": "wizzouk",
+   "date": "2026-11-26",
+   "likes": 1,
+   "product": "grok-bot",
+   "text": "@masterjan_ @ryangrowthh @bot Depends what you use Claude for. I'd keep it for deep one-off thinking and writing, and give Grok Bot the recurring jobs: things on a schedule, inbox, monitoring, anything that should run while you're away. Start with one boring weekly task and build from there.",
+   "media": [],
+   "type": "comparison",
+   "tr": {
+    "zh-CN": {
+     "title": "Claude 和 Grok Bot 怎么分工",
+     "summary": "作者建议：深度的一次性思考和写作留给 Claude，把重复性工作交给 Grok Bot，例如定时任务、收件箱、监控，以及任何应在你不在时运行的事。先从一个无聊的每周任务开始，再逐步扩展。"
+    },
+    "zh-TW": {
+     "title": "Claude 和 Grok Bot 怎麼分工",
+     "summary": "作者建議：深度的一次性思考和寫作留給 Claude，把重複性工作交給 Grok Bot，例如排程任務、收件匣、監控，以及任何應在你不在時執行的事。先從一個無聊的每週任務開始，再逐步擴展。"
+    },
+    "en": {
+     "title": "How to split work between Claude and Grok Bot",
+     "summary": "The author suggests keeping Claude for deep one-off thinking and writing, and giving Grok Bot the recurring jobs: scheduled tasks, inbox, monitoring, and anything that should run while you are away. Start with one boring weekly task and build from there."
+    },
+    "ja": {
+     "title": "Claude と Grok Bot の役割分担",
+     "summary": "作者の提案：深く考える単発の思考や執筆は Claude に任せ、定期的な仕事は Grok Bot に渡す。スケジュール実行のタスク、受信箱、監視、留守中に動くべきものなど。まずは退屈な週次タスクを 1 つから始めて広げていく。"
+    },
+    "ko": {
+     "title": "Claude와 Grok Bot의 역할 나누기",
+     "summary": "작성자의 제안: 깊이 있는 일회성 사고와 글쓰기는 Claude에 맡기고, 반복 작업은 Grok Bot에 맡긴다. 예약 작업, 받은편지함, 모니터링, 자리를 비운 동안 돌아가야 하는 일 등이다. 지루한 주간 작업 하나부터 시작해 넓혀 가라고 한다."
+    },
+    "ms": {
+     "title": "Cara membahagi kerja antara Claude dan Grok Bot",
+     "summary": "Penulis mencadangkan Claude digunakan untuk pemikiran mendalam dan penulisan sekali sahaja, manakala Grok Bot diberi kerja berulang: tugas berjadual, peti masuk, pemantauan dan apa sahaja yang perlu berjalan semasa anda tiada. Mulakan dengan satu tugas mingguan yang membosankan dan kembangkan dari situ."
+    },
+    "vi": {
+     "title": "Chia việc giữa Claude và Grok Bot thế nào",
+     "summary": "Tác giả gợi ý dùng Claude cho việc suy nghĩ sâu và viết lách một lần, còn giao cho Grok Bot các việc lặp lại: tác vụ theo lịch, hộp thư, giám sát và mọi thứ cần chạy khi bạn vắng mặt. Hãy bắt đầu với một việc nhàm chán hằng tuần rồi mở rộng dần."
+    },
+    "fr": {
+     "title": "Comment répartir le travail entre Claude et Grok Bot",
+     "summary": "L'auteur suggère de garder Claude pour la réflexion approfondie et l'écriture ponctuelles, et de confier à Grok Bot les tâches récurrentes : tâches planifiées, boîte de réception, surveillance et tout ce qui doit tourner en votre absence. Commencer par une tâche hebdomadaire ennuyeuse, puis élargir."
+    },
+    "es": {
+     "title": "Cómo repartir el trabajo entre Claude y Grok Bot",
+     "summary": "El autor sugiere dejar a Claude el pensamiento profundo y la escritura puntuales, y dar a Grok Bot los trabajos recurrentes: tareas programadas, bandeja de entrada, monitorización y todo lo que deba funcionar mientras no estás. Empezar con una tarea semanal aburrida e ir ampliando."
+    },
+    "de": {
+     "title": "Arbeitsteilung zwischen Claude und Grok Bot",
+     "summary": "Der Autor rät, Claude für tiefes, einmaliges Denken und Schreiben zu nutzen und Grok Bot die wiederkehrenden Aufgaben zu geben: geplante Jobs, Posteingang, Monitoring und alles, was laufen soll, während man weg ist. Mit einer langweiligen Wochenaufgabe anfangen und darauf aufbauen."
+    }
+   },
+   "added_at": "2026-11-26T13:36:02.765Z"
+  },
+  {
+   "id": "x:2125878141998821703",
+   "url": "https://x.com/yakovets_seva/status/2125878141998821703",
+   "source": "x",
+   "source_name": "X",
+   "author": "yakovets_seva",
+   "date": "2026-11-26",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "@Bober_smart I actually run a small team of Grok Bot assistants: study, money, calendar, coding, content. My take so far: one narrow job per bot is way easier to manage than one bot for everything.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "一个 Bot 只做一件事：小型 Grok Bot 助理团队",
+     "summary": "作者运行一个由多个 Grok Bot 助理组成的小团队，分别负责学习、财务、日历、编程和内容。他目前的体会是：每个 Bot 只负责一项窄的工作，比一个 Bot 包办所有事情好管理得多。"
+    },
+    "zh-TW": {
+     "title": "一個 Bot 只做一件事：小型 Grok Bot 助理團隊",
+     "summary": "作者運行一個由多個 Grok Bot 助理組成的小團隊，分別負責學習、財務、行事曆、程式設計和內容。他目前的體會是：每個 Bot 只負責一項窄的工作，比一個 Bot 包辦所有事情好管理得多。"
+    },
+    "en": {
+     "title": "One narrow job per bot: a small team of Grok Bot assistants",
+     "summary": "The author runs a small team of Grok Bot assistants for study, money, calendar, coding and content. Their take so far: one narrow job per bot is much easier to manage than one bot for everything."
+    },
+    "ja": {
+     "title": "1 つの Bot に 1 つの仕事：小さな Grok Bot アシスタントチーム",
+     "summary": "作者は学習、お金、カレンダー、コーディング、コンテンツを担当する Grok Bot アシスタントの小さなチームを運用している。今のところの感想は、1 つの Bot に狭い仕事を 1 つ任せる方が、1 つの Bot に全部任せるよりずっと管理しやすいということ。"
+    },
+    "ko": {
+     "title": "봇 하나에 일 하나: 작은 Grok Bot 비서 팀",
+     "summary": "작성자는 공부, 돈, 캘린더, 코딩, 콘텐츠를 맡는 Grok Bot 비서들로 작은 팀을 운영한다. 지금까지의 소감은 봇 하나에 좁은 일 하나를 맡기는 것이 봇 하나에 모든 걸 맡기는 것보다 훨씬 관리하기 쉽다는 것이다."
+    },
+    "ms": {
+     "title": "Satu tugas khusus bagi setiap bot: pasukan kecil pembantu Grok Bot",
+     "summary": "Penulis menjalankan pasukan kecil pembantu Grok Bot untuk pembelajaran, kewangan, kalendar, pengekodan dan kandungan. Pandangannya setakat ini: satu tugas khusus bagi setiap bot jauh lebih mudah diurus berbanding satu bot untuk semua perkara."
+    },
+    "vi": {
+     "title": "Mỗi bot một việc: đội trợ lý Grok Bot nhỏ",
+     "summary": "Tác giả vận hành một đội nhỏ gồm các trợ lý Grok Bot cho học tập, tiền bạc, lịch, lập trình và nội dung. Nhận xét đến nay: mỗi bot đảm nhận một việc hẹp dễ quản lý hơn nhiều so với một bot làm tất cả."
+    },
+    "fr": {
+     "title": "Une tâche ciblée par bot : une petite équipe d'assistants Grok Bot",
+     "summary": "L'auteur fait tourner une petite équipe d'assistants Grok Bot pour les études, l'argent, l'agenda, le code et le contenu. Son constat pour l'instant : un bot par tâche ciblée est bien plus simple à gérer qu'un seul bot pour tout."
+    },
+    "es": {
+     "title": "Un trabajo concreto por bot: un pequeño equipo de asistentes Grok Bot",
+     "summary": "El autor gestiona un pequeño equipo de asistentes Grok Bot para estudio, dinero, calendario, programación y contenido. Su conclusión por ahora: un trabajo concreto por bot es mucho más fácil de gestionar que un solo bot para todo."
+    },
+    "de": {
+     "title": "Eine klare Aufgabe pro Bot: ein kleines Team von Grok-Bot-Assistenten",
+     "summary": "Der Autor betreibt ein kleines Team von Grok-Bot-Assistenten für Lernen, Finanzen, Kalender, Programmieren und Inhalte. Sein bisheriges Fazit: Eine eng gefasste Aufgabe pro Bot ist viel leichter zu verwalten als ein Bot für alles."
+    }
+   },
+   "added_at": "2026-11-26T13:36:02.765Z"
+  },
+  {
+   "id": "x:2125872884526481624",
+   "url": "https://x.com/BuildTheFamily/status/2125872884526481624",
+   "source": "x",
+   "source_name": "X",
+   "author": "BuildTheFamily",
+   "date": "2026-11-26",
+   "likes": 2,
+   "product": "grok-bot",
+   "text": "This Thanksgiving morning, Grok Bot and I built a 2-language website, booked flights, paid bills, bought Christmas gifts, wrote an article, renewed a passport, and smoked a brisket.\n\nNow I have the rest of the day for family, friends, and eating brisket in Europe.\n\nThankful for Grok Bot.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "感恩节上午和 Grok Bot 一起完成一串事务",
+     "summary": "作者说，感恩节上午他和 Grok Bot 一起做了一个双语网站、订了机票、付了账单、买了圣诞礼物、写了一篇文章、续办了护照，还熏了一块牛胸肉，剩下的时间留给家人和朋友。"
+    },
+    "zh-TW": {
+     "title": "感恩節上午和 Grok Bot 一起完成一串事務",
+     "summary": "作者說，感恩節上午他和 Grok Bot 一起做了一個雙語網站、訂了機票、付了帳單、買了聖誕禮物、寫了一篇文章、續辦了護照，還燻了一塊牛胸肉，剩下的時間留給家人和朋友。"
+    },
+    "en": {
+     "title": "A Thanksgiving morning of errands with Grok Bot",
+     "summary": "The author says that on Thanksgiving morning they and Grok Bot built a two-language website, booked flights, paid bills, bought Christmas gifts, wrote an article, renewed a passport and smoked a brisket, leaving the rest of the day for family and friends."
+    },
+    "ja": {
+     "title": "感謝祭の朝に Grok Bot とまとめて片付けた用事",
+     "summary": "作者によると、感謝祭の朝に Grok Bot と一緒に 2 言語のウェブサイトを作り、航空券を予約し、請求書を支払い、クリスマスプレゼントを買い、記事を書き、パスポートを更新し、ブリスケットを燻製にした。残りの時間は家族や友人と過ごすという。"
+    },
+    "ko": {
+     "title": "추수감사절 오전에 Grok Bot과 함께 끝낸 일들",
+     "summary": "작성자는 추수감사절 오전에 Grok Bot과 함께 2개 언어 웹사이트를 만들고, 항공권을 예약하고, 공과금을 내고, 크리스마스 선물을 사고, 글을 쓰고, 여권을 갱신하고, 브리스킷을 훈제했다고 한다. 남은 하루는 가족과 친구에게 쓴다고 했다."
+    },
+    "ms": {
+     "title": "Pagi Kesyukuran yang penuh urusan bersama Grok Bot",
+     "summary": "Penulis berkata pada pagi Hari Kesyukuran dia dan Grok Bot membina laman web dua bahasa, menempah penerbangan, membayar bil, membeli hadiah Krismas, menulis artikel, memperbaharui pasport dan menyalai brisket, lalu meninggalkan baki hari untuk keluarga dan rakan."
+    },
+    "vi": {
+     "title": "Một buổi sáng Lễ Tạ ơn xử lý việc vặt cùng Grok Bot",
+     "summary": "Tác giả kể sáng Lễ Tạ ơn đã cùng Grok Bot làm một website hai ngôn ngữ, đặt vé máy bay, thanh toán hóa đơn, mua quà Giáng sinh, viết một bài báo, gia hạn hộ chiếu và hun khói một miếng ức bò, dành phần còn lại của ngày cho gia đình và bạn bè."
+    },
+    "fr": {
+     "title": "Une matinée de Thanksgiving à régler des tâches avec Grok Bot",
+     "summary": "L'auteur raconte que le matin de Thanksgiving, avec Grok Bot, il a créé un site bilingue, réservé des vols, payé des factures, acheté des cadeaux de Noël, écrit un article, renouvelé un passeport et fumé une poitrine de bœuf, gardant le reste de la journée pour la famille et les amis."
+    },
+    "es": {
+     "title": "Una mañana de Acción de Gracias resolviendo tareas con Grok Bot",
+     "summary": "El autor cuenta que la mañana de Acción de Gracias, junto a Grok Bot, creó un sitio web en dos idiomas, reservó vuelos, pagó facturas, compró regalos de Navidad, escribió un artículo, renovó un pasaporte y ahumó un brisket, dejando el resto del día para la familia y los amigos."
+    },
+    "de": {
+     "title": "Ein Thanksgiving-Morgen voller Erledigungen mit Grok Bot",
+     "summary": "Der Autor berichtet, dass er am Thanksgiving-Morgen mit Grok Bot eine zweisprachige Website gebaut, Flüge gebucht, Rechnungen bezahlt, Weihnachtsgeschenke gekauft, einen Artikel geschrieben, einen Reisepass erneuert und ein Brisket geräuchert hat; der Rest des Tages gehört Familie und Freunden."
+    }
+   },
+   "added_at": "2026-11-26T13:36:02.765Z"
+  },
+  {
+   "id": "x:2125870239930097903",
+   "url": "https://x.com/bnistordev/status/2125870239930097903",
+   "source": "x",
+   "source_name": "X",
+   "author": "bnistordev",
+   "date": "2026-11-26",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "@blankspeaker I run a few Grok Bot agents every day, one even has its own inbox at tldr@mail.grokbot.com. Sharing and teams is what turns that into something a small team can use.",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "每天运行多个 Grok Bot，其中一个有专属收件箱",
+     "summary": "作者说他每天运行几个 Grok Bot 代理，其中一个有自己的收件箱 tldr@mail.grokbot.com，并认为共享和团队功能能让这种用法变成小团队也能用的东西。"
+    },
+    "zh-TW": {
+     "title": "每天執行多個 Grok Bot，其中一個有專屬收件匣",
+     "summary": "作者說他每天執行幾個 Grok Bot 代理，其中一個有自己的收件匣 tldr@mail.grokbot.com，並認為分享和團隊功能能讓這種用法變成小團隊也能用的東西。"
+    },
+    "en": {
+     "title": "Daily Grok Bot agents, one with its own inbox",
+     "summary": "The author runs a few Grok Bot agents every day, and one has its own inbox at tldr@mail.grokbot.com. They say sharing and teams is what turns that into something a small team can use."
+    },
+    "ja": {
+     "title": "毎日動かす Grok Bot エージェント、1 つは専用の受信箱付き",
+     "summary": "作者は毎日いくつかの Grok Bot エージェントを動かしており、そのうち 1 つは tldr@mail.grokbot.com という専用の受信箱を持つ。共有とチーム機能によって、小さなチームでも使えるものになると述べている。"
+    },
+    "ko": {
+     "title": "매일 돌리는 Grok Bot 에이전트, 하나는 전용 받은편지함 보유",
+     "summary": "작성자는 매일 몇 개의 Grok Bot 에이전트를 돌리며, 그중 하나는 tldr@mail.grokbot.com이라는 자체 받은편지함이 있다. 공유와 팀 기능이 이를 작은 팀도 쓸 수 있는 것으로 만든다고 말한다."
+    },
+    "ms": {
+     "title": "Ejen Grok Bot harian, satu dengan peti masuk sendiri",
+     "summary": "Penulis menjalankan beberapa ejen Grok Bot setiap hari, dan satu daripadanya mempunyai peti masuk sendiri di tldr@mail.grokbot.com. Menurutnya, ciri perkongsian dan pasukan menjadikannya sesuatu yang boleh digunakan oleh pasukan kecil."
+    },
+    "vi": {
+     "title": "Chạy các agent Grok Bot hằng ngày, một agent có hộp thư riêng",
+     "summary": "Tác giả chạy vài agent Grok Bot mỗi ngày, trong đó một agent có hộp thư riêng tldr@mail.grokbot.com. Theo tác giả, tính năng chia sẻ và nhóm giúp cách dùng này trở thành thứ một nhóm nhỏ có thể dùng."
+    },
+    "fr": {
+     "title": "Des agents Grok Bot au quotidien, dont un avec sa propre boîte",
+     "summary": "L'auteur fait tourner chaque jour quelques agents Grok Bot, dont un dispose de sa propre boîte de réception à tldr@mail.grokbot.com. Selon lui, le partage et les équipes en font quelque chose d'utilisable par une petite équipe."
+    },
+    "es": {
+     "title": "Agentes Grok Bot a diario, uno con su propia bandeja",
+     "summary": "El autor ejecuta varios agentes Grok Bot cada día y uno tiene su propia bandeja de entrada en tldr@mail.grokbot.com. Según él, compartir y los equipos convierten eso en algo que puede usar un equipo pequeño."
+    },
+    "de": {
+     "title": "Tägliche Grok-Bot-Agenten, einer mit eigenem Postfach",
+     "summary": "Der Autor betreibt täglich einige Grok-Bot-Agenten, einer hat ein eigenes Postfach unter tldr@mail.grokbot.com. Teilen und Teams machen das laut ihm zu etwas, das ein kleines Team nutzen kann."
+    }
+   },
+   "added_at": "2026-11-26T13:36:02.765Z"
+  },
+  {
+   "id": "x:2125869714584834300",
+   "url": "https://x.com/AIFieldReports/status/2125869714584834300",
+   "source": "x",
+   "source_name": "X",
+   "author": "AIFieldReports",
+   "date": "2026-11-26",
+   "likes": 0,
+   "product": "grok-bot",
+   "text": "Black Friday Scout is a Grok Bot that sorts the handful of deals worth buying from the thousands being advertised, with prices, links, and a verdict on whether to buy now or wait.\nhttps://t.co/onw0flVXRd\n\nGet our newsletter: https://t.co/d9qcKHfXwA",
+   "media": [],
+   "type": "field-case",
+   "tr": {
+    "zh-CN": {
+     "title": "Black Friday Scout：从海量促销中挑出值得买的 Grok Bot",
+     "summary": "Black Friday Scout 是一个 Grok Bot，从成千上万条广告促销中挑出少数值得买的，附上价格、链接，并给出现在买还是再等等的判断。"
+    },
+    "zh-TW": {
+     "title": "Black Friday Scout：從海量促銷中挑出值得買的 Grok Bot",
+     "summary": "Black Friday Scout 是一個 Grok Bot，從成千上萬則廣告促銷中挑出少數值得買的，附上價格、連結，並給出現在買還是再等等的判斷。"
+    },
+    "en": {
+     "title": "Black Friday Scout: a Grok Bot that picks the deals worth buying",
+     "summary": "Black Friday Scout is a Grok Bot that sorts the handful of deals worth buying from the thousands being advertised, with prices, links and a verdict on whether to buy now or wait."
+    },
+    "ja": {
+     "title": "Black Friday Scout：買う価値のあるセールを選ぶ Grok Bot",
+     "summary": "Black Friday Scout は、宣伝されている数千のセールから買う価値のある少数を選び出し、価格とリンク、今買うか待つかの判断を添える Grok Bot。"
+    },
+    "ko": {
+     "title": "Black Friday Scout: 살 만한 할인만 골라 주는 Grok Bot",
+     "summary": "Black Friday Scout는 광고되는 수천 개의 할인 중 살 만한 몇 개를 골라 가격, 링크와 함께 지금 살지 기다릴지 판단을 알려주는 Grok Bot이다."
+    },
+    "ms": {
+     "title": "Black Friday Scout: Grok Bot yang memilih tawaran berbaloi",
+     "summary": "Black Friday Scout ialah Grok Bot yang menyaring segelintir tawaran yang berbaloi dibeli daripada ribuan yang diiklankan, berserta harga, pautan dan keputusan sama ada beli sekarang atau tunggu."
+    },
+    "vi": {
+     "title": "Black Friday Scout: Grok Bot chọn ra ưu đãi đáng mua",
+     "summary": "Black Friday Scout là một Grok Bot lọc ra số ít ưu đãi đáng mua từ hàng nghìn quảng cáo, kèm giá, liên kết và nhận định nên mua ngay hay chờ."
+    },
+    "fr": {
+     "title": "Black Friday Scout : un Grok Bot qui trie les offres à saisir",
+     "summary": "Black Friday Scout est un Grok Bot qui repère, parmi les milliers d'offres annoncées, les quelques-unes qui valent l'achat, avec prix, liens et un avis sur acheter maintenant ou attendre."
+    },
+    "es": {
+     "title": "Black Friday Scout: un Grok Bot que elige las ofertas que valen la pena",
+     "summary": "Black Friday Scout es un Grok Bot que selecciona, entre miles de ofertas anunciadas, las pocas que vale la pena comprar, con precios, enlaces y un veredicto sobre comprar ya o esperar."
+    },
+    "de": {
+     "title": "Black Friday Scout: ein Grok Bot, der lohnende Angebote auswählt",
+     "summary": "Black Friday Scout ist ein Grok Bot, der aus Tausenden beworbenen Angeboten die wenigen lohnenden heraussucht, mit Preisen, Links und einer Einschätzung, ob man jetzt kaufen oder warten sollte."
+    }
+   },
+   "added_at": "2026-11-26T13:36:02.765Z"
   }
  ]
 }
