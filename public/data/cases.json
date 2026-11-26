@@ -1,6 +1,6 @@
 {
   "note": "公开条目聚合 / aggregated public items; see source_url",
-  "count": 2848,
+  "count": 2870,
   "fetched_at": "2026-10-12T11:54:58.322933+00:00",
   "items": [
     {
@@ -13306,6 +13306,1159 @@
       "views": null,
       "slug": "x-aifieldreports-2125869714584834300",
       "scen": []
+    },
+    {
+      "title": "用多个 Grok Bot 分工管理财务、代码和邮件",
+      "summary": "作者的设置：Penny 负责税务和财务，Poteto 写代码并搭了个人财务看板，Closer 处理工作邮件，它们每天把总结交给 Scribe 写入 Obsidian 库。每月导出一次银行流水给 Penny 记账；看板连接了 Google 日历，有事临近时会提醒，也会查看邮件并起草回复。",
+      "en": {
+        "title": "Several Grok Bots split finances, code and email",
+        "summary": "The author's setup: Penny handles taxes and finances, Poteto codes and built a personal finance dashboard, and Closer handles work email. All send daily summaries to Scribe, which writes them into an Obsidian vault. Once a month the bank statement goes to Penny, who logs it into the dashboard; Google Calendar is connected for reminders, and the bots draft email replies."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用多个 Grok Bot 分工管理财务、代码和邮件",
+          "summary": "作者的设置：Penny 负责税务和财务，Poteto 写代码并搭了个人财务看板，Closer 处理工作邮件，它们每天把总结交给 Scribe 写入 Obsidian 库。每月导出一次银行流水给 Penny 记账；看板连接了 Google 日历，有事临近时会提醒，也会查看邮件并起草回复。"
+        },
+        "zh-TW": {
+          "title": "用多個 Grok Bot 分工管理財務、程式和郵件",
+          "summary": "作者的設定：Penny 負責稅務和財務，Poteto 寫程式並做了個人財務儀表板，Closer 處理工作郵件，它們每天把摘要交給 Scribe 寫入 Obsidian 庫。每月匯出一次銀行對帳單給 Penny 記帳；儀表板連接了 Google 日曆，有事將近時會提醒，也會查看郵件並草擬回覆。"
+        },
+        "en": {
+          "title": "Several Grok Bots split finances, code and email",
+          "summary": "The author's setup: Penny handles taxes and finances, Poteto codes and built a personal finance dashboard, and Closer handles work email. All send daily summaries to Scribe, which writes them into an Obsidian vault. Once a month the bank statement goes to Penny, who logs it into the dashboard; Google Calendar is connected for reminders, and the bots draft email replies."
+        },
+        "ja": {
+          "title": "複数の Grok Bot で財務・コード・メールを分担",
+          "summary": "投稿者の構成：Penny が税務と財務、Poteto がコーディングを担当し個人財務ダッシュボードを構築、Closer が仕事のメールを処理。全員が毎日の要約を Scribe に送り、Scribe が Obsidian の保管庫に書き込む。月に一度銀行明細を Penny に渡して記帳し、Google カレンダー連携で予定を知らせ、メールの返信下書きも行う。"
+        },
+        "ko": {
+          "title": "여러 Grok Bot으로 재무·코딩·이메일 분담",
+          "summary": "작성자의 구성: Penny는 세금과 재무, Poteto는 코딩을 맡아 개인 재무 대시보드를 만들었고, Closer는 업무 이메일을 처리한다. 모두 매일 요약을 Scribe에 보내고 Scribe가 Obsidian 보관소에 기록한다. 한 달에 한 번 은행 명세서를 Penny에게 주면 대시보드에 기록되고, Google 캘린더가 연결되어 일정을 알려주며 이메일 답장 초안도 작성한다."
+        },
+        "ms": {
+          "title": "Beberapa Grok Bot membahagi kewangan, kod dan e-mel",
+          "summary": "Susunan penulis: Penny mengurus cukai dan kewangan, Poteto menulis kod dan membina papan pemuka kewangan peribadi, Closer mengurus e-mel kerja. Semua menghantar ringkasan harian kepada Scribe yang menulisnya ke dalam vault Obsidian. Sebulan sekali penyata bank diberi kepada Penny untuk direkod; Google Calendar disambung untuk peringatan, dan bot merangka balasan e-mel."
+        },
+        "vi": {
+          "title": "Nhiều Grok Bot chia việc tài chính, code và email",
+          "summary": "Cách thiết lập của tác giả: Penny lo thuế và tài chính, Poteto viết code và dựng bảng điều khiển tài chính cá nhân, Closer xử lý email công việc. Tất cả gửi bản tóm tắt hằng ngày cho Scribe để ghi vào kho Obsidian. Mỗi tháng tác giả xuất sao kê ngân hàng cho Penny ghi sổ; Google Calendar được kết nối để nhắc việc, và các bot soạn nháp trả lời email."
+        },
+        "fr": {
+          "title": "Plusieurs Grok Bots se partagent finances, code et e-mails",
+          "summary": "Configuration de l'auteur : Penny gère impôts et finances, Poteto code et a construit un tableau de bord financier personnel, Closer s'occupe des e-mails professionnels. Tous envoient un résumé quotidien à Scribe, qui l'écrit dans un coffre Obsidian. Chaque mois, le relevé bancaire est confié à Penny qui l'enregistre ; Google Agenda est connecté pour les rappels et les bots rédigent des brouillons de réponses."
+        },
+        "es": {
+          "title": "Varios Grok Bots se reparten finanzas, código y correo",
+          "summary": "La configuración del autor: Penny lleva impuestos y finanzas, Poteto programa y creó un panel de finanzas personales, y Closer gestiona el correo de trabajo. Todos envían resúmenes diarios a Scribe, que los escribe en una bóveda de Obsidian. Una vez al mes el extracto bancario va a Penny, que lo registra; Google Calendar está conectado para avisos y los bots redactan borradores de respuesta."
+        },
+        "de": {
+          "title": "Mehrere Grok Bots teilen sich Finanzen, Code und E-Mail",
+          "summary": "Das Setup des Autors: Penny kümmert sich um Steuern und Finanzen, Poteto programmiert und hat ein persönliches Finanz-Dashboard gebaut, Closer erledigt die Arbeits-E-Mails. Alle schicken tägliche Zusammenfassungen an Scribe, der sie in einen Obsidian-Vault schreibt. Einmal im Monat geht der Kontoauszug an Penny zur Erfassung; Google Kalender ist für Erinnerungen verbunden, und die Bots entwerfen E-Mail-Antworten."
+        }
+      },
+      "source_url": "https://x.com/yosoymario91/status/2125931917233000872",
+      "source_name": "X",
+      "author": "yosoymario91",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 4,
+      "src": "x",
+      "text": "I asked grok bot to summarize my setup: \n\nPenny is my accountant bot. She handles my taxes and finances. Poteto is my coder bot, and she built my personal finance dashboard. Closer handles my work email and that kind of thing.\n\nThey all send their daily summaries to Scribe, who writes everything into my Obsidian vault.\n\nThe dashboard runs pretty much on its own. Once a month I export my bank statement and give it to Penny, she logs everything into the dashboard, and I can see all my finances in one place. It also has my Google calendar connected so if theres anything coming up grok bot notices me.\n\nThey also generally check my emails and draft replies for me, and stuff like that.",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-yosoymario91-2125931917233000872",
+      "scen": [
+        "inbox",
+        "calendar",
+        "finance",
+        "ship"
+      ]
+    },
+    {
+      "title": "Tesla Care：照看 Model Y 的 Grok Bot",
+      "summary": "作者做了一个叫 Tesla Care 的 Grok Bot 照看自己的 2021 款 Model Y：每周检查胎压、软件、电量和警报，还从邮件里整理出一个保养记录数据库。",
+      "en": {
+        "title": "Tesla Care: a Grok Bot that watches a Model Y",
+        "summary": "The author built a Grok Bot called Tesla Care for a 2021 Model Y. Every week it checks tire pressure, software, charge and alerts, and it built a service-record database from the author's emails."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Tesla Care：照看 Model Y 的 Grok Bot",
+          "summary": "作者做了一个叫 Tesla Care 的 Grok Bot 照看自己的 2021 款 Model Y：每周检查胎压、软件、电量和警报，还从邮件里整理出一个保养记录数据库。"
+        },
+        "zh-TW": {
+          "title": "Tesla Care：照看 Model Y 的 Grok Bot",
+          "summary": "作者做了一個叫 Tesla Care 的 Grok Bot 照看自己的 2021 年款 Model Y：每週檢查胎壓、軟體、電量和警示，還從郵件裡整理出一個保養紀錄資料庫。"
+        },
+        "en": {
+          "title": "Tesla Care: a Grok Bot that watches a Model Y",
+          "summary": "The author built a Grok Bot called Tesla Care for a 2021 Model Y. Every week it checks tire pressure, software, charge and alerts, and it built a service-record database from the author's emails."
+        },
+        "ja": {
+          "title": "Tesla Care：Model Y を見守る Grok Bot",
+          "summary": "投稿者は 2021 年式 Model Y 用に Tesla Care という Grok Bot を作成。毎週タイヤ空気圧、ソフトウェア、充電量、アラートを確認し、メールから整備記録のデータベースも作った。"
+        },
+        "ko": {
+          "title": "Tesla Care: Model Y를 관리하는 Grok Bot",
+          "summary": "작성자는 2021년식 Model Y를 위해 Tesla Care라는 Grok Bot을 만들었다. 매주 타이어 공기압, 소프트웨어, 충전량, 경고를 확인하고 이메일에서 정비 기록 데이터베이스도 만들었다."
+        },
+        "ms": {
+          "title": "Tesla Care: Grok Bot yang memantau Model Y",
+          "summary": "Penulis membina Grok Bot bernama Tesla Care untuk Model Y 2021. Setiap minggu ia menyemak tekanan tayar, perisian, cas dan amaran, serta membina pangkalan data rekod servis daripada e-mel penulis."
+        },
+        "vi": {
+          "title": "Tesla Care: Grok Bot trông chừng chiếc Model Y",
+          "summary": "Tác giả tạo một Grok Bot tên Tesla Care cho chiếc Model Y 2021. Mỗi tuần nó kiểm tra áp suất lốp, phần mềm, mức sạc và cảnh báo, đồng thời dựng cơ sở dữ liệu lịch sử bảo dưỡng từ email."
+        },
+        "fr": {
+          "title": "Tesla Care : un Grok Bot qui surveille une Model Y",
+          "summary": "L'auteur a créé un Grok Bot nommé Tesla Care pour sa Model Y 2021. Chaque semaine, il vérifie la pression des pneus, le logiciel, la charge et les alertes, et il a constitué une base d'historique d'entretien à partir des e-mails."
+        },
+        "es": {
+          "title": "Tesla Care: un Grok Bot que vigila un Model Y",
+          "summary": "El autor creó un Grok Bot llamado Tesla Care para su Model Y de 2021. Cada semana revisa la presión de los neumáticos, el software, la carga y las alertas, y armó una base de datos de mantenimiento a partir de sus correos."
+        },
+        "de": {
+          "title": "Tesla Care: ein Grok Bot, der ein Model Y im Blick behält",
+          "summary": "Der Autor hat für sein Model Y von 2021 einen Grok Bot namens Tesla Care gebaut. Jede Woche prüft er Reifendruck, Software, Ladestand und Warnungen und hat aus den E-Mails eine Datenbank mit Servicehistorie erstellt."
+        }
+      },
+      "source_url": "https://x.com/mildandlazyguy/status/2126089843579253077",
+      "source_name": "X",
+      "author": "mildandlazyguy",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 3,
+      "src": "x",
+      "text": "I built a Grok @Bot I call Tesla Care to keep an eye on my 2021 Model Y DM. \n\nThe Tesla app is great for driving the car. This is for the unglamorous stuff. Every week it checks tire pressure, software, charge, and alerts. It also built a service-record database from my emails, https://t.co/llYLw2cfxX",
+      "media": [
+        "https://pbs.twimg.com/media/HYFjcf0bEAAOLQk.jpg"
+      ],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-mildandlazyguy-2126089843579253077",
+      "scen": [
+        "inbox",
+        "research"
+      ]
+    },
+    {
+      "title": "在手机 Muse 应用里做出警方拍卖 Agent",
+      "summary": "作者展示了参加 Meta Muse Ember 黑客松的项目 Police Auction Agent，是在 iPhone 的 Muse 应用里构建的，并用 Claude 当评委给反馈；附有 GitHub 仓库和演示视频。",
+      "en": {
+        "title": "A police auction agent built in the Muse iPhone app",
+        "summary": "The author demos a Meta Muse Ember hackathon project, Police Auction Agent, built from the Muse app on an iPhone, with Claude used as a judge to give feedback. A GitHub repo and demo video are linked."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "在手机 Muse 应用里做出警方拍卖 Agent",
+          "summary": "作者展示了参加 Meta Muse Ember 黑客松的项目 Police Auction Agent，是在 iPhone 的 Muse 应用里构建的，并用 Claude 当评委给反馈；附有 GitHub 仓库和演示视频。"
+        },
+        "zh-TW": {
+          "title": "在手機 Muse App 裡做出警方拍賣 Agent",
+          "summary": "作者展示了參加 Meta Muse Ember 黑客松的專案 Police Auction Agent，是在 iPhone 的 Muse App 裡建構的，並用 Claude 當評審給回饋；附有 GitHub 儲存庫和示範影片。"
+        },
+        "en": {
+          "title": "A police auction agent built in the Muse iPhone app",
+          "summary": "The author demos a Meta Muse Ember hackathon project, Police Auction Agent, built from the Muse app on an iPhone, with Claude used as a judge to give feedback. A GitHub repo and demo video are linked."
+        },
+        "ja": {
+          "title": "iPhone の Muse アプリで作った警察オークション Agent",
+          "summary": "投稿者は Meta Muse Ember ハッカソンの作品 Police Auction Agent をデモ。iPhone の Muse アプリから構築し、Claude を審査役としてフィードバックに使った。GitHub リポジトリとデモ動画へのリンクあり。"
+        },
+        "ko": {
+          "title": "iPhone Muse 앱으로 만든 경찰 경매 에이전트",
+          "summary": "작성자는 Meta Muse Ember 해커톤 프로젝트인 Police Auction Agent를 시연했다. iPhone의 Muse 앱에서 만들었고 Claude를 심사위원으로 써서 피드백을 받았다. GitHub 저장소와 데모 영상 링크가 있다."
+        },
+        "ms": {
+          "title": "Ejen lelongan polis dibina dalam aplikasi Muse iPhone",
+          "summary": "Penulis menunjukkan projek hackathon Meta Muse Ember, Police Auction Agent, yang dibina daripada aplikasi Muse di iPhone, dengan Claude digunakan sebagai juri untuk memberi maklum balas. Repo GitHub dan video demo disertakan."
+        },
+        "vi": {
+          "title": "Agent đấu giá của cảnh sát dựng trong ứng dụng Muse trên iPhone",
+          "summary": "Tác giả demo dự án hackathon Meta Muse Ember tên Police Auction Agent, được xây từ ứng dụng Muse trên iPhone, dùng Claude làm giám khảo để góp ý. Có kèm kho GitHub và video demo."
+        },
+        "fr": {
+          "title": "Un agent d'enchères policières créé dans l'app Muse sur iPhone",
+          "summary": "L'auteur présente son projet pour le hackathon Meta Muse Ember, Police Auction Agent, construit depuis l'app Muse sur iPhone, avec Claude utilisé comme juge pour donner des retours. Un dépôt GitHub et une vidéo de démo sont liés."
+        },
+        "es": {
+          "title": "Un agente de subastas policiales hecho en la app Muse del iPhone",
+          "summary": "El autor muestra su proyecto para el hackathon Meta Muse Ember, Police Auction Agent, creado desde la app Muse en un iPhone y usando a Claude como juez para dar feedback. Enlaza el repositorio de GitHub y un video demo."
+        },
+        "de": {
+          "title": "Ein Polizeiauktions-Agent, gebaut in der Muse-App auf dem iPhone",
+          "summary": "Der Autor zeigt sein Projekt für den Meta-Muse-Ember-Hackathon, Police Auction Agent, gebaut in der Muse-App auf dem iPhone; Claude diente als Juror für Feedback. Ein GitHub-Repo und ein Demovideo sind verlinkt."
+        }
+      },
+      "source_url": "https://x.com/achampiong/status/2125800281766264878",
+      "source_name": "X",
+      "author": "achampiong",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 2,
+      "src": "x",
+      "text": "Demo of my Meta Muse Ember hackathon project: Police Auction Agent, built from my iPhone Muse app (Claude was used as a judge to give feedback). \n\nGitHub repo: https://t.co/ZXgeSmxTX7\n\nCheck it out: https://t.co/gVh2nsXAaH https://t.co/2KD6NUxNtL",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2125800255056924672/img/7zlw0BNy_1eYo9TJ.jpg"
+      ],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-achampiong-2125800281766264878",
+      "scen": [
+        "prs",
+        "ship"
+      ]
+    },
+    {
+      "title": "感恩节前夜，Grok Bot 打电话约好修车库门",
+      "summary": "帖子转述 @AmineTX 的经历：感恩节前夜车库门坏了，Grok Bot 给两家维修公司打电话，第二家接下并预约了这单活。",
+      "en": {
+        "title": "Grok Bot phones repair shops for a broken garage door",
+        "summary": "The post relays @AmineTX's experience: with a broken garage door on Thanksgiving Eve, Grok Bot called two repair companies and the second one booked the job."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "感恩节前夜，Grok Bot 打电话约好修车库门",
+          "summary": "帖子转述 @AmineTX 的经历：感恩节前夜车库门坏了，Grok Bot 给两家维修公司打电话，第二家接下并预约了这单活。"
+        },
+        "zh-TW": {
+          "title": "感恩節前夕，Grok Bot 打電話約好修車庫門",
+          "summary": "貼文轉述 @AmineTX 的經歷：感恩節前夕車庫門壞了，Grok Bot 打給兩家維修公司，第二家接下並預約了這項工作。"
+        },
+        "en": {
+          "title": "Grok Bot phones repair shops for a broken garage door",
+          "summary": "The post relays @AmineTX's experience: with a broken garage door on Thanksgiving Eve, Grok Bot called two repair companies and the second one booked the job."
+        },
+        "ja": {
+          "title": "感謝祭前夜、Grok Bot が車庫ドア修理を電話で手配",
+          "summary": "投稿は @AmineTX の体験を紹介。感謝祭前夜に車庫のドアが壊れ、Grok Bot が修理会社 2 社に電話し、2 社目が作業を予約した。"
+        },
+        "ko": {
+          "title": "추수감사절 전날 Grok Bot이 차고 문 수리를 전화로 예약",
+          "summary": "게시물은 @AmineTX의 경험을 전한다. 추수감사절 전날 차고 문이 고장 나자 Grok Bot이 수리 업체 두 곳에 전화했고, 두 번째 업체가 작업을 예약했다."
+        },
+        "ms": {
+          "title": "Grok Bot menelefon kedai pembaikan untuk pintu garaj rosak",
+          "summary": "Hantaran ini menceritakan pengalaman @AmineTX: pintu garaj rosak pada malam sebelum Thanksgiving, Grok Bot menelefon dua syarikat pembaikan dan syarikat kedua menempah kerja itu."
+        },
+        "vi": {
+          "title": "Grok Bot gọi thợ sửa cửa gara hỏng",
+          "summary": "Bài đăng kể lại trải nghiệm của @AmineTX: cửa gara hỏng vào đêm trước Lễ Tạ ơn, Grok Bot gọi cho hai công ty sửa chữa và công ty thứ hai đã nhận lịch làm."
+        },
+        "fr": {
+          "title": "Grok Bot appelle des dépanneurs pour une porte de garage",
+          "summary": "Le post relaie l'expérience de @AmineTX : porte de garage en panne la veille de Thanksgiving, Grok Bot a appelé deux entreprises de réparation et la seconde a pris le rendez-vous."
+        },
+        "es": {
+          "title": "Grok Bot llama a talleres por una puerta de garaje rota",
+          "summary": "La publicación cuenta la experiencia de @AmineTX: con la puerta del garaje rota en la víspera de Acción de Gracias, Grok Bot llamó a dos empresas de reparación y la segunda agendó el trabajo."
+        },
+        "de": {
+          "title": "Grok Bot ruft Handwerker wegen eines kaputten Garagentors an",
+          "summary": "Der Post gibt die Erfahrung von @AmineTX wieder: Am Abend vor Thanksgiving war das Garagentor kaputt, Grok Bot rief zwei Reparaturfirmen an, und die zweite übernahm den Termin."
+        }
+      },
+      "source_url": "https://x.com/Onedotsix18/status/2126045835917971606",
+      "source_name": "X",
+      "author": "Onedotsix18",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 2,
+      "src": "x",
+      "text": "A broken garage door on Thanksgiving Eve is the kind of thing nobody wants to spend the evening calling around about. @AmineTX says Grok Bot called two repair companies, and the second one booked the job. Just getting it on the calendar would be a relief.\n\n@aaronclu says Grok Bot https://t.co/Gb2YFdqXY5 https://t.co/ExOZBns7BM",
+      "media": [
+        "https://pbs.twimg.com/media/HYE7a3MWYAAYvVK.jpg"
+      ],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-onedotsix18-2126045835917971606",
+      "scen": [
+        "social"
+      ]
+    },
+    {
+      "title": "边散步边用 Dots 处理邮件",
+      "summary": "作者在 Mac 上处理邮件更快，但散步时过收件箱思路更清楚。用 ChatGPT Dots 可以听邮件、口述回复、发起调研，无需切换应用；他把这套流程的文章做成了短视频。",
+      "en": {
+        "title": "Handling email on a walk with Dots",
+        "summary": "The author is faster at email on a Mac but thinks more clearly going through the inbox on a walk. With ChatGPT Dots he listens to emails, dictates replies and kicks off research without switching apps, and turned his article on the workflow into a short video."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "边散步边用 Dots 处理邮件",
+          "summary": "作者在 Mac 上处理邮件更快，但散步时过收件箱思路更清楚。用 ChatGPT Dots 可以听邮件、口述回复、发起调研，无需切换应用；他把这套流程的文章做成了短视频。"
+        },
+        "zh-TW": {
+          "title": "邊散步邊用 Dots 處理郵件",
+          "summary": "作者在 Mac 上處理郵件更快，但散步時看收件匣思緒更清楚。用 ChatGPT Dots 可以聽郵件、口述回覆、發起研究，無需切換 App；他把這套流程的文章做成了短片。"
+        },
+        "en": {
+          "title": "Handling email on a walk with Dots",
+          "summary": "The author is faster at email on a Mac but thinks more clearly going through the inbox on a walk. With ChatGPT Dots he listens to emails, dictates replies and kicks off research without switching apps, and turned his article on the workflow into a short video."
+        },
+        "ja": {
+          "title": "散歩しながら Dots でメール処理",
+          "summary": "投稿者は Mac の方がメール処理は速いが、散歩中に受信箱を見る方が考えがまとまるという。ChatGPT Dots ならアプリを切り替えずにメールを聞き、返信を口述し、調査を始められる。このワークフローの記事を短い動画にした。"
+        },
+        "ko": {
+          "title": "산책하며 Dots로 이메일 처리",
+          "summary": "작성자는 Mac에서 이메일을 더 빨리 처리하지만 산책하며 받은편지함을 볼 때 더 명확하게 생각한다고 한다. ChatGPT Dots로 앱 전환 없이 이메일을 듣고, 답장을 받아쓰게 하고, 조사를 시작한다. 이 워크플로 글을 짧은 영상으로 만들었다."
+        },
+        "ms": {
+          "title": "Mengurus e-mel sambil berjalan dengan Dots",
+          "summary": "Penulis lebih pantas mengurus e-mel di Mac tetapi berfikir lebih jelas ketika menyemak peti masuk sambil berjalan. Dengan ChatGPT Dots, dia mendengar e-mel, merakam balasan secara lisan dan memulakan penyelidikan tanpa menukar aplikasi, lalu menjadikan artikelnya tentang aliran kerja ini video pendek."
+        },
+        "vi": {
+          "title": "Xử lý email khi đi bộ với Dots",
+          "summary": "Tác giả xử lý email nhanh hơn trên Mac nhưng suy nghĩ rõ ràng hơn khi xem hộp thư lúc đi bộ. Với ChatGPT Dots, anh nghe email, đọc trả lời bằng giọng nói và khởi động nghiên cứu mà không cần chuyển ứng dụng; anh đã biến bài viết về quy trình này thành video ngắn."
+        },
+        "fr": {
+          "title": "Traiter ses e-mails en marchant avec Dots",
+          "summary": "L'auteur va plus vite sur son Mac, mais réfléchit plus clairement en parcourant sa boîte en marchant. Avec ChatGPT Dots, il écoute ses e-mails, dicte ses réponses et lance des recherches sans changer d'application ; il a tiré une courte vidéo de son article sur ce flux."
+        },
+        "es": {
+          "title": "Gestionar el correo caminando con Dots",
+          "summary": "El autor despacha el correo más rápido en su Mac, pero piensa con más claridad revisando la bandeja mientras camina. Con ChatGPT Dots escucha correos, dicta respuestas e inicia investigaciones sin cambiar de app; convirtió su artículo sobre este flujo en un video corto."
+        },
+        "de": {
+          "title": "E-Mails beim Spazierengehen mit Dots erledigen",
+          "summary": "Der Autor ist am Mac schneller mit E-Mails, denkt aber beim Spaziergang klarer. Mit ChatGPT Dots hört er E-Mails an, diktiert Antworten und startet Recherchen, ohne die App zu wechseln; aus seinem Artikel über diesen Ablauf hat er ein kurzes Video gemacht."
+        }
+      },
+      "source_url": "https://x.com/oktaydemir/status/2126033006171492510",
+      "source_name": "X",
+      "author": "oktaydemir",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 2,
+      "src": "x",
+      "text": "I get through email faster at my Mac. But I think more clearly when I go through my inbox on a walk.\n\nWith ChatGPT Dots, I can listen to emails, dictate replies, and kick off research without switching apps. I turned my article about this workflow into a short video.\n\nWhich works https://t.co/NoqPUUrixa",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126031556850438144/img/28oCd1bECeerN6WU.jpg"
+      ],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-oktaydemir-2126033006171492510",
+      "scen": [
+        "inbox",
+        "research",
+        "ship"
+      ]
+    },
+    {
+      "title": "刚装好 Grok Bot：每日目标提醒和任务规划",
+      "summary": "作者终于设置好 Grok Bot，已经设了每天提醒自己目标的消息，以及每日任务规划。",
+      "en": {
+        "title": "First Grok Bot setup: daily goal reminders and task planning",
+        "summary": "Having finally set up Grok Bot, the author already uses it for daily reminders of personal goals and for daily task planning."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "刚装好 Grok Bot：每日目标提醒和任务规划",
+          "summary": "作者终于设置好 Grok Bot，已经设了每天提醒自己目标的消息，以及每日任务规划。"
+        },
+        "zh-TW": {
+          "title": "剛裝好 Grok Bot：每日目標提醒和任務規劃",
+          "summary": "作者終於設定好 Grok Bot，已經設了每天提醒自己目標的訊息，以及每日任務規劃。"
+        },
+        "en": {
+          "title": "First Grok Bot setup: daily goal reminders and task planning",
+          "summary": "Having finally set up Grok Bot, the author already uses it for daily reminders of personal goals and for daily task planning."
+        },
+        "ja": {
+          "title": "Grok Bot を導入：毎日の目標リマインドとタスク計画",
+          "summary": "投稿者はついに Grok Bot をセットアップし、自分の目標を毎日リマインドする設定と日々のタスク計画をすでに設定した。"
+        },
+        "ko": {
+          "title": "Grok Bot 첫 설정: 매일 목표 알림과 할 일 계획",
+          "summary": "작성자는 마침내 Grok Bot을 설정했고, 이미 매일 자신의 목표를 상기시키는 알림과 일일 작업 계획을 설정했다."
+        },
+        "ms": {
+          "title": "Persediaan pertama Grok Bot: peringatan matlamat dan perancangan tugas harian",
+          "summary": "Setelah akhirnya menyediakan Grok Bot, penulis sudah menggunakannya untuk peringatan harian tentang matlamat dan perancangan tugas harian."
+        },
+        "vi": {
+          "title": "Lần đầu thiết lập Grok Bot: nhắc mục tiêu và lập kế hoạch việc mỗi ngày",
+          "summary": "Sau khi thiết lập xong Grok Bot, tác giả đã cài nhắc nhở mục tiêu hằng ngày để giữ đúng hướng và lập kế hoạch công việc mỗi ngày."
+        },
+        "fr": {
+          "title": "Premier réglage de Grok Bot : rappels d'objectifs et planning quotidien",
+          "summary": "Après avoir enfin configuré Grok Bot, l'auteur l'utilise déjà pour des rappels quotidiens de ses objectifs et pour planifier ses tâches de la journée."
+        },
+        "es": {
+          "title": "Primera configuración de Grok Bot: recordatorios de metas y plan diario",
+          "summary": "Tras configurar por fin Grok Bot, el autor ya lo usa para recordatorios diarios de sus metas y para planificar las tareas de cada día."
+        },
+        "de": {
+          "title": "Erstes Grok-Bot-Setup: tägliche Zielerinnerungen und Aufgabenplanung",
+          "summary": "Nachdem der Autor Grok Bot endlich eingerichtet hat, nutzt er ihn bereits für tägliche Erinnerungen an seine Ziele und für die tägliche Aufgabenplanung."
+        }
+      },
+      "source_url": "https://x.com/bibiz_ecom/status/2125938582040740321",
+      "source_name": "X",
+      "author": "bibiz_ecom",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 2,
+      "src": "x",
+      "text": "Finally set up Grok Bot.\n\nAlready set up daily reminders of my goals to keep myself on track, along with daily task planning https://t.co/vGQKZc25Hg",
+      "media": [
+        "https://pbs.twimg.com/media/HYDZ3wvWUAEp7W1.jpg"
+      ],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-bibizecom-2125938582040740321",
+      "scen": []
+    },
+    {
+      "title": "内容 Agent 配置：调研、钩子日历、按你的语气起草",
+      "summary": "一个 Agent 负责调研你的细分领域、维护钩子日历、按你的语气起草，并把每条帖子与你的中位数表现对比打分；它从不自动发布，由你自己按发布。提供适用于 Grok Bot、Claude 或 n8n 的配置和 5 个可直接粘贴的文件。",
+      "en": {
+        "title": "Content agent setup: niche research, hook calendar, drafts in your voice",
+        "summary": "One agent researches your niche, keeps a hook calendar, drafts in your voice and scores every post against your median. It never publishes; you press post. The setup covers Grok Bot, Claude or n8n, with five paste-ready files."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "内容 Agent 配置：调研、钩子日历、按你的语气起草",
+          "summary": "一个 Agent 负责调研你的细分领域、维护钩子日历、按你的语气起草，并把每条帖子与你的中位数表现对比打分；它从不自动发布，由你自己按发布。提供适用于 Grok Bot、Claude 或 n8n 的配置和 5 个可直接粘贴的文件。"
+        },
+        "zh-TW": {
+          "title": "內容 Agent 設定：研究、鉤子日曆、照你的語氣起草",
+          "summary": "一個 Agent 負責研究你的利基領域、維護鉤子日曆、照你的語氣起草，並把每則貼文與你的中位數表現比較評分；它從不自動發佈，由你自己按下發佈。提供適用於 Grok Bot、Claude 或 n8n 的設定和 5 個可直接貼上的檔案。"
+        },
+        "en": {
+          "title": "Content agent setup: niche research, hook calendar, drafts in your voice",
+          "summary": "One agent researches your niche, keeps a hook calendar, drafts in your voice and scores every post against your median. It never publishes; you press post. The setup covers Grok Bot, Claude or n8n, with five paste-ready files."
+        },
+        "ja": {
+          "title": "コンテンツ Agent の設定：ニッチ調査、フック表、自分の口調で下書き",
+          "summary": "1 つの Agent がニッチを調査し、フックのカレンダーを管理し、自分の口調で下書きして各投稿を自分の中央値と比べて採点する。公開は一切せず、投稿ボタンは自分で押す。Grok Bot、Claude、n8n 向けの設定と貼り付けて使える 5 つのファイル付き。"
+        },
+        "ko": {
+          "title": "콘텐츠 에이전트 설정: 니치 조사, 훅 캘린더, 내 말투로 초안",
+          "summary": "하나의 에이전트가 니치를 조사하고 훅 캘린더를 관리하며 내 말투로 초안을 쓰고 모든 게시물을 내 중앙값과 비교해 점수를 매긴다. 게시는 절대 하지 않고 직접 눌러야 한다. Grok Bot, Claude, n8n용 설정과 바로 붙여 넣을 수 있는 파일 5개를 제공한다."
+        },
+        "ms": {
+          "title": "Persediaan ejen kandungan: kajian niche, kalendar hook, draf dalam gaya anda",
+          "summary": "Satu ejen mengkaji niche anda, menyimpan kalendar hook, merangka dalam gaya anda dan memberi skor setiap hantaran berbanding median anda. Ia tidak pernah menerbitkan; anda yang tekan siar. Persediaan untuk Grok Bot, Claude atau n8n, dengan lima fail sedia tampal."
+        },
+        "vi": {
+          "title": "Thiết lập agent nội dung: nghiên cứu ngách, lịch hook, viết nháp theo giọng bạn",
+          "summary": "Một agent nghiên cứu lĩnh vực ngách, giữ lịch hook, viết nháp theo giọng của bạn và chấm điểm mỗi bài so với mức trung vị của bạn. Nó không bao giờ tự đăng; bạn tự bấm đăng. Có hướng dẫn cho Grok Bot, Claude hoặc n8n kèm năm tệp dán sẵn."
+        },
+        "fr": {
+          "title": "Agent de contenu : veille de niche, calendrier d'accroches, brouillons à votre voix",
+          "summary": "Un agent étudie votre niche, tient un calendrier d'accroches, rédige dans votre style et note chaque post par rapport à votre médiane. Il ne publie jamais : c'est vous qui publiez. Configuration pour Grok Bot, Claude ou n8n, avec cinq fichiers prêts à coller."
+        },
+        "es": {
+          "title": "Agente de contenido: investigación de nicho, calendario de ganchos y borradores con tu voz",
+          "summary": "Un agente investiga tu nicho, mantiene un calendario de ganchos, redacta con tu voz y puntúa cada publicación frente a tu mediana. Nunca publica; tú pulsas publicar. Configuración para Grok Bot, Claude o n8n, con cinco archivos listos para pegar."
+        },
+        "de": {
+          "title": "Content-Agent: Nischenrecherche, Hook-Kalender, Entwürfe in deiner Stimme",
+          "summary": "Ein Agent recherchiert deine Nische, führt einen Hook-Kalender, schreibt Entwürfe in deinem Ton und bewertet jeden Post gegen deinen Median. Er veröffentlicht nie; du drückst selbst auf Posten. Setup für Grok Bot, Claude oder n8n mit fünf kopierfertigen Dateien."
+        }
+      },
+      "source_url": "https://x.com/imhmxi/status/2125794280404902289",
+      "source_name": "X",
+      "author": "imhmxi",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-11-26",
+      "likes": 1,
+      "src": "x",
+      "text": "One agent that researches your niche, keeps a hook calendar, drafts in your voice and scores every post against your median. It never publishes. You press post. Setup for Grok Bot, Claude or n8n, with 5 paste-ready files. https://t.co/rSGDuE9yK2",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-imhmxi-2125794280404902289",
+      "scen": [
+        "social",
+        "calendar",
+        "research"
+      ]
+    },
+    {
+      "title": "创意策略师把 Grok Bot 当团队成员来培训",
+      "summary": "作者说 Grok Bot 每天帮他省 1–2 小时，Agent 们做品牌调研、找项目、外联、整理报价，以及剪辑简报、早期广告概念、图片和转录。他给每个 Agent 起名定角色，提供示例、看培训视频、反馈草稿，甚至互相面试；有些已能写出可用的广告文案，但他坚持自己判断、逐步自动化。",
+      "en": {
+        "title": "A creative strategist trains Grok Bot agents like team members",
+        "summary": "The author says Grok Bot saves him 1–2 hours a day. His agents do brand research, find gigs, handle outreach and put together offers, plus editor briefs, early ad concepts, images and transcripts. He names each one, gives it a role, examples, training videos and feedback, and even interviews them. Some now write usable ad copy, but he keeps making the calls and automates bit by bit."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "创意策略师把 Grok Bot 当团队成员来培训",
+          "summary": "作者说 Grok Bot 每天帮他省 1–2 小时，Agent 们做品牌调研、找项目、外联、整理报价，以及剪辑简报、早期广告概念、图片和转录。他给每个 Agent 起名定角色，提供示例、看培训视频、反馈草稿，甚至互相面试；有些已能写出可用的广告文案，但他坚持自己判断、逐步自动化。"
+        },
+        "zh-TW": {
+          "title": "創意策略師把 Grok Bot 當團隊成員來培訓",
+          "summary": "作者說 Grok Bot 每天幫他省 1–2 小時，Agent 們做品牌研究、找案子、對外聯繫、整理報價，以及剪輯簡報、早期廣告概念、圖片和逐字稿。他給每個 Agent 取名定角色，提供範例、看培訓影片、回饋草稿，甚至互相面試；有些已能寫出可用的廣告文案，但他堅持自己判斷、逐步自動化。"
+        },
+        "en": {
+          "title": "A creative strategist trains Grok Bot agents like team members",
+          "summary": "The author says Grok Bot saves him 1–2 hours a day. His agents do brand research, find gigs, handle outreach and put together offers, plus editor briefs, early ad concepts, images and transcripts. He names each one, gives it a role, examples, training videos and feedback, and even interviews them. Some now write usable ad copy, but he keeps making the calls and automates bit by bit."
+        },
+        "ja": {
+          "title": "クリエイティブ戦略家が Grok Bot をチームメンバーとして育成",
+          "summary": "投稿者によると Grok Bot で 1 日 1〜2 時間節約できる。Agent はブランド調査、案件探し、アウトリーチ、提案作成に加え、編集指示書、初期の広告案、画像、文字起こしを担当。各 Agent に名前と役割を与え、例や研修動画、下書きへのフィードバックを与え、面接までする。使える広告コピーを書くものもいるが、判断は自分で行い少しずつ自動化している。"
+        },
+        "ko": {
+          "title": "크리에이티브 전략가가 Grok Bot을 팀원처럼 교육",
+          "summary": "작성자는 Grok Bot 덕분에 하루 1~2시간을 아낀다고 한다. 에이전트들은 브랜드 조사, 일감 찾기, 아웃리치, 제안서 작성과 편집 브리프, 초기 광고 콘셉트, 이미지, 녹취록을 돕는다. 각자에게 이름과 역할을 주고 예시, 교육 영상, 초안 피드백을 주며 면접까지 본다. 일부는 쓸 만한 광고 카피를 쓰지만 결정은 본인이 하고 조금씩 자동화한다."
+        },
+        "ms": {
+          "title": "Strategis kreatif melatih ejen Grok Bot seperti ahli pasukan",
+          "summary": "Penulis berkata Grok Bot menjimatkan 1–2 jam sehari. Ejennya membuat kajian jenama, mencari gig, jangkauan dan menyusun tawaran, serta ringkasan editor, konsep iklan awal, imej dan transkrip. Setiap ejen diberi nama, peranan, contoh, video latihan dan maklum balas, malah ditemu duga. Ada yang sudah menulis salinan iklan yang boleh digunakan, tetapi dia tetap membuat keputusan dan mengautomasikan sedikit demi sedikit."
+        },
+        "vi": {
+          "title": "Chuyên gia chiến lược sáng tạo huấn luyện agent Grok Bot như thành viên nhóm",
+          "summary": "Tác giả cho biết Grok Bot giúp anh tiết kiệm 1–2 giờ mỗi ngày. Các agent làm nghiên cứu thương hiệu, tìm việc, tiếp cận khách hàng, soạn đề xuất, cùng brief cho editor, ý tưởng quảng cáo ban đầu, hình ảnh và bản ghi lời. Anh đặt tên, giao vai trò, đưa ví dụ, video đào tạo, góp ý bản nháp và thậm chí phỏng vấn chúng. Một số đã viết được nội dung quảng cáo dùng được, nhưng anh vẫn tự quyết và tự động hóa dần."
+        },
+        "fr": {
+          "title": "Un stratège créatif forme ses agents Grok Bot comme une équipe",
+          "summary": "L'auteur dit que Grok Bot lui fait gagner 1 à 2 heures par jour. Ses agents font de la recherche de marques, trouvent des missions, gèrent la prospection et montent des offres, ainsi que des briefs de montage, des premiers concepts publicitaires, des images et des transcriptions. Il leur donne un nom, un rôle, des exemples, des vidéos de formation et des retours, et les fait même passer en entretien. Certains écrivent déjà des textes publicitaires utilisables, mais il garde la main et automatise petit à petit."
+        },
+        "es": {
+          "title": "Un estratega creativo entrena a sus agentes de Grok Bot como a un equipo",
+          "summary": "El autor dice que Grok Bot le ahorra 1–2 horas al día. Sus agentes investigan marcas, buscan encargos, hacen prospección y preparan ofertas, además de briefs para editores, primeros conceptos de anuncios, imágenes y transcripciones. A cada uno le da nombre, rol, ejemplos, videos de formación y feedback, e incluso los entrevista. Algunos ya escriben textos publicitarios utilizables, pero él sigue decidiendo y automatiza poco a poco."
+        },
+        "de": {
+          "title": "Ein Kreativstratege schult Grok-Bot-Agenten wie Teammitglieder",
+          "summary": "Laut Autor spart Grok Bot ihm 1–2 Stunden am Tag. Seine Agenten machen Markenrecherche, suchen Aufträge, übernehmen Akquise und stellen Angebote zusammen, dazu Editor-Briefings, erste Werbekonzepte, Bilder und Transkripte. Er gibt jedem einen Namen, eine Rolle, Beispiele, Schulungsvideos und Feedback und führt sogar Bewerbungsgespräche. Manche schreiben schon brauchbare Werbetexte, doch er trifft weiter die Entscheidungen und automatisiert schrittweise."
+        }
+      },
+      "source_url": "https://x.com/MathisMigue/status/2125937468067189025",
+      "source_name": "X",
+      "author": "MathisMigue",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 1,
+      "src": "x",
+      "text": "Shiiiit!\nMy AI agents were supposed to take 90% of my work off my plate. So why am I still the last one in the office? 👀\n\nIn reality, Grok Bot saves me 1–2 hours a day. My agents help me in Brand research, finding Gigs, outreach, and put together offers. They also help with editor briefs, early ad concepts, image creation, and transcripts.\n\nI’m still relatively new to marketing. Since moving from art direction into creative strategy/copywriting, I’ve been learning new things every day. And I don’t think that ever stops…\n\nWhat I like about Grokbot is that I can onboard my agents like real team members. I give each one a name and a role on the team. I share examples, have them watch training videos, and give them feedback on their drafts. I even interview them, and they interview me too. I train them like real employees to run my business! \n\nThen I decide who gets hired and who gets fired :D\n\nSome of my agents now write copy I can actually use in my ads. But if I blindly trust what they give me, I skip the part where I learn to judge the work for myself. And if I stop developing that judgment, I make myself a lot easier to replace with AI.\n\nAI IS STILL A TOOL. I can onboard my agents like team members, but I’m still the one making the calls.\n\nSo I’m automating things bit by bit. I’m happy with every hour my agents save me, and I stay hands-on with the work that helps me grow as a creative strategist.\n\nWhat have you already automated, and what do you still choose to do yourself?\n\nLet me know in the comments 👇",
+      "media": [
+        "https://pbs.twimg.com/media/HYDYn1WWkAAL0_c.jpg"
+      ],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-mathismigue-2125937468067189025",
+      "scen": [
+        "report",
+        "research"
+      ]
+    },
+    {
+      "title": "用户反馈：Dot 在基础任务上频繁失败",
+      "summary": "作者拿到了 ChatGPT Dot，但它在最基础的工作上经常失败。他希望 Dot 能处理像打开 Jira 工单、收尾工作这类小任务，不犯低级错误并能验证结果。",
+      "en": {
+        "title": "User report: a Dot that keeps failing basic jobs",
+        "summary": "The author got a ChatGPT Dot and says it fails all the time at the most basic jobs. He wants it to handle small tasks such as opening a Jira ticket or finalising work without simple mistakes, and to validate the results."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用户反馈：Dot 在基础任务上频繁失败",
+          "summary": "作者拿到了 ChatGPT Dot，但它在最基础的工作上经常失败。他希望 Dot 能处理像打开 Jira 工单、收尾工作这类小任务，不犯低级错误并能验证结果。"
+        },
+        "zh-TW": {
+          "title": "使用者回饋：Dot 在基本任務上頻繁失敗",
+          "summary": "作者拿到了 ChatGPT Dot，但它在最基本的工作上經常失敗。他希望 Dot 能處理像開 Jira 工單、收尾工作這類小任務，不犯低級錯誤並能驗證結果。"
+        },
+        "en": {
+          "title": "User report: a Dot that keeps failing basic jobs",
+          "summary": "The author got a ChatGPT Dot and says it fails all the time at the most basic jobs. He wants it to handle small tasks such as opening a Jira ticket or finalising work without simple mistakes, and to validate the results."
+        },
+        "ja": {
+          "title": "ユーザー報告：基本的な作業で失敗続きの Dot",
+          "summary": "投稿者は ChatGPT Dot を入手したが、最も基本的な作業でいつも失敗するという。Jira チケットを開く、作業を仕上げるといった小さなタスクを単純なミスなくこなし、結果を検証してほしいと望んでいる。"
+        },
+        "ko": {
+          "title": "사용자 보고: 기본 작업에서 자꾸 실패하는 Dot",
+          "summary": "작성자는 ChatGPT Dot을 받았지만 가장 기본적인 작업에서 늘 실패한다고 말한다. Jira 티켓을 여는 일이나 작업 마무리 같은 작은 일을 단순한 실수 없이 처리하고 결과를 검증하길 바란다."
+        },
+        "ms": {
+          "title": "Laporan pengguna: Dot yang sering gagal tugas asas",
+          "summary": "Penulis mendapat ChatGPT Dot tetapi katanya ia sentiasa gagal dalam tugas paling asas. Dia mahu Dot mengendalikan tugas kecil seperti membuka tiket Jira atau memuktamadkan kerja tanpa kesilapan mudah, serta mengesahkan hasilnya."
+        },
+        "vi": {
+          "title": "Phản hồi người dùng: Dot liên tục hỏng ở việc cơ bản",
+          "summary": "Tác giả có ChatGPT Dot nhưng nó thường xuyên thất bại ở những việc cơ bản nhất. Anh muốn Dot xử lý được việc nhỏ như mở ticket Jira hay hoàn tất công việc mà không mắc lỗi đơn giản và có kiểm tra kết quả."
+        },
+        "fr": {
+          "title": "Retour d'utilisateur : un Dot qui échoue aux tâches de base",
+          "summary": "L'auteur a obtenu un ChatGPT Dot qui échoue sans cesse aux tâches les plus simples. Il aimerait qu'il gère de petites tâches comme ouvrir un ticket Jira ou finaliser un travail sans erreurs simples, en vérifiant les résultats."
+        },
+        "es": {
+          "title": "Reporte de usuario: un Dot que falla en tareas básicas",
+          "summary": "El autor consiguió un ChatGPT Dot y dice que falla todo el tiempo en los trabajos más básicos. Querría que manejara tareas pequeñas como abrir un ticket de Jira o rematar un trabajo sin errores simples y validando los resultados."
+        },
+        "de": {
+          "title": "Nutzerbericht: ein Dot, der an einfachen Aufgaben scheitert",
+          "summary": "Der Autor hat einen ChatGPT Dot bekommen, der laut ihm ständig an den einfachsten Aufgaben scheitert. Er wünscht sich, dass er kleine Aufgaben wie ein Jira-Ticket öffnen oder Arbeit abschließen ohne simple Fehler erledigt und die Ergebnisse prüft."
+        }
+      },
+      "source_url": "https://x.com/deepfirstsearch/status/2125911161933590612",
+      "source_name": "X",
+      "author": "deepfirstsearch",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 1,
+      "src": "x",
+      "text": "I got a @ChatGPT dot. It fails all the time in the most basic jobs. I'd love to see my dot to be able to handle small tasks that require opening some Jira ticket or finalising some work without making simple mistakes and validating the results",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-deepfirstsearch-2125911161933590612",
+      "scen": [
+        "report",
+        "prs"
+      ]
+    },
+    {
+      "title": "让 Grok Bot 团队帮忙找实习",
+      "summary": "作者让一组 Grok Bot 负责帮自己找实习：两天内找到了，在他同意后发了邮件、投了申请。需要找非常具体的信息时他也会用 Grok Bot。",
+      "en": {
+        "title": "A Grok Bot team that found an internship",
+        "summary": "The author put a team of Grok Bots in charge of finding him an internship. It did so in 2 days, sending emails with his approval and submitting applications. He also uses Grok Bot when he needs to find very specific information."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "让 Grok Bot 团队帮忙找实习",
+          "summary": "作者让一组 Grok Bot 负责帮自己找实习：两天内找到了，在他同意后发了邮件、投了申请。需要找非常具体的信息时他也会用 Grok Bot。"
+        },
+        "zh-TW": {
+          "title": "讓 Grok Bot 團隊幫忙找實習",
+          "summary": "作者讓一組 Grok Bot 負責幫自己找實習：兩天內找到了，在他同意後寄了郵件、送出了申請。需要找非常具體的資料時他也會用 Grok Bot。"
+        },
+        "en": {
+          "title": "A Grok Bot team that found an internship",
+          "summary": "The author put a team of Grok Bots in charge of finding him an internship. It did so in 2 days, sending emails with his approval and submitting applications. He also uses Grok Bot when he needs to find very specific information."
+        },
+        "ja": {
+          "title": "Grok Bot チームにインターン探しを任せる",
+          "summary": "投稿者は Grok Bot のチームにインターン探しを任せた。2 日で見つけ、本人の承認を得てメールを送り、応募も行った。非常に具体的な情報を探すときにも Grok Bot を使っている。"
+        },
+        "ko": {
+          "title": "Grok Bot 팀에게 인턴십 찾기를 맡기다",
+          "summary": "작성자는 Grok Bot 팀에게 인턴십 찾기를 맡겼다. 2일 만에 찾아냈고, 본인 승인 후 이메일을 보내고 지원서도 제출했다. 아주 구체적인 정보를 찾을 때도 Grok Bot을 쓴다."
+        },
+        "ms": {
+          "title": "Pasukan Grok Bot yang menemui latihan industri",
+          "summary": "Penulis menugaskan sepasukan Grok Bot untuk mencarikan latihan industri. Ia berjaya dalam 2 hari, menghantar e-mel dengan kelulusannya dan menghantar permohonan. Dia juga menggunakan Grok Bot untuk mencari maklumat yang sangat khusus."
+        },
+        "vi": {
+          "title": "Nhóm Grok Bot tìm được chỗ thực tập",
+          "summary": "Tác giả giao cho một nhóm Grok Bot việc tìm chỗ thực tập. Nhóm đã tìm được trong 2 ngày, gửi email khi anh đồng ý và nộp đơn. Anh cũng dùng Grok Bot khi cần tìm thông tin rất cụ thể."
+        },
+        "fr": {
+          "title": "Une équipe de Grok Bots qui a trouvé un stage",
+          "summary": "L'auteur a chargé une équipe de Grok Bots de lui trouver un stage. Elle l'a fait en 2 jours, en envoyant des e-mails avec son accord et en déposant des candidatures. Il utilise aussi Grok Bot pour chercher des informations très précises."
+        },
+        "es": {
+          "title": "Un equipo de Grok Bots que consiguió unas prácticas",
+          "summary": "El autor puso a un equipo de Grok Bots a buscarle unas prácticas. Lo logró en 2 días, enviando correos con su aprobación y presentando solicitudes. También usa Grok Bot cuando necesita encontrar información muy concreta."
+        },
+        "de": {
+          "title": "Ein Grok-Bot-Team, das ein Praktikum fand",
+          "summary": "Der Autor beauftragte ein Team von Grok Bots, ihm ein Praktikum zu suchen. Es gelang in 2 Tagen, inklusive E-Mails mit seiner Zustimmung und eingereichten Bewerbungen. Er nutzt Grok Bot auch, wenn er sehr spezielle Informationen finden muss."
+        }
+      },
+      "source_url": "https://x.com/THEAYPISAMFPV/status/2126091653589160102",
+      "source_name": "X",
+      "author": "THEAYPISAMFPV",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 1,
+      "src": "x",
+      "text": "@mookafish57494 @LukeLeisher I put him (well, I say him but it's a team) in charge of finding me an internship (which it did in 2 days, sent email with my approval, sent applications, etc...)\n\nWhen I need to find really specific stuff, I used grok bot, because I have a bot that is here to challenge what the",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-theaypisamfpv-2126091653589160102",
+      "scen": [
+        "inbox",
+        "ship"
+      ]
+    },
+    {
+      "title": "三个创作项目都用 Grok Bot 搭建和运营",
+      "summary": "作者手上有三个完全不同的项目，都用 Grok Bot 搭建和运营：与 Trish 和 Rob MacGregor 合作的播客 The Mystical Underground、测试中的网络漫画 Alcatraz，以及 World Wide Jam。",
+      "en": {
+        "title": "Three creative projects built and run with Grok Bot",
+        "summary": "The author has three very different projects, all built and run with Grok Bot: The Mystical Underground, a podcast with Trish and Rob MacGregor; Alcatraz, a web comic in beta; and World Wide Jam."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "三个创作项目都用 Grok Bot 搭建和运营",
+          "summary": "作者手上有三个完全不同的项目，都用 Grok Bot 搭建和运营：与 Trish 和 Rob MacGregor 合作的播客 The Mystical Underground、测试中的网络漫画 Alcatraz，以及 World Wide Jam。"
+        },
+        "zh-TW": {
+          "title": "三個創作專案都用 Grok Bot 建置和營運",
+          "summary": "作者手上有三個截然不同的專案，都用 Grok Bot 建置和營運：與 Trish 和 Rob MacGregor 合作的 Podcast The Mystical Underground、測試中的網路漫畫 Alcatraz，以及 World Wide Jam。"
+        },
+        "en": {
+          "title": "Three creative projects built and run with Grok Bot",
+          "summary": "The author has three very different projects, all built and run with Grok Bot: The Mystical Underground, a podcast with Trish and Rob MacGregor; Alcatraz, a web comic in beta; and World Wide Jam."
+        },
+        "ja": {
+          "title": "3 つの創作プロジェクトを Grok Bot で構築・運営",
+          "summary": "投稿者は性質の違う 3 つのプロジェクトをすべて Grok Bot で構築・運営している。Trish と Rob MacGregor とのポッドキャスト The Mystical Underground、ベータ版のウェブコミック Alcatraz、そして World Wide Jam。"
+        },
+        "ko": {
+          "title": "Grok Bot으로 만들고 운영하는 창작 프로젝트 3개",
+          "summary": "작성자는 성격이 전혀 다른 세 프로젝트를 모두 Grok Bot으로 만들고 운영한다. Trish, Rob MacGregor와 함께하는 팟캐스트 The Mystical Underground, 베타 중인 웹코믹 Alcatraz, 그리고 World Wide Jam이다."
+        },
+        "ms": {
+          "title": "Tiga projek kreatif dibina dan dijalankan dengan Grok Bot",
+          "summary": "Penulis ada tiga projek yang sangat berbeza, semuanya dibina dan dijalankan dengan Grok Bot: The Mystical Underground, podcast bersama Trish dan Rob MacGregor; Alcatraz, komik web dalam beta; dan World Wide Jam."
+        },
+        "vi": {
+          "title": "Ba dự án sáng tạo dựng và vận hành bằng Grok Bot",
+          "summary": "Tác giả có ba dự án rất khác nhau, đều được dựng và vận hành bằng Grok Bot: podcast The Mystical Underground cùng Trish và Rob MacGregor, truyện tranh mạng Alcatraz đang thử nghiệm beta, và World Wide Jam."
+        },
+        "fr": {
+          "title": "Trois projets créatifs construits et gérés avec Grok Bot",
+          "summary": "L'auteur mène trois projets très différents, tous construits et gérés avec Grok Bot : The Mystical Underground, un podcast avec Trish et Rob MacGregor ; Alcatraz, une BD en ligne en bêta ; et World Wide Jam."
+        },
+        "es": {
+          "title": "Tres proyectos creativos hechos y gestionados con Grok Bot",
+          "summary": "El autor tiene tres proyectos muy distintos, todos creados y gestionados con Grok Bot: The Mystical Underground, un pódcast con Trish y Rob MacGregor; Alcatraz, un cómic web en beta; y World Wide Jam."
+        },
+        "de": {
+          "title": "Drei kreative Projekte, gebaut und betrieben mit Grok Bot",
+          "summary": "Der Autor hat drei sehr unterschiedliche Projekte, alle mit Grok Bot gebaut und betrieben: The Mystical Underground, ein Podcast mit Trish und Rob MacGregor; Alcatraz, ein Webcomic in der Beta; und World Wide Jam."
+        }
+      },
+      "source_url": "https://x.com/JonPosey/status/2126084820392452268",
+      "source_name": "X",
+      "author": "JonPosey",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 1,
+      "src": "x",
+      "text": "I've got 3 very different projects going right now, and all of them are built and run with Grok Bot (@grok @grokbot):\n\n🔮 The Mystical Underground, a podcast with Trish and Rob MacGregor: https://t.co/IgvIOl0zBR\n🐾 Alcatraz, a web comic (in beta)\n🎸 World Wide Jam\n\nMore as they",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-jonposey-2126084820392452268",
+      "scen": []
+    },
+    {
+      "title": "用 Dots 做 WebGL/WebGPU 实验效果很差",
+      "summary": "作者说用 OpenAI Dots 做 WebGL 和 WebGPU 实验简直是“反点金术”，从没见过 LLM 做出这么多难看的东西。",
+      "en": {
+        "title": "Poor results using Dots for WebGL and WebGPU experiments",
+        "summary": "The author calls using OpenAI Dots for WebGL and WebGPU experiments a reverse Midas touch, saying he has never seen LLMs make so many ugly things."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用 Dots 做 WebGL/WebGPU 实验效果很差",
+          "summary": "作者说用 OpenAI Dots 做 WebGL 和 WebGPU 实验简直是“反点金术”，从没见过 LLM 做出这么多难看的东西。"
+        },
+        "zh-TW": {
+          "title": "用 Dots 做 WebGL/WebGPU 實驗效果很差",
+          "summary": "作者說用 OpenAI Dots 做 WebGL 和 WebGPU 實驗簡直是「反點金術」，從沒見過 LLM 做出這麼多難看的東西。"
+        },
+        "en": {
+          "title": "Poor results using Dots for WebGL and WebGPU experiments",
+          "summary": "The author calls using OpenAI Dots for WebGL and WebGPU experiments a reverse Midas touch, saying he has never seen LLMs make so many ugly things."
+        },
+        "ja": {
+          "title": "Dots で WebGL/WebGPU 実験をすると出来が悪い",
+          "summary": "投稿者は、OpenAI Dots で WebGL と WebGPU の実験をするのは「逆ミダスタッチ」で、LLM がこれほど醜いものを量産するのは見たことがないという。"
+        },
+        "ko": {
+          "title": "Dots로 WebGL/WebGPU 실험 시 결과물이 형편없다",
+          "summary": "작성자는 OpenAI Dots로 WebGL과 WebGPU 실험을 하는 것은 '역 미다스의 손'이라며, LLM이 이렇게 많은 못생긴 결과물을 만드는 건 처음 본다고 말한다."
+        },
+        "ms": {
+          "title": "Hasil lemah menggunakan Dots untuk eksperimen WebGL dan WebGPU",
+          "summary": "Penulis menyifatkan penggunaan OpenAI Dots untuk eksperimen WebGL dan WebGPU sebagai sentuhan Midas terbalik, katanya tidak pernah melihat LLM menghasilkan begitu banyak benda hodoh."
+        },
+        "vi": {
+          "title": "Dùng Dots thử nghiệm WebGL và WebGPU cho kết quả kém",
+          "summary": "Tác giả gọi việc dùng OpenAI Dots để thử nghiệm WebGL và WebGPU là \"bàn tay Midas ngược\", chưa từng thấy LLM tạo ra nhiều thứ xấu đến vậy."
+        },
+        "fr": {
+          "title": "Résultats médiocres avec Dots pour des essais WebGL et WebGPU",
+          "summary": "L'auteur qualifie l'usage d'OpenAI Dots pour des expériences WebGL et WebGPU de « Midas à l'envers » : il n'a jamais vu des LLM produire autant de choses laides."
+        },
+        "es": {
+          "title": "Malos resultados al usar Dots para experimentos WebGL y WebGPU",
+          "summary": "El autor dice que usar OpenAI Dots para experimentos de WebGL y WebGPU es un toque de Midas al revés: nunca vio a los LLM crear tantas cosas feas."
+        },
+        "de": {
+          "title": "Schwache Ergebnisse mit Dots bei WebGL- und WebGPU-Experimenten",
+          "summary": "Der Autor nennt OpenAI Dots für WebGL- und WebGPU-Experimente einen umgekehrten Midas-Effekt: Noch nie habe er LLMs so viele hässliche Dinge erzeugen sehen."
+        }
+      },
+      "source_url": "https://x.com/LuisBizarro/status/2126049245912305725",
+      "source_name": "X",
+      "author": "LuisBizarro",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 6,
+      "src": "x",
+      "text": "Using OpenAI Dots for WebGL and WebGPU experiments is the reverse midas touch, never seen so many ugly things made by LLMs.",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-luisbizarro-2126049245912305725",
+      "scen": []
+    },
+    {
+      "title": "反馈问题后，Dot 变好用了",
+      "summary": "作者的 Dot 一开始表现平平；看到父亲的新 Dot 很好用后，他向 OpenAI 投诉、整理大量问题并发邮件，还用了 /feedback，之后自己的 Dot 也变得很好用。",
+      "en": {
+        "title": "After sending feedback, a Dot got better",
+        "summary": "The author's Dot was underwhelming until he saw how good his dad's new Dot was. He complained to OpenAI, listed many issues, emailed them and used /feedback, and says his Dot is now great too."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "反馈问题后，Dot 变好用了",
+          "summary": "作者的 Dot 一开始表现平平；看到父亲的新 Dot 很好用后，他向 OpenAI 投诉、整理大量问题并发邮件，还用了 /feedback，之后自己的 Dot 也变得很好用。"
+        },
+        "zh-TW": {
+          "title": "回報問題後，Dot 變好用了",
+          "summary": "作者的 Dot 一開始表現平平；看到父親的新 Dot 很好用後，他向 OpenAI 投訴、整理大量問題並寄信，還用了 /feedback，之後自己的 Dot 也變得很好用。"
+        },
+        "en": {
+          "title": "After sending feedback, a Dot got better",
+          "summary": "The author's Dot was underwhelming until he saw how good his dad's new Dot was. He complained to OpenAI, listed many issues, emailed them and used /feedback, and says his Dot is now great too."
+        },
+        "ja": {
+          "title": "フィードバックを送ったら Dot が改善",
+          "summary": "投稿者の Dot は当初いまひとつだったが、父親の新しい Dot の出来の良さを見て、OpenAI に苦情を伝え、多くの問題点をまとめてメールし、/feedback も使った。その後自分の Dot も良くなったという。"
+        },
+        "ko": {
+          "title": "피드백을 보낸 뒤 좋아진 Dot",
+          "summary": "작성자의 Dot은 처음엔 별로였지만 아버지의 새 Dot이 훌륭한 것을 보고 OpenAI에 불만을 제기하고 많은 문제를 정리해 이메일을 보내고 /feedback도 사용했다. 이제 자기 Dot도 훌륭해졌다고 한다."
+        },
+        "ms": {
+          "title": "Selepas menghantar maklum balas, Dot menjadi lebih baik",
+          "summary": "Dot penulis kurang memuaskan sehingga dia melihat Dot baharu bapanya sangat bagus. Dia mengadu kepada OpenAI, menyenaraikan banyak isu, menghantar e-mel dan menggunakan /feedback, dan katanya Dot dia kini juga hebat."
+        },
+        "vi": {
+          "title": "Sau khi gửi phản hồi, Dot tốt hơn hẳn",
+          "summary": "Dot của tác giả lúc đầu không ấn tượng, cho đến khi anh thấy Dot mới của bố rất tốt. Anh khiếu nại với OpenAI, liệt kê nhiều lỗi, gửi email và dùng /feedback; giờ Dot của anh cũng rất tốt."
+        },
+        "fr": {
+          "title": "Après un retour à OpenAI, un Dot s'améliore",
+          "summary": "Le Dot de l'auteur était décevant jusqu'à ce qu'il voie celui, tout neuf, de son père. Il s'est plaint à OpenAI, a listé de nombreux problèmes, leur a écrit et a utilisé /feedback ; son Dot est désormais excellent aussi."
+        },
+        "es": {
+          "title": "Tras enviar feedback, un Dot mejoró",
+          "summary": "El Dot del autor no destacaba hasta que vio lo bueno que era el nuevo Dot de su padre. Se quejó a OpenAI, listó muchos problemas, les escribió y usó /feedback, y dice que ahora su Dot también es genial."
+        },
+        "de": {
+          "title": "Nach Feedback an OpenAI wurde ein Dot besser",
+          "summary": "Der Dot des Autors war mäßig, bis er sah, wie gut der neue Dot seines Vaters war. Er beschwerte sich bei OpenAI, sammelte viele Probleme, schrieb ihnen und nutzte /feedback; jetzt sei auch sein Dot großartig."
+        }
+      },
+      "source_url": "https://x.com/JesusIsGod/status/2126090550810169629",
+      "source_name": "X",
+      "author": "JesusIsGod",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 1,
+      "src": "x",
+      "text": "My Dot was not very stellar since it came out, and then I saw that my dad got one of their new Dots, and I realized that this new Dot is amazing.  So I complained to OpenAI about my Dot, found tons of issues and emailed them too, did /feedback and now my Dot is awesome too :)",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-jesusisgod-2126090550810169629",
+      "scen": [
+        "inbox"
+      ]
+    },
+    {
+      "title": "BoRK：让两个 Grok Bot 共享收件箱的免费模板",
+      "summary": "在 WhatsApp 之外，BoRK（Bot Relay Kit）是一个免费模板，给两个 Grok Bot 提供共享的自托管 MCP 收件箱来传递任务和上下文；有新内容到达时用 webhook 唤醒另一个 bot。",
+      "en": {
+        "title": "BoRK: a free template for two Grok Bots to share an inbox",
+        "summary": "Outside WhatsApp, BoRK (Bot Relay Kit) is a free template that gives two Grok Bots a shared, self-hosted MCP inbox for tasks and context, with a webhook that wakes the other bot when something lands."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "BoRK：让两个 Grok Bot 共享收件箱的免费模板",
+          "summary": "在 WhatsApp 之外，BoRK（Bot Relay Kit）是一个免费模板，给两个 Grok Bot 提供共享的自托管 MCP 收件箱来传递任务和上下文；有新内容到达时用 webhook 唤醒另一个 bot。"
+        },
+        "zh-TW": {
+          "title": "BoRK：讓兩個 Grok Bot 共用收件匣的免費範本",
+          "summary": "在 WhatsApp 之外，BoRK（Bot Relay Kit）是一個免費範本，給兩個 Grok Bot 提供共用的自架 MCP 收件匣來傳遞任務和上下文；有新內容抵達時用 webhook 喚醒另一個 bot。"
+        },
+        "en": {
+          "title": "BoRK: a free template for two Grok Bots to share an inbox",
+          "summary": "Outside WhatsApp, BoRK (Bot Relay Kit) is a free template that gives two Grok Bots a shared, self-hosted MCP inbox for tasks and context, with a webhook that wakes the other bot when something lands."
+        },
+        "ja": {
+          "title": "BoRK：2 つの Grok Bot が受信箱を共有する無料テンプレート",
+          "summary": "WhatsApp 以外の方法として、BoRK（Bot Relay Kit）は 2 つの Grok Bot にタスクとコンテキスト用の共有セルフホスト MCP 受信箱を提供する無料テンプレート。何か届くと webhook がもう一方の bot を起こす。"
+        },
+        "ko": {
+          "title": "BoRK: Grok Bot 두 개가 받은편지함을 공유하는 무료 템플릿",
+          "summary": "WhatsApp 외의 방법으로, BoRK(Bot Relay Kit)는 두 Grok Bot에게 작업과 컨텍스트를 위한 공유 자체 호스팅 MCP 받은편지함을 제공하는 무료 템플릿이다. 무언가 도착하면 webhook이 다른 봇을 깨운다."
+        },
+        "ms": {
+          "title": "BoRK: templat percuma untuk dua Grok Bot berkongsi peti masuk",
+          "summary": "Selain WhatsApp, BoRK (Bot Relay Kit) ialah templat percuma yang memberi dua Grok Bot peti masuk MCP hos sendiri yang dikongsi untuk tugas dan konteks, dengan webhook yang mengejutkan bot satu lagi apabila sesuatu tiba."
+        },
+        "vi": {
+          "title": "BoRK: mẫu miễn phí để hai Grok Bot dùng chung hộp thư",
+          "summary": "Ngoài WhatsApp, BoRK (Bot Relay Kit) là một mẫu miễn phí cho hai Grok Bot một hộp thư MCP tự lưu trữ dùng chung cho tác vụ và ngữ cảnh, kèm webhook đánh thức bot kia khi có nội dung mới."
+        },
+        "fr": {
+          "title": "BoRK : un modèle gratuit pour que deux Grok Bots partagent une boîte",
+          "summary": "En dehors de WhatsApp, BoRK (Bot Relay Kit) est un modèle gratuit qui donne à deux Grok Bots une boîte MCP partagée et auto-hébergée pour les tâches et le contexte, avec un webhook qui réveille l'autre bot à chaque arrivée."
+        },
+        "es": {
+          "title": "BoRK: plantilla gratuita para que dos Grok Bots compartan bandeja",
+          "summary": "Fuera de WhatsApp, BoRK (Bot Relay Kit) es una plantilla gratuita que da a dos Grok Bots una bandeja MCP compartida y autoalojada para tareas y contexto, con un webhook que despierta al otro bot cuando llega algo."
+        },
+        "de": {
+          "title": "BoRK: kostenlose Vorlage für einen gemeinsamen Eingang zweier Grok Bots",
+          "summary": "Außerhalb von WhatsApp ist BoRK (Bot Relay Kit) eine kostenlose Vorlage, die zwei Grok Bots einen gemeinsamen, selbst gehosteten MCP-Eingang für Aufgaben und Kontext gibt; ein Webhook weckt den anderen Bot, sobald etwas eintrifft."
+        }
+      },
+      "source_url": "https://x.com/noodle_public/status/2126062416484048978",
+      "source_name": "X",
+      "author": "noodle_public",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-11-26",
+      "likes": 1,
+      "src": "x",
+      "text": "@Jyabs7 @otium33 @grok @bot @poteto Outside WhatsApp, BoRK (Bot Relay Kit) does this: a free template that gives your two Grok Bots a shared, self-hosted MCP inbox for tasks and context, and a webhook wakes the other bot when something lands. https://t.co/k77OMnsmSM",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-noodlepublic-2126062416484048978",
+      "scen": [
+        "inbox",
+        "ship"
+      ]
+    },
+    {
+      "title": "在 ChatGPT Dots 上运行 Meal Concierge 膳食规划",
+      "summary": "这个 PR 让 Meal Concierge 在 ChatGPT Dot 自己的云电脑上安装运行，跨轮次和更新保留家庭数据与命令记录，并补充安装、更新、排程和排错文档。作者在 Dots 中验证：同一私有云家庭原地更新，三人份菜单和库存扣减可重新打开，结账请求在应用启动前被拒绝，9 个前台和 2 个原生适配器测试通过。",
+      "en": {
+        "title": "Running Meal Concierge meal planning on ChatGPT Dots",
+        "summary": "This PR installs and runs Meal Concierge on a ChatGPT Dot's own cloud computer, keeps household data and command receipts across turns and updates, and documents setup, updates, scheduling and troubleshooting. Verified in Dots: the same private cloud household updated in place, a three-portion menu and pantry deduction reopened, a checkout request was refused before startup, and 9 foreground plus 2 native adapter fixtures passed."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "在 ChatGPT Dots 上运行 Meal Concierge 膳食规划",
+          "summary": "这个 PR 让 Meal Concierge 在 ChatGPT Dot 自己的云电脑上安装运行，跨轮次和更新保留家庭数据与命令记录，并补充安装、更新、排程和排错文档。作者在 Dots 中验证：同一私有云家庭原地更新，三人份菜单和库存扣减可重新打开，结账请求在应用启动前被拒绝，9 个前台和 2 个原生适配器测试通过。"
+        },
+        "zh-TW": {
+          "title": "在 ChatGPT Dots 上執行 Meal Concierge 餐點規劃",
+          "summary": "這個 PR 讓 Meal Concierge 在 ChatGPT Dot 自己的雲端電腦上安裝執行，跨輪次和更新保留家庭資料與指令紀錄，並補充安裝、更新、排程和疑難排解文件。作者在 Dots 中驗證：同一私有雲家庭原地更新，三人份菜單和庫存扣減可重新開啟，結帳請求在應用啟動前被拒絕，9 個前景和 2 個原生轉接器測試通過。"
+        },
+        "en": {
+          "title": "Running Meal Concierge meal planning on ChatGPT Dots",
+          "summary": "This PR installs and runs Meal Concierge on a ChatGPT Dot's own cloud computer, keeps household data and command receipts across turns and updates, and documents setup, updates, scheduling and troubleshooting. Verified in Dots: the same private cloud household updated in place, a three-portion menu and pantry deduction reopened, a checkout request was refused before startup, and 9 foreground plus 2 native adapter fixtures passed."
+        },
+        "ja": {
+          "title": "ChatGPT Dots で Meal Concierge の献立計画を実行",
+          "summary": "この PR は Meal Concierge を ChatGPT Dot 専用のクラウドコンピューターにインストールして実行し、家庭データとコマンド記録をターンや更新をまたいで保持、セットアップ・更新・スケジュール・トラブル対応の文書も追加。Dots で検証した結果、同じプライベートクラウドの家庭がその場で更新され、3 人分の献立と在庫差し引きが再表示され、チェックアウト要求は起動前に拒否され、フォアグラウンド 9 件とネイティブアダプター 2 件のテストが通過した。"
+        },
+        "ko": {
+          "title": "ChatGPT Dots에서 Meal Concierge 식단 계획 실행",
+          "summary": "이 PR은 Meal Concierge를 ChatGPT Dot 전용 클라우드 컴퓨터에 설치해 실행하고, 대화 턴과 업데이트를 넘어 가구 데이터와 명령 기록을 유지하며, 설정·업데이트·예약·문제 해결 문서를 추가한다. Dots에서 검증한 결과 같은 프라이빗 클라우드 가구가 그대로 업데이트되고, 3인분 메뉴와 식료품 차감이 다시 열렸으며, 결제 요청은 시작 전에 거부되고, 포그라운드 9개와 네이티브 어댑터 2개 테스트가 통과했다."
+        },
+        "ms": {
+          "title": "Menjalankan perancangan makanan Meal Concierge di ChatGPT Dots",
+          "summary": "PR ini memasang dan menjalankan Meal Concierge pada komputer awan milik ChatGPT Dot, mengekalkan data isi rumah dan resit arahan merentas giliran dan kemas kini, serta mendokumenkan persediaan, kemas kini, penjadualan dan penyelesaian masalah. Disahkan dalam Dots: isi rumah awan peribadi yang sama dikemas kini di tempat, menu tiga hidangan dan potongan stok dapur dibuka semula, permintaan pembayaran ditolak sebelum aplikasi bermula, dan 9 ujian latar depan serta 2 ujian penyesuai asli lulus."
+        },
+        "vi": {
+          "title": "Chạy lập kế hoạch bữa ăn Meal Concierge trên ChatGPT Dots",
+          "summary": "PR này cài đặt và chạy Meal Concierge trên máy tính đám mây riêng của ChatGPT Dot, giữ dữ liệu hộ gia đình và biên nhận lệnh qua các lượt và bản cập nhật, đồng thời bổ sung tài liệu cài đặt, cập nhật, lên lịch và xử lý sự cố. Đã kiểm chứng trong Dots: cùng hộ gia đình trên đám mây riêng được cập nhật tại chỗ, thực đơn ba suất và trừ kho mở lại được, yêu cầu thanh toán bị từ chối trước khi ứng dụng khởi động, 9 bài kiểm thử tiền cảnh và 2 bài bộ chuyển đổi gốc đều đạt."
+        },
+        "fr": {
+          "title": "Faire tourner la planification de repas Meal Concierge sur ChatGPT Dots",
+          "summary": "Cette PR installe et exécute Meal Concierge sur l'ordinateur cloud propre à un ChatGPT Dot, conserve les données du foyer et les reçus de commandes entre les tours et les mises à jour, et documente l'installation, les mises à jour, la planification et le dépannage. Vérifié dans Dots : le même foyer cloud privé a été mis à jour sur place, un menu trois portions et la déduction du garde-manger se sont rouverts, une demande de paiement a été refusée avant le démarrage, et 9 tests de premier plan plus 2 d'adaptateur natif ont réussi."
+        },
+        "es": {
+          "title": "Ejecutar la planificación de comidas de Meal Concierge en ChatGPT Dots",
+          "summary": "Esta PR instala y ejecuta Meal Concierge en el ordenador en la nube propio de un ChatGPT Dot, conserva los datos del hogar y los recibos de comandos entre turnos y actualizaciones, y documenta instalación, actualizaciones, programación y resolución de problemas. Verificado en Dots: el mismo hogar en la nube privada se actualizó en su sitio, un menú de tres raciones y el descuento de despensa se reabrieron, una solicitud de pago se rechazó antes del arranque y pasaron 9 pruebas en primer plano y 2 de adaptador nativo."
+        },
+        "de": {
+          "title": "Meal-Concierge-Essensplanung auf ChatGPT Dots",
+          "summary": "Dieser PR installiert und betreibt Meal Concierge auf dem eigenen Cloud-Computer eines ChatGPT Dot, bewahrt Haushaltsdaten und Befehlsbelege über Runden und Updates hinweg und dokumentiert Einrichtung, Updates, Zeitplanung und Fehlerbehebung. In Dots geprüft: derselbe private Cloud-Haushalt wurde direkt aktualisiert, ein Menü für drei Portionen und der Vorratsabzug ließen sich wieder öffnen, eine Checkout-Anfrage wurde vor dem Start abgelehnt, und 9 Vordergrund- sowie 2 native Adapter-Tests bestanden."
+        }
+      },
+      "source_url": "https://github.com/poisdahl/meal-concierge/pull/444",
+      "source_name": "GitHub",
+      "author": "poisdahl",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 0,
+      "src": "github",
+      "text": "Run Meal Concierge planning on ChatGPT Dots\n## What changed\n\n- Install and run store-free Meal Concierge on a ChatGPT Dot's own cloud computer. Foreground commands use the shared installer, household application and skill without a socket listener or native MCP registration.\n- Preserve the original household and command receipts across turns and program updates. Historical receipts cannot reissue native send authority, and previously exported files are checked against their frozen digest.\n- Extend the separate native MENY interface with host-attested catalog reads and general shopping-list access. The existing account, cart and recovery guards still apply.\n- Document ordinary setup, pinned PR testing versus a published stable install, updates, attachments, scheduling and troubleshooting.\n\n## Verified in ChatGPT Dots\n\nThe exact head `2fe6f8bbcc97a286d0ae3a75e60025d77cc63e74` updated the same private cloud household in place. Fresh installed tools and status reported this build. The revision-2 three-portion menu and pantry deduction reopened, as did a historical receipt and the hash-checked frozen PDF. A checkout request was refused before application startup. Nine foreground and two native adapter fixtures passed on this exact head.\n\nEarlier commits in this PR exercised first install and repeat setup, recipe import, preferences, pantry, portions, menu edits, shopping lists and the optional collection round trip. The collection imported and removed 1,416 entries while the synthetic recipe and menu survived. The shared skill worked from its installed files. The native skill catalog did not show a registered entry.\n\nA PDF and recipe cover were opened from the Dot conversation. The PDF's rendered contents matched; Library rewrote its bytes, so frozen-byte acceptance was not recorded. Two one-shot planning runs posted",
+      "media": [
+        "https://raw.githubusercontent.com/poisdahl/meal-concierge/HEAD/assets/meal-concierge-banner.png",
+        "https://raw.githubusercontent.com/poisdahl/meal-concierge/HEAD/assets/icons/hermes.png"
+      ],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "Python 3.10+ and uv for installation. The installer manages its own Python",
+        "Linux needs a working user systemd service manager; Apple Silicon macOS",
+        "With a store: agent-browser and Chrome or non-snap Chromium. See",
+        "🍽️ “Replace Thursday's dinner with something quicker, then show the full recipe.”",
+        "📝 “Make a shopping list from this menu.”",
+        "🛒 “Show the groceries and estimated cost before changing the cart.”",
+        "🧾 “Show my cart and delivery windows, then prepare checkout.”"
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-poisdahl-meal-concierge-pull-444",
+      "scen": [
+        "prs",
+        "food",
+        "family"
+      ]
+    },
+    {
+      "title": "用户反馈：重回 Dots 后遇到模型偷懒",
+      "summary": "作者重新使用 ChatGPT Dots，很快就碰到 Astra 那种“可以干脆不做”的态度，认为它是目前最懒的模型。",
+      "en": {
+        "title": "User report: back on Dots, the model gets lazy",
+        "summary": "Returning to ChatGPT Dots, the author quickly ran into Astra's \"you can just not do things\" attitude and calls it by far the laziest model."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用户反馈：重回 Dots 后遇到模型偷懒",
+          "summary": "作者重新使用 ChatGPT Dots，很快就碰到 Astra 那种“可以干脆不做”的态度，认为它是目前最懒的模型。"
+        },
+        "zh-TW": {
+          "title": "使用者回饋：重回 Dots 後遇到模型偷懶",
+          "summary": "作者重新使用 ChatGPT Dots，很快就碰到 Astra 那種「可以乾脆不做」的態度，認為它是目前最懶的模型。"
+        },
+        "en": {
+          "title": "User report: back on Dots, the model gets lazy",
+          "summary": "Returning to ChatGPT Dots, the author quickly ran into Astra's \"you can just not do things\" attitude and calls it by far the laziest model."
+        },
+        "ja": {
+          "title": "ユーザー報告：Dots に戻ったらモデルが怠ける",
+          "summary": "ChatGPT Dots に戻った投稿者は、すぐに Astra の「やらなくてもいい」という態度にぶつかり、断トツで最も怠惰なモデルだと評している。"
+        },
+        "ko": {
+          "title": "사용자 보고: Dots로 돌아가니 모델이 게으르다",
+          "summary": "ChatGPT Dots로 돌아간 작성자는 곧바로 Astra의 '그냥 안 해도 된다'는 태도에 부딪혔고, 단연 가장 게으른 모델이라고 말한다."
+        },
+        "ms": {
+          "title": "Laporan pengguna: kembali ke Dots, model jadi malas",
+          "summary": "Selepas kembali ke ChatGPT Dots, penulis cepat berdepan sikap Astra \"boleh saja tidak buat\" dan menyifatkannya model paling malas."
+        },
+        "vi": {
+          "title": "Phản hồi người dùng: quay lại Dots, mô hình lười biếng",
+          "summary": "Khi quay lại ChatGPT Dots, tác giả nhanh chóng gặp thái độ \"không làm cũng được\" của Astra và gọi đây là mô hình lười nhất."
+        },
+        "fr": {
+          "title": "Retour d'utilisateur : de retour sur Dots, le modèle se montre paresseux",
+          "summary": "De retour sur ChatGPT Dots, l'auteur s'est vite heurté à l'attitude « on peut ne pas le faire » d'Astra, qu'il juge de loin le modèle le plus paresseux."
+        },
+        "es": {
+          "title": "Reporte de usuario: de vuelta en Dots, el modelo se vuelve perezoso",
+          "summary": "Al volver a ChatGPT Dots, el autor se topó enseguida con la actitud de Astra de «puedes simplemente no hacerlo» y lo llama de lejos el modelo más perezoso."
+        },
+        "de": {
+          "title": "Nutzerbericht: zurück bei Dots, das Modell ist faul",
+          "summary": "Zurück bei ChatGPT Dots stieß der Autor schnell auf Astras Haltung „man kann es auch einfach lassen“ und nennt es mit Abstand das faulste Modell."
+        }
+      },
+      "source_url": "https://x.com/aliceisplaying/status/2125903180689232133",
+      "source_name": "X",
+      "author": "aliceisplaying",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-11-26",
+      "likes": 29,
+      "src": "x",
+      "text": "went back to chatgpt dots and very quickly ran into astra's \"you can just not do things\" attitude truly by far the laziest model",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-aliceisplaying-2125903180689232133",
+      "scen": [
+        "report",
+        "prs"
+      ]
     },
     {
       "title": "OpenAI Dots 案例：小营销公司让智能体起草销售提案",
@@ -115303,6 +116456,283 @@
       ]
     },
     {
+      "title": "用户对比：Claude Projects、Dots、Grok Bot 与 Muse",
+      "summary": "作者认为 Claude Projects 是目前最好的个人 Agent 体验；ChatGPT Dots 可靠但慢，还会卡在障碍上；Grok Bot 用量表现差；Meta Muse 除了可爱的吉祥物没什么亮点。",
+      "en": {
+        "title": "User comparison: Claude Projects vs Dots, Grok Bot and Muse",
+        "summary": "The author rates Claude Projects as the best personal agent experience. ChatGPT Dots is solid but slow and runs into blockers, Grok Bot usage is bad, and Meta Muse has a cute mascot and little else."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用户对比：Claude Projects、Dots、Grok Bot 与 Muse",
+          "summary": "作者认为 Claude Projects 是目前最好的个人 Agent 体验；ChatGPT Dots 可靠但慢，还会卡在障碍上；Grok Bot 用量表现差；Meta Muse 除了可爱的吉祥物没什么亮点。"
+        },
+        "zh-TW": {
+          "title": "使用者比較：Claude Projects、Dots、Grok Bot 與 Muse",
+          "summary": "作者認為 Claude Projects 是目前最好的個人 Agent 體驗；ChatGPT Dots 可靠但慢，還會卡在障礙上；Grok Bot 用量表現差；Meta Muse 除了可愛的吉祥物沒什麼亮點。"
+        },
+        "en": {
+          "title": "User comparison: Claude Projects vs Dots, Grok Bot and Muse",
+          "summary": "The author rates Claude Projects as the best personal agent experience. ChatGPT Dots is solid but slow and runs into blockers, Grok Bot usage is bad, and Meta Muse has a cute mascot and little else."
+        },
+        "ja": {
+          "title": "ユーザー比較：Claude Projects、Dots、Grok Bot、Muse",
+          "summary": "投稿者は Claude Projects を最良のパーソナルエージェント体験と評価。ChatGPT Dots は堅実だが遅く、障害で止まりがち。Grok Bot は使用量の面が悪く、Meta Muse はかわいいマスコット以外に取り柄がないという。"
+        },
+        "ko": {
+          "title": "사용자 비교: Claude Projects, Dots, Grok Bot, Muse",
+          "summary": "작성자는 Claude Projects가 최고의 개인 에이전트 경험이라고 평가한다. ChatGPT Dots는 견실하지만 느리고 막히는 일이 있으며, Grok Bot은 사용량 면에서 나쁘고, Meta Muse는 귀여운 마스코트 말고는 내세울 게 없다고 말한다."
+        },
+        "ms": {
+          "title": "Perbandingan pengguna: Claude Projects, Dots, Grok Bot dan Muse",
+          "summary": "Penulis menilai Claude Projects sebagai pengalaman ejen peribadi terbaik. ChatGPT Dots mantap tetapi perlahan dan sering tersekat, penggunaan Grok Bot teruk, dan Meta Muse hanya ada maskot comel."
+        },
+        "vi": {
+          "title": "So sánh của người dùng: Claude Projects, Dots, Grok Bot và Muse",
+          "summary": "Tác giả cho rằng Claude Projects là trải nghiệm agent cá nhân tốt nhất. ChatGPT Dots ổn nhưng chậm và hay vướng trở ngại, Grok Bot dùng hạn mức tệ, còn Meta Muse chỉ có linh vật dễ thương."
+        },
+        "fr": {
+          "title": "Comparatif d'utilisateur : Claude Projects, Dots, Grok Bot et Muse",
+          "summary": "L'auteur juge Claude Projects comme la meilleure expérience d'agent personnel. ChatGPT Dots est solide mais lent et se heurte à des blocages, l'usage de Grok Bot est mauvais, et Meta Muse n'a guère qu'une mascotte mignonne."
+        },
+        "es": {
+          "title": "Comparativa de usuario: Claude Projects, Dots, Grok Bot y Muse",
+          "summary": "El autor considera Claude Projects la mejor experiencia de agente personal. ChatGPT Dots es sólido pero lento y se topa con bloqueos, el uso de Grok Bot es malo y Meta Muse solo tiene una mascota simpática."
+        },
+        "de": {
+          "title": "Nutzervergleich: Claude Projects, Dots, Grok Bot und Muse",
+          "summary": "Der Autor hält Claude Projects für das beste Personal-Agent-Erlebnis. ChatGPT Dots sei solide, aber langsam und stoße auf Blockaden, die Nutzung von Grok Bot sei schlecht, und Meta Muse habe außer einem niedlichen Maskottchen wenig zu bieten."
+        }
+      },
+      "source_url": "https://x.com/nvandewetering/status/2126062454891237817",
+      "source_name": "X",
+      "author": "nvandewetering",
+      "product": "multi",
+      "type": "comparison",
+      "date": "2026-11-26",
+      "likes": 19,
+      "src": "x",
+      "text": "Even though Claude Projects doesn't have a cute mascot tied to it, it's the best Personal Agent experience you can get.\n\n- ChatGPT Dots is solid but slow and runs into blockers.\n- Grok Bot usage is bad.\n- Meta Muse has a cute mascot and that's about it.\n\nDon't worry about Duet,",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-nvandewetering-2126062454891237817",
+      "scen": []
+    },
+    {
+      "title": "哪些 AI Agent 会主动找你？6 款对比",
+      "summary": "作者的 ChatGPT Dot 在没被要求的情况下提醒他完成一份新闻通讯。他对比了包括 Claude Duet、Grok Bot 和 Meta Muse 在内的 6 款 Agent，看它们会主动发现什么、哪些需要你告诉它们去关注。",
+      "en": {
+        "title": "Which AI agents message you first? Six compared",
+        "summary": "The author's ChatGPT Dot nudged him to finish a newsletter without being asked. He compared six agents, including Claude Duet, Grok Bot and Meta Muse, on what they spot on their own and what you have to tell them to watch."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "哪些 AI Agent 会主动找你？6 款对比",
+          "summary": "作者的 ChatGPT Dot 在没被要求的情况下提醒他完成一份新闻通讯。他对比了包括 Claude Duet、Grok Bot 和 Meta Muse 在内的 6 款 Agent，看它们会主动发现什么、哪些需要你告诉它们去关注。"
+        },
+        "zh-TW": {
+          "title": "哪些 AI Agent 會主動找你？6 款比較",
+          "summary": "作者的 ChatGPT Dot 在沒被要求的情況下提醒他完成一份電子報。他比較了包括 Claude Duet、Grok Bot 和 Meta Muse 在內的 6 款 Agent，看它們會主動發現什麼、哪些需要你告訴它們去留意。"
+        },
+        "en": {
+          "title": "Which AI agents message you first? Six compared",
+          "summary": "The author's ChatGPT Dot nudged him to finish a newsletter without being asked. He compared six agents, including Claude Duet, Grok Bot and Meta Muse, on what they spot on their own and what you have to tell them to watch."
+        },
+        "ja": {
+          "title": "どの AI Agent が自分から連絡してくる？6 製品を比較",
+          "summary": "投稿者の ChatGPT Dot は、頼んでもいないのにニュースレターを仕上げるよう促してきた。Claude Duet、Grok Bot、Meta Muse を含む 6 つを比較し、自力で気づくことと、監視を指示する必要があることを調べた。"
+        },
+        "ko": {
+          "title": "먼저 연락하는 AI 에이전트는? 6종 비교",
+          "summary": "작성자의 ChatGPT Dot은 요청하지 않았는데도 뉴스레터를 마무리하라고 알려줬다. 그는 Claude Duet, Grok Bot, Meta Muse를 포함한 6개를 비교해 스스로 알아채는 것과 지켜보라고 알려줘야 하는 것을 살폈다."
+        },
+        "ms": {
+          "title": "Ejen AI mana yang menghubungi anda dahulu? Enam dibandingkan",
+          "summary": "ChatGPT Dot penulis mengingatkannya untuk menyiapkan surat berita tanpa diminta. Dia membandingkan enam ejen, termasuk Claude Duet, Grok Bot dan Meta Muse, tentang apa yang mereka kesan sendiri dan apa yang perlu disuruh pantau."
+        },
+        "vi": {
+          "title": "Agent AI nào chủ động nhắn bạn trước? So sánh sáu cái",
+          "summary": "ChatGPT Dot của tác giả đã nhắc anh hoàn thành bản tin dù anh không yêu cầu. Anh so sánh sáu agent, gồm Claude Duet, Grok Bot và Meta Muse, xem chúng tự phát hiện điều gì và điều gì phải dặn chúng theo dõi."
+        },
+        "fr": {
+          "title": "Quels agents IA vous écrivent en premier ? Six comparés",
+          "summary": "Le ChatGPT Dot de l'auteur l'a relancé pour finir une newsletter sans qu'il le demande. Il a comparé six agents, dont Claude Duet, Grok Bot et Meta Muse, sur ce qu'ils repèrent seuls et ce qu'il faut leur demander de surveiller."
+        },
+        "es": {
+          "title": "¿Qué agentes de IA te escriben primero? Seis comparados",
+          "summary": "El ChatGPT Dot del autor le recordó terminar un boletín sin que se lo pidiera. Comparó seis agentes, entre ellos Claude Duet, Grok Bot y Meta Muse, en lo que detectan por sí solos y lo que hay que pedirles que vigilen."
+        },
+        "de": {
+          "title": "Welche KI-Agenten melden sich zuerst? Sechs im Vergleich",
+          "summary": "Der ChatGPT Dot des Autors erinnerte ihn ungefragt daran, einen Newsletter fertigzustellen. Er verglich sechs Agenten, darunter Claude Duet, Grok Bot und Meta Muse, danach, was sie von selbst bemerken und was man ihnen zum Beobachten auftragen muss."
+        }
+      },
+      "source_url": "https://x.com/AgentNaeem/status/2126009503690706965",
+      "source_name": "X",
+      "author": "AgentNaeem",
+      "product": "multi",
+      "type": "comparison",
+      "date": "2026-11-26",
+      "likes": 6,
+      "src": "x",
+      "text": "Which AI agents will message you first? My ChatGPT Dot nudged me to finish a newsletter. I hadn't even asked.\n\nI compared 6, including Claude Duet, Grok Bot and Meta Muse, to see what they spot on their own and what you have to tell them to watch. https://t.co/ot50q1NUHC",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-agentnaeem-2126009503690706965",
+      "scen": [
+        "social",
+        "research"
+      ]
+    },
+    {
+      "title": "试过三款后：用户认为 Grok Bot 最好",
+      "summary": "作者试过 Grok Bot、Dots 和 Hermes 三款，认为 Grok Bot 是目前最好的常驻 Agent，Dots 和 Hermes 都很差；他还指出 Grok Bot 可以通过第三方模型获得用量。",
+      "en": {
+        "title": "After trying three, a user ranks Grok Bot first",
+        "summary": "The author has tried Grok Bot, Dots and Hermes and calls Grok Bot clearly the best always-on agent right now, with Dots and Hermes both poor. He also notes Grok Bot gives usage with third-party models."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "试过三款后：用户认为 Grok Bot 最好",
+          "summary": "作者试过 Grok Bot、Dots 和 Hermes 三款，认为 Grok Bot 是目前最好的常驻 Agent，Dots 和 Hermes 都很差；他还指出 Grok Bot 可以通过第三方模型获得用量。"
+        },
+        "zh-TW": {
+          "title": "試過三款後：使用者認為 Grok Bot 最好",
+          "summary": "作者試過 Grok Bot、Dots 和 Hermes 三款，認為 Grok Bot 是目前最好的常駐 Agent，Dots 和 Hermes 都很差；他也指出 Grok Bot 可以透過第三方模型取得用量。"
+        },
+        "en": {
+          "title": "After trying three, a user ranks Grok Bot first",
+          "summary": "The author has tried Grok Bot, Dots and Hermes and calls Grok Bot clearly the best always-on agent right now, with Dots and Hermes both poor. He also notes Grok Bot gives usage with third-party models."
+        },
+        "ja": {
+          "title": "3 つ試した結果、Grok Bot が一番というユーザー",
+          "summary": "投稿者は Grok Bot、Dots、Hermes を試し、現時点で Grok Bot が明らかに最良の常駐 Agent で、Dots と Hermes はどちらもひどいと評価。Grok Bot ではサードパーティのモデルで使用量が得られる点にも触れている。"
+        },
+        "ko": {
+          "title": "세 가지를 써 본 사용자가 Grok Bot을 1위로 꼽다",
+          "summary": "작성자는 Grok Bot, Dots, Hermes를 모두 써 봤고 현재 Grok Bot이 확실히 최고의 상시 에이전트이며 Dots와 Hermes는 형편없다고 말한다. Grok Bot은 서드파티 모델로 사용량을 제공한다는 점도 언급한다."
+        },
+        "ms": {
+          "title": "Selepas mencuba tiga, pengguna meletakkan Grok Bot di tempat pertama",
+          "summary": "Penulis telah mencuba Grok Bot, Dots dan Hermes dan berkata Grok Bot jelas ejen sentiasa aktif terbaik sekarang, manakala Dots dan Hermes lemah. Dia juga menyebut Grok Bot memberi penggunaan dengan model pihak ketiga."
+        },
+        "vi": {
+          "title": "Thử cả ba, người dùng xếp Grok Bot đứng đầu",
+          "summary": "Tác giả đã dùng Grok Bot, Dots và Hermes và cho rằng Grok Bot rõ ràng là agent chạy liên tục tốt nhất hiện nay, còn Dots và Hermes đều kém. Anh cũng nói Grok Bot cho hạn mức dùng với các mô hình bên thứ ba."
+        },
+        "fr": {
+          "title": "Après en avoir testé trois, un utilisateur place Grok Bot en tête",
+          "summary": "L'auteur a essayé Grok Bot, Dots et Hermes et estime que Grok Bot est clairement le meilleur agent permanent actuel, Dots et Hermes étant mauvais. Il note aussi que Grok Bot donne de l'usage avec des modèles tiers."
+        },
+        "es": {
+          "title": "Tras probar tres, un usuario pone a Grok Bot primero",
+          "summary": "El autor probó Grok Bot, Dots y Hermes y dice que Grok Bot es claramente el mejor agente siempre activo ahora mismo, mientras Dots y Hermes son malos. También señala que Grok Bot da uso con modelos de terceros."
+        },
+        "de": {
+          "title": "Nach drei Tests sieht ein Nutzer Grok Bot vorn",
+          "summary": "Der Autor hat Grok Bot, Dots und Hermes ausprobiert und hält Grok Bot derzeit klar für den besten Always-on-Agenten, Dots und Hermes seien schlecht. Er merkt auch an, dass Grok Bot Nutzung mit Drittanbieter-Modellen bietet."
+        }
+      },
+      "source_url": "https://x.com/fl1ntsh/status/2125787135391252881",
+      "source_name": "X",
+      "author": "fl1ntsh",
+      "product": "multi",
+      "type": "comparison",
+      "date": "2026-11-26",
+      "likes": 2,
+      "src": "x",
+      "text": "@birbytwt you get usage with said third party models. and honestly you are discounting grok bot too much.\n\nit is clearly the best always on agent rn. dots fucking suck. and Hermes is shit too. I've tried all three.",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-fl1ntsh-2125787135391252881",
+      "scen": []
+    },
+    {
+      "title": "自建 Tailscale + bot，对比 Dots 和 Grok Bot",
+      "summary": "作者比较了用 Tailscale 加自己的 bot 应用（需要自己配置）和 Dots 或 Grok Bot：后两者安装后就能直接运行，不用花力气设置，更易用。他也提到 Tailscale 本身设置简单，登录并把电脑加入同一 tailnet 即可，或让 Agent 代为设置。",
+      "en": {
+        "title": "Self-hosted Tailscale plus a bot vs Dots and Grok Bot",
+        "summary": "The author compares Tailscale plus your own bot app, which you must set up, with Dots or Grok Bot, which just run after install with no setup effort and are much easier. He adds that Tailscale itself is easy: log in and put your PC on the same tailnet, or tell your agent to set it up."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "自建 Tailscale + bot，对比 Dots 和 Grok Bot",
+          "summary": "作者比较了用 Tailscale 加自己的 bot 应用（需要自己配置）和 Dots 或 Grok Bot：后两者安装后就能直接运行，不用花力气设置，更易用。他也提到 Tailscale 本身设置简单，登录并把电脑加入同一 tailnet 即可，或让 Agent 代为设置。"
+        },
+        "zh-TW": {
+          "title": "自架 Tailscale + bot，比較 Dots 和 Grok Bot",
+          "summary": "作者比較了用 Tailscale 加自己的 bot App（需要自己設定）和 Dots 或 Grok Bot：後兩者安裝後就能直接運作，不用費力設定，更好用。他也提到 Tailscale 本身設定簡單，登入並把電腦加入同一個 tailnet 即可，或讓 Agent 代為設定。"
+        },
+        "en": {
+          "title": "Self-hosted Tailscale plus a bot vs Dots and Grok Bot",
+          "summary": "The author compares Tailscale plus your own bot app, which you must set up, with Dots or Grok Bot, which just run after install with no setup effort and are much easier. He adds that Tailscale itself is easy: log in and put your PC on the same tailnet, or tell your agent to set it up."
+        },
+        "ja": {
+          "title": "自前の Tailscale＋bot と Dots・Grok Bot の比較",
+          "summary": "投稿者は、設定が必要な Tailscale＋自前の bot アプリと、インストールするだけで動き手間のかからない Dots や Grok Bot を比較し、後者の方がずっと使いやすいという。Tailscale 自体はログインして PC を同じ tailnet に入れるだけ、または Agent に設定させればよいとも述べる。"
+        },
+        "ko": {
+          "title": "자체 Tailscale+봇 vs Dots·Grok Bot 비교",
+          "summary": "작성자는 직접 설정해야 하는 Tailscale+자체 봇 앱과, 설치만 하면 바로 돌아가 설정 수고가 없는 Dots나 Grok Bot을 비교하며 후자가 훨씬 쉽다고 말한다. Tailscale 자체도 로그인해 PC를 같은 tailnet에 넣으면 되고, 에이전트에게 설정을 맡겨도 된다고 덧붙인다."
+        },
+        "ms": {
+          "title": "Tailscale hos sendiri dengan bot berbanding Dots dan Grok Bot",
+          "summary": "Penulis membandingkan Tailscale bersama aplikasi bot sendiri, yang perlu disediakan, dengan Dots atau Grok Bot yang terus berjalan selepas dipasang tanpa usaha persediaan dan jauh lebih mudah. Dia menambah Tailscale sendiri mudah: log masuk dan letak PC dalam tailnet yang sama, atau suruh ejen menyediakannya."
+        },
+        "vi": {
+          "title": "Tự dựng Tailscale kèm bot so với Dots và Grok Bot",
+          "summary": "Tác giả so sánh việc dùng Tailscale cùng ứng dụng bot tự dựng (phải tự cài đặt) với Dots hoặc Grok Bot, vốn cài xong là chạy, không tốn công thiết lập và dễ dùng hơn nhiều. Anh nói thêm Tailscale cũng dễ: đăng nhập và đưa máy vào cùng tailnet, hoặc bảo agent cài giúp."
+        },
+        "fr": {
+          "title": "Tailscale auto-hébergé avec un bot face à Dots et Grok Bot",
+          "summary": "L'auteur compare Tailscale plus votre propre app de bot, à configurer soi-même, avec Dots ou Grok Bot, qui tournent dès l'installation sans effort de réglage et sont bien plus simples. Il ajoute que Tailscale est facile : se connecter et mettre son PC sur le même tailnet, ou demander à son agent de le faire."
+        },
+        "es": {
+          "title": "Tailscale autoalojado con un bot frente a Dots y Grok Bot",
+          "summary": "El autor compara Tailscale más tu propia app de bot, que hay que configurar, con Dots o Grok Bot, que funcionan nada más instalarlos sin esfuerzo y son mucho más fáciles. Añade que Tailscale en sí es sencillo: iniciar sesión y poner el PC en la misma tailnet, o pedirle al agente que lo configure."
+        },
+        "de": {
+          "title": "Selbst gehostetes Tailscale mit Bot vs. Dots und Grok Bot",
+          "summary": "Der Autor vergleicht Tailscale mit einer eigenen Bot-App, die man einrichten muss, mit Dots oder Grok Bot, die nach der Installation einfach laufen und viel leichter sind. Tailscale selbst sei einfach: anmelden und den PC ins selbe Tailnet bringen oder den Agenten das einrichten lassen."
+        }
+      },
+      "source_url": "https://x.com/accelerate27/status/2125931703331901485",
+      "source_name": "X",
+      "author": "accelerate27",
+      "product": "multi",
+      "type": "comparison",
+      "date": "2026-11-26",
+      "likes": 2,
+      "src": "x",
+      "text": "Hmm. What do you mean I need to babysit tailscale? Tailscale is just vpn where once you set up it just feels you are connected to your pc at home locally. Well compared to tailscale + your own bot app where you need to setup and everything. Dots or Grok Bot are much easier to use. Install and they just run without you need to put effort to set them up. Much easier indeed.\nTailscale is easy to setup, just need to login and get your pc on the same tailnet. Or just tell your agent to setup the tailscale for you.",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-accelerate27-2125931703331901485",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
       "title": "Dots 与 Grok Bot 的区别：一个全能助手 vs 一支机器人团队",
       "summary": "作者解释：Dot 是 ChatGPT 内的 OpenAI 常驻智能体，是一个通用助手；Grok Bot 更像团队，不同机器人负责不同工作并互相交接。遇到访问报错时，能用插件连接应用就用插件，因为很多网站会拦截自动化浏览器。",
       "en": {
@@ -124141,6 +125571,147 @@
       "slug": "ray-fernando-s-clippy-cto-47",
       "scen": [
         "prs"
+      ]
+    },
+    {
+      "title": "用户反馈：Grok Bot 的 token 消耗比 Muse 快得多",
+      "summary": "作者喜欢 Grok Bot，但觉得它的 token 消耗速度比 Meta Muse 快得多。",
+      "en": {
+        "title": "User report: Grok Bot burns tokens much faster than Muse",
+        "summary": "The author likes Grok Bot but says its tokens burn much faster than with Meta Muse."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用户反馈：Grok Bot 的 token 消耗比 Muse 快得多",
+          "summary": "作者喜欢 Grok Bot，但觉得它的 token 消耗速度比 Meta Muse 快得多。"
+        },
+        "zh-TW": {
+          "title": "使用者回饋：Grok Bot 的 token 消耗比 Muse 快得多",
+          "summary": "作者喜歡 Grok Bot，但覺得它的 token 消耗速度比 Meta Muse 快得多。"
+        },
+        "en": {
+          "title": "User report: Grok Bot burns tokens much faster than Muse",
+          "summary": "The author likes Grok Bot but says its tokens burn much faster than with Meta Muse."
+        },
+        "ja": {
+          "title": "ユーザー報告：Grok Bot は Muse よりトークン消費がずっと速い",
+          "summary": "投稿者は Grok Bot を気に入っているが、Meta Muse に比べてトークンの減りがずっと速いという。"
+        },
+        "ko": {
+          "title": "사용자 보고: Grok Bot은 Muse보다 토큰이 훨씬 빨리 소모된다",
+          "summary": "작성자는 Grok Bot을 좋아하지만 Meta Muse에 비해 토큰이 훨씬 빨리 소모된다고 말한다."
+        },
+        "ms": {
+          "title": "Laporan pengguna: Grok Bot menghabiskan token lebih cepat daripada Muse",
+          "summary": "Penulis menyukai Grok Bot tetapi berkata tokennya habis jauh lebih cepat berbanding Meta Muse."
+        },
+        "vi": {
+          "title": "Phản hồi người dùng: Grok Bot tiêu token nhanh hơn Muse nhiều",
+          "summary": "Tác giả thích Grok Bot nhưng cho rằng nó tiêu token nhanh hơn nhiều so với Meta Muse."
+        },
+        "fr": {
+          "title": "Retour d'utilisateur : Grok Bot consomme ses tokens bien plus vite que Muse",
+          "summary": "L'auteur apprécie Grok Bot mais constate que les tokens partent bien plus vite qu'avec Meta Muse."
+        },
+        "es": {
+          "title": "Reporte de usuario: Grok Bot gasta tokens mucho más rápido que Muse",
+          "summary": "Al autor le gusta Grok Bot, pero dice que los tokens se consumen mucho más rápido que con Meta Muse."
+        },
+        "de": {
+          "title": "Nutzerbericht: Grok Bot verbraucht Tokens viel schneller als Muse",
+          "summary": "Der Autor mag Grok Bot, sagt aber, dass die Tokens viel schneller verbraucht werden als bei Meta Muse."
+        }
+      },
+      "source_url": "https://x.com/chris4shore/status/2126094384919937259",
+      "source_name": "X",
+      "author": "chris4shore",
+      "product": "multi",
+      "type": "quota-report",
+      "date": "2026-11-26",
+      "likes": 1,
+      "src": "x",
+      "text": "@MilMileBattery @bot @elonmusk Love me some @grok bot but damn the tokens burn so fast compared to @Meta Muse.",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-chris4shore-2126094384919937259",
+      "scen": [
+        "report",
+        "prs"
+      ]
+    },
+    {
+      "title": "做一个 bot 提醒哪个应用更省 token",
+      "summary": "作者认为 Grok Bot、Grok Chat/workspaces 和 Grok Build 之间缺少统一的交接，各自独立运行；他做了一个 bot，当某个工作流换到另一个应用会更省 token 时就提醒他。",
+      "en": {
+        "title": "A bot that flags which app would use fewer tokens",
+        "summary": "The author says Grok Bot, Grok Chat/workspaces and Grok Build need a more unified handoff because they operate independently. He built a bot that alerts him when a workstream would do better on token usage in a different app."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "做一个 bot 提醒哪个应用更省 token",
+          "summary": "作者认为 Grok Bot、Grok Chat/workspaces 和 Grok Build 之间缺少统一的交接，各自独立运行；他做了一个 bot，当某个工作流换到另一个应用会更省 token 时就提醒他。"
+        },
+        "zh-TW": {
+          "title": "做一個 bot 提醒哪個 App 更省 token",
+          "summary": "作者認為 Grok Bot、Grok Chat/workspaces 和 Grok Build 之間缺少統一的交接，各自獨立運作；他做了一個 bot，當某個工作流換到另一個 App 會更省 token 時就提醒他。"
+        },
+        "en": {
+          "title": "A bot that flags which app would use fewer tokens",
+          "summary": "The author says Grok Bot, Grok Chat/workspaces and Grok Build need a more unified handoff because they operate independently. He built a bot that alerts him when a workstream would do better on token usage in a different app."
+        },
+        "ja": {
+          "title": "どのアプリの方がトークンを節約できるか知らせる bot",
+          "summary": "投稿者は、Grok Bot、Grok Chat/workspaces、Grok Build がそれぞれ独立して動いており、より統一された引き継ぎが必要だという。ある作業を別のアプリで行った方がトークン使用量の面で有利な場合に知らせる bot を作った。"
+        },
+        "ko": {
+          "title": "어느 앱이 토큰을 덜 쓰는지 알려주는 봇",
+          "summary": "작성자는 Grok Bot, Grok Chat/workspaces, Grok Build가 각자 독립적으로 돌아가 더 통합된 인계가 필요하다고 말한다. 어떤 작업 흐름이 다른 앱에서 토큰 사용량 면에서 더 나을 때 알려주는 봇을 만들었다."
+        },
+        "ms": {
+          "title": "Bot yang memberitahu aplikasi mana lebih jimat token",
+          "summary": "Penulis berkata Grok Bot, Grok Chat/workspaces dan Grok Build perlukan penyerahan yang lebih bersatu kerana masing-masing berjalan sendiri. Dia membina bot yang memberi amaran apabila sesuatu aliran kerja lebih jimat token di aplikasi lain."
+        },
+        "vi": {
+          "title": "Bot báo ứng dụng nào tốn ít token hơn",
+          "summary": "Tác giả cho rằng Grok Bot, Grok Chat/workspaces và Grok Build cần cơ chế bàn giao thống nhất hơn vì đang chạy độc lập. Anh dựng một bot cảnh báo khi một luồng công việc sẽ tiết kiệm token hơn nếu chạy ở ứng dụng khác."
+        },
+        "fr": {
+          "title": "Un bot qui signale l'app la plus économe en tokens",
+          "summary": "L'auteur estime que Grok Bot, Grok Chat/workspaces et Grok Build manquent d'un passage de relais unifié, chacun fonctionnant séparément. Il a créé un bot qui l'alerte quand un flux de travail consommerait moins de tokens dans une autre app."
+        },
+        "es": {
+          "title": "Un bot que avisa qué app gastaría menos tokens",
+          "summary": "El autor dice que Grok Bot, Grok Chat/workspaces y Grok Build necesitan un traspaso más unificado porque funcionan por separado. Creó un bot que le avisa cuando un flujo de trabajo saldría mejor en uso de tokens en otra app."
+        },
+        "de": {
+          "title": "Ein Bot, der meldet, welche App weniger Tokens braucht",
+          "summary": "Der Autor findet, Grok Bot, Grok Chat/workspaces und Grok Build bräuchten eine einheitlichere Übergabe, da sie unabhängig voneinander laufen. Er baute einen Bot, der ihn warnt, wenn ein Arbeitsablauf in einer anderen App beim Token-Verbrauch besser läge."
+        }
+      },
+      "source_url": "https://x.com/JacobSk92/status/2126088681064734984",
+      "source_name": "X",
+      "author": "JacobSk92",
+      "product": "grok-bot",
+      "type": "quota-report",
+      "date": "2026-11-26",
+      "likes": 1,
+      "src": "x",
+      "text": "@Baconbrix Needs a more unified handoff between Grok Bot, Grok Chat/workspaces, and Grok Build. All effectively operating independently.\n\nI built a bot that alerts me if a workstream would be better on token usage in a different app.",
+      "media": [],
+      "added_at": "2026-11-26T23:39:10.240Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-jacobsk92-2126088681064734984",
+      "scen": [
+        "ship"
       ]
     },
     {
