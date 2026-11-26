@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2838 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2848 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-25T23:41:38.772Z
+- Last updated: 2026-11-26T13:36:02.765Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3152,6 +3152,51 @@
 - URL: https://usage.incidental.site/cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
+
+### One shared mailbox so AI agents message each other
+- URL: https://usage.incidental.site/cases/x-lennoxsaint-2125938270374600920.html
+- Type: field-case · Product: multi · Author: lennox_saint · Source: https://x.com/lennox_saint/status/2125938270374600920 · Date: 2026-11-26
+- Summary: The author set up a mailbox for AI agents on a MacBook with 433 addresses, one per agent, and added rules to each agent: check mail on start, send a note to another agent saying what is needed and why, do the work and reply when a note arrives, treat a note as a request and never a yes, and never put passwords or keys in a note. Five apps (T3 Code, Grok Bot, OpenBot, Muse and Dot) each sent a note to every app and got replies, 25 out of 25; a note from Muse got a reply about a minute later.
+
+### 7 ways to use email aliases to assign work to Grok Bot
+- URL: https://usage.incidental.site/cases/x-michaelfenech-2125922013831397881.html
+- Type: guide · Product: grok-bot · Author: Michael_Fenech_ · Source: https://x.com/Michael_Fenech_/status/2125922013831397881 · Date: 2026-11-26
+- Summary: The author explains adding a label before the @ in a Grok Bot email address (for example bot+travel@): mail still lands in the same inbox, but the label tells the bot which job it belongs to. Seven uses: +receipts for an expense log, +reading for a weekly newsletter digest, +travel for a trip page, +shipping for a parcel tracker, +school for a weekly family brief, +alerts for grouped service alerts, and +leads for an enquiry log with draft replies. A prompt is included that asks the bot to confirm the alias, propose the setup, and test on one email after approval.
+
+### Presents: a Grok Bot for holiday gift lists and price drops
+- URL: https://usage.incidental.site/cases/x-aifieldreports-2125915106349310064.html
+- Type: field-case · Product: grok-bot · Author: AIFieldReports · Source: https://x.com/AIFieldReports/status/2125915106349310064 · Date: 2026-11-26
+- Summary: Presents is a Grok Bot that keeps one holiday gift list per person, finds items for sale from a photo, and watches for price drops and Black Friday deals. It never buys without your approval.
+
+### Keep Grok Bot routines from burning usage when idle
+- URL: https://usage.incidental.site/cases/x-sboudis-2125911235833266319.html
+- Type: guide · Product: grok-bot · Author: sboudis · Source: https://x.com/sboudis/status/2125911235833266319 · Date: 2026-11-26
+- Summary: The author notes that Grok Bot is hungry: an hourly routine can burn a week of usage in a day. The approach keeps the same routines but uses zero tokens when there is nothing to do: a Mac wakes Grok Bot only when there is work, and Claude or Codex do the heavy lifting. A link to the how-to is in the post.
+
+### Using Grok Bot to triage hundreds of replies on a viral day
+- URL: https://usage.incidental.site/cases/x-tonychanbuilds-2125909621051134102.html
+- Type: field-case · Product: grok-bot · Author: TonyChanBuilds · Source: https://x.com/TonyChanBuilds/status/2125909621051134102 · Date: 2026-11-26
+- Summary: After Elon Musk reposted the author, the post reached 386K views and 72K verified impressions. Facing hundreds of replies, the author had Grok Bot say who to reply to first, then asked each person a real question or thought; the author's bots also helped launch a newsletter the same day. The author says each of the 5 posts that day passed 1,000 views.
+
+### One narrow job per bot: a small team of Grok Bot assistants
+- URL: https://usage.incidental.site/cases/x-yakovetsseva-2125878141998821703.html
+- Type: field-case · Product: grok-bot · Author: yakovets_seva · Source: https://x.com/yakovets_seva/status/2125878141998821703 · Date: 2026-11-26
+- Summary: The author runs a small team of Grok Bot assistants for study, money, calendar, coding and content. Their take so far: one narrow job per bot is much easier to manage than one bot for everything.
+
+### A Thanksgiving morning of errands with Grok Bot
+- URL: https://usage.incidental.site/cases/x-buildthefamily-2125872884526481624.html
+- Type: field-case · Product: grok-bot · Author: BuildTheFamily · Source: https://x.com/BuildTheFamily/status/2125872884526481624 · Date: 2026-11-26
+- Summary: The author says that on Thanksgiving morning they and Grok Bot built a two-language website, booked flights, paid bills, bought Christmas gifts, wrote an article, renewed a passport and smoked a brisket, leaving the rest of the day for family and friends.
+
+### Daily Grok Bot agents, one with its own inbox
+- URL: https://usage.incidental.site/cases/x-bnistordev-2125870239930097903.html
+- Type: field-case · Product: grok-bot · Author: bnistordev · Source: https://x.com/bnistordev/status/2125870239930097903 · Date: 2026-11-26
+- Summary: The author runs a few Grok Bot agents every day, and one has its own inbox at tldr@mail.grokbot.com. They say sharing and teams is what turns that into something a small team can use.
+
+### Black Friday Scout: a Grok Bot that picks the deals worth buying
+- URL: https://usage.incidental.site/cases/x-aifieldreports-2125869714584834300.html
+- Type: field-case · Product: grok-bot · Author: AIFieldReports · Source: https://x.com/AIFieldReports/status/2125869714584834300 · Date: 2026-11-26
+- Summary: Black Friday Scout is a Grok Bot that sorts the handful of deals worth buying from the thousands being advertised, with prices, links and a verdict on whether to buy now or wait.
 
 ### OpenAI Dots case study: an agent drafts sales proposals for a small marketing firm
 - URL: https://usage.incidental.site/cases/x-yuphoranews-2125505570052489285.html
@@ -13082,6 +13127,11 @@
 - URL: https://usage.incidental.site/cases/khe-hy-574.html
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
+
+### How to split work between Claude and Grok Bot
+- URL: https://usage.incidental.site/cases/x-wizzouk-2125902676353532399.html
+- Type: comparison · Product: grok-bot · Author: wizzouk · Source: https://x.com/wizzouk/status/2125902676353532399 · Date: 2026-11-26
+- Summary: The author suggests keeping Claude for deep one-off thinking and writing, and giving Grok Bot the recurring jobs: scheduled tasks, inbox, monitoring, and anything that should run while you are away. Start with one boring weekly task and build from there.
 
 ### Dots vs Grok Bot: one general assistant vs a team of bots
 - URL: https://usage.incidental.site/cases/x-wizzouk-2125556606792499520.html
