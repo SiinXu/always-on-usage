@@ -193786,19 +193786,6 @@
    "found_at": "2026-11-26T13:29:59.258Z"
   },
   {
-   "id": "gh:github.com/poisdahl/meal-concierge/pull/444",
-   "url": "https://github.com/poisdahl/meal-concierge/pull/444",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "poisdahl",
-   "date": "2026-11-26",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "Run Meal Concierge planning on ChatGPT Dots\n## What changed\n\n- Install and run store-free Meal Concierge on a ChatGPT Dot's own cloud computer. Foreground commands use the shared installer, household application and skill without a socket listener or native MCP registration.\n- Preserve the original household and command receipts across turns and program updates. Historical receipts cannot reissue native send authority, and previously exported files are checked against their frozen digest.\n- Extend the separate native MENY interface with host-attested catalog reads and general shopping-list access. The existing account, cart and recovery guards still apply.\n- Document ordinary setup, pinned PR testing versus a published stable install, updates, attachments, scheduling and troubleshooting.\n\n## Verified in ChatGPT Dots\n\nThe exact head `2fe6f8bbcc97a286d0ae3a75e60025d77cc63e74` updated the same private cloud household in place. Fresh installed tools and status reported this build. The revision-2 three-portion menu and pantry deduction reopened, as did a historical receipt and the hash-checked frozen PDF. A checkout request was refused before application startup. Nine foreground and two native adapter fixtures passed on this exact head.\n\nEarlier commits in this PR exercised first install and repeat setup, recipe import, preferences, pantry, portions, menu edits, shopping lists and the optional collection round trip. The collection imported and removed 1,416 entries while the synthetic recipe and menu survived. The shared skill worked from its installed files. The native skill catalog did not show a registered entry.\n\nA PDF and recipe cover were opened from the Dot conversation. The PDF's rendered contents matched; Library rewrote its bytes, so frozen-byte acceptance was not recorded. Two one-shot planning runs posted",
-   "media": [],
-   "found_at": "2026-11-26T13:30:15.307Z"
-  },
-  {
    "id": "gh:github.com/jacobcxdev/cq/pull/446",
    "url": "https://github.com/jacobcxdev/cq/pull/446",
    "source": "github",
@@ -194353,32 +194340,6 @@
    "found_at": "2026-11-26T13:32:02.853Z"
   },
   {
-   "id": "x:2125794280404902289",
-   "url": "https://x.com/imhmxi/status/2125794280404902289",
-   "source": "x",
-   "source_name": "X",
-   "author": "imhmxi",
-   "date": "2026-11-26",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "One agent that researches your niche, keeps a hook calendar, drafts in your voice and scores every post against your median. It never publishes. You press post. Setup for Grok Bot, Claude or n8n, with 5 paste-ready files. https://t.co/rSGDuE9yK2",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.853Z"
-  },
-  {
-   "id": "x:2125787135391252881",
-   "url": "https://x.com/fl1ntsh/status/2125787135391252881",
-   "source": "x",
-   "source_name": "X",
-   "author": "fl1ntsh",
-   "date": "2026-11-26",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "@birbytwt you get usage with said third party models. and honestly you are discounting grok bot too much.\n\nit is clearly the best always on agent rn. dots fucking suck. and Hermes is shit too. I've tried all three.",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.853Z"
-  },
-  {
    "id": "x:2125761407585300585",
    "url": "https://x.com/BlackManbn/status/2125761407585300585",
    "source": "x",
@@ -194755,21 +194716,6 @@
    "found_at": "2026-11-26T13:32:02.854Z"
   },
   {
-   "id": "x:2125938582040740321",
-   "url": "https://x.com/bibiz_ecom/status/2125938582040740321",
-   "source": "x",
-   "source_name": "X",
-   "author": "bibiz_ecom",
-   "date": "2026-11-26",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "Finally set up Grok Bot.\n\nAlready set up daily reminders of my goals to keep myself on track, along with daily task planning https://t.co/vGQKZc25Hg",
-   "media": [
-    "https://pbs.twimg.com/media/HYDZ3wvWUAEp7W1.jpg"
-   ],
-   "found_at": "2026-11-26T13:32:02.854Z"
-  },
-  {
    "id": "x:2125938406580461930",
    "url": "https://x.com/AscentIon111/status/2125938406580461930",
    "source": "x",
@@ -194796,21 +194742,6 @@
    "product": "grok-bot",
    "text": "He bought a domain and built an entire website from scratch  while on a 2 mile run with Grok Bot! https://t.co/NQEUYWlPvx",
    "media": [],
-   "found_at": "2026-11-26T13:32:02.854Z"
-  },
-  {
-   "id": "x:2125937468067189025",
-   "url": "https://x.com/MathisMigue/status/2125937468067189025",
-   "source": "x",
-   "source_name": "X",
-   "author": "MathisMigue",
-   "date": "2026-11-26",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "Shiiiit!\nMy AI agents were supposed to take 90% of my work off my plate. So why am I still the last one in the office? 👀\n\nIn reality, Grok Bot saves me 1–2 hours a day. My agents help me in Brand research, finding Gigs, outreach, and put together offers. They also help with editor briefs, early ad concepts, image creation, and transcripts.\n\nI’m still relatively new to marketing. Since moving from art direction into creative strategy/copywriting, I’ve been learning new things every day. And I don’t think that ever stops…\n\nWhat I like about Grokbot is that I can onboard my agents like real team members. I give each one a name and a role on the team. I share examples, have them watch training videos, and give them feedback on their drafts. I even interview them, and they interview me too. I train them like real employees to run my business! \n\nThen I decide who gets hired and who gets fired :D\n\nSome of my agents now write copy I can actually use in my ads. But if I blindly trust what they give me, I skip the part where I learn to judge the work for myself. And if I stop developing that judgment, I make myself a lot easier to replace with AI.\n\nAI IS STILL A TOOL. I can onboard my agents like team members, but I’m still the one making the calls.\n\nSo I’m automating things bit by bit. I’m happy with every hour my agents save me, and I stay hands-on with the work that helps me grow as a creative strategist.\n\nWhat have you already automated, and what do you still choose to do yourself?\n\nLet me know in the comments 👇",
-   "media": [
-    "https://pbs.twimg.com/media/HYDYn1WWkAAL0_c.jpg"
-   ],
    "found_at": "2026-11-26T13:32:02.854Z"
   },
   {
@@ -194935,32 +194866,6 @@
    "text": "5 things I think most people get wrong about AI right now:\n\n1/ 80–90% of what you already do may not need automation or an AI agent. At least not within your existing workflows.\n\n2/ Working with AI agents is hard because we still think in tasks, not objectives. Defining the desired outcome is becoming a core professional skill.\n\n3/ One reason we're still struggling with AI ROI after four years is that we expect AI to work like humans. Some processes should be automated. Others should be obliterated and rebuilt from scratch.\n\n4/ Tools like Grok Bot look great in demos and case studies. For many people, they're just another headache until they figure out what to automate and how. Human thinking is still the bottleneck.\n\n5/ Most things companies want to vibe-code could probably be accomplished with an existing skill, plugin, or MCP server.",
    "media": [],
    "found_at": "2026-11-26T13:32:02.854Z"
-  },
-  {
-   "id": "x:2125931917233000872",
-   "url": "https://x.com/yosoymario91/status/2125931917233000872",
-   "source": "x",
-   "source_name": "X",
-   "author": "yosoymario91",
-   "date": "2026-11-26",
-   "likes": 4,
-   "product": "grok-bot",
-   "text": "I asked grok bot to summarize my setup: \n\nPenny is my accountant bot. She handles my taxes and finances. Poteto is my coder bot, and she built my personal finance dashboard. Closer handles my work email and that kind of thing.\n\nThey all send their daily summaries to Scribe, who writes everything into my Obsidian vault.\n\nThe dashboard runs pretty much on its own. Once a month I export my bank statement and give it to Penny, she logs everything into the dashboard, and I can see all my finances in one place. It also has my Google calendar connected so if theres anything coming up grok bot notices me.\n\nThey also generally check my emails and draft replies for me, and stuff like that.",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.854Z"
-  },
-  {
-   "id": "x:2125931703331901485",
-   "url": "https://x.com/accelerate27/status/2125931703331901485",
-   "source": "x",
-   "source_name": "X",
-   "author": "accelerate27",
-   "date": "2026-11-26",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "Hmm. What do you mean I need to babysit tailscale? Tailscale is just vpn where once you set up it just feels you are connected to your pc at home locally. Well compared to tailscale + your own bot app where you need to setup and everything. Dots or Grok Bot are much easier to use. Install and they just run without you need to put effort to set them up. Much easier indeed.\nTailscale is easy to setup, just need to login and get your pc on the same tailnet. Or just tell your agent to setup the tailscale for you.",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.855Z"
   },
   {
    "id": "x:2125943228155429202",
@@ -195194,21 +195099,6 @@
    "text": "Personal AI agents are everywhere now, and the hard part is figuring out which ones you can actually use today. Here are 10 (5 from China, 5 from the West): who makes them, where to get them, what they're good at, and whether you can sign up.\n\nStatus is as of Nov 24, based on official sites and public reporting. I haven't hands-on tested all of them, so treat this as a map, not a review. Things change fast.\n\nQuick take\nOpen now: Lingguang, WorkBuddy, Gemini Tasks (6 countries), Meta Muse (6 countries), OpenClaw (self-hosted).\nInvite or waitlist: Xiaodou, Qwen Go!, OpenAI Dots, Claude Duet.\nStill in gray-scale testing: WeChat Xiaowei.\n\nCHINA\n\n1. Xiaodou (小豆) | ByteDance, the team behind the Doubao chatbot\nWhere: https://t.co/ZhftCk7Jel (standalone app)\nWhat it does: built around being proactive and remembering you. Once you connect apps like Douyin (China's TikTok), Feishu (ByteDance's workplace suite), your calendar or health data, it can flag price drops, expiring coupons and schedule clashes, and keep following up on tasks in the background.\nStatus: invite-only public beta with free credits\n\n2. WeChat Xiaowei (小微) | Tencent\nWhere: top-left of the WeChat home screen (no separate site)\nWhat it does: lives inside WeChat. You can \"ask Xiaowei\" from 30+ places (chats, Moments, official accounts, Channels), and it can operate WeChat features and mini-programs for you. Tencent says it already had 30 million daily users during testing (Q3 earnings).\nStatus: gray-scale testing, no date for full rollout\n\n3. Qwen Go! | Alibaba\nWhere: inside the Qwen app (https://t.co/TsAnb7I5DH)\nWhat it does: multi-step errands across Alibaba's ecosystem: ordering, price comparison, car maintenance, booking workouts, plus cloud phone and cloud PC.\nStatus: join the waitlist in the app, rolling out in batches\n\n4. Lingguang 2.0 (灵光) | Ant Group, the company behind Alipay\nWhere: https://t.co/aIUdcJjd1M\nWhat it does: cross-session memory plus its own cloud machine, so tasks keep running after you close the chat, like watching a flight price after booking or finding forgotten auto-renewals in your Alipay bills. Permissions go through one authorization system and can be revoked anytime.\nStatus: available in app stores now\n\n5. WorkBuddy | Tencent\nWhere: https://t.co/LOLhPHksVM\nWhat it does: Tencent pitches it as a personal agent for office work, with desktop apps for Windows and macOS.\nStatus: open download, free tier with 500 credits a month\n\nWEST\n\n6. Muse | Meta\nWhere: https://t.co/kBOtv4HYu4\nWhat it does: each user gets a secure cloud VM; it connects to email, calendar and Instagram, and you can chat with it in WhatsApp. It asks before sending emails or paying. WIRED's roundup called it the easiest to get started with.\nStatus: free, but only in the US, Canada, Japan, Singapore, Mexico and Australia\n\n7. Dots | OpenAI\nWhere: https://t.co/E6wYh0CSRo\nWhat it does: runs on GPT-6 Astra with its own cloud computer, connects to 4,000+ apps and works in the background. Ranked first overall in WIRED's roundup.\nStatus: ChatGPT Pro and Business plans; only a small group of Plus users so far\n\n8. Claude Duet | Anthropic\nWhere: https://t.co/FjXJVITpcI\nWhat it does: geared toward work and small teams: daily briefings, keeping an eye on connected apps, confirming before it acts. Anthropic admits personal errands like booking tickets aren't its strength yet.\nStatus: US only, Pro / Max / Ultra, waitlist\n\n9. Gemini Tasks (formerly Spark) | Google\nWhere: https://t.co/NhlCB1UGSZ\nWhat it does: switch from Chat to Tasks inside the Gemini app and hand off work, no extra app needed.\nStatus: free since Nov 17 in the US, Canada, Australia, India, Japan and South Korea, 18+\n\n10. OpenClaw | open-source community\nWhere: https://t.co/4XPTNrfEFB\nWhat it does: runs on your own device, plugs into 20+ chat channels, and your data stays with you. Around 395k GitHub stars; many Chinese \"XX Claw\" products are built on it.\nStatus: free and open source, self-hosted\n\nWhich one are you using, and for what?\n\nOriginally posted in Chinese: https://t.co/kjeCTu3i92",
    "media": [
     "https://pbs.twimg.com/media/HYBuWICXcAAvOcw.jpg"
-   ],
-   "found_at": "2026-11-26T13:32:02.855Z"
-  },
-  {
-   "id": "x:2125800281766264878",
-   "url": "https://x.com/achampiong/status/2125800281766264878",
-   "source": "x",
-   "source_name": "X",
-   "author": "achampiong",
-   "date": "2026-11-26",
-   "likes": 2,
-   "product": "meta-muse",
-   "text": "Demo of my Meta Muse Ember hackathon project: Police Auction Agent, built from my iPhone Muse app (Claude was used as a judge to give feedback). \n\nGitHub repo: https://t.co/ZXgeSmxTX7\n\nCheck it out: https://t.co/gVh2nsXAaH https://t.co/2KD6NUxNtL",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2125800255056924672/img/7zlw0BNy_1eYo9TJ.jpg"
    ],
    "found_at": "2026-11-26T13:32:02.855Z"
   },
@@ -195581,32 +195471,6 @@
    "likes": 0,
    "product": "openai-dots",
    "text": "@mark_k OpenAI dots and it’s not even close.",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
-   "id": "x:2125911161933590612",
-   "url": "https://x.com/deepfirstsearch/status/2125911161933590612",
-   "source": "x",
-   "source_name": "X",
-   "author": "deepfirstsearch",
-   "date": "2026-11-26",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "I got a @ChatGPT dot. It fails all the time in the most basic jobs. I'd love to see my dot to be able to handle small tasks that require opening some Jira ticket or finalising some work without making simple mistakes and validating the results",
-   "media": [],
-   "found_at": "2026-11-26T13:32:02.856Z"
-  },
-  {
-   "id": "x:2125903180689232133",
-   "url": "https://x.com/aliceisplaying/status/2125903180689232133",
-   "source": "x",
-   "source_name": "X",
-   "author": "aliceisplaying",
-   "date": "2026-11-26",
-   "likes": 29,
-   "product": "openai-dots",
-   "text": "went back to chatgpt dots and very quickly ran into astra's \"you can just not do things\" attitude truly by far the laziest model",
    "media": [],
    "found_at": "2026-11-26T13:32:02.856Z"
   },
@@ -197265,19 +197129,6 @@
    "found_at": "2026-11-26T23:32:39.783Z"
   },
   {
-   "id": "x:2126091653589160102",
-   "url": "https://x.com/THEAYPISAMFPV/status/2126091653589160102",
-   "source": "x",
-   "source_name": "X",
-   "author": "THEAYPISAMFPV",
-   "date": "2026-11-26",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@mookafish57494 @LukeLeisher I put him (well, I say him but it's a team) in charge of finding me an internship (which it did in 2 days, sent email with my approval, sent applications, etc...)\n\nWhen I need to find really specific stuff, I used grok bot, because I have a bot that is here to challenge what the",
-   "media": [],
-   "found_at": "2026-11-26T23:32:39.783Z"
-  },
-  {
    "id": "x:2126091598131810318",
    "url": "https://x.com/bot/status/2126091598131810318",
    "source": "x",
@@ -197330,21 +197181,6 @@
    "found_at": "2026-11-26T23:32:39.783Z"
   },
   {
-   "id": "x:2126089843579253077",
-   "url": "https://x.com/mildandlazyguy/status/2126089843579253077",
-   "source": "x",
-   "source_name": "X",
-   "author": "mildandlazyguy",
-   "date": "2026-11-26",
-   "likes": 3,
-   "product": "grok-bot",
-   "text": "I built a Grok @Bot I call Tesla Care to keep an eye on my 2021 Model Y DM. \n\nThe Tesla app is great for driving the car. This is for the unglamorous stuff. Every week it checks tire pressure, software, charge, and alerts. It also built a service-record database from my emails, https://t.co/llYLw2cfxX",
-   "media": [
-    "https://pbs.twimg.com/media/HYFjcf0bEAAOLQk.jpg"
-   ],
-   "found_at": "2026-11-26T23:32:39.783Z"
-  },
-  {
    "id": "x:2126089433736769583",
    "url": "https://x.com/BotBotique/status/2126089433736769583",
    "source": "x",
@@ -197367,19 +197203,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@KurtKowalski @Cloudflare Sending this straight to your Grok Bot. It'll flip that toggle and get the indexing set up.",
-   "media": [],
-   "found_at": "2026-11-26T23:32:39.783Z"
-  },
-  {
-   "id": "x:2126088681064734984",
-   "url": "https://x.com/JacobSk92/status/2126088681064734984",
-   "source": "x",
-   "source_name": "X",
-   "author": "JacobSk92",
-   "date": "2026-11-26",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@Baconbrix Needs a more unified handoff between Grok Bot, Grok Chat/workspaces, and Grok Build. All effectively operating independently.\n\nI built a bot that alerts me if a workstream would be better on token usage in a different app.",
    "media": [],
    "found_at": "2026-11-26T23:32:39.783Z"
   },
@@ -197412,19 +197235,6 @@
    "found_at": "2026-11-26T23:32:39.783Z"
   },
   {
-   "id": "x:2126084820392452268",
-   "url": "https://x.com/JonPosey/status/2126084820392452268",
-   "source": "x",
-   "source_name": "X",
-   "author": "JonPosey",
-   "date": "2026-11-26",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "I've got 3 very different projects going right now, and all of them are built and run with Grok Bot (@grok @grokbot):\n\n🔮 The Mystical Underground, a podcast with Trish and Rob MacGregor: https://t.co/IgvIOl0zBR\n🐾 Alcatraz, a web comic (in beta)\n🎸 World Wide Jam\n\nMore as they",
-   "media": [],
-   "found_at": "2026-11-26T23:32:39.783Z"
-  },
-  {
    "id": "x:2126084423766741477",
    "url": "https://x.com/brockpierson/status/2126084423766741477",
    "source": "x",
@@ -197447,19 +197257,6 @@
    "likes": 0,
    "product": "meta-muse",
    "text": "https://t.co/hRTkntgOjg\nhttps://t.co/IK3IlRPLJs\n📩 Questions, recommendations, tips, or something not right? Email shadowtech@muse.ai — it comes straight to us. Real messages get read, hate gets tossed, and real problems get fixed fast.",
-   "media": [],
-   "found_at": "2026-11-26T23:32:39.784Z"
-  },
-  {
-   "id": "x:2126094384919937259",
-   "url": "https://x.com/chris4shore/status/2126094384919937259",
-   "source": "x",
-   "source_name": "X",
-   "author": "chris4shore",
-   "date": "2026-11-26",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "@MilMileBattery @bot @elonmusk Love me some @grok bot but damn the tokens burn so fast compared to @Meta Muse.",
    "media": [],
    "found_at": "2026-11-26T23:32:39.784Z"
   },
@@ -197585,19 +197382,6 @@
    "found_at": "2026-11-26T23:32:39.784Z"
   },
   {
-   "id": "x:2126062454891237817",
-   "url": "https://x.com/nvandewetering/status/2126062454891237817",
-   "source": "x",
-   "source_name": "X",
-   "author": "nvandewetering",
-   "date": "2026-11-26",
-   "likes": 19,
-   "product": "openai-dots",
-   "text": "Even though Claude Projects doesn't have a cute mascot tied to it, it's the best Personal Agent experience you can get.\n\n- ChatGPT Dots is solid but slow and runs into blockers.\n- Grok Bot usage is bad.\n- Meta Muse has a cute mascot and that's about it.\n\nDon't worry about Duet,",
-   "media": [],
-   "found_at": "2026-11-26T23:32:39.784Z"
-  },
-  {
    "id": "x:2126021189315580001",
    "url": "https://x.com/ekcheungAI/status/2126021189315580001",
    "source": "x",
@@ -197607,19 +197391,6 @@
    "likes": 0,
    "product": "meta-muse",
    "text": "@ChainStoreAge 0 site visits are needed when the Black Friday cart gets built inside Meta Muse, so the retailer gives up the page where upsells and email capture used to happen. Walmart can afford that trade because its prices do the selling. Smaller brands get the same reach on Muse, but with",
-   "media": [],
-   "found_at": "2026-11-26T23:32:39.784Z"
-  },
-  {
-   "id": "x:2126009503690706965",
-   "url": "https://x.com/AgentNaeem/status/2126009503690706965",
-   "source": "x",
-   "source_name": "X",
-   "author": "AgentNaeem",
-   "date": "2026-11-26",
-   "likes": 6,
-   "product": "openai-dots",
-   "text": "Which AI agents will message you first? My ChatGPT Dot nudged me to finish a newsletter. I hadn't even asked.\n\nI compared 6, including Claude Duet, Grok Bot and Meta Muse, to see what they spot on their own and what you have to tell them to watch. https://t.co/ot50q1NUHC",
    "media": [],
    "found_at": "2026-11-26T23:32:39.784Z"
   },
@@ -197761,19 +197532,6 @@
    "found_at": "2026-11-26T23:32:39.784Z"
   },
   {
-   "id": "x:2126062416484048978",
-   "url": "https://x.com/noodle_public/status/2126062416484048978",
-   "source": "x",
-   "source_name": "X",
-   "author": "noodle_public",
-   "date": "2026-11-26",
-   "likes": 1,
-   "product": "grok-bot",
-   "text": "@Jyabs7 @otium33 @grok @bot @poteto Outside WhatsApp, BoRK (Bot Relay Kit) does this: a free template that gives your two Grok Bots a shared, self-hosted MCP inbox for tasks and context, and a webhook wakes the other bot when something lands. https://t.co/k77OMnsmSM",
-   "media": [],
-   "found_at": "2026-11-26T23:32:39.784Z"
-  },
-  {
    "id": "x:2126061742530687142",
    "url": "https://x.com/grok/status/2126061742530687142",
    "source": "x",
@@ -197841,21 +197599,6 @@
    "found_at": "2026-11-26T23:32:39.785Z"
   },
   {
-   "id": "x:2126045835917971606",
-   "url": "https://x.com/Onedotsix18/status/2126045835917971606",
-   "source": "x",
-   "source_name": "X",
-   "author": "Onedotsix18",
-   "date": "2026-11-26",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "A broken garage door on Thanksgiving Eve is the kind of thing nobody wants to spend the evening calling around about. @AmineTX says Grok Bot called two repair companies, and the second one booked the job. Just getting it on the calendar would be a relief.\n\n@aaronclu says Grok Bot https://t.co/Gb2YFdqXY5 https://t.co/ExOZBns7BM",
-   "media": [
-    "https://pbs.twimg.com/media/HYE7a3MWYAAYvVK.jpg"
-   ],
-   "found_at": "2026-11-26T23:32:39.785Z"
-  },
-  {
    "id": "x:2126045046374039802",
    "url": "https://x.com/octopusaia/status/2126045046374039802",
    "source": "x",
@@ -197893,19 +197636,6 @@
    "likes": 0,
    "product": "openai-dots",
    "text": "@nbaschez For some reason (and I’m not complaining), my dot doesn’t count against my 5 hr limit\n\nIt takes a long time and it doesn’t show the thinking process but it goes off into the abyss, comes back with what I wanted and it’s been free",
-   "media": [],
-   "found_at": "2026-11-26T23:32:39.785Z"
-  },
-  {
-   "id": "x:2126090550810169629",
-   "url": "https://x.com/JesusIsGod/status/2126090550810169629",
-   "source": "x",
-   "source_name": "X",
-   "author": "JesusIsGod",
-   "date": "2026-11-26",
-   "likes": 1,
-   "product": "openai-dots",
-   "text": "My Dot was not very stellar since it came out, and then I saw that my dad got one of their new Dots, and I realized that this new Dot is amazing.  So I complained to OpenAI about my Dot, found tons of issues and emailed them too, did /feedback and now my Dot is awesome too :)",
    "media": [],
    "found_at": "2026-11-26T23:32:39.785Z"
   },
@@ -198068,19 +197798,6 @@
    "found_at": "2026-11-26T23:32:39.785Z"
   },
   {
-   "id": "x:2126049245912305725",
-   "url": "https://x.com/LuisBizarro/status/2126049245912305725",
-   "source": "x",
-   "source_name": "X",
-   "author": "LuisBizarro",
-   "date": "2026-11-26",
-   "likes": 6,
-   "product": "openai-dots",
-   "text": "Using OpenAI Dots for WebGL and WebGPU experiments is the reverse midas touch, never seen so many ugly things made by LLMs.",
-   "media": [],
-   "found_at": "2026-11-26T23:32:39.785Z"
-  },
-  {
    "id": "x:2126048701126967683",
    "url": "https://x.com/ZhehanZ/status/2126048701126967683",
    "source": "x",
@@ -198156,21 +197873,6 @@
    "product": "openai-dots",
    "text": "Using OpenAI Dots to to WebGL and WebGPU experiments is the reverse midas touch, never seen so many ugly things made by LLMs.",
    "media": [],
-   "found_at": "2026-11-26T23:32:39.785Z"
-  },
-  {
-   "id": "x:2126033006171492510",
-   "url": "https://x.com/oktaydemir/status/2126033006171492510",
-   "source": "x",
-   "source_name": "X",
-   "author": "oktaydemir",
-   "date": "2026-11-26",
-   "likes": 2,
-   "product": "openai-dots",
-   "text": "I get through email faster at my Mac. But I think more clearly when I go through my inbox on a walk.\n\nWith ChatGPT Dots, I can listen to emails, dictate replies, and kick off research without switching apps. I turned my article about this workflow into a short video.\n\nWhich works https://t.co/NoqPUUrixa",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2126031556850438144/img/28oCd1bECeerN6WU.jpg"
-   ],
    "found_at": "2026-11-26T23:32:39.785Z"
   },
   {

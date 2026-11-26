@@ -10394,5 +10394,29 @@
   "kind": "github",
   "missing": "readme",
   "fetched_at": "2026-11-25"
+ },
+ "https://github.com/poisdahl/meal-concierge/pull/444": {
+  "text": "**Plan meals, save recipes and shop for groceries through your AI agent.**",
+  "media": [
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/poisdahl/meal-concierge/HEAD/assets/meal-concierge-banner.png"
+   },
+   {
+    "type": "photo",
+    "url": "https://raw.githubusercontent.com/poisdahl/meal-concierge/HEAD/assets/icons/hermes.png"
+   }
+  ],
+  "outline": [
+   "Python 3.10+ and uv for installation. The installer manages its own Python",
+   "Linux needs a working user systemd service manager; Apple Silicon macOS",
+   "With a store: agent-browser and Chrome or non-snap Chromium. See",
+   "🍽️ “Replace Thursday's dinner with something quicker, then show the full recipe.”",
+   "📝 “Make a shopping list from this menu.”",
+   "🛒 “Show the groceries and estimated cost before changing the cart.”",
+   "🧾 “Show my cart and delivery windows, then prepare checkout.”"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-26"
  }
 }
