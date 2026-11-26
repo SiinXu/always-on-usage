@@ -261,3 +261,7 @@ Object.assign(D,{
 "下载":["下載","Download","ダウンロード","다운로드","Muat turun","Tải xuống","Télécharger","Descargar","Herunterladen"],
 "订阅":["訂閱","Subscribe","購読する","구독","Langgan","Đăng ký","S'abonner","Suscribirse","Abonnieren"]
 });
+
+Object.assign(D,{
+"从这些公开案例接着看，点开即可复制或订阅。":["從這些公開案例接著看，點開即可複製或訂閱。","Continue with these public cases — open one to copy or subscribe.","これらの公開事例を続けてどうぞ。開くとコピーや購読ができます。","이 공개 사례부터 이어서 보세요. 열면 복사하거나 구독할 수 있습니다.","Teruskan dengan kes awam ini — buka untuk salin atau langgan.","Tiếp tục với các case công khai này — mở ra để sao chép hoặc đăng ký.","Poursuivez avec ces cas publics — ouvrez-en un pour copier ou vous abonner.","Sigue con estos casos públicos: ábrelo para copiar o suscribirte.","Weiter mit diesen öffentlichen Fällen — öffnen zum Kopieren oder Abonnieren."]
+});
