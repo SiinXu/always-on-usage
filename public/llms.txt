@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2838 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2848 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-25T23:41:38.772Z
+- Last updated: 2026-11-26T13:36:02.765Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -615,6 +615,15 @@
 - /cases/grok-bot-templates-669.html: Grok Bot Templates (guide) <https://www.aibuilderclub.com/blog/grok-bot-templates>
 - /cases/how-to-use-grok-bot-670.html: How to Use Grok Bot (guide) <https://www.aibuilderclub.com/blog/grok-bot-guide>
 - /cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html: herdr-web-ui: watch always-on coding agents from your phone and browser (field-case) <https://github.com/devswha/herdr-web-ui>
+- /cases/x-lennoxsaint-2125938270374600920.html: One shared mailbox so AI agents message each other (field-case) <https://x.com/lennox_saint/status/2125938270374600920>
+- /cases/x-michaelfenech-2125922013831397881.html: 7 ways to use email aliases to assign work to Grok Bot (guide) <https://x.com/Michael_Fenech_/status/2125922013831397881>
+- /cases/x-aifieldreports-2125915106349310064.html: Presents: a Grok Bot for holiday gift lists and price drops (field-case) <https://x.com/AIFieldReports/status/2125915106349310064>
+- /cases/x-sboudis-2125911235833266319.html: Keep Grok Bot routines from burning usage when idle (guide) <https://x.com/sboudis/status/2125911235833266319>
+- /cases/x-tonychanbuilds-2125909621051134102.html: Using Grok Bot to triage hundreds of replies on a viral day (field-case) <https://x.com/TonyChanBuilds/status/2125909621051134102>
+- /cases/x-yakovetsseva-2125878141998821703.html: One narrow job per bot: a small team of Grok Bot assistants (field-case) <https://x.com/yakovets_seva/status/2125878141998821703>
+- /cases/x-buildthefamily-2125872884526481624.html: A Thanksgiving morning of errands with Grok Bot (field-case) <https://x.com/BuildTheFamily/status/2125872884526481624>
+- /cases/x-bnistordev-2125870239930097903.html: Daily Grok Bot agents, one with its own inbox (field-case) <https://x.com/bnistordev/status/2125870239930097903>
+- /cases/x-aifieldreports-2125869714584834300.html: Black Friday Scout: a Grok Bot that picks the deals worth buying (field-case) <https://x.com/AIFieldReports/status/2125869714584834300>
 - /cases/x-yuphoranews-2125505570052489285.html: OpenAI Dots case study: an agent drafts sales proposals for a small marketing firm (field-case) <https://x.com/yuphoranews/status/2125505570052489285>
 - /cases/x-floridanormie-2125583219500204067.html: Grok Bot built a GUI with memory and a web toggle for a local Qwen model (field-case) <https://x.com/FloridaNormie/status/2125583219500204067>
 - /cases/x-gzzonkugood-2125583160096456834.html: Grok Bot for Black Friday: the Deal Watcher template researches, it doesn't buy (guide) <https://x.com/gzzonkugood/status/2125583160096456834>
@@ -2601,6 +2610,7 @@
 - /cases/the-next-web-grok-bot-will-also-use-claude-midjourney-and-su-572.html: The Next Web: Grok Bot will also use Claude, Midjourney and Suno models (comparison) <https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk>
 - /cases/9to5mac-how-to-claim-your-grok-bot-email-address-573.html: 9to5Mac: how to claim your Grok Bot email address (comparison) <https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/>
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
+- /cases/x-wizzouk-2125902676353532399.html: How to split work between Claude and Grok Bot (comparison) <https://x.com/wizzouk/status/2125902676353532399>
 - /cases/x-wizzouk-2125556606792499520.html: Dots vs Grok Bot: one general assistant vs a team of bots (comparison) <https://x.com/wizzouk/status/2125556606792499520>
 - /cases/hn-50637332.html: Always-on agent routing and permissions: dsh-superagent, Grok Bot, Claude Duet (comparison) <https://www.agentconnect.md/blog/always-on-agents-router-worker/>
 - /cases/x-piresgame-2125583033604706413.html: Dots, Grok Bot and Muse compared over 13 days of morning news gathering (comparison) <https://x.com/pires_game/status/2125583033604706413>
