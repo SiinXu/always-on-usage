@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2870 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2886 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-26T23:39:10.240Z
+- Last updated: 2026-11-27T13:40:33.795Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3152,6 +3152,71 @@
 - URL: https://usage.incidental.site/cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
+
+### Tip: always turn repeat tasks into a routine
+- URL: https://usage.incidental.site/cases/x-mattarark-2126300679803421147.html
+- Type: guide · Product: multi · Author: MattarARK · Source: https://x.com/MattarARK/status/2126300679803421147 · Date: 2026-11-27
+- Summary: The author advises that with always-on agents (Grok Bot, Duet, Muse, Dots) you should have the agent set up a routine or task for anything repetitive, such as a codebase sweep or email check; otherwise it forgets as context piles up.
+
+### Add a routine to your Bot from your phone
+- URL: https://usage.incidental.site/cases/x-agentsb4coffee-2126307642612089097.html
+- Type: guide · Product: grok-bot · Author: AgentsB4Coffee · Source: https://x.com/AgentsB4Coffee/status/2126307642612089097 · Date: 2026-11-27
+- Summary: The author's tip: don't wait until you're at a desk to automate. On your phone, open the Bot's profile, tap Add routine, finish the line "Set up a routine to..." and send, then check When to run; use Test to run it right away.
+
+### A Korean fortune-telling bot built with Grok Bot
+- URL: https://usage.incidental.site/cases/x-nowgeun-2126307557937664231.html
+- Type: field-case · Product: grok-bot · Author: nowgeun · Source: https://x.com/nowgeun/status/2126307557937664231 · Date: 2026-11-27
+- Summary: The author built a saju (Four Pillars) fortune bot with Grok Bot plus Gemini 4 Neon. Images don't use a generative model: the user's chart is calculated and rendered into the author's own templates and scripts; AI is used only for the daily fortune and text.
+
+### A 7-prompt SEO system inside Grok Bot
+- URL: https://usage.incidental.site/cases/x-bloggersarvesh-2126306776090055069.html
+- Type: guide · Product: grok-bot · Author: bloggersarvesh · Source: https://x.com/bloggersarvesh/status/2126306776090055069 · Date: 2026-11-27
+- Summary: After 14 years in SEO, the author built a 7-prompt system inside Grok Bot. Once loaded, Grok knows your business, competitors, keywords and market up front, so every later prompt feels tailored. The steps follow in the thread.
+
+### A Grok Bot that watches your flight with GO / NO-GO
+- URL: https://usage.incidental.site/cases/x-maisneaux-2126302051453821115.html
+- Type: field-case · Product: grok-bot · Author: maisneaux · Source: https://x.com/maisneaux/status/2126302051453821115 · Date: 2026-11-27
+- Summary: The author built a Grok Bot that watches a flight: a GO / NO-GO call every 30 minutes until it's time to leave home, then silence unless the flight or the inbound plane is delayed, canceled or diverted. A free template is linked.
+
+### Weekly routine: catch payments on the wrong card
+- URL: https://usage.incidental.site/cases/x-brunomunhoz-2126301765364568468.html
+- Type: field-case · Product: grok-bot · Author: bruno_munhoz · Source: https://x.com/bruno_munhoz/status/2126301765364568468 · Date: 2026-11-27
+- Summary: Every week the author's Grok Bot checks whether a purchase was paid with the wrong credit card and flags it if so. The author calls it the smallest routine they run and the one that pays for the subscription.
+
+### A two-person Dutch shop built by Grok Bot
+- URL: https://usage.incidental.site/cases/x-nateehall-2126299264330637513.html
+- Type: field-case · Product: grok-bot · Author: nateehall_ · Source: https://x.com/nateehall_/status/2126299264330637513 · Date: 2026-11-27
+- Summary: Struq is a tiny Dutch company of the author and one business partner. Grok Bot built their shop and handles the boring parts; the author still reviews and decides everything. Their product is the Focusboek, an undated planner.
+
+### A free Grok Bot that finds unclaimed money
+- URL: https://usage.incidental.site/cases/x-teslatakesover-2126298598597910553.html
+- Type: field-case · Product: grok-bot · Author: TeslaTakesOver · Source: https://x.com/TeslaTakesOver/status/2126298598597910553 · Date: 2026-11-27
+- Summary: The author built You Claim It, a free Grok Bot that searches official government sites for forgotten paychecks, deposits and refunds held by states for you, your family and your business, and walks each match to a filed claim. No finder fees, per the author.
+
+### Cleaning up Bot memory: keep, update, move or forget
+- URL: https://usage.incidental.site/cases/x-michaelfenech-2126272573604282665.html
+- Type: guide · Product: grok-bot · Author: Michael_Fenech_ · Source: https://x.com/Michael_Fenech_/status/2126272573604282665 · Date: 2026-11-27
+- Summary: The author asked their Grok Bot chief of staff how to clean up its memory without losing anything important. Its first advice: save a copy before changing anything, then give every note one of four decisions: KEEP, UPDATE, MOVE or FORGET.
+
+### Running a business with single-job Grok Bots
+- URL: https://usage.incidental.site/cases/x-mariannehere-2126240833800110404.html
+- Type: field-case · Product: grok-bot · Author: mariannehere · Source: https://x.com/mariannehere/status/2126240833800110404 · Date: 2026-11-27
+- Summary: The author runs keewy with a team of Grok Bot agents, each with one job: outreach finds funded leads every morning, sales keeps every deal moving, ops runs the calendar and bookings, content suggests ideas and proofreads posts, with more in the thread.
+
+### Meta Muse planned Thanksgiving shopping, with gaps
+- URL: https://usage.incidental.site/cases/x-cdbutler-2126159767521440006.html
+- Type: field-case · Product: meta-muse · Author: CDButler · Source: https://x.com/CDButler/status/2126159767521440006 · Date: 2026-11-27
+- Summary: The author planned a Thanksgiving menu and Meta Muse built a grocery list and cooking timeline. The timeline forgot items it said to buy, was off by 2 hours and left out key steps; experience filled the gaps and dinner was delicious.
+
+### A softball coach tracks field requests with Meta Muse
+- URL: https://usage.incidental.site/cases/x-anthonycoaches-2126303883089924177.html
+- Type: field-case · Product: meta-muse · Author: anthonycoaches · Source: https://x.com/anthonycoaches/status/2126303883089924177 · Date: 2026-11-27
+- Summary: Day 26 for this softball coach: facility and field requests. A late request means a practice moved or lost, so the coach's assistant Meta Muse keeps every request, permit and rain plan in one place to keep the calendar holding.
+
+### Dots found a product mention on its own
+- URL: https://usage.incidental.site/cases/x-ekurutepe-2126243723562668538.html
+- Type: field-case · Product: openai-dots · Author: ekurutepe · Source: https://x.com/ekurutepe/status/2126243723562668538 · Date: 2026-11-27
+- Summary: The author says their Dot found a mention of SolarWatch in a Leica marketing video completely on its own, without a prompt.
 
 ### One shared mailbox so AI agents message each other
 - URL: https://usage.incidental.site/cases/x-lennoxsaint-2125938270374600920.html
@@ -13208,6 +13273,11 @@
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
 
+### CNET tests Muse and Dots on real grocery receipts
+- URL: https://usage.incidental.site/cases/x-friedbeef-2126185515321885112.html
+- Type: comparison · Product: multi · Author: friedbeef · Source: https://x.com/friedbeef/status/2126185515321885112 · Date: 2026-11-27
+- Summary: Citing CNET, the author notes that giving Muse and ChatGPT Dots real grocery receipts surfaced 3 problems: narrow searches, broad advice instead of an itemized plan, and baskets that weren't equivalent, so the lowest total did not prove savings.
+
 ### How to split work between Claude and Grok Bot
 - URL: https://usage.incidental.site/cases/x-wizzouk-2125902676353532399.html
 - Type: comparison · Product: grok-bot · Author: wizzouk · Source: https://x.com/wizzouk/status/2125902676353532399 · Date: 2026-11-26
@@ -14017,6 +14087,16 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### Clearing old Gmail cost 20% of usage
+- URL: https://usage.incidental.site/cases/x-fridaynighthq-2126293565915468088.html
+- Type: quota-report · Product: grok-bot · Author: FridayNightHQ · Source: https://x.com/FridayNightHQ/status/2126293565915468088 · Date: 2026-11-27
+- Summary: The author asked Grok Bot to move years of old LinkedIn emails from the Gmail inbox to the bin; that alone used 20% of their usage, and they ask whether the token issue has been fixed.
+
+### Usage boost: about 11% more on plans, up to 50% on routines
+- URL: https://usage.incidental.site/cases/x-liuliuchn-2126248073391186033.html
+- Type: quota-report · Product: grok-bot · Author: LiuLiuchn · Source: https://x.com/LiuLiuchn/status/2126248073391186033 · Date: 2026-11-27
+- Summary: Citing Sam Sokolin of the Grok Bot team, the author says plans should go about 11% further and routines up to 50% further after the routine harness was optimized to skip inference on simple, repetitive runs; the author argues the reason behind the routine gain is the useful part.
 
 ### User report: Grok Bot burns tokens much faster than Muse
 - URL: https://usage.incidental.site/cases/x-chris4shore-2126094384919937259.html

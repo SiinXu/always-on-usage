@@ -1,6 +1,6 @@
 {
   "note": "公开条目聚合 / aggregated public items; see source_url",
-  "count": 2870,
+  "count": 2886,
   "fetched_at": "2026-10-12T11:54:58.322933+00:00",
   "items": [
     {
@@ -12644,6 +12644,930 @@
       "scen": [
         "research",
         "ship"
+      ]
+    },
+    {
+      "title": "技巧：重复任务一定要设成例程",
+      "summary": "作者建议，用 Grok Bot、Duet、Muse、Dots 这类常驻 Agent 做重复任务时，一定让它建一个例程或任务；否则随着上下文堆积它会忘掉，比如代码库巡检、查邮件。",
+      "en": {
+        "title": "Tip: always turn repeat tasks into a routine",
+        "summary": "The author advises that with always-on agents (Grok Bot, Duet, Muse, Dots) you should have the agent set up a routine or task for anything repetitive, such as a codebase sweep or email check; otherwise it forgets as context piles up."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "技巧：重复任务一定要设成例程",
+          "summary": "作者建议，用 Grok Bot、Duet、Muse、Dots 这类常驻 Agent 做重复任务时，一定让它建一个例程或任务；否则随着上下文堆积它会忘掉，比如代码库巡检、查邮件。"
+        },
+        "zh-TW": {
+          "title": "技巧：重複任務一定要設成例程",
+          "summary": "作者建議，用 Grok Bot、Duet、Muse、Dots 這類常駐 Agent 做重複任務時，一定讓它建一個例程或任務；否則隨著上下文堆積它會忘掉，例如程式碼庫巡檢、查郵件。"
+        },
+        "en": {
+          "title": "Tip: always turn repeat tasks into a routine",
+          "summary": "The author advises that with always-on agents (Grok Bot, Duet, Muse, Dots) you should have the agent set up a routine or task for anything repetitive, such as a codebase sweep or email check; otherwise it forgets as context piles up."
+        },
+        "ja": {
+          "title": "ヒント：繰り返し作業は必ずルーティンに",
+          "summary": "常駐エージェント（Grok Bot、Duet、Muse、Dots）で繰り返し作業をさせるなら、必ずルーティンかタスクを設定させるべきだと投稿者は勧める。そうしないとコンテキストが積み重なるうちに忘れてしまう。例はコードベースの点検やメール確認。"
+        },
+        "ko": {
+          "title": "팁: 반복 작업은 꼭 루틴으로",
+          "summary": "작성자는 Grok Bot, Duet, Muse, Dots 같은 상시 에이전트에게 코드베이스 점검이나 이메일 확인 같은 반복 작업을 시킬 때는 반드시 루틴이나 작업으로 설정하게 하라고 조언한다. 그렇지 않으면 컨텍스트가 쌓이면서 잊어버린다."
+        },
+        "ms": {
+          "title": "Tip: jadikan tugas berulang sebagai rutin",
+          "summary": "Penulis menasihatkan agar ejen sentiasa aktif (Grok Bot, Duet, Muse, Dots) diminta menyediakan rutin atau tugas untuk kerja berulang seperti semakan kod atau semakan e-mel; jika tidak, ia akan lupa apabila konteks bertimbun."
+        },
+        "vi": {
+          "title": "Mẹo: việc lặp lại hãy đặt thành routine",
+          "summary": "Tác giả khuyên khi dùng agent luôn bật (Grok Bot, Duet, Muse, Dots) cho việc lặp lại như rà soát codebase hay kiểm tra email, hãy bảo nó tạo routine hoặc task; nếu không nó sẽ quên khi ngữ cảnh chồng chất."
+        },
+        "fr": {
+          "title": "Astuce : transformez les tâches répétitives en routine",
+          "summary": "L'auteur conseille, avec un agent toujours actif (Grok Bot, Duet, Muse, Dots), de lui faire créer une routine ou une tâche pour tout travail répétitif, comme un passage sur le code ou la vérification des e-mails ; sinon il oublie à mesure que le contexte s'accumule."
+        },
+        "es": {
+          "title": "Consejo: convierte las tareas repetitivas en rutinas",
+          "summary": "El autor aconseja que, con agentes siempre activos (Grok Bot, Duet, Muse, Dots), les pidas crear una rutina o tarea para lo repetitivo, como revisar el código o el correo; si no, lo olvidan a medida que se acumula el contexto."
+        },
+        "de": {
+          "title": "Tipp: Wiederkehrende Aufgaben immer als Routine",
+          "summary": "Der Autor rät, bei Always-on-Agents (Grok Bot, Duet, Muse, Dots) für alles Wiederkehrende, etwa Codebase-Durchsicht oder E-Mail-Check, eine Routine oder Aufgabe anlegen zu lassen; sonst vergisst der Agent es, wenn sich der Kontext anhäuft."
+        }
+      },
+      "source_url": "https://x.com/MattarARK/status/2126300679803421147",
+      "source_name": "X",
+      "author": "MattarARK",
+      "product": "multi",
+      "type": "guide",
+      "date": "2026-11-27",
+      "likes": 2,
+      "src": "x",
+      "text": "A tip for your always on agent (grok bot, duet, muse, dots) - always have it set up a routine if you want it to do a repetitive task, otherwise it’ll simply forget as your context piles up\n\nCodebase sweep, email check, whatever it is. Set up a routine or task",
+      "media": [],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-mattarark-2126300679803421147",
+      "scen": [
+        "inbox",
+        "ship"
+      ]
+    },
+    {
+      "title": "在手机上给 Bot 加例程",
+      "summary": "作者的建议：别等到坐在电脑前才自动化。在手机上打开 Bot 的资料页，点 Add routine，把“Set up a routine to...”这句补完并发送，再检查运行时间；想马上跑可以用 Test。",
+      "en": {
+        "title": "Add a routine to your Bot from your phone",
+        "summary": "The author's tip: don't wait until you're at a desk to automate. On your phone, open the Bot's profile, tap Add routine, finish the line \"Set up a routine to...\" and send, then check When to run; use Test to run it right away."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "在手机上给 Bot 加例程",
+          "summary": "作者的建议：别等到坐在电脑前才自动化。在手机上打开 Bot 的资料页，点 Add routine，把“Set up a routine to...”这句补完并发送，再检查运行时间；想马上跑可以用 Test。"
+        },
+        "zh-TW": {
+          "title": "在手機上給 Bot 加例程",
+          "summary": "作者的建議：別等到坐在電腦前才自動化。在手機上打開 Bot 的資料頁，點 Add routine，把「Set up a routine to...」這句補完並送出，再檢查執行時間；想馬上跑可以用 Test。"
+        },
+        "en": {
+          "title": "Add a routine to your Bot from your phone",
+          "summary": "The author's tip: don't wait until you're at a desk to automate. On your phone, open the Bot's profile, tap Add routine, finish the line \"Set up a routine to...\" and send, then check When to run; use Test to run it right away."
+        },
+        "ja": {
+          "title": "スマホから Bot にルーティンを追加",
+          "summary": "投稿者のヒント：自動化はデスクに着くまで待たなくていい。スマホで Bot のプロフィールを開き Add routine をタップ、「Set up a routine to...」の続きを書いて送信し、実行タイミングを確認する。すぐ試すなら Test を使う。"
+        },
+        "ko": {
+          "title": "휴대폰에서 Bot에 루틴 추가하기",
+          "summary": "작성자의 팁: 책상 앞에 앉을 때까지 자동화를 미루지 말 것. 휴대폰에서 Bot 프로필을 열고 Add routine을 눌러 \"Set up a routine to...\" 문장을 완성해 보낸 뒤 실행 시점을 확인한다. 바로 돌려보려면 Test를 쓴다."
+        },
+        "ms": {
+          "title": "Tambah rutin pada Bot dari telefon",
+          "summary": "Tip penulis: jangan tunggu sampai di meja untuk mengautomasikan. Di telefon, buka profil Bot, ketik Add routine, lengkapkan ayat \"Set up a routine to...\" dan hantar, kemudian semak masa larian; guna Test untuk jalankan segera."
+        },
+        "vi": {
+          "title": "Thêm routine cho Bot ngay trên điện thoại",
+          "summary": "Mẹo của tác giả: đừng đợi ngồi vào bàn mới tự động hóa. Trên điện thoại, mở hồ sơ Bot, chạm Add routine, viết tiếp câu \"Set up a routine to...\" rồi gửi, sau đó kiểm tra thời điểm chạy; muốn chạy ngay thì dùng Test."
+        },
+        "fr": {
+          "title": "Ajouter une routine à votre Bot depuis le téléphone",
+          "summary": "Le conseil de l'auteur : n'attendez pas d'être au bureau pour automatiser. Sur le téléphone, ouvrez le profil du Bot, touchez Add routine, complétez la phrase « Set up a routine to... » et envoyez, puis vérifiez l'horaire d'exécution ; Test permet de la lancer tout de suite."
+        },
+        "es": {
+          "title": "Añade una rutina a tu Bot desde el móvil",
+          "summary": "El consejo del autor: no esperes a estar en el escritorio para automatizar. En el móvil, abre el perfil del Bot, toca Add routine, completa la frase «Set up a routine to...» y envíala; luego revisa cuándo se ejecuta y usa Test para probarla ya."
+        },
+        "de": {
+          "title": "Routine für den Bot direkt am Handy anlegen",
+          "summary": "Tipp des Autors: Nicht warten, bis man am Schreibtisch sitzt. Am Handy das Bot-Profil öffnen, Add routine tippen, den Satz „Set up a routine to...“ vervollständigen und senden, dann den Ausführungszeitpunkt prüfen; mit Test läuft sie sofort."
+        }
+      },
+      "source_url": "https://x.com/AgentsB4Coffee/status/2126307642612089097",
+      "source_name": "X",
+      "author": "AgentsB4Coffee",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-11-27",
+      "likes": 0,
+      "src": "x",
+      "text": "A Grok Bot setup-tip thread drew 54 replies on X this week. Here's mine:\n\nStop waiting until you're at a desk to automate. On your phone, open your Bot's profile and tap Add routine. Finish the line \"Set up a routine to...\" and send.\n\nCheck When to run. Want it now? Use Test.",
+      "media": [],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-agentsb4coffee-2126307642612089097",
+      "scen": []
+    },
+    {
+      "title": "用 Grok Bot 做了个四柱八字机器人",
+      "summary": "作者用 Grok Bot 加 Gemini 4 Neon 做了一个算命（四柱）机器人。图片不靠生成模型，而是把用户的命盘计算结果套进作者自己做的模板和脚本里生成；AI 只用在今日运势和文字部分。",
+      "en": {
+        "title": "A Korean fortune-telling bot built with Grok Bot",
+        "summary": "The author built a saju (Four Pillars) fortune bot with Grok Bot plus Gemini 4 Neon. Images don't use a generative model: the user's chart is calculated and rendered into the author's own templates and scripts; AI is used only for the daily fortune and text."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用 Grok Bot 做了个四柱八字机器人",
+          "summary": "作者用 Grok Bot 加 Gemini 4 Neon 做了一个算命（四柱）机器人。图片不靠生成模型，而是把用户的命盘计算结果套进作者自己做的模板和脚本里生成；AI 只用在今日运势和文字部分。"
+        },
+        "zh-TW": {
+          "title": "用 Grok Bot 做了個四柱八字機器人",
+          "summary": "作者用 Grok Bot 加 Gemini 4 Neon 做了一個算命（四柱）機器人。圖片不靠生成模型，而是把使用者的命盤計算結果套進作者自己做的模板和腳本裡生成；AI 只用在今日運勢和文字部分。"
+        },
+        "en": {
+          "title": "A Korean fortune-telling bot built with Grok Bot",
+          "summary": "The author built a saju (Four Pillars) fortune bot with Grok Bot plus Gemini 4 Neon. Images don't use a generative model: the user's chart is calculated and rendered into the author's own templates and scripts; AI is used only for the daily fortune and text."
+        },
+        "ja": {
+          "title": "Grok Bot で四柱推命ボットを作成",
+          "summary": "投稿者は Grok Bot と Gemini 4 Neon で四柱推命（サジュ）ボットを作った。画像は生成モデルを使わず、本人の命式を計算して自作のテンプレートとスクリプトに流し込んで生成する。AI は今日の運勢とテキスト部分だけに使う。"
+        },
+        "ko": {
+          "title": "Grok Bot으로 사주봇을 만들다",
+          "summary": "작성자는 Grok Bot과 Gemini 4 Neon으로 사주봇을 만들었다. 이미지는 생성 모델을 쓰지 않고, 본인의 사주 명식을 계산해 작성자가 만든 템플릿과 스크립트로 생성한다. AI는 오늘의 운세와 텍스트에만 사용된다."
+        },
+        "ms": {
+          "title": "Bot ramalan nasib Korea dibina dengan Grok Bot",
+          "summary": "Penulis membina bot ramalan saju (Empat Tiang) dengan Grok Bot dan Gemini 4 Neon. Imej tidak guna model generatif: carta pengguna dikira dan dijana melalui templat serta skrip buatan penulis; AI hanya untuk ramalan harian dan teks."
+        },
+        "vi": {
+          "title": "Bot xem tử vi Hàn Quốc làm bằng Grok Bot",
+          "summary": "Tác giả làm một bot xem saju (Tứ Trụ) bằng Grok Bot cùng Gemini 4 Neon. Ảnh không dùng mô hình sinh ảnh mà được tạo từ lá số tính toán của người dùng qua template và script do tác giả tự viết; AI chỉ dùng cho vận hạn hôm nay và phần chữ."
+        },
+        "fr": {
+          "title": "Un bot d'astrologie coréenne construit avec Grok Bot",
+          "summary": "L'auteur a créé un bot de saju (Quatre Piliers) avec Grok Bot et Gemini 4 Neon. Les images n'utilisent pas de modèle génératif : le thème de l'utilisateur est calculé puis rendu via les gabarits et scripts de l'auteur ; l'IA ne sert qu'à l'horoscope du jour et aux textes."
+        },
+        "es": {
+          "title": "Un bot de astrología coreana hecho con Grok Bot",
+          "summary": "El autor creó un bot de saju (Cuatro Pilares) con Grok Bot y Gemini 4 Neon. Las imágenes no usan un modelo generativo: la carta del usuario se calcula y se genera con plantillas y scripts propios; la IA solo se usa para el horóscopo del día y el texto."
+        },
+        "de": {
+          "title": "Ein koreanischer Wahrsage-Bot mit Grok Bot",
+          "summary": "Der Autor baute mit Grok Bot und Gemini 4 Neon einen Saju-Bot (Vier Säulen). Bilder entstehen ohne generatives Modell: Das Horoskop des Nutzers wird berechnet und über eigene Vorlagen und Skripte gerendert; KI kommt nur für das Tageshoroskop und Texte zum Einsatz."
+        }
+      },
+      "source_url": "https://x.com/nowgeun/status/2126307557937664231",
+      "source_name": "X",
+      "author": "nowgeun",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-27",
+      "likes": 0,
+      "src": "x",
+      "text": "사주 보시는 분들 있나요?\n\n내년은 정미년(丁未年), 붉은 양의 해라고 합니다.\nGrok Bot + Gemini 4 Neon으로 사주봇을 만들었습니다!\n\n이미지는 생성 모델을 사용하지 않고 제가 만든 템플릿과 스크립트에 본인의 사주 명식이 계산되어 생성됩니다.\n(오늘의 운세나 텍스트에만 AI가 사용이 됩니다) https://t.co/jThbGdHplW",
+      "media": [
+        "https://pbs.twimg.com/media/HXuxNiSbUAAsVnv.jpg",
+        "https://pbs.twimg.com/media/HXuxNiRawAAT3Ti.jpg",
+        "https://pbs.twimg.com/media/HXuxNiNbQAA66vk.jpg"
+      ],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-nowgeun-2126307557937664231",
+      "scen": []
+    },
+    {
+      "title": "在 Grok Bot 里搭了一套 7 条提示词的 SEO 系统",
+      "summary": "有 14 年 SEO 经验的作者在 Grok Bot 里搭了一套 7 条提示词的系统。加载后 Grok 会先了解你的业务、竞争对手、关键词和市场，之后每条提示都更贴合你。具体步骤在后续帖子里。",
+      "en": {
+        "title": "A 7-prompt SEO system inside Grok Bot",
+        "summary": "After 14 years in SEO, the author built a 7-prompt system inside Grok Bot. Once loaded, Grok knows your business, competitors, keywords and market up front, so every later prompt feels tailored. The steps follow in the thread."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "在 Grok Bot 里搭了一套 7 条提示词的 SEO 系统",
+          "summary": "有 14 年 SEO 经验的作者在 Grok Bot 里搭了一套 7 条提示词的系统。加载后 Grok 会先了解你的业务、竞争对手、关键词和市场，之后每条提示都更贴合你。具体步骤在后续帖子里。"
+        },
+        "zh-TW": {
+          "title": "在 Grok Bot 裡搭了一套 7 條提示詞的 SEO 系統",
+          "summary": "有 14 年 SEO 經驗的作者在 Grok Bot 裡搭了一套 7 條提示詞的系統。載入後 Grok 會先了解你的業務、競爭對手、關鍵字和市場，之後每條提示都更貼合你。具體步驟在後續貼文裡。"
+        },
+        "en": {
+          "title": "A 7-prompt SEO system inside Grok Bot",
+          "summary": "After 14 years in SEO, the author built a 7-prompt system inside Grok Bot. Once loaded, Grok knows your business, competitors, keywords and market up front, so every later prompt feels tailored. The steps follow in the thread."
+        },
+        "ja": {
+          "title": "Grok Bot に組んだ 7 プロンプトの SEO システム",
+          "summary": "SEO 歴 14 年の投稿者が Grok Bot 内に 7 つのプロンプトからなるシステムを構築。読み込ませると Grok は事業・競合・キーワード・市場を最初から把握し、以降のプロンプトが自分向けに感じられるという。手順はスレッドで続く。"
+        },
+        "ko": {
+          "title": "Grok Bot 안에 만든 7단계 프롬프트 SEO 시스템",
+          "summary": "SEO 14년 경력의 작성자가 Grok Bot 안에 프롬프트 7개로 된 시스템을 만들었다. 불러오면 Grok이 비즈니스, 경쟁사, 키워드, 시장을 먼저 파악해 이후 모든 프롬프트가 맞춤형처럼 느껴진다고 한다. 방법은 스레드에 이어진다."
+        },
+        "ms": {
+          "title": "Sistem SEO 7 prompt di dalam Grok Bot",
+          "summary": "Selepas 14 tahun dalam SEO, penulis membina sistem 7 prompt di dalam Grok Bot. Setelah dimuatkan, Grok mengetahui perniagaan, pesaing, kata kunci dan pasaran anda terlebih dahulu, jadi setiap prompt seterusnya terasa khusus. Langkahnya ada dalam bebenang."
+        },
+        "vi": {
+          "title": "Hệ thống SEO 7 prompt trong Grok Bot",
+          "summary": "Sau 14 năm làm SEO, tác giả dựng một hệ thống 7 prompt trong Grok Bot. Khi nạp xong, Grok nắm trước doanh nghiệp, đối thủ, từ khóa và thị trường của bạn, nên mọi prompt sau đó đều sát nhu cầu. Các bước nằm trong thread."
+        },
+        "fr": {
+          "title": "Un système SEO de 7 prompts dans Grok Bot",
+          "summary": "Après 14 ans de SEO, l'auteur a construit un système de 7 prompts dans Grok Bot. Une fois chargé, Grok connaît d'emblée votre activité, vos concurrents, vos mots-clés et votre marché, et chaque prompt suivant semble sur mesure. Les étapes suivent dans le fil."
+        },
+        "es": {
+          "title": "Un sistema SEO de 7 prompts dentro de Grok Bot",
+          "summary": "Tras 14 años en SEO, el autor montó un sistema de 7 prompts en Grok Bot. Una vez cargado, Grok conoce de antemano tu negocio, competidores, palabras clave y mercado, y cada prompt posterior parece hecho a medida. Los pasos siguen en el hilo."
+        },
+        "de": {
+          "title": "Ein SEO-System aus 7 Prompts in Grok Bot",
+          "summary": "Nach 14 Jahren SEO baute der Autor in Grok Bot ein System aus 7 Prompts. Einmal geladen, kennt Grok Geschäft, Wettbewerber, Keywords und Markt vorab, sodass sich jeder weitere Prompt maßgeschneidert anfühlt. Die Schritte folgen im Thread."
+        }
+      },
+      "source_url": "https://x.com/bloggersarvesh/status/2126306776090055069",
+      "source_name": "X",
+      "author": "bloggersarvesh",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-11-27",
+      "likes": 3,
+      "src": "x",
+      "text": "This is a 7-prompt system I built inside Grok Bot after 14 years of doing SEO.\n\nonce it's loaded, Grok knows your business, your competitors, your keywords, and your market before you say a word.\n\nevery prompt after that feels like it was written specifically for you.\n\nhere's how",
+      "media": [],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-bloggersarvesh-2126306776090055069",
+      "scen": [
+        "research"
+      ]
+    },
+    {
+      "title": "用 Grok Bot 盯航班：每 30 分钟给出走/不走",
+      "summary": "作者做了个盯航班的 Grok Bot：出门前每 30 分钟给一次 GO / NO-GO 判断，之后保持安静，只在本航班或前序航班延误、取消、备降时提醒。作者附了免费模板。",
+      "en": {
+        "title": "A Grok Bot that watches your flight with GO / NO-GO",
+        "summary": "The author built a Grok Bot that watches a flight: a GO / NO-GO call every 30 minutes until it's time to leave home, then silence unless the flight or the inbound plane is delayed, canceled or diverted. A free template is linked."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用 Grok Bot 盯航班：每 30 分钟给出走/不走",
+          "summary": "作者做了个盯航班的 Grok Bot：出门前每 30 分钟给一次 GO / NO-GO 判断，之后保持安静，只在本航班或前序航班延误、取消、备降时提醒。作者附了免费模板。"
+        },
+        "zh-TW": {
+          "title": "用 Grok Bot 盯航班：每 30 分鐘給出走／不走",
+          "summary": "作者做了個盯航班的 Grok Bot：出門前每 30 分鐘給一次 GO / NO-GO 判斷，之後保持安靜，只在本航班或前序航班延誤、取消、轉降時提醒。作者附了免費模板。"
+        },
+        "en": {
+          "title": "A Grok Bot that watches your flight with GO / NO-GO",
+          "summary": "The author built a Grok Bot that watches a flight: a GO / NO-GO call every 30 minutes until it's time to leave home, then silence unless the flight or the inbound plane is delayed, canceled or diverted. A free template is linked."
+        },
+        "ja": {
+          "title": "フライトを見張る Grok Bot：30 分ごとに GO / NO-GO",
+          "summary": "投稿者はフライトを見張る Grok Bot を作った。家を出るまで 30 分ごとに GO / NO-GO を判定し、その後は自便や到着機材の遅延・欠航・ダイバートがない限り沈黙する。無料テンプレートを公開。"
+        },
+        "ko": {
+          "title": "항공편을 지켜보는 Grok Bot: 30분마다 GO / NO-GO",
+          "summary": "작성자는 항공편을 감시하는 Grok Bot을 만들었다. 집을 나설 때까지 30분마다 GO / NO-GO를 판단하고, 이후에는 해당 편이나 앞선 기체가 지연·취소·회항될 때만 알린다. 무료 템플릿을 공유했다."
+        },
+        "ms": {
+          "title": "Grok Bot memantau penerbangan dengan GO / NO-GO",
+          "summary": "Penulis membina Grok Bot yang memantau penerbangan: keputusan GO / NO-GO setiap 30 minit sehingga tiba masa keluar rumah, kemudian senyap melainkan penerbangan atau pesawat masuk tertangguh, dibatalkan atau dilencongkan. Templat percuma dikongsi."
+        },
+        "vi": {
+          "title": "Grok Bot theo dõi chuyến bay với GO / NO-GO",
+          "summary": "Tác giả làm một Grok Bot theo dõi chuyến bay: cứ 30 phút đưa ra GO / NO-GO cho tới lúc rời nhà, sau đó im lặng trừ khi chuyến bay hoặc máy bay chặng trước bị trễ, hủy hay chuyển hướng. Có kèm template miễn phí."
+        },
+        "fr": {
+          "title": "Un Grok Bot qui surveille votre vol en GO / NO-GO",
+          "summary": "L'auteur a créé un Grok Bot qui surveille un vol : un verdict GO / NO-GO toutes les 30 minutes jusqu'au départ de la maison, puis le silence sauf retard, annulation ou déroutement du vol ou de l'avion entrant. Un modèle gratuit est partagé."
+        },
+        "es": {
+          "title": "Un Grok Bot que vigila tu vuelo con GO / NO-GO",
+          "summary": "El autor creó un Grok Bot que vigila un vuelo: un veredicto GO / NO-GO cada 30 minutos hasta salir de casa y después silencio, salvo que el vuelo o el avión entrante se retrase, se cancele o se desvíe. Comparte una plantilla gratuita."
+        },
+        "de": {
+          "title": "Ein Grok Bot überwacht den Flug mit GO / NO-GO",
+          "summary": "Der Autor baute einen Grok Bot, der einen Flug beobachtet: alle 30 Minuten ein GO / NO-GO bis zum Aufbruch, danach Ruhe, außer der Flug oder die Zubringermaschine ist verspätet, gestrichen oder umgeleitet. Eine kostenlose Vorlage ist verlinkt."
+        }
+      },
+      "source_url": "https://x.com/maisneaux/status/2126302051453821115",
+      "source_name": "X",
+      "author": "maisneaux",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-27",
+      "likes": 1,
+      "src": "x",
+      "text": "Built a Grok Bot that watches my flight so I don't have to.\n\nGO / NO-GO every 30 min until it's time to leave home, then silence unless the flight or the inbound plane gets delayed, canceled, or diverted.\n\nFree template: https://t.co/LWE03KyVGV",
+      "media": [],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-maisneaux-2126302051453821115",
+      "scen": [
+        "travel",
+        "research"
+      ]
+    },
+    {
+      "title": "每周例程：检查有没有刷错信用卡",
+      "summary": "作者的 Grok Bot 每周检查一次自己有没有用错信用卡付款，用错了就标出来。作者说这是自己最小的例程，却是让订阅费回本的那个。",
+      "en": {
+        "title": "Weekly routine: catch payments on the wrong card",
+        "summary": "Every week the author's Grok Bot checks whether a purchase was paid with the wrong credit card and flags it if so. The author calls it the smallest routine they run and the one that pays for the subscription."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "每周例程：检查有没有刷错信用卡",
+          "summary": "作者的 Grok Bot 每周检查一次自己有没有用错信用卡付款，用错了就标出来。作者说这是自己最小的例程，却是让订阅费回本的那个。"
+        },
+        "zh-TW": {
+          "title": "每週例程：檢查有沒有刷錯信用卡",
+          "summary": "作者的 Grok Bot 每週檢查一次自己有沒有用錯信用卡付款，用錯了就標出來。作者說這是自己最小的例程，卻是讓訂閱費回本的那個。"
+        },
+        "en": {
+          "title": "Weekly routine: catch payments on the wrong card",
+          "summary": "Every week the author's Grok Bot checks whether a purchase was paid with the wrong credit card and flags it if so. The author calls it the smallest routine they run and the one that pays for the subscription."
+        },
+        "ja": {
+          "title": "週次ルーティン：違うカードでの支払いを検出",
+          "summary": "投稿者の Grok Bot は毎週、間違ったクレジットカードで支払っていないかを確認し、あれば知らせる。最も小さなルーティンだが、サブスク代の元が取れるのはこれだという。"
+        },
+        "ko": {
+          "title": "주간 루틴: 잘못된 카드 결제 잡아내기",
+          "summary": "작성자의 Grok Bot은 매주 잘못된 신용카드로 결제했는지 확인하고, 그렇다면 표시해 준다. 작성자는 가장 작은 루틴이지만 구독료 값을 하는 루틴이라고 말한다."
+        },
+        "ms": {
+          "title": "Rutin mingguan: kesan bayaran guna kad salah",
+          "summary": "Setiap minggu Grok Bot penulis menyemak sama ada bayaran dibuat dengan kad kredit yang salah dan menandakannya jika ya. Penulis kata ini rutin paling kecil tetapi yang membayar balik langganan."
+        },
+        "vi": {
+          "title": "Routine hằng tuần: bắt lỗi thanh toán nhầm thẻ",
+          "summary": "Mỗi tuần Grok Bot của tác giả kiểm tra xem có khoản nào trả nhầm thẻ tín dụng không và đánh dấu nếu có. Tác giả nói đây là routine nhỏ nhất nhưng là cái giúp gỡ lại tiền gói đăng ký."
+        },
+        "fr": {
+          "title": "Routine hebdo : repérer les paiements sur la mauvaise carte",
+          "summary": "Chaque semaine, le Grok Bot de l'auteur vérifie si un achat a été payé avec la mauvaise carte bancaire et le signale le cas échéant. C'est sa plus petite routine, et celle qui rentabilise l'abonnement."
+        },
+        "es": {
+          "title": "Rutina semanal: detectar pagos con la tarjeta equivocada",
+          "summary": "Cada semana el Grok Bot del autor revisa si pagó algo con la tarjeta de crédito equivocada y, si es así, lo marca. Es su rutina más pequeña y la que paga la suscripción."
+        },
+        "de": {
+          "title": "Wöchentliche Routine: Zahlungen mit falscher Karte finden",
+          "summary": "Jede Woche prüft der Grok Bot des Autors, ob mit der falschen Kreditkarte bezahlt wurde, und markiert das. Laut Autor seine kleinste Routine und die, die das Abo bezahlt."
+        }
+      },
+      "source_url": "https://x.com/bruno_munhoz/status/2126301765364568468",
+      "source_name": "X",
+      "author": "bruno_munhoz",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-27",
+      "likes": 0,
+      "src": "x",
+      "text": "Every week grok @bot checks if I paid with the wrong credit card\n\nIf I did, it flags it\n\nSmallest routine I run, and the one that pays for the sub",
+      "media": [],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-brunomunhoz-2126301765364568468",
+      "scen": [
+        "report",
+        "shop"
+      ]
+    },
+    {
+      "title": "两人小公司用 Grok Bot 搭网店",
+      "summary": "Struq 是一家只有作者和一位合伙人的荷兰小公司。Grok Bot 搭建了他们的网店并处理琐事，作者仍会审核并做所有决定。他们的产品是不带日期的计划本 Focusboek。",
+      "en": {
+        "title": "A two-person Dutch shop built by Grok Bot",
+        "summary": "Struq is a tiny Dutch company of the author and one business partner. Grok Bot built their shop and handles the boring parts; the author still reviews and decides everything. Their product is the Focusboek, an undated planner."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "两人小公司用 Grok Bot 搭网店",
+          "summary": "Struq 是一家只有作者和一位合伙人的荷兰小公司。Grok Bot 搭建了他们的网店并处理琐事，作者仍会审核并做所有决定。他们的产品是不带日期的计划本 Focusboek。"
+        },
+        "zh-TW": {
+          "title": "兩人小公司用 Grok Bot 架網店",
+          "summary": "Struq 是一家只有作者和一位合夥人的荷蘭小公司。Grok Bot 架設了他們的網店並處理瑣事，作者仍會審核並做所有決定。他們的產品是不帶日期的計畫本 Focusboek。"
+        },
+        "en": {
+          "title": "A two-person Dutch shop built by Grok Bot",
+          "summary": "Struq is a tiny Dutch company of the author and one business partner. Grok Bot built their shop and handles the boring parts; the author still reviews and decides everything. Their product is the Focusboek, an undated planner."
+        },
+        "ja": {
+          "title": "2 人のオランダ企業が Grok Bot でショップ構築",
+          "summary": "Struq は投稿者とビジネスパートナーの 2 人だけのオランダの小さな会社。Grok Bot がショップを作り面倒な作業を担当し、投稿者は今もすべてをレビューし決定している。製品は日付なしプランナー Focusboek。"
+        },
+        "ko": {
+          "title": "2인 네덜란드 회사가 Grok Bot으로 만든 쇼핑몰",
+          "summary": "Struq는 작성자와 사업 파트너 둘뿐인 네덜란드 소기업이다. Grok Bot이 쇼핑몰을 만들고 귀찮은 일을 맡으며, 작성자는 여전히 모든 것을 검토하고 결정한다. 제품은 날짜 없는 플래너 Focusboek이다."
+        },
+        "ms": {
+          "title": "Kedai syarikat Belanda dua orang dibina Grok Bot",
+          "summary": "Struq ialah syarikat kecil Belanda milik penulis dan seorang rakan niaga. Grok Bot membina kedai mereka dan mengurus kerja remeh; penulis masih menyemak dan memutuskan semuanya. Produk mereka ialah Focusboek, perancang tanpa tarikh."
+        },
+        "vi": {
+          "title": "Công ty Hà Lan hai người dựng shop bằng Grok Bot",
+          "summary": "Struq là công ty nhỏ ở Hà Lan chỉ gồm tác giả và một đối tác. Grok Bot dựng cửa hàng và lo phần việc nhàm chán; tác giả vẫn duyệt và quyết định mọi thứ. Sản phẩm là Focusboek, sổ kế hoạch không in ngày."
+        },
+        "fr": {
+          "title": "Une boutique néerlandaise à deux construite par Grok Bot",
+          "summary": "Struq est une petite entreprise néerlandaise : l'auteur et un associé. Grok Bot a construit leur boutique et gère les tâches ennuyeuses ; l'auteur relit et décide toujours de tout. Leur produit est le Focusboek, un agenda non daté."
+        },
+        "es": {
+          "title": "Una tienda neerlandesa de dos personas hecha por Grok Bot",
+          "summary": "Struq es una pequeña empresa neerlandesa formada por el autor y un socio. Grok Bot construyó su tienda y se ocupa de lo aburrido; el autor sigue revisando y decidiendo todo. Su producto es el Focusboek, una agenda sin fechas."
+        },
+        "de": {
+          "title": "Ein Zwei-Personen-Shop aus den Niederlanden, gebaut von Grok Bot",
+          "summary": "Struq ist eine kleine niederländische Firma aus dem Autor und einem Geschäftspartner. Grok Bot hat ihren Shop gebaut und erledigt das Langweilige; der Autor prüft und entscheidet weiterhin alles. Ihr Produkt ist der Focusboek, ein undatierter Planer."
+        }
+      },
+      "source_url": "https://x.com/nateehall_/status/2126299264330637513",
+      "source_name": "X",
+      "author": "nateehall_",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-27",
+      "likes": 0,
+      "src": "x",
+      "text": "Struq is a tiny Dutch company: me and a business partner. Grok Bot built our shop and handles the boring parts. I still review and decide everything. Meet the Focusboek, our undated planner: https://t.co/fXuRwnOXsN https://t.co/cChmu8FcUw",
+      "media": [
+        "https://pbs.twimg.com/media/HYIh5ArbIAEvFBD.jpg"
+      ],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-nateehall-2126299264330637513",
+      "scen": []
+    },
+    {
+      "title": "免费 Grok Bot：帮你找回各州代管的无主资金",
+      "summary": "作者做了一个免费 Grok Bot「You Claim It」，替你、家人和公司在官方政府网站上搜索被各州代管的遗忘工资、押金和退款，并把每条匹配一路带到提交申领。作者称不收中介费。",
+      "en": {
+        "title": "A free Grok Bot that finds unclaimed money",
+        "summary": "The author built You Claim It, a free Grok Bot that searches official government sites for forgotten paychecks, deposits and refunds held by states for you, your family and your business, and walks each match to a filed claim. No finder fees, per the author."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "免费 Grok Bot：帮你找回各州代管的无主资金",
+          "summary": "作者做了一个免费 Grok Bot「You Claim It」，替你、家人和公司在官方政府网站上搜索被各州代管的遗忘工资、押金和退款，并把每条匹配一路带到提交申领。作者称不收中介费。"
+        },
+        "zh-TW": {
+          "title": "免費 Grok Bot：幫你找回各州代管的無主資金",
+          "summary": "作者做了一個免費 Grok Bot「You Claim It」，替你、家人和公司在官方政府網站上搜尋被各州代管的遺忘薪資、押金和退款，並把每筆匹配一路帶到提交申領。作者稱不收仲介費。"
+        },
+        "en": {
+          "title": "A free Grok Bot that finds unclaimed money",
+          "summary": "The author built You Claim It, a free Grok Bot that searches official government sites for forgotten paychecks, deposits and refunds held by states for you, your family and your business, and walks each match to a filed claim. No finder fees, per the author."
+        },
+        "ja": {
+          "title": "未請求の資金を探す無料 Grok Bot",
+          "summary": "投稿者は無料の Grok Bot「You Claim It」を作った。州が保管する忘れられた給与・預り金・返金を、本人・家族・事業について公式の政府サイトで検索し、該当ごとに請求の提出まで導く。仲介手数料はないとのこと。"
+        },
+        "ko": {
+          "title": "찾아가지 않은 돈을 찾아주는 무료 Grok Bot",
+          "summary": "작성자는 무료 Grok Bot 'You Claim It'을 만들었다. 주 정부가 보관 중인 잊힌 급여, 보증금, 환불금을 본인·가족·사업체 기준으로 공식 정부 사이트에서 검색하고, 일치 항목마다 청구 제출까지 안내한다. 수수료는 없다고 한다."
+        },
+        "ms": {
+          "title": "Grok Bot percuma untuk cari wang tidak dituntut",
+          "summary": "Penulis membina You Claim It, Grok Bot percuma yang mencari gaji, deposit dan bayaran balik terlupa yang dipegang negeri di laman rasmi kerajaan untuk anda, keluarga dan perniagaan, lalu membimbing setiap padanan hingga tuntutan difailkan. Tiada yuran pencari, kata penulis."
+        },
+        "vi": {
+          "title": "Grok Bot miễn phí tìm tiền chưa nhận",
+          "summary": "Tác giả làm You Claim It, một Grok Bot miễn phí tìm trên trang chính phủ chính thức các khoản lương, tiền cọc và tiền hoàn bị bang giữ hộ cho bạn, gia đình và doanh nghiệp, rồi dẫn từng kết quả tới khi nộp đơn nhận. Tác giả nói không thu phí môi giới."
+        },
+        "fr": {
+          "title": "Un Grok Bot gratuit qui retrouve l'argent non réclamé",
+          "summary": "L'auteur a créé You Claim It, un Grok Bot gratuit qui cherche sur les sites officiels les salaires, dépôts et remboursements oubliés détenus par les États pour vous, votre famille et votre entreprise, et mène chaque résultat jusqu'à une demande déposée. Sans frais, selon l'auteur."
+        },
+        "es": {
+          "title": "Un Grok Bot gratuito que busca dinero sin reclamar",
+          "summary": "El autor creó You Claim It, un Grok Bot gratuito que busca en sitios oficiales del gobierno sueldos, depósitos y reembolsos olvidados que retienen los estados para ti, tu familia y tu empresa, y lleva cada coincidencia hasta presentar la reclamación. Sin comisiones, según el autor."
+        },
+        "de": {
+          "title": "Ein kostenloser Grok Bot findet nicht abgeholtes Geld",
+          "summary": "Der Autor baute You Claim It, einen kostenlosen Grok Bot, der auf offiziellen Regierungsseiten nach vergessenen Gehältern, Kautionen und Erstattungen sucht, die Bundesstaaten für dich, deine Familie und dein Unternehmen verwahren, und jeden Treffer bis zum eingereichten Antrag begleitet. Laut Autor ohne Vermittlungsgebühr."
+        }
+      },
+      "source_url": "https://x.com/TeslaTakesOver/status/2126298598597910553",
+      "source_name": "X",
+      "author": "TeslaTakesOver",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-27",
+      "likes": 3,
+      "src": "x",
+      "text": "🤠 Got money waiting on you? States are holding billions in forgotten paychecks, deposits &amp; refunds.\n\nI built You Claim It, a free Grok Bot that searches the official government sites for you, your family &amp; your business and walks each match to a filed claim. No finder fees,",
+      "media": [],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-teslatakesover-2126298598597910553",
+      "scen": [
+        "family",
+        "ship"
+      ]
+    },
+    {
+      "title": "让 Bot 帮你清理记忆：保留、更新、移动或遗忘",
+      "summary": "作者问自己的 Grok Bot「幕僚长」如何在不丢重要信息的前提下清理记忆。它的第一条建议是改动前先存一份副本，然后给每条笔记一个决定：KEEP、UPDATE、MOVE 或 FORGET。",
+      "en": {
+        "title": "Cleaning up Bot memory: keep, update, move or forget",
+        "summary": "The author asked their Grok Bot chief of staff how to clean up its memory without losing anything important. Its first advice: save a copy before changing anything, then give every note one of four decisions: KEEP, UPDATE, MOVE or FORGET."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "让 Bot 帮你清理记忆：保留、更新、移动或遗忘",
+          "summary": "作者问自己的 Grok Bot「幕僚长」如何在不丢重要信息的前提下清理记忆。它的第一条建议是改动前先存一份副本，然后给每条笔记一个决定：KEEP、UPDATE、MOVE 或 FORGET。"
+        },
+        "zh-TW": {
+          "title": "讓 Bot 幫你清理記憶：保留、更新、移動或遺忘",
+          "summary": "作者問自己的 Grok Bot「幕僚長」如何在不丟重要資訊的前提下清理記憶。它的第一條建議是改動前先存一份副本，然後給每條筆記一個決定：KEEP、UPDATE、MOVE 或 FORGET。"
+        },
+        "en": {
+          "title": "Cleaning up Bot memory: keep, update, move or forget",
+          "summary": "The author asked their Grok Bot chief of staff how to clean up its memory without losing anything important. Its first advice: save a copy before changing anything, then give every note one of four decisions: KEEP, UPDATE, MOVE or FORGET."
+        },
+        "ja": {
+          "title": "Bot のメモリ整理：KEEP・UPDATE・MOVE・FORGET",
+          "summary": "投稿者は Grok Bot の「チーフ・オブ・スタッフ」に、重要なものを失わずにメモリを整理する方法を尋ねた。最初の提案は、変更前にコピーを保存すること。次に各メモに KEEP、UPDATE、MOVE、FORGET のいずれかを決めることだった。"
+        },
+        "ko": {
+          "title": "Bot 메모리 정리: KEEP, UPDATE, MOVE, FORGET",
+          "summary": "작성자는 Grok Bot 비서실장에게 중요한 것을 잃지 않고 메모리를 정리하는 법을 물었다. 첫 조언은 바꾸기 전에 사본을 저장하라는 것, 그다음 모든 메모에 KEEP, UPDATE, MOVE, FORGET 중 하나를 정하라는 것이었다."
+        },
+        "ms": {
+          "title": "Kemas memori Bot: simpan, kemas kini, pindah atau lupa",
+          "summary": "Penulis bertanya kepada Grok Bot ketua stafnya cara mengemas memori tanpa kehilangan perkara penting. Nasihat pertamanya: simpan salinan sebelum mengubah apa-apa, kemudian beri setiap nota satu keputusan: KEEP, UPDATE, MOVE atau FORGET."
+        },
+        "vi": {
+          "title": "Dọn bộ nhớ Bot: giữ, cập nhật, chuyển hoặc quên",
+          "summary": "Tác giả hỏi Grok Bot \"chánh văn phòng\" của mình cách dọn bộ nhớ mà không mất gì quan trọng. Lời khuyên đầu tiên: lưu một bản sao trước khi thay đổi, rồi gán cho mỗi ghi chú một trong bốn quyết định KEEP, UPDATE, MOVE hoặc FORGET."
+        },
+        "fr": {
+          "title": "Nettoyer la mémoire du Bot : garder, mettre à jour, déplacer ou oublier",
+          "summary": "L'auteur a demandé à son Grok Bot chef de cabinet comment nettoyer sa mémoire sans rien perdre d'important. Premier conseil : sauvegarder une copie avant tout changement, puis attribuer à chaque note une décision : KEEP, UPDATE, MOVE ou FORGET."
+        },
+        "es": {
+          "title": "Limpiar la memoria del Bot: conservar, actualizar, mover u olvidar",
+          "summary": "El autor preguntó a su Grok Bot jefe de gabinete cómo limpiar su memoria sin perder nada importante. Su primer consejo: guardar una copia antes de cambiar nada y luego dar a cada nota una de cuatro decisiones: KEEP, UPDATE, MOVE o FORGET."
+        },
+        "de": {
+          "title": "Bot-Gedächtnis aufräumen: behalten, aktualisieren, verschieben, vergessen",
+          "summary": "Der Autor fragte seinen Grok Bot Stabschef, wie man das Gedächtnis aufräumt, ohne Wichtiges zu verlieren. Erster Rat: vor jeder Änderung eine Kopie sichern, dann jeder Notiz eine von vier Entscheidungen geben: KEEP, UPDATE, MOVE oder FORGET."
+        }
+      },
+      "source_url": "https://x.com/Michael_Fenech_/status/2126272573604282665",
+      "source_name": "X",
+      "author": "Michael_Fenech_",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-11-27",
+      "likes": 9,
+      "src": "x",
+      "text": "I asked my Grok Bot Chief of Staff how to clean up its memory without losing anything important.\n\nIts first recommendation: save a copy before changing anything.\n\nThen give every note one of four decisions: KEEP, UPDATE, MOVE or FORGET.\n\nThat last part matters. An old note isn’t https://t.co/Q9pCa1zsUU",
+      "media": [
+        "https://pbs.twimg.com/media/HYEi27nasAAHEGA.jpg"
+      ],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-michaelfenech-2126272573604282665",
+      "scen": []
+    },
+    {
+      "title": "一人公司用一队单一职责的 Grok Bot",
+      "summary": "作者用一队 Grok Bot 运营 keewy，每个 Bot 只做一件事：外联 Bot 每天早上找已融资的线索，销售 Bot 推进每笔交易，运营 Bot 管日历和预约，内容 Bot 出点子并校对帖子，后续还有更多。",
+      "en": {
+        "title": "Running a business with single-job Grok Bots",
+        "summary": "The author runs keewy with a team of Grok Bot agents, each with one job: outreach finds funded leads every morning, sales keeps every deal moving, ops runs the calendar and bookings, content suggests ideas and proofreads posts, with more in the thread."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "一人公司用一队单一职责的 Grok Bot",
+          "summary": "作者用一队 Grok Bot 运营 keewy，每个 Bot 只做一件事：外联 Bot 每天早上找已融资的线索，销售 Bot 推进每笔交易，运营 Bot 管日历和预约，内容 Bot 出点子并校对帖子，后续还有更多。"
+        },
+        "zh-TW": {
+          "title": "一人公司用一隊單一職責的 Grok Bot",
+          "summary": "作者用一隊 Grok Bot 經營 keewy，每個 Bot 只做一件事：外聯 Bot 每天早上找已融資的潛在客戶，銷售 Bot 推進每筆交易，營運 Bot 管行事曆和預約，內容 Bot 出點子並校對貼文，後續還有更多。"
+        },
+        "en": {
+          "title": "Running a business with single-job Grok Bots",
+          "summary": "The author runs keewy with a team of Grok Bot agents, each with one job: outreach finds funded leads every morning, sales keeps every deal moving, ops runs the calendar and bookings, content suggests ideas and proofreads posts, with more in the thread."
+        },
+        "ja": {
+          "title": "役割をひとつに絞った Grok Bot チームで事業運営",
+          "summary": "投稿者は keewy を Grok Bot エージェントのチームで運営し、各 Bot の役割はひとつ。アウトリーチは毎朝資金調達済みのリードを探し、営業は全案件を前に進め、オペレーションはカレンダーと予約を管理、コンテンツはアイデア出しと投稿の校正を担う。続きはスレッドに。"
+        },
+        "ko": {
+          "title": "한 가지 일만 하는 Grok Bot 팀으로 사업 운영",
+          "summary": "작성자는 Grok Bot 에이전트 팀으로 keewy를 운영하며 각 Bot은 한 가지 일만 한다. 아웃리치는 매일 아침 투자받은 리드를 찾고, 세일즈는 모든 딜을 진행시키고, 운영은 캘린더와 예약을, 콘텐츠는 아이디어와 게시물 교정을 맡는다. 나머지는 스레드에."
+        },
+        "ms": {
+          "title": "Menjalankan perniagaan dengan pasukan Grok Bot satu tugas",
+          "summary": "Penulis menjalankan keewy dengan pasukan ejen Grok Bot, setiap satu satu tugas: jangkauan mencari prospek yang sudah dibiayai setiap pagi, jualan menggerakkan setiap urusan, operasi mengurus kalendar dan tempahan, kandungan memberi idea dan menyemak hantaran. Selebihnya dalam bebenang."
+        },
+        "vi": {
+          "title": "Vận hành doanh nghiệp bằng đội Grok Bot mỗi con một việc",
+          "summary": "Tác giả vận hành keewy bằng một đội agent Grok Bot, mỗi con một việc: outreach tìm khách tiềm năng đã gọi vốn mỗi sáng, sales đẩy mọi thương vụ, ops lo lịch và đặt chỗ, content gợi ý ý tưởng và soát bài đăng. Phần còn lại trong thread."
+        },
+        "fr": {
+          "title": "Une entreprise tenue par des Grok Bots à tâche unique",
+          "summary": "L'auteur gère keewy avec une équipe d'agents Grok Bot, chacun avec une seule tâche : la prospection trouve chaque matin des leads financés, les ventes font avancer chaque affaire, les opérations gèrent agenda et réservations, le contenu propose des idées et relit les posts. La suite est dans le fil."
+        },
+        "es": {
+          "title": "Un negocio llevado por Grok Bots de una sola tarea",
+          "summary": "El autor dirige keewy con un equipo de agentes Grok Bot, cada uno con una sola tarea: prospección encuentra cada mañana leads con financiación, ventas mueve cada trato, operaciones lleva el calendario y las reservas, contenido da ideas y corrige publicaciones. El resto en el hilo."
+        },
+        "de": {
+          "title": "Ein Unternehmen mit Grok Bots, die je eine Aufgabe haben",
+          "summary": "Der Autor führt keewy mit einem Team aus Grok-Bot-Agenten, jeder mit genau einer Aufgabe: Outreach findet jeden Morgen finanzierte Leads, Sales treibt jeden Deal voran, Ops führt Kalender und Buchungen, Content liefert Ideen und korrigiert Posts. Mehr im Thread."
+        }
+      },
+      "source_url": "https://x.com/mariannehere/status/2126240833800110404",
+      "source_name": "X",
+      "author": "mariannehere",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-27",
+      "likes": 18,
+      "src": "x",
+      "text": "i run keewy with a team of grok bot agents, and each one has a single job.\n\nhere's how the team is set up:\n\n1. outreach finds funded leads every morning\n2. sales keeps every deal moving\n3. ops runs the calendar and bookings\n4. content gives me ideas and proofreads my posts\n5. https://t.co/QmF9SctOPI",
+      "media": [
+        "https://pbs.twimg.com/media/HYHsiLfWUAAMyvC.png"
+      ],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-mariannehere-2126240833800110404",
+      "scen": [
+        "social",
+        "calendar",
+        "finance"
+      ]
+    },
+    {
+      "title": "Meta Muse 做感恩节采购清单和时间表，有疏漏",
+      "summary": "作者和 Meta Muse 一起定了感恩节菜单，Muse 做了采购清单和备餐时间表。但时间表没用上它让买的食材，时间偏差 2 小时，还漏了关键步骤，最后靠经验补齐，晚餐仍然很成功。",
+      "en": {
+        "title": "Meta Muse planned Thanksgiving shopping, with gaps",
+        "summary": "The author planned a Thanksgiving menu and Meta Muse built a grocery list and cooking timeline. The timeline forgot items it said to buy, was off by 2 hours and left out key steps; experience filled the gaps and dinner was delicious."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Meta Muse 做感恩节采购清单和时间表，有疏漏",
+          "summary": "作者和 Meta Muse 一起定了感恩节菜单，Muse 做了采购清单和备餐时间表。但时间表没用上它让买的食材，时间偏差 2 小时，还漏了关键步骤，最后靠经验补齐，晚餐仍然很成功。"
+        },
+        "zh-TW": {
+          "title": "Meta Muse 做感恩節採購清單和時間表，有疏漏",
+          "summary": "作者和 Meta Muse 一起定了感恩節菜單，Muse 做了採購清單和備餐時間表。但時間表沒用上它叫人買的食材，時間偏差 2 小時，還漏了關鍵步驟，最後靠經驗補齊，晚餐仍然很成功。"
+        },
+        "en": {
+          "title": "Meta Muse planned Thanksgiving shopping, with gaps",
+          "summary": "The author planned a Thanksgiving menu and Meta Muse built a grocery list and cooking timeline. The timeline forgot items it said to buy, was off by 2 hours and left out key steps; experience filled the gaps and dinner was delicious."
+        },
+        "ja": {
+          "title": "Meta Muse の感謝祭の買い物リストと段取り、抜けあり",
+          "summary": "投稿者は感謝祭のメニューを決め、Meta Muse が買い物リストと調理タイムラインを作った。だがタイムラインは買うよう言った食材を使い忘れ、2 時間ずれ、重要な手順も抜けていた。経験で補い、夕食はおいしくできた。"
+        },
+        "ko": {
+          "title": "Meta Muse의 추수감사절 장보기·일정, 빈틈 있어",
+          "summary": "작성자는 추수감사절 메뉴를 정했고 Meta Muse가 장보기 목록과 요리 일정을 만들었다. 하지만 일정은 사라고 한 재료를 쓰지 않았고 2시간 어긋났으며 핵심 단계가 빠졌다. 경험으로 메웠고 저녁은 맛있었다."
+        },
+        "ms": {
+          "title": "Meta Muse rancang belian Kesyukuran, ada kekurangan",
+          "summary": "Penulis merancang menu Hari Kesyukuran dan Meta Muse membina senarai barang dapur serta jadual memasak. Jadual itu terlupa bahan yang disuruh beli, lari 2 jam dan tertinggal langkah penting; pengalaman menampung kekurangan dan makan malam tetap sedap."
+        },
+        "vi": {
+          "title": "Meta Muse lên danh sách đi chợ Lễ Tạ ơn, còn sót",
+          "summary": "Tác giả lên thực đơn Lễ Tạ ơn và Meta Muse làm danh sách đi chợ cùng lịch nấu. Lịch nấu quên dùng đồ nó bảo mua, lệch 2 giờ và bỏ sót bước quan trọng; kinh nghiệm bù vào và bữa tối vẫn ngon."
+        },
+        "fr": {
+          "title": "Meta Muse a préparé les courses de Thanksgiving, avec des oublis",
+          "summary": "L'auteur a établi le menu de Thanksgiving et Meta Muse a fait la liste de courses et le planning de cuisson. Le planning oubliait des ingrédients qu'il disait d'acheter, était décalé de 2 heures et omettait des étapes clés ; l'expérience a comblé les manques et le dîner était délicieux."
+        },
+        "es": {
+          "title": "Meta Muse planificó la compra de Acción de Gracias, con fallos",
+          "summary": "El autor definió el menú de Acción de Gracias y Meta Muse hizo la lista de la compra y el cronograma. El cronograma olvidó usar lo que mandó comprar, iba 2 horas desfasado y omitía pasos clave; la experiencia cubrió los huecos y la cena salió deliciosa."
+        },
+        "de": {
+          "title": "Meta Muse plante den Thanksgiving-Einkauf, mit Lücken",
+          "summary": "Der Autor legte das Thanksgiving-Menü fest, Meta Muse erstellte Einkaufsliste und Zeitplan. Der Zeitplan vergaß Zutaten, die gekauft werden sollten, lag 2 Stunden daneben und ließ wichtige Schritte aus; Erfahrung füllte die Lücken, das Essen war köstlich."
+        }
+      },
+      "source_url": "https://x.com/CDButler/status/2126159767521440006",
+      "source_name": "X",
+      "author": "CDButler",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-11-27",
+      "likes": 0,
+      "src": "x",
+      "text": "We developed the Thanksgiving menu. @meta #muse built a grocery shopping list &amp; timeline to make dinner ready. It forgot to use the things it said to buy in the timeline. The timeline was off by 2 hours &amp; left out key steps. Experience filled the gaps. Delicious. #primerib https://t.co/LRmbB866Oq",
+      "media": [
+        "https://pbs.twimg.com/media/HYGjCj5WMAAQiul.jpg"
+      ],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-cdbutler-2126159767521440006",
+      "scen": [
+        "food",
+        "shop"
+      ]
+    },
+    {
+      "title": "垒球教练用 Meta Muse 管场地申请",
+      "summary": "作者是垒球教练，第 26 天的主题是场地和设施申请：申请晚交就可能挪训练或丢场地。他的助理 Meta Muse 把所有申请、许可和雨天预案放在一处，让日程稳得住。",
+      "en": {
+        "title": "A softball coach tracks field requests with Meta Muse",
+        "summary": "Day 26 for this softball coach: facility and field requests. A late request means a practice moved or lost, so the coach's assistant Meta Muse keeps every request, permit and rain plan in one place to keep the calendar holding."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "垒球教练用 Meta Muse 管场地申请",
+          "summary": "作者是垒球教练，第 26 天的主题是场地和设施申请：申请晚交就可能挪训练或丢场地。他的助理 Meta Muse 把所有申请、许可和雨天预案放在一处，让日程稳得住。"
+        },
+        "zh-TW": {
+          "title": "壘球教練用 Meta Muse 管場地申請",
+          "summary": "作者是壘球教練，第 26 天的主題是場地和設施申請：申請晚交就可能挪訓練或丟場地。他的助理 Meta Muse 把所有申請、許可和雨天備案放在一處，讓行程穩得住。"
+        },
+        "en": {
+          "title": "A softball coach tracks field requests with Meta Muse",
+          "summary": "Day 26 for this softball coach: facility and field requests. A late request means a practice moved or lost, so the coach's assistant Meta Muse keeps every request, permit and rain plan in one place to keep the calendar holding."
+        },
+        "ja": {
+          "title": "ソフトボールコーチが Meta Muse でグラウンド申請を管理",
+          "summary": "ソフトボールコーチの投稿者、26 日目のテーマは施設とグラウンドの申請。申請が遅れれば練習が移動するか失われる。アシスタントの Meta Muse が申請・許可・雨天時の計画をすべて一か所にまとめ、予定が崩れないようにしている。"
+        },
+        "ko": {
+          "title": "소프트볼 코치가 Meta Muse로 구장 신청 관리",
+          "summary": "소프트볼 코치인 작성자의 26일 차 주제는 시설·구장 신청이다. 신청이 늦으면 연습이 옮겨지거나 사라진다. 비서인 Meta Muse가 모든 신청, 허가, 우천 계획을 한곳에 모아 일정이 유지되게 한다."
+        },
+        "ms": {
+          "title": "Jurulatih sofbol urus permohonan padang dengan Meta Muse",
+          "summary": "Hari ke-26 jurulatih sofbol ini: permohonan kemudahan dan padang. Permohonan lewat bermakna latihan dipindah atau hilang, jadi pembantunya Meta Muse menyimpan setiap permohonan, permit dan pelan hujan di satu tempat supaya kalendar kekal."
+        },
+        "vi": {
+          "title": "HLV bóng mềm quản lý đơn xin sân bằng Meta Muse",
+          "summary": "Ngày 26 của huấn luyện viên bóng mềm này: đơn xin cơ sở và sân. Gửi đơn trễ là buổi tập bị dời hoặc mất, nên trợ lý Meta Muse gom mọi đơn, giấy phép và phương án trời mưa vào một chỗ để lịch giữ vững."
+        },
+        "fr": {
+          "title": "Un coach de softball gère ses demandes de terrain avec Meta Muse",
+          "summary": "Jour 26 pour ce coach de softball : les demandes d'installations et de terrain. Une demande tardive, c'est un entraînement déplacé ou perdu ; son assistant Meta Muse garde chaque demande, permis et plan pluie au même endroit pour que le calendrier tienne."
+        },
+        "es": {
+          "title": "Un entrenador de sóftbol gestiona solicitudes de campo con Meta Muse",
+          "summary": "Día 26 de este entrenador de sóftbol: solicitudes de instalaciones y campos. Una solicitud tardía es un entrenamiento movido o perdido, así que su asistente Meta Muse guarda cada solicitud, permiso y plan de lluvia en un solo lugar para que el calendario se mantenga."
+        },
+        "de": {
+          "title": "Softball-Coach verwaltet Platzanträge mit Meta Muse",
+          "summary": "Tag 26 für diesen Softball-Coach: Anlagen- und Platzanträge. Ein verspäteter Antrag heißt verschobenes oder verlorenes Training, daher hält sein Assistent Meta Muse alle Anträge, Genehmigungen und Regenpläne an einem Ort, damit der Kalender hält."
+        }
+      },
+      "source_url": "https://x.com/anthonycoaches/status/2126303883089924177",
+      "source_name": "X",
+      "author": "anthonycoaches",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-11-27",
+      "likes": 0,
+      "src": "x",
+      "text": "Day 26: facility and field requests. A field request sent late is a practice moved or lost. My assistant, Meta Muse, keeps every request, permit, and rain plan in one place so the calendar holds.\n\n#SoftballCoach #MetaMuse https://t.co/cRtNwbtYBa",
+      "media": [
+        "https://pbs.twimg.com/media/HYIlSjFbgAAOy_n.jpg"
+      ],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-anthonycoaches-2126303883089924177",
+      "scen": [
+        "calendar",
+        "research"
+      ]
+    },
+    {
+      "title": "Dots 自己发现了产品被提及",
+      "summary": "作者说自己的 Dot 在没有任何提示的情况下，自己找到了 Leica 一支营销视频里对 SolarWatch 的提及。",
+      "en": {
+        "title": "Dots found a product mention on its own",
+        "summary": "The author says their Dot found a mention of SolarWatch in a Leica marketing video completely on its own, without a prompt."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Dots 自己发现了产品被提及",
+          "summary": "作者说自己的 Dot 在没有任何提示的情况下，自己找到了 Leica 一支营销视频里对 SolarWatch 的提及。"
+        },
+        "zh-TW": {
+          "title": "Dots 自己發現了產品被提及",
+          "summary": "作者說自己的 Dot 在沒有任何提示的情況下，自己找到了 Leica 一支行銷影片裡對 SolarWatch 的提及。"
+        },
+        "en": {
+          "title": "Dots found a product mention on its own",
+          "summary": "The author says their Dot found a mention of SolarWatch in a Leica marketing video completely on its own, without a prompt."
+        },
+        "ja": {
+          "title": "Dots がプロダクトの言及を自力で発見",
+          "summary": "投稿者によると、自分の Dot がプロンプトなしで、Leica のマーケティング動画内の SolarWatch への言及を完全に自力で見つけた。"
+        },
+        "ko": {
+          "title": "Dots가 스스로 제품 언급을 찾아내다",
+          "summary": "작성자의 Dot이 아무 프롬프트 없이 완전히 스스로 Leica 마케팅 영상 속 SolarWatch 언급을 찾아냈다고 한다."
+        },
+        "ms": {
+          "title": "Dots menemui sebutan produk sendiri",
+          "summary": "Penulis berkata Dot miliknya menemui sebutan SolarWatch dalam video pemasaran Leica sepenuhnya sendiri, tanpa sebarang prompt."
+        },
+        "vi": {
+          "title": "Dots tự tìm ra lần sản phẩm được nhắc tới",
+          "summary": "Tác giả cho biết Dot của mình hoàn toàn tự tìm thấy một lần SolarWatch được nhắc trong video marketing của Leica, không cần prompt."
+        },
+        "fr": {
+          "title": "Dots a repéré seul une mention du produit",
+          "summary": "L'auteur raconte que son Dot a trouvé tout seul, sans prompt, une mention de SolarWatch dans une vidéo marketing de Leica."
+        },
+        "es": {
+          "title": "Dots encontró sola una mención del producto",
+          "summary": "El autor cuenta que su Dot encontró por sí sola, sin ningún prompt, una mención de SolarWatch en un video de marketing de Leica."
+        },
+        "de": {
+          "title": "Dots fand selbstständig eine Produkterwähnung",
+          "summary": "Laut Autor fand sein Dot ganz ohne Prompt eine Erwähnung von SolarWatch in einem Leica-Marketingvideo."
+        }
+      },
+      "source_url": "https://x.com/ekurutepe/status/2126243723562668538",
+      "source_name": "X",
+      "author": "ekurutepe",
+      "product": "openai-dots",
+      "type": "field-case",
+      "date": "2026-11-27",
+      "likes": 8,
+      "src": "x",
+      "text": "Wow! My Dot just found a mention of SolarWatch in a Leica marketing video, completely on its own, without a prompt.  \n\nhttps://t.co/Aa6LMPD7oK https://t.co/8k2MBkP04M",
+      "media": [],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-ekurutepe-2126243723562668538",
+      "scen": [
+        "research"
       ]
     },
     {
@@ -116382,6 +117306,79 @@
       "scen": []
     },
     {
+      "title": "CNET 用真实小票对比 Muse 和 Dots 的买菜能力",
+      "summary": "作者转述 CNET 的测试：给 Muse 和 ChatGPT Dots 真实的买菜小票，暴露出 3 个问题：搜索范围太窄、给的是泛泛建议而不是逐项计划、购物篮不对等，所以总价最低并不能证明省钱。",
+      "en": {
+        "title": "CNET tests Muse and Dots on real grocery receipts",
+        "summary": "Citing CNET, the author notes that giving Muse and ChatGPT Dots real grocery receipts surfaced 3 problems: narrow searches, broad advice instead of an itemized plan, and baskets that weren't equivalent, so the lowest total did not prove savings."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "CNET 用真实小票对比 Muse 和 Dots 的买菜能力",
+          "summary": "作者转述 CNET 的测试：给 Muse 和 ChatGPT Dots 真实的买菜小票，暴露出 3 个问题：搜索范围太窄、给的是泛泛建议而不是逐项计划、购物篮不对等，所以总价最低并不能证明省钱。"
+        },
+        "zh-TW": {
+          "title": "CNET 用真實收據對比 Muse 和 Dots 的買菜能力",
+          "summary": "作者轉述 CNET 的測試：給 Muse 和 ChatGPT Dots 真實的買菜收據，暴露出 3 個問題：搜尋範圍太窄、給的是籠統建議而不是逐項計畫、購物籃不對等，所以總價最低並不能證明省錢。"
+        },
+        "en": {
+          "title": "CNET tests Muse and Dots on real grocery receipts",
+          "summary": "Citing CNET, the author notes that giving Muse and ChatGPT Dots real grocery receipts surfaced 3 problems: narrow searches, broad advice instead of an itemized plan, and baskets that weren't equivalent, so the lowest total did not prove savings."
+        },
+        "ja": {
+          "title": "CNET が実際のレシートで Muse と Dots を比較",
+          "summary": "投稿者は CNET のテストを紹介。Muse と ChatGPT Dots に実際の食料品レシートを渡すと、検索範囲が狭い、品目別の計画でなく大まかな助言、比較対象のかごが同等でない、という 3 つの問題が出た。最安合計が節約の証明にはならない。"
+        },
+        "ko": {
+          "title": "CNET, 실제 영수증으로 Muse와 Dots 비교",
+          "summary": "작성자는 CNET 테스트를 소개한다. Muse와 ChatGPT Dots에 실제 장보기 영수증을 주자 3가지 문제가 드러났다. 좁은 검색, 항목별 계획 대신 포괄적 조언, 동등하지 않은 장바구니라서 최저 합계가 절약을 증명하지 못했다."
+        },
+        "ms": {
+          "title": "CNET uji Muse dan Dots dengan resit barang dapur sebenar",
+          "summary": "Memetik CNET, penulis menyatakan resit barang dapur sebenar yang diberi kepada Muse dan ChatGPT Dots menunjukkan 3 masalah: carian sempit, nasihat umum bukan pelan terperinci, dan bakul tidak setara, jadi jumlah terendah tidak membuktikan penjimatan."
+        },
+        "vi": {
+          "title": "CNET thử Muse và Dots bằng hóa đơn đi chợ thật",
+          "summary": "Dẫn lại CNET, tác giả cho biết khi đưa hóa đơn đi chợ thật cho Muse và ChatGPT Dots, lộ ra 3 vấn đề: tìm kiếm hẹp, lời khuyên chung chung thay vì kế hoạch từng món, và giỏ hàng không tương đương, nên tổng thấp nhất chưa chứng minh tiết kiệm."
+        },
+        "fr": {
+          "title": "CNET teste Muse et Dots sur de vrais tickets de courses",
+          "summary": "Citant CNET, l'auteur note que de vrais tickets de courses donnés à Muse et ChatGPT Dots ont révélé 3 problèmes : recherches trop étroites, conseils généraux au lieu d'un plan détaillé, et paniers non équivalents, donc le total le plus bas ne prouvait pas d'économie."
+        },
+        "es": {
+          "title": "CNET prueba Muse y Dots con tickets reales del súper",
+          "summary": "Citando a CNET, el autor señala que dar a Muse y ChatGPT Dots tickets reales de supermercado reveló 3 problemas: búsquedas estrechas, consejos generales en vez de un plan detallado y cestas no equivalentes, así que el total más bajo no probaba ahorro."
+        },
+        "de": {
+          "title": "CNET testet Muse und Dots mit echten Einkaufsbelegen",
+          "summary": "Unter Berufung auf CNET berichtet der Autor, dass echte Einkaufsbelege für Muse und ChatGPT Dots 3 Probleme zeigten: zu enge Suchen, allgemeine Ratschläge statt eines Plans pro Posten und nicht vergleichbare Warenkörbe, sodass die niedrigste Summe keine Ersparnis belegte."
+        }
+      },
+      "source_url": "https://x.com/friedbeef/status/2126185515321885112",
+      "source_name": "X",
+      "author": "friedbeef",
+      "product": "multi",
+      "type": "comparison",
+      "date": "2026-11-27",
+      "likes": 0,
+      "src": "x",
+      "text": "I love a test with real receipts. 🛒\n\nCNET gave Muse and ChatGPT Dots grocery receipts, and 3 problems showed up: narrow searches, broad advice instead of an itemized plan, and baskets that were not equivalent - the lowest total did not prove savings.\n\nhttps://t.co/ByaHKEOXcq https://t.co/OzFHzL62jm",
+      "media": [
+        "https://pbs.twimg.com/media/HYG6dZmXgAAjx3S.jpg"
+      ],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-friedbeef-2126185515321885112",
+      "scen": [
+        "food",
+        "shop"
+      ]
+    },
+    {
       "title": "Claude 和 Grok Bot 怎么分工",
       "summary": "作者建议：深度的一次性思考和写作留给 Claude，把重复性工作交给 Grok Bot，例如定时任务、收件箱、监控，以及任何应在你不在时运行的事。先从一个无聊的每周任务开始，再逐步扩展。",
       "en": {
@@ -125572,6 +126569,147 @@
       "scen": [
         "prs"
       ]
+    },
+    {
+      "title": "清理 Gmail 旧邮件吃掉 20% 用量",
+      "summary": "作者让 Grok Bot 把多年的 LinkedIn 旧邮件从 Gmail 收件箱移到垃圾箱，结果光这一步就用掉了 20% 的用量，并追问官方 token 问题修好没有。",
+      "en": {
+        "title": "Clearing old Gmail cost 20% of usage",
+        "summary": "The author asked Grok Bot to move years of old LinkedIn emails from the Gmail inbox to the bin; that alone used 20% of their usage, and they ask whether the token issue has been fixed."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "清理 Gmail 旧邮件吃掉 20% 用量",
+          "summary": "作者让 Grok Bot 把多年的 LinkedIn 旧邮件从 Gmail 收件箱移到垃圾箱，结果光这一步就用掉了 20% 的用量，并追问官方 token 问题修好没有。"
+        },
+        "zh-TW": {
+          "title": "清理 Gmail 舊郵件吃掉 20% 用量",
+          "summary": "作者讓 Grok Bot 把多年的 LinkedIn 舊郵件從 Gmail 收件匣移到垃圾桶，結果光這一步就用掉了 20% 的用量，並追問官方 token 問題修好沒有。"
+        },
+        "en": {
+          "title": "Clearing old Gmail cost 20% of usage",
+          "summary": "The author asked Grok Bot to move years of old LinkedIn emails from the Gmail inbox to the bin; that alone used 20% of their usage, and they ask whether the token issue has been fixed."
+        },
+        "ja": {
+          "title": "Gmail の古いメール整理で使用量の 20% を消費",
+          "summary": "投稿者は Grok Bot に Gmail の受信箱から長年の LinkedIn メールをゴミ箱へ移すよう頼んだところ、それだけで使用量の 20% を使ったという。トークンの問題は直ったのかと問いかけている。"
+        },
+        "ko": {
+          "title": "Gmail 옛 메일 정리에 사용량 20% 소모",
+          "summary": "작성자는 Grok Bot에게 수년간 쌓인 LinkedIn 메일을 Gmail 받은편지함에서 휴지통으로 옮기라고 했는데, 그것만으로 사용량의 20%가 들었다며 토큰 문제가 고쳐졌는지 묻는다."
+        },
+        "ms": {
+          "title": "Membersihkan Gmail lama guna 20% kuota",
+          "summary": "Penulis meminta Grok Bot memindahkan e-mel LinkedIn bertahun-tahun dari peti masuk Gmail ke tong sampah; itu sahaja menggunakan 20% kuota, dan dia bertanya sama ada isu token sudah dibaiki."
+        },
+        "vi": {
+          "title": "Dọn email Gmail cũ tốn 20% hạn mức",
+          "summary": "Tác giả nhờ Grok Bot chuyển email LinkedIn cũ nhiều năm từ hộp thư Gmail vào thùng rác; riêng việc đó đã ngốn 20% hạn mức, và tác giả hỏi lỗi token đã được sửa chưa."
+        },
+        "fr": {
+          "title": "Vider de vieux e-mails Gmail a coûté 20 % du quota",
+          "summary": "L'auteur a demandé à Grok Bot de déplacer des années d'anciens e-mails LinkedIn de la boîte Gmail vers la corbeille ; cela seul a consommé 20 % de son quota, et il demande si le problème de tokens est corrigé."
+        },
+        "es": {
+          "title": "Limpiar correos viejos de Gmail costó un 20 % del uso",
+          "summary": "El autor pidió a Grok Bot mover años de correos antiguos de LinkedIn de la bandeja de Gmail a la papelera; solo eso consumió el 20 % de su uso, y pregunta si ya arreglaron el problema de tokens."
+        },
+        "de": {
+          "title": "Alte Gmail-Mails aufräumen kostete 20 % Nutzung",
+          "summary": "Der Autor ließ Grok Bot jahrelang gesammelte LinkedIn-Mails aus dem Gmail-Posteingang in den Papierkorb verschieben; allein das verbrauchte 20 % seines Kontingents, und er fragt, ob das Token-Problem behoben ist."
+        }
+      },
+      "source_url": "https://x.com/FridayNightHQ/status/2126293565915468088",
+      "source_name": "X",
+      "author": "FridayNightHQ",
+      "product": "grok-bot",
+      "type": "quota-report",
+      "date": "2026-11-27",
+      "likes": 0,
+      "src": "x",
+      "text": "Asked Grok Bot to clear years of old LinkedIn emails out of my Gmail. It ate a whopping 20% of my usage just moving them from inbox to bin 😭\n\nGuys, did you fix the token issue or not?\n\n@mattyp https://t.co/gHkwtGzL1A",
+      "media": [
+        "https://pbs.twimg.com/media/HYIcuiDXQAEp9FE.jpg"
+      ],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-fridaynighthq-2126293565915468088",
+      "scen": [
+        "inbox",
+        "social"
+      ]
+    },
+    {
+      "title": "用量提升：套餐多约 11%，例程最多多 50%",
+      "summary": "作者转述 Grok Bot 团队 Sam Sokolin 的说法：优化例程运行框架、让简单重复的运行跳过推理后，套餐用量应能多用约 11%，例程最多多用约 50%。作者认为更值得注意的是例程提升的原因。",
+      "en": {
+        "title": "Usage boost: about 11% more on plans, up to 50% on routines",
+        "summary": "Citing Sam Sokolin of the Grok Bot team, the author says plans should go about 11% further and routines up to 50% further after the routine harness was optimized to skip inference on simple, repetitive runs; the author argues the reason behind the routine gain is the useful part."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用量提升：套餐多约 11%，例程最多多 50%",
+          "summary": "作者转述 Grok Bot 团队 Sam Sokolin 的说法：优化例程运行框架、让简单重复的运行跳过推理后，套餐用量应能多用约 11%，例程最多多用约 50%。作者认为更值得注意的是例程提升的原因。"
+        },
+        "zh-TW": {
+          "title": "用量提升：方案多約 11%，例程最多多 50%",
+          "summary": "作者轉述 Grok Bot 團隊 Sam Sokolin 的說法：最佳化例程執行框架、讓簡單重複的執行跳過推理後，方案用量應能多用約 11%，例程最多多用約 50%。作者認為更值得注意的是例程提升的原因。"
+        },
+        "en": {
+          "title": "Usage boost: about 11% more on plans, up to 50% on routines",
+          "summary": "Citing Sam Sokolin of the Grok Bot team, the author says plans should go about 11% further and routines up to 50% further after the routine harness was optimized to skip inference on simple, repetitive runs; the author argues the reason behind the routine gain is the useful part."
+        },
+        "ja": {
+          "title": "使用量の拡大：プランは約 11%、ルーティンは最大 50%",
+          "summary": "投稿者は Grok Bot チームの Sam Sokolin の発言を引用。単純な繰り返し実行で推論を省くようルーティンの実行基盤を最適化した結果、プランは約 11%、ルーティンは最大 50% 長く使えるという。投稿者は、ルーティン増加の理由こそ重要だと述べる。"
+        },
+        "ko": {
+          "title": "사용량 확대: 플랜 약 11%, 루틴 최대 50%",
+          "summary": "작성자는 Grok Bot 팀 Sam Sokolin의 말을 인용한다. 단순 반복 실행에서 추론을 건너뛰도록 루틴 실행 환경을 최적화해 플랜은 약 11%, 루틴은 최대 50% 더 쓸 수 있다고 한다. 작성자는 루틴이 늘어난 이유가 핵심이라고 본다."
+        },
+        "ms": {
+          "title": "Kuota bertambah: kira-kira 11% pelan, hingga 50% rutin",
+          "summary": "Memetik Sam Sokolin daripada pasukan Grok Bot, penulis berkata pelan kini boleh pergi kira-kira 11% lebih jauh dan rutin hingga 50% selepas kerangka rutin dioptimumkan untuk melangkau inferens pada larian mudah dan berulang; penulis berpendapat sebab peningkatan rutin itulah yang penting."
+        },
+        "vi": {
+          "title": "Tăng hạn mức: gói thêm khoảng 11%, routine tới 50%",
+          "summary": "Dẫn lời Sam Sokolin của đội Grok Bot, tác giả cho biết gói dùng được thêm khoảng 11% và routine thêm tới 50% sau khi tối ưu khung chạy routine để bỏ qua suy luận ở các lượt chạy đơn giản, lặp lại; tác giả cho rằng lý do routine tăng mới là điểm đáng chú ý."
+        },
+        "fr": {
+          "title": "Quota en hausse : environ 11 % sur les forfaits, jusqu'à 50 % sur les routines",
+          "summary": "Citant Sam Sokolin de l'équipe Grok Bot, l'auteur indique que les forfaits vont environ 11 % plus loin et les routines jusqu'à 50 %, après optimisation du moteur de routines pour sauter l'inférence sur les exécutions simples et répétitives ; selon lui, c'est la raison du gain sur les routines qui compte."
+        },
+        "es": {
+          "title": "Más uso: cerca de 11 % en planes y hasta 50 % en rutinas",
+          "summary": "Citando a Sam Sokolin del equipo de Grok Bot, el autor dice que los planes rinden un 11 % más y las rutinas hasta un 50 % más tras optimizar el motor de rutinas para saltarse la inferencia en ejecuciones simples y repetitivas; lo útil, según él, es el motivo del aumento en rutinas."
+        },
+        "de": {
+          "title": "Mehr Kontingent: etwa 11 % bei Plänen, bis zu 50 % bei Routinen",
+          "summary": "Mit Verweis auf Sam Sokolin vom Grok-Bot-Team schreibt der Autor, Pläne reichen nun etwa 11 % weiter und Routinen bis zu 50 %, weil der Routine-Harness bei einfachen, wiederholten Läufen die Inferenz überspringt; wichtig sei vor allem der Grund für das Routine-Plus."
+        }
+      },
+      "source_url": "https://x.com/LiuLiuchn/status/2126248073391186033",
+      "source_name": "X",
+      "author": "LiuLiuchn",
+      "product": "grok-bot",
+      "type": "quota-report",
+      "date": "2026-11-27",
+      "likes": 0,
+      "src": "x",
+      "text": "The useful part of Grok Bot's usage boost isn't the 11%. It's why routines got up to 50%.\n\nSam Sokolin on the Grok Bot team says plans should now go about 11% further, and routines up to 50% further, after they optimized the routine harness to skip inference on simple, repetitive",
+      "media": [],
+      "added_at": "2026-11-27T13:40:33.795Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-liuliuchn-2126248073391186033",
+      "scen": []
     },
     {
       "title": "用户反馈：Grok Bot 的 token 消耗比 Muse 快得多",
