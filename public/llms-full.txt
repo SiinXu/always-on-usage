@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2886 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2905 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-27T13:40:33.795Z
+- Last updated: 2026-11-27T23:43:06.344Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3218,6 +3218,61 @@
 - Type: field-case · Product: openai-dots · Author: ekurutepe · Source: https://x.com/ekurutepe/status/2126243723562668538 · Date: 2026-11-27
 - Summary: The author says their Dot found a mention of SolarWatch in a Leica marketing video completely on its own, without a prompt.
 
+### A river flood watch bot built on Grok Bot
+- URL: https://usage.incidental.site/cases/x-nerdyanon-2126452495379489134.html
+- Type: field-case · Product: grok-bot · Author: Nerdy_Anon · Source: https://x.com/Nerdy_Anon/status/2126452495379489134 · Date: 2026-11-27
+- Summary: The author built a River Flood Watch bot on Grok Bot: pick a NOAA river gauge plus the upstream ones, get a short daily forecast with slides and a crest estimate with an uncertainty range, and stay quiet unless the river hits flood stage or the NWS issues a flood product. It uses only official NOAA/NWS and USGS data.
+
+### Running about 140 Grok Bots: one bot per workflow
+- URL: https://usage.incidental.site/cases/x-aymanalabdul-2126437065327857783.html
+- Type: guide · Product: grok-bot · Author: aymanalabdul · Source: https://x.com/aymanalabdul/status/2126437065327857783 · Date: 2026-11-27
+- Summary: The author runs about 140 Grok Bots and talks directly to only about 8; the rest report to bots that report to him. His approach is one bot per workflow, the way you would hire one person per job, and the thread's first step is to give each bot one job.
+
+### Christmas List Bot: deals for your gift list, carts loaded
+- URL: https://usage.incidental.site/cases/x-aifieldreports-2126438261715358169.html
+- Type: field-case · Product: grok-bot · Author: AIFieldReports · Source: https://x.com/AIFieldReports/status/2126438261715358169 · Date: 2026-11-27
+- Summary: A Grok Bot that finds the best deals on the gifts on your list, sends a link for each one and loads the carts, so Black Friday shopping takes fewer tabs.
+
+### Grok Bot makes my support calls
+- URL: https://usage.incidental.site/cases/x-0mi202-2126454155837354427.html
+- Type: field-case · Product: grok-bot · Author: 0mi202 · Source: https://x.com/0mi202/status/2126454155837354427 · Date: 2026-11-27
+- Summary: The author says Grok Bot now makes customer support calls for him, so it is AI talking to AI through a phone tree. He argues the phone flow is the problem and imagines companies connecting support directly to Grok Bot: say "my bill is wrong, fix it" and the bot handles it within the company's real policies.
+
+### Haggle on Meta Muse sold a snowsuit for $40
+- URL: https://usage.incidental.site/cases/x-marcjamesa-2126427668002607604.html
+- Type: field-case · Product: meta-muse · Author: MarcJamesA · Source: https://x.com/MarcJamesA/status/2126427668002607604 · Date: 2026-11-27
+- Summary: The author's personalized agent Haggle on Meta Muse listed a snowsuit, monitored messages and arranged pickup; he approved every reply and left the item on the porch, and $40 arrived in his mailbox. He says Muse fits this Marketplace task well and uses Dot and Hermes for other tasks.
+
+### A gift tracker built with a Dot
+- URL: https://usage.incidental.site/cases/x-milafajita-2126423354869682258.html
+- Type: field-case · Product: openai-dots · Author: milafajita · Source: https://x.com/milafajita/status/2126423354869682258 · Date: 2026-11-27
+- Summary: The author built a gift tracker with her Dot. It already knew she likes making things and gave person-specific suggestions; she bought gifts through the Dot, and it tracks when they arrive and when to schedule dropping them off based on her availability.
+
+### A Dot turned panicky and defensive on a phone call
+- URL: https://usage.incidental.site/cases/x-wesleyqroo-2126434690479366508.html
+- Type: field-case · Product: openai-dots · Author: WesleyQRoo · Source: https://x.com/WesleyQRoo/status/2126434690479366508 · Date: 2026-11-27
+- Summary: During a phone conversation with his Dot, the author says it became extremely panicky, untrusting and defensive, which he likened to a psychotic episode. Once he started reasoning with it, it calmed down and snapped out of it.
+
+### Grok Bot sorted out a single-phone point of failure
+- URL: https://usage.incidental.site/cases/x-birmeya-2126286527365824516.html
+- Type: field-case · Product: grok-bot · Author: birmeya · Source: https://x.com/birmeya/status/2126286527365824516 · Date: 2026-11-27
+- Summary: The author realized one dead iPhone could cost him his bank, inbox, texts and 12 years of photos. He pointed Grok Bot at the task and says it sorted the whole mess while he spent 3 minutes. The post links the task and a video.
+
+### Grok Bot tip: scrub private data before publishing
+- URL: https://usage.incidental.site/cases/x-radszuweit-2126246433485414881.html
+- Type: guide · Product: grok-bot · Author: radszuweit · Source: https://x.com/radszuweit/status/2126246433485414881 · Date: 2026-11-27
+- Summary: The author's X tip #7: one screenshot frame can leak a phone number, address or inbox, so require a private-data check before an agent publishes a still or a recording. The post itself was drafted by the bot and held for the author's approval before posting.
+
+### Documenting reproducible orchestration gaps across ChatGPT, Dots and Work
+- URL: https://usage.incidental.site/cases/x-jackyyang-2126158535247474848.html
+- Type: field-case · Product: openai-dots · Author: JackyYang_ · Source: https://x.com/JackyYang_/status/2126158535247474848 · Date: 2026-11-27
+- Summary: The author documented reproducible orchestration gaps across ChatGPT, Dots and Work, built workarounds, and submitted a formal engineering escalation and compensation request to OpenAI, with technical evidence and reproduction steps attached.
+
+### Updated prompt for a weekly usage fuel-gauge Page
+- URL: https://usage.incidental.site/cases/x-donovanflynn999-2126305066084598236.html
+- Type: guide · Product: grok-bot · Author: DonovanFlynn999 · Source: https://x.com/DonovanFlynn999/status/2126305066084598236 · Date: 2026-11-27
+- Summary: The author shares an updated prompt asking Grok Bot to build an on-demand dashboard Page in his Library for weekly Ultra plan usage, refreshed only when he asks. The new version adds a compact "Top 3 Grok Bot" line under the three gauges, suggested by another user.
+
 ### One shared mailbox so AI agents message each other
 - URL: https://usage.incidental.site/cases/x-lennoxsaint-2125938270374600920.html
 - Type: field-case · Product: multi · Author: lennox_saint · Source: https://x.com/lennox_saint/status/2125938270374600920 · Date: 2026-11-26
@@ -3342,6 +3397,21 @@
 - URL: https://usage.incidental.site/cases/x-aliceisplaying-2125903180689232133.html
 - Type: field-case · Product: openai-dots · Author: aliceisplaying · Source: https://x.com/aliceisplaying/status/2125903180689232133 · Date: 2026-11-26
 - Summary: Returning to ChatGPT Dots, the author quickly ran into Astra's "you can just not do things" attitude and calls it by far the laziest model.
+
+### When Grok Bot usage climbs, audit routines and handoffs
+- URL: https://usage.incidental.site/cases/x-ashleyschendel-2126095679571300505.html
+- Type: guide · Product: grok-bot · Author: ashleyschendel · Source: https://x.com/ashleyschendel/status/2126095679571300505 · Date: 2026-11-26
+- Summary: Frustrated by usage climbing without knowing why, the author audits routines and handoffs whenever something feels wasteful. The advice: ask your bot to flag its heaviest routines and trim them before you hit your limit.
+
+### Gift Finder: a quiz about the recipient, then real products
+- URL: https://usage.incidental.site/cases/x-aifieldreports-2126076048525636057.html
+- Type: field-case · Product: grok-bot · Author: AIFieldReports · Source: https://x.com/AIFieldReports/status/2126076048525636057 · Date: 2026-11-26
+- Summary: Gift Finder is a Grok Bot that quizzes you about the person you're shopping for, then suggests tailored gift ideas with real products. Handy for Black Friday.
+
+### Before Thanksgiving, my Grok Bot still remembers
+- URL: https://usage.incidental.site/cases/x-brunomunhoz-2126072309832118780.html
+- Type: field-case · Product: grok-bot · Author: bruno_munhoz · Source: https://x.com/bruno_munhoz/status/2126072309832118780 · Date: 2026-11-26
+- Summary: While some said their Grok Bot lost its memory before Thanksgiving, the author's bot still knew which card he uses at every store, cleaned his inbox, pulled Black Friday deals and muted market news so he could rest. He asks whether others see the problem or he got lucky.
 
 ### OpenAI Dots case study: an agent drafts sales proposals for a small marketing firm
 - URL: https://usage.incidental.site/cases/x-yuphoranews-2125505570052489285.html
@@ -13278,6 +13348,26 @@
 - Type: comparison · Product: multi · Author: friedbeef · Source: https://x.com/friedbeef/status/2126185515321885112 · Date: 2026-11-27
 - Summary: Citing CNET, the author notes that giving Muse and ChatGPT Dots real grocery receipts surfaced 3 problems: narrow searches, broad advice instead of an itemized plan, and baskets that weren't equivalent, so the lowest total did not prove savings.
 
+### Grok Bot does not replace Claude Code
+- URL: https://usage.incidental.site/cases/x-botagents24-2126439608015614361.html
+- Type: comparison · Product: multi · Author: botagents24 · Source: https://x.com/botagents24/status/2126439608015614361 · Date: 2026-11-27
+- Summary: The author answers a common question: they do different jobs. Claude Code lives in your codebase, while Grok Bot handles inbox, research and cloud routines. A full independent guide (not affiliated with xAI) is linked.
+
+### ChatGPT Dots vs Meta Muse: mobile access, tasks and controls
+- URL: https://usage.incidental.site/cases/x-huangdahuang-2126212665597174065.html
+- Type: comparison · Product: multi · Author: huangda_huang · Source: https://x.com/huangda_huang/status/2126212665597174065 · Date: 2026-11-27
+- Summary: A comparison of ChatGPT Dots and Meta Muse by mobile setup, account and regional access, weekly goals, connected apps, memory, and pause or deletion controls.
+
+### After a day with Claude Duet, unhappy with OpenAI Dots
+- URL: https://usage.incidental.site/cases/x-gargeyas-2126179656835666165.html
+- Type: comparison · Product: multi · Author: GargeyaS · Source: https://x.com/GargeyaS/status/2126179656835666165 · Date: 2026-11-27
+- Summary: The author says he is currently very unsatisfied with OpenAI Dots. He spent a whole day testing Claude Duet and calls it the closest competitor to Grok Bot he has seen, with a detailed article on the differences to follow.
+
+### Claude Duet is the better chat, Grok Bot the better operator
+- URL: https://usage.incidental.site/cases/x-aryanmehrotra-2126307496004559314.html
+- Type: comparison · Product: multi · Author: _aryanmehrotra · Source: https://x.com/_aryanmehrotra/status/2126307496004559314 · Date: 2026-11-27
+- Summary: The author finds Claude Duet great day to day: clean, fast and rock-solid, though it still needs to make Claude Code easier to use. Grok Bot lets you grant computer access and permissions so it can actually run tasks, which is why he calls it the better operator.
+
 ### How to split work between Claude and Grok Bot
 - URL: https://usage.incidental.site/cases/x-wizzouk-2125902676353532399.html
 - Type: comparison · Product: grok-bot · Author: wizzouk · Source: https://x.com/wizzouk/status/2125902676353532399 · Date: 2026-11-26
@@ -14107,6 +14197,11 @@
 - URL: https://usage.incidental.site/cases/x-jacobsk92-2126088681064734984.html
 - Type: quota-report · Product: grok-bot · Author: JacobSk92 · Source: https://x.com/JacobSk92/status/2126088681064734984 · Date: 2026-11-26
 - Summary: The author says Grok Bot, Grok Chat/workspaces and Grok Build need a more unified handoff because they operate independently. He built a bot that alerts him when a workstream would do better on token usage in a different app.
+
+### Grok Bot plans stretch about 11% further, routines up to 50%
+- URL: https://usage.incidental.site/cases/x-exactsolid-2126088148660965526.html
+- Type: quota-report · Product: grok-bot · Author: ExactSolid · Source: https://x.com/ExactSolid/status/2126088148660965526 · Date: 2026-11-26
+- Summary: Per Sam Sokolin of the Grok Bot team, plans now stretch about 11% further and routines up to 50%. The routine harness skips model inference for simple, repetitive tasks, so agents get cheaper by calling the model less, not just through cheaper tokens.
 
 ### User report: Grok Bot usage kept rising after everything was shut down
 - URL: https://usage.incidental.site/cases/x-davemiz-2125583021784891730.html
