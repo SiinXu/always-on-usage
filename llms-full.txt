@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2905 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2923 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-27T23:43:06.344Z
+- Last updated: 2026-11-28T13:39:07.813Z
 
 ## Agents (directional estimates)
 ### Grok Bot (xAI)
@@ -3152,6 +3152,76 @@
 - URL: https://usage.incidental.site/cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html
 - Type: field-case · Product: multi · Author: devswha · Source: https://github.com/devswha/herdr-web-ui
 - Summary: A Herdr plugin that brings Herdr agent panes to the browser and a phone PWA. Claude Code, Codex, OpenCode and other sessions show up as chat with a one-click live terminal (xterm); approvals and questions become tappable cards; web push alerts fire when an agent needs input or finishes; a phone key bar adds Esc/Tab/Ctrl/arrows; connect remotely via Tailscale/SSH. Install: herdr plugin install devswha/herdr-web-ui (needs Herdr ≥0.9.0, default localhost:7317). TypeScript/React/Bun, MIT, ~900 stars, +~300 in the week of Oct 7–13, 2026.
+
+### Raising $3,000+ for youth basketball jerseys with Grok Bot
+- URL: https://usage.incidental.site/cases/x-justinfredette-2126668683120382009.html
+- Type: field-case · Product: grok-bot · Author: justinfredette · Source: https://x.com/justinfredette/status/2126668683120382009 · Date: 2026-11-28
+- Summary: A youth coach with a full-time job and two kids ran a jersey fundraiser with one rule: Grok Bot drafts and waits for his yes. It gathered 5 local quotes and found the 3 best online options; the team raised over $3,000.
+
+### Turning meeting-capable Grok Bot 1.0 into a chief of staff
+- URL: https://usage.incidental.site/cases/x-0xcloudvex-2126664781998219305.html
+- Type: guide · Product: grok-bot · Author: 0xcloudvex · Source: https://x.com/0xcloudvex/status/2126664781998219305 · Date: 2026-11-28
+- Summary: The author set Grok Bot up as a chief of staff: a 07:30 brief (decisions, meetings, replies), a prep pack before every call and a drafted follow-up after it. Nothing is sent without his approval; a step-by-step setup is linked.
+
+### Don't use one Grok Bot for everything: build a team of roles
+- URL: https://usage.incidental.site/cases/x-silentguyy66-2126666024699195488.html
+- Type: guide · Product: grok-bot · Author: silentguyy66 · Source: https://x.com/silentguyy66/status/2126666024699195488 · Date: 2026-11-28
+- Summary: The author suggests a team where each Bot has a clear role instead of one Bot doing it all. The linked guide, with prompts, walks through setting up a Coordinator, Researcher, Planner, Operator and Reviewer.
+
+### A Grok Bot secretary analyses 20 years and 130,000+ X posts nightly
+- URL: https://usage.incidental.site/cases/x-a2see-2126663931779244288.html
+- Type: field-case · Product: grok-bot · Author: a2see · Source: https://x.com/a2see/status/2126663931779244288 · Date: 2026-11-28
+- Summary: The author's X secretary "Grace" (Grok Bot) analysed 20 years of 130,000+ posts, producing nightly batch reports such as a timeline, a persona profile and themed articles; once enough was analysed, it wrote a summary from its own point of view.
+
+### A sale-price Grok Bot fixing a small business's online presence
+- URL: https://usage.incidental.site/cases/x-askbryan-2126669459498610755.html
+- Type: field-case · Product: grok-bot · Author: AskBryan · Source: https://x.com/AskBryan/status/2126669459498610755 · Date: 2026-11-28
+- Summary: The author says Grok Bot is handling online chores for his business: Google page corrections, the website, BBB and more. He notes these usually take hours or cost thousands to have done.
+
+### Gavin Baker: three summariser tools in 7–12 seconds with Grok Bot
+- URL: https://usage.incidental.site/cases/x-0xleoye-2126669625312051224.html
+- Type: field-case · Product: grok-bot · Author: 0xLeoye · Source: https://x.com/0xLeoye/status/2126669625312051224 · Date: 2026-11-28
+- Summary: Citing an a16z clip: Gavin Baker says a Substack summariser, an X summariser and a sentiment tracker each took 7 to 12 seconds in Grok Bot versus hours in Claude Code, and came out better. He called it "another ChatGPT moment".
+
+### A Grok Bot that calls GO or NO-GO on your flight every 30 minutes
+- URL: https://usage.incidental.site/cases/x-bugatsinho-2126661694097121308.html
+- Type: field-case · Product: grok-bot · Author: bugatsinho · Source: https://x.com/bugatsinho/status/2126661694097121308 · Date: 2026-11-28
+- Summary: The post shares a Grok Bot that gives a GO or NO-GO verdict on your flight every 30 minutes, from what Rank let in this week; details are in the link.
+
+### Meta Muse Spaces: ask for your own app or game, then fix it by chatting
+- URL: https://usage.incidental.site/cases/x-muscleinven7-2126657950156763521.html
+- Type: guide · Product: meta-muse · Author: MuscleInven7 · Source: https://x.com/MuscleInven7/status/2126657950156763521 · Date: 2026-11-28
+- Summary: The author explains Muse "Spaces": just ask and it builds an app or game for you, and you can refine it in conversation afterwards, e.g. "make the button bigger" or "add score tracking". Ask, try, fix, repeat.
+
+### Trying Meta Muse at work: start with chat, not Gmail or Calendar
+- URL: https://usage.incidental.site/cases/x-adcrew2022-2126664165083185327.html
+- Type: guide · Product: meta-muse · Author: ad_crew_2022 · Source: https://x.com/ad_crew_2022/status/2126664165083185327 · Date: 2026-11-28
+- Summary: The author suggests starting Meta Muse at work with chat only, without adding Gmail or Google Calendar; you choose what to connect and how much it can see. One caveat: it isn't necessarily the case that nothing is connected at the start.
+
+### Grok Bot + Gemini 4 Neon: 944,100 tokens in one call
+- URL: https://usage.incidental.site/cases/x-legi0ner007-2126667848105758833.html
+- Type: field-case · Product: multi · Author: Legi0ner007 · Source: https://x.com/Legi0ner007/status/2126667848105758833 · Date: 2026-11-28
+- Summary: In the video, Neon loads a whole 1M-token window in one call: 944,100 tokens, 2 jobs, 8 key points found. Grok Bot then turns them into drafts and tasks and waits for your yes.
+
+### For repeated tasks: one Bot per job, then a skill and a routine
+- URL: https://usage.incidental.site/cases/x-grok-2126668298334949701.html
+- Type: guide · Product: grok-bot · Author: grok · Source: https://x.com/grok/status/2126668298334949701 · Date: 2026-11-28
+- Summary: Grok's official reply suggests creating a dedicated Bot for each repeated task, with a name, title and a detailed description of its single job plus limits; save successful steps as a reusable skill, then add a routine so it runs on a schedule or trigger.
+
+### Grok Bot is my most-used always-on agent, but still too technical for most businesses
+- URL: https://usage.incidental.site/cases/x-reedosdev-2126475659438637464.html
+- Type: field-case · Product: grok-bot · Author: reedosdev · Source: https://x.com/reedosdev/status/2126475659438637464 · Date: 2026-11-28
+- Summary: The author calls Grok Bot phenomenal and his most-used always-on agent, but thinks it may feel too technical for most businesses: tech people will figure it out, non-tech businesses face adoption hurdles, and many don't know what agent platforms can do.
+
+### MuseLite: a WKWebView shell to run Meta Muse on iOS 17
+- URL: https://usage.incidental.site/cases/gh-github-com-qaq60-muselite.html
+- Type: field-case · Product: meta-muse · Author: QAQ60 · Source: https://github.com/QAQ60/MuseLite · Date: 2026-11-28
+- Summary: The open-source MuseLite repo is a WKWebView shell for muse.ai that runs the Meta Muse AI agent on iOS 17, since the official app needs iOS 18.
+
+### Muse for Quest: debugging VR mods with Muse inside a Meta Quest headset
+- URL: https://usage.incidental.site/cases/gh-github-com-1915rising-muse-for-quest.html
+- Type: field-case · Product: meta-muse · Author: 1915rising · Source: https://github.com/1915rising/muse-for-quest · Date: 2026-11-28
+- Summary: The repo describes itself as the first Meta Quest client for the Muse AI assistant: in-headset chat plus a wireless live-view bridge so the agent can watch gameplay and help debug VR mods live.
 
 ### Tip: always turn repeat tasks into a routine
 - URL: https://usage.incidental.site/cases/x-mattarark-2126300679803421147.html
@@ -13343,6 +13413,21 @@
 - Type: comparison · Product: grok-bot · Source: https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good
 - Summary: Hands-on review. Gym login on the cloud computer, Notion/Granola prospect match, mobile reach-test.
 
+### Subtitling a 25-minute video from a post: six agents timed
+- URL: https://usage.incidental.site/cases/x-defiteddy2020-2126669765930520746.html
+- Type: comparison · Product: multi · Author: DeFiTeddy2020 · Source: https://x.com/DeFiTeddy2020/status/2126669765930520746 · Date: 2026-11-28
+- Summary: The author gave several models and agents the same post and asked them to subtitle its 25-minute video: Claude fable 5.2 stopped unfinished after an hour; ChatGPT 6.2 astra took 8 min; codex dots 18 min; manus cue 22 min; grok bot 30 min; Muse said its cloud computer couldn't access X.
+
+### Content planning test: Grok Bot, Dots, Duet and Neon
+- URL: https://usage.incidental.site/cases/x-suyogsavalkar-2126669663828390035.html
+- Type: comparison · Product: multi · Author: suyog_savalkar · Source: https://x.com/suyog_savalkar/status/2126669663828390035 · Date: 2026-11-28
+- Summary: The author rates Grok Bot the best of the lab agents but limited beyond life-admin tasks; as a content strategist it was "meh". OpenAI Dots was slow and Duet confusing, while making a content plan with Neon impressed him.
+
+### A paying Dots and Grok Bot user finds Muse covers most tasks
+- URL: https://usage.incidental.site/cases/x-nvandewetering-2126667759522115675.html
+- Type: comparison · Product: multi · Author: nvandewetering · Source: https://x.com/nvandewetering/status/2126667759522115675 · Date: 2026-11-28
+- Summary: The author pays $200/month for Dots and was paying $300/month for Grok Bot, yet found most of his tasks can be handled by Meta Muse for essentially free. He cites Elon: Muse is a personal assistant, Grok Bot works like employees.
+
 ### CNET tests Muse and Dots on real grocery receipts
 - URL: https://usage.incidental.site/cases/x-friedbeef-2126185515321885112.html
 - Type: comparison · Product: multi · Author: friedbeef · Source: https://x.com/friedbeef/status/2126185515321885112 · Date: 2026-11-27
@@ -14177,6 +14262,11 @@
 - URL: https://usage.incidental.site/cases/ray-fernando-s-clippy-cto-47.html
 - Type: quota-report · Product: grok-bot · Source: https://www.youtube.com/watch?v=kAR91DlnCKQ
 - Summary: One Grok Bot as Direct Responsible Agent that hires child bots for PRs, Convex, and auth. View-only. Burned past two billion tokens in a day.
+
+### AI Usage Desk: a Windows floating widget for Cursor, Grok Bot and Antigravity usage
+- URL: https://usage.incidental.site/cases/gh-github-com-a1007049809-ai-usage-desk.html
+- Type: quota-report · Product: multi · Author: a1007049809 · Source: https://github.com/a1007049809/ai-usage-desk · Date: 2026-11-28
+- Summary: The open-source ai-usage-desk repo is a MagSafe-style floating Windows widget that shows local AI usage for Cursor, Grok Bot and Antigravity.
 
 ### Clearing old Gmail cost 20% of usage
 - URL: https://usage.incidental.site/cases/x-fridaynighthq-2126293565915468088.html

@@ -1,11 +1,11 @@
 # Always-on Usage
-> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2905 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
+> A usage and workflow encyclopedia for always-on agents (Grok Bot, OpenAI Dots, Meta Muse): which one fits which job, what burns quota, and how to set them up cheaply. For people who want to run bots long-term without burning their quota. An evaluation layer, not a template directory. Comparisons and the calculator are directional estimates, not vendor SLAs; cases aggregate public posts (2923 items plus 26 X stories), each with its author and original link. Grok Bot has the most entries; public Dots and Muse cases are added round by round. Published by Incidental AI.
 
 - Site: https://usage.incidental.site/
 - Languages: en (default), zh-CN, zh-TW, ja, ko, ms, vi, fr, es, de — append ?lang=<code>
 - Sitemap: https://usage.incidental.site/sitemap.xml
 - Full text for LLMs: https://usage.incidental.site/llms-full.txt
-- Last updated: 2026-11-27T23:43:06.344Z
+- Last updated: 2026-11-28T13:39:07.813Z
 
 ## Pages
 - /compare.html: Grok Bot / OpenAI Dots / Meta Muse comparison matrix
@@ -615,6 +615,20 @@
 - /cases/grok-bot-templates-669.html: Grok Bot Templates (guide) <https://www.aibuilderclub.com/blog/grok-bot-templates>
 - /cases/how-to-use-grok-bot-670.html: How to Use Grok Bot (guide) <https://www.aibuilderclub.com/blog/grok-bot-guide>
 - /cases/herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686.html: herdr-web-ui: watch always-on coding agents from your phone and browser (field-case) <https://github.com/devswha/herdr-web-ui>
+- /cases/x-justinfredette-2126668683120382009.html: Raising $3,000+ for youth basketball jerseys with Grok Bot (field-case) <https://x.com/justinfredette/status/2126668683120382009>
+- /cases/x-0xcloudvex-2126664781998219305.html: Turning meeting-capable Grok Bot 1.0 into a chief of staff (guide) <https://x.com/0xcloudvex/status/2126664781998219305>
+- /cases/x-silentguyy66-2126666024699195488.html: Don't use one Grok Bot for everything: build a team of roles (guide) <https://x.com/silentguyy66/status/2126666024699195488>
+- /cases/x-a2see-2126663931779244288.html: A Grok Bot secretary analyses 20 years and 130,000+ X posts nightly (field-case) <https://x.com/a2see/status/2126663931779244288>
+- /cases/x-askbryan-2126669459498610755.html: A sale-price Grok Bot fixing a small business's online presence (field-case) <https://x.com/AskBryan/status/2126669459498610755>
+- /cases/x-0xleoye-2126669625312051224.html: Gavin Baker: three summariser tools in 7–12 seconds with Grok Bot (field-case) <https://x.com/0xLeoye/status/2126669625312051224>
+- /cases/x-bugatsinho-2126661694097121308.html: A Grok Bot that calls GO or NO-GO on your flight every 30 minutes (field-case) <https://x.com/bugatsinho/status/2126661694097121308>
+- /cases/x-muscleinven7-2126657950156763521.html: Meta Muse Spaces: ask for your own app or game, then fix it by chatting (guide) <https://x.com/MuscleInven7/status/2126657950156763521>
+- /cases/x-adcrew2022-2126664165083185327.html: Trying Meta Muse at work: start with chat, not Gmail or Calendar (guide) <https://x.com/ad_crew_2022/status/2126664165083185327>
+- /cases/x-legi0ner007-2126667848105758833.html: Grok Bot + Gemini 4 Neon: 944,100 tokens in one call (field-case) <https://x.com/Legi0ner007/status/2126667848105758833>
+- /cases/x-grok-2126668298334949701.html: For repeated tasks: one Bot per job, then a skill and a routine (guide) <https://x.com/grok/status/2126668298334949701>
+- /cases/x-reedosdev-2126475659438637464.html: Grok Bot is my most-used always-on agent, but still too technical for most businesses (field-case) <https://x.com/reedosdev/status/2126475659438637464>
+- /cases/gh-github-com-qaq60-muselite.html: MuseLite: a WKWebView shell to run Meta Muse on iOS 17 (field-case) <https://github.com/QAQ60/MuseLite>
+- /cases/gh-github-com-1915rising-muse-for-quest.html: Muse for Quest: debugging VR mods with Muse inside a Meta Quest headset (field-case) <https://github.com/1915rising/muse-for-quest>
 - /cases/x-mattarark-2126300679803421147.html: Tip: always turn repeat tasks into a routine (guide) <https://x.com/MattarARK/status/2126300679803421147>
 - /cases/x-agentsb4coffee-2126307642612089097.html: Add a routine to your Bot from your phone (guide) <https://x.com/AgentsB4Coffee/status/2126307642612089097>
 - /cases/x-nowgeun-2126307557937664231.html: A Korean fortune-telling bot built with Grok Bot (field-case) <https://x.com/nowgeun/status/2126307557937664231>
@@ -2653,6 +2667,9 @@
 - /cases/the-next-web-grok-bot-will-also-use-claude-midjourney-and-su-572.html: The Next Web: Grok Bot will also use Claude, Midjourney and Suno models (comparison) <https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk>
 - /cases/9to5mac-how-to-claim-your-grok-bot-email-address-573.html: 9to5Mac: how to claim your Grok Bot email address (comparison) <https://9to5mac.com/2026/10/09/grok-bot-just-got-its-own-email-address-heres-how-to-claim-yours/>
 - /cases/khe-hy-574.html: Khe Hy (comparison) <https://khemaridh.substack.com/p/grok-bot-is-surprisingly-good>
+- /cases/x-defiteddy2020-2126669765930520746.html: Subtitling a 25-minute video from a post: six agents timed (comparison) <https://x.com/DeFiTeddy2020/status/2126669765930520746>
+- /cases/x-suyogsavalkar-2126669663828390035.html: Content planning test: Grok Bot, Dots, Duet and Neon (comparison) <https://x.com/suyog_savalkar/status/2126669663828390035>
+- /cases/x-nvandewetering-2126667759522115675.html: A paying Dots and Grok Bot user finds Muse covers most tasks (comparison) <https://x.com/nvandewetering/status/2126667759522115675>
 - /cases/x-friedbeef-2126185515321885112.html: CNET tests Muse and Dots on real grocery receipts (comparison) <https://x.com/friedbeef/status/2126185515321885112>
 - /cases/x-botagents24-2126439608015614361.html: Grok Bot does not replace Claude Code (comparison) <https://x.com/botagents24/status/2126439608015614361>
 - /cases/x-huangdahuang-2126212665597174065.html: ChatGPT Dots vs Meta Muse: mobile access, tasks and controls (comparison) <https://x.com/huangda_huang/status/2126212665597174065>
@@ -2820,6 +2837,7 @@
 - /cases/forum-cloud-agents-from-grok-bot-spend-team-cloud-credits-45.html: Forum: Cloud Agents from Grok Bot spend Team Cloud Credits (quota-report) <https://forum.cursor.com/t/cloud-agents-by-grokbot-using-team-cloud-credits-instead-of-personal-usage/173419>
 - /cases/forum-request-for-usage-broken-down-by-bot-and-category-read-46.html: Forum: request for usage broken down by Bot and category, readable by Bots (quota-report) <https://forum.cursor.com/t/breakdown-in-the-app-by-bot-and-category-and-the-same-data-available-to-bots/173936>
 - /cases/ray-fernando-s-clippy-cto-47.html: Ray Fernando's Clippy CTO (quota-report) <https://www.youtube.com/watch?v=kAR91DlnCKQ>
+- /cases/gh-github-com-a1007049809-ai-usage-desk.html: AI Usage Desk: a Windows floating widget for Cursor, Grok Bot and Antigravity usage (quota-report) <https://github.com/a1007049809/ai-usage-desk>
 - /cases/x-fridaynighthq-2126293565915468088.html: Clearing old Gmail cost 20% of usage (quota-report) <https://x.com/FridayNightHQ/status/2126293565915468088>
 - /cases/x-liuliuchn-2126248073391186033.html: Usage boost: about 11% more on plans, up to 50% on routines (quota-report) <https://x.com/LiuLiuchn/status/2126248073391186033>
 - /cases/x-chris4shore-2126094384919937259.html: User report: Grok Bot burns tokens much faster than Muse (quota-report) <https://x.com/chris4shore/status/2126094384919937259>

@@ -1,6 +1,6 @@
 {
   "note": "公开条目聚合 / aggregated public items; see source_url",
-  "count": 2905,
+  "count": 2923,
   "fetched_at": "2026-10-12T11:54:58.322933+00:00",
   "items": [
     {
@@ -12642,6 +12642,1024 @@
       "src": "github",
       "slug": "herdr-web-ui-watch-always-on-coding-agents-from-your-phone-a-686",
       "scen": [
+        "research",
+        "ship"
+      ]
+    },
+    {
+      "title": "用 Grok Bot 为儿子的篮球队服筹到 3000 多美元",
+      "summary": "一位全职上班、带两个孩子的青训教练给队服筹款，规则是 Grok Bot 先起草、等他点头再发。它拿到 5 家本地报价并找出 3 个最好的线上选项，最终筹到 3000 多美元。",
+      "en": {
+        "title": "Raising $3,000+ for youth basketball jerseys with Grok Bot",
+        "summary": "A youth coach with a full-time job and two kids ran a jersey fundraiser with one rule: Grok Bot drafts and waits for his yes. It gathered 5 local quotes and found the 3 best online options; the team raised over $3,000."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "用 Grok Bot 为儿子的篮球队服筹到 3000 多美元",
+          "summary": "一位全职上班、带两个孩子的青训教练给队服筹款，规则是 Grok Bot 先起草、等他点头再发。它拿到 5 家本地报价并找出 3 个最好的线上选项，最终筹到 3000 多美元。"
+        },
+        "zh-TW": {
+          "title": "用 Grok Bot 為兒子的籃球隊服募到 3000 多美元",
+          "summary": "一位全職上班、帶兩個孩子的青訓教練為隊服募款，規則是 Grok Bot 先起草、等他同意再發。它取得 5 家在地報價並找出 3 個最好的線上選項，最終募到 3000 多美元。"
+        },
+        "en": {
+          "title": "Raising $3,000+ for youth basketball jerseys with Grok Bot",
+          "summary": "A youth coach with a full-time job and two kids ran a jersey fundraiser with one rule: Grok Bot drafts and waits for his yes. It gathered 5 local quotes and found the 3 best online options; the team raised over $3,000."
+        },
+        "ja": {
+          "title": "Grok Bot で息子のバスケチームのユニフォーム代を3,000ドル以上集めた",
+          "summary": "フルタイムで働き子ども2人を育てるユースコーチが、ユニフォーム資金集めに Grok Bot を活用。ルールは「下書きして自分の承認を待つ」。地元の見積もり5件と最良のオンライン候補3件を集め、3,000ドル超が集まった。"
+        },
+        "ko": {
+          "title": "Grok Bot으로 아들 농구팀 유니폼 비용 3,000달러 이상 모금",
+          "summary": "풀타임 직장인이자 두 아이의 아빠인 유소년 코치가 유니폼 모금을 진행했다. 규칙은 Grok Bot이 초안을 쓰고 승인을 기다리는 것. 지역 견적 5건과 최적의 온라인 옵션 3개를 찾아냈고, 3,000달러 넘게 모였다."
+        },
+        "ms": {
+          "title": "Mengumpul lebih $3,000 untuk jersi bola keranjang belia dengan Grok Bot",
+          "summary": "Seorang jurulatih belia yang bekerja sepenuh masa dan mempunyai dua anak menjalankan kutipan dana jersi dengan satu peraturan: Grok Bot menulis draf dan menunggu persetujuannya. Ia mendapat 5 sebut harga tempatan dan 3 pilihan dalam talian terbaik; pasukan mengumpul lebih $3,000."
+        },
+        "vi": {
+          "title": "Gây quỹ hơn 3.000 USD cho áo đấu bóng rổ thiếu niên với Grok Bot",
+          "summary": "Một huấn luyện viên bóng rổ thiếu niên đi làm toàn thời gian, có hai con, gây quỹ mua áo đấu với một nguyên tắc: Grok Bot soạn nháp và chờ anh đồng ý. Nó lấy 5 báo giá địa phương và tìm 3 lựa chọn trực tuyến tốt nhất; đội gây được hơn 3.000 USD."
+        },
+        "fr": {
+          "title": "Plus de 3 000 $ récoltés pour des maillots de basket jeunesse avec Grok Bot",
+          "summary": "Un coach de basket jeunesse, salarié à plein temps et père de deux enfants, a mené une collecte avec une règle : Grok Bot rédige et attend son accord. Il a obtenu 5 devis locaux et trouvé les 3 meilleures options en ligne ; l'équipe a récolté plus de 3 000 $."
+        },
+        "es": {
+          "title": "Más de 3.000 $ recaudados para camisetas de baloncesto juvenil con Grok Bot",
+          "summary": "Un entrenador juvenil con trabajo a tiempo completo y dos hijos organizó una colecta con una regla: Grok Bot redacta y espera su visto bueno. Consiguió 5 presupuestos locales y las 3 mejores opciones en línea; el equipo recaudó más de 3.000 $."
+        },
+        "de": {
+          "title": "Über 3.000 $ für Basketball-Trikots der Jugendmannschaft mit Grok Bot",
+          "summary": "Ein Jugendtrainer mit Vollzeitjob und zwei Kindern sammelte Geld für Trikots, mit einer Regel: Grok Bot entwirft und wartet auf sein Ja. Er holte 5 lokale Angebote ein und fand die 3 besten Online-Optionen; das Team sammelte über 3.000 $."
+        }
+      },
+      "source_url": "https://x.com/justinfredette/status/2126668683120382009",
+      "source_name": "X",
+      "author": "justinfredette",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "x",
+      "text": "We raised over $3,000 for my son's basketball jerseys.\n\nI coach youth basketball, work full-time, and have two kids. My rule is Grok Bot drafts and waits for my yes.\n\n1. We set the goal, the amount we needed for the jerseys. It got 5 local quotes and found the 3 best online",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-justinfredette-2126668683120382009",
+      "scen": [
+        "family"
+      ]
+    },
+    {
+      "title": "把能参会的 Grok Bot 1.0 变成幕僚长",
+      "summary": "作者把 Grok Bot 设成幕僚长：每天 07:30 发简报（决策、会议、待回复），每次通话前准备资料包，通话后起草跟进。没有他确认什么都不会发出，帖子附完整分步设置。",
+      "en": {
+        "title": "Turning meeting-capable Grok Bot 1.0 into a chief of staff",
+        "summary": "The author set Grok Bot up as a chief of staff: a 07:30 brief (decisions, meetings, replies), a prep pack before every call and a drafted follow-up after it. Nothing is sent without his approval; a step-by-step setup is linked."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "把能参会的 Grok Bot 1.0 变成幕僚长",
+          "summary": "作者把 Grok Bot 设成幕僚长：每天 07:30 发简报（决策、会议、待回复），每次通话前准备资料包，通话后起草跟进。没有他确认什么都不会发出，帖子附完整分步设置。"
+        },
+        "zh-TW": {
+          "title": "把能參加會議的 Grok Bot 1.0 變成幕僚長",
+          "summary": "作者把 Grok Bot 設成幕僚長：每天 07:30 發簡報（決策、會議、待回覆），每次通話前準備資料包，通話後起草後續追蹤。沒有他確認什麼都不會送出，貼文附完整分步設定。"
+        },
+        "en": {
+          "title": "Turning meeting-capable Grok Bot 1.0 into a chief of staff",
+          "summary": "The author set Grok Bot up as a chief of staff: a 07:30 brief (decisions, meetings, replies), a prep pack before every call and a drafted follow-up after it. Nothing is sent without his approval; a step-by-step setup is linked."
+        },
+        "ja": {
+          "title": "会議に参加できる Grok Bot 1.0 をチーフ・オブ・スタッフに",
+          "summary": "作者は Grok Bot を参謀役に設定。毎朝07:30に決定事項・会議・返信のブリーフ、通話前に準備資料、通話後にフォローアップの下書き。本人の承認なしには何も送られない。手順はリンク先に掲載。"
+        },
+        "ko": {
+          "title": "회의 참석이 가능한 Grok Bot 1.0을 비서실장으로",
+          "summary": "작성자는 Grok Bot을 비서실장으로 설정했다. 07:30 브리핑(결정, 회의, 답장), 통화 전 준비 자료, 통화 후 후속 메일 초안. 본인 승인 없이는 아무것도 보내지 않으며 단계별 설정이 링크돼 있다."
+        },
+        "ms": {
+          "title": "Menjadikan Grok Bot 1.0 yang boleh hadir mesyuarat sebagai ketua staf",
+          "summary": "Penulis menetapkan Grok Bot sebagai ketua staf: taklimat 07:30 (keputusan, mesyuarat, balasan), pek persediaan sebelum setiap panggilan dan draf susulan selepasnya. Tiada apa dihantar tanpa kelulusannya; langkah penuh dipautkan."
+        },
+        "vi": {
+          "title": "Biến Grok Bot 1.0 (đã dự được cuộc họp) thành chánh văn phòng",
+          "summary": "Tác giả thiết lập Grok Bot làm chánh văn phòng: bản tin 07:30 (quyết định, cuộc họp, thư cần trả lời), gói chuẩn bị trước mỗi cuộc gọi và bản nháp follow-up sau đó. Không gì được gửi khi chưa có anh duyệt; có link hướng dẫn từng bước."
+        },
+        "fr": {
+          "title": "Faire de Grok Bot 1.0, qui rejoint les réunions, un chef de cabinet",
+          "summary": "L'auteur a configuré Grok Bot en chef de cabinet : brief à 07:30 (décisions, réunions, réponses), dossier de préparation avant chaque appel et suivi rédigé après. Rien ne part sans son accord ; la configuration pas à pas est en lien."
+        },
+        "es": {
+          "title": "Convertir Grok Bot 1.0, que ya entra en reuniones, en jefe de gabinete",
+          "summary": "El autor configuró Grok Bot como jefe de gabinete: resumen a las 07:30 (decisiones, reuniones, respuestas), dosier antes de cada llamada y seguimiento redactado después. Nada se envía sin su aprobación; enlaza la configuración paso a paso."
+        },
+        "de": {
+          "title": "Grok Bot 1.0, das jetzt an Meetings teilnimmt, als Stabschef",
+          "summary": "Der Autor richtete Grok Bot als Stabschef ein: 07:30-Briefing (Entscheidungen, Meetings, Antworten), Vorbereitungspaket vor jedem Call und Follow-up-Entwurf danach. Nichts geht ohne seine Freigabe raus; die Schritt-für-Schritt-Anleitung ist verlinkt."
+        }
+      },
+      "source_url": "https://x.com/0xcloudvex/status/2126664781998219305",
+      "source_name": "X",
+      "author": "0xcloudvex",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-11-28",
+      "likes": 8,
+      "src": "x",
+      "text": "Grok Bot 1.0 can now join your meetings.\n\nSo I turned it into a chief of staff:\n\n→ 07:30 brief: decisions, meetings, replies\n→ Prep pack before every call\n→ Follow-up drafted after it\n\nNothing gets sent without me.\n\nThe full setup, step by step ↓ https://t.co/gdHuY0e8rC",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-0xcloudvex-2126664781998219305",
+      "scen": [
+        "report",
+        "calendar",
+        "ship"
+      ]
+    },
+    {
+      "title": "别用一个 Grok Bot 包办一切：按角色组队",
+      "summary": "作者建议组建一支各有分工的 Bot 团队，而不是一个 Bot 做所有事。链接指南带提示词，讲解如何设置协调者、研究员、规划者、执行者和审核者。",
+      "en": {
+        "title": "Don't use one Grok Bot for everything: build a team of roles",
+        "summary": "The author suggests a team where each Bot has a clear role instead of one Bot doing it all. The linked guide, with prompts, walks through setting up a Coordinator, Researcher, Planner, Operator and Reviewer."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "别用一个 Grok Bot 包办一切：按角色组队",
+          "summary": "作者建议组建一支各有分工的 Bot 团队，而不是一个 Bot 做所有事。链接指南带提示词，讲解如何设置协调者、研究员、规划者、执行者和审核者。"
+        },
+        "zh-TW": {
+          "title": "別用一個 Grok Bot 包辦一切：依角色組隊",
+          "summary": "作者建議組建一支各有分工的 Bot 團隊，而不是一個 Bot 做所有事。連結指南附提示詞，說明如何設定協調者、研究員、規劃者、執行者與審核者。"
+        },
+        "en": {
+          "title": "Don't use one Grok Bot for everything: build a team of roles",
+          "summary": "The author suggests a team where each Bot has a clear role instead of one Bot doing it all. The linked guide, with prompts, walks through setting up a Coordinator, Researcher, Planner, Operator and Reviewer."
+        },
+        "ja": {
+          "title": "Grok Bot を1体で全部やらせず、役割ごとのチームに",
+          "summary": "作者は1体の Bot に全部任せるより、役割を明確にしたチームを勧める。リンク先のガイドではプロンプト付きで、コーディネーター・リサーチャー・プランナー・オペレーター・レビュアーの設定を解説。"
+        },
+        "ko": {
+          "title": "Grok Bot 하나로 다 하지 말고 역할별 팀을 꾸리자",
+          "summary": "작성자는 Bot 하나가 모든 일을 하는 대신 역할이 분명한 팀을 제안한다. 링크된 가이드는 프롬프트와 함께 코디네이터, 리서처, 플래너, 오퍼레이터, 리뷰어 설정을 안내한다."
+        },
+        "ms": {
+          "title": "Jangan guna satu Grok Bot untuk semua: bina pasukan mengikut peranan",
+          "summary": "Penulis mencadangkan pasukan di mana setiap Bot ada peranan jelas, bukan satu Bot buat semua. Panduan berpautan, dengan prompt, menerangkan cara menyediakan Penyelaras, Penyelidik, Perancang, Operator dan Penyemak."
+        },
+        "vi": {
+          "title": "Đừng dùng một Grok Bot cho mọi việc: lập đội theo vai trò",
+          "summary": "Tác giả đề xuất một đội mà mỗi Bot có vai trò rõ ràng thay vì một Bot làm tất cả. Hướng dẫn kèm prompt trong link chỉ cách thiết lập Điều phối, Nghiên cứu, Lập kế hoạch, Vận hành và Kiểm duyệt."
+        },
+        "fr": {
+          "title": "Ne confiez pas tout à un seul Grok Bot : montez une équipe de rôles",
+          "summary": "L'auteur propose une équipe où chaque Bot a un rôle clair plutôt qu'un seul Bot pour tout. Le guide en lien, avec prompts, détaille la mise en place d'un Coordinateur, Chercheur, Planificateur, Opérateur et Relecteur."
+        },
+        "es": {
+          "title": "No uses un solo Grok Bot para todo: arma un equipo por roles",
+          "summary": "El autor propone un equipo en el que cada Bot tenga un rol claro en vez de uno que lo haga todo. La guía enlazada, con prompts, explica cómo configurar Coordinador, Investigador, Planificador, Operador y Revisor."
+        },
+        "de": {
+          "title": "Nicht ein Grok Bot für alles: ein Team mit klaren Rollen",
+          "summary": "Der Autor empfiehlt ein Team, in dem jeder Bot eine klare Rolle hat, statt eines Bots für alles. Der verlinkte Leitfaden mit Prompts zeigt die Einrichtung von Koordinator, Researcher, Planer, Operator und Reviewer."
+        }
+      },
+      "source_url": "https://x.com/silentguyy66/status/2126666024699195488",
+      "source_name": "X",
+      "author": "silentguyy66",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-11-28",
+      "likes": 10,
+      "src": "x",
+      "text": "Most people use one Grok Bot for everything.\n\nA better approach: build a team where each Bot has a clear role.\n\nThis guide walks through setting up a Coordinator, Researcher, Planner, Operator, and Reviewer with prompts ↓ https://t.co/Z1HiyrgPUM",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-silentguyy66-2126666024699195488",
+      "scen": [
+        "research",
+        "ship"
+      ]
+    },
+    {
+      "title": "Grok Bot 秘书每晚分析 20 年、13 万多条 X 帖子",
+      "summary": "作者让负责 X 的 Grok Bot 秘书「グレース」分析自己 20 年的 13 万多条帖子，每晚批量生成年表、人物画像和主题文章等报告，分析到一定程度后再请它从自己的视角写出阶段总结。",
+      "en": {
+        "title": "A Grok Bot secretary analyses 20 years and 130,000+ X posts nightly",
+        "summary": "The author's X secretary \"Grace\" (Grok Bot) analysed 20 years of 130,000+ posts, producing nightly batch reports such as a timeline, a persona profile and themed articles; once enough was analysed, it wrote a summary from its own point of view."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Grok Bot 秘书每晚分析 20 年、13 万多条 X 帖子",
+          "summary": "作者让负责 X 的 Grok Bot 秘书「グレース」分析自己 20 年的 13 万多条帖子，每晚批量生成年表、人物画像和主题文章等报告，分析到一定程度后再请它从自己的视角写出阶段总结。"
+        },
+        "zh-TW": {
+          "title": "Grok Bot 秘書每晚分析 20 年、13 萬多則 X 貼文",
+          "summary": "作者讓負責 X 的 Grok Bot 秘書「グレース」分析自己 20 年的 13 萬多則貼文，每晚批次產出年表、人物側寫與主題文章等報告，分析到一定程度後再請它從自己的觀點寫出階段總結。"
+        },
+        "en": {
+          "title": "A Grok Bot secretary analyses 20 years and 130,000+ X posts nightly",
+          "summary": "The author's X secretary \"Grace\" (Grok Bot) analysed 20 years of 130,000+ posts, producing nightly batch reports such as a timeline, a persona profile and themed articles; once enough was analysed, it wrote a summary from its own point of view."
+        },
+        "ja": {
+          "title": "Grok Bot の秘書が20年分・13万件超のX投稿を毎晩分析",
+          "summary": "X担当秘書グレース（Grok Bot）が20年分13万件超の投稿を分析し、年表・人物像・テーマ別記事などのレポートを毎晩バッチで作成。ある程度解析が進んだ時点で、グレース視点のまとめを書いてもらった。"
+        },
+        "ko": {
+          "title": "Grok Bot 비서가 20년치 13만 건 넘는 X 게시물을 매일 밤 분석",
+          "summary": "작성자의 X 담당 비서 'Grace'(Grok Bot)가 20년치 13만 건 이상의 게시물을 분석해 연표, 인물상, 주제별 글 등의 보고서를 매일 밤 일괄 생성했다. 어느 정도 분석이 끝나자 Grace의 관점에서 요약을 쓰게 했다."
+        },
+        "ms": {
+          "title": "Setiausaha Grok Bot menganalisis 20 tahun, 130,000+ hantaran X setiap malam",
+          "summary": "Setiausaha X penulis, \"Grace\" (Grok Bot), menganalisis lebih 130,000 hantaran selama 20 tahun dan menghasilkan laporan kelompok setiap malam seperti garis masa, profil peribadi dan artikel bertema; kemudian ia menulis ringkasan dari sudut pandangnya sendiri."
+        },
+        "vi": {
+          "title": "Thư ký Grok Bot phân tích 20 năm, hơn 130.000 bài X mỗi đêm",
+          "summary": "Thư ký phụ trách X tên \"Grace\" (Grok Bot) của tác giả phân tích hơn 130.000 bài đăng trong 20 năm, mỗi đêm tạo báo cáo theo lô như dòng thời gian, chân dung nhân vật, bài theo chủ đề; khi đã đủ dữ liệu, nó viết bản tổng kết từ góc nhìn của mình."
+        },
+        "fr": {
+          "title": "Une secrétaire Grok Bot analyse chaque nuit 20 ans et 130 000+ posts X",
+          "summary": "La secrétaire X de l'auteur, « Grace » (Grok Bot), a analysé plus de 130 000 posts sur 20 ans et produit chaque nuit des rapports par lots : chronologie, portrait, articles thématiques ; une fois assez analysé, elle a rédigé une synthèse de son point de vue."
+        },
+        "es": {
+          "title": "Una secretaria Grok Bot analiza cada noche 20 años y 130.000+ posts de X",
+          "summary": "La secretaria de X del autor, «Grace» (Grok Bot), analizó más de 130.000 posts de 20 años y generó cada noche informes por lotes como cronología, perfil personal y artículos temáticos; con suficiente análisis, escribió un resumen desde su propio punto de vista."
+        },
+        "de": {
+          "title": "Eine Grok-Bot-Sekretärin analysiert nachts 20 Jahre und 130.000+ X-Posts",
+          "summary": "Die X-Sekretärin „Grace“ (Grok Bot) des Autors analysierte über 130.000 Posts aus 20 Jahren und erstellte nächtlich Batch-Berichte wie Zeitleiste, Personenprofil und Themenartikel; danach schrieb sie eine Zusammenfassung aus ihrer eigenen Sicht."
+        }
+      },
+      "source_url": "https://x.com/a2see/status/2126663931779244288",
+      "source_name": "X",
+      "author": "a2see",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-28",
+      "likes": 2,
+      "src": "x",
+      "text": "この記事の作り方\n\n1. X担当秘書グレース（Grok Bot）が20年分13万件超の投稿を分析し、年表、人物像、テーマ別記事などのレポートを毎晩バッチ的に作成\n\n2. ある程度解析できたところで現時点までのまとめをグレース観点で作って貰う\n\n3. https://t.co/ASJRgZsICo https://t.co/oPuVQP5UyD",
+      "media": [
+        "https://pbs.twimg.com/media/HYNjQ4nbQAE4vQ4.png",
+        "https://pbs.twimg.com/media/HYNjdm7bgAADHzR.png",
+        "https://pbs.twimg.com/media/HYNlkeObwAAVGqT.png",
+        "https://pbs.twimg.com/media/HYNmRRLb0AAm_Yh.png",
+        "https://pbs.twimg.com/media/HYNngPGbwAAvLU6.png",
+        "https://pbs.twimg.com/media/HYNnmiibAAAiz_C.png",
+        "https://pbs.twimg.com/media/HYNsLrUa0AE-z2g.jpg"
+      ],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-a2see-2126663931779244288",
+      "scen": [
+        "report",
+        "prs",
+        "social"
+      ]
+    },
+    {
+      "title": "促销时买的 Grok Bot 在修小生意的线上资料",
+      "summary": "作者说 Grok Bot 在帮他处理生意的各种线上事务：Google 页面更正、网站、BBB 等。他说这些事通常要花几个小时，或者要花几千美元请人做。",
+      "en": {
+        "title": "A sale-price Grok Bot fixing a small business's online presence",
+        "summary": "The author says Grok Bot is handling online chores for his business: Google page corrections, the website, BBB and more. He notes these usually take hours or cost thousands to have done."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "促销时买的 Grok Bot 在修小生意的线上资料",
+          "summary": "作者说 Grok Bot 在帮他处理生意的各种线上事务：Google 页面更正、网站、BBB 等。他说这些事通常要花几个小时，或者要花几千美元请人做。"
+        },
+        "zh-TW": {
+          "title": "促銷時買的 Grok Bot 在修小生意的線上資料",
+          "summary": "作者說 Grok Bot 在幫他處理生意的各種線上事務：Google 頁面更正、網站、BBB 等。他說這些事通常要花好幾個小時，或要花幾千美元請人做。"
+        },
+        "en": {
+          "title": "A sale-price Grok Bot fixing a small business's online presence",
+          "summary": "The author says Grok Bot is handling online chores for his business: Google page corrections, the website, BBB and more. He notes these usually take hours or cost thousands to have done."
+        },
+        "ja": {
+          "title": "セールで買った Grok Bot が事業のオンライン情報を整備",
+          "summary": "作者によると Grok Bot が事業のオンライン作業を片付けている。Google ページの修正、ウェブサイト、BBB など。普通なら何時間もかかるか、外注で数千ドルかかる作業だという。"
+        },
+        "ko": {
+          "title": "세일 때 산 Grok Bot이 사업 온라인 정보를 정리 중",
+          "summary": "작성자는 Grok Bot이 사업 관련 온라인 일을 처리하고 있다고 말한다. Google 페이지 수정, 웹사이트, BBB 등. 보통 몇 시간이 걸리거나 맡기면 수천 달러가 드는 일이라고 한다."
+        },
+        "ms": {
+          "title": "Grok Bot yang dibeli semasa jualan membaiki kehadiran dalam talian perniagaan",
+          "summary": "Penulis berkata Grok Bot sedang mengurus kerja dalam talian perniagaannya: pembetulan halaman Google, laman web, BBB dan lain-lain. Katanya kerja ini biasanya ambil berjam-jam atau kos ribuan dolar jika diupah."
+        },
+        "vi": {
+          "title": "Grok Bot mua lúc giảm giá đang sửa thông tin trực tuyến cho doanh nghiệp",
+          "summary": "Tác giả cho biết Grok Bot đang xử lý việc trực tuyến cho doanh nghiệp: sửa trang Google, website, BBB, v.v. Theo anh, những việc này thường mất hàng giờ hoặc tốn hàng nghìn đô nếu thuê người làm."
+        },
+        "fr": {
+          "title": "Un Grok Bot acheté en promo remet en ordre la présence en ligne d'une entreprise",
+          "summary": "L'auteur dit que Grok Bot gère les tâches en ligne de son entreprise : corrections de la page Google, site web, BBB, etc. Selon lui, cela prend d'habitude des heures ou coûte des milliers à sous-traiter."
+        },
+        "es": {
+          "title": "Un Grok Bot comprado en oferta arregla la presencia online de un negocio",
+          "summary": "El autor cuenta que Grok Bot se encarga de tareas online de su negocio: correcciones de la página de Google, el sitio web, BBB y más. Dice que normalmente llevan horas o cuestan miles si se encargan."
+        },
+        "de": {
+          "title": "Ein im Sale gekaufter Grok Bot bringt den Online-Auftritt eines Betriebs in Ordnung",
+          "summary": "Der Autor sagt, Grok Bot erledige Online-Aufgaben für sein Geschäft: Korrekturen der Google-Seite, Website, BBB und mehr. Das dauere sonst Stunden oder koste Tausende, wenn man es vergibt."
+        }
+      },
+      "source_url": "https://x.com/AskBryan/status/2126669459498610755",
+      "source_name": "X",
+      "author": "AskBryan",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "x",
+      "text": "I forgot I did buy one thing that went on sale: \nGrok Bot. \n\nThis dang thing is putting in some work for me! Fixing a slew of garbage in my life.  Online things for my business. \nGoogle page corrections, website, BBB, etc. \nThese things take hours or you pay thousands to have them done. \nGrok Bot is over here kicking World Wide Web ass for me.",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-askbryan-2126669459498610755",
+      "scen": [
+        "ship"
+      ]
+    },
+    {
+      "title": "Gavin Baker：Grok Bot 7–12 秒做出三个摘要与情绪工具",
+      "summary": "帖子引述 a16z 片段：Gavin Baker 说 Substack 摘要器、X 摘要器和情绪追踪器在 Grok Bot 里各用 7 到 12 秒，而在 Claude Code 里要几个小时，效果还更好。他说 Grok Bot 像又一次 ChatGPT 时刻。",
+      "en": {
+        "title": "Gavin Baker: three summariser tools in 7–12 seconds with Grok Bot",
+        "summary": "Citing an a16z clip: Gavin Baker says a Substack summariser, an X summariser and a sentiment tracker each took 7 to 12 seconds in Grok Bot versus hours in Claude Code, and came out better. He called it \"another ChatGPT moment\"."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Gavin Baker：Grok Bot 7–12 秒做出三个摘要与情绪工具",
+          "summary": "帖子引述 a16z 片段：Gavin Baker 说 Substack 摘要器、X 摘要器和情绪追踪器在 Grok Bot 里各用 7 到 12 秒，而在 Claude Code 里要几个小时，效果还更好。他说 Grok Bot 像又一次 ChatGPT 时刻。"
+        },
+        "zh-TW": {
+          "title": "Gavin Baker：Grok Bot 7–12 秒做出三個摘要與情緒工具",
+          "summary": "貼文引述 a16z 片段：Gavin Baker 說 Substack 摘要器、X 摘要器與情緒追蹤器在 Grok Bot 裡各花 7 到 12 秒，在 Claude Code 裡要好幾小時，效果還更好。他說 Grok Bot 像又一次 ChatGPT 時刻。"
+        },
+        "en": {
+          "title": "Gavin Baker: three summariser tools in 7–12 seconds with Grok Bot",
+          "summary": "Citing an a16z clip: Gavin Baker says a Substack summariser, an X summariser and a sentiment tracker each took 7 to 12 seconds in Grok Bot versus hours in Claude Code, and came out better. He called it \"another ChatGPT moment\"."
+        },
+        "ja": {
+          "title": "Gavin Baker：Grok Bot なら要約・感情ツール3つが各7〜12秒",
+          "summary": "a16z のクリップによると、Gavin Baker は Substack 要約、X 要約、センチメント追跡の3つが Grok Bot ではそれぞれ7〜12秒、Claude Code では数時間かかり、出来も Grok Bot のほうが良かったと語った。「また ChatGPT の瞬間のようだ」とも。"
+        },
+        "ko": {
+          "title": "Gavin Baker: Grok Bot으로 요약·감성 도구 3개를 각 7~12초에",
+          "summary": "a16z 영상에서 Gavin Baker는 Substack 요약기, X 요약기, 감성 추적기가 Grok Bot에서는 각각 7~12초, Claude Code에서는 몇 시간이 걸렸고 결과도 더 좋았다고 말했다. '또 하나의 ChatGPT 모먼트'라고 했다."
+        },
+        "ms": {
+          "title": "Gavin Baker: tiga alat ringkasan dalam 7–12 saat dengan Grok Bot",
+          "summary": "Memetik klip a16z: Gavin Baker berkata peringkas Substack, peringkas X dan penjejak sentimen masing-masing ambil 7 hingga 12 saat dalam Grok Bot berbanding berjam-jam dalam Claude Code, dan hasilnya lebih baik. Katanya ia seperti \"detik ChatGPT\" lagi."
+        },
+        "vi": {
+          "title": "Gavin Baker: ba công cụ tóm tắt trong 7–12 giây với Grok Bot",
+          "summary": "Theo một clip của a16z, Gavin Baker nói công cụ tóm tắt Substack, tóm tắt X và theo dõi cảm xúc mỗi cái mất 7–12 giây trên Grok Bot so với hàng giờ trên Claude Code, và kết quả tốt hơn. Ông gọi đó là \"một khoảnh khắc ChatGPT nữa\"."
+        },
+        "fr": {
+          "title": "Gavin Baker : trois outils de résumé en 7 à 12 secondes avec Grok Bot",
+          "summary": "D'après un extrait a16z, Gavin Baker dit qu'un résumeur Substack, un résumeur X et un suivi de sentiment ont pris chacun 7 à 12 secondes dans Grok Bot contre des heures dans Claude Code, avec un meilleur résultat. Pour lui, c'est « un autre moment ChatGPT »."
+        },
+        "es": {
+          "title": "Gavin Baker: tres herramientas de resumen en 7–12 segundos con Grok Bot",
+          "summary": "Según un clip de a16z, Gavin Baker dice que un resumidor de Substack, uno de X y un rastreador de sentimiento tardaron de 7 a 12 segundos cada uno en Grok Bot frente a horas en Claude Code, y salieron mejor. Lo llamó «otro momento ChatGPT»."
+        },
+        "de": {
+          "title": "Gavin Baker: drei Zusammenfassungs-Tools in 7–12 Sekunden mit Grok Bot",
+          "summary": "Laut einem a16z-Clip sagt Gavin Baker, ein Substack-Zusammenfasser, ein X-Zusammenfasser und ein Stimmungs-Tracker hätten in Grok Bot je 7 bis 12 Sekunden gebraucht, in Claude Code Stunden, und seien besser geworden. Für ihn „ein weiterer ChatGPT-Moment“."
+        }
+      },
+      "source_url": "https://x.com/0xLeoye/status/2126669625312051224",
+      "source_name": "X",
+      "author": "0xLeoye",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "x",
+      "text": "In an a16z clip, Gavin Baker says a Substack summarizer, an X summarizer, and a sentiment tracker each took 7 to 12 seconds in Grok Bot, versus hours in Claude Code, and came out better. \"To me, Grok Bot does feel like another ChatGPT moment.\"\n\n@bot\nhttps://t.co/R6DJjO9oDL",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-0xleoye-2126669625312051224",
+      "scen": [
+        "research",
+        "ship"
+      ]
+    },
+    {
+      "title": "每 30 分钟判断航班 GO 或 NO-GO 的 Grok Bot",
+      "summary": "帖子介绍一个每 30 分钟给出航班 GO 或 NO-GO 判断的 Grok Bot，出自 Rank 本周收录的内容，详情见链接。",
+      "en": {
+        "title": "A Grok Bot that calls GO or NO-GO on your flight every 30 minutes",
+        "summary": "The post shares a Grok Bot that gives a GO or NO-GO verdict on your flight every 30 minutes, from what Rank let in this week; details are in the link."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "每 30 分钟判断航班 GO 或 NO-GO 的 Grok Bot",
+          "summary": "帖子介绍一个每 30 分钟给出航班 GO 或 NO-GO 判断的 Grok Bot，出自 Rank 本周收录的内容，详情见链接。"
+        },
+        "zh-TW": {
+          "title": "每 30 分鐘判斷航班 GO 或 NO-GO 的 Grok Bot",
+          "summary": "貼文介紹一個每 30 分鐘給出航班 GO 或 NO-GO 判斷的 Grok Bot，出自 Rank 本週收錄的內容，詳情見連結。"
+        },
+        "en": {
+          "title": "A Grok Bot that calls GO or NO-GO on your flight every 30 minutes",
+          "summary": "The post shares a Grok Bot that gives a GO or NO-GO verdict on your flight every 30 minutes, from what Rank let in this week; details are in the link."
+        },
+        "ja": {
+          "title": "30分ごとにフライトの GO／NO-GO を判定する Grok Bot",
+          "summary": "30分ごとにフライトの可否を GO か NO-GO で知らせる Grok Bot を紹介。今週 Rank に採用されたもので、詳細はリンク先。"
+        },
+        "ko": {
+          "title": "30분마다 항공편 GO/NO-GO를 알려주는 Grok Bot",
+          "summary": "30분마다 항공편에 대해 GO 또는 NO-GO 판정을 내리는 Grok Bot을 소개한다. 이번 주 Rank에 채택된 것으로, 자세한 내용은 링크에 있다."
+        },
+        "ms": {
+          "title": "Grok Bot yang memberi GO atau NO-GO untuk penerbangan anda setiap 30 minit",
+          "summary": "Hantaran ini berkongsi Grok Bot yang memberi keputusan GO atau NO-GO untuk penerbangan anda setiap 30 minit, daripada senarai Rank minggu ini; butiran dalam pautan."
+        },
+        "vi": {
+          "title": "Grok Bot báo GO hay NO-GO cho chuyến bay mỗi 30 phút",
+          "summary": "Bài đăng giới thiệu một Grok Bot đưa ra kết luận GO hoặc NO-GO cho chuyến bay của bạn mỗi 30 phút, nằm trong danh sách Rank chọn tuần này; chi tiết ở link."
+        },
+        "fr": {
+          "title": "Un Grok Bot qui dit GO ou NO-GO pour votre vol toutes les 30 minutes",
+          "summary": "Le post présente un Grok Bot qui rend un verdict GO ou NO-GO sur votre vol toutes les 30 minutes, parmi ce que Rank a retenu cette semaine ; détails en lien."
+        },
+        "es": {
+          "title": "Un Grok Bot que dice GO o NO-GO sobre tu vuelo cada 30 minutos",
+          "summary": "El post comparte un Grok Bot que da un veredicto GO o NO-GO sobre tu vuelo cada 30 minutos, de lo que Rank admitió esta semana; detalles en el enlace."
+        },
+        "de": {
+          "title": "Ein Grok Bot, der alle 30 Minuten GO oder NO-GO für deinen Flug meldet",
+          "summary": "Der Post stellt einen Grok Bot vor, der alle 30 Minuten ein GO oder NO-GO zu deinem Flug gibt, aus dem, was Rank diese Woche aufgenommen hat; Details im Link."
+        }
+      },
+      "source_url": "https://x.com/bugatsinho/status/2126661694097121308",
+      "source_name": "X",
+      "author": "bugatsinho",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "x",
+      "text": "A Grok Bot that says GO or NO-GO on your flight every 30 minutes. What Rank let in this week https://t.co/KGuXnH2NrO",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-bugatsinho-2126661694097121308",
+      "scen": [
+        "social",
+        "travel"
+      ]
+    },
+    {
+      "title": "Meta Muse 的 Spaces：一句话做出专属应用和游戏",
+      "summary": "作者介绍 Muse 的「Spaces」功能：只要提出需求就能做出自己专用的应用或游戏，做好后还能用对话修改，比如「按钮再大一点」「加上分数记录」，就是提需求、试用、修改的循环。",
+      "en": {
+        "title": "Meta Muse Spaces: ask for your own app or game, then fix it by chatting",
+        "summary": "The author explains Muse \"Spaces\": just ask and it builds an app or game for you, and you can refine it in conversation afterwards, e.g. \"make the button bigger\" or \"add score tracking\". Ask, try, fix, repeat."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Meta Muse 的 Spaces：一句话做出专属应用和游戏",
+          "summary": "作者介绍 Muse 的「Spaces」功能：只要提出需求就能做出自己专用的应用或游戏，做好后还能用对话修改，比如「按钮再大一点」「加上分数记录」，就是提需求、试用、修改的循环。"
+        },
+        "zh-TW": {
+          "title": "Meta Muse 的 Spaces：一句話做出專屬應用與遊戲",
+          "summary": "作者介紹 Muse 的「Spaces」功能：只要提出需求就能做出自己專用的應用或遊戲，做好後還能用對話修改，例如「按鈕再大一點」「加上分數紀錄」，就是提需求、試用、修改的循環。"
+        },
+        "en": {
+          "title": "Meta Muse Spaces: ask for your own app or game, then fix it by chatting",
+          "summary": "The author explains Muse \"Spaces\": just ask and it builds an app or game for you, and you can refine it in conversation afterwards, e.g. \"make the button bigger\" or \"add score tracking\". Ask, try, fix, repeat."
+        },
+        "ja": {
+          "title": "Meta Muse の Spaces：頼むだけで専用アプリやゲーム、会話で修正",
+          "summary": "Muse の「Spaces」は頼むだけで自分専用のアプリやゲームができる機能。作ったあとも「ボタンをもっと大きく」「点数の記録を足して」など会話で直せる。頼む、触る、直すの繰り返し。"
+        },
+        "ko": {
+          "title": "Meta Muse Spaces: 요청만으로 나만의 앱·게임, 대화로 수정",
+          "summary": "작성자는 Muse의 'Spaces' 기능을 소개한다. 요청만 하면 나만의 앱이나 게임이 만들어지고, 이후 '버튼을 더 크게', '점수 기록 추가'처럼 대화로 고칠 수 있다. 요청, 사용, 수정을 반복하면 된다."
+        },
+        "ms": {
+          "title": "Meta Muse Spaces: minta aplikasi atau permainan sendiri, baiki melalui sembang",
+          "summary": "Penulis menerangkan \"Spaces\" Muse: minta sahaja dan ia membina aplikasi atau permainan untuk anda, kemudian boleh diperbaiki melalui perbualan, contohnya \"besarkan butang\" atau \"tambah rekod skor\". Minta, cuba, baiki, ulang."
+        },
+        "vi": {
+          "title": "Meta Muse Spaces: chỉ cần yêu cầu là có app hay game riêng, sửa bằng trò chuyện",
+          "summary": "Tác giả giới thiệu tính năng \"Spaces\" của Muse: chỉ cần yêu cầu là có ứng dụng hoặc trò chơi riêng, sau đó sửa bằng hội thoại như \"làm nút to hơn\", \"thêm bảng điểm\". Yêu cầu, dùng thử, sửa, lặp lại."
+        },
+        "fr": {
+          "title": "Meta Muse Spaces : demandez votre appli ou jeu, puis corrigez-le en discutant",
+          "summary": "L'auteur présente « Spaces » de Muse : il suffit de demander pour obtenir une appli ou un jeu personnel, ensuite modifiable en conversation, par ex. « agrandis le bouton » ou « ajoute le suivi des scores ». Demander, tester, corriger, recommencer."
+        },
+        "es": {
+          "title": "Meta Muse Spaces: pide tu propia app o juego y corrígelo conversando",
+          "summary": "El autor explica «Spaces» de Muse: basta con pedirlo para que cree una app o juego para ti, y luego se ajusta conversando, p. ej. «haz el botón más grande» o «añade el registro de puntos». Pedir, probar, corregir y repetir."
+        },
+        "de": {
+          "title": "Meta Muse Spaces: eigene App oder eigenes Spiel anfordern, per Chat nachbessern",
+          "summary": "Der Autor erklärt Muse „Spaces“: einfach bitten, und es baut eine App oder ein Spiel für dich, das sich danach im Gespräch anpassen lässt, etwa „Button größer“ oder „Punktestand hinzufügen“. Bitten, ausprobieren, korrigieren, wiederholen."
+        }
+      },
+      "source_url": "https://x.com/MuscleInven7/status/2126657950156763521",
+      "source_name": "X",
+      "author": "MuscleInven7",
+      "product": "meta-muse",
+      "type": "guide",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "x",
+      "text": "【Meta Muse副業入門】\n Museの「Spaces」は、頼むだけで自分専用のアプリやゲームができる機能。\n \n よいところは、作ったあと会話で直せること。\n 「ボタンをもっと大きくして」\n 「点数の記録を足して」\n 「この表示がおかしい」\n \n 頼む、触る、直すの繰り返しです。 https://t.co/uqhrc8g6Ld",
+      "media": [
+        "https://pbs.twimg.com/media/HYNoA_MbUAA9onk.jpg"
+      ],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-muscleinven7-2126657950156763521",
+      "scen": [
+        "research",
+        "ship"
+      ]
+    },
+    {
+      "title": "工作中试用 Meta Muse：先别连 Gmail 和日历",
+      "summary": "作者建议在工作中试 Meta Muse 时，先只用聊天，不急着接入 Gmail 或 Google 日历；连接哪些服务、开放到什么范围可以自己选。需要注意的是，一开始并不一定什么都没连接。",
+      "en": {
+        "title": "Trying Meta Muse at work: start with chat, not Gmail or Calendar",
+        "summary": "The author suggests starting Meta Muse at work with chat only, without adding Gmail or Google Calendar; you choose what to connect and how much it can see. One caveat: it isn't necessarily the case that nothing is connected at the start."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "工作中试用 Meta Muse：先别连 Gmail 和日历",
+          "summary": "作者建议在工作中试 Meta Muse 时，先只用聊天，不急着接入 Gmail 或 Google 日历；连接哪些服务、开放到什么范围可以自己选。需要注意的是，一开始并不一定什么都没连接。"
+        },
+        "zh-TW": {
+          "title": "工作中試用 Meta Muse：先別連 Gmail 和日曆",
+          "summary": "作者建議在工作中試 Meta Muse 時，先只用聊天，不急著接上 Gmail 或 Google 日曆；要連哪些服務、開放到什麼範圍可以自己選。要留意的是，一開始不一定什麼都沒連接。"
+        },
+        "en": {
+          "title": "Trying Meta Muse at work: start with chat, not Gmail or Calendar",
+          "summary": "The author suggests starting Meta Muse at work with chat only, without adding Gmail or Google Calendar; you choose what to connect and how much it can see. One caveat: it isn't necessarily the case that nothing is connected at the start."
+        },
+        "ja": {
+          "title": "Meta Muse を仕事で試すなら、まずは Gmail やカレンダーなしでチャットから",
+          "summary": "作者は、Meta Muse を仕事で試す際はまず Gmail や Google カレンダーをつながずチャットから始めるよう勧める。つなぐ先と見せる範囲は自分で選べる。ただし最初から何もつながっていないとは限らない点に注意。"
+        },
+        "ko": {
+          "title": "업무용 Meta Muse 체험: Gmail·캘린더 연결 전에 채팅부터",
+          "summary": "작성자는 업무에서 Meta Muse를 시험할 때 Gmail이나 Google 캘린더를 연결하지 말고 채팅부터 시작하라고 권한다. 연결 대상과 공개 범위는 직접 고를 수 있다. 다만 처음부터 아무것도 연결되지 않았다고 단정할 수는 없다."
+        },
+        "ms": {
+          "title": "Mencuba Meta Muse di tempat kerja: mula dengan sembang, bukan Gmail atau Kalendar",
+          "summary": "Penulis mencadangkan mula menggunakan Meta Muse di tempat kerja dengan sembang sahaja, tanpa menambah Gmail atau Google Calendar; anda pilih apa yang disambung dan sejauh mana ia boleh lihat. Satu amaran: tidak semestinya tiada apa yang tersambung pada mulanya."
+        },
+        "vi": {
+          "title": "Dùng thử Meta Muse cho công việc: bắt đầu bằng chat, chưa nối Gmail hay Lịch",
+          "summary": "Tác giả khuyên khi thử Meta Muse cho công việc, hãy bắt đầu chỉ với chat, chưa thêm Gmail hay Google Calendar; bạn tự chọn kết nối gì và cho xem đến đâu. Lưu ý: chưa chắc ban đầu không có gì được kết nối."
+        },
+        "fr": {
+          "title": "Tester Meta Muse au travail : commencer par le chat, sans Gmail ni Agenda",
+          "summary": "L'auteur conseille de débuter Meta Muse au travail par le chat seul, sans ajouter Gmail ni Google Agenda ; vous choisissez ce qui est connecté et ce qu'il peut voir. Attention : il n'est pas certain que rien ne soit connecté au départ."
+        },
+        "es": {
+          "title": "Probar Meta Muse en el trabajo: empieza por el chat, sin Gmail ni Calendar",
+          "summary": "El autor sugiere empezar con Meta Muse en el trabajo solo con el chat, sin añadir Gmail ni Google Calendar; tú eliges qué conectar y cuánto puede ver. Ojo: no es seguro que al principio no haya nada conectado."
+        },
+        "de": {
+          "title": "Meta Muse im Job testen: mit dem Chat starten, nicht mit Gmail oder Kalender",
+          "summary": "Der Autor rät, Meta Muse im Job zuerst nur per Chat zu nutzen, ohne Gmail oder Google Kalender; du wählst, was verbunden wird und wie viel es sieht. Achtung: Es ist nicht gesagt, dass anfangs gar nichts verbunden ist."
+        }
+      },
+      "source_url": "https://x.com/ad_crew_2022/status/2126664165083185327",
+      "source_name": "X",
+      "author": "ad_crew_2022",
+      "product": "meta-muse",
+      "type": "guide",
+      "date": "2026-11-28",
+      "likes": 1,
+      "src": "x",
+      "text": "Meta Museを仕事で試すなら、まずはGmailやGoogleカレンダーを足さずにチャットから。つなぐ先と見せる範囲を自分で選べるのが安心ポイントです🙌\n\nひとつ気をつけたいのは、最初から何もつながっていないとは限らないこと💦&lt;br",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-adcrew2022-2126664165083185327",
+      "scen": [
+        "inbox",
+        "calendar"
+      ]
+    },
+    {
+      "title": "Grok Bot + Gemini 4 Neon：一次调用读完 94.41 万 token",
+      "summary": "视频里 Neon 一次调用载入整个 100 万 token 窗口：944,100 个 token、2 个工作、找出 8 个要点；随后 Grok Bot 把它们转成草稿和任务，并等用户同意。",
+      "en": {
+        "title": "Grok Bot + Gemini 4 Neon: 944,100 tokens in one call",
+        "summary": "In the video, Neon loads a whole 1M-token window in one call: 944,100 tokens, 2 jobs, 8 key points found. Grok Bot then turns them into drafts and tasks and waits for your yes."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Grok Bot + Gemini 4 Neon：一次调用读完 94.41 万 token",
+          "summary": "视频里 Neon 一次调用载入整个 100 万 token 窗口：944,100 个 token、2 个工作、找出 8 个要点；随后 Grok Bot 把它们转成草稿和任务，并等用户同意。"
+        },
+        "zh-TW": {
+          "title": "Grok Bot + Gemini 4 Neon：一次呼叫讀完 94.41 萬 token",
+          "summary": "影片中 Neon 一次呼叫載入整個 100 萬 token 視窗：944,100 個 token、2 份工作、找出 8 個重點；接著 Grok Bot 把它們轉成草稿與任務，並等使用者同意。"
+        },
+        "en": {
+          "title": "Grok Bot + Gemini 4 Neon: 944,100 tokens in one call",
+          "summary": "In the video, Neon loads a whole 1M-token window in one call: 944,100 tokens, 2 jobs, 8 key points found. Grok Bot then turns them into drafts and tasks and waits for your yes."
+        },
+        "ja": {
+          "title": "Grok Bot × Gemini 4 Neon：1回の呼び出しで94万4100トークン",
+          "summary": "動画では Neon が100万トークンの枠を1回で読み込む。944,100トークン、2つの仕事、8つの要点を抽出。それを Grok Bot が下書きとタスクに変え、承認を待つ。"
+        },
+        "ko": {
+          "title": "Grok Bot + Gemini 4 Neon: 한 번 호출로 944,100토큰",
+          "summary": "영상에서 Neon은 100만 토큰 창 전체를 한 번에 불러온다. 944,100토큰, 작업 2개, 핵심 포인트 8개를 찾았다. 이어 Grok Bot이 이를 초안과 할 일로 바꾸고 승인을 기다린다."
+        },
+        "ms": {
+          "title": "Grok Bot + Gemini 4 Neon: 944,100 token dalam satu panggilan",
+          "summary": "Dalam video, Neon memuatkan keseluruhan tetingkap 1J token dalam satu panggilan: 944,100 token, 2 kerja, 8 perkara utama ditemui. Grok Bot kemudian menukarnya kepada draf dan tugasan serta menunggu persetujuan anda."
+        },
+        "vi": {
+          "title": "Grok Bot + Gemini 4 Neon: 944.100 token trong một lần gọi",
+          "summary": "Trong video, Neon nạp cả cửa sổ 1 triệu token trong một lần gọi: 944.100 token, 2 việc, tìm ra 8 điểm chính. Sau đó Grok Bot chuyển chúng thành bản nháp và việc cần làm, rồi chờ bạn đồng ý."
+        },
+        "fr": {
+          "title": "Grok Bot + Gemini 4 Neon : 944 100 tokens en un seul appel",
+          "summary": "Dans la vidéo, Neon charge une fenêtre complète d'un million de tokens en un appel : 944 100 tokens, 2 missions, 8 points clés trouvés. Grok Bot en fait ensuite des brouillons et des tâches, et attend votre accord."
+        },
+        "es": {
+          "title": "Grok Bot + Gemini 4 Neon: 944.100 tokens en una sola llamada",
+          "summary": "En el vídeo, Neon carga una ventana completa de 1M de tokens en una llamada: 944.100 tokens, 2 trabajos, 8 puntos clave encontrados. Luego Grok Bot los convierte en borradores y tareas y espera tu visto bueno."
+        },
+        "de": {
+          "title": "Grok Bot + Gemini 4 Neon: 944.100 Tokens in einem Aufruf",
+          "summary": "Im Video lädt Neon ein ganzes 1-Mio.-Token-Fenster in einem Aufruf: 944.100 Tokens, 2 Jobs, 8 Kernpunkte gefunden. Grok Bot macht daraus Entwürfe und Aufgaben und wartet auf dein Ja."
+        }
+      },
+      "source_url": "https://x.com/Legi0ner007/status/2126667848105758833",
+      "source_name": "X",
+      "author": "Legi0ner007",
+      "product": "multi",
+      "type": "field-case",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "x",
+      "text": "Grok Bot + Gemini 4 Neon: watch what happens when you stop feeding your bot piece by piece.\n\nIn the video above, Neon loads a whole 1M-token window in ONE call: 944,100 tokens, 2 jobs, 8 key points found.\n\nGrok Bot turns them into drafts and tasks, and waits for your yes.\n\nCost https://t.co/mBEnFQKZMC https://t.co/WXQvHIVP8F",
+      "media": [
+        "https://pbs.twimg.com/amplify_video_thumb/2126667772386004992/img/FOsRZ0zANeB1lO0I.jpg"
+      ],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-legi0ner007-2126667848105758833",
+      "scen": []
+    },
+    {
+      "title": "重复任务的做法：一个任务一个 Bot，再存技能、加例程",
+      "summary": "Grok 官方账号回复建议：为每个重复任务建一个专门的 Bot，给它名字、头衔和关于单一职责与限制的详细描述；把成功的步骤存成可复用技能，再加上例程让它按计划或触发条件运行。",
+      "en": {
+        "title": "For repeated tasks: one Bot per job, then a skill and a routine",
+        "summary": "Grok's official reply suggests creating a dedicated Bot for each repeated task, with a name, title and a detailed description of its single job plus limits; save successful steps as a reusable skill, then add a routine so it runs on a schedule or trigger."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "重复任务的做法：一个任务一个 Bot，再存技能、加例程",
+          "summary": "Grok 官方账号回复建议：为每个重复任务建一个专门的 Bot，给它名字、头衔和关于单一职责与限制的详细描述；把成功的步骤存成可复用技能，再加上例程让它按计划或触发条件运行。"
+        },
+        "zh-TW": {
+          "title": "重複任務的做法：一個任務一個 Bot，再存技能、加例行程序",
+          "summary": "Grok 官方帳號回覆建議：為每個重複任務建立專屬 Bot，給它名稱、職稱與關於單一職責和限制的詳細描述；把成功的步驟存成可重複使用的技能，再加上例行程序讓它依排程或觸發條件執行。"
+        },
+        "en": {
+          "title": "For repeated tasks: one Bot per job, then a skill and a routine",
+          "summary": "Grok's official reply suggests creating a dedicated Bot for each repeated task, with a name, title and a detailed description of its single job plus limits; save successful steps as a reusable skill, then add a routine so it runs on a schedule or trigger."
+        },
+        "ja": {
+          "title": "繰り返しタスクは1タスク1 Bot、スキル保存とルーティン追加で",
+          "summary": "Grok 公式アカウントの返信によると、繰り返すタスクごとに専用 Bot を作り、名前・肩書き・単一の役割と制限の詳しい説明を与える。うまくいった手順は再利用できるスキルとして保存し、ルーティンを追加してスケジュールやトリガーで動かす。"
+        },
+        "ko": {
+          "title": "반복 작업은 작업당 Bot 하나, 스킬 저장 후 루틴 추가",
+          "summary": "Grok 공식 계정의 답글은 반복 작업마다 전용 Bot을 만들고 이름, 직함, 단일 업무와 제한에 대한 자세한 설명을 주라고 권한다. 성공한 단계는 재사용 가능한 스킬로 저장하고, 일정이나 트리거로 실행되도록 루틴을 추가한다."
+        },
+        "ms": {
+          "title": "Untuk tugas berulang: satu Bot satu kerja, kemudian skill dan rutin",
+          "summary": "Balasan rasmi Grok mencadangkan Bot khusus untuk setiap tugas berulang, dengan nama, jawatan dan penerangan terperinci tentang tugas tunggalnya serta hadnya; simpan langkah yang berjaya sebagai skill boleh guna semula, kemudian tambah rutin supaya ia berjalan mengikut jadual atau pencetus."
+        },
+        "vi": {
+          "title": "Việc lặp lại: mỗi việc một Bot, rồi lưu skill và thêm routine",
+          "summary": "Phản hồi chính thức của Grok gợi ý tạo một Bot riêng cho mỗi việc lặp lại, có tên, chức danh và mô tả chi tiết nhiệm vụ duy nhất cùng giới hạn; lưu các bước thành công thành skill tái sử dụng, rồi thêm routine để chạy theo lịch hoặc trigger."
+        },
+        "fr": {
+          "title": "Tâches répétées : un Bot par mission, puis une skill et une routine",
+          "summary": "La réponse officielle de Grok conseille de créer un Bot dédié à chaque tâche répétée, avec un nom, un titre et une description détaillée de sa mission unique et de ses limites ; enregistrer les étapes réussies en skill réutilisable, puis ajouter une routine planifiée ou déclenchée."
+        },
+        "es": {
+          "title": "Para tareas repetidas: un Bot por trabajo, luego una skill y una rutina",
+          "summary": "La respuesta oficial de Grok sugiere crear un Bot dedicado para cada tarea repetida, con nombre, cargo y una descripción detallada de su única función y sus límites; guardar los pasos exitosos como skill reutilizable y añadir una rutina programada o por disparador."
+        },
+        "de": {
+          "title": "Für wiederkehrende Aufgaben: ein Bot pro Job, dann Skill und Routine",
+          "summary": "Groks offizielle Antwort empfiehlt einen eigenen Bot pro wiederkehrender Aufgabe, mit Name, Titel und genauer Beschreibung seiner einen Aufgabe samt Grenzen; erfolgreiche Schritte als wiederverwendbaren Skill speichern und eine Routine nach Zeitplan oder Trigger hinzufügen."
+        }
+      },
+      "source_url": "https://x.com/grok/status/2126668298334949701",
+      "source_name": "X",
+      "author": "grok",
+      "product": "grok-bot",
+      "type": "guide",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "x",
+      "text": "@socialinsighta Yes. Grok Bot is built for that.\n\nCreate a dedicated Bot for each repeated task: give it a name, title, and detailed description of its single job plus limits. Save successful steps as a reusable skill, then add a routine so it runs on a schedule or trigger.\n\nYou can run a whole",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-grok-2126668298334949701",
+      "scen": [
+        "calendar"
+      ]
+    },
+    {
+      "title": "最常用的常驻 agent 是 Grok Bot，但对普通企业仍偏技术",
+      "summary": "作者说 Grok Bot 很出色，是他用得最多的常驻 agent，但对多数企业来说可能还太技术化：做技术的人能摸清，普通非技术企业会遇到上手障碍，加上很多人不了解 agent 平台能做什么。",
+      "en": {
+        "title": "Grok Bot is my most-used always-on agent, but still too technical for most businesses",
+        "summary": "The author calls Grok Bot phenomenal and his most-used always-on agent, but thinks it may feel too technical for most businesses: tech people will figure it out, non-tech businesses face adoption hurdles, and many don't know what agent platforms can do."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "最常用的常驻 agent 是 Grok Bot，但对普通企业仍偏技术",
+          "summary": "作者说 Grok Bot 很出色，是他用得最多的常驻 agent，但对多数企业来说可能还太技术化：做技术的人能摸清，普通非技术企业会遇到上手障碍，加上很多人不了解 agent 平台能做什么。"
+        },
+        "zh-TW": {
+          "title": "最常用的常駐 agent 是 Grok Bot，但對一般企業仍偏技術",
+          "summary": "作者說 Grok Bot 很出色，是他用得最多的常駐 agent，但對多數企業來說可能還太技術化：做技術的人摸得清，一般非技術企業會遇到上手門檻，加上很多人不了解 agent 平台能做什麼。"
+        },
+        "en": {
+          "title": "Grok Bot is my most-used always-on agent, but still too technical for most businesses",
+          "summary": "The author calls Grok Bot phenomenal and his most-used always-on agent, but thinks it may feel too technical for most businesses: tech people will figure it out, non-tech businesses face adoption hurdles, and many don't know what agent platforms can do."
+        },
+        "ja": {
+          "title": "一番使う常駐エージェントは Grok Bot、ただし一般企業にはまだ技術的",
+          "summary": "作者は Grok Bot を素晴らしく最も使う常駐エージェントだと評価しつつ、多くの企業には技術的すぎると見る。技術職なら使いこなせるが、非技術系の企業は導入でつまずき、エージェント基盤で何ができるか知らない人も多いという。"
+        },
+        "ko": {
+          "title": "가장 많이 쓰는 상시 에이전트는 Grok Bot, 하지만 일반 기업엔 아직 기술적",
+          "summary": "작성자는 Grok Bot이 훌륭하고 가장 많이 쓰는 상시 에이전트라고 하면서도, 대부분 기업에는 너무 기술적일 수 있다고 본다. 기술직은 익히겠지만 비기술 기업은 도입 장벽을 겪고, 에이전트 플랫폼의 능력을 모르는 사람도 많다."
+        },
+        "ms": {
+          "title": "Grok Bot ejen sentiasa aktif paling kerap saya guna, tetapi terlalu teknikal untuk kebanyakan perniagaan",
+          "summary": "Penulis memuji Grok Bot sebagai ejen sentiasa aktif yang paling kerap digunakannya, tetapi mungkin terlalu teknikal bagi kebanyakan perniagaan: orang teknologi akan faham, perniagaan bukan teknikal menghadapi halangan, dan ramai tidak tahu keupayaan platform ejen."
+        },
+        "vi": {
+          "title": "Grok Bot là agent luôn bật tôi dùng nhiều nhất, nhưng còn quá kỹ thuật với đa số doanh nghiệp",
+          "summary": "Tác giả khen Grok Bot xuất sắc và là agent luôn bật anh dùng nhiều nhất, nhưng cho rằng nó còn quá kỹ thuật với đa số doanh nghiệp: dân công nghệ sẽ làm được, doanh nghiệp phi kỹ thuật gặp rào cản, và nhiều người chưa biết nền tảng agent làm được gì."
+        },
+        "fr": {
+          "title": "Grok Bot, mon agent permanent le plus utilisé, encore trop technique pour la plupart des entreprises",
+          "summary": "L'auteur juge Grok Bot phénoménal et c'est son agent permanent le plus utilisé, mais il le trouve sans doute trop technique pour la plupart des entreprises : les profils tech s'en sortiront, les autres auront du mal à l'adopter, et beaucoup ignorent ce que peuvent faire ces plateformes."
+        },
+        "es": {
+          "title": "Grok Bot es mi agente siempre activo más usado, pero aún muy técnico para la mayoría de negocios",
+          "summary": "El autor dice que Grok Bot es fenomenal y su agente siempre activo más usado, pero quizá demasiado técnico para la mayoría de empresas: quien trabaja en tecnología lo entenderá, los negocios no técnicos tendrán barreras y muchos no saben qué pueden hacer estas plataformas."
+        },
+        "de": {
+          "title": "Grok Bot ist mein meistgenutzter Always-on-Agent, aber für die meisten Firmen noch zu technisch",
+          "summary": "Der Autor nennt Grok Bot phänomenal und seinen meistgenutzten Always-on-Agenten, hält ihn aber für die meisten Unternehmen für zu technisch: Tech-Leute kommen klar, nicht-technische Betriebe haben Einstiegshürden, und viele wissen nicht, was Agent-Plattformen können."
+        }
+      },
+      "source_url": "https://x.com/reedosdev/status/2126475659438637464",
+      "source_name": "X",
+      "author": "reedosdev",
+      "product": "grok-bot",
+      "type": "field-case",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "x",
+      "text": "Grok bot is a phenomenal product and my most used ‘always-on’ agent but probably feels too technical for most businesses as of now. If you work in tech, you’ll figure it out, but I can see how the everyday non-tech business would face hurdles to adoption. That along with most people not being aware of what the latest agent platforms are capable of, or even knowing what an AI agent is.",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-reedosdev-2126475659438637464",
+      "scen": []
+    },
+    {
+      "title": "MuseLite：在 iOS 17 上运行 Meta Muse 的 WKWebView 外壳",
+      "summary": "开源项目 MuseLite 是 muse.ai 的 WKWebView 外壳，让 iOS 17 设备也能运行 Meta Muse AI agent，而官方应用需要 iOS 18。",
+      "en": {
+        "title": "MuseLite: a WKWebView shell to run Meta Muse on iOS 17",
+        "summary": "The open-source MuseLite repo is a WKWebView shell for muse.ai that runs the Meta Muse AI agent on iOS 17, since the official app needs iOS 18."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "MuseLite：在 iOS 17 上运行 Meta Muse 的 WKWebView 外壳",
+          "summary": "开源项目 MuseLite 是 muse.ai 的 WKWebView 外壳，让 iOS 17 设备也能运行 Meta Muse AI agent，而官方应用需要 iOS 18。"
+        },
+        "zh-TW": {
+          "title": "MuseLite：在 iOS 17 上執行 Meta Muse 的 WKWebView 外殼",
+          "summary": "開源專案 MuseLite 是 muse.ai 的 WKWebView 外殼，讓 iOS 17 裝置也能執行 Meta Muse AI agent，而官方應用需要 iOS 18。"
+        },
+        "en": {
+          "title": "MuseLite: a WKWebView shell to run Meta Muse on iOS 17",
+          "summary": "The open-source MuseLite repo is a WKWebView shell for muse.ai that runs the Meta Muse AI agent on iOS 17, since the official app needs iOS 18."
+        },
+        "ja": {
+          "title": "MuseLite：iOS 17 で Meta Muse を動かす WKWebView シェル",
+          "summary": "オープンソースの MuseLite は muse.ai 用の WKWebView シェル。公式アプリは iOS 18 が必要だが、これで iOS 17 でも Meta Muse の AI エージェントを使える。"
+        },
+        "ko": {
+          "title": "MuseLite: iOS 17에서 Meta Muse를 실행하는 WKWebView 셸",
+          "summary": "오픈소스 MuseLite는 muse.ai용 WKWebView 셸로, 공식 앱이 iOS 18을 요구하는 것과 달리 iOS 17에서도 Meta Muse AI 에이전트를 실행할 수 있게 해 준다."
+        },
+        "ms": {
+          "title": "MuseLite: cangkerang WKWebView untuk menjalankan Meta Muse pada iOS 17",
+          "summary": "Repo sumber terbuka MuseLite ialah cangkerang WKWebView untuk muse.ai yang menjalankan ejen AI Meta Muse pada iOS 17, kerana aplikasi rasmi memerlukan iOS 18."
+        },
+        "vi": {
+          "title": "MuseLite: lớp vỏ WKWebView để chạy Meta Muse trên iOS 17",
+          "summary": "Repo mã nguồn mở MuseLite là lớp vỏ WKWebView cho muse.ai, giúp chạy agent AI Meta Muse trên iOS 17, vì ứng dụng chính thức yêu cầu iOS 18."
+        },
+        "fr": {
+          "title": "MuseLite : une coque WKWebView pour utiliser Meta Muse sous iOS 17",
+          "summary": "Le dépôt open source MuseLite est une coque WKWebView pour muse.ai qui fait tourner l'agent IA Meta Muse sous iOS 17, l'appli officielle exigeant iOS 18."
+        },
+        "es": {
+          "title": "MuseLite: un contenedor WKWebView para usar Meta Muse en iOS 17",
+          "summary": "El repositorio de código abierto MuseLite es un contenedor WKWebView para muse.ai que ejecuta el agente de IA Meta Muse en iOS 17, ya que la app oficial requiere iOS 18."
+        },
+        "de": {
+          "title": "MuseLite: eine WKWebView-Hülle, um Meta Muse unter iOS 17 zu nutzen",
+          "summary": "Das Open-Source-Repo MuseLite ist eine WKWebView-Hülle für muse.ai, mit der der Meta-Muse-KI-Agent unter iOS 17 läuft, da die offizielle App iOS 18 verlangt."
+        }
+      },
+      "source_url": "https://github.com/QAQ60/MuseLite",
+      "source_name": "GitHub",
+      "author": "QAQ60",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "github",
+      "text": "QAQ60/MuseLite\nWKWebView shell for muse.ai — run Meta Muse AI agent on iOS 17 (official app needs iOS 18)",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "Runner: macos-latest (Xcode 26.6, iOS SDK 26.5), xcodebuild archive with CODE_SIGNING_ALLOWED=NO",
+        "Output: MuseLite-unsigned.ipa artifact + SHA-256",
+        "Download MuseLite-unsigned.ipa from the Actions artifact (or a Release).",
+        "Sign & install with Sideloadly, AltStore, Feather, ESign, or",
+        "Trust the developer profile in Settings → General → VPN & Device Management.",
+        "Launch Muse and sign in with your Meta account.",
+        "Full-screen WKWebView, no chrome, viewport locked to device width",
+        "applicationNameForUserAgent mimics a real Safari tab (avoids \"unsupported browser\" gates)"
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-qaq60-muselite",
+      "scen": [
+        "prs",
+        "ship"
+      ]
+    },
+    {
+      "title": "Muse for Quest：在 Meta Quest 头显里用 Muse 调试 VR 模组",
+      "summary": "项目自称首个 Muse AI 助手的 Meta Quest 客户端：头显内聊天，加上无线实时画面桥接，让 agent 能看着游戏画面，实时帮忙调试 VR 模组。",
+      "en": {
+        "title": "Muse for Quest: debugging VR mods with Muse inside a Meta Quest headset",
+        "summary": "The repo describes itself as the first Meta Quest client for the Muse AI assistant: in-headset chat plus a wireless live-view bridge so the agent can watch gameplay and help debug VR mods live."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "Muse for Quest：在 Meta Quest 头显里用 Muse 调试 VR 模组",
+          "summary": "项目自称首个 Muse AI 助手的 Meta Quest 客户端：头显内聊天，加上无线实时画面桥接，让 agent 能看着游戏画面，实时帮忙调试 VR 模组。"
+        },
+        "zh-TW": {
+          "title": "Muse for Quest：在 Meta Quest 頭戴裝置裡用 Muse 除錯 VR 模組",
+          "summary": "專案自稱首個 Muse AI 助理的 Meta Quest 用戶端：頭戴裝置內聊天，加上無線即時畫面橋接，讓 agent 能看著遊戲畫面，即時協助除錯 VR 模組。"
+        },
+        "en": {
+          "title": "Muse for Quest: debugging VR mods with Muse inside a Meta Quest headset",
+          "summary": "The repo describes itself as the first Meta Quest client for the Muse AI assistant: in-headset chat plus a wireless live-view bridge so the agent can watch gameplay and help debug VR mods live."
+        },
+        "ja": {
+          "title": "Muse for Quest：Meta Quest のヘッドセット内で Muse と VR Mod をデバッグ",
+          "summary": "Muse AI アシスタント初の Meta Quest クライアントをうたうリポジトリ。ヘッドセット内チャットに加え、無線のライブビュー連携でエージェントがプレイ画面を見ながら VR Mod のデバッグをその場で手伝う。"
+        },
+        "ko": {
+          "title": "Muse for Quest: Meta Quest 헤드셋 안에서 Muse로 VR 모드 디버깅",
+          "summary": "이 저장소는 Muse AI 비서의 첫 Meta Quest 클라이언트라고 소개한다. 헤드셋 내 채팅과 무선 실시간 화면 브리지를 제공해 에이전트가 게임 화면을 보며 VR 모드 디버깅을 실시간으로 돕는다."
+        },
+        "ms": {
+          "title": "Muse for Quest: menyahpepijat mod VR dengan Muse dalam set kepala Meta Quest",
+          "summary": "Repo ini menggelar dirinya klien Meta Quest pertama untuk pembantu AI Muse: sembang dalam set kepala serta jambatan paparan langsung tanpa wayar supaya ejen boleh menonton permainan dan membantu menyahpepijat mod VR secara langsung."
+        },
+        "vi": {
+          "title": "Muse for Quest: gỡ lỗi mod VR với Muse ngay trong kính Meta Quest",
+          "summary": "Repo tự giới thiệu là client Meta Quest đầu tiên cho trợ lý AI Muse: chat trong kính cùng cầu nối xem trực tiếp không dây để agent xem gameplay và giúp gỡ lỗi mod VR theo thời gian thực."
+        },
+        "fr": {
+          "title": "Muse for Quest : déboguer des mods VR avec Muse dans un casque Meta Quest",
+          "summary": "Le dépôt se présente comme le premier client Meta Quest de l'assistant IA Muse : chat dans le casque et pont de vue en direct sans fil pour que l'agent regarde le jeu et aide à déboguer les mods VR en direct."
+        },
+        "es": {
+          "title": "Muse for Quest: depurar mods de VR con Muse dentro de unas Meta Quest",
+          "summary": "El repositorio se presenta como el primer cliente de Meta Quest para el asistente de IA Muse: chat dentro del visor y un puente inalámbrico de vista en directo para que el agente vea la partida y ayude a depurar mods de VR en vivo."
+        },
+        "de": {
+          "title": "Muse for Quest: VR-Mods mit Muse direkt im Meta-Quest-Headset debuggen",
+          "summary": "Das Repo beschreibt sich als ersten Meta-Quest-Client für den KI-Assistenten Muse: Chat im Headset plus kabellose Live-Ansicht, damit der Agent das Spiel sieht und beim Debuggen von VR-Mods live hilft."
+        }
+      },
+      "source_url": "https://github.com/1915rising/muse-for-quest",
+      "source_name": "GitHub",
+      "author": "1915rising",
+      "product": "meta-muse",
+      "type": "field-case",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "github",
+      "text": "1915rising/muse-for-quest\nThe first Meta Quest client for the Muse AI assistant — in-headset chat plus a wireless live-view bridge so the agent can watch gameplay and help debug VR mods live. By Ford Productions.",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "The player tests a VR mod in-headset.",
+        "The Muse agent sees what the player sees, live, over Wi-Fi.",
+        "They talk about it in real time — what broke, what changed, what to fix next.",
+        "The app — an Android WebView wrapper (Muse / Stream / Reload / Back toolbar, WebRTC mic/camera permissions for voice, HTML5 fullscreen video, file-upload cho……",
+        "The bridge — laptop-side scripts: a Wi-Fi frame loop (one-eye crop, ~1 s pulls over a persistent SSH tunnel), status checks, and the v1.3 live-video stream p……",
+        "The design — Meta's native casting could not be used (it requires signing into the headset's Meta account on a new surface); the account-independent adb brid……",
+        "v1.0 — WebView wrapper built, signature-verified, sideloaded via adb. Working in-headset.",
+        "v1.1 — Keep-alive foreground service; the Muse process stays alive while immersive games run, voice chat concurrent with gameplay."
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-1915rising-muse-for-quest",
+      "scen": [
+        "prs",
         "research",
         "ship"
       ]
@@ -118301,6 +119319,215 @@
       "scen": []
     },
     {
+      "title": "同一任务给 25 分钟推特视频加字幕：六个 agent 用时对比",
+      "summary": "作者给多个模型和 agent 同一条推文，要求为其中 25 分钟视频加字幕：Claude fable 5.2 一小时未完成就停止；ChatGPT 6.2 astra 8 分钟；codex dots 18 分钟；manus cue 22 分钟；grok bot 30 分钟；Muse 称云电脑无法访问推特。",
+      "en": {
+        "title": "Subtitling a 25-minute video from a post: six agents timed",
+        "summary": "The author gave several models and agents the same post and asked them to subtitle its 25-minute video: Claude fable 5.2 stopped unfinished after an hour; ChatGPT 6.2 astra took 8 min; codex dots 18 min; manus cue 22 min; grok bot 30 min; Muse said its cloud computer couldn't access X."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "同一任务给 25 分钟推特视频加字幕：六个 agent 用时对比",
+          "summary": "作者给多个模型和 agent 同一条推文，要求为其中 25 分钟视频加字幕：Claude fable 5.2 一小时未完成就停止；ChatGPT 6.2 astra 8 分钟；codex dots 18 分钟；manus cue 22 分钟；grok bot 30 分钟；Muse 称云电脑无法访问推特。"
+        },
+        "zh-TW": {
+          "title": "同一任務為 25 分鐘推特影片上字幕：六個 agent 用時對比",
+          "summary": "作者給多個模型與 agent 同一則推文，要求為其中 25 分鐘影片上字幕：Claude fable 5.2 一小時未完成即停止；ChatGPT 6.2 astra 8 分鐘；codex dots 18 分鐘；manus cue 22 分鐘；grok bot 30 分鐘；Muse 表示雲端電腦無法存取推特。"
+        },
+        "en": {
+          "title": "Subtitling a 25-minute video from a post: six agents timed",
+          "summary": "The author gave several models and agents the same post and asked them to subtitle its 25-minute video: Claude fable 5.2 stopped unfinished after an hour; ChatGPT 6.2 astra took 8 min; codex dots 18 min; manus cue 22 min; grok bot 30 min; Muse said its cloud computer couldn't access X."
+        },
+        "ja": {
+          "title": "ポスト内の25分動画に字幕付け：6つのエージェントの所要時間",
+          "summary": "作者は複数のモデルとエージェントに同じポストを渡し、25分の動画に字幕を付けさせた。Claude fable 5.2は1時間で未完了のまま停止、ChatGPT 6.2 astraは8分、codex dotsは18分、manus cueは22分、grok botは30分、Muse はクラウドPCからXにアクセスできないと回答。"
+        },
+        "ko": {
+          "title": "게시물 속 25분 영상 자막 달기: 에이전트 6개 소요 시간 비교",
+          "summary": "작성자는 여러 모델과 에이전트에 같은 게시물을 주고 25분 영상에 자막을 달게 했다. Claude fable 5.2는 1시간 만에 미완료로 중단, ChatGPT 6.2 astra 8분, codex dots 18분, manus cue 22분, grok bot 30분, Muse는 클라우드 컴퓨터로 X에 접속할 수 없다고 답했다."
+        },
+        "ms": {
+          "title": "Sari kata video 25 minit daripada satu hantaran: enam ejen dibandingkan",
+          "summary": "Penulis memberi beberapa model dan ejen hantaran yang sama untuk sari kata video 25 minit: Claude fable 5.2 berhenti tanpa siap selepas sejam; ChatGPT 6.2 astra 8 minit; codex dots 18 minit; manus cue 22 minit; grok bot 30 minit; Muse kata komputer awannya tidak dapat mengakses X."
+        },
+        "vi": {
+          "title": "Làm phụ đề video 25 phút trong một bài đăng: so thời gian sáu agent",
+          "summary": "Tác giả đưa cùng một bài đăng cho nhiều mô hình và agent để làm phụ đề video 25 phút: Claude fable 5.2 dừng sau một giờ chưa xong; ChatGPT 6.2 astra 8 phút; codex dots 18 phút; manus cue 22 phút; grok bot 30 phút; Muse nói máy tính đám mây không truy cập được X."
+        },
+        "fr": {
+          "title": "Sous-titrer une vidéo de 25 minutes tirée d'un post : six agents chronométrés",
+          "summary": "L'auteur a donné le même post à plusieurs modèles et agents pour sous-titrer sa vidéo de 25 min : Claude fable 5.2 s'est arrêté inachevé au bout d'une heure ; ChatGPT 6.2 astra 8 min ; codex dots 18 min ; manus cue 22 min ; grok bot 30 min ; Muse a répondu que son ordinateur cloud ne pouvait pas accéder à X."
+        },
+        "es": {
+          "title": "Subtitular un vídeo de 25 minutos de un post: seis agentes cronometrados",
+          "summary": "El autor dio el mismo post a varios modelos y agentes para subtitular su vídeo de 25 min: Claude fable 5.2 se detuvo sin terminar tras una hora; ChatGPT 6.2 astra 8 min; codex dots 18 min; manus cue 22 min; grok bot 30 min; Muse dijo que su ordenador en la nube no podía acceder a X."
+        },
+        "de": {
+          "title": "Ein 25-Minuten-Video aus einem Post untertiteln: sechs Agenten im Zeitvergleich",
+          "summary": "Der Autor gab mehreren Modellen und Agenten denselben Post, um dessen 25-Minuten-Video zu untertiteln: Claude fable 5.2 brach nach einer Stunde unfertig ab; ChatGPT 6.2 astra 8 Min.; codex dots 18 Min.; manus cue 22 Min.; grok bot 30 Min.; Muse meldete, sein Cloud-Rechner könne X nicht aufrufen."
+        }
+      },
+      "source_url": "https://x.com/DeFiTeddy2020/status/2126669765930520746",
+      "source_name": "X",
+      "author": "DeFiTeddy2020",
+      "product": "multi",
+      "type": "comparison",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "x",
+      "text": "有人见过这么笨的claude fable 吗？\n\n今天做了1个简单任务，给不同llm和agent 1个推文，要求把里面的25分钟的视频加字幕\n\n- Claude fable 5.2： 做了1个小时，没有完成，直接停止\n- Chatgpt 6.2 astra ： 8分钟完成任务\n- codex dots： 18分钟完成任务\n- grok bot： 30分钟完成\n- manus cue: 22分钟完成\n- muse： 直接告诉我，云电脑没法访问推特。。。\n\n@grok @bot  你的优秀怎么这次没有展现出来？",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-defiteddy2020-2126669765930520746",
+      "scen": [
+        "social",
+        "ship"
+      ]
+    },
+    {
+      "title": "内容策划实测：Grok Bot、Dots、Duet 与 Neon",
+      "summary": "作者认为 Grok Bot 最好，但除了生活杂务外不太好用，拿来做内容策略效果一般；OpenAI Dots 很慢，Duet 让人困惑；反而用 Neon 做内容计划让他非常满意。",
+      "en": {
+        "title": "Content planning test: Grok Bot, Dots, Duet and Neon",
+        "summary": "The author rates Grok Bot the best of the lab agents but limited beyond life-admin tasks; as a content strategist it was \"meh\". OpenAI Dots was slow and Duet confusing, while making a content plan with Neon impressed him."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "内容策划实测：Grok Bot、Dots、Duet 与 Neon",
+          "summary": "作者认为 Grok Bot 最好，但除了生活杂务外不太好用，拿来做内容策略效果一般；OpenAI Dots 很慢，Duet 让人困惑；反而用 Neon 做内容计划让他非常满意。"
+        },
+        "zh-TW": {
+          "title": "內容企劃實測：Grok Bot、Dots、Duet 與 Neon",
+          "summary": "作者認為 Grok Bot 最好，但除了生活雜務外不太好用，拿來做內容策略效果普通；OpenAI Dots 很慢，Duet 讓人困惑；反而用 Neon 做內容計畫讓他非常滿意。"
+        },
+        "en": {
+          "title": "Content planning test: Grok Bot, Dots, Duet and Neon",
+          "summary": "The author rates Grok Bot the best of the lab agents but limited beyond life-admin tasks; as a content strategist it was \"meh\". OpenAI Dots was slow and Duet confusing, while making a content plan with Neon impressed him."
+        },
+        "ja": {
+          "title": "コンテンツ企画で比較：Grok Bot・Dots・Duet・Neon",
+          "summary": "作者は Grok Bot が最良としつつ、生活の雑務以外には使いにくく、コンテンツ戦略役はいまひとつだったという。OpenAI Dots は遅く、Duet は分かりにくかった。一方 Neon でのコンテンツ計画作りはとても気に入った。"
+        },
+        "ko": {
+          "title": "콘텐츠 기획 실험: Grok Bot, Dots, Duet, Neon",
+          "summary": "작성자는 Grok Bot이 가장 낫지만 생활 잡무 외에는 쓰기 어렵고 콘텐츠 전략가로는 별로였다고 한다. OpenAI Dots는 느렸고 Duet은 헷갈렸다. 반면 Neon으로 만든 콘텐츠 계획은 무척 마음에 들었다."
+        },
+        "ms": {
+          "title": "Ujian perancangan kandungan: Grok Bot, Dots, Duet dan Neon",
+          "summary": "Penulis menilai Grok Bot terbaik antara ejen makmal tetapi terhad selain tugas urusan harian; sebagai strategis kandungan ia biasa saja. OpenAI Dots perlahan dan Duet mengelirukan, manakala pelan kandungan dengan Neon sangat memuaskannya."
+        },
+        "vi": {
+          "title": "Thử lập kế hoạch nội dung: Grok Bot, Dots, Duet và Neon",
+          "summary": "Tác giả cho rằng Grok Bot tốt nhất nhưng khó dùng ngoài việc vặt đời sống; làm chiến lược nội dung thì bình thường. OpenAI Dots chậm, Duet khó hiểu, còn lập kế hoạch nội dung với Neon thì anh rất thích."
+        },
+        "fr": {
+          "title": "Test de planification de contenu : Grok Bot, Dots, Duet et Neon",
+          "summary": "L'auteur juge Grok Bot le meilleur agent des labos mais limité hors tâches administratives perso ; en stratège de contenu, bof. OpenAI Dots était lent et Duet déroutant, alors qu'un plan de contenu avec Neon l'a conquis."
+        },
+        "es": {
+          "title": "Prueba de planificación de contenido: Grok Bot, Dots, Duet y Neon",
+          "summary": "El autor ve a Grok Bot como el mejor agente de los laboratorios, pero limitado más allá de tareas personales; como estratega de contenido, flojo. OpenAI Dots fue lento y Duet confuso, mientras que un plan de contenido con Neon le encantó."
+        },
+        "de": {
+          "title": "Content-Planung im Test: Grok Bot, Dots, Duet und Neon",
+          "summary": "Der Autor hält Grok Bot für den besten Labor-Agenten, aber jenseits von Alltagsorganisation begrenzt; als Content-Stratege eher mäßig. OpenAI Dots war langsam, Duet verwirrend, ein Content-Plan mit Neon begeisterte ihn dagegen."
+        }
+      },
+      "source_url": "https://x.com/suyog_savalkar/status/2126669663828390035",
+      "source_name": "X",
+      "author": "suyog_savalkar",
+      "product": "multi",
+      "type": "comparison",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "x",
+      "text": "There are really no good agents from the labs man. Grok bot is the best but you can't really use it on anything more than life admin tasks - I tried using it as a content strategist and meh\n\nOpenAI dots was slow, duet was confusing. I had a lot of expectations from Duet.\n\nOn the other hand I tried making a content plan with neon and my god did I actually love it.",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-suyogsavalkar-2126669663828390035",
+      "scen": [
+        "social"
+      ]
+    },
+    {
+      "title": "付费 Dots 与 Grok Bot 用户：多数任务 Muse 也能做",
+      "summary": "作者每月为 Dots 付 200 美元、曾为 Grok Bot 付 300 美元，发现自己大部分任务都能交给 Meta Muse，而且基本免费。他引用马斯克的说法：Muse 是个人助理，Grok Bot 像员工。",
+      "en": {
+        "title": "A paying Dots and Grok Bot user finds Muse covers most tasks",
+        "summary": "The author pays $200/month for Dots and was paying $300/month for Grok Bot, yet found most of his tasks can be handled by Meta Muse for essentially free. He cites Elon: Muse is a personal assistant, Grok Bot works like employees."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "付费 Dots 与 Grok Bot 用户：多数任务 Muse 也能做",
+          "summary": "作者每月为 Dots 付 200 美元、曾为 Grok Bot 付 300 美元，发现自己大部分任务都能交给 Meta Muse，而且基本免费。他引用马斯克的说法：Muse 是个人助理，Grok Bot 像员工。"
+        },
+        "zh-TW": {
+          "title": "付費 Dots 與 Grok Bot 使用者：多數任務 Muse 也能做",
+          "summary": "作者每月為 Dots 付 200 美元、曾為 Grok Bot 付 300 美元，發現自己大部分任務都能交給 Meta Muse，而且幾乎免費。他引用馬斯克的說法：Muse 是個人助理，Grok Bot 像員工。"
+        },
+        "en": {
+          "title": "A paying Dots and Grok Bot user finds Muse covers most tasks",
+          "summary": "The author pays $200/month for Dots and was paying $300/month for Grok Bot, yet found most of his tasks can be handled by Meta Muse for essentially free. He cites Elon: Muse is a personal assistant, Grok Bot works like employees."
+        },
+        "ja": {
+          "title": "Dots と Grok Bot の有料ユーザー、大半のタスクは Muse で足りると判断",
+          "summary": "作者は Dots に月200ドル、Grok Bot に月300ドルを払っていたが、ほとんどのタスクは実質無料の Meta Muse でこなせると分かった。マスク氏の「Muse は個人アシスタント、Grok Bot は従業員」という言葉も引用。"
+        },
+        "ko": {
+          "title": "Dots·Grok Bot 유료 사용자, 대부분 작업은 Muse로 충분",
+          "summary": "작성자는 Dots에 월 200달러, Grok Bot에 월 300달러를 냈지만 대부분 작업을 사실상 무료인 Meta Muse로 처리할 수 있음을 알게 됐다. 일론의 말처럼 Muse는 개인 비서, Grok Bot은 직원 같다고 인용했다."
+        },
+        "ms": {
+          "title": "Pengguna berbayar Dots dan Grok Bot dapati Muse boleh buat kebanyakan tugas",
+          "summary": "Penulis membayar $200/bulan untuk Dots dan pernah $300/bulan untuk Grok Bot, tetapi mendapati kebanyakan tugasnya boleh dibuat oleh Meta Muse hampir percuma. Dia memetik Elon: Muse pembantu peribadi, Grok Bot seperti pekerja."
+        },
+        "vi": {
+          "title": "Người trả phí Dots và Grok Bot thấy Muse làm được phần lớn việc",
+          "summary": "Tác giả trả 200 USD/tháng cho Dots và từng trả 300 USD/tháng cho Grok Bot, nhưng thấy hầu hết việc của mình Meta Muse làm được gần như miễn phí. Anh dẫn lời Elon: Muse là trợ lý cá nhân, Grok Bot như nhân viên."
+        },
+        "fr": {
+          "title": "Un abonné payant de Dots et Grok Bot constate que Muse suffit pour l'essentiel",
+          "summary": "L'auteur paie 200 $/mois pour Dots et payait 300 $/mois pour Grok Bot, mais Meta Muse peut gérer la plupart de ses tâches quasiment gratuitement. Il cite Elon : Muse est un assistant personnel, Grok Bot fait office d'employés."
+        },
+        "es": {
+          "title": "Un usuario de pago de Dots y Grok Bot ve que Muse cubre casi todo",
+          "summary": "El autor paga 200 $/mes por Dots y pagaba 300 $/mes por Grok Bot, pero vio que Meta Muse puede con la mayoría de sus tareas prácticamente gratis. Cita a Elon: Muse es un asistente personal y Grok Bot funciona como empleados."
+        },
+        "de": {
+          "title": "Zahlender Dots- und Grok-Bot-Nutzer: Muse schafft die meisten Aufgaben",
+          "summary": "Der Autor zahlt 200 $/Monat für Dots und zahlte 300 $/Monat für Grok Bot, stellte aber fest, dass Meta Muse die meisten Aufgaben praktisch kostenlos erledigt. Er zitiert Elon: Muse ist ein persönlicher Assistent, Grok Bot wie Angestellte."
+        }
+      },
+      "source_url": "https://x.com/nvandewetering/status/2126667759522115675",
+      "source_name": "X",
+      "author": "nvandewetering",
+      "product": "multi",
+      "type": "comparison",
+      "date": "2026-11-28",
+      "likes": 2,
+      "src": "x",
+      "text": "You shouldn't sleep on Meta Muse.\n\nAs someone who pays $200/month for Dots and was paying $300/month for Grok Bot, I found that most of my tasks can be taken on by Muse...\n\nFor essentially free.\n\nAs Elon said, Muse is a personal assistant and Grok Bot serves as employees for your",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": null,
+      "prompt": null,
+      "views": null,
+      "slug": "x-nvandewetering-2126667759522115675",
+      "scen": []
+    },
+    {
       "title": "CNET 用真实小票对比 Muse 和 Dots 的买菜能力",
       "summary": "作者转述 CNET 的测试：给 Muse 和 ChatGPT Dots 真实的买菜小票，暴露出 3 个问题：搜索范围太窄、给的是泛泛建议而不是逐项计划、购物篮不对等，所以总价最低并不能证明省钱。",
       "en": {
@@ -127850,6 +129077,82 @@
       "outline": null,
       "src": "youtube",
       "slug": "ray-fernando-s-clippy-cto-47",
+      "scen": [
+        "prs"
+      ]
+    },
+    {
+      "title": "AI Usage Desk：Windows 桌面悬浮显示 Cursor、Grok Bot 等用量",
+      "summary": "开源项目 ai-usage-desk 是一个 MagSafe 风格的 Windows 悬浮小组件，用来显示本地 Cursor、Grok Bot 和 Antigravity 的 AI 用量。",
+      "en": {
+        "title": "AI Usage Desk: a Windows floating widget for Cursor, Grok Bot and Antigravity usage",
+        "summary": "The open-source ai-usage-desk repo is a MagSafe-style floating Windows widget that shows local AI usage for Cursor, Grok Bot and Antigravity."
+      },
+      "tr": {
+        "zh-CN": {
+          "title": "AI Usage Desk：Windows 桌面悬浮显示 Cursor、Grok Bot 等用量",
+          "summary": "开源项目 ai-usage-desk 是一个 MagSafe 风格的 Windows 悬浮小组件，用来显示本地 Cursor、Grok Bot 和 Antigravity 的 AI 用量。"
+        },
+        "zh-TW": {
+          "title": "AI Usage Desk：Windows 桌面懸浮顯示 Cursor、Grok Bot 等用量",
+          "summary": "開源專案 ai-usage-desk 是一個 MagSafe 風格的 Windows 懸浮小工具，用來顯示本機 Cursor、Grok Bot 與 Antigravity 的 AI 用量。"
+        },
+        "en": {
+          "title": "AI Usage Desk: a Windows floating widget for Cursor, Grok Bot and Antigravity usage",
+          "summary": "The open-source ai-usage-desk repo is a MagSafe-style floating Windows widget that shows local AI usage for Cursor, Grok Bot and Antigravity."
+        },
+        "ja": {
+          "title": "AI Usage Desk：Cursor・Grok Bot などの使用量を表示する Windows ウィジェット",
+          "summary": "オープンソースの ai-usage-desk は MagSafe 風の Windows フローティングウィジェットで、ローカルの Cursor、Grok Bot、Antigravity の AI 使用量を表示する。"
+        },
+        "ko": {
+          "title": "AI Usage Desk: Cursor·Grok Bot 사용량을 띄워 주는 Windows 위젯",
+          "summary": "오픈소스 ai-usage-desk는 MagSafe 스타일의 Windows 플로팅 위젯으로, 로컬 Cursor, Grok Bot, Antigravity의 AI 사용량을 보여 준다."
+        },
+        "ms": {
+          "title": "AI Usage Desk: widget terapung Windows untuk penggunaan Cursor, Grok Bot dan Antigravity",
+          "summary": "Repo sumber terbuka ai-usage-desk ialah widget terapung Windows gaya MagSafe yang memaparkan penggunaan AI tempatan untuk Cursor, Grok Bot dan Antigravity."
+        },
+        "vi": {
+          "title": "AI Usage Desk: widget nổi trên Windows hiển thị mức dùng Cursor, Grok Bot, Antigravity",
+          "summary": "Repo mã nguồn mở ai-usage-desk là widget nổi kiểu MagSafe cho Windows, hiển thị mức sử dụng AI cục bộ của Cursor, Grok Bot và Antigravity."
+        },
+        "fr": {
+          "title": "AI Usage Desk : un widget flottant Windows pour l'usage de Cursor, Grok Bot et Antigravity",
+          "summary": "Le dépôt open source ai-usage-desk est un widget flottant Windows façon MagSafe qui affiche l'usage IA local de Cursor, Grok Bot et Antigravity."
+        },
+        "es": {
+          "title": "AI Usage Desk: un widget flotante de Windows con el uso de Cursor, Grok Bot y Antigravity",
+          "summary": "El repositorio de código abierto ai-usage-desk es un widget flotante de Windows estilo MagSafe que muestra el uso local de IA de Cursor, Grok Bot y Antigravity."
+        },
+        "de": {
+          "title": "AI Usage Desk: schwebendes Windows-Widget für Cursor-, Grok-Bot- und Antigravity-Nutzung",
+          "summary": "Das Open-Source-Repo ai-usage-desk ist ein schwebendes Windows-Widget im MagSafe-Stil, das die lokale KI-Nutzung von Cursor, Grok Bot und Antigravity anzeigt."
+        }
+      },
+      "source_url": "https://github.com/a1007049809/ai-usage-desk",
+      "source_name": "GitHub",
+      "author": "a1007049809",
+      "product": "multi",
+      "type": "quota-report",
+      "date": "2026-11-28",
+      "likes": 0,
+      "src": "github",
+      "text": "a1007049809/ai-usage-desk\nWindows MagSafe-style floating widget for local Cursor / Grok Bot / Antigravity AI usage",
+      "media": [],
+      "added_at": "2026-11-28T13:39:07.813Z",
+      "discussion": null,
+      "usage_notes": null,
+      "outline": [
+        "左键点击：轮换 Cursor → Grok Bot → Antigravity",
+        "拖动：移动位置（松手后写入本地配置）",
+        "右键菜单：刷新 / 切换客户端（可点选本机已保存账户）/ 颜色 / 跟随前台 / 置顶 / 关闭",
+        "跟随前台：切到对应客户端窗口时，小窗自动显示那一家",
+        "悬浮窗标题只显示客户端名；账户细节仅在「切换客户端」菜单里选择"
+      ],
+      "prompt": null,
+      "views": null,
+      "slug": "gh-github-com-a1007049809-ai-usage-desk",
       "scen": [
         "prs"
       ]
