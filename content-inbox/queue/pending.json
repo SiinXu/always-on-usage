@@ -202636,19 +202636,6 @@
    "found_at": "2026-11-28T07:58:36.267Z"
   },
   {
-   "id": "gh:github.com/qaq60/muselite",
-   "url": "https://github.com/QAQ60/MuseLite",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "QAQ60",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "QAQ60/MuseLite\nWKWebView shell for muse.ai — run Meta Muse AI agent on iOS 17 (official app needs iOS 18)",
-   "media": [],
-   "found_at": "2026-11-28T07:58:36.267Z"
-  },
-  {
    "id": "gh:github.com/koheitakada/muse-orca-bridge",
    "url": "https://github.com/KoheiTakada/muse-orca-bridge",
    "source": "github",
@@ -202764,32 +202751,6 @@
    "text": "fix: add OAuth discovery CORS, prompt=consent, and Muse/Grok Bot agent guides\n## Summary\n- **MCP OAuth discovery CORS + preflight (`/.well-known/*`):** Add `Access-Control-Allow-Origin: *` on `GET`/`HEAD` and `204` `OPTIONS` preflight handlers for `/.well-known/oauth-authorization-server`, `/.well-known/oauth-protected-resource`, and `/.well-known/oauth-protected-resource/mcp` in Fastify (`apps/server/src/mcp-authorization.ts`), Next.js route handlers (`apps/web/app/.well-known/*/route.ts`), `registeredBackendPath`, and `apps/web/app/proxy.ts` (never forwarding `Access-Control-Allow-Credentials`).\n- **Standard `prompt=consent` compatibility:** Accept optional `prompt=consent` on `GET /oauth/authorize` (keeping `.strict()` so unknown parameters and `prompt=none` remain rejected, matching OpenGen's always-explicit workspace consent screen).\n- **Add `/agents/muse` and fix `/agents/grok-bot`, `/agents/hermes`, `/agents/cli`:**\n  - Add `/agents/muse` with verified `Muse Code 1.4.25` CLI commands (`muse mcp add opengen --url https://opengen.dev/mcp --user` + `muse mcp login opengen`), exact `~/.config/muse/settings.json` (`\"schema_version\": 1` + `\"mcpServers\"`), hosted Meta Muse connector steps, and dated `2026-11-27` `OAUTH PREFLIGHT VERIFIED` evidence.\n  - Remove the stray legacy `Treg` mention from `/agents/grok-bot`, document SpaceXSI's Remote HTTPS custom connector flow (Grok Bot desktop + chat) and Grok CLI (`grok mcp add --transport http opengen ...` / `~/.grok/config.toml`), and keep status honestly `VERIFICATION PENDING`.\n  - Update `/agents/hermes` (`hermes mcp add ... --auth oauth`) and `/agents/cli` (`@opengen-dev/cli@0.1.2` published npm install + DCR preflight) with dated `2026-11-27` evidence and fix secondary snippet copy button labels on non-CLI detail pages.\n  - Synchronize `docs/AGENT-SUPPORT.md` and `docs/STATUS.md`.\n\n## Verificatio",
    "media": [],
    "found_at": "2026-11-28T07:58:43.891Z"
-  },
-  {
-   "id": "gh:github.com/1915rising/muse-for-quest",
-   "url": "https://github.com/1915rising/muse-for-quest",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "1915rising",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "1915rising/muse-for-quest\nThe first Meta Quest client for the Muse AI assistant — in-headset chat plus a wireless live-view bridge so the agent can watch gameplay and help debug VR mods live. By Ford Productions.",
-   "media": [],
-   "found_at": "2026-11-28T07:58:51.331Z"
-  },
-  {
-   "id": "gh:github.com/a1007049809/ai-usage-desk",
-   "url": "https://github.com/a1007049809/ai-usage-desk",
-   "source": "github",
-   "source_name": "GitHub",
-   "author": "a1007049809",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "a1007049809/ai-usage-desk\nWindows MagSafe-style floating widget for local Cursor / Grok Bot / Antigravity AI usage",
-   "media": [],
-   "found_at": "2026-11-28T07:59:06.181Z"
   },
   {
    "id": "gh:github.com/esracummings31-blip/left-to-solve-contributions",
@@ -203981,19 +203942,6 @@
    "found_at": "2026-11-28T13:33:42.567Z"
   },
   {
-   "id": "x:2126475659438637464",
-   "url": "https://x.com/reedosdev/status/2126475659438637464",
-   "source": "x",
-   "source_name": "X",
-   "author": "reedosdev",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Grok bot is a phenomenal product and my most used ‘always-on’ agent but probably feels too technical for most businesses as of now. If you work in tech, you’ll figure it out, but I can see how the everyday non-tech business would face hurdles to adoption. That along with most people not being aware of what the latest agent platforms are capable of, or even knowing what an AI agent is.",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.567Z"
-  },
-  {
    "id": "x:2126463108981866571",
    "url": "https://x.com/grok/status/2126463108981866571",
    "source": "x",
@@ -204074,19 +204022,6 @@
    "found_at": "2026-11-28T13:33:42.568Z"
   },
   {
-   "id": "x:2126669765930520746",
-   "url": "https://x.com/DeFiTeddy2020/status/2126669765930520746",
-   "source": "x",
-   "source_name": "X",
-   "author": "DeFiTeddy2020",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "有人见过这么笨的claude fable 吗？\n\n今天做了1个简单任务，给不同llm和agent 1个推文，要求把里面的25分钟的视频加字幕\n\n- Claude fable 5.2： 做了1个小时，没有完成，直接停止\n- Chatgpt 6.2 astra ： 8分钟完成任务\n- codex dots： 18分钟完成任务\n- grok bot： 30分钟完成\n- manus cue: 22分钟完成\n- muse： 直接告诉我，云电脑没法访问推特。。。\n\n@grok @bot  你的优秀怎么这次没有展现出来？",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.568Z"
-  },
-  {
    "id": "x:2126669723618402333",
    "url": "https://x.com/spacevison7/status/2126669723618402333",
    "source": "x",
@@ -204130,19 +204065,6 @@
    "found_at": "2026-11-28T13:33:42.568Z"
   },
   {
-   "id": "x:2126669663828390035",
-   "url": "https://x.com/suyog_savalkar/status/2126669663828390035",
-   "source": "x",
-   "source_name": "X",
-   "author": "suyog_savalkar",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "openai-dots",
-   "text": "There are really no good agents from the labs man. Grok bot is the best but you can't really use it on anything more than life admin tasks - I tried using it as a content strategist and meh\n\nOpenAI dots was slow, duet was confusing. I had a lot of expectations from Duet.\n\nOn the other hand I tried making a content plan with neon and my god did I actually love it.",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.568Z"
-  },
-  {
    "id": "x:2126669659055473018",
    "url": "https://x.com/IrisNessie/status/2126669659055473018",
    "source": "x",
@@ -204167,19 +204089,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "This is a great use of Grok Bot to help with stock trades. https://t.co/pKARMo1QQO",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.568Z"
-  },
-  {
-   "id": "x:2126669625312051224",
-   "url": "https://x.com/0xLeoye/status/2126669625312051224",
-   "source": "x",
-   "source_name": "X",
-   "author": "0xLeoye",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "In an a16z clip, Gavin Baker says a Substack summarizer, an X summarizer, and a sentiment tracker each took 7 to 12 seconds in Grok Bot, versus hours in Claude Code, and came out better. \"To me, Grok Bot does feel like another ChatGPT moment.\"\n\n@bot\nhttps://t.co/R6DJjO9oDL",
    "media": [],
    "found_at": "2026-11-28T13:33:42.568Z"
   },
@@ -204290,19 +204199,6 @@
    "found_at": "2026-11-28T13:33:42.568Z"
   },
   {
-   "id": "x:2126669459498610755",
-   "url": "https://x.com/AskBryan/status/2126669459498610755",
-   "source": "x",
-   "source_name": "X",
-   "author": "AskBryan",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "I forgot I did buy one thing that went on sale: \nGrok Bot. \n\nThis dang thing is putting in some work for me! Fixing a slew of garbage in my life.  Online things for my business. \nGoogle page corrections, website, BBB, etc. \nThese things take hours or you pay thousands to have them done. \nGrok Bot is over here kicking World Wide Web ass for me.",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.568Z"
-  },
-  {
    "id": "x:2126669444852162773",
    "url": "https://x.com/Techmadara/status/2126669444852162773",
    "source": "x",
@@ -204312,32 +204208,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@LeoBuilds_ Not a great deal i would avoid only if I don't use grok bot",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.568Z"
-  },
-  {
-   "id": "x:2126668683120382009",
-   "url": "https://x.com/justinfredette/status/2126668683120382009",
-   "source": "x",
-   "source_name": "X",
-   "author": "justinfredette",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "We raised over $3,000 for my son's basketball jerseys.\n\nI coach youth basketball, work full-time, and have two kids. My rule is Grok Bot drafts and waits for my yes.\n\n1. We set the goal, the amount we needed for the jerseys. It got 5 local quotes and found the 3 best online",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.568Z"
-  },
-  {
-   "id": "x:2126668298334949701",
-   "url": "https://x.com/grok/status/2126668298334949701",
-   "source": "x",
-   "source_name": "X",
-   "author": "grok",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "@socialinsighta Yes. Grok Bot is built for that.\n\nCreate a dedicated Bot for each repeated task: give it a name, title, and detailed description of its single job plus limits. Save successful steps as a reusable skill, then add a routine so it runs on a schedule or trigger.\n\nYou can run a whole",
    "media": [],
    "found_at": "2026-11-28T13:33:42.568Z"
   },
@@ -204365,21 +204235,6 @@
    "product": "grok-bot",
    "text": "@PromptGrokBot Quote follow-up. An owner sends a quote, gets busy, and never checks back. A Grok Bot can track open quotes and draft a short nudge on day 2 and day 5 for the owner to send. Want it set up for you? https://t.co/95aTzSRHg0",
    "media": [],
-   "found_at": "2026-11-28T13:33:42.568Z"
-  },
-  {
-   "id": "x:2126667848105758833",
-   "url": "https://x.com/Legi0ner007/status/2126667848105758833",
-   "source": "x",
-   "source_name": "X",
-   "author": "Legi0ner007",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "Grok Bot + Gemini 4 Neon: watch what happens when you stop feeding your bot piece by piece.\n\nIn the video above, Neon loads a whole 1M-token window in ONE call: 944,100 tokens, 2 jobs, 8 key points found.\n\nGrok Bot turns them into drafts and tasks, and waits for your yes.\n\nCost https://t.co/mBEnFQKZMC https://t.co/WXQvHIVP8F",
-   "media": [
-    "https://pbs.twimg.com/amplify_video_thumb/2126667772386004992/img/FOsRZ0zANeB1lO0I.jpg"
-   ],
    "found_at": "2026-11-28T13:33:42.568Z"
   },
   {
@@ -204453,19 +204308,6 @@
    "found_at": "2026-11-28T13:33:42.568Z"
   },
   {
-   "id": "x:2126666024699195488",
-   "url": "https://x.com/silentguyy66/status/2126666024699195488",
-   "source": "x",
-   "source_name": "X",
-   "author": "silentguyy66",
-   "date": "2026-11-28",
-   "likes": 10,
-   "product": "grok-bot",
-   "text": "Most people use one Grok Bot for everything.\n\nA better approach: build a team where each Bot has a clear role.\n\nThis guide walks through setting up a Coordinator, Researcher, Planner, Operator, and Reviewer with prompts ↓ https://t.co/Z1HiyrgPUM",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.568Z"
-  },
-  {
    "id": "x:2126665365996327283",
    "url": "https://x.com/bot/status/2126665365996327283",
    "source": "x",
@@ -204488,19 +204330,6 @@
    "likes": 0,
    "product": "grok-bot",
    "text": "@swapnilbdevre @TtnlxMubz @vinikloppel @bot aeo skill sent to your Grok Bot. Once loaded just say AEO + your brand to run the full workflow: buyer questions, multi-model tests, SOV/citations, tech fixes, content and coding-agent checks.",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.568Z"
-  },
-  {
-   "id": "x:2126664781998219305",
-   "url": "https://x.com/0xcloudvex/status/2126664781998219305",
-   "source": "x",
-   "source_name": "X",
-   "author": "0xcloudvex",
-   "date": "2026-11-28",
-   "likes": 8,
-   "product": "grok-bot",
-   "text": "Grok Bot 1.0 can now join your meetings.\n\nSo I turned it into a chief of staff:\n\n→ 07:30 brief: decisions, meetings, replies\n→ Prep pack before every call\n→ Follow-up drafted after it\n\nNothing gets sent without me.\n\nThe full setup, step by step ↓ https://t.co/gdHuY0e8rC",
    "media": [],
    "found_at": "2026-11-28T13:33:42.568Z"
   },
@@ -204583,19 +204412,6 @@
    "found_at": "2026-11-28T13:33:42.568Z"
   },
   {
-   "id": "x:2126661694097121308",
-   "url": "https://x.com/bugatsinho/status/2126661694097121308",
-   "source": "x",
-   "source_name": "X",
-   "author": "bugatsinho",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "grok-bot",
-   "text": "A Grok Bot that says GO or NO-GO on your flight every 30 minutes. What Rank let in this week https://t.co/KGuXnH2NrO",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.568Z"
-  },
-  {
    "id": "x:2126669710506991672",
    "url": "https://x.com/KT_GadgetReview/status/2126669710506991672",
    "source": "x",
@@ -204605,19 +204421,6 @@
    "likes": 0,
    "product": "meta-muse",
    "text": "所詮、AI…\n良い⚔️悪い、知らせ。 - Apple Podcast \nhttps://t.co/yOacOMxq8h\n\n#ポッドキャスト #MetaMuse",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.569Z"
-  },
-  {
-   "id": "x:2126667759522115675",
-   "url": "https://x.com/nvandewetering/status/2126667759522115675",
-   "source": "x",
-   "source_name": "X",
-   "author": "nvandewetering",
-   "date": "2026-11-28",
-   "likes": 2,
-   "product": "meta-muse",
-   "text": "You shouldn't sleep on Meta Muse.\n\nAs someone who pays $200/month for Dots and was paying $300/month for Grok Bot, I found that most of my tasks can be taken on by Muse...\n\nFor essentially free.\n\nAs Elon said, Muse is a personal assistant and Grok Bot serves as employees for your",
    "media": [],
    "found_at": "2026-11-28T13:33:42.569Z"
   },
@@ -204635,19 +204438,6 @@
    "found_at": "2026-11-28T13:33:42.569Z"
   },
   {
-   "id": "x:2126664165083185327",
-   "url": "https://x.com/ad_crew_2022/status/2126664165083185327",
-   "source": "x",
-   "source_name": "X",
-   "author": "ad_crew_2022",
-   "date": "2026-11-28",
-   "likes": 1,
-   "product": "meta-muse",
-   "text": "Meta Museを仕事で試すなら、まずはGmailやGoogleカレンダーを足さずにチャットから。つなぐ先と見せる範囲を自分で選べるのが安心ポイントです🙌\n\nひとつ気をつけたいのは、最初から何もつながっていないとは限らないこと💦&lt;br",
-   "media": [],
-   "found_at": "2026-11-28T13:33:42.569Z"
-  },
-  {
    "id": "x:2126664094539559153",
    "url": "https://x.com/uijuok/status/2126664094539559153",
    "source": "x",
@@ -204658,27 +204448,6 @@
    "product": "meta-muse",
    "text": "Meta AI Muse  招待コード R3XI58  残り多数   \nhttps://t.co/J9DESrVCsFから  #Meta #Muse #コード",
    "media": [],
-   "found_at": "2026-11-28T13:33:42.569Z"
-  },
-  {
-   "id": "x:2126663931779244288",
-   "url": "https://x.com/a2see/status/2126663931779244288",
-   "source": "x",
-   "source_name": "X",
-   "author": "a2see",
-   "date": "2026-11-28",
-   "likes": 2,
-   "product": "grok-bot",
-   "text": "この記事の作り方\n\n1. X担当秘書グレース（Grok Bot）が20年分13万件超の投稿を分析し、年表、人物像、テーマ別記事などのレポートを毎晩バッチ的に作成\n\n2. ある程度解析できたところで現時点までのまとめをグレース観点で作って貰う\n\n3. https://t.co/ASJRgZsICo https://t.co/oPuVQP5UyD",
-   "media": [
-    "https://pbs.twimg.com/media/HYNjQ4nbQAE4vQ4.png",
-    "https://pbs.twimg.com/media/HYNjdm7bgAADHzR.png",
-    "https://pbs.twimg.com/media/HYNlkeObwAAVGqT.png",
-    "https://pbs.twimg.com/media/HYNmRRLb0AAm_Yh.png",
-    "https://pbs.twimg.com/media/HYNngPGbwAAvLU6.png",
-    "https://pbs.twimg.com/media/HYNnmiibAAAiz_C.png",
-    "https://pbs.twimg.com/media/HYNsLrUa0AE-z2g.jpg"
-   ],
    "found_at": "2026-11-28T13:33:42.569Z"
   },
   {
@@ -204734,21 +204503,6 @@
    "product": "meta-muse",
    "text": "続きは本で、漫画と図解つきで解説しています👇\n 【書名】Meta Muse副業入門　～話しかけるだけでAIがゲームもアプリも作る時代に、凡人がお金を稼ぐ方法～\n 【Amazonリンク】https://t.co/504GQUliHS\n \n Kindle Unlimitedなら読み放題で読めます。",
    "media": [],
-   "found_at": "2026-11-28T13:33:42.569Z"
-  },
-  {
-   "id": "x:2126657950156763521",
-   "url": "https://x.com/MuscleInven7/status/2126657950156763521",
-   "source": "x",
-   "source_name": "X",
-   "author": "MuscleInven7",
-   "date": "2026-11-28",
-   "likes": 0,
-   "product": "meta-muse",
-   "text": "【Meta Muse副業入門】\n Museの「Spaces」は、頼むだけで自分専用のアプリやゲームができる機能。\n \n よいところは、作ったあと会話で直せること。\n 「ボタンをもっと大きくして」\n 「点数の記録を足して」\n 「この表示がおかしい」\n \n 頼む、触る、直すの繰り返しです。 https://t.co/uqhrc8g6Ld",
-   "media": [
-    "https://pbs.twimg.com/media/HYNoA_MbUAA9onk.jpg"
-   ],
    "found_at": "2026-11-28T13:33:42.569Z"
   },
   {

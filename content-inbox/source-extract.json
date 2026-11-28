@@ -10418,5 +10418,50 @@
   ],
   "kind": "github",
   "fetched_at": "2026-11-26"
+ },
+ "https://github.com/QAQ60/MuseLite": {
+  "text": "A minimal WKWebView shell for **muse.ai** — lets you run Meta's Muse personal AI agent on iOS **17.0 and later** (the official `Muse from Meta` app requires iOS 18.0 and cannot be downgraded).",
+  "media": [],
+  "outline": [
+   "Runner: macos-latest (Xcode 26.6, iOS SDK 26.5), xcodebuild archive with CODE_SIGNING_ALLOWED=NO",
+   "Output: MuseLite-unsigned.ipa artifact + SHA-256",
+   "Download MuseLite-unsigned.ipa from the Actions artifact (or a Release).",
+   "Sign & install with Sideloadly, AltStore, Feather, ESign, or",
+   "Trust the developer profile in Settings → General → VPN & Device Management.",
+   "Launch Muse and sign in with your Meta account.",
+   "Full-screen WKWebView, no chrome, viewport locked to device width",
+   "applicationNameForUserAgent mimics a real Safari tab (avoids \"unsupported browser\" gates)"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-28"
+ },
+ "https://github.com/1915rising/muse-for-quest": {
+  "text": "**The first Meta Quest client for the Muse AI assistant — built because no official VR client exists.**",
+  "media": [],
+  "outline": [
+   "The player tests a VR mod in-headset.",
+   "The Muse agent sees what the player sees, live, over Wi-Fi.",
+   "They talk about it in real time — what broke, what changed, what to fix next.",
+   "The app — an Android WebView wrapper (Muse / Stream / Reload / Back toolbar, WebRTC mic/camera permissions for voice, HTML5 fullscreen video, file-upload cho…",
+   "The bridge — laptop-side scripts: a Wi-Fi frame loop (one-eye crop, ~1 s pulls over a persistent SSH tunnel), status checks, and the v1.3 live-video stream p…",
+   "The design — Meta's native casting could not be used (it requires signing into the headset's Meta account on a new surface); the account-independent adb brid…",
+   "v1.0 — WebView wrapper built, signature-verified, sideloaded via adb. Working in-headset.",
+   "v1.1 — Keep-alive foreground service; the Muse process stays alive while immersive games run, voice chat concurrent with gameplay."
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-28"
+ },
+ "https://github.com/a1007049809/ai-usage-desk": {
+  "text": "Windows 桌面角落的 MagSafe 风格悬浮环，自动读取本机已登录客户端的 AI 用量。",
+  "media": [],
+  "outline": [
+   "左键点击：轮换 Cursor → Grok Bot → Antigravity",
+   "拖动：移动位置（松手后写入本地配置）",
+   "右键菜单：刷新 / 切换客户端（可点选本机已保存账户）/ 颜色 / 跟随前台 / 置顶 / 关闭",
+   "跟随前台：切到对应客户端窗口时，小窗自动显示那一家",
+   "悬浮窗标题只显示客户端名；账户细节仅在「切换客户端」菜单里选择"
+  ],
+  "kind": "github",
+  "fetched_at": "2026-11-28"
  }
 }
