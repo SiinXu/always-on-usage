@@ -19,7 +19,7 @@ const XS=JSON.parse(fs.readFileSync("content-inbox/x-stories-i18n.json","utf8"))
 const XT=id=>{const r=XS[id];if(!r)return null;return Object.fromEntries(Object.entries(r).map(([l,v])=>[l,{title:v.title,what:v.what,res:v.res,how:v.steps}]))};
 const LAST=lastIngest||fetchedAt;const tm=(d,cls="")=>d?`<time${cls?` class="${cls}"`:""} datetime="${esc(d)}"${String(d).length>10?` data-ts="${esc(d)}"`:` data-d="${esc(d)}"`}>${esc(String(d).length>10?String(d).slice(0,16).replace("T"," ")+" UTC":d)}</time>`:"";
 const upd=()=>`<p class="updated">${T("最后更新")} <time data-updated></time></p>`;
-try{for(const f of fs.readdirSync("public/assets")){if(/^tl-.*\.json$/.test(f))fs.unlinkSync("public/assets/"+f)}}catch(e){}
+try{for(const f of fs.readdirSync("public/assets")){if(/^(tl|cases-rest)-.*\.json$/.test(f))fs.unlinkSync("public/assets/"+f)}}catch(e){}
 fs.mkdirSync("public/data",{recursive:true});fs.writeFileSync("public/data/updated.json",JSON.stringify({updated_at:LAST}));
 
 let TLB={},TLN=0;
@@ -75,11 +75,17 @@ ${specs(true)}
 
 const chip=(k,v,t,n)=>`<button type="button" class="chip" data-f="${k}" data-v="${v}" aria-pressed="${v===""}" data-evt="filter" data-evt-${k}="${v||"all"}">${T(t)}${n!=null?` <span>${n}</span>`:""}</button>`;
 const cnt=(k,v)=>ALL.filter(x=>x[k]===v).length;
+// 2026-11-28 perf (audit 11-28): /cases/ shipped all ~1,450 cards (40k DOM nodes) plus their 10-locale table (2 MB) on first load.
+// Only the first CASES_PER cards are in the HTML now; the rest (card HTML + their data-tl entries) live in one content-hashed JSON
+// (chunks of CASES_CHUNK) that src/main.js fetches on intent ("load more", search, a filter chip, or ?q/type/product/scen in the URL). Same cards, same markup.
+const CASES_PER=48;
+const CASES_CHUNK=240;
+const casesRest=(()=>{const rest=ALL.slice(CASES_PER),names=[];fs.mkdirSync("public/assets",{recursive:true});for(let o=0;o<rest.length;o+=CASES_CHUNK){const before=new Set(Object.keys(TLB));const html=rest.slice(o,o+CASES_CHUNK).map(c=>caseCard(c,"",0,1)).join("");const tl={};for(const k of Object.keys(TLB))if(!before.has(k)){tl[k]=TLB[k];delete TLB[k]}const json=JSON.stringify({html,tl}).replace(/</g,"\\u003c");const hash=crypto.createHash("sha256").update(json).digest("hex").slice(0,12);const name=`cases-rest-${hash}.json`;fs.writeFileSync("public/assets/"+name,json);names.push(name)}return names})();
 w("cases/index.html",page("../","cases/","抄作业：教程 · 模板 · 场景 · 做成了什么","已聚合 Always-on Agent 公开案例、额度报告与指南，均附原文链接",`
 <section class="phead"><h1>${T("抄作业")}</h1><p class="lede">${T("教程、模板、场景工作流、做成的项目。每条都有出处，点进去看：做了什么 → 场景 → 怎么复制 → 注意点。")}</p>${count}<p class="lang-note">${T("第三方标题与摘要保持原文语言，不做机器改写。")}</p><label class="search"><span class="ctl-label">${T("搜索标题、来源、链接")}</span><input id="q" type="search" placeholder="usage、routine、forum.cursor.com"></label>
 <div class="chips" role="group" ${A("aria-label","按类型筛选")}>${chip("type","","全部类型")}${Object.keys(typeLabel).map(t=>chip("type",t,typeLabel[t],cnt("type",t))).join("")}</div>
 <div class="chips" role="group" ${A("aria-label","按产品筛选")}>${chip("product","","全部产品")}${["grok-bot","multi","openai-dots","meta-muse"].map(p=>chip("product",p,productLabel[p],cnt("product",p))).join("")}</div><div class="chips" role="group" ${A("aria-label","按场景筛选")}>${chip("scen","","全部场景")}${scenarios.map(([k,t])=>chip("scen",k,t,lib.filter(x=>x.scen.includes(k)).length)).join("")}</div><p class="shown" aria-live="polite">${T("显示 {n} 条",{n:`<b id="shown">${N}</b>`})}</p></section>
-<ul class="cases" id="list">${ALL.map((c,i)=>caseCard(c,"",0,i>=48)).join("")}</ul><p class="more-wrap"><button type="button" class="btn mag" id="more" hidden>${T("加载更多")} <span data-left></span></button></p><p class="empty" id="empty" hidden>${T("没有匹配的条目，换个关键词试试。")}</p>`));
+<ul class="cases" id="list" ${casesRest.length?`data-src="/assets/${casesRest[0]}" data-chunks="${casesRest.slice(1).join(" ")}"`:""} data-total="${N}">${ALL.slice(0,CASES_PER).map(c=>caseCard(c,"",0,0)).join("")}</ul><p class="more-wrap"><button type="button" class="btn mag" id="more" hidden>${T("加载更多")} <span data-left></span></button></p><p class="empty" id="empty" hidden>${T("没有匹配的条目，换个关键词试试。")}</p>`));
 
 const lk=(u,t)=>`<a class="src-link" href="${esc(u)}" rel="noopener nofollow" target="_blank">${esc(t)} ↗</a>`;
 const howCopy=c=>c.copy_url?`<ol class="steps"><li>${T("打开分享链接：")}${lk(c.copy_url,host(c.copy_url))}</li><li>${T("在 Grok Bot 里添加模板，按需改提示词与连接器")}${c.integrations?.length?`（${esc(c.integrations.join(", "))}）`:""}</li><li>${c.cadence&&c.cadence!=="on-demand"?T("设 routine 频率：")+cadT(c.cadence):T("按需唤起，不必设 routine")}</li></ol>`

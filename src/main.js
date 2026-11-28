@@ -24,7 +24,8 @@ const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelecto
 // theme
 $(".tt")?.addEventListener("click",()=>{const r=document.documentElement,cur=r.dataset.theme||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"),n=cur==="dark"?"light":"dark";r.dataset.theme=n;try{localStorage.theme=n}catch(e){}});
 // spotlight: pointer position drives a radial light inside the card
-$$(".spot").forEach(el=>el.addEventListener("pointermove",e=>{const b=el.getBoundingClientRect();el.style.setProperty("--mx",e.clientX-b.left+"px");el.style.setProperty("--my",e.clientY-b.top+"px")}));
+function bindSpot(el){el.addEventListener("pointermove",e=>{const b=el.getBoundingClientRect();el.style.setProperty("--mx",e.clientX-b.left+"px");el.style.setProperty("--my",e.clientY-b.top+"px")})}
+$$(".spot").forEach(bindSpot);
 // magnetic
 if(!RM&&matchMedia("(hover:hover)").matches)$$(".mag").forEach(el=>{el.addEventListener("pointermove",e=>{const b=el.getBoundingClientRect();el.style.translate=`${(e.clientX-b.left-b.width/2)*.18}px ${(e.clientY-b.top-b.height/2)*.25}px`});el.addEventListener("pointerleave",()=>el.style.translate="")});
 // number ticker
@@ -66,11 +67,19 @@ if(f){const knob=$(".knob",f),inp=f.elements.bots,num=$("[data-bots]",f),out=$("
  f.addEventListener("change",run);document.addEventListener("langchange",()=>setB(+inp.value));f.addEventListener("submit",e=>e.preventDefault());const CP=new URLSearchParams(location.search);if(CP.get("routine")){const r=[...f.querySelectorAll('[name="routine"]')].find(x=>x.value===CP.get("routine"));if(r)r.checked=true}if(CP.get("browser")==="on"&&f.elements.browser)f.elements.browser.checked=true;setB(+CP.get("bots")||3);}
 // case search + filters (type/product chips, ?q= / ?type= in URL)
 const q=$("#q");if(q){const st={type:"",product:"",scen:""},P=new URLSearchParams(location.search),PER=48,more=$("#more");let lim=PER;q.value=P.get("q")||"";
+ // 2026-11-28 perf: only the first 48 cards ship in the HTML. The rest (same card markup + their 10-locale strings) load from #list[data-src]
+ // on intent: "load more", search, a filter chip, or a filtered URL. Until then counts use #list[data-total].
+ const list=$("#list"),TOTAL=list?+list.dataset.total||0:0;
+ const CH=list&&list.dataset.src?[list.dataset.src,...(list.dataset.chunks||"").split(" ").filter(Boolean).map(n=>new URL(n,new URL(list.dataset.src,location.href)).href)]:[];
+ let loaded=0;const chunkP=[];const pending=()=>loaded<CH.length;
+ const loadChunk=i=>chunkP[i]||(chunkP[i]=fetch(CH[i]).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).catch(e=>{chunkP[i]=null;throw e}));
+ // insert chunks strictly in order; k = how many chunks must be in the DOM
+ const ensure=k=>{k=Math.min(k,CH.length);if(k<=loaded)return Promise.resolve();const ps=[loadTL()];for(let i=0;i<k;i++)ps.push(loadChunk(i));return Promise.all(ps).then(([m,...rs])=>{if(k<=loaded)return;let TL=document.getElementById("tl");if(!TL){TL=document.createElement("script");TL.type="application/json";TL.id="tl";TL._m={};document.body.appendChild(TL)}if(!TL._m)TL._m=m||{};const n0=list.children.length;for(let i=loaded;i<k;i++){Object.assign(TL._m,rs[i].tl||{});list.insertAdjacentHTML("beforeend",rs[i].html||"")}loaded=k;applyI18n();[...list.children].slice(n0).forEach(bindSpot)}).catch(()=>{})};
  const sync=()=>$$(".chip").forEach(c=>c.setAttribute("aria-pressed",String(st[c.dataset.f]===c.dataset.v)));
- const run=()=>{const v=q.value.trim().toLowerCase();let n=0;$$("#list li").forEach(li=>{const hit=(!v||(li.dataset.q+" "+li.textContent.toLowerCase()).includes(v))&&(!st.type||li.dataset.type===st.type)&&(!st.product||li.dataset.product===st.product)&&(!st.scen||li.dataset.scen.split(" ").includes(st.scen));li.hidden=!hit||n>=lim;n+=hit});$("#empty").hidden=n>0;const sh=$("#shown");if(sh)sh.textContent=n;if(more){more.hidden=n<=lim;const l=$("[data-left]",more);if(l)l.textContent="("+Math.min(PER,n-lim)+" / "+(n-lim)+")"}};
+ const run=()=>{const v=q.value.trim().toLowerCase();if(pending()){const want=(v||st.type||st.product||st.scen)?CH.length:Math.ceil(Math.max(0,lim-list.children.length)/240)+loaded;if(want>loaded){const before=loaded;ensure(want).then(()=>{if(loaded>before)run()})}}let n=0;$$("#list li").forEach(li=>{const hit=(!v||(li.dataset.q+" "+li.textContent.toLowerCase()).includes(v))&&(!st.type||li.dataset.type===st.type)&&(!st.product||li.dataset.product===st.product)&&(!st.scen||li.dataset.scen.split(" ").includes(st.scen));li.hidden=!hit||n>=lim;n+=hit});if(pending()&&!v&&!st.type&&!st.product&&!st.scen)n=Math.max(n,TOTAL);$("#empty").hidden=n>0;const sh=$("#shown");if(sh)sh.textContent=n;if(more){more.hidden=n<=lim;const l=$("[data-left]",more);if(l)l.textContent="("+Math.min(PER,n-lim)+" / "+(n-lim)+")"}};
  if(more)more.addEventListener("click",()=>{lim+=PER;run()});document.addEventListener("langchange",()=>run());
  $$(".chip").forEach(c=>c.addEventListener("click",()=>{st[c.dataset.f]=c.dataset.v;lim=PER;sync();run();const u=new URL(location.href);for(const k of ["type","product","scen"])st[k]?u.searchParams.set(k,st[k]):u.searchParams.delete(k);history.replaceState(null,"",u)}));
- if(P.get("type"))st.type=P.get("type");if(P.get("product"))st.product=P.get("product");if(P.get("scen"))st.scen=P.get("scen");sync();q.addEventListener("input",()=>{lim=PER;run()});run()}
+ if(P.get("type"))st.type=P.get("type");if(P.get("product"))st.product=P.get("product");if(P.get("scen"))st.scen=P.get("scen");sync();q.addEventListener("input",()=>{lim=PER;run()});q.addEventListener("focus",()=>ensure(CH.length),{once:true});run()}
 
 // copy / download (prompt blocks + case/story action row)
 const copyText=async text=>{
